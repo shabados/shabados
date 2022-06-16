@@ -15,8 +15,6 @@
 :twitter-url: https://www.twitter.com/shabad_os/
 :chat-img: https://img.shields.io/badge/Chat-Public%20Slack%20Channels-1264a3.svg?logo=slack
 :chat-url: https://chat.shabados.com
-:wa-img: https://img.shields.io/badge/WhatsApp-%2B1%20516%20619%206059-128C7E.svg?logo=whatsapp&logoColor=white
-:wa-url: https://wa.me/15166196059
 ifdef::env-github,env-browser[:outfilesuffix: .asciidoc]
 ifdef::env-github[]
 :note-caption: :information_source:
@@ -56,7 +54,6 @@ Get updates on Shabad OS and chat with the project maintainers and community mem
 * image:{instagram-img}[title=Instagram, link="{instagram-url}"] Follow Shabad OS on Instagram. 
 * image:{twitter-img}[title=Twitter, link="{twitter-url}"] Follow Shabad OS on Twitter. 
 * image:{chat-img}[title=Chat, link="{chat-url}"] Join the official Slack channel. 
-* image:{wa-img}[title=WhatsApp, link="{wa-url}"] Direct message us on WhatsApp. Or chat with fellow Shabad OS community members in the WhatsApp group chat.
 
 ## Logo
 
