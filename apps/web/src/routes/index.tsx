@@ -17,7 +17,8 @@ export const head: DocumentHead = {
 const getOS = () => {
   // window.navigator.platform is being deprecated, but it's successor userAgentData isn't prevalent yet
   const os = (
-    window.navigator.platform || window.navigator.userAgentData.platform
+    window.navigator.platform ||
+    (window.navigator as any).userAgentData.platform
   )
     .slice(0, 3)
     .toLowerCase()

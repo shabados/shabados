@@ -3,12 +3,6 @@ title: Proofreading
 ---
 
 import Media from '~/components/media/media'
-import differenceBrowser from '/media/proofreading-difference-example-browser.png'
-import differencePdf from '/media/proofreading-difference-example-pdf.png'
-import submitTicket from '/media/proofreading-difference-submit-proofreading-ticket.png'
-import copySnipAndSketch from '/media/proofreading-example-copy-snip-and-sketch.png'
-import insertCursorGhIssue from '/media/proofreading-example-insert-cursor-gh-issue.png'
-import pasteImageGhIssue from '/media/proofreading-example-paste-image-gh-issue.png'
 
 # Proofread the Shabad OS Database using an online Viewer
 
@@ -61,13 +55,13 @@ Let's say someone were to compare Bhai Gurdaas Jee's Kabit Savaiye using the Vie
 Here's an example of a difference between what's on the Viewer and what was found in the source material:
 
 <Media
-  src={differenceBrowser}
+  src='/media/proofreading-difference-example-browser.png'
   alt='Image example of line not matching in browser'
   link
 />
 
 <Media
-  src={differencePdf}
+  src='/media/proofreading-difference-example-pdf.png'
   alt='Example of line not matching in PDF reader'
   link
 />
@@ -75,7 +69,7 @@ Here's an example of a difference between what's on the Viewer and what was foun
 After clicking the line in the viewer, the user may click on the **More** menu (⋮) and submit a ticket for the difference.
 
 <Media
-  src={submitTicket}
+  src='/media/proofreading-difference-submit-proofreading-ticket.png'
   alt='Example of submitting a proofreading ticket'
   link
 />
@@ -107,14 +101,20 @@ Try to make sure the screenshot of the PDF reader contains both the printed page
 3. Copy the marked up image.
 
    <Media
-     src={copySnipAndSketch}
+     src='/media/proofreading-example-copy-snip-and-sketch.png'
      alt='Image of copy button in snip & sketch for windows 10'
    />
 
 4. In the GitHub issue, click the last empty line in the textbox (after the words ​**Add details & attach image(s) below**), so that the blinking text cursor is at the very end.
 
-   <Media src={insertCursorGhIssue} alt='Image of github issue template' />
+   <Media
+     src='/media/proofreading-example-insert-cursor-gh-issue.png'
+     alt='Image of github issue template'
+   />
 
 5. Paste the screenshot.
 
-   <Media src={pasteImageGhIssue} alt='Image of pasting into github issue' />
+   <Media
+     src='/media/proofreading-example-paste-image-gh-issue.png'
+     alt='Image of pasting into github issue'
+   />
