@@ -36,7 +36,6 @@ header li {
 header a {
   color: var(--fg);
   opacity: var(--alpha-80);
-  display: inline-block;
   padding: 0 24px;
   min-height: 60px;
   min-width: 12px; /* 60 - 2*padding */
