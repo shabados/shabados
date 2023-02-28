@@ -1,0 +1,57 @@
+---
+title: Add Bani Captions to Wirecast
+---
+
+import Media from '~/components/media/media'
+import CopyOverlayUrl from '../copy-overlay-url.mdx'
+import ResolutionExplanation from '../resolution-explanation.mdx'
+
+# Add Bani Captions to Wirecast
+
+Show Bani Captions on Your Live Stream With Shabad OS + Wirecast
+
+<CopyOverlayUrl />
+
+## Find the Canvas Size
+
+<ResolutionExplanation />
+
+1. Go to **Output > Canvas Size**.
+1. Note down the **Canvas Size**.
+
+## Add a web page shot layer to the master layer
+
+Wirecast may prompt to install Flash. Please note that Flash is optional. This guide will work either way.
+
+<Media src='/media/wirecast-add-web-page.png' alt='Wirecast add web page' />
+
+1.  Click the **Plus Button (+)** on the first-most/top-most layer in the shot list.
+1.  In the Add Shot menu, select the **Network** shot category.
+1.  Select **Web Page**, then click **Add**.
+
+## Change the source properties of the web page shot layer
+
+<Media
+  src='/media/wirecast-source-properties.png'
+  alt='Wirecast source properties'
+/>
+
+1.  In **Edit Shot**, select the **Source Properties** tab.
+1.  Use the Overlay URL from Shabad OS to fill in the **Address** field.
+1.  Use the dimensions of the Canvas Size to fill in the **Video Width** and **Video Height** fields.
+
+## Change the shot layer properties of the web page shot layer
+
+<Media
+  src='/media/wirecast-shot-layer-properties.png'
+  alt='Wirecast shot layer properties'
+/>
+
+1.  In **Edit Shot**, select the **Shot Layer Properties** tab.
+1.  Set the **Scale** slider to 100%.
+
+## Related
+
+- [Add Bani Captions to OBS Studio ](/support/add-bani-captions-to-a-live-stream/obs-studio)
+- [Add Bani Captions to vMix ](/support/add-bani-captions-to-a-live-stream/vmix)
+- [Add Bani Captions to Streamlabs (iOS)](/support/add-bani-captions-to-a-live-stream/streamlabs-ios)

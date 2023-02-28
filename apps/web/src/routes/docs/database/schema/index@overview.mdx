@@ -1,0 +1,72 @@
+---
+title: Database Schema
+---
+
+import Media from '~/components/media/media'
+
+# Database Schema
+
+Shabad OS Database was engineered to provide relational structures for better
+consistency and flexibility. This page lists an overview of all the tables.
+
+<Media src='/media/schema.png' alt='' link />
+
+## Lines
+
+Gurbani lines, linked to a `Shabad` (e.g. `source_page: 10, Line_Content`). ([Read the docs](/docs/database/schema/lines))
+
+## Line_Content
+
+Corresponding Gurmukhi related to the `source` of a `line` (e.g. `SGPC: nmsqM mhMqy ]`). ([Read the docs](/docs/database/schema/line_content))
+
+## Line_Types
+
+List of possible line classifications (e.g. `rahao`). ([Read the docs](/docs/database/schema/line_types))
+
+## Shabads
+
+Grouping of Gurbani `Lines`, with additional metadata (e.g. `Writer, Section, Subsection, Lines`). ([Read the docs](/docs/database/schema/shabads))
+
+## Writers
+
+Composers of `Shabads` (e.g. `Guru Angad Dev Ji`). ([Read the docs](/docs/database/schema/writers))
+
+## Compositions
+
+A composition of Gurbani `Shabads` (e.g. `Sri Guru Granth Sahib Ji`). ([Read the docs](/docs/database/schema/compositions))
+
+## Sources
+
+A source of Gurbani (e.g. `SGPC`). ([Read the docs](/docs/database/schema/sources))
+
+## Sections
+
+Grouping of `Shabads` within a single composition (e.g. `Raag Gujri`). ([Read the docs](/docs/database/schema/sections))
+
+## Subsections
+
+Sub-groupings within a single section (e.g. `Mahalaa 1`). ([Read the docs](/docs/database/schema/subsections))
+
+## Languages
+
+Available translation languages (e.g. `English`). ([Read the docs](/docs/database/schema/languages))
+
+## Transliterations
+
+Transliterations for Gurbani `Lines` in a given `Language` and `Source` (e.g. `SGPC: har har har gun gaavo`). ([Read the docs](/docs/database/schema/transliterations))
+
+## Translation_Sources
+
+Translation source authors and languages for a single ([Read the docs](/docs/database/schema/translation_sources))
+
+## Translations
+
+Translations for Gurbani `Lines` from a translation source (e.g. `Language: English, Author: Sant Singh Khalsa`). ([Read the docs](/docs/database/schema/translations))
+
+## Banis
+
+Named of available Banis (e.g. `The Lord is One`). ([Read the docs](/docs/database/schema/banis))
+
+## Bani_Lines
+
+Groupings of `Lines` to `Banis` (e.g. `Jap Ji Sahib`). ([Read the docs](/docs/database/schema/bani_lines))

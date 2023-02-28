@@ -1,0 +1,123 @@
+:root {
+  --animation-duration: 0.6s;
+}
+
+.modal-bg {
+  opacity: 0;
+  transition: opacity var(--animation-duration) ease;
+}
+
+.modal-bg.open {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--fg);
+  opacity: var(--alpha);
+  position: fixed;
+  max-width: none;
+}
+
+.menu-bar {
+  width: 100%;
+  max-width: none;
+  background: var(--bg-base);
+  position: fixed;
+  top: calc(60px + 1px);
+  z-index: 3;
+  border-bottom: 1px solid var(--shader);
+}
+
+.menu-bar * {
+  user-select: none;
+}
+
+.menu-container {
+  position: relative;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.menu,
+.menu-close {
+  position: relative;
+}
+
+.menu {
+  height: 60px;
+  font-size: 1.5em;
+  line-height: 60px;
+}
+
+.menu:hover,
+.menu:hover + .menu-close span {
+  cursor: pointer;
+  color: var(--blue);
+}
+
+.menu.open,
+.menu.open + .menu-close span {
+  color: var(--fg-color);
+}
+
+.menu.open {
+  height: auto;
+  padding-bottom: 24px;
+  cursor: default;
+  color: var(--fg-color);
+}
+
+.menu-items {
+  color: var(--fg-color);
+  position: relative;
+  font-size: calc(1em / 1.5);
+  line-height: 2;
+  transform: translateY(-200%);
+  max-height: calc(100vh - 148px - 120px);
+  overflow-y: auto;
+  opacity: 0.6;
+  transition: opacity var(--animation-duration) ease;
+}
+
+.menu.open > .menu-items {
+  color: var(--fg-color);
+  transform: translateY(12px);
+  opacity: 1;
+}
+
+.menu-close {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+  z-index: -1;
+  top: 6px;
+  right: 24px;
+  transform: rotate(90deg);
+  position: absolute;
+  transition: var(--animation-duration) ease;
+}
+
+.menu.open + .menu-close {
+  transform: rotate(270deg);
+}
+
+.menu-close span {
+  background: var(--shader);
+  line-height: 20px;
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.menu-items-links {
+  display: flex;
+  gap: 0 1.5rem;
+  flex-wrap: wrap;
+}
+
+.menu-items-section + .menu-items-section {
+  margin-top: 1.5rem;
+}

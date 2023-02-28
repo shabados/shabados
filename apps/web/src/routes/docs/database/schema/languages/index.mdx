@@ -1,0 +1,41 @@
+---
+title: Languages
+---
+
+# Languages
+
+The `Languages` table provides a list of all the translation languages that the database currently supports.
+
+## Columns
+
+### `id`
+
+The unique identifier of the language.
+
+| Type    | Constraints |
+| ------- | ----------- |
+| integer | Primary Key |
+
+### `name_english`
+
+The name of the language, in English.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | Not Null    |
+
+### `name_gurmukhi`
+
+The name of the language, in Gurmukhi, ASCII representation.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | Not Null    |
+
+### `name_international`
+
+The name of the language, as written in the language itself.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | Not Null    |

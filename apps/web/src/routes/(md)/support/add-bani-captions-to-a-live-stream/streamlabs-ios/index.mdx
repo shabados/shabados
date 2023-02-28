@@ -1,0 +1,46 @@
+---
+title: Add Bani Captions to Streamlabs on iOS
+---
+
+import Media from '~/components/media/media'
+import CopyOverlayUrl from '../copy-overlay-url.mdx'
+import ResolutionExplanation from '../resolution-explanation.mdx'
+
+# Add Bani Captions to Streamlabs on iOS
+
+Live Stream Bani Captions From an iPhone With Shabad OS + Streamlabs
+
+## Understand how to use Streamlabs with Shabad OS
+
+This only works on the iOS version of Streamlabs until the developers fix an issue requiring "https" links on their Android app. A laptop or desktop is required to run the Shabad OS Presenter app. Both the iPhone and the laptop/desktop running Shabad OS must be able to communicate with each other on the same network.
+
+## Add a URL layer to the Streamlabs Editor
+
+Even though the hint text in Streamlabs mentions `https`, be sure to use `http` instead. For example, if the Overlay URL is `192.168.1.200:1699/overlay`, then use `http://192.168.1.200:1699/overlay` for Streamlabs. [Learn more about finding the Overlay URL in Shabad OS.](/support/add-bani-captions-to-a-live-stream/)
+
+1. Tap the **Menu Button** (=) on the top left.
+2. In **Advanced Mode**, tap **Editor**.
+3. Tap **Layers** on the top right.
+4. Tap the **Plus Button** (+) on the top right.
+5. Tap **Add a custom item**.
+6. Tap **Add a URL**.
+7. Use the Overlay URL from Shabad OS to fill in **URL**.
+8. Tap **Add**.
+9. Resize the layer.
+10. Tap **Save** in the top left corner.
+
+## Resize the layer in Streamlabs
+
+Here are some tips for resizing the layer in Streamlabs.
+
+- Move the layer by tapping and dragging the center of the layer.
+- Resize the layer in the Streamlabs Editor by tapping and dragging either the squares in the corners or the lines on each side of the layer.
+- An easy way to full screen a layer is to move the layer to the bottom left and then use the top right corner to resize it all the way to the top right.
+- When switching from landscape to portrait mode, it is possible to reset all the layers to their original size by tapping **Reset** in the top right corner. If the **Reset** button is being covered by the Overlay layer, it might be easier to simply delete and recreate the Overlay layer.
+- Play with different heights to control the font size. Decreasing the height of the Shabad OS Overlay will make the font sizes smaller. This is especially helpful for portrait mode.
+
+## Related
+
+- [Add Bani Captions to OBS Studio ](/support/add-bani-captions-to-a-live-stream/obs-studio)
+- [Add Bani Captions to vMix ](/support/add-bani-captions-to-a-live-stream/vmix)
+- [Add Bani Captions to Wirecast ](/support/add-bani-captions-to-a-live-stream/wirecast)

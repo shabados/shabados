@@ -1,0 +1,22 @@
+footer {
+  border-top: 0.5px solid var(--shader);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social span {
+  padding-right: 0.5rem;
+}
+
+.social a {
+  padding: 0.75rem 0.75rem;
+  line-height: 0;
+}
+
+.vercel {
+  color: white;
+  height: 24px;
+}

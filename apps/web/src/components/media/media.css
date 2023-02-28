@@ -1,0 +1,26 @@
+.media-link {
+  display: inline-block;
+}
+
+.media-link.button:hover {
+  opacity: var(--alpha-80);
+  transform: scale(1.025);
+}
+
+.media {
+  max-width: 100%;
+  max-height: 360px;
+  aspect-ratio: initial;
+  box-sizing: border-box;
+}
+
+.media.list {
+  padding: 0 1.6em;
+}
+
+.media-caption {
+  margin: 0;
+  font-size: 75%;
+  font-style: italic;
+  color: var(--fg-muted);
+}

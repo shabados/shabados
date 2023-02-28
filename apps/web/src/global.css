@@ -1,0 +1,287 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+
+/*
+  Colors generated using https://css.land/lch/
+
+  Hue offset +25
+  12-point hue (increments of 30)
+
+  E.g. red = 25 (0 + 25),
+    green = 145 (120 + 25),
+    blue = 265 (240 + 25)
+
+  For maximal color differentiation:
+    Lightness between 40% and 60%
+    Chroma 50% (66)
+
+  Large areas of color differentiation can ignore
+*/
+
+:root {
+  --black-rgb: 0% 0% 0%;
+  --dark-gray-rgb: 14.77% 14.77% 14.77%;
+  --white-rgb: 100% 100% 100%;
+
+  --alpha-8: 8%;
+  --alpha: 40%;
+  --alpha-80: 80%;
+
+  --shader: rgba(var(--black-rgb) / var(--alpha-8));
+  --highlighter: rgba(var(--white-rgb) / var(--alpha-8));
+
+  --bluebrightmuted: rgb(58.43% 73.73% 96.07%); /* lch(75% 33 265) */
+  --yellowbrightmuted: rgb(97.75% 93.92% 86.07%); /* lch(90% 33 85) */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --separator: rgba(var(--white-rgb) / var(--alpha)); /* lch(88% 1.5 85) */
+    --fg: rgb(8.33% 7.46% 5.52%); /* lch(6% 3 85) */
+    --fg-muted: rgb(57.57% 56.58% 54.63%); /* lch(60% 3 85) */
+    --bg: rgb(94.2% 93.11% 90.97%); /* lch(94% 3 85) */
+    --bg-base: #fff;
+    --blue: rgb(0% 48.81% 81.83%); /* lch(50% 66 265) */
+    --teal: rgb(0% 52.14% 55.32%); /* lch(50% 66 205) */
+    --red: rgb(83.05% 24% 29.82%); /* lch(50% 66 25) */
+    --heavy-vishraam: rgb(55.17% 30% 13.76%); /* lch(40% 44 55) */
+    --medium-vishraam: rgb(9.32% 42.55% 19.52%); /* lch(40% 44 145) */
+    --light-vishraam: rgb(53% 27.31% 53.51%); /* lch(40% 44 295) */
+  }
+
+  a {
+    color: rgb(0% 38.73% 65.62%);
+  }
+
+  a:hover {
+    color: rgb(27.69% 58.77% 91.21%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --separator: rgba(var(--black-rgb) / var(--alpha)); /* lch(30% 1.125 355) */
+    --fg: rgb(79.55% 77.27% 77.12%); /* lch(80% 2.25 25) */
+    --fg-muted: rgb(38.49% 36.51% 36.38%); /* lch(40% 2.25 25) */
+    --bg: rgb(20.2% 18.51% 19.08%); /* lch(20% 2.25 355) */
+    --bg-base: #000;
+    --blue: rgb(43.72% 69.01% 100%); /* lch(70% 53 265) */
+    --teal: rgb(0% 74.74% 79.18%); /* lch(70% 53 205) */
+    --red: rgb(100% 52.49% 52.68%); /* lch(70% 53 25) */
+    --heavy-vishraam: rgb(68.3% 53.37% 44.51%); /* lch(40% 44 55) */
+    --medium-vishraam: rgb(45.94% 60.18% 47.63%); /* lch(40% 44 145) */
+    --light-vishraam: rgb(57.97% 54.89% 70.53%); /* lch(40% 44 295) */
+  }
+
+  ::selection {
+    background: rgb(79.24% 59.19% 1.74% / 60%); /* lch(66% 70 80 / 60%) */
+  }
+
+  a {
+    color: rgb(44.17% 57.86% 77.28%);
+  }
+
+  a:hover {
+    color: rgb(65.49% 79% 99.57%);
+  }
+
+  img,
+  svg {
+    filter: saturate(0.8);
+  }
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: clamp(12px, 1rem, 24px);
+  line-height: 1.5;
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+
+hr {
+  margin: 0;
+  border: 0.5px solid var(--shader);
+}
+
+ul,
+ol {
+  /* reset */
+  padding: 0;
+  margin: 0;
+  padding-left: 1.6em;
+}
+
+li::marker {
+  color: var(--fg-muted);
+}
+
+blockquote {
+  padding: 0.75em 0;
+  margin: 0;
+  padding-left: 1em;
+  padding-right: 0.4em;
+  border: 0 solid var(--fg-muted);
+  border-left-width: 0.2em;
+  background: var(--shader);
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+pre {
+  padding: 0.75rem;
+  overflow: auto;
+  font-size: 90%;
+  background-color: var(--shader);
+  border-radius: 6px;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
+  font-size: 0.9em;
+  background-color: var(--shader);
+  padding: 0.2em 0.4em;
+  border-radius: 0.5em;
+  white-space: break-spaces;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  font-size: inherit;
+}
+
+.menu-container,
+main > div,
+header > div,
+footer > div {
+  margin: 0 auto;
+  width: 80vw;
+  max-width: 1000px;
+}
+
+article {
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 1.5rem;
+}
+
+.button {
+  transition: ease-in-out 125ms;
+}
+
+.button:hover {
+  mix-blend-mode: luminosity;
+  transform: scale(1.05);
+}
+
+@media (pointer: coarse) {
+  *,
+  *:hover,
+  *:active,
+  *:focus,
+  *:active:focus {
+    outline: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.3333333;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 1.25em;
+    line-height: 1.2;
+  }
+
+  .menu-container,
+  main > div,
+  header > div,
+  footer > div {
+    margin: 0 auto;
+    width: 100%;
+    max-width: none;
+  }
+
+  a:not([aria-hidden='true']) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 48px;
+    min-width: 48px;
+  }
+}

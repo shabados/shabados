@@ -1,0 +1,120 @@
+---
+title: Proofreading
+---
+
+import Media from '~/components/media/media'
+import differenceBrowser from '/media/proofreading-difference-example-browser.png'
+import differencePdf from '/media/proofreading-difference-example-pdf.png'
+import submitTicket from '/media/proofreading-difference-submit-proofreading-ticket.png'
+import copySnipAndSketch from '/media/proofreading-example-copy-snip-and-sketch.png'
+import insertCursorGhIssue from '/media/proofreading-example-insert-cursor-gh-issue.png'
+import pasteImageGhIssue from '/media/proofreading-example-paste-image-gh-issue.png'
+
+# Proofread the Shabad OS Database using an online Viewer
+
+Learn how to proofread source materials against the Shabad OS Database
+
+---
+
+The Shabad OS Database contains bani (hymns) from the Sikh Gurus and various others. Also included are translations, expositions, and descriptions from people after that time. Proofreading efforts are intended to accurately capture all of these works as they historically existed without modification. Today, source materials are both physically printed and electronically published. Either way, the team at Shabad OS strives to use official, reputable, and authentic sources. Proofreading is relatively easy and most everyone should be capable of doing it after reading this article.
+
+---
+
+## Understanding the role of a proofreader
+
+Proofreaders cannot change the Shabad OS database. Instead what a proofreader does is note differences. These discrepancies are submitted to the GitHub issue tracker (an "issue tracker" can be thought of as forum thread or reference ticket of sorts). Proofreaders have no responsibility to fact check the Shabad OS provided source materials, but could be asked to share information for self-obtained source materials.
+
+It is important to note that proofreading is a low stress, low effort, and low responsibility role. In no way is a proofreader able to actually change the Database that is used in Shabad OS apps. There is no way to "trick" the maintainers of the Shabad OS Database into accepting false information, since maintainers will double-check the work of any proofreader to authenticate and verify any potential changes.
+
+To re-iterate:
+
+- Proofreaders cannot modify the Database, whether accidentally or maliciously.
+- Proofreaders cannot spoof sources, because images and publishing details of sources are required for us to double-check the proofreader's work.
+- Proofreaders cannot act alone, because our process requires a second, trusted party to verify and enact changes.
+
+All in all, the role of a proofreader is to compare the Shabad OS Database to the source material and submit any deviances to the Shabad OS team for further analysis. The job of a proofreader is simplistic, but ultimately helps improve the accuracy of the Shabad OS Database.
+
+If you're interested in proofreading the Database, please get in touch with the Shabad OS team before beginning your work. The team will be able to help guide you on which compositions require proofreading and which source materials to use.
+
+[Reach out to the Shabad OS team on Slack >](https://chat.shabados.com)
+
+## Getting the prerequisites to proofread
+
+Proofreading requires comparing the Database to source material and then submitting any differences on Github. It is possible to use any verifiable source material if giving proper attribution of it's publishing (i.e. edition, author, publisher, website origin, etc). Ultimately, to begin proofreading, you will need source material and an account on GitHub.
+
+[See a list of pre-approved source materials >](/docs/database/sources)
+
+[Create an account on GitHub >](https://github.com/join)
+
+## Submitting a difference using the Viewer
+
+The [Shabad OS Viewer](https://viewer.shabados.com/) reflects the content of the Shabad OS Database. Using this website, it has been possible to catch mistakes caused by human error or bad computer OCR (optical character recognition) during the conversion from analog to digital.
+
+It is possible to read and navigate any composition in the Database. If any line doesn't match the source material, a user can click on the line and then click on the menu (⋮) for that line to submit a ticket. It is a matter of comparing the Viewer with the source material and doing a couple clicks to note any differences.
+
+[Proofread the Database using the Viewer >](https://viewer.shabados.com/)
+
+## Walking through an example
+
+Let's say someone were to compare Bhai Gurdaas Jee's Kabit Savaiye using the Viewer and a PDF of the source material. First they would choose the composition "Kabit Savaiye Bhai Gurdaas Jee" on the [Shabad OS Viewer](https://viewer.shabados.com/). Then they would compare the lines with the source material.
+
+Here's an example of a difference between what's on the Viewer and what was found in the source material:
+
+<Media
+  src={differenceBrowser}
+  alt='Image example of line not matching in browser'
+  link
+/>
+
+<Media
+  src={differencePdf}
+  alt='Example of line not matching in PDF reader'
+  link
+/>
+
+After clicking the line in the viewer, the user may click on the **More** menu (⋮) and submit a ticket for the difference.
+
+<Media
+  src={submitTicket}
+  alt='Example of submitting a proofreading ticket'
+  link
+/>
+
+If the user is logged into their GitHub account, this will create a new tab/window in the web browser. It will have all the relevant information for the Shabad OS team to find the line in the Database. If the user compared to a pre-approved source material, all they would have to do is click the green "Submit new issue" button on GitHub.
+
+All done -- this real example helped improve the accuracy of the Shabad OS Database!
+
+## Providing screenshots of source material
+
+Though unnecessary, providing a screenshot of source material can speed up the process of double-checking your work. First learn how to take a screenshot:
+
+---
+
+**Windows**
+
+Open “Snip & Sketch” from the start menu or using the Win+Shift+S hotkey. Read the [Microsoft article](https://support.microsoft.com/en-us/help/4488540) for more help.
+
+**macOS**
+
+Read the [Apple support article](https://support.apple.com/en-us/HT201361) to get help on capturing images.
+
+---
+
+Try to make sure the screenshot of the PDF reader contains both the printed page number and proofreading difference.
+
+1. Click the thumbnail of the screenshot which briefly appears in the corner of your screen.
+2. Highlight the difference.
+3. Copy the marked up image.
+
+   <Media
+     src={copySnipAndSketch}
+     alt='Image of copy button in snip & sketch for windows 10'
+   />
+
+4. In the GitHub issue, click the last empty line in the textbox (after the words ​**Add details & attach image(s) below**), so that the blinking text cursor is at the very end.
+
+   <Media src={insertCursorGhIssue} alt='Image of github issue template' />
+
+5. Paste the screenshot.
+
+   <Media src={pasteImageGhIssue} alt='Image of pasting into github issue' />

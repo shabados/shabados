@@ -1,0 +1,95 @@
+---
+title: Lines
+---
+
+# Lines
+
+The `Lines` table contains all the Sikh bani and panthic content, across all sources.
+
+Many lines must belong to one [Shabad](/docs/database/schema/shabads).
+
+The content is unordered by default, and must be ordered by `order_id`. The `id` is a four-letter, immutable identifier that will refer to the same line across database versions.
+
+Currently, the `gurmukhi` stores an ASCII representation of Gurbani. They may be converted to unicode with [`gurmukhi-utils`](/gurmukhi-utils).
+
+## Columns
+
+### `id`
+
+A unique identifier for the line which never changes.
+
+| Type    | Constraints |
+| ------- | ----------- |
+| char(4) | Primary Key |
+
+### `shabad_id`
+
+A unique identifier of the [Shabad](/docs/database/schema/shabads) to which the line belongs to.
+
+| Type    | Constraints                                                                 |
+| ------- | --------------------------------------------------------------------------- |
+| char(3) | Foreign Key ([Shabads.id](/docs/database/schema/shabads#id)) <br/> Not Null |
+
+### `source_page`
+
+The physical "page" (e.g. [ਅੰਗ](https://en.wiktionary.org/wiki/%E0%A8%85%E0%A9%B0%E0%A8%97)) where the line appears within the source composition.
+
+| Type    | Constraints |
+| ------- | ----------- |
+| integer | Not Null    |
+
+### `source_line`
+
+The physical "line" (i.e. of horizontal lines on "page", not of sentence count) where the line appears within the source composition.
+
+| Type    | Constraints |
+| ------- | ----------- |
+| integer | None        |
+
+### `pronunciation`
+
+Guidelines around pronouncing the Gurbani line stored in the `gurmukhi` field, correctly.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | None        |
+
+### `pronunciation_information`
+
+Additional footnotes about the `pronunciation` guidelines.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | None        |
+
+### `first_letters`
+
+The first letters of each word in the `gurmukhi` line, useful for searching the database by first letter.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | Not Null    |
+
+### `vishraam_first_letters`
+
+Same as `first_letters`, but includes heavy vishraams. Useful for prioritizing search results.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | Not Null    |
+
+### `type_id`
+
+The unique identifier of the line type.
+
+| Type    | Constraints                                                  |
+| ------- | ------------------------------------------------------------ |
+| integer | Foreign Key ([Line_Types](/docs/database/schema/line_types)) |
+
+### `order_id`
+
+The correct order of the line. Order by this field to fetch the lines in the correct order.
+
+| Type    | Constraints |
+| ------- | ----------- |
+| integer | None        |

@@ -1,0 +1,131 @@
+---
+title: Coding Guidelines
+---
+
+# Coding Guidelines
+
+This document is intended for contributors wishing to change the source code of a Shabad OS project. If you don't know how to write software code, please see [other ways to contribute](/docs/community/contributing)!
+
+By participating, you agree to abide by our Code of Conduct, the [Contributor Covenant](/docs/community/code-of-conduct). In addition to reading this organization-level document, you should refer to the `CONTRIBUTING.md` file inside the specific project repo.
+
+Our projects are hosted on GitHub. [See our organization profile on GitHub](https://github.com/shabados). Under "Repositories" are different Shabad OS projects.
+
+The easiest way to communicate about issues is using the repo's GitHub Issue tracker or joining us on [Slack](https://chat.shabados.com).
+
+## Feedback
+
+- Request a new feature or report unexpected bugs by filing an issue
+- Upvote popular feature requests using the thumbs-up/+1 reaction on the first post of an issue
+
+## Flow
+
+- Fork the repository
+- Create a branch off main
+- Make any changes
+- Submit a pull request
+
+Note: Before creating new branches, ensuring that the forked main is up to date with upstream/main will ease workflow. See [GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) for more info.
+
+Note: Creating a branch from main ensures that you won't have issues syncing up your local branch with upstream/main, since we often use squashed commits that will differ from your PRs commit hash.
+
+Note: Sometimes the easiest way to fork and clone a repo is by using the `gh` cli command:
+
+```bash
+gh repo fork shabados/repo --clone
+```
+
+## Issues
+
+One way to find issues to work on is to view the [Project Management board on GitHub](https://github.com/orgs/shabados/projects/9/views/4). You'll find issues in the "Backlog" that should all be ready to work on. If you see an issue that you would like to work on, then please ask to be assigned in its comment thread.
+
+Note: It is possible to filter issues for specific repos. E.g. you can view the "Backlog" for only `database` or `gurmukhi-utils`. On the "Repository" column, choose "Filter by values", and then choose the repos (comma separated).
+
+Another way is to look at the issue tracker of any repo. If people are not doing a good job of triaging issues, then they most likely they won't make their way to the "Backlog" of the PM Board.
+
+Lastly, if you have no idea where to start, ask us! We're available to [chat on Slack](https://chat.shabados.com).
+
+## Commit Messages
+
+When possible, help the maintainer of a project by following our commit message style. This is not required, but following the below guidelines will improve the chances of your PR being merged quickly.
+
+Git commit messages should consist of three sections separated by blank lines in the following format:
+
+```
+<type>(<scope>): <subject>
+
+<body>
+
+<footer>
+```
+
+- Type and subject is mandatory. Scope is optionally added in parentheses.
+- Use the footer to reference GitHub issues, e.g. `close #128` or `related #128`. We use this for tracking issues.
+
+**Types**
+
+Some _types_ correlate with incrementing major, minor, and patch versions in [Semantic Versioning](https://semver.org/). These _types_ can be used for code changes to the project's API. It is important to read a project's `CONTRIBUTING.md` file to learn what is considered API related or not.
+
+- There is no _type_ that increments major. This is considered a "breaking change" (see footer below). To be incremented when making incompatible changes to the API.
+- `feat` increments minor. To be used when adding backwards-compatible functionality to the API.
+- `fix` and `perf` increments patch. To be used when making backwards-compatible bugfixes to the API or backwards-compatible improvements to performance (resepectively). Do not use these types for something outside the project's API.
+
+All other _types_ are ignored by version bump workflows. These types are typically used outside the API folder, but may change API source code without actually affecting anything for the end user. Valid non-versioning _types_ include:
+
+- `build` - Changes to build system or external dependencies
+- `ci` - Changes to CI configuration files and scripts
+- `docs` - Changes to documentation
+- `refactor` - Changes that restructure code
+- `style` - Changes due to formatting or linting (e.g. white-space, formatting, missing semi-colons)
+- `test` - Changes to tests
+
+**Subject**
+
+Begin subjects in lowercase and remove any trailing punctuation (e.g. period or exclamation mark).
+
+Try to keep the subject within 72 characters or less. If you're unable to succinctly summarize what you've done, then perhaps too many changes are being committed at once. Aim for smaller commits which can be explained better.
+
+Our subjects are written imperatively. The imperative is the same as if giving a command or instruction. It can be easily tested by substituting the subject for blank in the line "this commit will _FILL IN THE BLANK_". Examples: refactor, update, show, hide, add, remove, allow, prevent, open, close.
+
+**Body**
+
+Code is generally self-explanatory. Not every commit requires a body. Some changes are so simple that no further explanation is necessary. Even complex code should have source code comments for explanations.
+
+Focus on using the body to explain _why_ you made the changes. Explain how it worked before the change, why it required changing, and why you resolved it the way you did.
+
+If the subject is the command, then the body is the purpose.
+
+**Footer**
+
+The footer should contain any information about Breaking Changes and is also the place to reference GitHub issues that this commit Closes.
+
+If your commit relates to a GitHub issue, then use the footer to link it (e.g. "related #128"). If your commit would close a GitHub issue when merged, then use the footer to automate it (e.g. "close #128"). One commit should almost never reference multiple issues, but if need be the commands can be comma-separated (e.g. "close #128, close #64, related #32").
+
+Breaking Changes should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
+
+**Revert**
+
+When reverting single commits, modify the header of the commit being reverted by beginning it with `revert: ` and use the body of the commit to reference the SHA hash of the commit being reverted.
+
+_Example commit with SHA abc123_
+
+```shell
+docs: add contributing guidelines
+```
+
+_Example of reverting commit with SHA abc123_
+
+```shell
+revert: docs: add contributing guidelines
+
+Reverting commit abc123.
+```
+
+## Dev Environment
+
+We recommend using VS Code. Some of our repos will have settings and recommended extensions for VS Code to automatically use.
+
+**Format & Lint**
+
+- Default: [Prettier](https://prettier.io/) ([esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode))
+- (Java,Type)Script: [ESLint](https://eslint.org/) ([dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint))
+- Python: [Black](https://github.com/psf/black) ([ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python))

@@ -1,0 +1,36 @@
+.docs {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 60px 24px 0;
+}
+
+.docs .on-this-page {
+  background: var(--shader);
+  min-width: 190px;
+  max-width: 220px;
+  height: min-content;
+  max-height: calc(100vh - 120px - 48px);
+  position: sticky;
+  top: 145px;
+  overflow-y: auto;
+}
+
+@media (max-width: 1024px) {
+  .docs {
+    padding: 60px 0px 0;
+  }
+  .docs .on-this-page {
+    display: none;
+  }
+}
+
+@media (pointer: coarse) {
+  .docs {
+    padding: 60px 0px 0;
+  }
+  .docs .on-this-page {
+    display: none;
+  }
+}

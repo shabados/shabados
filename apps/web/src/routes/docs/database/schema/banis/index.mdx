@@ -1,0 +1,35 @@
+---
+title: Banis
+---
+
+# Banis
+
+The `Banis` table provides a list of all the Banis tht the database contains. A Bani is a collection of [Lines](/docs/database/schema/lines).
+
+To retrieve the actual [Lines](/docs/database/schema/lines) within a Bani, use the [Bani_Lines](/docs/database/schema/bani_lines) table.
+
+## Columns
+
+### `id`
+
+The unique identifier of the Bani.
+
+| Type    | Constraints |
+| ------- | ----------- |
+| integer | Primary Key |
+
+### `name_english`
+
+The name of the Bani, in English.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | Not Null    |
+
+### `name_gurmukhi`
+
+The name of the Bani, in Gurmukhi, ASCII representation.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | Not Null    |

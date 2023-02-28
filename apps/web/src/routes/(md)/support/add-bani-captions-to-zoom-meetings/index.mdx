@@ -1,0 +1,75 @@
+---
+title: Integrating closed captioning in Zoom Meetings
+---
+
+import Media from '~/components/media/media'
+import zoomSettingsClosedCaptioning from '/media/zoom-settings-closed-captioning.png'
+import zoomMeetingControlsClosedCaption from '/media/zoom-meeting-controls-closed-caption.png'
+import shabadosZoomPanel from '/media/shabados-zoom-panel.png'
+
+# Integrate Gurbani Closed Captioning in Zoom Meetings
+
+As a meeting host, you can add closed captions to Zoom meetings by providing Shabad OS Presenter with the caption URL.
+
+## Enable closed captioning in the Zoom web portal
+
+Closed captions can be provided by the host of a Zoom meeting. Before beginning the Zoom meeting, the host should enable closed captions from the online Zoom web portal.
+
+[See the official Zoom article about closed captioning.](https://support.zoom.us/hc/en-us/articles/207279736)
+
+<Media src={zoomSettingsClosedCaptioning} alt='' />
+
+1. Open the [**Zoom web portal Settings**](https://zoom.us/profile/setting).
+1. In the **Meeting** tab, enable **Closed captioning**.
+
+## Enable closed captioning in a Zoom meeting
+
+<Media src={zoomMeetingControlsClosedCaption} alt='' />
+
+1. In a Zoom meeting that you are hosting, move your mouse in the Zoom window to display the **in-meeting controls** at the bottom.
+1. Click **Closed Caption** from the in-meeting controls. You may have to use the **More** menu (...) to find it.
+1. Under "Use a 3rd party CC service", click the **Copy the API token** button.
+
+## Connect the Zoom API token with Shabad OS
+
+<Media src={shabadosZoomPanel} alt='' />
+
+1. In the Shabad OS controller, click the cog/gear to open the **Settings** window.
+1. Select **Closed Captioning** in the left pane.
+1. Where it says **Zoom API Token**, paste the URL from Zoom.
+1. Click anywhere outside the **Zoom API Token** text input to save changes. You will see a checkmark as an indication that the input was saved.
+
+## Teach participants to use closed captioning on Desktop
+
+**Viewing Closed Captions**
+
+1. After joining a meeting, you will see a notification in the meeting controls above **Closed Caption**.
+2. Click **Closed Caption** to start viewing closed captioning.
+
+Note: The subtitles can be moved by clicking and dragging them in the meeting window. The caption size can also be adjusted in Video Settings > Accessibility.
+
+**Opening the Full Transcript**
+
+From the **Closed Caption** menu, click "View Full Transcript".
+
+## Teach participants to use closed captioning on Android/iOS
+
+**Viewing Closed Captions**
+
+1. Tap the **Settings** icon (cog/gear).
+2. Tap **Meeting**, then enable **Closed Captioning**.
+
+**Opening the Full Transcript**
+
+1. Tap the **More** menu (...).
+2. Tap **View Full Transcript**.
+
+## Troubleshooting
+
+If you cannot find **Closed Caption** in the in-meeting controls, make sure you checked the **More** (...) menu.
+
+[Read more about in-meeting controls.](https://support.zoom.us/hc/en-us/articles/201362603)
+
+## Related
+
+- [Add Bani Captions to a Live Stream](/support/add-bani-captions-to-a-live-stream)
