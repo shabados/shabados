@@ -6,6 +6,7 @@ import ViewerHero from '~/components/svg/viewer-hero'
 import styles from './index.css?inline'
 
 export const head: DocumentHead = {
+  title: 'Shabad OS',
   meta: [
     {
       name: 'description',
