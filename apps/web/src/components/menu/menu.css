@@ -20,7 +20,7 @@
   width: 100%;
   max-width: none;
   background: var(--bg-base);
-  position: fixed;
+  position: sticky;
   top: calc(60px + 1px);
   z-index: 3;
   border-bottom: 1px solid var(--shader);
