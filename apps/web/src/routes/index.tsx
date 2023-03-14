@@ -69,8 +69,9 @@ export default component$(() => {
           <div>
             <a
               class={downloading.value ? 'loader' : 'button'}
-              href='#'
+              href='/support/install-shabad-os-presenter/'
               draggable={false}
+              preventdefault:click
               onClick$={() => {
                 downloading.value = !downloading.value
                 download()
