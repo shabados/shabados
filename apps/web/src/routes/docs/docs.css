@@ -7,7 +7,6 @@
 }
 
 .docs .on-this-page {
-  background: var(--shader);
   min-width: 190px;
   max-width: 220px;
   height: min-content;

@@ -15,35 +15,25 @@ export default component$(() => {
       {contentHeadings.length > 0 ? (
         <>
           <h6>On This Page</h6>
-          <ul>
-            {contentHeadings.map((h) => (
-              <li>
-                <a
-                  href={`#${h.id}`}
-                  class={{
-                    block: true,
-                    indent: h.level > 2,
-                  }}
-                >
-                  {h.text}
-                </a>
-              </li>
-            ))}
-          </ul>
+          {contentHeadings.map((h) => (
+            <a
+              href={`#${h.id}`}
+              class={{
+                block: true,
+                indent: h.level > 2,
+              }}
+            >
+              {h.text}
+            </a>
+          ))}
         </>
       ) : null}
 
       <h6>More</h6>
-      <ul>
-        <li>
-          <EditThisPage phrase='Edit this page' />
-        </li>
-        <li>
-          <a href='https://chat.shabados.com' target='_blank'>
-            Join our community
-          </a>
-        </li>
-      </ul>
+      <EditThisPage phrase='Edit this page' />
+      <a href='https://chat.shabados.com' target='_blank'>
+        Join our community
+      </a>
     </aside>
   )
 })
