@@ -5,6 +5,7 @@ import Instagram from '~/components/icons/instagram'
 import Twitter from '~/components/icons/twitter'
 import YouTube from '~/components/icons/youtube'
 import PoweredByVercel from '../icons/powered-by-vercel'
+import Slack from '../icons/slack'
 
 export default component$(() => {
   useStyles$(styles)
@@ -23,7 +24,7 @@ export default component$(() => {
               <Instagram />
             </a>
             <a
-              href='https://www.youtube.com/shabad_os/'
+              href='https://www.youtube.com/@shabados'
               target='_blank'
               draggable={false}
             >
@@ -35,6 +36,13 @@ export default component$(() => {
               draggable={false}
             >
               <Twitter />
+            </a>
+            <a
+              href='https://chat.shabados.com'
+              target='_blank'
+              draggable={false}
+            >
+              <Slack />
             </a>
             <a
               href='https://www.github.com/shabados/'
