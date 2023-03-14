@@ -14,6 +14,9 @@
   position: sticky;
   top: 145px;
   overflow-y: auto;
+  overscroll-behavior: contain;
+  margin-bottom: 24px;
+  padding-right: 12px;
 }
 
 .docs article * {
@@ -22,7 +25,7 @@
 
 @media (max-width: 1024px) {
   .docs {
-    padding: 60px 0px 0;
+    padding: 0;
   }
   .docs .on-this-page {
     display: none;
@@ -31,7 +34,7 @@
 
 @media (pointer: coarse) {
   .docs {
-    padding: 60px 0px 0;
+    padding: 0;
   }
   .docs .on-this-page {
     display: none;
