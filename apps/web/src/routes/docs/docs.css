@@ -12,7 +12,7 @@
   height: min-content;
   max-height: calc(100vh - 120px - 48px);
   position: sticky;
-  top: 145px;
+  top: 144px;
   overflow-y: auto;
   overscroll-behavior: contain;
   margin-bottom: 24px;
