@@ -16,6 +16,10 @@
   overflow-y: auto;
 }
 
+.docs article * {
+  scroll-margin-top: 9rem;
+}
+
 @media (max-width: 1024px) {
   .docs {
     padding: 60px 0px 0;
