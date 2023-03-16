@@ -49,10 +49,6 @@ a.button:hover {
   text-decoration: none;
 }
 
-.presenter {
-  background: radial-gradient(75vw 70vh at 50% 115%, #b71e61, #300519 100%);
-}
-
 .presenter img {
   width: 100%;
   max-width: 416px;
@@ -69,7 +65,7 @@ a.button:hover {
     background: radial-gradient(
       75vw 70vh at 50% 115%,
       rgb(97.81% 77.97% 83.09%),
-      rgb(88.77% 85.81% 86.79%) 100%
+      #e0dadc 100%
     ); /* lch(90% 10 2) to  */
   }
 
@@ -94,17 +90,13 @@ a.button:hover {
     --viewer-color: rgb(41.29% 35.59% 35.64%);
   }
 
-  header {
-    background-color: #300519 !important;
-  }
-
   section {
     color: rgba(var(--white-rgb) / var(--alpha-80));
   }
 
   .presenter {
     color: white;
-    background: radial-gradient(75vw 70vh at 50% 115%, #b71e61, #300519 100%);
+    background: radial-gradient(75vw 70vh at 50% 115%, #b71e61, #2b1d22 100%);
   }
 
   .database {

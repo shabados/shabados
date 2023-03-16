@@ -66,12 +66,12 @@ header .lotus {
 
 @media (prefers-color-scheme: light) {
   header {
-    background-color: rgb(88.77% 85.81% 86.79%); /*  lch(88% 3 355)*/
+    background-color: #e0dadc; /*  lch(88% 3 355)*/
   }
 }
 
 @media (prefers-color-scheme: dark) {
   header {
-    background-color: rgb(15.99% 8.5% 11.42%); /* lch(10% 11 355) */
+    background-color: #2b1d22; /* lch(10% 11 355) */
   }
 }
