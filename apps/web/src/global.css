@@ -16,7 +16,7 @@
     --separator: rgba(var(--white-rgb) / var(--alpha));
     --fg: rgb(8.33% 7.46% 5.52%);
     --fg-muted: rgb(57.57% 56.58% 54.63%);
-    --bg: rgb(94.2% 93.11% 90.97%);
+    --bg: #f5f3f0;
     --bg-base: #fff;
     --blue: rgb(0% 48.81% 81.83%);
     --teal: rgb(0% 52.14% 55.32%);
@@ -27,11 +27,11 @@
   }
 
   a {
-    color: rgb(0% 38.73% 65.62%);
+    color: #2c64c4;
   }
 
   a:hover {
-    color: rgb(27.69% 58.77% 91.21%);
+    color: #4395f7;
   }
 
   @media (dynamic-range: high) {
