@@ -5,9 +5,11 @@
   "scope": ".",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#ffffff",
-  "background_color": "#fff",
+  "display_override": ["window-controls-overlay"],
+  "theme_color": "#f5f3f0",
+  "background_color": "#f5f3f0",
   "description": "Learn about Shabad.",
+  "categories": ["books & reference", "education", "reference"],
   "icons": [
     {
       "src": "/media/icon-192x192.png",
@@ -28,6 +30,14 @@
       "src": "/media/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Read Articles",
+      "short_name": "Articles",
+      "description": "Browse the latest news, check out product guides, and develop with documentation",
+      "url": "/articles"
     }
   ]
 }

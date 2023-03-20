@@ -31,7 +31,7 @@ export default component$(() => {
           content='#e0dadc'
         />
         <meta name='theme-color' content='#e0dadc' />
-        <link rel='manifest' href='/manifest.json' />
+        <link rel='manifest' href='/app.webmanifest' />
         <link
           rel='icon'
           type='image/png'

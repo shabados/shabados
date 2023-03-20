@@ -75,3 +75,27 @@ header .lotus {
     background-color: #2b1d22; /* lch(10% 11 355) */
   }
 }
+
+@media (display-mode: window-controls-overlay) {
+  header {
+    font-size: 0.875em;
+    -webkit-app-region: drag;
+    app-region: drag;
+  }
+  header > div {
+    width: calc(env(titlebar-area-width, 100%));
+  }
+  header a,
+  header input {
+    min-height: env(titlebar-area-height, 38px);
+    -webkit-app-region: no-drag;
+    app-region: no-drag;
+  }
+  header .logo {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  header .lotus {
+    display: none;
+  }
+}

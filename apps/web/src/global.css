@@ -313,3 +313,9 @@ blockquote > * + * {
     min-width: 48px;
   }
 }
+
+@media (display-mode: window-controls-overlay), (display-mode: standalone) {
+  footer {
+    display: none;
+  }
+}

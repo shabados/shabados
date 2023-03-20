@@ -122,3 +122,9 @@
 .menu-items-section + .menu-items-section {
   margin-top: 1.5rem;
 }
+
+@media (display-mode: window-controls-overlay) {
+  .menu-bar {
+    top: env(titlebar-area-height, 38px);
+  }
+}
