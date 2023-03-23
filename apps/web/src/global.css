@@ -5,7 +5,8 @@
   font-display: auto;
   src: url('/fonts/SantLipi-VF.woff2') format('woff2-variations'),
     url('/fonts/SantLipi-VF.woff2') format('woff2');
-  unicode-range: U+0A00-0A76; /* gurmukhi */
+  unicode-range: U+0964-0965, U+2080-2089, U+262C, U+25CC, U+0A00-0A76,
+    U+A830-A835;
 }
 
 :root {
