@@ -20,6 +20,37 @@ p.bold::before {
   line-height: 1.6;
 }
 
+.reader > .title {
+  display: block;
+  font-size: 1.25em;
+}
+
+.reader > .title > p {
+  line-height: 1.2;
+}
+
+.reader > .title > p.bold {
+  font-weight: 230;
+}
+
+.reader > .line:not(.title) + .title {
+  margin-top: 1.2em;
+}
+
+.reader > .title + .line:not(.title)::before {
+  content: '\A';
+  white-space: pre;
+  font-size: 0.5em;
+  display: block;
+}
+
+.reader > .end-of-pauri:after {
+  content: '\A\A';
+  white-space: pre;
+  font-size: 0.25em;
+  display: block;
+}
+
 .presenter {
   height: calc(100vh - 60px - 1px);
   scroll-snap-type: y mandatory;

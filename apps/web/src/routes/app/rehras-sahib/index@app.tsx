@@ -23,6 +23,7 @@ export default component$(() => {
   const data = getData()
   return (
     <>
+      <Line src='ਰਹਰਾਸਿ ਸਾਹਿਬ' pronunciation='ਰਹਰਾਸਿ ਸਾਹਿਬ' />
       {data.value.map(({ id, src, pronunciation, translation }: any) => (
         <Line
           id={id}
