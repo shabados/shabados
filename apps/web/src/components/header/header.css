@@ -104,8 +104,25 @@ header .lotus {
   padding-left: 0.4em;
 }
 
-@media (max-device-width: 480px) {
+@media (pointer: coarse) and (max-device-width: 480px) {
   .label {
     display: none;
+  }
+}
+
+@media (pointer: fine) {
+  @media (max-width: 720px) {
+    .label {
+      display: none;
+    }
+    @media (max-width: 501px) {
+      header .logo {
+        font-size: 0px;
+      }
+
+      header .lotus {
+        height: inherit;
+      }
+    }
   }
 }
