@@ -2,49 +2,62 @@
   margin-top: 1.5em;
 }
 
-.reader > .line + .line {
+.reader > .line + .line,
+.saral > .line + .line {
   margin-top: 0;
 }
 
-p.bold::before {
+.reader p.bold::before {
   content: '\0020';
 }
 
-.reader > .line > p {
+.reader > .line > p,
+.saral > .line > p {
   display: none;
 }
 
 .reader > .line,
-.reader > .line > p.bold {
+.reader > .line > p.bold,
+.saral > .line > p.bold {
   display: inline;
   line-height: 1.6;
 }
 
-.reader > .title {
+.saral > .line {
+  display: block;
+}
+
+.reader > .title,
+.saral > .title {
   display: block;
   font-size: 1.25em;
 }
 
-.reader > .title > p {
+.reader > .title > p,
+.saral > .title > p {
   line-height: 1.2;
 }
 
-.reader > .title > p.bold {
+.reader > .title > p.bold,
+.saral > .title > p.bold {
   font-weight: 230;
 }
 
-.reader > .line:not(.title) + .title {
+.reader > .line:not(.title) + .title,
+.saral > .line:not(.title) + .title {
   margin-top: 1.2em;
 }
 
-.reader > .title + .line:not(.title)::before {
+.reader > .title + .line:not(.title)::before,
+.saral > .title + .line:not(.title)::before {
   content: '\A';
   white-space: pre;
   font-size: 0.5em;
   display: block;
 }
 
-.reader > .end-of-pauri:after {
+.reader > .end-of-pauri:after,
+.saral > .end-of-pauri:after {
   content: '\A\A';
   white-space: pre;
   font-size: 0.25em;

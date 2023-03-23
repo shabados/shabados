@@ -64,6 +64,7 @@ export default component$(() => {
             }}
           >
             <option>classic</option>
+            <option>saral</option>
             <option>reader</option>
             <option>presenter</option>
           </select>
