@@ -4,7 +4,7 @@ import {
   useSignal,
   useStylesScoped$,
 } from '@builder.io/qwik'
-import { InterfaceContext, setLocalStorage, setZoom } from '~/routes/layout-app'
+import { InterfaceContext, setLocalStorage } from '~/routes/layout-app'
 import styles from './interface.css?inline'
 
 export default component$(() => {
