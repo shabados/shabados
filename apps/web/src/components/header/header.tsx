@@ -19,8 +19,13 @@ export default component$(() => {
         </div> */}
         <ul>
           <li>
+            <a href='/app' draggable={false}>
+              ⋈<span class='label'>App</span>
+            </a>
+          </li>
+          <li>
             <a href='/articles' draggable={false}>
-              Articles
+              ☐<span class='label'>Articles</span>
             </a>
           </li>
           {/* <li>

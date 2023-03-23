@@ -1,0 +1,58 @@
+.classic > .line + .line {
+  margin-top: 1.5em;
+}
+
+.reader > .line + .line {
+  margin-top: 0;
+}
+
+p.bold::before {
+  content: '\0020';
+}
+
+.reader > .line > p {
+  display: none;
+}
+
+.reader > .line,
+.reader > .line > p.bold {
+  display: inline;
+  line-height: 1.6;
+}
+
+.presenter {
+  height: calc(100vh - 60px - 1px);
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  font-size: 1em;
+}
+
+.presenter::-webkit-scrollbar {
+  display: none;
+}
+
+.presenter .line {
+  margin-top: 0;
+  padding-top: 1.5em;
+  height: calc(100vh - 60px - 48px - 4.5em);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75em;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.presenter p.bold {
+  font-size: 1.75em;
+  line-height: 1.25;
+}
+
+@media (max-device-width: 400px) {
+  .presenter .line {
+    padding-top: 1.5rem;
+    height: calc(100vh - 60px - 48px - 1.5rem - 3.5em);
+  }
+}

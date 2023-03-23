@@ -1,0 +1,79 @@
+.carousel {
+  margin-bottom: 24px;
+  scroll-behavior: smooth;
+}
+
+.carousel__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.carousel__button {
+  user-select: none;
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+  top: 6px;
+  right: 24px;
+  transition: var(--animation-duration) ease;
+}
+
+.carousel__button__span {
+  background: var(--shader);
+  line-height: 20px;
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.cards {
+  margin-top: 0;
+  display: flex;
+  gap: 1.5em;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-padding-inline: 24px;
+  padding: 1.5em 24px 0.75em;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 24px calc(100% - 24px),
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 24px calc(100% - 24px),
+    transparent 100%
+  );
+}
+
+.cards::-webkit-scrollbar {
+  display: none;
+}
+
+a.card {
+  color: var(--fg);
+  background-color: var(--bg-base);
+  padding: 0.4em 0.8em;
+  border-radius: 0.4em;
+  min-width: fit-content;
+  scroll-snap-align: start;
+  display: block;
+}
+
+.carousel__button:hover > span,
+a.card:hover {
+  color: var(--fg);
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0.2rem solid var(--blue);
+  outline-offset: 0.4rem;
+}

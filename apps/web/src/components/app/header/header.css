@@ -1,0 +1,20 @@
+@keyframes modal-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: var(--alpha-80);
+  }
+}
+
+.modal-bg {
+  z-index: 1;
+  overscroll-behavior: contain;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg);
+  position: fixed;
+  max-width: none;
+  animation: modal-appear 0.6s ease;
+  animation-fill-mode: forwards;
+}

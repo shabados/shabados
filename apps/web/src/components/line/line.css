@@ -1,0 +1,26 @@
+div {
+  line-height: 1.5;
+}
+
+p {
+  opacity: 0.6;
+}
+
+.bold {
+  opacity: 1;
+  font-weight: 350;
+  font-size: 1.15em;
+  line-height: 1.3;
+}
+
+.heavy {
+  color: var(--heavy-vishraam);
+}
+
+.medium {
+  color: var(--medium-vishraam);
+}
+
+.light {
+  color: var(--light-vishraam);
+}

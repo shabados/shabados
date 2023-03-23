@@ -99,3 +99,13 @@ header .lotus {
     display: none;
   }
 }
+
+.label {
+  padding-left: 0.4em;
+}
+
+@media (max-device-width: 480px) {
+  .label {
+    display: none;
+  }
+}
