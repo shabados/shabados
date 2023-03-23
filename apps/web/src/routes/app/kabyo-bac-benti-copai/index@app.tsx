@@ -15,7 +15,7 @@ export const head: DocumentHead = {
 
 export const getData = routeLoader$(async () => {
   const resp = await fetch(
-    'http://127.0.0.1:5176/api/app/kabyo-bac-benti-copai/'
+    'https://www.shabados.com/api/app/kabyo-bac-benti-copai/'
   )
   const json = await resp.json()
   return json

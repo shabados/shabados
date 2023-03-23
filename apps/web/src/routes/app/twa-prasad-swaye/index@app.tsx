@@ -14,7 +14,7 @@ export const head: DocumentHead = {
 }
 
 export const getData = routeLoader$(async () => {
-  const resp = await fetch('http://127.0.0.1:5176/api/app/twa-prasad-swaye/')
+  const resp = await fetch('https://www.shabados.com/api/app/twa-prasad-swaye/')
   const json = await resp.json()
   return json
 })
