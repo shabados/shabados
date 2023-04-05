@@ -25,6 +25,7 @@ export default component$(() => {
     <>
       {data.value.map(({ id, src, pronunciation, translation }: any) => (
         <Line
+          key={id}
           id={id}
           src={src}
           pronunciation={pronunciation}

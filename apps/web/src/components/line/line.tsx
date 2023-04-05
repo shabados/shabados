@@ -50,7 +50,6 @@ export default component$(({ id, src, pronunciation, translation }: any) => {
     /॥[੧੨੩੪੫੬੭੮੯੦]+॥/.test(src) || src.indexOf('ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।') >= 0
   return (
     <div
-      key={id}
       class={`line ${isTitle ? 'title' : ''}${
         isEndOfPauri ? 'end-of-pauri' : ''
       }`}
