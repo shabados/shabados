@@ -1,6 +1,28 @@
-div {
+.line {
   line-height: 1.5;
+  /* color: inherit;
+  border-radius: 0.4em;
+  outline-width: 0.2em;
+  outline-offset: 0.6em; */
 }
+
+/* .line:hover,
+.line:focus {
+  outline-style: solid;
+}
+
+.line:hover {
+  text-decoration: none;
+  outline-color: var(--shader);
+}
+
+.line:focus {
+  outline-color: var(--red);
+}
+
+.line:hover:focus {
+  outline-color: var(--teal);
+} */
 
 p {
   opacity: 0.6;
