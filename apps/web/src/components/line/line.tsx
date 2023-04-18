@@ -1,7 +1,7 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik'
 import styles from './line.css?inline'
 
-export default component$(({ id, src, pronunciation, translation }: any) => {
+export default component$(({ src, pronunciation, translation }: any) => {
   useStylesScoped$(styles)
   const titlesFuzzy = [
     'ੴ',
