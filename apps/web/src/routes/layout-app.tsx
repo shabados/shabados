@@ -10,7 +10,12 @@ import {
 import Header from '~/components/app/header/header'
 import styles from './app.css?inline'
 
-export type Interface = { zoom: number; mode: string }
+export type Interface = {
+  zoom: number
+  mode: string
+  notes: number
+  notesContent: string
+}
 
 export const InterfaceContext = createContextId<Interface>(
   'com.shabados.app.interface-context'
@@ -27,11 +32,18 @@ export const getLocalStorage = (key: string) => {
 }
 
 export default component$(() => {
-  const interfaceStore = useStore({ zoom: 1, mode: 'classic' })
+  const interfaceStore = useStore({
+    zoom: 1,
+    mode: 'classic',
+    notes: 0,
+    notesContent: '',
+  })
   useContextProvider(InterfaceContext, interfaceStore)
   useVisibleTask$(() => {
     interfaceStore.zoom = parseFloat(getLocalStorage('interfaceZoom') ?? '1')
     interfaceStore.mode = getLocalStorage('interfaceMode') ?? 'classic'
+    interfaceStore.notes = parseInt(getLocalStorage('interfaceNotes') ?? '0')
+    interfaceStore.notesContent = getLocalStorage('interfaceNotesContent') ?? ''
   })
   useStyles$(styles)
   return (
@@ -45,6 +57,18 @@ export default component$(() => {
           >
             <Slot />
           </article>
+          {!!interfaceStore.notes && (
+            <textarea
+              class='notes-pane'
+              style={{ fontSize: `${interfaceStore.zoom * 1.2}em` }}
+              maxLength={100}
+              value={interfaceStore.notesContent}
+              onChange$={(e) => {
+                interfaceStore.notesContent = e.target.value
+                setLocalStorage('interfaceNotesContent', e.target.value)
+              }}
+            />
+          )}
         </div>
       </main>
     </>

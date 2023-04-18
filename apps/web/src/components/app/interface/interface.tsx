@@ -69,6 +69,20 @@ export default component$(() => {
             <option>presenter</option>
           </select>
         </label>
+        <label
+          class='gui-switch'
+          onClick$={() => {
+            interfaceStore.notes = 1 - interfaceStore.notes
+            setLocalStorage('interfaceNotes', interfaceStore.notes.toString())
+          }}
+        >
+          Bottom Notes
+          <input
+            type='checkbox'
+            preventdefault:click
+            checked={!!interfaceStore.notes}
+          />
+        </label>
       </article>
     </div>
   )
