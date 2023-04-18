@@ -22,7 +22,7 @@ export const useGetData = routeLoader$(async () => {
 })
 
 export default component$(() => {
-  const data = getData()
+  const data = useGetData()
   return (
     <>
       {data.value.map(({ id, src, pronunciation, translation }: any) => (

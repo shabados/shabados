@@ -20,7 +20,7 @@ export const useGetData = routeLoader$(async () => {
 })
 
 export default component$(() => {
-  const data = getData()
+  const data = useGetData()
   return (
     <>
       <Line src='ਰਹਰਾਸਿ ਸਾਹਿਬ' pronunciation='ਰਹਰਾਸਿ ਸਾਹਿਬ' />
