@@ -13,7 +13,7 @@ export const head: DocumentHead = {
   ],
 }
 
-export const getData = routeLoader$(async () => {
+export const useGetData = routeLoader$(async () => {
   const resp = await fetch('https://www.shabados.com/api/app/kirtan-sohila/')
   const json = await resp.json()
   return json

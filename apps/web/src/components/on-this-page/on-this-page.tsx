@@ -25,6 +25,7 @@ export default component$(() => {
           <h6>On This Page</h6>
           {contentHeadings.map((h) => (
             <a
+              key={h.text}
               href={`#${h.id}`}
               class={{
                 block: true,

@@ -26,11 +26,12 @@ export default component$(() => {
             <div class='menu-items'>
               {menu
                 ? menu.items?.map((item) => (
-                    <div class='menu-items-section'>
+                    <div class='menu-items-section' key={item.text}>
                       <h5>{item.text}</h5>
                       <div class='menu-items-links'>
                         {item.items?.map((item) => (
                           <Link
+                            key={item.text}
                             href={item.href}
                             class={{
                               'is-active': loc.url === (item.href as unknown),
