@@ -308,6 +308,7 @@ blockquote > * + * {
   }
 
   .menu-container,
+  .notes-pane,
   main > div,
   header > div,
   footer > div {
