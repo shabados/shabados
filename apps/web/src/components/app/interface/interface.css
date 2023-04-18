@@ -20,7 +20,7 @@
 
 .modal {
   position: fixed;
-  background-color: white;
+  background-color: var(--bg-base);
   z-index: 2;
   color: var(--bg-base);
   animation: window-appear 0.6s ease, text-appear 0.4s ease 0.2s;
