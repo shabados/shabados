@@ -50,6 +50,7 @@ export default component$(() => {
           href='/media/apple-touch-icon.png'
         />
         <RouterHead />
+        <script defer src='/_vercel/insights/script.js'></script>
       </head>
       <body lang='en'>
         <RouterOutlet />
