@@ -10,6 +10,8 @@
 }
 
 :root {
+  --isLTR: 1;
+
   --black-rgb: 0% 0% 0%;
   --dark-gray-rgb: 14.77% 14.77% 14.77%;
   --white-rgb: 100% 100% 100%;
@@ -146,6 +148,10 @@ body {
   color: var(--fg);
 }
 
+body[dir='rtl'] {
+  --isLTR: -1;
+}
+
 a {
   text-decoration: none;
 }
@@ -277,6 +283,12 @@ blockquote > * + * {
 .button:hover {
   mix-blend-mode: luminosity;
   transform: scale(1.05);
+}
+
+input,
+select {
+  accent-color: var(--blue);
+  cursor: pointer;
 }
 
 @media (pointer: coarse) {

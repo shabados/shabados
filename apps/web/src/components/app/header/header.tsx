@@ -17,7 +17,7 @@ export default component$(() => {
             class='modal-bg'
             onClick$={() => (interfaceToggled.value = false)}
           />
-          <Interface />
+          <Interface toggled={interfaceToggled} />
         </>
       )}
       <header>

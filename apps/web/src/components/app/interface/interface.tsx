@@ -1,4 +1,5 @@
 import {
+  type Signal,
   component$,
   useContext,
   useSignal,
@@ -6,8 +7,13 @@ import {
 } from '@builder.io/qwik'
 import { InterfaceContext, setLocalStorage } from '~/routes/layout-app'
 import styles from './interface.css?inline'
+import Switch from '~/components/switch/switch'
 
-export default component$(() => {
+interface Props {
+  toggled: Signal<boolean>
+}
+
+export default component$(({ toggled }: Props) => {
   useStylesScoped$(styles)
   const fullscreen = useSignal(!!document.fullscreenElement)
   const interfaceStore = useContext(InterfaceContext)
@@ -15,10 +21,19 @@ export default component$(() => {
   return (
     <div class='modal'>
       <article class='modal__article'>
-        <h1>Interface</h1>
+        <h1>
+          Interface
+          <span
+            dir='rtl'
+            class='modal__close'
+            onClick$={() => (toggled.value = false)}
+          >
+            ╳
+          </span>
+        </h1>
         {document.fullscreenEnabled && (
-          <label
-            class='gui-switch'
+          <div
+            class='interface__option clickable'
             onClick$={() => {
               if (!document.fullscreenElement) {
                 document.documentElement.requestFullscreen()
@@ -30,14 +45,10 @@ export default component$(() => {
             }}
           >
             Fullscreen
-            <input
-              type='checkbox'
-              preventdefault:click
-              checked={fullscreen.value}
-            />
-          </label>
+            <Switch toggled={fullscreen.value} />
+          </div>
         )}
-        <label for='switch' class='gui-switch'>
+        <div class='interface__option'>
           Zoom
           <input
             type='range'
@@ -52,10 +63,11 @@ export default component$(() => {
               )
             }}
           />
-        </label>
-        <label for='switch' class='gui-switch'>
+        </div>
+        <div class='interface__option'>
           Mode
           <select
+            class='interface__select'
             value={interfaceStore.mode}
             onChange$={(e) => {
               const v = e.target.value as string
@@ -68,21 +80,17 @@ export default component$(() => {
             <option>reader</option>
             <option>presenter</option>
           </select>
-        </label>
-        <label
-          class='gui-switch'
+        </div>
+        <div
+          class='interface__option clickable'
           onClick$={() => {
             interfaceStore.notes = 1 - interfaceStore.notes
             setLocalStorage('interfaceNotes', interfaceStore.notes.toString())
           }}
         >
           Bottom Notes
-          <input
-            type='checkbox'
-            preventdefault:click
-            checked={!!interfaceStore.notes}
-          />
-        </label>
+          <Switch toggled={!!interfaceStore.notes} />
+        </div>
       </article>
     </div>
   )
