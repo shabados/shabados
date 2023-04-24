@@ -33,7 +33,7 @@
   -webkit-mask-image: linear-gradient(
     to bottom,
     transparent 0px,
-    black 36px calc(100% - 36px),
+    black 24px calc(100% - 24px),
     transparent 100%
   );
   mask-image: linear-gradient(
@@ -87,6 +87,23 @@
   user-select: none;
 }
 
+a.interface__option:hover {
+  text-decoration: none;
+}
+
+.interface__icon {
+  width: 2.25em;
+  height: 1.25em;
+  border-radius: 1.5em;
+  line-height: 1;
+  background-color: var(--shader);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  border: 1.25px solid #c5c5c5;
+}
+
 .interface__option.clickable {
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -94,6 +111,10 @@
 
 :global(.interface__option.clickable:hover .switch) {
   --track-color-inactive: #d7d7d7 !important;
+}
+
+.interface__option.clickable:hover .interface__icon {
+  background-color: var(--separator);
 }
 
 input[type='range']::-webkit-slider-thumb {
@@ -135,6 +156,10 @@ input[type='range']::-webkit-slider-thumb {
     appearance: none;
     border-radius: 2.5em;
     padding: 0.75em 0 0.75em 1em;
+  }
+  .interface__icon {
+    width: 3.3em;
+    height: 2em;
   }
   @media (max-device-width: 480px) {
     .modal {

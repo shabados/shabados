@@ -91,6 +91,10 @@ export default component$(({ toggled }: Props) => {
           Bottom Notes
           <Switch toggled={!!interfaceStore.notes} />
         </div>
+        <a href='mailto:team@shabados.com' class='interface__option clickable'>
+          Send Feedback
+          <span class='interface__icon'>↗</span>
+        </a>
       </article>
     </div>
   )
