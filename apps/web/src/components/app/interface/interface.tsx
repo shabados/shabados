@@ -84,7 +84,9 @@ export default component$(({ toggled }: Props) => {
         <div
           class='interface__option clickable'
           onClick$={() => {
-            interfaceStore.notes = 1 - interfaceStore.notes
+            interfaceStore.notes = isNaN(interfaceStore.notes)
+              ? 0
+              : 1 - interfaceStore.notes
             setLocalStorage('interfaceNotes', interfaceStore.notes.toString())
           }}
         >
