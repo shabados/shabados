@@ -9,6 +9,7 @@ import {
 } from '@builder.io/qwik'
 import Header from '~/components/app/header/header'
 import styles from './app.css?inline'
+import requestWakeLock from '~/lib/wakelock'
 
 export type Interface = {
   zoom: number
@@ -44,6 +45,7 @@ export default component$(() => {
     interfaceStore.mode = getLocalStorage('interfaceMode') ?? 'classic'
     interfaceStore.notes = parseInt(getLocalStorage('interfaceNotes') ?? '0')
     interfaceStore.notesContent = getLocalStorage('interfaceNotesContent') ?? ''
+    requestWakeLock()
   })
   useStyles$(styles)
   return (
