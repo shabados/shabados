@@ -1,4 +1,5 @@
-import '../assets/style.css'
+import './style.css'
+import logo from './favicon.svg'
 import {
   setupDirectory,
   exportQuadPoints,
@@ -33,7 +34,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <div class='app__right'>
   <div id='app__right__content'>
     <div>
-      <img src="./assets/favicon.svg" class='logo' alt='Shabad OS logo' />
+      <img src=${logo} class='logo' alt='Shabad OS logo' />
       <h1>Shabad OS Library</h1>
       <p>Make quadrilateral shapes to dewarp pages.</p>
     </div>
