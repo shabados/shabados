@@ -415,7 +415,7 @@ export async function preview(file) {
   const imageObj = new Image()
   imageObj.onload = function () {
     const pageRatio = parseFloat(getLocalStorage('pageRatio'))
-    const maxHeight = 800
+    const maxHeight = 1600
 
     let srcImage = cv.imread(imageObj)
     const { width, height } = srcImage.size()
@@ -428,7 +428,7 @@ export async function preview(file) {
     let scaledImage = new cv.Mat()
     cv.resize(srcImage, scaledImage, {
       width: scaledWidth,
-      height: scaledWidth,
+      height: scaledHeight,
     })
 
     let dstImage = new cv.Mat()
@@ -476,8 +476,8 @@ export async function preview(file) {
     const dstSize = dstImage.size()
 
     cv.resize(dstImage, dstImage, {
-      width: dstSize.height * pageRatio,
-      height: dstSize.height,
+      width: (dstSize.height * pageRatio) / 2,
+      height: dstSize.height / 2,
     })
 
     cv.imshow('modal__canvas', dstImage)

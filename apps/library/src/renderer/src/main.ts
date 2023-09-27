@@ -6,6 +6,7 @@ import {
   importQuadPoints,
   setPageRatio,
   getLocalStorage,
+  setLocalStorage,
 } from './dir'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -44,9 +45,12 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 </div>
 `
 
-if (getLocalStorage('pageRatio') != '0.71') {
+if (getLocalStorage('pageRatio') != null) {
   document.querySelector<HTMLButtonElement>('#pageratioinput')!.value =
     getLocalStorage('pageRatio') || '0.71'
+} else {
+  setLocalStorage('pageRatio', '0.71')
+  document.querySelector<HTMLButtonElement>('#pageratioinput')!.value = '0.71'
 }
 
 document
