@@ -16,7 +16,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </button>
   <br/>
   <br/>
-  <input id='pageratioinput' type="number" min="0.5" max="2.5" step="0.1" value="0.71"/>
+  <input id='pageratioinput' type="number" min="0.5" max="2.5" step="0.1"/>
   <button id='pageratiosetter' type='button'>
     Set Page Ratio
   </button>
@@ -46,7 +46,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
 if (getLocalStorage('pageRatio') != '0.71') {
   document.querySelector<HTMLButtonElement>('#pageratioinput')!.value =
-    getLocalStorage('pageRatio')
+    getLocalStorage('pageRatio') || '0.71'
 }
 
 document
