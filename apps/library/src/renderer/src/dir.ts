@@ -1,6 +1,5 @@
 export async function setupDirectory() {
-  const container = document.getElementById('dirlist')
-  const dirHandle = await (window as any).showDirectoryPicker()
+  const dirHandle: never[] = await (window as any).showDirectoryPicker()
   if (!dirHandle) {
     return
   }
@@ -9,6 +8,8 @@ export async function setupDirectory() {
   for await (const value of dirHandle) {
     result.push(value)
   }
+
+  const container = document.getElementById('dirlist')
   const entries = (await result).sort()
 
   if (container && entries.length > 0) {
