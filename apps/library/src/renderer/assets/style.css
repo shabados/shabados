@@ -126,6 +126,10 @@ body {
   min-height: 100vh;
 }
 
+*:focus {
+  outline-color: var(--link) !important;
+}
+
 :root {
   color-scheme: light dark;
 }
@@ -193,13 +197,6 @@ ul {
   justify-content: center;
 }
 
-.app__left,
-.app__right {
-  position: sticky;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-}
-
 .app__left {
   height: calc(100vh);
   border-right: 1px solid var(--shader);
@@ -219,8 +216,53 @@ ul {
   border-bottom: 1px solid var(--shader);
 }
 
-.currentFile {
+.app__right {
+  position: sticky;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+#dirlist {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  height: calc(100vh - 19.75em);
+}
+
+.dirlist__file {
+  background: var(--separator);
+  border: 1px solid var(--shader);
+  color: var(--fg);
+  border-radius: 0;
+  border-bottom-width: 0;
+}
+
+.dirlist__file:hover,
+.dirlist__file:focus,
+.dirlist__currentFile:hover,
+.dirlist__currentFile:focus {
+  background: var(--bg-base);
+  border-color: var(--shader);
+  color: var(--link-hover);
+}
+
+.dirlist__currentFile {
   font-weight: bold;
+  background: var(--bg);
+  color: var(--link);
+  border-bottom: 0;
+  border-radius: 0;
+  border-color: var(--shader);
+}
+
+#dirlist button:first-child {
+  border-radius: 8px 8px 0 0;
+}
+
+#dirlist button:last-child {
+  border-bottom-width: 1px !important;
+  border-radius: 0 0 8px 8px;
 }
 
 .app__right {
@@ -258,7 +300,9 @@ ul {
 }
 
 .bottom_controls {
-  width: 100%;
+  width: -webkit-fill-available;
+  max-width: 960px;
+  gap: 1em;
   position: fixed;
   bottom: 0;
   box-sizing: border-box;
@@ -274,6 +318,26 @@ ul {
   padding: 1.5em;
 }
 
+.spacer {
+  flex-grow: 1000;
+}
+
+input[type='number'] {
+  border-radius: 8px;
+  border: 1px solid var(--shader);
+  padding: 0.6em 0 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background: var(--separator);
+}
+
+input[type='number']:hover,
+input[type='number']:focus {
+  border-color: var(--bg-base);
+  background: var(--bg-base);
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -286,9 +350,10 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+button:focus,
 button:hover {
   background-color: var(--link-hover);
-  border-color: var(--link-hover);
+  border-color: transparent;
 }
 button:focus,
 button:focus-visible {

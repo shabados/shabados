@@ -16,16 +16,16 @@ export async function setupDirectory() {
     document.querySelector<HTMLButtonElement>('#export')!.disabled = false
   }
 
-  for await (let entry of entries) {
+  for await (let entry of entries as any) {
     entry = entry[1]
     if (
       entry.kind === 'file' &&
       (entry.name.endsWith('.jpg') || entry.name.endsWith('.jpeg'))
     ) {
-      const item = document.createElement('li')
-      const link = document.createElement('a')
+      const link = document.createElement('button')
       const linkAttributes = {
         'id': entry.name,
+        'class': 'dirlist__file',
         'href': 'javascript:;',
         'data-entry': entry,
         'data-name': entry.name,
@@ -35,21 +35,20 @@ export async function setupDirectory() {
         link.setAttribute(key, val)
       }
       link.innerHTML = entry.name
-      item.appendChild(link)
-      container?.appendChild(item)
+      container?.appendChild(link)
       link.addEventListener('click', function () {
         setupView(entry)
         removeCurrentFile()
-        this.setAttribute('class', 'currentFile')
+        this.setAttribute('class', 'dirlist__currentFile')
       })
     }
   }
 }
 
 function removeCurrentFile() {
-  const curFile = document.querySelector<HTMLElement>('.currentFile')
+  const curFile = document.querySelector<HTMLElement>('.dirlist__currentFile')
   if (curFile) {
-    curFile.removeAttribute('class')
+    curFile.setAttribute('class', 'dirlist__file')
   }
 }
 
@@ -72,11 +71,24 @@ async function setupView(entry: FileSystemFileHandle) {
   )!.innerHTML = `
   <button id='preview' type='button'>
     Preview
+  </button>
+  <div class="spacer"></div>
+  <button id='prev' type='button'>
+    Previous
+  </button>
+  <button id='next' type='button'>
+    Next
   </button>`
   document.querySelector<HTMLButtonElement>('#preview')!.disabled = true
   document
     .querySelector<HTMLButtonElement>('#preview')!
     .addEventListener('click', () => preview(file))
+  document
+    .querySelector<HTMLButtonElement>('#prev')!
+    .addEventListener('click', () => prevFile())
+  document
+    .querySelector<HTMLButtonElement>('#next')!
+    .addEventListener('click', () => nextFile())
 
   const canvasImage = <HTMLCanvasElement>(
     document.getElementById('app__right__view__canvas__image')
@@ -249,17 +261,17 @@ function movePoint(
   }
 }
 
-function setLocalStorage(key: string, value: string) {
+export function setLocalStorage(key: string, value: string) {
   const store = (window as any).localStorage
   store.setItem(key, value)
 }
 
-function getLocalStorage(key: string) {
+export function getLocalStorage(key: string) {
   const store = (window as any).localStorage
   return store.getItem(key)
 }
 
-function removeLocalStorage(key: string) {
+export function removeLocalStorage(key: string) {
   const store = (window as any).localStorage
   store.removeItem(key)
 }
@@ -296,6 +308,10 @@ export async function exportQuadPoints() {
     return
   }
 
+  // setup export file
+  let json: any = { pageRatio: getLocalStorage('pageRatio') }
+  json.files = data
+
   // get file handler to save to
   const fileHandle = await (window as any).showSaveFilePicker({
     suggestedName: 'files.json',
@@ -310,7 +326,7 @@ export async function exportQuadPoints() {
   })
 
   const writable = await fileHandle.createWritable()
-  await writable.write(JSON.stringify(data))
+  await writable.write(JSON.stringify(json))
   await writable.close()
 
   // delete data from localstorage
@@ -323,6 +339,10 @@ export async function exportQuadPoints() {
         }
       }
     }
+    const defaultPageRatio = '0.71'
+    setLocalStorage('pageRatio', defaultPageRatio)
+    document.querySelector<HTMLButtonElement>('#pageratioinput')!.value =
+      defaultPageRatio
     document.querySelector<HTMLButtonElement>('#preview')!.disabled = false
   }
 
@@ -330,7 +350,8 @@ export async function exportQuadPoints() {
   container!.innerHTML = ''
   document.getElementById('app__right__view')!.innerHTML = ''
   document.getElementById('app__right__preview')!.innerHTML = ''
-  document.getElementById('app__right__content')!.style.display = 'block'
+  document.getElementById('app__right__content')!.style.display = 'flex'
+  document.getElementById('dirlist')!.innerHTML = ''
   document.querySelector<HTMLButtonElement>('#export')!.disabled = true
 }
 
@@ -348,7 +369,11 @@ export async function importQuadPoints() {
   // import data from file into local storage
   const file = await fileHandle.getFile()
   const text = await file.text()
-  for await (const [key, value] of Object.entries(JSON.parse(text))) {
+  const json = JSON.parse(text)
+  setLocalStorage('pageRatio', json.pageRatio)
+  document.querySelector<HTMLButtonElement>('#pageratioinput')!.value =
+    json.pageRatio
+  for await (const [key, value] of Object.entries(json.files)) {
     SaveQuadPointsToLocalStorage(key, value as Point[])
   }
 
@@ -366,7 +391,7 @@ export async function preview(file) {
   // this function should only be called if it's possible to preview the image (four quad points saved in local storage, etc.)
 
   // get current file
-  const cur: any = document.querySelector<HTMLElement>('.currentFile')!
+  const cur: any = document.querySelector<HTMLElement>('.dirlist__currentFile')!
 
   // get quad points of current file
   const name = cur?.getAttribute('data-name') as string
@@ -388,7 +413,7 @@ export async function preview(file) {
   // transform image onload
   const imageObj = new Image()
   imageObj.onload = function () {
-    const pageRatio = 0.75
+    const pageRatio = parseFloat(getLocalStorage('pageRatio'))
     const maxHeight = 800
 
     let srcImage = cv.imread(imageObj)
@@ -467,4 +492,37 @@ export async function preview(file) {
       document.getElementById('app__right__view')!.style.display = 'block'
       document.getElementById('app__right__preview')!.style.display = 'none'
     })
+}
+
+export function setPageRatio(value: string) {
+  const pageRatio = parseFloat(value)
+  if (isNaN(pageRatio)) {
+    alert('Could not parse information. Page ratio has not been changed.')
+    return
+  }
+  setLocalStorage('pageRatio', pageRatio.toString())
+  alert('Page ratio set to ' + pageRatio.toString())
+}
+
+function iterateFile(dir: string = 'nextSibling') {
+  const currentFile: any = document.querySelector<HTMLElement>(
+    '.dirlist__currentFile'
+  )!
+  if (currentFile[dir] == null) {
+    alert('No files left')
+    return
+  }
+  removeCurrentFile()
+  currentFile[dir].click()
+  currentFile[dir].focus()
+  currentFile[dir].blur()
+  currentFile[dir].scrollIntoView({ behavior: 'smooth', block: 'center' })
+}
+
+function nextFile() {
+  iterateFile('nextSibling')
+}
+
+function prevFile() {
+  iterateFile('previousSibling')
 }
