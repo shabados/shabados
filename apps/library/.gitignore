@@ -3,3 +3,5 @@ dist
 out
 *.log*
 .DS_Store
+library/**/*.jpg
+library/**/*.jpeg
