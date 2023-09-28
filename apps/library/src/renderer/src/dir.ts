@@ -481,6 +481,14 @@ export async function preview(file) {
     })
 
     cv.imshow('modal__canvas', dstImage)
+
+    // Clear up memory
+    scaledPointsMat.delete()
+    dstPointsMat.delete()
+    transformMatrix.delete()
+    srcImage.delete()
+    scaledImage.delete()
+    dstImage.delete()
   }
   imageObj.src = URL.createObjectURL(file)
 
