@@ -14,7 +14,8 @@ export const head: DocumentHead = {
 
 export default component$(() => {
   useStyles$(styles)
-  const carouselRef = useSignal<Element>()
+  const carouselRefMorning = useSignal<Element>()
+  const carouselRefEveNight = useSignal<Element>()
   return (
     <div>
       <article>
@@ -43,14 +44,14 @@ export default component$(() => {
       </article>
       <div class='carousel'>
         <div class='carousel__title'>
-          <h2>Nitnem</h2>
+          <h2>Nitnem (Morning)</h2>
           <div>
             <div
               class='carousel__button'
               onClick$={() => {
-                if (carouselRef.value) {
-                  carouselRef.value.scrollBy({
-                    left: carouselRef.value.clientWidth * -0.8,
+                if (carouselRefMorning.value) {
+                  carouselRefMorning.value.scrollBy({
+                    left: carouselRefMorning.value.clientWidth * -0.8,
                     behavior: 'smooth',
                   })
                 }
@@ -61,9 +62,9 @@ export default component$(() => {
             <div
               class='carousel__button'
               onClick$={() => {
-                if (carouselRef.value) {
-                  carouselRef.value.scrollBy({
-                    left: carouselRef.value.clientWidth * 0.8,
+                if (carouselRefMorning.value) {
+                  carouselRefMorning.value.scrollBy({
+                    left: carouselRefMorning.value.clientWidth * 0.8,
                     behavior: 'smooth',
                   })
                 }
@@ -73,7 +74,7 @@ export default component$(() => {
             </div>
           </div>
         </div>
-        <div class='cards' ref={carouselRef}>
+        <div class='cards' ref={carouselRefMorning}>
           <a class='card' href='jap-ji-sahib'>
             <p>
               <b>ਜਪੁ ਜੀ ਸਾਹਿਬ</b>
@@ -119,6 +120,41 @@ export default component$(() => {
             </p>
             <p>Bliss</p>
           </a>
+        </div>
+      </div>
+      <div class='carousel'>
+        <div class='carousel__title'>
+          <h2>Nitnem (Evening & Night)</h2>
+          <div>
+            <div
+              class='carousel__button'
+              onClick$={() => {
+                if (carouselRefEveNight.value) {
+                  carouselRefEveNight.value.scrollBy({
+                    left: carouselRefEveNight.value.clientWidth * -0.8,
+                    behavior: 'smooth',
+                  })
+                }
+              }}
+            >
+              <span class='carousel__button__span'>‹</span>
+            </div>
+            <div
+              class='carousel__button'
+              onClick$={() => {
+                if (carouselRefEveNight.value) {
+                  carouselRefEveNight.value.scrollBy({
+                    left: carouselRefEveNight.value.clientWidth * 0.8,
+                    behavior: 'smooth',
+                  })
+                }
+              }}
+            >
+              <span class='carousel__button__span'>›</span>
+            </div>
+          </div>
+        </div>
+        <div class='cards' ref={carouselRefEveNight}>
           <a class='card' href='rehras-sahib'>
             <p>
               <b>ਰਹਰਾਸਿ ਸਾਹਿਬ</b>
@@ -145,6 +181,22 @@ export default component$(() => {
               <i>Kīrtan Sohilā</i>
             </p>
             <p>Song of Praise</p>
+          </a>
+        </div>
+      </div>
+      <div class='carousel'>
+        <div class='carousel__title'>
+          <h2>Ardas</h2>
+        </div>
+        <div class='cards'>
+          <a class='card' href='ardas'>
+            <p>
+              <b>ਅਰਦਾਸ</b>
+            </p>
+            <p>
+              <i>Ardās</i>
+            </p>
+            <p>A humble aspiration</p>
           </a>
         </div>
       </div>
