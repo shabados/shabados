@@ -50,19 +50,18 @@ export default component$(() => {
   useStyles$(styles)
   return (
     <>
-      <Header />
+      <Header mode={interfaceStore.mode} fontSize={interfaceStore.zoom} />
       <main>
-        <div>
-          <article
-            class={interfaceStore.mode}
-            style={{ fontSize: `${interfaceStore.zoom}em` }}
-          >
+        <div
+          class={interfaceStore.mode}
+          style={{ fontSize: `${interfaceStore.zoom}em` }}
+        >
+          <article class={interfaceStore.mode}>
             <Slot />
           </article>
           {!!interfaceStore.notes && (
             <textarea
-              class='notes-pane'
-              style={{ fontSize: `${interfaceStore.zoom * 1.2}em` }}
+              class={`notes-pane notes-pane-${interfaceStore.mode}`}
               maxLength={100}
               value={interfaceStore.notesContent}
               onChange$={(e) => {

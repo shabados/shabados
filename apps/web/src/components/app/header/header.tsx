@@ -4,7 +4,12 @@ import styles from '../../header/header.css?inline'
 import moreStyles from './header.css?inline'
 import Interface from '../interface/interface'
 
-export default component$(() => {
+interface HeaderProps {
+  mode?: string
+  fontSize?: number
+}
+
+export default component$(({ mode = '', fontSize = 1 }: HeaderProps) => {
   useStylesScoped$(styles)
   useStylesScoped$(moreStyles)
   const interfaceToggled = useSignal(false)
@@ -17,11 +22,15 @@ export default component$(() => {
             class='modal-bg'
             onClick$={() => (interfaceToggled.value = false)}
           />
-          <Interface toggled={interfaceToggled} />
+          <Interface
+            toggled={interfaceToggled}
+            mode={mode}
+            fontSize={fontSize}
+          />
         </>
       )}
       <header>
-        <div>
+        <div class={mode} style={{ fontSize: `${fontSize}em` }}>
           <a href='/' class='logo' draggable={false}>
             <div class='lotus'>
               <Lotus />

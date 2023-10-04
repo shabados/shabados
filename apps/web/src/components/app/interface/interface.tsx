@@ -11,15 +11,17 @@ import Switch from '~/components/switch/switch'
 
 interface Props {
   toggled: Signal<boolean>
+  mode?: string
+  fontSize?: number
 }
 
-export default component$(({ toggled }: Props) => {
+export default component$(({ toggled, mode = '', fontSize = 1 }: Props) => {
   useStylesScoped$(styles)
   const fullscreen = useSignal(!!document.fullscreenElement)
   const interfaceStore = useContext(InterfaceContext)
 
   return (
-    <div class='modal'>
+    <div class={`modal modal-${mode}`} style={{ fontSize: `${fontSize}em` }}>
       <article class='modal__article'>
         <h1>
           Interface

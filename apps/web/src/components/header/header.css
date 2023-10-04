@@ -11,11 +11,13 @@ header * {
 }
 
 header > div {
+  height: 3.5rem;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   /* grid-template-columns: 1fr auto 1fr; */
   align-items: center;
+  container-type: inline-size;
 }
 
 header ul {
@@ -25,6 +27,7 @@ header ul {
   list-style: none;
   text-align: right;
   padding-right: 12px;
+  font-size: 1rem;
 }
 
 header li {
@@ -40,10 +43,11 @@ header a {
   min-height: 60px;
   min-width: 12px; /* 60 - 2*padding */
   display: flex;
+  font-size: 1rem;
   align-items: center;
   justify-content: center;
   transition: ease-in-out 125ms;
-  gap: 0.4em;
+  gap: 0.4rem;
 }
 
 header a:hover {
@@ -56,13 +60,13 @@ header .logo {
   display: flex;
   gap: 0em;
   align-items: center;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   font-weight: 300;
   padding-left: 18px;
 }
 
 header .lotus {
-  height: 2em;
+  height: 2.5rem;
 }
 
 @media (prefers-color-scheme: light) {
@@ -79,7 +83,7 @@ header .lotus {
 
 @media (display-mode: window-controls-overlay) {
   header {
-    font-size: 0.875em;
+    font-size: 0.875rem;
     -webkit-app-region: drag;
     app-region: drag;
   }
@@ -107,6 +111,14 @@ header .lotus {
   }
 }
 
+@media (pointer: coarse) {
+  @container (max-width: 540px) {
+    .label {
+      display: none;
+    }
+  }
+}
+
 @media (pointer: fine) {
   @media (max-width: 720px) {
     .label {
@@ -120,6 +132,18 @@ header .lotus {
       header .lotus {
         height: inherit;
       }
+    }
+  }
+
+  @container (max-width: 540px) {
+    .label {
+      display: none;
+    }
+  }
+
+  @container (max-width: 450px) {
+    header .logo span {
+      display: none;
     }
   }
 }

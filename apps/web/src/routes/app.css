@@ -15,6 +15,11 @@
     'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 500;
+  font-size: 1em;
+}
+
+.notes-pane-presenter {
+  text-align: center;
 }
 
 .notes-pane::-webkit-scrollbar {
@@ -122,4 +127,41 @@
     padding-top: 1.5rem;
     height: calc(100vh - 60px - 48px - 1.5rem - 3.5em);
   }
+}
+
+@media (pointer: coarse) {
+  .notes-pane,
+  main > div,
+  header > div,
+  footer > div {
+    width: inherit;
+    max-width: 100%;
+  }
+}
+
+.notes-pane,
+main > div,
+header > div {
+  max-width: 100%;
+}
+
+.notes-pane-classic,
+main > div.classic,
+header > div.classic,
+.notes-pane-saral,
+main > div.saral,
+header > div.saral {
+  width: 38ch;
+}
+
+.notes-pane-reader,
+main > div.reader,
+header > div.reader {
+  width: 66ch;
+}
+
+.notes-pane-presenter,
+main > div.presenter,
+header > div.presenter {
+  width: 100%;
 }

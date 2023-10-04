@@ -28,6 +28,7 @@
 }
 
 .modal__article {
+  font-size: 1rem;
   overscroll-behavior: contain;
   overflow-y: scroll;
   -webkit-mask-image: linear-gradient(
@@ -135,9 +136,18 @@ input[type='range']::-webkit-slider-thumb {
 @media (pointer: fine) {
   .modal {
     width: 400px;
-    top: 4.5em;
-    right: calc((100vw - min(80vw, 1000px)) / 2);
-    border-radius: 1em;
+    top: 4.5rem;
+    border-radius: 1rem;
+  }
+  .modal-classic,
+  .modal-saral {
+    right: calc((100vw - min(38ch, 100vw)) / 2);
+  }
+  .modal-reader {
+    right: calc((100vw - min(66ch, 100vw)) / 2);
+  }
+  .modal-presenter {
+    right: 1rem;
   }
   .modal__article {
     max-height: calc(100vh - 6rem);
