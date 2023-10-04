@@ -1,0 +1,47 @@
+---
+title: Save and Export data in Shabad OS Library
+---
+
+import Media from '~/components/media/media'
+
+# Save and Export data in Shabad OS Library
+
+This guide will visually show how to save the page ratio and quadrilateral coordinates for a directory of images. The exported file can be used to import the saved data.
+
+## Export your data
+
+1. Click "Export" in the controls area top left.
+
+<Media
+  src='/media/shabad-os-library-interface-onscreen-preview.png'
+  alt='Shabad OS library onscreen preview'
+  link={true}
+/>
+
+2. Choose the folder to save your exported `files.json` file. It is recommended to co-locate your exported file in the same directory as the images. If any existing `files.json` is found, it will ask to over-write the saved information with the currently exported data.
+
+<Media
+  src='/media/shabad-os-library-export-file-overwrite.png'
+  alt='Shabad OS library ask to overwrite exported files.json'
+  link={true}
+/>
+
+## Decide whether to delete local storage
+
+Shabad OS Library automatically saves page ratio and quadrilateral coordinates between sessions. This is to avoid unnecessary exporting when working on a single project at a time. If you're ready to move on to a new set of images, it is recommended to wipe the locally cached data to avoid file name conflicts in a new project. If you're exporting as a means of collaborating with someone else, but want to continue working on the same set of images, then you should ignore the prompt to delete local storage.
+
+Choose whether or not to keep the cached data in Shabad OS Library:
+
+<Media
+  src='/media/shabad-os-library-delete-local-storage-prompt.png'
+  alt='Shabad OS library ask to overwrite exported files.json'
+  link={true}
+/>
+
+If you choose to remove the cached data, you will be presented with the initial interface with the page ratio reset.
+
+---
+
+## Further reading
+
+- [How to collaborate on GitHub](/support/guide/library/how-to-collaborate-on-github)
