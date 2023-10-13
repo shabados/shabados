@@ -297,6 +297,7 @@ ul {
 
 #app__right__view__canvas__quad {
   z-index: 1;
+  cursor: crosshair;
 }
 
 .bottom_controls {
