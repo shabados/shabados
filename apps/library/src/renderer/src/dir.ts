@@ -191,24 +191,56 @@ function drawPoints(
   ctx: CanvasRenderingContext2D,
   e: MouseEvent
 ) {
-  ctx.fillStyle = 'red'
   if (quadPoints && quadPoints.length < 4) {
+    ctx.fillStyle = 'red'
     ctx.fillRect(e.offsetX - 4, e.offsetY - 4, 8, 8)
     quadPoints.push({
       x: e.offsetX / imageDims.width,
       y: e.offsetY / imageDims.height,
     })
+    if (quadPoints.length == 4) {
+      organizeQuadPoints(quadPoints)
+      drawRect(imageDims, quadPoints, ctx)
+      document.querySelector<HTMLButtonElement>('#preview')!.disabled = false
+    }
   }
-  if (quadPoints && quadPoints.length == 4) {
-    ctx.fillRect(
-      e.offsetX * imageDims.width - 4,
-      e.offsetY * imageDims.height - 4,
-      8,
-      8
-    )
-    drawRect(imageDims, quadPoints, ctx)
-    document.querySelector<HTMLButtonElement>('#preview')!.disabled = false
+}
+
+function organizeQuadPoints(quadPoints: Point[]) {
+  // set quad points in order of top-left, top-right, bottom-right, then bottom-left
+
+  // find center point
+  quadPoints.sort((a, b) => b.x - a.x)
+  const cx = (quadPoints[0].x + quadPoints[quadPoints.length - 1].x) / 2
+  quadPoints.sort((a, b) => a.y - b.y)
+  const cy = (quadPoints[0].y + quadPoints[quadPoints.length - 1].y) / 2
+  const center: Point = { x: cx, y: cy }
+
+  // organize by center
+  let topLeft: Point = { x: 0, y: 0 }
+  let topRight: Point = { x: 0, y: 0 }
+  let bottomRight: Point = { x: 0, y: 0 }
+  let bottomLeft: Point = { x: 0, y: 0 }
+
+  let quadPoint: Point
+  for (let s of quadPoints) {
+    quadPoint = s as any
+
+    if (quadPoint.x < center.x && quadPoint.y < center.y) {
+      topLeft = quadPoint
+    } else if (quadPoint.x < center.x && quadPoint.y > center.y) {
+      bottomLeft = quadPoint
+    } else if (quadPoint.x > center.x && quadPoint.y < center.y) {
+      topRight = quadPoint
+    } else if (quadPoint.x > center.x && quadPoint.y > center.y) {
+      bottomRight = quadPoint
+    }
   }
+
+  quadPoints[0] = topLeft
+  quadPoints[1] = topRight
+  quadPoints[2] = bottomRight
+  quadPoints[3] = bottomLeft
 }
 
 function dragPoints(
@@ -216,9 +248,9 @@ function dragPoints(
   quadPoints: Point[],
   e: MouseEvent
 ): number {
+  let closestPoint = -1
   if (quadPoints && quadPoints.length == 4) {
-    const pad = 20
-    let closestPoint = -1
+    const pad = 16
     for (let i of [0, 1, 2, 3]) {
       if (
         e.offsetX > quadPoints[i].x * imageDims.width - pad &&
@@ -233,9 +265,8 @@ function dragPoints(
         }
       }
     }
-    return closestPoint
   }
-  return -1
+  return closestPoint
 }
 
 function movePoint(
