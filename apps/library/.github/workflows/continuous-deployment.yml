@@ -20,5 +20,22 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install AzureSignTool
+        run: dotnet tool install --global AzureSignTool
+
+      - uses: azure/login@v1
+        with:
+          creds: ${{ secrets.TOOLS__AZURE_CREDENTIALS }}
+
+      - name: Set Azure token on environment
+        run: |
+          $az_token=$(az account get-access-token --scope https://vault.azure.net/.default --query accessToken --output tsv)
+          echo "::add-mask::$az_token"
+          echo "AZURE_KEY_VAULT_ACCESS_TOKEN=$az_token" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
       - name: Build Electron app
         run: npm run build:win
+        env:
+          AZURE_KEY_VAULT_TIMESTAMP_URL: ${{ secrets.AZURE_KEY_VAULT_TIMESTAMP_URL }}
+          AZURE_KEY_VAULT_CERTIFICATE_NAME: ${{ secrets.AZURE_KEY_VAULT_CERTIFICATE_NAME }}
+          AZURE_KEY_VAULT_URL: ${{ secrets.AZURE_KEY_VAULT_URL }}

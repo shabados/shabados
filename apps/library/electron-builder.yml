@@ -13,6 +13,7 @@ asarUnpack:
   - resources/**
 win:
   executableName: library
+  sign: ./scripts/sign.js
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
