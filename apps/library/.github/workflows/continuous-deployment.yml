@@ -39,3 +39,9 @@ jobs:
           AZURE_KEY_VAULT_TIMESTAMP_URL: ${{ secrets.AZURE_KEY_VAULT_TIMESTAMP_URL }}
           AZURE_KEY_VAULT_CERTIFICATE_NAME: ${{ secrets.AZURE_KEY_VAULT_CERTIFICATE_NAME }}
           AZURE_KEY_VAULT_URL: ${{ secrets.AZURE_KEY_VAULT_URL }}
+
+      - uses: actions/upload-artifact@v3
+        with:
+          path: |
+            **/dist/*.exe
+            **/dist/win-unpacked/*.exe
