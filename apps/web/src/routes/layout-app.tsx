@@ -10,6 +10,16 @@ import {
 import Header from '~/components/app/header/header'
 import styles from './app.css?inline'
 import requestWakeLock from '~/lib/wakelock'
+import { type RequestHandler } from '@builder.io/qwik-city'
+
+export const onGet: RequestHandler = async ({ cacheControl }) => {
+  cacheControl({
+    // Always serve a cached response by default, up to two weeks stale
+    staleWhileRevalidate: 60 * 60 * 24 * 7 * 2,
+    // Max once every two days, revalidate on the server to get a fresh version of this page
+    maxAge: 60 * 60 * 24 * 2,
+  })
+}
 
 export type Interface = {
   zoom: number
