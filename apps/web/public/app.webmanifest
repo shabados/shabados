@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "name": "Shabad OS",
   "short_name": "Shabad OS",
-  "scope": ".",
-  "start_url": ".",
+  "scope": "/app/",
+  "start_url": "/app/",
   "display": "standalone",
   "display_override": ["window-controls-overlay"],
   "theme_color": "#f5f3f0",
@@ -34,10 +34,22 @@
   ],
   "shortcuts": [
     {
-      "name": "Read Articles",
-      "short_name": "Articles",
-      "description": "Browse the latest news, check out product guides, and develop with documentation",
-      "url": "/articles"
+      "name": "Jap Ji Sahib",
+      "short_name": "Jap Ji Sahib",
+      "description": "Meditate",
+      "url": "/app/jap-ji-sahib"
+    },
+    {
+      "name": "Rehras Sahib",
+      "short_name": "Rehras Sahib",
+      "description": "Rules and customs",
+      "url": "/app/rehras-sahib"
+    },
+    {
+      "name": "Kirtan Sohila",
+      "short_name": "Kirtan Sohila",
+      "description": "Song of Praise",
+      "url": "/app/kirtan-sohila"
     }
   ]
 }
