@@ -22,7 +22,7 @@
   max-width: none;
   background: var(--bg-base);
   position: sticky;
-  top: calc(60px + 1px);
+  top: calc(3.5rem + 1px);
   z-index: 3;
   border-bottom: 1px solid var(--shader);
 }
@@ -43,9 +43,9 @@
 }
 
 .menu {
-  height: 60px;
+  height: 3.5rem;
   font-size: 1.5em;
-  line-height: 60px;
+  line-height: 3.5rem;
 }
 
 .menu:hover,
@@ -93,7 +93,7 @@
   cursor: pointer;
   z-index: -1;
   top: 6px;
-  right: 24px;
+  left: 5em;
   transform: rotate(90deg);
   position: absolute;
   transition: var(--animation-duration) ease;
