@@ -1,6 +1,6 @@
-@keyframes window-appear {
+@keyframes fade-in-and-up {
   0% {
-    opacity: 0.6;
+    opacity: 0.4;
     transform: translateY(24px);
   }
   100% {
@@ -9,9 +9,20 @@
   }
 }
 
-@keyframes text-appear {
+@keyframes fade-in-and-left {
   0% {
-    color: var(--bg-base);
+    opacity: 0.4;
+    transform: translateX(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes text-fades-in {
+  0% {
+    color: var(--fg-muted);
   }
   100% {
     color: var(--fg);
@@ -22,9 +33,7 @@
   position: fixed;
   background-color: var(--bg-base);
   z-index: 2;
-  color: var(--bg-base);
-  animation: window-appear 0.6s ease, text-appear 0.4s ease 0.2s;
-  animation-fill-mode: forwards;
+  color: var(--fg-muted);
 }
 
 .modal__article {
@@ -136,18 +145,12 @@ input[type='range']::-webkit-slider-thumb {
 @media (pointer: fine) {
   .modal {
     width: 400px;
-    top: 4.5rem;
+    top: 6rem;
     border-radius: 1rem;
-  }
-  .modal-classic,
-  .modal-saral {
-    right: calc((100vw - min(38ch, 100vw)) / 2);
-  }
-  .modal-reader {
-    right: calc((100vw - min(66ch, 100vw)) / 2);
-  }
-  .modal-presenter {
-    right: 1rem;
+    height: calc(100vh - 8.5rem);
+    right: 2.5rem;
+    animation: fade-in-and-left 0.6s ease, text-fades-in 0.4s ease 0.2s;
+    animation-fill-mode: forwards;
   }
   .modal__article {
     max-height: calc(100vh - 6rem);
@@ -155,6 +158,10 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 @media (pointer: coarse) {
+  .modal {
+    animation: fade-in-and-up 0.6s ease, text-fades-in 0.4s ease 0.2s;
+    animation-fill-mode: forwards;
+  }
   .modal__article {
     max-height: 60vh;
   }
