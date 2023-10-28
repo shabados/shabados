@@ -44,11 +44,6 @@ export default component$(({ mode = '', fontSize = 1 }: HeaderProps) => {
               </a>
             </li>
             <li>
-              <a href='/articles' draggable={false}>
-                ☐<span class='label'>Articles</span>
-              </a>
-            </li>
-            <li>
               <a
                 href='#'
                 preventdefault:click
