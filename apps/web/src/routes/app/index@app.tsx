@@ -17,28 +17,16 @@ export default component$(() => {
   return (
     <div>
       <article>
-        <h1>App</h1>
         <p>
-          Please note that this space is being used for an experimental web app.
-          If you're looking for the stable app that is released on desktop, then
-          please see{' '}
+          Please note that this is an experimental web app. If you're looking
+          for the stable app, released for desktop, then please see:
+        </p>
+        <p>
           <a href='/support/install-shabad-os-presenter'>
-            the installer guide for Presenter
-          </a>{' '}
-          instead.
+            How to Install Shabad OS Presenter (Desktop)
+          </a>
         </p>
         <hr />
-        <p>
-          As we continue developing our mobile app, it made sense to explore a
-          simple web app. Modern websites can be installed as a progressive web
-          app (PWA), and this area of our website is a space to test these new
-          technologies. For now there is only a way to read nitnem (with a
-          romanized pronunciation guide and English translation), but we look
-          forward to adding more in the future. This will let us try out all the
-          features we would like in a PWA and make sure it is feasible to
-          continue down this path. The goal is to enable desktop users to
-          interact with Shabad OS from a web browser on multiple platforms.
-        </p>
       </article>
       <div class='carousel'>
         <div class='carousel__title'>
