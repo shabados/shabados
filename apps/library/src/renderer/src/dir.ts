@@ -358,7 +358,7 @@ export async function exportQuadPoints() {
   })
 
   const writable = await fileHandle.createWritable()
-  await writable.write(JSON.stringify(json))
+  await writable.write(JSON.stringify(json, null, 2))
   await writable.close()
 
   // delete data from localstorage
