@@ -1,5 +1,7 @@
 .line {
+  font-size: 1rem;
   line-height: 1.5;
+  margin-bottom: 0;
   /* color: inherit;
   border-radius: 0.4em;
   outline-width: 0.2em;
@@ -13,7 +15,7 @@
 
 .line:hover {
   text-decoration: none;
-  outline-color: var(--shader);
+  outline-color: var(--toner);
 }
 
 .line:focus {
@@ -31,7 +33,7 @@ p {
 .bold {
   opacity: 1;
   font-weight: 350;
-  font-size: 1.15em;
+  font-size: 1.15rem;
   line-height: 1.3;
 }
 

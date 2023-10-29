@@ -1,36 +1,21 @@
 import { component$, useSignal, useStylesScoped$ } from '@builder.io/qwik'
 import Lotus from '../../icons/lotus'
 import styles from '../../header/header.css?inline'
-import moreStyles from './header.css?inline'
 import Interface from '../interface/interface'
 
-interface HeaderProps {
-  mode?: string
-  fontSize?: number
-}
-
-export default component$(({ mode = '', fontSize = 1 }: HeaderProps) => {
+export default component$(() => {
   useStylesScoped$(styles)
-  useStylesScoped$(moreStyles)
   const interfaceToggled = useSignal(false)
 
   return (
     <>
       {interfaceToggled.value && (
         <>
-          <div
-            class='modal-bg'
-            onClick$={() => (interfaceToggled.value = false)}
-          />
-          <Interface
-            toggled={interfaceToggled}
-            mode={mode}
-            fontSize={fontSize}
-          />
+          <Interface toggled={interfaceToggled} />
         </>
       )}
       <header>
-        <div class={mode} style={{ fontSize: `${fontSize}em` }}>
+        <div>
           <a href='/' class='logo' draggable={false}>
             <div class='lotus'>
               <Lotus />

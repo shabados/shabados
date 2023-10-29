@@ -22,9 +22,8 @@
   max-width: none;
   background: var(--bg-base);
   position: sticky;
-  top: calc(3.5rem + 1px);
+  top: calc(3.5em);
   z-index: 3;
-  border-bottom: 1px solid var(--shader);
 }
 
 .menu-bar * {
@@ -43,9 +42,9 @@
 }
 
 .menu {
-  height: 3.5rem;
+  height: calc(16px * 3.5);
   font-size: 1.5em;
-  line-height: 3.5rem;
+  line-height: calc(16px * 3.5);
 }
 
 .menu:hover,
@@ -69,7 +68,7 @@
 .menu-items {
   color: var(--fg-color);
   position: relative;
-  font-size: calc(1em / 1.5);
+  font-size: 16px;
   line-height: 2;
   transform: translateY(-200%);
   max-height: calc(100vh - 148px - 120px);
@@ -104,7 +103,7 @@
 }
 
 .menu-close span {
-  background: var(--shader);
+  background: var(--toner);
   line-height: 20px;
   height: 24px;
   width: 24px;
@@ -115,12 +114,12 @@
 
 .menu-items-links {
   display: flex;
-  gap: 0 1.5rem;
+  gap: 0 1.5em;
   flex-wrap: wrap;
 }
 
 .menu-items-section + .menu-items-section {
-  margin-top: 1.5rem;
+  margin-top: 1.5em;
 }
 
 @media (display-mode: window-controls-overlay) {

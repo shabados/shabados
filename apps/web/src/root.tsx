@@ -50,6 +50,15 @@ export default component$(() => {
           href='/media/apple-touch-icon.png'
         />
         <RouterHead />
+        <script
+          dangerouslySetInnerHTML={`
+            const path = new URL(window.location.href).pathname.split('/')[1];
+            if (path == 'app') {
+              document.documentElement.className = localStorage.interfaceMode || 'classic';
+              document.documentElement.style.fontSize = localStorage.interfaceZoom + 'em' || '1em';
+            }
+          `}
+        />
         <script defer src='/_vercel/insights/script.js'></script>
       </head>
       <body lang='en'>

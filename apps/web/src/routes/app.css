@@ -1,3 +1,7 @@
+.app {
+  font-size: 1rem;
+}
+
 .notes-pane {
   position: fixed;
   height: 5.5em;
@@ -15,10 +19,10 @@
     'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
-.notes-pane-presenter {
+html.presenter .notes-pane {
   text-align: center;
 }
 
@@ -26,74 +30,74 @@
   display: none;
 }
 
-.classic > .line + .line {
-  margin-top: 1.5em;
+html.classic .line {
+  margin-bottom: 1.5em;
 }
 
-.reader > .line + .line,
-.saral > .line + .line {
-  margin-top: 0;
+html.classic .line:last-child {
+  margin-bottom: 0;
 }
 
-.reader p.bold::before {
+html.reader article p.bold::before {
   content: '\0020';
 }
 
-.reader > .line > p,
-.saral > .line > p {
+html.reader .line > p,
+html.saral .line > p {
   display: none;
 }
 
-.reader > .line,
-.reader > .line > p.bold,
-.saral > .line > p.bold {
+html.reader .line,
+html.reader .line > p.bold,
+html.saral .line > p.bold {
   display: inline;
   line-height: 1.6;
 }
 
-.saral > .line {
+html.saral .line {
   display: block;
 }
 
-.reader > .title,
-.saral > .title {
+html.reader .title,
+html.saral .title {
   display: block;
   font-size: 1.25em;
 }
 
-.reader > .title > p,
-.saral > .title > p {
+html.reader .title > p,
+html.saral .title > p {
   line-height: 1.2;
 }
 
-.reader > .title > p.bold,
-.saral > .title > p.bold {
+html.reader .title > p.bold,
+html.saral .title > p.bold {
   font-weight: 230;
+  font-size: 1.15em;
 }
 
-.reader > .line:not(.title) + .title,
-.saral > .line:not(.title) + .title {
+html.reader .line:not(.title) + .title,
+html.saral .line:not(.title) + .title {
   margin-top: 1.2em;
 }
 
-.reader > .title + .line:not(.title)::before,
-.saral > .title + .line:not(.title)::before {
+html.reader .title + .line:not(.title)::before,
+html.saral .title + .line:not(.title)::before {
   content: '\A';
   white-space: pre;
   font-size: 0.5em;
   display: block;
 }
 
-.reader > .end-of-pauri:after,
-.saral > .end-of-pauri:after {
+html.reader .end-of-pauri:after,
+html.saral .end-of-pauri:after {
   content: '\A\A';
   white-space: pre;
   font-size: 0.25em;
   display: block;
 }
 
-.presenter {
-  height: calc(100vh - 60px - 1px);
+html.presenter .app > div > article {
+  height: calc(100vh - 56px);
   scroll-snap-type: y mandatory;
   overflow-y: auto;
   font-size: 1em;
@@ -105,14 +109,14 @@
 
 .presenter .line {
   margin-top: 0;
-  padding-top: 1.5em;
-  height: calc(100vh - 60px - 48px - 4.5em);
+  padding-top: 24px;
+  height: calc(100vh - 56px - 48px - 1.75em - 48px);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 0.75em;
+  gap: 0.5em;
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
@@ -123,10 +127,6 @@
 }
 
 @media (max-device-width: 400px) {
-  .presenter .line {
-    padding-top: 1.5rem;
-    height: calc(100vh - 60px - 48px - 1.5rem - 3.5em);
-  }
 }
 
 @media (pointer: coarse) {
@@ -145,23 +145,20 @@ header > div {
   max-width: 100%;
 }
 
-.notes-pane-classic,
-main > div.classic,
-header > div.classic,
-.notes-pane-saral,
-main > div.saral,
-header > div.saral {
-  width: 38ch;
+html.classic main > div,
+html.classic header > div,
+html.classic .notes-pane,
+html.saral main > div,
+html.saral header > div,
+html.saral .notes-pane,
+html.reader main > div,
+html.reader header > div,
+html.reader .notes-pane {
+  width: 30rem;
 }
 
-.notes-pane-reader,
-main > div.reader,
-header > div.reader {
-  width: 66ch;
-}
-
-.notes-pane-presenter,
-main > div.presenter,
-header > div.presenter {
+html.presenter main > div,
+html.presenter header > div,
+html.presenter .notes-pane {
   width: 100%;
 }

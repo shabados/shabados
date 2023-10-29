@@ -1,3 +1,12 @@
+@keyframes modal-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: var(--alpha-80);
+  }
+}
+
 @keyframes fade-in-and-up {
   0% {
     opacity: 0.4;
@@ -29,15 +38,28 @@
   }
 }
 
+.modal-bg {
+  z-index: 1;
+  overscroll-behavior: contain;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg);
+  position: fixed;
+  max-width: none;
+  animation: modal-appear 0.6s ease;
+  animation-fill-mode: forwards;
+}
+
 .modal {
   position: fixed;
   background-color: var(--bg-base);
   z-index: 2;
   color: var(--fg-muted);
+  font-size: 16px;
+  max-width: 100vw;
 }
 
 .modal__article {
-  font-size: 1rem;
   overscroll-behavior: contain;
   overflow-y: scroll;
   -webkit-mask-image: linear-gradient(
@@ -58,26 +80,37 @@
   display: none;
 }
 
-.modal__article > * + * {
-  margin-top: 1.5rem;
+.modal__article > * {
+  margin-bottom: 24px;
+}
+
+.modal__article > *:last-child {
+  margin-bottom: 0;
+}
+
+.modal__article > h2 {
+  line-height: 1.1;
 }
 
 .modal__close {
   position: absolute;
-  font-size: 0.4em;
-  right: 2.25em;
-  top: 2.5em;
-  width: 2.5em;
-  height: 2.5em;
-  border-radius: 2.5em;
+  right: 25px;
+  top: 25px;
+  width: 35px;
+  height: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 2px;
   line-height: 1;
-  background-color: var(--shader);
+  background-color: var(--bg);
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   user-select: none;
-  color: var(--fg);
+  color: var(--link);
+  border: 0.5px solid var(--toner);
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 :global(body[dir='rtl'] .modal__close) {
@@ -86,7 +119,8 @@
 }
 
 .modal__close:hover {
-  background-color: var(--separator);
+  background-color: var(--toner);
+  color: var(--link-hover);
 }
 
 .interface__option {
@@ -102,16 +136,19 @@ a.interface__option:hover {
 }
 
 .interface__icon {
-  width: 2.25em;
-  height: 1.25em;
-  border-radius: 1.5em;
+  width: 35px;
+  height: 20px;
+  font-size: 20px;
+  padding: 2px;
+  border-radius: 20px;
   line-height: 1;
-  background-color: var(--shader);
+  background-color: var(--bg);
   display: flex;
   justify-content: center;
   align-items: center;
   user-select: none;
-  border: 1.25px solid #c5c5c5;
+  border: 0.5px solid var(--toner);
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 .interface__option.clickable {
@@ -120,40 +157,25 @@ a.interface__option:hover {
 }
 
 :global(.interface__option.clickable:hover .switch) {
-  --track-color-inactive: #d7d7d7 !important;
+  --track-color-inactive: var(--toner) !important;
 }
 
 .interface__option.clickable:hover .interface__icon {
-  background-color: var(--separator);
-}
-
-input[type='range']::-webkit-slider-thumb {
-  transform: scale(1.25);
-}
-
-.interface__select {
-  background-color: #e7e7e7;
-  border-radius: 0.5em;
-  padding: 0.125em;
-  border: 1.25px solid #c5c5c5;
-}
-
-.interface__select:hover {
-  background-color: #e0e0e0;
+  background-color: var(--toner);
 }
 
 @media (pointer: fine) {
   .modal {
     width: 400px;
-    top: 6rem;
-    border-radius: 1rem;
-    height: calc(100vh - 8.5rem);
-    right: 2.5rem;
+    top: 6em;
+    border-radius: 1em;
+    height: calc(100vh - 8.5em);
+    right: 2.5em;
     animation: fade-in-and-left 0.6s ease, text-fades-in 0.4s ease 0.2s;
     animation-fill-mode: forwards;
   }
   .modal__article {
-    max-height: calc(100vh - 6rem);
+    max-height: calc(100vh - 6em);
   }
 }
 
@@ -165,18 +187,17 @@ input[type='range']::-webkit-slider-thumb {
   .modal__article {
     max-height: 60vh;
   }
-  input[type='range']::-webkit-slider-thumb {
-    transform: scale(calc(2.5 / 1.5));
-  }
-  .interface__select {
-    -webkit-appearance: none;
-    appearance: none;
-    border-radius: 2.5em;
-    padding: 0.75em 0 0.75em 1em;
+  .modal__close {
+    right: 25px;
+    top: 12.5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 40px;
   }
   .interface__icon {
-    width: 3.3em;
-    height: 2em;
+    width: 60px;
+    height: 40px;
+    border-radius: 40px;
   }
   @media (max-device-width: 480px) {
     .modal {

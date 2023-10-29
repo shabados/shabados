@@ -1,9 +1,9 @@
 .switch {
-  --thumb-size: 1rem;
+  --thumb-size: 1.5em;
   --track-size: calc(var(--thumb-size) * 1.8);
   --track-padding: 2px;
-  --thumb-color: #677795;
-  --track-color-inactive: #e7e7e7;
+  --thumb-color: #ffffff;
+  --track-color-inactive: var(--bg);
   --track-color-active: var(--blue);
   --thumb-position: 0%;
   --thumb-transition-duration: 0.25s;
@@ -13,8 +13,7 @@
   block-size: var(--thumb-size);
   border-radius: var(--track-size);
   appearance: none;
-  border: 1.25px solid #c5c5c5;
-  outline-offset: 5px;
+  border: 0.5px solid var(--toner);
   box-sizing: content-box;
   flex-shrink: 0;
   display: grid;
@@ -64,6 +63,6 @@
 
 @media (pointer: coarse) {
   .switch {
-    --thumb-size: 2.5em;
+    --thumb-size: 35px;
   }
 }

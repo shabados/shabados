@@ -2,8 +2,8 @@ header {
   top: 0;
   position: sticky;
   background: inherit;
-  border-bottom: 1px solid var(--separator);
   z-index: 4;
+  font-size: 16px;
 }
 
 header * {
@@ -11,7 +11,7 @@ header * {
 }
 
 header > div {
-  height: 3.5rem;
+  height: 3.5em;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -27,7 +27,6 @@ header ul {
   list-style: none;
   text-align: right;
   padding-right: 12px;
-  font-size: 1rem;
 }
 
 header li {
@@ -43,11 +42,10 @@ header a {
   min-height: 60px;
   min-width: 12px; /* 60 - 2*padding */
   display: flex;
-  font-size: 1rem;
   align-items: center;
   justify-content: center;
   transition: ease-in-out 125ms;
-  gap: 0.4rem;
+  gap: 0.4em;
 }
 
 header a:hover {
@@ -60,13 +58,13 @@ header .logo {
   display: flex;
   gap: 0em;
   align-items: center;
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: 300;
   padding-left: 18px;
 }
 
 header .lotus {
-  height: 2.5rem;
+  height: 2em;
 }
 
 @media (prefers-color-scheme: light) {
@@ -83,7 +81,7 @@ header .lotus {
 
 @media (display-mode: window-controls-overlay) {
   header {
-    font-size: 0.875rem;
+    font-size: 0.875em;
     -webkit-app-region: drag;
     app-region: drag;
   }

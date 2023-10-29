@@ -1,5 +1,5 @@
 footer {
-  border-top: 0.5px solid var(--shader);
+  border-top: 0.5px solid var(--toner);
 }
 
 .social {
@@ -8,11 +8,11 @@ footer {
 }
 
 .social span {
-  padding-right: 0.5rem;
+  padding-right: 0.5em;
 }
 
 .social a {
-  padding: 0.75rem 0.75rem;
+  padding: 0.75em 0.75em;
   line-height: 0;
 }
 

@@ -20,7 +20,7 @@
 }
 
 .docs article * {
-  scroll-margin-top: 9rem;
+  scroll-margin-top: 9em;
 }
 
 @media (max-width: 1024px) {

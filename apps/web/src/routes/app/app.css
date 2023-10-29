@@ -24,7 +24,7 @@
 }
 
 .carousel__button__span {
-  background: var(--shader);
+  background: var(--toner);
   line-height: 20px;
   height: 24px;
   width: 24px;
@@ -74,6 +74,5 @@ a.card:hover {
   color: var(--fg);
   text-decoration: none;
   cursor: pointer;
-  outline: 0.2rem solid var(--blue);
-  outline-offset: 0.4rem;
+  outline: 2px solid var(--blue);
 }
