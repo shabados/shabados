@@ -1,9 +1,9 @@
-import { component$, useSignal, useStyles$ } from '@builder.io/qwik'
-import type { DocumentHead } from '@builder.io/qwik-city'
-import Spinner from '~/components/spinner/spinner'
-import DatabaseHero from '~/components/svg/database-hero'
-import ViewerHero from '~/components/svg/viewer-hero'
-import styles from './index.css?inline'
+import { component$, useSignal, useStyles$ } from '@builder.io/qwik';
+import type { DocumentHead } from '@builder.io/qwik-city';
+import Spinner from '~/components/spinner/spinner';
+import DatabaseHero from '~/components/svg/database-hero';
+import ViewerHero from '~/components/svg/viewer-hero';
+import styles from './index.css?inline';
 
 export const head: DocumentHead = {
   title: 'Shabad OS',
@@ -13,7 +13,7 @@ export const head: DocumentHead = {
       content: 'Learn about shabad',
     },
   ],
-}
+};
 
 const getOS = () => {
   // window.navigator.platform is being deprecated, but it's successor userAgentData isn't prevalent yet
@@ -22,39 +22,39 @@ const getOS = () => {
     (window.navigator as any).userAgentData.platform
   )
     .slice(0, 3)
-    .toLowerCase()
-  if (os == 'mac' || os == 'win') return os
-  else return 'other'
-}
+    .toLowerCase();
+  if (os == 'mac' || os == 'win') return os;
+  else return 'other';
+};
 
 const download = async () => {
   // attempt to download for macOS / windows, regardless go to install guide
-  const installUrl = '/support/install-shabad-os-presenter/'
-  const platform = getOS()
-  console.log(platform)
+  const installUrl = '/support/install-shabad-os-presenter/';
+  const platform = getOS();
+  console.log(platform);
   if (platform !== 'other') {
     // attempt api call
     const res = await fetch(
-      `https://api.github.com/repos/shabados/presenter/releases/latest`
-    )
-    const data = await res.json()
-    const version = data.name
+      `https://api.github.com/repos/shabados/presenter/releases/latest`,
+    );
+    const data = await res.json();
+    const version = data.name;
     if (version !== undefined) {
       // prettier-ignore
       const downloadUrl = `https://github.com/shabados/presenter/releases/download/v${version}/Shabad.OS-${platform == 'mac'? `${version}.dmg`: `Setup-${version}.exe`}`
-      window.location.href = downloadUrl
+      window.location.href = downloadUrl;
     }
     // don't make the user wait more than 5 seconds to try and download (either it starts or it doesn't, the guide will explain how to download manually)
     setTimeout(() => {
-      window.location.href = installUrl
-    }, 5000)
-  } else window.location.href = installUrl
-}
+      window.location.href = installUrl;
+    }, 5000);
+  } else window.location.href = installUrl;
+};
 
 export default component$(() => {
-  useStyles$(styles)
+  useStyles$(styles);
 
-  const downloading = useSignal(false)
+  const downloading = useSignal(false);
 
   return (
     <>
@@ -73,8 +73,8 @@ export default component$(() => {
               draggable={false}
               preventdefault:click
               onClick$={() => {
-                downloading.value = !downloading.value
-                download()
+                downloading.value = !downloading.value;
+                download();
               }}
             >
               {downloading.value ? <Spinner /> : 'Download'}
@@ -120,5 +120,5 @@ export default component$(() => {
         </article>
       </section>
     </>
-  )
-})
+  );
+});

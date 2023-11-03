@@ -41,10 +41,10 @@ Let's start by fetching all the Gurbani sources that the database has:
 
 ```js
 // Import the Sources Model from the module
-const { Sources } = require('@shabados/database')
+const { Sources } = require('@shabados/database');
 
 Sources.query() // Returns a Knex Query Builder
-  .then((results) => console.log(results)) // Results are returned as a promise
+  .then((results) => console.log(results)); // Results are returned as a promise
 ```
 
 ES7 async/await can also be used with the results: `await Sources.query()`.

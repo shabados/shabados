@@ -1,4 +1,4 @@
-import type { RequestHandler } from '@builder.io/qwik-city'
+import type { RequestHandler } from '@builder.io/qwik-city';
 
 const data = {
   title: {
@@ -390,7 +390,7 @@ const data = {
         'Nanak, Your slave, begs for this happiness: let me be the dust of the feet of the Saints. ||4||5||',
     },
   ],
-}
+};
 export const onGet: RequestHandler = async ({ json }) => {
-  json(200, data)
-}
+  json(200, data);
+};

@@ -110,7 +110,9 @@
   user-select: none;
   color: var(--link);
   border: 0.5px solid var(--toner);
-  transition: background-color 0.25s ease, color 0.25s ease;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
 }
 
 :global(body[dir='rtl'] .modal__close) {
@@ -148,7 +150,9 @@ a.interface__option:hover {
   align-items: center;
   user-select: none;
   border: 0.5px solid var(--toner);
-  transition: background-color 0.25s ease, color 0.25s ease;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
 }
 
 .interface__option.clickable {
@@ -171,7 +175,9 @@ a.interface__option:hover {
     border-radius: 1em;
     height: calc(100vh - 8.5em);
     right: 2.5em;
-    animation: fade-in-and-left 0.6s ease, text-fades-in 0.4s ease 0.2s;
+    animation:
+      fade-in-and-left 0.6s ease,
+      text-fades-in 0.4s ease 0.2s;
     animation-fill-mode: forwards;
   }
   .modal__article {
@@ -181,7 +187,9 @@ a.interface__option:hover {
 
 @media (pointer: coarse) {
   .modal {
-    animation: fade-in-and-up 0.6s ease, text-fades-in 0.4s ease 0.2s;
+    animation:
+      fade-in-and-up 0.6s ease,
+      text-fades-in 0.4s ease 0.2s;
     animation-fill-mode: forwards;
   }
   .modal__article {

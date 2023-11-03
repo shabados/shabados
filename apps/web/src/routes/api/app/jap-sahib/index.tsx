@@ -1,4 +1,4 @@
-import type { RequestHandler } from '@builder.io/qwik-city'
+import type { RequestHandler } from '@builder.io/qwik-city';
 
 const data = {
   title: {
@@ -4910,8 +4910,8 @@ const data = {
         'Salutation to thee O Ever present with all, Indestructible and Glorious Lord! 199.',
     },
   ],
-}
+};
 
 export const onGet: RequestHandler = async ({ json }) => {
-  json(200, data)
-}
+  json(200, data);
+};

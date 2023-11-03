@@ -34,7 +34,8 @@
 }
 @media (prefers-reduced-motion: no-preference) {
   .switch::before {
-    transition: transform var(--thumb-transition-duration) ease,
+    transition:
+      transform var(--thumb-transition-duration) ease,
       box-shadow 0.25s ease;
   }
 }

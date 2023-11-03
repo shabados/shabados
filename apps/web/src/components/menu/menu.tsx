@@ -1,13 +1,13 @@
-import { component$, useSignal, useStyles$ } from '@builder.io/qwik'
-import { useContent, Link, useLocation } from '@builder.io/qwik-city'
-import styles from './menu.css?inline'
+import { component$, useSignal, useStyles$ } from '@builder.io/qwik';
+import { useContent, Link, useLocation } from '@builder.io/qwik-city';
+import styles from './menu.css?inline';
 
 export default component$(() => {
-  useStyles$(styles)
+  useStyles$(styles);
 
-  const toggled = useSignal(false)
-  const { menu } = useContent()
-  const loc = useLocation()
+  const toggled = useSignal(false);
+  const { menu } = useContent();
+  const loc = useLocation();
 
   return (
     <>
@@ -53,5 +53,5 @@ export default component$(() => {
         </div>
       </div>
     </>
-  )
-})
+  );
+});

@@ -1,6 +1,6 @@
-import { component$, useStyles$ } from '@builder.io/qwik'
-import type { DocumentHead } from '@builder.io/qwik-city'
-import styles from './app.css?inline'
+import { component$, useStyles$ } from '@builder.io/qwik';
+import type { DocumentHead } from '@builder.io/qwik-city';
+import styles from './app.css?inline';
 
 export const head: DocumentHead = {
   title: 'PWA - Shabad OS',
@@ -10,10 +10,10 @@ export const head: DocumentHead = {
       content: 'Landing page for exploring a PWA of Shabad OS',
     },
   ],
-}
+};
 
 export default component$(() => {
-  useStyles$(styles)
+  useStyles$(styles);
   return (
     <div>
       <article>
@@ -124,5 +124,5 @@ export default component$(() => {
         </div>
       </div>
     </div>
-  )
-})
+  );
+});

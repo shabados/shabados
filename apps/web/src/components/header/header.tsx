@@ -1,9 +1,9 @@
-import { component$, useStylesScoped$ } from '@builder.io/qwik'
-import Lotus from '../icons/lotus'
-import styles from './header.css?inline'
+import { component$, useStylesScoped$ } from '@builder.io/qwik';
+import Lotus from '../icons/lotus';
+import styles from './header.css?inline';
 
 export default component$(() => {
-  useStylesScoped$(styles)
+  useStylesScoped$(styles);
 
   return (
     <header>
@@ -40,5 +40,5 @@ export default component$(() => {
         </ul>
       </div>
     </header>
-  )
-})
+  );
+});

@@ -1,11 +1,11 @@
-import { component$, useSignal, useStylesScoped$ } from '@builder.io/qwik'
-import Lotus from '../../icons/lotus'
-import styles from '../../header/header.css?inline'
-import Interface from '../interface/interface'
+import { component$, useSignal, useStylesScoped$ } from '@builder.io/qwik';
+import Lotus from '../../icons/lotus';
+import styles from '../../header/header.css?inline';
+import Interface from '../interface/interface';
 
 export default component$(() => {
-  useStylesScoped$(styles)
-  const interfaceToggled = useSignal(false)
+  useStylesScoped$(styles);
+  const interfaceToggled = useSignal(false);
 
   return (
     <>
@@ -44,5 +44,5 @@ export default component$(() => {
         </div>
       </header>
     </>
-  )
-})
+  );
+});

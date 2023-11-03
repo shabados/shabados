@@ -1,14 +1,14 @@
-import { component$, useStyles$ } from '@builder.io/qwik'
-import styles from './footer.css?inline'
-import GitHub from '~/components/icons/github'
-import Instagram from '~/components/icons/instagram'
-import Twitter from '~/components/icons/twitter'
-import YouTube from '~/components/icons/youtube'
-import PoweredByVercel from '../icons/powered-by-vercel'
-import Slack from '../icons/slack'
+import { component$, useStyles$ } from '@builder.io/qwik';
+import styles from './footer.css?inline';
+import GitHub from '~/components/icons/github';
+import Instagram from '~/components/icons/instagram';
+import Twitter from '~/components/icons/twitter';
+import YouTube from '~/components/icons/youtube';
+import PoweredByVercel from '../icons/powered-by-vercel';
+import Slack from '../icons/slack';
 
 export default component$(() => {
-  useStyles$(styles)
+  useStyles$(styles);
 
   return (
     <footer>
@@ -62,5 +62,5 @@ export default component$(() => {
         </article>
       </div>
     </footer>
-  )
-})
+  );
+});

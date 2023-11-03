@@ -14,7 +14,7 @@
 // ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 // OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-import { component$ } from '@builder.io/qwik'
+import { component$ } from '@builder.io/qwik';
 
 export default component$(() => (
   <svg
@@ -37,4 +37,4 @@ export default component$(() => (
     <rect x='2' y='8' width='8' height='3' rx='1.5'></rect>
     <path d='M8.5 5H10V3.5A1.5 1.5 0 1 0 8.5 5'></path>
   </svg>
-))
+));

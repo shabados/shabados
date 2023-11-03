@@ -4,19 +4,19 @@ import {
   useContext,
   useSignal,
   useStylesScoped$,
-} from '@builder.io/qwik'
-import { InterfaceContext, setLocalStorage } from '~/routes/layout-app'
-import styles from './interface.css?inline'
-import Switch from '~/components/switch/switch'
+} from '@builder.io/qwik';
+import { InterfaceContext, setLocalStorage } from '~/routes/layout-app';
+import styles from './interface.css?inline';
+import Switch from '~/components/switch/switch';
 
 interface Props {
-  toggled: Signal<boolean>
+  toggled: Signal<boolean>;
 }
 
 export default component$(({ toggled }: Props) => {
-  useStylesScoped$(styles)
-  const fullscreen = useSignal(!!document.fullscreenElement)
-  const interfaceStore = useContext(InterfaceContext)
+  useStylesScoped$(styles);
+  const fullscreen = useSignal(!!document.fullscreenElement);
+  const interfaceStore = useContext(InterfaceContext);
 
   return (
     <>
@@ -38,11 +38,11 @@ export default component$(({ toggled }: Props) => {
               class='interface__option clickable'
               onClick$={() => {
                 if (!document.fullscreenElement) {
-                  document.documentElement.requestFullscreen()
-                  fullscreen.value = true
+                  document.documentElement.requestFullscreen();
+                  fullscreen.value = true;
                 } else if (document.exitFullscreen) {
-                  document.exitFullscreen()
-                  fullscreen.value = false
+                  document.exitFullscreen();
+                  fullscreen.value = false;
                 }
               }}
             >
@@ -59,11 +59,11 @@ export default component$(({ toggled }: Props) => {
               step={0.25}
               value={interfaceStore.zoom}
               onChange$={(e) => {
-                setLocalStorage('interfaceZoom', e.target.value)
-                document.documentElement.style.fontSize = `${e.target.value}em`
+                setLocalStorage('interfaceZoom', e.target.value);
+                document.documentElement.style.fontSize = `${e.target.value}em`;
                 interfaceStore.zoom = parseFloat(
-                  e.target.value as unknown as string
-                )
+                  e.target.value as unknown as string,
+                );
               }}
             />
           </div>
@@ -73,10 +73,10 @@ export default component$(({ toggled }: Props) => {
               class='interface__select'
               value={interfaceStore.mode}
               onChange$={(e) => {
-                const v = e.target.value as string
-                setLocalStorage('interfaceMode', v)
-                interfaceStore.mode = v
-                document.documentElement.className = v
+                const v = e.target.value as string;
+                setLocalStorage('interfaceMode', v);
+                interfaceStore.mode = v;
+                document.documentElement.className = v;
               }}
             >
               <option>classic</option>
@@ -90,8 +90,11 @@ export default component$(({ toggled }: Props) => {
             onClick$={() => {
               interfaceStore.notes = isNaN(interfaceStore.notes)
                 ? 0
-                : 1 - interfaceStore.notes
-              setLocalStorage('interfaceNotes', interfaceStore.notes.toString())
+                : 1 - interfaceStore.notes;
+              setLocalStorage(
+                'interfaceNotes',
+                interfaceStore.notes.toString(),
+              );
             }}
           >
             Bottom Notes
@@ -107,5 +110,5 @@ export default component$(({ toggled }: Props) => {
         </article>
       </div>
     </>
-  )
-})
+  );
+});

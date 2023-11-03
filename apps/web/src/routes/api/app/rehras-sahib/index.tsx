@@ -1,4 +1,4 @@
-import type { RequestHandler } from '@builder.io/qwik-city'
+import type { RequestHandler } from '@builder.io/qwik-city';
 
 const data = {
   title: {
@@ -2269,7 +2269,7 @@ const data = {
         'Remembering Him in meditation, happiness comes, and all sorrows and pains simply vanish. ||2||',
     },
   ],
-}
+};
 export const onGet: RequestHandler = async ({ json }) => {
-  json(200, data)
-}
+  json(200, data);
+};

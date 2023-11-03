@@ -1,15 +1,15 @@
-import { component$, Slot, useStylesScoped$ } from '@builder.io/qwik'
-import styles from './media.css?inline'
+import { component$, Slot, useStylesScoped$ } from '@builder.io/qwik';
+import styles from './media.css?inline';
 
 interface MediaProps {
-  src: string
-  alt: string
-  link?: boolean
-  padded?: boolean
+  src: string;
+  alt: string;
+  link?: boolean;
+  padded?: boolean;
 }
 
 export default component$(({ src, alt, link, padded }: MediaProps) => {
-  useStylesScoped$(styles)
+  useStylesScoped$(styles);
 
   return (
     <>
@@ -24,5 +24,5 @@ export default component$(({ src, alt, link, padded }: MediaProps) => {
         <Slot />
       </div>
     </>
-  )
-})
+  );
+});

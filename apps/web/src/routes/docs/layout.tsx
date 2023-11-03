@@ -1,11 +1,11 @@
-import { component$, Slot, useStyles$ } from '@builder.io/qwik'
-import type { DocumentHead } from '@builder.io/qwik-city'
-import Menu from '~/components/menu/menu'
-import OnThisPage from '~/components/on-this-page/on-this-page'
-import styles from './docs.css?inline'
+import { component$, Slot, useStyles$ } from '@builder.io/qwik';
+import type { DocumentHead } from '@builder.io/qwik-city';
+import Menu from '~/components/menu/menu';
+import OnThisPage from '~/components/on-this-page/on-this-page';
+import styles from './docs.css?inline';
 
 export default component$(() => {
-  useStyles$(styles)
+  useStyles$(styles);
 
   return (
     <>
@@ -17,11 +17,11 @@ export default component$(() => {
         </article>
       </div>
     </>
-  )
-})
+  );
+});
 
 export const head: DocumentHead = ({ head }) => {
   return {
     title: `${head.title} - Shabad OS Docs`,
-  }
-}
+  };
+};

@@ -1,8 +1,8 @@
-import { component$, useStylesScoped$ } from '@builder.io/qwik'
-import styles from './line.css?inline'
+import { component$, useStylesScoped$ } from '@builder.io/qwik';
+import styles from './line.css?inline';
 
 export default component$(({ src, pronunciation, translation }: any) => {
-  useStylesScoped$(styles)
+  useStylesScoped$(styles);
   const titlesFuzzy = [
     'ੴ',
     '॥ ਜਪੁ ॥',
@@ -31,7 +31,7 @@ export default component$(({ src, pronunciation, translation }: any) => {
     'ਮਃ ੭',
     'ਮਃ ੮',
     'ਮਃ ੯',
-  ]
+  ];
   const titlesExact = [
     'ਜਾਪੁ ॥',
     'ਸਲੋਕੁ ॥',
@@ -42,12 +42,12 @@ export default component$(({ src, pronunciation, translation }: any) => {
     'ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥',
     'ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ॥',
     'ਰਹਰਾਸਿ ਸਾਹਿਬ',
-  ]
+  ];
   const isTitle =
     titlesFuzzy.some((ele) => src.indexOf(ele) >= 0) ||
-    titlesExact.some((ele) => ele == src)
+    titlesExact.some((ele) => ele == src);
   const isEndOfPauri =
-    /॥[੧੨੩੪੫੬੭੮੯੦]+॥/.test(src) || src.indexOf('ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।') >= 0
+    /॥[੧੨੩੪੫੬੭੮੯੦]+॥/.test(src) || src.indexOf('ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।') >= 0;
   return (
     <div
       class={`line ${isTitle ? 'title' : ''}${
@@ -56,35 +56,35 @@ export default component$(({ src, pronunciation, translation }: any) => {
     >
       <p class='bold'>
         {src.split(' ').map((word: string, index: number) => {
-          const betweenWords = index == 0 ? '' : ' '
+          const betweenWords = index == 0 ? '' : ' ';
           if (word.endsWith(';')) {
             return (
               <>
                 {betweenWords}
                 <span class='heavy'>{word.slice(0, -1)}</span>
               </>
-            )
+            );
           } else if (word.endsWith(',')) {
             return (
               <>
                 {betweenWords}
                 <span class='medium'>{word.slice(0, -1)}</span>
               </>
-            )
+            );
           } else if (word.endsWith('.')) {
             return (
               <>
                 {betweenWords}
                 <span class='light'>{word.slice(0, -1)}</span>
               </>
-            )
+            );
           }
           return (
             <>
               {betweenWords}
               {word}
             </>
-          )
+          );
         })}
       </p>
       <p>
@@ -94,24 +94,24 @@ export default component$(({ src, pronunciation, translation }: any) => {
               <>
                 <span class='heavy'>{word.slice(0, -1)}</span>{' '}
               </>
-            )
+            );
           } else if (word.endsWith(',')) {
             return (
               <>
                 <span class='medium'>{word.slice(0, -1)}</span>{' '}
               </>
-            )
+            );
           } else if (word.endsWith('.')) {
             return (
               <>
                 <span class='light'>{word.slice(0, -1)}</span>{' '}
               </>
-            )
+            );
           }
-          return <>{word} </>
+          return <>{word} </>;
         })}
       </p>
       <p>{translation}</p>
     </div>
-  )
-})
+  );
+});

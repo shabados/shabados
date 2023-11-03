@@ -1,4 +1,4 @@
-import type { RequestHandler } from '@builder.io/qwik-city'
+import type { RequestHandler } from '@builder.io/qwik-city';
 
 const data = {
   title: {
@@ -200,8 +200,8 @@ const data = {
         'O Nanak, may the Naam (Holy) be ever in ascendance! In Thy will may the good of all prevail!',
     },
   ],
-}
+};
 
 export const onGet: RequestHandler = async ({ json }) => {
-  json(200, data)
-}
+  json(200, data);
+};

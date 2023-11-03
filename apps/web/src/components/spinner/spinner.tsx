@@ -1,8 +1,8 @@
-import { component$, useStylesScoped$ } from '@builder.io/qwik'
-import styles from './spinner.css?inline'
+import { component$, useStylesScoped$ } from '@builder.io/qwik';
+import styles from './spinner.css?inline';
 
 export default component$(() => {
-  useStylesScoped$(styles)
+  useStylesScoped$(styles);
 
   return (
     <div class='spinner'>
@@ -21,5 +21,5 @@ export default component$(() => {
         <circle cx='9.5' cy='9.5' r='7'></circle>
       </svg>
     </div>
-  )
-})
+  );
+});

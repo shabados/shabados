@@ -1,5 +1,5 @@
-import { component$ } from '@builder.io/qwik'
-import type { DocumentHead } from '@builder.io/qwik-city'
+import { component$ } from '@builder.io/qwik';
+import type { DocumentHead } from '@builder.io/qwik-city';
 
 export const head: DocumentHead = {
   meta: [
@@ -8,7 +8,7 @@ export const head: DocumentHead = {
       content: 'Learn about shabad',
     },
   ],
-}
+};
 
 export default component$(() => (
   <div>
@@ -18,4 +18,4 @@ export default component$(() => (
       <a href='mailto:team@shabados.com'>contact us</a>
     </p>
   </div>
-))
+));

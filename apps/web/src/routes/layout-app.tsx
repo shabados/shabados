@@ -6,11 +6,11 @@ import {
   useStore,
   useStyles$,
   useVisibleTask$,
-} from '@builder.io/qwik'
-import Header from '~/components/app/header/header'
-import styles from './app.css?inline'
-import requestWakeLock from '~/lib/wakelock'
-import { type RequestHandler } from '@builder.io/qwik-city'
+} from '@builder.io/qwik';
+import Header from '~/components/app/header/header';
+import styles from './app.css?inline';
+import requestWakeLock from '~/lib/wakelock';
+import { type RequestHandler } from '@builder.io/qwik-city';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
@@ -18,29 +18,29 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
     staleWhileRevalidate: 60 * 60 * 24 * 7 * 2,
     // Max once every two days, revalidate on the server to get a fresh version of this page
     maxAge: 60 * 60 * 24 * 2,
-  })
-}
+  });
+};
 
 export type Interface = {
-  zoom: number
-  mode: string
-  notes: number
-  notesContent: string
-}
+  zoom: number;
+  mode: string;
+  notes: number;
+  notesContent: string;
+};
 
 export const InterfaceContext = createContextId<Interface>(
-  'com.shabados.app.interface-context'
-)
+  'com.shabados.app.interface-context',
+);
 
 export const setLocalStorage = (key: string, value: string) => {
-  localStorage.setItem(key, value)
-}
+  localStorage.setItem(key, value);
+};
 
 export const getLocalStorage = (key: string) => {
   if (typeof window !== 'undefined') {
-    return localStorage.getItem(key)
+    return localStorage.getItem(key);
   }
-}
+};
 
 export default component$(() => {
   const interfaceStore = useStore({
@@ -48,16 +48,17 @@ export default component$(() => {
     mode: 'classic',
     notes: 0,
     notesContent: '',
-  })
-  useContextProvider(InterfaceContext, interfaceStore)
+  });
+  useContextProvider(InterfaceContext, interfaceStore);
   useVisibleTask$(() => {
-    interfaceStore.zoom = parseFloat(getLocalStorage('interfaceZoom') ?? '1')
-    interfaceStore.mode = getLocalStorage('interfaceMode') ?? 'classic'
-    interfaceStore.notes = parseInt(getLocalStorage('interfaceNotes') ?? '0')
-    interfaceStore.notesContent = getLocalStorage('interfaceNotesContent') ?? ''
-    requestWakeLock()
-  })
-  useStyles$(styles)
+    interfaceStore.zoom = parseFloat(getLocalStorage('interfaceZoom') ?? '1');
+    interfaceStore.mode = getLocalStorage('interfaceMode') ?? 'classic';
+    interfaceStore.notes = parseInt(getLocalStorage('interfaceNotes') ?? '0');
+    interfaceStore.notesContent =
+      getLocalStorage('interfaceNotesContent') ?? '';
+    requestWakeLock();
+  });
+  useStyles$(styles);
   return (
     <>
       <Header />
@@ -72,13 +73,13 @@ export default component$(() => {
               maxLength={100}
               value={interfaceStore.notesContent}
               onChange$={(e) => {
-                interfaceStore.notesContent = e.target.value
-                setLocalStorage('interfaceNotesContent', e.target.value)
+                interfaceStore.notesContent = e.target.value;
+                setLocalStorage('interfaceNotesContent', e.target.value);
               }}
             />
           )}
         </div>
       </main>
     </>
-  )
-})
+  );
+});

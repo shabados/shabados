@@ -21,6 +21,10 @@
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
   },
+  "prettier": {
+    "singleQuote": true,
+    "jsxSingleQuote": true
+  },
   "devDependencies": {
     "@builder.io/qwik": "^1.1.0",
     "@builder.io/qwik-city": "^1.1.0",
