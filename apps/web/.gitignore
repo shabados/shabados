@@ -41,5 +41,8 @@ lerna-debug.log*
 # License
 LICENSE
 
-# Vercel
-.vercel
+# Firebase
+functions/server
+functions/node_modules
+.firebase
+.env**

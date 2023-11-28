@@ -59,9 +59,6 @@ export default component$(() => {
             }
           `}
         />
-        {import.meta.env.PROD && (
-          <script defer src='/_vercel/insights/script.js'></script>
-        )}
       </head>
       <body lang='en'>
         <RouterOutlet />

@@ -4,7 +4,6 @@ import GitHub from '~/components/icons/github';
 import Instagram from '~/components/icons/instagram';
 import Twitter from '~/components/icons/twitter';
 import YouTube from '~/components/icons/youtube';
-import PoweredByVercel from '../icons/powered-by-vercel';
 import Slack from '../icons/slack';
 
 export default component$(() => {
@@ -52,13 +51,6 @@ export default component$(() => {
               <GitHub />
             </a>
           </div>
-          <a
-            href='https://vercel.com/?utm_source=shabados&utm_campaign=oss'
-            target='_blank'
-            draggable={false}
-          >
-            <PoweredByVercel />
-          </a>
         </article>
       </div>
     </footer>

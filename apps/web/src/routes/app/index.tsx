@@ -1,5 +1,5 @@
-import { component$, useStyles$ } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
+import { component$, useSignal, useStyles$ } from '@builder.io/qwik';
+import { useNavigate, type DocumentHead, Form } from '@builder.io/qwik-city';
 import styles from './app.css?inline';
 
 export const head: DocumentHead = {
@@ -14,17 +14,31 @@ export const head: DocumentHead = {
 
 export default component$(() => {
   useStyles$(styles);
+  const searchInput = useSignal('');
+  const nav = useNavigate();
   return (
     <div>
       <article>
+        <h2>Search (Experimental)</h2>
+        <Form
+          onSubmitCompleted$={async () =>
+            await nav(`/app/search/${searchInput.value.substring(0, 4)}`)
+          }
+        >
+          <input
+            type='search'
+            maxLength={4}
+            minLength={1}
+            spellcheck={false}
+            autoCorrect='off'
+            autoCapitalize='none'
+            autoComplete='off'
+            onChange$={(_, el) => (searchInput.value = el.value)}
+          />
+        </Form>
         <p>
-          Please note that this is an experimental web app. If you're looking
-          for the stable app, released for desktop, then please see:
-        </p>
-        <p>
-          <a href='/support/install-shabad-os-presenter'>
-            How to Install Shabad OS Presenter (Desktop)
-          </a>
+          Use first-letter gurbani or pronunciation. (E.g. try "ਸਹਦ", "ਨਕਝ",
+          "shd", or "nkj" for "ਸਤਿਗੁਰੁ ਹੋਇ ਦਇਆਲੁ ਨ ਕਬਹੂੰ ਝੂਰੀਐ")
         </p>
         <hr />
       </article>

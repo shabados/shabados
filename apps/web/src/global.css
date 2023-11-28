@@ -183,6 +183,11 @@ h6 {
   font-size: 1em;
 }
 
+p.small {
+  font-size: 0.8em;
+  color: var(--fg-muted);
+}
+
 hr {
   margin: 0;
   border: 0.5px solid var(--toner);
@@ -292,33 +297,14 @@ select {
   margin: 0;
   appearance: none;
   -webkit-appearance: none;
-}
-
-input:hover,
-input:focus,
-select:hover,
-select:focus {
-  background-color: var(--toner);
-  color: var(--link-hover);
-}
-
-input:focus,
-select:focus {
-  outline: 2px solid var(--link-hover);
-  outline-offset: -0.5px;
-}
-
-select {
   background-color: var(--bg);
   transition:
     background-color 0.25s ease,
     color 0.25s ease;
   border-radius: 25px;
-  padding: 2px 12px;
   border: 0.5px solid var(--toner);
   font-size: 16px;
   font-weight: 500;
-  text-align: center;
   color: var(--link);
   font-family:
     'Sant Lipi',
@@ -335,12 +321,43 @@ select {
     'Helvetica Neue',
     Arial,
     sans-serif;
+  padding: 2px 12px;
+}
+
+select {
+  text-align: center;
+}
+
+input[type='search'],
+input[type='text'] {
+  background-color: var(--bg-base);
+  color: var(--fg);
+}
+
+input:hover,
+input:focus,
+select:hover,
+select:focus {
+  background-color: var(--toner);
+  color: var(--link-hover);
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid var(--link-hover);
+  outline-offset: -0.5px;
+}
+
+input[type='search']:hover,
+input[type='search']:focus {
+  background-color: var(--bg-base);
+  color: var(--fg);
+  outline: 2px solid var(--link-hover);
 }
 
 input[type='range'] {
   -webkit-appearance: none;
   appearance: none;
-  background: transparent;
   cursor: pointer;
   width: 144px;
   overflow: hidden;
@@ -446,6 +463,13 @@ input[type='range']:focus::-moz-range-thumb {
     min-width: 48px;
   }
 
+  input[type='search'] {
+    width: 100%;
+    text-align: center;
+  }
+
+  input[type='search'],
+  input[type='text'],
   select {
     padding: 10px 12px;
     border-radius: 40px;
