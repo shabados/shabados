@@ -64,10 +64,10 @@ export default component$(() => {
         <BottomBar
           prevLink={
             signal.value.paging.previous &&
-            `/app/${signal.value.paging.previous}`
+            `/app/h/${signal.value.paging.previous}`
           }
           nextLink={
-            signal.value.paging.next && `/app/${signal.value.paging.next}`
+            signal.value.paging.next && `/app/h/${signal.value.paging.next}`
           }
         />
       )}
