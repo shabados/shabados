@@ -31,6 +31,15 @@ export default component$(({ src, pronunciation, translation }: any) => {
     'ਮਃ ੭',
     'ਮਃ ੮',
     'ਮਃ ੯',
+    'ਦੇਵਗੰਧਾਰੀ ੧',
+    'ਦੇਵਗੰਧਾਰੀ ੨',
+    'ਦੇਵਗੰਧਾਰੀ ੩',
+    'ਦੇਵਗੰਧਾਰੀ ੪',
+    'ਦੇਵਗੰਧਾਰੀ ੫',
+    'ਦੇਵਗੰਧਾਰੀ ੬',
+    'ਦੇਵਗੰਧਾਰੀ ੭',
+    'ਦੇਵਗੰਧਾਰੀ ੮',
+    'ਦੇਵਗੰਧਾਰੀ ੯',
   ];
   const titlesExact = [
     'ਜਾਪੁ ॥',
@@ -42,6 +51,11 @@ export default component$(({ src, pronunciation, translation }: any) => {
     'ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥',
     'ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ॥',
     'ਰਹਰਾਸਿ ਸਾਹਿਬ',
+    'ਪਉੜੀ।',
+    'ਪਉੜੀ ।',
+    'ਪਉੜੀ॥',
+    'ਪਉੜੀ ॥',
+    'ਆਸਾ ॥',
   ];
   const isTitle =
     titlesFuzzy.some((ele) => src.indexOf(ele) >= 0) ||

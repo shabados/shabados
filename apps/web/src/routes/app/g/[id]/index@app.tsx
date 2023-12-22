@@ -1,6 +1,7 @@
 import { type RequestHandler, routeLoader$ } from '@builder.io/qwik-city';
 import { component$ } from '@builder.io/qwik';
 import Line from '~/components/line/line';
+import BottomBar from '~/components/app/bottom-bar/bottom-bar';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
@@ -39,6 +40,7 @@ interface DataProps {
 
 export default component$(() => {
   const signal = useLineGroupsApi();
+  const defaultSource = signal.value.meta.sources[0];
   return (
     <>
       {signal.value.data.default.src.map(({ src, translations }: DataProps) => (
@@ -50,6 +52,18 @@ export default component$(() => {
           pronunciation=''
         />
       ))}
+      {signal.value.data[defaultSource].paging && (
+        <BottomBar
+          prevLink={
+            signal.value.data[defaultSource].paging.previous &&
+            `/app/g/${signal.value.data[defaultSource].paging.previous}`
+          }
+          nextLink={
+            signal.value.data[defaultSource].paging.next &&
+            `/app/g/${signal.value.data[defaultSource].paging.next}`
+          }
+        />
+      )}
     </>
   );
 });
