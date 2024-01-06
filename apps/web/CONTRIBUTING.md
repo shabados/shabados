@@ -20,6 +20,13 @@ npm start
 
 Alt+Click in the browser to be taken to the relevant file in your code editor. This also works for `mdx` files.
 
+## Firebase Hosting
+
+```shell
+npm run build
+npm run deploy
+```
+
 ## Thank you
 
 Your contributions to open source, large or small, make great projects like this possible. Thank you for taking the time to participate in this project.
