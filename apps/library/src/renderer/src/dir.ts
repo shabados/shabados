@@ -174,33 +174,6 @@ interface Point {
   y: number;
 }
 
-function drawRect(
-  imageDims: Dimensions,
-  quadPoints: Point[],
-  ctx: CanvasRenderingContext2D,
-  activeNode: number
-) {
-  ctx.clearRect(0, 0, imageDims.width, imageDims.height);
-
-  drawNodes(imageDims, quadPoints, ctx, activeNode);
-
-  let region = new Path2D();
-  region.moveTo(
-    quadPoints[0].x * imageDims.width,
-    quadPoints[0].y * imageDims.height
-  );
-  for (let i of [1, 2, 3]) {
-    region.lineTo(
-      quadPoints[i].x * imageDims.width,
-      quadPoints[i].y * imageDims.height
-    );
-  }
-  region.closePath();
-
-  ctx.fillStyle = "rgb(255 0 0 / 40%)";
-  ctx.fill(region);
-}
-
 function draw(
   imageDims: Dimensions,
   quadPoints: Point[],
@@ -239,9 +212,9 @@ function drawNodes(
 
   for (let i = 0; i < quadPoints.length; i++) {
     if (i == activeNode) {
-      ctx.fillStyle = "rgb(255 125 0 / 100%)";
+      ctx.fillStyle = "rgb(0 255 0 / 80%)";
     } else {
-      ctx.fillStyle = "rgb(255 0 0 / 80%)";
+      ctx.fillStyle = "rgb(255 0 0 / 40%)";
     }
     ctx.fillRect(
       quadPoints[i].x * imageDims.width - 4,
@@ -250,6 +223,149 @@ function drawNodes(
       8
     );
   }
+}
+
+function drawRect(
+  imageDims: Dimensions,
+  quadPoints: Point[],
+  ctx: CanvasRenderingContext2D,
+  activeNode: number
+) {
+  ctx.clearRect(0, 0, imageDims.width, imageDims.height);
+
+  drawNodes(imageDims, quadPoints, ctx, activeNode);
+
+  let region = new Path2D();
+
+  // draw boundary
+  region.moveTo(
+    quadPoints[0].x * imageDims.width,
+    quadPoints[0].y * imageDims.height
+  );
+  for (let i of [1, 2, 3]) {
+    region.lineTo(
+      quadPoints[i].x * imageDims.width,
+      quadPoints[i].y * imageDims.height
+    );
+  }
+  region.closePath();
+
+  //set up line drawing
+  ctx.strokeStyle = "rgb(255 0 0 / 80%)";
+  ctx.lineWidth = 1;
+
+  // draw vertical half
+  ctx.beginPath();
+  ctx.moveTo(
+    ((quadPoints[0].x + quadPoints[1].x) / 2) * imageDims.width,
+    ((quadPoints[0].y + quadPoints[1].y) / 2) * imageDims.height
+  );
+  ctx.lineTo(
+    ((quadPoints[2].x + quadPoints[3].x) / 2) * imageDims.width,
+    ((quadPoints[2].y + quadPoints[3].y) / 2) * imageDims.height
+  );
+  ctx.stroke();
+
+  // draw horizontal half
+  ctx.beginPath();
+  ctx.moveTo(
+    ((quadPoints[0].x + quadPoints[3].x) / 2) * imageDims.width,
+    ((quadPoints[0].y + quadPoints[3].y) / 2) * imageDims.height
+  );
+  ctx.lineTo(
+    ((quadPoints[2].x + quadPoints[1].x) / 2) * imageDims.width,
+    ((quadPoints[2].y + quadPoints[1].y) / 2) * imageDims.height
+  );
+  ctx.stroke();
+
+  // draw vertical thirds
+  ctx.beginPath();
+  ctx.moveTo(
+    ((quadPoints[1].x - quadPoints[0].x) / 3 + quadPoints[0].x) *
+      imageDims.width,
+    ((quadPoints[1].y - quadPoints[0].y) / 3 + quadPoints[0].y) *
+      imageDims.height
+  );
+  ctx.lineTo(
+    ((quadPoints[2].x - quadPoints[3].x) / 3 + quadPoints[3].x) *
+      imageDims.width,
+    ((quadPoints[2].y - quadPoints[3].y) / 3 + quadPoints[3].y) *
+      imageDims.height
+  );
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.moveTo(
+    (((quadPoints[1].x - quadPoints[0].x) * 2) / 3 + quadPoints[0].x) *
+      imageDims.width,
+    (((quadPoints[1].y - quadPoints[0].y) * 2) / 3 + quadPoints[0].y) *
+      imageDims.height
+  );
+  ctx.lineTo(
+    (((quadPoints[2].x - quadPoints[3].x) * 2) / 3 + quadPoints[3].x) *
+      imageDims.width,
+    (((quadPoints[2].y - quadPoints[3].y) * 2) / 3 + quadPoints[3].y) *
+      imageDims.height
+  );
+  ctx.stroke();
+
+  // draw horizontal thirds
+  ctx.beginPath();
+  ctx.moveTo(
+    ((quadPoints[3].x - quadPoints[0].x) / 3 + quadPoints[0].x) *
+      imageDims.width,
+    ((quadPoints[3].y - quadPoints[0].y) / 3 + quadPoints[0].y) *
+      imageDims.height
+  );
+  ctx.lineTo(
+    ((quadPoints[2].x - quadPoints[1].x) / 3 + quadPoints[1].x) *
+      imageDims.width,
+    ((quadPoints[2].y - quadPoints[1].y) / 3 + quadPoints[1].y) *
+      imageDims.height
+  );
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.moveTo(
+    (((quadPoints[3].x - quadPoints[0].x) * 2) / 3 + quadPoints[0].x) *
+      imageDims.width,
+    (((quadPoints[3].y - quadPoints[0].y) * 2) / 3 + quadPoints[0].y) *
+      imageDims.height
+  );
+  ctx.lineTo(
+    (((quadPoints[2].x - quadPoints[1].x) * 2) / 3 + quadPoints[1].x) *
+      imageDims.width,
+    (((quadPoints[2].y - quadPoints[1].y) * 2) / 3 + quadPoints[1].y) *
+      imageDims.height
+  );
+  ctx.stroke();
+
+  // draw diagonals
+  // ctx.beginPath();
+  // ctx.moveTo(
+  //   quadPoints[0].x * imageDims.width,
+  //   quadPoints[0].y * imageDims.height
+  // );
+  // ctx.lineTo(
+  //   quadPoints[2].x * imageDims.width,
+  //   quadPoints[2].y * imageDims.height
+  // );
+  // ctx.stroke();
+
+  // ctx.beginPath();
+  // ctx.moveTo(
+  //   quadPoints[1].x * imageDims.width,
+  //   quadPoints[1].y * imageDims.height
+  // );
+  // ctx.lineTo(
+  //   quadPoints[3].x * imageDims.width,
+  //   quadPoints[3].y * imageDims.height
+  // );
+  // ctx.stroke();
+
+  ctx.fillStyle = "rgb(255 0 0 / 20%)";
+  ctx.fill(region);
+  ctx.stroke(region);
 }
 
 function organizeQuadPoints(quadPoints: Point[]) {
