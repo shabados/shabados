@@ -1,5 +1,5 @@
-import './style.css'
-import logo from './favicon.svg'
+import "./style.css";
+import logo from "./favicon.svg";
 import {
   setupDirectory,
   exportQuadPoints,
@@ -7,9 +7,9 @@ import {
   setPageRatio,
   getLocalStorage,
   setLocalStorage,
-} from './dir'
+} from "./dir";
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 <div class='app__left'>
   <div id='app__left__controls'>
   <button id='dirpik' type='button'>
@@ -43,71 +43,100 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div id='app__right__view'></div>
   <div id='app__right__preview'></div>
 </div>
-`
+`;
 
-if (getLocalStorage('pageRatio') != null) {
-  document.querySelector<HTMLButtonElement>('#pageratioinput')!.value =
-    getLocalStorage('pageRatio') || '0.71'
+if (getLocalStorage("pageRatio") != null) {
+  document.querySelector<HTMLButtonElement>("#pageratioinput")!.value =
+    getLocalStorage("pageRatio") || "0.71";
 } else {
-  setLocalStorage('pageRatio', '0.71')
-  document.querySelector<HTMLButtonElement>('#pageratioinput')!.value = '0.71'
+  setLocalStorage("pageRatio", "0.71");
+  document.querySelector<HTMLButtonElement>("#pageratioinput")!.value = "0.71";
 }
 
 document
-  .querySelector<HTMLButtonElement>('#dirpik')!
-  .addEventListener('click', () => setupDirectory())
+  .querySelector<HTMLButtonElement>("#dirpik")!
+  .addEventListener("click", () => setupDirectory());
 
 document
-  .querySelector<HTMLButtonElement>('#pageratiosetter')!
-  .addEventListener('click', () =>
+  .querySelector<HTMLButtonElement>("#pageratiosetter")!
+  .addEventListener("click", () =>
     setPageRatio(
-      document.querySelector<HTMLButtonElement>('#pageratioinput')!.value
+      document.querySelector<HTMLButtonElement>("#pageratioinput")!.value
     )
-  )
+  );
 
 document
-  .querySelector<HTMLButtonElement>('#import')!
-  .addEventListener('click', () => importQuadPoints())
+  .querySelector<HTMLButtonElement>("#import")!
+  .addEventListener("click", () => importQuadPoints());
 
 document
-  .querySelector<HTMLButtonElement>('#export')!
-  .addEventListener('click', () => exportQuadPoints())
+  .querySelector<HTMLButtonElement>("#export")!
+  .addEventListener("click", () => exportQuadPoints());
 
-document.querySelector<HTMLButtonElement>('#export')!.disabled = true
+document.querySelector<HTMLButtonElement>("#export")!.disabled = true;
 
-let keys = {}
+let keys = {};
 
 function pushHotkeys(event) {
-  const keyName = event.key
-  keys[keyName] = true
+  const keyName = event.key;
+  keys[keyName] = true;
   if (Object.keys(keys).length == 1) {
-    const key = Object.keys(keys)[0]
-    if (key == 'p') {
-      const previewArea = document.getElementById('app__right__preview')?.style
-        .display
-      if (previewArea != null && previewArea == 'block') {
-        document.querySelector<HTMLButtonElement>('#modal__close')?.click()
-        return
-      }
-      document.querySelector<HTMLButtonElement>('#preview')?.click()
-    }
-    if (key == 'ArrowLeft') {
-      document.querySelector<HTMLButtonElement>('#prev')?.click()
-    }
-    if (key == 'ArrowRight') {
-      document.querySelector<HTMLButtonElement>('#next')?.click()
+    const key = Object.keys(keys)[0];
+    // let nudge: string = "Nowhere";
+    const nudgeUI = document.querySelector<HTMLButtonElement>("#nup")?.disabled;
+    let nudgeable: boolean = nudgeUI != null && !nudgeUI;
+    console.log(nudgeable);
+    switch (key) {
+      case "p":
+        const previewArea = document.getElementById("app__right__preview")
+          ?.style.display;
+        if (previewArea != null && previewArea == "block") {
+          document.querySelector<HTMLButtonElement>("#modal__close")?.click();
+          return;
+        }
+        document.querySelector<HTMLButtonElement>("#preview")?.click();
+        releaseHotkeys();
+        break;
+      case "ArrowUp":
+        if (nudgeable) {
+          document.querySelector<HTMLButtonElement>("#nup")!.click();
+          event.preventDefault();
+        }
+        releaseHotkeys();
+        break;
+      case "ArrowDown":
+        if (nudgeable) {
+          document.querySelector<HTMLButtonElement>("#ndown")!.click();
+          event.preventDefault();
+        }
+        releaseHotkeys();
+        break;
+      case "ArrowLeft":
+        event.preventDefault();
+        nudgeable
+          ? document.querySelector<HTMLButtonElement>("#nleft")!.click()
+          : document.querySelector<HTMLButtonElement>("#prev")!.click();
+        releaseHotkeys();
+        break;
+      case "ArrowRight":
+        event.preventDefault();
+        nudgeable
+          ? document.querySelector<HTMLButtonElement>("#nright")!.click()
+          : document.querySelector<HTMLButtonElement>("#next")!.click();
+        releaseHotkeys();
+        break;
     }
   }
 }
 
 function releaseHotkeys() {
-  keys = {}
+  keys = {};
 }
 
-document.addEventListener('keydown', (event) => {
-  pushHotkeys(event)
-})
+document.addEventListener("keydown", (event) => {
+  pushHotkeys(event);
+});
 
-document.addEventListener('keyup', () => {
-  releaseHotkeys()
-})
+document.addEventListener("keyup", () => {
+  releaseHotkeys();
+});
