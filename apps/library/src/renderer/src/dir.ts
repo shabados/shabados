@@ -60,6 +60,7 @@ async function setupView(entry: FileSystemFileHandle) {
 
   let quadPoints: Point[] = [];
   let nearbyPoint: number = -1;
+  let initialPoint = {};
   let id = entry.name;
 
   const viewArea = <Element>document.getElementById("app__right__view");
@@ -146,8 +147,9 @@ async function setupView(entry: FileSystemFileHandle) {
   canvasQuad.addEventListener(
     "mouseup",
     function (e) {
-      movePoint(imageDims, quadPoints, e, nearbyPoint);
-      draw(imageDims, quadPoints, ctxQuad, e, nearbyPoint);
+      movePoint(imageDims, quadPoints, e, initialPoint, nearbyPoint);
+      nearbyPoint = draw(imageDims, quadPoints, ctxQuad, e, nearbyPoint);
+      nudgePointsButtons(nearbyPoint > -1);
       SaveQuadPointsToLocalStorage(id, quadPoints);
     },
     false
@@ -155,7 +157,7 @@ async function setupView(entry: FileSystemFileHandle) {
   canvasQuad.addEventListener(
     "mousedown",
     function (e) {
-      nearbyPoint = dragPoints(imageDims, quadPoints, e);
+      [{ nearbyPoint, initialPoint }] = dragPoints(imageDims, quadPoints, e);
       nudgePointsButtons(nearbyPoint > -1);
     },
     false
@@ -213,6 +215,7 @@ function draw(
     };
     quadPoints.push(point);
     activePoint = quadPoints.indexOf(point);
+
     drawNodes(imageDims, quadPoints, ctx, activePoint);
     if (quadPoints.length == 4) {
       organizeQuadPoints(quadPoints);
@@ -223,6 +226,7 @@ function draw(
     drawNodes(imageDims, quadPoints, ctx, activePoint);
     drawRect(imageDims, quadPoints, ctx, activePoint);
   }
+  return activePoint;
 }
 
 function drawNodes(
@@ -285,11 +289,7 @@ function organizeQuadPoints(quadPoints: Point[]) {
   quadPoints[3] = bottomLeft;
 }
 
-function dragPoints(
-  imageDims: Dimensions,
-  quadPoints: Point[],
-  e: MouseEvent
-): number {
+function dragPoints(imageDims: Dimensions, quadPoints: Point[], e: MouseEvent) {
   let closestPoint = -1;
   if (quadPoints && quadPoints.length == 4) {
     const pad = 16;
@@ -308,28 +308,34 @@ function dragPoints(
       }
     }
   }
-  return closestPoint;
+  return [
+    {
+      nearbyPoint: closestPoint,
+      initialPoint: { x: e.offsetX, y: e.offsetY },
+    },
+  ];
 }
 
 function movePoint(
   imageDims: Dimensions,
   quadPoints: Point[],
   e: MouseEvent,
+  initialPoint,
   nearbyPoint: number
 ) {
   if (nearbyPoint > -1) {
-    // const moveThreshold = 0;
-    // if (
-    //   Math.abs(e.offsetX - quadPoints[nearbyPoint].x * imageDims.width) >=
-    //     moveThreshold ||
-    //   Math.abs(e.offsetY - quadPoints[nearbyPoint].y * imageDims.height) >=
-    //     moveThreshold
-    // ) {
-    quadPoints[nearbyPoint] = {
-      x: e.offsetX / imageDims.width,
-      y: e.offsetY / imageDims.height,
-    };
-    // }
+    const moveThreshold = 2;
+    if (
+      Math.abs(e.offsetX - initialPoint.x) >= moveThreshold ||
+      Math.abs(e.offsetY - initialPoint.y) >= moveThreshold
+    ) {
+      const xShift = (e.offsetX - initialPoint.x) / imageDims.width;
+      const yShift = (e.offsetY - initialPoint.y) / imageDims.height;
+      quadPoints[nearbyPoint] = {
+        x: quadPoints[nearbyPoint].x + xShift,
+        y: quadPoints[nearbyPoint].y + yShift,
+      };
+    }
   }
 }
 
@@ -341,7 +347,7 @@ function nudgePoint(
   ctx: CanvasRenderingContext2D,
   nearbyPoint: number
 ) {
-  const distance = 2;
+  const distance = 1;
   switch (direction) {
     case "Up":
       quadPoints[nearbyPoint] = {
