@@ -102,6 +102,8 @@ export default component$(({ toggled }: Props) => {
               <option value='blank'>Blank</option>
               <option value='waheguru'>ਵਾਹਿਗੁਰੂ (Waheguru)</option>
               <option value='mulmantar'>ਮੂਲ ਮੰਤਰ (Mul Mantar)</option>
+              <option value='bsnssa'>Bole So Nihal</option>
+              <option value='wjkk'>Wjkk Wjkf</option>
             </select>
           </div>
           <div

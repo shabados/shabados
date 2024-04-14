@@ -72,6 +72,16 @@ export const Slideshow = component$<SlideshowProps>(({ focusOnClose }) => {
       translation:
         "One Universal Creator God. The Name Is Truth. Creative Being Personified. No Fear. No Hatred. Image Of The Undying, Beyond Birth, Self-Existent. By Guru's Grace ~",
     },
+    bsnssa: {
+      src: 'ਬੋਲੇ ਸੋ ਨਿਹਾਲ; ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ',
+      pronunciation: 'bole so nihāl; sat srī akāl',
+      translation: 'Whoever says, transcends; Truth is the Timeless One!',
+    },
+    wjkk: {
+      src: 'ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ; ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਿਹ',
+      pronunciation: 'wāhegurū jī kā khālsā; wāhegurū jī kī fateh',
+      translation: "Waheguru's pure, Waheguru's victory",
+    },
   };
   const data = map[interfaceStore.slideshowType] || {};
 
