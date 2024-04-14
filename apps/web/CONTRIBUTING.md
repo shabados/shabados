@@ -22,6 +22,8 @@ Alt+Click in the browser to be taken to the relevant file in your code editor. T
 
 ## Firebase Hosting
 
+After making sure you've run `npm install` inside the `functions` folder, then from the root folder run:
+
 ```shell
 npm run build
 npm run deploy
