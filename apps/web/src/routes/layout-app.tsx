@@ -90,9 +90,9 @@ export const Slideshow = component$<SlideshowProps>(({ focusOnClose }) => {
             pronunciation={'src' in data ? data.pronunciation : ''}
             translation={'translation' in data ? data.translation : ''}
           />
-          <p class='small slideshow__hint'>Click to exit slideshow</p>
         </article>
       </div>
+      <p class='small slideshow__hint'>Click to exit slideshow</p>
     </main>
   );
 });
