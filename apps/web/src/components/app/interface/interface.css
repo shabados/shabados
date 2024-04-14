@@ -39,7 +39,7 @@
 }
 
 .modal-bg {
-  z-index: 1;
+  z-index: 2;
   overscroll-behavior: contain;
   width: 100vw;
   height: 100vh;
@@ -53,7 +53,7 @@
 .modal {
   position: fixed;
   background-color: var(--bg-base);
-  z-index: 2;
+  z-index: 3;
   color: var(--fg-muted);
   font-size: 16px;
   max-width: 100vw;

@@ -2,15 +2,18 @@ import {
   component$,
   createContextId,
   Slot,
+  useContext,
   useContextProvider,
+  useSignal,
   useStore,
   useStyles$,
   useVisibleTask$,
 } from '@builder.io/qwik';
-import Header from '~/components/app/header/header';
-import styles from './app.css?inline';
-import requestWakeLock from '~/lib/wakelock';
 import { type RequestHandler } from '@builder.io/qwik-city';
+import Header from '~/components/app/header/header';
+import Line from '~/components/line/line';
+import requestWakeLock from '~/lib/wakelock';
+import styles from './app.css?inline';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
@@ -24,6 +27,8 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 export type Interface = {
   zoom: number;
   mode: string;
+  slideshow: number;
+  slideshowType: string;
   notes: number;
   notesContent: string;
 };
@@ -42,10 +47,62 @@ export const getLocalStorage = (key: string) => {
   }
 };
 
+interface LineProps {
+  src: string;
+  translation: string;
+  pronunciation: string;
+}
+
+interface SlideshowProps {
+  focusOnClose: HTMLElement;
+}
+
+export const Slideshow = component$<SlideshowProps>(({ focusOnClose }) => {
+  const interfaceStore = useContext(InterfaceContext);
+  const map: { [key: string]: LineProps } = {
+    waheguru: {
+      src: 'ਵਾਹਿਗੁਰੂ',
+      pronunciation: 'wāhegurū',
+      translation: 'Waheguru',
+    },
+    mulmantar: {
+      src: 'ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ; ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ',
+      pronunciation:
+        'ik oañkār sat nām kartā purakh nirbhau nirvēr; akāl mūrat ajūnī sēbhañ gur prasād',
+      translation:
+        "One Universal Creator God. The Name Is Truth. Creative Being Personified. No Fear. No Hatred. Image Of The Undying, Beyond Birth, Self-Existent. By Guru's Grace ~",
+    },
+  };
+  const data = map[interfaceStore.slideshowType] || {};
+
+  return (
+    <main
+      class='slideshow'
+      onClick$={() => {
+        interfaceStore.slideshow = 0;
+        focusOnClose.focus();
+      }}
+    >
+      <div>
+        <article>
+          <Line
+            src={'src' in data ? data.src : ''}
+            pronunciation={'src' in data ? data.pronunciation : ''}
+            translation={'translation' in data ? data.translation : ''}
+          />
+          <p class='small slideshow__hint'>Click to exit slideshow</p>
+        </article>
+      </div>
+    </main>
+  );
+});
+
 export default component$(() => {
   const interfaceStore = useStore({
     zoom: 1,
     mode: 'classic',
+    slideshow: 0,
+    slideshowType: 'blank',
     notes: 0,
     notesContent: '',
   });
@@ -53,16 +110,41 @@ export default component$(() => {
   useVisibleTask$(() => {
     interfaceStore.zoom = parseFloat(getLocalStorage('interfaceZoom') ?? '1');
     interfaceStore.mode = getLocalStorage('interfaceMode') ?? 'classic';
+    interfaceStore.slideshow = 0; // always set slideshow to "off" on load
+    interfaceStore.slideshowType =
+      getLocalStorage('interfaceSlideshowType') ?? 'blank';
     interfaceStore.notes = parseInt(getLocalStorage('interfaceNotes') ?? '0');
     interfaceStore.notesContent =
       getLocalStorage('interfaceNotesContent') ?? '';
     requestWakeLock();
   });
   useStyles$(styles);
+  const appRef = useSignal<HTMLElement>();
   return (
     <>
       <Header />
-      <main class='app'>
+      {!!interfaceStore.slideshow && <Slideshow focusOnClose={appRef.value!} />}
+      <main
+        class='app'
+        tabIndex={-1}
+        ref={appRef}
+        onKeyDown$={(event) => {
+          if (
+            event.altKey === false &&
+            event.ctrlKey === false &&
+            event.metaKey === false &&
+            event.shiftKey === false
+          ) {
+            switch (event.key) {
+              case 's':
+                interfaceStore.slideshow = isNaN(interfaceStore.slideshow)
+                  ? 0
+                  : 1 - interfaceStore.slideshow;
+                break;
+            }
+          }
+        }}
+      >
         <div>
           <article>
             <Slot />

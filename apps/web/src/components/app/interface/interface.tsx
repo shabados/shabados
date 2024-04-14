@@ -79,10 +79,29 @@ export default component$(({ toggled }: Props) => {
                 document.documentElement.className = v;
               }}
             >
-              <option>classic</option>
-              <option>saral</option>
-              <option>reader</option>
-              <option>presenter</option>
+              <option value='classic'>Classic</option>
+              <option value='saral'>Saral</option>
+              <option value='reader'>Reader</option>
+              <option value='presenter'>Presenter</option>
+            </select>
+          </div>
+          <div class='interface__option'>
+            Slideshow
+            <select
+              class='interface__select'
+              value={interfaceStore.slideshowType}
+              onChange$={(e) => {
+                const v = e.target.value as string;
+                setLocalStorage('interfaceSlideshowType', v);
+                interfaceStore.slideshowType = v;
+              }}
+              onMouseDown$={() => {
+                interfaceStore.slideshow = 1;
+              }}
+            >
+              <option value='blank'>Blank</option>
+              <option value='waheguru'>ਵਾਹਿਗੁਰੂ (Waheguru)</option>
+              <option value='mulmantar'>ਮੂਲ ਮੰਤਰ (Mul Mantar)</option>
             </select>
           </div>
           <div
@@ -97,7 +116,7 @@ export default component$(({ toggled }: Props) => {
               );
             }}
           >
-            Bottom Notes
+            Notes
             <Switch toggled={!!interfaceStore.notes} />
           </div>
           <a
