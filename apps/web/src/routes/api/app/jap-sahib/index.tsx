@@ -2232,13 +2232,13 @@ const data = {
     },
     {
       id: '592V',
-      src: 'ਆਲਿਸ꠳ਯ ਕਰਮ ॥',
+      src: 'ਆਲਿਸ︀ਯ ਕਰਮ ॥',
       pronunciation: 'ālisya karam ‖',
       translation: 'Thy works are spontaneous',
     },
     {
       id: 'YESN',
-      src: 'ਆਦ੍ਰਿਸ꠳ਯ ਧਰਮ ॥',
+      src: 'ਆਦ੍ਰਿਸ︀ਯ ਧਰਮ ॥',
       pronunciation: 'ādrisya dharam ‖',
       translation: 'And Thy laws are ideal.',
     },

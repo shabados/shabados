@@ -77,7 +77,7 @@ export default component$(() => {
             </a>
             <a class='card' href='kabyo-bac-benti-copai'>
               <p>
-                <b>ਕਬ꠵ਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ</b>
+                <b>ਕਬ︀︁ਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ</b>
               </p>
               <p>
                 <i>Kabyo Bāc Bentī Cōpaī</i>
@@ -133,6 +133,41 @@ export default component$(() => {
                 <i>Ardās</i>
               </p>
               <p>A humble aspiration</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <br />
+        <div class='carousel'>
+          <div class='carousel__title'>
+            <h2>Path</h2>
+          </div>
+          <div class='cards'>
+            <a class='card' href='f/sggs/1'>
+              <p>
+                <b>ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ</b>
+              </p>
+              <p>
+                <i>srī gurū granth sāhib jī</i>
+              </p>
+            </a>
+            <a class='card' href='f/sdgr/1'>
+              <p>
+                <b>ਸ੍ਰੀ ਦਸਮ ਗ੍ਰੰਥ</b>
+              </p>
+              <p>
+                <i>srī dasam granth</i>
+              </p>
+            </a>
+            <a class='card' href='f/gjnl/1'>
+              <p>
+                <b>ਗੰਜ ਨਾਮਾ</b>
+              </p>
+              <p>
+                <i>ganj-nâme</i>
+              </p>
             </a>
           </div>
         </div>

@@ -1580,7 +1580,7 @@ const data = {
     },
     {
       id: 'FZV8',
-      src: 'ਕਹੂੰ, ਸਿਮਟਿ ਭਿ꠳ਯੋ ਸੰਕਰ ਇਕੈਠਾ ॥',
+      src: 'ਕਹੂੰ, ਸਿਮਟਿ ਭਿ︀ਯੋ ਸੰਕਰ ਇਕੈਠਾ ॥',
       pronunciation: 'kahūñ, simaṭ bhiyo sañkar ikēṭhā ‖',
       translation: 'Somewhere He contracts Himself as Shiva, the Yogi',
     },
@@ -1759,7 +1759,7 @@ const data = {
     },
     {
       id: 'YTA6',
-      src: 'ਪਾਂਇ ਗਹੇ ਜਬ ਤੇ ਤੁਮਰੇ ਤਬ ਤੇ ਕੋਊ ਆਂਖ ਤਰੇ ਨਹੀਂ ਆਨ꠳ਯੋ ॥',
+      src: 'ਪਾਂਇ ਗਹੇ ਜਬ ਤੇ ਤੁਮਰੇ ਤਬ ਤੇ ਕੋਊ ਆਂਖ ਤਰੇ ਨਹੀਂ ਆਨ︀ਯੋ ॥',
       pronunciation:
         'pāñi gahe jab te tumare tab te koū āñkh tare nahīñ ānyo ‖',
       translation:
@@ -1767,14 +1767,14 @@ const data = {
     },
     {
       id: 'V2AU',
-      src: 'ਰਾਮ ਰਹੀਮ ਪੁਰਾਨ ਕੁਰਾਨ; ਅਨੇਕ ਕਹੈਂ, ਮਤ ਏਕ ਨ ਮਾਨ꠳ਯੋ ॥',
+      src: 'ਰਾਮ ਰਹੀਮ ਪੁਰਾਨ ਕੁਰਾਨ; ਅਨੇਕ ਕਹੈਂ, ਮਤ ਏਕ ਨ ਮਾਨ︀ਯੋ ॥',
       pronunciation: 'rām rahīm purān kurān; anek kahēñ, mat ek na mānyo ‖',
       translation:
         'None other is liked by me now   the Puranas and the Quran try to know Thee by the names of Ram and Rahim and talk about you through several stories,',
     },
     {
       id: '4DNZ',
-      src: 'ਸਿੰਮ੍ਰਿਤ ਸਾਸਤ੍ਰ ਬੇਦ ਸਭੈ; ਬਹੁ ਭੇਦ ਕਹੈਂ, ਹਮ ਏਕ ਨ ਜਾਨ꠳ਯੋ ॥',
+      src: 'ਸਿੰਮ੍ਰਿਤ ਸਾਸਤ੍ਰ ਬੇਦ ਸਭੈ; ਬਹੁ ਭੇਦ ਕਹੈਂ, ਹਮ ਏਕ ਨ ਜਾਨ︀ਯੋ ॥',
       pronunciation:
         'siñmrit sāsatr bed sabhē; bah bhed kahēñ, ham ek na jānyo ‖',
       translation:
@@ -1782,7 +1782,7 @@ const data = {
     },
     {
       id: 'F5YC',
-      src: 'ਸ੍ਰੀ ਅਸਿਪਾਨ, ਕ੍ਰਿਪਾ ਤੁਮਰੀ ਕਰਿ; ਮੈ ਨ ਕਹ꠳ਯੋ, ਸਭ ਤੋਹਿ ਬਖਾਨ꠳ਯੋ ॥੮੬੩॥',
+      src: 'ਸ੍ਰੀ ਅਸਿਪਾਨ, ਕ੍ਰਿਪਾ ਤੁਮਰੀ ਕਰਿ; ਮੈ ਨ ਕਹ︀ਯੋ, ਸਭ ਤੋਹਿ ਬਖਾਨ︀ਯੋ ॥੮੬੩॥',
       pronunciation:
         'srī asipān, kripā tumarī kari; mē na kahyo, sabh toh bakhānyo ‖863‖',
       translation:

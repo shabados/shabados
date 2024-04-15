@@ -471,7 +471,7 @@ const data = {
     },
     {
       id: 'FZV8',
-      src: 'ਕਹੂੰ, ਸਿਮਟਿ ਭਿ꠳ਯੋ ਸੰਕਰ ਇਕੈਠਾ ॥',
+      src: 'ਕਹੂੰ, ਸਿਮਟਿ ਭਿ︀ਯੋ ਸੰਕਰ ਇਕੈਠਾ ॥',
       pronunciation: 'kahūñ, simaṭ bhiyo sañkar ikēṭhā ‖',
       translation: 'Somewhere He contracts Himself as Shiva, the Yogi',
     },

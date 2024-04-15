@@ -7,6 +7,7 @@ const collectionMap = new Map<string, string>([
   ['l', 'lines'],
   ['g', 'line-groups'],
   ['h', 'sgpc-mukhwaks'],
+  ['f', 'leafs'],
 ]);
 
 export const onGet: RequestHandler = async ({ params, json, cacheControl }) => {

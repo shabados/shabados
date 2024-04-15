@@ -862,8 +862,8 @@ const data = {
     },
     {
       id: 'EF4C',
-      src: 'ਕਹਦੇ ਕਚੇ; ਸੁਣਦੇ ਕਚੇ; ਕਚੀਁ ਆਖਿ ਵਖਾਣੀ ॥',
-      pronunciation: 'kahade kace; suṇade kace; kacīਁ ākh wakhāṇī ‖',
+      src: 'ਕਹਦੇ ਕਚੇ; ਸੁਣਦੇ ਕਚੇ; ਕਚਂ‍ੀ ਆਖਿ ਵਖਾਣੀ ॥',
+      pronunciation: 'kahade kace; suṇade kace; kacīñ ākh wakhāṇī ‖',
       translation:
         'The speakers are false, and the listeners are false; those who speak and recite are false.',
     },
