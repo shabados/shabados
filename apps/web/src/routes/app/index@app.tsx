@@ -1,5 +1,10 @@
 import { component$, useSignal, useStyles$ } from '@builder.io/qwik';
-import { useNavigate, type DocumentHead, Form } from '@builder.io/qwik-city';
+import {
+  useNavigate,
+  type DocumentHead,
+  Form,
+  Link,
+} from '@builder.io/qwik-city';
 import styles from './app.css?inline';
 
 export const head: DocumentHead = {
@@ -17,7 +22,7 @@ export default component$(() => {
   const searchInput = useSignal('');
   const nav = useNavigate();
   return (
-    <div>
+    <div class='ui'>
       <article>
         <h2>Search (Experimental)</h2>
         <Form
@@ -137,13 +142,9 @@ export default component$(() => {
           </div>
         </div>
       </div>
-      <hr />
       <div>
-        <br />
         <div class='carousel'>
-          <div class='carousel__title'>
-            <h2>Path</h2>
-          </div>
+          <h2 class='carousel__title'>Path</h2>
           <div class='cards'>
             <a class='card' href='f/sggs/1'>
               <p>
@@ -172,6 +173,19 @@ export default component$(() => {
           </div>
         </div>
       </div>
+      <article>
+        <hr />
+        <h2>PWA</h2>
+        <p>
+          This Progressive Web App aims to slowly include any essential features
+          of the Shabad OS Presenter app on desktop as a lite alternative to a
+          full-featured mobile app. If you'd like to learn more or read support
+          articles and developer docs for Shabad OS,{' '}
+          <Link href='/'>
+            please click here to go back to the main Shabad OS website.
+          </Link>
+        </p>
+      </article>
     </div>
   );
 });

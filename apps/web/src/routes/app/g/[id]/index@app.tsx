@@ -42,7 +42,7 @@ export default component$(() => {
   const signal = useLineGroupsApi();
   const defaultSource = signal.value.meta.sources[0];
   return (
-    <>
+    <article>
       {signal.value.data.default.src.map(({ src, translations }: DataProps) => (
         <Line
           key={1}
@@ -64,6 +64,6 @@ export default component$(() => {
           }
         />
       )}
-    </>
+    </article>
   );
 });

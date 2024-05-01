@@ -30,7 +30,7 @@ export const useApi = routeLoader$(async (requestEvent) => {
 export default component$(() => {
   const signal = useApi();
   return signal.value ? (
-    <div>
+    <div class='ui'>
       <article>
         {signal.value.exact &&
           signal.value.exact.map(

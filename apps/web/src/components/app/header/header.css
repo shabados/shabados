@@ -1,0 +1,136 @@
+header {
+  top: 0;
+  position: sticky;
+  background: inherit;
+  z-index: 4;
+  font-size: 16px;
+}
+
+header * {
+  user-select: none;
+}
+
+header > div {
+  height: calc(3.5em - 0.5px);
+  border-bottom: 0.5px solid var(--toner);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: 1fr auto 1fr; */
+  align-items: center;
+  container-type: inline-size;
+}
+
+header ul {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+  padding-right: 12px;
+}
+
+header li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: var(--fg);
+  opacity: var(--alpha-80);
+  padding: 0 24px;
+  min-height: 60px;
+  min-width: 12px; /* 60 - 2*padding */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 125ms;
+  gap: 0.4em;
+}
+
+header a:hover {
+  opacity: 1;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+header .logo {
+  display: flex;
+  gap: 0em;
+  align-items: center;
+  font-size: 1.25em;
+  font-weight: 300;
+  padding-left: 18px;
+}
+
+header .lotus {
+  height: 2em;
+}
+
+@media (display-mode: window-controls-overlay) {
+  header {
+    font-size: 0.875em;
+    -webkit-app-region: drag;
+    app-region: drag;
+  }
+  header > div {
+    width: calc(env(titlebar-area-width, 100%));
+    height: env(titlebar-area-height, 38px);
+  }
+  header a,
+  header input {
+    -webkit-app-region: no-drag;
+    app-region: no-drag;
+  }
+  header .logo {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  header .lotus {
+    display: none;
+  }
+}
+
+@media (pointer: coarse) and (max-device-width: 480px) {
+  .label {
+    display: none;
+  }
+}
+
+@media (pointer: coarse) {
+  @container (max-width: 540px) {
+    .label {
+      display: none;
+    }
+  }
+}
+
+@media (pointer: fine) {
+  @media (max-width: 720px) {
+    .label {
+      display: none;
+    }
+    @media (max-width: 501px) {
+      header .logo {
+        font-size: 0px;
+      }
+
+      header .lotus {
+        height: inherit;
+      }
+    }
+  }
+
+  @container (max-width: 540px) {
+    .label {
+      display: none;
+    }
+  }
+
+  @container (max-width: 450px) {
+    header .logo span {
+      display: none;
+    }
+  }
+}

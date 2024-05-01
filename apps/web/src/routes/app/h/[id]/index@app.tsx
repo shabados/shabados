@@ -41,7 +41,7 @@ interface DataProps {
 export default component$(() => {
   const signal = useApi();
   return (
-    <>
+    <article>
       <div>
         <h1>
           ਰੋਜ਼ਾਨਾ ਮੁੱਖਵਾਕ {signal.value.meta.date.guru.nanakshahiDay}{' '}
@@ -71,6 +71,6 @@ export default component$(() => {
           }
         />
       )}
-    </>
+    </article>
   );
 });

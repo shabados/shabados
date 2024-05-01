@@ -1,6 +1,6 @@
 import { component$, useSignal, useStylesScoped$ } from '@builder.io/qwik';
 import Lotus from '../../icons/lotus';
-import styles from '../../header/header.css?inline';
+import styles from './header.css?inline';
 import Interface from '../interface/interface';
 
 export default component$(() => {
@@ -16,18 +16,13 @@ export default component$(() => {
       )}
       <header>
         <div>
-          <a href='/' class='logo' draggable={false}>
+          <a href='/app' class='logo' draggable={false}>
             <div class='lotus'>
               <Lotus />
             </div>
             <span>Shabad OS</span>
           </a>
           <ul>
-            <li>
-              <a href='/app' draggable={false}>
-                ⋈<span class='label'>App</span>
-              </a>
-            </li>
             <li>
               <a
                 href='#'

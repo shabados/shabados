@@ -67,7 +67,7 @@ export default component$(() => {
   });
 
   return (
-    <>
+    <article>
       <div>
         <center>
           <p class='small' onClick$={() => handleJump()}>
@@ -102,6 +102,6 @@ export default component$(() => {
           </a>
         </BottomBar>
       )}
-    </>
+    </article>
   );
 });

@@ -95,9 +95,7 @@ export default component$(() => {
         }}
       >
         <div>
-          <article>
-            <Slot />
-          </article>
+          <Slot />
           {!!interfaceStore.notes && (
             <textarea
               class='notes-pane'

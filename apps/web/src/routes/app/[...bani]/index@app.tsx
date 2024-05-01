@@ -35,7 +35,7 @@ export default component$(() => {
   const data = useApi();
   if (data.value !== null) {
     return (
-      <>
+      <article>
         {data.value.data.map(({ id, src, pronunciation, translation }: any) => (
           <Line
             key={id}
@@ -51,13 +51,13 @@ export default component$(() => {
           }
           nextLink={data.value.paging?.next && `/app/${data.value.paging.next}`}
         />
-      </>
+      </article>
     );
   }
   return (
-    <>
+    <article>
       <h1>404</h1>
       <p>Not found</p>
-    </>
+    </article>
   );
 });

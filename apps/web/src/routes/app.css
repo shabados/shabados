@@ -3,6 +3,10 @@
   outline: none;
 }
 
+.ui {
+  font-size: 16px;
+}
+
 .notes-pane {
   position: fixed;
   height: 5.5em;
