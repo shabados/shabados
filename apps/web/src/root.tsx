@@ -20,6 +20,16 @@ export default component$(() => {
     <QwikCityProvider>
       <head>
         <meta charSet='utf-8' />
+        <meta
+          name='theme-color'
+          media='(prefers-color-scheme: dark)'
+          content='#322f30'
+        />
+        <meta
+          name='theme-color'
+          media='(prefers-color-scheme: light)'
+          content='#f5f3f0'
+        />
         <meta name='theme-color' content='#f5f3f0' />
         <link rel='manifest' href='/app.webmanifest' />
         <link
