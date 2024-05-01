@@ -1,0 +1,38 @@
+.slideshow {
+  z-index: 1;
+  position: fixed;
+  height: stretch;
+  height: -webkit-fill-available;
+  height: -moz-available;
+  width: stretch;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  background: var(--bg);
+}
+
+.slideshow .line {
+  margin-top: 24px;
+  text-align: center;
+  display: flex !important;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.slideshow .title {
+  font-size: 1rem !important;
+}
+
+.slideshow p.bold {
+  line-height: 1.25 !important;
+  font-size: 1.75em !important;
+  font-weight: 350 !important;
+}
+
+.slideshow__hint {
+  width: stretch;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  position: fixed;
+  bottom: 3.5em;
+  text-align: center;
+}
