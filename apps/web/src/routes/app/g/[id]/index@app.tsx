@@ -29,12 +29,16 @@ interface DataSrcType {
   data: string;
   script: string;
 }
+interface DataPronunciationsType {
+  Latn?: string;
+}
 interface DataTranslationsType {
   en?: string;
 }
 
 interface DataProps {
   src: DataSrcType;
+  pronunciations: DataPronunciationsType;
   translations: DataTranslationsType;
 }
 
@@ -43,15 +47,17 @@ export default component$(() => {
   const defaultSource = signal.value.meta.sources[0];
   return (
     <article>
-      {signal.value.data.default.src.map(({ src, translations }: DataProps) => (
-        <Line
-          key={1}
-          id={1}
-          src={src.data}
-          translation={translations.en}
-          pronunciation=''
-        />
-      ))}
+      {signal.value.data.default.src.map(
+        ({ src, pronunciations, translations }: DataProps) => (
+          <Line
+            key={1}
+            id={1}
+            src={src.data}
+            translation={translations?.en || ''}
+            pronunciation={pronunciations?.Latn || ''}
+          />
+        ),
+      )}
       {signal.value.data[defaultSource].paging && (
         <BottomBar
           prevLink={
