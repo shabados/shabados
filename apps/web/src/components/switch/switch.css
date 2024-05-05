@@ -1,7 +1,7 @@
 .switch {
-  --thumb-size: 1.5em;
+  --thumb-size: 24px;
   --track-size: calc(var(--thumb-size) * 1.8);
-  --track-padding: 2px;
+  --track-padding: 0px;
   --thumb-color: #ffffff;
   --track-color-inactive: var(--bg);
   --track-color-active: var(--blue);

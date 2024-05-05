@@ -23,7 +23,7 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
   });
 };
 
-export type Interface = {
+export type Controls = {
   zoom: number;
   mode: string;
   slideshow: number;
@@ -32,8 +32,8 @@ export type Interface = {
   notesContent: string;
 };
 
-export const InterfaceContext = createContextId<Interface>(
-  'com.shabados.app.interface-context',
+export const ControlsContext = createContextId<Controls>(
+  'com.shabados.app.controls-context',
 );
 
 export const setLocalStorage = (key: string, value: string) => {
@@ -47,7 +47,7 @@ export const getLocalStorage = (key: string) => {
 };
 
 export default component$(() => {
-  const interfaceStore = useStore({
+  const controlsStore = useStore({
     zoom: 1,
     mode: 'classic',
     slideshow: 0,
@@ -55,16 +55,15 @@ export default component$(() => {
     notes: 0,
     notesContent: '',
   });
-  useContextProvider(InterfaceContext, interfaceStore);
+  useContextProvider(ControlsContext, controlsStore);
   useVisibleTask$(() => {
-    interfaceStore.zoom = parseFloat(getLocalStorage('interfaceZoom') ?? '1');
-    interfaceStore.mode = getLocalStorage('interfaceMode') ?? 'classic';
-    interfaceStore.slideshow = 0; // always set slideshow to "off" on load
-    interfaceStore.slideshowType =
-      getLocalStorage('interfaceSlideshowType') ?? 'blank';
-    interfaceStore.notes = parseInt(getLocalStorage('interfaceNotes') ?? '0');
-    interfaceStore.notesContent =
-      getLocalStorage('interfaceNotesContent') ?? '';
+    controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '1');
+    controlsStore.mode = getLocalStorage('controlsMode') ?? 'classic';
+    controlsStore.slideshow = 0; // always set slideshow to "off" on load
+    controlsStore.slideshowType =
+      getLocalStorage('controlsSlideshowType') ?? 'blank';
+    controlsStore.notes = parseInt(getLocalStorage('controlsNotes') ?? '0');
+    controlsStore.notesContent = getLocalStorage('controlsNotesContent') ?? '';
     requestWakeLock();
   });
   useStyles$(styles);
@@ -72,7 +71,7 @@ export default component$(() => {
   return (
     <>
       <Header />
-      {!!interfaceStore.slideshow && <Slideshow focusOnClose={appRef.value!} />}
+      {!!controlsStore.slideshow && <Slideshow focusOnClose={appRef.value!} />}
       <main
         class='app'
         tabIndex={-1}
@@ -86,9 +85,9 @@ export default component$(() => {
           ) {
             switch (event.key) {
               case 's':
-                interfaceStore.slideshow = isNaN(interfaceStore.slideshow)
+                controlsStore.slideshow = isNaN(controlsStore.slideshow)
                   ? 0
-                  : 1 - interfaceStore.slideshow;
+                  : 1 - controlsStore.slideshow;
                 break;
             }
           }
@@ -96,14 +95,14 @@ export default component$(() => {
       >
         <div>
           <Slot />
-          {!!interfaceStore.notes && (
+          {!!controlsStore.notes && (
             <textarea
               class='notes-pane'
               maxLength={100}
-              value={interfaceStore.notesContent}
+              value={controlsStore.notesContent}
               onChange$={(e) => {
-                interfaceStore.notesContent = e.target.value;
-                setLocalStorage('interfaceNotesContent', e.target.value);
+                controlsStore.notesContent = e.target.value;
+                setLocalStorage('controlsNotesContent', e.target.value);
               }}
             />
           )}

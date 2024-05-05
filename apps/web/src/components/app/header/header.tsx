@@ -1,17 +1,18 @@
 import { component$, useSignal, useStylesScoped$ } from '@builder.io/qwik';
 import Lotus from '../../icons/lotus';
 import styles from './header.css?inline';
-import Interface from '../interface/interface';
+import Controls from '../controls/controls';
+import ControlsIcon from '../../icons/ui/controls';
 
 export default component$(() => {
   useStylesScoped$(styles);
-  const interfaceToggled = useSignal(false);
+  const controlsToggled = useSignal(false);
 
   return (
     <>
-      {interfaceToggled.value && (
+      {controlsToggled.value && (
         <>
-          <Interface toggled={interfaceToggled} />
+          <Controls toggled={controlsToggled} />
         </>
       )}
       <header>
@@ -29,10 +30,11 @@ export default component$(() => {
                 preventdefault:click
                 draggable={false}
                 onClick$={() =>
-                  (interfaceToggled.value = !interfaceToggled.value)
+                  (controlsToggled.value = !controlsToggled.value)
                 }
               >
-                ≡<span class='label'>Interface</span>
+                <ControlsIcon />
+                <span class='label'>Controls</span>
               </a>
             </li>
           </ul>

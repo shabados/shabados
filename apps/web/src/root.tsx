@@ -54,8 +54,8 @@ export default component$(() => {
           dangerouslySetInnerHTML={`
             const path = new URL(window.location.href).pathname.split('/')[1];
             if (path == 'app') {
-              document.documentElement.className = localStorage.interfaceMode || 'classic';
-              document.documentElement.style.fontSize = localStorage.interfaceZoom + 'em' || '1em';
+              document.documentElement.className = localStorage.controlsMode || 'classic';
+              document.documentElement.style.fontSize = localStorage.controlsZoom + 'em' || '1em';
             }
           `}
         />

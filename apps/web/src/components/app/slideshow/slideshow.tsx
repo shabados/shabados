@@ -1,5 +1,5 @@
 import { component$, useContext, useStylesScoped$ } from '@builder.io/qwik';
-import { InterfaceContext } from '~/routes/layout-app';
+import { ControlsContext } from '~/routes/layout-app';
 import styles from './slideshow.css?inline';
 import Line from '~/components/line/line';
 
@@ -15,7 +15,7 @@ interface SlideshowProps {
 
 export default component$<SlideshowProps>(({ focusOnClose }) => {
   useStylesScoped$(styles);
-  const interfaceStore = useContext(InterfaceContext);
+  const controlsStore = useContext(ControlsContext);
 
   const map: { [key: string]: LineProps } = {
     waheguru: {
@@ -41,13 +41,13 @@ export default component$<SlideshowProps>(({ focusOnClose }) => {
       translation: "Waheguru's pure, Waheguru's victory",
     },
   };
-  const data = map[interfaceStore.slideshowType] || {};
+  const data = map[controlsStore.slideshowType] || {};
 
   return (
     <main
       class='slideshow'
       onClick$={() => {
-        interfaceStore.slideshow = 0;
+        controlsStore.slideshow = 0;
         focusOnClose.focus();
       }}
     >

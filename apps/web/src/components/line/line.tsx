@@ -56,6 +56,10 @@ export default component$(({ src, pronunciation, translation }: any) => {
     'ਪਉੜੀ॥',
     'ਪਉੜੀ ॥',
     'ਆਸਾ ॥',
+    // add screensaver / slideshow values here
+    'ਵਾਹਿਗੁਰੂ',
+    'ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ; ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਿਹ',
+    'ਬੋਲੇ ਸੋ ਨਿਹਾਲ; ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ',
   ];
   const isTitle =
     titlesFuzzy.some((ele) => src.indexOf(ele) >= 0) ||

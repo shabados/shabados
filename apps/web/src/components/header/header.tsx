@@ -14,9 +14,6 @@ export default component$(() => {
           </div>
           <span>Shabad OS</span>
         </a>
-        {/* <div class='explore'>
-          <input type={'search'} />
-        </div> */}
         <ul>
           <li>
             <a href='/app' draggable={false}>
@@ -28,15 +25,6 @@ export default component$(() => {
               ☐<span class='label'>Articles</span>
             </a>
           </li>
-          {/* <li>
-            <a href='#'>Collections</a>
-          </li>
-          <li>
-            <a href='#'>ToC</a>
-          </li>
-          <li>
-            <a href='#'>Interface</a>
-          </li> */}
         </ul>
       </div>
     </header>
