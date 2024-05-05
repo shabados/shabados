@@ -85,7 +85,7 @@ export default component$(() => {
       </article>
     </div>
   ) : (
-    <div>
+    <div class='ui'>
       <article>
         <h1>Sorry</h1>
         <p>No results found</p>

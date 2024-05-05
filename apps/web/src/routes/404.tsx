@@ -12,10 +12,12 @@ export const head: DocumentHead = {
 
 export default component$(() => (
   <div>
-    <h1>404 Not Found</h1>
-    <p>
-      If you were supposed to be here and end up getting this error, please{' '}
-      <a href='mailto:team@shabados.com'>contact us</a>
-    </p>
+    <article>
+      <h1>404 Not Found</h1>
+      <p>
+        If you were supposed to be here and end up getting this error, please{' '}
+        <a href='mailto:team@shabados.com'>contact us</a>
+      </p>
+    </article>
   </div>
 ));
