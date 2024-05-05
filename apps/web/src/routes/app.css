@@ -39,7 +39,7 @@
   font-size: 1rem;
 }
 
-html.presenter .notes-pane {
+html[data-mode='presenter'] .notes-pane {
   text-align: center;
 }
 
@@ -47,84 +47,84 @@ html.presenter .notes-pane {
   display: none;
 }
 
-html.classic .line {
+html[data-mode='classic'] .line {
   margin-bottom: 1.5em;
 }
 
-html.classic .line:last-child {
+html[data-mode='classic'] .line:last-child {
   margin-bottom: 0;
 }
 
-html.reader article p.bold::before {
+html[data-mode='reader'] article p.bold::before {
   content: '\0020';
 }
 
-html.reader .line > p,
-html.saral .line > p {
+html[data-mode='reader'] .line > p,
+html[data-mode='saral'] .line > p {
   display: none;
 }
 
-html.reader .line,
-html.reader .line > p.bold,
-html.saral .line > p.bold {
+html[data-mode='reader'] .line,
+html[data-mode='reader'] .line > p.bold,
+html[data-mode='saral'] .line > p.bold {
   display: inline;
   line-height: 1.6;
 }
 
-html.saral .line {
+html[data-mode='saral'] .line {
   display: block;
 }
 
-html.reader .title,
-html.saral .title {
+html[data-mode='reader'] .title,
+html[data-mode='saral'] .title {
   display: block;
   font-size: 1.25em;
 }
 
-html.reader .title > p,
-html.saral .title > p {
+html[data-mode='reader'] .title > p,
+html[data-mode='saral'] .title > p {
   line-height: 1.2;
 }
 
-html.reader .title > p.bold,
-html.saral .title > p.bold {
+html[data-mode='reader'] .title > p.bold,
+html[data-mode='saral'] .title > p.bold {
   font-weight: 230;
   font-size: 1.15em;
 }
 
-html.reader .line:not(.title) + .title,
-html.saral .line:not(.title) + .title {
+html[data-mode='reader'] .line:not(.title) + .title,
+html[data-mode='saral'] .line:not(.title) + .title {
   margin-top: 1.2em;
 }
 
-html.reader .title + .line:not(.title)::before,
-html.saral .title + .line:not(.title)::before {
+html[data-mode='reader'] .title + .line:not(.title)::before,
+html[data-mode='saral'] .title + .line:not(.title)::before {
   content: '\A';
   white-space: pre;
   font-size: 0.5em;
   display: block;
 }
 
-html.reader .end-of-pauri:after,
-html.saral .end-of-pauri:after {
+html[data-mode='reader'] .end-of-pauri:after,
+html[data-mode='saral'] .end-of-pauri:after {
   content: '\A\A';
   white-space: pre;
   font-size: 0.25em;
   display: block;
 }
 
-html.presenter .app > div > article {
+html[data-mode='presenter'] .app > div > article {
   height: calc(100vh - 56px);
   scroll-snap-type: y mandatory;
   overflow-y: auto;
   font-size: 1em;
 }
 
-.presenter::-webkit-scrollbar {
+html[data-mode='presenter']::-webkit-scrollbar {
   display: none;
 }
 
-.presenter .line {
+html[data-mode='presenter'] .line {
   margin-top: 0;
   padding-top: 24px;
   height: calc(100vh - 56px - 48px - 1.75em - 48px);
@@ -138,12 +138,15 @@ html.presenter .app > div > article {
   scroll-snap-stop: always;
 }
 
-.presenter p.bold {
+html[data-mode='presenter'] p.bold {
   font-size: 1.75em;
   line-height: 1.25;
 }
 
-@media (max-device-width: 400px) {
+@media (max-device-width: 480px) {
+  .controls__width {
+    display: none;
+  }
 }
 
 @media (pointer: coarse) {
@@ -162,20 +165,57 @@ header > div {
   max-width: 100%;
 }
 
-html.classic main > div,
-html.classic header > div,
-html.classic .notes-pane,
-html.saral main > div,
-html.saral header > div,
-html.saral .notes-pane,
-html.reader main > div,
-html.reader header > div,
-html.reader .notes-pane {
-  width: 30rem;
+html[data-width='narrower'][data-mode='classic'] main > div,
+html[data-width='narrower'][data-mode='classic'] header > div,
+html[data-width='narrower'][data-mode='classic'] .notes-pane,
+html[data-width='narrower'][data-mode='saral'] main > div,
+html[data-width='narrower'][data-mode='saral'] header > div,
+html[data-width='narrower'][data-mode='saral'] .notes-pane,
+html[data-width='narrower'][data-mode='reader'] main > div,
+html[data-width='narrower'][data-mode='reader'] header > div,
+html[data-width='narrower'][data-mode='reader'] .notes-pane {
+  width: 23.5rem;
 }
 
-html.presenter main > div,
-html.presenter header > div,
-html.presenter .notes-pane {
+html[data-width='base'][data-mode='classic'] main > div,
+html[data-width='base'][data-mode='classic'] header > div,
+html[data-width='base'][data-mode='classic'] .notes-pane,
+html[data-width='base'][data-mode='saral'] main > div,
+html[data-width='base'][data-mode='saral'] header > div,
+html[data-width='base'][data-mode='saral'] .notes-pane,
+html[data-width='base'][data-mode='reader'] main > div,
+html[data-width='base'][data-mode='reader'] header > div,
+html[data-width='base'][data-mode='reader'] .notes-pane {
+  width: 29.5rem;
+}
+
+html[data-width='wider'][data-mode='classic'] main > div,
+html[data-width='wider'][data-mode='classic'] header > div,
+html[data-width='wider'][data-mode='classic'] .notes-pane,
+html[data-width='wider'][data-mode='saral'] main > div,
+html[data-width='wider'][data-mode='saral'] header > div,
+html[data-width='wider'][data-mode='saral'] .notes-pane,
+html[data-width='wider'][data-mode='reader'] main > div,
+html[data-width='wider'][data-mode='reader'] header > div,
+html[data-width='wider'][data-mode='reader'] .notes-pane {
+  width: 41rem;
+}
+
+html[data-width='widest'][data-mode='classic'] main > div,
+html[data-width='widest'][data-mode='classic'] header > div,
+html[data-width='widest'][data-mode='classic'] .notes-pane,
+html[data-width='widest'][data-mode='saral'] main > div,
+html[data-width='widest'][data-mode='saral'] header > div,
+html[data-width='widest'][data-mode='saral'] .notes-pane,
+html[data-width='widest'][data-mode='reader'] main > div,
+html[data-width='widest'][data-mode='reader'] header > div,
+html[data-width='widest'][data-mode='reader'] .notes-pane {
+  width: 100%;
+  max-width: 100%;
+}
+
+html[data-mode='presenter'] main > div,
+html[data-mode='presenter'] header > div,
+html[data-mode='presenter'] .notes-pane {
   width: 100%;
 }

@@ -60,7 +60,7 @@ export default component$<SlideshowProps>(({ focusOnClose }) => {
           />
         </article>
       </div>
-      <p class='small slideshow__hint'>Click to exit slideshow</p>
+      <p class='small slideshow__hint'>Press to exit slideshow</p>
     </main>
   );
 });

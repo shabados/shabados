@@ -46,7 +46,7 @@
   background-color: var(--bg);
   position: fixed;
   max-width: none;
-  animation: modal-appear 0.6s ease;
+  animation: modal-appear 0.125s ease;
   animation-fill-mode: forwards;
 }
 
@@ -59,6 +59,19 @@
   max-width: 100vw;
 }
 
+.modal__header {
+  display: flex;
+  padding: 16px 24px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 0.5px solid var(--toner);
+}
+
+.modal__title {
+  margin: 0;
+}
+
 .modal__article {
   overscroll-behavior: contain;
   overflow-y: scroll;
@@ -69,7 +82,7 @@
 }
 
 .modal__article > * {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .modal__article > *:last-child {
@@ -81,9 +94,6 @@
 }
 
 .modal__close {
-  position: absolute;
-  right: 25px;
-  top: 25px;
   width: 24px;
   height: 24px;
   border-radius: 24px;
@@ -202,12 +212,12 @@ a.controls__option:hover {
     height: calc(100vh - 8.5em);
     right: 2.5em;
     animation:
-      fade-in-and-left 0.6s ease,
-      text-fades-in 0.4s ease 0.2s;
+      fade-in-and-left 0.125s ease,
+      text-fades-in 0.125s ease;
     animation-fill-mode: forwards;
   }
   .modal__article {
-    max-height: calc(100vh - 6em);
+    max-height: calc(100vh - 8.5em - 4.25em - 0.5px);
   }
 }
 
@@ -220,19 +230,20 @@ a.controls__option:hover {
   }
   .modal {
     animation:
-      fade-in-and-up 0.6s ease,
-      text-fades-in 0.4s ease 0.2s;
+      fade-in-and-up 0.125s ease,
+      text-fades-in 0.125s ease;
     animation-fill-mode: forwards;
   }
   .modal__article {
     max-height: 60vh;
   }
   .modal__close {
-    right: 25px;
-    top: 16.25px;
     width: 35px;
     height: 35px;
     border-radius: 35px;
+  }
+  .modal__article > * {
+    margin-bottom: 24px;
   }
   .controls__icon {
     width: 35px;
@@ -254,6 +265,11 @@ a.controls__option:hover {
       right: 24px;
       top: 5em;
       border-radius: 1em;
+    }
+  }
+  @media (min-device-width: 850px) {
+    .modal__article {
+      max-height: calc(100vh - 6.5em - 4.25em);
     }
   }
 }

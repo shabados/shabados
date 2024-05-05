@@ -1,8 +1,10 @@
-import { component$, useStylesScoped$ } from '@builder.io/qwik';
+import { component$, useContext, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './line.css?inline';
+import { ControlsContext } from '~/routes/layout-app';
 
 export default component$(({ src, pronunciation, translation }: any) => {
   useStylesScoped$(styles);
+  const controlsStore = useContext(ControlsContext);
   const titlesFuzzy = [
     'ੴ',
     '॥ ਜਪੁ ॥',
@@ -105,31 +107,39 @@ export default component$(({ src, pronunciation, translation }: any) => {
           );
         })}
       </p>
-      <p>
-        {pronunciation.split(' ').map((word: string) => {
-          if (word.endsWith(';')) {
-            return (
-              <>
-                <span class='heavy'>{word.slice(0, -1)}</span>{' '}
-              </>
-            );
-          } else if (word.endsWith(',')) {
-            return (
-              <>
-                <span class='medium'>{word.slice(0, -1)}</span>{' '}
-              </>
-            );
-          } else if (word.endsWith('.')) {
-            return (
-              <>
-                <span class='light'>{word.slice(0, -1)}</span>{' '}
-              </>
-            );
-          }
-          return <>{word} </>;
-        })}
-      </p>
-      <p>{translation}</p>
+      {controlsStore.pronunciationField && pronunciation ? (
+        <p>
+          {pronunciation.split(' ').map((word: string) => {
+            if (word.endsWith(';')) {
+              return (
+                <>
+                  <span class='heavy'>{word.slice(0, -1)}</span>{' '}
+                </>
+              );
+            } else if (word.endsWith(',')) {
+              return (
+                <>
+                  <span class='medium'>{word.slice(0, -1)}</span>{' '}
+                </>
+              );
+            } else if (word.endsWith('.')) {
+              return (
+                <>
+                  <span class='light'>{word.slice(0, -1)}</span>{' '}
+                </>
+              );
+            }
+            return <>{word} </>;
+          })}
+        </p>
+      ) : (
+        ''
+      )}
+      {controlsStore.translationField && translation ? (
+        <p>{translation}</p>
+      ) : (
+        ''
+      )}
     </div>
   );
 });

@@ -26,10 +26,13 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 export type Controls = {
   zoom: number;
   mode: string;
+  width: string;
   slideshow: number;
   slideshowType: string;
   notes: number;
   notesContent: string;
+  pronunciationField: number;
+  translationField: number;
 };
 
 export const ControlsContext = createContextId<Controls>(
@@ -48,22 +51,32 @@ export const getLocalStorage = (key: string) => {
 
 export default component$(() => {
   const controlsStore = useStore({
-    zoom: 1,
+    zoom: 1.5,
     mode: 'classic',
+    width: 'base',
     slideshow: 0,
     slideshowType: 'blank',
     notes: 0,
     notesContent: '',
+    pronunciationField: 0,
+    translationField: 1,
   });
   useContextProvider(ControlsContext, controlsStore);
   useVisibleTask$(() => {
-    controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '1');
+    controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '1.5');
     controlsStore.mode = getLocalStorage('controlsMode') ?? 'classic';
+    controlsStore.width = getLocalStorage('controlsWidth') ?? 'base';
     controlsStore.slideshow = 0; // always set slideshow to "off" on load
     controlsStore.slideshowType =
       getLocalStorage('controlsSlideshowType') ?? 'blank';
     controlsStore.notes = parseInt(getLocalStorage('controlsNotes') ?? '0');
     controlsStore.notesContent = getLocalStorage('controlsNotesContent') ?? '';
+    controlsStore.pronunciationField = parseInt(
+      getLocalStorage('controlsPronunciationField') ?? '0',
+    );
+    controlsStore.translationField = parseInt(
+      getLocalStorage('controlsTranslationField') ?? '1',
+    );
     requestWakeLock();
   });
   useStyles$(styles);

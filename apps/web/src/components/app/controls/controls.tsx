@@ -16,6 +16,9 @@ import Slideshow from '~/components/icons/ui/slideshow';
 import Notes from '~/components/icons/ui/notes';
 import Feedback from '~/components/icons/ui/feedback';
 import X from '~/components/icons/ui/x';
+import Translation from '~/components/icons/ui/translation';
+import Pronunciation from '~/components/icons/ui/pronunciation';
+import Width from '~/components/icons/ui/width';
 
 interface Props {
   toggled: Signal<boolean>;
@@ -30,19 +33,16 @@ export default component$(({ toggled }: Props) => {
     <>
       <div class='modal-bg' onClick$={() => (toggled.value = false)} />
       <div class='modal'>
-        <article class='modal__article'>
-          <h2>
-            Controls
-            <span
-              dir='rtl'
-              class='modal__close'
-              onClick$={() => (toggled.value = false)}
-            >
-              <X />
-            </span>
-          </h2>
+        <article class='modal__header'>
+          <h2 class='modal__title'>Controls</h2>
+          <span
+            dir='rtl'
+            class='modal__close'
+            onClick$={() => (toggled.value = false)}
+          >
+            <X />
+          </span>
         </article>
-        <hr />
         <article class='modal__article'>
           {document.fullscreenEnabled && (
             <>
@@ -86,7 +86,6 @@ export default component$(({ toggled }: Props) => {
               }}
             />
           </div>
-
           <div>
             <div class='controls__label'>
               <Mode />
@@ -103,7 +102,7 @@ export default component$(({ toggled }: Props) => {
                   const v = 'classic';
                   setLocalStorage('controlsMode', v);
                   controlsStore.mode = v;
-                  document.documentElement.className = v;
+                  document.documentElement.setAttribute('data-mode', v);
                 }}
               >
                 Classic
@@ -118,7 +117,7 @@ export default component$(({ toggled }: Props) => {
                   const v = 'presenter';
                   setLocalStorage('controlsMode', v);
                   controlsStore.mode = v;
-                  document.documentElement.className = v;
+                  document.documentElement.setAttribute('data-mode', v);
                 }}
               >
                 Presenter
@@ -133,7 +132,7 @@ export default component$(({ toggled }: Props) => {
                   const v = 'reader';
                   setLocalStorage('controlsMode', v);
                   controlsStore.mode = v;
-                  document.documentElement.className = v;
+                  document.documentElement.setAttribute('data-mode', v);
                 }}
               >
                 Reader
@@ -148,10 +147,83 @@ export default component$(({ toggled }: Props) => {
                   const v = 'saral';
                   setLocalStorage('controlsMode', v);
                   controlsStore.mode = v;
-                  document.documentElement.className = v;
+                  document.documentElement.setAttribute('data-mode', v);
                 }}
               >
                 Saral
+              </a>
+            </div>
+          </div>
+
+          <div class='controls__width'>
+            <div class='controls__label'>
+              <Width />
+              Width
+            </div>
+            <div class='controls__grid'>
+              <a
+                class={`controls__card ${
+                  controlsStore.width == 'narrower' && 'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'narrower';
+                  setLocalStorage('controlsWidth', v);
+                  controlsStore.width = v;
+
+                  document.documentElement.setAttribute('data-width', v);
+                }}
+              >
+                Narrower
+              </a>
+              <a
+                class={`controls__card ${
+                  controlsStore.width == 'base' && 'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'base';
+                  setLocalStorage('controlsWidth', v);
+                  controlsStore.width = v;
+
+                  document.documentElement.setAttribute('data-width', v);
+                }}
+              >
+                Base
+              </a>
+              <a
+                class={`controls__card ${
+                  controlsStore.width == 'wider' && 'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'wider';
+                  setLocalStorage('controlsWidth', v);
+                  controlsStore.width = v;
+
+                  document.documentElement.setAttribute('data-width', v);
+                }}
+              >
+                Wider
+              </a>
+              <a
+                class={`controls__card ${
+                  controlsStore.width == 'widest' && 'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'widest';
+                  setLocalStorage('controlsWidth', v);
+                  controlsStore.width = v;
+
+                  document.documentElement.setAttribute('data-width', v);
+                }}
+              >
+                Widest
               </a>
             </div>
           </div>
@@ -296,7 +368,6 @@ export default component$(({ toggled }: Props) => {
               </a>
             </div>
           </div>
-
           <div
             class='controls__option clickable'
             onClick$={() => {
@@ -312,9 +383,48 @@ export default component$(({ toggled }: Props) => {
             </div>
             <Switch toggled={!!controlsStore.notes} />
           </div>
-
           <hr />
-
+          <div
+            class='controls__option clickable'
+            onClick$={() => {
+              controlsStore.pronunciationField = isNaN(
+                controlsStore.pronunciationField,
+              )
+                ? 0
+                : 1 - controlsStore.pronunciationField;
+              setLocalStorage(
+                'controlsPronunciationField',
+                controlsStore.pronunciationField.toString(),
+              );
+            }}
+          >
+            <div class='controls__label'>
+              <Pronunciation />
+              Pronunciations
+            </div>
+            <Switch toggled={!!controlsStore.pronunciationField} />
+          </div>
+          <div
+            class='controls__option clickable'
+            onClick$={() => {
+              controlsStore.translationField = isNaN(
+                controlsStore.translationField,
+              )
+                ? 0
+                : 1 - controlsStore.translationField;
+              setLocalStorage(
+                'controlsTranslationField',
+                controlsStore.translationField.toString(),
+              );
+            }}
+          >
+            <div class='controls__label'>
+              <Translation />
+              Translations
+            </div>
+            <Switch toggled={!!controlsStore.translationField} />
+          </div>
+          <hr />
           <a href='mailto:team@shabados.com' class='controls__option clickable'>
             <div class='controls__label'>
               <Feedback />
