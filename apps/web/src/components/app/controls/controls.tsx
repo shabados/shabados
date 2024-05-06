@@ -19,6 +19,12 @@ import X from '~/components/icons/ui/x';
 import Translation from '~/components/icons/ui/translation';
 import Pronunciation from '~/components/icons/ui/pronunciation';
 import Width from '~/components/icons/ui/width';
+import Mail from '~/components/icons/ui/mail';
+import ExternalLink from '~/components/icons/ui/external-link';
+import Instagram from '~/components/icons/ui/instagram';
+import Youtube from '~/components/icons/ui/youtube';
+import Slack from '~/components/icons/ui/slack';
+import Github from '~/components/icons/ui/github';
 
 interface Props {
   toggled: Signal<boolean>;
@@ -425,12 +431,50 @@ export default component$(({ toggled }: Props) => {
             <Switch toggled={!!controlsStore.translationField} />
           </div>
           <hr />
+          <div>
+            <div class='controls__label'>
+              <ExternalLink />
+              Links
+            </div>
+            <div class='controls__grid'>
+              <a
+                class='controls__card controls__card__icon'
+                href='https://www.instagram.com/shabad_os/'
+                target='_blank'
+              >
+                <Instagram />
+              </a>
+              <a
+                class='controls__card controls__card__icon'
+                href='https://www.youtube.com/@shabados'
+                target='_blank'
+              >
+                <Youtube />
+              </a>
+              <a
+                class='controls__card controls__card__icon'
+                href='https://chat.shabados.com'
+                target='_blank'
+              >
+                <Slack />
+              </a>
+              <a
+                class='controls__card controls__card__icon'
+                href='https://www.github.com/shabados/'
+                target='_blank'
+              >
+                <Github />
+              </a>
+            </div>
+          </div>
           <a href='mailto:team@shabados.com' class='controls__option clickable'>
             <div class='controls__label'>
               <Feedback />
               Feedback
             </div>
-            <span class='controls__icon'>↗</span>
+            <span class='controls__icon'>
+              <Mail />
+            </span>
           </a>
         </article>
       </div>

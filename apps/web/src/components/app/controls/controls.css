@@ -194,6 +194,10 @@ a.controls__option:hover {
   text-overflow: ellipsis;
 }
 
+.controls__card__icon {
+  line-height: 1;
+}
+
 .controls__card:hover {
   color: var(--link-hover);
   text-decoration: none;

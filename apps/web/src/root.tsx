@@ -55,7 +55,7 @@ export default component$(() => {
             const path = new URL(window.location.href).pathname.split('/')[1];
             if (path == 'app') {
               document.documentElement.setAttribute('data-mode', localStorage.controlsMode || 'classic');
-              document.documentElement.setAttribute('data-width', localStorage.controlsWidth || 'base');
+              document.documentElement.setAttribute('data-width', localStorage.controlsWidth || 'wider');
               document.documentElement.style.fontSize = localStorage.controlsZoom + 'em' || '1.5em';
             }
           `}
