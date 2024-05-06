@@ -1,11 +1,14 @@
 import {
-  type Signal,
   component$,
   useContext,
   useSignal,
   useStylesScoped$,
 } from '@builder.io/qwik';
-import { ControlsContext, setLocalStorage } from '~/routes/layout-app';
+import {
+  ControlsContext,
+  UiContext,
+  setLocalStorage,
+} from '~/routes/layout-app';
 import styles from './controls.css?inline';
 import Switch from '~/components/switch/switch';
 import Minimize from '~/components/icons/ui/minimize';
@@ -26,25 +29,25 @@ import Youtube from '~/components/icons/ui/youtube';
 import Slack from '~/components/icons/ui/slack';
 import Github from '~/components/icons/ui/github';
 
-interface Props {
-  toggled: Signal<boolean>;
-}
-
-export default component$(({ toggled }: Props) => {
+export default component$(() => {
   useStylesScoped$(styles);
   const fullscreen = useSignal(!!document.fullscreenElement);
   const controlsStore = useContext(ControlsContext);
+  const uiStore = useContext(UiContext);
 
   return (
     <>
-      <div class='modal-bg' onClick$={() => (toggled.value = false)} />
+      <div
+        class='modal-bg'
+        onClick$={() => (uiStore.controlsToggled = false)}
+      />
       <div class='modal'>
         <article class='modal__header'>
           <h2 class='modal__title'>Controls</h2>
           <span
             dir='rtl'
             class='modal__close'
-            onClick$={() => (toggled.value = false)}
+            onClick$={() => (uiStore.controlsToggled = false)}
           >
             <X />
           </span>

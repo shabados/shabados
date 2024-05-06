@@ -9,6 +9,7 @@
   margin: 0 auto;
   transition: transform 400ms ease;
   color: var(--fg);
+  height: calc(3.5em - 0.5px);
 }
 
 .border {
@@ -23,6 +24,7 @@ header {
   font-size: 16px;
   opacity: 1;
   transition: opacity 240ms ease 160ms;
+  max-width: 100%;
 }
 
 .hide > header {
@@ -35,7 +37,6 @@ header * {
 }
 
 header > div {
-  height: calc(3.5em - 0.5px);
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;

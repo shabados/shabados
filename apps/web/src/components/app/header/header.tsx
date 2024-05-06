@@ -1,18 +1,18 @@
 import {
   component$,
-  useSignal,
+  useContext,
   useStore,
   useStylesScoped$,
 } from '@builder.io/qwik';
 import Lotus from '../../icons/lotus';
 import styles from './header.css?inline';
-import Controls from '../controls/controls';
 import ControlsIcon from '../../icons/ui/controls';
+import { UiContext } from '~/routes/layout-app';
 
 export default component$(() => {
   useStylesScoped$(styles);
-  const controlsToggled = useSignal(false);
   const scrollPos = useStore({ is: 0, was: 0, further: false });
+  const uiStore = useContext(UiContext);
 
   return (
     <div
@@ -21,16 +21,11 @@ export default component$(() => {
         scrollPos.further = scrollPos.is > scrollPos.was;
         scrollPos.was = scrollPos.is;
       }}
-      class={`header__container ${scrollPos.further ? 'hide' : ''} ${
-        scrollPos.is > 22.5 && 'border'
-      }
+      class={`header__container ${
+        scrollPos.is > 1 && scrollPos.further ? 'hide' : ''
+      } ${scrollPos.is > 22.5 && 'border'}
       }`}
     >
-      {controlsToggled.value && (
-        <>
-          <Controls toggled={controlsToggled} />
-        </>
-      )}
       <header>
         <div>
           <a href='/app' class='logo' draggable={false}>
@@ -46,7 +41,7 @@ export default component$(() => {
                 preventdefault:click
                 draggable={false}
                 onClick$={() =>
-                  (controlsToggled.value = !controlsToggled.value)
+                  (uiStore.controlsToggled = !uiStore.controlsToggled)
                 }
               >
                 <ControlsIcon />

@@ -13,6 +13,7 @@ import Header from '~/components/app/header/header';
 import requestWakeLock from '~/lib/wakelock';
 import styles from './app.css?inline';
 import Slideshow from '~/components/app/slideshow/slideshow';
+import Controls from '~/components/app/controls/controls';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
@@ -39,6 +40,12 @@ export const ControlsContext = createContextId<Controls>(
   'com.shabados.app.controls-context',
 );
 
+export type Ui = {
+  controlsToggled: boolean;
+};
+
+export const UiContext = createContextId<Ui>('com.shabados.app.ui-context');
+
 export const setLocalStorage = (key: string, value: string) => {
   localStorage.setItem(key, value);
 };
@@ -62,6 +69,12 @@ export default component$(() => {
     translationField: 1,
   });
   useContextProvider(ControlsContext, controlsStore);
+
+  const uiStore = useStore({
+    controlsToggled: false,
+  });
+  useContextProvider(UiContext, uiStore);
+
   useVisibleTask$(() => {
     controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '1.5');
     controlsStore.mode = getLocalStorage('controlsMode') ?? 'classic';
@@ -83,6 +96,7 @@ export default component$(() => {
   const appRef = useSignal<HTMLElement>();
   return (
     <>
+      {uiStore.controlsToggled && <Controls />}
       <Header />
       {!!controlsStore.slideshow && <Slideshow focusOnClose={appRef.value!} />}
       <main
