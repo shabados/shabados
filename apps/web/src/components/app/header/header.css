@@ -1,9 +1,33 @@
-header {
-  top: 0;
-  position: sticky;
+.header__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   background: inherit;
   z-index: 4;
+  position: sticky;
+  top: 0;
+  margin: 0 auto;
+  transition: transform 400ms ease;
+  color: var(--fg);
+}
+
+.border {
+  border-bottom: 0.5px solid var(--toner);
+}
+
+.hide {
+  transform: translateY(-3.5em);
+}
+
+header {
   font-size: 16px;
+  opacity: 1;
+  transition: opacity 240ms ease 160ms;
+}
+
+.hide > header {
+  opacity: 0;
+  transition: opacity 120ms linear;
 }
 
 header * {
@@ -12,7 +36,6 @@ header * {
 
 header > div {
   height: calc(3.5em - 0.5px);
-  border-bottom: 0.5px solid var(--toner);
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -37,7 +60,7 @@ header li {
 }
 
 header a {
-  color: var(--fg);
+  color: inherit;
   opacity: var(--alpha-80);
   padding: 0 24px;
   min-height: 60px;

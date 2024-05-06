@@ -1,4 +1,9 @@
-import { component$, useSignal, useStylesScoped$ } from '@builder.io/qwik';
+import {
+  component$,
+  useSignal,
+  useStore,
+  useStylesScoped$,
+} from '@builder.io/qwik';
 import Lotus from '../../icons/lotus';
 import styles from './header.css?inline';
 import Controls from '../controls/controls';
@@ -7,9 +12,20 @@ import ControlsIcon from '../../icons/ui/controls';
 export default component$(() => {
   useStylesScoped$(styles);
   const controlsToggled = useSignal(false);
+  const scrollPos = useStore({ is: 0, was: 0, further: false });
 
   return (
-    <>
+    <div
+      window:onScroll$={() => {
+        scrollPos.is = window.scrollY;
+        scrollPos.further = scrollPos.is > scrollPos.was;
+        scrollPos.was = scrollPos.is;
+      }}
+      class={`header__container ${scrollPos.further ? 'hide' : ''} ${
+        scrollPos.is > 22.5 && 'border'
+      }
+      }`}
+    >
       {controlsToggled.value && (
         <>
           <Controls toggled={controlsToggled} />
@@ -40,6 +56,6 @@ export default component$(() => {
           </ul>
         </div>
       </header>
-    </>
+    </div>
   );
 });
