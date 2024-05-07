@@ -1,8 +1,8 @@
 import {
   component$,
   useContext,
-  useSignal,
   useStylesScoped$,
+  useVisibleTask$,
 } from '@builder.io/qwik';
 import {
   ControlsContext,
@@ -31,9 +31,11 @@ import Github from '~/components/icons/ui/github';
 
 export default component$(() => {
   useStylesScoped$(styles);
-  const fullscreen = useSignal(!!document.fullscreenElement);
   const controlsStore = useContext(ControlsContext);
   const uiStore = useContext(UiContext);
+  useVisibleTask$(() => {
+    controlsStore.fullscreen = !!document.fullscreenElement;
+  });
 
   return (
     <>
@@ -60,17 +62,18 @@ export default component$(() => {
                 onClick$={() => {
                   if (!document.fullscreenElement) {
                     document.documentElement.requestFullscreen();
-                    fullscreen.value = true;
+                    controlsStore.fullscreen = true;
                   } else if (document.exitFullscreen) {
                     document.exitFullscreen();
-                    fullscreen.value = false;
+                    controlsStore.fullscreen = false;
                   }
                 }}
               >
                 <div class='controls__label'>
-                  {fullscreen.value ? <Minimize /> : <Maximize />}Fullscreen
+                  {controlsStore.fullscreen ? <Minimize /> : <Maximize />}
+                  Fullscreen
                 </div>
-                <Switch toggled={fullscreen.value} />
+                <Switch toggled={controlsStore.fullscreen} />
               </div>
               <hr />
             </>

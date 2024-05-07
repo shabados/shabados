@@ -25,6 +25,7 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 };
 
 export type Controls = {
+  fullscreen: boolean;
   zoom: number;
   mode: string;
   width: string;
@@ -58,6 +59,7 @@ export const getLocalStorage = (key: string) => {
 
 export default component$(() => {
   const controlsStore = useStore({
+    fullscreen: false,
     zoom: 1.5,
     mode: 'classic',
     width: 'base',
@@ -115,6 +117,15 @@ export default component$(() => {
                 controlsStore.slideshow = isNaN(controlsStore.slideshow)
                   ? 0
                   : 1 - controlsStore.slideshow;
+                break;
+              case 'f':
+                if (!document.fullscreenElement) {
+                  document.documentElement.requestFullscreen();
+                  controlsStore.fullscreen = true;
+                } else if (document.exitFullscreen) {
+                  document.exitFullscreen();
+                  controlsStore.fullscreen = false;
+                }
                 break;
             }
           }
