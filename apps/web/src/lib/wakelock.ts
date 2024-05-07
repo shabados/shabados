@@ -3,8 +3,6 @@ const requestWakeLock = async () => {
         try {
             const wakeLock = await (navigator as any).wakeLock.request('screen')
 
-            wakeLock.onrelease = (e: Event) => console.log(e)
-
             const handleVisibilityChange = () => {
                 if (wakeLock !== null && document.visibilityState === 'visible') {
                     requestWakeLock()

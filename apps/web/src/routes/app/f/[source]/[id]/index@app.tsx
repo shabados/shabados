@@ -63,7 +63,6 @@ export default component$(() => {
         window.location.href = `/app/f/${source}/${number}`;
       }
     }
-    console.log(number, source);
   });
 
   return (

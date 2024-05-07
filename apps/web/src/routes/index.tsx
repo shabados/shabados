@@ -31,7 +31,6 @@ const download = async () => {
   // attempt to download for macOS / windows, regardless go to install guide
   const installUrl = '/support/install-shabad-os-presenter/';
   const platform = getOS();
-  console.log(platform);
   if (platform !== 'other') {
     // attempt api call
     const res = await fetch(
