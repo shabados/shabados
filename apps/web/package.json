@@ -20,6 +20,7 @@
     "preview": "qwik build preview && vite preview --open",
     "serve": "qwik build && firebase emulators:start",
     "start": "vite --open --mode ssr",
+    "start.external": "vite --open --mode ssr --host",
     "qwik": "qwik"
   },
   "prettier": {
