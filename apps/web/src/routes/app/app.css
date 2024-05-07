@@ -74,5 +74,6 @@ a.card:hover {
   color: var(--fg);
   text-decoration: none;
   cursor: pointer;
-  outline: 2px solid var(--blue);
+  outline: 2.25px solid var(--ui);
+  outline-offset: 2.25px;
 }

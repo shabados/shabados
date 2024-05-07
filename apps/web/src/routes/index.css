@@ -32,7 +32,7 @@ header {
 a.button {
   cursor: pointer;
   display: inline-block;
-  background-color: var(--blue);
+  background-color: var(--ui);
   color: white;
   border-radius: 2em;
   padding: 0.75em 1em;

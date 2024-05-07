@@ -3,8 +3,8 @@
   --track-size: calc(var(--thumb-size) * 1.8);
   --track-padding: 0px;
   --thumb-color: #ffffff;
-  --track-color-inactive: var(--bg);
-  --track-color-active: var(--blue);
+  --track-color-inactive: var(--toner);
+  --track-color-active: var(--ui);
   --thumb-position: 0%;
   --thumb-transition-duration: 0.25s;
   padding: var(--track-padding);

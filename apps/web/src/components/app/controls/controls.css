@@ -98,13 +98,12 @@
   height: 24px;
   border-radius: 24px;
   line-height: 1;
-  background-color: var(--bg);
+  background-color: var(--toner);
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   user-select: none;
-  color: var(--link);
   border: 0.5px solid var(--toner);
   transition:
     background-color 0.25s ease,
@@ -118,7 +117,8 @@
 
 .modal__close:hover {
   background-color: var(--toner);
-  color: var(--link-hover);
+  outline: 2.25px solid var(--ui);
+  outline-offset: 2.25px;
 }
 
 .controls__option {
@@ -145,7 +145,7 @@ a.controls__option:hover {
   border-radius: 24px;
   font-size: 20px;
   line-height: 1;
-  background-color: var(--bg);
+  background-color: var(--toner);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,10 +163,14 @@ a.controls__option:hover {
 
 :global(.controls__option.clickable:hover .switch) {
   --track-color-inactive: var(--toner) !important;
+  outline: 2.25px solid var(--ui);
+  outline-offset: 2.25px;
 }
 
 .controls__option.clickable:hover .controls__icon {
   background-color: var(--toner);
+  outline: 2.25px solid var(--ui);
+  outline-offset: 2.25px;
 }
 
 .controls__grid {
@@ -183,7 +187,7 @@ a.controls__option:hover {
   font-weight: 540;
   font-size: 0.75em;
   padding: 0.25em 0.75em;
-  background: var(--bg);
+  background: var(--toner);
   border-radius: 0.6em;
   border: 0.5px solid var(--toner);
   transition:
@@ -199,13 +203,14 @@ a.controls__option:hover {
 }
 
 .controls__card:hover {
-  color: var(--link-hover);
   text-decoration: none;
   background-color: var(--toner);
+  outline: 2.25px solid var(--ui);
+  outline-offset: 2.25px;
 }
 
 .controls__card__active {
-  color: var(--link);
+  color: var(--ui);
 }
 
 @media (pointer: fine) {

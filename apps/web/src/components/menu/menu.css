@@ -50,7 +50,7 @@
 .menu:hover,
 .menu:hover + .menu-close span {
   cursor: pointer;
-  color: var(--blue);
+  color: var(--link-hover);
 }
 
 .menu.open,
