@@ -23,7 +23,7 @@ export default component$(() => {
         <meta
           name='theme-color'
           media='(prefers-color-scheme: dark)'
-          content='#0f0f0f'
+          content='#000000'
         />
         <meta
           name='theme-color'

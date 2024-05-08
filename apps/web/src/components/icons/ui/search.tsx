@@ -27,10 +27,9 @@ export default component$(() => (
     stroke-width='1.5'
     stroke-linecap='round'
     stroke-linejoin='round'
-    class='lucide lucide-route'
+    class='lucide lucide-search'
   >
-    <circle cx='6' cy='19' r='3' />
-    <path d='M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15' />
-    <circle cx='18' cy='5' r='3' />
+    <circle cx='11' cy='11' r='8' />
+    <path d='m21 21-4.3-4.3' />
   </svg>
 ));

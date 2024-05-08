@@ -2,9 +2,9 @@ import { component$ } from '@builder.io/qwik';
 
 export default component$(() => (
   <svg
-    width='40'
-    height='40'
-    viewBox='0 0 25.4 25.4'
+    width='24px'
+    height='24px'
+    viewBox='3 3 19.4 19.4'
     // style='clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;'
     xmlns='http://www.w3.org/2000/svg'
   >

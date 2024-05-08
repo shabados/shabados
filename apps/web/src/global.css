@@ -57,10 +57,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --toner: rgba(var(--white-rgb) / var(--alpha-8));
-    --fg: rgb(188, 181, 181);
-    --fg-muted: rgb(151, 144, 144);
-    --bg: #0f0f0f;
-    --bg-base: rgb(33, 33, 33);
+    --fg: #ffffff;
+    --fg-muted: #aaaaaa;
+    --bg: #000000;
+    --bg-base: #252525;
     --ui: rgb(73, 124, 253);
     --link: rgb(128, 157, 221);
     --link-hover: rgb(149, 182, 255);
@@ -81,16 +81,15 @@
   @media (dynamic-range: high) {
     @supports (color: oklch(0 0 0)) {
       :root {
-        --fg: oklch(78% 2% 25);
-        --fg-muted: oklch(66% 2% 25);
+        /* --fg: oklch(78% 2% 25); */
+        /* --fg-muted: oklch(66% 2% 25); */
         /* skip bg until theme_color supports dynamic range */
-        --bg-base: oklch(24.84% 0% 355);
-        --ui: oklch(62% 40% 265);
-        --link: oklch(70% 25% 265);
-        --link-hover: oklch(78% 40% 265);
-        --heavy-vishraam: oklch(70% 20% 55);
-        --medium-vishraam: oklch(70% 20% 145);
-        --light-vishraam: oklch(70% 20% 295);
+        --ui: oklch(85% 100% 265);
+        --link: oklch(92% 16% 265);
+        --link-hover: oklch(100% 20% 265);
+        --heavy-vishraam: oklch(92% 16% 55);
+        --medium-vishraam: oklch(92% 16% 145);
+        --light-vishraam: oklch(92% 16% 295);
       }
 
       ::selection {
