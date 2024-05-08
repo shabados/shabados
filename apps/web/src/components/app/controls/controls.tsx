@@ -34,22 +34,19 @@ export default component$(() => {
   const controlsStore = useContext(ControlsContext);
   const uiStore = useContext(UiContext);
   useVisibleTask$(() => {
-    controlsStore.fullscreen = !!document.fullscreenElement;
+    uiStore.fullscreen = !!document.fullscreenElement;
   });
 
   return (
     <>
-      <div
-        class='modal-bg'
-        onClick$={() => (uiStore.controlsToggled = false)}
-      />
+      <div class='modal-bg' onClick$={() => (uiStore.controls = false)} />
       <div class='modal'>
         <article class='modal__header'>
           <h2 class='modal__title'>Controls</h2>
           <span
             dir='rtl'
             class='modal__close'
-            onClick$={() => (uiStore.controlsToggled = false)}
+            onClick$={() => (uiStore.controls = false)}
           >
             <X />
           </span>
@@ -62,18 +59,18 @@ export default component$(() => {
                 onClick$={() => {
                   if (!document.fullscreenElement) {
                     document.documentElement.requestFullscreen();
-                    controlsStore.fullscreen = true;
+                    uiStore.fullscreen = true;
                   } else if (document.exitFullscreen) {
                     document.exitFullscreen();
-                    controlsStore.fullscreen = false;
+                    uiStore.fullscreen = false;
                   }
                 }}
               >
                 <div class='controls__label'>
-                  {controlsStore.fullscreen ? <Minimize /> : <Maximize />}
+                  {uiStore.fullscreen ? <Minimize /> : <Maximize />}
                   Fullscreen
                 </div>
-                <Switch toggled={controlsStore.fullscreen} />
+                <Switch toggled={uiStore.fullscreen} />
               </div>
               <hr />
             </>
@@ -251,7 +248,7 @@ export default component$(() => {
               <a
                 class={`controls__card ${
                   controlsStore.slideshowType == 'blank' &&
-                  controlsStore.slideshow &&
+                  uiStore.slideshow &&
                   'controls__card__active'
                 }`}
                 href='#'
@@ -259,16 +256,13 @@ export default component$(() => {
                 onClick$={() => {
                   const v = 'blank';
 
-                  if (
-                    controlsStore.slideshowType == v &&
-                    controlsStore.slideshow
-                  ) {
+                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
                     // untoggle
-                    controlsStore.slideshow = 0;
+                    uiStore.slideshow = false;
                   } else {
                     setLocalStorage('controlsSlideshowType', v);
                     controlsStore.slideshowType = v;
-                    controlsStore.slideshow = 1;
+                    uiStore.slideshow = true;
                   }
                 }}
               >
@@ -277,7 +271,7 @@ export default component$(() => {
               <a
                 class={`controls__card ${
                   controlsStore.slideshowType == 'waheguru' &&
-                  controlsStore.slideshow &&
+                  uiStore.slideshow &&
                   'controls__card__active'
                 }`}
                 href='#'
@@ -285,16 +279,13 @@ export default component$(() => {
                 onClick$={() => {
                   const v = 'waheguru';
 
-                  if (
-                    controlsStore.slideshowType == v &&
-                    controlsStore.slideshow
-                  ) {
+                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
                     // untoggle
-                    controlsStore.slideshow = 0;
+                    uiStore.slideshow = false;
                   } else {
                     setLocalStorage('controlsSlideshowType', v);
                     controlsStore.slideshowType = v;
-                    controlsStore.slideshow = 1;
+                    uiStore.slideshow = true;
                   }
                 }}
               >
@@ -303,7 +294,7 @@ export default component$(() => {
               <a
                 class={`controls__card ${
                   controlsStore.slideshowType == 'wjkk' &&
-                  controlsStore.slideshow &&
+                  uiStore.slideshow &&
                   'controls__card__active'
                 }`}
                 href='#'
@@ -311,16 +302,13 @@ export default component$(() => {
                 onClick$={() => {
                   const v = 'wjkk';
 
-                  if (
-                    controlsStore.slideshowType == v &&
-                    controlsStore.slideshow
-                  ) {
+                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
                     // untoggle
-                    controlsStore.slideshow = 0;
+                    uiStore.slideshow = false;
                   } else {
                     setLocalStorage('controlsSlideshowType', v);
                     controlsStore.slideshowType = v;
-                    controlsStore.slideshow = 1;
+                    uiStore.slideshow = true;
                   }
                 }}
               >
@@ -329,7 +317,7 @@ export default component$(() => {
               <a
                 class={`controls__card ${
                   controlsStore.slideshowType == 'mulmantar' &&
-                  controlsStore.slideshow &&
+                  uiStore.slideshow &&
                   'controls__card__active'
                 }`}
                 href='#'
@@ -337,16 +325,13 @@ export default component$(() => {
                 onClick$={() => {
                   const v = 'mulmantar';
 
-                  if (
-                    controlsStore.slideshowType == v &&
-                    controlsStore.slideshow
-                  ) {
+                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
                     // untoggle
-                    controlsStore.slideshow = 0;
+                    uiStore.slideshow = false;
                   } else {
                     setLocalStorage('controlsSlideshowType', v);
                     controlsStore.slideshowType = v;
-                    controlsStore.slideshow = 1;
+                    uiStore.slideshow = true;
                   }
                 }}
               >
@@ -355,7 +340,7 @@ export default component$(() => {
               <a
                 class={`controls__card ${
                   controlsStore.slideshowType == 'bsnssa' &&
-                  controlsStore.slideshow &&
+                  uiStore.slideshow &&
                   'controls__card__active'
                 }`}
                 href='#'
@@ -363,16 +348,13 @@ export default component$(() => {
                 onClick$={() => {
                   const v = 'bsnssa';
 
-                  if (
-                    controlsStore.slideshowType == v &&
-                    controlsStore.slideshow
-                  ) {
+                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
                     // untoggle
-                    controlsStore.slideshow = 0;
+                    uiStore.slideshow = false;
                   } else {
                     setLocalStorage('controlsSlideshowType', v);
                     controlsStore.slideshowType = v;
-                    controlsStore.slideshow = 1;
+                    uiStore.slideshow = true;
                   }
                 }}
               >

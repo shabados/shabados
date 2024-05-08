@@ -1,4 +1,5 @@
 import {
+  $,
   component$,
   createContextId,
   Slot,
@@ -25,11 +26,9 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 };
 
 export type Controls = {
-  fullscreen: boolean;
   zoom: number;
   mode: string;
   width: string;
-  slideshow: number;
   slideshowType: string;
   notes: number;
   notesContent: string;
@@ -42,7 +41,9 @@ export const ControlsContext = createContextId<Controls>(
 );
 
 export type Ui = {
-  controlsToggled: boolean;
+  controls: boolean;
+  fullscreen: boolean;
+  slideshow: boolean;
 };
 
 export const UiContext = createContextId<Ui>('com.shabados.app.ui-context');
@@ -59,11 +60,9 @@ export const getLocalStorage = (key: string) => {
 
 export default component$(() => {
   const controlsStore = useStore({
-    fullscreen: false,
     zoom: 1.5,
     mode: 'classic',
     width: 'base',
-    slideshow: 0,
     slideshowType: 'blank',
     notes: 0,
     notesContent: '',
@@ -73,7 +72,9 @@ export default component$(() => {
   useContextProvider(ControlsContext, controlsStore);
 
   const uiStore = useStore({
-    controlsToggled: false,
+    controls: false,
+    fullscreen: false,
+    slideshow: false,
   });
   useContextProvider(UiContext, uiStore);
 
@@ -81,7 +82,7 @@ export default component$(() => {
     controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '1.5');
     controlsStore.mode = getLocalStorage('controlsMode') ?? 'classic';
     controlsStore.width = getLocalStorage('controlsWidth') ?? 'base';
-    controlsStore.slideshow = 0; // always set slideshow to "off" on load
+    uiStore.slideshow = false; // always set slideshow to "off" on load
     controlsStore.slideshowType =
       getLocalStorage('controlsSlideshowType') ?? 'blank';
     controlsStore.notes = parseInt(getLocalStorage('controlsNotes') ?? '0');
@@ -94,13 +95,58 @@ export default component$(() => {
     );
     requestWakeLock();
   });
+
   useStyles$(styles);
+
   const appRef = useSignal<HTMLElement>();
+
+  const toggleControls = $(() => {
+    uiStore.controls = !uiStore.controls;
+  });
+
+  const toggleFullscreen = $(() => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen();
+      uiStore.fullscreen = true;
+    } else if (document.exitFullscreen) {
+      document.exitFullscreen();
+      uiStore.fullscreen = false;
+    }
+  });
+
+  const toggleSlideshow = $(() => {
+    uiStore.slideshow = !uiStore.slideshow;
+  });
+
+  const zoomLess = $(() => {
+    const initial = controlsStore.zoom;
+    controlsStore.zoom -= 0.25;
+    if (controlsStore.zoom < 1) {
+      controlsStore.zoom = 1;
+    }
+    if (initial != controlsStore.zoom) {
+      setLocalStorage('controlsZoom', String(controlsStore.zoom));
+      document.documentElement.style.fontSize = `${controlsStore.zoom}em`;
+    }
+  });
+
+  const zoomMore = $(() => {
+    const initial = controlsStore.zoom;
+    controlsStore.zoom += 0.25;
+    if (controlsStore.zoom > 4) {
+      controlsStore.zoom = 4;
+    }
+    if (initial != controlsStore.zoom) {
+      setLocalStorage('controlsZoom', String(controlsStore.zoom));
+      document.documentElement.style.fontSize = `${controlsStore.zoom}em`;
+    }
+  });
+
   return (
     <>
-      {uiStore.controlsToggled && <Controls />}
+      {uiStore.controls && <Controls />}
       <Header />
-      {!!controlsStore.slideshow && <Slideshow focusOnClose={appRef.value!} />}
+      {!!uiStore.slideshow && <Slideshow focusOnClose={appRef.value!} />}
       <main
         class='app'
         tabIndex={-1}
@@ -110,26 +156,39 @@ export default component$(() => {
             event.altKey === false &&
             event.ctrlKey === false &&
             event.metaKey === false &&
-            event.shiftKey === false &&
             (event.target as HTMLInputElement).nodeName.toLowerCase() !==
               'input' &&
             (event.target as HTMLInputElement).nodeName.toLowerCase() !==
               'textarea'
           ) {
+            console.log(event.key);
             switch (event.key) {
-              case 's':
-                controlsStore.slideshow = isNaN(controlsStore.slideshow)
-                  ? 0
-                  : 1 - controlsStore.slideshow;
+              case ',':
+                toggleControls();
                 break;
               case 'f':
-                if (!document.fullscreenElement) {
-                  document.documentElement.requestFullscreen();
-                  controlsStore.fullscreen = true;
-                } else if (document.exitFullscreen) {
-                  document.exitFullscreen();
-                  controlsStore.fullscreen = false;
-                }
+                toggleFullscreen();
+                break;
+              case 'F':
+                toggleFullscreen();
+                break;
+              case 's':
+                toggleSlideshow();
+                break;
+              case 'S':
+                toggleSlideshow();
+                break;
+              case '-':
+                zoomLess();
+                break;
+              case '_':
+                zoomLess();
+                break;
+              case '=':
+                zoomMore();
+                break;
+              case '+':
+                zoomMore();
                 break;
             }
           }

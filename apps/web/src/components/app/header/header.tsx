@@ -40,9 +40,7 @@ export default component$(() => {
                 href='#'
                 preventdefault:click
                 draggable={false}
-                onClick$={() =>
-                  (uiStore.controlsToggled = !uiStore.controlsToggled)
-                }
+                onClick$={() => (uiStore.controls = !uiStore.controls)}
               >
                 <ControlsIcon />
                 <span class='label'>Controls</span>
