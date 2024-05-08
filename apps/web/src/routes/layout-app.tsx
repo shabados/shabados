@@ -110,7 +110,11 @@ export default component$(() => {
             event.altKey === false &&
             event.ctrlKey === false &&
             event.metaKey === false &&
-            event.shiftKey === false
+            event.shiftKey === false &&
+            (event.target as HTMLInputElement).nodeName.toLowerCase() !==
+              'input' &&
+            (event.target as HTMLInputElement).nodeName.toLowerCase() !==
+              'textarea'
           ) {
             switch (event.key) {
               case 's':
