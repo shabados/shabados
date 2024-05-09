@@ -32,6 +32,8 @@ export type Controls = {
   slideshowType: string;
   notes: number;
   notesContent: string;
+  larivar: number;
+  vishraman: number;
   pronunciationField: number;
   translationField: number;
 };
@@ -66,6 +68,8 @@ export default component$(() => {
     slideshowType: 'blank',
     notes: 0,
     notesContent: '',
+    larivar: 1,
+    vishraman: 1,
     pronunciationField: 0,
     translationField: 1,
   });
@@ -87,6 +91,10 @@ export default component$(() => {
       getLocalStorage('controlsSlideshowType') ?? 'blank';
     controlsStore.notes = parseInt(getLocalStorage('controlsNotes') ?? '0');
     controlsStore.notesContent = getLocalStorage('controlsNotesContent') ?? '';
+    controlsStore.larivar = parseInt(getLocalStorage('controlsLarivar') ?? '0');
+    controlsStore.vishraman = parseInt(
+      getLocalStorage('controlsVishraman') ?? '1',
+    );
     controlsStore.pronunciationField = parseInt(
       getLocalStorage('controlsPronunciationField') ?? '0',
     );

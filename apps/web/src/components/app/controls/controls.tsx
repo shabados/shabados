@@ -28,6 +28,8 @@ import Instagram from '~/components/icons/ui/instagram';
 import Youtube from '~/components/icons/ui/youtube';
 import Slack from '~/components/icons/ui/slack';
 import Github from '~/components/icons/ui/github';
+import Pause from '~/components/icons/ui/pause';
+import Continuous from '~/components/icons/ui/continuous';
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -378,6 +380,58 @@ export default component$(() => {
             <Switch toggled={!!controlsStore.notes} />
           </div>
           <hr />
+          <div
+            class='controls__option clickable'
+            onClick$={() => {
+              controlsStore.larivar = isNaN(controlsStore.larivar)
+                ? 0
+                : 1 - controlsStore.larivar;
+              setLocalStorage(
+                'controlsLarivar',
+                controlsStore.larivar.toString(),
+              );
+              document.documentElement.setAttribute(
+                'data-larivar',
+                String(controlsStore.larivar),
+              );
+            }}
+          >
+            <div class='controls__label'>
+              <Continuous />
+              Continuous
+            </div>
+            <Switch toggled={!!controlsStore.larivar} />
+          </div>
+          <div
+            class={`controls__option clickable ${
+              !!controlsStore.larivar && 'disabled'
+            }`}
+            onClick$={() => {
+              if (controlsStore.larivar) {
+                return;
+              }
+              controlsStore.vishraman = isNaN(controlsStore.vishraman)
+                ? 0
+                : 1 - controlsStore.vishraman;
+              setLocalStorage(
+                'controlsVishraman',
+                controlsStore.vishraman.toString(),
+              );
+              document.documentElement.setAttribute(
+                'data-vishraman',
+                String(controlsStore.vishraman),
+              );
+            }}
+          >
+            <div class='controls__label'>
+              <Pause />
+              Pauses
+            </div>
+            <Switch
+              disabled={!!controlsStore.larivar}
+              toggled={!!controlsStore.vishraman}
+            />
+          </div>
           <div
             class='controls__option clickable'
             onClick$={() => {

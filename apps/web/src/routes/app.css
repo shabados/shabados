@@ -220,3 +220,16 @@ html[data-mode='presenter'] header > div,
 html[data-mode='presenter'] .notes-pane {
   width: 100%;
 }
+
+html[data-larivar='1'] p.bold {
+  word-spacing: -0.2em;
+}
+
+html[data-larivar='1'] .heavy,
+html[data-larivar='1'] .medium,
+html[data-larivar='1'] .light,
+html[data-vishraman='0'] .heavy,
+html[data-vishraman='0'] .medium,
+html[data-vishraman='0'] .light {
+  color: inherit;
+}

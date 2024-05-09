@@ -1,7 +1,7 @@
 .switch {
-  --thumb-size: 24px;
+  --thumb-size: 20px;
   --track-size: calc(var(--thumb-size) * 1.8);
-  --track-padding: 0px;
+  --track-padding: 2px;
   --thumb-color: #ffffff;
   --track-color-inactive: var(--toner);
   --track-color-active: var(--ui);
@@ -43,27 +43,18 @@
   background: var(--track-color-active);
   --thumb-position: calc((var(--track-size) - 100%) * var(--isLTR));
   --thumb-color: #ffffff;
-  border-color: transparent;
-}
-.switch:checked::before {
-  border-color: transparent;
 }
 .switch:disabled {
   cursor: not-allowed;
-  --thumb-color: transparent;
+  opacity: 0.4;
 }
-.switch:disabled::before {
-  cursor: not-allowed;
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
-}
-@media (prefers-color-scheme: dark) {
-  .switch:disabled::before {
-    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.5);
-  }
+
+.switch:disabled:hover {
+  outline: none;
 }
 
 @media (pointer: coarse) {
   .switch {
-    --thumb-size: 35px;
+    --thumb-size: 31px;
   }
 }

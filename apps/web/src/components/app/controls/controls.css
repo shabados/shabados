@@ -161,10 +161,17 @@ a.controls__option:hover {
   -webkit-tap-highlight-color: transparent;
 }
 
+.controls__option.clickable.disabled {
+  cursor: not-allowed;
+}
+
 :global(.controls__option.clickable:hover .switch) {
   --track-color-inactive: var(--toner) !important;
   outline: 2.25px solid var(--ui);
   outline-offset: 2.25px;
+}
+:global(.controls__option.clickable.disabled:hover .switch) {
+  outline: 0;
 }
 
 .controls__option.clickable:hover .controls__icon {
