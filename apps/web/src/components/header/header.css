@@ -56,15 +56,15 @@ header a:hover {
 
 header .logo {
   display: flex;
-  gap: 0em;
+  gap: 0.33em;
   align-items: center;
-  font-size: 1.25em;
-  font-weight: 300;
-  padding-left: 18px;
+  font-size: 1.15em;
+  font-weight: 400;
+  letter-spacing: -0.5px;
 }
 
 header .lotus {
-  height: 2em;
+  height: 24px;
 }
 
 @media (prefers-color-scheme: light) {
