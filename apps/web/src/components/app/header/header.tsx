@@ -6,8 +6,9 @@ import {
 } from '@builder.io/qwik';
 import Lotus from '../../icons/lotus';
 import styles from './header.css?inline';
-import ControlsIcon from '../../icons/ui/controls';
 import { UiContext } from '~/routes/layout-app';
+import ControlsIcon from '~/components/icons/ui/controls';
+import JourneyIcon from '~/components/icons/ui/journey';
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -35,6 +36,17 @@ export default component$(() => {
             <span>Shabad OS</span>
           </a>
           <ul>
+            <li>
+              <a
+                href='#'
+                preventdefault:click
+                draggable={false}
+                onClick$={() => (uiStore.journey = !uiStore.journey)}
+              >
+                <JourneyIcon />
+                <span class='label'>Journey</span>
+              </a>
+            </li>
             <li>
               <a
                 href='#'

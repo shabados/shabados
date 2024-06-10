@@ -9,12 +9,13 @@ import {
   useStyles$,
   useVisibleTask$,
 } from '@builder.io/qwik';
-import { type RequestHandler } from '@builder.io/qwik-city';
+import { useLocation, type RequestHandler } from '@builder.io/qwik-city';
 import Header from '~/components/app/header/header';
 import requestWakeLock from '~/lib/wakelock';
 import styles from './app.css?inline';
 import Slideshow from '~/components/app/slideshow/slideshow';
 import Controls from '~/components/app/controls/controls';
+import Journey from '~/components/app/journey/journey';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
@@ -46,9 +47,23 @@ export type Ui = {
   controls: boolean;
   fullscreen: boolean;
   slideshow: boolean;
+  journey: boolean;
 };
 
 export const UiContext = createContextId<Ui>('com.shabados.app.ui-context');
+
+type PathTimestamp = {
+  [path: string]: { [key: string]: string | number };
+};
+
+export type UserData = {
+  history: PathTimestamp;
+  archive: PathTimestamp;
+};
+
+export const UserDataContext = createContextId<UserData>(
+  'com.shabados.app.user-data-context',
+);
 
 export const setLocalStorage = (key: string, value: string) => {
   localStorage.setItem(key, value);
@@ -79,14 +94,23 @@ export default component$(() => {
     controls: false,
     fullscreen: false,
     slideshow: false,
+    journey: false,
   });
   useContextProvider(UiContext, uiStore);
 
+  const userDataStore = useStore({
+    history: {} as PathTimestamp,
+    archive: {} as PathTimestamp,
+  });
+  useContextProvider(UserDataContext, userDataStore);
+  const { url } = useLocation();
+  // url in
   useVisibleTask$(() => {
+    uiStore.slideshow = false; // always set slideshow to "off" on load
+
     controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '1.5');
     controlsStore.mode = getLocalStorage('controlsMode') ?? 'classic';
     controlsStore.width = getLocalStorage('controlsWidth') ?? 'base';
-    uiStore.slideshow = false; // always set slideshow to "off" on load
     controlsStore.slideshowType =
       getLocalStorage('controlsSlideshowType') ?? 'blank';
     controlsStore.notes = parseInt(getLocalStorage('controlsNotes') ?? '0');
@@ -101,6 +125,60 @@ export default component$(() => {
     controlsStore.translationField = parseInt(
       getLocalStorage('controlsTranslationField') ?? '1',
     );
+
+    userDataStore.history = JSON.parse(
+      getLocalStorage('userDataHistory') ?? '{}',
+    );
+    userDataStore.archive = JSON.parse(
+      getLocalStorage('userDataArchive') ?? '{}',
+    );
+
+    if (url.pathname !== '/app/' && !url.pathname.includes('/search/')) {
+      userDataStore.history[url.pathname] = {};
+      if (url.pathname.includes('/f/')) {
+        const m: { [key: string]: { [key: string]: string } } = {
+          sggs: { title: 'ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ', leaf: 'ਅੰਗ' },
+          sdgr: { title: 'ਸ੍ਰੀ ਦਸਮ ਗ੍ਰੰਥ', leaf: 'ਅੰਗ' },
+          gjnl: { title: 'ਗੰਜ ਨਾਮਾ', leaf: 'ਪਾਤਸ਼ਾਹੀ' },
+        };
+        const composition = url.pathname.split('/').slice(-3, -2)[0];
+        const cTitle = m[composition]['title'];
+        const leaf = url.pathname.split('/').slice(-2, -1)[0];
+        const lTitle = m[composition]['leaf'] + ' ' + leaf;
+        userDataStore.history[url.pathname]['title'] = `${cTitle} (${lTitle})`;
+      } else if (url.pathname.includes('/g/')) {
+        userDataStore.history[url.pathname]['title'] = `ਸ਼ਬਦ (${
+          url.pathname.split('/').slice(-2, -1)[0]
+        })`;
+      } else if (url.pathname.includes('/h/')) {
+        const yymmdd = url.pathname.split('/').slice(-2, -1)[0];
+        const year = parseInt(yymmdd.slice(0, 2));
+        const date = new Date(
+          year < 75 ? year + 2000 : year + 1900,
+          parseInt(yymmdd.slice(2, 4)) - 1,
+          parseInt(yymmdd.slice(4, 6)),
+        );
+        userDataStore.history[url.pathname][
+          'title'
+        ] = `ਰੋਜ਼ਾਨਾ ਮੁੱਖਵਾਕ (${date.toLocaleDateString()})`;
+      } else {
+        const m: { [key: string]: string } = {
+          'jap-ji-sahib': 'ਜਪੁ ਜੀ ਸਾਹਿਬ',
+          'jap-sahib': 'ਜਾਪੁ ਸਾਹਿਬ',
+          'twa-prasad-swaye': 'ਤ੍ਵ ਪ੍ਰਸਾਦਿ - ਸ੍ਵਯੇ',
+          'kabyo-bac-benti-copai': 'ਕਬ︀︁ਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ',
+          'anand-sahib': 'ਅਨੰਦੁ ਸਾਹਿਬ',
+          'rehras-sahib': 'ਰਹਰਾਸਿ ਸਾਹਿਬ',
+          'kirtan-sohila': 'ਕੀਰਤਨ ਸੋਹਿਲਾ',
+          ardas: 'ਅਰਦਾਸ',
+        };
+        userDataStore.history[url.pathname]['title'] =
+          m[url.pathname.split('/').slice(-2, -1)[0]];
+      }
+      userDataStore.history[url.pathname]['time'] = new Date().valueOf();
+      setLocalStorage('userDataHistory', JSON.stringify(userDataStore.history));
+    }
+
     requestWakeLock();
   });
 
@@ -150,9 +228,14 @@ export default component$(() => {
     }
   });
 
+  const toggleJourney = $(() => {
+    uiStore.journey = !uiStore.journey;
+  });
+
   return (
     <>
       {uiStore.controls && <Controls />}
+      {uiStore.journey && <Journey />}
       <Header />
       {!!uiStore.slideshow && <Slideshow focusOnClose={appRef.value!} />}
       <main
@@ -169,7 +252,6 @@ export default component$(() => {
             (event.target as HTMLInputElement).nodeName.toLowerCase() !==
               'textarea'
           ) {
-            console.log(event.key);
             switch (event.key) {
               case ',':
                 toggleControls();
@@ -197,6 +279,12 @@ export default component$(() => {
                 break;
               case '+':
                 zoomMore();
+                break;
+              case 'y':
+                toggleJourney();
+                break;
+              case 'Y':
+                toggleJourney();
                 break;
             }
           }
