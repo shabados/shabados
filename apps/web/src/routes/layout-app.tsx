@@ -161,6 +161,10 @@ export default component$(() => {
         userDataStore.history[url.pathname][
           'title'
         ] = `ਰੋਜ਼ਾਨਾ ਮੁੱਖਵਾਕ (${date.toLocaleDateString()})`;
+      } else if (url.pathname.includes('/asa-ki-var/')) {
+        userDataStore.history[url.pathname]['title'] = `ਆਸਾ ਕੀ ਵਾਰ (ਛੱਕਾ ${
+          url.pathname.split('/').slice(-2, -1)[0]
+        })`;
       } else {
         const m: { [key: string]: string } = {
           'jap-ji-sahib': 'ਜਪੁ ਜੀ ਸਾਹਿਬ',
