@@ -85,7 +85,7 @@ export default component$(() => {
             <input
               type='range'
               min={1}
-              max={4}
+              max={5}
               step={0.25}
               value={controlsStore.zoom}
               onChange$={(e) => {
