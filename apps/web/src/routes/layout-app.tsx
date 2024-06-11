@@ -79,7 +79,7 @@ export default component$(() => {
   const controlsStore = useStore({
     zoom: 1.5,
     mode: 'classic',
-    width: 'base',
+    width: 'wider',
     slideshowType: 'blank',
     notes: 0,
     notesContent: '',
@@ -110,7 +110,7 @@ export default component$(() => {
 
     controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '1.5');
     controlsStore.mode = getLocalStorage('controlsMode') ?? 'classic';
-    controlsStore.width = getLocalStorage('controlsWidth') ?? 'base';
+    controlsStore.width = getLocalStorage('controlsWidth') ?? 'wider';
     controlsStore.slideshowType =
       getLocalStorage('controlsSlideshowType') ?? 'blank';
     controlsStore.notes = parseInt(getLocalStorage('controlsNotes') ?? '0');

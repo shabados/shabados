@@ -58,7 +58,7 @@ export default component$(() => {
               document.documentElement.setAttribute('data-width', localStorage.controlsWidth || 'wider');
               document.documentElement.setAttribute('data-vishraman', localStorage.controlsVishraman || '1');
               document.documentElement.setAttribute('data-larivar', localStorage.controlsLarivar || '0');
-              document.documentElement.style.fontSize = localStorage.controlsZoom + 'em' || '1.5em';
+              document.documentElement.style.fontSize = localStorage.controlsZoom ? localStorage.controlsZoom + 'em' : '1.5em';
             }
           `}
         />
