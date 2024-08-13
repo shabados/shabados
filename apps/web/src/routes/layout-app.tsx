@@ -16,6 +16,7 @@ import styles from './app.css?inline';
 import Slideshow from '~/components/app/slideshow/slideshow';
 import Controls from '~/components/app/controls/controls';
 import Journey from '~/components/app/journey/journey';
+// import Inspector from '~/components/app/inspector/inspector';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
@@ -48,6 +49,8 @@ export type Ui = {
   fullscreen: boolean;
   slideshow: boolean;
   journey: boolean;
+  inspector: boolean;
+  inspectorId: string;
 };
 
 export const UiContext = createContextId<Ui>('com.shabados.app.ui-context');
@@ -95,6 +98,8 @@ export default component$(() => {
     fullscreen: false,
     slideshow: false,
     journey: false,
+    inspector: false,
+    inspectorId: '',
   });
   useContextProvider(UiContext, uiStore);
 
@@ -240,6 +245,7 @@ export default component$(() => {
     <>
       {uiStore.controls && <Controls />}
       {uiStore.journey && <Journey />}
+      {/* {uiStore.inspector && <Inspector id={uiStore.inspectorId} />} */}
       <Header />
       {!!uiStore.slideshow && <Slideshow focusOnClose={appRef.value!} />}
       <main
