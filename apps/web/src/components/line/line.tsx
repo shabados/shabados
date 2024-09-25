@@ -69,7 +69,9 @@ export default component$(
       titlesFuzzy.some((ele) => src.indexOf(ele) >= 0) ||
       titlesExact.some((ele) => ele == src);
     const isEndOfPauri =
-      /॥[੧੨੩੪੫੬੭੮੯੦]+॥/.test(src) || src.indexOf('ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।') >= 0;
+      /॥[੧੨੩੪੫੬੭੮੯੦]+॥/.test(src) ||
+      src.indexOf('ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।') >= 0 ||
+      src.indexOf('॥ ਰਹਾਉ ॥') >= 0;
     return (
       <div
         class={`line ${isTitle ? 'title' : ''}${

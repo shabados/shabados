@@ -80,7 +80,7 @@ export const getLocalStorage = (key: string) => {
 
 export default component$(() => {
   const controlsStore = useStore({
-    zoom: 1.5,
+    zoom: 1,
     mode: 'classic',
     width: 'wider',
     slideshowType: 'blank',
@@ -113,7 +113,7 @@ export default component$(() => {
   useVisibleTask$(() => {
     uiStore.slideshow = false; // always set slideshow to "off" on load
 
-    controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '1.5');
+    controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '1');
     controlsStore.mode = getLocalStorage('controlsMode') ?? 'classic';
     controlsStore.width = getLocalStorage('controlsWidth') ?? 'wider';
     controlsStore.slideshowType =
