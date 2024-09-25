@@ -239,6 +239,29 @@ export default component$(() => {
             </div>
           </div>
 
+          <div
+            class='controls__option clickable'
+            onClick$={() => {
+              controlsStore.centered = isNaN(controlsStore.centered)
+                ? 0
+                : 1 - controlsStore.centered;
+              setLocalStorage(
+                'controlsCentered',
+                controlsStore.centered.toString(),
+              );
+              document.documentElement.setAttribute(
+                'data-centered',
+                controlsStore.centered.toString(),
+              );
+            }}
+          >
+            <div class='controls__label'>
+              <Notes />
+              Centered
+            </div>
+            <Switch toggled={!!controlsStore.centered} />
+          </div>
+
           <hr />
 
           <div>

@@ -47,6 +47,10 @@ html[data-mode='presenter'] .notes-pane {
   display: none;
 }
 
+html[data-centered='1'] .line {
+  text-align: center;
+}
+
 html[data-mode='classic'] .line {
   margin-bottom: 1.5em;
 }
@@ -83,8 +87,8 @@ html[data-mode='saral'] .title {
 
 html[data-mode='reader'] .title > p.bold,
 html[data-mode='saral'] .title > p.bold {
-  font-weight: 300;
-  line-height: 1.2;
+  font-weight: 500;
+  line-height: 1.28;
 }
 
 html[data-mode='reader'] .line:not(.title) + .title,
@@ -123,7 +127,7 @@ html[data-larivar='1'][data-mode='saral'] .title {
   font-size: 1em;
 }
 html[data-larivar='1'] .title > p.bold {
-  font-weight: 420;
+  font-weight: 600;
 }
 
 html[data-mode='presenter'] .app > div > article {

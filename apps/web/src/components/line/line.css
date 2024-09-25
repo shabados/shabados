@@ -27,13 +27,14 @@
 
 p {
   opacity: 0.6;
-  font-weight: 420;
+  font-weight: 400;
 }
 
 .bold {
   opacity: 1;
   font-size: 1.75em;
   line-height: 1.25;
+  font-weight: 600;
 }
 
 .heavy {

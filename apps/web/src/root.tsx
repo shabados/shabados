@@ -56,6 +56,7 @@ export default component$(() => {
             if (path == 'app') {
               document.documentElement.setAttribute('data-mode', localStorage.controlsMode || 'classic');
               document.documentElement.setAttribute('data-width', localStorage.controlsWidth || 'wider');
+              document.documentElement.setAttribute('data-centered', localStorage.controlsCentered || '0');
               document.documentElement.setAttribute('data-vishraman', localStorage.controlsVishraman || '1');
               document.documentElement.setAttribute('data-larivar', localStorage.controlsLarivar || '0');
               document.documentElement.style.fontSize = localStorage.controlsZoom ? localStorage.controlsZoom + 'em' : '1em';

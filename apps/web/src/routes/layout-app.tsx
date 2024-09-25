@@ -31,6 +31,7 @@ export type Controls = {
   zoom: number;
   mode: string;
   width: string;
+  centered: number;
   slideshowType: string;
   notes: number;
   notesContent: string;
@@ -83,6 +84,7 @@ export default component$(() => {
     zoom: 1,
     mode: 'classic',
     width: 'wider',
+    centered: 0,
     slideshowType: 'blank',
     notes: 0,
     notesContent: '',
@@ -116,6 +118,9 @@ export default component$(() => {
     controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '1');
     controlsStore.mode = getLocalStorage('controlsMode') ?? 'classic';
     controlsStore.width = getLocalStorage('controlsWidth') ?? 'wider';
+    controlsStore.centered = parseInt(
+      getLocalStorage('controlsCentered') ?? '0',
+    );
     controlsStore.slideshowType =
       getLocalStorage('controlsSlideshowType') ?? 'blank';
     controlsStore.notes = parseInt(getLocalStorage('controlsNotes') ?? '0');
