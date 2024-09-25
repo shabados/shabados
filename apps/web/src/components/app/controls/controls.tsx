@@ -30,6 +30,7 @@ import Slack from '~/components/icons/ui/slack';
 import Github from '~/components/icons/ui/github';
 import Pause from '~/components/icons/ui/pause';
 import Continuous from '~/components/icons/ui/continuous';
+import Centered from '~/components/icons/ui/centered';
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -239,29 +240,6 @@ export default component$(() => {
             </div>
           </div>
 
-          <div
-            class='controls__option clickable'
-            onClick$={() => {
-              controlsStore.centered = isNaN(controlsStore.centered)
-                ? 0
-                : 1 - controlsStore.centered;
-              setLocalStorage(
-                'controlsCentered',
-                controlsStore.centered.toString(),
-              );
-              document.documentElement.setAttribute(
-                'data-centered',
-                controlsStore.centered.toString(),
-              );
-            }}
-          >
-            <div class='controls__label'>
-              <Notes />
-              Centered
-            </div>
-            <Switch toggled={!!controlsStore.centered} />
-          </div>
-
           <hr />
 
           <div>
@@ -403,6 +381,28 @@ export default component$(() => {
             <Switch toggled={!!controlsStore.notes} />
           </div>
           <hr />
+          <div
+            class='controls__option clickable'
+            onClick$={() => {
+              controlsStore.centered = isNaN(controlsStore.centered)
+                ? 0
+                : 1 - controlsStore.centered;
+              setLocalStorage(
+                'controlsCentered',
+                controlsStore.centered.toString(),
+              );
+              document.documentElement.setAttribute(
+                'data-centered',
+                controlsStore.centered.toString(),
+              );
+            }}
+          >
+            <div class='controls__label'>
+              <Centered />
+              Centered
+            </div>
+            <Switch toggled={!!controlsStore.centered} />
+          </div>
           <div
             class='controls__option clickable'
             onClick$={() => {
