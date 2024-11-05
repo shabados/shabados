@@ -1,5 +1,4 @@
 import EventEmitter from 'eventemitter3'
-import ReconnectingWebSocket from 'reconnecting-websocket'
 
 import { getNextJumpLine } from '~/helpers/auto-jump'
 import { isDev, isElectron, WS_URL } from '~/helpers/consts'
@@ -15,35 +14,23 @@ type ShabadOptions = {
 }
 
 class Controller extends EventEmitter {
-  #socket: ReconnectingWebSocket
   #settings: SettingsState
 
   constructor() {
     super()
 
-    // Setup WebSocket connection to server
-    this.#socket = new ReconnectingWebSocket( WS_URL, undefined, {
-      reconnectionDelayGrowFactor: 1,
-      minReconnectionDelay: 300 + Math.random() * 200,
-      connectionTimeout: 1000,
-    } )
-
     // Initialise settings
     this.saveLocalSettings()
     this.#settings = { local: this.readSettings( true ) } as any
-
-    this.#socket.addEventListener( 'close', this.onClose )
-    this.#socket.addEventListener( 'message', this.onMessage )
-    this.#socket.addEventListener( 'open', this.onOpen )
 
     this.on( 'ready', this.onReady )
   }
 
   sendJSON = ( event: string, payload?: any ) => {
-    const sendJSON = () => this.#socket.send( JSON.stringify( { event, payload } ) )
+    // const sendJSON = () => this.#socket.send( JSON.stringify( { event, payload } ) )
 
-    if ( this.#socket.readyState === 1 ) sendJSON()
-    else this.once( 'connected', sendJSON )
+    // if ( this.#socket.readyState === 1 ) sendJSON()
+    // else this.once( 'connected', sendJSON )
   }
 
   onOpen = () => {
@@ -75,7 +62,7 @@ class Controller extends EventEmitter {
   }
 
   /**
-  essage = ( { data }: { data: any } ) => {
+  message = ( { data }: { data: any } ) => {
     const { event, payload } = JSON.parse( data )
     this.emit( event, payload )
   }

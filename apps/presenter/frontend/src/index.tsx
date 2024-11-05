@@ -5,9 +5,9 @@ import { createRoot } from 'react-dom/client'
 import Empty from './components/Empty'
 import { isDev } from './helpers/consts'
 import { routeTree } from './routeTree.gen'
-import controller from './services/controller'
+// import controller from './services/controller'
 
-const settings = controller.readSettings()
+// const settings = controller.readSettings()
 
 // if ( settings?.security?.displayAnalytics ) {
 //   void analytics.initialise()

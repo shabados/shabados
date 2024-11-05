@@ -13,7 +13,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
-import { createFileRoute, useLocation } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import classNames from 'classnames'
 import { stripVishraams } from 'gurmukhi-utils'
 import { invert } from 'lodash'
@@ -23,11 +23,11 @@ import GlobalHotKeys from '~/components/GlobalHotKeys'
 import { withNavigationHotkeys } from '~/components/NavigationHotkeys'
 import NavigatorHotKeys from '~/components/NavigatorHotkeys'
 import { getJumpLines, getNextJumpLine } from '~/helpers/auto-jump'
-import { ContentContext, HistoryContext } from '~/helpers/contexts'
+import { HistoryContext } from '~/helpers/contexts'
 import { LINE_HOTKEYS } from '~/helpers/keyMap'
-import { findLineIndex } from '~/helpers/line'
-import { useCurrentLines } from '~/hooks'
+import { setLine, useContent } from '~/services/content'
 import controller from '~/services/controller'
+import { useTracker } from '~/services/tracker'
 
 import ToolbarButton from '../-components/ToolbarButton'
 import ShabadInfo from './-components/ShabadInfo'
@@ -54,7 +54,7 @@ const NavigatorLine = ( {
   timestamp = null,
 }: NavigatorLineProps ) => {
   // Move to the line id on click
-  const onClick = () => controller.line( id )
+  const onClick = () => setLine( id )
 
   // Register the reference to the line with the NavigationHotKey HOC
   const registerLine = ( line ) => register( id, line, true )
@@ -96,18 +96,16 @@ type NavigatorProps = {
 const Navigator = ( { updateFocus, register, focused }: NavigatorProps ) => {
   const { viewedLines } = useContext( HistoryContext )
 
-  const content = useContext( ContentContext )
-  const { shabad, bani, lineId, mainLineId } = content
-
-  const lines = useCurrentLines()
+  const { content, lines, lineId } = useContent()
+  const { mainLineId } = useTracker()
 
   // Set the focus to the active line when it changes
   useEffect( () => { updateFocus( lineId, false ) }, [ lineId, updateFocus ] )
 
   const goToIndex = useCallback( ( index ) => {
-    const jumpLines = getJumpLines( { shabad, bani } )
+    const jumpLines = getJumpLines( content )
     updateFocus( jumpLines[ index ] )
-  }, [ updateFocus, shabad, bani ] )
+  }, [ updateFocus, content ] )
 
   // Navigation Hotkey Handlers
   const hotKeyHandlers = useMemo( () => ( {
@@ -125,20 +123,20 @@ const Navigator = ( { updateFocus, register, focused }: NavigatorProps ) => {
   // If there's no Shabad to show, go back to the controller
   // if ( !lines.length ) return <Navigate to={{ ...location, pathname: SEARCH_URL }} replace />
 
-  const jumpLines = invert( getJumpLines( content ) )
-  const nextLineId = getNextJumpLine( content )
+  // const jumpLines = invert( getJumpLines( content ) )
+  // const nextLineId = getNextJumpLine( { content, lineId } )
 
   return (
     <GlobalHotKeys keyMap={numberKeyMap} handlers={hotKeyHandlers}>
       <List className="navigator" onKeyDown={( e ) => e.preventDefault()}>
-        {lines.map( ( line ) => (
+        {lines?.map( ( line ) => (
           <NavigatorLine
             key={line.id}
             {...line}
             focused={line.id === focused}
-            main={mainLineId === line.id}
-            next={nextLineId === line.id}
-            hotkey={LINE_HOTKEYS[ jumpLines[ line.id ] ]}
+            // main={mainLineId === line.id}
+            // next={nextLineId === line.id}
+            // hotkey={LINE_HOTKEYS[ jumpLines[ line.id ] ]}
             register={register}
             timestamp={viewedLines[ line.id ]}
           />
@@ -176,45 +174,46 @@ type BarProps = {
 export const Bar = ( { onHover }: BarProps ) => {
   const [ autoSelectHover, setAutoSelectHover ] = useState( false )
 
-  const content = useContext( ContentContext )
-  const { lineId, shabad, bani, mainLineId } = content
-  const { lines } = shabad || bani || {}
+  const {
+    content,
+    setNextContent,
+    setPreviousContent,
+    setPreviousLine,
+    setNextLine,
+    lineId,
+    line,
+    lines,
+  } = useContent()
+  const { mainLineId } = useTracker()
 
-  if ( !lines ) return null
-
-  const currentLineIndex = findLineIndex( lines, lineId )
-  const currentLine = lines[ currentLineIndex ]
+  if ( !line || !lines ) return null
 
   const resetHover = () => onHover( null )
 
   const onUpClick = () => {
-    if ( !currentLine ) return
+    if ( !line ) return
 
     const firstLine = lines[ 0 ]
     // Go to the previous shabad if the first line is highlighted (but not for banis)
     if ( lineId === firstLine.id ) {
-      if ( bani ) return
-
-      controller.previousShabad( shabad.orderId )
-    } else controller.line( lines[ currentLineIndex - 1 ].id )
+      setPreviousContent()
+    } else setPreviousLine()
   }
 
   const onDownClick = () => {
-    if ( !currentLine ) return
+    if ( !line ) return
 
     const lastLine = lines[ lines.length - 1 ]
 
     // Go to the previous shabad if the first line is highlighted (but not for banis)
     if ( lineId === lastLine.id ) {
-      if ( bani ) return
-
-      controller.nextShabad( shabad.orderId )
-    } else controller.line( lines[ currentLineIndex + 1 ].id )
+      setNextContent()
+    } else setNextLine()
   }
 
   const onAutoToggle = () => {
-    if ( shabad ) controller.autoToggleShabad( content )
-    else if ( bani ) controller.autoToggleBani( content )
+    // if ( shabad ) controller.autoToggleShabad( content )
+    // else if ( bani ) controller.autoToggleBani( content )
   }
 
   const onAutoSelectHover = () => {
@@ -237,7 +236,7 @@ export const Bar = ( { onHover }: BarProps ) => {
 
   const baniAutoSelectIcon = () => ( autoSelectHover ? faAngleDoubleRight : faExchangeAlt )
 
-  const autoSelectIcon = shabad ? shabadAutoSelectIcon : baniAutoSelectIcon
+  const autoSelectIcon = content?.type === 'shabad' ? shabadAutoSelectIcon : baniAutoSelectIcon
 
   return (
     <div className="navigator-controls">
@@ -250,7 +249,7 @@ export const Bar = ( { onHover }: BarProps ) => {
         onClick={onUpClick}
       />
 
-      {currentLine && <ShabadInfo />}
+      {line && <ShabadInfo />}
 
       <ToolbarButton
         name="Down"

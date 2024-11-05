@@ -6,8 +6,9 @@ import { Button, IconButton, Popover, Tooltip, Typography } from '@mui/material'
 import { stripVishraams, toUnicode } from 'gurmukhi-utils'
 import { useContext, useRef, useState } from 'react'
 
-import { ContentContext, RecommendedSourcesContext, WritersContext } from '~/helpers/contexts'
-import { useCopyToClipboard, useCurrentLine, useCurrentLines } from '~/hooks'
+import { RecommendedSourcesContext, WritersContext } from '~/helpers/contexts'
+import { useCopyToClipboard } from '~/hooks'
+import { useContent } from '~/services/content'
 import controller from '~/services/controller'
 
 const popoverDisplay = {
@@ -22,12 +23,8 @@ const ShabadInfo = () => {
 
   const [ isPopoverOpen, setPopoverOpen ] = useState( false )
 
-  const { shabad, bani } = useContext( ContentContext )
   const writers = useContext( WritersContext )
   const recommendedSources = useContext( RecommendedSourcesContext )
-
-  const [ line ] = useCurrentLine()
-  const lines = useCurrentLines()
 
   const onClick = () => setPopoverOpen( true )
   const onClose = () => setPopoverOpen( false )
@@ -37,8 +34,10 @@ const ShabadInfo = () => {
   // Icon changes when open
   const barIcon = isPopoverOpen ? faTimesCircle : faInfoCircle
 
-  const { sourceId, writerId, section } = shabad || line.shabad
-  const { nameEnglish: sectionName } = bani || section
+  const { content, line } = useContent()
+
+  const { sourceId, writerId, section } = content?.type === 'shabad' ? content.shabad : line?.shabad
+  const { nameEnglish: sectionName } = content?.type === 'bani' ? content.bani : section
   const { id: lineId, sourcePage } = line
 
   const { nameEnglish: writerName } = writers[ writerId ]

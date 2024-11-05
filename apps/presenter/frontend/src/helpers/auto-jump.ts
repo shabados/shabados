@@ -1,8 +1,8 @@
+import { ClientEventParameters } from '@presenter/contract'
 import { find, findIndex, findLastIndex, invert } from 'lodash'
 import memoize from 'memoizee'
 
 import { BANIS } from './data'
-import { findLineIndex } from './line'
 
 const isBaniJumpLine = ( baniId, lines ) => (
   { jumpLines },
@@ -26,13 +26,11 @@ const isBaniJumpLine = ( baniId, lines ) => (
   return filter()
 }
 
-export const getJumpLines = memoize( ( { shabad, bani } ) => {
-  if ( !( shabad || bani ) ) return {}
-
-  const { lines } = shabad || bani
+export const getJumpLines = memoize( ( content: ClientEventParameters['content:current'] ) => {
+  if ( !content?.lines ) return {}
 
   // Get a function for determining whether a line is jumpable
-  const isJumpLine = bani ? isBaniJumpLine( bani.id, lines ) : () => true
+  const isJumpLine = content.type === 'bani' ? isBaniJumpLine( content.id, content.lines ) : () => true
 
   // Go over each line, and tag which lines are jumpable
   const { jumpLines } = lines.reduce( ( { jumpLines, jumpIndex }, line, lineIndex ) => ( {
@@ -51,17 +49,17 @@ export const getJumpLines = memoize( ( { shabad, bani } ) => {
 }, {
   primitive: true,
   max: 1,
-  normalizer: ( [ { bani, shabad } ] ) => JSON.stringify( {
-    shabadId: ( shabad ? shabad.id : null ),
-    baniId: ( bani ? bani.id : null ),
+  normalizer: ( [ content ] ) => JSON.stringify( {
+    shabadId: ( content?.type === 'shabad' ? content.shabad.id : null ),
+    baniId: ( content?.type === 'bani' ? content.bani.id : null ),
   } ),
 } )
 
-export const getBaniNextJumpLine = ( { bani, lineId } ) => {
-  const { lines } = bani
+export const getBaniNextJumpLine = ( { content, lineId } ) => {
+  const { lines } = content
 
   // Get jump lines and current line index
-  const jumpLines = invert( getJumpLines( { bani } ) )
+  const jumpLines = invert( getJumpLines( content ) )
   const currentLineIndex = findLineIndex( lines, lineId )
   const currentLine = lines[ currentLineIndex ]
 
@@ -140,8 +138,8 @@ export const getBaniNextJumpLine = ( { bani, lineId } ) => {
   return baniNextLineId
 }
 
-export const getNextJumpLine = ( { nextLineId, shabad, bani, lineId } ) => {
-  if ( !( shabad || bani ) ) return null
+export const getNextJumpLine = ( { nextLineId, content, lineId } ) => {
+  if ( !content ) return null
 
-  return shabad ? nextLineId : getBaniNextJumpLine( { bani, lineId } )
+  return content.type === 'shabad' ? nextLineId : getBaniNextJumpLine( { content, lineId } )
 }

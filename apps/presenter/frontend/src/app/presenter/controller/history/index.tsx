@@ -16,6 +16,7 @@ import { withNavigationHotkeys } from '~/components/NavigationHotkeys'
 import { HISTORY_DOWNLOAD_URL } from '~/helpers/consts'
 import { HistoryContext } from '~/helpers/contexts'
 import { LINE_HOTKEYS } from '~/helpers/keyMap'
+import { setContent } from '~/services/content'
 import controller from '~/services/controller'
 
 type HistoryProps = {
@@ -43,8 +44,8 @@ const History = ( { register, focused = 0 }: HistoryProps ) => {
           const latestLineId = latestLine ? latestLine.id : lineId
 
           const onClick = () => ( bani
-            ? controller.bani( { baniId: bani.id, lineId: latestLineId } )
-            : controller.shabad( { shabadId, lineId: latestLineId } ) )
+            ? setContent( { type: 'bani', id: bani.id, lineId: latestLineId } )
+            : setContent( { type: 'shabad', id: shabadId, lineId: latestLineId } ) )
 
           return (
             <ListItem

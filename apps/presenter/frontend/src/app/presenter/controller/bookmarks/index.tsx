@@ -2,12 +2,11 @@ import './index.css'
 
 import { List, ListItem } from '@mui/material'
 import { createFileRoute } from '@tanstack/react-router'
-import { useContext } from 'react'
 
 import { withNavigationHotkeys } from '~/components/NavigationHotkeys'
-import { BookmarksContext } from '~/helpers/contexts'
 import { LINE_HOTKEYS } from '~/helpers/keyMap'
-import controller from '~/services/controller'
+import { useBookmarks } from '~/services/bookmarks'
+import { setContent } from '~/services/content'
 
 type BookmarkProps = {
   focused?: number,
@@ -15,16 +14,16 @@ type BookmarkProps = {
 }
 
 const Bookmarks = ( { register, focused = 0 }: BookmarkProps ) => {
-  const bookmarks = useContext( BookmarksContext )
+  const bookmarks = useBookmarks()
 
   return (
     <List className="bookmarks">
-      {bookmarks.map( ( { id, nameGurmukhi }, index ) => (
+      {bookmarks?.map( ( { id, nameGurmukhi }, index ) => (
         <ListItem
           className={focused === index ? 'focused' : ''}
           key={id}
           ref={( ref ) => register( index, ref )}
-          onClick={() => controller.bani( { baniId: id } )}
+          onClick={() => setContent( { id, type: 'bani' } )}
         >
           <span className="hotkey meta">{LINE_HOTKEYS[ index ]}</span>
           <span className="gurmukhi text">{nameGurmukhi}</span>

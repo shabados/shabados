@@ -2,13 +2,13 @@ import './index.css'
 
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { useContext } from 'react'
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
 
-import { StatusContext } from '~/helpers/contexts'
+import { useNotifications } from '~/services/notifications'
 
 const StatusToast = () => {
-  const { status } = useContext( StatusContext )
+  const status = useNotifications()
+
   return (
     <TransitionGroup component={null}>
       {status && (

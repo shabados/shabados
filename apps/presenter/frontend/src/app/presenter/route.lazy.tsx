@@ -20,9 +20,8 @@ import { SettingsContext } from '~/helpers/contexts'
 import { toggleFullscreen } from '~/helpers/electron-utils'
 import { GLOBAL_SHORTCUTS } from '~/helpers/keyMap'
 import { CLIENT_OPTIONS } from '~/helpers/options'
-import { useCurrentLines } from '~/hooks'
 import { useNavigateUtils } from '~/hooks/navigate'
-import controller from '~/services/controller'
+import { clearLine, useContent } from '~/services/content'
 
 import StatusToast from './-components/StatusToast'
 import { ControllerLocationHistoryProvider } from './-controller-location-history'
@@ -61,7 +60,7 @@ const Presenter = () => {
     onActive: () => setIsIdle( false ),
   } )
 
-  const lines = useCurrentLines()
+  const { lines } = useContent()
 
   const { local: localSettings } = useContext( SettingsContext )
   const {
@@ -73,9 +72,10 @@ const Presenter = () => {
   const toggleController = () => void navigate( { to: isControllerOpen ? '/' : '/presenter/controller' } )
 
   const { controllerZoom } = CLIENT_OPTIONS
-  const setZoom = ( controllerZoom: number ) => controller.setSettings( {
-    layout: { controllerZoom },
-  } )
+  // const setZoom = ( controllerZoom: number ) => controller.setSettings( {
+  //   layout: { controllerZoom },
+  // } )
+  const setZoom = () => {}
 
   const zoomInController = () => setZoom( Math.min( controllerZoom.max, zoom + 0.1 ) )
   const zoomOutController = () => setZoom( Math.max( controllerZoom.min, zoom - 0.1 ) )
@@ -112,7 +112,7 @@ const Presenter = () => {
     [ GLOBAL_SHORTCUTS.history.name ]: () => void navigate( { to: '/presenter/controller/history' } ),
     [ GLOBAL_SHORTCUTS.bookmarks.name ]: () => void navigate( { to: '/presenter/controller/bookmarks' } ),
     [ GLOBAL_SHORTCUTS.navigator.name ]: () => lines.length && void navigate( { to: '/presenter/controller/navigator' } ),
-    [ GLOBAL_SHORTCUTS.clearDisplay.name ]: controller.clear,
+    [ GLOBAL_SHORTCUTS.clearDisplay.name ]: clearLine,
     [ GLOBAL_SHORTCUTS.toggleFullscreenController.name ]: toggleFullscreenController,
     [ GLOBAL_SHORTCUTS.toggleFullscreen.name ]: toggleFullscreen,
     [ GLOBAL_SHORTCUTS.quit.name ]: window.close,

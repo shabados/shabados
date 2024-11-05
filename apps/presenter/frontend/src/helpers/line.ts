@@ -2,10 +2,9 @@
  ** Currently shared with backend! Should be refactored.
  */
 
-import type { Line, RecommendedSources, Shabad, Translation } from '@presenter/contract'
+import type { Content, Line, RecommendedSources, Shabad, Source, Translation } from '@presenter/contract'
 import { stripEndings, stripVishraams } from 'gurmukhi-utils'
 import vishraams from 'gurmukhi-utils/lib/vishraams.json'
-import memoize from 'memoizee'
 
 import { LINE_TYPES, Translations, TRANSLITERATORS, Transliterators } from './data'
 
@@ -16,17 +15,8 @@ export const sortBy = (
   [ languageB ]: [string, any]
 ) => sortOrder[ languageA ] - sortOrder[ languageB ]
 
-export const findLineIndex = memoize(
-  ( lines: Line[], lineId: string ) => lines.findIndex( ( { id } ) => id === lineId ),
-  {
-    primitive: true,
-    max: 5,
-    normalizer: ( [ , lineId ] ) => lineId,
-  },
-)
-
- type CustomiseLineParams = { lineEnding: boolean, typeId: number }
- type LineTransformer = [boolean, ( text: string ) => string]
+type CustomiseLineParams = { lineEnding: boolean, typeId: number }
+type LineTransformer = [boolean, ( text: string ) => string]
 
 export const customiseLine = ( line: string, { lineEnding, typeId }: CustomiseLineParams ) => ( [
   [ lineEnding, stripEndings ],
@@ -64,7 +54,7 @@ export const partitionLine = ( line: string, strip = true ) => classifyWords( li
   }, [ [] ] )
 
  type GetTranslationParams = {
-   shabad: Shabad,
+   content: Content,
    line: Line,
    sources: Source,
    recommendedSources: Source,
@@ -72,9 +62,9 @@ export const partitionLine = ( line: string, strip = true ) => classifyWords( li
  }
 
 export const getTranslation = (
-  { shabad, line, sources, recommendedSources, languageId }: GetTranslationParams
+  { content, line, sources, recommendedSources, languageId }: GetTranslationParams
 ) => {
-  const { sourceId } = shabad || line.shabad
+  const { sourceId } = content.shabad || line.shabad
 
   if ( !( sources?.[ sourceId ] ) ) return null
 
@@ -94,7 +84,7 @@ export const getTranslation = (
  type GetTranslationsParams = {
    languageIds: number[],
    line: Line,
-   shabad: Shabad | null,
+   content: Content,
    sources: RecommendedSources['sources'],
    recommendedSources: RecommendedSources['recommendedSources'],
  }

@@ -19,10 +19,10 @@ import classNames from 'classnames'
 import { useContext, useEffect, useState } from 'react'
 import { z } from 'zod'
 
-import { ContentContext, SettingsContext } from '~/helpers/contexts'
-import { useCurrentLines, usePrevious } from '~/hooks'
+import { SettingsContext } from '~/helpers/contexts'
+import { usePrevious } from '~/hooks'
 import { useNavigateUtils } from '~/hooks/navigate'
-import controller from '~/services/controller'
+import { clearLine, useContent } from '~/services/content'
 
 import ToolbarButton from './-components/ToolbarButton'
 
@@ -109,7 +109,7 @@ type BottomBarProps = {
 const BottomBar = ( { renderContent = () => null, onHover = () => ( {} ) }: BottomBarProps ) => {
   const navigate = useNavigate()
 
-  const lines = useCurrentLines()
+  const { lines } = useContent()
 
   const resetHover = () => onHover( null )
 
@@ -135,7 +135,7 @@ const BottomBar = ( { renderContent = () => null, onHover = () => ( {} ) }: Bott
 
       <div className="middle">{renderContent()}</div>
 
-      {!!lines.length && (
+      {lines?.length && (
         <ToolbarButton
           name="Navigator"
           icon={faMap}
@@ -148,7 +148,7 @@ const BottomBar = ( { renderContent = () => null, onHover = () => ( {} ) }: Bott
       <ToolbarButton
         name="Clear"
         icon={faVideoSlash}
-        onClick={controller.clear}
+        onClick={clearLine}
         onMouseEnter={() => onHover( 'Clear' )}
         onMouseLeave={resetHover}
       />
@@ -157,8 +157,7 @@ const BottomBar = ( { renderContent = () => null, onHover = () => ( {} ) }: Bott
 }
 
 const Controller = ( props ) => {
-  const { shabad, bani } = useContext( ContentContext )
-  const lines = useCurrentLines()
+  const { lines } = useContent()
 
   const previousLines = usePrevious( lines )
 
@@ -175,7 +174,7 @@ const Controller = ( props ) => {
     ] satisfies ToPathOption['to'][]
 
     // Redirect to navigator tab if on one of the redirectable pages
-    const isTransition = lines.length && lines !== previousLines
+    const isTransition = lines?.length && lines !== previousLines
 
     if ( isTransition && redirects.some( ( route ) => pathname.includes( route ) ) ) {
       void navigate( { to: '/presenter/controller/navigator' } )

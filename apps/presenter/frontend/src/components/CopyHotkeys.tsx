@@ -2,11 +2,12 @@ import { stripVishraams, toUnicode } from 'gurmukhi-utils'
 import { mapValues } from 'lodash'
 import { ReactNode, useContext } from 'react'
 
-import { ContentContext, RecommendedSourcesContext, SettingsContext, WritersContext } from '~/helpers/contexts'
+import { RecommendedSourcesContext, SettingsContext, WritersContext } from '~/helpers/contexts'
 import { LANGUAGES, SOURCE_ABBREVIATIONS } from '~/helpers/data'
 import { COPY_SHORTCUTS } from '~/helpers/keyMap'
 import { customiseLine, getTransliterators } from '~/helpers/line'
-import { useCopyToClipboard, useCurrentLine, useCurrentLines, useTranslations } from '~/hooks'
+import { useCopyToClipboard, useTranslations } from '~/hooks'
+import { useContent } from '~/services/content'
 
 import GlobalHotKeys from './GlobalHotKeys'
 
@@ -16,12 +17,9 @@ type CopyHotkeysProps = {
 
 const CopyHotkeys = ( { children }: CopyHotkeysProps ) => {
   const { local: { hotkeys, display: { lineEnding } } } = useContext( SettingsContext )
-  const lines = useCurrentLines()
-  const [ line ] = useCurrentLine()
-  const { typeId } = line || {}
+  const { lines, line } = useContent()
 
   // Get Shabad, writer, sources for getting the author
-  const { shabad } = useContext( ContentContext )
   const writers = useContext( WritersContext )
   const recommendedSources = useContext( RecommendedSourcesContext )
 
@@ -32,7 +30,7 @@ const CopyHotkeys = ( { children }: CopyHotkeysProps ) => {
       LANGUAGES.punjabi,
       LANGUAGES.spanish,
     ] ),
-    ( line ) => customiseLine( line, { lineEnding, typeId } ),
+    ( line ) => customiseLine( line, { lineEnding, typeId: line?.typeId } ),
   )
 
   // Get all transliterators
@@ -43,14 +41,14 @@ const CopyHotkeys = ( { children }: CopyHotkeysProps ) => {
       LANGUAGES.urdu,
     ] ),
     ( transliterate ) => () => transliterate(
-      customiseLine( line.gurmukhi, { lineEnding, typeId } ),
+      customiseLine( line?.gurmukhi, { lineEnding, typeId: line?.typeId } ),
     ),
   )
 
   const getAuthor = () => {
     if ( !line ) return ''
 
-    const { sourceId, writerId } = shabad || line.shabad
+    const { sourceId, writerId } = content?.type === 'shabad' ? content.shabad : line.shabad
     const { sourcePage } = line
 
     const { pageNameEnglish: pageName } = recommendedSources[ sourceId ]
@@ -59,7 +57,7 @@ const CopyHotkeys = ( { children }: CopyHotkeysProps ) => {
     return `${writerName} - ${SOURCE_ABBREVIATIONS[ sourceId ]} - ${pageName} ${sourcePage}`
   }
 
-  const getAllLines = () => lines.map( ( { gurmukhi } ) => gurmukhi ).join( ' ' )
+  const getAllLines = () => lines?.map( ( { gurmukhi } ) => gurmukhi ).join( ' ' )
 
   const copyToClipboard = useCopyToClipboard()
 

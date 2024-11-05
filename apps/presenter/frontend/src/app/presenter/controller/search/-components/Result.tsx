@@ -5,6 +5,7 @@ import { forwardRef, useContext } from 'react'
 import { RecommendedSourcesContext, SettingsContext, WritersContext } from '~/helpers/contexts'
 import { LANGUAGE_NAMES, SOURCE_ABBREVIATIONS, TRANSLITERATORS } from '~/helpers/data'
 import { customiseLine, getTranslation } from '~/helpers/line'
+import { setContent } from '~/services/content'
 import controller from '~/services/controller'
 
 type ResultProps = {
@@ -19,7 +20,6 @@ type ResultProps = {
   sourcePage: number,
   translations: Record<string, string>[],
 }
-
 
 const Result = forwardRef( ( {
   gurmukhi,
@@ -68,7 +68,7 @@ const Result = forwardRef( ( {
   const [ translitBeforeMatch, translitMatch, translitAfterMatch ] = highlight( transliteration )
 
   // Send the shabad id and line id to the server on click
-  const onClick = () => controller.shabad( { shabadId, lineId } )
+  const onClick = () => setContent( { id: shabadId, lineId, type: 'shabad' } )
 
   // Helper render functions for citation
   const showCitation = showResultCitations && shabad?.section

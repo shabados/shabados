@@ -15,7 +15,7 @@ import {
   SEARCH_TYPES,
 } from '~/helpers/consts'
 import { SettingsContext } from '~/helpers/contexts'
-import controller from '~/services/controller'
+import { search, useSearchResults } from '~/services/search'
 
 import Result from './-components/Result'
 import getHighlighter from './-match-highlighter'
@@ -62,11 +62,11 @@ const Search = ( { updateFocus, register, focused }: SearchProps ) => {
   const inputValue = useRef( initialInputValue )
   const [ anchor, setAnchor ] = useState( initialAnchor )
 
-  const [ results, setResults ] = useState( [] )
-
   const [ isInputFocused, setInputFocused ] = useState( false )
 
   const inputRef = useRef( null )
+
+  const { results, clearResults } = useSearchResults()
 
   const onResults = useCallback( ( results ) => {
     setSearchedValue( inputValue.current )
@@ -82,12 +82,16 @@ const Search = ( { updateFocus, register, focused }: SearchProps ) => {
     const doSearch = searchValue.length >= MIN_SEARCH_CHARS
 
     if ( doSearch ) {
-      controller.search( searchValue, searchType, {
-        translations: !!resultTranslationLanguage,
-        transliterations: !!resultTransliterationLanguage,
-        citations: !!showResultCitations,
+      search( {
+        query: searchValue,
+        type: searchType,
+        options: {
+          translations: !!resultTranslationLanguage,
+          transliterations: !!resultTransliterationLanguage,
+          citations: !!showResultCitations,
+        },
       } )
-    } else setResults( [] )
+    } else clearResults()
 
     inputValue.current = searchValue
     setAnchor( anchor )
@@ -119,11 +123,6 @@ const Search = ( { updateFocus, register, focused }: SearchProps ) => {
   }
 
   const highlightSearch = () => inputRef.current.select()
-
-  useEffect( () => {
-    controller.on( 'results', onResults )
-    return () => { controller.off( 'results', onResults ) }
-  }, [ onResults ] )
 
   useEffect( () => {
     if ( inputValue.current ) onChange( { target: { value: `${anchor || ''}${inputValue.current}` } } )
@@ -174,7 +173,7 @@ const Search = ( { updateFocus, register, focused }: SearchProps ) => {
       />
 
       <List className="results">
-        {results && results.map( ( result, index ) => (
+        {results?.map( ( result, index ) => (
           <Result
             {...result}
             key={result.id}

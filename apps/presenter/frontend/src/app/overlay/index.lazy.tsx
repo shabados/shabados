@@ -3,18 +3,19 @@ import classNames from 'classnames'
 import { mapValues } from 'lodash'
 import { useContext } from 'react'
 
-import { SettingsContext, StatusContext } from '~/helpers/contexts'
+import { SettingsContext } from '~/helpers/contexts'
 import { LANGUAGES } from '~/helpers/data'
 import { customiseLine, getTransliterators } from '~/helpers/line'
 import { filterFalsyValues } from '~/helpers/utils'
 import { useCurrentLine, useTranslations } from '~/hooks'
+import { useStatus } from '~/services/status'
 
 import Line from './-components/Line'
 import ThemeLoader from './-components/ThemeLoader'
 
 const Overlay = () => {
   const settings = useContext( SettingsContext )
-  const { connected } = useContext( StatusContext )
+  const { connected } = useStatus()
 
   const { global: globalSettings } = settings || {}
   const { overlay: { overlayName, ...overlay } } = globalSettings || {}

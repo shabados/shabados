@@ -1,39 +1,19 @@
-import { Line } from '@presenter/contract'
 import copy from 'copy-to-clipboard'
 import { useSnackbar } from 'notistack'
 import { useContext, useEffect, useRef, useState } from 'react'
 
 import { isMac } from '~/helpers/consts'
-import { ContentContext, RecommendedSourcesContext, SettingsContext } from '~/helpers/contexts'
-import { findLineIndex, getTranslations } from '~/helpers/line'
-
-export const useCurrentLines = () => {
-  const { shabad, bani } = useContext( ContentContext )
-
-  const { lines = [] as Line[] } = shabad || bani || {}
-
-  return lines
-}
-
-export const useCurrentLine = () => {
-  const { lineId, shabad, bani } = useContext( ContentContext )
-  const { lines = [] as Line[] } = shabad || bani || {}
-
-  // Find the correct line in the Shabad
-  const lineIndex = findLineIndex( lines, lineId )
-  const line = lineIndex > -1 ? lines[ lineIndex ] : null
-
-  return [ line as Line, lineIndex ] as const
-}
+import { RecommendedSourcesContext, SettingsContext } from '~/helpers/contexts'
+import { getTranslations } from '~/helpers/line'
+import { useContent } from '~/services/content'
 
 export const useTranslations = ( languageIds: number[] ) => {
-  const { shabad } = useContext( ContentContext )
-  const [ line ] = useCurrentLine()
+  const { content, line } = useContent()
 
   const recommendedSources = useContext( RecommendedSourcesContext )
   const { local: { sources } = {} } = useContext( SettingsContext )
 
-  return getTranslations( { shabad, line, recommendedSources, sources, languageIds } )
+  return getTranslations( { content, line, recommendedSources, sources, languageIds } )
 }
 
 export const useCopyToClipboard = () => {

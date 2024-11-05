@@ -2,10 +2,10 @@ import { noop } from 'lodash'
 import { useCallback, useContext, useEffect } from 'react'
 
 import { getJumpLines } from '~/helpers/auto-jump'
-import { ContentContext, HistoryContext, SettingsContext } from '~/helpers/contexts'
+import { HistoryContext, SettingsContext } from '~/helpers/contexts'
 import { LINE_HOTKEYS, NAVIGATOR_SHORTCUTS } from '~/helpers/keyMap'
-import { findLineIndex } from '~/helpers/line'
-import { useCurrentLines, useWindowFocus } from '~/hooks'
+import { useWindowFocus } from '~/hooks'
+import { setLine, setNextContent, setPreviousContent, useContent } from '~/services/content'
 import controller from '~/services/controller'
 
 import GlobalHotKeys from './GlobalHotKeys'
@@ -21,9 +21,8 @@ const NavigatorHotKeys = (
 ) => {
   const { viewedLines } = useContext( HistoryContext )
 
-  const content = useContext( ContentContext )
-  const { lineId, mainLineId, nextLineId, shabad, bani } = content
-  const lines = useCurrentLines()
+  const { content, lineId } = useContent()
+  const lines = content?.lines
 
   const goFirstLine = () => {
     if ( !lines ) return
@@ -31,8 +30,8 @@ const NavigatorHotKeys = (
     const [ firstLine ] = lines
 
     // Go to the previous shabad if the first line is highlighted (but not for banis)
-    if ( !bani && lineId === firstLine.id ) controller.previousShabad( shabad.orderId )
-    else controller.line( firstLine.id )
+    if ( content.type === 'shabad' && lineId === firstLine.id ) setPreviousContent()
+    else setLine( firstLine.id )
   }
 
   const goLastLine = () => {
@@ -41,14 +40,14 @@ const NavigatorHotKeys = (
     const lastLine = lines[ lines.length - 1 ]
 
     // Go to the next shabad if the last line is highlighted (but not for banis)
-    if ( !bani && lineId === lastLine.id ) controller.nextShabad( shabad.orderId )
-    else controller.line( lastLine.id )
+    if ( content.type === 'shabad' && lineId === lastLine.id ) setNextContent()
+    else setLine( lastLine.id )
   }
 
   const autoToggle = useCallback( () => {
-    if ( shabad ) controller.autoToggleShabad( content )
-    else if ( bani ) controller.autoToggleBani( content )
-  }, [ shabad, bani, content ] )
+    // if ( content.type === 'shabad' ) controller.autoToggleShabad( content )
+    // else if ( content.type === 'bani' ) controller.autoToggleBani( content )
+  }, [ content ] )
 
   const restoreLine = () => {
     const ids = Object
@@ -178,4 +177,4 @@ const NavigatorHotKeys = (
   )
 }
 
-export default NavigatorHotKeys
+export default ( { children } ) => children

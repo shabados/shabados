@@ -286,30 +286,215 @@ declare module '@tanstack/react-router' {
 
 // Create and export the route tree
 
-export const routeTree = rootRoute.addChildren({
-  IndexRoute,
-  PresenterRouteRoute: PresenterRouteRoute.addChildren({
-    PresenterControllerRouteRoute: PresenterControllerRouteRoute.addChildren({
-      PresenterControllerIndexRoute,
+interface PresenterControllerRouteRouteChildren {
+  PresenterControllerIndexRoute: typeof PresenterControllerIndexRoute
+  PresenterControllerBookmarksIndexRoute: typeof PresenterControllerBookmarksIndexRoute
+  PresenterControllerHistoryIndexRoute: typeof PresenterControllerHistoryIndexRoute
+  PresenterControllerNavigatorIndexRoute: typeof PresenterControllerNavigatorIndexRoute
+  PresenterControllerSearchIndexRoute: typeof PresenterControllerSearchIndexRoute
+}
+
+const PresenterControllerRouteRouteChildren: PresenterControllerRouteRouteChildren =
+  {
+    PresenterControllerIndexRoute: PresenterControllerIndexRoute,
+    PresenterControllerBookmarksIndexRoute:
       PresenterControllerBookmarksIndexRoute,
-      PresenterControllerHistoryIndexRoute,
+    PresenterControllerHistoryIndexRoute: PresenterControllerHistoryIndexRoute,
+    PresenterControllerNavigatorIndexRoute:
       PresenterControllerNavigatorIndexRoute,
-      PresenterControllerSearchIndexRoute,
-    }),
-  }),
-  SettingsRouteRoute: SettingsRouteRoute.addChildren({
-    SettingsIndexRoute,
-    SettingsClientCategoryRoute,
-    SettingsServerCategoryRoute,
-    SettingsClientHotkeysIndexRoute,
-    SettingsClientSourcesIndexRoute,
-    SettingsServerAboutIndexRoute,
-    SettingsToolsClosedCaptionsIndexRoute,
-    SettingsToolsOverlayIndexRoute,
-  }),
-  OverlayIndexLazyRoute,
-  ScreenReaderIndexLazyRoute,
-})
+    PresenterControllerSearchIndexRoute: PresenterControllerSearchIndexRoute,
+  }
+
+const PresenterControllerRouteRouteWithChildren =
+  PresenterControllerRouteRoute._addFileChildren(
+    PresenterControllerRouteRouteChildren,
+  )
+
+interface PresenterRouteRouteChildren {
+  PresenterControllerRouteRoute: typeof PresenterControllerRouteRouteWithChildren
+}
+
+const PresenterRouteRouteChildren: PresenterRouteRouteChildren = {
+  PresenterControllerRouteRoute: PresenterControllerRouteRouteWithChildren,
+}
+
+const PresenterRouteRouteWithChildren = PresenterRouteRoute._addFileChildren(
+  PresenterRouteRouteChildren,
+)
+
+interface SettingsRouteRouteChildren {
+  SettingsIndexRoute: typeof SettingsIndexRoute
+  SettingsClientCategoryRoute: typeof SettingsClientCategoryRoute
+  SettingsServerCategoryRoute: typeof SettingsServerCategoryRoute
+  SettingsClientHotkeysIndexRoute: typeof SettingsClientHotkeysIndexRoute
+  SettingsClientSourcesIndexRoute: typeof SettingsClientSourcesIndexRoute
+  SettingsServerAboutIndexRoute: typeof SettingsServerAboutIndexRoute
+  SettingsToolsClosedCaptionsIndexRoute: typeof SettingsToolsClosedCaptionsIndexRoute
+  SettingsToolsOverlayIndexRoute: typeof SettingsToolsOverlayIndexRoute
+}
+
+const SettingsRouteRouteChildren: SettingsRouteRouteChildren = {
+  SettingsIndexRoute: SettingsIndexRoute,
+  SettingsClientCategoryRoute: SettingsClientCategoryRoute,
+  SettingsServerCategoryRoute: SettingsServerCategoryRoute,
+  SettingsClientHotkeysIndexRoute: SettingsClientHotkeysIndexRoute,
+  SettingsClientSourcesIndexRoute: SettingsClientSourcesIndexRoute,
+  SettingsServerAboutIndexRoute: SettingsServerAboutIndexRoute,
+  SettingsToolsClosedCaptionsIndexRoute: SettingsToolsClosedCaptionsIndexRoute,
+  SettingsToolsOverlayIndexRoute: SettingsToolsOverlayIndexRoute,
+}
+
+const SettingsRouteRouteWithChildren = SettingsRouteRoute._addFileChildren(
+  SettingsRouteRouteChildren,
+)
+
+interface FileRoutesByFullPath {
+  '/': typeof IndexRoute
+  '/presenter': typeof PresenterRouteRouteWithChildren
+  '/settings': typeof SettingsRouteRouteWithChildren
+  '/presenter/controller': typeof PresenterControllerRouteRouteWithChildren
+  '/settings/': typeof SettingsIndexRoute
+  '/overlay': typeof OverlayIndexLazyRoute
+  '/screen-reader': typeof ScreenReaderIndexLazyRoute
+  '/settings/client/$category': typeof SettingsClientCategoryRoute
+  '/settings/server/$category': typeof SettingsServerCategoryRoute
+  '/presenter/controller/': typeof PresenterControllerIndexRoute
+  '/presenter/controller/bookmarks': typeof PresenterControllerBookmarksIndexRoute
+  '/presenter/controller/history': typeof PresenterControllerHistoryIndexRoute
+  '/presenter/controller/navigator': typeof PresenterControllerNavigatorIndexRoute
+  '/presenter/controller/search': typeof PresenterControllerSearchIndexRoute
+  '/settings/client/hotkeys': typeof SettingsClientHotkeysIndexRoute
+  '/settings/client/sources': typeof SettingsClientSourcesIndexRoute
+  '/settings/server/about': typeof SettingsServerAboutIndexRoute
+  '/settings/tools/closedCaptions': typeof SettingsToolsClosedCaptionsIndexRoute
+  '/settings/tools/overlay': typeof SettingsToolsOverlayIndexRoute
+}
+
+interface FileRoutesByTo {
+  '/': typeof IndexRoute
+  '/presenter': typeof PresenterRouteRouteWithChildren
+  '/settings': typeof SettingsIndexRoute
+  '/overlay': typeof OverlayIndexLazyRoute
+  '/screen-reader': typeof ScreenReaderIndexLazyRoute
+  '/settings/client/$category': typeof SettingsClientCategoryRoute
+  '/settings/server/$category': typeof SettingsServerCategoryRoute
+  '/presenter/controller': typeof PresenterControllerIndexRoute
+  '/presenter/controller/bookmarks': typeof PresenterControllerBookmarksIndexRoute
+  '/presenter/controller/history': typeof PresenterControllerHistoryIndexRoute
+  '/presenter/controller/navigator': typeof PresenterControllerNavigatorIndexRoute
+  '/presenter/controller/search': typeof PresenterControllerSearchIndexRoute
+  '/settings/client/hotkeys': typeof SettingsClientHotkeysIndexRoute
+  '/settings/client/sources': typeof SettingsClientSourcesIndexRoute
+  '/settings/server/about': typeof SettingsServerAboutIndexRoute
+  '/settings/tools/closedCaptions': typeof SettingsToolsClosedCaptionsIndexRoute
+  '/settings/tools/overlay': typeof SettingsToolsOverlayIndexRoute
+}
+
+interface FileRoutesById {
+  '/': typeof IndexRoute
+  '/presenter': typeof PresenterRouteRouteWithChildren
+  '/settings': typeof SettingsRouteRouteWithChildren
+  '/presenter/controller': typeof PresenterControllerRouteRouteWithChildren
+  '/settings/': typeof SettingsIndexRoute
+  '/overlay/': typeof OverlayIndexLazyRoute
+  '/screen-reader/': typeof ScreenReaderIndexLazyRoute
+  '/settings/client/$category': typeof SettingsClientCategoryRoute
+  '/settings/server/$category': typeof SettingsServerCategoryRoute
+  '/presenter/controller/': typeof PresenterControllerIndexRoute
+  '/presenter/controller/bookmarks/': typeof PresenterControllerBookmarksIndexRoute
+  '/presenter/controller/history/': typeof PresenterControllerHistoryIndexRoute
+  '/presenter/controller/navigator/': typeof PresenterControllerNavigatorIndexRoute
+  '/presenter/controller/search/': typeof PresenterControllerSearchIndexRoute
+  '/settings/client/hotkeys/': typeof SettingsClientHotkeysIndexRoute
+  '/settings/client/sources/': typeof SettingsClientSourcesIndexRoute
+  '/settings/server/about/': typeof SettingsServerAboutIndexRoute
+  '/settings/tools/closedCaptions/': typeof SettingsToolsClosedCaptionsIndexRoute
+  '/settings/tools/overlay/': typeof SettingsToolsOverlayIndexRoute
+}
+
+interface FileRouteTypes {
+  fileRoutesByFullPath: FileRoutesByFullPath
+  fullPaths:
+    | '/'
+    | '/presenter'
+    | '/settings'
+    | '/presenter/controller'
+    | '/settings/'
+    | '/overlay'
+    | '/screen-reader'
+    | '/settings/client/$category'
+    | '/settings/server/$category'
+    | '/presenter/controller/'
+    | '/presenter/controller/bookmarks'
+    | '/presenter/controller/history'
+    | '/presenter/controller/navigator'
+    | '/presenter/controller/search'
+    | '/settings/client/hotkeys'
+    | '/settings/client/sources'
+    | '/settings/server/about'
+    | '/settings/tools/closedCaptions'
+    | '/settings/tools/overlay'
+  fileRoutesByTo: FileRoutesByTo
+  to:
+    | '/'
+    | '/presenter'
+    | '/settings'
+    | '/overlay'
+    | '/screen-reader'
+    | '/settings/client/$category'
+    | '/settings/server/$category'
+    | '/presenter/controller'
+    | '/presenter/controller/bookmarks'
+    | '/presenter/controller/history'
+    | '/presenter/controller/navigator'
+    | '/presenter/controller/search'
+    | '/settings/client/hotkeys'
+    | '/settings/client/sources'
+    | '/settings/server/about'
+    | '/settings/tools/closedCaptions'
+    | '/settings/tools/overlay'
+  id:
+    | '/'
+    | '/presenter'
+    | '/settings'
+    | '/presenter/controller'
+    | '/settings/'
+    | '/overlay/'
+    | '/screen-reader/'
+    | '/settings/client/$category'
+    | '/settings/server/$category'
+    | '/presenter/controller/'
+    | '/presenter/controller/bookmarks/'
+    | '/presenter/controller/history/'
+    | '/presenter/controller/navigator/'
+    | '/presenter/controller/search/'
+    | '/settings/client/hotkeys/'
+    | '/settings/client/sources/'
+    | '/settings/server/about/'
+    | '/settings/tools/closedCaptions/'
+    | '/settings/tools/overlay/'
+  fileRoutesById: FileRoutesById
+}
+
+interface RootRouteChildren {
+  IndexRoute: typeof IndexRoute
+  PresenterRouteRoute: typeof PresenterRouteRouteWithChildren
+  SettingsRouteRoute: typeof SettingsRouteRouteWithChildren
+  OverlayIndexLazyRoute: typeof OverlayIndexLazyRoute
+  ScreenReaderIndexLazyRoute: typeof ScreenReaderIndexLazyRoute
+}
+
+const rootRouteChildren: RootRouteChildren = {
+  IndexRoute: IndexRoute,
+  PresenterRouteRoute: PresenterRouteRouteWithChildren,
+  SettingsRouteRoute: SettingsRouteRouteWithChildren,
+  OverlayIndexLazyRoute: OverlayIndexLazyRoute,
+  ScreenReaderIndexLazyRoute: ScreenReaderIndexLazyRoute,
+}
+
+export const routeTree = rootRoute
+  ._addFileChildren(rootRouteChildren)
+  ._addFileTypes<FileRouteTypes>()
 
 /* prettier-ignore-end */
 

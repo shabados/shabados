@@ -4,8 +4,8 @@ import { createLazyFileRoute } from '@tanstack/react-router'
 import classNames from 'classnames'
 import { useContext } from 'react'
 
-import { ContentContext } from '~/helpers/contexts'
 import { classifyWords } from '~/helpers/line'
+import { useContent } from '~/services/content'
 
 const titlesFuzzy = [
   '<>',
@@ -60,14 +60,12 @@ const pauriEndingRegex = /][\d]+]/
 const isEndOfPauri = ( str: string ) => ( pauriEndingRegex.test( str ) || str.includes( 'bolo jI vwihgurU [' ) )
 
 const ScreenReader = () => {
-  const { shabad, bani } = useContext( ContentContext )
-
-  const { lines = [] } = shabad ?? bani ?? {}
+  const { lines } = useContent()
 
   return (
     <div className="lines-container">
       <div className="lines">
-        {lines.map( ( { gurmukhi, id } ) => (
+        {lines?.map( ( { gurmukhi, id } ) => (
           <p
             key={id}
             className={classNames( 'line', { title: isTitle( gurmukhi ), 'end-of-pauri': isEndOfPauri( gurmukhi ) } )}

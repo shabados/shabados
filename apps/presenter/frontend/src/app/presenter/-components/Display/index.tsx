@@ -7,7 +7,8 @@ import { LANGUAGES } from '~/helpers/data'
 import { customiseLine, getTransliterators } from '~/helpers/line'
 import { ClientSettings } from '~/helpers/options'
 import { filterFalsyValues } from '~/helpers/utils'
-import { useCurrentLine, useCurrentLines, useTranslations } from '~/hooks'
+import { useTranslations } from '~/hooks'
+import { useContent } from '~/services/content'
 
 import Line from '../Line'
 
@@ -31,9 +32,7 @@ const Display = ( { settings }: DisplayProps ) => {
   const { lineEnding } = display
 
   // Find the correct line in the Shabad
-  const lines = useCurrentLines()
-  const [ line, lineIndex ] = useCurrentLine()
-  const typeId = ( line?.typeId ) || -1
+  const { line, lineIndex, lines } = useContent()
 
   // Get the next lines
   const { nextLines: nextLineCount, previousLines: previousLineCount } = display
@@ -48,7 +47,7 @@ const Display = ( { settings }: DisplayProps ) => {
       display.punjabiTranslation && LANGUAGES.punjabi,
       display.spanishTranslation && LANGUAGES.spanish,
     ] ) as number[] ),
-    ( line ) => customiseLine( line, { lineEnding, typeId } ),
+    ( line ) => customiseLine( line, { lineEnding, typeId: line.typeId } ),
   )
 
   const transliterators = mapValues(
@@ -58,7 +57,7 @@ const Display = ( { settings }: DisplayProps ) => {
       display.urduTransliteration && LANGUAGES.urdu,
     ] ) as number[] ),
     ( transliterate ) => ( text: string ) => transliterate(
-      customiseLine( text, { lineEnding, typeId } )
+      customiseLine( text, { lineEnding, typeId: line?.typeId } ),
     ),
   )
 
