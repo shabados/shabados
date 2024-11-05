@@ -1,7 +1,7 @@
 import './index.css'
 
 import classNames from 'classnames'
-import { mapValues } from 'lodash'
+import { mapValues } from 'radashi'
 
 import { LANGUAGES } from '~/helpers/data'
 import { customiseLine, getTransliterators } from '~/helpers/line'

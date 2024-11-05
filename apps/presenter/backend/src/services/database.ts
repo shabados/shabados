@@ -1,7 +1,7 @@
 import { Bani, Language, Shabad, Source, TranslationSource } from '@presenter/contract'
 import { Banis, CommonBuilder, Languages, Lines, LinesBuilder, Model, Shabads, Sources, UnwrapModel, Writers } from '@shabados/database'
 import gurmukhiUtils from 'gurmukhi-utils'
-import { groupBy, last } from 'lodash-es'
+import { group, last } from 'radashi'
 import type { AsyncReturnType } from 'type-fest'
 
 import { MAX_RESULTS } from '~/helpers/consts'
@@ -71,7 +71,7 @@ const groupTranslationSources = <Result>(
   ...acc,
   [ id ]: {
     ...source,
-    translationSources: groupBy( translationSources, ( { languageId } ) => languageId ),
+    translationSources: group( translationSources, ( { languageId } ) => languageId ),
   },
 } )
 

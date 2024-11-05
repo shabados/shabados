@@ -1,6 +1,6 @@
 import { createLazyFileRoute } from '@tanstack/react-router'
 import classNames from 'classnames'
-import { mapValues } from 'lodash'
+import { mapValues } from 'radashi'
 import { useContext } from 'react'
 
 import { SettingsContext } from '~/helpers/contexts'

@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Button, Grid, List, ListItem, Tooltip, Typography } from '@mui/material'
 import { createFileRoute } from '@tanstack/react-router'
 import classNames from 'classnames'
-import { groupBy } from 'lodash'
+import { group } from 'radashi'
 import { useState } from 'react'
 
 import keyMap from '~/helpers/keyMap'
@@ -93,7 +93,7 @@ const Hotkeys = ( { keys, shortcuts, device }: HotkeysProps ) => {
 
       <List className="hotkeys">
         {Object
-          .entries( groupBy( shortcuts, ( { group } ) => group ) )
+          .entries( group( shortcuts, ( { group } ) => group ) )
           .map( ( [ groupName, hotkeys ] ) => (
             <ListItem key={groupName} className="group">
 

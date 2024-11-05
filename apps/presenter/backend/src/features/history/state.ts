@@ -2,7 +2,7 @@ import { Line, ViewedLines } from '@presenter/contract'
 import { HISTORY_FILE, mutableValue, readOnly, subscribable } from '@presenter/node'
 import * as CSV from 'csv-string'
 import { createWriteStream, WriteStream } from 'fs'
-import { omit } from 'lodash-es'
+import { omit } from 'radashi'
 
 // Fields to store in the history CSV file
 const CSV_FIELDS = [

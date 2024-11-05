@@ -1,4 +1,4 @@
-import { mapValues } from 'lodash'
+import { mapValues } from 'radashi'
 import { ReactNode } from 'react'
 import { configure, GlobalHotKeys as HotKeys } from 'react-hotkeys/es'
 import KeyEventManager from 'react-hotkeys/es/lib/KeyEventManager'

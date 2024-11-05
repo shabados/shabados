@@ -1,6 +1,6 @@
 import { ClientEventParameters } from '@presenter/contract'
-import { find, findIndex, findLastIndex, invert } from 'lodash'
 import memoize from 'memoizee'
+import { invert } from 'radashi'
 
 import { BANIS } from './data'
 
@@ -64,17 +64,16 @@ export const getBaniNextJumpLine = ( { content, lineId } ) => {
   const currentLine = lines[ currentLineIndex ]
 
   // Get next jump line by searching for it from the current line's index
-  const nextJumpLineFinder = () => find(
-    lines,
+  const nextJumpLineFinder = () => lines.find(
     ( { id } ) => !!jumpLines[ id ],
     Math.min( currentLineIndex + 1, lines.length - 1 ),
   ) || {}
 
   // Returns a line from the current line's index, based on a regex
   const regexFinder = ( regex: RegExp, forward = true, offset = currentLineIndex ) => {
-    const findFn = forward ? findIndex : findLastIndex
+    const findFn = forward ? lines.indexOf : lines.lastIndexOf
 
-    return findFn( lines, ( { gurmukhi } ) => regex.test( gurmukhi ), offset )
+    return findFn( ( { gurmukhi } ) => regex.test( gurmukhi ), offset )
   }
 
   // Gets the next line after the last pauri

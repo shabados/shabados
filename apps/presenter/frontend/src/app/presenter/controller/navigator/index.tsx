@@ -16,7 +16,7 @@ import ListItem from '@mui/material/ListItem'
 import { createFileRoute } from '@tanstack/react-router'
 import classNames from 'classnames'
 import { stripVishraams } from 'gurmukhi-utils'
-import { invert } from 'lodash'
+import { invert } from 'radashi'
 import { useCallback, useContext, useEffect, useMemo, useState } from 'react'
 
 import GlobalHotKeys from '~/components/GlobalHotKeys'

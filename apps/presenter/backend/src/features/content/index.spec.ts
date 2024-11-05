@@ -1,8 +1,8 @@
 import http from 'node:http'
 
 import { Language, RecommendedSources, Writer } from '@presenter/contract'
-import { first, last } from '@presenter/swiss-knife'
 import express from 'express'
+import { first, last } from 'radashi'
 import { describe, expect, it } from 'vitest'
 
 import { fetchApi } from '~/../test/utils/fetch'

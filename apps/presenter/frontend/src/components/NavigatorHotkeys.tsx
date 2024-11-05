@@ -1,4 +1,4 @@
-import { noop } from 'lodash'
+import { noop } from 'radashi'
 import { useCallback, useContext, useEffect } from 'react'
 
 import { getJumpLines } from '~/helpers/auto-jump'

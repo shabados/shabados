@@ -1,7 +1,7 @@
 import * as remote from '@electron/remote/main'
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { app, BrowserWindow, Menu, screen } from 'electron'
-import { omit } from 'lodash'
+import { omit } from 'radashi'
 
 import { isDev, PORT } from '../../../app/helpers/consts'
 

@@ -2,7 +2,7 @@
  *! Shared with backend. To be refactored into shared location.
  */
 import { toEnglish, toHindi, toShahmukhi, toUnicode } from 'gurmukhi-utils'
-import { invert } from 'lodash'
+import { invert } from 'radashi'
 
 // Bani IDs
 export const BANIS = {
@@ -21,9 +21,7 @@ export const LANGUAGES = {
 // Languages by keyed by IDs
 export const LANGUAGE_NAMES = invert( LANGUAGES )
 
-export type Transliterators = {
-  [language: string]: ( ascii: string ) => string,
-}
+export type Transliterators = Record<string, ( ascii: string ) => string>
 
 // The transliterator functions for each language, presuming ascii input
 export const TRANSLITERATORS = Object.entries( {
@@ -35,9 +33,7 @@ export const TRANSLITERATORS = Object.entries( {
   [ language ]: ( ascii: string ) => fn( toUnicode( ascii ) ),
 } ), {} as Transliterators )
 
-export type Translations = {
-  [language: string]: number,
-}
+export type Translations = Record<string, number>
 
 // The order of translations
 export const TRANSLATION_ORDER = [

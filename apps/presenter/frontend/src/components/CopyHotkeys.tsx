@@ -1,5 +1,5 @@
 import { stripVishraams, toUnicode } from 'gurmukhi-utils'
-import { mapValues } from 'lodash'
+import { mapValues } from 'radashi'
 import { ReactNode, useContext } from 'react'
 
 import { RecommendedSourcesContext, SettingsContext, WritersContext } from '~/helpers/contexts'

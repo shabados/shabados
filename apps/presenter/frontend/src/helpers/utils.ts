@@ -1,5 +1,5 @@
 import deepmerge from 'deepmerge'
-import { debounce } from 'lodash'
+import { debounce } from 'radashi'
 import { findDOMNode } from 'react-dom'
 import scrollIntoView from 'scroll-into-view'
 
@@ -17,7 +17,7 @@ export const scrollIntoCenter = ( ref: any, options?: __ScrollIntoView.Settings 
   { time: 200, ...options }
 )
 
-export const debounceHotKey = ( fn: () => void ) => debounce( fn, 300, { leading: true } )
+export const debounceHotKey = ( fn: () => void ) => debounce( { leading: true, delay: 300 }, fn )
 
 export const mapPlatformKey = ( key: string ) => ( isMac ? key.replace( 'ctrl', 'cmd' ) : key )
 

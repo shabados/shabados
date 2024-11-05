@@ -4,12 +4,12 @@ import { mutableCounter, mutableValue } from '@presenter/node'
 import { LANGUAGES, TRANSLATION_ORDER, TRANSLITERATION_ORDER } from '@shabados/frontend/src/lib/data'
 import { customiseLine, getTranslations, getTransliterators } from '@shabados/frontend/src/lib/line'
 import { stripVishraams, toUnicode } from 'gurmukhi-utils'
-import { mapValues } from 'lodash-es'
+import { mapValues } from 'radashi'
 import Url from 'url-parse'
 
+import settings from '~/features/settings'
 import fetch from '~/helpers/fetch'
 import { getSources, GetSourcesResult } from '~/services/database'
-import settings from '~/features/settings'
 
 const prepareSecondary = ( data, sorter ) => Object
   .entries( data )
