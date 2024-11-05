@@ -4,6 +4,7 @@ import { ensureAppFolders, getLogger } from '@presenter/node'
 import { version } from '../../../package.json'
 import { handleError } from './error'
 import createActionsModule from './features/actions'
+import createBookmarksModule from './features/bookmarks'
 import createContentModule from './features/content'
 import createDiagnosticsModule from './features/diagnostics'
 import createHistoryModule from './features/history'
@@ -42,6 +43,7 @@ const main = async () => {
   createDiagnosticsModule( { api } )
   const history = createHistoryModule( {} )
   createContentModule( { api, socketServer, history } )
+  createBookmarksModule( { socketServer } )
 
   listen()
 

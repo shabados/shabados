@@ -42,11 +42,11 @@ export type ServerEventParameters = DefineParameters<ServerEvent, {
 
 export const clientEvents = [
   'content:current',
-  'content:bani:list',
   'content:line:current',
   'content:tracker:main-line',
   'content:tracker:next-line',
   'history:viewed-lines',
+  'bookmarks:list',
   'status',
   'history:transitions',
   'history:latest-lines',
@@ -57,12 +57,12 @@ export const clientEvents = [
 export type ClientEvent = typeof clientEvents[number]
 export type ClientEventParameters = DefineParameters<ClientEvent, {
   'content:current': Content | null,
-  'content:bani:list': BaniList[],
   'content:line:current': string | null,
   'content:tracker:main-line': string | null,
   'content:tracker:next-line': string | null,
   // TODO: Rename to notification(s)
   'status': string | null,
+  'bookmarks:list': ( BaniList & { type: 'bani' } )[],
   'history:viewed-lines': ViewedLines,
   // 'history:transitions',
   // 'history:latest-lines',
