@@ -1,4 +1,5 @@
 export * from './about'
 export * from './data'
+export * from './search'
 export * from './settings'
 export * from './websocket'

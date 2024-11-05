@@ -22,8 +22,7 @@ export const serverEvents = [
   'content:tracker:autojump',
   'history:clear',
   'settings:all',
-  'search:first-letter',
-  'search:full-word',
+  'search:query',
   'action:open-overlay-folder',
   'action:open-logs-folder',
   'action:open-external-url',
@@ -37,8 +36,7 @@ export type ServerEventParameters = DefineParameters<ServerEvent, {
   'content:tracker:set-main-line': string,
   'content:tracker:set-next-line': string,
   'settings:all': Partial<Settings>,
-  'search:full-word': SearchQuery,
-  'search:first-letter': SearchQuery,
+  'search:query': SearchQuery,
   'action:open-external-url': string,
 }>
 
