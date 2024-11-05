@@ -25,10 +25,9 @@ const createContentModule = ( { api, socketServer }: ContentModuleOptions ) => {
     setTrackerNextLine,
     setLine,
     clearLine,
-    setShabad,
+    setContent,
     setNextLine,
     setPreviousLine,
-    setBani,
     setNextContent,
     setPreviousContent,
   } = state
@@ -52,11 +51,10 @@ const createContentModule = ( { api, socketServer }: ContentModuleOptions ) => {
   socketServer.on( 'content:tracker:set-main-line', setTrackerMainLine )
   socketServer.on( 'content:tracker:set-next-line', setTrackerNextLine )
   socketServer.on( 'content:line:clear', clearLine )
-  socketServer.on( 'content:line:set-current', setLine )
+  socketServer.on( 'content:line:set-current', ( id ) => setLine( { id } ) )
   socketServer.on( 'content:line:set-next', setNextLine )
   socketServer.on( 'content:line:set-previous', setPreviousLine )
-  socketServer.on( 'content:shabad:open', ( options ) => void setShabad( options ) )
-  socketServer.on( 'content:bani:open', ( options ) => void setBani( options ) )
+  socketServer.on( 'content:open', ( options ) => void setContent( options ) )
   socketServer.on( 'content:open-previous', () => void setPreviousContent() )
   socketServer.on( 'content:open-next', () => void setNextContent() )
 

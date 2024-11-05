@@ -27,7 +27,7 @@ const setup = () => {
 }
 
 const withShabad = async ( client: SocketClient ) => {
-  await client.sendEvent( 'content:shabad:open', { id: 'DMP' } )
+  await client.sendEvent( 'content:open', { id: 'DMP', type: 'shabad' } )
   const [ shabad ] = await Promise.all( [
     client.waitForEvent( 'content:current', ( content ) => content?.type === 'shabad' ),
     client.waitForEvent( 'content:line:current', ( lineId ) => lineId === '0NVY' ),
@@ -112,7 +112,7 @@ describe( 'Content', () => {
     it( 'should ignore the next line if the current line is the last line', async () => {
       const { clientA } = setup()
       const shabad = await withShabad( clientA )
-      await clientA.sendEvent( 'content:line:set-current', { id: last( shabad.lines ).id } )
+      await clientA.sendEvent( 'content:line:set-current', last( shabad.lines ).id )
       await clientA.waitForEvent( 'content:line:current', ( lineId ) => lineId === last( shabad.lines ).id )
 
       await clientA.sendEvent( 'content:line:set-next', undefined )
@@ -125,8 +125,8 @@ describe( 'Content', () => {
     it( 'should broadcast the previous line if valid', async () => {
       const { clientA, clientB } = setup()
       await withShabad( clientA )
-      await clientA.sendEvent( 'content:line:set-current', { id: 'RBP6' } )
-      await clientA.waitForEvent( 'content:line:current', ( lineId ) => lineId === 'RBP6' )
+      await clientA.sendEvent( 'content:line:set-current', last( shabad.lines ).id )
+      await clientA.waitForEvent( 'content:line:current', ( lineId ) => lineId === last( shabad.lines ).id )
 
       await clientA.sendEvent( 'content:line:set-previous', undefined )
 
@@ -136,7 +136,7 @@ describe( 'Content', () => {
     it( 'should ignore the previous line if the current line is the first line', async () => {
       const { clientA } = setup()
       const shabad = await withShabad( clientA )
-      await clientA.sendEvent( 'content:line:set-current', { id: first( shabad.lines ).id } )
+      await clientA.sendEvent( 'content:line:set-current', first( shabad.lines ).id )
       await clientA.waitForEvent( 'content:line:current', ( lineId ) => lineId === first( shabad.lines ).id )
 
       await clientA.sendEvent( 'content:line:set-previous', undefined )
@@ -150,7 +150,7 @@ describe( 'Content', () => {
       const { clientA, clientB } = setup()
       const id = 1
 
-      await clientA.sendEvent( 'content:bani:open', { id } )
+      await clientA.sendEvent( 'content:open', { id, type: 'bani' } )
 
       await clientB.waitForEvent( 'content:current', ( content ) => content?.type === 'bani' )
     } )
@@ -159,7 +159,7 @@ describe( 'Content', () => {
       const { clientA, clientB } = setup()
       const id = 1
 
-      await clientA.sendEvent( 'content:bani:open', { id } )
+      await clientA.sendEvent( 'content:open', { id, type: 'bani' } )
 
       const [ content, lineId ] = await Promise.all( [
         clientB.waitForEvent( 'content:current', ( content ) => content?.type === 'bani' ),
@@ -178,7 +178,7 @@ describe( 'Content', () => {
         const { clientA, clientB } = setup()
         const id = 'DMP'
 
-        await clientA.sendEvent( 'content:shabad:open', { id } )
+        await clientA.sendEvent( 'content:open', { id, type: 'shabad' } )
 
         await clientB.waitForEvent( 'content:current', ( content ) => content?.type === 'shabad' )
       } )
@@ -190,7 +190,7 @@ describe( 'Content', () => {
         const id = 'DMP'
         const lineId = 'RPB6'
 
-        await clientA.sendEvent( 'content:shabad:open', { id, lineId } )
+        await clientA.sendEvent( 'content:open', { id, lineId, type: 'shabad' } )
 
         await Promise.all( [
           clientB.waitForEvent( 'content:current', ( content ) => content?.type === 'shabad' ),
@@ -202,7 +202,7 @@ describe( 'Content', () => {
     describe( 'when the next content is opened', () => {
       it( 'should broadcast the next shabad', async () => {
         const { clientA, clientB } = setup()
-        await clientA.sendEvent( 'content:shabad:open', { id: 'DMP' } )
+        await clientA.sendEvent( 'content:open', { id: 'DMP', type: 'shabad' } )
         await clientA.waitForEvent( 'content:current' )
 
         await clientA.sendEvent( 'content:open-next', undefined )
@@ -212,7 +212,7 @@ describe( 'Content', () => {
 
       it( 'should ignore the next content if out of range', async () => {
         const { clientA } = setup()
-        await clientA.sendEvent( 'content:shabad:open', { id: 'L6K' } )
+        await clientA.sendEvent( 'content:open', { id: 'L6K', type: 'shabad' } )
         await clientA.waitForEvent( 'content:current' )
 
         await clientA.sendEvent( 'content:open-next', undefined )
@@ -224,7 +224,7 @@ describe( 'Content', () => {
     describe( 'when the previous content is opened', () => {
       it( 'should broadcast the previous shabad', async () => {
         const { clientA, clientB } = setup()
-        await clientA.sendEvent( 'content:shabad:open', { id: 'LLL' } )
+        await clientA.sendEvent( 'content:open', { id: 'LLL', type: 'shabad' } )
         await clientA.waitForEvent( 'content:current' )
 
         await clientA.sendEvent( 'content:open-previous', undefined )
@@ -234,7 +234,7 @@ describe( 'Content', () => {
 
       it( 'should ignore the next content if out of range', async () => {
         const { clientA } = setup()
-        await clientA.sendEvent( 'content:shabad:open', { id: 'DMP' } )
+        await clientA.sendEvent( 'content:open', { id: 'DMP', type: 'shabad' } )
         await clientA.waitForEvent( 'content:current' )
 
         await clientA.sendEvent( 'content:open-next', undefined )

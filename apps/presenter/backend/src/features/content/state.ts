@@ -1,4 +1,4 @@
-import { Content, Line } from '@presenter/contract'
+import { Content, Line, ServerEventParameters } from '@presenter/contract'
 import { getLogger, mutableValue, readOnly, subscribable } from '@presenter/node'
 import { first, last } from '@presenter/swiss-knife'
 
@@ -188,6 +188,14 @@ const createState = () => {
     // trackerNextLineId.set( nextLineId )
   }
 
+  type SetContentOptions = ServerEventParameters['content:open']
+
+  const setContent = ( options: SetContentOptions ) => {
+    if ( options.type === 'shabad' ) return setShabad( options )
+
+    if ( options.type === 'bani' ) return setBani( options )
+  }
+
   const setPreviousContent = async () => {
     log.info( 'Opening previous content' )
 
@@ -279,16 +287,15 @@ const createState = () => {
     lineId: readOnly( lineId ),
     trackerMainLineId: readOnly( trackerMainLineId ),
     trackerNextLineId: readOnly( trackerNextLineId ),
-    setBani,
     setLine,
     setPreviousLine,
     setNextLine,
-    setShabad,
     setTrackerMainLine,
     setTrackerNextLine,
     clearLine,
     setPreviousContent,
     setNextContent,
+    setContent,
   }
 }
 
