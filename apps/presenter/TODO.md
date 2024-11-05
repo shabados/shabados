@@ -28,6 +28,9 @@
 - [x] Wire up server backend with state
 - [x] Sort out structure of entrypoint/server
 - [x] Confirm socket server doesn't conk out if all middleware isn't registered in time
+- [ ] Create bookmarks module and send banis list
+- [ ] Create tracker module and move tracker logic
+- [ ] Rename status to notifications
 - [ ] Lifted/centralised error handling
   - [ ] Expected errors concept, how can/should we retain log scope?
 

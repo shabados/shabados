@@ -65,6 +65,7 @@ export type ClientEventParameters = DefineParameters<ClientEvent, {
   'content:line:current': string | null,
   'content:tracker:main-line': string | null,
   'content:tracker:next-line': string | null,
+  // TODO: Rename to notification(s)
   'status': string | null,
   'history:viewed-lines': ViewedLines,
   // 'history:transitions',

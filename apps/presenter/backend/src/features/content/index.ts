@@ -35,11 +35,14 @@ const createContentModule = ( { api, socketServer }: ContentModuleOptions ) => {
 
   content.onChange( socketServer.broadcast( 'content:current' ) )
   lineId.onChange( socketServer.broadcast( 'content:line:current' ) )
+  // TODO: move to tracker module
   trackerMainLineId.onChange( socketServer.broadcast( 'content:tracker:main-line' ) )
   trackerNextLineId.onChange( socketServer.broadcast( 'content:tracker:next-line' ) )
 
   socketServer.on( 'client:connected', ( { json } ) => {
+    // TODO: Move to bookmarks module
     void getBanis().then( ( banis ) => json( 'content:bani:list', banis ) )
+
     json( 'content:current', content.get() )
     json( 'content:line:current', lineId.get() )
     json( 'content:tracker:main-line', trackerMainLineId.get() )
