@@ -4,7 +4,7 @@ import * as http from 'node:http'
 
 import { ClientEvent, ClientEventParameters, ServerEvent, ServerEventParameters } from '@presenter/contract'
 import { getLogger } from '@presenter/node'
-import { decode, encode } from '@presenter/swiss-knife'
+import { decode, encode, setHas } from '@presenter/swiss-knife'
 import { WebSocket, WebSocketServer } from 'ws'
 
 import { getHost } from '~/helpers/network'
@@ -98,6 +98,10 @@ const createWebSocketServer = ( { httpServer }: SocketServerOptions ) => {
     .then( () => {
       client.on( 'close', () => {
         client.connectionState = 'disconnected'
+
+        if ( setHas( server.clients, ( c ) => c.host === client.host ) ) return
+
+        // Only emit the disconnected event if there are no other connections from the same host
         emitter.emit( 'client:disconnected', client )
       } )
 
