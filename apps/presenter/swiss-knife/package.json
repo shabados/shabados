@@ -2,5 +2,8 @@
   "name": "@presenter/swiss-knife",
   "private": true,
   "type": "module",
-  "exports": "./src/index.ts"
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "@fastify/deepmerge": "^2.0.0"
+  }
 }
