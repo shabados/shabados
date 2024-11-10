@@ -12,11 +12,11 @@ export const migrate = <
 >(
   { version, up, previous, schema }: SchemaDefinition<Schema, PreviousSchema>,
   data: unknown,
-  dataVersion = 0
+  dataVersion: number
 ): InferOutput<Schema> => {
-  invariant( previous, 'No previous schema definition. This should not be possible.' )
-
   if ( dataVersion === version ) return parse( schema, data )
+
+  invariant( previous, 'No previous schema definition. This should not be possible.' )
 
   // Given the latest schema version, run backwards until we find the first schema that matches
   const [ , previousData ] = tryit( migrate )( previous, data, dataVersion )

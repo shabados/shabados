@@ -9,7 +9,8 @@ export type SchemaDefinition<
 > = {
   version: number,
   schema: Schema,
-  previous?: SchemaDefinition<PreviousSchema, SchemaType>,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  previous?: SchemaDefinition<PreviousSchema, any>,
   up: ( from: InferOutput<PreviousSchema> ) => PartialDeep<InferInput<Schema>>,
 }
 

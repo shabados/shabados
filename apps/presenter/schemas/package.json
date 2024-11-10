@@ -6,6 +6,10 @@
   "imports": {
     "#~/*": "./src/*.ts"
   },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "vitest"
+  },
   "dependencies": {
     "valibot": "^1.0.0-beta.5"
   }
