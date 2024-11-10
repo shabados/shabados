@@ -12,6 +12,12 @@
 - [x] ESLint root package dependency usage
 - [x] Move themes to `packages/themes`
 - [ ] Separated server vs client settings + interface (new events?)
+- [x] Schema validation + default with valibot
+- [ ] Use invariant in state handlers + other places
+
+## Schemas
+
+- [ ] Write tests for schemas package
 
 ## Backend
 
@@ -23,7 +29,7 @@
 - [x] Sort out updater
 - [x] Load global settings properly
 - [x] Settings typings
-- [ ] Do we need to **remove** settings on disconnection? See TODO in index-old
+- [x] Do we need to **remove** settings on disconnection? See TODO in index-old
 - [x] Ensure app folders, per module
 - [x] Wire up server backend with state
 - [x] Sort out structure of entrypoint/server

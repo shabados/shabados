@@ -1,0 +1,12 @@
+{
+  "name": "@presenter/schemas",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "imports": {
+    "#~/*": "./src/*.ts"
+  },
+  "dependencies": {
+    "valibot": "^1.0.0-beta.5"
+  }
+}

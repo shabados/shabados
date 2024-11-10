@@ -2,7 +2,7 @@ import type { Merge } from 'type-fest'
 
 import { BaniList, Content, Line, ViewedLines } from './data'
 import { SearchQuery } from './search'
-import { Settings } from './settings'
+import { PartialSettings, Settings } from './settings'
 
 type DefineParameters<
   Name extends string,
@@ -35,7 +35,7 @@ export type ServerEventParameters = DefineParameters<ServerEvent, {
   'content:line:set-current': string,
   'content:tracker:set-main-line': string,
   'content:tracker:set-next-line': string,
-  'settings:all': Partial<Settings>,
+  'settings:all': PartialSettings,
   'search:query': SearchQuery,
   'action:open-external-url': string,
 }>
