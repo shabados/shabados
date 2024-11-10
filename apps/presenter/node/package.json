@@ -11,6 +11,7 @@
   "dependencies": {
     "appdata-path": "^1.0.0",
     "eventemitter3": "^5.0.1",
+    "import-meta-resolve": "^4.1.0",
     "pino": "^9.1.0"
   },
   "devDependencies": {

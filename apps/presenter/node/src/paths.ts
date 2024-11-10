@@ -3,9 +3,10 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 import getAppDataPath from 'appdata-path'
+import { resolve } from 'import-meta-resolve'
 
 export const resolveModule = ( name: string ) => dirname( fileURLToPath(
-  import.meta.resolve( name )
+  resolve( name, import.meta.url )
 ) )
 
 export const DATA_FOLDER = join( getAppDataPath(), 'Shabad OS' )
