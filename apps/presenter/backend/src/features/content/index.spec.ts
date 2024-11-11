@@ -1,6 +1,6 @@
 import http from 'node:http'
 
-import { Language, RecommendedSources, Writer } from '@presenter/contract'
+import { Language, RecommendedSources, Shabad, Writer } from '@presenter/contract'
 import express from 'express'
 import { first, last } from 'radashi'
 import { describe, expect, it } from 'vitest'
@@ -33,7 +33,7 @@ const withShabad = async ( client: SocketClient ) => {
     client.waitForEvent( 'content:line:current', ( lineId ) => lineId === '0NVY' ),
   ] )
 
-  return shabad!
+  return shabad as Shabad
 }
 
 describe( 'Content', () => {
@@ -75,7 +75,7 @@ describe( 'Content', () => {
         await withShabad( clientA )
         const id = 'RBP6'
 
-        await clientA.sendEvent( 'content:line:set-current', { id } )
+        await clientA.sendEvent( 'content:line:set-current', id )
 
         const receivedIds = await Promise.all( [
           clientA.waitForEvent( 'content:line:current', ( lineId ) => lineId !== '0NVY' ),
@@ -89,7 +89,7 @@ describe( 'Content', () => {
         await withShabad( clientA )
         const id = 'ABCD'
 
-        clientA.sendEvent( 'content:line:set-current', { id } )
+        clientA.sendEvent( 'content:line:set-current', id )
 
         expect( clientA.messageHandler ).not.toHaveBeenCalledWith(
           'content:line:current',
@@ -112,36 +112,36 @@ describe( 'Content', () => {
     it( 'should ignore the next line if the current line is the last line', async () => {
       const { clientA } = setup()
       const shabad = await withShabad( clientA )
-      await clientA.sendEvent( 'content:line:set-current', last( shabad.lines ).id )
-      await clientA.waitForEvent( 'content:line:current', ( lineId ) => lineId === last( shabad.lines ).id )
+      await clientA.sendEvent( 'content:line:set-current', last( shabad.lines! )!.id )
+      await clientA.waitForEvent( 'content:line:current', ( lineId ) => lineId === last( shabad.lines! )!.id )
 
       await clientA.sendEvent( 'content:line:set-next', undefined )
 
-      expect( clientA.messageHandler ).toHaveBeenLastCalledWith( 'content:line:current', last( shabad.lines ).id )
+      expect( clientA.messageHandler ).toHaveBeenLastCalledWith( 'content:line:current', last( shabad.lines! )!.id )
     } )
   } )
 
   describe( 'when the previous line is set', () => {
     it( 'should broadcast the previous line if valid', async () => {
       const { clientA, clientB } = setup()
-      await withShabad( clientA )
-      await clientA.sendEvent( 'content:line:set-current', last( shabad.lines ).id )
-      await clientA.waitForEvent( 'content:line:current', ( lineId ) => lineId === last( shabad.lines ).id )
+      const shabad = await withShabad( clientA )
+      await clientA.sendEvent( 'content:line:set-current', last( shabad.lines! )!.id )
+      await clientA.waitForEvent( 'content:line:current', ( lineId ) => lineId === last( shabad.lines! )!.id )
 
       await clientA.sendEvent( 'content:line:set-previous', undefined )
 
-      await clientB.waitForEvent( 'content:line:current', ( lineId ) => lineId === '0NVY' )
+      await clientB.waitForEvent( 'content:line:current', ( lineId ) => lineId === shabad.lines![ shabad.lines!.length - 2 ].id )
     } )
 
     it( 'should ignore the previous line if the current line is the first line', async () => {
       const { clientA } = setup()
       const shabad = await withShabad( clientA )
-      await clientA.sendEvent( 'content:line:set-current', first( shabad.lines ).id )
-      await clientA.waitForEvent( 'content:line:current', ( lineId ) => lineId === first( shabad.lines ).id )
+      await clientA.sendEvent( 'content:line:set-current', first( shabad.lines! )!.id )
+      await clientA.waitForEvent( 'content:line:current', ( lineId ) => lineId === first( shabad.lines! )!.id )
 
       await clientA.sendEvent( 'content:line:set-previous', undefined )
 
-      expect( clientA.messageHandler ).toHaveBeenLastCalledWith( 'content:line:current', first( shabad.lines ).id )
+      expect( clientA.messageHandler ).toHaveBeenLastCalledWith( 'content:line:current', first( shabad.lines! )!.id )
     } )
   } )
 
@@ -165,7 +165,7 @@ describe( 'Content', () => {
         clientB.waitForEvent( 'content:current', ( content ) => content?.type === 'bani' ),
         clientB.waitForEvent( 'content:line:current', ( lineId ) => !!lineId ),
       ] )
-      expect( first( content!.lines ).id ).toBe( lineId )
+      expect( first( content!.lines! )!.id ).toBe( lineId )
     } )
 
     it.todo( 'should add the line to the history of latest lines' )
