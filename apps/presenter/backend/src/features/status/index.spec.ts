@@ -43,14 +43,18 @@ describe( 'Status', () => {
     const updater = createMockUpdater()
     const { createClient, globalSettings } = await setup( { updater } )
     const client = createClient()
+    await client.isClientReady
     globalSettings.save( { notifications: { downloadEvents: true } } )
     vi.useFakeTimers()
     updater.emit( 'application:updating' )
 
     vi.runOnlyPendingTimers()
-    const status = await client.waitForEvent( 'status' )
+    const beforeStatus = await client.waitForEvent( 'status' )
+    expect( beforeStatus ).toMatch( /Downloading/ )
 
-    expect( status ).toBeNull()
+    vi.runOnlyPendingTimers()
+    const afterStatus = await client.waitForEvent( 'status' )
+    expect( afterStatus ).toBeNull()
   } )
 
   describe( 'given notification connection events are enabled', () => {
@@ -68,11 +72,11 @@ describe( 'Status', () => {
     it( 'should set the status when a client disconnects', async () => {
       const { createClient, globalSettings } = await setup()
       globalSettings.save( { notifications: { disconnectionEvents: true } } )
-      const clientA = createClient()
-      const clientB = createClient()
+      const clientA = createClient( { host: 'clientA' } )
+      const clientB = createClient( { host: 'main' } )
       await Promise.all( [
-        clientA.waitForEvent( 'status' ),
-        clientB.waitForEvent( 'status' ),
+        clientA.isClientReady.then( () => clientA.waitForEvent( 'status' ) ),
+        clientB.isClientReady.then( () => clientB.waitForEvent( 'status' ) ),
       ] )
 
       clientB.socketClient.close()
@@ -90,6 +94,7 @@ describe( 'Status', () => {
       const updater = createMockUpdater()
       const { createClient, globalSettings } = await setup( { updater } )
       const client = createClient()
+      await client.isClientReady
       globalSettings.save( { notifications: { downloadEvents: true } } )
 
       updater.emit( event )
