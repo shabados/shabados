@@ -13,7 +13,7 @@ const writeSettings = ( settings: ServerSettings ) => writeJSON(
   { ...settings, schemaVersion: definitions.serverSettings.version }
 )
 
-const readSettings = () => readJSON<{ schemaVersion: number }>( SETTINGS_FILE )
+const readSettings = () => readJSON<{ schemaVersion?: number }>( SETTINGS_FILE )
   .catch( () => {
     log.warn( 'Settings file is corrupt or non-existent. Recreating', SETTINGS_FILE )
 
