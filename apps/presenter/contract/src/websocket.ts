@@ -66,6 +66,6 @@ export type ClientEventParameters = DefineParameters<ClientEvent, {
   'history:viewed-lines': ViewedLines,
   // 'history:transitions',
   // 'history:latest-lines',
-  'settings:all': Settings,
+  'settings:all': PartialSettings,
   'search:results': Line[],
 }>

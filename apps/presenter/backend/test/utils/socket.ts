@@ -37,7 +37,7 @@ export const createSocketClient = ( { httpServer }: SocketClientOptions ) => ( {
   host = '192.168.0.10',
 }: SetupSocketClientOptions = {} ) => {
   const { port } = httpServer.address() as AddressInfo
-  const socketClient = new WebSocket( `ws://localhost:${port}` )
+  const socketClient = new WebSocket( `ws://localhost:${port}/api` )
 
   const isClientReady = new Promise( ( resolve ) => socketClient.on( 'open', resolve ) )
     .then( () => socketClient.send( JSON.stringify( { event: 'test:set-host', payload: host } ) ) )

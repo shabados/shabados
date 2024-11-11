@@ -1,30 +1,33 @@
 import { ServerSettings } from '@presenter/contract'
 import { getLogger, mutableValue, SETTINGS_FILE, subscribable } from '@presenter/node'
-import merge from 'deepmerge'
+import { definitions, getDefaults, migrate } from '@presenter/schemas'
+import { merge } from '@presenter/swiss-knife'
 import type { PartialDeep, ReadonlyDeep } from 'type-fest'
 
 import { readJSON, writeJSON } from '~/helpers/files'
 
-import defaults from './defaults'
+const log = getLogger( 'server-settings' )
 
-const log = getLogger( 'settings' )
+const writeSettings = ( settings: ServerSettings ) => writeJSON(
+  SETTINGS_FILE,
+  { ...settings, schemaVersion: definitions.serverSettings.version }
+)
 
-type PartialSettings = PartialDeep<ServerSettings>
-
-const writeSettings = ( settings: ServerSettings ) => writeJSON( SETTINGS_FILE, settings )
-
-const readSettings = () => readJSON<PartialSettings>( SETTINGS_FILE )
-  .then( ( settings ) => merge( settings, defaults ) as ServerSettings )
+const readSettings = () => readJSON<{ schemaVersion: number }>( SETTINGS_FILE )
   .catch( () => {
     log.warn( 'Settings file is corrupt or non-existent. Recreating', SETTINGS_FILE )
 
-    return writeSettings( defaults ).then( () => defaults )
+    const defaults = getDefaults( definitions.serverSettings.schema )
+    void writeSettings( defaults )
+
+    return { schemaVersion: definitions.serverSettings.version, ...defaults }
   } )
+  .then( ( settings ) => migrate( definitions.serverSettings, settings, settings.schemaVersion ) )
 
 const createGlobalSettings = () => {
   const settings = subscribable( mutableValue( {} as ReadonlyDeep<ServerSettings> ) )
 
-  const load = () => {
+  const load = async () => {
     log.info( `Loading settings from ${SETTINGS_FILE}` )
 
     return readSettings().then( settings.set )
@@ -32,7 +35,7 @@ const createGlobalSettings = () => {
 
   settings.onChange( ( settings ) => void writeSettings( settings ) )
 
-  const save = ( changed: PartialSettings = {} ) => settings.set(
+  const save = ( changed: PartialDeep<ServerSettings> = {} ) => settings.set(
     merge( settings.get(), changed ) as ServerSettings
   )
 

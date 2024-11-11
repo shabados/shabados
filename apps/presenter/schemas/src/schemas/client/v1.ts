@@ -21,6 +21,7 @@ export default defineSchema( {
   version: 1,
   previous: v0,
   schema: object( {
+    private: fallback( boolean(), false ),
     previousLines: fallback( number(), 0 ),
     nextLines: fallback( number(), 1 ),
     larivaarGurbani: fallback( boolean(), false ),

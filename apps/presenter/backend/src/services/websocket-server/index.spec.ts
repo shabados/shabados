@@ -12,7 +12,6 @@ describe( 'Socket Server', () => {
       Array.from( socketServer.clients )[ 0 ].json( 'content:line:current', 'ABCD' )
 
       await flushPromises( 2 )
-      console.log( client.messageHandler.mock.calls )
     } )
   } )
 

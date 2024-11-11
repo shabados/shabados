@@ -11,9 +11,10 @@ type SettingsModuleOptions = {
 const createSettingsModule = ( { socketServer, globalSettings }: SettingsModuleOptions ) => {
   const state = createSettingsState( { globalSettings } )
 
-  const { getClientSettings, publicSettings, setSettings } = state
+  const { getClientSettings, publicSettings, setSettings, removeClientSettings } = state
 
   socketServer.on( 'client:connected', ( { json, host } ) => json( 'settings:all', getClientSettings( host ) ) )
+  socketServer.on( 'client:disconnected', ( { host } ) => removeClientSettings( host ) )
 
   const broadcastSettings = () => socketServer.broadcast( 'settings:all' )( ( { host } ) => getClientSettings( host ) )
 

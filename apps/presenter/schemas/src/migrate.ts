@@ -1,10 +1,11 @@
 import { tryit } from 'radashi'
 import invariant from 'tiny-invariant'
-import { InferOutput, parse as vParse } from 'valibot'
+import { getFallbacks as vGetFallbacks, InferOutput, parse as vParse } from 'valibot'
 
 import { SchemaDefinition, SchemaType } from './schema'
 
 export const parse = vParse
+export const getDefaults = vGetFallbacks
 
 export const migrate = <
   Schema extends SchemaType,

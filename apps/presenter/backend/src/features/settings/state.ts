@@ -1,4 +1,4 @@
-import { ManyClientSettings, Settings } from '@presenter/contract'
+import { ManyClientPartialSettings, PartialSettings } from '@presenter/contract'
 import { mutableValue, readOnly, subscribable } from '@presenter/node'
 import { omit, pick } from 'radashi'
 
@@ -9,15 +9,19 @@ type SettingsStateOptions = {
 }
 
 const createSettingsState = ( { globalSettings }: SettingsStateOptions ) => {
-  const manyClientSettings = subscribable<ManyClientSettings>( mutableValue( {} ) )
-  const publicSettings = subscribable( mutableValue<ManyClientSettings>( {} ) )
+  const manyClientSettings = subscribable<ManyClientPartialSettings>( mutableValue( {} ) )
+  const publicSettings = subscribable( mutableValue<ManyClientPartialSettings>( {} ) )
 
-  const omitPrivateClients = ( allSettings: ManyClientSettings ) => pick(
+  const omitPrivateClients = ( allSettings: ManyClientPartialSettings ) => pick(
     allSettings,
-    ( _, id ) => !manyClientSettings.get()[ id ]?.security.private
+    ( _, id ) => !manyClientSettings.get()[ id ]?.private
   )
 
-  const setSettings = ( id: string, { local, global, clients }: Partial<Settings> ) => {
+  const removeClientSettings = ( id: string ) => {
+    manyClientSettings.set( omit( manyClientSettings.get(), [ id ] ) )
+  }
+
+  const setSettings = ( id: string, { local, global, clients }: PartialSettings ) => {
     if ( global ) globalSettings.save( global )
 
     const newSettings = {
@@ -30,7 +34,7 @@ const createSettingsState = ( { globalSettings }: SettingsStateOptions ) => {
     manyClientSettings.set( newSettings )
   }
 
-  const getClientSettings = ( id: string ): Settings => {
+  const getClientSettings = ( id: string ): PartialSettings => {
     const clients = omit( publicSettings.get(), [ id ] )
     const local = manyClientSettings.get()[ id ]
     const global = globalSettings.get()
@@ -42,6 +46,7 @@ const createSettingsState = ( { globalSettings }: SettingsStateOptions ) => {
 
   return {
     getClientSettings,
+    removeClientSettings,
     setSettings,
     publicSettings: readOnly( publicSettings ),
   }
