@@ -1,3 +1,5 @@
+import './index.css'
+
 import { CircularProgress, Grid, List, ListItem, Typography } from '@mui/material'
 import { createFileRoute } from '@tanstack/react-router'
 
@@ -33,9 +35,17 @@ export const About = ( { connected }: AboutProps ) => {
         <Grid container>
           <Grid item xs={6}><Typography variant="body2">Server Address</Typography></Grid>
           <Grid item xs={6}>
-            {Object.entries( about.addresses ).map( ( [ name, address ] ) => (
-              <CopyButton copyText={`http://${address}:${PORT}`}>{`${address}:${PORT} (${name})`}</CopyButton>
-            ) )}
+            {Object
+              .entries( about.addresses )
+              .map( ( [ name, address ] ) => (
+                <CopyButton
+                  key={address}
+                  className="copy-address"
+                  copyText={`http://${address}:${PORT}`}
+                >
+                  {`${address}:${PORT} (${name})`}
+                </CopyButton>
+              ) )}
           </Grid>
         </Grid>
       </ListItem>

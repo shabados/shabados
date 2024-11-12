@@ -1,29 +1,35 @@
 import './index.css'
 
 import { Button, Tooltip } from '@mui/material'
+import classNames from 'classnames'
+import { noop } from 'radashi'
+import { ReactNode } from 'react'
 
 import { useCopyToClipboard } from '~/hooks'
 
 type CopyButtonProps = {
+  className?: string,
   copyText: string,
-  onClick?: () => Record<string, any>,
-  children: React.ReactNode,
-  style?: Record<string, any>,
+  onClick?: () => void,
+  children: ReactNode,
 }
 
-const CopyButton = (
-  { copyText, onClick: originalOnClick = () => ( {} ), ...props }: CopyButtonProps
-) => {
+const CopyButton = ( {
+  className,
+  copyText,
+  onClick = noop,
+  ...props
+}: CopyButtonProps ) => {
   const copyToClipboard = useCopyToClipboard()
 
-  const onClick = () => {
-    originalOnClick()
+  const handleClick = () => {
+    onClick()
     copyToClipboard( copyText )
   }
 
   return (
     <Tooltip title="Click to copy">
-      <Button className="copy-button" {...props} onClick={onClick} />
+      <Button className={classNames( 'copy-button', className )} {...props} onClick={handleClick} />
     </Tooltip>
   )
 }
