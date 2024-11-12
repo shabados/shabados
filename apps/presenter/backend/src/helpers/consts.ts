@@ -1,4 +1,4 @@
-import { join, resolve } from 'node:path'
+import { dirname, join, resolve } from 'node:path'
 
 import { isProduction, resolveModule } from '@presenter/node'
 
@@ -14,7 +14,7 @@ export const FRONTEND_BUILD_FOLDER = join( FRONTEND_FOLDER, 'dist' )
 export const OVERLAY_THEMES_FOLDER = resolveModule( '@presenter/themes/overlay' )
 export const PRESENTER_THEMES_FOLDER = resolveModule( '@presenter/themes/presenter' )
 
-export const DATABASE_FOLDER = resolveModule( '@shabados/database' )
+export const DATABASE_FOLDER = dirname( resolveModule( '@shabados/database' ) )
 
 // Max Search results to return in one go
 export const MAX_RESULTS = 50
