@@ -5,9 +5,7 @@ import { fileURLToPath } from 'node:url'
 import getAppDataPath from 'appdata-path'
 import { resolve } from 'import-meta-resolve'
 
-export const resolveModule = ( name: string ) => fileURLToPath(
-  resolve( name, import.meta.url )
-)
+export const resolveModule = ( name: string ) => fileURLToPath( resolve( name, import.meta.url ) )
 
 export const DATA_FOLDER = join( getAppDataPath(), 'Shabad OS' )
 export const USER_PRESENTER_THEMES_FOLDER = join( DATA_FOLDER, 'themes', 'presenter' )
