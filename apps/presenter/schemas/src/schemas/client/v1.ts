@@ -1,21 +1,8 @@
-import { invert } from 'radashi'
-import { array, boolean, fallback, number, picklist, record, string } from 'valibot'
+import { array, boolean, fallback, nullable, number, picklist, record, string } from 'valibot'
 
 import { defineSchema, safeObject } from '#~/schema'
 
 import v0 from './v0'
-
-const TRANSLATION_LANGUAGES = invert( {
-  english: 1,
-  punjabi: 2,
-  spanish: 3,
-} as const )
-
-const TRANSLITERATION_LANGUAGES = invert( {
-  english: 1,
-  hindi: 4,
-  urdu: 5,
-} as const )
 
 export default defineSchema( {
   version: 1,
@@ -65,8 +52,8 @@ export default defineSchema( {
       splitLine: fallback( boolean(), true ),
     } ),
     results: safeObject( {
-      translationLanguage: fallback( picklist( [ 'english', 'spanish', 'punjabi' ] ), 'english' ),
-      transliterationLanguage: fallback( picklist( [ 'english', 'hindi', 'urdu' ] ), 'english' ),
+      translationLanguage: nullable( picklist( [ 1, 2, 3 ] ) ),
+      transliterationLanguage: nullable( picklist( [ 1, 4, 5 ] ) ),
       lineEnding: fallback( boolean(), true ),
       citations: fallback( boolean(), false ),
     } ),
@@ -135,11 +122,11 @@ export default defineSchema( {
     },
     results: {
       translationLanguage: typeof from.search.resultTranslationLanguage === 'boolean'
-        ? 'english'
-        : TRANSLATION_LANGUAGES[ from.search.resultTranslationLanguage ],
+        ? null
+        : from.search.resultTranslationLanguage,
       transliterationLanguage: typeof from.search.resultTransliterationLanguage === 'boolean'
-        ? 'english'
-        : TRANSLITERATION_LANGUAGES[ from.search.resultTransliterationLanguage ],
+        ? null
+        : from.search.resultTransliterationLanguage,
       lineEnding: from.search.lineEnding,
       citations: from.search.showResultCitations,
     },
