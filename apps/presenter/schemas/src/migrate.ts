@@ -13,7 +13,7 @@ export const migrate = <
 >(
   { version, up, previous, schema }: SchemaDefinition<Schema, PreviousSchema>,
   data: unknown,
-  dataVersion: number = version
+  dataVersion: number
 ): InferOutput<Schema> => {
   if ( dataVersion === version ) return parse( schema, data )
 
