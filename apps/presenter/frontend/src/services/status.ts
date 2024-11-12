@@ -1,23 +1,17 @@
 import { atom, useAtomValue } from 'jotai'
 
-import websocketClient from './websocket-client'
+import { store } from '~/services/jotai'
+import websocketClient from '~/services/websocket-client'
 
 const connectedAtom = atom( false )
 
-connectedAtom.onMount = ( set ) => {
-  const unlistenConnected = websocketClient.listen( 'connected', () => {
-    set( true )
-  } )
+websocketClient.on( 'connected', () => {
+  store.set( connectedAtom, true )
+} )
 
-  const unlistenDisconnected = websocketClient.listen( 'disconnected', () => {
-    set( false )
-  } )
-
-  return () => {
-    unlistenConnected()
-    unlistenDisconnected()
-  }
-}
+websocketClient.on( 'disconnected', () => {
+  store.set( connectedAtom, false )
+} )
 
 const statusAtom = atom( ( get ) => {
   const connected = get( connectedAtom )
