@@ -2,11 +2,10 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Grid, Typography } from '@mui/material'
 import { ClientSettings, Settings } from '@presenter/contract'
-import { useContext } from 'react'
 
-import { SettingsContext } from '~/helpers/contexts'
-import { CLIENT_OPTIONS, DEFAULT_OPTIONS, FLAT_OPTION_GROUPS } from '~/helpers/options'
+import { CLIENT_OPTIONS, FLAT_OPTION_GROUPS } from '~/helpers/options'
 import controller from '~/services/controller'
+import { useClientsSettings, useLocalSettings } from '~/services/settings'
 
 import SettingComponentFactory, { Button } from './SettingsComponents'
 
@@ -85,12 +84,13 @@ type DynamicOptionsProps = {
 }
 
 const DynamicOptions = ( { device, group }: DynamicOptionsProps ) => {
-  const settings = useContext( SettingsContext )
+  const [ clients ] = useClientsSettings()
+  const [ local ] = useLocalSettings()
 
-  const selectedDeviceSettings = settings[ device ] || settings.local
+  const selectedDeviceSettings = clients[ device ] ?? local
 
   const isGlobal = device === 'global'
-  const defaultSettings = isGlobal ? DEFAULT_OPTIONS.global : DEFAULT_OPTIONS.local
+  // const defaultSettings = isGlobal ? DEFAULT_OPTIONS.global : DEFAULT_OPTIONS.local
 
   const setSettings = <Option extends keyof Settings>
   ( option: Option, value: Settings[typeof option] ) => controller.setSettings(
@@ -101,42 +101,42 @@ const DynamicOptions = ( { device, group }: DynamicOptionsProps ) => {
   const { isProtected: isGroupProtected } = FLAT_OPTION_GROUPS[ group ] || {}
   const isGroupDisabled = device !== 'local' && isGroupProtected
 
-  const renderOptions = () => Object
-    .entries( defaultSettings[ group ] || {} )
-    .map( ( [ option, defaultValue ] ) => {
-      const optionGroup = selectedDeviceSettings[ group ] || {}
-      const value = typeof optionGroup[ option ] === 'undefined' ? defaultValue : optionGroup[ option ]
-      const options = CLIENT_OPTIONS[ option ]
-      const { type, isProtected, name, icon, ...props } = options
+  // const renderOptions = () => Object
+  //   .entries( defaultSettings[ group ] || {} )
+  //   .map( ( [ option, defaultValue ] ) => {
+  //     const optionGroup = selectedDeviceSettings[ group ] || {}
+  //     const value = typeof optionGroup[ option ] === 'undefined' ? defaultValue : optionGroup[ option ]
+  //     const options = CLIENT_OPTIONS[ option ]
+  //     const { type, isProtected, name, icon, ...props } = options
 
-      // Determine if the component should be disabled
-      const isDisabled = ( device !== 'local' && isProtected ) || isGroupDisabled
+  //     // Determine if the component should be disabled
+  //     const isDisabled = ( device !== 'local' && isProtected ) || isGroupDisabled
 
-      // Get correct component
-      const Option = SettingComponentFactory( type )
+  //     // Get correct component
+  //     const Option = SettingComponentFactory( type )
 
-      return (
-        <OptionGrid key={option}>
-          <IconSlot icon={icon} />
-          <NameSlot>{name}</NameSlot>
-          <OptionSlot alignItems="center">
-            <Option
-              {...props}
-              option={option}
-              value={value}
-              onChange={setSettings}
-              disabled={isDisabled}
-            />
-          </OptionSlot>
-        </OptionGrid>
-      )
-    } )
+  //     return (
+  //       <OptionGrid key={option}>
+  //         <IconSlot icon={icon} />
+  //         <NameSlot>{name}</NameSlot>
+  //         <OptionSlot alignItems="center">
+  //           <Option
+  //             {...props}
+  //             option={option}
+  //             value={value}
+  //             onChange={setSettings}
+  //             disabled={isDisabled}
+  //           />
+  //         </OptionSlot>
+  //       </OptionGrid>
+  //     )
+  //   } )
 
   return (
     <>
-      {renderOptions()}
+      {/* {renderOptions()} */}
 
-      <ResetButton disabled={isGroupDisabled} group={group} device={device} />
+      {/* <ResetButton disabled={isGroupDisabled} group={group} device={device} /> */}
     </>
   )
 }

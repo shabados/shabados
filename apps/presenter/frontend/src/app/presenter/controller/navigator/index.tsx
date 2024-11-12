@@ -26,7 +26,6 @@ import { getJumpLines, getNextJumpLine } from '~/helpers/auto-jump'
 import { HistoryContext } from '~/helpers/contexts'
 import { LINE_HOTKEYS } from '~/helpers/keyMap'
 import { setLine, useContent } from '~/services/content'
-import controller from '~/services/controller'
 import { useTracker } from '~/services/tracker'
 
 import ToolbarButton from '../-components/ToolbarButton'

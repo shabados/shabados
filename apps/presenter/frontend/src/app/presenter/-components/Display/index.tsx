@@ -1,61 +1,55 @@
 import './index.css'
 
 import classNames from 'classnames'
-import { mapValues } from 'radashi'
+import { mapValues, sift } from 'radashi'
 
 import { LANGUAGES } from '~/helpers/data'
 import { customiseLine, getTransliterators } from '~/helpers/line'
-import { ClientSettings } from '~/helpers/options'
-import { filterFalsyValues } from '~/helpers/utils'
 import { useTranslations } from '~/hooks'
 import { useContent } from '~/services/content'
+import { useLocalSettings } from '~/services/settings'
 
 import Line from '../Line'
 
-type DisplayProps = {
-  settings: Pick<ClientSettings, 'layout' | 'display' | 'vishraams' | 'theme'>,
-}
-
-const Display = ( { settings }: DisplayProps ) => {
-  const {
-    layout,
-    display,
-    vishraams,
-    theme: {
-      simpleGraphics: simple,
-      backgroundImage: background,
-      highlightCurrentLine: highlight,
-      dimNextAndPrevLines: dim,
+const Display = () => {
+  const [ {
+    accessibility: {
+      reducedMotion: simple,
     },
-  } = settings
-
-  const { lineEnding } = display
+    dimNextAndPrevLines: dim,
+    backgroundImage: background,
+    highlightCurrentLine: highlight,
+    lineEnding,
+    nextLines: nextLineCount,
+    previousLines: previousLineCount,
+    translations: translationSettings,
+    transliterations,
+  } ] = useLocalSettings()
 
   // Find the correct line in the Shabad
   const { line, lineIndex, lines } = useContent()
 
   // Get the next lines
-  const { nextLines: nextLineCount, previousLines: previousLineCount } = display
   const previousLines = previousLineCount && lineIndex
     ? lines.slice( Math.max( lineIndex - previousLineCount, 0 ), lineIndex )
     : []
   const nextLines = line ? lines.slice( lineIndex + 1, lineIndex + nextLineCount + 1 ) : []
 
   const translations = mapValues(
-    useTranslations( filterFalsyValues( [
-      display.englishTranslation && LANGUAGES.english,
-      display.punjabiTranslation && LANGUAGES.punjabi,
-      display.spanishTranslation && LANGUAGES.spanish,
-    ] ) as number[] ),
+    useTranslations( sift( [
+      translationSettings.english && LANGUAGES.english,
+      translationSettings.punjabi && LANGUAGES.punjabi,
+      translationSettings.spanish && LANGUAGES.spanish,
+    ] ) ),
     ( line ) => customiseLine( line, { lineEnding, typeId: line.typeId } ),
   )
 
   const transliterators = mapValues(
-    getTransliterators( filterFalsyValues( [
-      display.englishTransliteration && LANGUAGES.english,
-      display.hindiTransliteration && LANGUAGES.hindi,
-      display.urduTransliteration && LANGUAGES.urdu,
-    ] ) as number[] ),
+    getTransliterators( sift( [
+      transliterations.english && LANGUAGES.english,
+      transliterations.hindi && LANGUAGES.hindi,
+      transliterations.urdu && LANGUAGES.urdu,
+    ] ) ),
     ( transliterate ) => ( text: string ) => transliterate(
       customiseLine( text, { lineEnding, typeId: line?.typeId } ),
     ),
@@ -70,10 +64,6 @@ const Display = ( { settings }: DisplayProps ) => {
           <Line
             key={id}
             className="previous-line"
-            simpleGraphics={simple}
-            {...layout}
-            {...display}
-            {...vishraams}
             gurmukhi={gurmukhi}
           />
         ) )}
@@ -82,13 +72,9 @@ const Display = ( { settings }: DisplayProps ) => {
       {line && (
         <Line
           className={classNames( { highlight }, 'current-line' )}
-          {...layout}
-          {...display}
-          {...vishraams}
           gurmukhi={line.gurmukhi}
           translations={translations}
           transliterators={transliterators}
-          simpleGraphics={simple}
         />
       )}
 
@@ -97,10 +83,6 @@ const Display = ( { settings }: DisplayProps ) => {
           <Line
             key={id}
             className="next-line"
-            simpleGraphics={simple}
-            {...layout}
-            {...display}
-            {...vishraams}
             gurmukhi={gurmukhi}
           />
         ) )}

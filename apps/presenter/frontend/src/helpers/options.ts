@@ -51,7 +51,7 @@ import {
   faWindowMaximize,
   faWrench,
 } from '@fortawesome/free-solid-svg-icons'
-import type { RecommendedSources } from '@presenter/contract'
+import type { ClientSettings, RecommendedSources, ServerSettings } from '@presenter/contract'
 
 import { API_URL } from './consts'
 import { LANGUAGES } from './data'
@@ -180,7 +180,16 @@ export const CLIENT_OPTIONS = {
     ],
   },
   overlayName: { name: 'Overlay Name', icon: faPalette, type: 'urlDropdown', values: [], url: `${API_URL}/themes/overlay` },
-} satisfies Record<string, ClientOption>
+} satisfies {
+  display: Record<keyof ClientSettings['display'], ClientOption>,
+  layout: Record<keyof ClientSettings['layout'], ClientOption>,
+  theme: Record<keyof ClientSettings['theme'], ClientOption>,
+  vishraams: Record<keyof ClientSettings['vishraams'], ClientOption>,
+  sources: Record<keyof ClientSettings['sources'], ClientOption>,
+  hotkeys: Record<keyof ClientSettings['hotkeys'], ClientOption>,
+  security: Record<keyof ClientSettings['security'], ClientOption>,
+  search: Record<keyof ClientSettings['search'], ClientOption>,
+}
 
 export const SERVER_OPTIONS = {
   connectionEvents: { name: 'Connections', icon: faPlug, type: 'toggle' },
@@ -197,6 +206,7 @@ export const SERVER_OPTIONS = {
 } satisfies Record<string, ServerOption>
 
 // Possible options groups
+// Make these explicit in the UI definition as code, not config
 export const OPTION_GROUPS = {
   //* Linked to local -> settings default options
   none: {
@@ -322,115 +332,3 @@ type FlatOptionGroups = {
 export const FLAT_OPTION_GROUPS = Object
   .values( OPTION_GROUPS )
   .reduce( ( groups, section ) => ( { ...groups, ...section } ), {} as FlatOptionGroups )
-
-// Options with default values
-export const DEFAULT_OPTIONS = {
-  local: {
-    display: {
-      previousLines: 0,
-      nextLines: 1,
-      larivaarGurbani: false,
-      larivaarAssist: false,
-      syllabicWeights: false,
-      syllableCount: false,
-      englishTranslation: true,
-      spanishTranslation: false,
-      punjabiTranslation: false,
-      englishTransliteration: true,
-      hindiTransliteration: false,
-      urduTransliteration: false,
-      lineEnding: true,
-    },
-    layout: {
-      controllerZoom: 1,
-      presenterFontSize: 8,
-      relativeGurmukhiFontSize: 1,
-      relativeEnglishFontSize: 0.6,
-      relativePunjabiFontSize: 0.7,
-      relativeHindiFontSize: 0.71,
-      relativeUrduFontSize: 0.5,
-      centerText: true,
-      justifyText: false,
-      inlineTransliteration: false,
-      inlineColumnGuides: false,
-      splitOnVishraam: true,
-      spacing: CLIENT_OPTIONS.spacing.values[ 2 ].value,
-    },
-    theme: {
-      themeName: 'Day',
-      simpleGraphics: false,
-      backgroundImage: true,
-      highlightCurrentLine: false,
-      dimNextAndPrevLines: true,
-    },
-    vishraams: {
-      vishraamHeavy: true,
-      vishraamMedium: true,
-      vishraamLight: true,
-      vishraamColors: true,
-      vishraamCharacters: false,
-    },
-    sources: {} as RecommendedSources['sources'],
-    hotkeys: Object.values( SHORTCUTS ).reduce( ( hotkeys, { name, sequences } ) => ( {
-      ...hotkeys,
-      [ name ]: sequences,
-    } ), {} ),
-    security: {
-      displayAnalytics: true,
-      private: false,
-    },
-    search: {
-      resultTranslationLanguage: CLIENT_OPTIONS.resultTranslationLanguage.values[ 0 ].value,
-      resultTransliterationLanguage: CLIENT_OPTIONS.resultTransliterationLanguage.values[ 0 ].value,
-      showResultCitations: false,
-      lineEnding: true,
-    },
-  },
-  // Special serverside settings
-  // ! Must be in sync with settings.default.json
-  global: {
-    system: {
-      //! Currently not implemented
-      // launchOnStartup: false,
-      multipleDisplays: true,
-      fullscreenOnLaunch: false,
-      serverAnalytics: true,
-      automaticUpdates: true,
-      betaOptIn: false,
-    },
-    notifications: {
-      connectionEvents: true,
-      disconnectionEvents: false,
-      downloadEvents: true,
-      downloadedEvents: true,
-    },
-    overlay: {
-      overlayName: 'Floating Top Captions',
-      larivaarGurbani: false,
-      larivaarAssist: false,
-      englishTranslation: true,
-      spanishTranslation: false,
-      punjabiTranslation: false,
-      englishTransliteration: false,
-      hindiTransliteration: false,
-      urduTransliteration: false,
-      lineEnding: true,
-    },
-    closedCaptions: {
-      zoomApiToken: null,
-      larivaarGurbani: false,
-      englishTranslation: true,
-      spanishTranslation: false,
-      punjabiTranslation: false,
-      englishTransliteration: false,
-      hindiTransliteration: false,
-      urduTransliteration: false,
-      lineEnding: true,
-    },
-  },
-}
-
-export type ClientSettings = typeof CLIENT_OPTIONS
-export type ServerSettings = typeof SERVER_OPTIONS
-
-export type SettingsState = Record<string, ClientSettings> & { global: ServerSettings }

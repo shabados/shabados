@@ -16,13 +16,13 @@ import Typography from '@mui/material/Typography'
 import { createFileRoute, Outlet, ToPathOption, useLocation, useNavigate, useRouter } from '@tanstack/react-router'
 import { zodSearchValidator } from '@tanstack/router-zod-adapter'
 import classNames from 'classnames'
-import { useContext, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { z } from 'zod'
 
-import { SettingsContext } from '~/helpers/contexts'
 import { usePrevious } from '~/hooks'
 import { useNavigateUtils } from '~/hooks/navigate'
 import { clearLine, useContent } from '~/services/content'
+import { useLocalSettings } from '~/services/settings'
 
 import ToolbarButton from './-components/ToolbarButton'
 
@@ -181,8 +181,7 @@ const Controller = ( props ) => {
     }
   }, [ history, lines, previousLines, navigate, pathname ] )
 
-  const settings = useContext( SettingsContext )
-  const { local: { theme: { simpleGraphics: simple } } } = settings
+  const [ { accessibility: { reducedMotion: simple } } ] = useLocalSettings()
 
   return (
     <div className={classNames( { simple }, 'controller' )}>

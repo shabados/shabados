@@ -3,15 +3,16 @@ import { useSnackbar } from 'notistack'
 import { useContext, useEffect, useRef, useState } from 'react'
 
 import { isMac } from '~/helpers/consts'
-import { RecommendedSourcesContext, SettingsContext } from '~/helpers/contexts'
+import { RecommendedSourcesContext } from '~/helpers/contexts'
 import { getTranslations } from '~/helpers/line'
 import { useContent } from '~/services/content'
+import { useLocalSettings } from '~/services/settings'
 
 export const useTranslations = ( languageIds: number[] ) => {
   const { content, line } = useContent()
 
   const recommendedSources = useContext( RecommendedSourcesContext )
-  const { local: { sources } = {} } = useContext( SettingsContext )
+  const [ { sources } ] = useLocalSettings()
 
   return getTranslations( { content, line, recommendedSources, sources, languageIds } )
 }

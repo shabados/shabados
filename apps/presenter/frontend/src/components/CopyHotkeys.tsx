@@ -2,12 +2,13 @@ import { stripVishraams, toUnicode } from 'gurmukhi-utils'
 import { mapValues } from 'radashi'
 import { ReactNode, useContext } from 'react'
 
-import { RecommendedSourcesContext, SettingsContext, WritersContext } from '~/helpers/contexts'
+import { RecommendedSourcesContext, WritersContext } from '~/helpers/contexts'
 import { LANGUAGES, SOURCE_ABBREVIATIONS } from '~/helpers/data'
 import { COPY_SHORTCUTS } from '~/helpers/keyMap'
 import { customiseLine, getTransliterators } from '~/helpers/line'
 import { useCopyToClipboard, useTranslations } from '~/hooks'
 import { useContent } from '~/services/content'
+import { useLocalSettings } from '~/services/settings'
 
 import GlobalHotKeys from './GlobalHotKeys'
 
@@ -16,7 +17,7 @@ type CopyHotkeysProps = {
 }
 
 const CopyHotkeys = ( { children }: CopyHotkeysProps ) => {
-  const { local: { hotkeys, display: { lineEnding } } } = useContext( SettingsContext )
+  const [ { hotkeys, lineEnding } ] = useLocalSettings()
   const { lines, line } = useContent()
 
   // Get Shabad, writer, sources for getting the author

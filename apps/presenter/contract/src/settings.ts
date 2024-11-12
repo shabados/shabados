@@ -7,6 +7,12 @@ export type ClientSettings = Infer<typeof definitions.clientSettings.schema>
 export type ManyClientSettings = Record<string, ClientSettings>
 export type ManyClientPartialSettings = Record<string, PartialDeep<ClientSettings>>
 
+export type RequiredSettings = {
+  local: ClientSettings,
+  global: ServerSettings,
+  clients: ManyClientSettings,
+}
+
 export type Settings = {
   global?: ServerSettings,
   local?: ClientSettings,

@@ -1,44 +1,40 @@
 import { createLazyFileRoute } from '@tanstack/react-router'
 import classNames from 'classnames'
-import { mapValues } from 'radashi'
-import { useContext } from 'react'
+import { mapValues, sift } from 'radashi'
 
-import { SettingsContext } from '~/helpers/contexts'
 import { LANGUAGES } from '~/helpers/data'
 import { customiseLine, getTransliterators } from '~/helpers/line'
-import { filterFalsyValues } from '~/helpers/utils'
-import { useCurrentLine, useTranslations } from '~/hooks'
+import { useTranslations } from '~/hooks'
+import { useContent } from '~/services/content'
+import { useGlobalSettings } from '~/services/settings'
 import { useStatus } from '~/services/status'
 
 import Line from './-components/Line'
 import ThemeLoader from './-components/ThemeLoader'
 
 const Overlay = () => {
-  const settings = useContext( SettingsContext )
   const { connected } = useStatus()
 
-  const { global: globalSettings } = settings || {}
-  const { overlay: { overlayName, ...overlay } } = globalSettings || {}
+  const [ { overlay: { name, ...overlay, lineEnding } } ] = useGlobalSettings()
 
-  const [ line ] = useCurrentLine()
+  const { line } = useContent()
   const { typeId } = line
-  const { lineEnding } = overlay
 
   const translations = mapValues(
-    useTranslations( filterFalsyValues( [
+    useTranslations( sift( [
       overlay.englishTranslation && LANGUAGES.english,
       overlay.punjabiTranslation && LANGUAGES.punjabi,
       overlay.spanishTranslation && LANGUAGES.spanish,
-    ] ) as number[] ),
+    ] ) ),
     ( line ) => customiseLine( line, { lineEnding, typeId } )
   )
 
   const transliterators = mapValues(
-    getTransliterators( filterFalsyValues( [
+    getTransliterators( sift( [
       overlay.englishTransliteration && LANGUAGES.english,
       overlay.hindiTransliteration && LANGUAGES.hindi,
       overlay.urduTransliteration && LANGUAGES.urdu,
-    ] ) as number[] ),
+    ] ) ),
     ( transliterate ) => ( text: string ) => transliterate(
       customiseLine( text, { lineEnding, typeId } )
     ),
@@ -48,7 +44,7 @@ const Overlay = () => {
 
   return (
     <div className={classNames( { empty: !line }, 'overlay' )}>
-      <ThemeLoader name={overlayName} />
+      <ThemeLoader name={name} />
 
       <Line
         {...overlay}

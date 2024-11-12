@@ -2,11 +2,11 @@ import { ListItem } from '@mui/material'
 import classNames from 'classnames'
 import { forwardRef, useContext } from 'react'
 
-import { RecommendedSourcesContext, SettingsContext, WritersContext } from '~/helpers/contexts'
+import { RecommendedSourcesContext, WritersContext } from '~/helpers/contexts'
 import { LANGUAGE_NAMES, SOURCE_ABBREVIATIONS, TRANSLITERATORS } from '~/helpers/data'
 import { customiseLine, getTranslation } from '~/helpers/line'
 import { setContent } from '~/services/content'
-import controller from '~/services/controller'
+import { useLocalSettings } from '~/services/settings'
 
 type ResultProps = {
   gurmukhi: string,
@@ -33,31 +33,31 @@ const Result = forwardRef( ( {
   sourcePage,
   translations,
 }: ResultProps, ref ) => {
-  const { local: {
+  const [ {
     sources,
-    search: {
-      showResultCitations,
-      resultTransliterationLanguage,
-      resultTranslationLanguage,
+    results: {
+      citations,
+      transliterationLanguage,
+      translationLanguage,
       lineEnding,
     },
-  } = {} } = useContext( SettingsContext )
+  } ] = useLocalSettings()
 
   const writers = useContext( WritersContext )
   const recommendedSources = useContext( RecommendedSourcesContext )
 
-  const transliteration = resultTransliterationLanguage && customiseLine(
-    TRANSLITERATORS[ resultTransliterationLanguage ]( gurmukhi ),
+  const transliteration = transliterationLanguage && customiseLine(
+    TRANSLITERATORS[ transliterationLanguage ]( gurmukhi ),
     { lineEnding, typeId },
   )
 
-  const translation = resultTranslationLanguage && translations && customiseLine(
+  const translation = translationLanguage && translations && customiseLine(
     getTranslation( {
       line: { translations },
       shabad: { sourceId },
       recommendedSources,
       sources,
-      languageId: resultTranslationLanguage,
+      languageId: translationLanguage,
     } ),
     { lineEnding, typeId },
   )
@@ -71,7 +71,7 @@ const Result = forwardRef( ( {
   const onClick = () => setContent( { id: shabadId, lineId, type: 'shabad' } )
 
   // Helper render functions for citation
-  const showCitation = showResultCitations && shabad?.section
+  const showCitation = citations && shabad?.section
   const getEnglish = ( { nameEnglish } ) => nameEnglish
   const getWriterName = () => getEnglish( writers[ shabad.writerId ] )
   const getPageName = () => recommendedSources[ shabad.sourceId ].pageNameEnglish
@@ -87,13 +87,13 @@ const Result = forwardRef( ( {
 
         <span className="secondary text">
           {translation && (
-            <div className={classNames( LANGUAGE_NAMES[ resultTranslationLanguage ], 'translation' )}>
+            <div className={classNames( LANGUAGE_NAMES[ translationLanguage ], 'translation' )}>
               {translation}
             </div>
           )}
 
           {transliteration && (
-            <div className={classNames( LANGUAGE_NAMES[ resultTransliterationLanguage ], 'transliteration' )}>
+            <div className={classNames( LANGUAGE_NAMES[ transliterationLanguage ], 'transliteration' )}>
               {translitBeforeMatch && <span className="translit">{translitBeforeMatch}</span>}
               {translitMatch && <span className="translit matched">{translitMatch}</span>}
               {translitAfterMatch && <span className="translit">{translitAfterMatch}</span>}

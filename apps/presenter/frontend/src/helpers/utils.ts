@@ -1,15 +1,8 @@
-import deepmerge from 'deepmerge'
 import { debounce } from 'radashi'
 import { findDOMNode } from 'react-dom'
 import scrollIntoView from 'scroll-into-view'
 
 import { isMac } from './consts'
-
-export const merge = <T1, T2>( source: Partial<T1>, destination: Partial<T2> ) => deepmerge(
-  source,
-  destination,
-  { arrayMerge: ( _, source ) => source },
-)
 
 // eslint-disable-next-line react/no-find-dom-node
 export const scrollIntoCenter = ( ref: any, options?: __ScrollIntoView.Settings ) => scrollIntoView(
@@ -30,13 +23,3 @@ export const mapPlatformKeys = ( keyMap: KeyMap ) => ( isMac
   } ), {} )
   : keyMap
 )
-
-export const filterFalsyValues = <T>(
-  valuesToFilter: T[]
-) => valuesToFilter.filter( ( item ) => item )
-
-export const filterFalsyObjectValues = <K extends string | number | symbol, T>(
-  valuesToFilter: Record<K, T>
-) => Object.fromEntries(
-  Object.entries( valuesToFilter ).filter( ( [ _, value ] ) => value )
-) as Record<K, T>

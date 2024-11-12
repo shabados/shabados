@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { IconButton, Input, InputAdornment, List } from '@mui/material'
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
 import classNames from 'classnames'
-import { useCallback, useContext, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 
 import { withNavigationHotkeys } from '~/components/NavigationHotkeys'
 import {
@@ -14,8 +14,8 @@ import {
   SEARCH_CHARS,
   SEARCH_TYPES,
 } from '~/helpers/consts'
-import { SettingsContext } from '~/helpers/contexts'
 import { search, useSearchResults } from '~/services/search'
+import { useLocalSettings } from '~/services/settings'
 
 import Result from './-components/Result'
 import getHighlighter from './-match-highlighter'
@@ -44,13 +44,13 @@ type SearchProps = {
 }
 
 const Search = ( { updateFocus, register, focused }: SearchProps ) => {
-  const { local: {
-    search: {
-      showResultCitations,
-      resultTransliterationLanguage,
-      resultTranslationLanguage,
+  const [ {
+    results: {
+      citations,
+      transliterationLanguage,
+      translationLanguage,
     },
-  } = {} } = useContext( SettingsContext )
+  } ] = useLocalSettings()
 
   // Set the initial search query from URL
   const navigate = useNavigate()
@@ -86,9 +86,9 @@ const Search = ( { updateFocus, register, focused }: SearchProps ) => {
         query: searchValue,
         type: searchType,
         options: {
-          translations: !!resultTranslationLanguage,
-          transliterations: !!resultTransliterationLanguage,
-          citations: !!showResultCitations,
+          translations: !!translationLanguage,
+          transliterations: !!transliterationLanguage,
+          citations: !!citations,
         },
       } )
     } else clearResults()
@@ -106,9 +106,9 @@ const Search = ( { updateFocus, register, focused }: SearchProps ) => {
     } )
   }, [
     navigate,
-    resultTranslationLanguage,
-    resultTransliterationLanguage,
-    showResultCitations,
+    translationLanguage,
+    transliterationLanguage,
+    citations,
   ] )
 
   const filterInputKeys = ( event ) => {
@@ -129,9 +129,9 @@ const Search = ( { updateFocus, register, focused }: SearchProps ) => {
   }, [
     onChange,
     anchor,
-    resultTransliterationLanguage,
-    resultTranslationLanguage,
-    showResultCitations,
+    transliterationLanguage,
+    translationLanguage,
+    citations,
   ] )
 
   useEffect( () => { highlightSearch() }, [] )

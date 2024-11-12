@@ -3,8 +3,6 @@ import EventEmitter from 'eventemitter3'
 import { getNextJumpLine } from '~/helpers/auto-jump'
 import { isDev, isElectron, WS_URL } from '~/helpers/consts'
 import { findLineIndex } from '~/helpers/line'
-import { ClientSettings, DEFAULT_OPTIONS, SettingsState } from '~/helpers/options'
-import { merge } from '~/helpers/utils'
 
 type ShabadOptions = {
   shabadId?: string,
@@ -20,8 +18,8 @@ class Controller extends EventEmitter {
     super()
 
     // Initialise settings
-    this.saveLocalSettings()
-    this.#settings = { local: this.readSettings( true ) } as any
+    // this.saveLocalSettings()
+    // this.#settings = { local: this.readSettings( true ) } as any
 
     this.on( 'ready', this.onReady )
   }
@@ -43,7 +41,7 @@ class Controller extends EventEmitter {
       // Transmit our local settings if the server does not have a copy
       const doSyncSettings = !Object.keys( local ).length
 
-      if ( doSyncSettings ) this.setSettings()
+      // if ( doSyncSettings ) this.setSettings()
 
       // Hook normal settings event handler
       this.on( 'settings:all', this.onSettings )
@@ -56,7 +54,7 @@ class Controller extends EventEmitter {
   }
 
   onClose = () => {
-    this.off( 'settings:all', this.onSettings )
+    // this.off( 'settings:all', this.onSettings )
     console.log( 'Disconnected from server' )
     this.emit( 'disconnected' )
   }
@@ -94,38 +92,38 @@ class Controller extends EventEmitter {
 
   bani = ( { baniId, lineId = null }: any ) => this.sendJSON( 'banis:current', { baniId, lineId } )
 
-  // eslint-disable-next-line class-methods-use-this
-  readSettings = ( onlyOverrides = false ): Partial<ClientSettings> => {
-    try {
-      const localSettings = JSON.parse( localStorage.getItem( 'settings' ) ?? '' )
-      return onlyOverrides ? localSettings : merge( DEFAULT_OPTIONS.local, localSettings )
-    } catch ( err ) {
-      console.warn( 'Settings corrupted. Resetting to default.', err )
-      return onlyOverrides ? {} : DEFAULT_OPTIONS.local
-    }
-  }
+  // // eslint-disable-next-line class-methods-use-this
+  // readSettings = ( onlyOverrides = false ): Partial<ClientSettings> => {
+  //   try {
+  //     const localSettings = JSON.parse( localStorage.getItem( 'settings' ) ?? '' )
+  //     return onlyOverrides ? localSettings : merge( DEFAULT_OPTIONS.local, localSettings )
+  //   } catch ( err ) {
+  //     console.warn( 'Settings corrupted. Resetting to default.', err )
+  //     return onlyOverrides ? {} : DEFAULT_OPTIONS.local
+  //   }
+  // }
 
-  saveLocalSettings = ( settings: Partial<ClientSettings> = {}, combine = true ) => {
-    const local = combine ? merge( this.readSettings( true ), settings ) : settings
+  // saveLocalSettings = ( settings: Partial<ClientSettings> = {}, combine = true ) => {
+  //   const local = combine ? merge( this.readSettings( true ), settings ) : settings
 
-    localStorage.setItem( 'settings', JSON.stringify( local ) )
-  }
+  //   localStorage.setItem( 'settings', JSON.stringify( local ) )
+  // }
 
-  setSettings = ( changed = {}, host = 'local', combine = true ) => {
-    let settings = {}
-    if ( host === 'local' ) {
-      this.saveLocalSettings( changed, combine )
+  // setSettings = ( changed = {}, host = 'local', combine = true ) => {
+  //   let settings = {}
+  //   if ( host === 'local' ) {
+  //     this.saveLocalSettings( changed, combine )
 
-      settings = { local: this.readSettings( true ) }
+  //     settings = { local: this.readSettings( true ) }
 
-      this.emit( 'settings', settings )
-    } else {
-      settings = { [ host ]: combine ? merge( this.#settings[ host ], changed ) : changed }
-    }
+  //     this.emit( 'settings', settings )
+  //   } else {
+  //     settings = { [ host ]: combine ? merge( this.#settings[ host ], changed ) : changed }
+  //   }
 
-    // Transmit all settings
-    this.sendJSON( 'settings:all', settings )
-  }
+  //   // Transmit all settings
+  //   this.sendJSON( 'settings:all', settings )
+  // }
 
   action = ( name: string, params: any ) => this.sendJSON( `action:${name}`, params )
 
@@ -137,15 +135,15 @@ class Controller extends EventEmitter {
     ? ( url: string ) => this.action( 'open-external-url', url )
     : ( url: string ) => window.open( url )
 
-  resetSettings = ( host = 'local' ) => {
-    localStorage.setItem( 'settings', '{}' )
-    this.setSettings( {}, host, false )
-  }
+  // resetSettings = ( host = 'local' ) => {
+  //   localStorage.setItem( 'settings', '{}' )
+  //   this.setSettings( {}, host, false )
+  // }
 
-  resetSettingGroup = ( group: keyof ClientSettings, host = 'local' ) => {
-    const { [ group ]: _, ...settings } = this.#settings[ host ]
-    this.setSettings( settings, host, false )
-  }
+  // resetSettingGroup = ( group: keyof ClientSettings, host = 'local' ) => {
+  //   const { [ group ]: _, ...settings } = this.#settings[ host ]
+  //   this.setSettings( settings, host, false )
+  // }
 }
 
 // Allow only one instance by exporting it

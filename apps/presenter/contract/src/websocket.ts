@@ -2,7 +2,7 @@ import type { Merge } from 'type-fest'
 
 import { BaniList, Content, Line, ViewedLines } from './data'
 import { SearchQuery } from './search'
-import { PartialSettings, Settings } from './settings'
+import { PartialSettings, RequiredSettings } from './settings'
 
 type DefineParameters<
   Name extends string,
@@ -66,6 +66,6 @@ export type ClientEventParameters = DefineParameters<ClientEvent, {
   'history:viewed-lines': ViewedLines,
   // 'history:transitions',
   // 'history:latest-lines',
-  'settings:all': PartialSettings,
+  'settings:all': RequiredSettings,
   'search:results': Line[],
 }>

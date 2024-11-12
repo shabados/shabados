@@ -24,12 +24,12 @@ import {
 } from '@mui/material'
 import { createFileRoute, Link, Outlet, ToOptions, useLocation } from '@tanstack/react-router'
 import classNames from 'classnames'
-import { Fragment, useContext, useEffect, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 
 import { withErrorFallback } from '~/components/ErrorFallback'
 import ThemeLoader from '~/components/ThemeLoader'
-import { SettingsContext } from '~/helpers/contexts'
 import { FLAT_OPTION_GROUPS, OPTION_GROUPS } from '~/helpers/options'
+import { useClientsSettings, useGlobalSettings, useLocalSettings } from '~/services/settings'
 
 type ItemProps = {
   name: string,
@@ -58,11 +58,13 @@ const Settings = () => {
   const [ mobileOpen, setMobileOpen ] = useState( false )
   const [ device, setDevice ] = useState( 'local' )
 
-  const settings = useContext( SettingsContext )
+  const [ clients ] = useClientsSettings()
+  const [ local ] = useLocalSettings()
+  const [ global ] = useGlobalSettings()
 
-  const devices = Array.from( Object.keys( settings ) )
+  const devices = Array.from( Object.keys( clients ) )
 
-  const selectedDeviceSettings = settings[ device ] || settings.local
+  const selectedDeviceSettings = clients[ device ] ?? local
 
   useEffect( () => {
     if ( !devices.includes( device ) ) setDevice( 'local' )
@@ -74,8 +76,8 @@ const Settings = () => {
   const menu = [
     [ null, OPTION_GROUPS.none, selectedDeviceSettings, '/settings/client' ],
     [ 'Activities', OPTION_GROUPS.activities, selectedDeviceSettings, '/settings/client' ],
-    [ 'Server', OPTION_GROUPS.server, settings.global, '/settings/server' ],
-    [ 'Tools', OPTION_GROUPS.tools, settings.global, '/settings/tools' ],
+    [ 'Server', OPTION_GROUPS.server, global, '/settings/server' ],
+    [ 'Tools', OPTION_GROUPS.tools, global, '/settings/tools' ],
   ] satisfies [string | null, typeof OPTION_GROUPS[keyof typeof OPTION_GROUPS], typeof selectedDeviceSettings, ToOptions['to']][]
 
   const menuItems = (
@@ -86,7 +88,7 @@ const Settings = () => {
         value={device}
       >
         <MenuItem value="local">This Device</MenuItem>
-        {Object.keys( settings )
+        {Object.keys( { local, global, clients } )
           .filter( ( name ) => ![ 'local', 'global' ].includes( name ) )
           .map( ( device ) => (
             <MenuItem key={device} value={device}>
@@ -114,11 +116,11 @@ const Settings = () => {
     </List>
   )
 
-  const { theme: { simpleGraphics } } = settings.local
-  const { theme: { themeName = '' } = {} } = selectedDeviceSettings
+  const { accessibility: { reducedMotion } } = local
+  const { themeName } = selectedDeviceSettings
 
   return (
-    <div className={classNames( { simple: simpleGraphics }, 'settings' )}>
+    <div className={classNames( { simple: reducedMotion }, 'settings' )}>
       <ThemeLoader name={themeName} />
 
       <Hidden smUp implementation="css">

@@ -14,10 +14,12 @@
 - [ ] Separated server vs client settings + interface (new events?)
 - [x] Schema validation + default with valibot
 - [ ] Use invariant in state handlers + other places
+- [ ] Get rid of /writers endpoint and send that data along with relevant responses
+- [ ] Switch to node subpath imports
 
 ## Schemas
 
-- [ ] Write tests for schemas package
+- [x] Write tests for schemas package
 
 ## Backend
 
@@ -49,7 +51,7 @@
 - [ ] Use new events from BE
 - [ ] Refactor into concept of `content`
 - [ ] Render navigator's bar extra icons in controller
-- [ ] Better settings management via hooks
+- [x] Better settings management via hooks
 
 ## Electron
 

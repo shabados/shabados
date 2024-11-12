@@ -14,6 +14,7 @@ import type {
 } from '@shabados/database'
 import type { SetNonNullable } from 'type-fest'
 
+// TODO Use JSONIFY
 export type Line = SetNonNullable<Lines, 'translations' | 'transliterations'>
 export type Shabad = SetNonNullable<Shabads, 'lines' | 'section'>
 export type BaniList = Banis & { id: number }

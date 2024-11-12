@@ -1,7 +1,5 @@
 import { ComponentType, Context, createContext } from 'react'
 
-import { SettingsState } from './options'
-
 export const
   withContext = <T extends JSX.IntrinsicAttributes,>( Context: Context<T> ) => (
     Component: ComponentType
@@ -10,8 +8,6 @@ export const
       {( context ) => <Component {...context} {...props} />}
     </Context.Consumer>
   )
-
-export const SettingsContext = createContext( {} as SettingsState )
 
 type TransitionHistory = {
   length: number,

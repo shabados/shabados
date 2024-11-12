@@ -2,12 +2,11 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Accordion, AccordionDetails, AccordionSummary, Grid, Typography } from '@mui/material'
 import { createFileRoute } from '@tanstack/react-router'
-import { useContext } from 'react'
 
 import Loader from '~/components/Loader'
 import { API_URL } from '~/helpers/consts'
-import { SettingsContext } from '~/helpers/contexts'
 import controller from '~/services/controller'
+import { useClientsSettings, useLocalSettings } from '~/services/settings'
 
 import { ResetButton } from '../../-components/DynamicOptions'
 import { Dropdown as Select } from '../../-components/SettingsComponents'
@@ -17,8 +16,10 @@ type SourcesProps = {
 }
 
 const Sources = ( { device }: SourcesProps ) => {
-  const settings = useContext( SettingsContext )
-  const selectedDeviceSettings = settings[ device ] || settings.local
+  const [ local ] = useLocalSettings()
+  const [ clients ] = useClientsSettings()
+
+  const selectedDeviceSettings = clients[ device ] ?? local
 
   const { languages, sources: { sources, recommendedSources } } = Route.useLoaderData()
 

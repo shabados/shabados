@@ -6,7 +6,7 @@ import { CssBaseline } from '@mui/material'
 import IconButton from '@mui/material/IconButton'
 import { createLazyFileRoute, Outlet, useLocation } from '@tanstack/react-router'
 import classNames from 'classnames'
-import { lazy, Suspense, useContext, useRef, useState } from 'react'
+import { lazy, Suspense, useRef, useState } from 'react'
 import { EventsType, useIdleTimer } from 'react-idle-timer'
 
 import CopyHotkeys from '~/components/CopyHotkeys'
@@ -16,12 +16,12 @@ import Loader from '~/components/Loader'
 import NavigatorHotKeys from '~/components/NavigatorHotkeys'
 import ThemeLoader from '~/components/ThemeLoader'
 import { isDesktop } from '~/helpers/consts'
-import { SettingsContext } from '~/helpers/contexts'
 import { toggleFullscreen } from '~/helpers/electron-utils'
 import { GLOBAL_SHORTCUTS } from '~/helpers/keyMap'
 import { CLIENT_OPTIONS } from '~/helpers/options'
 import { useNavigateUtils } from '~/hooks/navigate'
 import { clearLine, useContent } from '~/services/content'
+import { useLocalSettings } from '~/services/settings'
 
 import StatusToast from './-components/StatusToast'
 import { ControllerLocationHistoryProvider } from './-controller-location-history'
@@ -62,23 +62,22 @@ const Presenter = () => {
 
   const { lines } = useContent()
 
-  const { local: localSettings } = useContext( SettingsContext )
-  const {
-    theme: { themeName },
-    layout: { controllerZoom: zoom },
+  const [ {
+    themeName,
+    controllerZoom,
     hotkeys,
-  } = localSettings
+  } ] = useLocalSettings()
 
   const toggleController = () => void navigate( { to: isControllerOpen ? '/' : '/presenter/controller' } )
 
-  const { controllerZoom } = CLIENT_OPTIONS
+  // const { controllerZoom } = CLIENT_OPTIONS
   // const setZoom = ( controllerZoom: number ) => controller.setSettings( {
   //   layout: { controllerZoom },
   // } )
   const setZoom = () => {}
 
-  const zoomInController = () => setZoom( Math.min( controllerZoom.max, zoom + 0.1 ) )
-  const zoomOutController = () => setZoom( Math.max( controllerZoom.min, zoom - 0.1 ) )
+  const zoomInController = () => setZoom( Math.min( CLIENT_OPTIONS.controllerZoom.max, zoom + 0.1 ) )
+  const zoomOutController = () => setZoom( Math.max( CLIENT_OPTIONS.controllerZoom.min, zoom - 0.1 ) )
   const zoomResetController = () => setZoom( 1 )
 
   const toggleFullscreenController = () => {
@@ -131,10 +130,10 @@ const Presenter = () => {
           <CopyHotkeys>
 
             <Suspense fallback={<Loader />}>
-              {!( isControllerOpen && controllerOnly ) && <Display settings={localSettings} />}
+              {!( isControllerOpen && controllerOnly ) && <Display />}
             </Suspense>
 
-            <div className={classNames( 'controller-container', { fullscreen: controllerOnly } )} style={{ zoom }}>
+            <div className={classNames( 'controller-container', { fullscreen: controllerOnly } )} style={{ zoom: controllerZoom }}>
               <IconButton className="expand-icon" onClick={toggleController} size="large">
                 <FontAwesomeIcon icon={faPlus} />
               </IconButton>

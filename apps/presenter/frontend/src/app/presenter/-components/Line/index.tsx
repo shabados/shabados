@@ -14,134 +14,72 @@ import {
   Transliterators,
 } from '~/helpers/data'
 import { classifyWords, partitionLine, sortBy } from '~/helpers/line'
-import { DEFAULT_OPTIONS } from '~/helpers/options'
-import { filterFalsyObjectValues } from '~/helpers/utils'
+import { useLocalSettings } from '~/services/settings'
 
 type LineProps = {
   className?: string,
   gurmukhi: string,
   translations?: Translations,
   transliterators?: Transliterators,
-  syllabicWeights?: boolean,
-  syllableCount?: boolean,
-  inlineTransliteration?: boolean,
-  inlineColumnGuides?: boolean,
-  spacing?: string,
-  centerText?: boolean,
-  justifyText?: boolean,
-  larivaarGurbani?: boolean,
-  larivaarAssist?: boolean,
-  vishraamColors?: boolean,
-  vishraamCharacters?: boolean,
-  vishraamLight?: boolean,
-  vishraamMedium?: boolean,
-  vishraamHeavy?: boolean,
-  splitOnVishraam?: boolean,
-  simpleGraphics?: boolean,
-  presenterFontSize?: number,
-  relativeGurmukhiFontSize?: number,
-  relativeEnglishFontSize?: number,
-  relativePunjabiFontSize?: number,
-  relativeHindiFontSize?: number,
-  relativeUrduFontSize?: number,
 }
-
-const {
-  display: {
-    syllabicWeights: defaultSyllabicWeights,
-    syllableCount: defaultSyllableCount,
-    larivaarAssist: defaultLarivaarAssist,
-    larivaarGurbani: defaultLarivaarGurbani,
-  },
-  layout: {
-    spacing: defaultSpacing,
-    centerText: defaultCenterText,
-    justifyText: defaultJustifyText,
-    inlineTransliteration: defaultInlineTransliteration,
-    inlineColumnGuides: defaultInlineColumnGuides,
-    splitOnVishraam: defaultSplitOnVishraam,
-    presenterFontSize: defaultPresenterFontSize,
-    relativeGurmukhiFontSize: defaultRelativeGurmukhiFontSize,
-    relativeEnglishFontSize: defaultRelativeEnglishFontSize,
-    relativePunjabiFontSize: defaultRelativePunjabiFontSize,
-    relativeHindiFontSize: defaultRelativeHindiFontSize,
-    relativeUrduFontSize: defaultRelativeUrduFontSize,
-  },
-  vishraams: {
-    vishraamColors: defaultVishraamColors,
-    vishraamCharacters: defaultVishraamCharacters,
-    vishraamHeavy: defaultVishraamHeavy,
-    vishraamMedium: defaultVishraamMedium,
-    vishraamLight: defaultVishraamLight,
-  },
-  theme: { simpleGraphics },
-} = DEFAULT_OPTIONS.local
 
 const Line = ( {
   className = undefined,
   gurmukhi,
   translations = {},
   transliterators = {},
-  syllabicWeights = defaultSyllabicWeights,
-  syllableCount = defaultSyllableCount,
-  inlineTransliteration = defaultInlineTransliteration,
-  inlineColumnGuides = defaultInlineColumnGuides,
-  spacing = defaultSpacing,
-  centerText = defaultCenterText,
-  justifyText = defaultJustifyText,
-  presenterFontSize = defaultPresenterFontSize,
-  relativeGurmukhiFontSize = defaultRelativeGurmukhiFontSize,
-  relativeEnglishFontSize = defaultRelativeEnglishFontSize,
-  relativePunjabiFontSize = defaultRelativePunjabiFontSize,
-  relativeHindiFontSize = defaultRelativeHindiFontSize,
-  relativeUrduFontSize = defaultRelativeUrduFontSize,
-  larivaarGurbani: larivaar = defaultLarivaarGurbani,
-  larivaarAssist = defaultLarivaarAssist,
-  vishraamColors: vishraams = defaultVishraamColors,
-  vishraamCharacters = defaultVishraamCharacters,
-  vishraamLight = defaultVishraamLight,
-  vishraamMedium = defaultVishraamMedium,
-  vishraamHeavy = defaultVishraamHeavy,
-  splitOnVishraam: partition = defaultSplitOnVishraam,
-  simpleGraphics: simple,
 }: LineProps ) => {
-  const fontSizes = filterFalsyObjectValues( {
-    [ LANGUAGES.english ]: relativeEnglishFontSize,
-    [ LANGUAGES.spanish ]: relativeEnglishFontSize,
-    [ LANGUAGES.punjabi ]: relativePunjabiFontSize,
-    [ LANGUAGES.hindi ]: relativeHindiFontSize,
-    [ LANGUAGES.urdu ]: relativeUrduFontSize,
-  } )
+  const [ {
+    fontSizes,
+    larivaarGurbani,
+    larivaarAssist,
+    pauses,
+    accessibility: { reducedMotion },
+    spacing,
+    centerText,
+    inlineColumnGuides,
+    inlineTransliteration,
+    syllabicWeights,
+    syllableCount,
+  } ] = useLocalSettings()
+
+  const languageFontSizes = {
+    [ LANGUAGES.english ]: fontSizes.relativeEnglish,
+    [ LANGUAGES.spanish ]: fontSizes.relativeEnglish,
+    [ LANGUAGES.punjabi ]: fontSizes.relativePunjabi,
+    [ LANGUAGES.hindi ]: fontSizes.relativeHindi,
+    [ LANGUAGES.urdu ]: fontSizes.relativeUrdu,
+  }
 
   return (
     <div
       className={classNames(
         className,
         {
-          assist: larivaar && larivaarAssist,
-          light: vishraams && vishraamLight,
-          medium: vishraams && vishraamMedium,
-          heavy: vishraams && vishraamHeavy,
-          vishraams,
-          larivaar,
-          simple,
+          assist: larivaarGurbani && larivaarAssist,
+          light: pauses.mode === 'all',
+          medium: pauses.mode === 'all',
+          heavy: true,
+          vishraams: pauses.mode === 'all',
+          larivaar: larivaarGurbani,
+          simple: reducedMotion,
           'center-text': centerText,
-          'justify-text': justifyText,
+          'justify-text': spacing,
         },
         'line'
       )}
-      style={{ justifyContent: spacing, fontSize: `${presenterFontSize}vh` }}
+      style={{ justifyContent: spacing, fontSize: `${fontSizes.base}vh` }}
     >
       <TransitionGroup appear exit={false} component={null}>
         <CSSTransition key={gurmukhi} classNames="fade" timeout={0}>
           <p className="source">
-            {partitionLine( gurmukhi, !vishraamCharacters ).map(
+            {partitionLine( gurmukhi, !pauses.characters ).map(
               ( line, lineIndex ) => (
                 <span
                   key={lineIndex}
                   className={classNames(
                     'partition',
-                    partition ? 'block' : 'inline'
+                    pauses.splitLine ? 'block' : 'inline'
                   )}
                 >
                   {line.map( ( { word, type }, i ) => (
@@ -157,7 +95,7 @@ const Line = ( {
                           || syllabicWeights
                           || inlineColumnGuides,
                       } )}
-                      style={relativeGurmukhiFontSize ? { fontSize: `${relativeGurmukhiFontSize}em` } : {}}
+                      style={{ fontSize: `${fontSizes.relativeGurmukhi}em` }}
                     >
                       <span className="gurmukhi">{word}</span>
 
@@ -173,8 +111,8 @@ const Line = ( {
                           .map( ( [ languageId, transliterate ] ) => (
                             <span
                               key={`${word}-${type || ''}-${i}-${languageId}-transliteration`}
-                              className={classNames( LANGUAGE_NAMES[ languageId ] )}
-                              style={fontSizes[ Number( languageId ) ] ? { fontSize: `${fontSizes[ Number( languageId ) ]}em` } : {}}
+                              className={classNames( LANGUAGE_NAMES[ Number( languageId ) ] )}
+                              style={languageFontSizes[ Number( languageId ) ] ? { fontSize: `${languageFontSizes[ Number( languageId ) ]}em` } : {}}
                             >
                               {transliterate( word )}
                             </span>
@@ -201,10 +139,10 @@ const Line = ( {
             >
               <p
                 className={classNames(
-                  LANGUAGE_NAMES[ languageId ],
+                  LANGUAGE_NAMES[ Number( languageId ) ],
                   'translation'
                 )}
-                style={{ fontSize: `${fontSizes[ Number( languageId ) ]}em` }}
+                style={{ fontSize: `${languageFontSizes[ Number( languageId ) ]}em` }}
               >
                 {translation}
               </p>
@@ -222,14 +160,14 @@ const Line = ( {
               >
                 <p
                   className={classNames(
-                    LANGUAGE_NAMES[ languageId ],
+                    LANGUAGE_NAMES[ Number( languageId ) ],
                     'transliteration'
                   )}
-                  style={{ fontSize: `${fontSizes[ Number( languageId ) ]}em` }}
+                  style={{ fontSize: `${languageFontSizes[ Number( languageId ) ]}em` }}
                 >
                   {classifyWords(
                     transliterate( gurmukhi ),
-                    !vishraamCharacters
+                    !pauses.characters
                   ).map( ( { word, type }, i ) => (
                     <span
                       key={`${word}-${type || ''}-${i}`}
