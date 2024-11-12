@@ -1,4 +1,4 @@
-import { ManyClientPartialSettings, ManyClientSettings, PartialSettings, RequiredSettings, Settings } from '@presenter/contract'
+import { ManyClientPartialSettings, ManyClientSettings, PartialSettings, RequiredSettings } from '@presenter/contract'
 import { mutableValue, readOnly, subscribable } from '@presenter/node'
 import { merge } from '@presenter/swiss-knife'
 import { omit, pick } from 'radashi'
