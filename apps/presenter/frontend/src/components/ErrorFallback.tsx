@@ -3,17 +3,18 @@ import './ErrorFallback.css'
 import { Button, Grid, Typography } from '@mui/material'
 import { Component, ComponentType, useEffect, useState } from 'react'
 
+import { isDev } from '~/helpers/consts'
 import controller from '~/services/controller'
 
 const RELOAD_COUNTDOWN = 10 // 10 second countdown before automatic reload
 
 type ErrorFallbackProps = {
-  error?: string,
+  error: Error,
   autoReset?: boolean,
 }
 
-const ErrorFallback = ( { error, autoReset = true }: ErrorFallbackProps ) => {
-  const [ showError, setErrorVisible ] = useState( false )
+const ErrorFallback = ( { error, autoReset = !isDev }: ErrorFallbackProps ) => {
+  const [ showError, setErrorVisible ] = useState( isDev )
   const [ countdown, setCountdown ] = useState( autoReset ? RELOAD_COUNTDOWN : null )
   const [ timerHandle, setTimerHandle ] = useState<number>()
 
@@ -58,7 +59,12 @@ const ErrorFallback = ( { error, autoReset = true }: ErrorFallbackProps ) => {
         </Typography>
       )}
 
-      {showError && ( <div className="error">{error ? error.toString() : 'Unknown error'}</div> )}
+      {showError && (
+        <details className="error">
+          <summary>{error ? error.toString() : 'Unknown error'}</summary>
+          {error?.stack}
+        </details>
+      )}
 
       <Grid className="buttons" container justifyContent="space-evenly">
         <Button variant="outlined" onClick={onReloadClick}>
@@ -78,10 +84,10 @@ const ErrorFallback = ( { error, autoReset = true }: ErrorFallbackProps ) => {
 export default ErrorFallback
 
 export const withErrorFallback = ( Comp: ComponentType ) => (
-  class WithErrorFallback extends Component {
-    state = { error: null }
+  class WithErrorFallback<T> extends Component<T, { error?: Error }> {
+    state = { error: undefined }
 
-    static getDerivedStateFromError( error: string ) {
+    static getDerivedStateFromError( error: Error ) {
       return { error }
     }
 
