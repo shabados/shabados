@@ -118,11 +118,14 @@ describe( 'Settings', () => {
     it( 'should save the global settings to file', async () => {
       const { createClient } = setup()
       const client = createClient()
-      const global = { system: { multipleDisplays: true } }
+      const global = { system: { multipleDisplays: false } }
 
       await client.sendEvent( 'settings:all', { global } )
 
-      await waitForExpect( () => expect( writeJSON ).toHaveBeenCalledWith( SETTINGS_FILE, expect.objectContaining( global ) ) )
+      await waitForExpect( () => expect( writeJSON )
+        .toHaveBeenCalledWith( SETTINGS_FILE, expect.objectContaining( {
+          system: expect.objectContaining( { multipleDisplays: false } ),
+        } ) ) )
     } )
   } )
 } )

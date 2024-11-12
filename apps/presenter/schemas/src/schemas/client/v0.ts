@@ -2,12 +2,12 @@
 
 import { array, boolean, fallback, number, object, picklist, record, string, union } from 'valibot'
 
-import { defineSchema } from '#~/schema'
+import { defineSchema, safeObject } from '#~/schema'
 
 export default defineSchema( {
   version: 0,
-  schema: object( {
-    display: object( {
+  schema: safeObject( {
+    display: safeObject( {
       previousLines: fallback( number(), 0 ),
       nextLines: fallback( number(), 1 ),
       larivaarGurbani: fallback( boolean(), false ),
@@ -22,7 +22,7 @@ export default defineSchema( {
       urduTransliteration: fallback( boolean(), false ),
       lineEnding: fallback( boolean(), true ),
     } ),
-    layout: object( {
+    layout: safeObject( {
       controllerZoom: fallback( number(), 1 ),
       presenterFontSize: fallback( number(), 8 ),
       relativeGurmukhiFontSize: fallback( number(), 1 ),
@@ -37,14 +37,14 @@ export default defineSchema( {
       splitOnVishraam: fallback( boolean(), true ),
       spacing: fallback( picklist( [ 'space-between', 'space-around', 'space-evenly', 'flex-start', 'flex-end', 'center' ] ), 'space-between' ),
     } ),
-    theme: object( {
+    theme: safeObject( {
       themeName: fallback( string(), 'Day' ),
       simpleGraphics: fallback( boolean(), false ),
       backgroundImage: fallback( boolean(), true ),
       highlightCurrentLine: fallback( boolean(), false ),
       dimNextAndPrevLines: fallback( boolean(), true ),
     } ),
-    vishraams: object( {
+    vishraams: safeObject( {
       vishraamHeavy: fallback( boolean(), true ),
       vishraamMedium: fallback( boolean(), true ),
       vishraamLight: fallback( boolean(), true ),
@@ -70,11 +70,11 @@ export default defineSchema( {
       {},
     ),
     hotkeys: fallback( record( string(), array( string() ) ), {} ),
-    security: object( {
+    security: safeObject( {
       displayAnalytics: fallback( boolean(), true ),
       private: fallback( boolean(), false ),
     } ),
-    search: object( {
+    search: safeObject( {
       resultTranslationLanguage: fallback( union( [ boolean(), picklist( [ 1, 2, 3 ] ) ] ), false ),
       resultTransliterationLanguage: fallback( union( [
         boolean(),

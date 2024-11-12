@@ -1,7 +1,7 @@
 import { invert } from 'radashi'
-import { array, boolean, fallback, number, object, picklist, record, string } from 'valibot'
+import { array, boolean, fallback, number, picklist, record, string } from 'valibot'
 
-import { defineSchema } from '#~/schema'
+import { defineSchema, safeObject } from '#~/schema'
 
 import v0 from './v0'
 
@@ -20,7 +20,7 @@ const TRANSLITERATION_LANGUAGES = invert( {
 export default defineSchema( {
   version: 1,
   previous: v0,
-  schema: object( {
+  schema: safeObject( {
     private: fallback( boolean(), false ),
     previousLines: fallback( number(), 0 ),
     nextLines: fallback( number(), 1 ),
@@ -30,7 +30,7 @@ export default defineSchema( {
     syllableCount: fallback( boolean(), false ),
     lineEnding: fallback( boolean(), true ),
     controllerZoom: fallback( number(), 1 ),
-    fontSizes: object( {
+    fontSizes: safeObject( {
       base: fallback( number(), 8 ),
       relativeGurmukhi: fallback( number(), 1 ),
       relativeEnglish: fallback( number(), 0.6 ),
@@ -43,28 +43,28 @@ export default defineSchema( {
     inlineColumnGuides: fallback( boolean(), false ),
     spacing: fallback( picklist( [ 'space-between', 'space-around', 'space-evenly', 'flex-start', 'flex-end', 'center' ] ), 'space-between' ),
     themeName: fallback( string(), 'Day' ),
-    accessibility: object( {
+    accessibility: safeObject( {
       reducedMotion: fallback( boolean(), false ),
     } ),
     backgroundImage: fallback( boolean(), true ),
     highlightCurrentLine: fallback( boolean(), false ),
     dimNextAndPrevLines: fallback( boolean(), true ),
-    translations: object( {
+    translations: safeObject( {
       english: fallback( boolean(), true ),
       spanish: fallback( boolean(), false ),
       punjabi: fallback( boolean(), false ),
     } ),
-    transliterations: object( {
+    transliterations: safeObject( {
       english: fallback( boolean(), true ),
       hindi: fallback( boolean(), false ),
       urdu: fallback( boolean(), false ),
     } ),
-    pauses: object( {
+    pauses: safeObject( {
       characters: fallback( boolean(), false ),
       mode: fallback( picklist( [ 'all', 'only-primary' ] ), 'all' ),
       splitLine: fallback( boolean(), true ),
     } ),
-    results: object( {
+    results: safeObject( {
       translationLanguage: fallback( picklist( [ 'english', 'spanish', 'punjabi' ] ), 'english' ),
       transliterationLanguage: fallback( picklist( [ 'english', 'hindi', 'urdu' ] ), 'english' ),
       lineEnding: fallback( boolean(), true ),
@@ -74,10 +74,10 @@ export default defineSchema( {
     sources: fallback(
       record(
         string(),
-        object( {
+        safeObject( {
           translationSources: record(
             string(),
-            object( {
+            safeObject( {
               id: number(),
               languageId: number(),
               nameEnglish: string(),

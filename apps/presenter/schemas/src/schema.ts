@@ -1,5 +1,5 @@
 import { PartialDeep } from 'type-fest'
-import { InferInput, InferOutput, ObjectEntries, ObjectSchema } from 'valibot'
+import { fallback, getFallbacks, InferInput, InferOutput, object, ObjectEntries, ObjectSchema } from 'valibot'
 
 export type SchemaType = ObjectSchema<ObjectEntries, undefined>
 
@@ -18,3 +18,9 @@ export const defineSchema = <
   Schema extends SchemaType,
   PreviousSchema extends SchemaType,
 >( definition: SchemaDefinition<Schema, PreviousSchema> ) => definition
+
+export const safeObject = <T extends ObjectEntries>( entries: T ) => {
+  const o = object( entries )
+
+  return fallback( o, getFallbacks( o ) as InferOutput<typeof o> )
+}

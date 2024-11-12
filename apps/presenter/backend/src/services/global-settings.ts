@@ -8,17 +8,20 @@ import { readJSON, writeJSON } from '~/helpers/files'
 
 const log = getLogger( 'server-settings' )
 
-const writeSettings = ( settings: ServerSettings ) => writeJSON(
-  SETTINGS_FILE,
-  { ...settings, schemaVersion: definitions.serverSettings.version }
-)
+const writeSettings = ( settings: ServerSettings ) => {
+  log.info( `Writing settings to ${SETTINGS_FILE}` )
+
+  return writeJSON(
+    SETTINGS_FILE,
+    { ...settings, schemaVersion: definitions.serverSettings.version }
+  )
+}
 
 const readSettings = () => readJSON<{ schemaVersion?: number }>( SETTINGS_FILE )
   .catch( () => {
     log.warn( 'Settings file is corrupt or non-existent. Recreating', SETTINGS_FILE )
 
     const defaults = getDefaults( definitions.serverSettings.schema )
-    void writeSettings( defaults )
 
     return { schemaVersion: definitions.serverSettings.version, ...defaults }
   } )
@@ -36,7 +39,7 @@ const createGlobalSettings = () => {
   settings.onChange( ( settings ) => void writeSettings( settings ) )
 
   const save = ( changed: PartialDeep<ServerSettings> = {} ) => settings.set(
-    merge( settings.get(), changed ) as ServerSettings
+    migrate( definitions.serverSettings, merge( settings.get(), changed ) )
   )
 
   return { load, save, get: settings.get, onChange: settings.onChange }
