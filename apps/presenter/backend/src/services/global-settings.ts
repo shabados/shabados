@@ -1,6 +1,6 @@
 import { ServerSettings } from '@presenter/contract'
 import { getLogger, mutableValue, SETTINGS_FILE, subscribable } from '@presenter/node'
-import { definitions, getDefaults, migrate } from '@presenter/schemas'
+import { definitions, getDefaults, migrate, parse } from '@presenter/schemas'
 import { merge } from '@presenter/swiss-knife'
 import type { PartialDeep, ReadonlyDeep } from 'type-fest'
 
@@ -25,7 +25,11 @@ const readSettings = () => readJSON<{ schemaVersion?: number }>( SETTINGS_FILE )
 
     return { schemaVersion: definitions.serverSettings.version, ...defaults }
   } )
-  .then( ( settings ) => migrate( definitions.serverSettings, settings, settings.schemaVersion ) )
+  .then( ( settings ) => migrate(
+    definitions.serverSettings,
+    settings,
+    settings?.schemaVersion ?? 0
+  ) )
 
 const createGlobalSettings = () => {
   const settings = subscribable( mutableValue( {} as ReadonlyDeep<ServerSettings> ) )
@@ -39,7 +43,7 @@ const createGlobalSettings = () => {
   settings.onChange( ( settings ) => void writeSettings( settings ) )
 
   const save = ( changed: PartialDeep<ServerSettings> = {} ) => settings.set(
-    migrate( definitions.serverSettings, merge( settings.get(), changed ) )
+    parse( definitions.serverSettings.schema, merge( settings.get(), changed ) )
   )
 
   return { load, save, get: settings.get, onChange: settings.onChange }
