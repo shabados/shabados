@@ -1,4 +1,5 @@
 import './__root.css'
+import 'jotai-devtools/styles.css'
 
 import { RecommendedSources, Writer } from '@presenter/contract'
 import { createRootRoute, Navigate, Outlet } from '@tanstack/react-router'
@@ -104,6 +105,7 @@ class App extends PureComponent {
     return (
       <div className={classNames( { mobile: isMobile, tablet: isTablet, desktop: isDesktop }, 'app' )}>
         <Provider store={store}>
+          <DevTools store={store} />
           <Suspense fallback={<Loader />}>
             <SettingsContext.Provider value={settings}>
               <HistoryContext.Provider value={{ viewedLines, transitionHistory, latestLines }}>

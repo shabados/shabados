@@ -10,7 +10,11 @@ export default defineConfig( {
   plugins: [
     tsconfigPaths(),
     !isTest && TanStackRouterVite(),
-    react(),
+    react({
+      babel: {
+        presets: ['jotai/babel/preset']
+      }
+    }),
   ],
   server: {
     proxy: {
