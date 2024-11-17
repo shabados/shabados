@@ -3,7 +3,7 @@ import { copyFile, readdir } from 'node:fs/promises'
 import { getLogger, USER_OVERLAY_THEMES_FOLDER, USER_PRESENTER_THEMES_FOLDER } from '@presenter/node'
 import { basename, extname, join } from 'path'
 
-import { OVERLAY_THEMES_FOLDER, PRESENTER_THEMES_FOLDER } from '~/helpers/consts'
+import { OVERLAY_THEMES_FOLDER, PRESENTER_THEMES_FOLDER } from '#~/helpers/consts'
 
 const logger = getLogger( 'themes' )
 

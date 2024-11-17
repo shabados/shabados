@@ -5,7 +5,7 @@ import { decode, encode } from '@presenter/swiss-knife'
 import { vi } from 'vitest'
 import { AddressInfo, WebSocket } from 'ws'
 
-import createWebSocketServer, { Socket } from '~/services/websocket-server'
+import createWebSocketServer, { Socket } from '#~/services/websocket-server'
 
 type CreateServerOptions = {
   httpServer: Server,

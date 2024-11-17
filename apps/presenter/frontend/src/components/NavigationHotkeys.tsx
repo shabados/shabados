@@ -1,8 +1,8 @@
 import { Component, forwardRef, ReactInstance } from 'react'
 import { findDOMNode } from 'react-dom'
 
-import { LINE_HOTKEYS } from '~/helpers/keyMap'
-import { debounceHotKey, scrollIntoCenter } from '~/helpers/utils'
+import { LINE_HOTKEYS } from '#~/helpers/keyMap'
+import { debounceHotKey, scrollIntoCenter } from '#~/helpers/utils'
 
 import GlobalHotKeys from './GlobalHotKeys'
 

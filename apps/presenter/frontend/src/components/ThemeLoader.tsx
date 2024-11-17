@@ -1,7 +1,7 @@
 import defaultTheme from '@presenter/themes/presenter/Day.css?url'
 
-import { API_URL } from '~/helpers/consts'
-import { useStatus } from '~/services/status'
+import { API_URL } from '#~/helpers/consts'
+import { useStatus } from '#~/services/status'
 
 const PRESENTER_THEMES_URL = `${API_URL}/themes/presenter`
 

@@ -1,4 +1,4 @@
-import createUseLocationHistory from '~/hooks/use-location-history'
+import createUseLocationHistory from '#~/hooks/use-location-history'
 
 export const {
   Provider: ControllerLocationHistoryProvider,

@@ -9,6 +9,9 @@
     "lint": "eslint .",
     "test": "vitest"
   },
+  "imports": {
+    "#~/*": "./src/*.ts"
+  },
   "dependencies": {
     "@electron/remote": "^2.1.2",
     "@presenter/contract": "*",

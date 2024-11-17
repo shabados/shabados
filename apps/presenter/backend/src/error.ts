@@ -1,6 +1,6 @@
 import { getLogger } from '@presenter/node'
 
-import ipc from '~/services/ipc'
+import ipc from '#~/services/ipc'
 
 const logger = getLogger( 'error' )
 

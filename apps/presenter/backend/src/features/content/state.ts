@@ -2,7 +2,7 @@ import { Content, Line, ServerEventParameters } from '@presenter/contract'
 import { getLogger, mutableValue, readOnly, subscribable } from '@presenter/node'
 import { first, last } from 'radashi'
 
-import { getBaniLines, getShabad, getShabadByOrderId } from '~/services/database'
+import { getBaniLines, getShabad, getShabadByOrderId } from '#~/services/database'
 
 const log = getLogger( 'content' )
 

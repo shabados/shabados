@@ -4,8 +4,8 @@ import { createLazyFileRoute } from '@tanstack/react-router'
 import classNames from 'classnames'
 import { useContext } from 'react'
 
-import { classifyWords } from '~/helpers/line'
-import { useContent } from '~/services/content'
+import { classifyWords } from '#~/helpers/line'
+import { useContent } from '#~/services/content'
 
 const titlesFuzzy = [
   '<>',

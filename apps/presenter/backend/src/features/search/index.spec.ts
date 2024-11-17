@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { createServer, createSocketClient } from '~/../test/utils/socket'
+import { createServer, createSocketClient } from '#~/../test/utils/socket'
 
 import createSearchModule from '.'
 

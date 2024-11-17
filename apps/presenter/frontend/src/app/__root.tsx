@@ -9,14 +9,14 @@ import { DevTools } from 'jotai-devtools'
 import { SnackbarProvider } from 'notistack'
 import { PureComponent, Suspense } from 'react'
 
-import Loader from '~/components/Loader'
-import { API_URL, isDesktop, isMobile, isTablet } from '~/helpers/consts'
+import Loader from '#~/components/Loader'
+import { API_URL, isDesktop, isMobile, isTablet } from '#~/helpers/consts'
 import {
   HistoryContext,
   RecommendedSourcesContext,
   WritersContext,
-} from '~/helpers/contexts'
-import { store } from '~/services/jotai'
+} from '#~/helpers/contexts'
+import { store } from '#~/services/jotai'
 
 class App extends PureComponent {
   state = {

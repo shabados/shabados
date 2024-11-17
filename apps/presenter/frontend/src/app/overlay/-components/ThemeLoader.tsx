@@ -1,5 +1,5 @@
-import { API_URL } from '~/helpers/consts'
-import { useStatus } from '~/services/status'
+import { API_URL } from '#~/helpers/consts'
+import { useStatus } from '#~/services/status'
 
 const OVERLAY_THEMES_URL = `${API_URL}/themes/overlay`
 

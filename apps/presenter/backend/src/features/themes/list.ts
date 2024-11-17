@@ -3,7 +3,7 @@ import { basename, extname } from 'node:path'
 
 import { USER_OVERLAY_THEMES_FOLDER, USER_PRESENTER_THEMES_FOLDER } from '@presenter/node'
 
-import { OVERLAY_THEMES_FOLDER, PRESENTER_THEMES_FOLDER } from '~/helpers/consts'
+import { OVERLAY_THEMES_FOLDER, PRESENTER_THEMES_FOLDER } from '#~/helpers/consts'
 
 const listCSSFiles = ( path: string ) => readdir( path )
   .then( ( files ) => files.map( extname ).filter( ( extension ) => extension === '.css' ) )

@@ -1,8 +1,8 @@
 import EventEmitter from 'eventemitter3'
 
-import { getNextJumpLine } from '~/helpers/auto-jump'
-import { isDev, isElectron, WS_URL } from '~/helpers/consts'
-import { findLineIndex } from '~/helpers/line'
+import { getNextJumpLine } from '#~/helpers/auto-jump'
+import { isDev, isElectron, WS_URL } from '#~/helpers/consts'
+import { findLineIndex } from '#~/helpers/line'
 
 type ShabadOptions = {
   shabadId?: string,

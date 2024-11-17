@@ -6,8 +6,8 @@ import express, { Router } from 'express'
 import helmet from 'helmet'
 import http from 'http'
 
-import { PORT } from '~/helpers/consts'
-import ipc from '~/services/ipc'
+import { PORT } from '#~/helpers/consts'
+import ipc from '#~/services/ipc'
 
 const log = getLogger( 'express' )
 

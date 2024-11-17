@@ -1,8 +1,8 @@
 import { LOG_FOLDER, USER_OVERLAY_THEMES_FOLDER } from '@presenter/node'
 import open from 'open'
 
-import ipc from '~/services/ipc'
-import { SocketServer } from '~/services/websocket-server'
+import ipc from '#~/services/ipc'
+import { SocketServer } from '#~/services/websocket-server'
 
 type ActionsModuleOptions = {
   socketServer: SocketServer,

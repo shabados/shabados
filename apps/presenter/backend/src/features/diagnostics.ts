@@ -4,10 +4,10 @@ import { join } from 'node:path'
 import { getLogger } from '@presenter/node'
 import type { PackageJson } from 'type-fest'
 
-import { APP_FOLDER, DATABASE_FOLDER } from '~/helpers/consts'
-import { readJSON } from '~/helpers/files'
-import { getNetworkedAddresses } from '~/helpers/network'
-import { ExpressApi } from '~/services/express'
+import { APP_FOLDER, DATABASE_FOLDER } from '#~/helpers/consts'
+import { readJSON } from '#~/helpers/files'
+import { getNetworkedAddresses } from '#~/helpers/network'
+import { ExpressApi } from '#~/services/express'
 
 const log = getLogger( 'diagnostics' )
 

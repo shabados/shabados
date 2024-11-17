@@ -12,12 +12,12 @@ import { createFileRoute } from '@tanstack/react-router'
 import { stripVishraams } from 'gurmukhi-utils'
 import { useContext, useMemo } from 'react'
 
-import { withNavigationHotkeys } from '~/components/NavigationHotkeys'
-import { HISTORY_DOWNLOAD_URL } from '~/helpers/consts'
-import { HistoryContext } from '~/helpers/contexts'
-import { LINE_HOTKEYS } from '~/helpers/keyMap'
-import { setContent } from '~/services/content'
-import controller from '~/services/controller'
+import { withNavigationHotkeys } from '#~/components/NavigationHotkeys'
+import { HISTORY_DOWNLOAD_URL } from '#~/helpers/consts'
+import { HistoryContext } from '#~/helpers/contexts'
+import { LINE_HOTKEYS } from '#~/helpers/keyMap'
+import { setContent } from '#~/services/content'
+import controller from '#~/services/controller'
 
 type HistoryProps = {
   focused?: number,

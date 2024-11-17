@@ -2,8 +2,8 @@ import { faShareSquare } from '@fortawesome/free-regular-svg-icons'
 import { Grid, Typography } from '@mui/material'
 import { createFileRoute } from '@tanstack/react-router'
 
-import { API_URL, isElectron, PORT } from '~/helpers/consts'
-import controller from '~/services/controller'
+import { API_URL, isElectron, PORT } from '#~/helpers/consts'
+import controller from '#~/services/controller'
 
 import CopyButton from '../../-components/CopyButton'
 import DynamicOptions, { IconSlot, OptionGrid, slotSizes } from '../../-components/DynamicOptions'

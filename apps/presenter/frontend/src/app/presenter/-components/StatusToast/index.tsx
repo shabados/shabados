@@ -4,7 +4,7 @@ import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
 
-import { useNotifications } from '~/services/notifications'
+import { useNotifications } from '#~/services/notifications'
 
 const StatusToast = () => {
   const status = useNotifications()

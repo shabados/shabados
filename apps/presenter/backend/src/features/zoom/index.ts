@@ -7,9 +7,9 @@ import { stripVishraams, toUnicode } from 'gurmukhi-utils'
 import { mapValues } from 'radashi'
 import Url from 'url-parse'
 
-import settings from '~/features/settings'
-import fetch from '~/helpers/fetch'
-import { getSources, GetSourcesResult } from '~/services/database'
+import settings from '#~/features/settings'
+import fetch from '#~/helpers/fetch'
+import { getSources, GetSourcesResult } from '#~/services/database'
 
 const prepareSecondary = ( data, sorter ) => Object
   .entries( data )

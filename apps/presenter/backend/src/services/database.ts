@@ -4,7 +4,7 @@ import gurmukhiUtils from 'gurmukhi-utils'
 import { group, last } from 'radashi'
 import type { AsyncReturnType } from 'type-fest'
 
-import { MAX_RESULTS } from '~/helpers/consts'
+import { MAX_RESULTS } from '#~/helpers/consts'
 
 const toJSON = <M extends Model>(
   models: M[]

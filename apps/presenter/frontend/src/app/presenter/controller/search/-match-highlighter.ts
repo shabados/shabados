@@ -1,6 +1,6 @@
 import { firstLetters, stripAccents, stripVishraams, toAscii, toUnicode } from 'gurmukhi-utils'
 
-import { SEARCH_TYPES } from '~/helpers/consts'
+import { SEARCH_TYPES } from '#~/helpers/consts'
 
 type MatchOptions = {
   gurmukhi: string,

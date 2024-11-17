@@ -2,7 +2,7 @@ import { createFileRoute, redirect } from '@tanstack/react-router'
 import { zodSearchValidator } from '@tanstack/router-zod-adapter'
 import { z } from 'zod'
 
-import { isMobile } from '~/helpers/consts'
+import { isMobile } from '#~/helpers/consts'
 
 export const Route = createFileRoute( '/presenter' )( {
   beforeLoad: () => {

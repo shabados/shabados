@@ -1,6 +1,6 @@
-import { HistoryModule } from '~/features/history'
-import { ExpressApi } from '~/services/express'
-import { SocketServer } from '~/services/websocket-server'
+import { HistoryModule } from '#~/features/history'
+import { ExpressApi } from '#~/services/express'
+import { SocketServer } from '#~/services/websocket-server'
 
 import createApi from './api'
 import createState from './state'

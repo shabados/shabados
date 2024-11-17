@@ -8,10 +8,10 @@ import importFresh from 'import-fresh'
 import pacote from 'pacote'
 import type { PackageJson } from 'type-fest'
 
-import { dependencies } from '~/../package.json'
-import { DATABASE_FOLDER } from '~/helpers/consts'
-import { readJSON } from '~/helpers/files'
+import { DATABASE_FOLDER } from '#~/helpers/consts'
+import { readJSON } from '#~/helpers/files'
 
+import { dependencies } from '../../package.json'
 import { GlobalSettings } from './global-settings'
 import ipc from './ipc'
 

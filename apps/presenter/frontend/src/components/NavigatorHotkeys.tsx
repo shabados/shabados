@@ -1,13 +1,13 @@
 import { noop } from 'radashi'
 import { useCallback, useContext, useEffect } from 'react'
 
-import { getJumpLines } from '~/helpers/auto-jump'
-import { HistoryContext } from '~/helpers/contexts'
-import { LINE_HOTKEYS, NAVIGATOR_SHORTCUTS } from '~/helpers/keyMap'
-import { useWindowFocus } from '~/hooks'
-import { setLine, setNextContent, setPreviousContent, useContent } from '~/services/content'
-import controller from '~/services/controller'
-import { useLocalSettings } from '~/services/settings'
+import { getJumpLines } from '#~/helpers/auto-jump'
+import { HistoryContext } from '#~/helpers/contexts'
+import { LINE_HOTKEYS, NAVIGATOR_SHORTCUTS } from '#~/helpers/keyMap'
+import { useWindowFocus } from '#~/hooks'
+import { setLine, setNextContent, setPreviousContent, useContent } from '#~/services/content'
+import controller from '#~/services/controller'
+import { useLocalSettings } from '#~/services/settings'
 
 import GlobalHotKeys from './GlobalHotKeys'
 

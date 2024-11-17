@@ -1,6 +1,6 @@
-import { GlobalSettings } from '~/services/global-settings'
-import { Updater } from '~/services/updater'
-import { SocketServer } from '~/services/websocket-server'
+import { GlobalSettings } from '#~/services/global-settings'
+import { Updater } from '#~/services/updater'
+import { SocketServer } from '#~/services/websocket-server'
 
 import createStatusState from './state'
 

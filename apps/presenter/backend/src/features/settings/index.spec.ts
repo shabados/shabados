@@ -2,13 +2,13 @@ import { SETTINGS_FILE } from '@presenter/node'
 import { describe, expect, it, vi } from 'vitest'
 import waitForExpect from 'wait-for-expect'
 
-import { createServer, createSocketClient } from '~/../test/utils/socket'
-import { writeJSON } from '~/helpers/files'
-import createGlobalSettings from '~/services/global-settings'
+import { createServer, createSocketClient } from '#~/../test/utils/socket'
+import { writeJSON } from '#~/helpers/files'
+import createGlobalSettings from '#~/services/global-settings'
 
 import createSettingsModule from '.'
 
-vi.mock( '~/helpers/files' )
+vi.mock( '#~/helpers/files' )
 
 const setup = () => {
   const { httpServer, socketServer } = createServer()

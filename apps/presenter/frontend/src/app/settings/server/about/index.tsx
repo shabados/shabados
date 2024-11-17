@@ -3,9 +3,9 @@ import './index.css'
 import { CircularProgress, Grid, List, ListItem, Typography } from '@mui/material'
 import { createFileRoute } from '@tanstack/react-router'
 
-import Loader from '~/components/Loader'
-import { API_URL, isElectron, PORT } from '~/helpers/consts'
-import controller from '~/services/controller'
+import Loader from '#~/components/Loader'
+import { API_URL, isElectron, PORT } from '#~/helpers/consts'
+import controller from '#~/services/controller'
 
 import CopyButton from '../../-components/CopyButton'
 import { Button } from '../../-components/SettingsComponents'

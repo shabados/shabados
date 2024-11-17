@@ -2,11 +2,11 @@ import { ListItem } from '@mui/material'
 import classNames from 'classnames'
 import { forwardRef, useContext } from 'react'
 
-import { RecommendedSourcesContext, WritersContext } from '~/helpers/contexts'
-import { LANGUAGE_NAMES, SOURCE_ABBREVIATIONS, TRANSLITERATORS } from '~/helpers/data'
-import { customiseLine, getTranslation } from '~/helpers/line'
-import { setContent } from '~/services/content'
-import { useLocalSettings } from '~/services/settings'
+import { RecommendedSourcesContext, WritersContext } from '#~/helpers/contexts'
+import { LANGUAGE_NAMES, SOURCE_ABBREVIATIONS, TRANSLITERATORS } from '#~/helpers/data'
+import { customiseLine, getTranslation } from '#~/helpers/line'
+import { setContent } from '#~/services/content'
+import { useLocalSettings } from '#~/services/settings'
 
 type ResultProps = {
   gurmukhi: string,

@@ -3,7 +3,7 @@ import { ReactNode } from 'react'
 import { configure, GlobalHotKeys as HotKeys } from 'react-hotkeys/es'
 import KeyEventManager from 'react-hotkeys/es/lib/KeyEventManager'
 
-import { KeyMap, mapPlatformKeys } from '~/helpers/utils'
+import { KeyMap, mapPlatformKeys } from '#~/helpers/utils'
 
 /**
  * React hotkeys activates `g g` twice when pressing `g g g`,

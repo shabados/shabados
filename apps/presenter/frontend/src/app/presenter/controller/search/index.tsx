@@ -7,15 +7,15 @@ import { createFileRoute, useNavigate } from '@tanstack/react-router'
 import classNames from 'classnames'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
-import { withNavigationHotkeys } from '~/components/NavigationHotkeys'
+import { withNavigationHotkeys } from '#~/components/NavigationHotkeys'
 import {
   MIN_SEARCH_CHARS,
   SEARCH_ANCHORS,
   SEARCH_CHARS,
   SEARCH_TYPES,
-} from '~/helpers/consts'
-import { search, useSearchResults } from '~/services/search'
-import { useLocalSettings } from '~/services/settings'
+} from '#~/helpers/consts'
+import { search, useSearchResults } from '#~/services/search'
+import { useLocalSettings } from '#~/services/settings'
 
 import Result from './-components/Result'
 import getHighlighter from './-match-highlighter'

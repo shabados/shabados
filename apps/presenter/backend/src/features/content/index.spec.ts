@@ -5,9 +5,9 @@ import express from 'express'
 import { first, last } from 'radashi'
 import { describe, expect, it } from 'vitest'
 
-import { fetchApi } from '~/../test/utils/fetch'
-import { createServer, createSocketClient, SocketClient } from '~/../test/utils/socket'
-import createHistoryModule from '~/features/history'
+import { fetchApi } from '#~/../test/utils/fetch'
+import { createServer, createSocketClient, SocketClient } from '#~/../test/utils/socket'
+import createHistoryModule from '#~/features/history'
 
 import createContentModule from '.'
 

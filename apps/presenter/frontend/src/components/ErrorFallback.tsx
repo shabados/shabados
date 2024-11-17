@@ -3,8 +3,8 @@ import './ErrorFallback.css'
 import { Button, Grid, Typography } from '@mui/material'
 import { Component, ComponentType, useEffect, useState } from 'react'
 
-import { isDev } from '~/helpers/consts'
-import controller from '~/services/controller'
+import { isDev } from '#~/helpers/consts'
+import controller from '#~/services/controller'
 
 const RELOAD_COUNTDOWN = 10 // 10 second countdown before automatic reload
 

@@ -2,9 +2,9 @@ import { ensureAppFolders } from '@presenter/node'
 import { EventEmitter } from 'eventemitter3'
 import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { createServer, createSocketClient } from '~/../test/utils/socket'
-import createGlobalSettings from '~/services/global-settings'
-import { UpdateEvent, Updater } from '~/services/updater'
+import { createServer, createSocketClient } from '#~/../test/utils/socket'
+import createGlobalSettings from '#~/services/global-settings'
+import { UpdateEvent, Updater } from '#~/services/updater'
 
 import createStatusModule from '.'
 

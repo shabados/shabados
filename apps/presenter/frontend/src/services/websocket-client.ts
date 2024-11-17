@@ -4,7 +4,7 @@ import EventEmitter from 'eventemitter3'
 import { atom, WritableAtom } from 'jotai'
 import { WebSocket } from 'partysocket'
 
-import { BASE_URL } from '~/helpers/consts'
+import { BASE_URL } from '#~/helpers/consts'
 
 import { store } from './jotai'
 

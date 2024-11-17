@@ -1,5 +1,5 @@
-import { getBanis } from '~/services/database'
-import { SocketServer } from '~/services/websocket-server'
+import { getBanis } from '#~/services/database'
+import { SocketServer } from '#~/services/websocket-server'
 
 type BookmarksModuleOptions = {
   socketServer: SocketServer,

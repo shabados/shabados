@@ -4,9 +4,6 @@
     "baseUrl": ".",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "jsx": "react-jsx",
-    "paths": {
-      "~/*": ["src/*"]
-    }
   },
   "references": [{ "path": "./tsconfig.node.json" }]
 }

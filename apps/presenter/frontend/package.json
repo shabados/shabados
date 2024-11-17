@@ -13,6 +13,9 @@
     "test": "vitest",
     "test:ui": "vitest --ui"
   },
+  "imports": {
+    "#~/*": "./src/*.ts"
+  },
   "exports": "./build",
   "author": "Shabad OS Team <team@shabados.com>",
   "license": "GPL-3.0",
@@ -43,7 +46,7 @@
     "gurmukhi-utils": "^3.2.2",
     "is-mobile": "^3.1.1",
     "jotai": "^2.10.1",
-    "jotai-dekvtools": "^0.10.1",
+    "jotai-devtools": "^0.10.1",
     "memoizee": "^0.4.17",
     "notistack": "^3.0.1",
     "partysocket": "^1.0.2",

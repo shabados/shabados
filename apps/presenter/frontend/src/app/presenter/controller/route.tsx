@@ -19,10 +19,10 @@ import classNames from 'classnames'
 import { useEffect, useState } from 'react'
 import { z } from 'zod'
 
-import { usePrevious } from '~/hooks'
-import { useNavigateUtils } from '~/hooks/navigate'
-import { clearLine, useContent } from '~/services/content'
-import { useLocalSettings } from '~/services/settings'
+import { usePrevious } from '#~/hooks'
+import { useNavigateUtils } from '#~/hooks/navigate'
+import { clearLine, useContent } from '#~/services/content'
+import { useLocalSettings } from '#~/services/settings'
 
 import ToolbarButton from './-components/ToolbarButton'
 

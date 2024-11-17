@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Grid, Typography } from '@mui/material'
 import { ClientSettings, Settings } from '@presenter/contract'
 
-import { CLIENT_OPTIONS, FLAT_OPTION_GROUPS } from '~/helpers/options'
-import controller from '~/services/controller'
-import { useClientsSettings, useLocalSettings } from '~/services/settings'
+import { CLIENT_OPTIONS, FLAT_OPTION_GROUPS } from '#~/helpers/options'
+import controller from '#~/services/controller'
+import { useClientsSettings, useLocalSettings } from '#~/services/settings'
 
 import SettingComponentFactory, { Button } from './SettingsComponents'
 

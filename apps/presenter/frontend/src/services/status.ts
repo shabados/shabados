@@ -1,7 +1,7 @@
 import { atom, useAtomValue } from 'jotai'
 
-import { store } from '~/services/jotai'
-import websocketClient from '~/services/websocket-client'
+import { store } from '#~/services/jotai'
+import websocketClient from '#~/services/websocket-client'
 
 const connectedAtom = atom( false )
 

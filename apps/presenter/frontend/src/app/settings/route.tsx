@@ -26,10 +26,10 @@ import { createFileRoute, Link, Outlet, ToOptions, useLocation } from '@tanstack
 import classNames from 'classnames'
 import { Fragment, useEffect, useState } from 'react'
 
-import { withErrorFallback } from '~/components/ErrorFallback'
-import ThemeLoader from '~/components/ThemeLoader'
-import { FLAT_OPTION_GROUPS, OPTION_GROUPS } from '~/helpers/options'
-import { useClientsSettings, useGlobalSettings, useLocalSettings } from '~/services/settings'
+import { withErrorFallback } from '#~/components/ErrorFallback'
+import ThemeLoader from '#~/components/ThemeLoader'
+import { FLAT_OPTION_GROUPS, OPTION_GROUPS } from '#~/helpers/options'
+import { useClientsSettings, useGlobalSettings, useLocalSettings } from '#~/services/settings'
 
 type ItemProps = {
   name: string,

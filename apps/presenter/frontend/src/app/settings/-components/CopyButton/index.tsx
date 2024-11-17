@@ -5,7 +5,7 @@ import classNames from 'classnames'
 import { noop } from 'radashi'
 import { ReactNode } from 'react'
 
-import { useCopyToClipboard } from '~/hooks'
+import { useCopyToClipboard } from '#~/hooks'
 
 type CopyButtonProps = {
   className?: string,

@@ -2,7 +2,7 @@ import './index.css'
 
 import classNames from 'classnames'
 
-import controller from '~/services/controller'
+import controller from '#~/services/controller'
 
 import { Button } from '../SettingsComponents'
 

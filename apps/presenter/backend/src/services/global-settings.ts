@@ -4,7 +4,7 @@ import { definitions, getDefaults, migrate, parse } from '@presenter/schemas'
 import { merge } from '@presenter/swiss-knife'
 import type { PartialDeep, ReadonlyDeep } from 'type-fest'
 
-import { readJSON, writeJSON } from '~/helpers/files'
+import { readJSON, writeJSON } from '#~/helpers/files'
 
 const log = getLogger( 'server-settings' )
 

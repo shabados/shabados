@@ -12,9 +12,9 @@ import {
   Translations,
   TRANSLITERATION_ORDER,
   Transliterators,
-} from '~/helpers/data'
-import { classifyWords, partitionLine, sortBy } from '~/helpers/line'
-import { useLocalSettings } from '~/services/settings'
+} from '#~/helpers/data'
+import { classifyWords, partitionLine, sortBy } from '#~/helpers/line'
+import { useLocalSettings } from '#~/services/settings'
 
 type LineProps = {
   className?: string,

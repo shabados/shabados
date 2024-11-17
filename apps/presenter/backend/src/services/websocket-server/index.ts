@@ -7,7 +7,7 @@ import { getLogger } from '@presenter/node'
 import { decode, encode, setHas } from '@presenter/swiss-knife'
 import { WebSocket, WebSocketServer } from 'ws'
 
-import { getHost } from '~/helpers/network'
+import { getHost } from '#~/helpers/network'
 
 const KEEP_ALIVE_INTERVAL = 1000 * 30
 

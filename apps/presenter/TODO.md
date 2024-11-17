@@ -15,7 +15,7 @@
 - [x] Schema validation + default with valibot
 - [ ] Use invariant in state handlers + other places
 - [ ] Get rid of /writers endpoint and send that data along with relevant responses
-- [ ] Switch to node subpath imports
+- [x] Switch to node subpath imports
 
 ## Schemas
 

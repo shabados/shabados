@@ -3,7 +3,7 @@ import { mutableValue, readOnly, subscribable } from '@presenter/node'
 import { merge } from '@presenter/swiss-knife'
 import { omit, pick } from 'radashi'
 
-import { GlobalSettings } from '~/services/global-settings'
+import { GlobalSettings } from '#~/services/global-settings'
 
 type SettingsStateOptions = {
   globalSettings: GlobalSettings,

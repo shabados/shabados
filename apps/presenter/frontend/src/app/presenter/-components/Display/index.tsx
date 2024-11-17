@@ -3,11 +3,11 @@ import './index.css'
 import classNames from 'classnames'
 import { mapValues, sift } from 'radashi'
 
-import { LANGUAGES } from '~/helpers/data'
-import { customiseLine, getTransliterators } from '~/helpers/line'
-import { useTranslations } from '~/hooks'
-import { useContent } from '~/services/content'
-import { useLocalSettings } from '~/services/settings'
+import { LANGUAGES } from '#~/helpers/data'
+import { customiseLine, getTransliterators } from '#~/helpers/line'
+import { useTranslations } from '#~/hooks'
+import { useContent } from '#~/services/content'
+import { useLocalSettings } from '#~/services/settings'
 
 import Line from '../Line'
 

@@ -6,8 +6,8 @@ import { atom, useAtom } from 'jotai'
 import { tryit } from 'radashi'
 import { PartialDeep } from 'type-fest'
 
-import { store } from '~/services/jotai'
-import websocketClient from '~/services/websocket-client'
+import { store } from '#~/services/jotai'
+import websocketClient from '#~/services/websocket-client'
 
 const writeSettings = ( settings: ClientSettings ) => {
   localStorage.setItem(

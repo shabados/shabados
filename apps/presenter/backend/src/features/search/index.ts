@@ -1,7 +1,7 @@
 import { SearchQuery } from '@presenter/contract'
 
-import { firstLetterSearch, fullWordSearch } from '~/services/database'
-import { SocketServer } from '~/services/websocket-server'
+import { firstLetterSearch, fullWordSearch } from '#~/services/database'
+import { SocketServer } from '#~/services/websocket-server'
 
 const searchHandlers = {
   'first-letter': firstLetterSearch,

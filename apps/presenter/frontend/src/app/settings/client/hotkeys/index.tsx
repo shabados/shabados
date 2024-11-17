@@ -8,9 +8,9 @@ import classNames from 'classnames'
 import { group } from 'radashi'
 import { useState } from 'react'
 
-import keyMap from '~/helpers/keyMap'
-import { mapPlatformKeys } from '~/helpers/utils'
-import controller from '~/services/controller'
+import keyMap from '#~/helpers/keyMap'
+import { mapPlatformKeys } from '#~/helpers/utils'
+import controller from '#~/services/controller'
 
 import { ResetButton } from '../../-components/DynamicOptions'
 import AddHotkeyDialog from './-components/AddHotkeyDialog'
