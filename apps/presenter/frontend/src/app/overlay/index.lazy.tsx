@@ -15,7 +15,7 @@ import ThemeLoader from './-components/ThemeLoader'
 const Overlay = () => {
   const { connected } = useStatus()
 
-  const [ { overlay: { name, ...overlay, lineEnding } } ] = useGlobalSettings()
+  const [ { overlay: { name, lineEnding, ...overlay } } ] = useGlobalSettings()
 
   const { line } = useContent()
   const { typeId } = line
