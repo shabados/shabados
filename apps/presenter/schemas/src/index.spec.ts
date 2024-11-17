@@ -1,8 +1,9 @@
 import { array, number, object, string } from 'valibot'
 import { describe, expect, it } from 'vitest'
 
-import { migrate } from './migrate'
-import { defineSchema } from './schema'
+import { definitions } from '.'
+import { getDefaults, migrate } from './migrate'
+import { defineSchema, SchemaDefinition, SchemaType } from './schema'
 
 describe( 'migrate', () => {
   describe( 'when the schema version is the same as the data version', () => {
@@ -131,5 +132,17 @@ describe( 'migrate', () => {
         age: currentYear - 1990,
       } )
     } )
+  } )
+} )
+
+describe.each( Object.entries( definitions ) )( 'definition: %s', ( _, definition ) => {
+  it( `should migrate data from version 0 to version ${definition.version} without throwing`, () => {
+    const v0 = getDefaults( definition.schema )
+
+    expect( () => migrate(
+      definition as unknown as SchemaDefinition<SchemaType, SchemaType>,
+      v0,
+      0
+    ) ).not.toThrow()
   } )
 } )
