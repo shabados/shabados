@@ -4,7 +4,8 @@
   "type": "module",
   "exports": "./src/index.ts",
   "imports": {
-    "#~/*": "./src/*.ts"
+    "#~/*": "./src/*",
+    "#test/*": "./test/*"
   },
   "scripts": {
     "lint": "eslint .",

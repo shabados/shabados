@@ -1,6 +1,7 @@
-import { createServer, createSocketClient } from 'test/utils/socket'
-import { flushPromises } from 'test/utils/tasks'
 import { describe, expect, it } from 'vitest'
+
+import { createServer, createSocketClient } from '#test/utils/socket'
+import { flushPromises } from '#test/utils/tasks'
 
 describe( 'Socket Server', () => {
   describe( 'json', () => {

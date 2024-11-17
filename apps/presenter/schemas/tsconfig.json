@@ -1,3 +1,6 @@
 {
-  "extends": "@presenter/tsconfig"
+  "extends": "@presenter/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "."
+  }
 }

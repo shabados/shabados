@@ -9,5 +9,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "sourceMap": true,
+    "paths": {
+      "#~/*": ["./src/*"],
+      "#test/*": ["./test/*"]
+    }
   }
 }

@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "jsx": "react-jsx",
+    "jsx": "react-jsx"
   },
   "references": [{ "path": "./tsconfig.node.json" }]
 }

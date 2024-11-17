@@ -14,7 +14,8 @@
     "test:ui": "vitest --ui"
   },
   "imports": {
-    "#~/*": "./src/*.ts"
+    "#~/*": "./src/*",
+    "#test/*": "./test/*"
   },
   "exports": "./build",
   "author": "Shabad OS Team <team@shabados.com>",

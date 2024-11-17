@@ -10,7 +10,8 @@
     "test": "vitest"
   },
   "imports": {
-    "#~/*": "./src/*.ts"
+    "#~/*": "./src/*",
+    "#test/*": "./test/*"
   },
   "dependencies": {
     "@electron/remote": "^2.1.2",
