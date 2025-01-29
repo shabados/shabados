@@ -236,7 +236,7 @@ code {
     monospace;
   font-size: 0.9em;
   background-color: var(--toner);
-  padding: 0.2em 0.4em;
+  padding: 0em 0.4em;
   border-radius: 0.5em;
   white-space: break-spaces;
 }

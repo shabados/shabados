@@ -26,9 +26,11 @@ export const useLineGroupsApi = routeLoader$(async (requestEvent) => {
   };
 
   if (lineGroups !== undefined) {
+    console.log(requestEvent.query);
     return {
       linegroups: requestEvent.params.id,
       date: requestEvent.query.get('date') || undefined,
+      qr: requestEvent.query.get('qr') || undefined,
       data: await Promise.all(lineGroups.map(fetchLineGroups)),
     };
   } else return {};
@@ -125,7 +127,9 @@ export default component$(() => {
   });
   return (
     <>
-      <div class='qrcode' dangerouslySetInnerHTML={svg} />
+      {!(signal.value.qr && parseInt(signal.value.qr) == 0) && (
+        <div class='qrcode' dangerouslySetInnerHTML={svg} />
+      )}
       <div class='header'>
         <div class='line'>
           <p>
