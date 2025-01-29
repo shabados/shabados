@@ -46,6 +46,7 @@
     "vite-tsconfig-paths": "^4.2.0"
   },
   "dependencies": {
-    "firebase": "^10.6.0"
+    "firebase": "^10.6.0",
+    "uqr": "^0.1.2"
   }
 }

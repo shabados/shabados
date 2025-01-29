@@ -1,0 +1,32 @@
+.bold {
+  opacity: 1;
+  font-size: 1.75em;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.first {
+  margin-top: 1.5rem;
+}
+
+.title {
+  font-size: 2.1875em;
+  font-weight: 500;
+  line-height: 1.28;
+}
+
+.heavy {
+  color: var(--heavy-vishraam);
+}
+
+.medium {
+  color: var(--medium-vishraam);
+}
+
+.light {
+  color: var(--light-vishraam);
+}
+
+.notes {
+  color: var(--ui);
+}

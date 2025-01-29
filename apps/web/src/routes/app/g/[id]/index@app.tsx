@@ -18,11 +18,17 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 };
 
 export const useLineGroupsApi = routeLoader$(async (requestEvent) => {
-  const res = await fetch(
-    `https://shabados.com/api/g/${requestEvent.params.id}`,
-  );
-  const data = await res.json();
-  return data;
+  const lineGroups = requestEvent.params.id.split(',');
+
+  const fetchLineGroups = async (id: string) => {
+    return fetch(`https://shabados.com/api/g/${id}`).then((res) => res.json());
+  };
+
+  if (lineGroups !== undefined) {
+    return {
+      data: await Promise.all(lineGroups.map(fetchLineGroups)),
+    };
+  } else return {};
 });
 
 interface DataSrcType {
@@ -44,29 +50,33 @@ interface DataProps {
 
 export default component$(() => {
   const signal = useLineGroupsApi();
-  const defaultSource = signal.value.meta.sources[0];
+  const res = signal.value.data!;
+  console.log(res);
+  const defaultSource = res[0].meta.sources[0];
   return (
     <article>
-      {signal.value.data.default.src.map(
-        ({ src, pronunciations, translations }: DataProps) => (
-          <Line
-            key={1}
-            id={1}
-            src={src.data}
-            translation={translations?.en || ''}
-            pronunciation={pronunciations?.Latn || ''}
-          />
+      {res.map((value) =>
+        value.data.default.src.map(
+          ({ src, pronunciations, translations }: DataProps) => (
+            <Line
+              key={1}
+              id={1}
+              src={src.data}
+              translation={translations?.en || ''}
+              pronunciation={pronunciations?.Latn || ''}
+            />
+          ),
         ),
       )}
-      {signal.value.data[defaultSource].paging && (
+      {res.length == 1 && res[0].data[defaultSource].paging && (
         <BottomBar
           prevLink={
-            signal.value.data[defaultSource].paging.previous &&
-            `/app/g/${signal.value.data[defaultSource].paging.previous}`
+            res[0].data[defaultSource].paging.previous &&
+            `/app/g/${res[0].data[defaultSource].paging.previous}`
           }
           nextLink={
-            signal.value.data[defaultSource].paging.next &&
-            `/app/g/${signal.value.data[defaultSource].paging.next}`
+            res[0].data[defaultSource].paging.next &&
+            `/app/g/${res[0].data[defaultSource].paging.next}`
           }
         />
       )}
