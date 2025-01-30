@@ -20,13 +20,29 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 export const useLineGroupsApi = routeLoader$(async (requestEvent) => {
   const lineGroups = requestEvent.params.id.split(',');
 
+  const bani = requestEvent.query.get('bani');
+  const pagination = { next: null, prev: null };
+  console.log(bani);
+  if (bani) {
+    const res = await fetch('https://shabados.com/api/bani');
+    const baniData = await res.json();
+    const index = baniData[bani].findIndex(
+      (element: string) => element === decodeURI(requestEvent.params.id),
+    );
+    pagination.next = baniData[bani][index + 1] || null;
+    pagination.prev = baniData[bani][index - 1] || null;
+  }
+
   const fetchLineGroups = async (id: string) => {
     return fetch(`https://shabados.com/api/g/${id}`).then((res) => res.json());
   };
 
   if (lineGroups !== undefined) {
     return {
+      bani,
       data: await Promise.all(lineGroups.map(fetchLineGroups)),
+      next: pagination.next || undefined,
+      prev: pagination.prev || undefined,
     };
   } else return {};
 });
@@ -51,8 +67,10 @@ interface DataProps {
 export default component$(() => {
   const signal = useLineGroupsApi();
   const res = signal.value.data!;
-  console.log(res);
+  console.log(signal);
   const defaultSource = res[0].meta.sources[0];
+  const showPagination =
+    res.length == 1 || signal.value.next || signal.value.prev;
   return (
     <article>
       {res.map((value) =>
@@ -68,15 +86,21 @@ export default component$(() => {
           ),
         ),
       )}
-      {res.length == 1 && res[0].data[defaultSource].paging && (
+      {showPagination && (
         <BottomBar
           prevLink={
-            res[0].data[defaultSource].paging.previous &&
-            `/app/g/${res[0].data[defaultSource].paging.previous}`
+            (signal.value.prev &&
+              `/app/g/${signal.value.prev}?bani=sukhmani-sahib`) ||
+            (res.length == 1 &&
+              res[0].data[defaultSource].paging.previous &&
+              `/app/g/${res[0].data[defaultSource].paging.previous}`)
           }
           nextLink={
-            res[0].data[defaultSource].paging.next &&
-            `/app/g/${res[0].data[defaultSource].paging.next}`
+            (signal.value.next &&
+              `/app/g/${signal.value.next}?bani=sukhmani-sahib`) ||
+            (res.length == 1 &&
+              res[0].data[defaultSource].paging.next &&
+              `/app/g/${res[0].data[defaultSource].paging.next}`)
           }
         />
       )}

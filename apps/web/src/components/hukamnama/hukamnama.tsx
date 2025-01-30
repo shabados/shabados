@@ -56,6 +56,7 @@ export default component$(({ data }: any) => {
     'ਪਉੜੀ॥',
     'ਪਉੜੀ ॥',
     'ਆਸਾ ॥',
+    'ਅਸਟਪਦੀ ॥',
     // add screensaver / slideshow values here
     'ਵਾਹਿਗੁਰੂ',
     'ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ; ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਿਹ',

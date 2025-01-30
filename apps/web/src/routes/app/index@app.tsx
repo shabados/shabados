@@ -141,7 +141,7 @@ export default component$(() => {
           <div class='cards'>
             <a class='card' href='/app/asa-ki-var/1'>
               <p>
-                <b>ਛੱਕਾ 1</b>
+                <b>ਛੱਕਾ ੧</b>
               </p>
               <p class='small'>
                 <i>chakkā 1</i>
@@ -149,7 +149,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/2'>
               <p>
-                <b>ਛੱਕਾ 2</b>
+                <b>ਛੱਕਾ ੨</b>
               </p>
               <p class='small'>
                 <i>chakkā 2</i>
@@ -157,7 +157,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/3'>
               <p>
-                <b>ਛੱਕਾ 3</b>
+                <b>ਛੱਕਾ ੩</b>
               </p>
               <p class='small'>
                 <i>chakkā 3</i>
@@ -165,7 +165,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/4'>
               <p>
-                <b>ਛੱਕਾ 4</b>
+                <b>ਛੱਕਾ ੪</b>
               </p>
               <p class='small'>
                 <i>chakkā 4</i>
@@ -173,7 +173,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/5'>
               <p>
-                <b>ਛੱਕਾ 5</b>
+                <b>ਛੱਕਾ ੫</b>
               </p>
               <p class='small'>
                 <i>chakkā 5</i>
@@ -181,7 +181,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/6'>
               <p>
-                <b>ਛੱਕਾ 6</b>
+                <b>ਛੱਕਾ ੬</b>
               </p>
               <p class='small'>
                 <i>chakkā 6</i>
@@ -189,7 +189,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/7'>
               <p>
-                <b>ਛੱਕਾ 7</b>
+                <b>ਛੱਕਾ ੭</b>
               </p>
               <p class='small'>
                 <i>chakkā 7</i>
@@ -197,7 +197,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/8'>
               <p>
-                <b>ਛੱਕਾ 8</b>
+                <b>ਛੱਕਾ ੮</b>
               </p>
               <p class='small'>
                 <i>chakkā 8</i>
@@ -205,7 +205,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/9'>
               <p>
-                <b>ਛੱਕਾ 9</b>
+                <b>ਛੱਕਾ ੯</b>
               </p>
               <p class='small'>
                 <i>chakkā 9</i>
@@ -213,7 +213,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/10'>
               <p>
-                <b>ਛੱਕਾ 10</b>
+                <b>ਛੱਕਾ ੧੦</b>
               </p>
               <p class='small'>
                 <i>chakkā 10</i>
@@ -221,7 +221,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/11'>
               <p>
-                <b>ਛੱਕਾ 11</b>
+                <b>ਛੱਕਾ ੧੧</b>
               </p>
               <p class='small'>
                 <i>chakkā 11</i>
@@ -229,7 +229,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/12'>
               <p>
-                <b>ਛੱਕਾ 12</b>
+                <b>ਛੱਕਾ ੧੨</b>
               </p>
               <p class='small'>
                 <i>chakkā 12</i>
@@ -237,7 +237,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/13'>
               <p>
-                <b>ਛੱਕਾ 13</b>
+                <b>ਛੱਕਾ ੧੩</b>
               </p>
               <p class='small'>
                 <i>chakkā 13</i>
@@ -245,7 +245,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/14'>
               <p>
-                <b>ਛੱਕਾ 14</b>
+                <b>ਛੱਕਾ ੧੪</b>
               </p>
               <p class='small'>
                 <i>chakkā 14</i>
@@ -253,7 +253,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/15'>
               <p>
-                <b>ਛੱਕਾ 15</b>
+                <b>ਛੱਕਾ ੧੫</b>
               </p>
               <p class='small'>
                 <i>chakkā 15</i>
@@ -261,7 +261,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/16'>
               <p>
-                <b>ਛੱਕਾ 16</b>
+                <b>ਛੱਕਾ ੧੬</b>
               </p>
               <p class='small'>
                 <i>chakkā 16</i>
@@ -269,7 +269,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/17'>
               <p>
-                <b>ਛੱਕਾ 17</b>
+                <b>ਛੱਕਾ ੧੭</b>
               </p>
               <p class='small'>
                 <i>chakkā 17</i>
@@ -277,7 +277,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/18'>
               <p>
-                <b>ਛੱਕਾ 18</b>
+                <b>ਛੱਕਾ ੧੮</b>
               </p>
               <p class='small'>
                 <i>chakkā 18</i>
@@ -285,7 +285,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/19'>
               <p>
-                <b>ਛੱਕਾ 19</b>
+                <b>ਛੱਕਾ ੧੯</b>
               </p>
               <p class='small'>
                 <i>chakkā 19</i>
@@ -293,7 +293,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/20'>
               <p>
-                <b>ਛੱਕਾ 20</b>
+                <b>ਛੱਕਾ ੨੦</b>
               </p>
               <p class='small'>
                 <i>chakkā 20</i>
@@ -301,7 +301,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/21'>
               <p>
-                <b>ਛੱਕਾ 21</b>
+                <b>ਛੱਕਾ ੨੧</b>
               </p>
               <p class='small'>
                 <i>chakkā 21</i>
@@ -309,7 +309,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/22'>
               <p>
-                <b>ਛੱਕਾ 22</b>
+                <b>ਛੱਕਾ ੨੨</b>
               </p>
               <p class='small'>
                 <i>chakkā 22</i>
@@ -317,7 +317,7 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/23'>
               <p>
-                <b>ਛੱਕਾ 23</b>
+                <b>ਛੱਕਾ ੨੩</b>
               </p>
               <p class='small'>
                 <i>chakkā 23</i>
@@ -325,13 +325,283 @@ export default component$(() => {
             </a>
             <a class='card' href='/app/asa-ki-var/24'>
               <p>
-                <b>ਛੱਕਾ 24</b>
+                <b>ਛੱਕਾ ੨੪</b>
               </p>
               <p class='small'>
                 <i>chakkā 24</i>
               </p>
             </a>
           </div>
+        </div>
+      </div>
+
+      <div class='carousel'>
+        <h2 class='carousel__title'>ਸੁਖਮਨੀ ਸਾਹਿਬ</h2>
+        <div class='cards'>
+          <a
+            class='card'
+            href='/app/g/J9V,45C,ULS,L6T,H4B,SE7,K7X,1US,TF7?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੧</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 1</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/NF2,1MA,SFU,T0Y,B41,B7C,134,CYM,203?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੨</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 2</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/KJL,GH5,2K2,JTS,LWT,Y5K,31D,MTW,N03?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੩</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 3</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/BQV,N8F,4AY,234,DCL,9RE,1XQ,LG4,FNM?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੪</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 4</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/3RK,V9T,7HP,FEC,AZT,AFT,DQX,74F,BKY?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੫</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 5</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/9JH,HPD,K5M,CPG,RL2,2TM,HXF,AG4,FQA?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੬</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 6</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/44E,ZJ4,JUG,KA7,MC8,CT2,CKH,GPX,EEW?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੭</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 7</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/XWW,F5A,2AT,FJV,E5M,FN8,5TY,Q0G,LEB?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੮</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 8</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/8NQ,DC7,34F,74B,0KE,C1A,6VR,6GA,38G?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੯</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 9</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/YCP,51F,DC0,S6T,21R,B56,7CW,8LX,1RM?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੧੦</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 10</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/EXR,1G1,QYL,3UK,5MP,EVF,KZ9,145,W3K?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੧੧</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 11</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/V0T,X3L,NLN,VF0,E2G,HQ8,X3Z,7B6,LCF?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੧੨</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 12</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/HY9,3D5,US1,1SX,NGH,L8Q,A9J,L3Z,D6S?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੧੩</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 13</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/AS9,E75,B91,HJ0,GBE,0PM,427,FAE,8RL?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੧੪</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 14</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/BJU,DN9,1NJ,3VX,A0H,KAM,JWW,14D,9GB?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੧੫</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 15</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/BU7,FU9,NKQ,DAJ,FR3,14Y,HGR,1XZ,C8C?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੧੬</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 16</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/K7M,HG7,5WT,7RW,VD9,H67,7MR,F8J,978?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੧੭</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 17</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/5ZP,5X9,Q1Z,9GN,GA2,4P9,FJ4,D90,D4Y?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੧੮</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 18</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/H70,C0F,ZXQ,EMF,8WW,51T,CX5,EFC,5TH?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੧੯</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 19</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/MAH,B34,U7A,T4F,VD2,GDB,BAP,0NR,5HC?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੨੦</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 20</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/5DQ,NJC,DSK,G19,JMS,DF6,8TF,ZT5,ZDG?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੨੧</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 21</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/YGL,ASC,31M,2HY,FLU,UMU,YTV,VE0,00E?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੨੨</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 22</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/6XE,NYQ,G60,SUZ,AU7,14J,2YE,VVN,5BY?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੨੩</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 23</i>
+            </p>
+          </a>
+          <a
+            class='card'
+            href='/app/g/G4N,RR5,59B,9R6,EXD,VZR,S1R,DET,HVA?bani=sukhmani-sahib'
+          >
+            <p>
+              <b>ਅਸਟਪਦੀ ੨੪</b>
+            </p>
+            <p class='small'>
+              <i>ashtpadi 24</i>
+            </p>
+          </a>
         </div>
       </div>
       <div>
