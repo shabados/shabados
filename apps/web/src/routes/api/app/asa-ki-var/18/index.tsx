@@ -20,7 +20,7 @@ const data = {
     },
     {
       id: 'EQWT',
-      src: 'ਗੁਰਸਿਖਂ‍ੀ. ਸੋ ਥਾਨੁ ਭਾਲਿਆ; ਲੈ ਧੂਰਿ ਮੁਖਿ ਲਾਵਾ ॥',
+      src: 'ਗੁਰਸਿਖੀਂ︀. ਸੋ ਥਾਨੁ ਭਾਲਿਆ; ਲੈ ਧੂਰਿ ਮੁਖਿ ਲਾਵਾ ॥',
       pronunciation: 'gurasikhañ‍ī. so thān bhāliā; lē dhūr mukh lāvā ‖',
       translation:
         "The Guru's Sikhs seek out that place; they take the dust and apply it to their faces.",
