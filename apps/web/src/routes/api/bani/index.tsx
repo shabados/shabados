@@ -1,6 +1,13 @@
 import type { RequestHandler } from '@builder.io/qwik-city';
 
 const data = {
+  'nitnem-morning': [
+    'DMP,LLL,ZKH,V2A,ZF2,6UA,MUY,2CT,EWS,4AZ,CQX,7XM,MET,B09,HN6,CXN,2VK,0HP,17Z,T6J,1ZF,345,EJT,DD0,KP5,LCC,F7J,DJQ,EG0,ELX,J2V,5XX,A8N,F40,8MC,L9B,GCL,KR0,BB8',
+    'KKH,QED,GYT,K6W,HJR,LDD,VJA,8MW,NE0,WQ6,0N5,2C7,BN0,SS2,9F0,KSP,LFH,ABN,8Y8,F0D,GF1,CEE',
+    'D6Z,EXW,CG2',
+    '0VC',
+    'TUY',
+  ],
   'sukhmani-sahib': [
     'J9V,45C,ULS,L6T,H4B,SE7,K7X,1US,TF7',
     'NF2,1MA,SFU,T0Y,B41,B7C,134,CYM,203',
