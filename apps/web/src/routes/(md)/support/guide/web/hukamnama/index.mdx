@@ -2,41 +2,84 @@
 title: Display Hukamnama
 ---
 
+import Media from '~/components/media/media';
+
 # Display Hukamnama
 
-There is a beta hukamnama display available for use in gurdwaras. This display is designed to be used with a Raspberry Pi and a monitor. The display can be used to show any hukamnama (including from Harmandir Sahib in Amritsar, India).
+A hukamnama display available for use in gurdwaras. This display is designed to be used with a Raspberry Pi and a 16:9 aspect ratio monitor. The display can be used to show any hukamnama (including from Harmandir Sahib in Amritsar, India).
+
+<Media
+  src='/media/hukamnama-example.jpg'
+  alt='Example of a hukamnama display'
+  link
+>
+  Example of hukamnama display, showing shabad from 677-678
+</Media>
 
 ## Features
 
 - The display will show the hukamnama in Gurmukhi, the English translation, and the Punjabi translation/notes.
-- If the hukamnama is too long, then the display will automatically scroll after a period of time.
-- A progress timer is shown at the top of the screen to show when the hukamnama will scroll.
-- A QR code is shown at the bottom of the screen for users to scan and view the hukamnama on their phone.
+- The ਲੜੀਵਾਰ (laṛīvār) on the left will change size dynamically based on the length of the hukamnama.
+- If the exposition of the hukamnama is too long, then the right-hand panel will automatically scroll after a period of time.
+- A progress timer can be shown at the top of the screen to track when the hukamnama will scroll.
+- A QR code is shown at the bottom of the screen for users to scan on their phone and view the hukamnama in a different format.
 - The display can be configured with query strings. For example, you can set the date of the hukamnama or remove the QR code.
 
 ## Use
 
-Find your shabad using the search bar (e.g. https://www.shabados.com/app/search/hmsp/). Once you have found the shabad, click on the shabad to display it. In the address bar, you will see a URL that ends with an ID. Note down the different IDs that you want to display on the hukamnama. You can then use the following URL to display the hukamnama:
+The easiest way is to find the ਅੰਗ (ang) of where you begin reading the hukamnama. Upon opening Sri Guru Granth Sahib, you will see a shabad at the top left corner. This shabad is the hukamnama, but it might not begin from here. After determining the ਅੰਗ (ang), you can then use the following URL to display the hukamnama:
+
+```html
+https://www.shabados.com/hukamnama/{ang}
+```
+
+For example if you want to show the hukamnama beginning on 678, then you would use the following URL:
+
+```html
+https://www.shabados.com/hukamnama/678
+```
+
+If instead the hukamnama begins from the preceding ang, then you would use the following URL:
+
+```html
+https://www.shabados.com/hukamnama/677
+```
+
+https://www.shabados.com/hukamnama/677
+
+https://www.shabados.com/hukamnama/678
+
+Click the example URL to open the hukamnama display. You can then use the browser's full screen mode to display the hukamnama on a monitor.
+
+If Shabad OS cannot find the hukamnama, then it will show an error message. Send us feedback if you have any questions or find anything wrong.
+
+Are you a software developer or a computer programmer? See our [list of hukamnamas](https://github.com/shabados/web/blob/main/src/routes/hukamnama/%5Bid%5D/index%40hukamnama.tsx) on GitHub.
+
+## Custom Hukamnama
+
+Find your shabad using the search bar (e.g. https://www.shabados.com/app/search/hmsp). Once you have found the shabad, click on the shabad to display it. In the address bar, you will see a URL that ends with an ID. Note down the different IDs that you want to display on the hukamnama. You can then use the following URL to display the hukamnama:
 
 ```
-https://www.shabados.com/hukamnama/{ids}
+https://www.shabados.com/hukamnama/custom/{ids}
 ```
+
+Note: In addition to using Shabad IDs, you must also add the word `custom` in the URL. This is because the Shabad IDs for a custom hukamnama display can intersect with the normal hukamnama display.
 
 For example if you want to show the shabad with ID `G05`, then you would use the following URL:
 
 ```html
-https://www.shabados.com/hukamnama/G05
+https://www.shabados.com/hukamnama/custom/G05
 ```
 
 If you wanted to show multiple shabads with IDs `G05` ,`J0N`, `1BS`, then you would use the following URL:
 
 ```html
-https://www.shabados.com/hukamnama/G05,J0N,1BS
+https://www.shabados.com/hukamnama/custom/G05,J0N,1BS
 ```
 
-https://www.shabados.com/hukamnama/G05,J0N,1BS
+https://www.shabados.com/hukamnama/custom/G05,J0N,1BS
 
-Click the example URL to open the hukamnama display in a new tab. You can then use the browser's full screen mode to display the hukamnama on a monitor.
+Click the example URL to open the hukamnama display. You can then use the browser's full screen mode to display the hukamnama on a monitor.
 
 ## Advanced
 
@@ -44,19 +87,26 @@ It is possible to customize the display by adding a `?` followed by a query stri
 
 - `date`: The date of the hukamnama in any string format. For example, `date=2021-01-01`.
 - `qr`: The QR code is shown by default. Disable it by using 0 for false. For example, `qr=0`. Otherwise, the QR code is shown.
+- `pb`: A progress bar is hidden by default. Enable it by using 1 for true. For example, `pb=1`. Otherwise, the progress bar is hidden.
 
 For example, if you wanted to show the hukamnama for the date `2021-01-01` with the shabad IDs `G05` ,`J0N`, `1BS`, then you would use the following URL:
 
 ```html
-https://www.shabados.com/hukamnama/G05,J0N,1BS?date=2021-01-01
+https://www.shabados.com/hukamnama/custom/G05,J0N,1BS?date=2021-01-01
 ```
 
 And if you wanted to remove the QR code, then you would use the following URL:
 
 ```html
-https://www.shabados.com/hukamnama/G05,J0N,1BS?date=2021-01-01&qr=0
+https://www.shabados.com/hukamnama/custom/G05,J0N,1BS?date=2021-01-01&qr=0
 ```
 
-https://www.shabados.com/hukamnama/G05,J0N,1BS?date=2021-01-01&qr=0
+And if you wanted to show the progress bar, then you would use the following URL:
 
-Click the example URL to see the hukamnama display with a custom date and the QR code removed.
+```html
+https://www.shabados.com/hukamnama/custom/G05,J0N,1BS?date=2021-01-01&qr=0&pb=1
+```
+
+https://www.shabados.com/hukamnama/custom/G05,J0N,1BS?date=2021-01-01&qr=0&pb=1
+
+Click the example URL to see a custom hukamnama display with a custom date and the QR code removed.

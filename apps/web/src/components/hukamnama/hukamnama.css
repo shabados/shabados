@@ -1,12 +1,12 @@
-.bold {
-  opacity: 1;
-  font-size: 1.75em;
-  font-weight: 600;
-  line-height: 1.6;
+div {
+  font-size: 1.25rem;
 }
 
-.first {
-  margin-top: 1.5rem;
+.bold {
+  opacity: 1;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.6;
 }
 
 .title {
