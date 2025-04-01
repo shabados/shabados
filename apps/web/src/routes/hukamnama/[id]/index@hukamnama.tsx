@@ -568,7 +568,7 @@ export default component$(() => {
         </div>
         <div class='exposition'>
           {!(signal.value.pb && parseInt(signal.value.pb) == 0) && (
-            <div class='progress-bar' />
+            <div id='progress-bar' />
           )}
           {lineGroups.map((lineGroup) => (
             <Hukamnama key={1} data={lineGroup} />
