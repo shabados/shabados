@@ -162,70 +162,65 @@ export default component$(() => {
     mmWidthCount * 457 +
     mmmWidthCount * 240;
 
-  console.log(numChars);
-
   useVisibleTask$(() => {
-    const progressBar = document.querySelector('.progress-bar') as HTMLElement;
-    if (!progressBar) return;
-    const scrollFactor = 0.6;
-    const timeout = { ms: 0, default: 12000, minimum: 6000 };
-    timeout.ms = timeout.default;
+    const progressBar = document.querySelector('#progress-bar') as HTMLElement;
 
-    const doScroll = () => {
-      progressBar.style.width = '0%';
-      progressBar.style.opacity = '40%';
+    const timeout = { ms: 0, maximum: 90000, minimum: 4000 };
 
-      progressBar.animate(
-        [
-          { width: '0%', opacity: '40%' },
-          { width: '100%', opacity: '100%' },
-        ],
-        {
-          duration: timeout.ms,
-          iterations: 1,
-        },
-      );
+    const body = document.querySelector('.exposition');
+    const bodyHeight = body?.getBoundingClientRect().height;
+    const lines = body?.querySelectorAll('.line');
+    const lineInfo = { index: 0, top: 0 };
 
-      setTimeout(scrollPage, timeout.ms);
-    };
+    const animateProgressBar = () => {
+      if (progressBar) {
+        progressBar.style.width = '0%';
+        progressBar.style.opacity = '40%';
 
-    const scrollPage = () => {
-      const body = document.querySelector('.exposition');
-      const totalHeight = body!.scrollHeight;
-      const screenHeight = window.innerHeight;
-
-      if (totalHeight > screenHeight) {
-        const curPos = body!.scrollTop;
-
-        if (Math.ceil(curPos + screenHeight) >= totalHeight) {
-          body!.scrollTo({ top: 0, behavior: 'auto' });
-          timeout.ms = timeout.default;
-        } else {
-          if (
-            Math.ceil(curPos + screenHeight * scrollFactor) >=
-            totalHeight - screenHeight
-          ) {
-            const scrollDistancePercentage =
-              (totalHeight - screenHeight - curPos) /
-              screenHeight /
-              scrollFactor;
-            timeout.ms =
-              scrollDistancePercentage * timeout.default > timeout.minimum
-                ? (timeout.ms = scrollDistancePercentage * timeout.default)
-                : timeout.minimum;
-          }
-
-          body!.scrollTo({
-            top: curPos + screenHeight * scrollFactor,
-            behavior: 'smooth',
-          });
-        }
+        progressBar.animate(
+          [
+            { width: '0%', opacity: '40%' },
+            { width: '100%', opacity: '100%' },
+          ],
+          {
+            duration: timeout.ms,
+            iterations: 1,
+          },
+        );
       }
-
-      doScroll();
     };
 
-    doScroll();
+    const goNextLine = () => {
+      const scrollToNextLine = () => {
+        const currentLine = lines![lineInfo.index];
+        const gurmukhiLine = currentLine.querySelector('.bold');
+        if (progressBar) currentLine.insertBefore(progressBar!, gurmukhiLine);
+        lineInfo.top = currentLine.getBoundingClientRect().top + 2;
+        console.log(lineInfo.top);
+        const lineHeight = currentLine.getBoundingClientRect().height;
+        const factor = lineHeight > bodyHeight! ? 1 : lineHeight / bodyHeight!;
+        timeout.ms =
+          factor * timeout.maximum < timeout.minimum
+            ? timeout.minimum
+            : factor * timeout.maximum;
+
+        console.log(timeout.ms);
+
+        currentLine.scrollIntoView({ behavior: 'smooth' });
+
+        animateProgressBar();
+
+        // Increment the index or reset to 0 if at the end
+        lineInfo.index = (lineInfo.index + 1) % lines!.length;
+
+        // Schedule the next scroll
+        setTimeout(scrollToNextLine, timeout.ms);
+      };
+
+      scrollToNextLine();
+    };
+
+    goNextLine();
   });
 
   const fontSize = recommendedFontSize(numChars);
@@ -260,8 +255,8 @@ export default component$(() => {
           </div>
         </div>
         <div class='exposition'>
-          {signal.value.pb && parseInt(signal.value.pb) == 1 && (
-            <div class='progress-bar' />
+          {!(signal.value.pb && parseInt(signal.value.pb) == 0) && (
+            <div id='progress-bar' />
           )}
           {lineGroups.map((lineGroup) => (
             <Hukamnama key={1} data={lineGroup} />

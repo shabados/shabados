@@ -20,8 +20,8 @@ A hukamnama display available for use in gurdwaras. This display is designed to 
 
 - The display will show the hukamnama in Gurmukhi, the English translation, and the Punjabi translation/notes.
 - The ਲੜੀਵਾਰ (laṛīvār) on the left will change size dynamically based on the length of the hukamnama.
-- If the exposition of the hukamnama is too long, then the right-hand panel will automatically scroll after a period of time.
-- A progress timer can be shown at the top of the screen to track when the hukamnama will scroll.
+- If the exposition of the hukamnama is too long, then the right-hand panel will automatically scroll block-by-block.
+- A progress timer is shown at the top of each line to track when the block will scroll away.
 - A QR code is shown at the bottom of the screen for users to scan on their phone and view the hukamnama in a different format.
 - The display can be configured with query strings. For example, you can set the date of the hukamnama or remove the QR code.
 
@@ -87,7 +87,7 @@ It is possible to customize the display by adding a `?` followed by a query stri
 
 - `date`: The date of the hukamnama in any string format. For example, `date=2021-01-01`.
 - `qr`: The QR code is shown by default. Disable it by using 0 for false. For example, `qr=0`. Otherwise, the QR code is shown.
-- `pb`: A progress bar is hidden by default. Enable it by using 1 for true. For example, `pb=1`. Otherwise, the progress bar is hidden.
+- `pb`: Stands for progress bar. Shown by default. For example, use `pb=0` to disable it.
 
 For example, if you wanted to show the hukamnama for the date `2021-01-01` with the shabad IDs `G05` ,`J0N`, `1BS`, then you would use the following URL:
 
@@ -101,12 +101,12 @@ And if you wanted to remove the QR code, then you would use the following URL:
 https://www.shabados.com/hukamnama/custom/G05,J0N,1BS?date=2021-01-01&qr=0
 ```
 
-And if you wanted to show the progress bar, then you would use the following URL:
+And if you wanted to hide the progress bar, then you would use the following URL:
 
 ```html
-https://www.shabados.com/hukamnama/custom/G05,J0N,1BS?date=2021-01-01&qr=0&pb=1
+https://www.shabados.com/hukamnama/custom/G05,J0N,1BS?date=2021-01-01&qr=0&pb=0
 ```
 
-https://www.shabados.com/hukamnama/custom/G05,J0N,1BS?date=2021-01-01&qr=0&pb=1
+https://www.shabados.com/hukamnama/custom/G05,J0N,1BS?date=2021-01-01&qr=0&pb=0
 
-Click the example URL to see a custom hukamnama display with a custom date and the QR code removed.
+Click the example URL to see a custom hukamnama display. This will have a custom date and it will have both the QR code and progress bar disabled.

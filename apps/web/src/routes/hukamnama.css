@@ -67,11 +67,11 @@ p {
   font-weight: 600;
 }
 
-.progress-bar {
-  --progress-bar-size: 4px;
+#progress-bar {
+  --progress-bar-size: 3px;
   opacity: 0.4;
-  position: sticky;
-  top: 0;
+  position: relative;
+  top: -0.75rem;
   height: var(--progress-bar-size);
   border-radius: var(--progress-bar-size);
   width: 0%;

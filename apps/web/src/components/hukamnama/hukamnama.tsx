@@ -54,45 +54,44 @@ export default component$(({ data }: any) => {
   return (
     <>
       {combinedRemapped.map((line: any, index: number) => {
-        const lines = Array.isArray(line[0].src) ? line[0].src : [line[0].src];
+        const src = Array.isArray(line[0].src) ? line[0].src : [line[0].src];
         return (
           <div key={index} class={`line ${line[0].title ? 'first' : ''}`}>
-            <div>
-              <p>
-                {lines.map((ln: any) => (
-                  <span class={`bold ${line[0].title ? 'title' : ''}`} key={1}>
-                    {ln.split(' ').map((word: string, index: number) => {
-                      const betweenWords = index === 0 ? '' : ' ';
-                      const className = word.endsWith(';')
-                        ? 'heavy'
-                        : word.endsWith(',')
-                        ? 'medium'
-                        : word.endsWith('.')
-                        ? 'light'
-                        : '';
-                      const wordContent = [';', ',', '.'].some((char) =>
-                        word.endsWith(char),
-                      )
-                        ? word.slice(0, -1)
-                        : word;
+            <p class={`bold ${line[0].title ? 'title' : ''}`}>
+              {src
+                .join(' ')
+                .split(' ')
+                .map((word: string, index: number) => {
+                  const betweenWords = index === 0 ? '' : ' ';
+                  const className = word.endsWith(';')
+                    ? 'heavy'
+                    : word.endsWith(',')
+                    ? 'medium'
+                    : word.endsWith('.')
+                    ? 'light'
+                    : '';
+                  const wordContent = [';', ',', '.'].some((char) =>
+                    word.endsWith(char),
+                  )
+                    ? word.slice(0, -1)
+                    : word;
 
-                      return (
-                        <>
-                          {betweenWords}
-                          <span class={className}>{wordContent}</span>
-                        </>
-                      );
-                    })}
-                  </span>
-                ))}
-              </p>
-            </div>
-            <div>
-              <p>
-                {line[0].Guru} <span class='notes'>{line[0].notes}</span>
-              </p>
-              <p>{line[0].en}</p>
-            </div>
+                  return (
+                    <>
+                      {betweenWords}
+                      {className === '' ? (
+                        wordContent
+                      ) : (
+                        <span class={className}>{wordContent}</span>
+                      )}
+                    </>
+                  );
+                })}
+            </p>
+            <p class='panjabi'>
+              {line[0].Guru} <span class='notes'>{line[0].notes}</span>
+            </p>
+            <p class='english'>{line[0].en}</p>
           </div>
         );
       })}

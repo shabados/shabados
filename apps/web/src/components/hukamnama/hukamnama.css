@@ -27,6 +27,15 @@ div {
   color: var(--light-vishraam);
 }
 
+.panjabi,
+.english {
+  font-weight: 600;
+}
+
 .notes {
-  color: var(--ui);
+  color: var(--link);
+}
+
+.english {
+  font-size: 0.9em;
 }
