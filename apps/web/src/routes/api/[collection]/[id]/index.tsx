@@ -10,7 +10,15 @@ const collectionMap = new Map<string, string>([
   ['f', 'leafs'],
 ]);
 
-export const onGet: RequestHandler = async ({ params, json, cacheControl }) => {
+export const onGet: RequestHandler = async ({
+  headers,
+  params,
+  json,
+  cacheControl,
+}) => {
+  headers.set('Access-Control-Allow-Origin', '*');
+  headers.set('Access-Control-Expose-Headers', '*');
+
   cacheControl({
     staleWhileRevalidate: 60 * 60 * 24 * 7 * 2,
     maxAge: 60 * 60 * 24 * 2,
