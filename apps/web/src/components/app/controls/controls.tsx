@@ -532,7 +532,35 @@ export default component$(() => {
               </a>
             </div>
           </div>
-          <a href='mailto:team@shabados.com' class='controls__option clickable'>
+          <a
+            href={`mailto:team@shabados.com?body=${encodeURIComponent(
+              'Code for developers (please keep in email): ' +
+                btoa(
+                  [
+                    'TZ: ' + Intl.DateTimeFormat().resolvedOptions().timeZone ||
+                      '',
+                    'Platform: ' +
+                      (('userAgentData' in navigator &&
+                        (navigator as any).userAgentData.platform) ||
+                        ''),
+                    'Brands: ' +
+                      ('brands' in navigator &&
+                        (navigator as any).userAgentData.brands.reduce(
+                          (a: string, c: any) =>
+                            a + c.brand + ' ' + c.version + ', ',
+                          '',
+                        )),
+                    'mobile' in navigator &&
+                    (navigator as any).userAgentData.mobile
+                      ? 'Mobile: true'
+                      : 'Mobile: false',
+                    'URL: ' + window.location.href || '',
+                    'UA: ' + window.navigator.userAgent || '',
+                  ].join('\n'),
+                ),
+            )}`}
+            class='controls__option clickable'
+          >
             <div class='controls__label'>
               <Feedback />
               Feedback
