@@ -4,10 +4,10 @@ import Hukamnama from '~/components/hukamnama/hukamnama';
 import Lotus from '~/components/icons/lotus';
 import { renderSVG } from 'uqr';
 
-const recommendedFontSize = (numChars: number) => {
+const recommendedFontSize = (numUnits: number) => {
   // return '2.155vh';
-  const factor = 14.2452 - 0.814962 * Math.log(8.36441 * numChars - 691962);
-  return `${numChars < 107297 ? 4.25 : factor < 1.33 ? 1.33 : factor}vh`;
+  const factor = 14.2452 - 0.814962 * Math.log(8.36441 * numUnits - 691962);
+  return `${numUnits < 107297 ? 4.25 : factor < 1.33 ? 1.33 : factor}vh`;
 };
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
@@ -35,12 +35,17 @@ export const useLineGroupsApi = routeLoader$(async (requestEvent) => {
     return {
       linegroups: lineGroups,
       date: requestEvent.query.get('date') || undefined,
+      larivar: requestEvent.query.get('larivar') || undefined,
       qr: requestEvent.query.get('qr') || undefined,
       pb: requestEvent.query.get('pb') || undefined,
       data: await Promise.all(lineGroups.split(',').map(fetchLineGroups)),
     };
+  } else {
+    return {
+      e: true,
+      m: 'Page not found.',
+    };
   }
-
   // unknown error
   return {};
 });
@@ -64,7 +69,19 @@ const toGurmukhiNumerals = (input: string): string => {
 
 export default component$(() => {
   const signal = useLineGroupsApi();
-
+  if ('e' in signal.value) {
+    return (
+      <>
+        <h1>404</h1>
+        <p>
+          {signal.value.m}{' '}
+          <a href='https://www.shabados.com/support/guide/web/hukamnama/'>
+            For more information please see our documentation.
+          </a>
+        </p>
+      </>
+    );
+  }
   const lineGroups = signal.value.data!;
   const svg = renderSVG(
     `https://shabados.com/app/g/${decodeURI(signal.value.linegroups!)}`,
@@ -73,17 +90,20 @@ export default component$(() => {
     },
   );
 
-  const larivar = lineGroups.reduce(
+  const larivar =
+    (signal.value.larivar && parseInt(signal.value.larivar) == 1) ?? false;
+
+  const hukamnama = lineGroups.reduce(
     (total, lineGroup) =>
       total +
       lineGroup.data.default.src.reduce(
         (acc: string, obj: any) =>
           acc +
-          obj.src.data
-            .replaceAll(' ', '')
+          (larivar ? obj.src.data.replaceAll(' ', '') : obj.src.data)
             .replaceAll(',', '')
             .replaceAll(';', '')
-            .replaceAll('.', ''),
+            .replaceAll('.', '') +
+          (larivar ? '' : ' '),
         '',
       ),
     '',
@@ -112,47 +132,52 @@ export default component$(() => {
     'ਃ',
   ];
   const baseCharMarksRegex = new RegExp(baseCharMarks.join('|'), 'g');
-  const larivarChars = larivar.replace(baseCharMarksRegex, '');
+  const hukamChars = hukamnama.replace(baseCharMarksRegex, '');
 
   const pWidth = ['ਲ'];
   const pWidthRegex = new RegExp(pWidth.join('|'), 'g');
-  const pWidthCount = (larivarChars.match(pWidthRegex) || []).length;
+  const pWidthCount = (hukamChars.match(pWidthRegex) || []).length;
 
   const ppWidth = ['ਅ', 'ਐ', 'ਔ', 'ਗ', 'ਯ', 'ਘ'];
   const ppWidthRegex = new RegExp(ppWidth.join('|'), 'g');
-  const ppWidthCount = (larivarChars.match(ppWidthRegex) || []).length;
+  const ppWidthCount = (hukamChars.match(ppWidthRegex) || []).length;
 
   const pppWidth = ['ਇ', 'ਈ'];
   const pppWidthRegex = new RegExp(pppWidth.join('|'), 'g');
-  const pppWidthCount = (larivarChars.match(pppWidthRegex) || []).length;
+  const pppWidthCount = (hukamChars.match(pppWidthRegex) || []).length;
 
   const ppppWidth = ['ੴ'];
   const ppppWidthRegex = new RegExp(ppppWidth.join('|'), 'g');
-  const ppppWidthCount = (larivarChars.match(ppppWidthRegex) || []).length;
+  const ppppWidthCount = (hukamChars.match(ppppWidthRegex) || []).length;
 
   const mWidth = ['੦', '੨', '੩', '੬', '੮', '੯'];
   const mWidthRegex = new RegExp(mWidth.join('|'), 'g');
-  const mWidthCount = (larivarChars.match(mWidthRegex) || []).length;
+  const mWidthCount = (hukamChars.match(mWidthRegex) || []).length;
 
   const mmWidth = ['੧', '॥'];
   const mmWidthRegex = new RegExp(mmWidth.join('|'), 'g');
-  const mmWidthCount = (larivarChars.match(mmWidthRegex) || []).length;
+  const mmWidthCount = (hukamChars.match(mmWidthRegex) || []).length;
 
   const mmmWidth = ['ਿ', 'ੀ', 'ਾ'];
   const mmmWidthRegex = new RegExp(mmmWidth.join('|'), 'g');
-  const mmmWidthCount = (larivarChars.match(mmmWidthRegex) || []).length;
+  const mmmWidthCount = (hukamChars.match(mmmWidthRegex) || []).length;
+
+  const mmmmWidth = [' '];
+  const mmmmWidthRegex = new RegExp(mmmmWidth.join('|'), 'g');
+  const mmmmWidthCount = (hukamChars.match(mmmmWidthRegex) || []).length;
 
   const nWidthCount =
-    larivarChars.length -
+    hukamChars.length -
     pWidthCount -
     ppWidthCount -
     pppWidthCount -
     ppppWidthCount -
     mWidthCount -
     mmWidthCount -
-    mmmWidthCount;
+    mmmWidthCount -
+    mmmmWidthCount;
 
-  const numChars =
+  const numUnits =
     nWidthCount * 560 +
     pWidthCount * 640 +
     ppWidthCount * 702 +
@@ -160,7 +185,8 @@ export default component$(() => {
     ppppWidthCount * 1021 +
     mWidthCount * 490 +
     mmWidthCount * 457 +
-    mmmWidthCount * 240;
+    mmmWidthCount * 240 +
+    mmmmWidthCount * 210;
 
   useVisibleTask$(() => {
     const progressBar = document.querySelector('#progress-bar') as HTMLElement;
@@ -223,7 +249,7 @@ export default component$(() => {
     goNextLine();
   });
 
-  const fontSize = recommendedFontSize(numChars);
+  const fontSize = recommendedFontSize(numUnits);
   return (
     <>
       {!(signal.value.qr && parseInt(signal.value.qr) == 0) && (
@@ -250,8 +276,11 @@ export default component$(() => {
               </p>
             </div>
           </div>
-          <div class='larivar' style={{ fontSize }}>
-            {larivar}
+          <div
+            class={`hukam ${larivar && 'hukam__larivar'}`}
+            style={{ fontSize }}
+          >
+            {hukamnama}
           </div>
         </div>
         <div class='exposition'>

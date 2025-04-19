@@ -19,7 +19,7 @@ A hukamnama display available for use in gurdwaras. This display is designed to 
 ## Features
 
 - The display will show the hukamnama in Gurmukhi, the English translation, and the Punjabi translation/notes.
-- The ਲੜੀਵਾਰ (laṛīvār) on the left will change size dynamically based on the length of the hukamnama.
+- The ਹੁਕਮਨਾਮਾ (hukamnāmā) on the left will change size dynamically based on the length of characters.
 - If the exposition of the hukamnama is too long, then the right-hand panel will automatically scroll block-by-block.
 - A progress timer is shown at the top of each line to track when the block will scroll away.
 - A QR code is shown at the bottom of the screen for users to scan on their phone and view the hukamnama in a different format.
@@ -86,7 +86,8 @@ Click the example URL to open the hukamnama display. You can then use the browse
 It is possible to customize the display by adding a `?` followed by a query string. Use an `&` to separate query strings. The following options are available:
 
 - `date`: The date of the hukamnama in any string format. For example, `date=2021-01-01`.
-- `qr`: The QR code is shown by default. Disable it by using 0 for false. For example, `qr=0`. Otherwise, the QR code is shown.
+- `larivar`: Whether to show the hukamnama in ਲੜੀਵਾਰ (laṛīvār) format. For example, `larivar=1`.
+- `qr`: The QR code is shown by default. Disable it by using 0 for false. For example, `qr=0`.
 - `pb`: Stands for progress bar. Shown by default. For example, use `pb=0` to disable it.
 
 For example, if you wanted to show the hukamnama for the date `2021-01-01` with the shabad IDs `G05` ,`J0N`, `1BS`, then you would use the following URL:

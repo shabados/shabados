@@ -12,7 +12,7 @@
 }
 
 .header,
-.larivar,
+.hukam,
 .line {
   padding: 0.75rem 0.75rem;
   text-align: center;
@@ -30,21 +30,24 @@
   grid-template-columns: 5fr 11fr;
 }
 
-.larivar,
+.hukam,
 .exposition {
   overflow-y: auto;
   scrollbar-width: none;
 }
 
-.larivar {
+.hukam {
   height: calc(90vh - 3rem - 2px - 3rem - 3.5rem);
   font-size: 1.5rem;
   font-weight: 600;
-  line-break: anywhere;
   background: var(--bg-base);
   background: linear-gradient(var(--bg-base), rgba(var(--white-rgb) / 0.6));
   border-radius: 0.75rem;
   margin: 0 1.5rem 0.75rem;
+}
+
+.hukam__larivar {
+  line-break: anywhere;
 }
 
 .exposition {
