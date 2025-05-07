@@ -1,6 +1,6 @@
 import { component$, Slot, useStyles$ } from '@builder.io/qwik';
 
-import styles from './hukamnama.css?inline';
+import styles from './layout.css?inline';
 
 export default component$(() => {
   useStyles$(styles);

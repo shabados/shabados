@@ -1,0 +1,156 @@
+.hero {
+  min-height: calc(100svh - 3.5em - 1.5em * 6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.full-list {
+  display: none;
+}
+
+.search[type='search'] {
+  width: 100%;
+  border: 2.25px solid var(--toner);
+  border-radius: 10em;
+  box-shadow: 0 0.75em 1em -0.25em var(--toner);
+}
+
+.carousel {
+  margin-bottom: 24px;
+  scroll-behavior: smooth;
+}
+
+.carousel__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.carousel__button {
+  user-select: none;
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+  top: 6px;
+  right: 24px;
+  transition: var(--animation-duration) ease;
+}
+
+.carousel__button__span {
+  background: var(--toner);
+  line-height: 20px;
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.short-list .cards {
+  flex-wrap: wrap;
+}
+
+.cards {
+  margin: 0;
+  display: flex;
+  gap: 0.6em;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-padding-inline: 24px;
+  padding: 0 24px 0;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 24px calc(100% - 24px),
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 24px calc(100% - 24px),
+    transparent 100%
+  );
+}
+
+.cards::-webkit-scrollbar {
+  display: none;
+}
+
+.card,
+a.card {
+  min-width: fit-content;
+}
+
+.card {
+  color: var(--fg);
+  padding: 0.6em 1.2em;
+  border-radius: 1.6em;
+  background-color: var(--toner);
+  border: 2.25px solid transparent;
+  scroll-snap-align: start;
+  display: block;
+  overflow-wrap: initial;
+}
+
+a.card {
+  background-color: var(--bg-base);
+  border: 2.25px solid var(--toner);
+}
+
+.carousel__button:hover > span,
+a.card:hover,
+a.card:focus {
+  color: var(--fg);
+  background-color: var(--ui-toner);
+  text-decoration: none;
+  cursor: pointer;
+  outline: 2.25px solid var(--ui);
+  outline-offset: -2.25px;
+}
+
+.search-tip,
+.footer {
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.2em;
+  margin-top: 0.8em;
+}
+
+a.button {
+  cursor: pointer;
+  display: inline-block;
+  background-color: var(--ui);
+  color: white;
+  border-radius: 2em;
+  padding: 0.75em 1em;
+  margin: 0.5em auto 1em;
+  font-size: 0.875em;
+  font-weight: 500;
+  width: fit-content;
+  line-height: 1;
+}
+
+a.button:hover {
+  text-decoration: none;
+}
+
+@media (pointer: coarse) {
+  .hero {
+    min-height: calc(100svh - 3.5em - 1.5em * 5);
+  }
+  a.download-button {
+    display: none;
+  }
+  .search[type='search'] {
+    box-shadow: none;
+  }
+}

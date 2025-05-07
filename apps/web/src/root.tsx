@@ -52,15 +52,12 @@ export default component$(() => {
         <RouterHead />
         <script
           dangerouslySetInnerHTML={`
-            const path = new URL(window.location.href).pathname.split('/')[1];
-            if (path == 'app') {
-              document.documentElement.setAttribute('data-mode', localStorage.controlsMode || 'classic');
-              document.documentElement.setAttribute('data-width', localStorage.controlsWidth || 'wider');
-              document.documentElement.setAttribute('data-centered', localStorage.controlsCentered || '0');
-              document.documentElement.setAttribute('data-vishraman', localStorage.controlsVishraman || '1');
-              document.documentElement.setAttribute('data-larivar', localStorage.controlsLarivar || '0');
-              document.documentElement.style.fontSize = localStorage.controlsZoom ? localStorage.controlsZoom + 'em' : '1em';
-            }
+            document.documentElement.setAttribute('data-mode', localStorage.controlsMode || 'classic');
+            document.documentElement.setAttribute('data-width', localStorage.controlsWidth || 'base');
+            document.documentElement.setAttribute('data-centered', localStorage.controlsCentered || '1');
+            document.documentElement.setAttribute('data-vishraman', localStorage.controlsVishraman || '1');
+            document.documentElement.setAttribute('data-larivar', localStorage.controlsLarivar || '0');
+            document.documentElement.style.fontSize = localStorage.controlsZoom ? localStorage.controlsZoom + 'em' : '1em';
           `}
         />
       </head>

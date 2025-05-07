@@ -1,6 +1,5 @@
 .line {
   font-size: 1rem;
-  margin-bottom: 0;
   /* color: inherit;
   border-radius: 0.4em;
   outline-width: 0.2em;
@@ -34,7 +33,7 @@ p {
   opacity: 1;
   font-size: 1.75em;
   line-height: 1.25;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .heavy {

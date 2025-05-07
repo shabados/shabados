@@ -7,8 +7,8 @@ export default component$(() => {
   return (
     <div class='spinner'>
       <svg
-        width='58'
-        height='58'
+        width='48'
+        height='48'
         viewBox='0 0 21 21'
         fill='none'
         stroke='currentColor'

@@ -12,10 +12,11 @@ import {
 import { useLocation, type RequestHandler } from '@builder.io/qwik-city';
 import Header from '~/components/app/header/header';
 import requestWakeLock from '~/lib/wakelock';
-import styles from './app.css?inline';
+import styles from './layout.css?inline';
 import Slideshow from '~/components/app/slideshow/slideshow';
 import Controls from '~/components/app/controls/controls';
 import Journey from '~/components/app/journey/journey';
+import zoomValues from '~/lib/zoomValues';
 // import Inspector from '~/components/app/inspector/inspector';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
@@ -81,10 +82,10 @@ export const getLocalStorage = (key: string) => {
 
 export default component$(() => {
   const controlsStore = useStore({
-    zoom: 1,
+    zoom: 2,
     mode: 'classic',
-    width: 'wider',
-    centered: 0,
+    width: 'base',
+    centered: 1,
     slideshowType: 'blank',
     notes: 0,
     notesContent: '',
@@ -115,11 +116,11 @@ export default component$(() => {
   useVisibleTask$(() => {
     uiStore.slideshow = false; // always set slideshow to "off" on load
 
-    controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '1');
+    controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '2');
     controlsStore.mode = getLocalStorage('controlsMode') ?? 'classic';
-    controlsStore.width = getLocalStorage('controlsWidth') ?? 'wider';
+    controlsStore.width = getLocalStorage('controlsWidth') ?? 'base';
     controlsStore.centered = parseInt(
-      getLocalStorage('controlsCentered') ?? '0',
+      getLocalStorage('controlsCentered') ?? '1',
     );
     controlsStore.slideshowType =
       getLocalStorage('controlsSlideshowType') ?? 'blank';
@@ -143,7 +144,7 @@ export default component$(() => {
       getLocalStorage('userDataArchive') ?? '{}',
     );
 
-    if (url.pathname !== '/app/' && !url.pathname.includes('/search/')) {
+    if (url.pathname !== '/' && !url.pathname.includes('/search/')) {
       userDataStore.history[url.pathname] = {};
       if (url.pathname.includes('/f/')) {
         const m: { [key: string]: { [key: string]: string } } = {
@@ -218,27 +219,30 @@ export default component$(() => {
     uiStore.slideshow = !uiStore.slideshow;
   });
 
+  const updateZoomDom = $((v: number) => {
+    setLocalStorage('controlsZoom', String(zoomValues[v]));
+    document.documentElement.style.fontSize = `${zoomValues[v]}em`;
+  });
+
   const zoomLess = $(() => {
     const initial = controlsStore.zoom;
-    controlsStore.zoom -= 0.25;
-    if (controlsStore.zoom < 1) {
-      controlsStore.zoom = 1;
+    controlsStore.zoom -= 1;
+    if (controlsStore.zoom < 0) {
+      controlsStore.zoom = 0;
     }
     if (initial != controlsStore.zoom) {
-      setLocalStorage('controlsZoom', String(controlsStore.zoom));
-      document.documentElement.style.fontSize = `${controlsStore.zoom}em`;
+      updateZoomDom(controlsStore.zoom);
     }
   });
 
   const zoomMore = $(() => {
     const initial = controlsStore.zoom;
-    controlsStore.zoom += 0.25;
-    if (controlsStore.zoom > 4) {
-      controlsStore.zoom = 4;
+    controlsStore.zoom += 1;
+    if (controlsStore.zoom > 11) {
+      controlsStore.zoom = 11;
     }
     if (initial != controlsStore.zoom) {
-      setLocalStorage('controlsZoom', String(controlsStore.zoom));
-      document.documentElement.style.fontSize = `${controlsStore.zoom}em`;
+      updateZoomDom(controlsStore.zoom);
     }
   });
 
@@ -251,6 +255,7 @@ export default component$(() => {
       {uiStore.controls && <Controls />}
       {uiStore.journey && <Journey />}
       {/* {uiStore.inspector && <Inspector id={uiStore.inspectorId} />} */}
+      <div class='statusbar'></div>
       <Header />
       {!!uiStore.slideshow && <Slideshow focusOnClose={appRef.value!} />}
       <main

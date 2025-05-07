@@ -1,5 +1,5 @@
 import { component$, useContext, useStylesScoped$ } from '@builder.io/qwik';
-import { ControlsContext, UiContext } from '~/routes/layout-app';
+import { ControlsContext, UiContext } from '~/routes/(app)/layout';
 import styles from './slideshow.css?inline';
 import Line from '~/components/line/line';
 

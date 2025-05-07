@@ -47,9 +47,9 @@ export default component$(() => {
         ))}
         <BottomBar
           prevLink={
-            data.value.paging?.previous && `/app/${data.value.paging.previous}`
+            data.value.paging?.previous && `/b/${data.value.paging.previous}`
           }
-          nextLink={data.value.paging?.next && `/app/${data.value.paging.next}`}
+          nextLink={data.value.paging?.next && `/b/${data.value.paging.next}`}
         />
       </article>
     );

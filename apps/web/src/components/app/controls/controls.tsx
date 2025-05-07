@@ -8,7 +8,7 @@ import {
   ControlsContext,
   UiContext,
   setLocalStorage,
-} from '~/routes/layout-app';
+} from '~/routes/(app)/layout';
 import styles from './controls.css?inline';
 import Switch from '~/components/switch/switch';
 import Minimize from '~/components/icons/ui/minimize';
@@ -31,6 +31,7 @@ import Github from '~/components/icons/ui/github';
 import Pause from '~/components/icons/ui/pause';
 import Continuous from '~/components/icons/ui/continuous';
 import Centered from '~/components/icons/ui/centered';
+import zoomValues from '~/lib/zoomValues';
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -83,18 +84,22 @@ export default component$(() => {
               <Zoom />
               Zoom
             </div>
+
             <input
               type='range'
-              min={1}
-              max={5}
-              step={0.25}
+              min={0}
+              max={11}
+              step={1}
               value={controlsStore.zoom}
               onChange$={(e) => {
-                setLocalStorage('controlsZoom', e.target.value);
-                document.documentElement.style.fontSize = `${e.target.value}em`;
-                controlsStore.zoom = parseFloat(
-                  e.target.value as unknown as string,
+                setLocalStorage(
+                  'controlsZoom',
+                  zoomValues[e.target.valueAsNumber].toString(),
                 );
+                document.documentElement.style.fontSize = `${zoomValues[
+                  e.target.valueAsNumber
+                ].toString()}em`;
+                controlsStore.zoom = e.target.valueAsNumber;
               }}
             />
           </div>

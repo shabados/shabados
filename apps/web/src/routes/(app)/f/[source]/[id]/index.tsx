@@ -51,7 +51,7 @@ export default component$(() => {
   const paging = signal.value.paging!;
   useVisibleTask$(() => {
     if (lineGroups.length == 0 && paging.next > 0) {
-      window.location.href = `/app/f/${source}/${paging.next}`;
+      window.location.href = `/f/${source}/${paging.next}`;
     }
   });
   const handleJump = $(() => {
@@ -60,7 +60,7 @@ export default component$(() => {
     );
     if (!isNaN(number) && isFinite(number)) {
       if (number <= paging.max && number >= 1) {
-        window.location.href = `/app/f/${source}/${number}`;
+        window.location.href = `/f/${source}/${number}`;
       }
     }
   });
@@ -88,13 +88,9 @@ export default component$(() => {
       {(paging.previous > 0 || paging.next > 0) && (
         <BottomBar
           prevLink={
-            paging.previous > 0
-              ? `/app/f/${source}/${paging.previous}`
-              : undefined
+            paging.previous > 0 ? `/f/${source}/${paging.previous}` : undefined
           }
-          nextLink={
-            paging.next > 0 ? `/app/f/${source}/${paging.next}` : undefined
-          }
+          nextLink={paging.next > 0 ? `/f/${source}/${paging.next}` : undefined}
         >
           <a href='#' onClick$={() => handleJump()}>
             Jump...

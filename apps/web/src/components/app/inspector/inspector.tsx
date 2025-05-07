@@ -6,7 +6,7 @@ import {
   useStylesScoped$,
 } from '@builder.io/qwik';
 import X from '~/components/icons/ui/x';
-import { UiContext } from '~/routes/layout-app';
+import { UiContext } from '~/routes/(app)/layout';
 import styles from './inspector.css?inline';
 
 interface InspectorProps {

@@ -25,11 +25,15 @@
 @media (prefers-color-scheme: light) {
   :root {
     --toner: rgba(var(--black-rgb) / var(--alpha-8));
-    --fg: rgb(8.33% 7.46% 5.52%);
+    --fg-values: 8.33% 7.46% 5.52%;
+    --fg: rgb(var(--fg-values));
     --fg-muted: rgb(57.57% 56.58% 54.63%);
-    --bg: #f5f3f0;
-    --bg-base: #fff;
+    --bg-values: 245, 243, 240;
+    --bg: rgb(var(--bg-values));
+    --bg-base-values: 100% 100% 100%;
+    --bg-base: rgb(var(--bg-base-values));
     --ui: rgb(0% 48.81% 81.83%);
+    --ui-toner: rgb(0, 154, 255);
     --link: #2c64c4;
     --link-hover: #4395f7;
     --heavy-vishraam: rgb(55.17% 30% 13.76%);
@@ -40,11 +44,15 @@
   @media (dynamic-range: high) {
     @supports (color: oklch(0 0 0)) {
       :root {
-        --fg: lch(4% 2 85);
+        --fg-values: 4% 2 85;
+        --fg: lch(var(--fg-values));
         --fg-muted: lch(40% 2 85);
-        --bg: lch(96% 2 85);
-        --bg-base: lch(100% 0 0);
+        --bg-values: 96% 2 85;
+        --bg: lch(var(--bg-values));
+        --bg-base-values: 100% 0 0;
+        --bg-base: lch(var(--bg-base-values));
         --ui: lch(50% 66 265);
+        --ui-toner: lch(96% 4 265);
         --link: lch(40% 66 265);
         --link-hover: lch(60% 66 265);
         --heavy-vishraam: lch(40% 44 55);
@@ -60,8 +68,10 @@
     --toner: rgba(var(--white-rgb) / var(--alpha-8));
     --fg: #ffffff;
     --fg-muted: #aaaaaa;
-    --bg: #000000;
-    --bg-base: #252525;
+    --bg-values: 0, 0, 0;
+    --bg: rgb(var(--bg-values));
+    --bg-base-values: 37, 37, 37;
+    --bg-base: rgb(var(--bg-base-values));
     --ui: rgb(73, 124, 253);
     --link: rgb(128, 157, 221);
     --link-hover: rgb(149, 182, 255);
@@ -82,10 +92,16 @@
   @media (dynamic-range: high) {
     @supports (color: oklch(0 0 0)) {
       :root {
-        /* --fg: oklch(78% 2% 25); */
-        /* --fg-muted: oklch(66% 2% 25); */
+        --fg-base-values: 100% 0% 0;
+        --fg: oklch(var(--fg-base-values));
+        --fg-muted: oklch(66% 2% 25);
+        --bg-values: 0% 0% 0;
+        --bg: oklch(var(--bg-values));
         /* skip bg until theme_color supports dynamic range */
+        --bg-base-values: 20% 0% 265;
+        --bg-base: oklch(var(--bg-base-values));
         --ui: oklch(85% 100% 265);
+        --ui-toner: oklch(36% 8% 265);
         --link: oklch(92% 16% 265);
         --link-hover: oklch(100% 20% 265);
         --heavy-vishraam: oklch(92% 16% 55);
@@ -117,7 +133,7 @@ body {
     Arial,
     sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   margin: 0;
   background-color: var(--bg);
   color: var(--fg);
@@ -260,12 +276,12 @@ footer > div {
 
 article {
   box-sizing: border-box;
-  padding: 24px;
+  padding: calc(16px * 1.6);
 }
 
 article > *,
 blockquote > * {
-  margin-bottom: 24px;
+  margin-bottom: calc(16px * 1.6);
 }
 
 article > *:last-child,
@@ -279,7 +295,6 @@ blockquote > *:last-child {
 
 .button:hover {
   mix-blend-mode: luminosity;
-  transform: scale(1.05);
 }
 
 input,
@@ -335,7 +350,7 @@ select:focus {
   background-color: var(--toner);
   color: var(--link-hover);
   outline: 2.25px solid var(--ui);
-  outline-offset: 2.25px;
+  outline-offset: -2.25px;
 }
 
 input[type='search']:hover,
@@ -361,7 +376,7 @@ input[type='range'] {
 input[type='range']:hover,
 input[type='range']:focus {
   outline: 2.25px solid var(--ui);
-  outline-offset: 2.25px;
+  outline-offset: -2.25px;
 }
 
 input[type='range']::-webkit-slider-runnable-track {

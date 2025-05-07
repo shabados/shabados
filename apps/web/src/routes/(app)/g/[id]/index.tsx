@@ -90,17 +90,17 @@ export default component$(() => {
         <BottomBar
           prevLink={
             (signal.value.prev &&
-              `/app/g/${signal.value.prev}?bani=${signal.value.bani}`) ||
+              `/g/${signal.value.prev}?bani=${signal.value.bani}`) ||
             (res.length == 1 &&
               res[0].data[defaultSource].paging.previous &&
-              `/app/g/${res[0].data[defaultSource].paging.previous}`)
+              `/g/${res[0].data[defaultSource].paging.previous}`)
           }
           nextLink={
             (signal.value.next &&
-              `/app/g/${signal.value.next}?bani=${signal.value.bani}`) ||
+              `/g/${signal.value.next}?bani=${signal.value.bani}`) ||
             (res.length == 1 &&
               res[0].data[defaultSource].paging.next &&
-              `/app/g/${res[0].data[defaultSource].paging.next}`)
+              `/g/${res[0].data[defaultSource].paging.next}`)
           }
         />
       )}

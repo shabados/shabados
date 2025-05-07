@@ -37,7 +37,7 @@ export default component$(() => {
             ({ container, blocks, id, source, title }: any) => (
               <Link
                 key={1}
-                href={`/app/g/${container.id}`}
+                href={`/g/${container.id}`}
                 style='text-decoration: none !important; display: block;'
               >
                 <p style='color: var(--fg);'>{source.name} </p>

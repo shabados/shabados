@@ -8,7 +8,7 @@ import {
   UiContext,
   UserDataContext,
   getLocalStorage,
-} from '~/routes/layout-app';
+} from '~/routes/(app)/layout';
 import styles from './journey.css?inline';
 import X from '~/components/icons/ui/x';
 import { useLocation } from '@builder.io/qwik-city';
