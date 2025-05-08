@@ -107,8 +107,13 @@ export default component$(() => {
                 <a class='card' href='/kirtan-sohila'>
                   <p>ਕੀਰਤਨ ਸੋਹਿਲਾ</p>
                 </a>
-                <a class='card' href='#'>
-                  <p onClick$={() => handleJump('sggs', 1430)}>ਅੰਗ ਤੇ ਜਾਓ...</p>
+                <a
+                  class='card'
+                  href='#'
+                  preventdefault:click
+                  onClick$={() => handleJump('sggs', 1430)}
+                >
+                  <p>ਅੰਗ ਤੇ ਜਾਓ...</p>
                 </a>
                 <a
                   class='card'
@@ -402,10 +407,13 @@ export default component$(() => {
                   <a class='card' href='/sggs/1'>
                     <p>ਆਰੰਬ - ਜਪੁ ਜੀ ਸਾਹਿਬ</p>
                   </a>
-                  <a class='card' href='#'>
-                    <p onClick$={() => handleJump('sggs', 1430)}>
-                      ਇਸ ਅੰਗ ਤੇ ਜਾਓ...
-                    </p>
+                  <a
+                    class='card'
+                    href='#'
+                    preventdefault:click
+                    onClick$={() => handleJump('sggs', 1430)}
+                  >
+                    <p>ਇਸ ਅੰਗ ਤੇ ਜਾਓ...</p>
                   </a>
                   <a class='card' href='/sggs/1426'>
                     <p>ਭੋਗ - ਸਲੋਕ ਮਹਲਾ ੯</p>
