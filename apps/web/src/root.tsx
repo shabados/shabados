@@ -63,7 +63,9 @@ export default component$(() => {
             document.documentElement.setAttribute('data-centered', localStorage.controlsCentered || '1');
             document.documentElement.setAttribute('data-vishraman', localStorage.controlsVishraman || '1');
             document.documentElement.setAttribute('data-larivar', localStorage.controlsLarivar || '0');
-            document.documentElement.style.fontSize = localStorage.controlsZoom ? localStorage.controlsZoom + 'em' : '1em';
+            // must match same in lib/zoomValues.ts
+            const zoomValues = [0.75, 0.875, 1, 1.125, 1.25, 1.375, 1.5, 1.675, 1.75, 1.875, 2, 2.5, 3, 3.5, 4, 5, 6];
+            document.documentElement.style.fontSize = localStorage.controlsZoom ? zoomValues[localStorage.controlsZoom] + 'em' : '1em';
             document.documentElement.setAttribute('data-factor', localStorage.controlsFactor || '1.5');
             document.documentElement.setAttribute('data-appearance', localStorage.controlsAppearance || 'auto');
           `}

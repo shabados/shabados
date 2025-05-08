@@ -122,9 +122,9 @@ export default component$(() => {
   useVisibleTask$(() => {
     uiStore.slideshow = false; // always set slideshow to "off" on load
 
-    controlsStore.zoom ??= parseFloat(
-      getLocalStorage('controlsZoom') as string,
-    );
+    controlsStore.zoom =
+      parseFloat(getLocalStorage('controlsZoom') as string) ??
+      controlsStore.zoom;
 
     controlsStore.factor =
       parseFloat(getLocalStorage('controlsFactor') as string) ??
@@ -259,7 +259,7 @@ export default component$(() => {
   });
 
   const updateZoomDom = $((v: number) => {
-    setLocalStorage('controlsZoom', String(zoomValues[v]));
+    setLocalStorage('controlsZoom', String(v));
     document.documentElement.style.fontSize = `${zoomValues[v]}em`;
   });
 
@@ -277,8 +277,8 @@ export default component$(() => {
   const zoomMore = $(() => {
     const initial = controlsStore.zoom;
     controlsStore.zoom += 1;
-    if (controlsStore.zoom > 11) {
-      controlsStore.zoom = 11;
+    if (controlsStore.zoom > zoomValues.length - 1) {
+      controlsStore.zoom = zoomValues.length - 1;
     }
     if (initial != controlsStore.zoom) {
       updateZoomDom(controlsStore.zoom);

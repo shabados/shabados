@@ -90,14 +90,11 @@ export default component$(() => {
             <input
               type='range'
               min={0}
-              max={11}
+              max={zoomValues.length - 1}
               step={1}
               value={controlsStore.zoom}
               onChange$={(e) => {
-                setLocalStorage(
-                  'controlsZoom',
-                  zoomValues[e.target.valueAsNumber].toString(),
-                );
+                setLocalStorage('controlsZoom', e.target.value);
                 document.documentElement.style.fontSize = `${zoomValues[
                   e.target.valueAsNumber
                 ].toString()}em`;
