@@ -143,9 +143,17 @@ export default component$(() => {
       getLocalStorage('userDataArchive') ?? '{}',
     );
 
-    if (url.pathname !== '/app/' && !url.pathname.includes('/search/')) {
+    if (
+      url.pathname !== '/' &&
+      url.pathname !== '/app/' &&
+      !url.pathname.includes('/search/')
+    ) {
       userDataStore.history[url.pathname] = {};
-      if (url.pathname.includes('/f/')) {
+      if (
+        url.pathname.includes('/sggs/') ||
+        url.pathname.includes('/sdgr/') ||
+        url.pathname.includes('/gjnl/')
+      ) {
         const m: { [key: string]: { [key: string]: string } } = {
           sggs: { title: 'ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ', leaf: 'ਅੰਗ' },
           sdgr: { title: 'ਸ੍ਰੀ ਦਸਮ ਗ੍ਰੰਥ', leaf: 'ਅੰਗ' },

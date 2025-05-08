@@ -1,7 +1,8 @@
 import { type RequestHandler, routeLoader$ } from '@builder.io/qwik-city';
-import { $, component$, useVisibleTask$ } from '@builder.io/qwik';
+import { component$, useVisibleTask$ } from '@builder.io/qwik';
 import Line from '~/components/line/line';
 import BottomBar from '~/components/app/bottom-bar/bottom-bar';
+import handleJump from '~/lib/handleJump';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
@@ -51,17 +52,7 @@ export default component$(() => {
   const paging = signal.value.paging!;
   useVisibleTask$(() => {
     if (lineGroups.length == 0 && paging.next > 0) {
-      window.location.href = `/f/${source}/${paging.next}`;
-    }
-  });
-  const handleJump = $(() => {
-    const number = parseInt(
-      window!.prompt(`Please input a number between 1 and ${paging.max}`)!,
-    );
-    if (!isNaN(number) && isFinite(number)) {
-      if (number <= paging.max && number >= 1) {
-        window.location.href = `/f/${source}/${number}`;
-      }
+      window.location.href = `/${source}/${paging.next}`;
     }
   });
 
@@ -69,7 +60,7 @@ export default component$(() => {
     <article>
       <div>
         <center>
-          <p class='small' onClick$={() => handleJump()}>
+          <p class='small' onClick$={() => handleJump(source, paging.max)}>
             ( {paging.next - 1} )
           </p>
         </center>
@@ -88,11 +79,11 @@ export default component$(() => {
       {(paging.previous > 0 || paging.next > 0) && (
         <BottomBar
           prevLink={
-            paging.previous > 0 ? `/f/${source}/${paging.previous}` : undefined
+            paging.previous > 0 ? `/${source}/${paging.previous}` : undefined
           }
-          nextLink={paging.next > 0 ? `/f/${source}/${paging.next}` : undefined}
+          nextLink={paging.next > 0 ? `/${source}/${paging.next}` : undefined}
         >
-          <a href='#' onClick$={() => handleJump()}>
+          <a href='#' onClick$={() => handleJump(source, paging.max)}>
             Jump...
           </a>
         </BottomBar>

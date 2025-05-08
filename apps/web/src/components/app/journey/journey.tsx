@@ -21,7 +21,7 @@ export default component$(() => {
 
   useVisibleTask$(() => {
     userDataStore.history = JSON.parse(
-      getLocalStorage('userDataHistory') ?? JSON.parse('{}'),
+      getLocalStorage('userDataHistory') ?? '{}',
     );
   });
 

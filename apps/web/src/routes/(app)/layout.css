@@ -1,28 +1,30 @@
+:root {
+  --primary-factor: 1.5;
+}
+
+html[data-factor='100'] {
+  --primary-factor: 1;
+}
+
+html[data-factor='125'] {
+  --primary-factor: 1.25;
+}
+
+html[data-factor='150'] {
+  --primary-factor: 1.5;
+}
+
+html[data-factor='175'] {
+  --primary-factor: 1.75;
+}
+
+html[data-factor='200'] {
+  --primary-factor: 2;
+}
+
 .app {
   font-size: 1rem;
   outline: none;
-}
-
-.statusbar {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: -80px;
-  height: 80px;
-  overflow: hidden;
-  z-index: 100;
-}
-
-.statusbar::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 150%;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
-  background-color: rgba(var(--bg-values) / 0.92);
 }
 
 @media (dynamic-range: high) {
@@ -65,8 +67,8 @@
     'Helvetica Neue',
     Arial,
     sans-serif;
-  font-weight: 450;
-  font-size: 1.5rem; /* 1.75 of p.bold divided by gurmukhi:latin ratio of roughly 1.15 */
+  font-weight: calc(100 + 250 * var(--primary-factor) / 1.1);
+  font-size: calc(1rem * var(--primary-factor));
 }
 
 html[data-mode='presenter'] .notes-pane {
@@ -126,7 +128,9 @@ html[data-mode='saral'] .title {
 
 html[data-mode='reader'] .title > p.bold,
 html[data-mode='saral'] .title > p.bold {
-  font-weight: 400;
+  font-weight: calc(
+    (100 + 250 * var(--primary-factor)) * (0.7 + 0.15 * var(--primary-factor))
+  );
   line-height: 1.828;
 }
 
@@ -174,7 +178,9 @@ html[data-larivar='1'][data-mode='saral'] .title {
   font-size: 1em;
 }
 html[data-larivar='1'] .title > p.bold {
-  font-weight: 500;
+  font-weight: calc(
+    100 + 250 * var(--primary-factor) / var(--font-size) / 4 * 5
+  );
 }
 
 html[data-mode='presenter'] .app > div > article {

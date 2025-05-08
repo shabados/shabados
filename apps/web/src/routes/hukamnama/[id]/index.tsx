@@ -380,7 +380,7 @@ export default component$(() => {
   }
   const lineGroups = signal.value.data!;
   const svg = renderSVG(
-    `https://shabados.com/app/g/${decodeURI(signal.value.linegroups!)}`,
+    `https://shabados.com/g/${decodeURI(signal.value.linegroups!)}`,
     {
       border: 4,
     },

@@ -4,7 +4,7 @@ import styles from './line.css?inline';
 import isTitle, { isEndOfPauri } from '~/lib/isTitle';
 
 export default component$(
-  ({ id = '', src, pronunciation, translation }: any) => {
+  ({ id = '', src, pronunciation, translation, vicar }: any) => {
     useStylesScoped$(styles);
     const controlsStore = useContext(ControlsContext);
     const uiStore = useContext(UiContext);
@@ -80,11 +80,12 @@ export default component$(
         ) : (
           ''
         )}
-        {controlsStore.translationField && translation ? (
+        {(controlsStore.translationField && translation && (
           <p>{translation}</p>
-        ) : (
-          ''
-        )}
+        )) ||
+          ''}
+        {(controlsStore.vicarField && vicar && <p class='vicar'>{vicar}</p>) ||
+          ''}
       </div>
     );
   },

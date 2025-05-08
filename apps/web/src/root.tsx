@@ -49,6 +49,12 @@ export default component$(() => {
           sizes='180x180'
           href='/media/apple-touch-icon.png'
         />
+        <link rel='preconnect' href='https://fonts.googleapis.com' />
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap'
+          rel='stylesheet'
+        />
         <RouterHead />
         <script
           dangerouslySetInnerHTML={`
@@ -58,6 +64,7 @@ export default component$(() => {
             document.documentElement.setAttribute('data-vishraman', localStorage.controlsVishraman || '1');
             document.documentElement.setAttribute('data-larivar', localStorage.controlsLarivar || '0');
             document.documentElement.style.fontSize = localStorage.controlsZoom ? localStorage.controlsZoom + 'em' : '1em';
+            document.documentElement.setAttribute('data-factor', localStorage.controlsFactor || '1.5');
           `}
         />
       </head>

@@ -36,20 +36,23 @@ export default component$(() => {
   if (data.value !== null) {
     return (
       <article>
-        {data.value.data.map(({ id, src, pronunciation, translation }: any) => (
-          <Line
-            key={id}
-            id={id}
-            src={src}
-            pronunciation={pronunciation}
-            translation={translation}
-          />
-        ))}
+        {data.value.data.map(
+          ({ id, src, pronunciation, translation, vicar }: any) => (
+            <Line
+              key={id}
+              id={id}
+              src={src}
+              pronunciation={pronunciation}
+              translation={translation}
+              vicar={vicar}
+            />
+          ),
+        )}
         <BottomBar
           prevLink={
-            data.value.paging?.previous && `/b/${data.value.paging.previous}`
+            data.value.paging?.previous && `/${data.value.paging.previous}`
           }
-          nextLink={data.value.paging?.next && `/b/${data.value.paging.next}`}
+          nextLink={data.value.paging?.next && `/${data.value.paging.next}`}
         />
       </article>
     );

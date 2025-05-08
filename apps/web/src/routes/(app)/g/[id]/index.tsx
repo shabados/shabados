@@ -56,12 +56,18 @@ interface DataPronunciationsType {
 }
 interface DataTranslationsType {
   en?: string;
+  Guru?: string;
+  es?: string;
+}
+interface DataNotesType {
+  Guru?: string;
 }
 
 interface DataProps {
   src: DataSrcType;
   pronunciations: DataPronunciationsType;
   translations: DataTranslationsType;
+  notes: DataNotesType;
 }
 
 export default component$(() => {
@@ -75,13 +81,20 @@ export default component$(() => {
     <article>
       {res.map((value) =>
         value.data.default.src.map(
-          ({ src, pronunciations, translations }: DataProps) => (
+          ({ src, pronunciations, translations, notes }: DataProps) => (
             <Line
               key={1}
               id={1}
               src={src.data}
-              translation={translations?.en || ''}
               pronunciation={pronunciations?.Latn || ''}
+              translation={translations?.en || ''}
+              vicar={
+                translations?.Guru
+                  ? notes?.Guru
+                    ? translations?.Guru + ' ' + notes?.Guru
+                    : translations?.Guru
+                  : notes?.Guru || ''
+              }
             />
           ),
         ),

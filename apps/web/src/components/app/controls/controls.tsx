@@ -32,6 +32,7 @@ import Pause from '~/components/icons/ui/pause';
 import Continuous from '~/components/icons/ui/continuous';
 import Centered from '~/components/icons/ui/centered';
 import zoomValues from '~/lib/zoomValues';
+import Ratio from '~/components/icons/ui/ratio';
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -100,6 +101,28 @@ export default component$(() => {
                   e.target.valueAsNumber
                 ].toString()}em`;
                 controlsStore.zoom = e.target.valueAsNumber;
+              }}
+            />
+          </div>
+          <div class='controls__option'>
+            <div class='controls__label'>
+              <Ratio />
+              Ratio
+            </div>
+
+            <input
+              type='range'
+              min={100}
+              max={200}
+              step={25}
+              value={controlsStore.factor}
+              onChange$={(e) => {
+                setLocalStorage('controlsFactor', e.target.value);
+                document.documentElement.setAttribute(
+                  'data-factor',
+                  e.target.value,
+                );
+                controlsStore.factor = e.target.valueAsNumber;
               }}
             />
           </div>
@@ -499,6 +522,24 @@ export default component$(() => {
               Translations
             </div>
             <Switch toggled={!!controlsStore.translationField} />
+          </div>
+          <div
+            class='controls__option clickable'
+            onClick$={() => {
+              controlsStore.vicarField = isNaN(controlsStore.vicarField)
+                ? 0
+                : 1 - controlsStore.vicarField;
+              setLocalStorage(
+                'controlsVicarField',
+                controlsStore.vicarField.toString(),
+              );
+            }}
+          >
+            <div class='controls__label'>
+              <Translation />
+              Gurbānī Vīcār
+            </div>
+            <Switch toggled={!!controlsStore.vicarField} />
           </div>
           <hr />
           <div>

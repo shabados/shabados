@@ -30,6 +30,7 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 
 export type Controls = {
   zoom: number;
+  factor: number;
   mode: string;
   width: string;
   centered: number;
@@ -40,6 +41,7 @@ export type Controls = {
   vishraman: number;
   pronunciationField: number;
   translationField: number;
+  vicarField: number;
 };
 
 export const ControlsContext = createContextId<Controls>(
@@ -83,6 +85,7 @@ export const getLocalStorage = (key: string) => {
 export default component$(() => {
   const controlsStore = useStore({
     zoom: 2,
+    factor: 150,
     mode: 'classic',
     width: 'base',
     centered: 1,
@@ -93,6 +96,7 @@ export default component$(() => {
     vishraman: 1,
     pronunciationField: 0,
     translationField: 1,
+    vicarField: 0,
   });
   useContextProvider(ControlsContext, controlsStore);
 
@@ -117,6 +121,9 @@ export default component$(() => {
     uiStore.slideshow = false; // always set slideshow to "off" on load
 
     controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '2');
+    controlsStore.factor = parseFloat(
+      getLocalStorage('controlsFactor') ?? '150',
+    );
     controlsStore.mode = getLocalStorage('controlsMode') ?? 'classic';
     controlsStore.width = getLocalStorage('controlsWidth') ?? 'base';
     controlsStore.centered = parseInt(
@@ -136,6 +143,9 @@ export default component$(() => {
     controlsStore.translationField = parseInt(
       getLocalStorage('controlsTranslationField') ?? '1',
     );
+    controlsStore.vicarField = parseInt(
+      getLocalStorage('controlsVicarField') ?? '0',
+    );
 
     userDataStore.history = JSON.parse(
       getLocalStorage('userDataHistory') ?? '{}',
@@ -146,7 +156,11 @@ export default component$(() => {
 
     if (url.pathname !== '/' && !url.pathname.includes('/search/')) {
       userDataStore.history[url.pathname] = {};
-      if (url.pathname.includes('/f/')) {
+      if (
+        url.pathname.includes('/sggs/') ||
+        url.pathname.includes('/sdgr/') ||
+        url.pathname.includes('/gjnl/')
+      ) {
         const m: { [key: string]: { [key: string]: string } } = {
           sggs: { title: 'ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ', leaf: 'ਅੰਗ' },
           sdgr: { title: 'ਸ੍ਰੀ ਦਸਮ ਗ੍ਰੰਥ', leaf: 'ਅੰਗ' },
