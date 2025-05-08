@@ -3,7 +3,7 @@
     opacity: 0;
   }
   100% {
-    opacity: var(--alpha-80);
+    opacity: 0.8;
   }
 }
 

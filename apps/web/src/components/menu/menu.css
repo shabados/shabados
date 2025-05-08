@@ -12,7 +12,7 @@
   width: 100vw;
   height: 100vh;
   background-color: var(--bg);
-  opacity: var(--alpha-80);
+  opacity: 0.8;
   position: fixed;
   max-width: none;
 }

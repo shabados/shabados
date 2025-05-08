@@ -3,7 +3,7 @@
 }
 
 .media-link.button:hover {
-  opacity: var(--alpha-80);
+  opacity: 0.8;
   transform: scale(1.025);
 }
 

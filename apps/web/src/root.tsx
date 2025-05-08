@@ -65,6 +65,7 @@ export default component$(() => {
             document.documentElement.setAttribute('data-larivar', localStorage.controlsLarivar || '0');
             document.documentElement.style.fontSize = localStorage.controlsZoom ? localStorage.controlsZoom + 'em' : '1em';
             document.documentElement.setAttribute('data-factor', localStorage.controlsFactor || '1.5');
+            document.documentElement.setAttribute('data-appearance', localStorage.controlsAppearance || 'auto');
           `}
         />
       </head>

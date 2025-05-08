@@ -34,14 +34,15 @@ export type Controls = {
   mode: string;
   width: string;
   centered: number;
-  slideshowType: string;
-  notes: number;
-  notesContent: string;
   larivar: number;
   vishraman: number;
   pronunciationField: number;
   translationField: number;
   vicarField: number;
+  notes: number;
+  notesContent: string;
+  slideshowType: string;
+  appearance: string;
 };
 
 export const ControlsContext = createContextId<Controls>(
@@ -77,9 +78,9 @@ export const setLocalStorage = (key: string, value: string) => {
 };
 
 export const getLocalStorage = (key: string) => {
-  if (typeof window !== 'undefined') {
-    return localStorage.getItem(key);
-  }
+  if (typeof window === 'undefined')
+    throw new Error('Tried to access local storage on the server');
+  return localStorage.getItem(key);
 };
 
 export default component$(() => {
@@ -89,14 +90,15 @@ export default component$(() => {
     mode: 'classic',
     width: 'base',
     centered: 1,
-    slideshowType: 'blank',
-    notes: 0,
-    notesContent: '',
     larivar: 1,
     vishraman: 1,
     pronunciationField: 0,
     translationField: 1,
     vicarField: 0,
+    notes: 0,
+    notesContent: '',
+    slideshowType: 'blank',
+    appearance: 'auto',
   });
   useContextProvider(ControlsContext, controlsStore);
 
@@ -120,32 +122,55 @@ export default component$(() => {
   useVisibleTask$(() => {
     uiStore.slideshow = false; // always set slideshow to "off" on load
 
-    controlsStore.zoom = parseFloat(getLocalStorage('controlsZoom') ?? '2');
-    controlsStore.factor = parseFloat(
-      getLocalStorage('controlsFactor') ?? '150',
+    controlsStore.zoom ??= parseFloat(
+      getLocalStorage('controlsZoom') as string,
     );
-    controlsStore.mode = getLocalStorage('controlsMode') ?? 'classic';
-    controlsStore.width = getLocalStorage('controlsWidth') ?? 'base';
-    controlsStore.centered = parseInt(
-      getLocalStorage('controlsCentered') ?? '1',
-    );
+
+    controlsStore.factor =
+      parseFloat(getLocalStorage('controlsFactor') as string) ??
+      controlsStore.factor;
+
+    controlsStore.mode = getLocalStorage('controlsMode') ?? controlsStore.mode;
+
+    controlsStore.width =
+      getLocalStorage('controlsWidth') ?? controlsStore.width;
+
+    controlsStore.centered =
+      parseInt(getLocalStorage('controlsCentered') as string) ??
+      controlsStore.centered;
+
+    controlsStore.larivar =
+      parseInt(getLocalStorage('controlsLarivar') as string) ??
+      controlsStore.larivar;
+
+    controlsStore.vishraman =
+      parseInt(getLocalStorage('controlsVishraman') as string) ??
+      controlsStore.vishraman;
+
+    controlsStore.pronunciationField =
+      parseInt(getLocalStorage('controlsPronunciationField') as string) ??
+      controlsStore.pronunciationField;
+
+    controlsStore.translationField =
+      parseInt(getLocalStorage('controlsTranslationField') as string) ??
+      controlsStore.translationField;
+
+    controlsStore.vicarField =
+      parseInt(getLocalStorage('controlsVicarField') as string) ??
+      controlsStore.vicarField;
+
+    controlsStore.notes =
+      parseInt(getLocalStorage('controlsNotes') as string) ??
+      controlsStore.notes;
+
+    controlsStore.notesContent =
+      getLocalStorage('controlsNotesContent') ?? controlsStore.notesContent;
+
     controlsStore.slideshowType =
-      getLocalStorage('controlsSlideshowType') ?? 'blank';
-    controlsStore.notes = parseInt(getLocalStorage('controlsNotes') ?? '0');
-    controlsStore.notesContent = getLocalStorage('controlsNotesContent') ?? '';
-    controlsStore.larivar = parseInt(getLocalStorage('controlsLarivar') ?? '0');
-    controlsStore.vishraman = parseInt(
-      getLocalStorage('controlsVishraman') ?? '1',
-    );
-    controlsStore.pronunciationField = parseInt(
-      getLocalStorage('controlsPronunciationField') ?? '0',
-    );
-    controlsStore.translationField = parseInt(
-      getLocalStorage('controlsTranslationField') ?? '1',
-    );
-    controlsStore.vicarField = parseInt(
-      getLocalStorage('controlsVicarField') ?? '0',
-    );
+      getLocalStorage('controlsSlideshowType') ?? controlsStore.slideshowType;
+
+    controlsStore.appearance =
+      getLocalStorage('controlsAppearance') ?? controlsStore.appearance;
 
     userDataStore.history = JSON.parse(
       getLocalStorage('userDataHistory') ?? '{}',

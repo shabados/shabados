@@ -33,6 +33,7 @@ import Continuous from '~/components/icons/ui/continuous';
 import Centered from '~/components/icons/ui/centered';
 import zoomValues from '~/lib/zoomValues';
 import Ratio from '~/components/icons/ui/ratio';
+import Appearance from '~/components/icons/ui/appearance';
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -270,145 +271,6 @@ export default component$(() => {
 
           <hr />
 
-          <div>
-            <div class='controls__label'>
-              <Slideshow />
-              Slideshow
-            </div>
-            <div class='controls__grid'>
-              <a
-                class={`controls__card ${
-                  controlsStore.slideshowType == 'blank' &&
-                  uiStore.slideshow &&
-                  'controls__card__active'
-                }`}
-                href='#'
-                preventdefault:click
-                onClick$={() => {
-                  const v = 'blank';
-
-                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
-                    // untoggle
-                    uiStore.slideshow = false;
-                  } else {
-                    setLocalStorage('controlsSlideshowType', v);
-                    controlsStore.slideshowType = v;
-                    uiStore.slideshow = true;
-                  }
-                }}
-              >
-                Blank
-              </a>
-              <a
-                class={`controls__card ${
-                  controlsStore.slideshowType == 'waheguru' &&
-                  uiStore.slideshow &&
-                  'controls__card__active'
-                }`}
-                href='#'
-                preventdefault:click
-                onClick$={() => {
-                  const v = 'waheguru';
-
-                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
-                    // untoggle
-                    uiStore.slideshow = false;
-                  } else {
-                    setLocalStorage('controlsSlideshowType', v);
-                    controlsStore.slideshowType = v;
-                    uiStore.slideshow = true;
-                  }
-                }}
-              >
-                Waheguru
-              </a>
-              <a
-                class={`controls__card ${
-                  controlsStore.slideshowType == 'wjkk' &&
-                  uiStore.slideshow &&
-                  'controls__card__active'
-                }`}
-                href='#'
-                preventdefault:click
-                onClick$={() => {
-                  const v = 'wjkk';
-
-                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
-                    // untoggle
-                    uiStore.slideshow = false;
-                  } else {
-                    setLocalStorage('controlsSlideshowType', v);
-                    controlsStore.slideshowType = v;
-                    uiStore.slideshow = true;
-                  }
-                }}
-              >
-                Wjkk Wjkf
-              </a>
-              <a
-                class={`controls__card ${
-                  controlsStore.slideshowType == 'mulmantar' &&
-                  uiStore.slideshow &&
-                  'controls__card__active'
-                }`}
-                href='#'
-                preventdefault:click
-                onClick$={() => {
-                  const v = 'mulmantar';
-
-                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
-                    // untoggle
-                    uiStore.slideshow = false;
-                  } else {
-                    setLocalStorage('controlsSlideshowType', v);
-                    controlsStore.slideshowType = v;
-                    uiStore.slideshow = true;
-                  }
-                }}
-              >
-                Mul Mantar
-              </a>
-              <a
-                class={`controls__card ${
-                  controlsStore.slideshowType == 'bsnssa' &&
-                  uiStore.slideshow &&
-                  'controls__card__active'
-                }`}
-                href='#'
-                preventdefault:click
-                onClick$={() => {
-                  const v = 'bsnssa';
-
-                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
-                    // untoggle
-                    uiStore.slideshow = false;
-                  } else {
-                    setLocalStorage('controlsSlideshowType', v);
-                    controlsStore.slideshowType = v;
-                    uiStore.slideshow = true;
-                  }
-                }}
-              >
-                Bole So Nihal
-              </a>
-            </div>
-          </div>
-          <div
-            class='controls__option clickable'
-            onClick$={() => {
-              controlsStore.notes = isNaN(controlsStore.notes)
-                ? 0
-                : 1 - controlsStore.notes;
-              setLocalStorage('controlsNotes', controlsStore.notes.toString());
-            }}
-          >
-            <div class='controls__label'>
-              <Notes />
-              Notes
-            </div>
-            <Switch toggled={!!controlsStore.notes} />
-          </div>
-          <hr />
           <div
             class='controls__option clickable'
             onClick$={() => {
@@ -541,7 +403,207 @@ export default component$(() => {
             </div>
             <Switch toggled={!!controlsStore.vicarField} />
           </div>
+
           <hr />
+
+          <div
+            class='controls__option clickable'
+            onClick$={() => {
+              controlsStore.notes = isNaN(controlsStore.notes)
+                ? 0
+                : 1 - controlsStore.notes;
+              setLocalStorage('controlsNotes', controlsStore.notes.toString());
+            }}
+          >
+            <div class='controls__label'>
+              <Notes />
+              Notes
+            </div>
+            <Switch toggled={!!controlsStore.notes} />
+          </div>
+          <div>
+            <div class='controls__label'>
+              <Slideshow />
+              Slideshow
+            </div>
+            <div class='controls__grid'>
+              <a
+                class={`controls__card ${
+                  controlsStore.slideshowType == 'blank' &&
+                  uiStore.slideshow &&
+                  'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'blank';
+
+                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
+                    // untoggle
+                    uiStore.slideshow = false;
+                  } else {
+                    setLocalStorage('controlsSlideshowType', v);
+                    controlsStore.slideshowType = v;
+                    uiStore.slideshow = true;
+                  }
+                }}
+              >
+                Blank
+              </a>
+              <a
+                class={`controls__card ${
+                  controlsStore.slideshowType == 'waheguru' &&
+                  uiStore.slideshow &&
+                  'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'waheguru';
+
+                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
+                    // untoggle
+                    uiStore.slideshow = false;
+                  } else {
+                    setLocalStorage('controlsSlideshowType', v);
+                    controlsStore.slideshowType = v;
+                    uiStore.slideshow = true;
+                  }
+                }}
+              >
+                Waheguru
+              </a>
+              <a
+                class={`controls__card ${
+                  controlsStore.slideshowType == 'wjkk' &&
+                  uiStore.slideshow &&
+                  'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'wjkk';
+
+                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
+                    // untoggle
+                    uiStore.slideshow = false;
+                  } else {
+                    setLocalStorage('controlsSlideshowType', v);
+                    controlsStore.slideshowType = v;
+                    uiStore.slideshow = true;
+                  }
+                }}
+              >
+                Wjkk Wjkf
+              </a>
+              <a
+                class={`controls__card ${
+                  controlsStore.slideshowType == 'mulmantar' &&
+                  uiStore.slideshow &&
+                  'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'mulmantar';
+
+                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
+                    // untoggle
+                    uiStore.slideshow = false;
+                  } else {
+                    setLocalStorage('controlsSlideshowType', v);
+                    controlsStore.slideshowType = v;
+                    uiStore.slideshow = true;
+                  }
+                }}
+              >
+                Mul Mantar
+              </a>
+              <a
+                class={`controls__card ${
+                  controlsStore.slideshowType == 'bsnssa' &&
+                  uiStore.slideshow &&
+                  'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'bsnssa';
+
+                  if (controlsStore.slideshowType == v && uiStore.slideshow) {
+                    // untoggle
+                    uiStore.slideshow = false;
+                  } else {
+                    setLocalStorage('controlsSlideshowType', v);
+                    controlsStore.slideshowType = v;
+                    uiStore.slideshow = true;
+                  }
+                }}
+              >
+                Bole So Nihal
+              </a>
+            </div>
+          </div>
+
+          <hr />
+
+          <div>
+            <div class='controls__label'>
+              <Appearance />
+              Appearance
+            </div>
+            <div class='controls__grid'>
+              <a
+                class={`controls__card ${
+                  controlsStore.appearance == 'light' &&
+                  'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'light';
+                  setLocalStorage('controlsAppearance', v);
+                  controlsStore.appearance = v;
+                  document.documentElement.setAttribute('data-appearance', v);
+                }}
+              >
+                Light
+              </a>
+              <a
+                class={`controls__card ${
+                  controlsStore.appearance == 'dark' && 'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'dark';
+                  setLocalStorage('controlsAppearance', v);
+                  controlsStore.appearance = v;
+                  document.documentElement.setAttribute('data-appearance', v);
+                }}
+              >
+                Dark
+              </a>
+              <a
+                class={`controls__card ${
+                  controlsStore.appearance == 'auto' && 'controls__card__active'
+                }`}
+                href='#'
+                preventdefault:click
+                onClick$={() => {
+                  const v = 'auto';
+                  setLocalStorage('controlsAppearance', v);
+                  controlsStore.appearance = v;
+                  document.documentElement.setAttribute('data-appearance', v);
+                }}
+              >
+                Auto
+              </a>
+            </div>
+          </div>
+
+          <hr />
+
           <div>
             <div class='controls__label'>
               <ExternalLink />

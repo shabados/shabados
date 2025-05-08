@@ -27,14 +27,6 @@ html[data-factor='200'] {
   outline: none;
 }
 
-@media (dynamic-range: high) {
-  @supports (color: oklch(0 0 0)) {
-    .statusbar::before {
-      background: oklch(var(--bg-values) / 0.92);
-    }
-  }
-}
-
 .ui {
   font-size: 16px;
 }
