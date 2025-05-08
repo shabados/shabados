@@ -50,7 +50,11 @@ export default component$(() => {
           href='/media/apple-touch-icon.png'
         />
         <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+        <link
+          rel='preconnect'
+          href='https://fonts.gstatic.com'
+          crossOrigin='anonymous'
+        />
         <link
           href='https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap'
           rel='stylesheet'
@@ -58,16 +62,28 @@ export default component$(() => {
         <RouterHead />
         <script
           dangerouslySetInnerHTML={`
-            document.documentElement.setAttribute('data-mode', localStorage.controlsMode || 'classic');
-            document.documentElement.setAttribute('data-width', localStorage.controlsWidth || 'base');
-            document.documentElement.setAttribute('data-centered', localStorage.controlsCentered || '1');
-            document.documentElement.setAttribute('data-vishraman', localStorage.controlsVishraman || '1');
-            document.documentElement.setAttribute('data-larivar', localStorage.controlsLarivar || '0');
+
+            const controlsStore = JSON.parse(localStorage.getItem('controlsStore')) || {};
+
             // must match same in lib/zoomValues.ts
             const zoomValues = [0.75, 0.875, 1, 1.125, 1.25, 1.375, 1.5, 1.675, 1.75, 1.875, 2, 2.5, 3, 3.5, 4, 5, 6];
-            document.documentElement.style.fontSize = localStorage.controlsZoom ? zoomValues[localStorage.controlsZoom] + 'em' : '1em';
-            document.documentElement.setAttribute('data-factor', localStorage.controlsFactor || '1.5');
-            document.documentElement.setAttribute('data-appearance', localStorage.controlsAppearance || 'auto');
+
+            // must match defaults in (app)/layout.tsx
+            document.documentElement.style.fontSize = controlsStore.zoom ? zoomValues[controlsStore.zoom] + 'em' : '1.25em';
+            document.documentElement.setAttribute('data-factor', controlsStore.factor ?? '150');
+            document.documentElement.setAttribute('data-mode', controlsStore.mode ?? 'reader');
+            document.documentElement.setAttribute('data-width', controlsStore.width ?? 'wider');
+            document.documentElement.setAttribute('data-centered', controlsStore.centered ?? '1');
+            document.documentElement.setAttribute('data-larivar', controlsStore.larivaar ?? '0');
+            document.documentElement.setAttribute('data-vishraman', controlsStore.vishraman ?? '1');
+            document.documentElement.setAttribute('data-appearance', controlsStore.appearance ?? 'auto');
+
+            const path = new URL(window.location.href).pathname;
+            if (path == '/') {
+              document.documentElement.style.fontSize = '1em';
+              document.documentElement.setAttribute('data-width', 'base');
+            }
+
           `}
         />
       </head>

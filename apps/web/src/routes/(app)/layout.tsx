@@ -38,11 +38,28 @@ export type Controls = {
   vishraman: number;
   pronunciationField: number;
   translationField: number;
-  vicarField: number;
+  viakhiaField: number;
   notes: number;
   notesContent: string;
   slideshowType: string;
   appearance: string;
+};
+
+const controlsDefault: Controls = {
+  zoom: 4,
+  factor: 150,
+  mode: 'reader',
+  width: 'wider',
+  centered: 1,
+  larivar: 0,
+  vishraman: 1,
+  pronunciationField: 0,
+  translationField: 1,
+  viakhiaField: 1,
+  notes: 0,
+  notesContent: '',
+  slideshowType: 'blank',
+  appearance: 'auto',
 };
 
 export const ControlsContext = createContextId<Controls>(
@@ -73,33 +90,24 @@ export const UserDataContext = createContextId<UserData>(
   'com.shabados.app.user-data-context',
 );
 
-export const setLocalStorage = (key: string, value: string) => {
-  localStorage.setItem(key, value);
+export const setLocalStorage = (key: string, obj: object) => {
+  localStorage.setItem(key, JSON.stringify(obj));
 };
 
 export const getLocalStorage = (key: string) => {
   if (typeof window === 'undefined')
     throw new Error('Tried to access local storage on the server');
-  return localStorage.getItem(key);
+
+  return JSON.parse(localStorage.getItem(key) as string) || JSON.parse('{}');
+};
+
+// create deserialized Controls object
+export const jsonToControls = (json: string): Controls => {
+  return JSON.parse(json);
 };
 
 export default component$(() => {
-  const controlsStore = useStore({
-    zoom: 2,
-    factor: 150,
-    mode: 'classic',
-    width: 'base',
-    centered: 1,
-    larivar: 1,
-    vishraman: 1,
-    pronunciationField: 0,
-    translationField: 1,
-    vicarField: 0,
-    notes: 0,
-    notesContent: '',
-    slideshowType: 'blank',
-    appearance: 'auto',
-  });
+  const controlsStore = useStore(controlsDefault);
   useContextProvider(ControlsContext, controlsStore);
 
   const uiStore = useStore({
@@ -122,62 +130,23 @@ export default component$(() => {
   useVisibleTask$(() => {
     uiStore.slideshow = false; // always set slideshow to "off" on load
 
-    controlsStore.zoom =
-      parseFloat(getLocalStorage('controlsZoom') as string) ??
-      controlsStore.zoom;
+    const localControlsStore = getLocalStorage('controlsStore');
+    if (localControlsStore) {
+      Object.entries(localControlsStore).map(([key, value]) => {
+        if (
+          key in controlsStore &&
+          typeof controlsStore[key as keyof Controls] === typeof value
+        ) {
+          (controlsStore as any)[key] = value;
+        }
+      });
+    }
 
-    controlsStore.factor =
-      parseFloat(getLocalStorage('controlsFactor') as string) ??
-      controlsStore.factor;
-
-    controlsStore.mode = getLocalStorage('controlsMode') ?? controlsStore.mode;
-
-    controlsStore.width =
-      getLocalStorage('controlsWidth') ?? controlsStore.width;
-
-    controlsStore.centered =
-      parseInt(getLocalStorage('controlsCentered') as string) ??
-      controlsStore.centered;
-
-    controlsStore.larivar =
-      parseInt(getLocalStorage('controlsLarivar') as string) ??
-      controlsStore.larivar;
-
-    controlsStore.vishraman =
-      parseInt(getLocalStorage('controlsVishraman') as string) ??
-      controlsStore.vishraman;
-
-    controlsStore.pronunciationField =
-      parseInt(getLocalStorage('controlsPronunciationField') as string) ??
-      controlsStore.pronunciationField;
-
-    controlsStore.translationField =
-      parseInt(getLocalStorage('controlsTranslationField') as string) ??
-      controlsStore.translationField;
-
-    controlsStore.vicarField =
-      parseInt(getLocalStorage('controlsVicarField') as string) ??
-      controlsStore.vicarField;
-
-    controlsStore.notes =
-      parseInt(getLocalStorage('controlsNotes') as string) ??
-      controlsStore.notes;
-
-    controlsStore.notesContent =
-      getLocalStorage('controlsNotesContent') ?? controlsStore.notesContent;
-
-    controlsStore.slideshowType =
-      getLocalStorage('controlsSlideshowType') ?? controlsStore.slideshowType;
-
-    controlsStore.appearance =
-      getLocalStorage('controlsAppearance') ?? controlsStore.appearance;
-
-    userDataStore.history = JSON.parse(
-      getLocalStorage('userDataHistory') ?? '{}',
-    );
-    userDataStore.archive = JSON.parse(
-      getLocalStorage('userDataArchive') ?? '{}',
-    );
+    const localUserDataStore = getLocalStorage('userDataStore');
+    if (localUserDataStore) {
+      userDataStore.history = localUserDataStore.history ?? JSON.parse('{}');
+      userDataStore.archive = localUserDataStore.archive ?? JSON.parse('{}');
+    }
 
     if (url.pathname !== '/' && !url.pathname.includes('/search/')) {
       userDataStore.history[url.pathname] = {};
@@ -230,7 +199,7 @@ export default component$(() => {
           m[url.pathname.split('/').slice(-2, -1)[0]];
       }
       userDataStore.history[url.pathname]['time'] = new Date().valueOf();
-      setLocalStorage('userDataHistory', JSON.stringify(userDataStore.history));
+      setLocalStorage('userDataStore', userDataStore);
     }
 
     requestWakeLock();
@@ -259,7 +228,7 @@ export default component$(() => {
   });
 
   const updateZoomDom = $((v: number) => {
-    setLocalStorage('controlsZoom', String(v));
+    setLocalStorage('controls', controlsStore);
     document.documentElement.style.fontSize = `${zoomValues[v]}em`;
   });
 
@@ -358,7 +327,7 @@ export default component$(() => {
               value={controlsStore.notesContent}
               onChange$={(e) => {
                 controlsStore.notesContent = e.target.value;
-                setLocalStorage('controlsNotesContent', e.target.value);
+                setLocalStorage('controls', controlsStore);
               }}
             />
           )}

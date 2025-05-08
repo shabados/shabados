@@ -37,14 +37,14 @@ export default component$(() => {
     return (
       <article>
         {data.value.data.map(
-          ({ id, src, pronunciation, translation, vicar }: any) => (
+          ({ id, src, pronunciation, translation, viakhia }: any) => (
             <Line
               key={id}
               id={id}
               src={src}
               pronunciation={pronunciation}
               translation={translation}
-              vicar={vicar}
+              viakhia={viakhia}
             />
           ),
         )}

@@ -1,10 +1,12 @@
 import {
+  $,
   component$,
   useContext,
   useStylesScoped$,
   useVisibleTask$,
 } from '@builder.io/qwik';
 import {
+  Controls,
   ControlsContext,
   UiContext,
   setLocalStorage,
@@ -39,6 +41,12 @@ export default component$(() => {
   useStylesScoped$(styles);
   const controlsStore = useContext(ControlsContext);
   const uiStore = useContext(UiContext);
+  const updateControls = $(
+    <Key extends keyof Controls>(key: Key, value: Controls[Key]) => {
+      controlsStore[key] = value;
+      setLocalStorage('controlsStore', controlsStore);
+    },
+  );
   useVisibleTask$(() => {
     uiStore.fullscreen = !!document.fullscreenElement;
   });
@@ -94,11 +102,10 @@ export default component$(() => {
               step={1}
               value={controlsStore.zoom}
               onChange$={(e) => {
-                setLocalStorage('controlsZoom', e.target.value);
+                updateControls('zoom', e.target.valueAsNumber);
                 document.documentElement.style.fontSize = `${zoomValues[
                   e.target.valueAsNumber
                 ].toString()}em`;
-                controlsStore.zoom = e.target.valueAsNumber;
               }}
             />
           </div>
@@ -115,12 +122,11 @@ export default component$(() => {
               step={25}
               value={controlsStore.factor}
               onChange$={(e) => {
-                setLocalStorage('controlsFactor', e.target.value);
+                updateControls('factor', e.target.valueAsNumber);
                 document.documentElement.setAttribute(
                   'data-factor',
                   e.target.value,
                 );
-                controlsStore.factor = e.target.valueAsNumber;
               }}
             />
           </div>
@@ -138,8 +144,7 @@ export default component$(() => {
                 preventdefault:click
                 onClick$={() => {
                   const v = 'classic';
-                  setLocalStorage('controlsMode', v);
-                  controlsStore.mode = v;
+                  updateControls('mode', v);
                   document.documentElement.setAttribute('data-mode', v);
                 }}
               >
@@ -153,8 +158,7 @@ export default component$(() => {
                 preventdefault:click
                 onClick$={() => {
                   const v = 'presenter';
-                  setLocalStorage('controlsMode', v);
-                  controlsStore.mode = v;
+                  updateControls('mode', v);
                   document.documentElement.setAttribute('data-mode', v);
                 }}
               >
@@ -168,8 +172,7 @@ export default component$(() => {
                 preventdefault:click
                 onClick$={() => {
                   const v = 'reader';
-                  setLocalStorage('controlsMode', v);
-                  controlsStore.mode = v;
+                  updateControls('mode', v);
                   document.documentElement.setAttribute('data-mode', v);
                 }}
               >
@@ -183,8 +186,7 @@ export default component$(() => {
                 preventdefault:click
                 onClick$={() => {
                   const v = 'saral';
-                  setLocalStorage('controlsMode', v);
-                  controlsStore.mode = v;
+                  updateControls('mode', v);
                   document.documentElement.setAttribute('data-mode', v);
                 }}
               >
@@ -207,9 +209,7 @@ export default component$(() => {
                 preventdefault:click
                 onClick$={() => {
                   const v = 'narrower';
-                  setLocalStorage('controlsWidth', v);
-                  controlsStore.width = v;
-
+                  updateControls('width', v);
                   document.documentElement.setAttribute('data-width', v);
                 }}
               >
@@ -223,9 +223,7 @@ export default component$(() => {
                 preventdefault:click
                 onClick$={() => {
                   const v = 'base';
-                  setLocalStorage('controlsWidth', v);
-                  controlsStore.width = v;
-
+                  updateControls('width', v);
                   document.documentElement.setAttribute('data-width', v);
                 }}
               >
@@ -239,9 +237,7 @@ export default component$(() => {
                 preventdefault:click
                 onClick$={() => {
                   const v = 'wider';
-                  setLocalStorage('controlsWidth', v);
-                  controlsStore.width = v;
-
+                  updateControls('width', v);
                   document.documentElement.setAttribute('data-width', v);
                 }}
               >
@@ -255,9 +251,7 @@ export default component$(() => {
                 preventdefault:click
                 onClick$={() => {
                   const v = 'widest';
-                  setLocalStorage('controlsWidth', v);
-                  controlsStore.width = v;
-
+                  updateControls('width', v);
                   document.documentElement.setAttribute('data-width', v);
                 }}
               >
@@ -271,12 +265,9 @@ export default component$(() => {
           <div
             class='controls__option clickable'
             onClick$={() => {
-              controlsStore.centered = isNaN(controlsStore.centered)
-                ? 0
-                : 1 - controlsStore.centered;
-              setLocalStorage(
-                'controlsCentered',
-                controlsStore.centered.toString(),
+              updateControls(
+                'centered',
+                isNaN(controlsStore.centered) ? 0 : 1 - controlsStore.centered,
               );
               document.documentElement.setAttribute(
                 'data-centered',
@@ -293,12 +284,9 @@ export default component$(() => {
           <div
             class='controls__option clickable'
             onClick$={() => {
-              controlsStore.larivar = isNaN(controlsStore.larivar)
-                ? 0
-                : 1 - controlsStore.larivar;
-              setLocalStorage(
-                'controlsLarivar',
-                controlsStore.larivar.toString(),
+              updateControls(
+                'larivar',
+                isNaN(controlsStore.larivar) ? 0 : 1 - controlsStore.larivar,
               );
               document.documentElement.setAttribute(
                 'data-larivar',
@@ -320,12 +308,11 @@ export default component$(() => {
               if (controlsStore.larivar) {
                 return;
               }
-              controlsStore.vishraman = isNaN(controlsStore.vishraman)
-                ? 0
-                : 1 - controlsStore.vishraman;
-              setLocalStorage(
-                'controlsVishraman',
-                controlsStore.vishraman.toString(),
+              updateControls(
+                'vishraman',
+                isNaN(controlsStore.vishraman)
+                  ? 0
+                  : 1 - controlsStore.vishraman,
               );
               document.documentElement.setAttribute(
                 'data-vishraman',
@@ -345,14 +332,11 @@ export default component$(() => {
           <div
             class='controls__option clickable'
             onClick$={() => {
-              controlsStore.pronunciationField = isNaN(
-                controlsStore.pronunciationField,
-              )
-                ? 0
-                : 1 - controlsStore.pronunciationField;
-              setLocalStorage(
-                'controlsPronunciationField',
-                controlsStore.pronunciationField.toString(),
+              updateControls(
+                'pronunciationField',
+                isNaN(controlsStore.pronunciationField)
+                  ? 0
+                  : 1 - controlsStore.pronunciationField,
               );
             }}
           >
@@ -365,14 +349,11 @@ export default component$(() => {
           <div
             class='controls__option clickable'
             onClick$={() => {
-              controlsStore.translationField = isNaN(
-                controlsStore.translationField,
-              )
-                ? 0
-                : 1 - controlsStore.translationField;
-              setLocalStorage(
-                'controlsTranslationField',
-                controlsStore.translationField.toString(),
+              updateControls(
+                'translationField',
+                isNaN(controlsStore.translationField)
+                  ? 0
+                  : 1 - controlsStore.translationField,
               );
             }}
           >
@@ -385,20 +366,19 @@ export default component$(() => {
           <div
             class='controls__option clickable'
             onClick$={() => {
-              controlsStore.vicarField = isNaN(controlsStore.vicarField)
-                ? 0
-                : 1 - controlsStore.vicarField;
-              setLocalStorage(
-                'controlsVicarField',
-                controlsStore.vicarField.toString(),
+              updateControls(
+                'viakhiaField',
+                isNaN(controlsStore.viakhiaField)
+                  ? 0
+                  : 1 - controlsStore.viakhiaField,
               );
             }}
           >
             <div class='controls__label'>
               <Translation />
-              Gurbānī Vīcār
+              ਵਿਆਖਿਆ
             </div>
-            <Switch toggled={!!controlsStore.vicarField} />
+            <Switch toggled={!!controlsStore.viakhiaField} />
           </div>
 
           <hr />
@@ -406,10 +386,10 @@ export default component$(() => {
           <div
             class='controls__option clickable'
             onClick$={() => {
-              controlsStore.notes = isNaN(controlsStore.notes)
-                ? 0
-                : 1 - controlsStore.notes;
-              setLocalStorage('controlsNotes', controlsStore.notes.toString());
+              updateControls(
+                'notes',
+                isNaN(controlsStore.notes) ? 0 : 1 - controlsStore.notes,
+              );
             }}
           >
             <div class='controls__label'>
@@ -439,8 +419,7 @@ export default component$(() => {
                     // untoggle
                     uiStore.slideshow = false;
                   } else {
-                    setLocalStorage('controlsSlideshowType', v);
-                    controlsStore.slideshowType = v;
+                    updateControls('slideshowType', v);
                     uiStore.slideshow = true;
                   }
                 }}
@@ -462,8 +441,7 @@ export default component$(() => {
                     // untoggle
                     uiStore.slideshow = false;
                   } else {
-                    setLocalStorage('controlsSlideshowType', v);
-                    controlsStore.slideshowType = v;
+                    updateControls('slideshowType', v);
                     uiStore.slideshow = true;
                   }
                 }}
@@ -485,8 +463,7 @@ export default component$(() => {
                     // untoggle
                     uiStore.slideshow = false;
                   } else {
-                    setLocalStorage('controlsSlideshowType', v);
-                    controlsStore.slideshowType = v;
+                    updateControls('slideshowType', v);
                     uiStore.slideshow = true;
                   }
                 }}
@@ -508,8 +485,7 @@ export default component$(() => {
                     // untoggle
                     uiStore.slideshow = false;
                   } else {
-                    setLocalStorage('controlsSlideshowType', v);
-                    controlsStore.slideshowType = v;
+                    updateControls('slideshowType', v);
                     uiStore.slideshow = true;
                   }
                 }}
@@ -531,8 +507,7 @@ export default component$(() => {
                     // untoggle
                     uiStore.slideshow = false;
                   } else {
-                    setLocalStorage('controlsSlideshowType', v);
-                    controlsStore.slideshowType = v;
+                    updateControls('slideshowType', v);
                     uiStore.slideshow = true;
                   }
                 }}
@@ -559,8 +534,7 @@ export default component$(() => {
                 preventdefault:click
                 onClick$={() => {
                   const v = 'light';
-                  setLocalStorage('controlsAppearance', v);
-                  controlsStore.appearance = v;
+                  updateControls('appearance', v);
                   document.documentElement.setAttribute('data-appearance', v);
                 }}
               >
@@ -574,8 +548,7 @@ export default component$(() => {
                 preventdefault:click
                 onClick$={() => {
                   const v = 'dark';
-                  setLocalStorage('controlsAppearance', v);
-                  controlsStore.appearance = v;
+                  updateControls('appearance', v);
                   document.documentElement.setAttribute('data-appearance', v);
                 }}
               >
@@ -589,8 +562,7 @@ export default component$(() => {
                 preventdefault:click
                 onClick$={() => {
                   const v = 'auto';
-                  setLocalStorage('controlsAppearance', v);
-                  controlsStore.appearance = v;
+                  updateControls('appearance', v);
                   document.documentElement.setAttribute('data-appearance', v);
                 }}
               >

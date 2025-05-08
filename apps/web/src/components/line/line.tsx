@@ -4,7 +4,7 @@ import styles from './line.css?inline';
 import isTitle, { isEndOfPauri } from '~/lib/isTitle';
 
 export default component$(
-  ({ id = '', src, pronunciation, translation, vicar }: any) => {
+  ({ id = '', src, pronunciation, translation, viakhia }: any) => {
     useStylesScoped$(styles);
     const controlsStore = useContext(ControlsContext);
     const uiStore = useContext(UiContext);
@@ -84,7 +84,9 @@ export default component$(
           <p>{translation}</p>
         )) ||
           ''}
-        {(controlsStore.vicarField && vicar && <p class='vicar'>{vicar}</p>) ||
+        {(controlsStore.viakhiaField && viakhia && (
+          <p class='viakhia'>{viakhia}</p>
+        )) ||
           ''}
       </div>
     );

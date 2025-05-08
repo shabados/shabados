@@ -20,9 +20,7 @@ export default component$(() => {
   const { url } = useLocation();
 
   useVisibleTask$(() => {
-    userDataStore.history = JSON.parse(
-      getLocalStorage('userDataHistory') ?? '{}',
-    );
+    userDataStore.history = getLocalStorage('userDataStore')['history'] ?? '{}';
   });
 
   const sortedHistory = Object.entries(userDataStore.history)

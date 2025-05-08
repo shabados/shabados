@@ -88,7 +88,7 @@ export default component$(() => {
               src={src.data}
               pronunciation={pronunciations?.Latn || ''}
               translation={translations?.en || ''}
-              vicar={
+              viakhia={
                 translations?.Guru
                   ? notes?.Guru
                     ? translations?.Guru + ' ' + notes?.Guru
