@@ -19,9 +19,13 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 };
 
 export const useApi = routeLoader$(async (requestEvent) => {
-  const res = await fetch(
-    `https://shabados.com/api/f/${requestEvent.params.source}`,
-  );
+  const source = requestEvent.params.source;
+  const isValidSource = ['sggs', 'sdgr', 'gjnl'];
+  if (!isValidSource.includes(source)) {
+    return null;
+  }
+
+  const res = await fetch(`https://shabados.com/api/f/${source}`);
   const data = await res.json();
 
   const leaf = parseInt(requestEvent.params.id);
@@ -47,6 +51,9 @@ export const useApi = routeLoader$(async (requestEvent) => {
 
 export default component$(() => {
   const signal = useApi();
+  if (signal.value === null) {
+    return <></>;
+  }
   const lineGroups = signal.value.data!;
   const source = signal.value.source!;
   const paging = signal.value.paging!;

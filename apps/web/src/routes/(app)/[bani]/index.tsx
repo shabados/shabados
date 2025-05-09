@@ -5,6 +5,21 @@ import Line from '~/components/line/line';
 
 export const useApi = routeLoader$(async (requestEvent) => {
   const bani = requestEvent.params.bani;
+  const isValidBani = [
+    'anand-sahib',
+    'ardas',
+    'asa-ki-var',
+    'jap-ji-sahib',
+    'jap-sahib',
+    'kabyo-bac-benti-copai',
+    'kirtan-sohila',
+    'rehras-sahib',
+    'twa-prasad-swaye',
+  ];
+  if (!isValidBani.includes(bani)) {
+    return null;
+  }
+
   const response = await fetch(`https://www.shabados.com/api/app/${bani}`);
   if (response.status !== 404) {
     const data = await response.json();
@@ -26,9 +41,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
       ],
     };
   }
-  return {
-    title: `404 - Shabad OS`,
-  };
+  return {};
 };
 
 export default component$(() => {
@@ -57,10 +70,5 @@ export default component$(() => {
       </article>
     );
   }
-  return (
-    <article>
-      <h1>404</h1>
-      <p>Not found</p>
-    </article>
-  );
+  return <></>;
 });
