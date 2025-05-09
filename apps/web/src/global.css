@@ -18,58 +18,64 @@
 
   --toner: light-dark(rgba(0% 0% 0% / 0.08), rgba(100% 100% 100% / 0.08));
 
-  --fg: light-dark(rgb(8.33% 7.46% 5.52%), rgb(100% 100% 100%));
-  --fg-muted: light-dark(rgb(57.57% 56.58% 54.63%), rgb(67% 67% 67%));
+  /* oklch(0.25 0.005 73) / oklch(1 0 0) */
+  --fg: light-dark(#23211f, #ffffff);
+  /* oklch(0.45 0.005 73) / oklch(0.8 0 0) */
+  --fg-muted: light-dark(#575552, #bebebe);
 
-  --bg: light-dark(rgb(96.078% 95.294% 94.118%), rgb(0% 0% 0%));
-  --bg-sheer: light-dark(
-    rgba(96.078% 95.294% 94.118% / 4%),
-    rgba(0% 0% 0% / 4%)
-  );
-  --bg-gauzy: light-dark(
-    rgba(96.078% 95.294% 94.118% / 12%),
-    rgba(0% 0% 0% / 12%)
-  );
-  --bg-hazy: light-dark(
-    rgba(96.078% 95.294% 94.118% / 40%),
-    rgba(0% 0% 0% / 40%)
-  );
-  --bg-opaque: light-dark(
-    rgba(96.078% 95.294% 94.118% / 92%),
-    rgba(0% 0% 0% / 92%)
-  );
+  /* oklch(0.96 0.005 73) / oklch(0 0 0) */
+  --bg: light-dark(#f4f1ee, #000000);
+  /* oklch(1 0 0) / oklch(0.25 0 0), 0.05 l is still #000 on this scale */
+  --bg-base: light-dark(#ffffff, #222222);
 
-  --bg-base: light-dark(rgb(100% 100% 100%), rgb(10% 10% 10%));
+  /* oklch(0.6 0.1667 253) / oklch(0.6667 0.1667 253) */
+  --ui: light-dark(#2381e0, #3c96f7);
+  /* oklch(0.98 0.01 253) / oklch(0.3333 0.0833 253) */
+  --ui-toner: light-dark(#f2f7fe, #113760);
 
-  --ui: light-dark(rgb(0% 48.81% 81.83%), rgb(73, 124, 253));
-  --ui-toner: light-dark(rgb(239, 244, 251), rgb(53, 61, 78));
+  /* oklch(0.5 0.1667 253) / oklch(0.6667 0.1429 253) */
+  --link: light-dark(#0062be, #4e97e9);
+  /* oklch(0.6 0.2 253) / oklch(0.7667 0.1667 253)*/
+  --link-hover: light-dark(#007ff2, #6cb7ff);
 
-  --link: light-dark(#2c64c4, rgb(128, 157, 221));
-  --link-hover: light-dark(#4395f7, rgb(149, 182, 255));
+  /*
+    light mode colors before translating:
+    use 28 as red
+    oklch(0.475 0.1 43)
+    oklch(0.45 0.12 148)
+    oklch(0.45 0.12 298)
 
-  --heavy-vishraam: light-dark(rgb(55.17% 30% 13.76%), rgb(198, 145, 110));
-  --medium-vishraam: light-dark(rgb(9.32% 42.55% 19.52%), rgb(127, 172, 128));
-  --light-vishraam: light-dark(rgb(53% 27.31% 53.51%), rgb(162, 149, 203));
+    dark mode colors before translating:
+    use 28 as red
+    oklch(0.92 0.1 73)
+    oklch(0.9 0.1 133)
+    oklch(0.89 0.1 298)
+  */
+  --heavy-vishraam: light-dark(#8a472a, #ffd493);
+  --medium-vishraam: light-dark(#13662b, #c4eda8);
+  --light-vishraam: light-dark(#5e438e, #decbff);
 
   ::selection {
-    background: light-dark('', rgb(95.76% 73.91% 23.13% / 0.4));
+    /* oklch(0.93 0.33 96.38 / 25%) / oklch(0.95 0.33 88 / 40%) */
+    background: light-dark(#ffe40040, #ffeb9766);
   }
 }
 
-@media (dynamic-range: high) {
+/* @media (dynamic-range: high) {
   @supports (color: oklch(0 0 0)) {
     :root {
       --fg: light-dark(lch(4% 2 85), oklch(100% 0% 0));
       --fg-muted: light-dark(lch(40% 2 85), oklch(66% 2% 25));
 
       --bg: light-dark(lch(96% 2 85), oklch(0% 0% 0));
-      --bg-sheer: light-dark(lch(96% 2 85 / 4%), oklch(0% 0% 0 / 4%));
+      --bg-base: light-dark(lch(100% 0 0), oklch(20% 0% 265)); */
+
+/* light-dark function isn't handling opacity for some reason as of 2025-05-09, use relative color instead */
+/* --bg-sheer: light-dark(lch(96% 2 85 / 4%), oklch(0% 0% 0 / 4%));
       --bg-gauzy: light-dark(lch(96% 2 85 / 12%), oklch(0% 0% 0 / 12%));
       --bg-hazy: light-dark(lch(96% 2 85 / 40%), oklch(0% 0% 0 / 40%));
-      --bg-opaque: light-dark(lch(96% 2 85 / 92%), oklch(0% 0% 0 / 92%));
-
-      --bg-base: light-dark(lch(100% 0 0), oklch(20% 0% 265));
-
+      --bg-opaque: light-dark(lch(96% 2 85 / 92%), oklch(0% 0% 0 / 92%)); */
+/*
       --ui: light-dark(lch(50% 66 265), oklch(85% 100% 265));
       --ui-toner: light-dark(lch(96% 4 265), oklch(36% 8% 265));
 
@@ -82,10 +88,13 @@
     }
 
     ::selection {
-      background: light-dark('', oklch(62% 50% 265 / 40%));
+      background: light-dark(
+        oklch(80% 100% 105 / 0.25),
+        oklch(90% 80% 105 / 0.4)
+      );
     }
   }
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {

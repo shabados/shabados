@@ -217,7 +217,7 @@ a.controls__option:hover {
 }
 
 .controls__card__active {
-  color: var(--ui);
+  color: var(--link);
 }
 
 @media (pointer: fine) {

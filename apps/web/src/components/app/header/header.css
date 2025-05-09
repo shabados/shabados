@@ -62,9 +62,17 @@ header a {
 }
 
 .scrolled a {
-  background: var(--bg-base-opaque);
+  background: rgb(from var(--bg-base) r g b / 0.92);
   backdrop-filter: blur(4px);
 }
+
+/* @media (dynamic-range: high) {
+  @supports (color: oklch(0 0 0)) {
+    .scrolled a {
+      background: oklch(from var(--bg-base) l c h / 0.92);
+    }
+  }
+} */
 
 header a:hover {
   text-decoration: none;
