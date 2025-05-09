@@ -536,6 +536,14 @@ export default component$(() => {
                   const v = 'light';
                   updateControls('appearance', v);
                   document.documentElement.setAttribute('data-appearance', v);
+                  const themeColor = '#f5f3f0';
+                  ['light', 'dark'].forEach((scheme) => {
+                    document
+                      .querySelector(
+                        `meta[name="theme-color"][media="(prefers-color-scheme: ${scheme})"]`,
+                      )!
+                      .setAttribute('content', themeColor);
+                  });
                 }}
               >
                 Light
@@ -550,6 +558,14 @@ export default component$(() => {
                   const v = 'dark';
                   updateControls('appearance', v);
                   document.documentElement.setAttribute('data-appearance', v);
+                  const themeColor = '#000000';
+                  ['light', 'dark'].forEach((scheme) => {
+                    document
+                      .querySelector(
+                        `meta[name="theme-color"][media="(prefers-color-scheme: ${scheme})"]`,
+                      )!
+                      .setAttribute('content', themeColor);
+                  });
                 }}
               >
                 Dark
@@ -564,6 +580,16 @@ export default component$(() => {
                   const v = 'auto';
                   updateControls('appearance', v);
                   document.documentElement.setAttribute('data-appearance', v);
+                  document
+                    .querySelector(
+                      'meta[name="theme-color"][media="(prefers-color-scheme: light)"]',
+                    )!
+                    .setAttribute('content', '#f5f3f0');
+                  document
+                    .querySelector(
+                      'meta[name="theme-color"][media="(prefers-color-scheme: dark)"]',
+                    )!
+                    .setAttribute('content', '#000000');
                 }}
               >
                 Auto

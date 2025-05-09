@@ -78,6 +78,21 @@ export default component$(() => {
             document.documentElement.setAttribute('data-vishraman', controlsStore.vishraman ?? '1');
             document.documentElement.setAttribute('data-appearance', controlsStore.appearance ?? 'auto');
 
+            if (controlsStore.appearance === 'dark') {
+              document
+                .querySelector(
+                  'meta[name="theme-color"][media="(prefers-color-scheme: light)"]',
+                )
+                .setAttribute('content', '#000000');
+            };
+            if (controlsStore.appearance === 'light') {
+              document
+                .querySelector(
+                  'meta[name="theme-color"][media="(prefers-color-scheme: dark)"]',
+                )
+                .setAttribute('content', '#f5f3f0');
+            };
+
             const path = new URL(window.location.href).pathname;
             if (path == '/') {
               document.documentElement.style.fontSize = '1em';
