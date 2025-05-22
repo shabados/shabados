@@ -3,6 +3,7 @@ import { component$, useVisibleTask$ } from '@builder.io/qwik';
 import Hukamnama from '~/components/hukamnama/hukamnama';
 import Lotus from '~/components/icons/lotus';
 import { renderSVG } from 'uqr';
+import fetchLineGroup from '~/lib/fetchLineGroup';
 
 const recommendedFontSize = (numUnits: number) => {
   // return '2.155vh';
@@ -328,10 +329,6 @@ export const useLineGroupsApi = routeLoader$(async (requestEvent) => {
 
   const lineGroups = pageMap[parseInt(page)];
 
-  const fetchLineGroups = async (id: string) => {
-    return fetch(`https://shabados.com/api/g/${id}`).then((res) => res.json());
-  };
-
   if (page !== undefined) {
     return {
       linegroups: lineGroups,
@@ -339,7 +336,7 @@ export const useLineGroupsApi = routeLoader$(async (requestEvent) => {
       larivar: requestEvent.query.get('larivar') || undefined,
       qr: requestEvent.query.get('qr') || undefined,
       pb: requestEvent.query.get('pb') || undefined,
-      data: await Promise.all(lineGroups.split(',').map(fetchLineGroups)),
+      data: await Promise.all(lineGroups.split(',').map(fetchLineGroup)),
     };
   }
   // unknown error

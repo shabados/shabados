@@ -66,9 +66,19 @@ const titlesExact = [
   'ਵਾਹਿਗੁਰੂ',
   'ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ; ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਿਹ',
   'ਬੋਲੇ ਸੋ ਨਿਹਾਲ; ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ',
+  'ਉਤਾਰ ਖਾਸੇ ਦਸਖਤ ਕਾ ॥',
+  'ਆਗੈ ਲਿਖਾਰੀ ਕੇ ਦਸਤਖਤ ॥',
+  'ਤ੍ਵ ਪ੍ਰਸਾਦਿ ॥',
+  'ਚਉਪਈ ॥',
+  'ਤ੍ਵ ਪ੍ਰਸਾਦਿ ॥ ਚਉਪਈ ॥',
+  'ਤ੍ਵ ਪ੍ਰਸਾਦਿ ॥ ਕਬਿਤ ॥',
+  'ਰਾਗ ਮਾਲਾ ॥',
+  'ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹ ॥',
+  'ਜ਼ਫ਼ਰਨਾਮਹ ॥',
 ];
 const isTitle = (string: string): boolean =>
-  titlesFuzzy.some((ele) => string.includes(ele)) || titlesExact.includes(string);
+  titlesFuzzy.some((ele) => string.includes(ele)) ||
+  titlesExact.includes(string);
 
 export const isEndOfPauri = (string: string): boolean =>
   /॥[੧੨੩੪੫੬੭੮੯੦]+॥/.test(string) ||

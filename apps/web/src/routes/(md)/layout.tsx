@@ -8,7 +8,11 @@ export default component$(() => {
     <>
       <Header />
       <main>
-        <Slot />
+        <div>
+          <article>
+            <Slot />
+          </article>
+        </div>
       </main>
       <Footer />
     </>

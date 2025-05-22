@@ -4,14 +4,12 @@ import EditThisPage from '~/components/edit-this-page/edit-this-page';
 
 export default component$(() => {
   return (
-    <div>
-      <article>
-        <Slot />
-        <p>
-          <EditThisPage magicPath='/(md)' />
-        </p>
-      </article>
-    </div>
+    <>
+      <Slot />
+      <p>
+        <EditThisPage magicPath='/(md)' />
+      </p>
+    </>
   );
 });
 

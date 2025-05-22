@@ -151,10 +151,6 @@ export default component$(() => {
                   <a class='card' href='/anand-sahib'>
                     <p>ਅਨੰਦੁ ਸਾਹਿਬ</p>
                   </a>
-                </div>
-              </div>
-              <div class='carousel'>
-                <div class='cards'>
                   <a class='card' href='/rehras-sahib'>
                     <p>ਰਹਰਾਸਿ ਸਾਹਿਬ</p>
                   </a>
@@ -167,6 +163,9 @@ export default component$(() => {
                 <div class='cards'>
                   <a class='card' href='/ardas'>
                     <p>ਅਰਦਾਸ</p>
+                  </a>
+                  <a class='card' href='/anand-sahib-salok'>
+                    <p>ਅਨੰਦੁ ਸਾਹਿਬ (੬ ਪਉੜੀਆਂ)</p>
                   </a>
                 </div>
               </div>
@@ -254,152 +253,81 @@ export default component$(() => {
             <div class='carousel'>
               <div class='cards'>
                 <p class='card'>ਸੁਖਮਨੀ ਸਾਹਿਬ</p>
-                <a
-                  class='card'
-                  href='/g/J9V,45C,ULS,L6T,H4B,SE7,K7X,1US,TF7?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/sukhmani-sahib/1'>
                   <p>ਅਸਟਪਦੀ ੧</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/NF2,1MA,SFU,T0Y,B41,B7C,134,CYM,203?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/sukhmani-sahib/2'>
                   <p>੨</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/KJL,GH5,2K2,JTS,LWT,Y5K,31D,MTW,N03?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/sukhmani-sahib/3'>
                   <p>੩</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/BQV,N8F,4AY,234,DCL,9RE,1XQ,LG4,FNM?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/sukhmani-sahib/4'>
                   <p>੪</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/3RK,V9T,7HP,FEC,AZT,AFT,DQX,74F,BKY?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/sukhmani-sahib/5'>
                   <p>੫</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/9JH,HPD,K5M,CPG,RL2,2TM,HXF,AG4,FQA?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/sukhmani-sahib/6'>
                   <p>੬</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/44E,ZJ4,JUG,KA7,MC8,CT2,CKH,GPX,EEW?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/sukhmani-sahib/7'>
                   <p>੭</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/XWW,F5A,2AT,FJV,E5M,FN8,5TY,Q0G,LEB?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/sukhmani-sahib/8'>
                   <p>੮</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/8NQ,DC7,34F,74B,0KE,C1A,6VR,6GA,38G?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/sukhmani-sahib/9'>
                   <p>੯</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/YCP,51F,DC0,S6T,21R,B56,7CW,8LX,1RM?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib10'>
                   <p>੧੦</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/EXR,1G1,QYL,3UK,5MP,EVF,KZ9,145,W3K?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib11'>
                   <p>੧੧</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/V0T,X3L,NLN,VF0,E2G,HQ8,X3Z,7B6,LCF?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib12'>
                   <p>੧੨</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/HY9,3D5,US1,1SX,NGH,L8Q,A9J,L3Z,D6S?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib13'>
                   <p>੧੩</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/AS9,E75,B91,HJ0,GBE,0PM,427,FAE,8RL?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib14'>
                   <p>੧੪</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/BJU,DN9,1NJ,3VX,A0H,KAM,JWW,14D,9GB?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib15'>
                   <p>੧੫</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/BU7,FU9,NKQ,DAJ,FR3,14Y,HGR,1XZ,C8C?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib16'>
                   <p>੧੬</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/K7M,HG7,5WT,7RW,VD9,H67,7MR,F8J,978?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib17'>
                   <p>੧੭</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/5ZP,5X9,Q1Z,9GN,GA2,4P9,FJ4,D90,D4Y?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib18'>
                   <p>੧੮</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/H70,C0F,ZXQ,EMF,8WW,51T,CX5,EFC,5TH?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib19'>
                   <p>੧੯</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/MAH,B34,U7A,T4F,VD2,GDB,BAP,0NR,5HC?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib20'>
                   <p>੨੦</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/5DQ,NJC,DSK,G19,JMS,DF6,8TF,ZT5,ZDG?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib21'>
                   <p>੨੧</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/YGL,ASC,31M,2HY,FLU,UMU,YTV,VE0,00E?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib22'>
                   <p>੨੨</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/6XE,NYQ,G60,SUZ,AU7,14J,2YE,VVN,5BY?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib23'>
                   <p>੨੩</p>
                 </a>
-                <a
-                  class='card'
-                  href='/g/G4N,RR5,59B,9R6,EXD,VZR,S1R,DET,HVA?bani=sukhmani-sahib'
-                >
+                <a class='card' href='/asasukhmani-sahib24'>
                   <p>੨੪</p>
                 </a>
               </div>
             </div>
+
             <div>
               <div class='carousel'>
                 <div class='cards'>
@@ -415,12 +343,16 @@ export default component$(() => {
                   >
                     <p>ਇਸ ਅੰਗ ਤੇ ਜਾਓ...</p>
                   </a>
-                  <a class='card' href='/sggs/1426'>
+                  <a class='card' href='/sggs-bhog'>
                     <p>ਭੋਗ - ਸਲੋਕ ਮਹਲਾ ੯</p>
+                  </a>
+                  <a class='card' href='/ragmala'>
+                    <p>ਰਾਗਮਾਲਾ</p>
                   </a>
                 </div>
               </div>
             </div>
+
             <div>
               <div class='carousel'>
                 <div class='cards'>
@@ -430,6 +362,17 @@ export default component$(() => {
                   </a>
                   <a class='card' href='/gjnl/1'>
                     <p>ਗੰਜ ਨਾਮਾ</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class='carousel'>
+                <div class='cards'>
+                  <p class='card'>ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਦੇ ਬਾਣੀਕਾਰ</p>
+                  <a class='card' href='/guru-nanak'>
+                    <p>ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ</p>
                   </a>
                 </div>
               </div>

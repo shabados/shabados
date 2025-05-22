@@ -29,58 +29,87 @@ export const useApi = routeLoader$(async (requestEvent) => {
 
 export default component$(() => {
   const signal = useApi();
+
+  // until api is updated to new sant lipi markup, need to make local fixes
+  const replaces: any = {
+    '꠳ਯ': '︀ਯ',
+    '꠴ਯ': '︂ਯ',
+    '꠵ਯ': '︁︂ਯ',
+    'ਁ': 'ਂ︀',
+  };
+
   return signal.value ? (
     <div class='ui'>
       <article>
         {signal.value.exact &&
           signal.value.exact.map(
-            ({ container, blocks, id, source, title }: any) => (
-              <Link
-                key={1}
-                href={`/g/${container.id}`}
-                style='text-decoration: none !important; display: block;'
-              >
-                <p style='color: var(--fg);'>{source.name} </p>
-                <p class='small'>
-                  {source.id}
-                  {' > '}
-                  {container.id}
-                  {' > '}
-                  {id}
-                </p>
-                <h2>{title}</h2>
-                <p style='color: var(--fg);'>
-                  {blocks.map(({ str, match }: any) =>
-                    match ? <b key={1}>{str} </b> : <span key={1}>{str} </span>,
-                  )}
-                </p>
-              </Link>
-            ),
+            ({ container, blocks, id, source, title }: any) => {
+              const newTitle = Object.keys(replaces).reduce(
+                (updatedSrc, key) => updatedSrc.replaceAll(key, replaces[key]),
+                title,
+              );
+              return (
+                <Link
+                  key={1}
+                  href={`/g/${container.id}`}
+                  style='text-decoration: none !important; display: block;'
+                >
+                  <p style='color: var(--fg);'>{source.name} </p>
+                  <p class='small'>
+                    {source.id}
+                    {' > '}
+                    {container.id}
+                    {' > '}
+                    {id}
+                  </p>
+                  <h2>{newTitle}</h2>
+                  <p style='color: var(--fg);'>
+                    {blocks.map(({ str, match }: any) =>
+                      match ? (
+                        <b key={1}>{str} </b>
+                      ) : (
+                        <span key={1}>{str} </span>
+                      ),
+                    )}
+                  </p>
+                </Link>
+              );
+            },
           )}
         {signal.value.overflow &&
           signal.value.overflow.map(
-            ({ container, blocks, id, source, title }: any) => (
-              <Link
-                key={1}
-                href={`/g/${container.id}`}
-                style='text-decoration: none !important; display: block;'
-              >
-                <p style='color: var(--fg);'>{source.name} </p>
-                <p class='small'>
-                  {source.id}
-                  {' > '}
-                  {container.id}
-                  {' > '}
-                  {id}
-                </p>
-                <h2>{title}</h2>
-                <p style='color: var(--fg);'>
-                  {blocks.map(({ str, match }: any) =>
-                    match ? <b key={1}>{str} </b> : <span key={1}>{str} </span>,
-                  )}
-                </p>
-              </Link>
-            ),
+            ({ container, blocks, id, source, title }: any) => {
+              const newTitle = Object.keys(replaces).reduce(
+                (updatedSrc, key) => updatedSrc.replaceAll(key, replaces[key]),
+                title,
+              );
+              return (
+                <Link
+                  key={1}
+                  href={`/g/${container.id}`}
+                  style='text-decoration: none !important; display: block;'
+                >
+                  <p style='color: var(--fg);'>{source.name} </p>
+                  <p class='small'>
+                    {source.id}
+                    {' > '}
+                    {container.id}
+                    {' > '}
+                    {id}
+                  </p>
+                  <h2>{newTitle}</h2>
+                  <p style='color: var(--fg);'>
+                    {blocks.map(({ str, match }: any) =>
+                      match ? (
+                        <b key={1}>{str} </b>
+                      ) : (
+                        <span key={1}>{str} </span>
+                      ),
+                    )}
+                  </p>
+                </Link>
+              );
+            },
           )}
       </article>
     </div>

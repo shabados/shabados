@@ -25,7 +25,7 @@
 } */
 
 p {
-  opacity: 0.6;
+  color: color-mix(in srgb, var(--fg) 100%, var(--bg) 55%);
 
   font-weight: calc(100 + 250 * var(--primary-factor));
   line-height: 1.6;
@@ -41,8 +41,13 @@ p {
   line-height: calc(1.6 / var(--font-size));
 }
 
+.arth {
+  color: color-mix(in srgb, var(--link) 100%, var(--bg) 10%);
+}
+
 .bold {
   opacity: 1;
+  color: var(--fg);
 
   --font-size: 1.1;
   font-size: calc(1em * var(--primary-factor) * var(--font-size));
@@ -63,4 +68,16 @@ p {
 
 .light {
   color: var(--light-vishraam);
+}
+
+p:not(.bold) .heavy {
+  color: color-mix(in srgb, var(--heavy-vishraam) 100%, var(--bg) 15%);
+}
+
+p:not(.bold) .medium {
+  color: color-mix(in srgb, var(--medium-vishraam) 100%, var(--bg) 15%);
+}
+
+p:not(.bold) .light {
+  color: color-mix(in srgb, var(--light-vishraam) 100%, var(--bg) 20%);
 }

@@ -3,6 +3,7 @@ import { component$, useVisibleTask$ } from '@builder.io/qwik';
 import Line from '~/components/line/line';
 import BottomBar from '~/components/app/bottom-bar/bottom-bar';
 import handleJump from '~/lib/handleJump';
+import fetchLineGroup from '~/lib/fetchLineGroup';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
@@ -32,10 +33,6 @@ export const useApi = routeLoader$(async (requestEvent) => {
   const lineGroups = data[leaf];
   const maxLeafs = Object.keys(data).length;
 
-  const fetchLineGroups = async (id: string) => {
-    return fetch(`https://shabados.com/api/g/${id}`).then((res) => res.json());
-  };
-
   if (lineGroups !== undefined) {
     return {
       source: requestEvent.params.source,
@@ -44,7 +41,7 @@ export const useApi = routeLoader$(async (requestEvent) => {
         next: leaf < maxLeafs ? leaf + 1 : -1,
         max: maxLeafs,
       },
-      data: await Promise.all(lineGroups.map(fetchLineGroups)),
+      data: await Promise.all(lineGroups.map(fetchLineGroup)),
     };
   } else return {};
 });
