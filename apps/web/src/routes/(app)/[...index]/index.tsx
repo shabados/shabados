@@ -1,4 +1,9 @@
-import { component$, useSignal, useStyles$ } from '@builder.io/qwik';
+import {
+  component$,
+  useSignal,
+  useStyles$,
+  useVisibleTask$,
+} from '@builder.io/qwik';
 import {
   useNavigate,
   type DocumentHead,
@@ -8,6 +13,8 @@ import {
 import styles from './index.css?inline';
 import Spinner from '~/components/spinner/spinner';
 import handleJump from '~/lib/handleJump';
+import { getLocalStorage } from '../layout';
+import toGurmukhiNumerals from '~/lib/toGurmukhiNumerals';
 
 const getOS = () => {
   // window.navigator.platform is being deprecated, but it's successor userAgentData isn't prevalent yet
@@ -64,6 +71,11 @@ export default component$(() => {
   const searchTipRef = useSignal<HTMLParagraphElement>();
   const searchInputRef = useSignal<HTMLInputElement>();
 
+  const currentAng = useSignal('0');
+  useVisibleTask$(() => {
+    currentAng.value = getLocalStorage('userDataStore')['ang'] ?? '0';
+  });
+
   return (
     <div class='ui no-wide'>
       <div class='hero'>
@@ -109,11 +121,21 @@ export default component$(() => {
                 </a>
                 <a
                   class='card'
-                  href='#'
-                  preventdefault:click
-                  onClick$={() => handleJump('sggs', 1430)}
+                  href={
+                    parseInt(currentAng.value) > 0
+                      ? '/sggs/' + currentAng.value
+                      : '#'
+                  }
+                  preventdefault:click={parseInt(currentAng.value) == 0}
+                  onClick$={() =>
+                    parseInt(currentAng.value) == 0 && handleJump('sggs', 1430)
+                  }
                 >
-                  <p>ਅੰਗ ਤੇ ਜਾਓ...</p>
+                  {parseInt(currentAng.value) > 0 ? (
+                    <p>ਅੰਗ {toGurmukhiNumerals(currentAng.value)}</p>
+                  ) : (
+                    <p>ਅੰਗ ਤੇ ਜਾਓ...</p>
+                  )}
                 </a>
                 <a
                   class='card'
@@ -337,11 +359,22 @@ export default component$(() => {
                   </a>
                   <a
                     class='card'
-                    href='#'
-                    preventdefault:click
-                    onClick$={() => handleJump('sggs', 1430)}
+                    href={
+                      parseInt(currentAng.value) > 0
+                        ? '/sggs/' + currentAng.value
+                        : '#'
+                    }
+                    preventdefault:click={parseInt(currentAng.value) == 0}
+                    onClick$={() =>
+                      parseInt(currentAng.value) == 0 &&
+                      handleJump('sggs', 1430)
+                    }
                   >
-                    <p>ਇਸ ਅੰਗ ਤੇ ਜਾਓ...</p>
+                    {parseInt(currentAng.value) > 0 ? (
+                      <p>ਅੰਗ {toGurmukhiNumerals(currentAng.value)}</p>
+                    ) : (
+                      <p>ਅੰਗ ਤੇ ਜਾਓ...</p>
+                    )}
                   </a>
                   <a class='card' href='/sggs-bhog'>
                     <p>ਭੋਗ - ਸਲੋਕ ਮਹਲਾ ੯</p>

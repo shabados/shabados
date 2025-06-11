@@ -17,6 +17,7 @@ import Slideshow from '~/components/app/slideshow/slideshow';
 import Controls from '~/components/app/controls/controls';
 import Journey from '~/components/app/journey/journey';
 import zoomValues from '~/lib/zoomValues';
+import toGurmukhiNumerals from '~/lib/toGurmukhiNumerals';
 // import Inspector from '~/components/app/inspector/inspector';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
@@ -84,6 +85,7 @@ type PathTimestamp = {
 export type UserData = {
   history: PathTimestamp;
   archive: PathTimestamp;
+  ang: string;
 };
 
 export const UserDataContext = createContextId<UserData>(
@@ -119,10 +121,10 @@ export default component$(() => {
     inspectorId: '',
   });
   useContextProvider(UiContext, uiStore);
-
   const userDataStore = useStore({
     history: {} as PathTimestamp,
     archive: {} as PathTimestamp,
+    ang: '0',
   });
   useContextProvider(UserDataContext, userDataStore);
   const { url } = useLocation();
@@ -146,6 +148,7 @@ export default component$(() => {
     if (localUserDataStore) {
       userDataStore.history = localUserDataStore.history ?? JSON.parse('{}');
       userDataStore.archive = localUserDataStore.archive ?? JSON.parse('{}');
+      userDataStore.ang = localUserDataStore.ang ?? '0';
     }
 
     if (url.pathname !== '/' && !url.pathname.includes('/search/')) {
@@ -153,18 +156,29 @@ export default component$(() => {
       if (
         url.pathname.includes('/sggs/') ||
         url.pathname.includes('/sdgr/') ||
-        url.pathname.includes('/gjnl/')
+        url.pathname.includes('/gjnl/') ||
+        url.pathname.includes('/sukhmani-sahib/') ||
+        url.pathname.includes('/asa-ki-var/')
       ) {
         const m: { [key: string]: { [key: string]: string } } = {
           sggs: { title: 'ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ', leaf: 'ਅੰਗ' },
           sdgr: { title: 'ਸ੍ਰੀ ਦਸਮ ਗ੍ਰੰਥ', leaf: 'ਅੰਗ' },
           gjnl: { title: 'ਗੰਜ ਨਾਮਾ', leaf: 'ਪਾਤਸ਼ਾਹੀ' },
+          'asa-ki-var': { title: 'ਆਸਾ ਕੀ ਵਾਰ', leaf: 'ਛੱਕਾ' },
+          'sukhmani-sahib': { title: 'ਸੁਖਮਨੀ ਸਾਹਿਬ', leaf: 'ਅਸਟਪਦੀ' },
         };
         const composition = url.pathname.split('/').slice(-3, -2)[0];
         const cTitle = m[composition]['title'];
         const leaf = url.pathname.split('/').slice(-2, -1)[0];
-        const lTitle = m[composition]['leaf'] + ' ' + leaf;
-        userDataStore.history[url.pathname]['title'] = `${cTitle} (${lTitle})`;
+        const lTitle = m[composition]['leaf'] + ' ' + toGurmukhiNumerals(leaf);
+        userDataStore.history[url.pathname]['title'] = `${lTitle} - ${cTitle}`;
+        if (composition === 'sggs') {
+          if (parseInt(leaf) <= 1 || parseInt(leaf) >= 1426) {
+            userDataStore.ang = '0';
+          } else {
+            userDataStore.ang = leaf;
+          }
+        }
       } else if (url.pathname.includes('/g/')) {
         userDataStore.history[url.pathname]['title'] = `ਸ਼ਬਦ (${
           url.pathname.split('/').slice(-2, -1)[0]
@@ -180,11 +194,8 @@ export default component$(() => {
         userDataStore.history[url.pathname][
           'title'
         ] = `ਰੋਜ਼ਾਨਾ ਮੁੱਖਵਾਕ (${date.toLocaleDateString()})`;
-      } else if (url.pathname.includes('/asa-ki-var/')) {
-        userDataStore.history[url.pathname]['title'] = `ਆਸਾ ਕੀ ਵਾਰ (ਛੱਕਾ ${
-          url.pathname.split('/').slice(-2, -1)[0]
-        })`;
       } else {
+        const path = url.pathname.split('/').slice(-2, -1)[0];
         const m: { [key: string]: string } = {
           'jap-ji-sahib': 'ਜਪੁ ਜੀ ਸਾਹਿਬ',
           'jap-sahib': 'ਜਾਪੁ ਸਾਹਿਬ',
@@ -194,9 +205,13 @@ export default component$(() => {
           'rehras-sahib': 'ਰਹਰਾਸਿ ਸਾਹਿਬ',
           'kirtan-sohila': 'ਕੀਰਤਨ ਸੋਹਿਲਾ',
           ardas: 'ਅਰਦਾਸ',
+          'sggs-bhog': 'ਭੋਗ - ਸਲੋਕ ਮਹਲਾ ੯',
+          ragmala: 'ਰਾਗਮਾਲਾ',
         };
-        userDataStore.history[url.pathname]['title'] =
-          m[url.pathname.split('/').slice(-2, -1)[0]];
+        userDataStore.history[url.pathname]['title'] = m[path];
+        if (path === 'sggs-bhog' || path === 'ragmala') {
+          userDataStore.ang = '0';
+        }
       }
       userDataStore.history[url.pathname]['time'] = new Date().valueOf();
       setLocalStorage('userDataStore', userDataStore);
