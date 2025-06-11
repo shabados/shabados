@@ -67,14 +67,15 @@ export default component$(() => {
 
             // must match same in lib/zoomValues.ts
             const zoomValues = [0.75, 0.875, 1, 1.125, 1.25, 1.375, 1.5, 1.675, 1.75, 1.875, 2, 2.5, 3, 3.5, 4, 5, 6];
+            const zoom = controlsStore.zoom ?? 4;
 
             // must match defaults in (app)/layout.tsx
-            document.documentElement.style.fontSize = controlsStore.zoom ? zoomValues[controlsStore.zoom] + 'em' : '1.25em';
+            document.documentElement.style.fontSize = zoomValues[controlsStore.zoom] + 'em' ?? '1.25em';
             document.documentElement.setAttribute('data-factor', controlsStore.factor ?? '150');
             document.documentElement.setAttribute('data-mode', controlsStore.mode ?? 'reader');
             document.documentElement.setAttribute('data-width', controlsStore.width ?? 'wider');
             document.documentElement.setAttribute('data-centered', controlsStore.centered ?? '1');
-            document.documentElement.setAttribute('data-larivar', controlsStore.larivaar ?? '0');
+            document.documentElement.setAttribute('data-larivar', controlsStore.larivar ?? '0');
             document.documentElement.setAttribute('data-vishraman', controlsStore.vishraman ?? '1');
             document.documentElement.setAttribute('data-appearance', controlsStore.appearance ?? 'auto');
 
