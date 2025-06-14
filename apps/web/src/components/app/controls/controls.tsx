@@ -37,6 +37,18 @@ import zoomValues from '~/lib/zoomValues';
 import Ratio from '~/components/icons/ui/ratio';
 import Appearance from '~/components/icons/ui/appearance';
 
+// Utility function to update theme color meta tags
+const setThemeColor = (light: string, dark: string) => {
+  const lightMeta = document.querySelector(
+    'meta[name="theme-color"][media="(prefers-color-scheme: light)"]',
+  );
+  if (lightMeta) lightMeta.setAttribute('content', light);
+  const darkMeta = document.querySelector(
+    'meta[name="theme-color"][media="(prefers-color-scheme: dark)"]',
+  );
+  if (darkMeta) darkMeta.setAttribute('content', dark);
+};
+
 export default component$(() => {
   useStylesScoped$(styles);
   const controlsStore = useContext(ControlsContext);
@@ -265,14 +277,12 @@ export default component$(() => {
           <div
             class='controls__option clickable'
             onClick$={() => {
-              updateControls(
-                'centered',
-                isNaN(controlsStore.centered) ? 0 : 1 - controlsStore.centered,
-              );
+              const v = (controlsStore.centered + 1) % 2;
               document.documentElement.setAttribute(
                 'data-centered',
-                controlsStore.centered.toString(),
+                v.toString(),
               );
+              updateControls('centered', v);
             }}
           >
             <div class='controls__label'>
@@ -284,14 +294,12 @@ export default component$(() => {
           <div
             class='controls__option clickable'
             onClick$={() => {
-              updateControls(
-                'larivar',
-                isNaN(controlsStore.larivar) ? 0 : 1 - controlsStore.larivar,
-              );
+              const v = (controlsStore.larivar + 1) % 2;
               document.documentElement.setAttribute(
                 'data-larivar',
-                String(controlsStore.larivar),
+                v.toString(),
               );
+              updateControls('larivar', v);
             }}
           >
             <div class='controls__label'>
@@ -305,19 +313,13 @@ export default component$(() => {
               !!controlsStore.larivar && 'disabled'
             }`}
             onClick$={() => {
-              if (controlsStore.larivar) {
-                return;
-              }
-              updateControls(
-                'vishraman',
-                isNaN(controlsStore.vishraman)
-                  ? 0
-                  : 1 - controlsStore.vishraman,
-              );
+              if (controlsStore.larivar) return;
+              const v = (controlsStore.vishraman + 1) % 2;
               document.documentElement.setAttribute(
                 'data-vishraman',
-                String(controlsStore.vishraman),
+                v.toString(),
               );
+              updateControls('vishraman', v);
             }}
           >
             <div class='controls__label'>
@@ -334,9 +336,7 @@ export default component$(() => {
             onClick$={() => {
               updateControls(
                 'pronunciationField',
-                isNaN(controlsStore.pronunciationField)
-                  ? 0
-                  : 1 - controlsStore.pronunciationField,
+                (controlsStore.pronunciationField + 1) % 2,
               );
             }}
           >
@@ -351,9 +351,7 @@ export default component$(() => {
             onClick$={() => {
               updateControls(
                 'translationField',
-                isNaN(controlsStore.translationField)
-                  ? 0
-                  : 1 - controlsStore.translationField,
+                (controlsStore.translationField + 1) % 2,
               );
             }}
           >
@@ -368,9 +366,7 @@ export default component$(() => {
             onClick$={() => {
               updateControls(
                 'viakhiaField',
-                isNaN(controlsStore.viakhiaField)
-                  ? 0
-                  : 1 - controlsStore.viakhiaField,
+                (controlsStore.viakhiaField + 1) % 2,
               );
             }}
           >
@@ -386,10 +382,7 @@ export default component$(() => {
           <div
             class='controls__option clickable'
             onClick$={() => {
-              updateControls(
-                'notes',
-                isNaN(controlsStore.notes) ? 0 : 1 - controlsStore.notes,
-              );
+              updateControls('notes', 1 - controlsStore.notes);
             }}
           >
             <div class='controls__label'>
@@ -537,13 +530,7 @@ export default component$(() => {
                   updateControls('appearance', v);
                   document.documentElement.setAttribute('data-appearance', v);
                   const themeColor = '#f5f3f0';
-                  ['light', 'dark'].forEach((scheme) => {
-                    document
-                      .querySelector(
-                        `meta[name="theme-color"][media="(prefers-color-scheme: ${scheme})"]`,
-                      )!
-                      .setAttribute('content', themeColor);
-                  });
+                  setThemeColor(themeColor, themeColor);
                 }}
               >
                 Light
@@ -559,13 +546,7 @@ export default component$(() => {
                   updateControls('appearance', v);
                   document.documentElement.setAttribute('data-appearance', v);
                   const themeColor = '#000000';
-                  ['light', 'dark'].forEach((scheme) => {
-                    document
-                      .querySelector(
-                        `meta[name="theme-color"][media="(prefers-color-scheme: ${scheme})"]`,
-                      )!
-                      .setAttribute('content', themeColor);
-                  });
+                  setThemeColor(themeColor, themeColor);
                 }}
               >
                 Dark
@@ -580,16 +561,7 @@ export default component$(() => {
                   const v = 'auto';
                   updateControls('appearance', v);
                   document.documentElement.setAttribute('data-appearance', v);
-                  document
-                    .querySelector(
-                      'meta[name="theme-color"][media="(prefers-color-scheme: light)"]',
-                    )!
-                    .setAttribute('content', '#f5f3f0');
-                  document
-                    .querySelector(
-                      'meta[name="theme-color"][media="(prefers-color-scheme: dark)"]',
-                    )!
-                    .setAttribute('content', '#000000');
+                  setThemeColor('#f5f3f0', '#000000');
                 }}
               >
                 Auto
