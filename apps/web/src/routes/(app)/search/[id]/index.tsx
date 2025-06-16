@@ -1,5 +1,6 @@
 import { type RequestHandler, routeLoader$, Link } from '@builder.io/qwik-city';
 import { component$ } from '@builder.io/qwik';
+import { addHistoryItem } from '~/lib/localStorage';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
@@ -53,6 +54,7 @@ export default component$(() => {
                   key={1}
                   href={`/g/${container.id}`}
                   style='text-decoration: none !important; display: block;'
+                  onClick$={() => addHistoryItem(`/g/${container.id}`, { title: newTitle })}
                 >
                   <p style='color: var(--fg);'>{source.name} </p>
                   <p class='small'>
@@ -88,6 +90,7 @@ export default component$(() => {
                   key={1}
                   href={`/g/${container.id}`}
                   style='text-decoration: none !important; display: block;'
+                  onClick$={() => addHistoryItem(`/g/${container.id}`, { title: newTitle })}
                 >
                   <p style='color: var(--fg);'>{source.name} </p>
                   <p class='small'>

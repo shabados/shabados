@@ -15,6 +15,7 @@ import Spinner from '~/components/spinner/spinner';
 import handleJump from '~/lib/handleJump';
 import { getLocalStorage } from '../layout';
 import toGurmukhiNumerals from '~/lib/toGurmukhiNumerals';
+import { addHistoryItem } from '~/lib/localStorage';
 
 const getOS = () => {
   // window.navigator.platform is being deprecated, but it's successor userAgentData isn't prevalent yet
@@ -71,6 +72,21 @@ export default component$(() => {
   const searchTipRef = useSignal<HTMLParagraphElement>();
   const searchInputRef = useSignal<HTMLInputElement>();
 
+  const quickLinks = [
+    {
+      title: "ਜਪੁ ਜੀ ਸਾਹਿਬ",
+      path: "/jap-ji-sahib/"
+    },
+    {
+      title: "ਰਹਰਾਸਿ ਸਾਹਿਬ",
+      path: "/rehras-sahib/"
+    },
+    {
+      title: "ਕੀਰਤਨ ਸੋਹਿਲਾ",
+      path: "/kirtan-sohila/"
+    },
+  ]
+
   const currentAng = useSignal('0');
   useVisibleTask$(() => {
     currentAng.value = getLocalStorage('userDataStore')['ang'] ?? '0';
@@ -110,15 +126,16 @@ export default component$(() => {
           <div class='short-list' ref={shortListRef}>
             <div class='carousel'>
               <div class='cards'>
-                <a class='card' href='/jap-ji-sahib'>
-                  <p>ਜਪੁ ਜੀ ਸਾਹਿਬ</p>
-                </a>
-                <a class='card' href='/rehras-sahib'>
-                  <p>ਰਹਰਾਸਿ ਸਾਹਿਬ</p>
-                </a>
-                <a class='card' href='/kirtan-sohila'>
-                  <p>ਕੀਰਤਨ ਸੋਹਿਲਾ</p>
-                </a>
+                {
+                  quickLinks.map((link) => (
+                    <Link class='card' href={link.path} onClick$={() => addHistoryItem(link.path, {
+                      title: link.title,
+                      
+                    })}>
+                      <p>{link.title}</p>
+                    </Link>
+                  ))
+                }
                 <a
                   class='card'
                   href={

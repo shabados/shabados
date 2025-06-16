@@ -20,6 +20,7 @@ import Controls from '~/components/app/controls/controls';
 import Journey from '~/components/app/journey/journey';
 import zoomValues from '~/lib/zoomValues';
 import toGurmukhiNumerals from '~/lib/toGurmukhiNumerals';
+import { addHistoryItem } from '~/lib/localStorage';
 // import Inspector from '~/components/app/inspector/inspector';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
@@ -201,15 +202,18 @@ export default component$(() => {
       });
     }
 
+    // Initialize userDataStore from local storage
     const localUserDataStore = getLocalStorage('userDataStore');
-    if (localUserDataStore) {
-      userDataStore.history = localUserDataStore.history ?? JSON.parse('{}');
-      userDataStore.archive = localUserDataStore.archive ?? JSON.parse('{}');
-      userDataStore.ang = localUserDataStore.ang ?? '0';
-    }
+    userDataStore.history = localUserDataStore.history ?? JSON.parse('{}');
+    userDataStore.archive = localUserDataStore.archive ?? JSON.parse('{}');
+    userDataStore.ang = localUserDataStore.ang ?? '0';
+    setLocalStorage('userDataStore', userDataStore);
 
-    if (url.pathname !== '/' && !url.pathname.includes('/search/')) {
-      userDataStore.history[url.pathname] = {};
+    if (url.pathname !== '/' && !url.pathname.includes('/search/') 
+      
+      // ignore /g/ paths because we already handled history update there
+      && !url.pathname.includes('/g/')
+    ) {
       if (
         url.pathname.includes('/sggs/') ||
         url.pathname.includes('/sdgr/') ||
@@ -228,7 +232,9 @@ export default component$(() => {
         const cTitle = m[composition]['title'];
         const leaf = url.pathname.split('/').slice(-2, -1)[0];
         const lTitle = m[composition]['leaf'] + ' ' + toGurmukhiNumerals(leaf);
-        userDataStore.history[url.pathname]['title'] = `${lTitle} - ${cTitle}`;
+        addHistoryItem(url.pathname, {
+          title: `${lTitle} - ${cTitle}`,
+        });
         if (composition === 'sggs') {
           if (parseInt(leaf) <= 1 || parseInt(leaf) >= 1426) {
             userDataStore.ang = '0';
@@ -236,10 +242,6 @@ export default component$(() => {
             userDataStore.ang = leaf;
           }
         }
-      } else if (url.pathname.includes('/g/')) {
-        userDataStore.history[url.pathname]['title'] = `ਸ਼ਬਦ (${
-          url.pathname.split('/').slice(-2, -1)[0]
-        })`;
       } else if (url.pathname.includes('/h/')) {
         const yymmdd = url.pathname.split('/').slice(-2, -1)[0];
         const year = parseInt(yymmdd.slice(0, 2));
@@ -248,30 +250,34 @@ export default component$(() => {
           parseInt(yymmdd.slice(2, 4)) - 1,
           parseInt(yymmdd.slice(4, 6)),
         );
-        userDataStore.history[url.pathname][
-          'title'
-        ] = `ਰੋਜ਼ਾਨਾ ਮੁੱਖਵਾਕ (${date.toLocaleDateString()})`;
+        addHistoryItem(url.pathname, {
+          title: `ਰੋਜ਼ਾਨਾ ਮੁੱਖਵਾਕ (${date.toLocaleDateString()})`,
+        });
       } else {
-        const path = url.pathname.split('/').slice(-2, -1)[0];
-        const m: { [key: string]: string } = {
-          'jap-ji-sahib': 'ਜਪੁ ਜੀ ਸਾਹਿਬ',
-          'jap-sahib': 'ਜਾਪੁ ਸਾਹਿਬ',
-          'twa-prasad-swaye': 'ਤ੍ਵ ਪ੍ਰਸਾਦਿ - ਸ੍ਵਯੇ',
-          'kabyo-bac-benti-copai': 'ਕਬ︀︁ਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ',
-          'anand-sahib': 'ਅਨੰਦੁ ਸਾਹਿਬ',
-          'rehras-sahib': 'ਰਹਰਾਸਿ ਸਾਹਿਬ',
-          'kirtan-sohila': 'ਕੀਰਤਨ ਸੋਹਿਲਾ',
-          ardas: 'ਅਰਦਾਸ',
-          'sggs-bhog': 'ਭੋਗ - ਸਲੋਕ ਮਹਲਾ ੯',
-          ragmala: 'ਰਾਗਮਾਲਾ',
+        const pathTitleMap: { [key: string]: string } = {
+          '/jap-ji-sahib/': 'ਜਪੁ ਜੀ ਸਾਹਿਬ',
+          '/jap-sahib/': 'ਜਾਪੁ ਸਾਹਿਬ',
+          '/twa-prasad-swaye/': 'ਤ੍ਵ ਪ੍ਰਸਾਦਿ - ਸ੍ਵਯੇ',
+          '/kabyo-bac-benti-copai/': 'ਕਬ︀︁ਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ',
+          '/anand-sahib/': 'ਅਨੰਦੁ ਸਾਹਿਬ',
+          '/rehras-sahib/': 'ਰਹਰਾਸਿ ਸਾਹਿਬ',
+          '/kirtan-sohila/': 'ਕੀਰਤਨ ਸੋਹਿਲਾ',
+          '/ardas/': 'ਅਰਦਾਸ',
+          '/sggs-bhog/': 'ਭੋਗ - ਸਲੋਕ ਮਹਲਾ ੯',
+          '/ragmala/': 'ਰਾਗਮਾਲਾ',
         };
-        userDataStore.history[url.pathname]['title'] = m[path];
-        if (path === 'sggs-bhog' || path === 'ragmala') {
-          userDataStore.ang = '0';
+
+        const isPathExist = Object.keys(pathTitleMap).some((p) => p === url.pathname);
+
+        if (isPathExist) {
+          addHistoryItem(url.pathname, {
+            title: pathTitleMap[url.pathname],
+          });
+          if (url.pathname === '/sggs-bhog/' || url.pathname === '/ragmala/') {
+            userDataStore.ang = '0';
+          }
         }
       }
-      userDataStore.history[url.pathname]['time'] = new Date().valueOf();
-      setLocalStorage('userDataStore', userDataStore);
     }
 
     requestWakeLock();
