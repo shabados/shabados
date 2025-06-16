@@ -49,7 +49,7 @@ export default component$(() => {
               aria-disabled={url.pathname == a}
               class={`journey__items__item ${url.pathname == a && `disabled`}`}
             >
-              <span>{b.title}</span>
+              <span class='journey__items__item__title'>{b.title}</span>
               <p class='small'>
                 {new Date(b['time']).toLocaleTimeString([], {
                   timeStyle: 'short',

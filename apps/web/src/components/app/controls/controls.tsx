@@ -583,6 +583,7 @@ export default component$(() => {
                 target='_blank'
               >
                 <Instagram />
+                Instagram
               </a>
               <a
                 class='controls__card controls__card__icon'
@@ -590,6 +591,7 @@ export default component$(() => {
                 target='_blank'
               >
                 <Youtube />
+                YouTube
               </a>
             </div>
           </div>
