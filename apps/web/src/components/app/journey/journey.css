@@ -29,15 +29,6 @@
   }
 }
 
-@keyframes text-fades-in {
-  0% {
-    color: var(--fg-muted);
-  }
-  100% {
-    color: var(--fg);
-  }
-}
-
 .modal-bg {
   z-index: 2;
   overscroll-behavior: contain;
@@ -154,19 +145,29 @@
 }
 
 @media (pointer: fine) {
+  .modal-bg {
+    display: none;
+  }
   .modal {
-    width: 400px;
-    top: 6em;
+    width: 300px;
+    top: 3.5em;
     border-radius: 1em;
-    height: calc(100vh - 8.5em);
-    left: 2.5em;
-    animation:
-      fade-in-and-right 0.125s ease,
-      text-fades-in 0.125s ease;
+    height: calc(100vh - 4em);
+    left: 12px;
+    animation: fade-in-and-right 0.125s ease;
     animation-fill-mode: forwards;
+    transition: all 400ms ease;
   }
   .modal__article {
-    max-height: calc(100vh - 8.5em - 4.25em - 0.5px);
+    max-height: calc(100vh - 4em - 4.25em - 0.5px);
+  }
+
+  .modal.fill {
+    height: calc(100vh - 24px);
+    top: 12px;
+  }
+  .fill .modal__article {
+    max-height: calc(100vh - 24px - 4.25em - 0.5px);
   }
 }
 
@@ -178,9 +179,7 @@
     min-width: 35px;
   }
   .modal {
-    animation:
-      fade-in-and-up 0.125s ease,
-      text-fades-in 0.125s ease;
+    animation: fade-in-and-up 0.125s ease;
     animation-fill-mode: forwards;
   }
   .modal__article {

@@ -175,17 +175,6 @@ html[data-larivar='1'] .title > p.bold {
   );
 }
 
-html[data-mode='presenter'] .app > div > article {
-  height: calc(100vh - 56px);
-  scroll-snap-type: y mandatory;
-  overflow-y: auto;
-  font-size: 1em;
-}
-
-html[data-mode='presenter']::-webkit-scrollbar {
-  display: none;
-}
-
 html[data-mode='presenter'] .line {
   margin: 0;
   padding-top: 24px;

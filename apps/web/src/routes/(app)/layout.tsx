@@ -3,7 +3,9 @@ import {
   component$,
   createContextId,
   Slot,
+  useComputed$,
   useContextProvider,
+  useOnWindow,
   useSignal,
   useStore,
   useStyles$,
@@ -74,6 +76,8 @@ export type Ui = {
   journey: boolean;
   inspector: boolean;
   inspectorId: string;
+  scrollFar: boolean;
+  scrollForward: boolean;
 };
 
 export const UiContext = createContextId<Ui>('com.shabados.app.ui-context');
@@ -119,6 +123,8 @@ export default component$(() => {
     journey: false,
     inspector: false,
     inspectorId: '',
+    scrollFar: false,
+    scrollForward: false,
   });
   useContextProvider(UiContext, uiStore);
   const userDataStore = useStore({
@@ -129,9 +135,60 @@ export default component$(() => {
   useContextProvider(UserDataContext, userDataStore);
   const { url } = useLocation();
   // url in
-  useVisibleTask$(() => {
-    uiStore.slideshow = false; // always set slideshow to "off" on load
 
+  const scrollPos = useStore({
+    is: 0,
+    was: 0,
+    max: 0,
+  });
+  const isFine = useSignal<boolean>(false);
+  const modalWidth = 324;
+  const windowWidth = useSignal<number>(1);
+  const zoomFactor = useComputed$(
+    () =>
+      (windowWidth.value -
+        modalWidth * ((uiStore.journey ? 1 : 0) + (uiStore.controls ? 1 : 0))) /
+      windowWidth.value,
+  );
+
+  useOnWindow(
+    'resize',
+    $(() => {
+      windowWidth.value = window.innerWidth;
+    }),
+  );
+
+  useOnWindow(
+    'scroll',
+    $(() => {
+      if (scrollPos.max == 0)
+        scrollPos.max = document.body.scrollHeight - window.innerHeight;
+      scrollPos.is = window.scrollY;
+      uiStore.scrollForward =
+        (scrollPos.is > 1 && scrollPos.is > scrollPos.was) ||
+        scrollPos.is >= scrollPos.max;
+
+      scrollPos.was = scrollPos.is;
+
+      if (scrollPos.is > 22.5) {
+        uiStore.scrollFar = true;
+      } else {
+        uiStore.scrollFar = false;
+      }
+    }),
+  );
+
+  useOnWindow(
+    'load',
+    $(() => {
+      isFine.value = matchMedia('(pointer:fine)').matches;
+      windowWidth.value = window.innerWidth;
+      scrollPos.max = document.body.scrollHeight - window.innerHeight;
+      uiStore.slideshow = false; // always set slideshow to "off" on load
+    }),
+  );
+
+  useVisibleTask$(() => {
     const localControlsStore = getLocalStorage('controlsStore');
     if (localControlsStore) {
       Object.entries(localControlsStore).map(([key, value]) => {
@@ -273,6 +330,21 @@ export default component$(() => {
     uiStore.journey = !uiStore.journey;
   });
 
+  const mainStyle = useComputed$(() => {
+    if (isFine.value) {
+      return {
+        zoom: zoomFactor.value.toString(),
+        paddingLeft: `${
+          (modalWidth / zoomFactor.value) * (uiStore.journey ? 1 : 0)
+        }px`,
+        paddingRight: `${
+          (modalWidth / zoomFactor.value) * (uiStore.controls ? 1 : 0)
+        }px`,
+      };
+    }
+    return {};
+  });
+
   return (
     <>
       {uiStore.controls && <Controls />}
@@ -285,6 +357,7 @@ export default component$(() => {
         class='app'
         tabIndex={-1}
         ref={appRef}
+        style={mainStyle.value}
         onKeyDown$={(event) => {
           if (
             event.altKey === false &&

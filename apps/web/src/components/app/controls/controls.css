@@ -29,15 +29,6 @@
   }
 }
 
-@keyframes text-fades-in {
-  0% {
-    color: var(--fg-muted);
-  }
-  100% {
-    color: var(--fg);
-  }
-}
-
 .modal-bg {
   z-index: 2;
   overscroll-behavior: contain;
@@ -51,6 +42,7 @@
 }
 
 .modal {
+  --modal-spacer: 16px;
   position: fixed;
   background-color: var(--bg-base);
   z-index: 3;
@@ -82,7 +74,7 @@
 }
 
 .modal__article > * {
-  margin-bottom: 20px;
+  margin-bottom: var(--modal-spacer);
 }
 
 .modal__article > *:last-child {
@@ -182,17 +174,17 @@ a.controls__option:hover {
 
 .controls__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1em;
-  margin-top: 0.75em;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--modal-spacer);
+  margin-top: calc(var(--modal-spacer) / 2);
 }
 
 .controls__card {
+  text-align: center;
   color: var(--fg);
   box-sizing: border-box;
-  text-align: center;
   font-weight: 540;
-  font-size: 0.75em;
+  font-size: 0.66em;
   padding: 0.25em 0.75em;
   background: var(--toner);
   border-radius: 0.6em;
@@ -206,6 +198,10 @@ a.controls__option:hover {
 }
 
 .controls__card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2em;
   line-height: 1;
 }
 
@@ -221,19 +217,29 @@ a.controls__option:hover {
 }
 
 @media (pointer: fine) {
+  .modal-bg {
+    display: none;
+  }
   .modal {
-    width: 400px;
-    top: 6em;
+    width: 300px;
+    top: 3.5em;
     border-radius: 1em;
-    height: calc(100vh - 8.5em);
-    right: 2.5em;
-    animation:
-      fade-in-and-left 0.125s ease,
-      text-fades-in 0.125s ease;
+    height: calc(100vh - 4em);
+    right: 12px;
+    animation: fade-in-and-left 0.125s ease;
     animation-fill-mode: forwards;
+    transition: all 400ms ease;
   }
   .modal__article {
-    max-height: calc(100vh - 8.5em - 4.25em - 0.5px);
+    max-height: calc(100vh - 4em - 4.25em - 0.5px);
+  }
+
+  .modal.fill {
+    height: calc(100vh - 24px);
+    top: 12px;
+  }
+  .fill .modal__article {
+    max-height: calc(100vh - 24px - 4.25em - 0.5px);
   }
 }
 
@@ -245,9 +251,7 @@ a.controls__option:hover {
     min-width: 35px;
   }
   .modal {
-    animation:
-      fade-in-and-up 0.125s ease,
-      text-fades-in 0.125s ease;
+    animation: fade-in-and-up 0.125s ease;
     animation-fill-mode: forwards;
   }
   .modal__article {

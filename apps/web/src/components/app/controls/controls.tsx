@@ -66,7 +66,7 @@ export default component$(() => {
   return (
     <>
       <div class='modal-bg' onClick$={() => (uiStore.controls = false)} />
-      <div class='modal'>
+      <div class={`modal ${uiStore.scrollForward && 'fill'} `}>
         <article class='modal__header'>
           <h2 class='modal__title'>Controls</h2>
           <span
@@ -461,7 +461,7 @@ export default component$(() => {
                   }
                 }}
               >
-                Wjkk Wjkf
+                Fateh
               </a>
               <a
                 class={`controls__card ${
@@ -591,59 +591,63 @@ export default component$(() => {
               >
                 <Youtube />
               </a>
+            </div>
+          </div>
+          <div>
+            <div class='controls__label'>
+              <Feedback />
+              Feedback
+            </div>
+            <div class='controls__grid'>
+              <a
+                class='controls__card controls__card__icon'
+                href={`mailto:team@shabados.com?body=${encodeURIComponent(
+                  'Code for developers (please keep in email): ' +
+                    btoa(
+                      [
+                        'TZ: ' +
+                          Intl.DateTimeFormat().resolvedOptions().timeZone ||
+                          '',
+                        'Platform: ' +
+                          (('userAgentData' in navigator &&
+                            (navigator as any).userAgentData.platform) ||
+                            ''),
+                        'Brands: ' +
+                          ('brands' in navigator &&
+                            (navigator as any).userAgentData.brands.reduce(
+                              (a: string, c: any) =>
+                                a + c.brand + ' ' + c.version + ', ',
+                              '',
+                            )),
+                        'mobile' in navigator &&
+                        (navigator as any).userAgentData.mobile
+                          ? 'Mobile: true'
+                          : 'Mobile: false',
+                        'URL: ' + window.location.href || '',
+                        'UA: ' + window.navigator.userAgent || '',
+                      ].join('\n'),
+                    ),
+                )}`}
+                target='_blank'
+              >
+                <Mail /> Email
+              </a>
               <a
                 class='controls__card controls__card__icon'
                 href='https://chat.shabados.com'
                 target='_blank'
               >
-                <Slack />
+                <Slack /> Slack
               </a>
               <a
                 class='controls__card controls__card__icon'
                 href='https://www.github.com/shabados/'
                 target='_blank'
               >
-                <Github />
+                <Github /> GitHub
               </a>
             </div>
           </div>
-          <a
-            href={`mailto:team@shabados.com?body=${encodeURIComponent(
-              'Code for developers (please keep in email): ' +
-                btoa(
-                  [
-                    'TZ: ' + Intl.DateTimeFormat().resolvedOptions().timeZone ||
-                      '',
-                    'Platform: ' +
-                      (('userAgentData' in navigator &&
-                        (navigator as any).userAgentData.platform) ||
-                        ''),
-                    'Brands: ' +
-                      ('brands' in navigator &&
-                        (navigator as any).userAgentData.brands.reduce(
-                          (a: string, c: any) =>
-                            a + c.brand + ' ' + c.version + ', ',
-                          '',
-                        )),
-                    'mobile' in navigator &&
-                    (navigator as any).userAgentData.mobile
-                      ? 'Mobile: true'
-                      : 'Mobile: false',
-                    'URL: ' + window.location.href || '',
-                    'UA: ' + window.navigator.userAgent || '',
-                  ].join('\n'),
-                ),
-            )}`}
-            class='controls__option clickable'
-          >
-            <div class='controls__label'>
-              <Feedback />
-              Feedback
-            </div>
-            <span class='controls__icon'>
-              <Mail />
-            </span>
-          </a>
         </article>
       </div>
     </>

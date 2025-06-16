@@ -30,7 +30,7 @@ export default component$(() => {
   return (
     <>
       <div class='modal-bg' onClick$={() => (uiStore.journey = false)} />
-      <div class='modal'>
+      <div class={`modal ${uiStore.scrollForward && 'fill'} `}>
         <article class='modal__header'>
           <h2 class='modal__title'>Journey</h2>
           <span
