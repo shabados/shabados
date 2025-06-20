@@ -4,12 +4,7 @@ import {
   useStyles$,
   useVisibleTask$,
 } from '@builder.io/qwik';
-import {
-  useNavigate,
-  type DocumentHead,
-  Form,
-  Link,
-} from '@builder.io/qwik-city';
+import { useNavigate, type DocumentHead, Form } from '@builder.io/qwik-city';
 import styles from './index.css?inline';
 import Spinner from '~/components/spinner/spinner';
 import handleJump from '~/lib/handleJump';
@@ -74,18 +69,18 @@ export default component$(() => {
 
   const quickLinks = [
     {
-      title: "ਜਪੁ ਜੀ ਸਾਹਿਬ",
-      path: "/jap-ji-sahib/"
+      title: 'ਜਪੁ ਜੀ ਸਾਹਿਬ',
+      path: '/jap-ji-sahib/',
     },
     {
-      title: "ਰਹਰਾਸਿ ਸਾਹਿਬ",
-      path: "/rehras-sahib/"
+      title: 'ਰਹਰਾਸਿ ਸਾਹਿਬ',
+      path: '/rehras-sahib/',
     },
     {
-      title: "ਕੀਰਤਨ ਸੋਹਿਲਾ",
-      path: "/kirtan-sohila/"
+      title: 'ਕੀਰਤਨ ਸੋਹਿਲਾ',
+      path: '/kirtan-sohila/',
     },
-  ]
+  ];
 
   const currentAng = useSignal('0');
   useVisibleTask$(() => {
@@ -126,16 +121,20 @@ export default component$(() => {
           <div class='short-list' ref={shortListRef}>
             <div class='carousel'>
               <div class='cards'>
-                {
-                  quickLinks.map((link) => (
-                    <Link class='card' href={link.path} onClick$={() => addHistoryItem(link.path, {
-                      title: link.title,
-                      
-                    })}>
-                      <p>{link.title}</p>
-                    </Link>
-                  ))
-                }
+                {quickLinks.map((link) => (
+                  <a
+                    class='card'
+                    key={link.path}
+                    href={link.path}
+                    onClick$={() =>
+                      addHistoryItem(link.path, {
+                        title: link.title,
+                      })
+                    }
+                  >
+                    <p>{link.title}</p>
+                  </a>
+                ))}
                 <a
                   class='card'
                   href={
@@ -444,11 +443,11 @@ export default component$(() => {
           {downloading.value ? <Spinner /> : 'Download Presenter'}
         </a>
         <div class='footer-links'>
-          <Link href='/about'>About</Link>
-          <Link href='/blog'>Blog</Link>
-          <Link href='/support'>Support</Link>
-          <Link href='/docs'>Docs</Link>
-          <Link href='/privacy'>Privacy</Link>
+          <a href='/about'>About</a>
+          <a href='/blog'>Blog</a>
+          <a href='/support'>Support</a>
+          <a href='/docs'>Docs</a>
+          <a href='/privacy'>Privacy</a>
         </div>
       </article>
     </div>

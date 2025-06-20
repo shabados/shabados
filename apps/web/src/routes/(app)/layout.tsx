@@ -162,8 +162,9 @@ export default component$(() => {
   useOnWindow(
     'scroll',
     $(() => {
-      if (scrollPos.max == 0)
+      if (scrollPos.max <= 0)
         scrollPos.max = document.body.scrollHeight - window.innerHeight;
+
       scrollPos.is = window.scrollY;
       uiStore.scrollForward =
         (scrollPos.is > 1 && scrollPos.is > scrollPos.was) ||
@@ -209,10 +210,11 @@ export default component$(() => {
     userDataStore.ang = localUserDataStore.ang ?? '0';
     setLocalStorage('userDataStore', userDataStore);
 
-    if (url.pathname !== '/' && !url.pathname.includes('/search/') 
-      
+    if (
+      url.pathname !== '/' &&
+      !url.pathname.includes('/search/') &&
       // ignore /g/ paths because we already handled history update there
-      && !url.pathname.includes('/g/')
+      !url.pathname.includes('/g/')
     ) {
       if (
         url.pathname.includes('/sggs/') ||
@@ -267,7 +269,9 @@ export default component$(() => {
           '/ragmala/': 'ਰਾਗਮਾਲਾ',
         };
 
-        const isPathExist = Object.keys(pathTitleMap).some((p) => p === url.pathname);
+        const isPathExist = Object.keys(pathTitleMap).some(
+          (p) => p === url.pathname,
+        );
 
         if (isPathExist) {
           addHistoryItem(url.pathname, {

@@ -1,5 +1,5 @@
 import { component$, useSignal, useStyles$ } from '@builder.io/qwik';
-import { useContent, Link, useLocation } from '@builder.io/qwik-city';
+import { useContent, useLocation } from '@builder.io/qwik-city';
 import styles from './menu.css?inline';
 
 export default component$(() => {
@@ -30,7 +30,7 @@ export default component$(() => {
                       <h5>{item.text}</h5>
                       <div class='menu-items-links'>
                         {item.items?.map((item) => (
-                          <Link
+                          <a
                             key={item.text}
                             href={item.href}
                             class={{
@@ -39,7 +39,7 @@ export default component$(() => {
                             draggable={false}
                           >
                             {item.text}
-                          </Link>
+                          </a>
                         ))}
                       </div>
                     </div>

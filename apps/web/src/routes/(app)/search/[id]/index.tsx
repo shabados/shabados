@@ -50,11 +50,13 @@ export default component$(() => {
                 title,
               );
               return (
-                <Link
+                <a
                   key={1}
                   href={`/g/${container.id}`}
                   style='text-decoration: none !important; display: block;'
-                  onClick$={() => addHistoryItem(`/g/${container.id}`, { title: newTitle })}
+                  onClick$={() =>
+                    addHistoryItem(`/g/${container.id}`, { title: newTitle })
+                  }
                 >
                   <p style='color: var(--fg);'>{source.name} </p>
                   <p class='small'>
@@ -74,7 +76,7 @@ export default component$(() => {
                       ),
                     )}
                   </p>
-                </Link>
+                </a>
               );
             },
           )}
@@ -86,11 +88,13 @@ export default component$(() => {
                 title,
               );
               return (
-                <Link
+                <a
                   key={1}
                   href={`/g/${container.id}`}
                   style='text-decoration: none !important; display: block;'
-                  onClick$={() => addHistoryItem(`/g/${container.id}`, { title: newTitle })}
+                  onClick$={() =>
+                    addHistoryItem(`/g/${container.id}`, { title: newTitle })
+                  }
                 >
                   <p style='color: var(--fg);'>{source.name} </p>
                   <p class='small'>
@@ -110,7 +114,7 @@ export default component$(() => {
                       ),
                     )}
                   </p>
-                </Link>
+                </a>
               );
             },
           )}
