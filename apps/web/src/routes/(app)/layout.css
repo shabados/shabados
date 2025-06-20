@@ -32,11 +32,9 @@ html[data-factor='200'] {
 }
 
 .notes-pane {
-  position: fixed;
+  position: sticky;
   height: 5.5em;
   bottom: 0;
-  left: 0;
-  right: 0;
   resize: none;
   border: 0;
   border-radius: 0.5em 0.5em 0 0;
