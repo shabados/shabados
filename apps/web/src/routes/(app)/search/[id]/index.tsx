@@ -1,4 +1,4 @@
-import { type RequestHandler, routeLoader$, Link } from '@builder.io/qwik-city';
+import { type RequestHandler, routeLoader$ } from '@builder.io/qwik-city';
 import { component$ } from '@builder.io/qwik';
 import { addHistoryItem } from '~/lib/localStorage';
 
