@@ -73,7 +73,7 @@ export default component$(() => {
             document.documentElement.style.fontSize = zoomValues[controlsStore.zoom] + 'em' ?? '1.25em';
             document.documentElement.setAttribute('data-factor', controlsStore.factor ?? '150');
             document.documentElement.setAttribute('data-mode', controlsStore.mode ?? 'reader');
-            document.documentElement.setAttribute('data-width', controlsStore.width ?? 'wider');
+            document.documentElement.setAttribute('data-fullWidth', controlsStore.fullWidth ?? '0');
             document.documentElement.setAttribute('data-centered', controlsStore.centered ?? '1');
             document.documentElement.setAttribute('data-larivar', controlsStore.larivar ?? '0');
             document.documentElement.setAttribute('data-vishraman', controlsStore.vishraman ?? '1');
@@ -93,12 +93,6 @@ export default component$(() => {
                 )
                 .setAttribute('content', '#f5f3f0');
             };
-
-            const path = new URL(window.location.href).pathname;
-            if (path == '/') {
-              document.documentElement.style.fontSize = '1em';
-              document.documentElement.setAttribute('data-width', 'base');
-            }
 
           `}
         />

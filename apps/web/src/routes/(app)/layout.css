@@ -211,46 +211,17 @@ header > div {
   max-width: 100%;
 }
 
-html[data-width='narrower'][data-mode='classic'] main > div,
-html[data-width='narrower'][data-mode='classic'] .notes-pane,
-html[data-width='narrower'][data-mode='saral'] main > div,
-html[data-width='narrower'][data-mode='saral'] .notes-pane,
-html[data-width='narrower'][data-mode='reader'] main > div,
-html[data-width='narrower'][data-mode='reader'] .notes-pane {
-  width: 31em;
-}
-
-html[data-width='base'][data-mode='classic'] main > div,
-html[data-width='base'][data-mode='classic'] .notes-pane,
-html[data-width='base'][data-mode='saral'] main > div,
-html[data-width='base'][data-mode='saral'] .notes-pane,
-html[data-width='base'][data-mode='reader'] main > div,
-html[data-width='base'][data-mode='reader'] .notes-pane {
-  width: 41rem;
-}
-
-html[data-width='wider'][data-mode='classic'] main > div,
-html[data-width='wider'][data-mode='classic'] .notes-pane,
-html[data-width='wider'][data-mode='saral'] main > div,
-html[data-width='wider'][data-mode='saral'] .notes-pane,
-html[data-width='wider'][data-mode='reader'] main > div,
-html[data-width='wider'][data-mode='reader'] .notes-pane {
+main > div,
+.notes-pane {
   width: 60rem;
 }
 
-html[data-width='widest'][data-mode='classic'] main > div,
-html[data-width='widest'][data-mode='classic'] .notes-pane,
-html[data-width='widest'][data-mode='saral'] main > div,
-html[data-width='widest'][data-mode='saral'] .notes-pane,
-html[data-width='widest'][data-mode='reader'] main > div,
-html[data-width='widest'][data-mode='reader'] .notes-pane {
-  width: 100%;
-  max-width: 100%;
-}
-
+html[data-fullWidth='1'] main > div,
+html[data-fullWidth='1'] .notes-pane,
 html[data-mode='presenter'] main > div,
 html[data-mode='presenter'] .notes-pane {
   width: 100%;
+  max-width: 100%;
 }
 
 html[data-larivar='1'] p.bold {

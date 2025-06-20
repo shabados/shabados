@@ -88,7 +88,7 @@ export default component$(() => {
   });
 
   return (
-    <div class='ui no-wide'>
+    <div class='ui'>
       <div class='hero'>
         <div>
           <article>

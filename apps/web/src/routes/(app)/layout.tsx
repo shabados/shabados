@@ -36,7 +36,7 @@ export type Controls = {
   zoom: number;
   factor: number;
   mode: string;
-  width: string;
+  fullWidth: number;
   centered: number;
   larivar: number;
   vishraman: number;
@@ -53,7 +53,7 @@ const controlsDefault: Controls = {
   zoom: 4,
   factor: 150,
   mode: 'reader',
-  width: 'wider',
+  fullWidth: 0,
   centered: 1,
   larivar: 0,
   vishraman: 1,
@@ -199,8 +199,17 @@ export default component$(() => {
           typeof controlsStore[key as keyof Controls] === typeof value
         ) {
           (controlsStore as any)[key] = value;
+        } else {
+          delete (localControlsStore as any)[key];
         }
       });
+
+      Object.entries(controlsStore).map(([key, value]) => {
+        if (!(key in localControlsStore)) {
+          (localControlsStore as any)[key] = value;
+        }
+      });
+      setLocalStorage('controlsStore', localControlsStore);
     }
 
     // Initialize userDataStore from local storage

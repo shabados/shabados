@@ -1,3 +1,8 @@
+.ui {
+  max-width: 664px;
+  margin: 0 auto;
+}
+
 .hero {
   min-height: calc(100svh - 3.5em - 1.6em * 6);
   display: flex;

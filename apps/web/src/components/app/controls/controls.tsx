@@ -207,69 +207,30 @@ export default component$(() => {
             </div>
           </div>
 
-          <div class='controls__width'>
+          <div
+            class={`controls__option clickable ${
+              controlsStore.mode === 'presenter' && 'disabled'
+            }`}
+            onClick$={() => {
+              if (controlsStore.mode === 'presenter') return;
+              const v = (controlsStore.fullWidth + 1) % 2;
+              document.documentElement.setAttribute(
+                'data-fullWidth',
+                v.toString(),
+              );
+              updateControls('fullWidth', v);
+            }}
+          >
             <div class='controls__label'>
               <Width />
-              Width
+              Full Width
             </div>
-            <div class='controls__grid'>
-              <a
-                class={`controls__card ${
-                  controlsStore.width == 'narrower' && 'controls__card__active'
-                }`}
-                href='#'
-                preventdefault:click
-                onClick$={() => {
-                  const v = 'narrower';
-                  updateControls('width', v);
-                  document.documentElement.setAttribute('data-width', v);
-                }}
-              >
-                Narrower
-              </a>
-              <a
-                class={`controls__card ${
-                  controlsStore.width == 'base' && 'controls__card__active'
-                }`}
-                href='#'
-                preventdefault:click
-                onClick$={() => {
-                  const v = 'base';
-                  updateControls('width', v);
-                  document.documentElement.setAttribute('data-width', v);
-                }}
-              >
-                Base
-              </a>
-              <a
-                class={`controls__card ${
-                  controlsStore.width == 'wider' && 'controls__card__active'
-                }`}
-                href='#'
-                preventdefault:click
-                onClick$={() => {
-                  const v = 'wider';
-                  updateControls('width', v);
-                  document.documentElement.setAttribute('data-width', v);
-                }}
-              >
-                Wider
-              </a>
-              <a
-                class={`controls__card ${
-                  controlsStore.width == 'widest' && 'controls__card__active'
-                }`}
-                href='#'
-                preventdefault:click
-                onClick$={() => {
-                  const v = 'widest';
-                  updateControls('width', v);
-                  document.documentElement.setAttribute('data-width', v);
-                }}
-              >
-                Widest
-              </a>
-            </div>
+            <Switch
+              disabled={controlsStore.mode === 'presenter'}
+              toggled={
+                !!controlsStore.fullWidth || controlsStore.mode === 'presenter'
+              }
+            />
           </div>
 
           <hr />
