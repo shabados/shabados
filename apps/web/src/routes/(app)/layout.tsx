@@ -167,8 +167,8 @@ export default component$(() => {
 
       scrollPos.is = window.scrollY;
       uiStore.scrollForward =
-        (scrollPos.is > 1 && scrollPos.is > scrollPos.was) ||
-        scrollPos.is >= scrollPos.max;
+        scrollPos.is > 1 &&
+        (scrollPos.is > scrollPos.was || scrollPos.is >= scrollPos.max);
 
       scrollPos.was = scrollPos.is;
 
