@@ -217,78 +217,72 @@ export default component$(() => {
     userDataStore.history = localUserDataStore.history ?? JSON.parse('{}');
     userDataStore.archive = localUserDataStore.archive ?? JSON.parse('{}');
     userDataStore.ang = localUserDataStore.ang ?? '0';
-    setLocalStorage('userDataStore', userDataStore);
 
     if (
-      url.pathname !== '/' &&
-      !url.pathname.includes('/search/') &&
-      // ignore /g/ paths because we already handled history update there
-      !url.pathname.includes('/g/')
+      url.pathname.includes('/sggs/') ||
+      url.pathname.includes('/sdgr/') ||
+      url.pathname.includes('/gjnl/') ||
+      url.pathname.includes('/sukhmani-sahib/') ||
+      url.pathname.includes('/asa-ki-var/')
     ) {
-      if (
-        url.pathname.includes('/sggs/') ||
-        url.pathname.includes('/sdgr/') ||
-        url.pathname.includes('/gjnl/') ||
-        url.pathname.includes('/sukhmani-sahib/') ||
-        url.pathname.includes('/asa-ki-var/')
-      ) {
-        const m: { [key: string]: { [key: string]: string } } = {
-          sggs: { title: 'ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ', leaf: 'ਅੰਗ' },
-          sdgr: { title: 'ਸ੍ਰੀ ਦਸਮ ਗ੍ਰੰਥ', leaf: 'ਅੰਗ' },
-          gjnl: { title: 'ਗੰਜ ਨਾਮਾ', leaf: 'ਪਾਤਸ਼ਾਹੀ' },
-          'asa-ki-var': { title: 'ਆਸਾ ਕੀ ਵਾਰ', leaf: 'ਛੱਕਾ' },
-          'sukhmani-sahib': { title: 'ਸੁਖਮਨੀ ਸਾਹਿਬ', leaf: 'ਅਸਟਪਦੀ' },
-        };
-        const composition = url.pathname.split('/').slice(-3, -2)[0];
-        const cTitle = m[composition]['title'];
-        const leaf = url.pathname.split('/').slice(-2, -1)[0];
-        const lTitle = m[composition]['leaf'] + ' ' + toGurmukhiNumerals(leaf);
-        addHistoryItem(url.pathname, {
-          title: `${lTitle} - ${cTitle}`,
-        });
-        if (composition === 'sggs') {
-          if (parseInt(leaf) <= 1 || parseInt(leaf) >= 1426) {
-            userDataStore.ang = '0';
-          } else {
-            userDataStore.ang = leaf;
-          }
+      const m: { [key: string]: { [key: string]: string } } = {
+        sggs: { title: 'ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ', leaf: 'ਅੰਗ' },
+        sdgr: { title: 'ਸ੍ਰੀ ਦਸਮ ਗ੍ਰੰਥ', leaf: 'ਅੰਗ' },
+        gjnl: { title: 'ਗੰਜ ਨਾਮਾ', leaf: 'ਪਾਤਸ਼ਾਹੀ' },
+        'asa-ki-var': { title: 'ਆਸਾ ਕੀ ਵਾਰ', leaf: 'ਛੱਕਾ' },
+        'sukhmani-sahib': { title: 'ਸੁਖਮਨੀ ਸਾਹਿਬ', leaf: 'ਅਸਟਪਦੀ' },
+      };
+      const composition = url.pathname.split('/').slice(-3, -2)[0];
+      const cTitle = m[composition]['title'];
+      const leaf = url.pathname.split('/').slice(-2, -1)[0];
+      const lTitle = m[composition]['leaf'] + ' ' + toGurmukhiNumerals(leaf);
+      addHistoryItem(url.pathname, {
+        title: `${lTitle} - ${cTitle}`,
+      });
+      if (composition === 'sggs') {
+        if (parseInt(leaf) <= 1 || parseInt(leaf) >= 1426) {
+          userDataStore.ang = '0';
+        } else {
+          userDataStore.ang = leaf;
         }
-      } else if (url.pathname.includes('/h/')) {
-        const yymmdd = url.pathname.split('/').slice(-2, -1)[0];
-        const year = parseInt(yymmdd.slice(0, 2));
-        const date = new Date(
-          year < 75 ? year + 2000 : year + 1900,
-          parseInt(yymmdd.slice(2, 4)) - 1,
-          parseInt(yymmdd.slice(4, 6)),
-        );
+        setLocalStorage('userDataStore', userDataStore);
+      }
+    } else if (url.pathname.includes('/h/')) {
+      const yymmdd = url.pathname.split('/').slice(-2, -1)[0];
+      const year = parseInt(yymmdd.slice(0, 2));
+      const date = new Date(
+        year < 75 ? year + 2000 : year + 1900,
+        parseInt(yymmdd.slice(2, 4)) - 1,
+        parseInt(yymmdd.slice(4, 6)),
+      );
+      addHistoryItem(url.pathname, {
+        title: `ਰੋਜ਼ਾਨਾ ਮੁੱਖਵਾਕ (${date.toLocaleDateString()})`,
+      });
+    } else {
+      const pathTitleMap: { [key: string]: string } = {
+        '/jap-ji-sahib/': 'ਜਪੁ ਜੀ ਸਾਹਿਬ',
+        '/jap-sahib/': 'ਜਾਪੁ ਸਾਹਿਬ',
+        '/twa-prasad-swaye/': 'ਤ੍ਵ ਪ੍ਰਸਾਦਿ - ਸ੍ਵਯੇ',
+        '/kabyo-bac-benti-copai/': 'ਕਬ︀︁ਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ',
+        '/anand-sahib/': 'ਅਨੰਦੁ ਸਾਹਿਬ',
+        '/rehras-sahib/': 'ਰਹਰਾਸਿ ਸਾਹਿਬ',
+        '/kirtan-sohila/': 'ਕੀਰਤਨ ਸੋਹਿਲਾ',
+        '/ardas/': 'ਅਰਦਾਸ',
+        '/sggs-bhog/': 'ਭੋਗ - ਸਲੋਕ ਮਹਲਾ ੯',
+        '/ragmala/': 'ਰਾਗਮਾਲਾ',
+      };
+
+      const isPathExist = Object.keys(pathTitleMap).some(
+        (p) => p === url.pathname,
+      );
+
+      if (isPathExist) {
         addHistoryItem(url.pathname, {
-          title: `ਰੋਜ਼ਾਨਾ ਮੁੱਖਵਾਕ (${date.toLocaleDateString()})`,
+          title: pathTitleMap[url.pathname],
         });
-      } else {
-        const pathTitleMap: { [key: string]: string } = {
-          '/jap-ji-sahib/': 'ਜਪੁ ਜੀ ਸਾਹਿਬ',
-          '/jap-sahib/': 'ਜਾਪੁ ਸਾਹਿਬ',
-          '/twa-prasad-swaye/': 'ਤ੍ਵ ਪ੍ਰਸਾਦਿ - ਸ੍ਵਯੇ',
-          '/kabyo-bac-benti-copai/': 'ਕਬ︀︁ਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ',
-          '/anand-sahib/': 'ਅਨੰਦੁ ਸਾਹਿਬ',
-          '/rehras-sahib/': 'ਰਹਰਾਸਿ ਸਾਹਿਬ',
-          '/kirtan-sohila/': 'ਕੀਰਤਨ ਸੋਹਿਲਾ',
-          '/ardas/': 'ਅਰਦਾਸ',
-          '/sggs-bhog/': 'ਭੋਗ - ਸਲੋਕ ਮਹਲਾ ੯',
-          '/ragmala/': 'ਰਾਗਮਾਲਾ',
-        };
-
-        const isPathExist = Object.keys(pathTitleMap).some(
-          (p) => p === url.pathname,
-        );
-
-        if (isPathExist) {
-          addHistoryItem(url.pathname, {
-            title: pathTitleMap[url.pathname],
-          });
-          if (url.pathname === '/sggs-bhog/' || url.pathname === '/ragmala/') {
-            userDataStore.ang = '0';
-          }
+        if (url.pathname === '/sggs-bhog/' || url.pathname === '/ragmala/') {
+          userDataStore.ang = '0';
+          setLocalStorage('userDataStore', userDataStore);
         }
       }
     }
