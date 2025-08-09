@@ -113,9 +113,10 @@ export default component$(() => {
               />
             </Form>
             <p class='search-tip small' ref={searchTipRef}>
-              Tip: To find "ਸਤਿਗੁਰੁ ਹੋਇ ਦਇਆਲੁ ਨ ਕਬਹੂੰ ਝੂਰੀਐ", try searching the
-              heavy pause with first-letter gurbani or pronunciation. For
-              example "ਸਹਦ", "ਨਕਝ", "shd", or "nkj".
+              Tip: To find "ਸਤਿਗੁਰੁ ਹੋਇ ਦਇਆਲੁ, ਨ ਕਬਹੂੰ ਝੂਰੀਐ", try searching
+              with first-letter gurbani or pronunciation within the logical
+              pause. For example "ਸਹਦ", "ਨਕਝ", "shd", or "nkj" will work, but
+              "ਸਹਦਨ" and "shdn" will not.
             </p>
           </article>
           <div class='short-list' ref={shortListRef}>
