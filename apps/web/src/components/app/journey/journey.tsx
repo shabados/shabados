@@ -13,25 +13,26 @@ import styles from './journey.css?inline';
 import X from '~/components/icons/ui/x';
 import { useLocation } from '@builder.io/qwik-city';
 
-
 // Helper function to get category key from timestamp
 const getCategoryFromTimestamp = (timestamp: number, now: Date) => {
   const itemDate = new Date(timestamp);
   const today = new Date(now);
-  
+
   // Reset time to start of day for comparison
   const resetTime = (date: Date) => {
     const newDate = new Date(date);
     newDate.setHours(0, 0, 0, 0);
     return newDate;
   };
-  
+
   const itemDateStart = resetTime(itemDate);
   const todayStart = resetTime(today);
-  
+
   // Calculate days difference
-  const daysDiff = Math.floor((todayStart.getTime() - itemDateStart.getTime()) / (1000 * 60 * 60 * 24));
-  
+  const daysDiff = Math.floor(
+    (todayStart.getTime() - itemDateStart.getTime()) / (1000 * 60 * 60 * 24),
+  );
+
   if (daysDiff === 0) {
     return 'today';
   } else if (daysDiff === 1) {
@@ -50,7 +51,17 @@ const getCategoryLabel = (category: string) => {
   if (category === 'today') return 'Today';
   if (category === 'yesterday') return 'Yesterday';
   // If it's a day name, capitalize it
-  if (['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'].includes(category)) {
+  if (
+    [
+      'monday',
+      'tuesday',
+      'wednesday',
+      'thursday',
+      'friday',
+      'saturday',
+      'sunday',
+    ].includes(category)
+  ) {
     return category.charAt(0).toUpperCase() + category.slice(1);
   }
   // If it's a date, return as is
@@ -70,7 +81,7 @@ export default component$(() => {
   const { url } = useLocation();
 
   useVisibleTask$(() => {
-    userDataStore.history = getLocalStorage('userDataStore')['history'] ?? '{}';
+    userDataStore.history = getLocalStorage('userDataStore')['history'] ?? {};
   });
 
   const sortedHistory = Object.entries(userDataStore.history)
@@ -89,8 +100,6 @@ export default component$(() => {
     categorizedHistory.get(category)!.push(item);
   });
 
-
-
   return (
     <>
       <div class='modal-bg' onClick$={() => (uiStore.journey = false)} />
@@ -108,21 +117,23 @@ export default component$(() => {
         <article class='modal__article journey__items'>
           {Array.from(categorizedHistory.entries()).map(([category, items]) => {
             if (items.length === 0) return null;
-            
+
             return (
               <div key={category} class='journey__category'>
-                <h3 class='journey__category__title'>{getCategoryLabel(category)}</h3>
+                <h3 class='journey__category__title'>
+                  {getCategoryLabel(category)}
+                </h3>
                 {items.map(([a, b]) => (
                   <a
                     href={url.pathname != a ? a : undefined}
                     key={a}
                     aria-disabled={url.pathname == a}
-                    class={`journey__items__item ${url.pathname == a && `disabled`}`}
+                    class={`journey__items__item ${
+                      url.pathname == a && `disabled`
+                    }`}
                   >
                     <span class='journey__items__item__title'>{b.title}</span>
-                    <p class='small'>
-                      {formatTime(Number(b['time']))}
-                    </p>
+                    <p class='small'>{formatTime(Number(b['time']))}</p>
                   </a>
                 ))}
               </div>
