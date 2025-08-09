@@ -215,75 +215,15 @@ export default component$(() => {
                   <a class='card' href='/asa-ki-var/1'>
                     <p>ਛੱਕਾ ੧</p>
                   </a>
-                  <a class='card' href='/asa-ki-var/2'>
-                    <p>੨</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/3'>
-                    <p>੩</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/4'>
-                    <p>੪</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/5'>
-                    <p>੫</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/6'>
-                    <p>੬</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/7'>
-                    <p>੭</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/8'>
-                    <p>੮</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/9'>
-                    <p>੯</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/10'>
-                    <p>੧੦</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/11'>
-                    <p>੧੧</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/12'>
-                    <p>੧੨</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/13'>
-                    <p>੧੩</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/14'>
-                    <p>੧੪</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/15'>
-                    <p>੧੫</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/16'>
-                    <p>੧੬</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/17'>
-                    <p>੧੭</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/18'>
-                    <p>੧੮</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/19'>
-                    <p>੧੯</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/20'>
-                    <p>੨੦</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/21'>
-                    <p>੨੧</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/22'>
-                    <p>੨੨</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/23'>
-                    <p>੨੩</p>
-                  </a>
-                  <a class='card' href='/asa-ki-var/24'>
-                    <p>੨੪</p>
-                  </a>
+                  {Array.from(Array(23)).map((_, i) => (
+                    <a
+                      key={`asa-ki-var-${i + 2}`}
+                      class='card'
+                      href={`/asa-ki-var/${i + 2}`}
+                    >
+                      <p>{toGurmukhiNumerals((i + 2).toString())}</p>
+                    </a>
+                  ))}
                 </div>
               </div>
             </div>
@@ -294,75 +234,15 @@ export default component$(() => {
                 <a class='card' href='/sukhmani-sahib/1'>
                   <p>ਅਸਟਪਦੀ ੧</p>
                 </a>
-                <a class='card' href='/sukhmani-sahib/2'>
-                  <p>੨</p>
-                </a>
-                <a class='card' href='/sukhmani-sahib/3'>
-                  <p>੩</p>
-                </a>
-                <a class='card' href='/sukhmani-sahib/4'>
-                  <p>੪</p>
-                </a>
-                <a class='card' href='/sukhmani-sahib/5'>
-                  <p>੫</p>
-                </a>
-                <a class='card' href='/sukhmani-sahib/6'>
-                  <p>੬</p>
-                </a>
-                <a class='card' href='/sukhmani-sahib/7'>
-                  <p>੭</p>
-                </a>
-                <a class='card' href='/sukhmani-sahib/8'>
-                  <p>੮</p>
-                </a>
-                <a class='card' href='/sukhmani-sahib/9'>
-                  <p>੯</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib10'>
-                  <p>੧੦</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib11'>
-                  <p>੧੧</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib12'>
-                  <p>੧੨</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib13'>
-                  <p>੧੩</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib14'>
-                  <p>੧੪</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib15'>
-                  <p>੧੫</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib16'>
-                  <p>੧੬</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib17'>
-                  <p>੧੭</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib18'>
-                  <p>੧੮</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib19'>
-                  <p>੧੯</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib20'>
-                  <p>੨੦</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib21'>
-                  <p>੨੧</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib22'>
-                  <p>੨੨</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib23'>
-                  <p>੨੩</p>
-                </a>
-                <a class='card' href='/asasukhmani-sahib24'>
-                  <p>੨੪</p>
-                </a>
+                {Array.from(Array(23)).map((_, i) => (
+                  <a
+                    key={`sukhmani-sahib-${i + 2}`}
+                    class='card'
+                    href={`/sukhmani-sahib/${i + 2}`}
+                  >
+                    <p>{toGurmukhiNumerals((i + 2).toString())}</p>
+                  </a>
+                ))}
               </div>
             </div>
 
