@@ -194,8 +194,9 @@ html[data-mode='presenter'] .line {
 }
 
 @media (pointer: coarse) {
-  .notes-pane,
   main > div,
+  .notes-pane,
+  .toolbar__container,
   header > div,
   footer > div {
     width: inherit;
@@ -203,21 +204,25 @@ html[data-mode='presenter'] .line {
   }
 }
 
-.notes-pane,
 main > div,
+.notes-pane,
+.toolbar__container,
 header > div {
   max-width: 100%;
 }
 
 main > div,
-.notes-pane {
+.notes-pane,
+.toolbar__container {
   width: 60rem;
 }
 
 html[data-fullWidth='1'] main > div,
 html[data-fullWidth='1'] .notes-pane,
+html[data-fullWidth='1'] .toolbar__container,
 html[data-mode='presenter'] main > div,
-html[data-mode='presenter'] .notes-pane {
+html[data-mode='presenter'] .notes-pane,
+html[data-mode='presenter'] .toolbar__container {
   width: 100%;
   max-width: 100%;
 }

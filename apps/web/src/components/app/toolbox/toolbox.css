@@ -1,0 +1,217 @@
+.toolbar {
+  display: flex;
+  width: 360px;
+  min-width: 0px;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0 12px; */
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.toolbar.hide {
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
+}
+.toolbar.show {
+  opacity: 1;
+  position: relative;
+  left: auto;
+}
+
+.toolbar.title-only {
+  width: min-content;
+  max-width: 240px;
+  flex-grow: 0;
+}
+
+.button-area__main {
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.title {
+  padding: 0 12px;
+  min-width: 0;
+  max-width: 500px;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.toolbar > *,
+.toolbar .search[type='search'] {
+  flex-grow: 1;
+  border: 2.25px solid var(--toner);
+  border-radius: 10em;
+  backdrop-filter: blur(4px);
+  min-width: 0;
+}
+
+.toolbar.active > *,
+.toolbar.active .search[type='search'] {
+  background: rgb(from var(--bg-base) r g b / 0.92);
+}
+
+.toolbar.inactive > *,
+.toolbar.inactive .search[type='search'] {
+  background: rgb(from var(--bg) r g b / 0.92);
+}
+
+.toolbar.inactive:hover > *,
+.toolbar.inactive:hover .search[type='search'] {
+  background: rgb(
+    from color-mix(in lch, var(--bg), var(--bg-base) 55%) r g b / 0.92
+  );
+}
+
+.toolbar span {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.search[type='search'] {
+  padding: 8.75px 20px;
+  /* width: 100%; */
+  text-align: left;
+}
+
+.toolbar > *:hover {
+  text-decoration: none;
+  outline: 2.25px solid var(--ui);
+  background: var(--ui-toner);
+}
+
+.hide {
+  transform: translateY(3.5em);
+}
+
+.search__form {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.toolbar > .empty,
+.toolbar > .empty:hover,
+.toolbar > .empty:focus {
+  border: none;
+  outline: none;
+  background-color: none !important;
+  height: 0;
+}
+
+toolbar {
+  opacity: 1;
+  transition: opacity 240ms ease 160ms;
+  width: 100%;
+}
+
+.hide > toolbar {
+  opacity: 0;
+  transition: opacity 120ms linear;
+}
+
+toolbar * {
+  user-select: none;
+}
+
+toolbar > div {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: 1fr auto 1fr; */
+  align-items: center;
+  container-type: inline-size;
+  padding: 0 12px;
+}
+
+toolbar nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4em;
+}
+
+.toolbar a {
+  color: inherit;
+  padding: 8px;
+  display: flex;
+  border-radius: 24px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+  outline-offset: -2.25px;
+}
+
+/* @media (dynamic-range: high) {
+  @supports (color: oklch(0 0 0)) {
+    .scrolled a {
+      background: oklch(from var(--bg-base) l c h / 0.92);
+    }
+  }
+} */
+
+toolbar .logo {
+  padding: 5px 0;
+  padding-left: 8px;
+  padding-right: 12px;
+  display: flex;
+  gap: 0.33em;
+  align-items: center;
+  font-size: 1.15em;
+  font-weight: 400;
+  letter-spacing: -0.25px;
+}
+
+toolbar .lotus {
+  height: calc(16px * 1.6); /* whatever rem is supposed to be */
+}
+
+@media (pointer: coarse) {
+  .toolbar {
+    justify-content: space-between;
+    max-width: inherit;
+    width: 100%;
+    padding: 0 12px 14px;
+  }
+
+  .search-toolbar {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .toolbar {
+    max-width: inherit;
+    width: 100%;
+  }
+}
+
+@media (display-mode: window-controls-overlay) {
+  toolbar {
+    font-size: 0.875em;
+    -webkit-app-region: drag;
+    app-region: drag;
+  }
+  toolbar > div {
+    width: calc(env(titlebar-area-width, 100%));
+    height: env(titlebar-area-height, 38px);
+  }
+  toolbar a,
+  toolbar input {
+    -webkit-app-region: no-drag;
+    app-region: no-drag;
+  }
+  toolbar .logo {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  toolbar .lotus {
+    display: none;
+  }
+}

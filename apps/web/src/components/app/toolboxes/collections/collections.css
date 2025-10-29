@@ -1,0 +1,113 @@
+.modal__article {
+  height: 100%;
+  overscroll-behavior: contain;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding: 0px 0;
+  margin: 0;
+}
+
+.modal__article > * {
+  padding: 12px 0;
+  margin: 0;
+  user-select: none;
+}
+
+.modal__article::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel {
+  margin-bottom: 24px;
+  scroll-behavior: smooth;
+  border-bottom: 0.5px solid var(--toner);
+}
+
+.cards {
+  margin: 0;
+  display: flex;
+  gap: 0.6em;
+  overflow-x: auto;
+  flex-wrap: wrap;
+  scroll-padding-inline: 24px;
+  padding: 0 12px 0;
+}
+
+.cards + .cards {
+  margin-top: 12px;
+}
+
+.grid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.cards::-webkit-scrollbar {
+  display: none;
+}
+
+.card,
+a.card {
+  min-width: fit-content;
+}
+
+.card {
+  --height: 32px;
+  color: var(--fg);
+  padding: 0 1em;
+  height: var(--height);
+  border-radius: var(--height);
+  background-color: var(--toner);
+  border: 2.25px solid transparent;
+  scroll-snap-align: start;
+  display: block;
+  overflow-wrap: initial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.bookmark {
+  padding: 0 11px;
+}
+
+a.card {
+  background-color: var(--bg-base);
+  border: 2.25px solid var(--toner);
+}
+
+.carousel__button:hover > span,
+a.card:hover,
+a.card:focus {
+  color: var(--fg);
+  background-color: var(--ui-toner);
+  text-decoration: none;
+  cursor: pointer;
+  outline: 2.25px solid var(--ui);
+  outline-offset: -2.25px;
+}
+
+a.button {
+  cursor: pointer;
+  display: inline-block;
+  background-color: var(--ui);
+  color: white;
+  border-radius: 2em;
+  padding: 0.75em 1em;
+  margin: 0.5em auto 1em;
+  font-size: 0.875em;
+  font-weight: 500;
+  width: fit-content;
+  line-height: 1;
+}
+
+a.button:hover {
+  text-decoration: none;
+}
+
+@media (pointer: coarse) {
+  .card {
+    --height: 48px;
+  }
+}

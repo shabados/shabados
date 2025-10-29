@@ -1,0 +1,105 @@
+@keyframes fade-in-and-up {
+  0% {
+    opacity: 0.4;
+    transform: translateY(24px) translateX(auto);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) translateX(auto);
+  }
+}
+
+.modal {
+  /* Custom properties */
+  --gutter: 12px;
+  --double-gutter: 24px;
+  --toolbar-height: 44px;
+
+  /* Positioning */
+  z-index: 3;
+  position: fixed;
+  bottom: calc(var(--toolbar-height) + var(--double-gutter));
+
+  /* Box model */
+  box-sizing: border-box;
+  width: 360px;
+  max-width: 100vw;
+  max-height: calc(
+    100vh - var(--toolbar-height) - var(--double-gutter) - var(--gutter)
+  );
+  overflow: hidden;
+
+  /* Typography */
+  color: var(--fg-muted);
+  font-size: calc(16px * 0.875);
+
+  /* Visual */
+  background: rgb(from var(--bg-base) r g b / 0.92);
+  backdrop-filter: blur(4px);
+  border: 2.25px solid var(--toner);
+  border-radius: calc(var(--toolbar-height) / 2);
+
+  /* Animation */
+  animation: fade-in-and-up 0.125s ease;
+  animation-fill-mode: forwards;
+  transition: all 400ms ease;
+}
+
+@media (pointer: fine) {
+  .modal {
+    height: 640px;
+    right: 12px;
+  }
+  @media (max-device-width: 1100px) and (max-device-height: 800px) {
+    .modal {
+      height: calc(50vh - 50px);
+    }
+  }
+}
+
+@media (pointer: coarse) {
+  .modal {
+    --gutter: 18px;
+    --double-gutter: 36px;
+    --toolbar-height: 52px;
+  }
+
+  .modal_left {
+    left: calc(var(--gutter));
+  }
+
+  .modal_center {
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .modal_right {
+    right: calc(var(--gutter));
+  }
+
+  .modal.modal_type_search {
+    bottom: auto;
+    top: calc(var(--toolbar-height) + var(--gutter));
+    height: auto;
+    width: 100vw;
+    border-radius: 0;
+    overscroll-behavior-y: contain;
+  }
+  @media (max-device-width: 480px) {
+    .modal {
+      width: calc(100% - var(--double-gutter));
+      height: calc(65vh);
+    }
+  }
+  @media (max-device-height: 480px) {
+    .modal {
+      height: calc(100vh);
+    }
+  }
+  @media (min-device-width: 481px) and (min-device-height: 481px) {
+    .modal {
+      height: 640px;
+    }
+  }
+}

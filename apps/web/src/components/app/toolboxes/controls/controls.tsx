@@ -5,37 +5,38 @@ import {
   useStylesScoped$,
   useVisibleTask$,
 } from '@builder.io/qwik';
+import Appearance from '~/components/icons/ui/appearance';
+import Centered from '~/components/icons/ui/centered';
+import Continuous from '~/components/icons/ui/continuous';
+import ExternalLink from '~/components/icons/ui/external-link';
+import Feedback from '~/components/icons/ui/feedback';
+import Github from '~/components/icons/ui/github';
+import Instagram from '~/components/icons/ui/instagram';
+import Mail from '~/components/icons/ui/mail';
+import Maximize from '~/components/icons/ui/maximize';
+import Minimize from '~/components/icons/ui/minimize';
+import Mode from '~/components/icons/ui/mode';
+import Notes from '~/components/icons/ui/notes';
+import Pause from '~/components/icons/ui/pause';
+import Pronunciation from '~/components/icons/ui/pronunciation';
+import Ratio from '~/components/icons/ui/ratio';
+import Slack from '~/components/icons/ui/slack';
+import Slideshow from '~/components/icons/ui/slideshow';
+import Translation from '~/components/icons/ui/translation';
+import Width from '~/components/icons/ui/width';
+import Youtube from '~/components/icons/ui/youtube';
+import Zoom from '~/components/icons/ui/zoom';
+import Switch from '~/components/switch/switch';
+import { setLocalStorage } from '~/lib/localStorage';
+import zoomValues from '~/lib/zoomValues';
 import {
-  Controls,
+  type Controls,
   ControlsContext,
   UiContext,
-  setLocalStorage,
 } from '~/routes/(app)/layout';
+import ModalBg from '../../toolboxes-modal/modal-bg/modal-bg';
+import Modal from '../../toolboxes-modal/modal/modal';
 import styles from './controls.css?inline';
-import Switch from '~/components/switch/switch';
-import Minimize from '~/components/icons/ui/minimize';
-import Maximize from '~/components/icons/ui/maximize';
-import Zoom from '~/components/icons/ui/zoom';
-import Mode from '~/components/icons/ui/mode';
-import Slideshow from '~/components/icons/ui/slideshow';
-import Notes from '~/components/icons/ui/notes';
-import Feedback from '~/components/icons/ui/feedback';
-import X from '~/components/icons/ui/x';
-import Translation from '~/components/icons/ui/translation';
-import Pronunciation from '~/components/icons/ui/pronunciation';
-import Width from '~/components/icons/ui/width';
-import Mail from '~/components/icons/ui/mail';
-import ExternalLink from '~/components/icons/ui/external-link';
-import Instagram from '~/components/icons/ui/instagram';
-import Youtube from '~/components/icons/ui/youtube';
-import Slack from '~/components/icons/ui/slack';
-import Github from '~/components/icons/ui/github';
-import Pause from '~/components/icons/ui/pause';
-import Continuous from '~/components/icons/ui/continuous';
-import Centered from '~/components/icons/ui/centered';
-import zoomValues from '~/lib/zoomValues';
-import Ratio from '~/components/icons/ui/ratio';
-import Appearance from '~/components/icons/ui/appearance';
 
 // Utility function to update theme color meta tags
 const setThemeColor = (light: string, dark: string) => {
@@ -65,18 +66,8 @@ export default component$(() => {
 
   return (
     <>
-      <div class='modal-bg' onClick$={() => (uiStore.controls = false)} />
-      <div class={`modal ${uiStore.scrollForward && 'fill'} `}>
-        <article class='modal__header'>
-          <h2 class='modal__title'>Controls</h2>
-          <span
-            dir='rtl'
-            class='modal__close'
-            onClick$={() => (uiStore.controls = false)}
-          >
-            <X />
-          </span>
-        </article>
+      <ModalBg store={uiStore} s={'controls'} />
+      <Modal position='right'>
         <article class='modal__article'>
           {document.fullscreenEnabled && (
             <>
@@ -612,7 +603,7 @@ export default component$(() => {
             </div>
           </div>
         </article>
-      </div>
+      </Modal>
     </>
   );
 });

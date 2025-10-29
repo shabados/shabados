@@ -3,7 +3,6 @@ import {
   component$,
   createContextId,
   Slot,
-  useComputed$,
   useContextProvider,
   useOnWindow,
   useSignal,
@@ -12,15 +11,24 @@ import {
   useVisibleTask$,
 } from '@builder.io/qwik';
 import { useLocation, type RequestHandler } from '@builder.io/qwik-city';
-import Header from '~/components/app/header/header';
-import requestWakeLock from '~/lib/wakelock';
-import styles from './layout.css?inline';
 import Slideshow from '~/components/app/slideshow/slideshow';
-import Controls from '~/components/app/controls/controls';
-import Journey from '~/components/app/journey/journey';
-import zoomValues from '~/lib/zoomValues';
+import Toolbar from '~/components/app/toolbar/toolbar';
+import Collections from '~/components/app/toolboxes/collections/collections';
+import Controls from '~/components/app/toolboxes/controls/controls';
+import Journey from '~/components/app/toolboxes/journey/journey';
+import Search from '~/components/app/toolboxes/search/search';
+import {
+  addHistoryItem,
+  getLocalStorage,
+  getUserData,
+  type SearchHistory,
+  setLocalStorage,
+} from '~/lib/localStorage';
 import toGurmukhiNumerals from '~/lib/toGurmukhiNumerals';
-import { addHistoryItem } from '~/lib/localStorage';
+import requestWakeLock from '~/lib/wakelock';
+import zoomValues from '~/lib/zoomValues';
+import styles from './layout.css?inline';
+import toggleToolbox, { type ToolboxKey } from '~/lib/toggleToolbox';
 // import Inspector from '~/components/app/inspector/inspector';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
@@ -72,6 +80,10 @@ export const ControlsContext = createContextId<Controls>(
 
 export type Ui = {
   controls: boolean;
+  collections: boolean;
+  search: boolean;
+  searchQuery: string;
+  searchToolbar: boolean;
   fullscreen: boolean;
   slideshow: boolean;
   journey: boolean;
@@ -88,6 +100,7 @@ type PathTimestamp = {
 };
 
 export type UserData = {
+  searches: SearchHistory[];
   history: PathTimestamp;
   archive: PathTimestamp;
   ang: string;
@@ -97,28 +110,16 @@ export const UserDataContext = createContextId<UserData>(
   'com.shabados.app.user-data-context',
 );
 
-export const setLocalStorage = (key: string, obj: object) => {
-  localStorage.setItem(key, JSON.stringify(obj));
-};
-
-export const getLocalStorage = (key: string) => {
-  if (typeof window === 'undefined')
-    throw new Error('Tried to access local storage on the server');
-
-  return JSON.parse(localStorage.getItem(key) as string) || JSON.parse('{}');
-};
-
-// create deserialized Controls object
-export const jsonToControls = (json: string): Controls => {
-  return JSON.parse(json);
-};
-
 export default component$(() => {
   const controlsStore = useStore(controlsDefault);
   useContextProvider(ControlsContext, controlsStore);
 
   const uiStore = useStore({
     controls: false,
+    collections: false,
+    search: false,
+    searchQuery: '',
+    searchToolbar: false,
     fullscreen: false,
     slideshow: false,
     journey: false,
@@ -129,6 +130,7 @@ export default component$(() => {
   });
   useContextProvider(UiContext, uiStore);
   const userDataStore = useStore({
+    searches: [] as SearchHistory[],
     history: {} as PathTimestamp,
     archive: {} as PathTimestamp,
     ang: '0',
@@ -142,22 +144,22 @@ export default component$(() => {
     was: 0,
     max: 0,
   });
-  const isFine = useSignal<boolean>(false);
-  const modalWidth = 324;
-  const windowWidth = useSignal<number>(1);
-  const zoomFactor = useComputed$(
-    () =>
-      (windowWidth.value -
-        modalWidth * ((uiStore.journey ? 1 : 0) + (uiStore.controls ? 1 : 0))) /
-      windowWidth.value,
-  );
+  // const isFine = useSignal<boolean>(false);
+  // const modalWidth = 372;
+  // const windowWidth = useSignal<number>(1);
+  // const zoomFactor = useComputed$(
+  //   () =>
+  //     (windowWidth.value -
+  //       modalWidth * (uiStore.journey || uiStore.controls ? 1 : 0)) /
+  //     windowWidth.value,
+  // );
 
-  useOnWindow(
-    'resize',
-    $(() => {
-      windowWidth.value = window.innerWidth;
-    }),
-  );
+  // useOnWindow(
+  //   'resize',
+  //   $(() => {
+  //     windowWidth.value = window.innerWidth;
+  //   }),
+  // );
 
   useOnWindow(
     'scroll',
@@ -183,8 +185,8 @@ export default component$(() => {
   useOnWindow(
     'load',
     $(() => {
-      isFine.value = matchMedia('(pointer:fine)').matches;
-      windowWidth.value = window.innerWidth;
+      // isFine.value = matchMedia('(pointer:fine)').matches;
+      // windowWidth.value = window.innerWidth;
       scrollPos.max = document.body.scrollHeight - window.innerHeight;
       uiStore.slideshow = false; // always set slideshow to "off" on load
     }),
@@ -213,9 +215,17 @@ export default component$(() => {
     }
 
     // Initialize userDataStore from local storage
-    const localUserDataStore = getLocalStorage('userDataStore');
-    userDataStore.history = localUserDataStore.history ?? JSON.parse('{}');
-    userDataStore.archive = localUserDataStore.archive ?? JSON.parse('{}');
+    const localUserDataStore = getUserData();
+    userDataStore.searches = localUserDataStore.searches ?? [];
+    uiStore.searchQuery = userDataStore.searches[0]?.query || '';
+
+    const lastSearch = (getUserData('searches') as string[])[0] || '';
+    if (uiStore.searchQuery === '' && lastSearch !== '') {
+      uiStore.searchQuery = lastSearch;
+    }
+
+    userDataStore.history = localUserDataStore.history ?? {};
+    userDataStore.archive = localUserDataStore.archive ?? {};
     userDataStore.ang = localUserDataStore.ang ?? '0';
 
     if (
@@ -294,10 +304,6 @@ export default component$(() => {
 
   const appRef = useSignal<HTMLElement>();
 
-  const toggleControls = $(() => {
-    uiStore.controls = !uiStore.controls;
-  });
-
   const toggleFullscreen = $(() => {
     if (!document.fullscreenElement) {
       document.documentElement.requestFullscreen();
@@ -339,39 +345,39 @@ export default component$(() => {
     }
   });
 
-  const toggleJourney = $(() => {
-    uiStore.journey = !uiStore.journey;
-  });
-
-  const mainStyle = useComputed$(() => {
-    if (isFine.value) {
-      return {
-        zoom: zoomFactor.value.toString(),
-        paddingLeft: `${
-          (modalWidth / zoomFactor.value) * (uiStore.journey ? 1 : 0)
-        }px`,
-        paddingRight: `${
-          (modalWidth / zoomFactor.value) * (uiStore.controls ? 1 : 0)
-        }px`,
-      };
-    }
-    return {};
-  });
+  // const mainStyle = useComputed$(() => {
+  //   if (isFine.value) {
+  //     return {
+  //       zoom: zoomFactor.value.toString(),
+  //       // paddingLeft: `${
+  //       //   (modalWidth / zoomFactor.value) * (uiStore.journey ? 1 : 0)
+  //       // }px`,
+  //       paddingRight: `${
+  //         (modalWidth / zoomFactor.value) *
+  //         (uiStore.controls || uiStore.journey ? 1 : 0)
+  //       }px`,
+  //     };
+  //   }
+  //   return {};
+  // });
 
   return (
     <>
       {uiStore.controls && <Controls />}
       {uiStore.journey && <Journey />}
+      {uiStore.collections && <Collections />}
       {/* {uiStore.inspector && <Inspector id={uiStore.inspectorId} />} */}
-      <div class='statusbar'></div>
-      <Header />
+      {/* <div class='statusbar'></div> */}
+      {/* {url.pathname !== '/' && <Header />} */}
+      {uiStore.search && <Search />}
+      {/* {url.pathname !== '/' && <TrackControls />} */}
       {!!uiStore.slideshow && <Slideshow focusOnClose={appRef.value!} />}
       <main
         class='app'
         tabIndex={-1}
         ref={appRef}
-        style={mainStyle.value}
-        onKeyDown$={(event) => {
+        // style={mainStyle.value}
+        document:onKeyDown$={(event) => {
           if (
             event.altKey === false &&
             event.ctrlKey === false &&
@@ -383,7 +389,10 @@ export default component$(() => {
           ) {
             switch (event.key) {
               case ',':
-                toggleControls();
+                toggleToolbox(uiStore, 'controls' as ToolboxKey);
+                break;
+              case '/':
+                toggleToolbox(uiStore, 'search' as ToolboxKey);
                 break;
               case 'f':
                 toggleFullscreen();
@@ -410,10 +419,16 @@ export default component$(() => {
                 zoomMore();
                 break;
               case 'y':
-                toggleJourney();
+                toggleToolbox(uiStore, 'journey' as ToolboxKey);
                 break;
               case 'Y':
-                toggleJourney();
+                toggleToolbox(uiStore, 'journey' as ToolboxKey);
+                break;
+              case 'b':
+                toggleToolbox(uiStore, 'collections' as ToolboxKey);
+                break;
+              case 'B':
+                toggleToolbox(uiStore, 'collections' as ToolboxKey);
                 break;
             }
           }
@@ -434,6 +449,7 @@ export default component$(() => {
           )}
         </div>
       </main>
+      {url.pathname !== '/' && <Toolbar />}
     </>
   );
 });

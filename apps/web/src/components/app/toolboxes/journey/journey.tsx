@@ -4,14 +4,12 @@ import {
   useStylesScoped$,
   useVisibleTask$,
 } from '@builder.io/qwik';
-import {
-  UiContext,
-  UserDataContext,
-  getLocalStorage,
-} from '~/routes/(app)/layout';
-import styles from './journey.css?inline';
-import X from '~/components/icons/ui/x';
 import { useLocation } from '@builder.io/qwik-city';
+import ModalBg from '~/components/app/toolboxes-modal/modal-bg/modal-bg';
+import Modal from '~/components/app/toolboxes-modal/modal/modal';
+import { getUserData } from '~/lib/localStorage';
+import { UiContext, UserDataContext } from '~/routes/(app)/layout';
+import styles from './journey.css?inline';
 
 // Helper function to get category key from timestamp
 const getCategoryFromTimestamp = (timestamp: number, now: Date) => {
@@ -76,12 +74,12 @@ const formatTime = (timestamp: number) => {
 
 export default component$(() => {
   useStylesScoped$(styles);
-  const userDataStore = useContext(UserDataContext);
   const uiStore = useContext(UiContext);
+  const userDataStore = useContext(UserDataContext);
   const { url } = useLocation();
 
   useVisibleTask$(() => {
-    userDataStore.history = getLocalStorage('userDataStore')['history'] ?? {};
+    userDataStore.history = getUserData('history') ?? {};
   });
 
   const sortedHistory = Object.entries(userDataStore.history)
@@ -102,27 +100,17 @@ export default component$(() => {
 
   return (
     <>
-      <div class='modal-bg' onClick$={() => (uiStore.journey = false)} />
-      <div class={`modal ${uiStore.scrollForward && 'fill'} `}>
-        <article class='modal__header'>
-          <h2 class='modal__title'>Journey</h2>
-          <span
-            dir='rtl'
-            class='modal__close'
-            onClick$={() => (uiStore.journey = false)}
-          >
-            <X />
-          </span>
-        </article>
+      <ModalBg store={uiStore} s={'journey'} />
+      <Modal position='left'>
         <article class='modal__article journey__items'>
           {Array.from(categorizedHistory.entries()).map(([category, items]) => {
             if (items.length === 0) return null;
 
             return (
-              <div key={category} class='journey__category'>
-                <h3 class='journey__category__title'>
+              <>
+                <p class='journey__category__title small'>
                   {getCategoryLabel(category)}
-                </h3>
+                </p>
                 {items.map(([a, b]) => (
                   <a
                     href={url.pathname != a ? a : undefined}
@@ -136,11 +124,11 @@ export default component$(() => {
                     <p class='small'>{formatTime(Number(b['time']))}</p>
                   </a>
                 ))}
-              </div>
+              </>
             );
           })}
         </article>
-      </div>
+      </Modal>
     </>
   );
 });

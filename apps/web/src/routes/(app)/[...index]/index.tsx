@@ -8,9 +8,10 @@ import { useNavigate, type DocumentHead, Form } from '@builder.io/qwik-city';
 import styles from './index.css?inline';
 import Spinner from '~/components/spinner/spinner';
 import handleJump from '~/lib/handleJump';
-import { getLocalStorage } from '../layout';
 import toGurmukhiNumerals from '~/lib/toGurmukhiNumerals';
-import { addHistoryItem } from '~/lib/localStorage';
+import { addHistoryItem, getLocalStorage } from '~/lib/localStorage';
+import Lotus from '~/components/icons/lotus';
+import Search from '~/components/icons/ui/search';
 
 const getOS = () => {
   // window.navigator.platform is being deprecated, but it's successor userAgentData isn't prevalent yet
@@ -28,23 +29,29 @@ const download = async () => {
   // attempt to download for macOS / windows, regardless go to install guide
   const installUrl = '/support/install-shabad-os-presenter/';
   const platform = getOS();
-  if (platform !== 'other') {
+  if (platform === 'other') {
+    window.location.href = installUrl;
+    return;
+  }
+
+  try {
     // attempt api call
     const res = await fetch(
       `https://api.github.com/repos/shabados/presenter/releases/latest`,
     );
     const data = await res.json();
     const version = data.name;
+    console.log('Latest version:', version);
     if (version !== undefined) {
       // prettier-ignore
-      const downloadUrl = `https://github.com/shabados/presenter/releases/download/v${version}/Shabad.OS-${platform == 'mac'? `${version}.dmg`: `Setup-${version}.exe`}`
+      const downloadUrl = `https://github.com/shabados/presenter/releases/download/v${version}/Shabad.OS-${platform == 'mac' ? `${version}.dmg` : `Setup-${version}.exe`}`
       window.location.href = downloadUrl;
-    }
-    // don't make the user wait more than 5 seconds to try and download (either it starts or it doesn't, the guide will explain how to download manually)
-    setTimeout(() => {
-      window.location.href = installUrl;
-    }, 5000);
-  } else window.location.href = installUrl;
+      setTimeout(() => (window.location.href = installUrl), 3250);
+    } else throw new Error('Version undefined');
+  } catch (e) {
+    // if api call fails, redirect to install guide
+    window.location.href = installUrl;
+  }
 };
 
 export const head: DocumentHead = {
@@ -64,7 +71,6 @@ export default component$(() => {
   const searchInput = useSignal('');
   const shortListRef = useSignal<HTMLDivElement>();
   const fullListRef = useSignal<HTMLDivElement>();
-  const searchTipRef = useSignal<HTMLParagraphElement>();
   const searchInputRef = useSignal<HTMLInputElement>();
 
   const quickLinks = [
@@ -90,35 +96,38 @@ export default component$(() => {
   return (
     <div class='ui'>
       <div class='hero'>
+        <div class='logo'>
+          <div class='lotus'>
+            <Lotus />
+          </div>
+          <span>Shabad OS</span>
+        </div>
+        <article class='searcharea'>
+          <Form
+            onSubmitCompleted$={async () =>
+              await nav(`/search/${searchInput.value.substring(0, 4)}`)
+            }
+          >
+            <input
+              class='search'
+              type='search'
+              placeholder='Search'
+              maxLength={4}
+              minLength={1}
+              spellcheck={false}
+              autoFocus={true}
+              autoCorrect='off'
+              autoCapitalize='none'
+              autoComplete='off'
+              ref={searchInputRef}
+              onChange$={(_, el) => (searchInput.value = el.value)}
+            />
+            <div class='search-button'>
+              <Search />
+            </div>
+          </Form>
+        </article>
         <div>
-          <article>
-            <Form
-              onSubmitCompleted$={async () =>
-                await nav(`/search/${searchInput.value.substring(0, 4)}`)
-              }
-            >
-              <input
-                class='search'
-                type='search'
-                placeholder='Search Shabad OS'
-                maxLength={4}
-                minLength={1}
-                spellcheck={false}
-                autoFocus={true}
-                autoCorrect='off'
-                autoCapitalize='none'
-                autoComplete='off'
-                ref={searchInputRef}
-                onChange$={(_, el) => (searchInput.value = el.value)}
-              />
-            </Form>
-            <p class='search-tip small' ref={searchTipRef}>
-              Tip: To find "ਸਤਿਗੁਰੁ ਹੋਇ ਦਇਆਲੁ, ਨ ਕਬਹੂੰ ਝੂਰੀਐ", try searching
-              with first-letter gurbani or pronunciation within the logical
-              pause. For example "ਸਹਦ", "ਨਕਝ", "shd", or "nkj" will work, but
-              "ਸਹਦਨ" and "shdn" will not.
-            </p>
-          </article>
           <div class='short-list' ref={shortListRef}>
             <div class='carousel'>
               <div class='cards'>
@@ -158,8 +167,6 @@ export default component$(() => {
                   class='card'
                   href='#'
                   onClick$={() => {
-                    searchTipRef.value!.innerHTML =
-                      'Tip: To scroll horizontally without a trackpad, hold the shift key while scrolling the mousewheel.';
                     shortListRef.value!.style.display = 'none';
                     fullListRef.value!.style.display = 'block';
                     searchInputRef.value!.blur();
@@ -309,6 +316,19 @@ export default component$(() => {
             </div>
           </div>
         </div>
+        <div class='continue'>
+          <div class='button'>
+            <span>Personal Sehaj Path</span>
+            <span>ਅੰਗ ੪੨ - ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ</span>
+          </div>
+        </div>
+        <article class='quick-picks'>
+          <p>ਅਨੰਦੁ ਸਾਹਿਬ (੬ ਪਉੜੀਆਂ)</p>
+          <p>ਖਸਮੁ ਧਿਆਈ ਇਕ ਮਨਿ ਇਕ ਭਾਇ</p>
+          <p>ਜਮ ਕਾ ਮਾਰਗੁ ਦ੍ਰਿਸਟਿ ਨ ਆਇਆ</p>
+          <p>ਜੋ ਮਾਗਹਿ ਠਾਕੁਰ ਅਪੁਨੇ ਤੇ ਸੋਈ ਸੋਈ ਦੇਵੈ</p>
+          <p>ਛੱਕਾ ੨੨ - ਆਸਾ ਕੀ ਵਾਰ</p>
+        </article>
       </div>
       <article class='footer'>
         <a

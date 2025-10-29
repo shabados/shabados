@@ -27,6 +27,10 @@
   --bg: light-dark(#f4f1ee, #000000);
   /* oklch(1 0 0) / oklch(0.25 0 0), 0.05 l is still #000 on this scale */
   --bg-base: light-dark(#ffffff, #222222);
+  --bg-glass: light-dark(
+    rgba(100% 100% 100% / 0.875),
+    rgba(13% 13% 13% / 0.875)
+  );
 
   /* oklch(0.6 0.1667 253) / oklch(0.6667 0.1667 253) */
   --ui: light-dark(#2381e0, #3c96f7);
@@ -267,6 +271,7 @@ pre code {
 
 .menu-container,
 .notes-pane,
+.toolbar__container,
 main > div,
 header > div,
 footer > div {
@@ -290,12 +295,74 @@ blockquote > *:last-child {
   margin-bottom: 0;
 }
 
+button,
+input,
+select,
+textarea {
+  pointer-events: all;
+}
+
 .button {
   transition: ease-in-out 125ms;
 }
 
 .button:hover {
   mix-blend-mode: luminosity;
+}
+
+button {
+  color: inherit;
+  padding: 8px;
+  display: flex;
+  border-radius: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+  outline-offset: 0;
+  background-color: var(--bg-base);
+  border: 0;
+  color: var(--fg);
+  font-weight: 400;
+  cursor: pointer;
+}
+
+button > span.hint {
+  display: none;
+  gap: 8px;
+  align-items: center;
+  color: var(--fg-muted);
+  background-color: var(--bg);
+  padding: 3px 6px;
+  border-radius: 24px;
+  position: absolute;
+  top: -44px;
+  z-index: -2;
+}
+
+.hotkey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  border: 1px solid;
+  border-radius: 8px;
+  width: 21px;
+  height: 21px;
+  font-family: monospace;
+  font-size: 0.85em;
+  font-weight: 400;
+}
+
+button:hover,
+button:focus {
+  z-index: 2;
+  background-color: var(--ui-toner);
+  outline: 2.25px solid var(--ui);
+}
+
+button:hover > span.hint,
+button:focus > span.hint {
+  display: flex;
 }
 
 input,
@@ -330,6 +397,7 @@ select {
     Arial,
     sans-serif;
   padding: 2px 12px;
+  pointer-events: all;
 }
 
 select {
@@ -444,6 +512,7 @@ input[type='range']:focus::-moz-range-thumb {
 
   .menu-container,
   .notes-pane,
+  .toolbar__container,
   main > div,
   header > div,
   footer > div {
@@ -480,6 +549,15 @@ input[type='range']:focus::-moz-range-thumb {
     height: 31px;
     border-radius: 31px;
     box-shadow: -419px 0 0 400px var(--ui);
+  }
+
+  button {
+    padding: 12px;
+  }
+
+  button:hover > span.hint,
+  button:focus > span.hint {
+    display: none;
   }
 }
 

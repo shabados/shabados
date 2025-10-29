@@ -1,0 +1,19 @@
+.button-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(from var(--bg-base) r g b / 0.92);
+  border: 2.25px solid var(--toner);
+  border-radius: 100vh;
+  backdrop-filter: blur(4px);
+  pointer-events: all;
+}
+
+.button-area > * {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.button-area__main {
+  flex-grow: 1;
+}
