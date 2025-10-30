@@ -2,9 +2,7 @@ article {
   height: 100%;
   overscroll-behavior: contain;
   overscroll-behavior-y: contain;
-  overflow-y: scroll;
   box-sizing: border-box;
-  min-height: calc(65vh + 2px);
 }
 
 article > * {
@@ -52,4 +50,11 @@ a > h2 {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (pointer: coarse) {
+  article {
+    min-height: calc(65vh + 2px);
+    overflow-y: scroll;
+  }
 }

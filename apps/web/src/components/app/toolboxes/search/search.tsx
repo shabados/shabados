@@ -1,7 +1,7 @@
 import {
-  $,
   component$,
   Resource,
+  sync$,
   useContext,
   useResource$,
   useStylesScoped$,
@@ -50,12 +50,7 @@ export default component$(() => {
   });
 
   // Add scroll handler
-  const handleScroll = $(() => {
-    // Blur any focused input to dismiss keyboard
-    if (document.activeElement instanceof HTMLInputElement) {
-      document.activeElement.blur();
-    }
-  });
+  // const handleScroll = $();
 
   // until api is updated to new sant lipi markup, need to make local fixes
   const replaces: any = {
@@ -73,20 +68,78 @@ export default component$(() => {
           <Resource
             value={getResults}
             onPending={() => (
-              <article onScroll$={handleScroll}>Searching...</article>
+              <article
+                onScroll$={sync$(() => {
+                  if (
+                    typeof window.orientation !== 'undefined' ||
+                    navigator.userAgent.indexOf('IEMobile') !== -1 ||
+                    window.innerWidth <= 768
+                  ) {
+                    if (document.activeElement instanceof HTMLInputElement) {
+                      document.activeElement.blur();
+                    }
+                  }
+                })}
+              >
+                Searching...
+              </article>
             )}
             onRejected={(error) => (
-              <article onScroll$={handleScroll}>Error: {error.message}</article>
+              <article
+                onScroll$={sync$(() => {
+                  if (
+                    typeof window.orientation !== 'undefined' ||
+                    navigator.userAgent.indexOf('IEMobile') !== -1 ||
+                    window.innerWidth <= 768
+                  ) {
+                    if (document.activeElement instanceof HTMLInputElement) {
+                      document.activeElement.blur();
+                    }
+                  }
+                })}
+              >
+                Error: {error.message}
+              </article>
             )}
             onResolved={(data) => {
               if (!data || !data.exact || !Array.isArray(data.exact)) {
                 return (
-                  <article onScroll$={handleScroll}>No results found</article>
+                  <article
+                    onScroll$={sync$(() => {
+                      if (
+                        typeof window.orientation !== 'undefined' ||
+                        navigator.userAgent.indexOf('IEMobile') !== -1 ||
+                        window.innerWidth <= 768
+                      ) {
+                        if (
+                          document.activeElement instanceof HTMLInputElement
+                        ) {
+                          document.activeElement.blur();
+                        }
+                      }
+                    })}
+                  >
+                    No results found
+                  </article>
                 );
               }
 
               return (
-                <article class='search_results' onScroll$={handleScroll}>
+                <article
+                  class='search_results'
+                  onScroll$={sync$(() => {
+                    if (
+                      typeof window.orientation !== 'undefined' ||
+                      navigator.userAgent.indexOf('IEMobile') !== -1 ||
+                      window.innerWidth <= 768
+                    ) {
+                      const activeElement = document.activeElement;
+                      if (activeElement instanceof HTMLInputElement) {
+                        activeElement.blur();
+                      }
+                    }
+                  })}
+                >
                   {data.exact.map(
                     ({ container, blocks, id, source, title }: any) => {
                       const newTitle = Object.keys(replaces).reduce(
@@ -132,7 +185,33 @@ export default component$(() => {
             }}
           />
         ) : (
-          <article class='search_history' onScroll$={handleScroll}>
+          <article
+            class='search_history'
+            onClick$={sync$(() => {
+              if (
+                typeof window.orientation !== 'undefined' ||
+                navigator.userAgent.indexOf('IEMobile') !== -1 ||
+                window.innerWidth <= 768
+              ) {
+                const activeElement = document.activeElement;
+                if (activeElement instanceof HTMLInputElement) {
+                  activeElement.blur();
+                }
+              }
+            })}
+            onScroll$={sync$(() => {
+              if (
+                typeof window.orientation !== 'undefined' ||
+                navigator.userAgent.indexOf('IEMobile') !== -1 ||
+                window.innerWidth <= 768
+              ) {
+                const activeElement = document.activeElement;
+                if (activeElement instanceof HTMLInputElement) {
+                  activeElement.blur();
+                }
+              }
+            })}
+          >
             <div>
               <h3>Note</h3>
               <p>

@@ -46,27 +46,25 @@ export default component$<Props>(({ active = false }) => {
         ref={searchToolbarRef}
         class={`toolbar search-toolbar ${uiStore.search ? 'show' : 'hide'}`}
       >
-        <form preventdefault:submit>
-          <input
-            class='search'
-            type='search'
-            name='search'
-            placeholder='Search'
-            value={uiStore.searchQuery}
-            maxLength={4}
-            minLength={1}
-            spellcheck={false}
-            ref={searchRef}
-            autoCorrect='off'
-            autoCapitalize='none'
-            autoComplete='off'
-            autoFocus={true}
-            tabIndex={0}
-            onInput$={(_, el) => {
-              uiStore.searchQuery = el.value;
-            }}
-          />
-        </form>
+        <input
+          class='search'
+          type='search'
+          name='search'
+          placeholder='Search'
+          value={uiStore.searchQuery}
+          maxLength={4}
+          minLength={1}
+          spellcheck={false}
+          ref={searchRef}
+          autoCorrect='off'
+          autoCapitalize='none'
+          autoComplete='off'
+          autoFocus={true}
+          tabIndex={0}
+          onInput$={(_, el) => {
+            uiStore.searchQuery = el.value;
+          }}
+        />
         <ButtonArea>
           <button
             onClick$={(_, el) => {
