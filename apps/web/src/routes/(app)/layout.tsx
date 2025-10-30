@@ -375,9 +375,10 @@ export default component$(() => {
       <main
         class='app'
         tabIndex={-1}
+        autoFocus={true}
         ref={appRef}
         // style={mainStyle.value}
-        document:onKeyDown$={(event) => {
+        document:onKeyPress$={(event) => {
           if (
             event.altKey === false &&
             event.ctrlKey === false &&

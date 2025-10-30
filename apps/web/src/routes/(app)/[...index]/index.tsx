@@ -91,6 +91,7 @@ export default component$(() => {
   const currentAng = useSignal('0');
   useVisibleTask$(() => {
     currentAng.value = getLocalStorage('userDataStore')['ang'] ?? '0';
+    searchInputRef.value?.focus();
   });
 
   return (
