@@ -1,8 +1,10 @@
 article {
   height: 100%;
   overscroll-behavior: contain;
+  overscroll-behavior-y: contain;
   overflow-y: scroll;
   box-sizing: border-box;
+  min-height: calc(65vh + 2px);
 }
 
 article > * {

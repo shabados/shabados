@@ -1,5 +1,7 @@
 import {
+  $,
   component$,
+  sync$,
   useComputed$,
   useContext,
   useSignal,
@@ -101,39 +103,37 @@ export default component$<Props>(({ active = false }) => {
         </ButtonArea>
         <ButtonArea>
           <button
-            onClick$={(_, el) => {
-              el.blur();
+            onClick$={[
+              sync$((_: any, el: any) => {
+                el.blur();
+                const position = window.scrollY;
+                const searchToolbar = document.querySelector('.search-toolbar');
+                const defaultToolbar = document.querySelector(
+                  '.toolbar:not(.search-toolbar)',
+                );
 
-              const searchToolbar = document.querySelector('.search-toolbar');
-              const defaultToolbar = document.querySelector(
-                '.toolbar:not(.search-toolbar)',
-              );
+                if (searchToolbar && defaultToolbar) {
+                  searchToolbar.classList.remove('hide');
+                  searchToolbar.classList.add('show');
+                  defaultToolbar.classList.remove('show');
+                  defaultToolbar.classList.add('hide');
+                }
 
-              // defaultToolbarRef.value?.classList.remove('show');
-              // defaultToolbarRef.value?.classList.add('hide');
-              // searchToolbarRef.value?.classList.remove('hide');
-              // searchToolbarRef.value?.classList.add('show');
-
-              if (searchToolbar && defaultToolbar) {
-                searchToolbar.classList.remove('hide');
-                searchToolbar.classList.add('show');
-                defaultToolbar.classList.remove('show');
-                defaultToolbar.classList.add('hide');
-              }
-
-              // searchRef.value?.focus();
-              // searchRef.value?.select();
-
-              const searchInput = searchToolbar?.querySelector(
-                'input[type="search"]',
-              );
-              if (searchInput instanceof HTMLInputElement) {
-                searchInput.focus();
-                searchInput.select();
-              }
-
-              // toggleToolbox(uiStore, 'search' as ToolboxKey);
-            }}
+                const searchInput = searchToolbar?.querySelector(
+                  'input[type="search"]',
+                );
+                if (searchInput instanceof HTMLInputElement) {
+                  searchInput.focus();
+                  searchInput.select();
+                }
+                setTimeout(() => {
+                  window.scrollTo(0, position);
+                }, 120);
+              }),
+              $(() => {
+                uiStore.search = true;
+              }),
+            ]}
           >
             <span class='hint'>
               Search<span class='hotkey'>/</span>

@@ -6,15 +6,9 @@ import { type Ui } from '~/routes/(app)/layout';
 type Props = {
   store: Ui;
   s: ToolboxKey;
-  type?: 'default' | 'search';
 };
 
-export default component$<Props>(({ store, s, type = 'default' }) => {
+export default component$<Props>(({ store, s }) => {
   useStylesScoped$(styles);
-  return (
-    <div
-      class={`modal-bg modal-bg_type_${type}`}
-      onClick$={() => (store[s] = false)}
-    />
-  );
+  return <div class={`modal-bg`} onClick$={() => (store[s] = false)} />;
 });

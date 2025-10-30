@@ -9,21 +9,13 @@
 
 .modal-bg {
   z-index: 2;
-  overscroll-behavior: contain;
   width: 100vw;
   height: 100vh;
   background-color: var(--bg);
   position: fixed;
-  max-width: none;
   animation: modal-appear 0.125s ease;
   animation-fill-mode: forwards;
-}
-
-.modal-bg_type_search {
-  animation: none;
-  opacity: 1;
-  overscroll-behavior-y: contain;
-  background-color: var(--bg-base);
+  touch-action: none;
 }
 
 @media (pointer: fine) {

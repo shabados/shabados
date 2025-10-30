@@ -80,10 +80,10 @@
 
   .modal.modal_type_search {
     bottom: auto;
-    top: calc(var(--toolbar-height) + var(--gutter));
+    top: calc(var(--toolbar-height) + var(--double-gutter));
     height: auto;
-    width: 100vw;
-    border-radius: 0;
+    max-height: 65vh;
+    overflow: scroll;
     overscroll-behavior-y: contain;
   }
   @media (max-device-width: 480px) {

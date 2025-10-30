@@ -31,10 +31,10 @@ export default component$(() => {
     }
 
     try {
-      // const response = await fetch(
-      //   `/api/search/${encodeURIComponent(uiStore.searchQuery)}`,
-      // );
-      const response = await fetch(''); // temp for development
+      const response = await fetch(
+        `/api/search/${encodeURIComponent(uiStore.searchQuery)}`,
+      );
+      // const response = await fetch(''); // temp for development
 
       if (!response.ok) {
         console.error('Search API error:', response.statusText);
@@ -67,16 +67,22 @@ export default component$(() => {
 
   return (
     <>
-      <ModalBg store={uiStore} s={'search'} type='search' />
+      <ModalBg store={uiStore} s={'search'} />
       <Modal position='center' type='search'>
         {uiStore.searchQuery.length >= 1 ? (
           <Resource
             value={getResults}
-            onPending={() => <article>Searching...</article>}
-            onRejected={(error) => <article>Error: {error.message}</article>}
+            onPending={() => (
+              <article onScroll$={handleScroll}>Searching...</article>
+            )}
+            onRejected={(error) => (
+              <article onScroll$={handleScroll}>Error: {error.message}</article>
+            )}
             onResolved={(data) => {
               if (!data || !data.exact || !Array.isArray(data.exact)) {
-                return <article>No results found</article>;
+                return (
+                  <article onScroll$={handleScroll}>No results found</article>
+                );
               }
 
               return (
