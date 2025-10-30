@@ -58,7 +58,6 @@ interface DataProps {
 export default component$(() => {
   const signal = useLineGroupsApi();
   const res = signal.value.data!;
-  console.log(signal);
   const defaultSource = res[0].meta.sources[0];
   const showPagination =
     res.length == 1 || signal.value.next || signal.value.prev;

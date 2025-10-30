@@ -219,15 +219,12 @@ export default component$(() => {
         const gurmukhiLine = currentLine.querySelector('.bold');
         if (progressBar) currentLine.insertBefore(progressBar!, gurmukhiLine);
         lineInfo.top = currentLine.getBoundingClientRect().top + 2;
-        console.log(lineInfo.top);
         const lineHeight = currentLine.getBoundingClientRect().height;
         const factor = lineHeight > bodyHeight! ? 1 : lineHeight / bodyHeight!;
         timeout.ms =
           factor * timeout.maximum < timeout.minimum
             ? timeout.minimum
             : factor * timeout.maximum;
-
-        console.log(timeout.ms);
 
         currentLine.scrollIntoView({ behavior: 'smooth' });
 

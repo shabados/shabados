@@ -40,11 +40,11 @@ const download = async () => {
       `https://api.github.com/repos/shabados/presenter/releases/latest`,
     );
     const data = await res.json();
+    const tag = data.tag_name;
     const version = data.name;
-    console.log('Latest version:', version);
     if (version !== undefined) {
       // prettier-ignore
-      const downloadUrl = `https://github.com/shabados/presenter/releases/download/v${version}/Shabad.OS-${platform == 'mac' ? `${version}.dmg` : `Setup-${version}.exe`}`
+      const downloadUrl = `https://github.com/shabados/presenter/releases/download/${tag}/Shabad.OS-${platform == 'mac' ? `${version}.dmg` : `Setup-${version}.exe`}`
       window.location.href = downloadUrl;
       setTimeout(() => (window.location.href = installUrl), 3250);
     } else throw new Error('Version undefined');
