@@ -442,7 +442,8 @@ export default component$(() => {
               maxLength={100}
               value={controlsStore.notesContent}
               onChange$={(e) => {
-                controlsStore.notesContent = e.target.value;
+                const target = e.target as HTMLInputElement;
+                controlsStore.notesContent = target.value;
                 setLocalStorage('controls', controlsStore);
               }}
             />

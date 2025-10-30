@@ -48,7 +48,7 @@ const download = async () => {
       window.location.href = downloadUrl;
       setTimeout(() => (window.location.href = installUrl), 3250);
     } else throw new Error('Version undefined');
-  } catch (e) {
+  } catch {
     // if api call fails, redirect to install guide
     window.location.href = installUrl;
   }

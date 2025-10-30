@@ -105,9 +105,10 @@ export default component$(() => {
               step={1}
               value={controlsStore.zoom}
               onChange$={(e) => {
-                updateControls('zoom', e.target.valueAsNumber);
+                const target = e.target as HTMLInputElement;
+                updateControls('zoom', target?.valueAsNumber);
                 document.documentElement.style.fontSize = `${zoomValues[
-                  e.target.valueAsNumber
+                  target.valueAsNumber
                 ].toString()}em`;
               }}
             />
@@ -125,10 +126,11 @@ export default component$(() => {
               step={25}
               value={controlsStore.factor}
               onChange$={(e) => {
-                updateControls('factor', e.target.valueAsNumber);
+                const target = e.target as HTMLInputElement;
+                updateControls('factor', target.valueAsNumber);
                 document.documentElement.setAttribute(
                   'data-factor',
-                  e.target.value,
+                  target.value,
                 );
               }}
             />
