@@ -302,6 +302,9 @@ a.button:hover {
   .hero {
     min-height: calc(100svh - 3.5em - 1.6em * 5);
   }
+  a.button {
+    display: flex;
+  }
   /* a.download-button {
     display: none;
   } */
