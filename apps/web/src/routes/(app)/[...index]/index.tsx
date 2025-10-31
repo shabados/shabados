@@ -1,5 +1,6 @@
 import {
   component$,
+  useContext,
   useSignal,
   useStyles$,
   useVisibleTask$,
@@ -12,6 +13,7 @@ import toGurmukhiNumerals from '~/lib/toGurmukhiNumerals';
 import { addHistoryItem, getLocalStorage } from '~/lib/localStorage';
 import Lotus from '~/components/icons/lotus';
 import Search from '~/components/icons/ui/search';
+import { UiContext } from '../layout';
 
 const getOS = () => {
   // window.navigator.platform is being deprecated, but it's successor userAgentData isn't prevalent yet
@@ -72,6 +74,7 @@ export default component$(() => {
   const shortListRef = useSignal<HTMLDivElement>();
   const fullListRef = useSignal<HTMLDivElement>();
   const searchInputRef = useSignal<HTMLInputElement>();
+  const uiStore = useContext(UiContext);
 
   const quickLinks = [
     {
@@ -105,9 +108,11 @@ export default component$(() => {
         </div>
         <article class='searcharea'>
           <Form
-            onSubmitCompleted$={async () =>
-              await nav(`/search/${searchInput.value.substring(0, 4)}`)
-            }
+            onSubmitCompleted$={async () => {
+              const q = searchInput.value.substring(0, 4);
+              uiStore.searchQuery = q;
+              await nav(`/search/${q}`);
+            }}
           >
             <input
               class='search'
@@ -123,7 +128,16 @@ export default component$(() => {
               ref={searchInputRef}
               onChange$={(_, el) => (searchInput.value = el.value)}
             />
-            <div class='search-button'>
+            <div
+              class='search-button'
+              onClick$={async () => {
+                if (searchInput.value.length >= 1) {
+                  const q = searchInput.value.substring(0, 4);
+                  uiStore.searchQuery = q;
+                  await nav(`/search/${q}`);
+                }
+              }}
+            >
               <Search />
             </div>
           </Form>

@@ -137,17 +137,31 @@ a.logo:hover {
   box-sizing: border-box;
   margin: 0 auto;
   width: 100%;
+  border-radius: 10em;
+  outline: 2.25px solid var(--toner);
+  outline-offset: -2.25px;
+}
+.searcharea > form:focus-within {
+  outline: 2.25px solid var(--toner);
 }
 .search[type='search'] {
   width: 100%;
-  border: 2.25px solid var(--toner);
-  border-right: 0;
+  border: 0;
+  outline-offset: -2.25px;
   border-radius: 10em 0 0 10em;
   /* box-shadow: 0 0.75em 1em -0.25em var(--toner); */
   font-weight: 400;
   appearance: none;
   -webkit-appearance: none;
   height: 50px;
+  outline: 0px solid var(--toner);
+}
+
+.search[type='search']:hover {
+  outline: 2.25px solid var(--ui);
+}
+.search[type='search']:focus {
+  outline: 0 solid var(--toner);
 }
 .search-button {
   display: flex;
@@ -159,8 +173,17 @@ a.logo:hover {
   padding-bottom: 2px;
   padding-right: 3px;
   border-radius: 0 10em 10em 0;
-  border: 2.25px solid var(--toner);
+  border: 0;
+  outline: 0px solid var(--toner);
+  outline-offset: -2.25px;
   box-sizing: border-box;
+}
+.search-button:hover,
+.search-button:focus {
+  cursor: pointer;
+  border-color: var(--ui-toner);
+  background: var(--ui-toner);
+  outline: 2.25px solid var(--ui);
 }
 
 .carousel {
