@@ -6,9 +6,10 @@
   src:
     url('/fonts/SantLipi-VF.woff2') format('woff2-variations'),
     url('/fonts/SantLipi-VF.woff2') format('woff2');
-  unicode-range: U+0020, U+00A0, U+030D, U+0331, U+0307, U+0308, U+0323, U+0324,
-    U+0964-0965, U+200C-200D, U+2080-2089, U+262C, U+25CC, U+0A00-0A76,
-    U+A830-A835, U+FE00-FE0F;
+  unicode-range:
+    U+0020, U+00A0, U+030D, U+0331, U+0307, U+0308, U+0323, U+0324, U+0964-0965,
+    U+200C-200D, U+2080-2089, U+262C, U+25CC, U+0A00-0A76, U+A830-A835,
+    U+FE00-FE0F;
 }
 
 :root {
@@ -302,14 +303,7 @@ textarea {
   pointer-events: all;
 }
 
-.button {
-  transition: ease-in-out 125ms;
-}
-
-.button:hover {
-  mix-blend-mode: luminosity;
-}
-
+.button,
 button {
   color: inherit;
   padding: 8px;
@@ -324,45 +318,42 @@ button {
   color: var(--fg);
   font-weight: 400;
   cursor: pointer;
-}
-
-button > span.hint {
-  display: none;
-  gap: 8px;
-  align-items: center;
-  color: var(--fg-muted);
-  background-color: var(--bg);
-  padding: 3px 6px;
-  border-radius: 24px;
-  position: absolute;
-  top: -44px;
-  z-index: -2;
-}
-
-.hotkey {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.6;
-  border: 1px solid;
-  border-radius: 8px;
-  width: 21px;
-  height: 21px;
-  font-family: monospace;
-  font-size: 0.85em;
-  font-weight: 400;
-}
-
-button:hover,
-button:focus {
-  z-index: 2;
-  background-color: var(--ui-toner);
-  outline: 2.25px solid var(--ui);
-}
-
-button:hover > span.hint,
-button:focus > span.hint {
-  display: flex;
+  &:hover,
+  &:focus {
+    z-index: 2;
+    background-color: var(--ui-toner);
+    outline: 2.25px solid var(--ui);
+    text-decoration: none;
+    color: var(--fg);
+    & > span.hint {
+      display: flex;
+    }
+  }
+  & > span.hint {
+    display: none;
+    gap: 8px;
+    align-items: center;
+    color: var(--fg-muted);
+    background-color: var(--bg);
+    padding: 3px 6px;
+    border-radius: 24px;
+    position: absolute;
+    top: -44px;
+    z-index: -2;
+  }
+  & .hotkey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 21px;
+    height: 21px;
+    font-family: monospace;
+    font-size: 0.85em;
+    font-weight: 400;
+  }
 }
 
 input,

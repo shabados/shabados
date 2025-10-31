@@ -10,9 +10,17 @@ export default component$(({ prevLink, nextLink }: BottomBarProps) => {
   useStylesScoped$(styles);
   return (
     <div class='bar'>
-      {prevLink ? <a href={prevLink}>Previous</a> : <div />}
+      {prevLink && (
+        <a class='button' href={prevLink}>
+          Prev
+        </a>
+      )}
       <Slot />
-      {nextLink ? <a href={nextLink}>Next</a> : <div />}
+      {nextLink && (
+        <a class='button' href={nextLink}>
+          Next
+        </a>
+      )}
     </div>
   );
 });

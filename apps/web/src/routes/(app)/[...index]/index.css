@@ -114,7 +114,7 @@ a.logo:hover {
 }
 
 .hero {
-  min-height: calc(100svh - 1.6em * 6);
+  min-height: calc(100svh - 1.6em * 9);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -321,9 +321,25 @@ a.button:hover {
   text-decoration: none;
 }
 
+.download-button {
+  transition: ease-in-out 125ms;
+}
+
+.download-button:hover {
+  background-color: var(--ui);
+  mix-blend-mode: luminosity;
+}
+
 @media (pointer: coarse) {
+  .logo span {
+    font-size: 2.25em;
+  }
+  .logo .lotus,
+  .lotus svg {
+    height: 3em;
+  }
   .hero {
-    min-height: calc(100svh - 3.5em - 1.6em * 5);
+    min-height: calc(100svh - 3.5em - 1.6em * 9);
   }
   a.button {
     display: flex;

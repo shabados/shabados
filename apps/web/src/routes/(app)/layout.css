@@ -25,6 +25,7 @@ html[data-factor='200'] {
 .app {
   font-size: 1rem;
   outline: none;
+  padding-bottom: 68px;
 }
 
 .ui {
@@ -194,6 +195,10 @@ html[data-mode='presenter'] .line {
 }
 
 @media (pointer: coarse) {
+  .app {
+    padding-bottom: 78px;
+  }
+
   main > div,
   .notes-pane,
   .toolbar__container,

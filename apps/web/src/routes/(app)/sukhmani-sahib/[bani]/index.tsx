@@ -1,6 +1,8 @@
 import { component$ } from '@builder.io/qwik';
 import { type DocumentHead, routeLoader$ } from '@builder.io/qwik-city';
 import BottomBar from '~/components/app/bottom-bar/bottom-bar';
+import HeaderJump from '~/components/app/header-jump/header-jump';
+import JumpButton from '~/components/app/jump-button/jump-button';
 import Line from '~/components/line/line';
 import fetchLineGroup from '~/lib/fetchLineGroup';
 interface Bani {
@@ -328,6 +330,7 @@ export default component$(() => {
   const data = signal.value!.data!;
   return (
     <article>
+      <HeaderJump source='sukhmani-sahib' max={24} title={bani.name.Guru} />
       {data.map((value) =>
         value.data.default.src.map(
           ({ src, pronunciations, translations, notes }: any) => (
@@ -346,7 +349,9 @@ export default component$(() => {
       <BottomBar
         prevLink={bani.paging?.prev && `/sukhmani-sahib/${bani.paging?.prev}`}
         nextLink={bani.paging?.next && `/sukhmani-sahib/${bani.paging?.next}`}
-      />
+      >
+        <JumpButton source='sukhmani-sahib' max={24} />
+      </BottomBar>
     </article>
   );
 });

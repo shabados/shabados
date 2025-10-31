@@ -1,9 +1,12 @@
+import { component$, useStyles$, useVisibleTask$ } from '@builder.io/qwik';
 import { type RequestHandler, routeLoader$ } from '@builder.io/qwik-city';
-import { component$, useVisibleTask$ } from '@builder.io/qwik';
-import Line from '~/components/line/line';
 import BottomBar from '~/components/app/bottom-bar/bottom-bar';
-import handleJump from '~/lib/handleJump';
+import HeaderJump from '~/components/app/header-jump/header-jump';
+import JumpButton from '~/components/app/jump-button/jump-button';
+import Line from '~/components/line/line';
 import fetchLineGroup from '~/lib/fetchLineGroup';
+import toGurmukhiNumerals from '~/lib/toGurmukhiNumerals';
+import styles from './index.css?inline';
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   cacheControl({
@@ -47,6 +50,7 @@ export const useApi = routeLoader$(async (requestEvent) => {
 });
 
 export default component$(() => {
+  useStyles$(styles);
   const signal = useApi();
   if (signal.value === null) {
     return <></>;
@@ -62,13 +66,11 @@ export default component$(() => {
 
   return (
     <article>
-      <div>
-        <center>
-          <p class='small' onClick$={() => handleJump(source, paging.max)}>
-            ( {paging.next - 1} )
-          </p>
-        </center>
-      </div>
+      <HeaderJump
+        source={source}
+        max={paging.max}
+        title={toGurmukhiNumerals((paging.next - 1).toString())}
+      />
       {lineGroups.map((lineGroup) =>
         lineGroup.data.default.src.map((line: any) => (
           <Line
@@ -87,9 +89,7 @@ export default component$(() => {
           }
           nextLink={paging.next > 0 ? `/${source}/${paging.next}` : undefined}
         >
-          <a href='#' onClick$={() => handleJump(source, paging.max)}>
-            Jump...
-          </a>
+          <JumpButton source={source} max={paging.max} />
         </BottomBar>
       )}
     </article>
