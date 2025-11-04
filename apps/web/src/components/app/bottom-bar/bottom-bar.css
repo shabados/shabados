@@ -7,17 +7,25 @@
   margin-top: 1.6em;
 }
 
+a:hover {
+  text-decoration: none;
+  outline-color: var(--ui);
+}
+
 .button {
   padding: 8px 24px;
-  min-width: 5em;
+  min-width: 6em;
   outline: 2.25px solid var(--toner);
   outline-offset: -2.25px;
+  font-size: 16px;
+  min-height: 40px;
 }
 
 @media (pointer: coarse) and (max-width: 768px) {
   .button {
-    min-width: auto;
     width: 100%;
     flex-grow: 1;
+    min-height: 48px;
+    min-width: auto;
   }
 }
