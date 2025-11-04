@@ -37,6 +37,12 @@ import {
 import ModalBg from '../../toolboxes-modal/modal-bg/modal-bg';
 import Modal from '../../toolboxes-modal/modal/modal';
 import styles from './controls.css?inline';
+import About from '~/components/icons/footer/about';
+import Blog from '~/components/icons/footer/blog';
+import Support from '~/components/icons/footer/support';
+import Docs from '~/components/icons/footer/docs';
+import Privacy from '~/components/icons/footer/privacy';
+import Donate from '~/components/icons/footer/donate';
 
 // Utility function to update theme color meta tags
 const setThemeColor = (light: string, dark: string) => {
@@ -531,23 +537,53 @@ export default component$(() => {
               Links
             </div>
             <div class='controls__grid'>
-              <a
-                class='controls__card controls__card__icon'
-                href='https://www.instagram.com/shabad_os/'
-                target='_blank'
-              >
-                <Instagram />
-                Instagram
+              <a class='controls__card controls__card__icon' href='/about'>
+                <About />
+                About
               </a>
-              <a
-                class='controls__card controls__card__icon'
-                href='https://www.youtube.com/@shabados'
-                target='_blank'
-              >
-                <Youtube />
-                YouTube
+              <a class='controls__card controls__card__icon' href='/blog'>
+                <Blog />
+                Blog
+              </a>
+              <a class='controls__card controls__card__icon' href='/support'>
+                <Support />
+                Support
+              </a>
+              <a class='controls__card controls__card__icon' href='/docs'>
+                <Docs />
+                Docs
+              </a>
+              <a class='controls__card controls__card__icon' href='/privacy'>
+                <Privacy />
+                Privacy
+              </a>
+              <a class='controls__card controls__card__icon' href='/donate'>
+                <Donate />
+                Donate
               </a>
             </div>
+          </div>
+          <div class='controls__label'>
+            <ExternalLink />
+            Social Media
+          </div>
+          <div class='controls__grid'>
+            <a
+              class='controls__card controls__card__icon'
+              href='https://www.instagram.com/shabad_os/'
+              target='_blank'
+            >
+              <Instagram />
+              Instagram
+            </a>
+            <a
+              class='controls__card controls__card__icon'
+              href='https://www.youtube.com/@shabados'
+              target='_blank'
+            >
+              <Youtube />
+              YouTube
+            </a>
           </div>
           <div>
             <div class='controls__label'>
