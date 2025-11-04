@@ -111,14 +111,17 @@ a.logo:hover {
 .ui {
   max-width: 664px;
   margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto 10em;
+  gap: 15vh;
+  height: 100vh;
+  align-items: center;
 }
 
 .hero {
-  min-height: calc(100svh - 1.6em * 9);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 3.2em;
   box-sizing: border-box;
 }
 
@@ -331,15 +334,17 @@ a.button:hover {
 }
 
 @media (pointer: coarse) {
+  .ui {
+    grid-template-rows: auto 240px;
+    gap: 0.8em;
+    height: 100vh;
+  }
   .logo span {
     font-size: 2.25em;
   }
   .logo .lotus,
   .lotus svg {
     height: 3em;
-  }
-  .hero {
-    min-height: calc(100svh - 3.5em - 1.6em * 9);
   }
   a.button {
     display: flex;
@@ -355,5 +360,12 @@ a.button:hover {
   }
   .search[type='search'] {
     box-shadow: none;
+    text-align: left;
+  }
+  .footer-links {
+    display: grid;
+    gap: 0;
+    margin-top: 1.6em;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

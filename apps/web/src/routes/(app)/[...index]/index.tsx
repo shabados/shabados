@@ -364,6 +364,7 @@ export default component$(() => {
           <a href='/support'>Support</a>
           <a href='/docs'>Docs</a>
           <a href='/privacy'>Privacy</a>
+          <a href='/donate'>Donate</a>
         </div>
       </article>
     </div>
