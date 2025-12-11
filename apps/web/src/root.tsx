@@ -70,7 +70,7 @@ export default component$(() => {
             const zoom = controlsStore.zoom ?? 4;
 
             // must match defaults in (app)/layout.tsx
-            document.documentElement.style.fontSize = zoomValues[controlsStore.zoom] + 'em' ?? '1.25em';
+            document.documentElement.style.fontSize = controlsStore.zoom ? zoomValues[controlsStore.zoom] + 'em' : '1.25em';
             document.documentElement.setAttribute('data-factor', controlsStore.factor ?? '150');
             document.documentElement.setAttribute('data-mode', controlsStore.mode ?? 'reader');
             document.documentElement.setAttribute('data-fullWidth', controlsStore.fullWidth ?? '0');
