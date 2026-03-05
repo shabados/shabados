@@ -233,7 +233,8 @@ html[data-mode='presenter'] .toolbar__container {
 }
 
 html[data-larivar='1'] p.bold {
-  word-spacing: -0.2em;
+  /* To avoid CLS on refresh */
+  word-spacing: -0.22em;
 }
 
 html[data-larivar='1'] .heavy,

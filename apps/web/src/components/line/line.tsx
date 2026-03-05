@@ -3,28 +3,69 @@ import { ControlsContext, UiContext } from '~/routes/(app)/layout';
 import styles from './line.css?inline';
 import isTitle, { isEndOfPauri } from '~/lib/isTitle';
 
+// until api is updated to new sant lipi markup, need to make local fixes
+const REPLACES: Record<string, string> = {
+  '꠳ਯ': '︀ਯ',
+  '꠴ਯ': '︂ਯ',
+  '꠵ਯ': '︁︂ਯ',
+  'ਁ': 'ਂ︀',
+};
+const REPLACE_REGEX = /꠳ਯ|꠴ਯ|꠵ਯ|ਁ/g;
+
+const toUpdatedSrc = (src: string) =>
+  src.replace(REPLACE_REGEX, (m: string) => REPLACES[m]);
+
+const weightMap: Record<string, string> = {
+  ';': 'heavy',
+  ',': 'medium',
+  '.': 'light',
+};
+
+const toVishraamJsx = (text: string) =>
+  text.split(' ').map((word: string, index: number) => {
+    const spacing = index > 0 ? ' ' : '';
+    const vishraamClass = weightMap[word.slice(-1)];
+    if (vishraamClass) {
+      return (
+        <>
+          {spacing}
+          <span class={vishraamClass}>{word.slice(0, -1)}</span>
+        </>
+      );
+    }
+    return (
+      <>
+        {spacing}
+        {word}
+      </>
+    );
+  });
+
+const toLarivaarJsx = (text: string) => text.replace(/[ ;,.]/g, '');
+
 export default component$(
-  ({ id = '', src, pronunciation, en, pa, paNotes }: any) => {
+  ({ id = '', src: oldSrc, pronunciation, en, pa, paNotes }: any) => {
     useStylesScoped$(styles);
     const controlsStore = useContext(ControlsContext);
     const uiStore = useContext(UiContext);
 
-    // until api is updated to new sant lipi markup, need to make local fixes
-    const replaces: any = {
-      '꠳ਯ': '︀ਯ',
-      '꠴ਯ': '︂ਯ',
-      '꠵ਯ': '︁︂ਯ',
-      'ਁ': 'ਂ︀',
-    };
-    const newSrc = Object.keys(replaces).reduce(
-      (updatedSrc, key) => updatedSrc.replaceAll(key, replaces[key]),
-      src,
-    );
+    const src = toUpdatedSrc(oldSrc);
+
+    if (
+      controlsStore.larivar &&
+      (controlsStore.mode === 'reader' || controlsStore.mode === 'saral')
+    ) {
+      return (
+        <span class='line'>
+          <span class='bold'>{toLarivaarJsx(src)}</span>
+        </span>
+      );
+    }
 
     return (
       <div
-        class={`line ${isTitle(newSrc) ? 'title' : ''}${
-          isEndOfPauri(newSrc) ? 'end-of-pauri' : ''
+        class={`line ${isTitle(src) ? 'title' : ''}${
+          isEndOfPauri(src) ? 'end-of-pauri' : ''
         }`}
         onClick$={() => {
           uiStore.inspectorId = id;
@@ -32,63 +73,10 @@ export default component$(
         }}
       >
         <p class='bold'>
-          {newSrc.split(' ').map((word: string, index: number) => {
-            const betweenWords = index == 0 ? '' : ' ';
-            if (word.endsWith(';')) {
-              return (
-                <>
-                  {betweenWords}
-                  <span class='heavy'>{word.slice(0, -1)}</span>
-                </>
-              );
-            } else if (word.endsWith(',')) {
-              return (
-                <>
-                  {betweenWords}
-                  <span class='medium'>{word.slice(0, -1)}</span>
-                </>
-              );
-            } else if (word.endsWith('.')) {
-              return (
-                <>
-                  {betweenWords}
-                  <span class='light'>{word.slice(0, -1)}</span>
-                </>
-              );
-            }
-            return (
-              <>
-                {betweenWords}
-                {word}
-              </>
-            );
-          })}
+          {controlsStore.larivar ? toLarivaarJsx(src) : toVishraamJsx(src)}
         </p>
         {controlsStore.pronunciationField && pronunciation ? (
-          <p>
-            {pronunciation.split(' ').map((word: string) => {
-              if (word.endsWith(';')) {
-                return (
-                  <>
-                    <span class='heavy'>{word.slice(0, -1)}</span>{' '}
-                  </>
-                );
-              } else if (word.endsWith(',')) {
-                return (
-                  <>
-                    <span class='medium'>{word.slice(0, -1)}</span>{' '}
-                  </>
-                );
-              } else if (word.endsWith('.')) {
-                return (
-                  <>
-                    <span class='light'>{word.slice(0, -1)}</span>{' '}
-                  </>
-                );
-              }
-              return <>{word} </>;
-            })}
-          </p>
+          <p>{toVishraamJsx(pronunciation)}</p>
         ) : (
           ''
         )}

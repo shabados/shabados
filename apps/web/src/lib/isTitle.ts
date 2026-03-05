@@ -45,7 +45,7 @@ const titlesFuzzy = [
   'ਘਰੁ ੮ ॥',
   'ਘਰੁ ੯ ॥',
 ];
-const titlesExact = [
+const titlesExact = new Set([
   'ਜਾਪੁ ॥',
   'ਸਲੋਕੁ ॥',
   'ਚਾਚਰੀ ਛੰਦ ॥',
@@ -75,10 +75,9 @@ const titlesExact = [
   'ਰਾਗ ਮਾਲਾ ॥',
   'ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹ ॥',
   'ਜ਼ਫ਼ਰਨਾਮਹ ॥',
-];
+]);
 const isTitle = (string: string): boolean =>
-  titlesFuzzy.some((ele) => string.includes(ele)) ||
-  titlesExact.includes(string);
+  titlesFuzzy.some((ele) => string.includes(ele)) || titlesExact.has(string);
 
 export const isEndOfPauri = (string: string): boolean =>
   /॥[੧੨੩੪੫੬੭੮੯੦]+॥/.test(string) ||
