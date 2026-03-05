@@ -30,7 +30,6 @@
   overflow: hidden;
 
   /* Typography */
-  color: var(--fg-muted);
   font-size: calc(16px * 0.875);
 
   /* Visual */
