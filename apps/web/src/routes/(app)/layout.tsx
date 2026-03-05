@@ -86,6 +86,7 @@ export type Ui = {
   searchToolbar: boolean;
   fullscreen: boolean;
   slideshow: boolean;
+  slideshowExiting: boolean;
   journey: boolean;
   inspector: boolean;
   inspectorId: string;
@@ -122,6 +123,7 @@ export default component$(() => {
     searchToolbar: false,
     fullscreen: false,
     slideshow: false,
+    slideshowExiting: false,
     journey: false,
     inspector: false,
     inspectorId: '',
@@ -315,7 +317,11 @@ export default component$(() => {
   });
 
   const toggleSlideshow = $(() => {
-    uiStore.slideshow = !uiStore.slideshow;
+    if (uiStore.slideshow) {
+      uiStore.slideshowExiting = true;
+    } else {
+      uiStore.slideshow = true;
+    }
   });
 
   const updateZoomDom = $((v: number) => {

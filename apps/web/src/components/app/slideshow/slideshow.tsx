@@ -46,10 +46,16 @@ export default component$<SlideshowProps>(({ focusOnClose }) => {
 
   return (
     <main
-      class='slideshow'
+      class={['slideshow', uiStore.slideshowExiting && 'slideshow--exiting']}
       onClick$={() => {
-        uiStore.slideshow = false;
-        focusOnClose.focus();
+        uiStore.slideshowExiting = true;
+      }}
+      onAnimationEnd$={(e) => {
+        if (e.animationName === 'slideshow-fadeout') {
+          uiStore.slideshow = false;
+          uiStore.slideshowExiting = false;
+          focusOnClose.focus();
+        }
       }}
     >
       <div>

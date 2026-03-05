@@ -1,3 +1,21 @@
+@keyframes slideshow-fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideshow-fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .slideshow {
   z-index: 1;
   position: fixed;
@@ -8,6 +26,22 @@
   width: -webkit-fill-available;
   width: -moz-available;
   background: var(--bg);
+  animation: slideshow-fadein 0.3s ease-out forwards;
+}
+
+.slideshow article,
+.slideshow__hint {
+  opacity: 0;
+  animation: slideshow-fadein 0.3s ease-out 0.2s forwards;
+}
+
+.slideshow--exiting {
+  animation: slideshow-fadeout 0.3s ease-out 0.2s forwards;
+}
+
+.slideshow--exiting article,
+.slideshow--exiting .slideshow__hint {
+  animation: slideshow-fadeout 0.3s ease-out forwards;
 }
 
 .slideshow .line {
