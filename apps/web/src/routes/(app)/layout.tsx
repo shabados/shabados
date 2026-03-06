@@ -275,7 +275,7 @@ export default component$(() => {
         '/jap-ji-sahib/': 'ਜਪੁ ਜੀ ਸਾਹਿਬ',
         '/jap-sahib/': 'ਜਾਪੁ ਸਾਹਿਬ',
         '/twa-prasad-swaye/': 'ਤ੍ਵ ਪ੍ਰਸਾਦਿ - ਸ੍ਵਯੇ',
-        '/kabyo-bac-benti-copai/': 'ਕਬ︀︁ਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ',
+        '/kabyo-bac-benti-copai/': 'ਕਬਿਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ',
         '/anand-sahib/': 'ਅਨੰਦੁ ਸਾਹਿਬ',
         '/rehras-sahib/': 'ਰਹਰਾਸਿ ਸਾਹਿਬ',
         '/kirtan-sohila/': 'ਕੀਰਤਨ ਸੋਹਿਲਾ',

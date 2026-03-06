@@ -49,7 +49,7 @@ const banis: Record<string, Bani> = {
   },
   'kabyo-bac-benti-copai': {
     name: {
-      Guru: 'ਕਬਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ',
+      Guru: 'ਕਬਿਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ',
       Latn: 'Kabyo Bāc Bentī Cōpaī',
     },
     paging: {

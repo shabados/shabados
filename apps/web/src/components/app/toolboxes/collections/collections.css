@@ -23,6 +23,52 @@
   border-bottom: 0.5px solid var(--toner);
 }
 
+.folder-header,
+.card {
+  --height: 32px;
+}
+
+.folder-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--height);
+  padding-bottom: 12px;
+}
+
+.folder-title {
+  font-size: 1.25em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.close-btn {
+  position: fixed;
+  right: 12px;
+  top: 12px;
+  width: var(--height);
+  height: var(--height);
+  border-radius: 50%;
+  outline: 2.25px solid var(--toner);
+  outline-offset: -2.25px;
+  background: var(--bg-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--fg);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  background-color: var(--ui-toner);
+  outline: 2.25px solid var(--ui);
+  color: var(--fg);
+  text-decoration: none;
+}
+
 .cards {
   margin: 0;
   display: flex;
@@ -35,6 +81,16 @@
 
 .cards + .cards {
   margin-top: 12px;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid-6 {
@@ -52,7 +108,6 @@ a.card {
 }
 
 .card {
-  --height: 32px;
   color: var(--fg);
   padding: 0 1em;
   height: var(--height);
@@ -72,14 +127,18 @@ a.card {
   padding: 0 11px;
 }
 
-a.card {
+a.card,
+button.card {
   background-color: var(--bg-base);
   border: 2.25px solid var(--toner);
+  cursor: pointer;
+  font-size: inherit;
 }
 
-.carousel__button:hover > span,
 a.card:hover,
-a.card:focus {
+a.card:focus,
+button.card:hover,
+button.card:focus {
   color: var(--fg);
   background-color: var(--ui-toner);
   text-decoration: none;
@@ -88,25 +147,8 @@ a.card:focus {
   outline-offset: -2.25px;
 }
 
-a.button {
-  cursor: pointer;
-  display: inline-block;
-  background-color: var(--ui);
-  color: white;
-  border-radius: 2em;
-  padding: 0.75em 1em;
-  margin: 0.5em auto 1em;
-  font-size: 0.875em;
-  font-weight: 500;
-  width: fit-content;
-  line-height: 1;
-}
-
-a.button:hover {
-  text-decoration: none;
-}
-
 @media (pointer: coarse) {
+  .folder-header,
   .card {
     --height: 48px;
   }

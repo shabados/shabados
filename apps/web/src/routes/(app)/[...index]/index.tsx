@@ -207,7 +207,7 @@ export default component$(() => {
                     <p>ਤ੍ਵ ਪ੍ਰਸਾਦਿ - ਸ੍ਵਯੇ</p>
                   </a>
                   <a class='card' href='/kabyo-bac-benti-copai'>
-                    <p>ਕਬ︀︁ਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ</p>
+                    <p>ਕਬਿਯੋ ਬਾਚ ਬੇਨਤੀ - ਚੌਪਈ</p>
                   </a>
                   <a class='card' href='/anand-sahib'>
                     <p>ਅਨੰਦੁ ਸਾਹਿਬ</p>
