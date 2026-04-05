@@ -11,6 +11,7 @@ import toGurmukhiNumerals from '~/lib/toGurmukhiNumerals';
 import { UiContext, UserDataContext } from '~/routes/(app)/layout';
 import styles from './collections.css?inline';
 import X from '~/components/icons/ui/x';
+import sggsRagas from './sggs.json';
 
 type Link = { label: string; href: string };
 
@@ -173,7 +174,7 @@ export default component$(() => {
                   class='close-btn'
                   onClick$={() => (folder.value = null)}
                 >
-                  ✕
+                  <X />
                 </a>
               </div>
               <div class='cards grid-1'>
@@ -187,6 +188,22 @@ export default component$(() => {
                   <p>ਰਾਗਮਾਲਾ</p>
                 </a>
               </div>
+              {sggsRagas.map((section) => (
+                <div key={section.section}>
+                  <p class='section-title'>{section.section}</p>
+                  <div class='cards grid-1'>
+                    {section.entries.map((entry) => (
+                      <a
+                        key={entry.page}
+                        class='card'
+                        href={`/sggs/${entry.page}`}
+                      >
+                        <p>{entry.name ?? entry.authors.join(', ')}</p>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           )}
           {folderConfig && (

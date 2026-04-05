@@ -42,6 +42,14 @@
   margin: 0;
 }
 
+.section-title {
+  font-size: 0.9em;
+  font-weight: 500;
+  margin: 0 0 8px 12px;
+  color: var(--fg-secondary, var(--fg));
+  opacity: 0.6;
+}
+
 .close-btn {
   position: fixed;
   right: 12px;

@@ -75,6 +75,7 @@ const titlesExact = new Set([
   'ਰਾਗ ਮਾਲਾ ॥',
   'ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹ ॥',
   'ਜ਼ਫ਼ਰਨਾਮਹ ॥',
+  'ਪਵੜੀ ॥',
 ]);
 const isTitle = (string: string): boolean =>
   titlesFuzzy.some((ele) => string.includes(ele)) || titlesExact.has(string);

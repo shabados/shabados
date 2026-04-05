@@ -194,6 +194,7 @@ export default component$(() => {
     }),
   );
 
+  // eslint-disable-next-line qwik/no-use-visible-task
   useVisibleTask$(() => {
     const localControlsStore = getLocalStorage('controlsStore');
     if (localControlsStore) {
