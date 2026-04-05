@@ -2,6 +2,7 @@ article {
   height: 100%;
   overscroll-behavior: contain;
   overscroll-behavior-y: contain;
+  overflow-y: scroll;
   box-sizing: border-box;
 }
 
