@@ -1,6 +1,6 @@
 {
   "apps/presenter": "2.11.3",
-  "apps/web": "0.1.0",
+  "apps/web": "0.2.0",
   "apps/library": "0.1.0",
   "packages/gurmukhi": "1.0.0",
   "packages/sant-lipi": "0.35.0",
