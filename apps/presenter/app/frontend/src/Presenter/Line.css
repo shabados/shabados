@@ -1,0 +1,234 @@
+/* ------------------------------------
+   Line
+   ------------------------------------ */
+
+.line {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.line .partition {
+  display: contents;
+}
+
+.line > p,
+.line .partition {
+  justify-content: flex-start;
+}
+
+.line.center-text {
+  text-align: center;
+}
+
+.line.center-text > p,
+.line.center-text .partition {
+  justify-content: center;
+}
+
+.line.justify-text:not(.center-text) {
+  text-align: justify;
+}
+
+.line.justify-text:not(.center-text) .source {
+  justify-content: start;
+}
+
+.line.justify-text:not(.center-text) .source {
+  justify-content: space-between;
+}
+
+.line.justify-text:not(.center-text) .partition:last-child,
+.line.justify-text:not(.center-text)
+  .partition:last-child
+  div:last-child {
+  flex-grow: 1;
+  align-items: flex-start;
+}
+
+/* add last partition last word span flex-grow 1 */
+
+p {
+  margin: 0;
+}
+
+/*
+    Notes for the future:
+    Aiming for 1.35*(x-height) for line-heights
+    Open Gurbani Akhar line-height by x-height = 1.4
+    Noto Sans Medium at 700 = 1.4
+    Open Anmol Uni bold = 1.5
+    
+    English x-height to Open Gurbani Akhar Black = 4:5 ratio
+    Open Anmol Uni Bold to Open Gurbani Akhar Black = 15:16 ratio
+
+    So for 1.35 line-height of Open Gurbani Akhar Black we have to set it's CSS line-height to 1.4
+
+    gurmukh is 8vh, corresponding english is 4/5*8vh = 6.4vh
+    corresponding english should be 1/1.35=0.740740741, which means 6.4vh is now 4.740740741vh
+
+    gurmukh is 8vh, corresponding punjabi is 15/16*8vh = 7.5vh
+    corresponding english should be 1/1.35=0.740740741, which means 7.6vh is now 5.555555555vh
+
+    The line-heights will be 1.35 times what we already have, 1.89 for english and 2.025 for punjabi
+
+    For whatever reason gurmukhi fonts require a negative bottom margin hack
+*/
+
+.line .gurmukhi {
+  font-family: "Open Gurbani Akhar";
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.line .syllabic-weights {
+  font-size: 0.5em;
+  letter-spacing: 0.3em;
+  padding-left: 0.3em;
+}
+
+.line .syllable-count {
+  font-size: 0.5em;
+  background: var(--display-dim-background-color);
+  height: 1.5em;
+  min-width: 1.5em;
+  border-radius: 0.3em;
+  top: 0.55em;
+  position: relative;
+  margin-bottom: 0.5em;
+}
+
+.current-line .gurmukhi {
+  margin-bottom: -0.12em;
+}
+
+.line .english,
+.line .spanish {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.89;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.line .punjabi {
+  font-family: "Open Anmol Uni", sans-serif;
+  font-weight: 900;
+  line-height: 2.025;
+  line-height: 1.75;
+  line-height: 1.5;
+  margin-bottom: -0.15em;
+}
+
+.line .hindi {
+  font-family: "Noto Sans Devanagari";
+  font-weight: 600;
+  line-height: 1.48;
+}
+
+.line .urdu {
+  font-family: "Noto Sans Nastaliq Urdu";
+  /* default line-height is 2.52 */
+  line-height: 2.1;
+  word-spacing: 0.4em;
+  direction: rtl;
+}
+
+.line .english.transliteration {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.line .source,
+.line .partition.block,
+.line .transliteration {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.current-line .word.with-rows {
+  padding-bottom: 0em;
+  margin-bottom: 0.4em;
+}
+
+.current-line .partition ~ .partition .word.with-guides,
+.current-line .word.with-guides ~ .word.with-guides {
+  padding-left: 0.35em;
+  border-left: 0.1em double;
+  border-color: var(--display-dim-background-color);
+}
+
+.larivaar.current-line .word.with-guides {
+  padding: 0;
+}
+
+.word,
+.word span {
+  white-space: pre-wrap;
+}
+
+.word {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transliteration .word {
+  flex-direction: row;
+}
+
+.word {
+  margin-right: 0.35em;
+}
+
+.larivaar .word {
+  margin-right: 0;
+}
+
+.line.larivaar.assist
+  .source
+  .partition:nth-child(odd)
+  .word:nth-child(even),
+.line.larivaar.assist
+  .source
+  .partition:nth-child(even)
+  .word:nth-child(odd) {
+  color: var(--display-gurmukhi-larivaar-assist-color);
+}
+
+.larivaar.assist.line .transliteration .word:nth-child(2n) {
+  color: var(
+    --display-transliteration-larivaar-assist-color
+  );
+}
+
+.heavy.vishraams.line .source .heavy,
+.heavy.vishraams.line .transliteration .heavy {
+  color: var(--display-vishraam-heavy-color) !important;
+}
+
+.medium.vishraams.line .source .medium,
+.medium.vishraams.line .transliteration .medium {
+  color: var(--display-vishraam-medium-color) !important;
+}
+
+.light.vishraams.line .source .light,
+.light.vishraams.line .transliteration .light {
+  color: var(--display-vishraam-light-color) !important;
+}
+
+.next-line,
+.previous-line {
+  min-height: min-content;
+}
+
+/* ------------------------------------
+   Simple lines - remove animations
+   ------------------------------------ */
+
+.simple.line * {
+  transition: none;
+}
+
+.simple.line .fade-enter {
+  opacity: 1;
+}

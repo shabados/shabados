@@ -1,0 +1,22 @@
+.navigator {
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.navigator .text {
+  display: block;
+  width: 100%;
+}
+
+.navigator-controls .autoselect {
+  float: right;
+}
+
+.navigator .main.meta, .navigator .next.meta {
+  color: red !important;
+}
+
+.mobile.app .navigator-controls .arrow {
+  display: none;
+}

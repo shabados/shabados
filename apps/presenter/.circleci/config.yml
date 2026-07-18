@@ -1,0 +1,235 @@
+version: 2.1
+
+# Generic build job
+build: &build
+  working_directory: ~/shabad-os
+  steps:
+    - checkout
+    - run:
+        name: Install dependencies
+        command: npm install --unsafe-perm
+    - run:
+        name: Build application
+        command: npm run build
+    - run:
+        name: Build binaries
+        command: npm run dist -- -${PLATFORM_FLAG}
+        no_output_timeout: 30m
+    - run: mkdir artifacts && cp dist/Shabad* artifacts
+    - store_artifacts:
+        path: artifacts
+        destination: artifacts
+
+# Generic publish job
+publish: &publish
+  working_directory: ~/shabad-os
+  steps:
+    - checkout
+    - run:
+        name: Install dependencies
+        command: npm install --unsafe-perm
+    - run:
+        name: Build application
+        command: npm run build
+    - run:
+        name: Publish application
+        command: |
+          if $(cat app/package.json | grep -Eq '"version". "[0-9]+\.[0-9]+\.[0-9]+-.*"'); then EP_PRE_RELEASE=true; else EP_PRE_RELEASE=false; fi;
+          GH_TOKEN=$GITHUB_TOKEN EP_PRE_RELEASE=$EP_PRE_RELEASE npm run release -- -${PLATFORM_FLAG} -p always
+        no_output_timeout: 30m
+    - run: mkdir artifacts && cp dist/Shabad* artifacts
+    - store_artifacts:
+        path: artifacts
+        destination: artifacts
+
+orbs:
+  windows: circleci/windows@2.4.0
+  node: circleci/node@4.5.1
+
+jobs:
+  lint:
+    docker:
+      - image: node:16
+    working_directory: ~/shabad-os
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: npm install --unsafe-perm
+      - run:
+          name: Run ESLint on Frontend & Backend
+          command: npm run lint
+  
+  build-mac:
+    <<: *build
+    macos:
+      xcode: "13.0.0"
+    environment:
+      PLATFORM_FLAG: "m"
+      USE_HARD_LINKS: "false"
+
+  build-linux:
+    <<: *build
+    docker:
+      - image: electronuserland/builder
+    environment:
+      USE_HARD_LINKS: "false"
+      PLATFORM_FLAG: "l"
+
+  build-windows:
+    <<: *build
+    executor:
+      name: windows/default
+      shell: bash.exe
+    environment:
+      USE_HARD_LINKS: "false"
+      PLATFORM_FLAG: "w"
+
+  print-changelog:
+    docker:
+      - image: node:16
+    working_directory: ~/shabad-os
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: npm install --unsafe-perm
+      - run:
+          name: Print out the current changelog
+          command: npm run changelog
+
+  upload-changelog:
+    docker:
+      - image: node:16
+    working_directory: ~/shabad-os
+    steps:
+      - checkout
+      - run:
+          name: Download the hub command
+          command: |
+            curl -L https://github.com/github/hub/releases/download/v2.13.0/hub-linux-amd64-2.13.0.tgz -o hub.tgz
+            tar -xzf hub.tgz
+            cp hub-linux-amd64-2.13.0/bin/hub hub
+            chmod +x hub
+      - run:
+          name: Install dependencies
+          command: npm install --unsafe-perm
+      - run:
+          name: Upload the current changelog
+          command: |
+            CHANGELOG=$(npm run changelog | tail -n +9)
+            echo "$CHANGELOG"
+
+            TAG=$(git describe --tags --abbrev=0)
+            VERSION=$(echo $TAG | cut -c2-)
+            GITHUB_TOKEN=$GITHUB_TOKEN ./hub release edit -m $VERSION -m "$CHANGELOG" v$VERSION
+            
+  publish-mac:
+    <<: *publish
+    macos:
+      xcode: "13.0.0"
+    environment:
+      PLATFORM_FLAG: "m"
+      USE_HARD_LINKS: "false"
+
+  publish-linux:
+    <<: *publish
+    docker:
+      - image: electronuserland/builder
+    environment:
+      USE_HARD_LINKS: "false"
+      PLATFORM_FLAG: "l"
+
+  publish-windows:
+    <<: *publish
+    executor:
+      name: windows/default
+      shell: bash.exe
+    environment:
+      USE_HARD_LINKS: "false"
+      PLATFORM_FLAG: "w"
+
+  tag-sentry:
+    docker:
+      - image: getsentry/sentry-cli
+    working_directory: ~/work
+    steps:
+      - checkout
+      - run:
+          name: Download JQ
+          command: apk --no-cache add jq
+      - run:
+          name: Tag Sentry release
+          command: |
+            # Get version
+            VERSION=$(cat app/package.json | jq -r .version)
+            # Create Sentry release
+            sentry-cli releases new -p desktop-backend -p desktop-frontend $VERSION
+            # Tag commits against release
+            sentry-cli releases set-commits --auto $VERSION
+            # Finalise Sentry release
+            sentry-cli releases finalize $VERSION
+
+## Workflow
+
+build-workflow: &build-workflow
+  filters:
+    branches:
+      ignore:
+        - master
+
+publish-workflow: &publish-workflow
+  filters:
+    branches:
+      only:
+        - master
+
+workflows:
+  version: 2
+  build-desktop:
+    jobs:
+      - lint
+
+      - build-windows:
+          <<: *build-workflow
+          pre-steps:
+            - run: nvm use 16
+      - build-mac:
+          <<: *build-workflow
+          pre-steps:
+            - run: sudo xcode-select -r
+            - node/install:
+                node-version: "16"
+      - build-linux:
+          <<: *build-workflow
+      - print-changelog:
+          requires:
+            - build-windows
+            - build-linux
+            - build-mac
+
+
+      - publish-windows:
+          <<: *publish-workflow
+          pre-steps:
+            - run: nvm use 16
+      - publish-mac:
+          <<: *publish-workflow
+          pre-steps:
+            - run: sudo xcode-select -r
+            - node/install:
+                node-version: "16"
+      - publish-linux:
+          <<: *publish-workflow
+
+
+      - upload-changelog:
+          requires:
+            - publish-windows
+            - publish-linux
+            - publish-mac
+      - tag-sentry:
+          requires:
+            - publish-windows
+            - publish-linux
+            - publish-mac
