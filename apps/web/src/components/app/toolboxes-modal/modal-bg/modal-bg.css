@@ -1,0 +1,26 @@
+@keyframes modal-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+.modal-bg {
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg);
+  position: fixed;
+  animation: modal-appear 0.125s ease;
+  animation-fill-mode: forwards;
+  touch-action: none;
+}
+
+@media (pointer: fine) {
+  .modal-bg {
+    animation: none;
+    opacity: 0;
+  }
+}

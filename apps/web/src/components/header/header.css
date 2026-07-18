@@ -1,0 +1,152 @@
+.header__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg);
+  z-index: 4;
+  position: sticky;
+  top: 0;
+  margin: 0 auto;
+  transition: transform 400ms ease;
+  color: var(--fg);
+  height: calc(3.5em);
+  font-size: 16px;
+}
+
+header {
+  opacity: 1;
+  transition: opacity 240ms ease 160ms;
+  width: 100%;
+}
+
+.hide > header {
+  opacity: 0;
+  transition: opacity 120ms linear;
+}
+
+header * {
+  user-select: none;
+}
+
+header > div {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: 1fr auto 1fr; */
+  align-items: center;
+  container-type: inline-size;
+  padding: 0 12px;
+}
+
+header ul {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+header li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: inherit;
+  padding: 8px 12px;
+  display: flex;
+  border-radius: 24px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+  outline-offset: -2.25px;
+}
+
+header a:hover {
+  text-decoration: none;
+  outline: 2.25px solid var(--ui);
+  background: var(--ui-toner);
+}
+
+header .logo {
+  display: flex;
+  gap: 0.33em;
+  align-items: center;
+  font-size: 1.15em;
+  font-weight: 400;
+  letter-spacing: -0.25px;
+}
+
+header .lotus {
+  height: calc(16px * 1.6); /* whatever rem is supposed to be */
+}
+
+@media (display-mode: window-controls-overlay) {
+  header {
+    font-size: 0.875em;
+    -webkit-app-region: drag;
+    app-region: drag;
+  }
+  header > div {
+    width: calc(env(titlebar-area-width, 100%));
+    height: env(titlebar-area-height, 38px);
+  }
+  header a,
+  header input {
+    -webkit-app-region: no-drag;
+    app-region: no-drag;
+  }
+  header .logo {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  header .lotus {
+    display: none;
+  }
+}
+
+@media (pointer: coarse) and (max-device-width: 480px) {
+  .label {
+    display: none;
+  }
+}
+
+@media (pointer: coarse) {
+  @container (max-width: 540px) {
+    .label {
+      display: none;
+    }
+  }
+}
+
+@media (pointer: fine) {
+  @media (max-width: 720px) {
+    .label {
+      display: none;
+    }
+    @media (max-width: 501px) {
+      header .logo {
+        font-size: 0px;
+      }
+
+      header .lotus {
+        height: inherit;
+      }
+    }
+  }
+
+  @container (max-width: 540px) {
+    .label {
+      display: none;
+    }
+  }
+
+  @container (max-width: 450px) {
+    header .logo span {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.spinner svg {
+  animation: rotate 1.25s linear infinite;
+}
+
+.spinner svg circle {
+  transform: translate(1px, 1px);
+  stroke-dasharray: 44;
+  stroke-dashoffset: 0;
+  animation: animate 12.5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    stroke-dashoffset: 44;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  50.1% {
+    stroke-dashoffset: 22;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

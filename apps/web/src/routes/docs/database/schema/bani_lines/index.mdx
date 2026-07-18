@@ -1,0 +1,37 @@
+---
+title: Bani_Lines
+---
+
+# Bani_Lines
+
+The `Bani_Lines` table connects one [Bani](/docs/database/schema/banis) to many [Lines](/docs/database/schema/lines).
+
+:::note
+The `line_group` field is slightly more complicated, as it orders collections of [lines](/docs/database/schema/lines), but not the [lines](/docs/database/schema/lines) themselves.
+:::
+
+## Columns
+
+### `line_id`
+
+The 4 letter unique identifier of a [Line](/docs/database/schema/lines).
+
+| Type    | Constraints                                                                 |
+| ------- | --------------------------------------------------------------------------- |
+| char(4) | Primary Key, <br/> Foreign Key ([Lines.id](/docs/database/schema/lines#id)) |
+
+### `bani_id`
+
+The unique identifier of the [Bani](/docs/database/schema/banis) that contains this line.
+
+| Type    | Constraints                                                                 |
+| ------- | --------------------------------------------------------------------------- |
+| integer | Primary Key, <br/> Foreign Key ([Banis.id](/docs/database/schema/banis#id)) |
+
+### `line_group`
+
+A partition within the [Bani](/docs/database/schema/banis) to group [Lines](/docs/database/schema/lines). Order by this field, (and the [Lines.order_id](/docs/database/schema/lines#order_id), if joining) to get the correct order of the groups (and [Lines](/docs/database/schema/lines) within the groups).
+
+| Type    | Constraints |
+| ------- | ----------- |
+| integer | Primary Key |

@@ -1,0 +1,82 @@
+.qrcode {
+  display: inline-block;
+  height: 10vh;
+  width: 10vh;
+  position: fixed;
+  bottom: 1.25em;
+  left: 12.34vw;
+  z-index: 1000;
+  border-radius: 0.75em;
+  background: var(--bg-base);
+  padding: 0.1875em;
+}
+
+.header,
+.hukam,
+.line {
+  padding: 0.75em 0.75em;
+  text-align: center;
+}
+
+.header {
+  height: calc(10vh + 0.75em - 2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hukamnama {
+  display: grid;
+  grid-template-columns: 5fr 11fr;
+}
+
+.hukam,
+.exposition {
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.hukam {
+  height: calc(90vh - 3em - 2px - 3em - 3.5em);
+  font-size: 1.5em;
+  font-weight: 600;
+  background: var(--bg-base);
+  background: linear-gradient(var(--bg-base), rgba(var(--white-rgb) / 0.6));
+  border-radius: 0.75em;
+  margin: 0 1.5em 0.75em;
+}
+
+.hukam__larivar {
+  line-break: anywhere;
+}
+
+.exposition {
+  height: calc(100vh - 3em);
+  margin-right: 1.5em;
+  border-radius: 0.75em;
+  position: relative;
+  top: 1.5em;
+}
+
+.line:nth-child(even) {
+  background-color: rgba(var(--black-rgb) / 0.04);
+}
+
+.line:nth-child(odd) {
+  background-color: rgba(var(--white-rgb) / 0.4);
+}
+
+p {
+  font-weight: 600;
+}
+
+#progress-bar {
+  --progress-bar-size: 3px;
+  opacity: 0.4;
+  position: relative;
+  top: -0.75em;
+  height: var(--progress-bar-size);
+  border-radius: var(--progress-bar-size);
+  width: 0%;
+  background-color: var(--ui);
+}

@@ -1,0 +1,15 @@
+.button {
+  padding: 8px 24px;
+  min-width: 5em;
+  outline: 2.25px solid var(--toner);
+  outline-offset: -2.25px;
+}
+
+@media (pointer: coarse) and (max-width: 768px) {
+  .button {
+    min-width: auto;
+    width: 100%;
+    max-width: calc(100% - 48px);
+    flex-grow: 1;
+  }
+}

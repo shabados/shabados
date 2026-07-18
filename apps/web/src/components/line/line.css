@@ -1,0 +1,83 @@
+.line {
+  font-size: 1rem;
+  /* color: inherit;
+  border-radius: 0.4em;
+  outline-width: 0.2em;
+  outline-offset: 0.6em; */
+}
+
+/* .line:hover,
+.line:focus {
+  outline-style: solid;
+}
+
+.line:hover {
+  text-decoration: none;
+  outline-color: var(--toner);
+}
+
+.line:focus {
+  outline-color: var(--red);
+}
+
+.line:hover:focus {
+  outline-color: var(--teal);
+} */
+
+p {
+  color: color-mix(in srgb, var(--fg) 100%, var(--bg) 55%);
+
+  font-weight: calc(100 + 250 * var(--primary-factor));
+  line-height: 1.6;
+}
+
+.viakhia {
+  --font-size: 1.1;
+  font-size: calc(1em * var(--font-size));
+  /* font-weight: calc(600 / var(--font-size)); */
+  font-weight: calc(
+    (100 + 250 * var(--primary-factor)) * (0.7 + 0.15 * var(--primary-factor))
+  );
+  line-height: calc(1.6 / var(--font-size));
+}
+
+.arth {
+  color: color-mix(in srgb, var(--link) 100%, var(--bg) 10%);
+}
+
+.bold {
+  opacity: 1;
+  color: var(--fg);
+
+  --font-size: 1.1;
+  font-size: calc(1em * var(--primary-factor) * var(--font-size));
+  font-weight: calc(
+    (100 + 250 * var(--primary-factor)) * (0.7 + 0.15 * var(--primary-factor)) /
+      4 * 5
+  );
+  line-height: calc(1.6 / var(--font-size));
+}
+
+.heavy {
+  color: var(--heavy-vishraam);
+}
+
+.medium {
+  color: var(--medium-vishraam);
+}
+
+.light {
+  color: var(--light-vishraam);
+}
+
+p:not(.bold) .heavy {
+  color: color-mix(in srgb, var(--heavy-vishraam) 100%, var(--bg) 15%);
+}
+
+p:not(.bold) .medium {
+  color: color-mix(in srgb, var(--medium-vishraam) 100%, var(--bg) 15%);
+}
+
+p:not(.bold) .light {
+  color: color-mix(in srgb, var(--light-vishraam) 100%, var(--bg) 20%);
+}

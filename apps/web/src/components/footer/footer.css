@@ -1,0 +1,17 @@
+footer {
+  border-top: 0.5px solid var(--toner);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social span {
+  padding-right: 0.5em;
+}
+
+.social a {
+  padding: 0.75em 0.75em;
+  line-height: 0;
+}

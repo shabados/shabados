@@ -1,0 +1,108 @@
+.navi {
+  position: fixed;
+  bottom: 50%;
+  right: 0px;
+  rotate: 90deg;
+  display: flex;
+  width: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 3px 0;
+  box-sizing: border-box;
+}
+
+.track {
+  margin: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 0;
+}
+
+.track:hover {
+  padding: 0;
+}
+
+.track > div {
+  height: 6px;
+  width: 32px;
+  border-radius: 32px;
+  background: rgb(from var(--fg) r g b / 0.125);
+  opacity: 0.64;
+}
+
+.track:hover > div {
+  height: 10px;
+  background: rgb(from var(--fg) r g b / 0.2);
+}
+
+.track > div:nth-child(2) {
+  width: 80px;
+}
+.track > div:nth-child(3) {
+  width: 56px;
+}
+.track > div:nth-child(4) {
+  width: 33px;
+}
+.track > div:nth-child(5) {
+  width: 49px;
+}
+.track > div:nth-child(6) {
+  width: 97px;
+}
+.track > div:nth-child(7) {
+  width: 105px;
+}
+.track > div:nth-child(8) {
+  width: 50px;
+}
+
+.track > div.active {
+  background: var(--link);
+}
+
+.track > div:hover {
+  background: var(--link-hover);
+}
+
+.track:hover > div:hover,
+.track:hover > div.active {
+  height: 18px;
+}
+
+.controls {
+  display: flex;
+  width: 384px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+
+.controls > * {
+  border: 2.25px solid var(--toner);
+  border-radius: 10em;
+  backdrop-filter: blur(4px);
+  background: rgb(from var(--bg-base) r g b / 0.92);
+}
+
+.controls > *:hover {
+  text-decoration: none;
+  outline: 2.25px solid var(--ui);
+  background: var(--ui-toner);
+}
+
+.controls a {
+  color: inherit;
+  padding: 12px;
+  display: flex;
+  border-radius: 36px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+  outline-offset: -2.25px;
+}

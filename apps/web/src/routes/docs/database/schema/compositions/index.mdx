@@ -1,0 +1,57 @@
+---
+title: Compositions
+---
+
+# Compositions
+
+The `Compositions` table provides a list of all the different compositions that the database contains. E.g. `Sri Guru Granth Sahib`.
+
+## Columns
+
+### `id`
+
+The unique identifier of the source.
+
+| Type    | Constraints |
+| ------- | ----------- |
+| integer | Primary Key |
+
+### `name_english`
+
+The name of the source, in English.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | Not Null    |
+
+### `name_gurmukhi`
+
+The name of the source, in Gurmukhi, ASCII representation.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | Not Null    |
+
+### `length`
+
+The number of physical "pages" in the source.
+
+| Type    | Constraints |
+| ------- | ----------- |
+| integer | Not Null    |
+
+### `page_name_english`
+
+The name of physical "pages" in the source, in English.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | Not Null    |
+
+### `page_name_gurmukhi`
+
+The name of physical "pages" in the source, in Gurmukhi, ASCII representation.
+
+| Type | Constraints |
+| ---- | ----------- |
+| text | Not Null    |

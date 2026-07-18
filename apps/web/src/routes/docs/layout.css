@@ -1,0 +1,42 @@
+.docs {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0px 24px 0;
+}
+
+.docs .on-this-page {
+  min-width: 190px;
+  max-width: 220px;
+  height: min-content;
+  max-height: calc(100vh - 120px - 48px);
+  position: sticky;
+  top: 144px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  margin-bottom: 24px;
+  padding-right: 12px;
+}
+
+.docs article * {
+  scroll-margin-top: 9em;
+}
+
+@media (max-width: 1024px) {
+  .docs {
+    padding: 0;
+  }
+  .docs .on-this-page {
+    display: none;
+  }
+}
+
+@media (pointer: coarse) {
+  .docs {
+    padding: 0;
+  }
+  .docs .on-this-page {
+    display: none;
+  }
+}

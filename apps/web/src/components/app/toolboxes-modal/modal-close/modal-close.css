@@ -1,0 +1,38 @@
+.modal__close {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  line-height: 1;
+  background-color: var(--toner);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  border: 0.5px solid var(--toner);
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+:global(body[dir='rtl'] .modal__close) {
+  right: auto;
+  left: 2.25em;
+}
+
+.modal__close:hover {
+  background-color: var(--toner);
+  outline: 2.25px solid var(--ui);
+  outline-offset: 2.25px;
+}
+
+@media (pointer: coarse) {
+  .modal__close {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+  }
+}
