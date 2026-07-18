@@ -10,7 +10,6 @@ export const defaultConfig = {
   schema,
 } as const
 
-
 type Options = {
   path?: string
 }
