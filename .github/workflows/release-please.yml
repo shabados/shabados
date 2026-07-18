@@ -18,5 +18,10 @@ jobs:
     steps:
       - uses: googleapis/release-please-action@v4
         with:
+          # shabados-bot PAT so created tags/releases trigger the [name]-publish
+          # workflows (events from the default GITHUB_TOKEN never trigger
+          # downstream workflows). Falls back to GITHUB_TOKEN if unset — then
+          # publishes must be run via workflow_dispatch.
+          token: ${{ secrets.SHABADOS_BOT_TOKEN || github.token }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json

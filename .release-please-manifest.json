@@ -1,6 +1,5 @@
 {
   "apps/presenter": "2.11.3",
-  "apps/web": "0.1.0",
   "apps/library": "0.1.0",
   "packages/sant-lipi": "0.35.0",
   "database": "5.0.0-next.0",
