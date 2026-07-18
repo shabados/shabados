@@ -11,3 +11,5 @@ Make quadrilateral shapes to dewarp pages. ([Check out the Shabad OS Library Use
 // https://github.com/electron/electron/issues/28422
 app.commandLine.appendSwitch('enable-experimental-web-platform-features')
 ```
+
+<!-- CI smoke test: verifies path-filtered workflows fire per area -->
