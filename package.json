@@ -1,0 +1,19 @@
+{
+  "name": "shabados",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "bun@1.2.13",
+  "workspaces": [
+    "apps/web",
+    "apps/library",
+    "packages/gurmukhi/bindings/javascript",
+    "database"
+  ],
+  "scripts": {
+    "lint": "biome check ./",
+    "fix": "biome check --write ./",
+    "typecheck": "bun run --filter '*' --if-present typecheck",
+    "build:artifacts": "node -e 'const {execSync}=require(`child_process`);for (const [dir,name] of [[`database`,`database:build`],[`packages/gurmukhi/bindings/javascript`,`build`]]){let pkg;try{pkg=require(`./${dir}/package.json`)}catch(e){console.warn(`[build:artifacts] skip ${dir}: no package.json`);continue}if(pkg.scripts && pkg.scripts[name]){console.log(`[build:artifacts] ${dir} -> ${name}`);execSync(`bun run ${name}`,{cwd:dir,stdio:`inherit`})}else{console.warn(`[build:artifacts] skip ${dir}: no \"${name}\" script`)}}'",
+    "postinstall": "[ \"$SKIP_ARTIFACTS\" = \"1\" ] || bun run build:artifacts"
+  }
+}

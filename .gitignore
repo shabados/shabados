@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+generated/
+database/dist/
+
+# Env
+.env.local
+.env.keys
+
+# Logs
+*.log
+
+# OS
+.DS_Store

@@ -1,0 +1,101 @@
+name: CI (gurmukhi)
+
+on:
+  pull_request:
+    paths:
+      - 'packages/gurmukhi/**'
+      - 'package.json'
+      - 'mise.toml'
+      - '.github/workflows/ci-gurmukhi.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'packages/gurmukhi/**'
+      - 'package.json'
+      - 'mise.toml'
+      - '.github/workflows/ci-gurmukhi.yml'
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  check:
+    name: Check (fmt, clippy)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            packages/gurmukhi
+            package.json
+            mise.toml
+          filter: blob:none
+      - uses: jdx/mise-action@v4
+      - run: rustup component add rustfmt clippy
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: packages/gurmukhi -> target
+      - run: cd packages/gurmukhi && mise run fmt
+      - run: cd packages/gurmukhi && mise run lint
+
+  test:
+    name: Test (cargo test)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            packages/gurmukhi
+            package.json
+            mise.toml
+          filter: blob:none
+      - uses: jdx/mise-action@v4
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: packages/gurmukhi -> target
+      - run: cd packages/gurmukhi && mise run test
+
+  build:
+    name: Build (cdylib + wasm)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            packages/gurmukhi
+            package.json
+            mise.toml
+          filter: blob:none
+      - uses: jdx/mise-action@v4
+      - run: rustup target add wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: packages/gurmukhi -> target
+      - run: cd packages/gurmukhi && mise run build
+      - run: cd packages/gurmukhi && mise run build:wasm
+
+  # Smoke-tests one binding end-to-end (generate + run) to prove the UniFFI pipeline works.
+  # The full per-language x per-OS x per-native-target matrix lives in gurmukhi-utils' own
+  # ci.yml/build-native.yml today; TODO: port that full matrix over once the monorepo import
+  # settles, this job only covers javascript as a representative smoke check.
+  smoke-javascript:
+    name: Binding smoke (javascript)
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            packages/gurmukhi
+            package.json
+            mise.toml
+          filter: blob:none
+      - uses: jdx/mise-action@v4
+      - run: rustup target add wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: packages/gurmukhi -> target
+      - run: cd packages/gurmukhi && mise run build
+      - run: cd packages/gurmukhi && mise run build:wasm
+      - run: cd packages/gurmukhi && mise run generate:javascript
+      - run: cd packages/gurmukhi && mise run smoke:javascript

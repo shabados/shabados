@@ -1,0 +1,5 @@
+[tools]
+bun = "latest"
+node = "lts"
+rust = "stable"
+python = "3.13"

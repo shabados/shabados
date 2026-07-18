@@ -1,0 +1,30 @@
+{
+  "separate-pull-requests": true,
+  "include-component-in-tag": true,
+  "packages": {
+    "apps/presenter": {
+      "release-type": "node",
+      "component": "presenter"
+    },
+    "apps/web": {
+      "release-type": "node",
+      "component": "web"
+    },
+    "apps/library": {
+      "release-type": "node",
+      "component": "library"
+    },
+    "packages/gurmukhi": {
+      "release-type": "rust",
+      "component": "gurmukhi"
+    },
+    "packages/sant-lipi": {
+      "release-type": "simple",
+      "component": "sant-lipi"
+    },
+    "database": {
+      "release-type": "node",
+      "component": "database"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+name: CI (presenter)
+
+on:
+  pull_request:
+    paths:
+      - 'apps/presenter/**'
+      - '.github/workflows/ci-presenter.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'apps/presenter/**'
+      - '.github/workflows/ci-presenter.yml'
+
+jobs:
+  presenter:
+    name: Lint, build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            apps/presenter
+          filter: blob:none
+
+      # apps/presenter is npm-self-managed (own package-lock.json files, legacy v2 layout:
+      # root orchestrator delegating into app/ and app/frontend) — not a bun workspace member,
+      # so no mise/bun setup here. No .nvmrc in the repo; pin a floating LTS.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      # Root's own postinstall (`electron-builder install-app-deps && npm run install-deps`)
+      # would cascade into app/ and app/frontend via plain `npm install`, non-frozen, and
+      # trigger an electron native-deps rebuild that lint/build don't need — skip it and
+      # install each lockfile-owning directory explicitly with `npm ci` instead.
+      - name: Install dependencies (root)
+        run: cd apps/presenter && npm ci --ignore-scripts
+
+      - name: Install dependencies (backend)
+        run: cd apps/presenter/app && npm ci
+
+      - name: Install dependencies (frontend)
+        run: cd apps/presenter/app/frontend && npm ci
+
+      - name: Lint (eslint, backend + frontend)
+        run: cd apps/presenter && npm run lint
+
+      - name: Build (frontend production build)
+        run: cd apps/presenter && npm run build

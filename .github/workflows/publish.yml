@@ -1,0 +1,124 @@
+name: publish
+
+# release-please (with include-component-in-tag: true) pushes tags like
+# "database-v5.0.0", "gurmukhi-v1.0.0", etc. Every step below is a dry-run placeholder —
+# nothing in this file may actually publish. Each has a `# TODO cutover:` comment showing
+# the real command to swap in once the monorepo import is verified end-to-end.
+
+on:
+  push:
+    tags:
+      - 'presenter-v*'
+      - 'web-v*'
+      - 'library-v*'
+      - 'gurmukhi-v*'
+      - 'sant-lipi-v*'
+      - 'database-v*'
+  workflow_dispatch:
+
+jobs:
+  database:
+    if: startsWith(github.ref_name, 'database-v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            database
+            package.json
+            mise.toml
+          filter: blob:none
+      - uses: jdx/mise-action@v4
+      - run: cd database && bun install
+      - run: cd database && bun run --if-present database:build
+      # TODO cutover: cd database && npm publish --access public   (publishes @shabados/database, dist/ built above)
+      - run: 'echo "DRY RUN: would run npm publish --access public from database/"'
+
+  web:
+    if: startsWith(github.ref_name, 'web-v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            apps/web
+            package.json
+            mise.toml
+          filter: blob:none
+      - uses: jdx/mise-action@v4
+      - run: cd apps/web && SKIP_ARTIFACTS=1 bun install
+      - run: cd apps/web && bun run --if-present build
+      # TODO cutover: cd apps/web && firebase deploy --non-interactive   (needs FIREBASE_TOKEN / service account secret)
+      - run: 'echo "DRY RUN: would run firebase deploy from apps/web/"'
+
+  library:
+    if: startsWith(github.ref_name, 'library-v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            apps/library
+            package.json
+            mise.toml
+          filter: blob:none
+      - uses: jdx/mise-action@v4
+      - run: cd apps/library && SKIP_ARTIFACTS=1 bun install
+      - run: cd apps/library && bun run --if-present build
+      # TODO cutover: cd apps/library && npm run build:win|build:mac|build:linux   (electron-builder --publish always, per-OS runners, code-signing secrets)
+      - run: 'echo "DRY RUN: would run electron-builder draft release from apps/library/"'
+
+  presenter:
+    if: startsWith(github.ref_name, 'presenter-v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            apps/presenter
+          filter: blob:none
+      # presenter (main, v2 line) is npm-self-managed — no bun/mise here (see ci-presenter.yml)
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+      - run: cd apps/presenter && npm ci --ignore-scripts
+      - run: cd apps/presenter/app && npm ci
+      - run: cd apps/presenter/app/frontend && npm ci
+      - run: cd apps/presenter && npm run build
+      # TODO cutover: electron-builder release from apps/presenter/app (per-OS runners, code-signing secrets, GH release upload — mirror presenter's original release process)
+      - run: 'echo "DRY RUN: would run electron-builder release from apps/presenter/app/"'
+
+  gurmukhi:
+    if: startsWith(github.ref_name, 'gurmukhi-v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            packages/gurmukhi
+            package.json
+            mise.toml
+          filter: blob:none
+      - uses: jdx/mise-action@v4
+      # TODO cutover: cd packages/gurmukhi && mise run publish   (cargo publish, needs CARGO_REGISTRY_TOKEN)
+      - run: cd packages/gurmukhi && mise run publish:dry-run
+      # TODO cutover: cd packages/gurmukhi/bindings/javascript && npm publish --access public   (needs NPM_TOKEN)
+      - run: 'echo "DRY RUN: would run npm publish --access public from packages/gurmukhi/bindings/javascript/"'
+      # TODO cutover: python -m build --wheel bindings/python && twine upload   (needs PYPI_TOKEN, per-platform wheels via build-native matrix)
+      - run: 'echo "DRY RUN: would build + publish Python wheels from packages/gurmukhi/bindings/python/"'
+      # TODO cutover: cd packages/gurmukhi/bindings/ruby && gem push *.gem   (needs RUBYGEMS_API_KEY, per-platform gems via build-native matrix)
+      - run: 'echo "DRY RUN: would build + publish the Ruby gem from packages/gurmukhi/bindings/ruby/"'
+      # TODO cutover: cd packages/gurmukhi/bindings/kotlin && gradle publish   (needs MAVEN_USERNAME/MAVEN_PASSWORD)
+      - run: 'echo "DRY RUN: would run gradle publish from packages/gurmukhi/bindings/kotlin/"'
+
+  sant-lipi:
+    if: startsWith(github.ref_name, 'sant-lipi-v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            packages/sant-lipi
+          filter: blob:none
+      # TODO cutover: attach built font files (e.g. SantLipi-VF.ttf) as release assets via `gh release upload`
+      - run: 'echo "DRY RUN: would attach built font assets to the sant-lipi GitHub release"'

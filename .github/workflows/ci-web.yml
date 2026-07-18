@@ -1,0 +1,49 @@
+name: CI (web)
+
+on:
+  pull_request:
+    paths:
+      - 'apps/web/**'
+      - 'package.json'
+      - 'biome.json'
+      - 'mise.toml'
+      - '.github/workflows/ci-web.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'apps/web/**'
+      - 'package.json'
+      - 'biome.json'
+      - 'mise.toml'
+      - '.github/workflows/ci-web.yml'
+
+jobs:
+  web:
+    name: Lint, typecheck, build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            apps/web
+            package.json
+            biome.json
+            mise.toml
+          filter: blob:none
+
+      - uses: jdx/mise-action@v4
+
+      - name: Install dependencies
+        env:
+          SKIP_ARTIFACTS: '1'
+        run: cd apps/web && bun install
+
+      - name: Lint (eslint)
+        run: cd apps/web && bun run --if-present lint
+
+      # web has no "typecheck" script — build.types (tsc --incremental --noEmit) is its equivalent
+      - name: Typecheck (build.types)
+        run: cd apps/web && bun run --if-present build.types
+
+      - name: Build (qwik build)
+        run: cd apps/web && bun run --if-present build
