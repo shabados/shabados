@@ -1,0 +1,149 @@
+name: Increment Version
+
+on:
+  workflow_dispatch:
+    inputs:
+      next-version:
+        description: "override with custom version number"
+        required: false
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run bash script
+        shell: bash
+        run: |
+          # Gather new git history from after the last release
+          git log --format="%s" > log.txt
+          touch subjects.txt
+          touch types.txt
+          while IFS= read -r LINE; do
+            # Read line until colon symbol ( : )
+            SUBJECT_TYPE=$(echo $LINE | awk -F: '{print $1}')
+
+            # Stop iterating git log when reaching latest release
+            if [[ $SUBJECT_TYPE == 'release' ]]; then
+              break
+            fi
+
+            # Else continue saving subjects and commit types
+            echo "- $LINE" >> subjects.txt
+            echo $SUBJECT_TYPE >> types.txt
+          done < log.txt
+
+
+          # Save current release's version
+          VERSION=$(cat pyproject.toml | grep -m 1 "version" | grep -o '[0-9]\+\.[0-9]\+\.[0-9]\+')
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
+
+          # Decide if programmatically finding next version or if manually provided one by user
+          METHOD="manual"
+          NEXT="${{ github.event.inputs.next-version }}"
+
+          if [[ -z "$NEXT" ]]; then
+            METHOD="programmatic"
+
+            # Determine which version number to bump
+            BUMP_TYPE="nv" # Meaning non-versioning commit, or affecting something outside the API. Basically ignore the types: build, chore, ci, docs, perf, refactor, revert, style, test.
+            while IFS= read -r TYPE; do
+              if [[ "$TYPE" == "BREAK" ]]; then
+                BUMP_TYPE="major"
+                break
+              elif [[ "$BUMP_TYPE" != "minor" ]]; then
+                if [[ "$TYPE" == "feat" ]]; then
+                  BUMP_TYPE="minor"
+                elif [[ "$TYPE" == "fix" ]]; then
+                  BUMP_TYPE="patch"
+                fi
+              fi
+            done < types.txt
+
+
+            # Get version number for next release
+            if [ "$BUMP_TYPE" == "major" ]; then
+              # Backwards incompatible API changes
+              NEXT="$((MAJOR+1)).0.0"
+            elif [ "$BUMP_TYPE" == "minor" ]; then
+              # Backwards compatible API additions/changes
+              NEXT="$MAJOR.$((MINOR+1)).0"
+            elif [ "$BUMP_TYPE" == "patch" ]; then
+              echo "No patch versioning allowed in Sant Lipi. See CONTRIBUTING.md to learn more. Exiting workflow action."
+              exit 1
+            else
+              NEXT=$VERSION
+            fi
+          fi
+
+          if [[ "$VERSION" != "$NEXT" ]]; then
+            # Create body of Pull Request
+            cp subjects.txt body.txt
+            echo "### History" >> body.txt
+            echo "" >> body.txt
+            echo "Next: $NEXT ($METHOD)" >> body.txt
+            echo "Latest: $VERSION" >> body.txt
+            echo "### Release" >> body.txt
+
+            # tac reverses lines
+            tac subjects.txt > changelog.txt
+            BODY=$(tac body.txt)
+
+            # Clean up files
+            rm log.txt
+            rm subjects.txt
+            rm types.txt
+            rm body.txt
+
+            # Bump version in pyproject.toml, glyphs file, packages, and changelog.
+            sed -i "s/version = \"$VERSION\"/version = \"$NEXT\"/" pyproject.toml
+            sed -i "s/\"version\": \"$VERSION\"/\"version\": \"$NEXT\"/" packages/npm/sant-lipi/package.json
+            sed -i "s/version: $VERSION/version: $NEXT/" packages/pubdev/sant_lipi/pubspec.yaml
+            #
+            IFS='.' read -r NEXT_MAJOR NEXT_MINOR NEXT_PATCH <<< "$NEXT"
+            #
+            GLYPHS_MINOR_VERSION=$(printf "%03d" $MINOR)
+            GLYPHS_VERSION_STRING="$MAJOR.$GLYPHS_MINOR_VERSION"
+            #
+            GLYPHS_MINOR_NEXT=$(printf "%03d" $NEXT_MINOR)
+            GLYPHS_NEXT_STRING="$NEXT_MAJOR.$GLYPHS_MINOR_NEXT"
+            #
+            sed -i "s/value = \"Version $GLYPHS_VERSION_STRING/value = \"Version $GLYPHS_NEXT_STRING/" sources/SantLipi.glyphs
+            sed -i "s/versionMajor = $MAJOR/versionMajor = $NEXT_MAJOR/" sources/SantLipi.glyphs
+            sed -i "s/versionMinor = $MINOR/versionMinor = $NEXT_MINOR/" sources/SantLipi.glyphs
+            #
+            sed -i "1s/^/## $NEXT\n\n\n/" CHANGELOG.md
+            sed -i '2r changelog.txt' CHANGELOG.md
+            rm changelog.txt
+
+            # Set up git config for github-actions bot
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "github-actions[bot]"
+
+            # Set author to the user running workflow
+            AUTHOR="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+
+            # Checkout new branch
+            git checkout -B "release-$NEXT"
+
+            # Commit files
+            git add pyproject.toml
+            git add packages/npm/sant-lipi/package.json
+            git add packages/pubdev/sant_lipi/pubspec.yaml
+            git add sources/SantLipi.glyphs
+            git add CHANGELOG.md
+            git commit -m "release: increment version from $VERSION to $NEXT" --author="$AUTHOR"
+
+            # Push branch
+            git push --set-upstream origin "release-$NEXT" --atomic
+
+            # Open Pull Request
+            gh pr create --base "main" --title "release: increment version from $VERSION to $NEXT" --body "$BODY"
+          fi

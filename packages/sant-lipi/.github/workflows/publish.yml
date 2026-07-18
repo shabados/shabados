@@ -1,0 +1,45 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+*"
+
+env:
+  VERSION: ${{ github.ref_name }}
+
+jobs:
+  npm:
+    runs-on: ubuntu-latest
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_BOT_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.x"
+          registry-url: "https://registry.npmjs.org"
+      - run: wget -P packages/npm/sant-lipi/ "https://github.com/shabados/SantLipi/releases/download/$VERSION/SantLipi-VF.woff2"
+      - run: npm publish
+        working-directory: packages/npm/sant-lipi
+
+  pubdev:
+    permissions:
+      id-token: write # Required for authentication using OIDC
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Copy files
+        run: cp CHANGELOG.md packages/pubdev/sant_lipi/CHANGELOG.md
+      - run: mkdir packages/pubdev/sant_lipi/lib
+      - run: wget -P packages/pubdev/sant_lipi/lib/ "https://github.com/shabados/SantLipi/releases/download/$VERSION/SantLipi-VF.ttf"
+
+      - uses: dart-lang/setup-dart@v1
+      - name: Install dependencies
+        run: dart pub get
+        working-directory: packages/pubdev/sant_lipi
+
+      - name: Publish
+        run: dart pub publish --force
+        working-directory: packages/pubdev/sant_lipi

@@ -1,0 +1,54 @@
+<html notranslate>
+  <head>
+    <title>{{title}}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="qa/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <main>
+        <section>
+          <div></div>
+          <div class="title">{{title}}</div>
+          <div>Version {{version}}</div>
+        </section>
+      </main>
+    </nav>
+    <main>
+      <section>
+        <h1>Tables</h1>
+        <div class="list">
+          {{#side_by_side_items}}
+          <a href="qa/test/{{url}}.html"><div class="item">{{name}}</div></a>
+          {{/side_by_side_items}}
+        </div>
+      </section>
+      <section>
+        <h1>Cards</h1>
+        <div class="list">
+          {{#proof_sheet_items}}
+          <a href="qa/test/{{url}}.html"><div class="item">{{name}}</div></a>
+          {{/proof_sheet_items}}
+        </div>
+      </section>
+      <section>
+        <h1>Links</h1>
+        <div class="icons">
+          <a href="README.html">
+            <div class="item">README</div>
+          </a>
+          <a href="https://github.com/shabados/SantLipi">
+            <div class="item">GitHub</div>
+          </a>
+          <a href="https://github.com/shabados/SantLipi/issues/new/choose">
+            <div class="item">New Issue</div>
+          </a>
+          <a href="https://chat.shabados.com/">
+            <div class="item">Slack</div>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

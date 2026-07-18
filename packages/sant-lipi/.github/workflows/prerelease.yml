@@ -1,0 +1,58 @@
+name: Prerelease
+
+on: workflow_dispatch
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  release:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10.x"
+          cache: "pip"
+
+      - name: Install project
+        run: python -m pip install .
+
+      - name: Build font
+        run: build
+
+      - name: Setup environment variables
+        run: echo "VERSION=$(cat pyproject.toml | grep -m 1 "version" | grep -o '[0-9]\+\.[0-9]\+\.[0-9]\+')" >> $GITHUB_ENV
+      - run: echo "GLYPH_VERSION=$(cat sources/SantLipi.glyphs | grep 'value = "Version ' | grep -o '[0-9]\+\.[0-9]\+')" >> $GITHUB_ENV
+      - run: echo "NAME=SantLipi-v$GLYPH_VERSION" >> $GITHUB_ENV
+
+      # Publish on GitHub
+      - run: cp LICENSE build/LICENSE.txt
+      - run: mkdir dist
+      - run: cp -r build "$NAME"
+      - run: zip -r -1 "dist/$NAME.zip" "$NAME"
+      - run: cp build/variable/SantLipi-VF.ttf dist/
+      - run: cp build/variable/SantLipi-VF.woff2 dist/
+      - run: gh release create "v$VERSION-prerelease" dist/* --title "v$VERSION" --notes "See also [npm](https://www.npmjs.com/package/sant-lipi) and [pub.dev](https://pub.dev/packages/sant_lipi)."
+
+      # Create GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "build"
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

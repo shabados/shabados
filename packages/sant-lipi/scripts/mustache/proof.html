@@ -1,0 +1,37 @@
+<html notranslate>
+  <head>
+    <title>{{title}} - Sant Lipi Test Suite</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <main>
+        <section>
+          <div>
+            <a href="../../index.html" class="back-button">&#x2190; Back</a>
+          </div>
+          <div class="title">{{title}}</div>
+          <div>v{{version}}</div>
+        </section>
+        <section class="font-weight-slider">
+          <span>Font Weight</span>
+          <input type="range" min="100" max="900" id="fw" value="400" />
+          <span id="fw-value"></span>
+        </section>
+      </main>
+    </nav>
+    <main>
+      <section class="icons">
+        {{#items}}
+        <div class="item">
+          <p class="large font-santlipi">{{item}}</p>
+          <p>{{description}}</p>
+        </div>
+        {{/items}}
+      </section>
+    </main>
+  </body>
+  <script src="../script.js"></script>
+</html>

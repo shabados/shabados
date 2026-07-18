@@ -1,0 +1,63 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dirs.env]
+virtual = ".direnv"
+
+[project]
+name = "santlipi"
+version = "0.35.0"
+description = "A unicode font for extraordinary Gurmukhi"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "OFL-1.1-RFN"
+authors = [
+  { name="Bhajneet S.K.", email="bhajneet@gmail.com"},
+]
+dependencies = [
+    "chevron>=0.14.0",
+    "fontmake>=3.5.1",
+    "fonttools[woff]>=4.38.0",
+]
+
+[project.scripts]
+make = "scripts.make:main"
+var = "scripts.make:var"
+qa = "scripts.qa:main"
+build = "scripts.build:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["scripts"]
+
+[tool.hatch.envs.dev]
+detached = true
+dependencies = [
+  "black",
+  "isort",
+]
+[tool.hatch.envs.dev.scripts]
+fmt = [
+  "isort .",
+  "black scripts",
+]
+
+[tool.isort]
+known_first_party = "scripts"
+profile = "black"
+src_paths = ["scripts"]
+filter_files = true
+
+[tool.black]
+line-length = 88
+
+[tool.mypy]
+disallow_any_decorated = true
+disallow_any_explicit = true
+disallow_any_expr = true
+disallow_any_unimported = true
+no_implicit_reexport = true
+pretty = true
+show_error_codes = true
+strict = true
+warn_unreachable = true
