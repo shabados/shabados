@@ -14,10 +14,6 @@
       "release-type": "node",
       "component": "library"
     },
-    "packages/gurmukhi": {
-      "release-type": "rust",
-      "component": "gurmukhi"
-    },
     "packages/sant-lipi": {
       "release-type": "simple",
       "component": "sant-lipi"
@@ -26,5 +22,6 @@
       "release-type": "node",
       "component": "database"
     }
-  }
+  },
+  "$comment": "packages/gurmukhi excluded: release-please rust updater cannot read version.workspace=true (Cargo workspace inheritance). TODO: investigate the cargo-workspace plugin, then re-add."
 }
