@@ -44,10 +44,13 @@
     "predatabase:build": "bun run collections:generate-types",
     "database:build": "bun scripts/build-database.ts",
     "database:build-slices": "bun scripts/create-db-slices.ts",
-    "database:view": "drizzle-kit studio"
+    "database:view": "drizzle-kit studio",
+    "search:generate-db": "bun scripts/generate-search-database.ts",
+    "search:query": "bun scripts/query-search.ts"
   },
   "dependencies": {
-    "drizzle-orm": "1.0.0-beta.1-fd5d1e8"
+    "drizzle-orm": "1.0.0-beta.1-fd5d1e8",
+    "gurmukhi-utils": "^3.2.2"
   },
   "peerDependencies": {
     "@libsql/client": "^0.15.1"

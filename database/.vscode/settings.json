@@ -44,5 +44,8 @@
     "^collections/line-groups/.*\\.toml$": "file://collections/$schemas/line-groups.json",
     "^collections/lines/.*\\.toml$": "file://collections/$schemas/lines.json",
     "^collections/banis/.*\\.toml$": "file://collections/$schemas/banis.json"
+  },
+  "debug.javascript.defaultRuntimeExecutable": {
+    "pwa-node": "/home/harjot/.local/share/mise/shims/node"
   }
 }

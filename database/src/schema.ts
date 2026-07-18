@@ -87,3 +87,20 @@ export const baniLines = sqliteTable('bani_lines', {
   sectionOrder: integer(),
   lineOrder: integer(),
 })
+
+export const searchIndex = sqliteTable(
+  'search_index',
+  {
+    query: text().notNull(),
+    resultId: text().notNull(),
+    resultType: text().notNull(),
+    result: text().notNull(),
+    resultPreviewLineId: text().notNull(),
+    score: integer().default(1),
+  },
+  (t) => [
+    primaryKey(t.query, t.resultId),
+    index('result_type_score_index').on(t.resultType, t.score),
+    index('preview_line_index').on(t.resultPreviewLineId),
+  ],
+)

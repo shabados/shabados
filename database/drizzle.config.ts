@@ -7,6 +7,6 @@ export default defineConfig({
   casing: 'snake_case',
   schema: './src/schema.ts',
   dbCredentials: {
-    url: `file:${MASTER_DB}`,
+    url: `file:dist/search.sqlite`,
   },
 })
