@@ -1,0 +1,48 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਆਪੇ ਪਾਵਕੁ; ਆਪੇ ਪਵਨਾ ॥"
+page = 329
+line = 16
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "God Himself is the fire and Himself the wind."
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਹਰੀ ਖੁਦ ਅੱਗ ਹੈ, ਖੁਦ ਹੀ ਹਵਾ।"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "He Himself is the fire, and He Himself is the wind."
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "ਆਪ ਹੀ ਅਗਨੀ ਹੈ ਔਰ ਆਪ ਹੀ ਪਵਨ ਹੈ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਖਸਮ (ਪ੍ਰਭੂ) ਆਪ ਹੀ ਅੱਗ ਹੈ, ਆਪ ਹੀ ਹਵਾ ਹੈ।"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਆਪੇ = ਆਪ ਹੀ। ਪਾਵਕੁ = ਅੱਗ। ਪਵਨਾ = ਹਵਾ।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "El Señor Mismo es el fuego, Él Mismo es el aire,"

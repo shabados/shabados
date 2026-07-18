@@ -1,0 +1,48 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਸਾ ਮਤਿ ਨਿਰਮਲ; ਕਹੀਅਤ ਧੀਰ ॥"
+page = 198
+line = 7
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "That intellect is said to be pure and steadfast,"
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਉਹ ਅਕਲ ਪਵਿੱਤਰ ਤੇ ਧੀਰਜਵਾਨ ਆਖੀ ਜਾਂਦੀ ਹੈ,"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "Pure and steady is that intellect,"
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "ਹੇ ਭਾਈ! ਵਹੁ ਬੁਧੀ ਨਿਰਮਲ ਔਰ ਧੀਰਜਤਾ ਵਾਲੀ ਕਹੀਤੀ ਹੈ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਹੇ ਭਾਈ! ਉਹ ਅਕਲ ਪਵਿਤ੍ਰ ਆਖੀ ਜਾਂਦੀ ਹੈ ਧੀਰਜ ਵਾਲੀ ਆਖੀ ਜਾਂਦੀ ਹੈ,"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਸਾ = ਉਹ {ਇਹ ਲਫ਼ਜ਼ ਇਸਤ੍ਰੀ ਲਿੰਗ ਹੈ}। ਮਤਿ = ਅਕਲ। ਕਹੀਅਤ = ਆਖੀ ਜਾਂਦੀ ਹੈ। ਧੀਰ = ਧੀਰਜ ਵਾਲੀ।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "Puro y refrescante es el intelecto"

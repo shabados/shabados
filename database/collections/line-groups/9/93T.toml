@@ -1,0 +1,5 @@
+author = "RAMD"
+lines = [ "HF7G", "LGPK", "N2NS", "CEEQ", "FXY8", "6DU7", "ZN8D", "7YE8", "SW7V", "AMGE", "2HVF" ]
+
+[externalReferences]
+sttm2 = 3640

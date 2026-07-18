@@ -1,0 +1,5 @@
+author = "NMDV"
+lines = [ "GXUA", "FPGA", "EMH8", "WGED", "V9CP", "GDTD", "78ZW", "XLQJ" ]
+
+[externalReferences]
+sttm2 = 4147

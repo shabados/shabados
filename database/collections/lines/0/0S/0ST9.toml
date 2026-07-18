@@ -1,0 +1,48 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਜਿਸਹਿ ਦੇਖਿ; ਹਉ ਜੀਵਾ ਮਾਇ ॥"
+page = 1181
+line = 7
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "seeing whom live I, my mother!"
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਜਿਸ ਨੂੰ ਵੇਖ ਕੇ ਮੈਂ ਜਿਉਂਦਾ ਹਾਂ, ਹੇ ਮੇਰੀ ਮਾਤਾ!"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "Gazing upon Him, I live, O my mother."
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "ਹੇ (ਮਾਇ) ਮਾਯਾ ਪਤੀ ਪਰਮੇਸ੍ਵਰ ਰੂਪ! ਕੋ ਦੇਖ ਕਰ ਮੈਂ ਜੀਵਤਾ ਹੂੰ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਹੇ ਮਾਂ! ਜਿਸ ਨੂੰ ਵੇਖ ਕੇ ਮੈਂ ਆਤਮਕ ਜੀਵਨ ਪ੍ਰਾਪਤ ਕਰ ਸਕਾਂ,"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਦੇਖਿ = ਵੇਖ ਕੇ। ਹਉ = ਮੈਂ। ਜੀਵਾ = ਜੀਵਾਂ, ਮੈਂ ਆਤਮਕ ਜੀਵਨ ਹਾਸਲ ਕਰਦਾ ਹਾਂ। ਮਾਇ = ਹੇ ਮਾਂ!"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "y teniendo Su Visión la vida misma brota en mi ser."

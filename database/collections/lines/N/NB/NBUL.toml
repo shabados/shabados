@@ -1,0 +1,48 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਖਟੁ ਕਰਮ ਜੁਗਤਿ; ਧਿਆਨੁ ਧਰਉ ॥"
+page = 1119
+line = 9
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "I perform six religious rites and contemplate in the right way."
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਮੈਂ ਛੇ ਕਰਮ ਕਾਂਡ ਕਰਦਾ ਅਤੇ ਠੀਕ ਤਰੀਕੇ ਨਾਲ ਸੋਚਦਾ ਵੀਚਾਰਦਾ ਹਾਂ।"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "I perform the six rituals, and meditate in the right way."
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "ਖਟ ਕਰਮੋ ਕੇ ਸੰਜੁਗਤ ਹੋ ਕਰ ਦੇਵਤਿਓਂ ਕਾ ਧ੍ਯਾਨ ਕਰਤਾ ਹੂੰ। ਜਪ, ਹੋਮ, ਸੰਧ੍ਯਾ, ਦੇਵ ਅਰਚਾ, ਇਸਨਾਨ, ਅਤਿਥ ਪੂਜਾ, ਏਹ ਖਟ ਕਰਮ ਹੈਂ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਮੈਂ ਛੇ (ਰੋਜ਼ਾਨਾ) ਕਰਮਾਂ ਦੀ ਮਰਯਾਦਾ ਨਿਬਾਹੁੰਦਾ ਹਾਂ, ਮੈਂ ਸਮਾਧੀਆਂ ਲਾਂਦਾ ਹਾਂ।"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਖਟੁ ਕਰਮ = ਬ੍ਰਾਹਮਣਾਂ ਵਾਸਤੇ ਜ਼ਰੂਰੀ ਮਿਥੇ ਹੋਏ ਛੇ ਕਰਮ = {अध्यापनमघ्ययनं, यजनं याजन तथा। दानां प्रतिग्रहश्चैव, षट् कर्माण्यग्रजन्मन M.S. ੧੦. ੭੫}। ਜੁਗਤਿ = ਮਰਯਾਦਾ। ਧਿਆਨੁ ਧਰਉ = ਮੈਂ ਸਮਾਧੀ ਲਾਂਦਾ ਹਾਂ।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "realizo los seis tipos de trabajos como un Yogui y vivo rectamente, pero nada me ayuda,"

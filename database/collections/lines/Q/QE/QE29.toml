@@ -1,0 +1,18 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਕਿ ਮੈਂ ਤੇਰੇ ਵਿਚ (ਵਸਦਾ) ਹਾਂ, ਅਤੇ ਤੇਰੇ ਬਿਨਾਂ ਹੋਰ ਕੋਈ ਦੂਜਾ ਨਹੀਂ (ਦਿਸਦਾ),"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਕਿ ਮਨਮ ਦਰ ਤੂ ਗ਼ੈਰ ਤੂ ਕਸ ਨੀਸਤ ।"
+page = 1
+line = 25
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "\"That I, the Akaalpurkh, abide in you and I do not recognize anyone other than you,"

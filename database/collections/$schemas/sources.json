@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["name", "translation", "sections"],
+  "properties": {
+    "name": {
+      "$ref": "common.json#/$defs/ScriptField",
+      "description": "The name of the source in different scripts"
+    },
+    "translation": {
+      "$ref": "common.json#/$defs/LanguageField",
+      "description": "The translation of the source name in different languages"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "$ref": "common.json#/$defs/Identifier",
+        "description": "The section IDs that are part of the source"
+      }
+    }
+  },
+  "additionalProperties": false
+}

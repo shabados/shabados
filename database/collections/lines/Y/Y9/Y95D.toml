@@ -1,0 +1,16 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਉਸਨੇ ਜਹਾਨ ਨੂੰ ਦੇਵਾਂ ਅਤੇ ਦੈਂਤਾਂ ਤੋਂ ਪਾਕ ਕਰ ਦਿੱਤਾ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਜ਼ਿ ਦੈਤੋ ਜ਼ਿ ਦਾਨਬ ਜਹਾਂ ਕਰਦ ਪਾਕ ।"
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "He spared the world from the evils of monsters and demons and made it sacred,"

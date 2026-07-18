@@ -1,0 +1,18 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਪੁਜਾਰੀ ਅਤੇ ਪੂਜਨੀਕ ਹਨ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਸਾਜਿਦੋ ਮਸਜੂਦ ਗੁਰ ਗੋਬਿੰਦ ਸਿੰਘ ।"
+page = 10
+line = 137
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "Guru Gobind Singh is both the worshiper and the worshiped,"

@@ -1,0 +1,5 @@
+author = "ARJN"
+lines = [ "2FTP", "WX16", "ZA6A" ]
+
+[externalReferences]
+sttm2 = 3920

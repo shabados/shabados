@@ -1,0 +1,16 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਰਿੰਦ ਅਤੇ ਪਾਰਸਾ ਦੋਵੇਂ ਹੀ ਚਾਹਵਾਨ ਹਨ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਹਰ ਦੋ ਮੁਸ਼ਤਾਕ ਅੰਦ ਰਿੰਦੋ ਪਾਰਸਾ ।"
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "And, his servants are smart and clever. (142)"

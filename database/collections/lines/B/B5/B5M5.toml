@@ -1,0 +1,48 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਬਦਹੁ. ਕੀ ਨ, ਹੋਡ ਮਾਧਉ; ਮੋ ਸਿਉ ॥"
+page = 1252
+line = 14
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "Why lay thou not a wager with me, O Lord of wealth?"
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਹੇ ਧਨ-ਦੋਲਤ ਦੇ ਸੁਆਮੀ! ਤੂੰ ਮੇਰੇ ਨਾਲ ਸ਼ਰਤ ਕਿਉਂ ਨਹੀਂ ਲਾਉਂਦਾ?"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "Why not make a bet with me, O Lord of Wealth?"
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "ਹੇ ਮਾਧੋ! ਮੇਰੇ ਸਾਥ (ਹੋਡ) ਸਰਤ ਕਿਉਂ ਨਹੀਂ (ਬਦਹੁ) ਲਗਾਇ ਲੇਤੇ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਹੇ ਮਾਧੋ! ਮੇਰੇ ਨਾਲ ਵਿਚਾਰ ਕਰ ਕੇ ਵੇਖ ਲੈ (ਇਹ ਗੱਲ ਸੱਚੀ ਹੈ ਕਿ)"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਕੀ ਨ = ਕਿਉਂ ਨਹੀਂ? ਬਦਹੁ = ਲਾਂਦੇ, ਮਿਥਦੇ। ਹੋਡ = ਸ਼ਰਤ। ਮੋ ਸਿਉ = ਮੇਰੇ ਨਾਲ। ਬਦਹੁ...ਸਿਉ = ਹੇ ਮਾਧੋ! ਮੇਰੇ ਨਾਲ ਸ਼ਰਤ ਕਿਉਂ ਨਹੀਂ ਲਾਂਦੇ? ਹੇ ਮਾਧੋ! ਮੇਰੇ ਨਾਲ ਸ਼ਰਤ ਲਾ ਕੇ ਵੇਖ ਲੈ; ਹੇ ਮਾਧੋ! ਮੇਰੇ ਨਾਲ ਬਹਿਸ ਕਰ ਕੇ ਵੇਖ ਲੈ, ਜੋ ਮੈਂ ਆਖਦਾ ਹਾਂ ਠੀਕ ਹੈ।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "Oh Dios, me hago una apuesta, que Tú, el Maestro, eres conocido por mí, Tu Sirviente,"

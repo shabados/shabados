@@ -1,0 +1,48 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਚਾਕਰੁ ਲਗੈ ਚਾਕਰੀ; ਨਾਲੇ ਗਾਰਬੁ ਵਾਦੁ ॥"
+page = 474
+line = 9
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "If a servant performs service and is also vain, disputations and talks,"
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਜੇਕਰ ਇਕ ਟਹਿਲੂਆ ਟਹਿਲ ਕਮਾਉਂਦਾ ਹੈ ਅਤੇ ਨਾਲ ਹੀ ਹੰਕਾਰੀ ਅਤੇ ਝਗੜਾਲੂ ਹੈ,"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "If a servant performs service, while being vain and argumentative,"
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "ਜੋ ਚਾਕੁਰ ਹੋ ਕਰ (ਚਾਕਰੀ) ਸੇਵਾ ਮੇਂ ਲਾਗੈ ਔਰ (ਨਾਲੇ) ਸਾਥ ਹੀ ਹੰਕਾਰ ਕਰ ਕੇ (ਵਾਦੁ) ਝਗੜਾ ਕਰੇ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਜੋ ਕੋਈ ਨੌਕਰ ਆਪਣੇ ਮਾਲਕ ਦੀ ਨੌਕਰੀ ਭੀ ਕਰੇ, ਤੇ ਨਾਲ ਨਾਲ ਆਪਣੇ ਮਾਲਕ ਅੱਗੇ ਆਕੜ ਦੀਆਂ ਗੱਲਾਂ ਭੀ ਕਰੀ ਜਾਏ,"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਨਾਲੇ = ਚਾਕਰੀ ਦੇ ਨਾਲ, ਭਾਵ, ਚਾਕਰੀ ਭੀ ਕਰੇ ਤੇ ਨਾਲੇ। ਗਾਰਬੁ = (ਸ਼ਬਦ 'ਗਰਬੁ' ਤੋਂ ਵਿਸ਼ੇਸ਼ਣ ਹੈ) ਗਰਬ ਵਾਲਾ, ਅਹੰਕਾਰ ਵਾਲਾ, ਅਹੰਕਾਰ-ਭਰਿਆ। ਵਾਦੁ = ਝਗੜਾ।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "Si el sirviente sirve al maestro, pero es vanidoso y le disputa todo,"

@@ -1,0 +1,18 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਦਰਵੇਸ਼ ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਬਾਦਸ਼ਾਹ ਹੈ ।"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਬਾਦਸ਼ਾਹ ਦਰਵੇਸ਼ ਗੁਰ ਗੋਬਿੰਦ ਸਿੰਘ ।੧੨੫।"
+page = 10
+line = 125
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "And, Guru Gobind Singh is the mendicant and king as well. (125)"

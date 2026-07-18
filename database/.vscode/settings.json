@@ -1,0 +1,48 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "explicit",
+    "source.fixAll.biome": "explicit"
+  },
+  "[dbml]": {
+    "editor.defaultFormatter": "aflalo.dbml-formatter"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "dbmlERDPreviewer.preferredTheme": "dark",
+  "yaml.schemas": {
+    "collections/-schemas/assets.json": "collections/test.yml"
+  },
+  "evenBetterToml.schema.associations": {
+    "^collections/assets/.*\\.toml$": "file://collections/$schemas/assets.json",
+    "^collections/sections/.*\\.toml$": "file://collections/$schemas/sections.json",
+    "^collections/authors/.*\\.toml$": "file://collections/$schemas/authors.json",
+    "^collections/sources/.*\\.toml$": "file://collections/$schemas/sources.json",
+    "^collections/line-groups/.*\\.toml$": "file://collections/$schemas/line-groups.json",
+    "^collections/lines/.*\\.toml$": "file://collections/$schemas/lines.json",
+    "^collections/banis/.*\\.toml$": "file://collections/$schemas/banis.json"
+  }
+}

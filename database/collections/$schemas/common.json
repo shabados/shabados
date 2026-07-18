@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "Identifier": {
+      "description": "Identifier field represented by a string",
+      "type": "string",
+      "pattern": "^[A-Z0-9]{3,4}$"
+    },
+    "ScriptCode": {
+      "description": "Script code represented by ISO 15924 script code key-values",
+      "type": "string",
+      "enum": ["Latn", "Guru", "Aran"]
+    },
+    "ScriptField": {
+      "description": "Script field represented by ISO 15924 script code key-values",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Latn": { "type": "string" },
+        "Guru": { "type": "string" },
+        "Aran": { "type": "string" }
+      }
+    },
+    "LanguageCode": {
+      "description": "Language code represented by ISO 639 language code key-values",
+      "type": "string",
+      "enum": ["en", "pa", "ar", "es", "fr", "de", "it", "ru"]
+    },
+    "LanguageField": {
+      "description": "Language field represented by ISO 639 language code key-values",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "en": { "type": "string" },
+        "pa": { "type": "string" },
+        "ar": { "type": "string" },
+        "es": { "type": "string" },
+        "fr": { "type": "string" },
+        "de": { "type": "string" },
+        "it": { "type": "string" },
+        "ru": { "type": "string" }
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "Identifier": { "$ref": "#/$defs/Identifier" },
+    "ScriptCode": { "$ref": "#/$defs/ScriptCode" },
+    "ScriptField": { "$ref": "#/$defs/ScriptField" },
+    "LanguageCode": { "$ref": "#/$defs/LanguageCode" },
+    "LanguageField": { "$ref": "#/$defs/LanguageField" }
+  }
+}

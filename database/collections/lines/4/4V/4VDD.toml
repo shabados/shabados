@@ -1,0 +1,48 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਬਿਸਨ ਕੀ ਮਾਇਆ ਤੇ; ਹੋਇ ਭਿੰਨ ॥"
+page = 274
+line = 7
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "Who abides apart from God's mammon,"
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਜੋ ਵਾਹਿਗੁਰੂ ਦੀ ਮੋਹਨੀ ਤੋਂ ਅਲਗ ਰਹਿੰਦਾ ਹੈ,"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "He dwells apart from Maya."
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "ਕਿਉਂਕਿ ਸੋ ਪੁਰਸ ਵਿਸਨੁ ਕੀ ਮਾਇਆ ਤੇ ਭਿੰਨ ਹੋਤਾ ਹੈ, ਭਾਵ ਤਿਸ ਪਰ ਮਾਇਆ ਕਾ ਬਲ ਨਹੀਂ ਚਲਤਾ ਹੈ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਜੋ ਮਨੁੱਖ ਪ੍ਰਭੂ ਦੀ ਮਾਇਆ ਦੇ ਅਸਰ ਤੋਂ ਬੇ-ਦਾਗ਼ ਹੈ।"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਬਿਸਨ = {Skt. विष्णु The second deity of the Sacred Hindu Triad, entrusted with the preservation of the world, which duty he is represented to have duly discharged by his various incarnations; The word is thus popularly derived: यस्माद्विश्वमिदं सर्वं तस्य शक्त्यः महात्मना  ॥ तस्मादेवोच्यते विष्णुर्विशधातोः प्रवेशनात् ॥ ਜਗਤ = ਪਾਲਕ।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "y que ve a su Señor a través de los velos del mundo de Vishnú."

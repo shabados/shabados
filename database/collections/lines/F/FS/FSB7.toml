@@ -1,0 +1,48 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਚਜ ਅਚਾਰ; ਕਿਛੁ ਬਿਧਿ ਨਹੀ ਜਾਨੀ ॥"
+page = 372
+line = 8
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "I know not the way of wisdom and good conduct."
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਮੈਂ ਸਿਆਣਪ ਤੇ ਸ਼ੁੱਭ ਚੱਲਣ ਦਾ ਮਾਰਗ ਨਹੀਂ ਜਾਣਦੀ।"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "I do not know the ways of wisdom and good conduct."
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "(ਚਜ ਆਚਾਰ) ਸੁਭ ਆਚਰਣੋਂ ਕੀ ਮੈਨੇ ਕੋਈ ਬਿਧਿ ਨਹੀਂ ਜਾਨੀ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਮੈਂ ਕੋਈ ਸੁਚੱਜ ਨਹੀਂ ਸਾਂ ਸਿੱਖੀ ਹੋਈ, ਮੈਂ ਉੱਚੇ ਆਚਰਨ ਦਾ ਕੋਈ ਢੰਗ ਨਹੀਂ ਸਾਂ ਜਾਣਦੀ।"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਚਜ = ਸੁਚੱਜ। ਅਚਾਰ = ਆਚਾਰ, ਚੰਗਾ ਆਚਰਨ। ਬਿਧਿ = ਢੰਗ, ਤਰੀਕਾ, ਜਾਚ। ਜਾਨੀ = ਜਾਣੀ, ਸਿੱਖੀ।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "mi cultura, mi conducta,"

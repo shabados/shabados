@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["name", "description", "lineGroups"],
+  "properties": {
+    "name": {
+      "$ref": "common.json#/$defs/ScriptField",
+      "description": "The name of the section in different scripts"
+    },
+    "description": {
+      "$ref": "common.json#/$defs/LanguageField",
+      "description": "The description of the section in different languages"
+    },
+    "lineGroups": {
+      "type": "array",
+      "items": {
+        "$ref": "common.json#/$defs/Identifier",
+        "description": "The line group IDs that are part of the section"
+      }
+    }
+  },
+  "additionalProperties": false
+}

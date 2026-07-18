@@ -1,0 +1,18 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਉਹ ਮਨੁਖ ਜਿਹੜੇ ਉਸ ਨੂੰ ਯਾਦ ਨਹੀਂ ਕਰਦੇ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਆਂ ਕਸਾਨੇ ਕਿ ਜ਼ੋ ਨ ਯਾਦ ਆਰੰਦ ।"
+page = 1
+line = 7
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "Those persons who do not contemplate Him,"

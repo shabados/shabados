@@ -1,0 +1,42 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਰਾਗੁ ਬਿਲਾਵਲੁ ਮਹਲਾ ੫ ਚਉਪਦੇ ਘਰੁ ੧ ॥"
+page = 801
+line = 6
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "Rag Bilawal 5th Guru Chaupadas."
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਰਾਗੁ ਬਿਲਾਵਲ ਪੰਜਵੀਂ ਪਾਤਿਸ਼ਾਹੀ ਚਉਪਦੇ।"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "Raag Bilaaval, Fifth Mehl, Chau-Padhay, First House:"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਰਾਗ ਬਿਲਾਵਲੁ, ਘਰ ੧ ਵਿੱਚ ਗੁਰੂ ਅਰਜਨਦੇਵ ਜੀ ਦੀ ਚਾਰ-ਬੰਦਾਂ ਵਾਲੀ ਬਾਣੀ।"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਚਉਪਦੇ = ਚਾਰ ਬੰਦਾਂ ਵਾਲੇ ਸ਼ਬਦ। ਪਰ ਇਹ ਪਹਿਲਾ ਸ਼ਬਦ 'ਪੰਚਪਦਾ' ਹੈ। ਇਸ ਤੋਂ ਅਗਾਂਹ ੧੭ ਸ਼ਬਦ ਚਉਪਦੇ ਹਨ।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "Rag Bilawal, Mejl Guru Aryan, Quinto Canal Divino, Chau-Padas."

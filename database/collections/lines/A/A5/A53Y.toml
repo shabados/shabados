@@ -1,0 +1,48 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਕਹਤ ਕਬੀਰ; ਸੁਨਹੁ ਰੇ ਲੋਈ ॥"
+page = 481
+line = 10
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "Says Kabir, \"Listen, O ye people\","
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਕਬੀਰ ਜੀ ਆਖਦੇ ਹਨ, ਤੁਸੀਂ ਸ੍ਰਵਣ ਕਰੋ, ਹੇ ਲੋਕੋ!"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "Says Kabeer, listen, people:"
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "ਸ੍ਰੀ ਕਬੀਰ ਜੀ ਕਹਤੇ ਹੈਂ: ਹੇ ਲੋਈ! ਤੁਮ ਸੁਨਹੁ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਕਬੀਰ ਆਖਦਾ ਹੈ-ਸੁਣੋ, ਹੇ ਜਗਤ ਦੇ ਲੋਕੋ!"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਰੇ ਲੋਈ = ਹੇ ਲੋਕ! ਹੇ ਜਗਤ! {ਨੋਟ: ਲਫ਼ਜ਼ 'ਰੇ' ਪੁਲਿੰਗ ਹੈ, ਇਸ ਵਾਸਤੇ ਲਫ਼ਜ਼ 'ਲੋਈ' ਭੀ ਪੁਲਿੰਗ ਹੀ ਹੈ। ਵੇਖੋ ਇਸੇ ਹੀ ਰਾਗ ਵਿਚ ਕਬੀਰ ਜੀ ਦਾ ਸ਼ਬਦ ਨੰ: ੩੫}।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "Dice Kabir, escucha, oh gente,"

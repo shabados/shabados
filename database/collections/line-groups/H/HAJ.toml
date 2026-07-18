@@ -1,0 +1,5 @@
+author = "ARJN"
+lines = [ "LPPT", "10GD", "RG4R" ]
+
+[externalReferences]
+sttm2 = 1250

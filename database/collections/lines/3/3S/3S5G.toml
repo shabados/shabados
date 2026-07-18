@@ -1,0 +1,18 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਉਨ੍ਹਾਂ ਦੇ ਰਾਹ ਨੂੰ ਮੇਰੀ ਵਲ ਮੋੜ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਰਾਹਿ ਸ਼ਾਂ ਰਾ ਨੁਮਾ ਬ-ਸੂਇ ਮਨ ।"
+page = 1
+line = 38
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "Please divert their path in my direction,"

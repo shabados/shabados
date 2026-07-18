@@ -1,0 +1,18 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਸਦੀਵੀ ਤੇ ਸਥਿਰ ਰਹਿਨ ਵਾਲਾ ਹੈ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਦਾਇਮੋ-ਪਾਇੰਦਾ ਗੁਰ ਗੋਬਿੰਦ ਸਿੰਘ ।"
+page = 10
+line = 129
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "Guru Gobind Singh is stable and going to live forever,"

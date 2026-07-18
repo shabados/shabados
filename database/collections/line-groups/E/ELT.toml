@@ -1,0 +1,5 @@
+author = "ANGD"
+lines = [ "BS7G", "XX2Z", "SEBU", "SS3G" ]
+
+[externalReferences]
+sttm2 = 1766

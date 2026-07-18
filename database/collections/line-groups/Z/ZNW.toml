@@ -1,0 +1,5 @@
+author = "AMAR"
+lines = [ "ACDM", "J1P9", "H598" ]
+
+[externalReferences]
+sttm2 = 4616

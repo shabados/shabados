@@ -1,0 +1,48 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਸਰਪਰ ਹੋਵਤ; ਜਾਨੁ ਅਨੇਤ ॥"
+page = 268
+line = 12
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "are temporary and that they shall, assuredly, pass away."
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਆਰਜੀ ਹਨ ਅਤੇ ਇਹ ਨਿਸਚਿਤ ਹੀ ਨਾਸ ਹੋ ਜਾਣਗੀਆਂ।"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "- know that they are transitory."
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "ਸੋ (ਸਰਪਰ) ਨਿਸਚੇ ਕਰ ਅਨਿਤ ਅਰਥਾਤ ਨਾਸ ਹੋਣ ਵਾਲੀ ਹੀ ਜਾਣੋ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "(ਪਰ ਇਹ ਸਾਰੇ) ਅੰਤ ਨੂੰ ਨਾਸ ਹੋ ਜਾਣ ਵਾਲੇ ਸਮਝੋ।"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਸਰਪਰ = ਅੰਤ ਨੂੰ, ਜ਼ਰੂਰ। ਜਾਨੁ = ਸਮਝ। ਅਨੇਤ = ਨਾਹ ਨਿੱਤ ਰਹਿਣ ਵਾਲੇ, ਨਾਸਵੰਤ।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "de ahí que sea perecedero."

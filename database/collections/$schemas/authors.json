@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Author",
+  "description": "The author of a line group within a source.\nE.g. Guru Nanak Dev Ji, etc.",
+  "type": "object",
+  "required": ["name"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "$ref": "common.json#/$defs/ScriptField"
+    },
+    "otherNames": {
+      "type": "array",
+      "items": {
+        "$ref": "common.json#/$defs/ScriptField"
+      }
+    }
+  }
+}

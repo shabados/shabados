@@ -1,0 +1,5 @@
+author = "ARJN"
+lines = [ "SMKF", "WEHD", "GLP3", "3GWN", "TC58", "SAM3", "LLVP" ]
+
+[externalReferences]
+sttm2 = 3092

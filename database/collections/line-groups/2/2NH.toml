@@ -1,0 +1,5 @@
+author = "NANK"
+lines = [ "RF40", "JXAN", "BWPJ", "ZHZF" ]
+
+[externalReferences]
+sttm2 = 429

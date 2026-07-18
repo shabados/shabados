@@ -1,0 +1,23 @@
+[[content]]
+asset = "DGDG"
+type = "primary"
+data = "ਅਭੀਤ ਹੈਂ ॥੩੧॥"
+page = 3
+line = 4
+
+[[content]]
+asset = "DSKO"
+type = "translation"
+language = "en"
+data = "Thou art Fearless Lord! 31"
+
+[[content]]
+asset = "RSJD"
+type = "translation"
+language = "pa"
+data = "ਅਭੈ ਹੈਂ ॥੩੧॥"
+
+[[content]]
+asset = "DDTK"
+type = "primary"
+data = "ਅਭੀਤ ਹੈਂ ॥੩੧॥"

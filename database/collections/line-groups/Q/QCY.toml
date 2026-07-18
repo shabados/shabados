@@ -1,0 +1,5 @@
+author = "NANK"
+lines = [ "HCG6", "GT9E", "3N34", "67E3", "LCC2" ]
+
+[externalReferences]
+sttm2 = 379

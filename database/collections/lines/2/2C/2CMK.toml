@@ -1,0 +1,16 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਹਜ਼ਾਰਾਂ ਆਸਮਾਨ ਅਤੇ ਹਜ਼ਾਰਾਂ ਆਕਾਸ਼,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਹਜ਼ਾਰਾਂ ਸਪਹਿਰੋ ਹਜ਼ਾਰਾਂ ਸੁਮਾ ।"
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "Thousands of skies and thousands of cosmos"

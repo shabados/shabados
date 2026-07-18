@@ -1,0 +1,5 @@
+author = "RAMD"
+lines = [ "AXBC", "BM10", "E919", "KGQE", "YWCL", "MA18" ]
+
+[externalReferences]
+sttm2 = 4497

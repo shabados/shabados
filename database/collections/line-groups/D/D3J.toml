@@ -1,0 +1,5 @@
+author = "ARJN"
+lines = [ "Z90H", "JCPW", "MH4E", "1MM6", "E053", "1CMB", "U2KD" ]
+
+[externalReferences]
+sttm2 = 2681

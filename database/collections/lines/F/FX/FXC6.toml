@@ -1,0 +1,23 @@
+[[content]]
+asset = "DGDG"
+type = "primary"
+data = "ਅਲੋਕ ਹੈਂ ॥"
+page = 3
+line = 9
+
+[[content]]
+asset = "DSKO"
+type = "translation"
+language = "en"
+data = "Thou art All-Pervasive Lord!"
+
+[[content]]
+asset = "RSJD"
+type = "translation"
+language = "pa"
+data = "(ਤੂੰ) ਅਦ੍ਰਿਸ਼ ਹੈਂ,"
+
+[[content]]
+asset = "DDTK"
+type = "primary"
+data = "ਅਲੋਕ ਹੈਂ ॥"

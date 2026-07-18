@@ -1,0 +1,5 @@
+author = "TGBD"
+lines = [ "GEH1", "EVZX", "HM9B", "HSS7", "PLQ9", "232L", "AJCV", "BZ1A", "XYVQ" ]
+
+[externalReferences]
+sttm2 = 2400

@@ -1,0 +1,16 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਕੀ ਤਾਰੇ ਕੀ ਆਸਮਾਨ, ਸਾਰੇ ਹੀ ਉਸਦੀ ਪਰਜਾ ਹਨ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਚਿਹ ਅੰਜਮ ਚਿਹ ਅਫ਼ਲਾਕ ਮਹਿਕੂਮਿ ਊ ।"
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "Whether (we talk about) the stars or the skies, all are his subjects,"

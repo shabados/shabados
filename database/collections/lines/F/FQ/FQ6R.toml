@@ -1,0 +1,16 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਹੇ ਮੇਰੇ ਅਜ਼ੀਜ਼, ਮੇਰੀ ਗਲ ਸੁਣ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਐ ਅਜ਼ੀਜ਼ਿ ਮਨ ਸ਼ਿਨੌ ਅਜ਼ ਮਨ ਸਖ਼ੁਨ ।"
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "O my dear ! Please listen to what I have to say,"

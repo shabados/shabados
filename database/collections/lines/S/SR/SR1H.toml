@@ -1,0 +1,48 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਤੂੰ ਪਿੰਜਰੁ; ਹਉ ਸੂਅਟਾ ਤੋਰ ॥"
+page = 323
+line = 18
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "Thou art the cage and I am Thine parrot."
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਤੂੰ ਪਿੰਜਰਾ ਹੈ ਅਤੇ ਮੈਂ ਤੇਰਾ ਤੌਤਾ।"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "You are the cage, and I am Your parrot."
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "ਤੂੰ  ਮੇਰਾ (ਪਿੰਜਰੁ) ਆਸਰਾ ਹੈਂ, ਜਬ ਮੈਂ ਤੇਰੇ ਆਸਰੇ ਰਹਣੇ ਵਾਲਾ ਤੋਤਾ ਪੰਛੀ ਹੂਆ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਤੂੰ ਮੇਰਾ ਪਿੰਜਰਾ ਹੈਂ, ਮੈਂ ਤੇਰਾ ਕਮਜ਼ੋਰ ਜਿਹਾ ਤੋਤਾ ਹਾਂ।"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਪਿੰਜਰੁ = ਪਿੰਜਰਾ। ਹਉ = ਮੈਂ। ਸੂਅਟਾ = ਕਮਜ਼ੋਰ ਜਿਹਾ ਤੋਤਾ {ਸੂਅ = ਸ਼ੁਕ, ਤੋਤਾ। ਪਿਛੇਤਰ = 'ਟਾ' ਛੋਟਾ-ਪਣ ਜ਼ਾਹਰ ਕਰਨ ਵਾਸਤੇ ਹੈ, ਜਿਵੇਂ 'ਚਮਰੇਟਾ' ਦਾ ਭਾਵ ਹੈ ਗ਼ਰੀਬ ਚਮਾਰ}। ਤੋਰ = ਤੇਰਾ।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "Tú eres mi Jaula; yo soy Tu loro viviendo ahí;"

@@ -1,0 +1,16 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਉਹੀ ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਹੈ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਹਮੂ ਹਸਤ ਤੇਗਿ ਬਹਾਦਰ ਗੁਰੂ ।"
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "Guru Teg Bahaadar is the same also,"

@@ -1,0 +1,54 @@
+[[content]]
+asset = "SSA2"
+type = "primary"
+data = "ਅਸੰਖ ਕੂੜਿਆਰ; ਕੂੜੇ ਫਿਰਾਹਿ ॥"
+page = 4
+line = 4
+
+[[content]]
+asset = "JSTS"
+type = "note"
+language = "pa"
+data = "ਉਚਾਰਨ ਨਾਸਕੀ ਕਿਉਂਕਿ ਇਸ ਕਿਰਿਆ ਦਾ ਕਰਤਾ ਅਨ- ਪੁਰਖ. ਭਹੁਵਚਨ ਨਾਂਵ ਹੈ।"
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "en"
+data = "Numberless are the liars who wander in falsehood."
+
+[[content]]
+asset = "SBMS"
+type = "translation"
+language = "pa"
+data = "ਅਣਗਿਣਤ ਝੂਠੇ ਹਨ ਜਿਹੜੇ ਝੂਠ ਅੰਦਰ ਭਟਕਦੇ ਹਨ।"
+
+[[content]]
+asset = "DSSK"
+type = "translation"
+language = "en"
+data = "Countless liars, wandering lost in their lies."
+
+[[content]]
+asset = "NKFT"
+type = "translation"
+language = "pa"
+data = "ਅਗਿਣਤ ਹੀ ਝੂਠੇ ਪੁਰਸ਼ ਹੈਂ, ਜੋ ਝੂਠ ਬੋਲਤੇ ਫਿਰਤੇ ਹੈਂ॥"
+
+[[content]]
+asset = "PSST"
+type = "translation"
+language = "pa"
+data = "ਅਨੇਕਾਂ ਹੀ ਝੂਠ ਬੋਲਣ ਦੇ ਸੁਭਾਉ ਵਾਲੇ ਮਨੁੱਖ ਝੂਠ ਵਿਚ ਹੀ ਰੁੱਝੇ ਪਏ ਹਨ"
+
+[[content]]
+asset = "PSST"
+type = "note"
+language = "pa"
+data = "ਕੂੜਿਆਰ = ਉਹ ਮਨੁੱਖ ਜਿਨ੍ਹਾਂ ਦੇ ਹਿਰਦੇ ਕੂੜ ਦੇ ਟਿਕਾਣੇ ਬਣੇ ਪਏ ਹਨ, ਝੂਠ ਦੇ ਸੁਭਾਉ ਵਾਲੇ। ਕੂੜੇ = ਕੂੜ ਵਿਚ ਹੀ। ਫਿਰਾਹਿ = ਫਿਰਦੇ ਹਨ, ਪਰਵਿਰਤ ਹਨ, ਰੁੱਝੇ ਹੋਏ ਹਨ।"
+
+[[content]]
+asset = "SNST"
+type = "translation"
+language = "es"
+data = "Incontables los mentirosos que viven en la falsedad,"

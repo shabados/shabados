@@ -1,0 +1,16 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਹਜ਼ਾਰਾਂ ਰੁਸਤਮ ਵਰਗੇ ਹਜ਼ਾਰਾਂ ਸਾਮ, ਰੁਸਤਮ ਦਾ ਬਾਬਾ, "
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਹਜ਼ਾਰਾਂ ਚੂੰ ਰੁਸਤਮ ਹਜ਼ਾਰਾਂ ਚੂੰ ਸਾਮ ।"
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "Thousands like Rustam and Saam, father of Rustam"

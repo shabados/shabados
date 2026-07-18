@@ -1,0 +1,18 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਦੋ ਆਲਮ ਮੁਨੱਵਰ ਜ਼ਿ ਅਨਵਾਰਿ ਊ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਦੋ ਆਲਮ ਮੁਨੱਵਰ ਜ਼ਿ ਅਨਵਾਰਿ ਊ ।"
+page = 6
+line = 85
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "Do Aalam Maunnavar Ze Anvaare Oo"

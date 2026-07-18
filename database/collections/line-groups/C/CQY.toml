@@ -1,0 +1,5 @@
+author = "NMDV"
+lines = [ "B5M5", "3X7M", "W9N7", "MEVL", "SHPH", "FCMJ" ]
+
+[externalReferences]
+sttm2 = 4529

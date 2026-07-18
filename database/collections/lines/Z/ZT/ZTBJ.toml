@@ -1,0 +1,23 @@
+[[content]]
+asset = "DGDG"
+type = "primary"
+data = "ਅਭਰਮ ਹੈਂ ॥੪੧॥"
+page = 3
+line = 10
+
+[[content]]
+asset = "DSKO"
+type = "translation"
+language = "en"
+data = "Thou art Illusionless Lord! 41"
+
+[[content]]
+asset = "RSJD"
+type = "translation"
+language = "pa"
+data = "ਭਰਮ-ਰਹਿਤ ਹੈਂ ॥੪੧॥"
+
+[[content]]
+asset = "DDTK"
+type = "primary"
+data = "ਅਭਰਮ ਹੈਂ ॥੪੧॥"

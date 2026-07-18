@@ -1,0 +1,5 @@
+author = "NANK"
+lines = [ "1LGU", "PVAS", "KSH1" ]
+
+[externalReferences]
+sttm2 = 4609

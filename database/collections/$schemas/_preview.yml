@@ -1,0 +1,70 @@
+openapi: 3.1.1
+info:
+  title: Shabad OS Collection Schemas
+  description: Purely to preview the collection schemas
+  version: 0.0.0
+
+paths:
+  /assets/{id}:
+    get:
+      responses:
+        '200':
+          description: Asset document
+          content:
+            application/json:
+              schema:
+                $ref: './collections/$schemas/assets.json'
+  /authors/{id}:
+    get:
+      responses:
+        '200':
+          description: Author document
+          content:
+            application/json:
+              schema:
+                $ref: './collections/$schemas/authors.json'
+  /sources/{id}:
+    get:
+      responses:
+        '200':
+          description: Sources document
+          content:
+            application/json:
+              schema:
+                $ref: './collections/$schemas/sources.json'
+  /sections/{id}:
+    get:
+      responses:
+        '200':
+          description: Section document
+          content:
+            application/json:
+              schema:
+                $ref: './collections/$schemas/sections.json'
+  /line-group/{id}:
+    get:
+      responses:
+        '200':
+          description: Line group document
+          content:
+            application/json:
+              schema:
+                $ref: './collections/$schemas/line-groups.json'
+  /lines/{id}:
+    get:
+      responses:
+        '200':
+          description: Line document
+          content:
+            application/json:
+              schema:
+                $ref: './collections/$schemas/lines.json'
+  /banis/{id}:
+    get:
+      responses:
+        '200':
+          description: Bani document
+          content:
+            application/json:
+              schema:
+                $ref: './collections/$schemas/banis.json'

@@ -1,0 +1,18 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਦਾ ਦਿਲ ਸਾਫ ਅਤੇ ਵੈਰ ਭਾਵ ਤੋਂ ਖਾਲੀ ਹੈ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਖ਼ਾਲਿਸੋ ਬੇ-ਕੀਨਾ ਗੁਰ ਗੋਬਿੰਦ ਸਿੰਘ ।"
+page = 10
+line = 124
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "Guru Gobind Singh's heart is chaste and free from any kind of enmity or feeling of alienation,"

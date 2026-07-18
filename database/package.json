@@ -1,0 +1,69 @@
+{
+  "name": "@shabados/database",
+  "version": "5.0.0-next.0",
+  "description": "A digital representation of Sikh Bani and other Panthic texts.",
+  "keywords": [
+    "gurbani",
+    "database",
+    "scripture",
+    "nitnem",
+    "gurmukhi",
+    "guru",
+    "shabad",
+    "sikh",
+    "kirtan",
+    "bani"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShabadOS/database.git"
+  },
+  "author": "Shabad OS Team <team@shabados.com>",
+  "contributors": [
+    "GurbaniNow Team <contact@gurbaninow.com> (https://gurbaninow.com)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShabadOS/database/issues"
+  },
+  "type": "module",
+  "imports": {
+    "#~/*": "./src/*.ts",
+    "#collections-types/*": "./collections/$schemas/.types/*.d.ts"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "pretypes": "bun run collections:generate-types",
+    "types": "tsc --noEmit",
+    "test": "bun test",
+    "collections:preview": "redocly preview-docs 'collections/$schemas/_preview.yml'",
+    "collections:validate": "bun scripts/validate-collections.ts",
+    "collections:generate-types": "json2ts --cwd 'collections/$schemas' -i 'collections/$schemas/*.json' -o 'collections/$schemas/.types'",
+    "predatabase:build": "bun run collections:generate-types",
+    "database:build": "bun scripts/build-database.ts",
+    "database:build-slices": "bun scripts/create-db-slices.ts",
+    "database:view": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "drizzle-orm": "^1.0.0-beta.1-8aabc28"
+  },
+  "peerDependencies": {
+    "@libsql/client": "^0.15.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.0-beta.1",
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-angular": "^19.8.0",
+    "@types/bun": "latest",
+    "ajv": "^8.17.1",
+    "consola": "^3.4.2",
+    "dedent": "^1.5.3",
+    "drizzle-kit": "^1.0.0-beta.1-8aabc28",
+    "husky": "^9.1.7",
+    "json-schema-to-typescript": "^15.0.4",
+    "smol-toml": "^1.3.1",
+    "typescript": "^5"
+  }
+}

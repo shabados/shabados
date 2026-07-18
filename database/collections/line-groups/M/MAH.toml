@@ -1,0 +1,5 @@
+author = "ARJN"
+lines = [ "MDK1", "NYPT", "UFKK" ]
+
+[externalReferences]
+sttm2 = 1042

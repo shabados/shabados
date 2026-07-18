@@ -1,0 +1,16 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਉਸ ਦਾ ਸ਼ਬਦ ਜੌਹਰ ਹੈ, ਜਿਸ ਨੂੰ ਸੱਚ ਦੀ ਪਾਣ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਚਿ ਜੌਹਰ ਚੁਨਾਂ ਜੌਹਰਿ ਹੱਕ ਜਲਾ ।"
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "His word is a precious jewel that has been tempered with the real Truth,"

@@ -1,0 +1,83 @@
+name: Continuous Integration
+
+on:
+  workflow_call:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+      - run: bun run lint
+
+  types:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+      - run: bun run types
+
+  validate-collections:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+      - run: bun run collections:validate
+
+  build-database:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+      - run: bun run database:build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: master.sqlite
+          path: dist/master.sqlite
+
+  build-database-slices:
+    runs-on: ubuntu-latest
+    needs:
+      - build-database
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: master.sqlite
+          path: dist
+      - uses: ./.github/actions/setup
+      - run: bun run database:build-slices
+      - uses: actions/upload-artifact@v4
+        with:
+          name: slices
+          path: dist/slices
+
+  test-database:
+    runs-on: ubuntu-latest
+    needs:
+      - build-database
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: master.sqlite
+          path: dist
+      - uses: ./.github/actions/setup
+      - run: bun run test
+
+  analyze-database:
+    runs-on: ubuntu-latest
+    needs:
+      - build-database
+    steps:
+      - uses: Homebrew/actions/setup-homebrew@master
+      - run: brew install sqlite-analyzer
+      - uses: actions/download-artifact@v4
+        with:
+          name: master.sqlite
+          path: dist
+      - run: sqlite3_analyzer dist/master.sqlite

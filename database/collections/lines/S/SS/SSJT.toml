@@ -1,0 +1,18 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਸੱਚ ਦਾ ਖ਼ਜ਼ਾਨਾ ਹੈ ।"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਹੱਕ ਰਾ ਗੰਜੂਰ ਗੁਰ ਗੋਬਿੰਦ ਸਿੰਘ ।"
+page = 10
+line = 106
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "Guru Gobind Singh is the repository of truth"

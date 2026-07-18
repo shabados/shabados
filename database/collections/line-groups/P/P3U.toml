@@ -1,0 +1,5 @@
+author = "RAMD"
+lines = [ "FZEM", "1ZAA", "TT95" ]
+
+[externalReferences]
+sttm2 = 4799

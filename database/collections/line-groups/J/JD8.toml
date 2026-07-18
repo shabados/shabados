@@ -1,0 +1,5 @@
+author = "ARJN"
+lines = [ "ADPH", "DRLB", "LGS9" ]
+
+[externalReferences]
+sttm2 = 1208

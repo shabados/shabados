@@ -1,0 +1,18 @@
+[[content]]
+asset = "GSNL"
+type = "translation"
+language = "pa"
+data = "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਸਦਕਾ ਇਹ ਸੰਸਾਰ ਰੌਸ਼ਨ ਹੈ,"
+
+[[content]]
+asset = "GSNL"
+type = "primary"
+data = "ਆਲਮੇ ਰੌਸ਼ਨ ਜ਼ਿ ਗੁਰ ਗੋਬਿੰਦ ਸਿੰਘ ।"
+page = 10
+line = 145
+
+[[content]]
+asset = "KEGP"
+type = "translation"
+language = "en"
+data = "This world is bright because of Guru Gobind Singh,"
