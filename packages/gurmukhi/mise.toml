@@ -1,0 +1,208 @@
+[tools]
+bun = "1"
+rust = { version = "1", targets = "wasm32-unknown-unknown", components = "rustfmt,clippy" }
+python = "3"
+# Pinned tag: binaryen's version_XXX scheme makes "latest" resolve to stale semver tags
+"ubi:WebAssembly/binaryen" = { version = "version_131", exe = "wasm-opt", extract_all = "true", bin_path = "bin" }
+
+[env]
+_.python.venv = { path = ".venv", create = true }
+
+[tasks.build]
+description = "Build Rust cdylib"
+run = "cargo build --release --features bindgen"
+
+[tasks."build:wasm"]
+description = "Build Rust WASM binary (size-optimized)"
+run = "cargo build --profile wasm-release --target wasm32-unknown-unknown"
+
+[tasks."build:native"]
+description = "Cross-compile native library (e.g. TARGET=aarch64-apple-darwin mise run build:native)"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+command -v zig >/dev/null || { echo "Install zig: mise install zig"; exit 1; }
+command -v cargo-zigbuild >/dev/null || pip install cargo-zigbuild
+rustup target add "${TARGET:?Set TARGET to a Rust triple}" 2>/dev/null || true
+cargo zigbuild --release --target "$TARGET" --lib
+"""
+
+[tasks."build:native:all"]
+description = "Cross-compile native library for all platforms"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+command -v zig >/dev/null || { echo "Install zig: mise install zig"; exit 1; }
+command -v cargo-zigbuild >/dev/null || pip install cargo-zigbuild
+for target in x86_64-unknown-linux-gnu aarch64-unknown-linux-gnu x86_64-apple-darwin aarch64-apple-darwin x86_64-pc-windows-gnu; do
+  echo "Building $target..."
+  rustup target add "$target" 2>/dev/null || true
+  cargo zigbuild --release --target "$target" --lib
+done
+"""
+
+[tasks.generate]
+description = "Generate UniFFI bindings for a language"
+env = { UNIFFI_LIB = "target/release/libgurmukhi.so" }
+run = """
+mkdir -p $UNIFFI_OUT
+target/release/uniffi-bindgen generate \
+  --library $UNIFFI_LIB \
+  --language $UNIFFI_LANG \
+  --out-dir $UNIFFI_OUT \
+  --no-format
+"""
+
+[tasks."generate:ruby"]
+description = "Generate Ruby bindings"
+env = { UNIFFI_LANG = "ruby", UNIFFI_OUT = "bindings/ruby/lib/gurmukhi" }
+run = """
+mise run generate
+sed -i "s|ffi_lib 'gurmukhi'|ffi_lib File.join(File.dirname(__FILE__), FFI.map_library_name('gurmukhi'))|" bindings/ruby/lib/gurmukhi/gurmukhi.rb
+"""
+
+[tasks."generate:kotlin"]
+description = "Generate Kotlin bindings"
+env = { UNIFFI_LANG = "kotlin", UNIFFI_OUT = "bindings/kotlin/lib" }
+run = "mise run generate"
+
+[tasks."generate:swift"]
+description = "Generate Swift bindings"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+tmpdir=$(mktemp -d)
+UNIFFI_LANG=swift UNIFFI_OUT="$tmpdir" mise run generate
+mkdir -p bindings/swift/Sources/gurmukhiFFI bindings/swift/Sources/Gurmukhi
+mv "$tmpdir/gurmukhiFFI.h" bindings/swift/Sources/gurmukhiFFI/
+mv "$tmpdir/gurmukhiFFI.modulemap" bindings/swift/Sources/gurmukhiFFI/
+mv "$tmpdir/gurmukhi.swift" bindings/swift/Sources/Gurmukhi/
+rm -rf "$tmpdir"
+sed -i '/use "Darwin"/d' bindings/swift/Sources/gurmukhiFFI/gurmukhiFFI.modulemap
+ln -sf gurmukhiFFI.modulemap bindings/swift/Sources/gurmukhiFFI/module.modulemap
+"""
+
+[tasks."generate:javascript"]
+description = "Generate JavaScript WASM bindings"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+rm -rf bindings/javascript/generated/wasm
+mkdir -p bindings/javascript/generated/wasm
+target/release/uniffi-bindgen-js generate \
+  --out-dir bindings/javascript/generated/wasm \
+  target/wasm32-unknown-unknown/wasm-release/gurmukhi.wasm
+# Shrink the shipped binary after bindgen (bindgen needs uniffi metadata sections intact)
+wasm-opt -Oz --enable-bulk-memory --enable-nontrapping-float-to-int \
+  bindings/javascript/generated/wasm/gurmukhi.wasm \
+  -o bindings/javascript/generated/wasm/gurmukhi.wasm
+bun scripts/flatten-wasm-namespace.ts bindings/javascript/generated/wasm
+cd bindings/javascript && bun install --frozen-lockfile && bunx tsc
+"""
+
+[tasks."generate:react-native"]
+description = "Generate React Native JSI bindings and turbo-module scaffolding"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+(cd bindings/javascript && bun install --frozen-lockfile)
+rm -rf bindings/javascript/src/generated bindings/javascript/cpp/generated
+bun bindings/javascript/node_modules/.bin/ubrn generate jsi bindings \
+  --library target/release/libgurmukhi.so \
+  --ts-dir bindings/javascript/src/generated \
+  --cpp-dir bindings/javascript/cpp/generated
+(cd bindings/javascript && bunx ubrn generate jsi turbo-module --config ubrn.config.yaml gurmukhi && bunx tsc -p tsconfig.rn.json)
+"""
+
+[tasks."generate:python"]
+description = "Generate Python bindings"
+env = { UNIFFI_LANG = "python", UNIFFI_OUT = "bindings/python/gurmukhi" }
+run = "mise run generate"
+
+[tasks."generate:all"]
+description = "Generate all language bindings"
+depends = ["build", "build:wasm", "generate:ruby", "generate:kotlin", "generate:swift", "generate:javascript", "generate:python"]
+
+[tasks.fmt]
+description = "Check code formatting"
+run = "cargo fmt --check"
+
+[tasks.lint]
+description = "Run clippy lints"
+run = "cargo clippy -- -D warnings"
+
+[tasks.check]
+description = "Run all checks (fmt, lint, test)"
+depends = ["fmt", "lint", "test"]
+
+[tasks.test]
+description = "Run Rust tests"
+run = "cargo test"
+
+[tasks.publish]
+description = "Publish Rust crate to crates.io"
+run = "cargo publish"
+
+[tasks."publish:dry-run"]
+description = "Dry-run publish to verify package"
+run = "cargo publish --dry-run"
+
+[tasks."smoke:stage"]
+description = "Symlink native library into binding directories"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+[ -d bindings/python/gurmukhi ] && ln -sf ../../../target/release/libgurmukhi.so bindings/python/gurmukhi/libgurmukhi.so
+[ -d bindings/ruby/lib/gurmukhi ] && ln -sf ../../../../target/release/libgurmukhi.so bindings/ruby/lib/gurmukhi/libgurmukhi.so
+true
+"""
+
+[tasks."smoke:javascript"]
+description = "Smoke test: JavaScript WASM"
+run = "bun bindings/javascript/smoke/wasm.ts"
+
+[tasks."smoke:react-native"]
+description = "Smoke test: ubrn bindings via Node N-API runtime (no emulator)"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+rm -rf bindings/javascript/smoke/napi
+bun bindings/javascript/node_modules/.bin/ubrn generate napi bindings \
+  --library target/release/libgurmukhi.so \
+  --ts-dir bindings/javascript/smoke/napi \
+  --lib-colocated
+cp target/release/libgurmukhi.so bindings/javascript/smoke/napi/
+bun bindings/javascript/smoke/native.ts
+"""
+
+[tasks."smoke:python"]
+description = "Smoke test: Python"
+run = "python bindings/python/smoke_test.py"
+
+[tasks."smoke:ruby"]
+description = "Smoke test: Ruby"
+run = "ruby bindings/ruby/smoke_test.rb"
+
+[tasks."smoke:kotlin"]
+description = "Smoke test: Kotlin"
+run = "cd bindings/kotlin && gradle runSmoke --quiet"
+
+[tasks."smoke:swift"]
+description = "Smoke test: Swift"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+# Fix dylib install name if on macOS (cross-compiled dylibs have absolute Linux paths)
+if [[ "$(uname)" == "Darwin" ]] && [ -f target/release/libgurmukhi.dylib ]; then
+  install_name_tool -id @rpath/libgurmukhi.dylib target/release/libgurmukhi.dylib
+fi
+swift build --product SmokeTest \
+  -Xlinker -Ltarget/release \
+  -Xlinker -lgurmukhi \
+  -Xlinker -rpath -Xlinker target/release 2>&1
+.build/debug/SmokeTest
+"""
+
+[tasks."smoke:all"]
+description = "Run all smoke tests"
+depends = ["smoke:stage", "smoke:javascript", "smoke:python", "smoke:ruby", "smoke:kotlin", "smoke:swift"]

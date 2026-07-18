@@ -1,0 +1,9 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "repository": {
+    "url": "https://github.com/shabados/gurmukhi-utils"
+  }
+}

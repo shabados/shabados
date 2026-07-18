@@ -1,0 +1,66 @@
+[workspace.package]
+version = "1.0.0"
+edition = "2024"
+description = "Utility library for converting, analyzing, and manipulating Gurmukhi strings"
+authors = ["Shabad OS <team@shabados.com>", "Bhajneet S.K <bhajneet@gmail.com>", "Harjot Singh <harjot@harkul.com>"]
+license = "MIT"
+repository = "https://github.com/shabados/gurmukhi"
+
+[workspace.lints]
+
+[package]
+name = "gurmukhi"
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+readme = "README.md"
+keywords = ["gurmukhi", "unicode", "transliteration", "punjabi", "sikh"]
+categories = ["text-processing", "internationalization"]
+exclude = ["uniffi-bindgen*.rs", "bindings/", "scripts/", ".github/", ".vscode/", "mise.toml", "package.json", "Package.swift", "release-please-config.json", ".release-please-manifest.json", "CONTRIBUTING.md"]
+
+[[bin]]
+name = "uniffi-bindgen"
+path = "uniffi-bindgen.rs"
+
+[[bin]]
+name = "uniffi-bindgen-js"
+path = "uniffi-bindgen-js.rs"
+required-features = ["bindgen"]
+
+[lib]
+name = "gurmukhi"
+crate-type = ["rlib", "cdylib", "staticlib"]
+
+[lints]
+workspace = true
+
+[features]
+bindgen = ["dep:clap", "dep:uniffi-bindgen-js"]
+
+# WASM ships to browsers — optimize for size over speed
+[profile.wasm-release]
+inherits = "release"
+opt-level = "z"
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true
+
+[dependencies]
+clap = { version = "4", features = ["derive"], optional = true }
+const_format = "0.2.34"
+once_cell = "1.21.3"
+regex = "1.11.2"
+uniffi = { version = "0.31", features = ["cli", "wasm-unstable-single-threaded", "scaffolding-ffi-buffer-fns"] }
+uniffi-bindgen-js = { version = "0.2.1", optional = true }
+wasm-bindgen = "0.2"
+
+[build-dependencies]
+uniffi = { version = "0.31", features = ["build"] }
+
+[dev-dependencies]
+pretty_assertions = "1.4.1"
+rstest = "0.26.1"

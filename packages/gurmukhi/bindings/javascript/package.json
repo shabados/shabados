@@ -1,0 +1,79 @@
+{
+  "name": "gurmukhi",
+  "version": "1.0.0",
+  "description": "Javascript library for converting, analyzing, and testing Gurmukhi strings",
+  "license": "MIT",
+  "contributors": [
+    "Shabad OS <team@shabados.com>",
+    "Bhajneet S.K <bhajneet@gmail.com>",
+    "Harjot Singh <harjot@harkul.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shabados/gurmukhi",
+    "directory": "bindings/javascript"
+  },
+  "homepage": "https://github.com/shabados/gurmukhi",
+  "bugs": "https://github.com/shabados/gurmukhi/issues/new/choose",
+  "keywords": [
+    "ascii",
+    "granth",
+    "gurbani",
+    "gurmukhi",
+    "guru",
+    "punjabi",
+    "shabad",
+    "sikh",
+    "unicode",
+    "wasm"
+  ],
+  "type": "module",
+  "react-native": "./src/index.rn.ts",
+  "exports": {
+    ".": {
+      "types": "./generated/wasm/gurmukhi.d.ts",
+      "react-native": "./src/index.rn.ts",
+      "default": "./generated/wasm/gurmukhi.js"
+    }
+  },
+  "files": [
+    "generated/wasm/gurmukhi.js",
+    "generated/wasm/gurmukhi.d.ts",
+    "generated/wasm/uniffi_runtime.js",
+    "generated/wasm/uniffi_runtime.d.ts",
+    "generated/wasm/gurmukhi.wasm",
+    "src",
+    "cpp",
+    "android",
+    "ios",
+    "*.podspec",
+    "GurmukhiFramework.xcframework"
+  ],
+  "codegenConfig": {
+    "name": "RNGurmukhiSpec",
+    "type": "modules",
+    "jsSrcsDir": "src",
+    "android": {
+      "javaPackageName": "com.shabados.gurmukhi"
+    }
+  },
+  "dependencies": {
+    "@ubjs/core": "0.31.0-3",
+    "uniffi-bindgen-react-native": "0.31.0-3"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "react-native": "^0.86.0",
+    "@types/react": "^19.2.17",
+    "@ubjs/node": "0.31.0-3",
+    "react": "^19.2.7"
+  }
+}

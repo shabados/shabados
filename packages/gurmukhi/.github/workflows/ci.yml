@@ -1,0 +1,201 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: jdx/mise-action@v4
+      - run: rustup component add rustfmt clippy
+      - uses: Swatinem/rust-cache@v2
+      - run: mise run fmt
+      - run: mise run lint
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: jdx/mise-action@v4
+      - uses: Swatinem/rust-cache@v2
+      - run: mise run test
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: jdx/mise-action@v4
+      - run: rustup target add wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+      - run: mise run build
+      - run: mise run build:wasm
+      - uses: actions/upload-artifact@v7
+        with:
+          name: build-artifacts
+          path: |
+            target/release/uniffi-bindgen
+            target/release/uniffi-bindgen-js
+            target/release/libgurmukhi.so
+            target/wasm32-unknown-unknown/wasm-release/gurmukhi.wasm
+
+  build-native:
+    uses: ./.github/workflows/build-native.yml
+
+  generate:
+    name: Generate (${{ matrix.language }})
+    needs: [build]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ruby, kotlin, swift, python, javascript]
+    steps:
+      - uses: actions/checkout@v6
+      - uses: jdx/mise-action@v4
+      - uses: actions/download-artifact@v8
+        with:
+          name: build-artifacts
+          path: target
+      - run: chmod +x target/release/uniffi-bindgen target/release/uniffi-bindgen-js target/release/libgurmukhi.so
+      - run: mise run generate:${{ matrix.language }}
+      - uses: actions/upload-artifact@v7
+        with:
+          name: bindings-${{ matrix.language }}
+          path: |
+            bindings/${{ matrix.language }}/
+            !bindings/${{ matrix.language }}/node_modules/
+
+  generate-react-native:
+    name: Generate (react-native)
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: jdx/mise-action@v4
+      - uses: actions/download-artifact@v8
+        with:
+          name: build-artifacts
+          path: target
+      - run: chmod +x target/release/libgurmukhi.so
+      - run: mise run generate:react-native
+      - run: mise run smoke:react-native
+
+  build-android:
+    name: Build (Android)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: jdx/mise-action@v4
+      - run: rustup target add aarch64-linux-android armv7-linux-androideabi x86_64-linux-android
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: android
+      - run: cargo install cargo-ndk --locked
+      - run: cd bindings/javascript && bun install --frozen-lockfile
+      - run: cd bindings/javascript && bunx ubrn build android --config ubrn.config.yaml --release
+      - uses: actions/upload-artifact@v7
+        with:
+          name: android-jniLibs
+          path: bindings/javascript/android/src/main/jniLibs/
+
+  build-ios:
+    name: Build (iOS)
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: jdx/mise-action@v4
+      - run: rustup target add aarch64-apple-ios aarch64-apple-ios-sim
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: ios
+      - run: cd bindings/javascript && bun install --frozen-lockfile
+      - run: cd bindings/javascript && bunx ubrn build ios --config ubrn.config.yaml --release
+      - uses: actions/upload-artifact@v7
+        with:
+          name: ios-xcframework
+          path: bindings/javascript/GurmukhiFramework.xcframework/
+
+  smoke:
+    name: Smoke (${{ matrix.language }}, ${{ matrix.os }})
+    needs: [generate, build-native]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [javascript, python, ruby, kotlin, swift]
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        exclude:
+          - language: swift
+            os: windows-latest
+        include:
+          - os: ubuntu-latest
+            native-target: x86_64-unknown-linux-gnu
+          - os: macos-latest
+            native-target: aarch64-apple-darwin
+          - os: windows-latest
+            native-target: x86_64-pc-windows-gnu
+    steps:
+      - uses: actions/checkout@v6
+      - uses: jdx/mise-action@v4
+      - uses: actions/download-artifact@v8
+        with:
+          name: bindings-${{ matrix.language }}
+          path: bindings/${{ matrix.language }}
+      - uses: actions/download-artifact@v8
+        with:
+          name: native-${{ matrix.native-target }}
+          path: native
+      - uses: actions/setup-java@v5
+        if: matrix.language == 'kotlin'
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: gradle/actions/setup-gradle@v5
+        if: matrix.language == 'kotlin'
+      - uses: swift-actions/setup-swift@v2
+        if: matrix.language == 'swift' && runner.os == 'Linux'
+      - name: Setup Ruby FFI (Linux)
+        if: matrix.language == 'ruby' && runner.os == 'Linux'
+        run: sudo gem install ffi --no-document
+      - name: Setup Ruby FFI (macOS/Windows)
+        if: matrix.language == 'ruby' && runner.os != 'Linux'
+        run: gem install ffi --no-document
+      - name: Stage native library
+        shell: bash
+        run: |
+          # Copy native lib next to binding code where each language expects it
+          case "${{ matrix.language }}" in
+            python)
+              cp native/libgurmukhi.* bindings/python/gurmukhi/ 2>/dev/null || cp native/gurmukhi.dll bindings/python/gurmukhi/ 2>/dev/null
+              ;;
+            ruby)
+              cp native/libgurmukhi.* bindings/ruby/lib/gurmukhi/ 2>/dev/null || cp native/gurmukhi.dll bindings/ruby/lib/gurmukhi/ 2>/dev/null
+              ;;
+            kotlin)
+              # JNA loads from jna.library.path — stage in target/release for consistency
+              mkdir -p target/release
+              cp native/* target/release/
+              ;;
+            swift)
+              mkdir -p target/release
+              cp native/* target/release/
+              ;;
+            javascript)
+              # WASM is platform-independent, already in generated/wasm/
+              true
+              ;;
+          esac
+      - name: Smoke test
+        shell: bash
+        run: mise run smoke:${{ matrix.language }}

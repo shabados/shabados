@@ -1,0 +1,6 @@
+.build/
+.swiftpm/
+
+# UniFFI generated bindings
+Sources/gurmukhiFFI/gurmukhiFFI.*
+Sources/Gurmukhi/gurmukhi.swift
