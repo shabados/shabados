@@ -1,0 +1,29 @@
+name: publish (library)
+
+# release-please (with include-component-in-tag: true) pushes tags like "library-v5.0.0".
+# Every step below is a dry-run placeholder — nothing in this file may actually publish.
+# It has a `# TODO cutover:` comment showing the real command to swap in once the
+# monorepo import is verified end-to-end.
+
+on:
+  push:
+    tags:
+      - 'library-v*'
+  workflow_dispatch:
+
+jobs:
+  library:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            apps/library
+            package.json
+            mise.toml
+          filter: blob:none
+      - uses: jdx/mise-action@v4
+      - run: cd apps/library && SKIP_ARTIFACTS=1 bun install
+      - run: cd apps/library && bun run --if-present build
+      # TODO cutover: cd apps/library && npm run build:win|build:mac|build:linux   (electron-builder --publish always, per-OS runners, code-signing secrets)
+      - run: 'echo "DRY RUN: would run electron-builder draft release from apps/library/"'

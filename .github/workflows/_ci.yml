@@ -1,0 +1,60 @@
+name: _ci
+
+# Shared reusable CI workflow. Callers: web-ci.yml, library-ci.yml, database-ci.yml.
+# gurmukhi-ci.yml stays standalone (rust toolchain / Swatinem/rust-cache steps don't fit
+# the single `run` shell-commands input below) and presenter-ci.yml stays standalone
+# (npm-self-managed area, not part of the bun workspace).
+
+on:
+  workflow_call:
+    inputs:
+      run:
+        description: Shell commands to run for this area's checks.
+        type: string
+        required: true
+      working-directory:
+        description: Directory to run the checks in.
+        type: string
+        required: false
+        default: '.'
+      full-checkout:
+        description: Full checkout instead of the deny-list sparse checkout (needed by areas that must see database/collections).
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (sparse, deny-list database/collections)
+        if: ${{ !inputs.full-checkout }}
+        uses: actions/checkout@v6
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !database/collections
+          sparse-checkout-cone-mode: false
+
+      - name: Checkout (full)
+        if: ${{ inputs.full-checkout }}
+        uses: actions/checkout@v6
+        with:
+          filter: blob:none
+
+      - uses: jdx/mise-action@v4
+
+      # bun workspace root (apps/web, apps/library, packages/gurmukhi/bindings/javascript,
+      # database) — install must run at repo root for workspace resolution, not per-area.
+      # --ignore-scripts: apps/library's postinstall (electron-builder install-app-deps)
+      # fails under hoisting until its electron pin is fixed — drop this flag once that
+      # library PR lands. Typecheck/lint don't need lifecycle scripts.
+      - name: Install dependencies
+        env:
+          SKIP_ARTIFACTS: '1'
+        run: bun install --ignore-scripts
+
+      - name: Run checks
+        working-directory: ${{ inputs.working-directory }}
+        run: ${{ inputs.run }}

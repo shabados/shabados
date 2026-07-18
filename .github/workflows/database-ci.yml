@@ -1,0 +1,43 @@
+name: CI (database)
+
+on:
+  pull_request:
+    paths:
+      - 'database/**'
+      - 'package.json'
+      - 'biome.json'
+      - 'mise.toml'
+      - '.github/workflows/database-ci.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'database/**'
+      - 'package.json'
+      - 'biome.json'
+      - 'mise.toml'
+      - '.github/workflows/database-ci.yml'
+
+jobs:
+  database:
+    name: Lint, typecheck, build, test
+    uses: ./.github/workflows/_ci.yml
+    with:
+      working-directory: database
+      # Only database's CI may materialize database/collections (604M of JSON) — it needs
+      # a full checkout instead of the deny-list sparse checkout every other area uses.
+      full-checkout: true
+      run: |
+        # Lint (biome check .)
+        bun run --if-present lint
+
+        # Typecheck (tsc --noEmit)
+        bun run --if-present types
+
+        # Validate collections
+        bun run --if-present collections:validate
+
+        # Build database (dist/master.sqlite via drizzle)
+        bun run --if-present database:build
+
+        # Test (bun test)
+        bun run --if-present test

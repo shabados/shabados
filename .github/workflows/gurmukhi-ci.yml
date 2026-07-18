@@ -1,19 +1,23 @@
 name: CI (gurmukhi)
 
+# Standalone (not routed through _ci.yml): the rustup component/target setup and
+# Swatinem/rust-cache steps below are rust-toolchain-specific and don't fit the
+# single shell `run` string that the shared reusable workflow accepts.
+
 on:
   pull_request:
     paths:
       - 'packages/gurmukhi/**'
       - 'package.json'
       - 'mise.toml'
-      - '.github/workflows/ci-gurmukhi.yml'
+      - '.github/workflows/gurmukhi-ci.yml'
   push:
     branches: [main]
     paths:
       - 'packages/gurmukhi/**'
       - 'package.json'
       - 'mise.toml'
-      - '.github/workflows/ci-gurmukhi.yml'
+      - '.github/workflows/gurmukhi-ci.yml'
 
 env:
   CARGO_TERM_COLOR: always

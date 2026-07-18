@@ -1,0 +1,24 @@
+name: publish (sant-lipi)
+
+# release-please (with include-component-in-tag: true) pushes tags like "sant-lipi-v5.0.0".
+# Every step below is a dry-run placeholder — nothing in this file may actually publish.
+# It has a `# TODO cutover:` comment showing the real command to swap in once the
+# monorepo import is verified end-to-end.
+
+on:
+  push:
+    tags:
+      - 'sant-lipi-v*'
+  workflow_dispatch:
+
+jobs:
+  sant-lipi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            packages/sant-lipi
+          filter: blob:none
+      # TODO cutover: attach built font files (e.g. SantLipi-VF.ttf) as release assets via `gh release upload`
+      - run: 'echo "DRY RUN: would attach built font assets to the sant-lipi GitHub release"'

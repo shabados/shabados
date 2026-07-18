@@ -1,0 +1,29 @@
+name: publish (database)
+
+# release-please (with include-component-in-tag: true) pushes tags like "database-v5.0.0".
+# Every step below is a dry-run placeholder — nothing in this file may actually publish.
+# It has a `# TODO cutover:` comment showing the real command to swap in once the
+# monorepo import is verified end-to-end.
+
+on:
+  push:
+    tags:
+      - 'database-v*'
+  workflow_dispatch:
+
+jobs:
+  database:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            database
+            package.json
+            mise.toml
+          filter: blob:none
+      - uses: jdx/mise-action@v4
+      - run: cd database && bun install
+      - run: cd database && bun run --if-present database:build
+      # TODO cutover: cd database && npm publish --access public   (publishes @shabados/database, dist/ built above)
+      - run: 'echo "DRY RUN: would run npm publish --access public from database/"'

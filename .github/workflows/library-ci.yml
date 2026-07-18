@@ -1,0 +1,33 @@
+name: CI (library)
+
+on:
+  pull_request:
+    paths:
+      - 'apps/library/**'
+      - 'package.json'
+      - 'biome.json'
+      - 'mise.toml'
+      - '.github/workflows/library-ci.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'apps/library/**'
+      - 'package.json'
+      - 'biome.json'
+      - 'mise.toml'
+      - '.github/workflows/library-ci.yml'
+
+jobs:
+  library:
+    name: Typecheck, build
+    uses: ./.github/workflows/_ci.yml
+    with:
+      working-directory: apps/library
+      run: |
+        # library has no top-level "lint" script today (electron-vite app; nothing to guard here)
+
+        # Typecheck (typecheck:node + typecheck:web)
+        bun run --if-present typecheck
+
+        # Build (electron-vite build)
+        bun run --if-present build

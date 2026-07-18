@@ -1,0 +1,35 @@
+name: publish (gurmukhi)
+
+# release-please (with include-component-in-tag: true) pushes tags like "gurmukhi-v5.0.0".
+# Every step below is a dry-run placeholder — nothing in this file may actually publish.
+# Each has a `# TODO cutover:` comment showing the real command to swap in once the
+# monorepo import is verified end-to-end.
+
+on:
+  push:
+    tags:
+      - 'gurmukhi-v*'
+  workflow_dispatch:
+
+jobs:
+  gurmukhi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            packages/gurmukhi
+            package.json
+            mise.toml
+          filter: blob:none
+      - uses: jdx/mise-action@v4
+      # TODO cutover: cd packages/gurmukhi && mise run publish   (cargo publish, needs CARGO_REGISTRY_TOKEN)
+      - run: cd packages/gurmukhi && mise run publish:dry-run
+      # TODO cutover: cd packages/gurmukhi/bindings/javascript && npm publish --access public   (needs NPM_TOKEN)
+      - run: 'echo "DRY RUN: would run npm publish --access public from packages/gurmukhi/bindings/javascript/"'
+      # TODO cutover: python -m build --wheel bindings/python && twine upload   (needs PYPI_TOKEN, per-platform wheels via build-native matrix)
+      - run: 'echo "DRY RUN: would build + publish Python wheels from packages/gurmukhi/bindings/python/"'
+      # TODO cutover: cd packages/gurmukhi/bindings/ruby && gem push *.gem   (needs RUBYGEMS_API_KEY, per-platform gems via build-native matrix)
+      - run: 'echo "DRY RUN: would build + publish the Ruby gem from packages/gurmukhi/bindings/ruby/"'
+      # TODO cutover: cd packages/gurmukhi/bindings/kotlin && gradle publish   (needs MAVEN_USERNAME/MAVEN_PASSWORD)
+      - run: 'echo "DRY RUN: would run gradle publish from packages/gurmukhi/bindings/kotlin/"'

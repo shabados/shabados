@@ -1,0 +1,34 @@
+name: CI (web)
+
+on:
+  pull_request:
+    paths:
+      - 'apps/web/**'
+      - 'package.json'
+      - 'biome.json'
+      - 'mise.toml'
+      - '.github/workflows/web-ci.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'apps/web/**'
+      - 'package.json'
+      - 'biome.json'
+      - 'mise.toml'
+      - '.github/workflows/web-ci.yml'
+
+jobs:
+  web:
+    name: Lint, typecheck, build
+    uses: ./.github/workflows/_ci.yml
+    with:
+      working-directory: apps/web
+      run: |
+        # Lint (eslint)
+        bun run --if-present lint
+
+        # web has no "typecheck" script — build.types (tsc --incremental --noEmit) is its equivalent
+        bun run --if-present build.types
+
+        # Build (qwik build)
+        bun run --if-present build

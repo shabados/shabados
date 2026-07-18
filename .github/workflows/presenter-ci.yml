@@ -1,15 +1,17 @@
 name: CI (presenter)
 
+# Standalone (not routed through _ci.yml): npm-self-managed area, deliberately not part of the bun workspace.
+
 on:
   pull_request:
     paths:
       - 'apps/presenter/**'
-      - '.github/workflows/ci-presenter.yml'
+      - '.github/workflows/presenter-ci.yml'
   push:
     branches: [main]
     paths:
       - 'apps/presenter/**'
-      - '.github/workflows/ci-presenter.yml'
+      - '.github/workflows/presenter-ci.yml'
 
 jobs:
   presenter:

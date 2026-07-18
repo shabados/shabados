@@ -1,0 +1,32 @@
+name: publish (presenter)
+
+# release-please (with include-component-in-tag: true) pushes tags like "presenter-v5.0.0".
+# Every step below is a dry-run placeholder — nothing in this file may actually publish.
+# It has a `# TODO cutover:` comment showing the real command to swap in once the
+# monorepo import is verified end-to-end.
+
+on:
+  push:
+    tags:
+      - 'presenter-v*'
+  workflow_dispatch:
+
+jobs:
+  presenter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            apps/presenter
+          filter: blob:none
+      # presenter (main, v2 line) is npm-self-managed — no bun/mise here (see presenter-ci.yml)
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+      - run: cd apps/presenter && npm ci --ignore-scripts
+      - run: cd apps/presenter/app && npm ci
+      - run: cd apps/presenter/app/frontend && npm ci
+      - run: cd apps/presenter && npm run build
+      # TODO cutover: electron-builder release from apps/presenter/app (per-OS runners, code-signing secrets, GH release upload — mirror presenter's original release process)
+      - run: 'echo "DRY RUN: would run electron-builder release from apps/presenter/app/"'
