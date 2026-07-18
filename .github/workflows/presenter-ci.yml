@@ -14,8 +14,11 @@ on:
       - '.github/workflows/presenter-ci.yml'
 
 jobs:
+  # Informational until presenter dev moves into this repo: the v2 line's CRA
+  # toolchain is unmaintained (babel-preset-react-app bug) and #700 replaces it.
   presenter:
     name: Lint, build
+    continue-on-error: true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
