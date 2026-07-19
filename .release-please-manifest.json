@@ -2,6 +2,6 @@
   "apps/presenter": "2.11.3",
   "apps/library": "0.1.0",
   "packages/sant-lipi": "0.35.0",
-  "database": "5.0.0-next.0",
-  "_comment": "TODO: apps/web and apps/library have no prior GitHub releases or tags (checked via gh api) \u2014 seeded at 0.1.0, confirm before the first release-please run. packages/gurmukhi (1.0.0) is carried over from gurmukhi-utils' to-rust branch's own .release-please-manifest.json: a fresh versioning lineage for the Rust rewrite, distinct from the old JS package's 3.2.2 release history. database (5.0.0-next.0) and apps/presenter (2.11.3) match each repo's latest tagged release."
+  "database": "5.1.0-next.0",
+  "_comment": "TODO: apps/web and apps/library have no prior GitHub releases or tags (checked via gh api) — seeded at 0.1.0, confirm before the first release-please run. packages/gurmukhi (1.0.0) is carried over from gurmukhi-utils' to-rust branch's own .release-please-manifest.json: a fresh versioning lineage for the Rust rewrite, distinct from the old JS package's 3.2.2 release history. database (5.0.0-next.0) and apps/presenter (2.11.3) match each repo's latest tagged release."
 }
