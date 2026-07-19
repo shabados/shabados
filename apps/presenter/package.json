@@ -12,10 +12,15 @@
   "repository": "https://github.com/shabados/presenter",
   "license": "MIT",
   "workspaces": [
-    "packages/*",
-    "apps/backend",
-    "apps/electron",
-    "apps/frontend"
+    "tsconfig",
+    "contract",
+    "schemas",
+    "swiss-knife",
+    "node",
+    "themes",
+    "transformers",
+    "frontend",
+    "backend"
   ],
   "devDependencies": {
     "@presenter/tsconfig": "*",
