@@ -1,12 +1,12 @@
 import { debounce } from 'radashi'
-import { findDOMNode } from 'react-dom'
 import scrollIntoView from 'scroll-into-view'
 
 import { isMac } from './consts'
 
-// eslint-disable-next-line react/no-find-dom-node
-export const scrollIntoCenter = ( ref: any, options?: __ScrollIntoView.Settings ) => scrollIntoView(
-  findDOMNode( ref ) as any,
+// Callers always pass a real DOM element (NavigationHotkeys registers raw refs),
+// so no findDOMNode indirection is needed - it is removed entirely in React 19.
+export const scrollIntoCenter = ( element: HTMLElement, options?: __ScrollIntoView.Settings ) => scrollIntoView(
+  element,
   { time: 200, ...options }
 )
 

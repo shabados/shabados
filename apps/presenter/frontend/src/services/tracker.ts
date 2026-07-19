@@ -8,3 +8,7 @@ export const useTracker = () => {
 
   return { mainLineId, nextLineId }
 }
+
+export const setMainLine = ( lineId: string ) => websocketClient.json( 'content:tracker:set-main-line', lineId )
+
+export const setNextLine = ( lineId: string ) => websocketClient.json( 'content:tracker:set-next-line', lineId )

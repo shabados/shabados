@@ -6,7 +6,7 @@ import { CssBaseline } from '@mui/material'
 import IconButton from '@mui/material/IconButton'
 import { createLazyFileRoute, Outlet, useLocation } from '@tanstack/react-router'
 import classNames from 'classnames'
-import { lazy, Suspense, useRef, useState } from 'react'
+import { lazy, Suspense, useMemo, useRef, useState } from 'react'
 import { EventsType, useIdleTimer } from 'react-idle-timer'
 
 import CopyHotkeys from '#~/components/CopyHotkeys'
@@ -17,6 +17,7 @@ import NavigatorHotKeys from '#~/components/NavigatorHotkeys'
 import ThemeLoader from '#~/components/ThemeLoader'
 import { isDesktop } from '#~/helpers/consts'
 import { toggleFullscreen } from '#~/helpers/electron-utils'
+import { resolveHotkeys } from '#~/helpers/hotkeys'
 import { GLOBAL_SHORTCUTS } from '#~/helpers/keyMap'
 import { CLIENT_OPTIONS } from '#~/helpers/options'
 import { useNavigateUtils } from '#~/hooks/navigate'
@@ -76,8 +77,12 @@ const Presenter = () => {
   // } )
   const setZoom = () => {}
 
-  const zoomInController = () => setZoom( Math.min( CLIENT_OPTIONS.controllerZoom.max, zoom + 0.1 ) )
-  const zoomOutController = () => setZoom( Math.max( CLIENT_OPTIONS.controllerZoom.min, zoom - 0.1 ) )
+  // Reads the live `controllerZoom` setting (not a bare `zoom` - there is no such
+  // identifier here; `zoom` only otherwise appears as the unrelated CSS `style={{ zoom }}`
+  // prop key below) - was a `ReferenceError` on every zoom-in/out keypress.
+  const { max: maxZoom, min: minZoom } = CLIENT_OPTIONS.controllerZoom
+  const zoomInController = () => setZoom( Math.min( maxZoom, controllerZoom + 0.1 ) )
+  const zoomOutController = () => setZoom( Math.max( minZoom, controllerZoom - 0.1 ) )
   const zoomResetController = () => setZoom( 1 )
 
   const toggleFullscreenController = () => {
@@ -87,19 +92,16 @@ const Presenter = () => {
     } )
   }
 
-  const preventDefault = ( events ) => Object.entries( events )
-    .reduce( ( events, [ name, handler ] ) => ( {
-      ...events,
-      [ name ]: ( event ) => event.preventDefault() || handler( event ),
-    } ), {} )
-
   // Global Hotkey Handlers
-  const hotkeyHandlers = preventDefault( {
+  const hotkeyHandlers = {
     [ GLOBAL_SHORTCUTS.zoomInController.name ]: zoomInController,
     [ GLOBAL_SHORTCUTS.zoomOutController.name ]: zoomOutController,
     [ GLOBAL_SHORTCUTS.zoomResetController.name ]: zoomResetController,
     [ GLOBAL_SHORTCUTS.toggleController.name ]: toggleController,
-    [ GLOBAL_SHORTCUTS.newController.name ]: () => {
+    // Not `required` in the catalogue, but ctrl+x is the browser's "cut" shortcut -
+    // preventDefault explicitly here rather than relying on the required-only auto-rule.
+    [ GLOBAL_SHORTCUTS.newController.name ]: ( event: KeyboardEvent ) => {
+      event.preventDefault()
       open( {
         search: ( s ) => ( { ...s, controllerOnly: true } ),
       } )
@@ -115,7 +117,18 @@ const Presenter = () => {
     [ GLOBAL_SHORTCUTS.toggleFullscreenController.name ]: toggleFullscreenController,
     [ GLOBAL_SHORTCUTS.toggleFullscreen.name ]: toggleFullscreen,
     [ GLOBAL_SHORTCUTS.quit.name ]: window.close,
-  } )
+  }
+
+  // Merge the catalogue's default sequences with the user's `hotkeys` setting overrides
+  const resolvedGlobal = useMemo( () => resolveHotkeys( GLOBAL_SHORTCUTS, hotkeys ), [ hotkeys ] )
+
+  const globalKeyMap = useMemo( () => Object.fromEntries(
+    resolvedGlobal.map( ( { label, sequences } ) => [ label, sequences ] ),
+  ), [ resolvedGlobal ] )
+
+  const globalRequired = useMemo( () => Object.fromEntries(
+    resolvedGlobal.map( ( { label, required } ) => [ label, required ] ),
+  ), [ resolvedGlobal ] )
 
   // Required for mouse shortcuts
   const presenterRef = useRef( null )
@@ -125,7 +138,7 @@ const Presenter = () => {
       <CssBaseline />
       <ThemeLoader name={themeName} />
 
-      <GlobalHotKeys keyMap={hotkeys} handlers={hotkeyHandlers}>
+      <GlobalHotKeys keyMap={globalKeyMap} handlers={hotkeyHandlers} required={globalRequired}>
         <NavigatorHotKeys active={!isControllerOpen} mouseTargetRef={presenterRef}>
           <CopyHotkeys>
 

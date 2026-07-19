@@ -6,79 +6,82 @@ import { Button, Grid, List, ListItem, Tooltip, Typography } from '@mui/material
 import { createFileRoute } from '@tanstack/react-router'
 import classNames from 'classnames'
 import { group } from 'radashi'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 
+import { resolveHotkeys } from '#~/helpers/hotkeys'
 import keyMap from '#~/helpers/keyMap'
-import { mapPlatformKeys } from '#~/helpers/utils'
-import controller from '#~/services/controller'
+import { useLocalSettings } from '#~/services/settings'
 
 import { ResetButton } from '../../-components/DynamicOptions'
 import AddHotkeyDialog from './-components/AddHotkeyDialog'
 import DeleteHotkeyDialog from './-components/DeleteHotkeyDialog'
 
-type HotkeysProps = {
-  keys: Record<string, string[]>,
-  shortcuts: { name: string, group: string, description?: string }[],
-  device: string,
-}
+type Deleting = { keyName: string, name: string } | null
 
-const REQUIRED_KEYS = Object
-  .values( keyMap )
-  .filter( ( { required } ) => required )
-  .reduce( ( acc, { sequences, name } ) => ( {
-    ...acc,
-    ...sequences.reduce( ( acc, key ) => ( { ...acc, [ key ]: name } ), {} ),
-  } ), {} )
+// Not driven by props from a route loader (TanStack Router's `component` doesn't accept
+// arbitrary props) - pulled directly via hooks, matching the pattern every sibling
+// settings page uses (see `DynamicOptions`/`$category.tsx`).
+const Hotkeys = () => {
+  const [ { hotkeys }, setSettings ] = useLocalSettings()
+  const device = 'local'
 
-const Hotkeys = ( { keys, shortcuts, device }: HotkeysProps ) => {
   const editable = device === 'local'
 
   const [ editing, setEditing ] = useState<string | undefined>()
-  const [ deleting, setDeleting ] = useState<{ keyName: string, name: string } | {}>()
+  const [ deleting, setDeleting ] = useState<Deleting>( null )
 
-  const mappedKeys = mapPlatformKeys( keys )
+  // Merge the catalogue's default sequences with the user's `hotkeys` setting overrides -
+  // the same `resolveHotkeys` used by GlobalHotKeys/NavigatorHotkeys/CopyHotkeys. The
+  // `hotkeys` setting defaults to `{}` (no customisations yet), so without this merge
+  // every catalogue entry the user hasn't personally rebound would resolve to
+  // `undefined` instead of falling back to its built-in sequences.
+  const resolved = useMemo( () => resolveHotkeys( keyMap, hotkeys ), [ hotkeys ] )
+
+  // Which of the catalogue's own *default* sequences are non-removable - kept separate
+  // from `resolved` (which reflects the user's current, possibly-extended sequences) so
+  // that a user-added extra key on a required entry stays deletable, only the catalogue's
+  // own required defaults are protected.
+  const catalogueDefaults = useMemo( () => resolveHotkeys( keyMap ), [] )
+  const requiredKeys = useMemo( () => catalogueDefaults.reduce( (
+    acc, { required, sequences },
+  ) => (
+    required
+      ? { ...acc, ...sequences.reduce( ( a, key ) => ( { ...a, [ key ]: true } ), {} ) }
+      : acc
+  ), {} as Record<string, boolean> ), [ catalogueDefaults ] )
+
+  const assignedKeys = useMemo( () => resolved.reduce( ( acc, { label, sequences } ) => ( {
+    ...acc,
+    ...sequences.reduce( ( a, key ) => ( { ...a, [ key ]: label } ), {} ),
+  } ), {} as Record<string, string> ), [ resolved ] )
 
   const setRecorded = ( hotkey: string ) => {
-    setEditing( null )
+    const editingLabel = editing
+    setEditing( undefined )
 
-    if ( !hotkey ) return
+    if ( !hotkey || !editingLabel ) return
 
-    const { required, sequences } = Object.values( keyMap ).find( ( { name } ) => name === editing )
+    const entry = resolved.find( ( { label } ) => label === editingLabel )
+    if ( !entry ) return
 
-    const hotkeys = Array.from( new Set( [
-      ...( required ? sequences : [] ),
-      ...keys[ editing! ],
-      hotkey,
-    ] ) )
+    const nextHotkeys = Array.from( new Set( [ ...entry.sequences, hotkey ] ) )
 
-    controller.setSettings( { hotkeys: { [ editing! ]: hotkeys } } )
+    setSettings( { hotkeys: { [ editingLabel ]: nextHotkeys } } )
   }
 
   const onDelete = ( confirmed: boolean ) => {
-    setDeleting( {} )
+    const target = deleting
+    setDeleting( null )
 
-    if ( !confirmed ) return
+    if ( !confirmed || !target ) return
 
-    const { name, keyName } = deleting
+    const entry = resolved.find( ( { label } ) => label === target.name )
+    if ( !entry ) return
 
-    const { required, sequences } = Object.values( keyMap ).find(
-      ( { name: optionName } ) => optionName === name,
-    )
+    const nextHotkeys = entry.sequences.filter( ( key ) => key !== target.keyName )
 
-    const hotkeys = Array.from( new Set( [
-      ...( required ? sequences : [] ),
-      ...mappedKeys[ name ],
-    ] ) ).filter( ( key ) => key !== keyName )
-
-    controller.setSettings( { hotkeys: { [ name ]: hotkeys } } )
+    setSettings( { hotkeys: { [ target.name ]: nextHotkeys } } )
   }
-
-  const assignedKeys = Object
-    .entries( mappedKeys )
-    .reduce( ( acc, [ name, sequences ] ) => ( {
-      ...acc,
-      ...sequences.reduce( ( acc, key ) => ( { ...acc, [ key ]: name } ), {} ),
-    } ), {} )
 
   return (
     <>
@@ -89,23 +92,23 @@ const Hotkeys = ( { keys, shortcuts, device }: HotkeysProps ) => {
         assigned={assignedKeys}
         onRecorded={setRecorded}
       />
-      <DeleteHotkeyDialog open={!!deleting.keyName} {...deleting} onClose={onDelete} />
+      <DeleteHotkeyDialog open={!!deleting} {...( deleting ?? {} )} onClose={onDelete} />
 
       <List className="hotkeys">
         {Object
-          .entries( group( shortcuts, ( { group } ) => group ) )
-          .map( ( [ groupName, hotkeys ] ) => (
+          .entries( group( resolved, ( { group: groupName } ) => groupName ) )
+          .map( ( [ groupName, groupHotkeys ] ) => (
             <ListItem key={groupName} className="group">
 
               <Typography className="name" variant="subtitle2">{groupName}</Typography>
 
               <div className="group-hotkeys">
-                {hotkeys.map( ( { name, description } ) => (
-                  <div key={name} className="hotkey">
+                {groupHotkeys?.map( ( { label, description, sequences } ) => (
+                  <div key={label} className="hotkey">
                     <Grid container className="name" alignItems="center">
 
                       <Grid item xs={4}>
-                        <Typography className="text">{name}</Typography>
+                        <Typography className="text">{label}</Typography>
                       </Grid>
 
                       <Grid item xs={1}>
@@ -119,14 +122,14 @@ const Hotkeys = ( { keys, shortcuts, device }: HotkeysProps ) => {
                       </Grid>
 
                       <Grid className={classNames( { editable }, 'keys' )} item xs={6}>
-                        {mappedKeys[ name ].map( ( key ) => (
+                        {sequences.map( ( key ) => (
                           <Button
                             key={key}
-                            className={classNames( 'key', { removable: !REQUIRED_KEYS[ key ] } )}
-                            disabled={!!REQUIRED_KEYS[ key ]}
-                            onClick={
-                              () => !REQUIRED_KEYS[ key ] && setDeleting( { keyName: key, name } )
-                            }
+                            className={classNames( 'key', { removable: !requiredKeys[ key ] } )}
+                            disabled={!!requiredKeys[ key ]}
+                            onClick={() => (
+                              !requiredKeys[ key ] && setDeleting( { keyName: key, name: label } )
+                            )}
                           >
                             {key}
                           </Button>
@@ -135,7 +138,7 @@ const Hotkeys = ( { keys, shortcuts, device }: HotkeysProps ) => {
                         <Button
                           variant="outlined"
                           className="new key"
-                          onClick={() => setEditing( name )}
+                          onClick={() => setEditing( label )}
                         >
                           Add
                         </Button>
@@ -150,7 +153,7 @@ const Hotkeys = ( { keys, shortcuts, device }: HotkeysProps ) => {
             </ListItem>
           ) )}
 
-        <ResetButton group="hotkeys" disabled={!editable} />
+        <ResetButton group="hotkeys" disabled={!editable} device={device} />
 
       </List>
 

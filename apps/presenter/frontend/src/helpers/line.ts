@@ -8,6 +8,24 @@ import vishraams from 'gurmukhi-utils/lib/vishraams.json'
 
 import { LINE_TYPES, Translations, TRANSLITERATORS, Transliterators } from './data'
 
+/**
+ * Finds the index of a line by id within an ordered list of lines. Restored here -
+ * `#~/services/controller.ts` has imported `findLineIndex` from this module all along,
+ * but the export itself was missing (a gap from the CRA -> Vite/TS port; the legacy
+ * `apps/presenter/app/frontend/src/lib/line.js` had it), so that import - and every
+ * caller relying on it (NavigatorHotkeys' previous/next-line handlers) - resolved to
+ * `undefined` and threw at call time.
+ */
+type MaybeLineId = string | null | undefined
+
+// Not memoized: a linear scan per keypress is trivial, and any cache key must include
+// the `lines` array identity - a lineId-only key returns stale indices when the same
+// line id appears in different content (e.g. shared pauris across banis).
+export const findLineIndex = (
+  lines: Line[],
+  lineId: MaybeLineId,
+) => lines.findIndex( ( { id } ) => id === lineId )
+
 export const sortBy = (
   sortOrder: Record<string, number>
 ) => (

@@ -1,13 +1,15 @@
 import { noop } from 'radashi'
-import { useCallback, useContext, useEffect } from 'react'
+import { useCallback, useContext, useEffect, useMemo } from 'react'
 
 import { getJumpLines } from '#~/helpers/auto-jump'
 import { HistoryContext } from '#~/helpers/contexts'
-import { LINE_HOTKEYS, NAVIGATOR_SHORTCUTS } from '#~/helpers/keyMap'
+import { HotkeyHandlerMap, lineHotkeyEntries, resolveGroup } from '#~/helpers/hotkeys'
+import { NAVIGATOR_SHORTCUTS } from '#~/helpers/keyMap'
+import { findLineIndex } from '#~/helpers/line'
 import { useWindowFocus } from '#~/hooks'
 import { setLine, setNextContent, setPreviousContent, useContent } from '#~/services/content'
-import controller from '#~/services/controller'
 import { useLocalSettings } from '#~/services/settings'
+import { setMainLine as setTrackerMainLine, useTracker } from '#~/services/tracker'
 
 import GlobalHotKeys from './GlobalHotKeys'
 
@@ -24,8 +26,13 @@ const NavigatorHotKeys = (
 
   const { content, lineId } = useContent()
   const lines = content?.lines
+  const { mainLineId, nextLineId } = useTracker()
 
-  const goFirstLine = () => {
+  // firstLine/lastLine preventDefault explicitly, despite being non-`required` in the
+  // catalogue, because they still fight Home/End/ctrl+up/ctrl+down's native scroll.
+  const goFirstLine = ( event: KeyboardEvent ) => {
+    event.preventDefault()
+
     if ( !lines ) return
 
     const [ firstLine ] = lines
@@ -35,7 +42,9 @@ const NavigatorHotKeys = (
     else setLine( firstLine.id )
   }
 
-  const goLastLine = () => {
+  const goLastLine = ( event: KeyboardEvent ) => {
+    event.preventDefault()
+
     if ( !lines ) return
 
     const lastLine = lines[ lines.length - 1 ]
@@ -58,14 +67,14 @@ const NavigatorHotKeys = (
 
     if ( lineId || !ids ) return
 
-    controller.line( ids[ ids.length - 1 ] )
+    setLine( ids[ ids.length - 1 ] )
   }
 
-  const setMainLine = () => lineId && controller.mainLine( lineId )
+  const setMainLine = () => lineId && setTrackerMainLine( lineId )
 
-  const goMainLine = () => mainLineId && controller.line( mainLineId )
+  const goMainLine = () => mainLineId && setLine( mainLineId )
 
-  const goJumpLine = () => nextLineId && controller.line( nextLineId )
+  const goJumpLine = () => nextLineId && setLine( nextLineId )
 
   const goPreviousLine = useCallback( () => {
     if ( !lines ) return
@@ -74,7 +83,7 @@ const NavigatorHotKeys = (
     const { id } = lines[ currentLineIndex ] || {}
 
     if ( id && currentLineIndex > 0 ) {
-      controller.line( lines[ currentLineIndex - 1 ].id )
+      setLine( lines[ currentLineIndex - 1 ].id )
     }
   }, [ lines, lineId ] )
 
@@ -98,27 +107,26 @@ const NavigatorHotKeys = (
     const { id } = lines[ currentLineIndex ] || {}
 
     if ( id && currentLineIndex < lines.length - 1 ) {
-      controller.line( lines[ currentLineIndex + 1 ].id )
+      setLine( lines[ currentLineIndex + 1 ].id )
     }
   }, [ lines, lineId, mouseTargetRef ] )
 
   const goToIndex = ( index ) => {
     if ( !lines ) return
 
-    const jumpLines = getJumpLines( { shabad, bani } )
+    // Pre-existing bug fixed in passing: matches the sibling, working call in
+    // app/presenter/controller/navigator/index.tsx's own `goToIndex` - `getJumpLines`
+    // takes the whole `content` object, not an (undefined) `{ shabad, bani }`.
+    const jumpLines = getJumpLines( content )
     const id = jumpLines[ index ]
 
-    controller.line( id )
+    setLine( id )
   }
 
-  const preventDefault = ( events ) => Object.entries( events )
-    .reduce( ( events, [ name, handler ] ) => ( {
-      ...events,
-      [ name ]: ( event ) => event.preventDefault() || handler( event ),
-    } ), {} )
-
   // Navigation Hotkey Handlers
-  const hotKeyHandlers = preventDefault( {
+  // (not typed as `HotkeyHandlerMap` - several of these predate this migration with
+  // looser, non-KeyboardEvent handler signatures, e.g. goNextLine's mouse-shaped param)
+  const hotKeyHandlers = {
     [ NAVIGATOR_SHORTCUTS.previousLine.name ]: goPreviousLine,
     [ NAVIGATOR_SHORTCUTS.nextLine.name ]: goNextLine,
     [ NAVIGATOR_SHORTCUTS.firstLine.name ]: goFirstLine,
@@ -128,20 +136,34 @@ const NavigatorHotKeys = (
     [ NAVIGATOR_SHORTCUTS.setMainLine.name ]: setMainLine,
     [ NAVIGATOR_SHORTCUTS.goJumpLine.name ]: goJumpLine,
     [ NAVIGATOR_SHORTCUTS.goMainLine.name ]: goMainLine,
-    ...LINE_HOTKEYS.reduce( ( handlers, key, i ) => ( {
-      ...handlers,
-      [ key ]: () => goToIndex( i ),
-    } ), {} ),
-  } )
-
-  const numberKeyMap = LINE_HOTKEYS.reduce( ( keymap, hotkey ) => ( {
-    ...keymap,
-    [ hotkey ]: [ hotkey ],
-  } ), {} )
+  }
 
   const [ { hotkeys } ] = useLocalSettings()
 
-  const keyMap = { ...hotkeys, ...numberKeyMap }
+  // Merge the catalogue's default sequences with the user's `hotkeys` setting overrides
+  const resolvedNavigator = useMemo(
+    () => resolveGroup( NAVIGATOR_SHORTCUTS, hotkeys ),
+    [ hotkeys ],
+  )
+
+  // LINE_HOTKEYS (jump-to-line) aren't settings-configurable - a fixed, ordered alphabet
+  const { resolved: lineResolved, handlers: lineHandlers } = useMemo(
+    () => lineHotkeyEntries( goToIndex ),
+    [ goToIndex ],
+  )
+
+  const keyMap = useMemo( () => Object.fromEntries(
+    [ ...resolvedNavigator, ...lineResolved ].map( ( { label, sequences } ) => [ label, sequences ] ),
+  ), [ resolvedNavigator, lineResolved ] )
+
+  const required = useMemo( () => Object.fromEntries(
+    resolvedNavigator.map( ( { label, required: isRequired } ) => [ label, isRequired ] ),
+  ), [ resolvedNavigator ] )
+
+  const allHandlers = useMemo(
+    () => ( { ...hotKeyHandlers, ...lineHandlers } ),
+    [ lineHandlers, goPreviousLine, goNextLine, autoToggle, restoreLine, setMainLine, goMainLine, goJumpLine ],
+  )
 
   const windowFocused = useWindowFocus()
 
@@ -170,11 +192,14 @@ const NavigatorHotKeys = (
     )
   }, [ mouseTargetRef, active, goNextLine, goPreviousLine, autoToggle, windowFocused ] )
 
+  // `allHandlers` includes goNextLine, whose (pre-existing, untyped) mouse-event-shaped
+  // parameter predates `HotkeyHandlerMap`'s stricter `(event: KeyboardEvent) => void`
+  // contract - cast at this boundary rather than loosening that contract for everyone.
   return (
-    <GlobalHotKeys keyMap={keyMap} handlers={active ? hotKeyHandlers : {}}>
+    <GlobalHotKeys keyMap={keyMap} handlers={( active ? allHandlers : {} ) as HotkeyHandlerMap} required={required}>
       {children}
     </GlobalHotKeys>
   )
 }
 
-export default ( { children } ) => children
+export default NavigatorHotKeys

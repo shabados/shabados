@@ -29,8 +29,10 @@ const isBaniJumpLine = ( baniId, lines ) => (
 export const getJumpLines = memoize( ( content: ClientEventParameters['content:current'] ) => {
   if ( !content?.lines ) return {}
 
+  const { lines } = content
+
   // Get a function for determining whether a line is jumpable
-  const isJumpLine = content.type === 'bani' ? isBaniJumpLine( content.id, content.lines ) : () => true
+  const isJumpLine = content.type === 'bani' ? isBaniJumpLine( content.id, lines ) : () => true
 
   // Go over each line, and tag which lines are jumpable
   const { jumpLines } = lines.reduce( ( { jumpLines, jumpIndex }, line, lineIndex ) => ( {

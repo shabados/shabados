@@ -16,15 +16,11 @@ import ListItem from '@mui/material/ListItem'
 import { createFileRoute } from '@tanstack/react-router'
 import classNames from 'classnames'
 import { stripVishraams } from 'gurmukhi-utils'
-import { invert } from 'radashi'
-import { useCallback, useContext, useEffect, useMemo, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 
-import GlobalHotKeys from '#~/components/GlobalHotKeys'
 import { withNavigationHotkeys } from '#~/components/NavigationHotkeys'
 import NavigatorHotKeys from '#~/components/NavigatorHotkeys'
-import { getJumpLines, getNextJumpLine } from '#~/helpers/auto-jump'
 import { HistoryContext } from '#~/helpers/contexts'
-import { LINE_HOTKEYS } from '#~/helpers/keyMap'
 import { setLine, useContent } from '#~/services/content'
 import { useTracker } from '#~/services/tracker'
 
@@ -101,23 +97,10 @@ const Navigator = ( { updateFocus, register, focused }: NavigatorProps ) => {
   // Set the focus to the active line when it changes
   useEffect( () => { updateFocus( lineId, false ) }, [ lineId, updateFocus ] )
 
-  const goToIndex = useCallback( ( index ) => {
-    const jumpLines = getJumpLines( content )
-    updateFocus( jumpLines[ index ] )
-  }, [ updateFocus, content ] )
-
-  // Navigation Hotkey Handlers
-  const hotKeyHandlers = useMemo( () => ( {
-    ...LINE_HOTKEYS.reduce( ( handlers, key, i ) => ( {
-      ...handlers,
-      [ key ]: () => goToIndex( i ),
-    } ), {} ),
-  } ), [ goToIndex ] )
-
-  const numberKeyMap = useMemo( () => LINE_HOTKEYS.reduce( ( keymap, hotkey ) => ( {
-    ...keymap,
-    [ hotkey ]: [ hotkey ],
-  } ), {} ), [] )
+  // LINE_HOTKEYS (jump-to-line) are owned by the wrapping NavigatorHotKeys component -
+  // registering them here too would double-bind the same keys with divergent indices
+  // for banis (getJumpLines-filtered vs raw). Focus follows the line change via the
+  // updateFocus effect above.
 
   // If there's no Shabad to show, go back to the controller
   // if ( !lines.length ) return <Navigate to={{ ...location, pathname: SEARCH_URL }} replace />
@@ -126,28 +109,28 @@ const Navigator = ( { updateFocus, register, focused }: NavigatorProps ) => {
   // const nextLineId = getNextJumpLine( { content, lineId } )
 
   return (
-    <GlobalHotKeys keyMap={numberKeyMap} handlers={hotKeyHandlers}>
-      <List className="navigator" onKeyDown={( e ) => e.preventDefault()}>
-        {lines?.map( ( line ) => (
-          <NavigatorLine
-            key={line.id}
-            {...line}
-            focused={line.id === focused}
-            // main={mainLineId === line.id}
-            // next={nextLineId === line.id}
-            // hotkey={LINE_HOTKEYS[ jumpLines[ line.id ] ]}
-            register={register}
-            timestamp={viewedLines[ line.id ]}
-          />
-        ) ) }
-      </List>
-    </GlobalHotKeys>
+    <List className="navigator" onKeyDown={( e ) => e.preventDefault()}>
+      {lines?.map( ( line ) => (
+        <NavigatorLine
+          key={line.id}
+          {...line}
+          focused={line.id === focused}
+          // main={mainLineId === line.id}
+          // next={nextLineId === line.id}
+          // hotkey={LINE_HOTKEYS[ jumpLines[ line.id ] ]}
+          register={register}
+          timestamp={viewedLines[ line.id ]}
+        />
+      ) ) }
+    </List>
   )
 }
 
 const NavigatorNavigationHotkeys = withNavigationHotkeys( {
   arrowKeys: true,
-  lineKeys: true,
+  // Line keys are owned by NavigatorHotKeys (getJumpLines-aware); the focus-roving
+  // raw-index variant would jump to the wrong line for banis.
+  lineKeys: false,
   clickOnFocus: true,
   wrapAround: false,
   keymap: {

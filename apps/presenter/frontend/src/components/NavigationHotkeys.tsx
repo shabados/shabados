@@ -1,197 +1,193 @@
-import { Component, forwardRef, ReactInstance } from 'react'
-import { findDOMNode } from 'react-dom'
+import { ComponentType, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
+import { HotkeyHandlerMap, ResolvedHotkey, useHotkeys } from '#~/helpers/hotkeys'
 import { LINE_HOTKEYS } from '#~/helpers/keyMap'
 import { debounceHotKey, scrollIntoCenter } from '#~/helpers/utils'
 
-import GlobalHotKeys from './GlobalHotKeys'
+type Name = string | number
 
 const isInput = ( element: Element ) => element instanceof HTMLElement && element.tagName.toLowerCase() === 'input'
 
-const preventDefault = ( fn: ( event: Event ) => any ) => ( event: Event ) => {
+const preventDefault = ( fn: ( event: KeyboardEvent ) => void ) => ( event: KeyboardEvent ) => {
   event.preventDefault()
   fn( event )
 }
 
-type NavigationHotkeysProps = {
-  forwardedRef?: InstanceType<typeof NavigationHotkeys>,
+export type FocusRovingKeymap = {
+  next?: string[] | null,
+  previous?: string[] | null,
+  first?: string[] | null,
+  last?: string[] | null,
+  enter?: string[] | null,
 }
 
-type WithNavigationHotkeysProps = {
+export type FocusRovingOptions = {
   arrowKeys?: boolean,
   lineKeys?: boolean,
   clickOnFocus?: boolean,
-  keymap?: Keymap,
+  keymap?: FocusRovingKeymap,
   wrapAround?: boolean,
 }
 
-type Keymap = {
-  next: string[],
-  previous: string[],
-  first: string[] | null,
-  last: string[] | null,
+export type FocusRovingApi = {
+  register: ( name: Name, node: HTMLElement | null ) => void,
+  updateFocus: ( name: Name, click?: boolean ) => void,
+  focused: Name | undefined,
 }
 
-type State = {
-  focusedIndex: number,
+const DEFAULT_KEYMAP: Required<FocusRovingKeymap> = {
+  next: [ 'down', 'right', 'tab', 'PageDown', 'l' ],
+  previous: [ 'up', 'left', 'shift+tab', 'PageUp', 'j' ],
+  first: [ 'home', 'ctrl+up' ],
+  last: [ 'end', 'ctrl+down' ],
+  enter: [ 'enter', 'return' ],
 }
 
-export const withNavigationHotkeys = ( {
+/**
+ * Ref-based, hook-first replacement for the legacy `withNavigationHotkeys` class HOC.
+ * No findDOMNode, no class component - `register` is handed real DOM nodes directly by
+ * every consumer (MUI components forward refs straight through to their underlying DOM
+ * element), so this holds them in a plain ref map and never needs `react-dom`.
+ *
+ * Not settings-configurable: `keymap`'s defaults are a hardcoded literal here, exactly
+ * as they were on the legacy class - arrow/tab/line focus-roving was never wired to
+ * `useLocalSettings()`, only the named catalogue shortcuts (Global/Navigator/Copy) are.
+ */
+export const useFocusRoving = ( {
   arrowKeys = true,
-  lineKeys,
-  clickOnFocus,
-  keymap,
+  lineKeys = false,
+  clickOnFocus = false,
+  keymap: keymapOverride,
   wrapAround = true,
-}: WithNavigationHotkeysProps ) => ( WrappedComponent: Component ) => {
-  class NavigationHotkeys extends Component<NavigationHotkeysProps, State> {
-    nodes: Map<string, ReactInstance>
-    handlers: any
-    constructor( props: NavigationHotkeysProps ) {
-      let newProps = { ...props }
+}: FocusRovingOptions = {} ): FocusRovingApi => {
+  const nodesRef = useRef( new Map<Name, HTMLElement>() )
+  const [ focusedIndex, setFocusedIndex ] = useState( 0 )
+  const [ focused, setFocused ] = useState<Name | undefined>()
 
-      if ( !props.forwardedRef ) newProps = { ...props, forwardedRef: null }
-      super( newProps )
+  const focusedIndexRef = useRef( focusedIndex )
+  focusedIndexRef.current = focusedIndex
 
-      this.state = { focusedIndex: 0 }
+  const register = useCallback( ( name: Name, node: HTMLElement | null ) => {
+    if ( node ) nodesRef.current.set( name, node )
+    else nodesRef.current.delete( name )
+  }, [] )
 
-      // Stores the ref to the parent containing the children
-      this.nodes = new Map()
+  // Stable across renders (like the class field it replaces) so the debounce's
+  // internal "leading" timer isn't reset on every render.
+  const simulateClick = useMemo( () => debounceHotKey( () => {
+    const node = [ ...nodesRef.current.values() ][ focusedIndexRef.current ]
+    if ( node ) node.click()
+  } ), [] )
 
-      // Generate the handlers in advance
-      this.handlers = {
-        ...( arrowKeys && this.arrowHandlers ),
-        ...( lineKeys && this.lineHandlers ),
-      }
-    }
+  const jumpTo = useCallback( ( index: number, click = true ) => {
+    // Update the ref synchronously, ahead of the (batched, async) state update - so that
+    // `simulateClick`'s synchronous leading-edge call (below) reads the node we just
+    // navigated to, not the one about to be replaced.
+    focusedIndexRef.current = index
+    setFocusedIndex( index )
+    if ( clickOnFocus && click ) simulateClick()
+  }, [ clickOnFocus, simulateClick ] )
 
-    componentDidMount() {
-      this.setNodeSize()
-      this.setFocus()
-    }
+  const jumpToName = useCallback( ( name: Name, click = true ) => {
+    const index = [ ...nodesRef.current.keys() ].findIndex( ( key ) => key === name )
+    jumpTo( index, click )
+  }, [ jumpTo ] )
 
-    componentDidUpdate( _, { focusedIndex: prevFocusedIndex }: State ) {
-      const { focusedIndex } = this.state
+  const jumpToFirst = useCallback( () => {
+    const index = [ ...nodesRef.current.values() ].findIndex( ( node ) => !isInput( node ) )
+    jumpTo( index )
+  }, [ jumpTo ] )
 
-      if ( prevFocusedIndex === focusedIndex ) return
+  const prevItem = useCallback( () => {
+    const prevIndex = focusedIndexRef.current
 
-      this.setNodeSize()
-      this.setFocus()
-    }
+    if ( !wrapAround && prevIndex === 0 ) return
 
-    setNodeSize = () => this.nodes.forEach( ( value, key ) => ( (
-      value || this.nodes.delete( key ) )
-    ) )
+    const { size } = nodesRef.current
+    jumpTo( prevIndex > 0 ? prevIndex - 1 : size - 1 )
+  }, [ wrapAround, jumpTo ] )
 
-    setFocus = () => {
-      const { focusedIndex } = this.state
+  const nextItem = useCallback( () => {
+    const prevIndex = focusedIndexRef.current
+    const { size } = nodesRef.current
 
-      // Find the DOM node for the child to focus, and focus it
-      // eslint-disable-next-line react/no-find-dom-node
-      const node = findDOMNode( [ ...this.nodes.values() ][ focusedIndex ] )
-      if ( node ) scrollIntoCenter( node )
-    }
+    if ( !wrapAround && prevIndex === size - 1 ) return
 
-    simulateClick = debounceHotKey( () => {
-      const { focusedIndex } = this.state
+    jumpTo( prevIndex < size - 1 ? prevIndex + 1 : 0 )
+  }, [ wrapAround, jumpTo ] )
 
-      // Simulate a click on the focused element if possible
-      // eslint-disable-next-line react/no-find-dom-node
-      const node = findDOMNode( [ ...this.nodes.values() ][ focusedIndex ] )
-      if ( node ) {
-        ( node as HTMLElement ).click()
-      }
+  // Scroll the focused node into view whenever focus moves (and purge any stale (null)
+  // registrations first) - mirrors the legacy class's componentDidMount/componentDidUpdate.
+  // Also (re-)derives the `focused` *name* here, rather than reading `nodesRef` directly
+  // during render: refs are only populated by children's ref callbacks during commit,
+  // strictly after this render function has already returned, so a direct read at render
+  // time is always one commit stale (invisible on the legacy class too, but only because
+  // some unrelated prop change always re-rendered it again very shortly after mount in
+  // practice) - deriving it via this effect makes the very first paint correct too.
+  useEffect( () => {
+    nodesRef.current.forEach( ( node, name ) => {
+      if ( !node ) nodesRef.current.delete( name )
     } )
 
-    jumpToName = ( name: string, click = true ) => this.jumpTo(
-      [ ...this.nodes.keys() ].findIndex( ( key ) => key === name ),
-      click,
-    )
+    const name = [ ...nodesRef.current.keys() ][ focusedIndex ]
+    setFocused( name )
 
-    jumpTo = ( focusedIndex: number, click = true ) => {
-      this.setState( { focusedIndex } )
+    const node = name !== undefined ? nodesRef.current.get( name ) : undefined
+    if ( node ) scrollIntoCenter( node )
+  }, [ focusedIndex ] )
 
-      // Click on navigation if set
-      if ( clickOnFocus && click ) {
-        this.simulateClick()
-      }
-    }
+  const arrowHandlers: HotkeyHandlerMap = useMemo( () => ( {
+    first: preventDefault( jumpToFirst ),
+    last: preventDefault( () => jumpTo( nodesRef.current.size - 1 ) ),
+    previous: preventDefault( prevItem ),
+    next: preventDefault( nextItem ),
+    enter: simulateClick,
+  } ), [ jumpToFirst, jumpTo, prevItem, nextItem, simulateClick ] )
 
-    jumpToFirst = () => {
-      const index = [ ...this.nodes.values() ].findIndex( ( element ) => !isInput( element ) )
+  const lineHandlers: HotkeyHandlerMap = useMemo( () => LINE_HOTKEYS.reduce( ( handlers, key, index ) => ( {
+    ...handlers,
+    [ key ]: () => jumpTo( index ),
+  } ), {} as HotkeyHandlerMap ), [ jumpTo ] )
 
-      this.jumpTo( index )
-    }
+  const keymap = useMemo( () => ( {
+    next: DEFAULT_KEYMAP.next,
+    previous: DEFAULT_KEYMAP.previous,
+    ...( !clickOnFocus && { enter: DEFAULT_KEYMAP.enter } ),
+    first: DEFAULT_KEYMAP.first,
+    last: DEFAULT_KEYMAP.last,
+    ...( lineKeys && LINE_HOTKEYS.reduce( ( acc, hotkey ) => ( { ...acc, [ hotkey ]: [ hotkey ] } ), {} ) ),
+    ...keymapOverride,
+  } ), [ clickOnFocus, lineKeys, keymapOverride ] )
 
-    prevItem = () => {
-      const { focusedIndex: prevIndex } = this.state
+  const resolved: ResolvedHotkey[] = useMemo( () => Object
+    .entries( keymap )
+    .map( ( [ name, sequences ] ) => ( {
+      name,
+      label: name,
+      group: '',
+      required: false,
+      sequences: sequences ?? [],
+    } ) ), [ keymap ] )
 
-      if ( !wrapAround && prevIndex === 0 ) return
+  const handlers: HotkeyHandlerMap = useMemo( () => ( {
+    ...( arrowKeys && arrowHandlers ),
+    ...( lineKeys && lineHandlers ),
+  } ), [ arrowKeys, lineKeys, arrowHandlers, lineHandlers ] )
 
-      // Set the previous focus, with wrap-around
-      const focusedIndex = prevIndex > 0 ? prevIndex - 1 : this.nodes.size - 1
+  useHotkeys( resolved, handlers, { target: window, active: true } )
 
-      this.jumpTo( focusedIndex )
-    }
+  return { register, updateFocus: jumpToName, focused }
+}
 
-    nextItem = () => {
-      const { focusedIndex: prevIndex } = this.state
+/**
+ * Thin, consumer-facing wrapper preserving the exact call shape every route/controller
+ * file already uses: `withNavigationHotkeys({...})(Component)`, injecting `register`/
+ * `updateFocus`/`focused` props - same names, same behaviour as the legacy HOC.
+ */
+export const withNavigationHotkeys = ( options: FocusRovingOptions = {} ) => (
+  WrappedComponent: ComponentType<any>,
+) => ( props: any ) => {
+  const api = useFocusRoving( options )
 
-      if ( !wrapAround && prevIndex === this.nodes.size - 1 ) return
-
-      // Set the next focus, with wrap-around
-      const focusedIndex = prevIndex < this.nodes.size - 1 ? prevIndex + 1 : 0
-
-      this.jumpTo( focusedIndex )
-    }
-
-    registerRef = ( name, ref ) => this.nodes.set( name, ref )
-
-    lineHandlers = LINE_HOTKEYS.reduce( ( handlers, key, i ) => ( {
-      ...handlers,
-      [ key ]: () => this.jumpTo( i ),
-    } ), {} )
-
-    arrowHandlers = {
-      first: preventDefault( this.jumpToFirst ),
-      last: preventDefault( () => this.jumpTo( this.nodes.size - 1 ) ),
-      previous: preventDefault( this.prevItem ),
-      next: preventDefault( this.nextItem ),
-      enter: this.simulateClick,
-    }
-
-    keymap = {
-      next: [ 'down', 'right', 'tab', 'PageDown', 'l' ],
-      previous: [ 'up', 'left', 'shift+tab', 'PageUp', 'j' ],
-      ...( !clickOnFocus && { enter: [ 'enter', 'return' ] } ),
-      first: [ 'home', 'ctrl+up' ],
-      last: [ 'end', 'ctrl+down' ],
-      ...( lineKeys && LINE_HOTKEYS.reduce( ( keymap, hotkey ) => ( {
-        ...keymap,
-        [ hotkey ]: [ hotkey ],
-      } ), {} ) ),
-      ...keymap,
-    }
-
-    render() {
-      const { forwardedRef, ...rest } = this.props
-      const { focusedIndex } = this.state
-
-      // Get the name of the currently focused element
-      const focused = [ ...this.nodes.keys() ][ focusedIndex ]
-
-      return (
-        <GlobalHotKeys handlers={this.handlers} keyMap={this.keymap}>
-          <WrappedComponent
-            {...rest}
-            ref={forwardedRef}
-            register={this.registerRef}
-            updateFocus={this.jumpToName}
-            focused={focused}
-          />
-        </GlobalHotKeys>
-      )
-    }
-  }
-
-  return forwardRef( ( props, ref ) => <NavigationHotkeys {...props} forwardedRef={ref} /> )
+  return <WrappedComponent {...props} {...api} />
 }

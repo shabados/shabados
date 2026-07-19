@@ -1,9 +1,10 @@
 import { stripVishraams, toUnicode } from 'gurmukhi-utils'
 import { mapValues } from 'radashi'
-import { ReactNode, useContext } from 'react'
+import { ReactNode, useContext, useMemo } from 'react'
 
 import { RecommendedSourcesContext, WritersContext } from '#~/helpers/contexts'
 import { LANGUAGES, SOURCE_ABBREVIATIONS } from '#~/helpers/data'
+import { resolveGroup } from '#~/helpers/hotkeys'
 import { COPY_SHORTCUTS } from '#~/helpers/keyMap'
 import { customiseLine, getTransliterators } from '#~/helpers/line'
 import { useCopyToClipboard, useTranslations } from '#~/hooks'
@@ -18,7 +19,7 @@ type CopyHotkeysProps = {
 
 const CopyHotkeys = ( { children }: CopyHotkeysProps ) => {
   const [ { hotkeys, lineEnding } ] = useLocalSettings()
-  const { lines, line } = useContent()
+  const { content, lines, line } = useContent()
 
   // Get Shabad, writer, sources for getting the author
   const writers = useContext( WritersContext )
@@ -75,12 +76,20 @@ const CopyHotkeys = ( { children }: CopyHotkeysProps ) => {
     [ COPY_SHORTCUTS.copyHindiTransliteration.name, () => stripVishraams( transliterators[ LANGUAGES.hindi ]() ), 'hindi transliteration' ],
     [ COPY_SHORTCUTS.copyUrduTransliteration.name, () => stripVishraams( transliterators[ LANGUAGES.urdu ]() ), 'urdu transliteration' ],
     [ COPY_SHORTCUTS.copyCitation.name, () => getAuthor(), 'citation' ],
-  ].reduce( ( hotkeys, [ name, getContent, fieldName ] ) => ( {
-    ...hotkeys,
+  ].reduce( ( handlers, [ name, getContent, fieldName ] ) => ( {
+    ...handlers,
     [ name ]: () => copyToClipboard( line && getContent(), `No ${fieldName} available to copy` ),
   } ), {} )
+
+  // Merge the catalogue's default sequences with the user's `hotkeys` setting overrides
+  const resolvedCopy = useMemo( () => resolveGroup( COPY_SHORTCUTS, hotkeys ), [ hotkeys ] )
+
+  const keyMap = useMemo( () => Object.fromEntries(
+    resolvedCopy.map( ( { label, sequences } ) => [ label, sequences ] ),
+  ), [ resolvedCopy ] )
+
   return (
-    <GlobalHotKeys keyMap={hotkeys} handlers={hotkeyHandlers}>
+    <GlobalHotKeys keyMap={keyMap} handlers={hotkeyHandlers}>
       {children}
     </GlobalHotKeys>
   )

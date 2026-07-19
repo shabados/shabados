@@ -1,39 +1,37 @@
-import { mapValues } from 'radashi'
-import { ReactNode } from 'react'
-import { configure, GlobalHotKeys as HotKeys } from 'react-hotkeys/es'
-import KeyEventManager from 'react-hotkeys/es/lib/KeyEventManager'
+import { ReactNode, useMemo } from 'react'
 
-import { KeyMap, mapPlatformKeys } from '#~/helpers/utils'
-
-/**
- * React hotkeys activates `g g` twice when pressing `g g g`,
- * because it listens to a "rolling window" of keyChords.
- *
- * Clear the key history after each sequence using this workaround:
- * https://github.com/greena13/react-hotkeys/issues/255#issuecomment-558199060.
- */
-export const clearHotKey = ( handler ) => ( event: Event ) => {
-  // eslint-disable-next-line no-underscore-dangle
-  KeyEventManager.getInstance()._clearKeyHistory()
-  return handler( event )
-}
-
-configure( {
-  ignoreKeymapAndHandlerChangesByDefault: false,
-  ignoreTags: [],
-} )
+import { HotkeyHandlerMap, ResolvedHotkey, useHotkeys } from '#~/helpers/hotkeys'
+import { KeyMap } from '#~/helpers/utils'
 
 type GlobalHotKeysProps = {
   keyMap: KeyMap,
-  handlers: any,
+  handlers: HotkeyHandlerMap,
+  /** Per-entry `required` flags (same keys as `keyMap`/`handlers`) - required entries
+   *  get an automatic `event.preventDefault()` before their handler runs. Entries
+   *  absent from this map default to `required: false`. */
+  required?: Record<string, boolean>,
+  children?: ReactNode,
 }
 
-const GlobalHotKeys = ( { keyMap, handlers, ...props }: GlobalHotKeysProps ) => (
-  <HotKeys
-    keyMap={mapPlatformKeys( keyMap )}
-    handlers={mapValues( handlers, clearHotKey )}
-    {...props}
-  />
-)
+const GlobalHotKeys = ( {
+  keyMap, handlers, required = {}, children = null,
+}: GlobalHotKeysProps ) => {
+  // Platform (ctrl->cmd) mapping is the caller's responsibility: every consumer builds
+  // its keyMap via resolveHotkeys/resolveGroup, which already applies it. Mapping again
+  // here would silently double-transform if the remap ever became non-idempotent.
+  const resolved: ResolvedHotkey[] = useMemo( () => Object
+    .entries( keyMap )
+    .map( ( [ name, sequences ] ) => ( {
+      name,
+      label: name,
+      group: '',
+      required: !!required[ name ],
+      sequences: sequences ?? [],
+    } ) ), [ keyMap, required ] )
 
-export default ( { children }: { children: ReactNode } ) => children
+  useHotkeys( resolved, handlers, { target: window, active: true } )
+
+  return children
+}
+
+export default GlobalHotKeys

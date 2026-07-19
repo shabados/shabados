@@ -53,10 +53,10 @@
     "partysocket": "^1.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-hotkeys": "^2.0.0",
     "react-idle-timer": "^5.7.2",
     "react-transition-group": "^4.4.5",
     "scroll-into-view": "^1.16.0",
+    "tinykeys": "^4.0.0",
     "zod": "^3.8.2-alpha.6"
   },
   "devDependencies": {

@@ -3,9 +3,9 @@ import './HotkeyDialog.css'
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Typography } from '@mui/material'
 import { bool, func, objectOf, string } from 'prop-types'
 import { useCallback, useEffect, useState } from 'react'
-import { recordKeyCombination } from 'react-hotkeys'
 
 import { isMac } from '#~/helpers/consts'
+import { recordSequence } from '#~/helpers/hotkeys'
 import { LINE_HOTKEYS, RESTRICTED_STROKES } from '#~/helpers/keyMap'
 import { mapPlatformKey } from '#~/helpers/utils'
 
@@ -115,7 +115,7 @@ const AddHotkeyDialog = ( { open, name, onRecorded, assigned } ) => {
     } )
   }, [ setHotkey, setError, hotkey, hotkeyStr, assigned ] )
 
-  useEffect( () => recordKeyCombination( recordHotkey ), [ recordHotkey, error, hotkey ] )
+  useEffect( () => recordSequence( recordHotkey ), [ recordHotkey, error, hotkey ] )
 
   return (
     <Dialog className="hotkey-dialog" open={open} onClose={() => onRecorded()}>
