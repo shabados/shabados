@@ -3,7 +3,7 @@ import { ensureAppFolders, getLogger } from '@presenter/node'
 import createActionsModule from '#~/features/actions'
 
 // eslint-disable-next-line import/no-relative-packages
-import { version } from '../../../package.json'
+import { version } from '../../package.json'
 import { handleError } from './error'
 import createBookmarksModule from './features/bookmarks'
 import createContentModule from './features/content'
