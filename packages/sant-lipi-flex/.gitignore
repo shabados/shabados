@@ -1,0 +1,12 @@
+# Claude Code
+.claude/
+
+# Python
+.venv/
+.direnv/
+__pycache__/
+
+# Fontmake intermediates
+variable_ttf/
+instance_ttf/
+instance_woff2/

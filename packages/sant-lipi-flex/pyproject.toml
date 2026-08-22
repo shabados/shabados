@@ -1,0 +1,34 @@
+[build-system]
+requires = ["uv_build>=0.11,<0.12"]
+build-backend = "uv_build"
+
+[project]
+name = "santlipiflex"
+version = "0.1.0"
+description = "An experimental variable font for extraordinary Gurmukhi"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "OFL-1.1-RFN"
+authors = [
+  { name="Bhajneet S.K.", email="bhajneet@gmail.com"},
+]
+dependencies = [
+    "fontmake",
+    "fonttools[woff]",
+]
+
+[project.scripts]
+make = "santlipiflex:main"
+fmt = "santlipiflex:fmt"
+
+[dependency-groups]
+dev = [
+    "ruff",
+]
+
+[tool.uv.build-backend]
+module-root = ""
+
+[tool.ruff.lint]
+# pycodestyle, pyflakes, isort
+select = ["E", "F", "I"]
