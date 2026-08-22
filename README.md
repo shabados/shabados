@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/shabados/presenter/dev/resources/icon.png" width="96" alt="Shabad OS">
-
 # Shabad OS
 
 Shabad OS is free, open-source software built by and for the Sikh sangat — a presentation app for projecting shabads in gurdwaras and live streams, a digital corpus of Sikh scripture and Panthic texts, and the text-processing tools underneath both. It exists so that gurbani is accurately, transparently, and freely accessible to anyone who wants to build with it.
@@ -40,7 +38,7 @@ Run this after cloning (or after `git clone --no-checkout` + `git sparse-checkou
 ## Links
 
 - [shabados.com](https://www.shabados.com/) — the project's home
-- [Docs](https://docs.shabados.com) — guides, API reference
+- [Docs](https://shabados.com/docs) — guides, API reference
 - [Slack](https://chat.shabados.com/) — community chat
 - [Instagram](https://www.instagram.com/shabad_os/) · [Twitter/X](https://twitter.com/shabad_os/)
 
