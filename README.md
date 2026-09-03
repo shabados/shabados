@@ -33,7 +33,11 @@ bun install
 git sparse-checkout set --no-cone '/*' '!database/collections'
 ```
 
-Run this after cloning (or after `git clone --no-checkout` + `git sparse-checkout init --no-cone`, if you also want to avoid ever fetching those blobs). See [docs/architecture.md](docs/architecture.md) for the full sparse-checkout story and the rest of the monorepo layout.
+Run this after cloning (or after `git clone --no-checkout` + `git sparse-checkout init --no-cone`, if you also want to avoid ever fetching those blobs).
+
+## Docs
+
+Start at [docs/](docs/README.md) — the index, with a one-screen summary of what is decided and what is still open. From there: [requirements/](docs/requirements/) is the source of truth for behaviour, [architecture/decisions/](docs/architecture/decisions/) records why, and [architecture/](docs/architecture/README.md) covers monorepo layout, the dependency graph, and the full sparse-checkout story.
 
 ## Links
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The framework window theme, which is separate from Compose's MaterialTheme and
+     is the only thing that can colour the window itself. windowBackground is what
+     shows before the first frame renders and behind any transparent area, so it
+     must track the palette or you get a pale flash on launch in dark mode.
+
+     values-night/ carries the dark counterpart; @color/background resolves per
+     night mode from the generated design_tokens.xml. -->
+<resources>
+    <style name="Theme.ShabadOS" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>

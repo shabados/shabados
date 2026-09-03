@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sampled from brand/assets/lotus.svg (the icon background radial gradient). -->
+<resources>
+    <color name="brand_magenta">#BA1E62</color>
+    <color name="brand_maroon">#300519</color>
+</resources>

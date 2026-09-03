@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- An adaptive icon's layers are 108dp but only the centre 72dp is guaranteed
+     visible, so full-bleed art must be inset or the outer petals get cropped.
+     16% each side lands the lotus inside the safe zone.
+
+     This reuses the square 1024px app icon, which carries its own gradient
+     background — acceptable because ic_launcher_background approximates the same
+     gradient, so the seam is faint. The correct fix is a transparent-background
+     lotus exported from brand/assets/lotus.svg; do that before submitting. -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_launcher_logo"
+    android:inset="16%" />
