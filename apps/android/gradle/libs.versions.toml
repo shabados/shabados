@@ -1,0 +1,33 @@
+# Version catalog — the layout Android Studio's project wizard generates.
+#
+# Two constraints, both learned the hard way:
+#
+#  1. AGP declares a MINIMUM GRADLE VERSION, independent of which classes it
+#     references. AGP 9.2.1 requires Gradle >= 9.4.1, so gradle-wrapper.properties
+#     is pinned there. Inspecting the jar for missing Gradle APIs is not a
+#     substitute — AGP checks the version and refuses regardless. If you change
+#     `agp`, let the sync tell you the minimum rather than inferring it.
+#
+#  2. `kotlin` MUST equal the Kotlin that AGP embeds, not the latest release. AGP
+#     9.2.1's POM depends on kotlin-gradle-plugin 2.2.10, so the Compose compiler
+#     plugin is 2.2.10. A mismatch here fails at compile time.
+#
+# There is no kotlin-android plugin: AGP 9 has Kotlin built in and rejects it.
+
+[versions]
+agp = "9.2.1"
+kotlin = "2.2.10"
+composeBom = "2025.10.01"
+activityCompose = "1.11.0"
+
+[libraries]
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

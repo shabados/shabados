@@ -1,0 +1,496 @@
+{
+  "$comment": [
+    "Icon mappings. THE source of truth for which glyph means what, on every platform.",
+    "Edit here, then run `node brand/scripts/generate-icons.mjs` to regenerate",
+    "apps/ios/ShabadOS/AppIcons.swift and",
+    "apps/android/app/src/main/java/com/shabados/android/AppIcons.kt.",
+    "Never edit those two files — they are generated and will be overwritten.",
+    "",
+    "Why this is data and not a table in a markdown document (ADR-0013): one",
+    "semantic name maps to N platform values, and a prose table is a promise while a",
+    "generator is enforcement. It also carries availability, which prose cannot check.",
+    "",
+    "`minIOS` is VERIFIED against the system symbol database",
+    "(/System/Library/CoreServices/CoreGlyphs.bundle name_availability.plist) on",
+    "2026-09-02. The generator compares it against IPHONEOS_DEPLOYMENT_TARGET and",
+    "fails if a symbol needs a newer iOS than the app targets and has no `fallback`.",
+    "A missing SF Symbol renders as NOTHING — a blank button in front of a",
+    "congregation — so this check is the point of the file.",
+    "",
+    "`android.verified` is false everywhere: no Material Symbols name here has been",
+    "checked against a real icon set. Verify in Android Studio (New > Vector Asset >",
+    "Clip Art, which is searchable and offline) before trusting any of them.",
+    "",
+    "`web` names the existing Qwik component under apps/web/src/components/icons/,",
+    "or null where none exists yet. Web is not generated — recorded so the three",
+    "platforms can be seen to disagree."
+  ],
+  "icons": {
+    "journeys": {
+      "meaning": "Open the Journeys sidebar. Specified by the author.",
+      "ios": {
+        "symbol": "point.bottomleft.forward.to.point.topright.scurvepath",
+        "minIOS": "17.0"
+      },
+      "android": {
+        "symbol": "conversion_path",
+        "verified": true
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "journeysActive": {
+      "meaning": "Journeys sidebar is open; tapping returns to the viewer. Same shape, filled.",
+      "ios": {
+        "symbol": "point.bottomleft.forward.to.point.topright.scurvepath.fill",
+        "minIOS": "17.0"
+      },
+      "android": {
+        "symbol": "conversion_path",
+        "filled": false,
+        "verified": true
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "controls": {
+      "meaning": "Open the Controls sidebar.",
+      "ios": {
+        "symbol": "slider.horizontal.2.square",
+        "minIOS": "17.0"
+      },
+      "android": {
+        "symbol": "page_info",
+        "verified": true
+      },
+      "web": {
+        "component": "ui/controls"
+      }
+    },
+    "controlsActive": {
+      "meaning": "Controls sidebar is open. PROPOSED, as above.",
+      "ios": {
+        "symbol": "slider.horizontal.3",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "tune",
+        "filled": true,
+        "verified": false
+      },
+      "web": {
+        "component": "ui/controls"
+      }
+    },
+    "zoom": {
+      "meaning": "Font size of the reading area. Specified by the author.",
+      "ios": {
+        "symbol": "plus.magnifyingglass",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "zoom_in",
+        "verified": false
+      },
+      "web": {
+        "component": "ui/zoom"
+      }
+    },
+    "ratio": {
+      "meaning": "Secondary text size relative to the Gurmukhi line. Specified by the author.",
+      "ios": {
+        "symbol": "textformat.size",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "format_size",
+        "verified": false
+      },
+      "web": {
+        "component": "ui/ratio"
+      }
+    },
+    "weight": {
+      "meaning": "Font weight. Specified by the author.",
+      "ios": {
+        "symbol": "lineweight",
+        "minIOS": "14.0"
+      },
+      "android": {
+        "symbol": "line_weight",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "width": {
+      "meaning": "Reading column width. Wide surfaces only. PROPOSED — not specified.",
+      "ios": {
+        "symbol": "arrow.left.and.right",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "width_normal",
+        "verified": false
+      },
+      "web": {
+        "component": "ui/width"
+      }
+    },
+    "mode": {
+      "meaning": "Rendering mode: classic / saral / reader / presenter. Specified by the author.",
+      "ios": {
+        "symbol": "eyeglasses",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "eyeglasses",
+        "verified": false
+      },
+      "web": {
+        "component": "ui/mode"
+      }
+    },
+    "centered": {
+      "meaning": "Centre the text. Specified by the author.",
+      "ios": {
+        "symbol": "text.aligncenter",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "format_align_center",
+        "verified": false
+      },
+      "web": {
+        "component": "ui/centered"
+      }
+    },
+    "continuous": {
+      "meaning": "Larivaar — remove spaces from the Gurmukhi line. Specified by the author.",
+      "ios": {
+        "symbol": "space",
+        "minIOS": "16.0"
+      },
+      "android": {
+        "symbol": "space_bar",
+        "verified": false
+      },
+      "web": {
+        "component": "ui/continuous"
+      }
+    },
+    "pauses": {
+      "meaning": "Colour vishraam words. Specified by the author.",
+      "ios": {
+        "symbol": "pause.fill",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "pause",
+        "verified": false
+      },
+      "web": {
+        "component": "ui/pause"
+      }
+    },
+    "pronunciations": {
+      "meaning": "Transliteration schemes, computed by packages/gurmukhi. Specified by the author.",
+      "ios": {
+        "symbol": "person.wave.2",
+        "minIOS": "15.0"
+      },
+      "android": {
+        "symbol": "record_voice_over",
+        "verified": false
+      },
+      "web": {
+        "component": "ui/pronunciation"
+      }
+    },
+    "translations": {
+      "meaning": "Translation languages. Specified by the author.",
+      "ios": {
+        "symbol": "translate",
+        "minIOS": "17.4",
+        "$why": "Was iOS 17.4 against a 17.0 target and needed a fallback. The target is now 26.0, so it resolves directly; the generator will fail again if the target is ever lowered below 17.4."
+      },
+      "android": {
+        "symbol": "translate",
+        "verified": false
+      },
+      "web": {
+        "component": "ui/translation"
+      }
+    },
+    "appearance": {
+      "meaning": "Light / dark / auto. Specified by the author.",
+      "ios": {
+        "symbol": "sleep",
+        "minIOS": "14.0"
+      },
+      "android": {
+        "symbol": "bedtime",
+        "verified": false
+      },
+      "web": {
+        "component": "ui/appearance"
+      }
+    },
+    "filter": {
+      "meaning": "Filter in All recents: All / Pinned / Recent / Inactive. PROPOSED.",
+      "ios": {
+        "symbol": "line.3.horizontal.decrease",
+        "minIOS": "15.0"
+      },
+      "android": {
+        "symbol": "filter_list",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "disclosure": {
+      "meaning": "Trailing chevron on the All recents row. PROPOSED.",
+      "ios": {
+        "symbol": "chevron.forward",
+        "minIOS": "14.0"
+      },
+      "android": {
+        "symbol": "chevron_right",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "collections": {
+      "meaning": "The Collections row, pinned below Recents. PROPOSED — destination undefined.",
+      "ios": {
+        "symbol": "books.vertical",
+        "minIOS": "14.0"
+      },
+      "android": {
+        "symbol": "library_books",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "about": {
+      "meaning": "About Shabad OS — links, social, feedback. PROPOSED.",
+      "ios": {
+        "symbol": "info.circle",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "info",
+        "verified": false
+      },
+      "web": {
+        "component": "footer/about"
+      }
+    },
+    "search": {
+      "meaning": "Search. PROPOSED — the shell has no specified entry point yet.",
+      "ios": {
+        "symbol": "magnifyingglass",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "search",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "pin": {
+      "meaning": "Pin a journey. PROPOSED.",
+      "ios": {
+        "symbol": "pin",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "keep",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "pinned": {
+      "meaning": "Pinned state. PROPOSED.",
+      "ios": {
+        "symbol": "pin.fill",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "keep",
+        "filled": true,
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "rename": {
+      "meaning": "Rename a journey. PROPOSED.",
+      "ios": {
+        "symbol": "pencil",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "edit",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "remove": {
+      "meaning": "Move an entry to a journey's Removed section. Not a delete. PROPOSED.",
+      "ios": {
+        "symbol": "minus.circle",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "remove_circle_outline",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "undo": {
+      "meaning": "Restore a removed entry to its original position. PROPOSED.",
+      "ios": {
+        "symbol": "arrow.uturn.backward",
+        "minIOS": "14.0"
+      },
+      "android": {
+        "symbol": "undo",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "share": {
+      "meaning": "Share a journey — a bookmark position, or a Defined journey. PROPOSED.",
+      "ios": {
+        "symbol": "square.and.arrow.up",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "share",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "next": {
+      "meaning": "Next entry in a journey. PROPOSED.",
+      "ios": {
+        "symbol": "chevron.forward",
+        "minIOS": "14.0"
+      },
+      "android": {
+        "symbol": "chevron_right",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "previous": {
+      "meaning": "Previous entry in a journey. PROPOSED.",
+      "ios": {
+        "symbol": "chevron.backward",
+        "minIOS": "14.0"
+      },
+      "android": {
+        "symbol": "chevron_left",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "streak": {
+      "meaning": "Consecutive days with a complete Defined instance. PROPOSED.",
+      "ios": {
+        "symbol": "flame",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "local_fire_department",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "settings": {
+      "meaning": "Advanced settings, one level beyond the Controls sidebar. PROPOSED.",
+      "ios": {
+        "symbol": "gearshape",
+        "minIOS": "14.0"
+      },
+      "android": {
+        "symbol": "settings",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "back": {
+      "meaning": "Return from Settings to the Controls sidebar. PROPOSED.",
+      "ios": {
+        "symbol": "chevron.backward",
+        "minIOS": "14.0"
+      },
+      "android": {
+        "symbol": "arrow_back",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "close": {
+      "meaning": "Close a tab. Removes it from the journey permanently; the timeline keeps it. PROPOSED.",
+      "ios": {
+        "symbol": "xmark",
+        "minIOS": "13.0"
+      },
+      "android": {
+        "symbol": "close",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    },
+    "tracked": {
+      "meaning": "A tracked collection or bookmark. PROPOSED.",
+      "ios": {
+        "symbol": "chart.line.uptrend.xyaxis",
+        "minIOS": "15.0"
+      },
+      "android": {
+        "symbol": "trending_up",
+        "verified": false
+      },
+      "web": {
+        "component": null
+      }
+    }
+  }
+}

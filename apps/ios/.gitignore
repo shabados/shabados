@@ -1,0 +1,8 @@
+# Per-user Xcode state: window positions, breakpoints, last-open files. Binary,
+# rewritten constantly, and meaningless to anyone else. `build/` and `DerivedData`
+# are covered by the repo root's `build/` and `out/` rules.
+xcuserdata/
+*.xcuserstate
+
+# SwiftPM local resolution state.
+.swiftpm/
