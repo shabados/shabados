@@ -18,6 +18,61 @@ markers, and **6 ADRs not yet Accepted** (0004 and 0009 Proposed; 0007, 0008,
 That makes Phase 0 unavoidable, and it is the phase that parallelises worst,
 because it needs decisions rather than labour.
 
+## How this is actually sequenced: something usable, then the next thing
+
+**The phases below describe dependencies, not a schedule.** Working through them to
+completion in order would mean shipping nothing for a long time, and the phases have
+a way of never finishing.
+
+**So the real sequence is a chain where each step motivates the next**, and each one
+ends with something a person can use:
+
+| | Ship | What it makes obvious |
+| --- | --- | --- |
+| **1** | **Mobile**, daily-usable — read, track, bookmark. Corpus bundled as it is today, minus Spanish and `SBMS`. | That the reading model works, and that `packages/gurmukhi` belongs in the apps |
+| **1½** | **The wasm SQLite spike** — a gate, not a step | Whether the web codebase is even the right shape |
+| **2** | **The web codebase**, in beta on Windows, Linux, and the browser | Whether one app across three shells holds up in practice |
+| **3** | **`api.shabados.com`** and the split corpus | Mobile stops bundling everything — which is what makes the database work worth doing |
+| **4** | **Connect** — discovery, host and client, the TV builds | The web server, which is core rather than an enhancement |
+
+**A dependency is not always a blocker.** The database can be a *goal* rather than a
+prerequisite: the corpus ships as it is today, and bundling only the scripture becomes
+a progressive improvement once step 3 gives the app somewhere else to read from.
+Nothing has to be finished to 100% before the next thing starts.
+
+### Step 1½ — spike wasm SQLite before committing to the web codebase
+
+**Do this between mobile and the web codebase, and treat it as a gate.**
+
+Compile `packages/gurmukhi` and `rusqlite` to wasm, put a real corpus in **OPFS**, run
+real queries, in **Chromium, WebKit, and WebKitGTK** — the last because its version on
+a given Linux distribution is outside our control and it is the one most likely to
+disappoint.
+
+**Why it gates rather than blocks.** The expectation is that it works, and if it does,
+everything below proceeds as written. But three shells written against "one core
+everywhere" is expensive to unwind, and if browser storage turns out to be unworkable
+the web codebase needs a different data layer — which is a strategy question, not a
+bug to fix later.
+
+**Revisit the unification strategy here**, with mobile shipped and the spike answered.
+That is the moment when both the assumptions and the evidence exist.
+
+### Step 1 in detail — mobile
+
+**In:** the reader in Classic, Saral, and Reader modes; the full Variorum; zoom,
+ratio, weight; tabs and journeys; the Library; bookmarks, tracking, and goals; the
+Tracker. `packages/gurmukhi` wired in, which is what makes pauses, continuous, and
+pronunciations real rather than reimplemented twice. A corpus subset excluding Spanish
+and `SBMS`, produced by a build step rather than by editing `database/`.
+
+**Out for now:** search, Presenter mode, presets, the year in review, and anything
+networked.
+
+**Needed before it starts:** the Variorum defaults, which collections ship, and
+**title logic** — Saral and Reader both render titles differently and nothing defines
+what a title is ([navigation.md](requirements/navigation.md)).
+
 ## Phase 0 — close the specs
 
 Mostly not agent work: domain and product judgements, which CLAUDE.md forbids
@@ -60,16 +115,15 @@ other, and each unblocks one stream:
 - **ADR-0007** (telemetry), **ADR-0008** (history/ML), **ADR-0011** (distribution)
 - **ADR-0009** — the version-skew compatibility policy, before the first pin
 
-## Outside the phases: store-retention scaffolds
+## `apps/ios` and `apps/android` are the real apps now
 
-`apps/ios` and `apps/android` exist to keep the App Store and Play listings alive —
-the accounts and app names are lost if nothing ships. Externally time-boxed, and
-deliberately built so they settle nothing: bundled corpus slice, bundled font, no
-`packages/gurmukhi`, no shared core, no network, no permissions, no telemetry.
+**Superseded 2026-09-04.** These were store-retention scaffolds, and this file
+previously said they must not be grown into the platform apps. **That no longer
+holds.** They are the platform apps, and work goes into them directly
+([ADR-0014](architecture/decisions/0014-one-app-three-shells.md)).
 
-They are **not** the Phase 3 platform apps and should not be grown into them. When
-ADR-0010 lands, the real apps are built against the frozen core API; these are
-throwaway. Treat any logic added to them as a liability.
+What that changes: logic added to them is no longer a liability to be minimised, and
+`packages/gurmukhi` belongs in them rather than being kept out.
 
 ## Phase 1 — freeze the interfaces
 
@@ -102,13 +156,19 @@ stops, "matches v2" is no longer a checkable claim.**
 Stream D blocks on nothing and everything visual blocks on it, so it can start
 immediately.
 
-## Phase 3 — platforms, parallel
+## Phase 3 — platforms
 
-Each platform is a renderer, an input mapper, a transport shim, and platform
-integration; all depend on Stream C's API and Stream D's components. Electron
-desktop, iOS (Swift), Android (Kotlin), Web.
+**One app, three shells** ([ADR-0014](architecture/decisions/0014-one-app-three-shells.md)):
+Swift for iOS / iPadOS / macOS / tvOS, Kotlin for Android including TV, and a web
+codebase shipped through the Windows Store and Flatpak in an OS-provided webview, and
+served in a browser. **Electron is not in the plan.**
 
-**Build platform UI against a mock core** implementing the frozen API, so Phase 3
+Each shell is a renderer and an input mapper over shared logic. **Feature parity is
+the target; interaction parity is not** — the same features reached differently by
+touch, pointer, keyboard, and D-pad
+([interaction.md](interaction.md#interactions)).
+
+**Build platform UI against a mock core** implementing the frozen API, so this
 overlaps Phase 2 rather than waiting on it.
 
 ## "Should database, core, and presenter go at once?"

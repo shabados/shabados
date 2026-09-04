@@ -107,7 +107,26 @@ commit (CLAUDE.md).
 or the wrong names are frozen into the wire contract and the rename stops being
 cheap.
 
-### 3.2 ID constraints: no leading zero, never all-digits
+### 3.2 A build step that emits a corpus subset
+
+The apps do not ship everything in `collections/`. Two assets are excluded outright:
+**`SBMS`** (22.6 MB of TOML across 120,973 blocks — kept for posterity, never
+displayed) and **`SNST`** (Spanish, 7.9 MB, not reachable under a two-language menu).
+
+**Do this as a build step, not by editing `collections/`.** The excluded content is
+real, cited scholarship and stays in the corpus; what changes is what gets packaged.
+`database/scripts/export-bundled-banis.ts` is the precedent — a script that reads
+`collections/` and emits an artifact.
+
+**Take an exclusion list, not a hardcoded pair.** The set will change: a Shabad OS
+translation is expected to supersede `DSSK` and `PSST` in time, and the catalogue is
+meant to grow to hundreds of assets. A script that names two assets inline has to be
+edited every time; one that takes a list is configuration.
+
+**Determinism applies.** The subset must rebuild byte-identical from the same commit
+and the same exclusion list.
+
+### 3.3 ID constraints: no leading zero, never all-digits
 
 **Decided 2026-09-02.** No ID, at any length from 1 to 5 characters, may **begin with
 `0`** or **consist entirely of digits**.
@@ -152,7 +171,7 @@ before the app stores anything, and before the protocol schema is pinned.
 **Prevent:** a build validator asserting the rule over every ID in every collection.
 It should fail the build, not warn.
 
-### 3.3 Moving a line to a different line-group
+### 3.4 Moving a line to a different line-group
 
 Lines are sometimes positioned in the wrong line-group — typically the first or
 last line of a shabad belonging to its neighbour. This must be a supported,
@@ -169,7 +188,7 @@ one line-group — zero exceptions** — and all 12,730 line-groups sit in a sec
 "which line-group holds this line" is a total function, and moving a line is a
 single reassignment.
 
-### 3.4 Home line-group as a generated column
+### 3.5 Home line-group as a generated column
 
 Because the mapping is total and the corpus is generated and read-only, write the
 home line-group onto the line at build time, the same way `depth` and `path` are
@@ -178,20 +197,20 @@ an index probe, and **needs no new table**.
 
 The reverse direction (all lines in a container) is the ordinary child index.
 
-### 3.5 Keep explicit line lists; do not adopt slice syntax
+### 3.6 Keep explicit line lists; do not adopt slice syntax
 
 `collections/` already stores explicit line IDs: `banis/*.toml` list `lines`,
 `line-groups/*.toml` list `lines`. Only `sections/*.toml` list `lineGroups`.
 
 A compressed slice form exists downstream (`MJN:0:1,MJN:3:4`, `0VC::-8`, `TUY:-6`).
 **Do not adopt it into the schema.** It addresses by offset, so any change to a
-line-group's contents silently repoints every slice — the exact failure §3.3 exists
+line-group's contents silently repoints every slice — the exact failure §3.4 exists
 to prevent. It also hides intent (`MJN:0:1,MJN:3:4` skips index 2 with nothing
 recording why) and `TUY:-6` versus `TUY::28` differ by one colon while trimming
 opposite ends. If slices are ever convenient for authoring, resolve them to line
 IDs at build time.
 
-### 3.6 Remove corpus-wide ordinal columns
+### 3.7 Remove corpus-wide ordinal columns
 
 `lines.order_id` (141,264 rows, unique index) and `shabads.order_id` (12,730) make
 each row claim to know its position in a sequence it does not own, and they are
@@ -199,7 +218,7 @@ wrong under partial corpora, where a global sequence has gaps. Ordering belongs 
 the parent container. See
 [data-model.md](../../docs/requirements/data-model.md#containment-structure-is-imposed-from-outside-in).
 
-### 3.7 Decide whether transliterations are stored
+### 3.8 Decide whether transliterations are stored
 
 38 MB including indexes — a quarter of the artifact — exactly 3 per line, entirely
 generated from the Gurmukhi, and v2's frontend already computes them at render time

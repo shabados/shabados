@@ -11,12 +11,11 @@ platform ([ADR-0013](../architecture/decisions/0013-three-layers-of-specificatio
 It carries no gesture names, no icon names, and no framework names; those are
 [interaction.md](../interaction.md) and [`brand/icons.json`](../../brand/icons.json).
 
-**Scope note.** This describes the platform reading app —
-[plan.md](../plan.md) Phase 3. It is **not** a description of `apps/ios` and
-`apps/android` as they stand: those are store-retention scaffolds that
-[apps/README.md](../../apps/README.md) and [plan.md](../plan.md#outside-the-phases-store-retention-scaffolds)
-both say must not be grown into the real apps. Building this into them contradicts
-that, and is a decision to take deliberately rather than by accident.
+**Scope note.** This is the app on every platform, not a mobile-only design
+([ADR-0014](../architecture/decisions/0014-one-app-three-shells.md)). `apps/ios` and
+`apps/android` are the real apps and work goes into them directly; the web codebase
+and the TV builds render the same features through different input models
+([interaction.md](../interaction.md#interactions)).
 
 ## Four surfaces, one of them always visible
 
@@ -43,6 +42,39 @@ than over it. The same states and the same controls; only the presentation of
 "open" differs.
 
 **Exactly one sidebar is open at a time.** Opening one closes the other.
+
+## Input
+
+**Every action has a focusable target.** There is no action reachable only by a
+gesture, only by a pointer, or only by a hotkey. Gestures and shortcuts are
+accelerators over the focusable route, the way keyboard shortcuts always have been.
+
+**Design against the D-pad; the rest follow.** A remote gives six inputs — up, down,
+left, right, select, back — and it is the tightest budget of any input model this app
+supports. Anything that works with those six works with a keyboard (arrows, enter,
+escape), a gamepad, a mouse (click the focusable thing), and touch (tap it).
+
+**The D-pad is not as small as it looks.** Select can be held, which is the remote's
+long-press; arrows repeat when held. So a secondary action on a row and a
+press-and-hold rate control both have remote equivalents, and neither needs a
+touch-only design.
+
+### Destructive actions require friction — the mechanism is not specified here
+
+**The requirement is that a destructive action cannot be triggered in one casual
+step.** Closing a tab removes it from the journey permanently
+([journeys.md](journeys.md#closing-a-tab)); removing a timeline entry destroys export
+data. Neither may sit under a single tap, click, or select.
+
+**How that friction is delivered belongs to the input model, not to this document.**
+A secondary press — right-click, long-press, long-press select, long-press enter —
+is friction. So is a confirmation step. **They need not match across inputs**: a
+pointer, where mis-clicks are cheap and common, may warrant a confirmation that touch
+does not. [interaction.md](../interaction.md#interactions) holds the per-input
+answers.
+
+**What must match is the feature.** Every input can close a tab, and every input has
+to work to do it.
 
 ## Getting between them
 
@@ -188,9 +220,10 @@ and it is required on every platform. No platform provides it for free —
 
 A sticky band directly below the header.
 
-**`New journey`** — always present. Opens the surface where a person chooses
-something to read. **It is also what is selected when the viewer is showing the
-default screen**, so the sidebar always reflects where you are.
+**`New journey`** — always present. **The default screen *is* this surface**
+([The default screen](#the-default-screen)); there is no separate one. Selecting it
+shows the default screen in the viewer, and it reads as selected whenever the viewer
+is showing it.
 
 **There is no `Continue journey`.** Continuing is opening the first row of Recents,
 which is already the most recent journey. A second affordance for the same action is
@@ -365,27 +398,27 @@ list, not a new one, is what should be presented.
    simply what it opens, and what happens if the person backs out.
 2. **Does `Current` disappear or empty when a journey ends?** A section that vanishes
    makes the sidebar jump; one that lingers with stale tabs lies about what is open.
-3. **Can a tab be closed from `Current`?** Browsers make this the most-used control
+2. **Can a tab be closed from `Current`?** Browsers make this the most-used control
    on a tab. Whether it also edits the journey's timeline is
    [journeys.md](journeys.md#open-questions) question 3.
-4. **How many Tracker rows show before `See all goals`, and in what order?** Due
+3. **How many Tracker rows show before `See all goals`, and in what order?** Due
    today, most overdue, and largest streak-at-risk are three different orders, and a
    tracker that shows the wrong three is worse than one that shows none.
-5. **What does the Tracker show when nothing is scheduled?** A new install has no
+4. **What does the Tracker show when nothing is due?** A new install has no
    goals and no dailies, and an empty band directly under the header is the first
    thing a new user sees.
-6. **Where does `Read history` render?** It is a list of dated occurrences reached
+5. **Where does `Read history` render?** It is a list of dated occurrences reached
    from the title menu, and could be a sheet, a panel, or a view in the viewer —
    which matters because it is the one surface that spans journeys.
-8. **Where does `About Shabad OS` sit** — a row in the Controls sidebar, a separate
+6. **Where does `About Shabad OS` sit** — a row in the Controls sidebar, a separate
    sheet, or a section at the bottom?
-9. **Does the shell change on iPad and web beyond the sidebar presentation?** The
+7. **Does the shell change on iPad and web beyond the sidebar presentation?** The
    `Width` control ([display-controls.md](display-controls.md#width)) exists only
    there, which implies at least one control present on one form factor and absent on
    another.
-10. **Is there any search entry point?** [search.md](search.md) specifies search
-    behaviour and this shell has nowhere to invoke it. The Library covers browsing,
-    which makes the absence of search more conspicuous, not less.
+8. **Where is the omni search box invoked from?** Deferred with search itself — not
+   in the first mobile release ([search.md](search.md#one-search-box)). It needs an
+   answer before search ships, not before the shell does.
 
 Platform-specific interaction questions — gesture collisions, RTL mirroring, the
 desktop shell — are in [interaction.md](../interaction.md#open-questions).

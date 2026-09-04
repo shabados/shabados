@@ -53,6 +53,96 @@ line-group — which is the same rule the data model already states, that orderi
 owned by the parent container and the session carries the container as a **path**.
 A line-group does not know which of its containers you came in by; the tab does.
 
+## The collections that ship
+
+**Draft, 2026-09-04 — in progress.** Decided items are marked; the rest is measured
+evidence and open questions. Bani-groups may live as local app logic at first rather
+than as corpus containers; **moving them later does not change their identity** unless
+their contents change.
+
+### Nitnem — one collection, configurable
+
+**`JAPJ` · `JAAP` · `TPSS` · `BNCP` · `ANND` · `RHRT` · `SHLA`**, in recitation order.
+
+**There is exactly one Nitnem.** Not one per maryada — the user configures the one
+they have. Selecting the **SGPC / Missionary College** reading hides `BNCP` and `ANND`
+from the morning section and narrows `RHRT` to `RHRS`.
+
+**The displayed name never changes.** A person sees "Rehras Sahib" whichever text is
+being read. The `RHRS`/`RHRT` distinction exists in the corpus so *we* can tell them
+apart, and must not surface as two differently-named banis.
+
+**Nitnem contains Chaupai twice**, and this is correct practice, not duplication:
+`BNCP` is in the morning set *and* wholly inside `RHRT`. So a bani-group cannot be a
+set of line IDs — **completion and position must be reckoned by path, not by
+identity**, or reading Rehras would report the morning Chaupai as done.
+
+### The variant pattern generalises
+
+**Four pairs, all strict supersets** — measured against `collections/` on 2026-09-04:
+
+| Base (longer) | Narrowed | The difference |
+| --- | --- | --- |
+| `RHRT` Rehras (T.) 420 | `RHRS` 339 | SGPC/Missionary ends at *tera kita jato nahi* |
+| `CPDT` Chaupai (T.) 129 | `BNCP` 103 | |
+| `ARTL` Aarti + Aarta 116 | `ARTI` 63 | `ARTL`'s first five sections are identical to `ARTI`'s, then it continues |
+| `RGMA` Paath Bhog 231 | `MDVI` 169 | Whether Ragmala is read. Sections §2–§4 are identical; only §1 differs, 190 lines against 128 |
+
+**One mechanism serves all four**: the collection holds the longer text and a setting
+narrows it. `ARTL`/`ARTI` and `RGMA`/`MDVI` should therefore be **one item each**, not
+two entries in a list.
+
+**`ANND`/`ANN6` is not this shape.** `ANN6` holds 7 lines `ANND` does not — a closing
+salok — so it is an abridgement *plus* an addition, not a truncation.
+
+### Sukhmani Sahib and Asa Ki Var
+
+**Their own collections, both recurring**, each listing its internal divisions so a
+person can reach one directly. **Tapping the collection itself starts it**, or resumes
+where they left off.
+
+**The numbered divisions do not exist in the corpus.**
+
+| | Corpus structure | Divisions shown |
+| --- | --- | --- |
+| Sukhmani | **1 section, 2027 lines — no internal divisions** | 24 |
+| Asa Ki Var | 48 sections | 24 |
+
+**They are derived, and what derives them is
+[navigation.md](navigation.md)'s pauri** — a block terminating in a numbered line
+ending `॥੧॥`, `॥੨॥`… reachable through `gurmukhi::detect` with
+`Feature::NumberedEnding`.
+
+**One piece of work serves three features**: Saral and Reader's paragraph breaks
+([display-controls.md](display-controls.md#end-of-a-pauri)), these divisions, and
+navigation's pauri addressing. Build it once.
+
+### Sundar Gutka
+
+Everything not covered above: `SHZR` · `BRMH` · `SHPD` · `TPDK` · `BVAK` · `OANK` ·
+`SGST` · `LAVA` · `SLK9` · `CDDV`, plus the Aarti and Paath Bhog items.
+
+### Quick access
+
+`ANN6` and `ARDS` — reached for in a diwan rather than read through. **Not named
+"Quick Links".** Naming open.
+
+### Open
+
+1. **Five banis are unplaced:** `AKUS` Akal Ustat (1101), `ALHN` Alahnia (135),
+   `CPDT` Chaupai (T.) (129), `MDVI` Paath Bhog Mundavni (169), `RKSD` Raamkali Sad
+   (38).
+2. **Is Taksali morning Chaupai `CPDT` or `BNCP`?** Nitnem is specified with `BNCP`,
+   but by the `RHRT` principle the base would be the longer `CPDT`. Or `CPDT` is only
+   ever read inside `RHRT`.
+3. **Why are there two Aartis?** Author to research. `ARTL` is Aarti plus the Aarta
+   continuation; neither appears in Nitnem gutkas of any maryada.
+4. **Do `ALHN`, `RKSD`, and `LAVA` group together?** All three are read *at an
+   occasion* — antim ardas, bhog, Anand Karaj — rather than as daily practice, which
+   may make them a collection of their own or quick-access items rather than Sundar
+   Gutka entries.
+5. **What is the quick-access section called?**
+
 ## Bookmarks
 
 **A bookmark is a named, self-updating position.** It is created from the title menu
