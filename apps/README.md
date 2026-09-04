@@ -1,10 +1,14 @@
 # Mobile scaffolds — start here
 
-`apps/ios` and `apps/android` exist to **keep the App Store and Play listings
-alive**. The accounts and app names are lost if nothing ships. They are throwaway:
-not the Phase 3 platform apps, and they must not be grown into them
-([docs/plan.md](../docs/plan.md)). When ADR-0010 lands, the real apps are built
-against the frozen core API.
+**These are the platform apps.** Superseded 2026-09-04: they began as scaffolds to
+keep the App Store and Play listings alive, and this file said they must not be grown
+into the real apps. That no longer holds
+([ADR-0014](../docs/architecture/decisions/0014-one-app-three-shells.md)) — one app
+across three shells, and **mobile ships first**
+([docs/plan.md](../docs/plan.md#step-1-in-detail--mobile)).
+
+So logic added here is no longer a liability to be minimised, and `packages/gurmukhi`
+belongs in them rather than being kept out.
 
 Platform detail is in [ios/README.md](ios/README.md) and
 [android/README.md](android/README.md). This file is the shared story.

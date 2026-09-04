@@ -187,10 +187,11 @@ of day — is open question 2.
 ## Closing a tab
 
 **A tab can be closed**, because people search the wrong thing and open the wrong
-ang. Closing is reached by **long-pressing the tab in the sidebar**, alongside
-`Share` and `Pin` — never a swipe and never a visible button, because the most likely
-reason to reach for it is that the list feels crowded, and tidying must not be able
-to destroy a record.
+ang. It sits with `Share` and `Pin` as a **secondary action on the row** — reached by
+a deliberate second step rather than by the row's primary action, because the most
+likely reason to reach for it is that the list feels crowded, and tidying must not be
+able to destroy a record
+([reading-shell.md](reading-shell.md#destructive-actions-require-friction--the-mechanism-is-not-specified-here)).
 
 **Two levels, and they are separate acts:**
 
@@ -208,9 +209,9 @@ differently from open ones: an ordinary entry says `xyz`; a closed one says
 `xyz opened` and `xyz closed`, at two timestamps.
 
 **Neither act has an undo**, and that is accepted: **removing a timeline entry takes
-a second long-press of its own.** Someone who has long-pressed twice is trying hard
-to delete it, and no confirmation dialogue adds information they do not already
-have.
+a second deliberate step of its own.** Someone who has gone through the friction
+twice is trying hard to delete it, and a confirmation would add nothing they do not
+already know.
 
 ## Pinning and tracking are different promises
 

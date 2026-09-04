@@ -28,7 +28,7 @@ directly, with no prefix or query parameter.
 mean a page if **no ID is ever all digits**, and IDs must not start with `0` because
 spreadsheets mangle them during review. 5,999 existing IDs violate that today and
 must be reassigned — see
-[database roadmap §3.2](../../database/docs/roadmap.md), which also explains why this
+[database roadmap §3.3](../../database/docs/roadmap.md), which also explains why this
 gets much more expensive once the app starts storing IDs in bookmarks and shares.
 
 **Why one box.** Search scoped per surface means the same query gives different

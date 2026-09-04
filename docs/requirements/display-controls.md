@@ -131,22 +131,89 @@ remembered value, and [Zoom](#zoom) and [Weight](#weight) must stay that way —
 
 | Mode | Shows |
 | --- | --- |
-| **Classic** | Every line, every enabled field. The default. |
-| **Saral** | Paragraph-like. Groups titles, pauris, and rahao lines into blocks; hides pronunciation and translation fields. |
-| **Reader** | Hides pronunciation and translation fields; renders titles larger. |
+| **Classic** | Every line as its own block, every enabled Variorum field. The default. |
+| **Saral** | Verse layout: **one line per line**, Variorum fields hidden, titles enlarged, a blank line between pauris. |
+| **Reader** | Prose layout: **lines run together into flowing paragraphs**, otherwise as Saral. |
 | **Presenter** | One line at a time — see below. |
 
-Saral and Reader both hide the secondary fields; they differ in whether lines are
-grouped into blocks. Block and rahao structure is
-[navigation.md](navigation.md)'s, and **its open questions apply here** — Saral
-cannot be built while "how blocks compose when a pauri contains a rahao" is
-unanswered.
+**Saral and Reader differ only in whether lines break.** Both hide the Variorum
+fields, both enlarge titles, both break paragraphs at the end of a pauri.
 
-**Title rendering is deferred.** Both Saral and Reader treat titles specially and
-this document does not define what a title is. The web app carries a heuristic
-(`apps/web/src/lib/isTitle.ts`) and v2 carried 39 hardcoded ASCII patterns, which
-[ADR-0005](../architecture/decisions/0005-line-type-derived-not-stored.md)
-explicitly does not bring back. Line typing belongs to `packages/gurmukhi`.
+- **Reader is the paragraph mode** — lines flow together, as in a book.
+- **Saral is the simple mode** — *saral* is Panjabi for simple or easy — one line per
+  line, still grouped into paragraphs at pauri boundaries.
+
+#### Layout, in both
+
+Measured from `apps/web/src/routes/(app)/layout.css`, which is the working
+implementation:
+
+| | Saral and Reader |
+| --- | --- |
+| Variorum fields | Hidden |
+| Titles | Own block, **1.25×** size, heavier weight |
+| Space before a title | ~1.6em |
+| Space after a title | ~0.8em plus a line break |
+| End of a pauri | **A blank line** — a paragraph break |
+| Lines within a pauri | Saral: one per line. Reader: flowed, separated by a space |
+
+**Larivaar collapses all of it.** With [Continuous](#continuous) on, the injected
+spaces and paragraph breaks are dropped and titles lose their size and block
+treatment — the whole composition becomes one continuous run. That is the existing
+behaviour and it follows from what larivaar is; it is not an oversight.
+
+#### Titles
+
+**A title is a line that names or introduces rather than being read as verse** — a
+raag heading, an authorship line, a chhand name, a `ੴ`.
+
+**The web app detects them by matching against two hardcoded lists**
+(`apps/web/src/lib/isTitle.ts`): a *fuzzy* list matched as substrings — `ੴ`,
+`ਪਾਤਿਸਾਹੀ ੧੦`, `ਮਹਲਾ ੧`–`੯`, `ਮਃ ੧`–`੯`, `ਦੇਵਗੰਧਾਰੀ ੧`–`੯`, `ਘਰੁ ੧ ॥`–`੯ ॥`, several
+chhand names — and an *exact* list of about thirty whole strings including `ਸਲੋਕੁ ॥`,
+`ਦੋਹਰਾ ॥`, `ਅਸਟਪਦੀ ॥`, `ਰਾਗ ਮਾਲਾ ॥`.
+
+**Treat the list as evidence of what a title is, not as the design.**
+[ADR-0005](../architecture/decisions/0005-line-type-derived-not-stored.md) removed
+v2's 39 hardcoded ASCII title patterns and moved line typing into
+`packages/gurmukhi`, generated into the corpus at build time. A Unicode list of the
+same shape is that decision undone.
+
+**What survives the move and what does not** — measured against `collections/` on
+2026-09-04:
+
+| Entries | Verdict |
+| --- | --- |
+| `ਮਹਲਾ ੧`–`੯`, `ਮਃ ੧`–`੯`, `ਘਰੁ ੧ ॥`–`੯ ॥`, `ਦੇਵਗੰਧਾਰੀ ੧`–`੯`, `ੴ`, chhand names | **Real titles.** A classifier must catch them from structure, not from a lookup |
+| `ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥`, `ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ॥`, `ਪਾਤਿਸਾਹੀ ੧੦` | **Real titles** — the headers of Ardas's opening pauri, `banis/ARDS.toml` section 1, from `DGDG` |
+| `ਵਾਹਿਗੁਰੂ`, the fateh, `ਬੋਲੇ ਸੋ ਨਿਹਾਲ…` | **Not titles.** Slideshow strings, filed here because the mechanism was convenient. The *view* should mark slideshow lines as titles — they should not look smaller than headings — and the classifier should never see them |
+| `ਪਉੜੀ।`, `ਪਉੜੀ ।`, `ਪਉੜੀ॥` | **Dead.** Only `ਪਉੜੀ ॥` ever matches primary text — 551 lines, 515 in `SSA2` and 36 in `DGDG`. `ਪਉੜੀ।` occurs 493 times as **`SBMS` translation text**, an asset that is never displayed |
+
+That last row is the argument against lists in miniature: three of four entries match
+nothing, and the one that looks like a near-miss is text from an excluded asset.
+
+#### End of a pauri
+
+**Two of the three cases are already solved and need no list.**
+
+| Marker | Source |
+| --- | --- |
+| `॥੧॥`, `॥੨॥`… | `gurmukhi::detect` with `Feature::NumberedEnding` |
+| `॥ ਰਹਾਉ ॥` | `Feature::RahaoEnding` |
+| **`ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।`** | **Nothing — it is a phrase, not a structural feature** |
+
+**The third is a real domain rule about Ardas**, not a workaround. It marks where the
+sangat responds, and a paragraph break there is what makes the recited Ardas readable.
+In the corpus it ends lines `RZCQ` and `V26Z` of the `NTHB` asset — the second section
+of `banis/ARDS.toml`, which is the spoken Ardas.
+
+**It has nowhere to live yet.** `NumberedEnding` and `RahaoEnding` are properties of
+line endings; this is a specific phrase in one composition. Whether it becomes a
+gurmukhi feature, corpus-authored block structure, or something else belongs with
+[navigation.md](navigation.md) — open question 5.
+
+**Title detection is the one genuinely new piece of logic Saral and Reader need**, and
+it belongs in `packages/gurmukhi` alongside the features that already exist.
 
 **Naming collision.** `Mode` here means a *rendering density* and its values include
 `presenter`.
@@ -170,9 +237,12 @@ Distinct enough to specify separately.
   because the alternative reading is unacceptable, but see open question 2.)*
 - **Scrolling snaps to lines.** A swipe advances **exactly one line**, however far
   it travelled.
-- **Drag and hold advances continuously.** Holding a drag starts a repeating
-  advance whose rate rises with the distance held — a longer hold-distance scrolls
-  faster, a shorter one slower.
+- **A sustained hold advances continuously.** Holding starts a repeating advance
+  whose rate rises with how far the hold has travelled or how long it has been held.
+  On touch that is drag distance; with a remote or keyboard it is a held arrow, where
+  the rate rises with duration. Same behaviour, same control, different measure of
+  "how hard am I pressing"
+  ([interaction.md](../interaction.md#interactions)).
 - **One haptic when continuous advance begins**, and only the first time it engages
   for that drag. It marks the transition into a different scrolling behaviour;
   repeating it per line would make it noise.
@@ -184,9 +254,48 @@ into the stored setting means leaving Presenter leaves everything else at double
 size, with no way to tell that is what happened. Same for width. This is a
 recommendation, not something the source wording settles — open question 3.
 
+### Transformations happen to the text, not to its presentation
+
+**Every rendering rule above must change the text and the block structure, not be
+faked in the presentation layer.**
+
+The web app does the opposite in two places, and both have visible costs:
+
+- **Larivaar squashes word spacing rather than removing spaces.** The spaces are still
+  there, so the font shapes across word boundaries that no longer look like word
+  boundaries — the wrong ligatures. [Continuous](#continuous) already requires actual
+  removal, via `gurmukhi::remove`.
+- **Paragraph and line breaks are injected with CSS `content: '\A\A'`.** Generated
+  content is not part of the document, so it is unreliable to copy.
+
+**What a person copies out of the app must match what they see** — the same text, the
+same line breaks, the same paragraph breaks, and no injected characters. Copying
+Gurbani out of Shabad OS and pasting it somewhere is an ordinary thing to do, and it
+is broken on the website today. **This is a checkable requirement, not a preference.**
+
+SwiftUI and Compose do not have CSS pseudo-elements to reach for, so building this
+correctly is the natural path on both — provided the model, rather than the view,
+carries the structure.
+
 ### Centered
 
 Default **on**. Centres the text; off means left-aligned.
+
+**Two modes override it, and the override is not a bug to work around:**
+
+| Mode | Effect on Centered |
+| --- | --- |
+| **Reader**, **Saral** | **Paragraphs and lines are always left-aligned.** Centered applies to **titles only**. |
+| **Presenter** | Everything is centred, and **the control is disabled** |
+
+**Left-aligning flowed text is not a preference.** Centred prose gives every line a
+different left edge, so the eye hunts for the start of each one — which is exactly
+what Reader's paragraphs and Saral's line lists exist to avoid. Titles are short and
+free-standing, so centring them still reads.
+
+**Presenter disables the control rather than ignoring it.** A toggle that silently has
+no effect is worse than one that visibly cannot be changed: a disabled control says
+"this is fixed", a dead one says the app is broken.
 
 ### Continuous
 
@@ -267,6 +376,34 @@ labelled by **year and asset** so a person can see who said what and when. Nothi
 below builds that yet; the grouping exists so that it does not require renaming the
 world when it arrives.
 
+### Defaults
+
+| Field | Ships |
+| --- | --- |
+| Source (Gurbani) | On — not a toggle |
+| Pronunciations — Devanagari | Off |
+| Pronunciations — Latin | Off |
+| Interpretation — English | **On** |
+| Interpretation — Panjabi | **On** |
+| Word Gloss — Panjabi | **On** |
+
+**A default SGGS line therefore renders four blocks beneath the Gurbani**: `DSSK`
+English, `PSST` Panjabi, `NKFT` Panjabi, and the `PSST` word gloss — because
+Interpretation's Panjabi option resolves to two assets. That is the densest
+configuration the app supports, arrived at by default rather than by choice, and it is
+the case [Ratio](#ratio) has to stay usable at.
+
+**It also fixes the base pack.** Everything default-on must be present or the app
+opens with empty fields: scripture 19.5 MB, `DSSK` 8.0, `PSST` 16.4, `NKFT` 16.1,
+`PSST` notes 10.0 — **~70 MB of TOML**. Bundled today that is fine; it is the number
+that matters when the web codebase has to download it
+([corpus.md](corpus.md)).
+
+**These defaults are expected to change, and that is fine.** Showing everything up
+front suits an audience that does not yet know the app can do more. Once people expect
+to add fields themselves — and once download cost is real — a leaner default becomes
+the better one. **Nothing should be built as though this table is permanent.**
+
 ### Source (Gurbani)
 
 The line. Always shown; not a toggle. Its rendering is [Continuous](#continuous),
@@ -281,19 +418,27 @@ content types that exist are `primary`, `translation`, and `note` — there is *
 transliteration content anywhere in `database/collections`**. They come from
 `packages/gurmukhi`'s `transcribe(input, script)`.
 
-**The options are the `Script` enum, and there are three:**
+**Two options, both off by default:**
 
-| Option | `Script` | What it is |
+| Option | `Script` variant | What it is |
 | --- | --- | --- |
 | Devanagari | `Devanagari` | Pure script mapping for Hindi/Devanagari readers; no pronunciation rules. |
-| Latin | `Latin` | Pronunciation-aware: haha rules, dropped grammatical vowels, hardcoded exceptions. Built "for someone following along in sangat". |
-| Latin (scholarly) | `LatinScholar` | Mechanical ISO/IAST-like mapping preserving every orthographic distinction. For scholars. |
+| **Latin** | **`LatinScholar`** | Mechanical ISO/IAST-like mapping preserving every orthographic distinction. |
 
-Unlike every other Variorum field, **every option is available for every line** —
-there is no coverage question and no unavailable state. **The two Latin options are
-not interchangeable**: `Latin` is for singing along, `LatinScholar` is for study, and
-someone who picks the wrong one gets something that looks right and reads wrong. The
-labels must distinguish them; `Latin (scholarly)` is a placeholder, not approved copy.
+**`Script::Latin` is not offered.** The enum's pronunciation-aware variant — haha
+rules, dropped grammatical vowels, hardcoded exceptions — is deliberately not exposed.
+The mechanical mapping is what ships, under the plain name `Latin`.
+
+**This is an implementation trap worth naming.** The option labelled `Latin` must be
+wired to **`Script::LatinScholar`**, not to `Script::Latin`. Both produce plausible
+Latin text, so getting it backwards is invisible on inspection and wrong in every
+line. There is a test for it below.
+
+`Script::Latin` stays in `packages/gurmukhi` — other consumers exist, and this is a
+decision about what this app offers, not about the package.
+
+Unlike every other Variorum field, **both options are available for every line** —
+no coverage question, no unavailable state.
 
 The enum notes Arabic as future work, "requires expert input for Persian-based script
 conventions" — relevant, as the corpus holds Persian-language sources.
@@ -339,7 +484,7 @@ the most likely source of "the app is broken" reports arising from this design.
 *(Corpus type `note`.)* Punjabi only, and effectively one asset: **`PSST` notes,
 over 81.4% of the SGGS** — 49,486 lines in total across the corpus.
 
-**A language menu with one language in it: Panjabi.** Every `note` in the corpus is
+**On by default.** A language menu with one language in it: Panjabi. Every `note` in the corpus is
 Punjabi today — 49,486 lines, effectively all `PSST`, covering 81.4% of the SGGS —
 but English word glosses are expected, and a menu that has to grow a second option
 later is cheaper than a toggle that has to become a menu. Build the menu now.
@@ -457,8 +602,27 @@ have nothing to do with what they are reading.
 - **Zero, one, and several all render.** Panjabi Interpretation plus Word Gloss on an
   SGGS line shows three blocks; `English` on a `DSKO`-less Dasam Granth line shows
   none; neither is drawn as an error or an empty placeholder row.
-- **Pronunciations never vary.** All three `Script` options are offered and produce
-  output for every line in the corpus.
+- **Pronunciations never vary.** Both options are offered and produce output for
+  every line in the corpus.
+- **`Latin` is `LatinScholar`.** The option labelled `Latin` produces the mechanical
+  mapping, not `Script::Latin`'s pronunciation-aware output. Asserted against a known
+  line where the two differ — this is invisible to inspection and wrong everywhere.
+- **Defaults on first launch.** English and Panjabi Interpretation on, Word Gloss on,
+  both Pronunciations off ⇒ an SGGS line renders four blocks under the Gurbani.
+- **Copyable output matches the display.** Select a pauri in Saral and copy ⇒ the
+  clipboard holds the same lines, with the same line breaks, and no injected
+  characters. Repeat in Reader ⇒ flowed text with the paragraph break intact.
+- **Larivaar copies without spaces.** With Continuous on, copied Gurbani contains no
+  space characters — asserted on the clipboard string, not on a screenshot.
+- **Titles are typed, not matched.** `ਮਹਲਾ ੫`, `ਘਰੁ ੩ ॥`, `ਸਲੋਕੁ ॥`, `ੴ`, and the
+  Ardas headers all classify as titles from one rule, not from a lookup.
+- **End of pauri uses gurmukhi.** Numbered and rahao endings go through
+  `NumberedEnding` / `RahaoEnding`, not a local regex.
+- **Ardas breaks at the response.** In Reader and Saral, `RZCQ` and `V26Z` end a
+  paragraph.
+- **Centered is title-only in Reader and Saral.** With Centered on, paragraphs and
+  lines stay left-aligned and only titles centre.
+- **Presenter disables Centered.** The control renders disabled, not merely inert.
 
 ## Open questions
 
@@ -469,32 +633,33 @@ have nothing to do with what they are reading.
    truncated, say so, because a half-shown transliteration misleads differently than
    a half-shown interpretation.
 3. **Is Presenter's doubled zoom an override or a stored value?** Recommended as an
-   override, restored on leaving. Same for the forced full width. Now the *only*
-   scoped behaviour in this document, which is an argument for getting it right rather
-   than for adding more.
-4. **Is `English`, `Panjabi`, both, or neither on for a new install?** And separately
-   for Word Gloss.
-5. **Is dropping Spanish permanent?** `SNST` is 60,489 translated lines a two-option
-   menu cannot reach. Not a removal — the web app never showed it — but worth
-   deciding rather than defaulting into.
-6. **Is there a minimum weight as well as a minimum zoom?** Raised as uncertain.
-7. **Does the zoom floor apply to Presenter's automatic doubling?** Doubling moves
-   away from the floor so it cannot breach it — but a floor high enough that the
-   doubled size exceeds the maximum needs a stated resolution.
-8. **How is `Width` expressed?** A character count does not transfer to Gurmukhi
-   (see [Width](#width)). Needs a measure checkable against rendered Gurmukhi, and
-   whether the options are discrete presets or a range.
-9. **Do the vishraam colours move into `brand/tokens.json`?** They are the last
-   display colours defined only in `apps/web/src/global.css`.
-10. **What happens to controls the web app has and this document does not mention** —
+   override, restored on leaving. Same for the forced full width.
+4. **What is the title rule?** The web app's two lists are evidence, not a
+   specification. Needed: a rule classifying `ਮਹਲਾ ੫`, `ਘਰੁ ੩ ॥`, `ਸਲੋਕੁ ॥`, `ੴ`, and
+   the Ardas headers from their structure rather than from a lookup.
+5. **Where does the Ardas response marker live?** `ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।` ends a paragraph
+   and is not a line-ending feature. A gurmukhi feature, corpus-authored block
+   structure, or a third thing — and whichever it is, it is the first rule that is
+   about *one composition* rather than about Gurmukhi in general, which is why it
+   does not obviously belong in the package.
+6. **Does a title's larger size interact with the zoom floor?** Titles render at 1.25×
+   the body size. Whether the floor applies to the body size or the smallest rendered
+   size changes what it guarantees.
+7. **Is dropping Spanish permanent?** `SNST` is 60,489 translated lines a two-language
+   menu cannot reach. Not a removal — the web app never showed it.
+8. **Is there a minimum weight as well as a minimum zoom?** Raised as uncertain.
+9. **How is `Width` expressed?** A character count does not transfer to Gurmukhi.
+   Needs a measure checkable against rendered Gurmukhi.
+10. **Do the vishraam colours move into `brand/tokens.json`?** They are the last
+    display colours defined only in `apps/web/src/global.css`.
+11. **What happens to controls the web app has and this document does not mention** —
     `Notes`, `Slideshow`, `Fullscreen`? Their absence is **not** a decision to remove
     them; per CLAUDE.md that belongs in an ADR
     ([ADR-0006](../architecture/decisions/0006-features-removed-in-redesign.md)).
-    ਵਿਆਖਿਆ is no longer among them — it is Word Gloss.
-11. **Does Continuous disable Pauses?** The web app disables Pauses while Continuous
+12. **Does Continuous disable Pauses?** The web app disables Pauses while Continuous
     is on. With spaces deleted, colouring the run before each marker is still
     well-defined — `gurmukhi::detect` returns character offsets that survive the
     removal — so they are not technically exclusive.
-12. **When variants arrive, are they a Variorum field or a different surface?** The
+13. **When variants arrive, are they a Variorum field or a different surface?** The
     target shape shows textual variants *alongside* the line with year and asset
     labels, not stacked beneath it as another toggled block.

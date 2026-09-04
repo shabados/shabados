@@ -1,6 +1,6 @@
 # 12. Tabs, journeys, and a Library replace viewing history
 
-2026-09-02 · **Proposed**
+2026-09-02 · **Accepted** (2026-09-04)
 
 **Revised in place on 2026-09-02, while still Proposed.** Two earlier drafts of this
 decision — journeys with *kinds*, then journeys with *modes* — are superseded by the
@@ -120,7 +120,7 @@ would mean two contradictory things about one object.
   the content types `translation` and `note` are misnamed for what the UI calls them
   ([roadmap §3.1](../../../database/docs/roadmap.md)); and **5,999 IDs must be
   reassigned** so that no ID is all digits or starts with `0`
-  ([roadmap §3.2](../../../database/docs/roadmap.md)) — without which a bare number in
+  ([roadmap §3.3](../../../database/docs/roadmap.md)) — without which a bare number in
   the omni search box, and `shabados.com/1400`, cannot unambiguously mean an ang. **The
   ID change is the one that stops being cheap**: once bookmarks, timelines, and shares
   persist line IDs, reassigning one breaks user data permanently.
@@ -151,10 +151,10 @@ would mean two contradictory things about one object.
   someone else — the floor that applies is the reader's own.
 - **"Book" is banned** as a term for a complete work, in copy and in code. Many Sikhs
   regard the SGGS as a living Guru.
-- **This is Phase 3 work.** [plan.md](../../plan.md#outside-the-phases-store-retention-scaffolds)
-  and [apps/README.md](../../../apps/README.md) both say the store-retention
-  scaffolds must not be grown into the platform apps. Building this into them
-  contradicts that, and would supersede that part of the plan rather than ignore it.
+- **This ships first.** [ADR-0014](0014-one-app-three-shells.md) makes `apps/ios` and
+  `apps/android` the platform apps, and
+  [plan.md](../../plan.md#step-1-in-detail--mobile) puts a daily-usable mobile build
+  at the head of the sequence.
 
 ## Rejected
 

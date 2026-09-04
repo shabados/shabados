@@ -63,96 +63,136 @@ fails all three is a lookup, and belongs in `brand/`.
 
 ## Interactions
 
-One row per interaction. **Organised by interaction, never by platform** — three
-files named `ios`/`android`/`web` answer the same question three times and
-eventually differently, and the divergence is invisible when it is in different
-files. Here it is on the row.
+**Columns are input models, not platforms.** Every platform is a combination of
+these, and several support all four; organising by platform would answer the same
+question once per platform and let the answers drift apart, which is the failure this
+document exists to prevent.
 
-Requirements are in [reading-shell.md](requirements/reading-shell.md) and
-[journeys.md](requirements/journeys.md); this table says only *how*.
+**Every row must have an answer in every column** —
+[reading-shell.md](requirements/reading-shell.md#input) requires that every action has
+a focusable target. A blank cell is a feature that does not exist on some device.
 
-| Interaction | iOS | Android | Web |
-| --- | --- | --- | --- |
-| Open a sidebar | Header button, or horizontal drag on the viewer | Same | Header button only — **no swipe** |
-| Sidebar presentation | Full-screen cover on phone; side-by-side on iPad | Same | Toggleable panel beside the viewer, claude.ai-style |
-| Close a sidebar | Filled toggle, or drag back | Same, plus **system Back** | Filled toggle, or `Esc` |
-| Choose an enumerated setting | Icon-anchored `Menu` | Inline options in the row where the set is small; a bottom sheet where it is not | `<select>`, or a popover |
-| Row actions (rename, pin) | Long-press context menu; swipe actions | Long-press context menu | Right-click menu, or a hover `⋯` button |
-| Reorder journey entries | Drag handle in the edit list | Drag handle | Drag handle; also keyboard-reorderable |
-| Undo a removal | The journey's `Removed` section | Same | Same |
-| Change zoom | Pinch, or the slider | Pinch, or the slider | Slider, `⌘=`/`⌘-`, `ctrl`+wheel |
-| Presenter continuous advance | Drag-and-hold; **one haptic** on engage | Same; haptic via `HapticFeedbackConstants` | Drag-and-hold; **no haptic** — no equivalent |
-| Header stays above scrolled content | Gradient mask over the top inset | `Box` overlay with `Brush.verticalGradient` | `position: sticky` + a `mask-image` gradient |
-| Share a journey | `ShareLink` / share sheet | `Intent.ACTION_SEND` | Web Share API, falling back to copy-link |
-| Open a shared journey link | Universal Link → the disposition sheet | App Link → the disposition sheet | In-page route |
+| Interaction | Touch | Pointer | Keyboard | D-pad / remote |
+| --- | --- | --- | --- | --- |
+| Move focus | Tap the target | Hover and click | `tab`, arrows | Arrows |
+| Primary action | Tap | Click | `enter` | Select |
+| Secondary action on a row | Long-press | Right-click | Long-press `enter`, or a menu key | Long-press select |
+| Go back / dismiss | Back gesture | Click outside, or a close control | `esc` | Back |
+| Open a sidebar | Header button, or horizontal drag | Header button | Header button, plus a shortcut | Focus the header button |
+| Close a sidebar | Its filled toggle, or drag back | Its filled toggle | `esc`, or the toggle | Back, or the toggle |
+| Choose from an enumerated setting | Platform-native menu or sheet | Menu or popover | Focus and arrow through | Focus and arrow through |
+| Change zoom | Pinch, or the slider | Scroll with modifier, or the slider | `⌘=` / `⌘-`, or the slider | Focus the slider, arrows |
+| Presenter continuous advance | Drag and hold; rate rises with distance | Press and hold | Hold an arrow; rate rises with duration | Hold an arrow |
+| Reorder a list | Drag handle | Drag handle | Focus, then a move shortcut | Select to pick up, arrows to move, select to drop |
+| Confirm a destructive action | The secondary action is the friction | Secondary action **plus a confirmation** | Secondary action, plus confirmation | Long-press select |
+
+**The destructive row is the one where the answers deliberately differ.** A pointer
+mis-click is cheap and common in a way a long-press is not, so a confirmation earns
+its place there and would be noise on touch. The *feature* is identical everywhere —
+[reading-shell.md](requirements/reading-shell.md#destructive-actions-require-friction--the-mechanism-is-not-specified-here)
+requires friction, not a particular mechanism.
 
 ### Notes on the rows that are not obvious
 
-**Web has no swipe, and that is not a gap to fill.** A horizontal drag on a page
-means "go back" in every browser and "switch desktop" on a trackpad. Simulating one
-fights the platform. The requirement — that a sidebar is reachable and that every way
-in agrees with the way out — is met by the header button alone.
+**Horizontal drag exists only where the platform has one to spare.** In a web
+browser a horizontal drag means "go back", and on a trackpad it means "switch
+desktop"; simulating one fights the platform. Nothing is lost, because the header
+button is the focusable route and the drag was only ever an accelerator over it.
 
 **Android's system Back must close a sidebar**, and there is no iOS counterpart. A
-sidebar that ignores Back is the single most reliable way to make an Android app feel
-foreign. It also interacts with the drag gesture: gesture navigation owns the screen
-edges, so a viewer drag must begin inside the content, not at the edge
-([reading-shell.md](requirements/reading-shell.md#open-questions) question 1).
+sidebar that ignores Back is the most reliable way to make an Android app feel
+foreign. It also constrains the drag: gesture navigation owns the screen edges, so a
+viewer drag must begin inside the content rather than at the edge
+([open questions](#open-questions)).
 
-**The fading header is now free on iOS and hand-built on Android.** The deployment
-target is **26.0**, so `scrollEdgeEffect` does exactly this and the hand-rolled
-gradient mask is no longer needed. Android's `TopAppBar` scroll behaviours change
-elevation and colour rather than masking — a different effect that will not match —
-so the overlay stays hand-built there. The requirement is that Gurmukhi passing under
-the header fades rather than being cut, because a hard edge through the sirlekh reads
-as a rendering fault.
+**Continuous advance is one control with two measures of intent.** Touch has drag
+distance; a remote has hold duration. Both answer "how fast do you want this to go",
+and the haptic that marks entry into continuous advance
+([display-controls.md](requirements/display-controls.md#mode)) fires on both — on
+platforms that have haptics.
 
-**No haptic on web.** The Presenter mode haptic marks entry into continuous
-advance. The Vibration API is unavailable on iOS Safari and inappropriate on desktop,
-so web signals the same transition visually. The requirement is that the transition is
-*perceptible*, not that it is felt.
+**Reorder is where the D-pad diverges most.** Drag is meaningless on a remote, so it
+becomes pick-up / move / drop with the select button. That is a genuinely different
+interaction for the same feature, and the reason this table has a D-pad column at all.
 
-**Long-press has no desktop equivalent**, so web gets right-click and a visible
-affordance. A desktop user cannot discover a long-press, and an interaction that is
-only discoverable on two of three platforms is a requirement that is only met on two.
+**The fading header has no shared mechanism.** iOS 26's `scrollEdgeEffect` does it
+directly. Android's `TopAppBar` scroll behaviours change elevation and colour rather
+than masking, so the overlay is hand-built there. The requirement is that Gurmukhi
+passing under the header fades rather than being cut, because a hard edge through the
+sirlekh reads as a rendering fault.
+
+## The web server is core, not an enhancement
+
+**Shabad OS Connect is one of the app's central concepts**, not something bolted onto
+the platforms that happen to allow it. A host serves the display and other devices
+control it; that is what the product is for in a gurdwara.
+
+**A web browser cannot host a server, and that is a limitation of the browser rather
+than a choice in the design.** Every other target can:
+
+| | Can host |
+| --- | --- |
+| Windows (WebView2 shell), Linux (WebKitGTK shell) | Yes — the shell is a native process |
+| macOS, iOS, iPadOS | Yes |
+| Android, Android TV | Yes, with a foreground service |
+| tvOS | Yes |
+| **A page in a web browser** | **No — not implementable today** |
+
+**Treat the browser case as "not yet", not as "out of scope".** If browsers gain a
+way to do it, it goes in.
+
+**tvOS and Android TV are not display-only targets.** A small TV box plugged into a
+gurdwara's HDMI can *be* the host — serving the display, discoverable over Bonjour or
+Avahi, controlled from whatever devices are in the room. That is a portable setup
+where nobody surrenders their personal device, and it is a reason for the TV builds
+to exist rather than an afterthought.
 
 ## Platform targets
 
-**iOS: deployment target 26.0.** Set 2026-09-02, on the author's judgement that
-adoption is around 80% and rising, and that Liquid Glass changed enough patterns that
-supporting the previous generation means maintaining two designs. Maintenance and
-simplicity win over reach here: there are other apps for Sikhs, and this one has to
-still work in twenty years. **Revisit only if a lower target turns out to cost
-nothing** — a target lowered at the price of compromises is the trade this decision
-declined.
+**One app, everywhere. Three shells.**
 
-Consequences, both good: `scrollEdgeEffect` replaces the hand-built header mask, and
-`translate` (iOS 17.4) no longer needs the fallback the generator forced.
+| Shell | Covers |
+| --- | --- |
+| **Swift / SwiftUI** | iOS, iPadOS, macOS, tvOS |
+| **Kotlin / Compose** | Android — phone, tablet, Android TV |
+| **Web** | The PWA, shipped through the **Windows Store** (WebView2 shell) and **Flatpak** (WebKitGTK shell), and served in a browser |
 
-**Android: `minSdk` 36 (Android 16).** Decided 2026-09-02, with the reach cost
-understood and accepted: roughly **7.5%** of devices today. It buys variable-font
-control (available at 35) and **progress-centric notifications** at 36 — Live
-Updates, which is how a sehaj paath's daily goal and a Nitnem completion reach the
-notification shade, and how the app can check in on someone who has not finished when
-expected.
+**The PWA is an implementation strategy, not a distribution one.** Windows and Linux
+users install an app from the channel they expect; that app happens to be web
+technology inside an OS-provided webview. Nobody is asked to "install a PWA from a
+browser", and the browser build is the same codebase without a native host.
 
-**The reasoning is maintenance, not reach.** These apps are built to last twenty
-years rather than to be redeveloped continuously, and Android is the harder platform
-to develop for; supporting Android 8 alongside 16 is a compatibility matrix carried
-forever against a share that shrinks every year. The 7.5% grows on its own — an
-estimated 40–50% within two years — while the cost of the alternative never falls.
-There are other apps for Sikhs; this one is chosen to be the best-maintained rather
-than the most widely installable.
+**Electron is not in this plan.** No bundled Chromium per platform, no
+`electron-updater`, no Node in the shipped product, and the webview gets its security
+updates from the OS rather than from a release cadence. That deletes most of what
+[ADR-0011](architecture/decisions/0011-distribution-channels.md) was worried about,
+and makes CLAUDE.md's "no native Node modules" constraint obsolete.
 
-**Consequence worth stating: this is the most aggressive floor in the project**, and
-it is the number to re-examine first if Android adoption disappoints. Everything
-built against 36-only APIs is what makes lowering it later expensive, so keep those
-uses few and named — today that is Live Updates and variable-font axes, and nothing
-else.
+**Not React Native.** It claims every platform and delivers a compromised version of
+each, which is the opposite of the goal.
 
-**Variable fonts matter more here than in most apps**:
-[Weight](requirements/display-controls.md#weight) is a `wght` axis on
-`SantLipi-VF.ttf`, driven by a slider.
+**Feature parity is the target; interaction parity is not.** Someone who learns
+Shabad OS in one place should be confident they can do the same things elsewhere. How
+they do them differs by input model, which is what the table above is for.
+
+### Versions
+
+**iOS: deployment target 26.0.** Set 2026-09-02, on the judgement that adoption is
+around 80% and rising, and that Liquid Glass changed enough patterns that supporting
+the previous generation means maintaining two designs.
+
+**Android: `minSdk` 36 (Android 16).** Decided 2026-09-02 at roughly 7.5% of devices,
+accepted deliberately: these apps are built once to last rather than maintained
+against a widening compatibility matrix, and the share grows on its own while the
+cost of the alternative never falls. It buys variable-font control (35) and
+progress-centric notifications (36).
+
+**Keep the 36-only API surface few and named** — today Live Updates and variable-font
+axes — so lowering the floor later stays cheap if Android adoption disappoints.
+
+**macOS: SwiftUI multiplatform, not Catalyst.** One codebase either way; SwiftUI gets
+native AppKit behaviour for the menu bar, window management, and keyboard handling,
+which is exactly where the operator features live.
 
 ## Icons
 
@@ -214,22 +254,27 @@ to record the exact name per icon in `brand/icons.json` rather than in anyone's 
 
 ## Open questions
 
-1. **What is Android's `minSdk`?** See [Platform targets](#platform-targets). Blocked
-   on real distribution figures, not on a preference.
-2. **Does the viewer drag start at the edge or inside the content?** Edge-initiated
+1. **Which web framework?** Constraints: deploys well to Cloudflare (Vite-based),
+   works inside WebView2 and WebKitGTK, offline-first with a service worker, and
+   tolerant of a wasm core. Qwik is being retired.
+2. **`wry` + `tao`, or hand-rolled webview embedding?** The comparison has not been
+   done. What it needs to measure: how much platform glue each really is (COM interop
+   and a message loop on Windows; GObject and `webkit2gtk` on Linux), what breaks when
+   those components version, whether `wry` vendors cleanly, and what its abandonment
+   would actually cost given vendored source.
+3. **Does the viewer drag start at the edge or inside the content?** Edge-initiated
    collides with the iOS back-swipe and Android gesture navigation; content-initiated
-   does not, but then a drag from the very edge does nothing, which people report as a
-   bug. One answer, both platforms.
-3. **Do the sidebars mirror in RTL?** "Journeys is on the left" is a claim about
+   does not, but a drag from the very edge then does nothing, which people report as a
+   bug.
+4. **Do the sidebars mirror in RTL?** "Journeys is on the left" is a claim about
    reading direction, not about the screen, and this app renders Urdu-script content.
-   Answering "they never mirror" is fine; answering nothing means the platforms differ.
-4. **What is the desktop shell?** Electron is in [plan.md](plan.md) Phase 3 and has no
-   column above. Closer to web than to either mobile platform, but it has a menu bar,
-   real keyboard focus ([keyboard.md](requirements/keyboard.md)), and no touch.
-5. **Are the Android drawables imported by hand forever?** Thirty-three vector assets
+5. **What is the gamepad mapping?** Named as a supported input model and absent from
+   the table. It is close to the D-pad column, but face buttons, triggers, and stick
+   input have no assignments.
+6. **Are the Android drawables imported by hand forever?** Thirty-three vector assets
    imported through Android Studio is a manual step no generator covers, and a new
    icon in `brand/icons.json` silently has no drawable until someone reads the build
    warning.
-6. **What does Liquid Glass change beyond the header?** Targeting iOS 26 was partly
+7. **What does Liquid Glass change beyond the header?** Targeting iOS 26 was partly
    justified by it. If it changes how sidebars, sheets, and toolbars should be built,
    those are rows in the table above that nobody has written yet.

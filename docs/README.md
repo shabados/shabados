@@ -63,7 +63,7 @@ Nitnem must become a **bani-group**; the content types `translation` and `note` 
 misnamed for what the UI calls them — **Interpretation** and **Word Gloss**
 ([roadmap §3.1](../database/docs/roadmap.md)); and **5,999 IDs must be reassigned** so
 no ID is all digits or starts with `0`
-([roadmap §3.2](../database/docs/roadmap.md)), without which a bare number in the omni
+([roadmap §3.3](../database/docs/roadmap.md)), without which a bare number in the omni
 search box cannot unambiguously mean an ang. **The ID change stops being cheap the
 moment the app stores an ID** in a bookmark, timeline, or share.
 
@@ -84,9 +84,13 @@ case. And a corpus survey on 2026-09-02 established that **transliterations do n
 exist in `database/collections`** — pronunciations come from `packages/gurmukhi`'s
 `transcribe()`, three schemes, always available — while translations are nine assets
 across en/es/pa, complete for SGGS but covering **under half** of Dasam Granth in
-English. Note also that this describes **Phase 3** work, which
-[plan.md](plan.md#outside-the-phases-store-retention-scaffolds) says must not be
-built into the store-retention scaffolds.
+English.
+
+**`apps/ios` and `apps/android` are the platform apps now**, not store-retention
+scaffolds ([ADR-0014](architecture/decisions/0014-one-app-three-shells.md)) — one app
+across three shells, with Electron dropped and the D-pad as the input constraint every
+screen is designed against. **Mobile is what ships first**
+([plan.md](plan.md#how-this-is-actually-sequenced-something-usable-then-the-next-thing).
 
 **Accepted (build against these):**
 

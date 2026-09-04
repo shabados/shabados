@@ -22,8 +22,9 @@ decision recommended, awaiting sign-off) · **Accepted** (build against it).
 | [0009](0009-requirements-are-the-contract.md) | Requirements are the contract; payload shapes are derived | **Proposed** | Requirements are truth; schemas are generated and pinned at a release boundary. |
 | [0010](0010-shared-core-across-platforms.md) | Shared core across platforms | **Needs discussion** | Maximal sans-IO Rust core leaning yes; FFI binding-generator question open. |
 | [0011](0011-distribution-channels.md) | Distribution channels, and the constraints they impose | **Needs discussion** | Sandboxing everywhere breaks the runtime DB update, the updater, and theme folders. |
-| [0012](0012-journeys-replace-viewing-history.md) | Tabs, journeys, and a Library replace viewing history | **Proposed** | The browser model: tabs carry their entry container, journeys are sessions with a timeline, the Library is the catalogue. |
+| [0012](0012-journeys-replace-viewing-history.md) | Tabs, journeys, and a Library replace viewing history | Accepted | The browser model: tabs carry their entry container, journeys are sessions with a timeline, the Library is the catalogue. |
 | [0013](0013-three-layers-of-specification.md) | Three layers of specification, split by lifetime | Accepted | Requirements stay platform-neutral; icon/gesture mappings are generated data; principles stay in CLAUDE.md. |
+| [0014](0014-one-app-three-shells.md) | One app, three shells | Accepted | Swift, Kotlin, and a web codebase in OS webviews. No Electron. D-pad is the input constraint; the web server is core. |
 
 Related: [presenter-capabilities.md](../../presenter-capabilities.md) — what v2
 does today, the input these decisions were made against.
