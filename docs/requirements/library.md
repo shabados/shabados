@@ -72,6 +72,15 @@ not change their identity** unless their contents change.
 | **Sundar Gutka** | `SHZR` · `BRMH` · `SHPD` · `TPDK` · `BVAK` · `OANK` · `SGST` · `CDDV` · `SLK9` |
 | **Akal Ustat** | `AKUS`. One item for now; segmenting it into a bani-group is later work |
 
+**Nitnem's five morning banis are chapters, not a configuration.** Someone following
+SGPC or Missionary practice reads the first three and stops, or skips ahead — by
+navigating, the way anyone skips anything. **There is no setting that removes them.**
+
+**The one place this needs an answer is tracking.** "Did I complete Nitnem" has two
+honest answers, so **Nitnem carries a named completion target — `3 bani` or
+`5 bani`** — alongside the ordinary goal amounts
+([Goals](#goals)). Five is the default.
+
 **Rehras and Kirtan Sohila are top-level, not inside Nitnem.** Nitnem is the five
 morning banis. This is what makes `BNCP` appear **once** rather than twice — it is
 otherwise also inside Rehras, and a collection containing it at two positions would
@@ -129,26 +138,36 @@ is no setting that removes anything.**
 reaches the Taksali extent — and beyond it the Buddha Dal extent — without declaring
 an allegiance in a settings screen.
 
-**The default at each point is a property of that point.** Rehras, Chaupai, and Aarti
-default to the shorter reading and extend on request; Path Bhog reaches Ragmala in
-flow and offers to skip it. One mechanism, two defaults.
+**Continuation points are authored, not derived.** They mark material a tradition
+treats as **optional**, and each one is a human decision about that specific place.
+**Do not compute them by comparing two readings, and do not assume one exists wherever
+two texts differ in length.** A diff finds textual difference; it cannot tell you what
+is optional.
 
-**Where the divergences actually fall** — measured against `collections/` on
-2026-09-06:
+**They are not a statement about which reading is default or popular.** They mark
+optionality, nothing more.
 
-| Base | Extends by | At |
-| --- | --- | --- |
-| `BNCP` → `CPDT` | +26 | **Appended at the end** |
-| `RHRS` → `RHRT` | +9, +72 | Interior — positions 162 and 272 of 420 |
-| `ARTI` → `ARTL` | +17, +36 | Interior at 55; appended at 80 |
-| Path Bhog, Ragmala | +62 | Interior — before the closing Anand and salok |
+**Where they are needed today:**
 
-**Only Chaupai is a clean append.** Three of the four splice material into the middle,
-which is why a control at the divergence point is the right shape and "read to the end
-and stop" is not.
+| | Optional material |
+| --- | --- |
+| **Rehras** | The Taksali continuation |
+| **Chaupai** | Its continuation — **the same one wherever Chaupai appears**, in the morning and inside Rehras. It is one bani with one optional passage, not two cases |
+| **Path Bhog** | Ragmala, mid-flow, with a skip ahead to the closing Anand |
 
-**`ANND`/`ANN6` is not this shape.** `ANN6` holds 7 lines `ANND` does not — a closing
-salok — so it is an abridgement *plus* an addition, not a truncation.
+**Arti-Arta is not one of these.** It is a list of shabads that different traditions
+read different ways, with no single sequence to extend or truncate — see
+[open questions](#open).
+
+Measured against `collections/` on 2026-09-06, the material involved is not always at
+the end: `BNCP`→`CPDT` appends 26 lines, but `RHRS`→`RHRT` splices +9 and +72 at
+interior positions 162 and 272 of 420, and Ragmala sits before Path Bhog's closing
+Anand. **This is evidence that a control at the point of divergence is the right
+shape** — "read to the end and stop" would not serve any of them. It is not a method
+for finding those points.
+
+**`ANND`/`ANN6` is not this shape either.** `ANN6` holds 7 lines `ANND` does not — a
+closing salok — so it is an abridgement *plus* an addition, not a truncation.
 
 ### Numbered divisions are derived, not stored
 
@@ -185,18 +204,15 @@ adjacent to it.
 
 ### Open
 
-1. **Why are there two Aartis?** Author researching. `ARTL` is Arti plus the Aarta
-   continuation; neither appears in Nitnem gutkas of any maryada.
-2. **Is Taksali morning Chaupai `CPDT` or `BNCP`?** Nitnem is specified with `BNCP`,
-   but by the Rehras principle the base would be the longer `CPDT`. Or `CPDT` is only
-   ever read inside Rehras.
-3. **Do the morning `BNCP` and `ANND` also become continuations?** Everything else in
-   Nitnem's variance now resolves without a setting. If those do too, Nitnem needs no
-   configuration surface at all.
-4. **Are divergence points marked in the corpus, or derived by comparing readings?**
-   Six of them are known; how they are stored is not.
-5. **What is the pill section called?** Not "Quick Links".
-6. **Where do tidbits live, and are they localised?** They are prose about Sikh
+1. **How is Arti-Arta structured?** Deferred — the author knows why there are two but
+   there is no way to *pick* one: it is a list of shabads that traditions read
+   variously, so neither continuation nor a straight sequence fits. **Do not build
+   this one until it is settled.**
+2. **How are authored continuation points stored?** Three are needed today. They are
+   editorial decisions attached to a position in a reading, and no existing container
+   or content type carries that.
+3. **What is the pill section called?** Not "Quick Links".
+4. **Where do tidbits live, and are they localised?** They are prose about Sikh
    practice, so they need translating like anything else — but they are not scripture,
    translation, or gloss, so they fit none of the existing content types.
 
@@ -296,7 +312,7 @@ which a single tracked flag could never express.
 
 | | Values |
 | --- | --- |
-| **Amount** | **`Complete`** — finish the whole thing — or a **quantity**, counted either in **items of the container being tracked** (pauris of a var, shabads of a collection, angs of a source) or in **time** |
+| **Amount** | **`Complete`** — finish the whole thing — or a **quantity**, counted either in **items of the container being tracked** (pauris of a var, shabads of a collection, angs of a source) or in **time**. A collection may also define **named completion targets** of its own, where "the whole thing" has more than one honest answer — Nitnem's `3 bani` / `5 bani` is the only one so far |
 | **Period** | None, or daily / weekly on given days, optionally AM or PM |
 
 **Everything else is derived from those two.** No separate schedule flag, no
