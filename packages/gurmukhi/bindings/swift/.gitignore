@@ -3,4 +3,10 @@
 
 # UniFFI generated bindings
 Sources/gurmukhiFFI/gurmukhiFFI.*
+Sources/gurmukhiFFI/module.modulemap
 Sources/Gurmukhi/gurmukhi.swift
+
+# Assembled by `mise run xcframework` from the Rust static libraries. A build output
+# derived from the same source as the bindings above, so committing it would be a
+# second source of truth for one API.
+gurmukhiFFI.xcframework/

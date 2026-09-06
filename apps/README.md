@@ -45,6 +45,49 @@ is **generated from one source** rather than written twice:
 `apps/build.sh` runs all three, so a stale generated file cannot reach a build. Never
 edit the outputs — they are overwritten.
 
+## packages/gurmukhi in the apps
+
+**Pauses, larivaar, and pronunciations all come from `packages/gurmukhi`.** It is Rust
+reached over a C ABI, and reimplementing any of it per platform is how two apps end up
+disagreeing about the same line — `transcribe` alone is three scripts with
+pronunciation rules and hardcoded exceptions.
+
+**One command, from a real terminal:**
+
+```
+cd packages/gurmukhi && mise run apple
+```
+
+That builds the library for macOS, iOS device, and iOS Simulator, generates the Swift
+bindings, and assembles `bindings/swift/gurmukhiFFI.xcframework`. `apps/build.sh` runs
+it when the xcframework is missing. **It cannot run under an agent sandbox** — cargo
+needs a writable `~/.cargo` and rustup a writable `~/.rustup`, the same reason Gradle
+and `xcrun` fail there.
+
+**Then add the package to the Xcode project once**: File → Add Package Dependencies →
+Add Local, and choose `packages/gurmukhi`. After that `import Gurmukhi` works.
+
+**Why an xcframework rather than a plain static library.** iOS device and Simulator are
+both arm64, so a fat binary cannot tell them apart; an xcframework keeps the slices
+separate and lets Xcode pick. Its macOS slice is also what `mise run smoke:swift`
+links, so the dev harness and the shipped app exercise the same artifact — a linking
+problem shows up in the smoke test rather than only in Xcode.
+
+**The bindings and the xcframework are build outputs and are not committed.** They are
+derived from the Rust source, and committing them would be two sources of truth for
+one API. A fresh clone therefore cannot resolve `Package.swift` until the command
+above has run.
+
+**Targets are pinned in `packages/gurmukhi/rust-toolchain.toml`**, so rustup installs
+them on first build. Adding a platform is a line in that file, not a `rustup target
+add` in a README that goes stale.
+
+**Android is not wired up yet.** It needs `cargo-ndk`, an `.so` per ABI, and JNA as a
+runtime dependency — independent problems, deliberately left until the iOS path is
+proven.
+
+## Generators
+
 **The icon generator fails the build on purpose.** An SF Symbol newer than
 `IPHONEOS_DEPLOYMENT_TARGET` renders as *nothing* — no error, no placeholder, a blank
 button in front of a congregation. Every symbol's minimum iOS version is recorded in

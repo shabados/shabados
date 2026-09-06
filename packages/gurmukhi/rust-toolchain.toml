@@ -1,0 +1,21 @@
+# Pinned toolchain and targets. CLAUDE.md: "Pin everything. Cargo.lock and
+# rust-toolchain.toml are committed. No floating versions, anywhere."
+#
+# `targets` is the reason this file matters beyond the version pin: rustup installs
+# them automatically on first build, so nobody has to know which triples the Apple
+# platforms need. Adding a platform means adding a line here, not documenting a
+# `rustup target add` in a README that goes stale.
+[toolchain]
+channel = "1.96.0"
+components = ["rustfmt", "clippy"]
+targets = [
+  # Host — macOS on Apple Silicon. Also an xcframework slice, so the Swift smoke
+  # test and the iOS app link through the same artifact.
+  "aarch64-apple-darwin",
+  # iOS device and Simulator. Separate slices, never lipo'd together: both are
+  # arm64, so a fat binary could not tell them apart.
+  "aarch64-apple-ios",
+  "aarch64-apple-ios-sim",
+  # The web codebase, and the JavaScript bindings.
+  "wasm32-unknown-unknown",
+]
