@@ -55,93 +55,150 @@ A line-group does not know which of its containers you came in by; the tab does.
 
 ## The collections that ship
 
-**Draft, 2026-09-04 — in progress.** Decided items are marked; the rest is measured
-evidence and open questions. Bani-groups may live as local app logic at first rather
-than as corpus containers; **moving them later does not change their identity** unless
-their contents change.
+**Draft, 2026-09-06.** Every one of the corpus's 30 banis is placed. Bani-groups may
+live as local app logic before they are corpus containers; **moving them later does
+not change their identity** unless their contents change.
 
-### Nitnem — one collection, configurable
+### Base collections
 
-**`JAPJ` · `JAAP` · `TPSS` · `BNCP` · `ANND` · `RHRT` · `SHLA`**, in recitation order.
+| Collection | Contains |
+| --- | --- |
+| **Morning Nitnem** | `JAPJ` · `JAAP` · `TPSS` · `BNCP` · `ANND` |
+| **Asa Ki Var** | `ASKV`, its 24 vaars reachable individually |
+| **Sukhmani Sahib** | `SKMI`, its 24 ashtpadis reachable individually |
+| **Rehras Sahib** | Itself |
+| **Kirtan Sohila** | Itself |
+| **Arti-Arta** | Pre-Arta, Arti, post-Arta and its variations — **not necessarily read in sequence** |
+| **Sundar Gutka** | `SHZR` · `BRMH` · `SHPD` · `TPDK` · `BVAK` · `OANK` · `SGST` · `CDDV` · `SLK9` |
+| **Akal Ustat** | `AKUS`. One item for now; segmenting it into a bani-group is later work |
 
-**There is exactly one Nitnem.** Not one per maryada — the user configures the one
-they have. Selecting the **SGPC / Missionary College** reading hides `BNCP` and `ANND`
-from the morning section and narrows `RHRT` to `RHRS`.
+**Rehras and Kirtan Sohila are top-level, not inside Nitnem.** Nitnem is the five
+morning banis. This is what makes `BNCP` appear **once** rather than twice — it is
+otherwise also inside Rehras, and a collection containing it at two positions would
+force completion to be reckoned by path rather than by line.
 
-**The displayed name never changes.** A person sees "Rehras Sahib" whichever text is
-being read. The `RHRS`/`RHRT` distinction exists in the corpus so *we* can tell them
-apart, and must not surface as two differently-named banis.
+**Pills sit at the top of this section**: `Japji Sahib`, `Rehras Sahib`,
+`Kirtan Sohila`, `Ardas`.
 
-**Nitnem contains Chaupai twice**, and this is correct practice, not duplication:
-`BNCP` is in the morning set *and* wholly inside `RHRT`. So a bani-group cannot be a
-set of line IDs — **completion and position must be reckoned by path, not by
-identity**, or reading Rehras would report the morning Chaupai as done.
+**A pill is a shortcut *into* a collection, not a standalone item.** Tapping
+`Japji Sahib` enters Morning Nitnem at Japji, and `next` goes to Jaap Sahib. This is
+the general rule already stated — a tab carries the container it was entered through
+([above](#which-is-why-next-is-a-property-of-the-way-in)) — so pills need no mechanism
+of their own.
 
-### The variant pattern generalises
+### Diwans and ceremonies
 
-**Four pairs, all strict supersets** — measured against `collections/` on 2026-09-04:
+| Collection | Contains |
+| --- | --- |
+| **Janamdin Sanskar** *(naming)* | `2LSD` *Pootaa maataa kee aasees* · `T644` *Parmesar ditaa bannaa* |
+| **Anand Karaj** | `95W2` *Keetaa loṛeeai kamm* · `LAVA` |
+| **Antim Sanskar** *(final rites)* | `SHLA` · `4EXD` *Baabaa bolte te kahaa ge* · `ALHN` · `RKSD` |
+| **Path Bhog** | Salok M9 · Dohra · Mundavni M5 · Salok M5 · **optional Ragmala** · 6-pauri Anand · Ardas |
 
-| Base (longer) | Narrowed | The difference |
+**Pills at the top of this section** include the 6-pauri Anand Sahib.
+
+**Path Bhog is one collection and always ends the same way** — 6-pauri Anand then
+Ardas. There is no separate Rag Mala item: **Ragmala is an optional passage inside
+it**, offered at its own position with a control to read it or to skip ahead to the
+Anand.
+
+**Four of these collections need containers the corpus does not have.** Three ceremony
+collections are assembled from **line-groups, not banis** — the shabads above are not
+bani entries. And Path Bhog does not match either bani of a similar name: `MDVI` (169)
+is Salok M9 plus 11 lines plus the 6-pauri Anand, and `RGMA` (231) is all of `MDVI`
+plus 62 Ragmala lines. **Neither is usable as-is**; both are cut from.
+
+### Continuation, not configuration
+
+**Where readings differ in length, the reader sees a control at the point of
+divergence** — `Keep reading` to continue into the longer text, or in Path Bhog's case
+an optional passage that can be read or skipped. Tapping continues in place. **There
+is no setting that removes anything.**
+
+**Three reasons this beats a toggle:**
+
+- **It works mid-recitation.** Someone whose sangat keeps going can join at the moment
+  it happens, without leaving the text to find a setting.
+- **It is additive, and that matters here.** A toggle frames the shorter reading as
+  *removing* bani, and to people who regard Gurbani as a living Guru that imagery is
+  damaging. Nothing is ever taken away; more is offered.
+- **It is less to build.** No settings surface is needed, so variant handling stops
+  blocking a first release.
+
+**Everyone sees the controls, whichever length they read.** They are how a person
+reaches the Taksali extent — and beyond it the Buddha Dal extent — without declaring
+an allegiance in a settings screen.
+
+**The default at each point is a property of that point.** Rehras, Chaupai, and Aarti
+default to the shorter reading and extend on request; Path Bhog reaches Ragmala in
+flow and offers to skip it. One mechanism, two defaults.
+
+**Where the divergences actually fall** — measured against `collections/` on
+2026-09-06:
+
+| Base | Extends by | At |
 | --- | --- | --- |
-| `RHRT` Rehras (T.) 420 | `RHRS` 339 | SGPC/Missionary ends at *tera kita jato nahi* |
-| `CPDT` Chaupai (T.) 129 | `BNCP` 103 | |
-| `ARTL` Aarti + Aarta 116 | `ARTI` 63 | `ARTL`'s first five sections are identical to `ARTI`'s, then it continues |
-| `RGMA` Paath Bhog 231 | `MDVI` 169 | Whether Ragmala is read. Sections §2–§4 are identical; only §1 differs, 190 lines against 128 |
+| `BNCP` → `CPDT` | +26 | **Appended at the end** |
+| `RHRS` → `RHRT` | +9, +72 | Interior — positions 162 and 272 of 420 |
+| `ARTI` → `ARTL` | +17, +36 | Interior at 55; appended at 80 |
+| Path Bhog, Ragmala | +62 | Interior — before the closing Anand and salok |
 
-**One mechanism serves all four**: the collection holds the longer text and a setting
-narrows it. `ARTL`/`ARTI` and `RGMA`/`MDVI` should therefore be **one item each**, not
-two entries in a list.
+**Only Chaupai is a clean append.** Three of the four splice material into the middle,
+which is why a control at the divergence point is the right shape and "read to the end
+and stop" is not.
 
 **`ANND`/`ANN6` is not this shape.** `ANN6` holds 7 lines `ANND` does not — a closing
 salok — so it is an abridgement *plus* an addition, not a truncation.
 
-### Sukhmani Sahib and Asa Ki Var
-
-**Their own collections, both recurring**, each listing its internal divisions so a
-person can reach one directly. **Tapping the collection itself starts it**, or resumes
-where they left off.
-
-**The numbered divisions do not exist in the corpus.**
+### Numbered divisions are derived, not stored
 
 | | Corpus structure | Divisions shown |
 | --- | --- | --- |
 | Sukhmani | **1 section, 2027 lines — no internal divisions** | 24 |
 | Asa Ki Var | 48 sections | 24 |
 
-**They are derived, and what derives them is
-[navigation.md](navigation.md)'s pauri** — a block terminating in a numbered line
-ending `॥੧॥`, `॥੨॥`… reachable through `gurmukhi::detect` with
-`Feature::NumberedEnding`.
+Neither maps. What derives them is [navigation.md](navigation.md)'s **pauri** — a block
+terminating in a numbered line ending `॥੧॥`, `॥੨॥`… reachable through
+`gurmukhi::detect` with `Feature::NumberedEnding`.
 
 **One piece of work serves three features**: Saral and Reader's paragraph breaks
 ([display-controls.md](display-controls.md#end-of-a-pauri)), these divisions, and
 navigation's pauri addressing. Build it once.
 
-### Sundar Gutka
+### Tidbits
 
-Everything not covered above: `SHZR` · `BRMH` · `SHPD` · `TPDK` · `BVAK` · `OANK` ·
-`SGST` · `LAVA` · `SLK9` · `CDDV`, plus the Aarti and Paath Bhog items.
+**A collection may carry a short piece of context** — the kind of thing a game shows
+on a loading screen. Opening Arti-Arta might explain that Buddha Dal performs the same
+Arti section merged with a much larger Aarta, known together as Arti-Arta.
 
-### Quick access
+**They do structural work, not decoration.** They are what explains why two
+collections have similar names and different contents, which is the confusion the
+variant readings create. Static text is fine to begin with; rotating them later is an
+enhancement.
 
-`ANN6` and `ARDS` — reached for in a diwan rather than read through. **Not named
-"Quick Links".** Naming open.
+**They must never be generated, and they need citations.** A tidbit is a factual claim
+about a living tradition — what a particular jatha does, when a practice arose — and
+being confidently slightly wrong in an app used in gurdwaras is a real harm, because
+people repeat it. **Treat them as corpus content under the same citation-backed review
+as everything else** (CLAUDE.md, "Not your call"). This is not scripture, but it is
+adjacent to it.
 
 ### Open
 
-1. **Five banis are unplaced:** `AKUS` Akal Ustat (1101), `ALHN` Alahnia (135),
-   `CPDT` Chaupai (T.) (129), `MDVI` Paath Bhog Mundavni (169), `RKSD` Raamkali Sad
-   (38).
-2. **Is Taksali morning Chaupai `CPDT` or `BNCP`?** Nitnem is specified with `BNCP`,
-   but by the `RHRT` principle the base would be the longer `CPDT`. Or `CPDT` is only
-   ever read inside `RHRT`.
-3. **Why are there two Aartis?** Author to research. `ARTL` is Aarti plus the Aarta
+1. **Why are there two Aartis?** Author researching. `ARTL` is Arti plus the Aarta
    continuation; neither appears in Nitnem gutkas of any maryada.
-4. **Do `ALHN`, `RKSD`, and `LAVA` group together?** All three are read *at an
-   occasion* — antim ardas, bhog, Anand Karaj — rather than as daily practice, which
-   may make them a collection of their own or quick-access items rather than Sundar
-   Gutka entries.
-5. **What is the quick-access section called?**
+2. **Is Taksali morning Chaupai `CPDT` or `BNCP`?** Nitnem is specified with `BNCP`,
+   but by the Rehras principle the base would be the longer `CPDT`. Or `CPDT` is only
+   ever read inside Rehras.
+3. **Do the morning `BNCP` and `ANND` also become continuations?** Everything else in
+   Nitnem's variance now resolves without a setting. If those do too, Nitnem needs no
+   configuration surface at all.
+4. **Are divergence points marked in the corpus, or derived by comparing readings?**
+   Six of them are known; how they are stored is not.
+5. **What is the pill section called?** Not "Quick Links".
+6. **Where do tidbits live, and are they localised?** They are prose about Sikh
+   practice, so they need translating like anything else — but they are not scripture,
+   translation, or gloss, so they fit none of the existing content types.
 
 ## Bookmarks
 
