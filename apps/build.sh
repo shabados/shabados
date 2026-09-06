@@ -59,6 +59,26 @@ ensure_assets() {
   ( cd "$REPO_DIR/database" && bun run database:export-bundled )
 }
 
+# packages/gurmukhi is Rust reached over a C ABI: pauses, larivaar, and pronunciations
+# all come from it, and reimplementing them per platform is how two apps end up
+# disagreeing about the same line. Built when missing rather than every time -- unlike
+# the token and icon generators this is a full cargo build, and the first one fetches
+# the crate registry.
+ensure_gurmukhi() {
+  local pkg="$REPO_DIR/packages/gurmukhi"
+  local xcf="$pkg/bindings/swift/gurmukhiFFI.xcframework"
+
+  [[ -d "$xcf" ]] && return
+
+  log "gurmukhi bindings missing -- building"
+  command -v mise >/dev/null \
+    || die "mise not found, and the gurmukhi bindings are missing. Install mise, then: cd packages/gurmukhi && mise run apple"
+  # Needs a writable ~/.cargo and ~/.rustup, so this cannot run under an agent
+  # sandbox. The message says so rather than surfacing a rustup download error.
+  ( cd "$pkg" && mise run apple ) \
+    || die "gurmukhi build failed. If this ran inside an agent sandbox, run it from a real terminal: cd packages/gurmukhi && mise run apple"
+}
+
 # Colour and type live in brand/tokens.json and are generated into both apps, so a
 # design change cannot land on one platform only. Regenerated every build — it takes
 # milliseconds, and a stale token file is worse than the cost of rerunning.
@@ -247,6 +267,7 @@ build_android() {
 ensure_assets
 ensure_tokens
 ensure_icons
+ensure_gurmukhi
 
 case "$TARGET" in
   ios) build_ios ;;

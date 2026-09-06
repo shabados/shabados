@@ -1,6 +1,8 @@
 [tools]
 bun = "1"
-rust = { version = "1", targets = "wasm32-unknown-unknown", components = "rustfmt,clippy" }
+# Version, targets, and components are pinned in rust-toolchain.toml -- rustup reads
+# that automatically, so this line only ensures a rustup exists.
+rust = "1"
 python = "3"
 # Pinned tag: binaryen's version_XXX scheme makes "latest" resolve to stale semver tags
 "ubi:WebAssembly/binaryen" = { version = "version_131", exe = "wasm-opt", extract_all = "true", bin_path = "bin" }
@@ -43,13 +45,20 @@ done
 
 [tasks.generate]
 description = "Generate UniFFI bindings for a language"
-env = { UNIFFI_LIB = "target/release/libgurmukhi.so" }
 run = """
-mkdir -p $UNIFFI_OUT
+#!/usr/bin/env bash
+set -euo pipefail
+# The shared library is named by the host, not by us: cargo emits .dylib on macOS and
+# .so on Linux. Hardcoding either makes this task work on one machine and fail on the
+# other, which is what it used to do.
+lib="target/release/libgurmukhi.so"
+[ -f "$lib" ] || lib="target/release/libgurmukhi.dylib"
+[ -f "$lib" ] || { echo "no built library -- run: mise run build" >&2; exit 1; }
+mkdir -p "$UNIFFI_OUT"
 target/release/uniffi-bindgen generate \
-  --library $UNIFFI_LIB \
-  --language $UNIFFI_LANG \
-  --out-dir $UNIFFI_OUT \
+  --library "$lib" \
+  --language "$UNIFFI_LANG" \
+  --out-dir "$UNIFFI_OUT" \
   --no-format
 """
 
@@ -78,7 +87,10 @@ mv "$tmpdir/gurmukhiFFI.h" bindings/swift/Sources/gurmukhiFFI/
 mv "$tmpdir/gurmukhiFFI.modulemap" bindings/swift/Sources/gurmukhiFFI/
 mv "$tmpdir/gurmukhi.swift" bindings/swift/Sources/Gurmukhi/
 rm -rf "$tmpdir"
-sed -i '/use "Darwin"/d' bindings/swift/Sources/gurmukhiFFI/gurmukhiFFI.modulemap
+# BSD sed requires an argument to -i and GNU sed does not, so `sed -i` alone works
+# on Linux and fails on macOS. Write through a temp file instead of picking a dialect.
+mm=bindings/swift/Sources/gurmukhiFFI/gurmukhiFFI.modulemap
+grep -v 'use "Darwin"' "$mm" > "$mm.tmp" && mv "$mm.tmp" "$mm"
 ln -sf gurmukhiFFI.modulemap bindings/swift/Sources/gurmukhiFFI/module.modulemap
 """
 
@@ -122,6 +134,56 @@ run = "mise run generate"
 [tasks."generate:all"]
 description = "Generate all language bindings"
 depends = ["build", "build:wasm", "generate:ruby", "generate:kotlin", "generate:swift", "generate:javascript", "generate:python"]
+
+[tasks."build:apple"]
+description = "Build static libraries for macOS, iOS device, and iOS Simulator"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+# staticlib is already in Cargo.toml's crate-type, so each of these emits a
+# libgurmukhi.a. Device and Simulator stay separate -- see rust-toolchain.toml.
+for target in aarch64-apple-darwin aarch64-apple-ios aarch64-apple-ios-sim; do
+  echo "Building $target"
+  cargo build --release --target "$target" --lib
+done
+"""
+
+[tasks.xcframework]
+description = "Assemble gurmukhiFFI.xcframework from the Apple static libraries"
+depends = ["build:apple"]
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+hdr="bindings/swift/Sources/gurmukhiFFI"
+[ -f "$hdr/gurmukhiFFI.h" ] || { echo "run: mise run generate:swift" >&2; exit 1; }
+
+# xcodebuild requires the modulemap to be named module.modulemap and to be a real
+# file. generate:swift leaves a symlink, which does not survive being copied into the
+# framework, so materialise it here.
+staging=$(mktemp -d)
+cp "$hdr/gurmukhiFFI.h" "$staging/"
+cp "$hdr/gurmukhiFFI.modulemap" "$staging/module.modulemap"
+
+out="bindings/swift/gurmukhiFFI.xcframework"
+rm -rf "$out"
+xcodebuild -create-xcframework \
+  -library target/aarch64-apple-darwin/release/libgurmukhi.a  -headers "$staging" \
+  -library target/aarch64-apple-ios/release/libgurmukhi.a     -headers "$staging" \
+  -library target/aarch64-apple-ios-sim/release/libgurmukhi.a -headers "$staging" \
+  -output "$out"
+rm -rf "$staging"
+echo "wrote $out"
+"""
+
+[tasks.apple]
+description = "Everything an Apple app needs: build, Swift bindings, xcframework"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+mise run build
+mise run generate:swift
+mise run xcframework
+"""
 
 [tasks.fmt]
 description = "Check code formatting"
@@ -189,17 +251,14 @@ run = "cd bindings/kotlin && gradle runSmoke --quiet"
 
 [tasks."smoke:swift"]
 description = "Smoke test: Swift"
+depends = ["xcframework"]
 run = """
 #!/usr/bin/env bash
 set -euo pipefail
-# Fix dylib install name if on macOS (cross-compiled dylibs have absolute Linux paths)
-if [[ "$(uname)" == "Darwin" ]] && [ -f target/release/libgurmukhi.dylib ]; then
-  install_name_tool -id @rpath/libgurmukhi.dylib target/release/libgurmukhi.dylib
-fi
-swift build --product SmokeTest \
-  -Xlinker -Ltarget/release \
-  -Xlinker -lgurmukhi \
-  -Xlinker -rpath -Xlinker target/release 2>&1
+# No -Xlinker flags: Package.swift consumes the xcframework, whose macOS slice is the
+# same artifact the iOS app links. The dev harness and the app now share one path,
+# so a linking problem shows up here rather than only in Xcode.
+swift build --product SmokeTest
 .build/debug/SmokeTest
 """
 
