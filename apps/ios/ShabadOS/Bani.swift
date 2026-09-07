@@ -1,11 +1,40 @@
 import Foundation
+import Gurmukhi
 
 /// A line of gurbani. `id` is the corpus line id and is stable across corpus
 /// versions — see docs/requirements/data-model.md. Nothing here addresses a line
 /// by its position.
 struct Line: Decodable, Identifiable {
   let id: String
+
+  /// The corpus text, vishraam markers included. Kept because the markers are the
+  /// *input* to pause colouring, which needs their positions — stripping is not the
+  /// only thing they are for.
+  let source: String
+
+  /// What is displayed. Vishraam markers (`.` `,` `;`) are editorial notation marking
+  /// where a reciter pauses; they are not part of the scripture and are **stripped
+  /// whether or not pause colouring is on**
+  /// (docs/requirements/display-controls.md). 1,023 of the 1,935 bundled lines carry
+  /// at least one, so this is not an edge case — without it the reader shows
+  /// `ਨਿਰਵੈਰੁ;` on screen.
+  ///
+  /// Done once at decode rather than per render, and via `packages/gurmukhi` rather
+  /// than a local `replacingOccurrences` so iOS and Android cannot disagree about
+  /// what a marker is.
   let gurmukhi: String
+
+  private enum CodingKeys: String, CodingKey {
+    case id
+    case gurmukhi
+  }
+
+  init(from decoder: Decoder) throws {
+    let container = try decoder.container(keyedBy: CodingKeys.self)
+    id = try container.decode(String.self, forKey: .id)
+    source = try container.decode(String.self, forKey: .gurmukhi)
+    gurmukhi = remove(input: source, features: vishraams())
+  }
 }
 
 struct Bani: Decodable, Identifiable {

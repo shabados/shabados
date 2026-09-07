@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2405B4D9304EFBC7003FDB64 /* Gurmukhi in Frameworks */ = {isa = PBXBuildFile; productRef = 2405B4D8304EFBC7003FDB64 /* Gurmukhi */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A100000000000000000005 /* ShabadOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShabadOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2405B4D9304EFBC7003FDB64 /* Gurmukhi in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +97,9 @@
 			);
 			mainGroup = A100000000000000000003;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2405B4D7304EFBC7003FDB64 /* XCLocalSwiftPackageReference "../../packages/gurmukhi" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A100000000000000000004 /* Products */;
 			projectDirPath = "";
@@ -227,6 +235,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2405B4D7304EFBC7003FDB64 /* XCLocalSwiftPackageReference "../../packages/gurmukhi" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../packages/gurmukhi;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2405B4D8304EFBC7003FDB64 /* Gurmukhi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Gurmukhi;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A10000000000000000000A /* Project object */;
 }

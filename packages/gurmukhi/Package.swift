@@ -3,6 +3,12 @@ import PackageDescription
 
 let package = Package(
     name: "Gurmukhi",
+    // Deliberately lower than the Shabad OS app's iOS 26 floor
+    // (docs/architecture/decisions/0014-one-app-three-shells.md). This is a
+    // general-purpose library published to six ecosystems, so its minimum bounds
+    // every consumer, not just ours. Text processing needs nothing recent.
+    // **Do not "align" these two numbers** — the build correctly compiles this
+    // package at ios16 and the app at ios26.
     platforms: [.macOS(.v13), .iOS(.v16)],
     products: [
         .library(name: "Gurmukhi", targets: ["Gurmukhi"]),
