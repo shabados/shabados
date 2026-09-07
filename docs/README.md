@@ -61,9 +61,9 @@ rather than an analogy:
 **Three corpus prerequisites**, all cheapest before the protocol schema is pinned:
 Nitnem must become a **bani-group**; the content types `translation` and `note` are
 misnamed for what the UI calls them — **Interpretation** and **Word Gloss**
-([roadmap §3.1](../database/docs/roadmap.md)); and **5,999 IDs must be reassigned** so
+([roadmap §3.2](../database/docs/roadmap.md)); and **5,999 IDs must be reassigned** so
 no ID is all digits or starts with `0`
-([roadmap §3.3](../database/docs/roadmap.md)), without which a bare number in the omni
+([roadmap §3.4](../database/docs/roadmap.md)), without which a bare number in the omni
 search box cannot unambiguously mean an ang. **The ID change stops being cheap the
 moment the app stores an ID** in a bookmark, timeline, or share.
 

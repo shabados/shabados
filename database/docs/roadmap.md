@@ -76,7 +76,55 @@ reviewable in a diff. See
 
 ## 3. Schema
 
-### 3.1 Rename the content types: `translation` and `note` are misnamed
+### 3.1 Vaar saloks are split from their pauri
+
+**A vaar's shabad is the saloks *and* the pauri together**, and the corpus currently
+holds them as separate line-groups.
+
+**The numbering shows it.** Saloks restart at ੧ for each pauri; the pauri number is the
+vaar-level counter. Asa Ki Var, as it stands today:
+
+```
+GK0  salok  …॥੧॥     1TN  …॥੨॥     DU3  …॥੩॥     595  ਪਉੜੀ …॥੧॥     <- pauri 1
+J3D  salok  …॥੧॥     3JA  …॥੨॥     ASY  …॥੩॥     JPB  ਪਉੜੀ …॥੨॥     <- pauri 2
+3Z2  salok  …॥੧॥     S42  …॥੨॥                   EGF  ਪਉੜੀ …॥੩॥     <- pauri 3
+```
+
+**Detect it by the numbers, not by headings.** A salok group opens `ਮਃ ੧ ॥` or
+`ਮਹਲਾ ੨ ॥` as often as `ਸਲੋਕੁ ॥`, so matching heading text finds 86 cases; matching a
+descending run of trailing numbers immediately before a `ਪਉੜੀ` group finds **534**.
+
+**Measured 2026-09-07:**
+
+| | |
+| --- | --- |
+| Pauri groups preceded by a salok run | **534**, across 17 raag sections |
+| Saloks in the run | 2 most often (383), then 1 (95), then 3 (48) |
+| Line-groups involved today | **1,578** |
+| After merging | **534** |
+
+**Raag Aasaa yields exactly 24, which is Asa Ki Var's 24 pauris.** That is the check
+that the detection is finding vaars and not something else.
+
+**Raag Gauree yields 121 and wants review before anything is merged.** Gauree also
+holds Sukhmani and Bavan Akhri, which are ashtpadis rather than vaars, and an
+ashtpadi's numbering can look like a salok run.
+
+**This is a merge, which fits the constraint better than a split does.** It moves line
+IDs from one existing line-group into another and deletes the emptied ones — no new
+line-group IDs, and the only other edit is removing the dead IDs from the section's
+`lineGroups`. A reviewer confirms no scripture moved by checking that nothing under
+`lines/` appears in the diff.
+
+**Do it before the app stores anything.** A bookmark or a journey records which
+line-group a reading was in; merging afterwards changes that answer under people's
+feet. Line IDs themselves are stable either way.
+
+**Not yet investigated:** the saloks of Salok Mahalla 9 at the end of the SGGS, which
+should plausibly be one line-group and are not, and hukamnamas that span multiple
+shabads (`apps/web/src/routes/hukamnama/[id]/index.tsx` lists them).
+
+### 3.2 Rename the content types: `translation` and `note` are misnamed
 
 The corpus calls two content types `translation` and `note`. **Neither name matches
 what the field holds**, and the apps hit this the moment they had to label them.
@@ -107,7 +155,7 @@ commit (CLAUDE.md).
 or the wrong names are frozen into the wire contract and the rename stops being
 cheap.
 
-### 3.2 A build step that emits a corpus subset
+### 3.3 A build step that emits a corpus subset
 
 The apps do not ship everything in `collections/`. Two assets are excluded outright:
 **`SBMS`** (22.6 MB of TOML across 120,973 blocks — kept for posterity, never
@@ -126,7 +174,7 @@ edited every time; one that takes a list is configuration.
 **Determinism applies.** The subset must rebuild byte-identical from the same commit
 and the same exclusion list.
 
-### 3.3 ID constraints: no leading zero, never all-digits
+### 3.4 ID constraints: no leading zero, never all-digits
 
 **Decided 2026-09-02.** No ID, at any length from 1 to 5 characters, may **begin with
 `0`** or **consist entirely of digits**.
@@ -171,7 +219,7 @@ before the app stores anything, and before the protocol schema is pinned.
 **Prevent:** a build validator asserting the rule over every ID in every collection.
 It should fail the build, not warn.
 
-### 3.4 Moving a line to a different line-group
+### 3.5 Moving a line to a different line-group
 
 Lines are sometimes positioned in the wrong line-group — typically the first or
 last line of a shabad belonging to its neighbour. This must be a supported,
@@ -188,7 +236,7 @@ one line-group — zero exceptions** — and all 12,730 line-groups sit in a sec
 "which line-group holds this line" is a total function, and moving a line is a
 single reassignment.
 
-### 3.5 Home line-group as a generated column
+### 3.6 Home line-group as a generated column
 
 Because the mapping is total and the corpus is generated and read-only, write the
 home line-group onto the line at build time, the same way `depth` and `path` are
@@ -197,20 +245,20 @@ an index probe, and **needs no new table**.
 
 The reverse direction (all lines in a container) is the ordinary child index.
 
-### 3.6 Keep explicit line lists; do not adopt slice syntax
+### 3.7 Keep explicit line lists; do not adopt slice syntax
 
 `collections/` already stores explicit line IDs: `banis/*.toml` list `lines`,
 `line-groups/*.toml` list `lines`. Only `sections/*.toml` list `lineGroups`.
 
 A compressed slice form exists downstream (`MJN:0:1,MJN:3:4`, `0VC::-8`, `TUY:-6`).
 **Do not adopt it into the schema.** It addresses by offset, so any change to a
-line-group's contents silently repoints every slice — the exact failure §3.4 exists
+line-group's contents silently repoints every slice — the exact failure §3.3 exists
 to prevent. It also hides intent (`MJN:0:1,MJN:3:4` skips index 2 with nothing
 recording why) and `TUY:-6` versus `TUY::28` differ by one colon while trimming
 opposite ends. If slices are ever convenient for authoring, resolve them to line
 IDs at build time.
 
-### 3.7 Remove corpus-wide ordinal columns
+### 3.8 Remove corpus-wide ordinal columns
 
 `lines.order_id` (141,264 rows, unique index) and `shabads.order_id` (12,730) make
 each row claim to know its position in a sequence it does not own, and they are
@@ -218,7 +266,7 @@ wrong under partial corpora, where a global sequence has gaps. Ordering belongs 
 the parent container. See
 [data-model.md](../../docs/requirements/data-model.md#containment-structure-is-imposed-from-outside-in).
 
-### 3.8 Decide whether transliterations are stored
+### 3.9 Decide whether transliterations are stored
 
 38 MB including indexes — a quarter of the artifact — exactly 3 per line, entirely
 generated from the Gurmukhi, and v2's frontend already computes them at render time
