@@ -18,9 +18,26 @@ struct BaniReaderView: View {
   @AppStorage("fontSize") private var fontSize = DesignTokens.defaultSize
 
   /// Vishraam colouring. On by default
-  /// (docs/requirements/display-controls.md#pauses). No control surfaces it yet —
-  /// that arrives with the Controls sidebar.
+  /// (docs/requirements/display-controls.md#pauses).
   @AppStorage("pauses") private var pauses = true
+
+  /// Transliterations. **Both off by default**, per the Variorum defaults.
+  @AppStorage("pronDevanagari") private var pronDevanagari = false
+  @AppStorage("pronLatin") private var pronLatin = false
+
+  /// Secondary text as a fraction of the Gurmukhi size — the `Ratio` control,
+  /// 0.4 to 1.0. **The default is not specified anywhere**; 0.7 is the middle of the
+  /// range and a placeholder (docs/requirements/display-controls.md#ratio).
+  @AppStorage("ratio") private var ratio = 0.7
+
+  private var schemes: [Pronunciation] {
+    Pronunciation.allCases.filter {
+      switch $0 {
+      case .devanagari: pronDevanagari
+      case .latin: pronLatin
+      }
+    }
+  }
 
   /// Live size during a pinch. Held separately from @AppStorage, which coalesces
   /// its writes and so would not re-render mid-gesture.
@@ -77,6 +94,7 @@ struct BaniReaderView: View {
         Button("Larger", systemImage: "textformat.size.larger") {
           fontSize = DesignTokens.clamp(fontSize + 2)
         }
+        controlsStandIn
       }
     }
   }
@@ -85,11 +103,33 @@ struct BaniReaderView: View {
   private func row(for item: ReaderItem) -> some View {
     switch item.kind {
     case .line(let line):
-      LineText(line: line, size: displaySize, pauses: pauses)
+      LineText(
+        line: line,
+        size: displaySize,
+        pauses: pauses,
+        schemes: schemes,
+        ratio: ratio
+      )
     case .divider:
       Divider()
         .background(DesignTokens.foreground.opacity(DesignTokens.tonerOpacity))
         .padding(.vertical, 8)
+    }
+  }
+
+  /// A stand-in for the Controls sidebar, which does not exist yet
+  /// (docs/requirements/reading-shell.md#the-controls-sidebar). Here only so the
+  /// settings can be exercised; it is not the specified surface and should be
+  /// deleted when that one lands.
+  private var controlsStandIn: some View {
+    Menu {
+      Toggle("Pauses", isOn: $pauses)
+      Section("Pronunciations") {
+        Toggle(Pronunciation.devanagari.label, isOn: $pronDevanagari)
+        Toggle(Pronunciation.latin.label, isOn: $pronLatin)
+      }
+    } label: {
+      Image(systemName: AppIcons.controls)
     }
   }
 
@@ -134,6 +174,8 @@ private struct LineText: View {
   let line: Line
   let size: Double
   let pauses: Bool
+  let schemes: [Pronunciation]
+  let ratio: Double
 
   /// Every pause word is styled either way — its colour is the toggle, not its
   /// existence. The ranges were computed once at decode, so turning colouring on
@@ -169,11 +211,25 @@ private struct LineText: View {
   }
 
   var body: some View {
-    Text(text)
-      .font(.custom(Fonts.gurmukhi, size: size))
-      .foregroundStyle(DesignTokens.foreground)
-      .lineSpacing(DesignTokens.lineSpacing(for: size, fontName: Fonts.gurmukhi))
-      .frame(maxWidth: .infinity, alignment: .leading)
-      .textSelection(.enabled)
+    VStack(alignment: .leading, spacing: 2) {
+      Text(text)
+        .font(.custom(Fonts.gurmukhi, size: size))
+        .foregroundStyle(DesignTokens.foreground)
+        .lineSpacing(DesignTokens.lineSpacing(for: size, fontName: Fonts.gurmukhi))
+
+      // A Variorum field beneath the Gurmukhi, sized by Ratio. Devanagari needs the
+      // Gurmukhi face for its own conjuncts; Latin does not, so it takes the system
+      // font rather than borrowing glyph fallbacks from Sant Lipi.
+      ForEach(schemes) { scheme in
+        let secondary = size * ratio
+        Text(Transliteration.of(line, scheme))
+          .font(scheme == .devanagari
+            ? .custom(Fonts.gurmukhi, size: secondary)
+            : .system(size: secondary))
+          .foregroundStyle(DesignTokens.foregroundMuted)
+      }
+    }
+    .frame(maxWidth: .infinity, alignment: .leading)
+    .textSelection(.enabled)
   }
 }

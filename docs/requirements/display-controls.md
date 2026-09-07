@@ -456,6 +456,31 @@ no coverage question, no unavailable state.
 The enum notes Arabic as future work, "requires expert input for Persian-based script
 conventions" — relevant, as the corpus holds Persian-language sources.
 
+#### The scholarly scheme emits two characters almost nothing can render
+
+**Measured 2026-09-07.** `latin_scholar` maps the two nasal marks to Supplemental
+Punctuation:
+
+| Gurmukhi | Emits | |
+| --- | --- | --- |
+| `ੰ` tippi | **U+2E1B** tilde with ring above | |
+| `ਂ` bindi | **U+2E1E** tilde with dot above | |
+
+**Of 242 fonts installed on macOS, exactly one covers them — Geneva.** Sant Lipi does
+not, and neither does the system UI font. Everything else the scheme emits — `ā` `ē`
+`ī` `ʰ` `ʳ` `˘` — renders fine, so on screen `ਓਅੰਕਾਰ` reads `oa□kār` and `ਸੈਭੰ` reads
+`sēbha□`: a missing-glyph box in the middle of the Mool Mantar.
+
+**This is not a rendering bug to work around in the app.** It affects every platform
+equally, and no font choice available to us fixes it.
+
+**Replacing them is a transliteration decision, not an encoding one**, so it is not an
+implementer's to make (CLAUDE.md). What a replacement must preserve: tippi and bindi
+are **distinct** in Gurmukhi and the scheme deliberately distinguishes them, so one
+mark for both would lose information. Well-supported candidates that stay distinct
+include `ṁ` (U+1E41) and `ṃ` (U+1E43), both Latin Extended Additional and universal.
+See open question 14.
+
 ### Interpretation
 
 *(Corpus type `translation`.)* **Two options: `English` and `Panjabi`.** Each names a
@@ -673,3 +698,12 @@ have nothing to do with what they are reading.
 13. **When variants arrive, are they a Variorum field or a different surface?** The
     target shape shows textual variants *alongside* the line with year and asset
     labels, not stacked beneath it as another toggled block.
+14. **What should `latin_scholar` emit for tippi and bindi?** U+2E1B and U+2E1E are
+    unrenderable in practice — see
+    [above](#the-scholarly-scheme-emits-two-characters-almost-nothing-can-render).
+    The replacement must keep the two marks distinct from each other. This is a
+    `packages/gurmukhi` change and a transliteration judgement.
+15. **What is the default `Ratio`?** The range is 40–100% in 5% steps and nothing
+    states a starting value; the app currently uses 70% as a placeholder.
+16. **What colour is secondary Variorum text?** The app uses `foregroundMuted`;
+    nothing specifies it.
