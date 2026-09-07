@@ -52,6 +52,9 @@ reached over a C ABI, and reimplementing any of it per platform is how two apps 
 disagreeing about the same line — `transcribe` alone is three scripts with
 pronunciation rules and hardcoded exceptions.
 
+**Verified working 2026-09-07** on macOS + Apple Silicon: `mise run smoke:swift` builds
+all three slices, assembles the xcframework, links against its macOS slice, and passes.
+
 **One command, from a real terminal:**
 
 ```
@@ -81,6 +84,12 @@ above has run.
 **Targets are pinned in `packages/gurmukhi/rust-toolchain.toml`**, so rustup installs
 them on first build. Adding a platform is a line in that file, not a `rustup target
 add` in a README that goes stale.
+
+**Each slice is ~40 MB and that is expected.** An unstripped Rust static archive with
+regex, serde and uniffi in it, ~75k symbols. The linker pulls only what is referenced
+and dead-strips the rest, so the app binary will be far smaller — **measure it once
+the app links, rather than adding `[profile.release]` settings blind.** There is no
+`[profile.release]` section in `Cargo.toml` today; the default is in use.
 
 **Android is not wired up yet.** It needs `cargo-ndk`, an `.so` per ABI, and JNA as a
 runtime dependency — independent problems, deliberately left until the iOS path is
@@ -130,6 +139,9 @@ will be rejected on upload.
 
 Both apps build, install, and run. Verified working: bani list, reader, Sant Lipi
 rendering, light/dark, A−/A+ sizing.
+
+**`packages/gurmukhi` is wired into the Swift package and verified** — see
+[above](#packagesgurmukhi-in-the-apps). Not yet added to the Xcode project.
 
 **Unverified — written but never run:** focal-point pinch-to-zoom on both platforms
 (the most recent work). Watch for: whether the point under your fingers stays put,
