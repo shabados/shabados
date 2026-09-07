@@ -27,3 +27,6 @@ bindings/javascript/android/src/main/jniLibs/
 bindings/javascript/GurmukhiFramework.xcframework/
 bindings/javascript/build/
 bindings/javascript/smoke/napi/
+
+# Xcode SwiftPM state for this package. Per-machine, regenerated on open.
+.swiftpm/
