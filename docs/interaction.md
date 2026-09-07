@@ -5,7 +5,7 @@ Draft, 2026-09-02. **Layer 2 of three**
 platform delivers a requirement, where the platforms genuinely differ.
 
 **This document holds judgements, not lookups.** Icon mappings are data and live in
-[`brand/icons.json`](../brand/icons.json), generated into both apps by
+[`brand/icons.md`](../brand/icons.md), generated into both apps by
 `brand/scripts/generate-icons.mjs`. There is no icon table here on purpose — a
 markdown table of symbol names is a promise, and a generator is enforcement.
 
@@ -196,7 +196,7 @@ which is exactly where the operator features live.
 
 ## Icons
 
-**In [`brand/icons.json`](../brand/icons.json). Do not restate them here.**
+**In [`brand/icons.md`](../brand/icons.md). Do not restate them here.**
 
 Two things worth knowing without opening the file:
 
@@ -208,16 +208,22 @@ target read from the project file and exits non-zero. This already caught one:
 `character.bubble` fallback. Every `minIOS` in the file was verified against the
 system symbol database, not recalled.
 
-**No Android name has been verified.** All 33 are marked `verified: false`, and the
-generator says so on every build. Verify before trusting any of them —
-[Browsing icons](#browsing-icons) below.
+**Lucide comes first, and it is not the web column.** Columns there are icon *sets*,
+not targets: a set is a design language and any target can draw from any of them.
+Lucide leads because it ships as plain SVG and therefore renders everywhere, and a
+`Use Lucide` mark makes it win on every target for an icon central enough that no
+native symbol is good enough. Keep that sparse.
+
+**Names are placeholders until someone knows better.** There is no verified flag —
+the file is a living document, and a wrong icon name is a visibly wrong icon rather
+than a silent failure.
 
 ## Browsing icons
 
 **Naming an icon is enough — the mapping is a lookup, so hand over names, not
 files.** For Android, a Material Symbols name from
 [fonts.google.com/icons](https://fonts.google.com/icons) is exactly what
-`brand/icons.json` wants: give the semantic slot and the icon name (`route`,
+`brand/icons.md` wants: give the semantic slot and the icon name (`route`,
 `format_size`), it goes in the file with `verified: true`, and the generator carries
 it to both platforms. Same for iOS with an SF Symbols name. Naming them per control,
 the way the Controls sidebar icons were named, is the right granularity.
@@ -250,7 +256,7 @@ practical options, best first:
 **Roboto is the typeface, not the icons.** The icon set is Material Symbols (current,
 variable-font based) or Material Icons (legacy, what `material-icons-extended`
 ships). They are different catalogues with overlapping names, which is a good reason
-to record the exact name per icon in `brand/icons.json` rather than in anyone's head.
+to record the exact name per icon in `brand/icons.md` rather than in anyone's head.
 
 ## Open questions
 
@@ -273,7 +279,7 @@ to record the exact name per icon in `brand/icons.json` rather than in anyone's 
    input have no assignments.
 6. **Are the Android drawables imported by hand forever?** Thirty-three vector assets
    imported through Android Studio is a manual step no generator covers, and a new
-   icon in `brand/icons.json` silently has no drawable until someone reads the build
+   icon in `brand/icons.md` silently has no drawable until someone reads the build
    warning.
 7. **What does Liquid Glass change beyond the header?** Targeting iOS 26 was partly
    justified by it. If it changes how sidebars, sheets, and toolbars should be built,

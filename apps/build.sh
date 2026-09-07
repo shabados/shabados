@@ -88,14 +88,14 @@ ensure_tokens() {
   node "$REPO_DIR/brand/scripts/generate-tokens.mjs" >/dev/null
 }
 
-# Icons live in brand/icons.json for the same reason colours do, plus one of its own:
+# Icons live in brand/icons.md for the same reason colours do, plus one of its own:
 # an SF Symbol newer than the deployment target renders as NOTHING, with no error. The
 # generator checks every symbol against IPHONEOS_DEPLOYMENT_TARGET and exits non-zero,
 # so a blank button cannot reach a build. Its warnings (unimported Android drawables,
 # unverified Material Symbols names) are left visible rather than silenced.
 ensure_icons() {
   command -v node >/dev/null \
-    || die "node not found — needed to generate icon mappings from brand/icons.json"
+    || die "node not found — needed to generate icon mappings from brand/icons.md"
   node "$REPO_DIR/brand/scripts/generate-icons.mjs" >/dev/null \
     || die "icon generation failed — see the errors above"
 }
