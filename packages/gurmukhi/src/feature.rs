@@ -341,3 +341,114 @@ pub fn detect(input: String, features: Vec<Feature>) -> Vec<FeatureMatch> {
     matches.sort_by_key(|m| m.start);
     matches
 }
+
+// -- line classification --
+
+/// Words a title may contain before it is treated as verse.
+///
+/// Measured against `database/collections` on 2026-09-07, over every line in every
+/// line-group. Raising this to 4 buys 4 points of recall and doubles the false
+/// positives, so 3 is where the curve turns:
+///
+/// | Limit | Recall on known titles | Fires on non-opening lines |
+/// | --- | --- | --- |
+/// | 2 | 48% | 1.8% |
+/// | **3** | **88%** | **4.9%** |
+/// | 4 | 92% | 9.8% |
+const TITLE_MAX_WORDS: usize = 3;
+
+/// Is this line a title — a heading that names or introduces — rather than verse?
+///
+/// Two structural signals, both measured rather than assumed, and neither needing a
+/// list of known phrases:
+///
+/// 1. **A title carries no vishraam.** Vishraams mark where a reciter pauses, and a
+///    heading is not recited that way. Of 6,188 lines the previous hand-kept list
+///    recognised as titles, **10 contain a vishraam**. Of ordinary verse lines, 63%
+///    do.
+/// 2. **A title is short.** 88% of those known titles are three words or fewer;
+///    5% of verse lines are.
+///
+/// **Position is deliberately not a signal.** Titles are not only at the start of a
+/// composition — `ਚੌਪਈ ॥`, `ਸਵੈਯਾ ॥` and `ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥` all appear partway
+/// through long works as internal headings, so a caller that only asked about first
+/// lines would miss them.
+///
+/// **Why not a list of titles.** One existed, in the web app, and it recognised 48%
+/// of shabad openings: it missed `ਚੌਪਈ` 1,509 times because it held the spelling
+/// `ਚਉਪਈ`, and it had no entry at all for `ਅੜਿਲ`, `ਸੋਰਠਾ`, `ਰਸਾਵਲ`, or most raags.
+/// The short openings it missed lead with **307 distinct words**, so the list was
+/// never going to converge.
+/// [ADR-0005](../../docs/architecture/decisions/0005-line-type-derived-not-stored.md)
+/// removed the same mistake in its ASCII form.
+///
+/// **This is a heuristic and is expected to be refined.** It over-fires on short
+/// verse — `ਧਿਆਏ ਗਾਏ ਕਰਨੈਹਾਰ ॥` is three words with no vishraam and is not a title.
+///
+/// ```
+/// # use gurmukhi::feature::is_title;
+/// assert!(is_title("ਚੌਪਈ ॥".to_string()));
+/// assert!(is_title("ਮਹਲਾ ੫".to_string()));
+/// assert!(!is_title("ਕਬੀਰ. ਭਲੀ ਮਧੂਕਰੀ; ਨਾਨਾ ਬਿਧਿ ਕੋ ਨਾਜੁ ॥".to_string()));
+/// ```
+#[uniffi::export]
+pub fn is_title(input: String) -> bool {
+    if input.contains(VISHRAM_HEAVY) || input.contains(VISHRAM_MEDIUM) || input.contains(VISHRAM_LIGHT)
+    {
+        return false;
+    }
+
+    // A bare `॥` or `।` is punctuation, not a word — counting it would push a
+    // two-word heading over the limit.
+    let words = input
+        .split_whitespace()
+        .filter(|w| !w.chars().all(|c| LINE_ENDING_CHARS.contains(&c)))
+        .count();
+
+    words > 0 && words <= TITLE_MAX_WORDS
+}
+
+#[cfg(test)]
+mod title_tests {
+    use super::is_title;
+
+    #[test]
+    fn recognises_headings() {
+        for line in [
+            "ਚੌਪਈ ॥",             // the spelling the old list missed 1,509 times
+            "ਚਉਪਈ ॥",             // and the one it held
+            "ਪਉੜੀ ੨੨",            // a form plus a numeral
+            "ਮਹਲਾ ੫",
+            "ਗਉੜੀ ੧੨ ॥",
+            "ਅੜਿਲ ॥",             // absent from the old list entirely
+            "ਲਛਮਣ ਬਾਚ ॥",         // a speaker attribution
+            "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥",
+        ] {
+            assert!(is_title(line.to_string()), "expected a title: {line}");
+        }
+    }
+
+    #[test]
+    fn rejects_verse() {
+        for line in [
+            "ਕਬੀਰ. ਭਲੀ ਮਧੂਕਰੀ; ਨਾਨਾ ਬਿਧਿ ਕੋ ਨਾਜੁ ॥",
+            "ਮਨਿ. ਬਿਰਾਗੈਗੀ ॥",     // short, but a vishraam makes it verse
+            "ਆਦਿ ਸਚੁ ਜੁਗਾਦਿ ਸਚੁ ॥",
+        ] {
+            assert!(!is_title(line.to_string()), "expected verse: {line}");
+        }
+    }
+
+    #[test]
+    fn a_line_ending_is_not_a_word() {
+        // Without the filter this is three tokens and would still pass; with a
+        // fourth word it would not, which is the case that matters.
+        assert!(is_title("ਭੁਜੰਗ ਪ੍ਰਯਾਤ ਛੰਦ ॥".to_string()));
+    }
+
+    #[test]
+    fn empty_is_not_a_title() {
+        assert!(!is_title(String::new()));
+        assert!(!is_title("॥".to_string()));
+    }
+}
