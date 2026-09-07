@@ -118,9 +118,9 @@ would mean two contradictory things about one object.
   the SQLite build must still be byte-identical from a commit.
 - **Three corpus prerequisites, all cheapest now.** Nitnem must become a bani-group;
   the content types `translation` and `note` are misnamed for what the UI calls them
-  ([roadmap §3.1](../../../database/docs/roadmap.md)); and **5,999 IDs must be
+  ([roadmap §3.2](../../../database/docs/roadmap.md)); and **5,999 IDs must be
   reassigned** so that no ID is all digits or starts with `0`
-  ([roadmap §3.3](../../../database/docs/roadmap.md)) — without which a bare number in
+  ([roadmap §3.4](../../../database/docs/roadmap.md)) — without which a bare number in
   the omni search box, and `shabados.com/1400`, cannot unambiguously mean an ang. **The
   ID change is the one that stops being cheap**: once bookmarks, timelines, and shares
   persist line IDs, reassigning one breaks user data permanently.
