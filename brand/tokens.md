@@ -71,13 +71,38 @@ is what lets a pause render the same in the apps as on the web.
 
 `--toner` in `global.css`: a neutral wash for dividers and inset surfaces.
 
+## Weight
+
+Sant Lipi's `wght` axis runs 100–900, so these are exact axis values rather than the
+nine named weights a system font offers. Gurmukhi's thin horizontal strokes and
+stacked matras disappear at text weights that suit Latin, which is why the primary
+line sits well above regular.
+
+**Secondary fields are lighter than the primary but not by much** — they are still
+scripture-adjacent, and dropping them to a true light weight makes them look
+disabled rather than subordinate.
+
+| Token | Value |
+| --- | --- |
+| weightPrimary | `550` |
+| weightLatin | `475` |
+| weightSecondary | `440` |
+
+`weightLatin` is heavier than `weightSecondary` because Latin at the same axis value
+reads lighter than Gurmukhi does — different scripts, different apparent weight.
+
 ## Type
+
+`ratioDefault` is the secondary-field size as a fraction of the Gurmukhi size — the
+`Ratio` control's starting point, within its 0.4–1.0 range
+([display-controls.md](../docs/requirements/display-controls.md#ratio)).
 
 `lineHeight` is the total line box at `defaultSize`. **The generator emits the ratio,
 not the absolute**, so it still holds when the reader is zoomed.
 
 | Token | Value |
 | --- | --- |
+| ratioDefault | `0.6` |
 | defaultSize | `20` |
 | lineHeight | `24` |
 | minSize | `14` |

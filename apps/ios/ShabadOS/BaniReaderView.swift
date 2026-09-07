@@ -26,9 +26,8 @@ struct BaniReaderView: View {
   @AppStorage("pronLatin") private var pronLatin = false
 
   /// Secondary text as a fraction of the Gurmukhi size — the `Ratio` control,
-  /// 0.4 to 1.0. **The default is not specified anywhere**; 0.7 is the middle of the
-  /// range and a placeholder (docs/requirements/display-controls.md#ratio).
-  @AppStorage("ratio") private var ratio = 0.7
+  /// 0.4 to 1.0 (docs/requirements/display-controls.md#ratio).
+  @AppStorage("ratio") private var ratio = DesignTokens.ratioDefault
 
   private var schemes: [Pronunciation] {
     Pronunciation.allCases.filter {
@@ -213,7 +212,7 @@ private struct LineText: View {
   var body: some View {
     VStack(alignment: .leading, spacing: 2) {
       Text(text)
-        .font(.custom(Fonts.gurmukhi, size: size))
+        .font(Fonts.variable(Fonts.gurmukhi, size: size, weight: DesignTokens.weightPrimary))
         .foregroundStyle(DesignTokens.foreground)
         .lineSpacing(DesignTokens.lineSpacing(for: size, fontName: Fonts.gurmukhi))
 
@@ -224,8 +223,8 @@ private struct LineText: View {
         let secondary = size * ratio
         Text(Transliteration.of(line, scheme))
           .font(scheme == .devanagari
-            ? .custom(Fonts.gurmukhi, size: secondary)
-            : .system(size: secondary))
+            ? Fonts.variable(Fonts.gurmukhi, size: secondary, weight: DesignTokens.weightSecondary)
+            : .system(size: secondary, weight: .medium))
           .foregroundStyle(DesignTokens.foregroundMuted)
       }
     }

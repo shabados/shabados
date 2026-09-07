@@ -41,6 +41,7 @@ const scalars = (heading) => {
 }
 
 const opacity = scalars('Opacity')
+const weight = scalars('Weight')
 const type = scalars('Type')
 
 for (const key of ['defaultSize', 'lineHeight', 'minSize', 'maxSize']) {
@@ -84,6 +85,12 @@ ${Object.entries(color).map(([k, v]) => swiftColor(k, v)).join('\n\n')}
 
   static let tonerOpacity: Double = ${opacity.toner}
 
+  static let weightPrimary: Double = ${weight.weightPrimary}
+  static let weightLatin: Double = ${weight.weightLatin}
+  static let weightSecondary: Double = ${weight.weightSecondary}
+
+  static let ratioDefault: Double = ${type.ratioDefault}
+
   static let defaultSize: Double = ${type.defaultSize}
   static let minSize: Double = ${type.minSize}
   static let maxSize: Double = ${type.maxSize}
@@ -124,6 +131,12 @@ object DesignTokens {
 ${Object.entries(color).map(([k, v]) => kotlinColor(k, v)).join('\n\n')}
 
   const val TONER_OPACITY = ${opacity.toner}f
+
+  const val WEIGHT_PRIMARY = ${weight.weightPrimary}f
+  const val WEIGHT_LATIN = ${weight.weightLatin}f
+  const val WEIGHT_SECONDARY = ${weight.weightSecondary}f
+
+  const val RATIO_DEFAULT = ${type.ratioDefault}f
 
   const val DEFAULT_SIZE = ${type.defaultSize}f
   const val MIN_SIZE = ${type.minSize}f

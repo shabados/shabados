@@ -164,6 +164,39 @@ behaviour and it follows from what larivaar is; it is not an oversight.
 
 #### Titles
 
+**Measured 2026-09-07 against every line-group's opening line**, which is where a
+shabad's heading sits. The web app's `isTitle` matches **6,188 of 12,730 (48%)**.
+
+**The 6,542 it misses split cleanly by length**, once vishraam markers are stripped
+before counting words — they are notation, not punctuation, and counting them as
+sentence marks is what made an earlier pass of this analysis wrong:
+
+| Words | Openings | |
+| --- | --- | --- |
+| 1–2 | **3,329** | `ਪਉੜੀ ੨੨`, `ਚੌਪਈ ॥` — titles |
+| 3 | 601 | `ਗਉੜੀ ੧੨ ॥`, `ਪਾਧਰੀ ਛੰਦ ॥`, `ਮਾਧਵ ਬਾਚ ॥` — mostly titles |
+| 4–5 | 448 | mixed |
+| **6+** | **2,164** | `ਕਬੀਰ. ਭਲੀ ਮਧੂਕਰੀ; ਨਾਨਾ ਬਿਧਿ ਕੋ ਨਾਜੁ ॥` — verse |
+
+**So roughly 4,000 real titles are missing, and about 2,200 unmatched openings are
+correctly unmatched.** "Unmatched" is not a defect list.
+
+**Three separable failures in the current list:**
+
+- **Spelling variants.** It has `ਚਉਪਈ ॥`; the corpus has **1,509** openings beginning
+  `ਚੌਪਈ`. One vowel.
+- **Absent categories.** Chhand names (`ਅੜਿਲ` 408, `ਸਵੈਯਾ` 381, `ਸੋਰਠਾ`, `ਰਸਾਵਲ`,
+  `ਕਬਿਤੁ`), section openers (`ਅਥ` 195), speaker attributions (`ਮਾਧਵ ਬਾਚ ॥`,
+  `ਲਛਮਣ ਬਾਚ ॥`), numbered forms (`ਪਉੜੀ ੨੨` — the list has `ਪਉੜੀ ॥` but not with a
+  numeral), and nearly every raag name — it holds `ਦੇਵਗੰਧਾਰੀ` and misses `ਗਉੜੀ`,
+  `ਕਾਨ੍ਰਹ` and the rest.
+- **Length is the strongest signal the list does not use.** A short line at the start
+  of a shabad is almost always a heading; a long one almost never is.
+
+**A rule built on structure rather than a lookup is therefore reachable** — position,
+length, and a vocabulary drawn from corpus metadata rather than hand-kept. **What that
+rule is remains open question 4**; this is the evidence for it, not the rule.
+
 **A title is a line that names or introduces rather than being read as verse** — a
 raag heading, an authorship line, a chhand name, a `ੴ`.
 
@@ -474,12 +507,28 @@ not, and neither does the system UI font. Everything else the scheme emits — `
 **This is not a rendering bug to work around in the app.** It affects every platform
 equally, and no font choice available to us fixes it.
 
-**Replacing them is a transliteration decision, not an encoding one**, so it is not an
-implementer's to make (CLAUDE.md). What a replacement must preserve: tippi and bindi
-are **distinct** in Gurmukhi and the scheme deliberately distinguishes them, so one
-mark for both would lose information. Well-supported candidates that stay distinct
-include `ṁ` (U+1E41) and `ṃ` (U+1E43), both Latin Extended Additional and universal.
-See open question 14.
+**`Script::Latin` already solves this, and shows the trade.** It post-processes the
+scholar output and folds every exotic codepoint down to something ordinary:
+
+| Scholar | Latin | |
+| --- | --- | --- |
+| `⸛` U+2E1B (tippi) | **`ñ`** | |
+| `⸞` U+2E1E (bindi) | **`ñ`** | tippi and bindi collapse to one mark |
+| `ʰ ʳ ᵛ ⁿ ᶜ` | `h r v n c` | |
+| `ƴ ʸ` | `y` | |
+
+Everything it emits is universally renderable. **The cost is precision** — tippi and
+bindi become the same character, and the modifier letters lose their distinction from
+ordinary consonants.
+
+**So the two schemes sit at opposite ends of one trade**, and neither is wrong:
+`latinScholar` is precise and unrenderable, `latin` is renderable and lossy.
+
+**Replacing the two codepoints is a transliteration decision, not an encoding one**,
+so it is not an implementer's to make (CLAUDE.md). A middle position exists —
+characters that are both universal and distinct, such as `ṁ` (U+1E41) and `ṃ`
+(U+1E43) — but which marks are *correct* for tippi and bindi is a judgement about
+romanisation. See open question 14.
 
 ### Interpretation
 
