@@ -6,4 +6,7 @@
     <color name="foreground">#23211f</color>
     <color name="foreground_muted">#575552</color>
     <color name="ui">#2381e0</color>
+    <color name="vishraam_heavy">#8a472a</color>
+    <color name="vishraam_medium">#13662b</color>
+    <color name="vishraam_light">#5e438e</color>
 </resources>

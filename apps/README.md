@@ -38,7 +38,7 @@ is **generated from one source** rather than written twice:
 
 | Source | Generator | Emits |
 | --- | --- | --- |
-| `brand/tokens.json` | `brand/scripts/generate-tokens.mjs` | `DesignTokens.swift`, `DesignTokens.kt`, `values/design_tokens.xml`, `values-night/design_tokens.xml` |
+| `brand/tokens.md` | `brand/scripts/generate-tokens.mjs` | `DesignTokens.swift`, `DesignTokens.kt`, `values/design_tokens.xml`, `values-night/design_tokens.xml` |
 | `brand/icons.json` | `brand/scripts/generate-icons.mjs` | `AppIcons.swift`, `AppIcons.kt` |
 | `database/collections` | `database/scripts/export-bundled-banis.ts` | `banis.json` into both apps |
 
@@ -108,7 +108,7 @@ yet, and do not stop a build.
 
 **Colour/type values mirror `apps/web/src/global.css`**, which is where the palette
 was actually designed (in OKLCH, then converted — the `oklch()` comments there are
-the provenance). **The web app is not yet generated from `tokens.json`**, so web and
+the provenance). **The web app is not yet generated from `tokens.md`**, so web and
 native can still drift. Closing that is the obvious next improvement: store OKLCH as
 the source, compute hex in the generator, and emit web's custom properties too.
 

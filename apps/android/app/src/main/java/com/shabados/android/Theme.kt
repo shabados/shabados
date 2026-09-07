@@ -9,7 +9,7 @@ import androidx.compose.runtime.Composable
 /**
  * Maps the shared design tokens onto a Material colour scheme.
  *
- * Colours themselves live in `brand/tokens.json` — edit there, not here.
+ * Colours themselves live in `brand/tokens.md` — edit there, not here.
  *
  * `MaterialTheme { }` with no colorScheme uses Material 3's baseline palette, which
  * is purple-tinted; that is where the lavender background came from, not from
