@@ -163,3 +163,63 @@ enum Corpus {
     return try! JSONDecoder().decode(Payload.self, from: data).banis
   }()
 }
+
+
+/// Transliteration schemes offered in the app.
+///
+/// **Two, not the three `Script` declares.** `Script.latin` applies pronunciation
+/// rules — dropped grammatical vowels, hardcoded exceptions — and is deliberately
+/// not exposed; the mechanical mapping ships under the plain name `Latin`
+/// (docs/requirements/display-controls.md#pronunciations).
+enum Pronunciation: String, CaseIterable, Identifiable {
+  case devanagari
+  case latin
+
+  var id: String { rawValue }
+
+  var label: String {
+    switch self {
+    case .devanagari: "Devanagari"
+    case .latin: "Latin"
+    }
+  }
+
+  /// **`latin` maps to `.latinScholar`, not `.latin`.** Both produce plausible Latin
+  /// text, so getting this backwards is invisible on inspection and wrong on every
+  /// line. This one line is the whole reason the trap is documented.
+  var script: Script {
+    switch self {
+    case .devanagari: .devanagari
+    case .latin: .latinScholar
+    }
+  }
+}
+
+/// Transliterations, computed on demand and kept.
+///
+/// **Not computed at decode.** Pronunciations ship off, so most readers never ask for
+/// one, and transcribing all 1,935 bundled lines into both schemes at launch would be
+/// ~3,900 FFI calls nobody wanted. **Not computed per render either** — a row rebuilds
+/// on every scroll and every pinch step.
+///
+/// Main-actor isolated rather than locked: it is only ever touched while building a
+/// view body.
+@MainActor
+enum Transliteration {
+  private static var cache: [Key: String] = [:]
+
+  private struct Key: Hashable {
+    let line: String
+    let scheme: Pronunciation
+  }
+
+  static func of(_ line: Line, _ scheme: Pronunciation) -> String {
+    let key = Key(line: line.id, scheme: scheme)
+    if let hit = cache[key] { return hit }
+    // Transcribed from `gurmukhi`, not `source`: the markers are already gone, and a
+    // transliteration containing `;` would be nonsense in any script.
+    let value = transcribe(input: line.gurmukhi, script: scheme.script)
+    cache[key] = value
+    return value
+  }
+}
