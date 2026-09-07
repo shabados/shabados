@@ -71,6 +71,15 @@ if (problems.length) {
 
 // ---------------------------------------------------------------- Swift
 
+// A custom SVG, where one exists, wins on every platform: the point of drawing one is
+// that no native symbol was good enough. Nothing consumes these yet -- they are
+// carried through so the decision is visible in the generated files rather than only
+// in the JSON.
+const customs = entries.filter(([, def]) => def.custom)
+if (customs.length) {
+  console.warn(`note: ${customs.length} icon(s) use a custom SVG: ${customs.map(([n]) => n).join(', ')}`)
+}
+
 const swiftIcon = ([name, def]) => {
   const { symbol, minIOS, fallback } = def.ios
   const doc = `  /// ${def.meaning}`

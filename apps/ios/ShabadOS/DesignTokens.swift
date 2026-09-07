@@ -66,6 +66,12 @@ enum DesignTokens {
 
   static let tonerOpacity: Double = 0.08
 
+  static let weightPrimary: Double = 550
+  static let weightLatin: Double = 475
+  static let weightSecondary: Double = 440
+
+  static let ratioDefault: Double = 0.6
+
   static let defaultSize: Double = 20
   static let minSize: Double = 14
   static let maxSize: Double = 56

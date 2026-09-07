@@ -1,6 +1,18 @@
 {
   "$comment": [
     "Icon mappings. THE source of truth for which glyph means what, on every platform.",
+    "",
+    "THREE SOURCES, not two. Most icons take the platform's native set -- an SF Symbol",
+    "on iOS, a Material Symbol on Android -- because matching the platform is usually",
+    "worth more than matching ourselves. But a few icons are load-bearing enough to the",
+    "UI that no native symbol is good enough, and those get a custom SVG drawn to sit",
+    "with the platform's own: matched optical size, matched stroke weight.",
+    "",
+    "`custom` names an SVG in brand/assets/icons/. When present it wins on every",
+    "platform, and the ios/android entries stay as the fallback and as a record of what",
+    "was rejected. Keep the custom set small -- every one is a drawing to maintain, and",
+    "the reason to have any is that a couple of icons are worth it, not that consistency",
+    "is worth it everywhere.",
     "Edit here, then run `node brand/scripts/generate-icons.mjs` to regenerate",
     "apps/ios/ShabadOS/AppIcons.swift and",
     "apps/android/app/src/main/java/com/shabados/android/AppIcons.kt.",
@@ -67,7 +79,9 @@
       },
       "web": {
         "component": "ui/controls"
-      }
+      },
+      "custom": null,
+      "$why": "Neither slider.horizontal.2.square nor Material's tune is good enough for a control this central. A candidate for the custom set -- see $comment."
     },
     "controlsActive": {
       "meaning": "Controls sidebar is open. PROPOSED, as above.",
@@ -82,7 +96,8 @@
       },
       "web": {
         "component": "ui/controls"
-      }
+      },
+      "custom": null
     },
     "zoom": {
       "meaning": "Font size of the reading area. Specified by the author.",

@@ -41,6 +41,12 @@ object DesignTokens {
 
   const val TONER_OPACITY = 0.08f
 
+  const val WEIGHT_PRIMARY = 550f
+  const val WEIGHT_LATIN = 475f
+  const val WEIGHT_SECONDARY = 440f
+
+  const val RATIO_DEFAULT = 0.6f
+
   const val DEFAULT_SIZE = 20f
   const val MIN_SIZE = 14f
   const val MAX_SIZE = 56f
