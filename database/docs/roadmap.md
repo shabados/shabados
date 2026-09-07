@@ -120,6 +120,8 @@ line-group IDs, and the only other edit is removing the dead IDs from the sectio
 line-group a reading was in; merging afterwards changes that answer under people's
 feet. Line IDs themselves are stable either way.
 
+**How the numbering works** is written up in [numbering.md](numbering.md).
+
 **Not yet investigated:** the saloks of Salok Mahalla 9 at the end of the SGGS, which
 should plausibly be one line-group and are not, and hukamnamas that span multiple
 shabads (`apps/web/src/routes/hukamnama/[id]/index.tsx` lists them).
