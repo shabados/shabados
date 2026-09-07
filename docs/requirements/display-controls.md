@@ -193,9 +193,32 @@ correctly unmatched.** "Unmatched" is not a defect list.
 - **Length is the strongest signal the list does not use.** A short line at the start
   of a shabad is almost always a heading; a long one almost never is.
 
-**A rule built on structure rather than a lookup is therefore reachable** — position,
-length, and a vocabulary drawn from corpus metadata rather than hand-kept. **What that
-rule is remains open question 4**; this is the evidence for it, not the rule.
+**Implemented as `gurmukhi::is_title`, on two structural signals and no vocabulary
+at all:**
+
+> A line is a title if it **contains no vishraam** and is **three words or fewer**,
+> counting a bare `॥` as punctuation rather than a word.
+
+**Vishraams turned out to be the sharper of the two.** They mark where a reciter
+pauses, and a heading is not recited that way: of the 6,188 lines the old list
+recognised as titles, **ten** contain one. 63% of verse lines do.
+
+**Position is deliberately not a signal.** `ਚੌਪਈ ॥`, `ਸਵੈਯਾ ॥` and `ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥`
+all appear partway through long works as internal headings, so a rule that only
+looked at opening lines would miss them.
+
+| Word limit | Recall on known titles | Fires on non-opening lines |
+| --- | --- | --- |
+| 2 | 48% | 1.8% |
+| **3** | **88%** | **4.9%** |
+| 4 | 92% | 9.8% |
+
+**It is a heuristic and will be refined in use.** It over-fires on short verse —
+`ਧਿਆਏ ਗਾਏ ਕਰਨੈਹਾਰ ॥` is three words with no vishraam and is not a title. **A
+vocabulary was rejected rather than overlooked**: the short openings the old list
+missed lead with **307 distinct words**, so a list was never going to converge, which
+is [ADR-0005](../architecture/decisions/0005-line-type-derived-not-stored.md)'s point
+in a new script.
 
 **A title is a line that names or introduces rather than being read as verse** — a
 raag heading, an authorship line, a chhand name, a `ੴ`.
@@ -721,9 +744,9 @@ have nothing to do with what they are reading.
    a half-shown interpretation.
 3. **Is Presenter's doubled zoom an override or a stored value?** Recommended as an
    override, restored on leaving. Same for the forced full width.
-4. **What is the title rule?** The web app's two lists are evidence, not a
-   specification. Needed: a rule classifying `ਮਹਲਾ ੫`, `ਘਰੁ ੩ ॥`, `ਸਲੋਕੁ ॥`, `ੴ`, and
-   the Ardas headers from their structure rather than from a lookup.
+4. **Is three words the right limit, and what fixes the short-verse over-fire?**
+   The rule ships ([Titles](#titles)); these are the knobs. Adding a small vocabulary
+   as a *second* signal rather than the primary one is the obvious next move.
 5. **Where does the Ardas response marker live?** `ਬੋਲੋ ਜੀ ਵਾਹਿਗੁਰੂ ।` ends a paragraph
    and is not a line-ending feature. A gurmukhi feature, corpus-authored block
    structure, or a third thing — and whichever it is, it is the first rule that is
