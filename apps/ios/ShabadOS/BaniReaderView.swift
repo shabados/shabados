@@ -17,6 +17,11 @@ struct BaniReaderView: View {
 
   @AppStorage("fontSize") private var fontSize = DesignTokens.defaultSize
 
+  /// Vishraam colouring. On by default
+  /// (docs/requirements/display-controls.md#pauses). No control surfaces it yet —
+  /// that arrives with the Controls sidebar.
+  @AppStorage("pauses") private var pauses = true
+
   /// Live size during a pinch. Held separately from @AppStorage, which coalesces
   /// its writes and so would not re-render mid-gesture.
   @State private var livePinchSize: Double?
@@ -79,8 +84,8 @@ struct BaniReaderView: View {
   @ViewBuilder
   private func row(for item: ReaderItem) -> some View {
     switch item.kind {
-    case .line(let gurmukhi):
-      LineText(gurmukhi: gurmukhi, size: displaySize)
+    case .line(let line):
+      LineText(line: line, size: displaySize, pauses: pauses)
     case .divider:
       Divider()
         .background(DesignTokens.foreground.opacity(DesignTokens.tonerOpacity))
@@ -126,11 +131,45 @@ struct BaniReaderView: View {
 /// Extracted rather than inlined: the reader body was slow enough to type-check
 /// that SwiftUI warned about it, and gestures made it worse.
 private struct LineText: View {
-  let gurmukhi: String
+  let line: Line
   let size: Double
+  let pauses: Bool
+
+  /// Every pause word is styled either way — its colour is the toggle, not its
+  /// existence. The ranges were computed once at decode, so turning colouring on
+  /// and off never re-runs `detect`.
+  ///
+  /// Built by appending segments rather than by indexing into an `AttributedString`:
+  /// the offsets are Unicode scalars and `AttributedString` indexes by grapheme, so
+  /// converting between them is exactly the mismatch this whole path already got
+  /// wrong once.
+  private var text: AttributedString {
+    let scalars = Array(line.gurmukhi.unicodeScalars)
+    func segment(_ range: Range<Int>) -> AttributedString {
+      AttributedString(String(String.UnicodeScalarView(scalars[range])))
+    }
+
+    var out = AttributedString()
+    var cursor = 0
+    for run in line.pauses {
+      // Clamp rather than trap. A bad range is a rendering bug; a crash mid-paath
+      // is an interruption of worship.
+      let lower = min(max(run.range.lowerBound, cursor), scalars.count)
+      let upper = min(max(run.range.upperBound, lower), scalars.count)
+      guard lower < upper else { continue }
+
+      if lower > cursor { out += segment(cursor..<lower) }
+      var word = segment(lower..<upper)
+      word.foregroundColor = pauses ? run.weight.color : DesignTokens.foreground
+      out += word
+      cursor = upper
+    }
+    if cursor < scalars.count { out += segment(cursor..<scalars.count) }
+    return out
+  }
 
   var body: some View {
-    Text(gurmukhi)
+    Text(text)
       .font(.custom(Fonts.gurmukhi, size: size))
       .foregroundStyle(DesignTokens.foreground)
       .lineSpacing(DesignTokens.lineSpacing(for: size, fontName: Fonts.gurmukhi))

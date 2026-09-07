@@ -43,7 +43,7 @@ the way out" — which is checkable everywhere, and is the thing that must not d
 The middle layer **splits in two, and the split is "generated versus argued."**
 
 **Lookup tables are data, not prose, and get generated.** This repo already solved
-this problem once: `brand/tokens.json` is the single source for colour and type,
+this problem once: `brand/tokens.md` is the single source for colour and type,
 `brand/scripts/generate-tokens.mjs` emits `DesignTokens.swift`, `DesignTokens.kt`,
 and two `design_tokens.xml`, and `apps/build.sh` runs it so a stale generated file
 cannot reach a build ([apps/README.md](../../../apps/README.md)). **Icons are the
@@ -91,7 +91,7 @@ One question decides where any fact goes:
   `AppIcons.kt`. **Web is not generated** — the Qwik app has per-icon components, so
   `brand/icons.json` records which component fills each slot and the three platforms
   can at least be seen to disagree. Closing that is the same unfinished job as web
-  not being generated from `tokens.json`.
+  not being generated from `tokens.md`.
 - **Icon availability is not uniform and the generator must say so.** SF Symbols are
   versioned against the OS: `apps/ios` builds at deployment target 17.0 and several
   symbols in current use are newer. A missing symbol renders as nothing, in front of

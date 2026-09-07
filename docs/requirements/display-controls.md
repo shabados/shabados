@@ -39,7 +39,7 @@ Font size of the reading area.
 a pinch made while it is not visible. The byline exists to teach the gesture; the
 slider is the fallback for someone who cannot make it.
 
-Sizing bounds live in `brand/tokens.json` (`type.minSize` 14, `type.maxSize` 56,
+Sizing bounds live in `brand/tokens.md` (`type.minSize` 14, `type.maxSize` 56,
 `type.defaultSize` 20) and are generated into both platforms — they are not to be
 restated in platform code.
 
@@ -301,15 +301,26 @@ no effect is worse than one that visibly cannot be changed: a disabled control s
 
 Default **off**. Removes the spaces from the Gurmukhi line (larivaar).
 
+**With Continuous on, pause colouring is not shown and the
+[Pauses](#pauses) control becomes non-interactive** — visibly faded, not silently
+inert, so it reads as "fixed here" rather than broken. The colouring has nowhere to
+land: the word boundaries it marks are exactly what larivaar removes.
+
 **The spaces must actually be removed from the string**, not hidden with letter
 spacing or zero-width rendering. Gurmukhi shaping produces different ligatures
 across a word boundary than within one; anything short of deleting the characters
 gives the wrong glyphs.
 
-**This already exists.** `packages/gurmukhi` exposes `remove(input, features)` over
-a `Feature` enum. Use it rather than a local `replace(/ /g, '')`, which will also
-eat the vishraam markers or leave them, depending on ordering, and differ between
-platforms.
+**`gurmukhi::remove` cannot do this.** Its `Feature` enum covers vishraams, line
+endings, vowel signs, nukta, adhak, nasals, accents and visarga — **there is no
+whitespace feature**, so larivaar is a plain space removal in platform code. That is
+acceptable precisely because a space is not domain knowledge; nothing about it can
+differ between platforms the way a marker or a matra could.
+
+**Order matters, though.** The markers are already stripped
+([Pauses](#pauses)), so larivaar operates on text that has none left. Removing spaces
+from the raw corpus text instead would leave the markers behind, joined to the words
+they follow.
 
 ### Pauses
 
@@ -338,8 +349,10 @@ stripping. Neither platform should be splitting on spaces and inspecting the las
 character, which is what the web app does today
 (`apps/web/src/components/line/line.tsx`).
 
-Colours are defined for light and dark in `apps/web/src/global.css` and are **not**
-yet in `brand/tokens.json`, so native and web can drift — see open question 7.
+Colours are in [`brand/tokens.md`](../../brand/tokens.md) as `vishraamHeavy`,
+`vishraamMedium` and `vishraamLight`, generated into both apps. They were the last
+display colours defined only in `apps/web/src/global.css`; **web is still not
+generated from the token file**, so that is where drift would now come from.
 
 ## Variorum
 
@@ -650,16 +663,13 @@ have nothing to do with what they are reading.
 8. **Is there a minimum weight as well as a minimum zoom?** Raised as uncertain.
 9. **How is `Width` expressed?** A character count does not transfer to Gurmukhi.
    Needs a measure checkable against rendered Gurmukhi.
-10. **Do the vishraam colours move into `brand/tokens.json`?** They are the last
-    display colours defined only in `apps/web/src/global.css`.
+10. **When does the web app read `brand/tokens.md`?** It is the only surface still
+    defining colours of its own, so it is now the sole remaining source of drift.
 11. **What happens to controls the web app has and this document does not mention** —
     `Notes`, `Slideshow`, `Fullscreen`? Their absence is **not** a decision to remove
     them; per CLAUDE.md that belongs in an ADR
     ([ADR-0006](../architecture/decisions/0006-features-removed-in-redesign.md)).
-12. **Does Continuous disable Pauses?** The web app disables Pauses while Continuous
-    is on. With spaces deleted, colouring the run before each marker is still
-    well-defined — `gurmukhi::detect` returns character offsets that survive the
-    removal — so they are not technically exclusive.
+12. *(Settled: Continuous disables Pauses — see [Continuous](#continuous).)*
 13. **When variants arrive, are they a Variorum field or a different surface?** The
     target shape shows textual variants *alongside* the line with year and asset
     labels, not stacked beneath it as another toggled block.

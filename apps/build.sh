@@ -79,12 +79,12 @@ ensure_gurmukhi() {
     || die "gurmukhi build failed. If this ran inside an agent sandbox, run it from a real terminal: cd packages/gurmukhi && mise run apple"
 }
 
-# Colour and type live in brand/tokens.json and are generated into both apps, so a
+# Colour and type live in brand/tokens.md and are generated into both apps, so a
 # design change cannot land on one platform only. Regenerated every build — it takes
 # milliseconds, and a stale token file is worse than the cost of rerunning.
 ensure_tokens() {
   command -v node >/dev/null \
-    || die "node not found — needed to generate design tokens from brand/tokens.json"
+    || die "node not found — needed to generate design tokens from brand/tokens.md"
   node "$REPO_DIR/brand/scripts/generate-tokens.mjs" >/dev/null
 }
 
