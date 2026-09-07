@@ -1,8 +1,10 @@
 [tools]
 bun = "1"
-# Version, targets, and components are pinned in rust-toolchain.toml -- rustup reads
-# that automatically, so this line only ensures a rustup exists.
-rust = "1"
+# mise is what installs the toolchain here, and it does NOT read rust-toolchain.toml's
+# `targets` -- so the list has to live here too. Keep both files in step: mise for this
+# repo, rust-toolchain.toml for rustup without mise. Version is exact, not "1", because
+# CLAUDE.md forbids floating versions and "1" silently moved to 1.98.1.
+rust = { version = "1.98.1", targets = "aarch64-apple-darwin,aarch64-apple-ios,aarch64-apple-ios-sim,wasm32-unknown-unknown", components = "rustfmt,clippy" }
 python = "3"
 # Pinned tag: binaryen's version_XXX scheme makes "latest" resolve to stale semver tags
 "ubi:WebAssembly/binaryen" = { version = "version_131", exe = "wasm-opt", extract_all = "true", bin_path = "bin" }
@@ -148,6 +150,11 @@ set -euo pipefail
 # libgurmukhi.a. Device and Simulator stay separate -- see rust-toolchain.toml.
 for target in aarch64-apple-darwin aarch64-apple-ios aarch64-apple-ios-sim; do
   echo "Building $target"
+  # Install the target here rather than trusting mise.toml or rust-toolchain.toml to
+  # have been honoured -- neither is guaranteed depending on how the toolchain was set
+  # up, and the failure otherwise is a wall of "can't find crate for `std`". Same
+  # pattern as build:native above.
+  rustup target add "$target" 2>/dev/null || true
   cargo build --release --target "$target" --lib
 done
 """

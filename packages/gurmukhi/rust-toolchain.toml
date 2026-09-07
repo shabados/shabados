@@ -1,12 +1,13 @@
 # Pinned toolchain and targets. CLAUDE.md: "Pin everything. Cargo.lock and
 # rust-toolchain.toml are committed. No floating versions, anywhere."
 #
-# `targets` is the reason this file matters beyond the version pin: rustup installs
-# them automatically on first build, so nobody has to know which triples the Apple
-# platforms need. Adding a platform means adding a line here, not documenting a
-# `rustup target add` in a README that goes stale.
+# This file is for rustup used WITHOUT mise -- CI, or a contributor who has rustup
+# only. In this repo mise installs the toolchain and does not read the `targets` list
+# below, so mise.toml carries its own copy. **Change both together.** The build tasks
+# also run `rustup target add` themselves, so a disagreement here costs a redundant
+# no-op rather than a broken build.
 [toolchain]
-channel = "1.96.0"
+channel = "1.98.1"
 components = ["rustfmt", "clippy"]
 targets = [
   # Host — macOS on Apple Silicon. Also an xcframework slice, so the Swift smoke
