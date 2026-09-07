@@ -77,6 +77,10 @@ run = "mise run generate"
 
 [tasks."generate:swift"]
 description = "Generate Swift bindings"
+# uniffi-bindgen reads the metadata out of the built host library, so `build` is not
+# optional here. generate:all happened to depend on it; running this task alone did
+# not, and failed with a missing-library error on a clean checkout.
+depends = ["build"]
 run = """
 #!/usr/bin/env bash
 set -euo pipefail
@@ -150,7 +154,10 @@ done
 
 [tasks.xcframework]
 description = "Assemble gurmukhiFFI.xcframework from the Apple static libraries"
-depends = ["build:apple"]
+# Both halves: the static libraries, and the header and modulemap that generate:swift
+# emits. Declaring only the former meant a clean run reached the header check and
+# stopped there.
+depends = ["build:apple", "generate:swift"]
 run = """
 #!/usr/bin/env bash
 set -euo pipefail
@@ -177,13 +184,8 @@ echo "wrote $out"
 
 [tasks.apple]
 description = "Everything an Apple app needs: build, Swift bindings, xcframework"
-run = """
-#!/usr/bin/env bash
-set -euo pipefail
-mise run build
-mise run generate:swift
-mise run xcframework
-"""
+depends = ["xcframework"]
+run = "echo 'gurmukhiFFI.xcframework ready -- add packages/gurmukhi to Xcode as a local package'"
 
 [tasks.fmt]
 description = "Check code formatting"
