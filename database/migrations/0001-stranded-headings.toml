@@ -1,0 +1,43 @@
+description = "Move 4 stranded headings into the line-groups they head"
+issue = 8
+
+# Each of these line-groups closes cleanly on its own numbered ending and *then*
+# carries a heading that belongs to the group after it. Method and evidence:
+# database/docs/numbering.md. Verified against the corpus by
+# `bun scripts/check-collections.ts`, which expects exactly these four.
+#
+# LSM -> B0U -> K84 -> R0Z is a chain: B0U and K84 each give up a line and receive
+# one. Moves are computed against the state before any write, so order is not
+# load-bearing, but they are listed in reading order.
+
+[[move]]
+line = "NEKY"
+from = "BBH"
+to = "7ZA"
+position = "first"
+text = "ਬਿਲਾਵਲੁ ਮਹਲਾ ੫ ॥"
+why = "BBH closes at ॥੨॥੭॥੧੨੩॥ on 36FE; 7ZA opens straight into verse with no heading"
+
+[[move]]
+line = "5AWP"
+from = "LSM"
+to = "B0U"
+position = "first"
+text = "ਸਾਰਗ ਮਹਲਾ ੫ ॥"
+why = "first of the Saarang chain — LSM holds B0U's heading"
+
+[[move]]
+line = "E1D5"
+from = "B0U"
+to = "K84"
+position = "first"
+text = "ਸਾਰਗ ਮਹਲਾ ੫ ॥"
+why = "second of the Saarang chain — B0U holds K84's heading"
+
+[[move]]
+line = "GJXW"
+from = "K84"
+to = "R0Z"
+position = "first"
+text = "ਸਾਰਗ ਮਹਲਾ ੫ ॥"
+why = "third of the Saarang chain — K84 holds R0Z's heading"
