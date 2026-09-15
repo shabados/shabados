@@ -18,3 +18,7 @@ database/dist/
 
 # OS
 .DS_Store
+
+# Bun lockfile. Not committed: see mise.toml for the pinned toolchain.
+bun.lock
+bun.lockb
