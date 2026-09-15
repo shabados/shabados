@@ -39,6 +39,7 @@
     "test": "bun test",
     "collections:preview": "redocly preview-docs 'collections/$schemas/_preview.yml'",
     "collections:validate": "bun scripts/validate-collections.ts",
+    "collections:check": "bun scripts/check-collections.ts",
     "collections:generate-types": "json2ts --cwd 'collections/$schemas' -i 'collections/$schemas/*.json' -o 'collections/$schemas/.types'",
     "predatabase:build": "bun run collections:generate-types",
     "database:build": "bun scripts/build-database.ts",

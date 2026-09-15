@@ -33,8 +33,11 @@ jobs:
         # Typecheck (tsc --noEmit)
         bun run --if-present types
 
-        # Validate collections
+        # Validate collections (schema conformance)
         bun run --if-present collections:validate
+
+        # Structural checks (is the right scripture in the right place)
+        bun run --if-present collections:check
 
         # Build database (dist/master.sqlite via drizzle)
         bun run --if-present database:build
