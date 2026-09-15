@@ -106,9 +106,22 @@ descending run of trailing numbers immediately before a `ਪਉੜੀ` group fin
 **Raag Aasaa yields exactly 24, which is Asa Ki Var's 24 pauris.** That is the check
 that the detection is finding vaars and not something else.
 
-**Raag Gauree yields 121 and wants review before anything is merged.** Gauree also
-holds Sukhmani and Bavan Akhri, which are ashtpadis rather than vaars, and an
-ashtpadi's numbering can look like a salok run.
+**Raag Gauree's 121 has now been broken down, and only 54 of them are vaar pauris:**
+
+| Division the candidate sits in | Candidates |
+| --- | --- |
+| `ਗਉੜੀ ਬਾਵਨ ਅਖਰੀ ਮਹਲਾ ੫ ॥` | 67 |
+| `ਗਉੜੀ ਕੀ ਵਾਰ ਮਹਲਾ ੪ ॥` | 33 |
+| `ਗਉੜੀ ਕੀ; ਵਾਰ ਮਹਲਾ ੫; ਰਾਇ ਕਮਾਲਦੀ ਮੋਜਦੀ ਕੀ ਵਾਰ ॥` | 21 |
+
+**The two vaars come out at 33 and 21, which are their known pauri counts** — the same
+kind of check that validated Raag Aasaa at 24. So the vaar detection is right; it is the
+**67 in Bavan Akhri that must be excluded**. Bavan Akhri is a single 52-letter acrostic
+composition whose saloks and pauris are its internal structure, not a vaar's — merging
+them is a separate decision, and not this one.
+
+**Watch the spelling.** Five run members are headed `ਪਵੜੀ ॥`, a variant of `ਪਉੜੀ ॥`. A
+detector matching only `ਪਉੜੀ` treats them as saloks and swallows them into a run.
 
 **This is a merge, which fits the constraint better than a split does.** It moves line
 IDs from one existing line-group into another and deletes the emptied ones — no new
@@ -122,9 +135,93 @@ feet. Line IDs themselves are stable either way.
 
 **How the numbering works** is written up in [numbering.md](numbering.md).
 
-**Not yet investigated:** the saloks of Salok Mahalla 9 at the end of the SGGS, which
-should plausibly be one line-group and are not, and hukamnamas that span multiple
-shabads (`apps/web/src/routes/hukamnama/[id]/index.tsx` lists them).
+**48 of these merges have already been done by hand, in the web app.** The hukamnama
+route names more than one line-group for 48 of its 289 angs, and **42 of those 48 are
+exactly this salok-plus-pauri shape** — someone hit the same wall and patched it in the
+app instead of the data. Run any merge script against those 48 first: it should
+reproduce all of them before it is trusted on the other 486. See
+[numbering.md](numbering.md).
+
+**Salok Mahalla 9 is a separate question, and not a bug.** Its 57 two-line groups match
+how every salok collection in the corpus is recorded (Kabeer 242, Fareed 128,
+Sehshkritee 63). Merging them is a convention change across ~500 groups that pulls
+against this one, so the two need a single decision. Left open — it is a bani
+composition question.
+
+### 3.1b Chhants are split from their lead-in saloks and dakhnas
+
+**The same lead-in/main shape as 3.1, in five divisions.** A `ਡਖਣਾ` restarts at ੧ each time
+while the following `ਛੰਤੁ` carries the count — ੧,੧,੨,੧,੩,੧,੪,੧,੫ down the division. So a
+dakhna and its chhant are **one reading unit**, and the corpus holds them as two.
+
+**Measured 2026-09-07:** 26 line-groups are headed `ਡਖਣਾ` — 21 in Raag Maaroo, 4 in
+Siree Raag, 1 in Raag Gauree. **Only Siree Raag has the dakhna-chhant form**; Maaroo's 21
+are followed by `ਮਃ ੫ ॥` and sit in the salok position of Maaroo Ki Vaar, so §3.1 already
+covers them.
+
+| | |
+| --- | --- |
+| Reading units in Siree Raag | **5** |
+| Line-groups involved today | 10 |
+| Found by matching the `ਡਖਣਾ` heading | 4 of 5 |
+
+**The fifth unit's lead-in is headed `ਸਿਰੀਰਾਗ ਕੇ ਛੰਤ ਮਹਲਾ ੫ ॥`**, because it doubles as the
+division opener. Matching heading text misses it; matching the numbers finds it — the
+same lesson as §3.1, and the reason both should be detected the same way.
+
+**Saloks lead chhants the same way**, so this is one rule, not two:
+
+| Division | Units | Line-groups |
+| --- | --- | --- |
+| Siree Raag, dakhna + chhant | 5 | 10 |
+| Raag Vadhans, salok + chhant | 4 | 8 |
+| Raag Raamkalee, salok + chhant | 4 | 8 |
+| Raag Raamkalee Rutee, salok + chhant | 8 | 16 |
+| Raag Jaithsree, salok + chhant | 4 | 8 |
+
+**25 units held as 50 line-groups**, plus a lone pair in Raag Bilaaval (`1M3` + `PJG`).
+
+**Raag Vadhans is already validated.** Its eight groups `U43, 2F4, NAW, YK0, LXK, 67F,
+RWL, T08` are exactly the hand-made hukamnama entry for ang 577 — the merge this section
+proposes is one a person already made by hand.
+
+**Detect on the chhant's run, not the lead-in's number.** The lead-in numbers three
+different ways: restarting at ੧ (Vadhans), ending ੨ every time because the group holds
+two saloks (Rutee), or **counting in parallel with the chhant** (Jaithsree). Only the
+chhant's own 1, 2, 3 is reliable. Whatever sits immediately before each chhant belongs
+to it.
+
+Small enough to fold into the §3.1 script rather than carry separately. See
+[numbering.md](numbering.md).
+
+### 3.1c Retired line-group IDs must never be reissued
+
+**The merges in §3.1 and §3.1b delete line-group IDs, and the splits found by the pada
+scan create them.** Both happen in the same corpus. Without a rule, a split can be handed
+an ID that a merge freed, and every reference to the old meaning — a bookmark, a journey,
+an external citation, a v2 or v3 URL — silently resolves to different scripture.
+
+**The rule: a retired ID is retired permanently.** Generation of new line-group IDs must
+exclude every ID that has ever existed, not merely every ID that currently exists.
+
+**This needs a file, not a convention.** A convention living only in a generator script
+is exactly the kind of thing CLAUDE.md says will drift the first time something is edited
+around it. Record retirements in a tracked file — ID, the date, and what it was merged
+into — so that:
+
+- the ID generator can read it and refuse to reissue,
+- a test can assert that no ID in it appears under `line-groups/`,
+- and **downstream consumers can follow a v3 ID forward.** Shabad OS itself does not need
+  this, but the corpus is used outside it, and a deleted ID with no forwarding record is
+  an unanswerable question for anyone holding the old one.
+
+**The first IDs this will retire** are the five heading-only line-groups in
+[numbering.md](numbering.md) — `FRC`, `FF5`, `4WH`, `D89`, `5YB` — one of which is
+[shabados/database#1902](https://github.com/shabados/database/issues/1902). They are a
+smaller and better first exercise of the retirement record than the 534-unit vaar merge.
+
+**Do it in the same commit as the first merge**, not after. A retirement record that
+starts late is missing exactly the entries nobody thought to write down.
 
 ### 3.2 Rename the content types: `translation` and `note` are misnamed
 
