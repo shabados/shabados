@@ -61,13 +61,27 @@ const importCollection = async <CollectionSchema, DatabaseSchema extends SQLiteT
 ) => {
   consola.start(`Importing ${name}`)
 
-  const files = new Glob(`./collections/${name}/**/*.toml`).scan()
+  const filePaths: string[] = []
+  for await (const filePath of new Glob(`./collections/${name}/**/*.toml`).scan()) {
+    filePaths.push(filePath)
+  }
 
-  for await (const filePath of files) {
-    const id = basename(filePath, '.toml')
-    const data = parse(await readFile(filePath, 'utf-8')) as unknown as CollectionSchema
+  // Batched rather than one `await` per file: the cost here is I/O latency, not
+  // parsing, and a serial loop leaves the disk idle between each of 141k reads.
+  // Mapping stays in file order so the emitted statements — and the artifact —
+  // are unchanged.
+  const BATCH = 256
 
-    statements.push(db.insert(schema).values(mapper(data, id)))
+  for (let index = 0; index < filePaths.length; index += BATCH) {
+    const batch = filePaths.slice(index, index + BATCH)
+    const contents = await Promise.all(batch.map((filePath) => readFile(filePath, 'utf-8')))
+
+    for (const [offset, content] of contents.entries()) {
+      const id = basename(batch[offset] as string, '.toml')
+      const data = parse(content) as unknown as CollectionSchema
+
+      statements.push(db.insert(schema).values(mapper(data, id)))
+    }
   }
 }
 

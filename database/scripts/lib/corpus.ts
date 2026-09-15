@@ -42,13 +42,33 @@ export type Corpus = {
 
 const read = async <T>(path: string) => parse(await readFile(path, 'utf-8')) as unknown as T
 
-const readAll = async <T>(collection: string) => {
+/**
+ * Reading 141k files one `await` at a time is latency, not work — the disk is idle
+ * between each. Batching keeps it busy; 256 is where the gain flattens and before
+ * file-descriptor limits bite.
+ */
+const BATCH = 256
+
+const readMany = async <T>(paths: string[]) => {
   const entries = new Map<string, T>()
-  for await (const path of new Glob(`./collections/${collection}/**/*.toml`).scan()) {
-    entries.set(basename(path, '.toml'), await read<T>(path))
+  for (let index = 0; index < paths.length; index += BATCH) {
+    const batch = paths.slice(index, index + BATCH)
+    const parsed = await Promise.all(batch.map((path) => read<T>(path)))
+    for (const [offset, value] of parsed.entries()) {
+      entries.set(basename(batch[offset] as string, '.toml'), value)
+    }
   }
   return entries
 }
+
+const paths = async (collection: string) => {
+  const found: string[] = []
+  for await (const path of new Glob(`./collections/${collection}/**/*.toml`).scan())
+    found.push(path)
+  return found
+}
+
+const readAll = async <T>(collection: string) => readMany<T>(await paths(collection))
 
 /**
  * Only the primary content is kept. A line carries its translations and notes in
@@ -59,25 +79,39 @@ const readAll = async <T>(collection: string) => {
  * files is slower, but a regex over the raw text silently misreads the first line
  * whose quoting is unusual, and there is no reviewer to catch that.
  */
-const loadLines = async () => {
+const loadLines = async (wanted: Set<string>) => {
   const lines = new Map<string, CorpusLine>()
-  for await (const path of new Glob('./collections/lines/**/*.toml').scan()) {
-    const id = basename(path, '.toml')
-    const { content } = await read<Lines>(path)
-    const primary = content.find((entry) => entry.type === 'primary')
-    if (!primary) continue
-    lines.set(id, { id, data: primary.data, page: primary.page, line: primary.line })
+  // Only the lines this source actually uses. The corpus holds 141k across every
+  // source; the SGGS needs well under half of them.
+  const all = (await paths('lines')).filter((path) => wanted.has(basename(path, '.toml')))
+
+  for (let index = 0; index < all.length; index += BATCH) {
+    const batch = all.slice(index, index + BATCH)
+    const parsed = await Promise.all(batch.map((path) => read<Lines>(path)))
+    for (const [offset, { content }] of parsed.entries()) {
+      const primary = content.find((entry) => entry.type === 'primary')
+      if (!primary) continue
+      const id = basename(batch[offset] as string, '.toml')
+      lines.set(id, { id, data: primary.data, page: primary.page, line: primary.line })
+    }
   }
   return lines
 }
 
 export const loadCorpus = async (sourceId: string): Promise<Corpus> => {
-  const [source, sectionFiles, groupFiles, lineFiles] = await Promise.all([
+  const [source, sectionFiles, groupFiles] = await Promise.all([
     read<Sources>(`./collections/sources/${sourceId}.toml`),
     readAll<Sections>('sections'),
     readAll<LineGroups>('line-groups'),
-    loadLines(),
   ])
+
+  const wanted = new Set<string>()
+  for (const sectionId of source.sections ?? []) {
+    for (const groupId of sectionFiles.get(sectionId)?.lineGroups ?? []) {
+      for (const lineId of groupFiles.get(groupId)?.lines ?? []) wanted.add(lineId)
+    }
+  }
+  const lineFiles = await loadLines(wanted)
 
   const groups = new Map<string, CorpusGroup>()
   const sections = new Map<string, { id: string; name: string; groupIds: string[] }>()
