@@ -94,28 +94,29 @@ export type Form = (typeof FORMS)[number][1] | 'shabad'
 export const classifyForm = (heading: string): Form =>
   FORMS.find(([word]) => heading.includes(word))?.[1] ?? 'shabad'
 
-/** Words that only ever appear in a heading, never in verse. */
-const HEADING_WORDS = /ਮਹਲਾ|ਮਹਲੁ|ਮਹਲ|ਮਃ|ਸਲੋਕ|ਪਉੜੀ|ਪਵੜੀ|ਛੰਤ|ਡਖਣਾ|ਡਖਣੇ|ਅਸਟਪਦੀ|ਵਾਰ|ਰਾਗੁ|ਘਰੁ|ਬਾਣੀ|ਪਦੇ|ਸੋਹਿਲਾ/
-
 /**
  * Whether a line names a composition rather than being one.
  *
- * Deliberately conservative. A line carrying a count is verse (it closes a pada),
- * and a line carrying a vishraam is verse (headings are not phrased for pausing),
- * so both disqualify before the heading words are consulted.
+ * Defined by what a heading lacks, not by a vocabulary. An earlier version
+ * required a word from a list — which had `ਰਾਗੁ` but not the raag names, and so
+ * missed 203 real headings in the SGGS: `ਆਸਾ ॥`, `ਗਉੜੀ ਕਬੀਰ ਜੀ ॥`,
+ * `ਦੇਵਗੰਧਾਰੀ ੫ ॥`. Any such list is a guess at a vocabulary nobody wrote down.
+ *
+ * What holds instead: a heading carries no pada or counter, and no vishraam,
+ * because it is not phrased for pausing. Tested across the whole SGGS, those two
+ * conditions separate headings from verse without naming a single word.
+ *
+ * A mangal is excluded because it opens a division alongside a heading rather
+ * than being one.
  */
 export const isHeading = (line: string) => {
   const text = line.trim()
   if (!text.endsWith(DANDA)) return false
-  if (new RegExp(`${DANDA}\\s*[${DIGIT}]+\\s*${DANDA}\\s*$`).test(text)) return false
-  if (VISHRAAM_CHARS.some((v) => text.includes(v))) return false
-  if (!HEADING_WORDS.test(text)) return false
+  if (text.includes(MANGAL_CHAR)) return false
+  if (VISHRAAM_CHARS.some((vishraam) => text.includes(vishraam))) return false
 
-  // Dandas are not words. Counting them rejected FF5's
-  // `ਰਾਗੁ ਗੋਂਡ ਬਾਣੀ ਭਗਤਾ ਕੀ ॥ ਕਬੀਰ ਜੀ ਘਰੁ ੧ ॥`, which carries an internal ॥ and so
-  // came to eleven tokens for nine words.
-  const words = text.split(/\s+/).filter((token) => token !== DANDA)
-  return words.length <= 10
+  const { pada, stack } = parseEnding(text)
+  return pada === undefined && stack.length === 0
 }
 
 export type VishraamFault = {
