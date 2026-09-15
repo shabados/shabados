@@ -1,0 +1,20 @@
+# Line-group IDs that have been retired, and must never be issued again.
+#
+# Merges free IDs; splits need new ones. Both happen in this corpus. If a split is
+# handed an ID a merge freed, every reference to the old meaning — a bookmark, a
+# journey, a citation, a v2 or v3 URL — silently resolves to different scripture,
+# with nothing to signal it.
+#
+# So: generation excludes every ID that has ever existed, not every ID that
+# currently exists. `scripts/lib/ids.ts` reads this file and refuses to mint from
+# it; `scripts/checks/retired-ids.ts` asserts none of them is back in use.
+#
+# `mergedInto` is the forwarding answer. Shabad OS does not need it, but the corpus
+# is consumed outside Shabad OS, and a retired ID with no forwarding record is an
+# unanswerable question for whoever still holds the old one.
+#
+#   [[retired]]
+#   id = "FF5"
+#   mergedInto = "18L"
+#   migration = "0002-heading-only-groups"
+#   date = "2026-09-15"

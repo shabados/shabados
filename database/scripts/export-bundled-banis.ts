@@ -14,20 +14,9 @@ import { consola } from 'consola'
 import { parse } from 'smol-toml'
 
 /** Nitnem, in recitation order. Ids are collections/banis/<id>.toml. */
-const BUNDLED = [
-  'JAPJ',
-  'JAAP',
-  'TPSS',
-  'BNCP',
-  'ANND',
-  'RHRS',
-  'SHLA',
-] as const
+const BUNDLED = ['JAPJ', 'JAAP', 'TPSS', 'BNCP', 'ANND', 'RHRS', 'SHLA'] as const
 
-const OUT_DIRS = [
-  '../apps/ios/ShabadOS/Resources',
-  '../apps/android/app/src/main/assets',
-]
+const OUT_DIRS = ['../apps/ios/ShabadOS/Resources', '../apps/android/app/src/main/assets']
 
 type LineContent = {
   asset: string
@@ -36,8 +25,7 @@ type LineContent = {
   data?: string
 }
 
-const readToml = async <T>(path: string): Promise<T> =>
-  parse(await Bun.file(path).text()) as T
+const readToml = async <T>(path: string): Promise<T> => parse(await Bun.file(path).text()) as T
 
 consola.box('Exporting bundled banis')
 
