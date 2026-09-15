@@ -9,9 +9,11 @@ import { isHeading } from '../lib/gurbani'
  *
  * Colophons count what just ended ("seventeen ashtpadis of the First Mehl"). They
  * are recognised by naming a quantity rather than a raag and author, which no rule
- * captures cleanly — so they are pinned by ID. Five, and they do not grow.
+ * captures cleanly — so they are pinned by ID. Six: the sixth, `2QL`
+ * (`ਦੂਜੇ ਘਰ ਕੇ ਚਉਤੀਸ ॥`, "thirty-four of the second ghar"), only became visible once
+ * isHeading stopped requiring a word from a list.
  */
-const COLOPHONS = new Set(['P6Q', 'CG1', '8M3', 'PRP', 'YLS'])
+const COLOPHONS = new Set(['P6Q', 'CG1', '8M3', 'PRP', 'YLS', '2QL'])
 
 export const strandedHeadings: Check = {
   name: 'stranded-headings',

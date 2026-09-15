@@ -62,6 +62,19 @@ describe('isHeading', () => {
     expect(isHeading('ਜਨ ਨਾਨਕ ਪਿਆਸ ਚਰਨ ਕਮਲਨੑ ਕੀ; ਪੇਖਿ ਦਰਸੁ ਸੁਆਮੀ ਸੁਖ ਸਾਰੋ ॥੨॥੭॥੧੨੩॥')).toBe(false)
   })
 
+  // The case that broke the old vocabulary-based rule. A bare raag name is a
+  // heading, and 203 SGGS groups open with one; a word list containing ਰਾਗੁ but
+  // not the raag names rejected every one of them.
+  test('a bare raag name is a heading', () => {
+    expect(isHeading('ਆਸਾ ॥')).toBe(true)
+    expect(isHeading('ਗਉੜੀ ਕਬੀਰ ਜੀ ॥')).toBe(true)
+    expect(isHeading('ਦੇਵਗੰਧਾਰੀ ੫ ॥')).toBe(true)
+  })
+
+  test('a mangal opens a division alongside a heading, and is not one', () => {
+    expect(isHeading('ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥')).toBe(false)
+  })
+
   // FF5/MRU2. Counting ॥ as a word made this eleven tokens and rejected it, which
   // is how the heading-only scan came up one short of the five that exist.
   test('MRU2 — an internal ॥ does not count toward the word limit', () => {
