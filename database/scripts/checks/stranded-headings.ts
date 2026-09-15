@@ -18,7 +18,10 @@ const COLOPHONS = new Set(['P6Q', 'CG1', '8M3', 'PRP', 'YLS', '2QL'])
 export const strandedHeadings: Check = {
   name: 'stranded-headings',
   issue: 8,
-  expected: 4,
+  // Resolved by migrations/1-stranded-headings.toml. Kept rather than deleted:
+  // this is a defect the corpus can reacquire, and the colophons above are
+  // exactly what a careless re-fix would break.
+  expected: 0,
   run: (corpus) => {
     const findings: Finding[] = []
 
