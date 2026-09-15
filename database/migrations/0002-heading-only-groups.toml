@@ -1,0 +1,52 @@
+description = "Merge 5 heading-only line-groups into the groups they head"
+issue = 13
+
+# Each of these line-groups holds a heading and nothing else. The mirror of
+# 0001: there a heading sits one group too early, here it sits alone.
+#
+# Unlike 0001 these are not pure moves. Each empties its source, so each RETIRES a
+# line-group ID — recorded in retired-ids.toml, in the same commit, because a
+# corpus with an empty line-group is not valid in between.
+#
+# Three of the five separate a heading from its own mangal, which open a division
+# as a pair. See database/docs/numbering.md.
+
+[[move]]
+line = "QKH1"
+from = "FRC"
+to = "YGD"
+position = "first"
+text = "ਰਾਗੁ ਆਸਾ ਮਹਲਾ ੩ ਪਟੀ ॥"
+why = "YGD opens with the mangal this heading belongs with"
+
+[[move]]
+line = "MRU2"
+from = "FF5"
+to = "18L"
+position = "first"
+text = "ਰਾਗੁ ਗੋਂਡ ਬਾਣੀ ਭਗਤਾ ਕੀ ॥ ਕਬੀਰ ਜੀ ਘਰੁ ੧ ॥"
+why = "reported as shabados/shabados#13; 18L opens with the mangal this heading belongs with"
+
+[[move]]
+line = "T7NB"
+from = "4WH"
+to = "7B1"
+position = "first"
+text = "ਬਸੰਤੁ ਬਾਣੀ ਭਗਤਾਂ ਕੀ ॥ ਕਬੀਰ ਜੀ ਘਰੁ ੧ ॥"
+why = "7B1 opens with the mangal this heading belongs with"
+
+[[move]]
+line = "4B1H"
+from = "D89"
+to = "7NK"
+position = "first"
+text = "ਰਾਮਕਲੀ ਮਹਲਾ ੫ ਛੰਤ ॥"
+why = "D89 is the bare opener in front of the Raamkalee salok-and-chhant run; 7NK is its first salok"
+
+[[move]]
+line = "8H18"
+from = "5YB"
+to = "JVC"
+position = "first"
+text = "ਮਾਰੂ ਮਹਲਾ ੧ ॥"
+why = "JVC opens with a lead-in salok and carries no heading of its own"
