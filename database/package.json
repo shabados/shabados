@@ -37,6 +37,7 @@
     "pretypes": "bun run collections:generate-types",
     "types": "tsc --noEmit",
     "test": "bun test",
+    "ci": "bun scripts/ci.ts",
     "collections:preview": "redocly preview-docs 'collections/$schemas/_preview.yml'",
     "collections:validate": "bun scripts/validate-collections.ts",
     "collections:check": "bun scripts/check-collections.ts",
@@ -45,7 +46,8 @@
     "database:build": "bun scripts/build-database.ts",
     "database:build-slices": "bun scripts/create-db-slices.ts",
     "database:export-bundled": "bun scripts/export-bundled-banis.ts",
-    "database:view": "drizzle-kit studio"
+    "database:view": "drizzle-kit studio",
+    "ci:full": "bun scripts/ci.ts --full"
   },
   "dependencies": {
     "drizzle-orm": "1.0.0-beta.1-fd5d1e8"

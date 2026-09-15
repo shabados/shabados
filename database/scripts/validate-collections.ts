@@ -23,23 +23,36 @@ const validateCollection = async (schemaFile: string, collectionName: string) =>
 
   const collectionPath = `./collections/${collectionName}`
   const glob = new Glob(`${collectionPath}/**/*.toml`)
-  const collection = glob.scan()
+
+  const filePaths: string[] = []
+  for await (const filePath of glob.scan()) filePaths.push(filePath)
 
   let hasErrors = false
 
-  for await (const filePath of collection) {
-    const data = parse(await readFile(filePath, 'utf-8'))
-    const isValid = validate(data)
+  // Read in batches rather than one `await` at a time. The work is I/O latency,
+  // not CPU, so a serial loop leaves the disk idle between files — across 141k
+  // line documents that dominated the run.
+  const BATCH = 256
 
-    const fileName = filePath.replace(`${collectionPath}/`, '')
+  for (let index = 0; index < filePaths.length; index += BATCH) {
+    const batch = filePaths.slice(index, index + BATCH)
+    const contents = await Promise.all(batch.map((filePath) => readFile(filePath, 'utf-8')))
 
-    if (!isValid) {
-      hasErrors = true
-      consola.error(
-        dedent`Invalid ${collectionName} document: ${fileName}
+    for (const [offset, content] of contents.entries()) {
+      const filePath = batch[offset] as string
+      const data = parse(content)
+      const isValid = validate(data)
+
+      const fileName = filePath.replace(`${collectionPath}/`, '')
+
+      if (!isValid) {
+        hasErrors = true
+        consola.error(
+          dedent`Invalid ${collectionName} document: ${fileName}
           ${validate.errors?.map((error) => `- ${error.instancePath || '/'} ${error.message}`).join('\n')}
       `,
-      )
+        )
+      }
     }
   }
 
