@@ -42,3 +42,9 @@ id = "D89"
 mergedInto = "7NK"
 migration = "2-heading-only-groups"
 date = "2026-09-16"
+
+[[retired]]
+id = "5YB"
+mergedInto = "JVC"
+migration = "2-heading-only-groups"
+date = "2026-09-16"
