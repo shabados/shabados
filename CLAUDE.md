@@ -25,22 +25,30 @@ something is edited around it).
    what it does, why hand-rolling is worse, what happens when it is abandoned.
    Prefer the standard library, then vendored source, then what the platform now
    does natively — that list grows every year.
-3. **Never guess at domain logic.** Gurbani line ordering, vishraam placement,
+3. **The corpus is received, not repaired.** Everything follows from this. We re-zone,
+   re-classify, refine — but we never *correct*, because that implies a judgement that
+   something was wrong, which we most likely cannot prove to be true. Our own
+   understanding gets the same treatment: state the current reading, do not narrate the
+   route to it, because a history of wrong turns implies the text was obscure rather
+   than that we were still learning it. This governs every word that reaches a reader —
+   issue comments, commit messages, documentation, the apps themselves.
+
+4. **Never guess at domain logic.** Gurbani line ordering, vishraam placement,
    block and rahao structure, transliteration rules, bani composition, search
    ranking — if `docs/requirements/` does not make the rule explicit, stop and ask.
    Do not infer it from examples or from v2's behaviour. A plausible-looking wrong
    rule is worse than an unanswered question, because it gets implemented and then
    depended on.
-4. **Requirements are the contract.** `docs/requirements/` defines behaviour and is
+5. **Requirements are the contract.** `docs/requirements/` defines behaviour and is
    the source of truth. `docs/protocol/` holds the wire contract derived from it —
    semantics reviewed by humans, schemas generated and pinned at a release
    boundary. Code conforms to both. If any two of requirements, protocol, and code
    disagree, that is a bug in one of them — say which, and why (ADR-0009).
-5. **Decisions live in ADRs** (`docs/architecture/decisions/`). Do not silently
+6. **Decisions live in ADRs** (`docs/architecture/decisions/`). Do not silently
    contradict one; if one looks wrong, propose a replacement. **Build only against
    Accepted** — writing code that assumes an answer is how an undecided question
    becomes decided by whoever implemented first.
-6. **Tests carry intent; code does not.** A rule existing only as an implementation
+7. **Tests carry intent; code does not.** A rule existing only as an implementation
    detail gets refactored away by someone who cannot see why it was there. Every
    domain rule needs a test that fails when the rule is broken. That test is how
    the requirement is enforced, and it is the only part of your reasoning that
