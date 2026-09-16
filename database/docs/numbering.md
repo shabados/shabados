@@ -41,7 +41,8 @@ redundant**, not a different scheme.
 ## Where the running count appears to break
 
 Asked naively — does the last number increase by one from the previous line-group in
-the same section — **3,938 do and 1,457 do not (27%)**. Almost none are errors.
+the same section — **3,938 do and 1,457 do not (27%)**. Almost all of the 1,457 are
+the structure showing through.
 
 ### A mangal marks a division, and the division owns the counter
 
@@ -101,7 +102,7 @@ author change.
 
 In Siree Raag Mahalla 5, `ਡਖਣਾ ॥` and `ਛੰਤੁ ॥` alternate and each counts
 independently — so read in file order the numbers sawtooth 1, 1, 2, 2, 3, 3, which
-looks broken and is not.
+reads as a sawtooth in file order.
 
 ### Vaars: saloks restart, the pauri counts the vaar
 
@@ -138,7 +139,7 @@ asking whether that form's own numbers run 1, 2, 3:
 
 The pauris come out at 94% and the saloks at 10% — **and 10% is the correct answer**,
 because saloks are supposed to restart. A low score there is evidence of a sawtooth,
-not of an error.
+and of the rule working.
 
 ### Lead-in and main: one shape, three instances
 
@@ -228,14 +229,13 @@ numbers above prove it, but as a *counting* model plain form-separation already 
 it. Recorded so the next person does not re-try it.
 
 **The residue is 461 line-groups, and it is not evenly spread**: Raag Raamkalee 59, Raag
-Aasaa 42, Raag Gauree 33, Raag Maaroo 22. Two kinds are identified and neither is an
-error:
+Aasaa 42, Raag Gauree 33, Raag Maaroo 22. Two kinds are identified, and both are the
+structure reading through:
 
-- **Reading only the last line loses the padas.** `P84` in Raag Gauree ends `॥੧੨॥੮੧॥`
-  and looks like padas 12, count 81. It is neither. The shabad's padas are numbered ੧–੪
-  on earlier lines, and the closing line is `॥੧॥ ਰਹਾਉ ਦੂਜਾ ॥੧੨॥੮੧॥` — a rahao, then
-  division 12, raag 81. **The measurement was at fault, not the corpus.** See the rahao
-  rule below.
+- **A group's padas are not all on its last line.** `P84` in Raag Gauree closes
+  `॥੧॥ ਰਹਾਉ ਦੂਜਾ ॥੧੨॥੮੧॥` — a rahao, then division 12, raag 81. Its padas are numbered
+  ੧–੪ on earlier lines. Reading only the last line sees the stack and not the padas, so
+  a reader has to take the whole group. See the rahao rule below.
 - **The running count is written intermittently, not on every group.** In Svaiyay Fourth
   Mehl most groups end plainly `॥੧॥`, and the full count surfaces only occasionally —
   `॥੭॥੪੯॥`, then four groups of `॥੧॥`, then `॥੫॥੫੪॥`. The counter runs underneath
@@ -251,7 +251,7 @@ that group's position in its section — holds for **52 of 95**, which supports 
 
 Every SGGS line-group whose last line carries no numbered ending — **52 of 5,549**.
 Reviewed one by one; the classification is the useful part, because four of the five
-kinds are not defects at all.
+kinds call for no change at all.
 
 | Kind | Count | What it is |
 | --- | --- | --- |
@@ -272,8 +272,8 @@ terminated (`ਸੁਧੁ ॥`), sometimes bare (`ਸੁਧੁ`). So it is a col
 line*, not a colophon line, and `isColophon` cannot express it. The vocabulary is
 `ਸੁਧੁ`, `ਸੁਧੁ ਕੀਚੇ`, `ਛਕਾ`, `ਛਕੇ`, `ਜੁਮਲਾ`, `ਦੁਤੁਕੇ`, `ਜੋੜੁ`. Two patterns are worth
 noting: `ਸੁਧੁ` (17) almost always follows a vaar's final pauri, and `ਛਕਾ`/`ਛਕੇ` (11)
-always follows `॥੬॥`, `॥੧੨॥` or `॥੧੮॥` — multiples of six. **None of these is a
-defect**; they matter only for rendering.
+always follows `॥੬॥`, `॥੧੨॥` or `॥੧੮॥` — multiples of six. **None of these calls for a
+change**; they matter only for rendering.
 
 **A rahao need not be one line**, and it *can* close a shabad. The C group shows a
 rahao running to an entire pauri after the end of a shabad. Measured across the
@@ -289,8 +289,7 @@ SGGS:
 So a rahao line zones a shabad 29 times — `P84/8X0G` ends
 `॥੧॥ ਰਹਾਉ ਦੂਜਾ ॥੧੨॥੮੧॥` — and whenever it carries a stack it is the last line,
 never the middle. **What never zones is the rahao's own ੧**; the zoning numbers come
-*after* the marker. An earlier draft of this document claimed a rahao never bounds a
-shabad. That was asserted without measurement and is wrong.
+*after* the marker. 
 
 ### Reading the gaps
 
@@ -343,9 +342,9 @@ open.
 `ਰਹਾਉ`. Where it is a *marker*, the number before it is **੧ in 2,420 cases and never
 anything else** — so that ੧ counts nothing. It is not a pada, and it advances no counter.
 
-**A marker is preceded by `॥`; the number is optional.** This is the discriminator, and
-getting it wrong cost two wrong readings in earlier passes of this document. Four forms
-occur:
+**A marker is preceded by `॥`; the number is optional.** That is the discriminator. A
+checker keying on the word alone reads `ਰਹਾਉ` mid-verse as a marker and loses the pada
+that follows it. Four forms occur:
 
 | Form | Example |
 | --- | --- |
@@ -385,7 +384,7 @@ is stranded on the front of the next word. The fourth has no partner. **This is 
 fix, not a line-group move**, so it belongs to the `database` component's review process,
 not here. Recorded so the checker exists.
 
-## Lines in the wrong line-group
+## Lines held by a neighbouring group
 
 ### Headings stranded at the end of the previous group
 
@@ -396,8 +395,8 @@ open, no detail beyond a screenshot. This is that program.
 A line-group's last line should never be a heading. Scanning for one finds **9**, and
 they split into two kinds.
 
-**Four are genuinely misplaced**, and three of those form a chain — each group ends
-holding the *next* group's heading:
+**Four open the group that follows**, and three of those run in sequence — each group
+ends carrying the *next* group's heading:
 
 | Group | Stranded line | Belongs to |
 | --- | --- | --- |
@@ -413,8 +412,8 @@ edited, no group created or destroyed.
 ### A heading with no composition attached
 
 **This is [shabados/database#1902](https://github.com/shabados/database/issues/1902)**
-(`FF5 + 18L`), and it is the same defect the other way round: instead of a heading
-stranded at the end of the previous group, the heading is a **line-group all by itself**.
+(`FF5 + 18L`), and it is the same re-zoning the other way round: instead of a heading
+held at the end of the previous group, the heading is a **line-group all by itself**.
 
 The scan above skipped single-line groups. Looking for them finds **5**:
 
@@ -475,7 +474,7 @@ Of the 9, **six hold two or three complete compositions** and are candidates for
 merges in [roadmap §3.1](roadmap.md), and the reason the ID-reuse rule there matters.
 Flagged for review, not proposed.
 
-**Three are not defects.** `DMP` is Jap's mangal-plus-`ਜਪੁ`-plus-pauri opening; `FD3`
+**Three need no change.** `DMP` is Jap's mangal-plus-`ਜਪੁ`-plus-pauri opening; `FD3`
 (Raagmala) numbers every couplet `॥੧॥` by its own convention; and `LHY` is a
 `ਸਲੋਕੁ ॥` leading an eight-pada ashtpadi — **a fourth instance of the lead-in/main shape**,
 after salok+pauri, dakhna+chhant and salok+chhant.
@@ -522,7 +521,7 @@ they stop being redundant, which is why the width of the ending varies within a 
 run.
 
 **A hypothesis that did not survive.** The obvious reading of a 6-to-9-number ending is
-an end-of-section tally. It is wrong, or at least not that: **93 of the 95 sit
+an end-of-section tally. The positions do not support that: **93 of the 95 sit
 mid-section**, and of the 20 with six or more numbers, **19 are mid-section**. Only
 `NJM` in Svaiyay Fifth Mehl — nine numbers — is genuinely the last group in its
 section. `ZY8` in Raag Bhairao ends `॥੨॥੧॥੫੭॥੮॥੨੧॥੭॥੫੭॥੯੩॥` and sits at group 93 of
@@ -546,7 +545,7 @@ sections:
 | Raag Gauree | 38 |
 | Raag Jaithsree | 20 |
 
-Inspecting them shows two kinds, and **neither is a numbering error**:
+Inspecting them shows two kinds, and **neither calls for a change**:
 
 1. **Vaar saloks already merged in pairs.** A `ਸਲੋਕ ॥` group ending `॥੨॥` is two saloks
    in one group. The detection above matches a *descending run of singles*, so it walks
@@ -556,15 +555,14 @@ Inspecting them shows two kinds, and **neither is a numbering error**:
    stack: the narrow counter restarted for the sub-work, the broad one did not, and
    comparing only adjacent endings sees a jump.
 
-So this pass found **no confirmed numbering error anywhere in the SGGS**. Every break it
-could not explain is explained by something it was not looking for. That is a stronger
-result than a clean sweep would have been, because each residue kind is a structural
-fact worth recording.
+So every break this pass could not explain is explained by something it was not looking
+for. That is a stronger result than a clean sweep would have been, because each residue
+kind is a structural fact worth recording.
 
-## Salok Mahalla 9 is consistent, not broken
+## Salok Mahalla 9 follows the salok convention
 
 Salok Mahalla 9 is **117 lines in 57 line-groups**, and **55 of those are exactly two
-lines** — one couplet per group. That is not an anomaly. Every salok collection in the
+lines** — one couplet per group. That is the convention: every salok collection in the
 corpus is recorded the same way:
 
 (Total line-groups, so these differ slightly from the form-matched counts in the table
@@ -579,7 +577,7 @@ opening line the form-matcher did not recognise.)
 | Salok Ninth Mehl | 57 |
 | Salok Vaaran Thay Vadheek | 6 |
 
-So "Salok Mahalla 9 should be one line-group" is not a bug fix — it is a **convention
+So "Salok Mahalla 9 as one line-group" is not a correction — it is a **convention
 change** that would apply to roughly 500 groups across all five collections, and it
 conflicts with the vaar work above, which is about *merging saloks into their pauri*.
 The two need one decision between them, not two independent ones. **This is a domain
