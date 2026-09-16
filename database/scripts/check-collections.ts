@@ -5,6 +5,7 @@ import { pageOrder } from './checks/page-order'
 import { retiredIds } from './checks/retired-ids'
 import { strandedHeadings } from './checks/stranded-headings'
 import { vishraams } from './checks/vishraams'
+import { zoning } from './checks/zoning'
 import type { Check } from './lib/check'
 import { loadCorpus } from './lib/corpus'
 
@@ -19,7 +20,14 @@ import { loadCorpus } from './lib/corpus'
  * count is a tracked fact, not a threshold.
  */
 
-const CHECKS: Check[] = [retiredIds, strandedHeadings, headingOnlyGroups, vishraams, pageOrder]
+const CHECKS: Check[] = [
+  retiredIds,
+  strandedHeadings,
+  headingOnlyGroups,
+  vishraams,
+  pageOrder,
+  zoning,
+]
 
 const verbose = process.argv.includes('--verbose')
 
