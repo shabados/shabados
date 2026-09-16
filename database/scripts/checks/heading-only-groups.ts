@@ -12,7 +12,9 @@ import { isHeading } from '../lib/gurbani'
 export const headingOnlyGroups: Check = {
   name: 'heading-only-groups',
   issue: 13,
-  expected: 5,
+  // Resolved by migrations/2-heading-only-groups.toml. Kept rather than deleted:
+  // the corpus can reacquire this, and it is the mirror of stranded-headings.
+  expected: 0,
   run: (corpus) => {
     const findings: Finding[] = []
 
