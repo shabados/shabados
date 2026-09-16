@@ -36,3 +36,9 @@ id = "4WH"
 mergedInto = "7B1"
 migration = "2-heading-only-groups"
 date = "2026-09-16"
+
+[[retired]]
+id = "D89"
+mergedInto = "7NK"
+migration = "2-heading-only-groups"
+date = "2026-09-16"
