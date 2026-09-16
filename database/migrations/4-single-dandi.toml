@@ -1,0 +1,62 @@
+description = "Normalise Bhai Gurdas and Bhai Nand Lal line endings to the double dandi"
+issue = 12
+
+# These six sources write their line endings and their numbered endings with the
+# single dandi, where the SGGS and Sri Dasam Granth use the double. Every occurrence
+# sits at a line ending; the lines carrying more than one are numbered endings
+# written with the single form.
+#
+# The single dandi carries no distinction in them. If it marked lines while the
+# double marked whole poems, poem endings would carry the double — the only double
+# dandi in any of these is the mangal. So nothing is folded together, and the inverse
+# substitution restores them exactly, with the mangal lines the ones to exclude.
+#
+# Ardaas is deliberately absent. Its printed sources vary between the double dandi,
+# the single, and the exclamation mark, so which form it should carry is an editorial
+# question rather than a normalisation, and it is being handled separately.
+#
+# This rewrites line text rather than moving line IDs, so it touches 4-character
+# files under lines/ and lands as one commit per source: each substitution is one
+# rule, and repeating it per file would restate that rule thousands of times.
+
+# Kabit Savaiye, Bhai Gurdas
+[[substitute]]
+source = "KSBG"
+from = "।"
+to = "॥"
+why = "The single dandi marks no distinction in these sources: line endings and numbered endings both use it, and the only double dandi present is the mangal. Normalising to the double matches the SGGS and Sri Dasam Granth and lets the numbering be read by the same rules."
+
+# Vaaran, Bhai Gurdas — its 41 mangal lines already carry the double and are untouched
+[[substitute]]
+source = "VBGJ"
+from = "।"
+to = "॥"
+why = "The single dandi marks no distinction in these sources: line endings and numbered endings both use it, and the only double dandi present is the mangal. Normalising to the double matches the SGGS and Sri Dasam Granth and lets the numbering be read by the same rules."
+
+# Ganj Nama, Bhai Nand Lal
+[[substitute]]
+source = "GJNL"
+from = "।"
+to = "॥"
+why = "The single dandi marks no distinction in these sources: line endings and numbered endings both use it, and the only double dandi present is the mangal. Normalising to the double matches the SGGS and Sri Dasam Granth and lets the numbering be read by the same rules."
+
+# Ghazals, Bhai Nand Lal
+[[substitute]]
+source = "GZNL"
+from = "।"
+to = "॥"
+why = "The single dandi marks no distinction in these sources: line endings and numbered endings both use it, and the only double dandi present is the mangal. Normalising to the double matches the SGGS and Sri Dasam Granth and lets the numbering be read by the same rules."
+
+# Jot Bigas, Bhai Nand Lal
+[[substitute]]
+source = "JBNL"
+from = "।"
+to = "॥"
+why = "The single dandi marks no distinction in these sources: line endings and numbered endings both use it, and the only double dandi present is the mangal. Normalising to the double matches the SGGS and Sri Dasam Granth and lets the numbering be read by the same rules."
+
+# Zindagi Nama, Bhai Nand Lal
+[[substitute]]
+source = "ZNNL"
+from = "।"
+to = "॥"
+why = "The single dandi marks no distinction in these sources: line endings and numbered endings both use it, and the only double dandi present is the mangal. Normalising to the double matches the SGGS and Sri Dasam Granth and lets the numbering be read by the same rules."
