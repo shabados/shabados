@@ -48,3 +48,9 @@ id = "5YB"
 mergedInto = "JVC"
 migration = "2-heading-only-groups"
 date = "2026-09-16"
+
+[[retired]]
+id = "KJ2"
+mergedInto = "2DH"
+migration = "3-unterminated-shabads"
+date = "2026-09-16"
