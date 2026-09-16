@@ -141,8 +141,19 @@ for (const sha of commits.reverse()) {
 await writeFile(
   out,
   `<!doctype html><meta charset="utf-8"><title>Corpus review</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Gurmukhi&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap">
 <style>
+ /* The project's own face, as apps/web/src/global.css declares it. local() first so
+    an installed copy is used; the repo's woff2 otherwise, resolved relative to
+    database/review.html. */
+ @font-face{
+   font-family:"Sant Lipi";
+   src:local("Sant Lipi"),
+       url("../apps/web/public/fonts/SantLipi-VF.woff2") format("woff2-variations"),
+       url("../apps/web/public/fonts/SantLipi-VF.woff2") format("woff2");
+   font-weight:100 900;
+   font-display:swap;
+ }
  body{font:15px/1.6 system-ui,sans-serif;max-width:78rem;margin:2rem auto;padding:0 1rem;color:#23211f;background:#f4f1ee}
  h1{font-size:1.5rem}
  article{margin:2.5rem 0;padding-top:1rem;border-top:2px solid #23211f}
@@ -157,7 +168,7 @@ await writeFile(
  table{border-collapse:collapse;width:100%;background:#fff;border:1px solid #d8d2cb}
  td{padding:.3rem .5rem;border-bottom:1px solid #f0ece7;vertical-align:baseline}
  tr.hit td{background:#e7f2e2;font-weight:600}
- .gm{font-family:"Noto Serif Gurmukhi",serif;font-size:1rem}
+ .gm{font-family:"Sant Lipi",serif;font-size:1.05rem;line-height:1.9}
  .i{font-family:"IBM Plex Mono",monospace;font-size:.75rem;color:#575552;white-space:nowrap}
  .add{color:#13662b}.del{color:#8a472a}
  .gone{font-style:italic;color:#8a472a;background:#fff;border:1px solid #d8d2cb;padding:.5rem}
