@@ -119,6 +119,67 @@ export const isHeading = (line: string) => {
   return pada === undefined && stack.length === 0
 }
 
+/**
+ * Lines that close a line-group without being part of the composition.
+ *
+ * **This is a lookup, deliberately.** Every rule tried against these — a word
+ * list, spelled-out numbers, position plus the absence of a counter — either
+ * missed real ones or swallowed verse. There are a few dozen in the whole corpus,
+ * they do not grow, and a human can identify each in seconds. A lookup is the
+ * honest shape for that.
+ *
+ * Three kinds occur, and they mean different things to a reader:
+ *
+ * 1. **Tallies** count what just ended — `ਮਹਲੇ ਪਹਿਲੇ ਸਤਾਰਹ ਅਸਟਪਦੀਆ ॥`
+ *    ("seventeen ashtpadis of the First Mehl"), `ਦੂਜੇ ਘਰ ਕੇ ਚਉਤੀਸ ॥`
+ *    ("thirty-four of the second ghar").
+ * 2. **Scribal notes** record something about the text itself, not its content —
+ *    `ਸੁਧੁ` ("correct"), at the end of Asa Ki Var and elsewhere.
+ * 3. **Instructions** tell a reader what to do — `ਏਹੁ ਸਲੋਕੁ ਆਦਿ ਅੰਤਿ ਪੜਣਾ ॥`
+ *    ("read this salok at the beginning and at the end").
+ *
+ * They are scripture-adjacent rather than scripture: a reader should be able to
+ * see them, and should not feel obliged to recite them. The app is expected to
+ * render them dimmed rather than hide them.
+ *
+ * Keyed by line ID, which is stable, with the text alongside so the entry can be
+ * checked by eye. Only SGGS is enumerated so far; Dasam bani has its own, and
+ * Kabit Savaiye has not been looked at.
+ */
+const COLOPHON_LINES = new Map<string, string>([
+  ['3UFU', 'ਮਹਲੇ ਪਹਿਲੇ ਸਤਾਰਹ ਅਸਟਪਦੀਆ ॥'],
+  ['E76M', 'ਸਤ ਚਉਪਦੇ ਮਹਲੇ ਚਉਥੇ ਕੇ ॥'],
+  ['LV07', 'ਸੋਲਹ ਅਸਟਪਦੀਆ ਗੁਆਰੇਰੀ ਗਉੜੀ ਕੀਆ ॥'],
+  ['DXUX', 'ਗਉੜੀ ਗੁਆਰੇਰੀ ਕੇ ਪਦੇ ਪੈਤੀਸ ॥'],
+  ['K50V', 'ਦੂਜੇ ਘਰ ਕੇ ਚਉਤੀਸ ॥'],
+  ['DMD6', 'ਬਾਈਸ ਚਉਪਦੇ; ਤਥਾ ਪੰਚਪਦੇ'],
+  ['7LAQ', 'ਏਹੁ ਸਲੋਕੁ ਆਦਿ ਅੰਤਿ ਪੜਣਾ ॥'],
+])
+
+export const isColophon = (lineId: string) => COLOPHON_LINES.has(lineId)
+
+/** The colophon's text, for asserting the lookup still points at what it names. */
+export const colophonText = (lineId: string) => COLOPHON_LINES.get(lineId)
+
+/**
+ * Line-groups that stand outside the usual bounds — an **unbounded** composition.
+ *
+ * The term matters. These are not incomplete, deficient, or missing anything:
+ * they are as they are in the source, and calling them "incomplete" imports a
+ * judgement the text does not make. Unbounded, or unzoned, says the true thing —
+ * the ordinary zoning that closes a shabad does not apply here.
+ *
+ * Confirmed individually, not detected. A rule that tried to find them would have
+ * to decide what "should" have been there, which is exactly the judgement not to
+ * make automatically.
+ */
+const UNBOUNDED_GROUPS = new Map<string, string>([
+  ['5FC', 'ਛਾਡਿ ਮਨ; ਹਰਿ, ਬਿਮੁਖਨ ਕੋ ਸੰਗੁ ॥'],
+  ['GU2', 'ਸਤਿਗੁਰੁ. ਤੁਮ ਸੇਵਿ ਸਖੀ; ਮਨਿ ਚਿੰਦਿਅੜਾ ਫਲੁ ਪਾਵਹੁ ॥'],
+])
+
+export const isUnbounded = (groupId: string) => UNBOUNDED_GROUPS.has(groupId)
+
 export type VishraamFault = {
   index: number
   marker: string

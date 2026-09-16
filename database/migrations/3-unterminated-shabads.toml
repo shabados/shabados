@@ -1,0 +1,33 @@
+description = "Reunite two shabads split across a line-group boundary"
+issue = 8
+
+# Both were found by scanning for line-groups whose last line carries no numbered
+# ending — the same sweep that produced migrations 1 and 2. See
+# database/docs/numbering.md.
+#
+# Reviewed line by line before being written down. The third case that sweep
+# surfaced, GU2, is deliberately absent: it is unbounded, not broken.
+
+# 2DH ends on 3RDV, the opening line of its fourth pada, with no closing number.
+# KJ2 holds nothing but that pada's second line — which carries the whole stack,
+# seven deep: ॥੪॥੫॥੭॥੧੨॥੧੮॥੭॥੩੭॥. Moving it back empties KJ2, which then retires.
+[[move]]
+line = "LV8T"
+from = "KJ2"
+to = "2DH"
+position = "last"
+text = "ਜਨ ਨਾਨਕ. ਮਨਿ ਤਨਿ ਅਨਦੁ ਭਇਆ ਹੈ; ਗੁਰਿ ਮੰਤ੍ਰੁ ਦੀਓ ਹਰਿ ਭੰਞੁ ॥੪॥੫॥੭॥੧੨॥੧੮॥੭॥੩੭॥"
+why = "closes 2DH's fourth pada, which 3RDV opens; KJ2 held only this line"
+
+# H2Q's last line opens the next svaiya rather than closing this one. RFJ has five
+# lines where its neighbours P7J and D5F have six, and the missing line is the
+# first. The rhyme confirms it: with 2MYC restored, RFJ reads ਚਾਓ / ਸੰਸਾਰਿ / ਗਤੇ /
+# ਰਤੇ / ਸਰਣੰ / ਤਰਣੰ — first two unrhymed, then two rhyming couplets, closing on
+# ਤਰਣੰ. P7J and D5F have exactly that shape.
+[[move]]
+line = "2MYC"
+from = "H2Q"
+to = "RFJ"
+position = "first"
+text = "ਜਿਹ ਅੰਮ੍ਰਿਤ ਬਚਨ ਬਾਣੀ; ਸਾਧੂ ਜਨ ਜਪਹਿ. ਕਰਿ ਬਿਚਿਤਿ ਚਾਓ ॥"
+why = "opens RFJ, giving it the six lines and the rhyme shape of P7J and D5F"
