@@ -70,6 +70,26 @@ for (const rule of manifest.substitute) {
   )
   consola.info(`${rule.source}: ${edits.length} lines, ${occurrences} occurrences`)
 
+  // How many occurrences a line carries. One is an ordinary line ending; two or
+  // three is a numbered ending, the single-dandi form of ॥N॥N॥. More than that is
+  // worth looking at before applying anything.
+  const perLine = new Map<number, number>()
+  for (const edit of edits) {
+    const n = edit.before.split(rule.from).length - 1
+    perLine.set(n, (perLine.get(n) ?? 0) + 1)
+  }
+  const distribution = [...perLine]
+    .sort((a, b) => a[0] - b[0])
+    .map(([n, count]) => `${n}×:${count}`)
+    .join('  ')
+  consola.info(`  per line — ${distribution}`)
+
+  const unusual = edits.filter((edit) => edit.before.split(rule.from).length - 1 > 4)
+  if (unusual.length) {
+    consola.warn(`  ${unusual.length} lines carry more than four; review before applying`)
+    for (const edit of unusual.slice(0, 10)) consola.warn(`    ${edit.id}`)
+  }
+
   // 12,000 diffs cannot be read. A bulk substitution reviews as the count, the
   // assertion that nothing else changed, and a sample wide enough to recognise.
   const sample: Block[] = edits.slice(0, 12).map((edit) => ({
