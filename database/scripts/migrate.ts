@@ -113,14 +113,16 @@ const render = (id: string) => {
   return [
     `### ${id}`,
     '',
-    '**Before**',
+    // From/To, not Before/After. The same rendering is read to decide whether a
+    // change should happen and to confirm that it did, so it must not assume which.
+    '**From**',
     '```',
     column(before, leaving.get(id), '← moves out'),
     '```',
     '',
-    '**After**',
+    '**To**',
     '```',
-    column(now, arriving.get(id), '← moved in'),
+    column(now, arriving.get(id), '← moves in'),
     '```',
     '',
   ].join('\n')
