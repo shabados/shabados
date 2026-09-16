@@ -191,6 +191,8 @@ for (const move of manifest.move) {
         sectionSource,
         groups.filter((group) => group !== id),
       )
+      // `git rm` stages the deletion itself. It must not go through `git add` as
+      // well — the path no longer exists, and adding it fails.
       await $`git rm --quiet ${groupFilePath(id)}`.quiet()
       await appendFile(
         './retired-ids.toml',
@@ -204,6 +206,8 @@ for (const move of manifest.move) {
     touched.push(groupFilePath(id))
   }
 
+  // Stage exactly what this move touched. `git rm` above has already staged any
+  // deletion; `git add` picks up the rest.
   await $`git add ${touched}`.quiet()
   const subject = emptied
     ? `db: merge ${move.from} into ${move.to}`
@@ -212,9 +216,10 @@ for (const move of manifest.move) {
     ? `\n\n${move.from} is now empty and is retired; see retired-ids.toml.`
     : ''
   const message = `${subject}\n\n${move.text}\n\n${move.why}${retirement}\n\nManifest: database/migrations/${basename(path)}`
-  // --only with an explicit pathspec: this commit contains these files, whatever
-  // else may have reached the index in the meantime.
-  await $`git commit --only -m ${message} -- ${touched}`.quiet()
+  // No pathspec. `git commit --only` cannot take one for a file that no longer
+  // exists, which a retiring merge always produces. The clean-tree check above is
+  // what keeps this honest: nothing but this migration's own writes can be staged.
+  await $`git commit -m ${message}`.quiet()
   consola.success(
     `${emptied ? 'merged' : 'moved'}  ${move.from} → ${move.to}  ${move.line}  ${move.text}`,
   )
