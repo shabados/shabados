@@ -29,6 +29,8 @@ You can validate the collection data by running `bun run collections:validate`.
 
 We use [Conventional Commits](https://www.conventionalcommits.org/) for commit messages. This helps us generate changelogs + auto-update the database. We use `commitlint` to enforce this as a git hook.
 
+A commit that only moves, merges, or normalises entries in `collections` — no code change alongside it — uses the `data:` type, e.g. `data: merge KJ2 into 2DH`. Code changes to this package still use `feat`/`fix`/`docs`/`chore` as usual.
+
 ## Thank you
 
 Your contributions to open source, large or small, make great projects like this possible. Thank you for taking the time to participate in this project.
