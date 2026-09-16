@@ -261,8 +261,9 @@ kinds call for no change at all.
 | D — heading alone in a group | 6 | five are migration 2; `5FC` is not |
 | E — verse with no ending at all | 3 | two were genuinely split |
 
-**A is a lookup, not a rule** — `isColophon` in `scripts/lib/gurbani.ts`. Every rule
-tried against these either missed real ones or swallowed verse. Three kinds occur:
+**A is a lookup, not a rule** — `isColophon` in `scripts/lib/gurbani.ts`. They are
+few and fixed, and a word list or positional test draws the line somewhere the text
+does not. Three kinds occur:
 tallies (`ਦੂਜੇ ਘਰ ਕੇ ਚਉਤੀਸ ॥`), scribal notes (`ਸੁਧੁ`), and instructions
 (`ਏਹੁ ਸਲੋਕੁ ਆਦਿ ਅੰਤਿ ਪੜਣਾ ॥`).
 

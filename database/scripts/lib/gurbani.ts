@@ -4,8 +4,8 @@
  * These are derived in `database/docs/numbering.md` from reading every SGGS
  * line-group in source order. They live here rather than in `packages/gurmukhi`
  * because no app needs them — they are corpus tooling. They live here rather
- * than in prose because a rule that exists only as prose gets re-derived, and
- * two of these were got wrong on the way to being written down.
+ * than in prose because a rule that exists only as prose gets re-derived, and each
+ * one here is subtle enough that a fresh derivation is unlikely to match.
  *
  * Every function is pure. The corpus is 604M; these must be testable without it.
  */
@@ -137,11 +137,9 @@ export const isHeading = (line: string) => {
 /**
  * Lines that close a line-group without being part of the composition.
  *
- * **This is a lookup, deliberately.** Every rule tried against these — a word
- * list, spelled-out numbers, position plus the absence of a counter — either
- * missed real ones or swallowed verse. There are a few dozen in the whole corpus,
- * they do not grow, and a human can identify each in seconds. A lookup is the
- * honest shape for that.
+ * **This is a lookup, deliberately.** They are few, they are fixed, and they are
+ * recognised by reading rather than by shape — a word list or a positional test
+ * draws the line somewhere the text does not. Enumerating them is the honest form.
  *
  * Three kinds occur, and they mean different things to a reader:
  *
@@ -179,14 +177,12 @@ export const colophonText = (lineId: string) => COLOPHON_LINES.get(lineId)
 /**
  * Line-groups that stand outside the usual bounds — an **unzoned** composition.
  *
- * The term matters. These are not incomplete, deficient, or missing anything:
- * they are as they are in the source, and calling them "incomplete" imports a
- * judgement the text does not make. Unzoned says the true thing —
- * the ordinary zoning that closes a shabad does not apply here.
+ * They are as they are in the source: the numbering that ordinarily closes a
+ * shabad simply does not apply here, and the term says only that.
  *
- * Confirmed individually, not detected. A rule that tried to find them would have
- * to decide what "should" have been there, which is exactly the judgement not to
- * make automatically.
+ * Listed individually rather than detected. Finding them by rule would mean
+ * deciding what the zoning would otherwise have been, which is a reading to make
+ * deliberately and not in code.
  */
 const UNZONED_GROUPS = new Map<string, string>([
   ['5FC', 'ਛਾਡਿ ਮਨ; ਹਰਿ, ਬਿਮੁਖਨ ਕੋ ਸੰਗੁ ॥'],
