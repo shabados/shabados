@@ -5,6 +5,7 @@ import { basename } from 'node:path'
 import consola from 'consola'
 
 import { loadCorpus } from './lib/corpus'
+import { type Article, type Block, page } from './lib/render'
 
 /**
  * Renders what a range of commits did to the corpus, as a page.
@@ -52,17 +53,19 @@ for (const source of [
   } catch {}
 }
 
-const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-
-/** The ID list a collection file held at a given commit, or null if absent. */
-const idsAt = async (sha: string, file: string, key: 'lines' | 'lineGroups') => {
+/** The ID list a collection file held at a given commit, or null if the file was absent. */
+const idsAt = async (
+  sha: string,
+  file: string,
+  key: 'lines' | 'lineGroups',
+): Promise<string[] | null> => {
   const body = await $`git show ${`${sha}:${file}`}`.text().catch(() => '')
   if (!body) return null
-  const m = new RegExp(`^${key} = \\[(.*)\\]$`, 'm').exec(body)
-  return m?.[1] ? [...m[1].matchAll(/"([^"]+)"/g)].map((x) => x[1] as string) : []
+  const match = new RegExp(`^${key} = \\[(.*)\\]$`, 'm').exec(body)
+  return match?.[1] ? [...match[1].matchAll(/"([^"]+)"/g)].map((m) => m[1] as string) : []
 }
 
-const sections: string[] = []
+const articles: Article[] = []
 
 for (const sha of commits.reverse()) {
   const subject = (await $`git log -1 --format=%s ${sha}`.text()).trim()
@@ -70,7 +73,7 @@ for (const sha of commits.reverse()) {
     .trim()
     .split('\n')
     .filter(Boolean)
-  const blocks: string[] = []
+  const blocks: Block[] = []
 
   for (const file of files) {
     const id = basename(file, '.toml')
@@ -84,97 +87,55 @@ for (const sha of commits.reverse()) {
         ...(before ?? []).filter((x) => !(after ?? []).includes(x)),
         ...(after ?? []).filter((x) => !(before ?? []).includes(x)),
       ])
-      const column = (ids: string[] | null) =>
+      const rows = (ids: string[] | null) =>
         ids === null
-          ? '<p class="gone">line-group retired</p>'
-          : `<table>${ids
-              .map(
-                (lineId) =>
-                  `<tr class="${changed.has(lineId) ? 'hit' : ''}"><td class="i">${lineId}</td><td class="gm">${esc(text.get(lineId) ?? '—')}</td></tr>`,
-              )
-              .join('')}</table>`
+          ? null
+          : ids.map((lineId) => ({
+              id: lineId,
+              text: text.get(lineId) ?? '—',
+              changed: changed.has(lineId),
+            }))
 
-      blocks.push(
-        `<section><h3>${id}<span class="n">${before?.length ?? 0} → ${after?.length ?? 0} lines</span></h3>` +
-          `<div class="pair"><div><h4>From</h4>${column(before)}</div><div><h4>To</h4>${column(after)}</div></div></section>`,
-      )
+      blocks.push({
+        kind: 'pair',
+        id,
+        note: `${before?.length ?? 0} → ${after?.length ?? 0} lines`,
+        from: rows(before),
+        to: rows(after),
+      })
     } else if (file.includes('sections/')) {
-      const before = (await idsAt(`${sha}~1`, file, 'lineGroups')) ?? []
-      const after = (await idsAt(sha, file, 'lineGroups')) ?? []
-      const removed = before.filter((x) => !after.includes(x))
-      const added = after.filter((x) => !before.includes(x))
+      const wasListed: string[] = (await idsAt(`${sha}~1`, file, 'lineGroups')) ?? []
+      const nowListed: string[] = (await idsAt(sha, file, 'lineGroups')) ?? []
+      const removed = wasListed.filter((groupId) => !nowListed.includes(groupId))
+      const added = nowListed.filter((groupId) => !wasListed.includes(groupId))
       const name = sectionName.get(id) ?? id
-      const parts = [
-        ...removed.map((x) => `<li><b>${x}</b> no longer listed</li>`),
-        ...added.map((x) => `<li><b>${x}</b> now listed</li>`),
-      ]
-      blocks.push(
-        `<section><h3>${name}<span class="n">section ${id}</span></h3><ul>${parts.join('')}</ul></section>`,
-      )
+      blocks.push({
+        kind: 'list',
+        id: name,
+        note: `section ${id}`,
+        items: [
+          ...removed.map((groupId) => `${groupId} no longer listed`),
+          ...added.map((groupId) => `${groupId} now listed`),
+        ],
+      })
     } else if (file.includes('lines/')) {
       const diff = await $`git show --format= ${sha} -- ${`:/${file}`}`.text()
       const from = /^-data = "(.*)"$/m.exec(diff)?.[1]
       const to = /^\+data = "(.*)"$/m.exec(diff)?.[1]
       if (from === undefined || to === undefined) continue
-      blocks.push(
-        `<section><h3>${id}<span class="n">line text</span></h3>` +
-          `<table><tr><td class="i">from</td><td class="gm">${esc(from)}</td></tr>` +
-          `<tr><td class="i">to</td><td class="gm">${esc(to)}</td></tr></table></section>`,
-      )
+      blocks.push({ kind: 'text', id, note: 'line text', from, to })
     } else if (file.includes('banis/') || file.includes('retired-ids')) {
       const diff = await $`git show --format= ${sha} -- ${`:/${file}`}`.text()
-      const rows = diff
+      const items = diff
         .split('\n')
         .filter((r) => /^[-+]/.test(r) && !/^[-+][-+]/.test(r))
-        .map((r) => `<tr><td class="i ${r.startsWith('-') ? 'del' : 'add'}">${esc(r)}</td></tr>`)
-      if (rows.length)
-        blocks.push(`<section><h3>${basename(file)}</h3><table>${rows.join('')}</table></section>`)
+        .map((r) => r.trim())
+      if (items.length) blocks.push({ kind: 'list', id: basename(file), note: '', items })
     }
   }
 
-  if (blocks.length)
-    sections.push(
-      `<article><h2>${esc(subject)}</h2><p class="sha">${sha.slice(0, 10)}</p>${blocks.join('')}</article>`,
-    )
+  if (blocks.length) articles.push({ title: subject, subtitle: sha.slice(0, 10), blocks })
 }
 
-await writeFile(
-  out,
-  `<!doctype html><meta charset="utf-8"><title>Corpus review</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap">
-<style>
- /* The project's own face, as apps/web/src/global.css declares it. local() first so
-    an installed copy is used; the repo's woff2 otherwise, resolved relative to
-    database/review.html. */
- @font-face{
-   font-family:"Sant Lipi";
-   src:local("Sant Lipi"),
-       url("../apps/web/public/fonts/SantLipi-VF.woff2") format("woff2-variations"),
-       url("../apps/web/public/fonts/SantLipi-VF.woff2") format("woff2");
-   font-weight:100 900;
-   font-display:swap;
- }
- body{font:15px/1.6 system-ui,sans-serif;max-width:78rem;margin:2rem auto;padding:0 1rem;color:#23211f;background:#f4f1ee}
- h1{font-size:1.5rem}
- article{margin:2.5rem 0;padding-top:1rem;border-top:2px solid #23211f}
- h2{font-size:1.1rem;margin:0}
- .sha{font-family:"IBM Plex Mono",monospace;font-size:.75rem;color:#575552;margin:.1rem 0 1rem}
- section{margin:1.2rem 0}
- h3{font-size:.95rem;margin:0 0 .4rem;display:flex;gap:.6rem;align-items:baseline}
- .n{font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:#575552;font-weight:400}
- h4{font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:#575552;margin:0 0 .3rem}
- .pair{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
- @media(max-width:60rem){.pair{grid-template-columns:1fr}}
- table{border-collapse:collapse;width:100%;background:#fff;border:1px solid #d8d2cb}
- td{padding:.3rem .5rem;border-bottom:1px solid #f0ece7;vertical-align:baseline}
- tr.hit td{background:#e7f2e2;font-weight:600}
- .gm{font-family:"Sant Lipi",serif;font-size:1.05rem;line-height:1.9}
- .i{font-family:"IBM Plex Mono",monospace;font-size:.75rem;color:#575552;white-space:nowrap}
- .add{color:#13662b}.del{color:#8a472a}
- .gone{font-style:italic;color:#8a472a;background:#fff;border:1px solid #d8d2cb;padding:.5rem}
- ul{margin:.2rem 0;padding-left:1.2rem}
- @media(prefers-color-scheme:dark){body{background:#000;color:#fff}article{border-color:#fff}table,.gone{background:#1c1c1c;border-color:#3a3a3a}td{border-color:#2a2a2a}tr.hit td{background:#1c2718}.i,.n,.sha,h4{color:#bebebe}.add{color:#c4eda8}.del{color:#ffd493}}
-</style>
-<h1>Corpus review — ${esc(target)}</h1><p>${commits.length} commits.</p>${sections.join('')}`,
-)
-consola.success(`${out} — ${sections.length} of ${commits.length} commits touch the corpus`)
+await writeFile(out, page('Corpus review', `${target} — ${commits.length} commits`, articles))
+consola.success(`${out} — ${articles.length} of ${commits.length} commits touch the corpus`)

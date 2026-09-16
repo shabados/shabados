@@ -5,6 +5,8 @@ import { basename } from 'node:path'
 import consola from 'consola'
 import { parse } from 'smol-toml'
 
+import { type Article, type Block, page } from './lib/render'
+
 /**
  * Points a reference at the line it names.
  *
@@ -31,6 +33,7 @@ if (!path) {
 }
 
 const manifest = parse(await readFile(path, 'utf-8')) as unknown as Manifest
+const blocks: Block[] = []
 const linePath = (id: string) => `./collections/lines/${id[0]}/${id.slice(0, 2)}/${id}.toml`
 const exists = async (id: string) => Bun.file(linePath(id)).exists()
 
@@ -51,6 +54,21 @@ for (const entry of manifest.realign) {
   if (occurrences !== 1)
     throw new Error(`${entry.file}: names ${entry.from} ${occurrences} times, expected once`)
 
+  // Where the reference sits, so the surrounding IDs can be checked.
+  const ids = [...source.matchAll(/"([^"]+)"/g)].map((m) => m[1] as string)
+  const at = ids.indexOf(entry.from)
+  const near = ids.slice(Math.max(0, at - 2), at + 3)
+  blocks.push({
+    kind: 'list',
+    id: entry.file,
+    note: `${entry.from} → ${entry.to}`,
+    items: [
+      `in context: ${near.join(', ')}`,
+      `${entry.from} is carried by no line`,
+      `${entry.to} is carried by a line`,
+      entry.why,
+    ],
+  })
   consola.success(`${entry.file}: ${entry.from} → ${entry.to}`)
 
   if (!apply) continue
@@ -69,4 +87,13 @@ for (const entry of manifest.realign) {
   consola.success(`committed`)
 }
 
-if (!apply) consola.info('Dry run. Re-run with --apply to write and commit.')
+if (!apply) {
+  await writeFile(
+    './review.html',
+    page('Proposed change', manifest.description, [
+      { title: manifest.description, subtitle: 'proposed, not applied', blocks },
+    ]),
+  )
+  consola.success('./review.html — open this before applying')
+  consola.info('Dry run. Re-run with --apply to write and commit.')
+}

@@ -14,6 +14,7 @@ import {
   writeGroupLines,
   writeSectionGroups,
 } from './lib/manifest'
+import { type Article, page } from './lib/render'
 
 /**
  * Applies a migration manifest, one commit per move.
@@ -128,21 +129,33 @@ const render = (id: string) => {
   ].join('\n')
 }
 
-const renderPath = path.replace(/\.toml$/, '.md')
-await writeFile(
-  renderPath,
-  [
-    `# ${manifest.description}`,
-    '',
-    manifest.issue ? `shabados/shabados#${manifest.issue}\n` : '',
-    ...manifest.move.map((move) => `- \`${move.line}\` ${move.from} → ${move.to} — ${move.why}`),
-    '',
-    '## Affected line-groups',
-    '',
-    ...affected.map(render),
-  ].join('\n'),
-)
-consola.success(`Rendered ${renderPath} — read this before applying`)
+const changed = new Set(manifest.move.map((move) => move.line))
+const article: Article = {
+  title: manifest.description,
+  subtitle: manifest.issue
+    ? `shabados/shabados#${manifest.issue} — proposed, not applied`
+    : 'proposed, not applied',
+  blocks: affected.map((id) => {
+    const before = corpus.groups.get(id)?.lines ?? []
+    const now = after.get(id) ?? []
+    const row = (l: { id: string; data: string }) => ({
+      id: l.id,
+      text: l.data,
+      changed: changed.has(l.id),
+    })
+    return {
+      kind: 'pair' as const,
+      id,
+      note: `${before.length} → ${now.length} lines`,
+      from: before.map(row),
+      to: now.length ? now.map(row) : null,
+    }
+  }),
+}
+
+const renderPath = './review.html'
+await writeFile(renderPath, page('Proposed change', manifest.description, [article]))
+consola.success(`${renderPath} — open this before applying`)
 
 if (!apply) {
   consola.info('Dry run. Re-run with --apply to write and commit.')

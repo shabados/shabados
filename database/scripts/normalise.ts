@@ -6,6 +6,7 @@ import consola from 'consola'
 import { parse } from 'smol-toml'
 
 import { loadCorpus } from './lib/corpus'
+import { type Article, type Block, page } from './lib/render'
 
 /**
  * Applies a character normalisation across one source's lines.
@@ -37,6 +38,7 @@ if (!path) {
 }
 
 const manifest = parse(await readFile(path, 'utf-8')) as unknown as Manifest
+const articles: Article[] = []
 
 for (const rule of manifest.substitute) {
   const corpus = await loadCorpus(rule.source)
@@ -68,6 +70,21 @@ for (const rule of manifest.substitute) {
   )
   consola.info(`${rule.source}: ${edits.length} lines, ${occurrences} occurrences`)
 
+  // 12,000 diffs cannot be read. A bulk substitution reviews as the count, the
+  // assertion that nothing else changed, and a sample wide enough to recognise.
+  const sample: Block[] = edits.slice(0, 12).map((edit) => ({
+    kind: 'text' as const,
+    id: edit.id,
+    note: 'line text',
+    from: edit.before,
+    to: edit.after,
+  }))
+  articles.push({
+    title: `${rule.source} — ${edits.length} lines, ${occurrences} occurrences`,
+    subtitle: rule.why,
+    blocks: sample,
+  })
+
   if (!apply) continue
 
   const status = (await $`git status --porcelain`.text()).trim()
@@ -98,4 +115,8 @@ for (const rule of manifest.substitute) {
   consola.success(`${rule.source}: applied and committed`)
 }
 
-if (!apply) consola.info('Dry run. Re-run with --apply to write and commit.')
+if (!apply) {
+  await writeFile('./review.html', page('Proposed change', manifest.description, articles))
+  consola.success('./review.html — open this before applying (first 12 lines of each source)')
+  consola.info('Dry run. Re-run with --apply to write and commit.')
+}
