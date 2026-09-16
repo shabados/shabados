@@ -20,7 +20,7 @@ export const strandedHeadings: Check = {
   issue: 8,
   // Resolved by migrations/1-stranded-headings.toml. Kept rather than deleted:
   // this is a defect the corpus can reacquire, and the colophons above are
-  // exactly what a careless re-fix would break.
+  // exactly what a heading-shaped rule would move.
   expected: 0,
   run: (corpus) => {
     const findings: Finding[] = []
