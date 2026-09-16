@@ -24,3 +24,9 @@ id = "FRC"
 mergedInto = "YGD"
 migration = "2-heading-only-groups"
 date = "2026-09-16"
+
+[[retired]]
+id = "FF5"
+mergedInto = "18L"
+migration = "2-heading-only-groups"
+date = "2026-09-16"
