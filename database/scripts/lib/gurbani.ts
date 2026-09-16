@@ -36,6 +36,21 @@ const RAHAO_MARKER = new RegExp(
   `${DANDA}\\s*(?:[${DIGIT}]+\\s*${DANDA}\\s*)?ਰਹਾਉ(?:\\s*ਦੂਜਾ)?\\s*${DANDA}`,
 )
 
+/**
+ * Scribal words a scribe appended after a line's closing count. They record
+ * something about the text rather than being part of it — `ਸੁਧੁ` ("correct") after
+ * a vaar's final pauri, `ਛਕਾ ੧` marking a set of six — and they are not part of the
+ * ending, so they are stripped before the numbers are read.
+ *
+ * Sometimes terminated (`ਸੁਧੁ ॥`), sometimes bare (`ਸੁਧੁ`). 31 lines in the SGGS.
+ */
+const SCRIBAL_SUFFIX = new RegExp(
+  `\\s*(?:ਸੁਧੁ\\s*ਕੀਚੇ|ਸੁਧੁ|ਛਕਾ|ਛਕੇ|ਜੁਮਲਾ|ਦੁਤੁਕੇ|ਜੋੜੁ)(?:\\s*[${DIGIT}]+)?\\s*${DANDA}?\\s*$`,
+)
+
+/** The text with any trailing scribal word removed. */
+export const stripScribalSuffix = (line: string) => line.replace(SCRIBAL_SUFFIX, '')
+
 /** The trailing run of ॥N॥ groups at the very end of a line. */
 const TRAILING = new RegExp(`((?:${DANDA}\\s*[${DIGIT}]+\\s*)+)${DANDA}?\\s*$`)
 
@@ -67,7 +82,7 @@ export const parseEnding = (line: string): Ending => {
     }
   }
 
-  const trailing = TRAILING.exec(line.trimEnd())
+  const trailing = TRAILING.exec(stripScribalSuffix(line).trimEnd())
   if (!trailing) return { stack: [] }
 
   const [pada, ...stack] = [...trailing[1].matchAll(new RegExp(`[${DIGIT}]+`, 'g'))].map((m) =>
@@ -162,23 +177,23 @@ export const isColophon = (lineId: string) => COLOPHON_LINES.has(lineId)
 export const colophonText = (lineId: string) => COLOPHON_LINES.get(lineId)
 
 /**
- * Line-groups that stand outside the usual bounds — an **unbounded** composition.
+ * Line-groups that stand outside the usual bounds — an **unzoned** composition.
  *
  * The term matters. These are not incomplete, deficient, or missing anything:
  * they are as they are in the source, and calling them "incomplete" imports a
- * judgement the text does not make. Unbounded, or unzoned, says the true thing —
+ * judgement the text does not make. Unzoned says the true thing —
  * the ordinary zoning that closes a shabad does not apply here.
  *
  * Confirmed individually, not detected. A rule that tried to find them would have
  * to decide what "should" have been there, which is exactly the judgement not to
  * make automatically.
  */
-const UNBOUNDED_GROUPS = new Map<string, string>([
+const UNZONED_GROUPS = new Map<string, string>([
   ['5FC', 'ਛਾਡਿ ਮਨ; ਹਰਿ, ਬਿਮੁਖਨ ਕੋ ਸੰਗੁ ॥'],
   ['GU2', 'ਸਤਿਗੁਰੁ. ਤੁਮ ਸੇਵਿ ਸਖੀ; ਮਨਿ ਚਿੰਦਿਅੜਾ ਫਲੁ ਪਾਵਹੁ ॥'],
 ])
 
-export const isUnbounded = (groupId: string) => UNBOUNDED_GROUPS.has(groupId)
+export const isUnzoned = (groupId: string) => UNZONED_GROUPS.has(groupId)
 
 export type VishraamFault = {
   index: number

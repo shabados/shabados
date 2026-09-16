@@ -275,25 +275,65 @@ noting: `ਸੁਧੁ` (17) almost always follows a vaar's final pauri, and `ਛ
 always follows `॥੬॥`, `॥੧੨॥` or `॥੧੮॥` — multiples of six. **None of these is a
 defect**; they matter only for rendering.
 
-**A rahao need not be one line.** The C group shows a rahao running to an entire
-pauri after the end of a shabad. What a rahao never does is bound a shabad — it
-marks a refrain, and the zoning is carried by the numbered endings alone. A parser
-that treats a rahao as a boundary will be wrong.
+**A rahao need not be one line**, and it *can* close a shabad. The C group shows a
+rahao running to an entire pauri after the end of a shabad. Measured across the
+SGGS:
 
-### Unbounded line-groups
+| | |
+| --- | --- |
+| rahao markers | 2,680 |
+| that are the last line of their group | 34 |
+| last **and carrying a closing stack** | **29** |
+| mid-group carrying a closing stack | **0** |
+
+So a rahao line zones a shabad 29 times — `P84/8X0G` ends
+`॥੧॥ ਰਹਾਉ ਦੂਜਾ ॥੧੨॥੮੧॥` — and whenever it carries a stack it is the last line,
+never the middle. **What never zones is the rahao's own ੧**; the zoning numbers come
+*after* the marker. An earlier draft of this document claimed a rahao never bounds a
+shabad. That was asserted without measurement and is wrong.
+
+### Reading the gaps
+
+A group that carries no count still occupies a position, and the counts on either
+side say which. `5FC` closes nothing, the group before it closes on 6 and the group
+after on 8 — so `5FC` **occupies 7**. The scribe counted it without labelling it.
+
+That is checkable, and `scripts/checks/zoning.ts` checks it. Two things had to be
+fixed before it could see anything:
+
+- **Colophons must be stepped over.** A division's closing tally carries no count,
+  so a group ending in one looked unnumbered when its real count sat one line above.
+- **Scribal suffixes must be stripped before the numbers are read.** `॥੨੪॥੧॥ ਸੁਧੁ`
+  is a perfectly ordinary ending with a word appended. `parseEnding` now removes
+  `ਸੁਧੁ`, `ਸੁਧੁ ਕੀਚੇ`, `ਛਕਾ`, `ਛਕੇ`, `ਜੁਮਲਾ`, `ਦੁਤੁਕੇ` and `ਜੋੜੁ` first.
+
+Between them those two accounted for **38 of the 52** line-groups that appeared to
+end without a number. The remainder is 14, and only two sit in a gap at all:
+
+| Group | Gap | Reading |
+| --- | --- | --- |
+| `5FC` | 6 → 8 | occupies 7 — unzoned, and correct as it is |
+| `2DH` | 6 → 37 | its closing line is in `KJ2`; migration 3 returns it |
+
+**So the gap method finds no unzoned group that was not already known** — and it
+independently rediscovers the `2DH`/`KJ2` split, which is a useful check on the
+method itself. It would not find an unzoned group whose neighbours do not bracket
+it cleanly, so this is evidence rather than proof.
+
+### Unzoned line-groups
 
 `5FC` and `GU2` end without the zoning that closes a shabad, and **they are correct
-as they are**. The term is *unbounded*, or *unzoned* — not *incomplete*, which
+as they are**. The term is *unzoned* — not *incomplete*, which
 imports a judgement the text does not make.
 
 - `5FC` — `ਛਾਡਿ ਮਨ; ਹਰਿ, ਬਿਮੁਖਨ ਕੋ ਸੰਗੁ ॥`, the one-line Surdas verse, followed by
   `ਸਾਰੰਗ ਮਹਲਾ ੫ ਸੂਰਦਾਸ ॥`. A one-line group because that is what it is.
 - `GU2` — `ਸਤਿਗੁਰੁ. ਤੁਮ ਸੇਵਿ ਸਖੀ; ਮਨਿ ਚਿੰਦਿਅੜਾ ਫਲੁ ਪਾਵਹੁ ॥`.
 
-Recorded as `isUnbounded`, by ID, because finding them by rule would mean deciding
+Recorded as `isUnzoned`, by ID, because finding them by rule would mean deciding
 what "should" have been there.
 
-**This sweep can only see unbounded groups whose last line lacks an ending.** One
+**This sweep can only see unzoned groups whose last line lacks an ending.** One
 whose last line happens to carry a number would not appear. Whether more exist is
 open.
 

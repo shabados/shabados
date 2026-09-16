@@ -7,8 +7,9 @@ import {
   isColophon,
   isHeading,
   isRahaoMarker,
-  isUnbounded,
+  isUnzoned,
   parseEnding,
+  stripScribalSuffix,
 } from './gurbani'
 
 // Every fixture is a real line, named by its line ID, so a failure points at the
@@ -148,15 +149,43 @@ describe('isColophon', () => {
   })
 })
 
-describe('isUnbounded', () => {
+describe('isUnzoned', () => {
   // Confirmed by review, not detected. 5FC is the one-line Surdas verse; GU2 ends
   // without the zoning that closes a shabad. Neither is a defect.
-  test('the two known unbounded groups', () => {
-    expect(isUnbounded('5FC')).toBe(true)
-    expect(isUnbounded('GU2')).toBe(true)
+  test('the two known unzoned groups', () => {
+    expect(isUnzoned('5FC')).toBe(true)
+    expect(isUnzoned('GU2')).toBe(true)
   })
 
   test('an ordinary group is not one', () => {
-    expect(isUnbounded('2DH')).toBe(false)
+    expect(isUnzoned('2DH')).toBe(false)
+  })
+})
+
+describe('stripScribalSuffix', () => {
+  // 31 SGGS lines close properly and then carry an appended scribal word. It is
+  // not part of the ending, and leaving it in hides the count from every counter
+  // check — which is how 11 well-formed groups looked like gaps.
+  test('ਸੁਧੁ, bare and terminated', () => {
+    expect(parseEnding('ਸੋ ਕਰੇ; ਜਿ ਤਿਸੈ ਰਜਾਇ ॥੨੪॥੧॥ ਸੁਧੁ')).toEqual({ pada: 24, stack: [1] })
+    expect(parseEnding('ਨਾਨਕ. ਨਾਮੁ ਧਿਆਈਐ; ਸਚੀ ਵਡਿਆਈ ॥੨੧॥੧॥ ਸੁਧੁ ॥')).toEqual({ pada: 21, stack: [1] })
+  })
+
+  test('ਛਕਾ and ਛਕੇ carry their own number', () => {
+    expect(parseEnding('ਨਾਮੁ ਅਧਾਰੁ ਦੀਜੈ. ਨਾਨਕ ਕਉ ॥੨॥੧੨॥ ਛਕੇ ੨ ॥')).toEqual({ pada: 2, stack: [12] })
+  })
+
+  test('ਜੁਮਲਾ, ਦੁਤੁਕੇ, ਜੋੜੁ', () => {
+    expect(parseEnding('ਦਇਆਲ ਪੁਰਖ ਕਿਰਪਾ ਕਰਹੁ ॥੮॥੩॥੧੫॥੪੪॥ ਜੁਮਲਾ')).toEqual({
+      pada: 8,
+      stack: [3, 15, 44],
+    })
+    expect(stripScribalSuffix('ਕਹੁ ਰਵਿਦਾਸ ॥੪॥੨॥੧੧॥੭॥੨॥੪੯॥ ਜੋੜੁ ॥').trimEnd()).toBe(
+      'ਕਹੁ ਰਵਿਦਾਸ ॥੪॥੨॥੧੧॥੭॥੨॥੪੯॥',
+    )
+  })
+
+  test('ordinary verse is untouched', () => {
+    expect(stripScribalSuffix('ਆਗੈ ਪਾਛੈ ਕੁਸਲੁ ਭਇਆ ॥')).toBe('ਆਗੈ ਪਾਛੈ ਕੁਸਲੁ ਭਇਆ ॥')
   })
 })
