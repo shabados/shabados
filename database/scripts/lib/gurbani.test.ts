@@ -1,6 +1,15 @@
 import { describe, expect, test } from 'bun:test'
 
-import { classifyForm, findVishraamFaults, isHeading, isRahaoMarker, parseEnding } from './gurbani'
+import {
+  classifyForm,
+  colophonText,
+  findVishraamFaults,
+  isColophon,
+  isHeading,
+  isRahaoMarker,
+  isUnbounded,
+  parseEnding,
+} from './gurbani'
 
 // Every fixture is a real line, named by its line ID, so a failure points at the
 // corpus rather than at an invented example.
@@ -120,5 +129,34 @@ describe('findVishraamFaults', () => {
 
   test('well-formed vishraams raise nothing', () => {
     expect(findVishraamFaults('ਪੰਚ ਜਨਾ ਸਿਉ ਸੰਗੁ. ਨ ਛੁਟਕਿਓ; ਅਧਿਕ ਅਹੰਬੁਧਿ ਬਾਧੇ ॥੧॥')).toEqual([])
+  })
+})
+
+describe('isColophon', () => {
+  test('the three kinds', () => {
+    expect(isColophon('3UFU')).toBe(true) // tally
+    expect(isColophon('7LAQ')).toBe(true) // instruction
+    expect(isColophon('K50V')).toBe(true) // tally, and the one a word list hid
+  })
+
+  test('an ordinary line is not one', () => {
+    expect(isColophon('NEKY')).toBe(false)
+  })
+
+  test('the lookup carries its text, so an entry can be checked by eye', () => {
+    expect(colophonText('K50V')).toBe('ਦੂਜੇ ਘਰ ਕੇ ਚਉਤੀਸ ॥')
+  })
+})
+
+describe('isUnbounded', () => {
+  // Confirmed by review, not detected. 5FC is the one-line Surdas verse; GU2 ends
+  // without the zoning that closes a shabad. Neither is a defect.
+  test('the two known unbounded groups', () => {
+    expect(isUnbounded('5FC')).toBe(true)
+    expect(isUnbounded('GU2')).toBe(true)
+  })
+
+  test('an ordinary group is not one', () => {
+    expect(isUnbounded('2DH')).toBe(false)
   })
 })

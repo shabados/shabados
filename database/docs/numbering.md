@@ -247,6 +247,56 @@ the scribe wrote the whole stack out. Testing it — does a 4+ ending's last num
 that group's position in its section — holds for **52 of 95**, which supports the running
 -count reading for about half and leaves the rest unaccounted. Still open.
 
+## Line-groups that end without a number
+
+Every SGGS line-group whose last line carries no numbered ending — **52 of 5,549**.
+Reviewed one by one; the classification is the useful part, because four of the five
+kinds are not defects at all.
+
+| Kind | Count | What it is |
+| --- | --- | --- |
+| A — standalone colophon | 7 | the whole line is a colophon |
+| B — verse, then a scribal word | 31 | `…॥੨੧॥੧॥ ਸੁਧੁ`, `…॥੪॥੬॥ ਛਕਾ ੧ ॥` |
+| C — ends on a rahao marker | 5 | correctly placed |
+| D — heading alone in a group | 6 | five are migration 2; `5FC` is not |
+| E — verse with no ending at all | 3 | two were genuinely split |
+
+**A is a lookup, not a rule** — `isColophon` in `scripts/lib/gurbani.ts`. Every rule
+tried against these either missed real ones or swallowed verse. Three kinds occur:
+tallies (`ਦੂਜੇ ਘਰ ਕੇ ਚਉਤੀਸ ॥`), scribal notes (`ਸੁਧੁ`), and instructions
+(`ਏਹੁ ਸਲੋਕੁ ਆਦਿ ਅੰਤਿ ਪੜਣਾ ॥`).
+
+**B is a different phenomenon and needs different handling.** The line is ordinary
+verse that closes properly and *then* carries an appended scribal word — sometimes
+terminated (`ਸੁਧੁ ॥`), sometimes bare (`ਸੁਧੁ`). So it is a colophon *span inside a
+line*, not a colophon line, and `isColophon` cannot express it. The vocabulary is
+`ਸੁਧੁ`, `ਸੁਧੁ ਕੀਚੇ`, `ਛਕਾ`, `ਛਕੇ`, `ਜੁਮਲਾ`, `ਦੁਤੁਕੇ`, `ਜੋੜੁ`. Two patterns are worth
+noting: `ਸੁਧੁ` (17) almost always follows a vaar's final pauri, and `ਛਕਾ`/`ਛਕੇ` (11)
+always follows `॥੬॥`, `॥੧੨॥` or `॥੧੮॥` — multiples of six. **None of these is a
+defect**; they matter only for rendering.
+
+**A rahao need not be one line.** The C group shows a rahao running to an entire
+pauri after the end of a shabad. What a rahao never does is bound a shabad — it
+marks a refrain, and the zoning is carried by the numbered endings alone. A parser
+that treats a rahao as a boundary will be wrong.
+
+### Unbounded line-groups
+
+`5FC` and `GU2` end without the zoning that closes a shabad, and **they are correct
+as they are**. The term is *unbounded*, or *unzoned* — not *incomplete*, which
+imports a judgement the text does not make.
+
+- `5FC` — `ਛਾਡਿ ਮਨ; ਹਰਿ, ਬਿਮੁਖਨ ਕੋ ਸੰਗੁ ॥`, the one-line Surdas verse, followed by
+  `ਸਾਰੰਗ ਮਹਲਾ ੫ ਸੂਰਦਾਸ ॥`. A one-line group because that is what it is.
+- `GU2` — `ਸਤਿਗੁਰੁ. ਤੁਮ ਸੇਵਿ ਸਖੀ; ਮਨਿ ਚਿੰਦਿਅੜਾ ਫਲੁ ਪਾਵਹੁ ॥`.
+
+Recorded as `isUnbounded`, by ID, because finding them by rule would mean deciding
+what "should" have been there.
+
+**This sweep can only see unbounded groups whose last line lacks an ending.** One
+whose last line happens to carry a number would not appear. Whether more exist is
+open.
+
 ## The rahao rule
 
 **A rahao's number is not part of the count.** Across the SGGS, 2,686 lines contain
