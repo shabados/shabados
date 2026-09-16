@@ -1,7 +1,7 @@
 # Design tokens
 
 **THE source of truth for colour and type in the native apps.** Edit the tables here,
-then run `node brand/scripts/generate-tokens.mjs`. It emits:
+then run `node packages/design/scripts/generate-tokens.mjs`. It emits:
 
 - `apps/ios/ShabadOS/DesignTokens.swift`
 - `apps/android/app/src/main/java/com/shabados/android/DesignTokens.kt`

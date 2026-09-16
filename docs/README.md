@@ -10,7 +10,7 @@ a thing was *not* done kept next to the thing that was. Keep them that way.
 | [plan.md](plan.md) | Rewrite sequencing; what blocks what | Deciding what to work on |
 | [requirements/](requirements/) | **Source of truth** — what the app must do | Building or specifying behaviour |
 | [requirements/journeys.md](requirements/journeys.md) · [library.md](requirements/library.md) · [reading-shell.md](requirements/reading-shell.md) · [display-controls.md](requirements/display-controls.md) | The reading app: tabs and journeys, the Library, the viewer and its two sidebars, display settings | Building any platform reading UI |
-| [interaction.md](interaction.md) | **Layer 2** — how each platform delivers a requirement; icons live in `brand/icons.md` | Building any platform UI |
+| [interaction.md](interaction.md) | **Layer 2** — how each platform delivers a requirement; icons live in `packages/design/icons.md` | Building any platform UI |
 | [architecture/decisions/](architecture/decisions/) | Why we chose an approach; what is undecided | Before making a structural choice |
 | [architecture/README.md](architecture/README.md) | Monorepo layout, dependency graph, release model | Touching build, packaging, or layout |
 | [protocol/](protocol/) | The wire contract (not yet written) | Implementing client↔server messages |
@@ -75,7 +75,7 @@ compatibility matrix ([interaction.md](interaction.md#platform-targets)).
 **Specification is now three layers**
 ([ADR-0013](architecture/decisions/0013-three-layers-of-specification.md), Accepted):
 requirements stay platform-neutral; per-platform judgements go in
-[interaction.md](interaction.md); icon mappings are **data** in `brand/icons.md`,
+[interaction.md](interaction.md); icon mappings are **data** in `packages/design/icons.md`,
 generated into both apps and checked against the iOS deployment target at build time.
 
 **Two prerequisites are corpus work, not app work.** Nitnem must become a

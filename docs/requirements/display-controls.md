@@ -39,7 +39,7 @@ Font size of the reading area.
 a pinch made while it is not visible. The byline exists to teach the gesture; the
 slider is the fallback for someone who cannot make it.
 
-Sizing bounds live in `brand/tokens.md` (`type.minSize` 14, `type.maxSize` 56,
+Sizing bounds live in `packages/design/tokens.md` (`type.minSize` 14, `type.maxSize` 56,
 `type.defaultSize` 20) and are generated into both platforms — they are not to be
 restated in platform code.
 
@@ -405,7 +405,7 @@ stripping. Neither platform should be splitting on spaces and inspecting the las
 character, which is what the web app does today
 (`apps/web/src/components/line/line.tsx`).
 
-Colours are in [`brand/tokens.md`](../../brand/tokens.md) as `vishraamHeavy`,
+Colours are in [`packages/design/tokens.md`](../../packages/design/tokens.md) as `vishraamHeavy`,
 `vishraamMedium` and `vishraamLight`, generated into both apps. They were the last
 display colours defined only in `apps/web/src/global.css`; **web is still not
 generated from the token file**, so that is where drift would now come from.
@@ -760,7 +760,7 @@ have nothing to do with what they are reading.
 8. **Is there a minimum weight as well as a minimum zoom?** Raised as uncertain.
 9. **How is `Width` expressed?** A character count does not transfer to Gurmukhi.
    Needs a measure checkable against rendered Gurmukhi.
-10. **When does the web app read `brand/tokens.md`?** It is the only surface still
+10. **When does the web app read `packages/design/tokens.md`?** It is the only surface still
     defining colours of its own, so it is now the sole remaining source of drift.
 11. **What happens to controls the web app has and this document does not mention** —
     `Notes`, `Slideshow`, `Fullscreen`? Their absence is **not** a decision to remove

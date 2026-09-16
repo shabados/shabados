@@ -79,24 +79,26 @@ ensure_gurmukhi() {
     || die "gurmukhi build failed. If this ran inside an agent sandbox, run it from a real terminal: cd packages/gurmukhi && mise run apple"
 }
 
-# Colour and type live in brand/tokens.md and are generated into both apps, so a
-# design change cannot land on one platform only. Regenerated every build — it takes
-# milliseconds, and a stale token file is worse than the cost of rerunning.
+# Colour and type live in packages/design/tokens.md and are generated into both
+# apps, so a design change cannot land on one platform only. Regenerated every
+# build — it takes milliseconds, and a stale token file is worse than the cost of
+# rerunning.
 ensure_tokens() {
   command -v node >/dev/null \
-    || die "node not found — needed to generate design tokens from brand/tokens.md"
-  node "$REPO_DIR/brand/scripts/generate-tokens.mjs" >/dev/null
+    || die "node not found — needed to generate design tokens from packages/design/tokens.md"
+  node "$REPO_DIR/packages/design/scripts/generate-tokens.mjs" >/dev/null
 }
 
-# Icons live in brand/icons.md for the same reason colours do, plus one of its own:
-# an SF Symbol newer than the deployment target renders as NOTHING, with no error. The
-# generator checks every symbol against IPHONEOS_DEPLOYMENT_TARGET and exits non-zero,
-# so a blank button cannot reach a build. Its warnings (unimported Android drawables,
-# unverified Material Symbols names) are left visible rather than silenced.
+# Icons live in packages/design/icons.md for the same reason colours do, plus one of
+# its own: an SF Symbol newer than the deployment target renders as NOTHING, with no
+# error. The generator checks every symbol against IPHONEOS_DEPLOYMENT_TARGET and
+# exits non-zero, so a blank button cannot reach a build. Its warnings (unimported
+# Android drawables, unverified Material Symbols names) are left visible rather than
+# silenced.
 ensure_icons() {
   command -v node >/dev/null \
-    || die "node not found — needed to generate icon mappings from brand/icons.md"
-  node "$REPO_DIR/brand/scripts/generate-icons.mjs" >/dev/null \
+    || die "node not found — needed to generate icon mappings from packages/design/icons.md"
+  node "$REPO_DIR/packages/design/scripts/generate-icons.mjs" >/dev/null \
     || die "icon generation failed — see the errors above"
 }
 

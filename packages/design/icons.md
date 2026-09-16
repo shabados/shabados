@@ -1,7 +1,7 @@
 # Icons
 
 **THE source of truth for which glyph means what.** Edit the table, then run
-`node brand/scripts/generate-icons.mjs`. It emits `apps/ios/ShabadOS/AppIcons.swift`
+`node packages/design/scripts/generate-icons.mjs`. It emits `apps/ios/ShabadOS/AppIcons.swift`
 and `apps/android/app/src/main/java/com/shabados/android/AppIcons.kt`; never edit
 those, they are overwritten. `apps/build.sh` regenerates them every build.
 

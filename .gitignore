@@ -21,3 +21,6 @@ database/dist/
 
 # Bun's binary lockfile format; bun.lock (text) is committed instead.
 bun.lockb
+
+# Parallel worktrees for agents working on different branches at once.
+/.worktrees/

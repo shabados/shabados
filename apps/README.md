@@ -38,8 +38,8 @@ is **generated from one source** rather than written twice:
 
 | Source | Generator | Emits |
 | --- | --- | --- |
-| `brand/tokens.md` | `brand/scripts/generate-tokens.mjs` | `DesignTokens.swift`, `DesignTokens.kt`, `values/design_tokens.xml`, `values-night/design_tokens.xml` |
-| `brand/icons.md` | `brand/scripts/generate-icons.mjs` | `AppIcons.swift`, `AppIcons.kt` |
+| `packages/design/tokens.md` | `packages/design/scripts/generate-tokens.mjs` | `DesignTokens.swift`, `DesignTokens.kt`, `values/design_tokens.xml`, `values-night/design_tokens.xml` |
+| `packages/design/icons.md` | `packages/design/scripts/generate-icons.mjs` | `AppIcons.swift`, `AppIcons.kt` |
 | `database/collections` | `database/scripts/export-bundled-banis.ts` | `banis.json` into both apps |
 
 `apps/build.sh` runs all three, so a stale generated file cannot reach a build. Never
@@ -100,7 +100,7 @@ proven.
 **The icon generator fails the build on purpose.** An SF Symbol newer than
 `IPHONEOS_DEPLOYMENT_TARGET` renders as *nothing* — no error, no placeholder, a blank
 button in front of a congregation. Every symbol's minimum iOS version is recorded in
-`brand/icons.md` (verified against the system symbol database) and compared against
+`packages/design/icons.md` (verified against the system symbol database) and compared against
 the target read from the project file. It already caught one: `translate` is iOS 17.4
 against a 17.0 target, and now carries a fallback. Its two *warnings* — Android
 drawables not yet imported, Material Symbols names unverified — are work not done

@@ -44,6 +44,8 @@ database (database/ — 5.0.0-next; depends on gurmukhi-utils@3.x, the
 
 web (apps/web) — no internal package deps (Qwik site; talks to services)
 packages/sant-lipi (font) — consumed by presenter's themes
+packages/design (tokens.md, icons.md) — generates DesignTokens/AppIcons into
+          apps/ios, apps/android; apps/web does not consume it yet
 brand — assets only, not a code dependency
 
 apps/ios, apps/android — no code deps. Store-retention scaffolds: they bundle a

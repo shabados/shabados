@@ -9,7 +9,7 @@ and the gestures between them. What the text itself looks like is
 **Layer note.** This is **layer 1** — what must be observably true, on every
 platform ([ADR-0013](../architecture/decisions/0013-three-layers-of-specification.md)).
 It carries no gesture names, no icon names, and no framework names; those are
-[interaction.md](../interaction.md) and [`brand/icons.md`](../../brand/icons.md).
+[interaction.md](../interaction.md) and [`packages/design/icons.md`](../../packages/design/icons.md).
 
 **Scope note.** This is the app on every platform, not a mobile-only design
 ([ADR-0014](../architecture/decisions/0014-one-app-three-shells.md)). `apps/ios` and
