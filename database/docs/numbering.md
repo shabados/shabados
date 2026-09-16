@@ -247,6 +247,31 @@ the scribe wrote the whole stack out. Testing it — does a 4+ ending's last num
 that group's position in its section — holds for **52 of 95**, which supports the running
 -count reading for about half and leaves the rest unaccounted. Still open.
 
+## A composition signs itself
+
+The author of a line-group is recorded in its `author` field, and the heading names a
+`ਮਹਲਾ`. Where those read differently, a third source settles it: **the closing couplet
+carries a signature**.
+
+`6X4` opens `ਭੈਰਉ ਮਹਲਾ ੫ ॥` while its author is `KABI`. Its last lines read
+`ਕਹੁ ਕਬੀਰ; ਇਹੁ ਕੀਆ ਵਖਾਨਾ ॥` — so `KABI` is right, and the heading is the weaker signal.
+
+**Match the formula, not the name.** `ਕਹੁ` / `ਕਹੈ` / `ਕਹਿ` / `ਕਹਤ` / `ਭਨਤਿ` / `ਭਣਤਿ`
+followed by the name, in the closing couplet:
+
+| Matching | Agree | Differ |
+| --- | --- | --- |
+| the formula | 214 | **0** |
+| the bare name | 607 | 36 |
+
+The 36 are lines that *mention* a bhagat rather than being signed by one — M5's saloks
+addressing `ਕਬੀਰਾ` and `ਫਰੀਦਾ` within their collections, `ਪਰਮਾਨੰਦ` as an ordinary word,
+Ravidas naming other bhagats. The formula separates them cleanly.
+
+**One limit.** Every Guru signs as `ਨਾਨਕ`, so a `ਨਾਨਕ` signature says only "a Guru" and
+cannot say which. For the Gurus the heading's `ਮਹਲਾ` remains the only source; for the
+bhagats the signature is decisive.
+
 ## Line-groups that end without a number
 
 Every SGGS line-group whose last line carries no numbered ending — **52 of 5,549**.
