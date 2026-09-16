@@ -1,0 +1,26 @@
+description = "Point two Asa Ki Var references at the lines they name"
+issue = 27
+
+# ASKV.toml lists two line IDs that no line carries. Reported by sandhusimranjit,
+# who identified both replacements; the surrounding IDs confirm them.
+#
+# 1XXX sits between 9607 and W3RM. Line-group KKA reads NANK, 1XBX, W3RM, D11B —
+# and ASKV reads 9607, [1XXX], W3RM, D11B. 1XBX is the line at that position.
+#
+# SEXU sits between XX2Z and SS3G. Line-group ELT reads ANGD, BS7G, XX2Z, SEBU,
+# SS3G — and ASKV reads BS7G, XX2Z, [SEXU], SS3G. SEBU is the line at that position.
+#
+# This rewrites a reference only. No line's text changes and no line moves between
+# groups.
+
+[[realign]]
+file = "banis/ASKV.toml"
+from = "1XXX"
+to = "1XBX"
+why = "1XBX is the line between 9607 and W3RM, as line-group KKA holds them"
+
+[[realign]]
+file = "banis/ASKV.toml"
+from = "SEXU"
+to = "SEBU"
+why = "SEBU is the line between XX2Z and SS3G, as line-group ELT holds them"

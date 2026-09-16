@@ -74,3 +74,6 @@ data.tmp/
 
 # Generated types
 .types/
+
+# Local review output
+review.html
