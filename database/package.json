@@ -47,7 +47,8 @@
     "database:build-slices": "bun scripts/create-db-slices.ts",
     "database:export-bundled": "bun scripts/export-bundled-banis.ts",
     "database:view": "drizzle-kit studio",
-    "ci:full": "bun scripts/ci.ts --full"
+    "ci:full": "bun scripts/ci.ts --full",
+    "review": "bun scripts/review.ts"
   },
   "dependencies": {
     "drizzle-orm": "1.0.0-beta.1-fd5d1e8"
