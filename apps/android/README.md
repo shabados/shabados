@@ -1,7 +1,14 @@
 # Shabad OS — Android
 
-A deliberately minimal Nitnem reader. Its purpose is to keep the Play listing
-current while the real app is designed; it is **not** the target architecture.
+**This is the platform app.** It began 2026-09-01/02 as a store-retention
+scaffold — just enough to keep the Play listing current while the real app was
+designed. **Superseded 2026-09-04**: one app across three shells, mobile ships
+first ([ADR-0014](../../docs/architecture/decisions/0014-one-app-three-shells.md),
+[plan.md](../../docs/plan.md#step-1-in-detail--mobile)). Logic added here is no
+longer a liability to be minimised.
+
+See [`apps/README.md`](../README.md) for what both platforms share and how it is
+generated. This file is Android-specific.
 
 ```
 ./apps/build.sh android --run  # build, boot an emulator, install, launch
@@ -28,19 +35,17 @@ touch it.
 | Application id | `com.shabados.app` |
 | Display name | Shabad OS |
 | Icon | `brand/assets/lotus.svg`, via the legacy app's 1024px export |
-| Privacy policy | <https://www.shabados.com/privacy/> |
 | Data safety | **No data collected** — no permissions, no network, no SDKs |
 
-`com.shabados.app` was read from the legacy Expo app
-(`config/environment/config.latest.ts`); `com.shabados.next.app` was its beta
-channel. Changing it publishes a *new* app and forfeits the listing.
-
-Note the legacy app shipped **Sentry and PostHog**; this one ships neither, so the
-data-safety answers are a genuine reduction rather than a claim to defend.
-Telemetry remains undecided
-([ADR-0007](../../docs/architecture/decisions/0007-telemetry.md)).
+Where the application id came from, why changing it forfeits the listing, the
+Sentry/PostHog reduction, and telemetry's ADR status are the same on both platforms
+— see [`apps/README.md#store-identity`](../README.md#store-identity).
 
 ## Before submitting — still outstanding
+
+The signing and version-bump items are the same shape as
+[`apps/README.md`](../README.md#store-identity) on both platforms. The Android
+specifics:
 
 1. **Signing config** — release builds are unsigned as written.
 2. **Bump `versionCode`/`versionName`** past the published listing; `1` / `0.1.0`
@@ -55,10 +60,12 @@ Telemetry remains undecided
 ## Deliberately absent
 
 - **`packages/gurmukhi`**, so no transliteration. Consuming it needs NDK
-  cross-compilation for four ABIs — real FFI plumbing that this scaffold does not
-  need in order to publish.
-- **A shared core.** [ADR-0010](../../docs/architecture/decisions/0010-shared-core-across-platforms.md)
-  is Needs discussion; building one now would settle it by implementation.
+  cross-compilation for four ABIs — real FFI plumbing not done yet; see
+  [`apps/README.md#packagesgurmukhi-in-the-apps`](../README.md#packagesgurmukhi-in-the-apps)
+  for where the iOS side landed and what's left for this one.
+- **A shared core** — no session/search/navigation core on any platform yet
+  ([ADR-0010](../../docs/architecture/decisions/0010-shared-core-across-platforms.md)
+  Needs discussion; see [`apps/README.md`](../README.md#what-is-shared-and-how)).
 - **ProGuard/R8 shrinking.** There is nothing to shrink, and an unverified
   ProGuard config is how you ship a release build that crashes where debug does not.
 
@@ -68,9 +75,8 @@ Telemetry remains undecided
 `bun run database:export-bundled` from `database/`. Never hand-edit it; scripture
 corrections go through the database component's citation-backed review.
 
-`SantLipi-VF.ttf` is `v0.35.0`, downloaded unmodified from the SantLipi releases and
-matching this repo's font source version. OFL-1.1-RFN: bundling unmodified is fine,
-but the Reserved Font Name means any modified build must be renamed.
+Font version, licensing, and the rest of what's bundled and why:
+[`apps/README.md#generators`](../README.md#generators).
 
 ## Status
 

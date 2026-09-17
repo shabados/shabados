@@ -1,4 +1,4 @@
-# Mobile scaffolds — start here
+# Shabad OS apps — start here
 
 **These are the platform apps.** Superseded 2026-09-04: they began as scaffolds to
 keep the App Store and Play listings alive, and this file said they must not be grown
@@ -10,8 +10,12 @@ across three shells, and **mobile ships first**
 So logic added here is no longer a liability to be minimised, and `packages/gurmukhi`
 belongs in them rather than being kept out.
 
-Platform detail is in [ios/README.md](ios/README.md) and
-[android/README.md](android/README.md). This file is the shared story.
+**This file is the single copy of anything true of both platforms** — store
+identity, ADR status, what's generated and how, bundled-content licensing. Platform
+detail — build commands, toolchain traps, and each app's own state of play — is in
+[ios/README.md](ios/README.md) and [android/README.md](android/README.md), and
+those files point back here rather than restating anything below. If a fact belongs
+in both, it gets written once, here.
 
 ## Running
 
@@ -140,8 +144,9 @@ will be rejected on upload.
 Both apps build, install, and run. Verified working: bani list, reader, Sant Lipi
 rendering, light/dark, A−/A+ sizing.
 
-**`packages/gurmukhi` is wired into the Swift package and verified** — see
-[above](#packagesgurmukhi-in-the-apps). Not yet added to the Xcode project.
+**`packages/gurmukhi` is wired into the Swift package, added to the Xcode project,
+and verified** — see [above](#packagesgurmukhi-in-the-apps). In active use for pause
+colouring and both pronunciation schemes.
 
 **Unverified — written but never run:** focal-point pinch-to-zoom on both platforms
 (the most recent work). Watch for: whether the point under your fingers stays put,
