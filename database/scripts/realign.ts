@@ -81,7 +81,7 @@ for (const entry of manifest.realign) {
 
   await writeFile(file, source.replace(`"${entry.from}"`, `"${entry.to}"`))
   const message =
-    `db: point ${entry.file} at ${entry.to}\n\n${entry.why}\n\n` +
+    `data: point ${entry.file} at ${entry.to}\n\n${entry.why}\n\n` +
     `Manifest: database/migrations/${basename(path)}`
   await $`git commit --only -m ${message} -- ${file}`.quiet()
   consola.success(`committed`)

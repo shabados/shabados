@@ -162,13 +162,13 @@ if (!apply) {
   process.exit(0)
 }
 
-// A db: commit must contain corpus files and nothing else. `git commit` sweeps in
+// A data: commit must contain corpus files and nothing else. `git commit` sweeps in
 // whatever is already staged, so applying onto a dirty tree would quietly put
 // unrelated work into a corpus commit. Refuse rather than untangle it afterwards.
 const status = (await $`git status --porcelain`.text()).trim()
 if (status) {
   consola.error(
-    'Working tree is not clean. Commit or stash first — a db: commit must touch only the corpus.',
+    'Working tree is not clean. Commit or stash first — a data: commit must touch only the corpus.',
   )
   consola.log(status)
   process.exit(1)
@@ -225,8 +225,8 @@ for (const move of manifest.move) {
   // deletion; `git add` picks up the rest.
   await $`git add ${touched}`.quiet()
   const subject = emptied
-    ? `db: merge ${move.from} into ${move.to}`
-    : `db: move ${move.line} from ${move.from} to ${move.to}`
+    ? `data: merge ${move.from} into ${move.to}`
+    : `data: move ${move.line} from ${move.from} to ${move.to}`
   const retirement = emptied
     ? `\n\n${move.from} is now empty and is retired; see retired-ids.toml.`
     : ''

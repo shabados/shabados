@@ -1,0 +1,9 @@
+description = "Reorder bindi before bihari-shaped ਈ using Sant Lipi's VS1 workaround"
+issue = 16
+
+[[substitute]]
+source = "SGGS"
+subject = "replace adhak_bindi (u0A01) with bindi (u0A02)"
+from = "ਈਁ"
+to = "ਈਂ︀"
+why = "Sant Lipi's Bihari Nasals convention (packages/sant-lipi/README.md) reorders a bindi to render before a bihari-shaped stroke when the bindi is followed by VS1 (U+FE00). ਈ (U+0A08) carries that stroke but the font's ligature didn't recognise it, so the corpus carried the standalone adak bindi (U+0A01) in its place instead — the only 27 occurrences of that character in the corpus, all in SGGS primary text. BalkiratS identified and proposed this exact substitution in shabados/database#1922; see also shabados/shabados#16. The font-side gap is closed in packages/sant-lipi/sources/SantLipi.glyphs and verified against a locally rebuilt SantLipi-VF.woff2, but Sant Lipi hasn't been bumped or released with that fix yet — the published 0.35.0 and the copies vendored in apps/web and projects/library still show bindi after bihari until that release runs."

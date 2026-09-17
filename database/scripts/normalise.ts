@@ -26,7 +26,7 @@ import { type Article, type Block, page } from './lib/render'
 type Manifest = {
   description: string
   issue?: number
-  substitute: { source: string; from: string; to: string; why: string }[]
+  substitute: { source: string; from: string; to: string; why: string; subject?: string }[]
 }
 
 const [path] = process.argv.slice(2).filter((argument) => !argument.startsWith('--'))
@@ -127,8 +127,9 @@ for (const rule of manifest.substitute) {
   }
 
   await $`git add ${'./collections/lines'}`.quiet()
+  const subject = rule.subject ?? `normalise ${rule.source}`
   const message =
-    `db: normalise ${rule.source} line endings\n\n${rule.why}\n\n` +
+    `data: ${subject}\n\n${rule.why}\n\n` +
     `${edits.length} lines, ${occurrences} occurrences. Reversible by the inverse ` +
     `substitution.\n\nManifest: database/migrations/${basename(path)}`
   await $`git commit -m ${message}`.quiet()
