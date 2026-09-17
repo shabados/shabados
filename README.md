@@ -4,18 +4,6 @@ Shabad OS is free, open-source software built by and for the Sikh sangat — a p
 
 All Shabad OS development happens in this repo.
 
-## Packages
-
-| Path | Description | Published as | Docs |
-| --- | --- | --- | --- |
-| `apps/presenter` | Electron app that projects shabads onto screens/TVs in gurdwaras and live streams | — (desktop release) | [shabados.com/support](https://www.shabados.com/support/install-shabad-os-presenter/) |
-| `apps/web` | shabados.com marketing + reader site | — | — |
-| `apps/library` | Electron desktop reference/library app | — (desktop release) | — |
-| `packages/gurmukhi` | Rust core + bindings for converting, analyzing, and transliterating Gurmukhi text | [crates.io: `gurmukhi`](https://crates.io/crates/gurmukhi), [npm: `gurmukhi`](https://www.npmjs.com/package/gurmukhi), [PyPI: `gurmukhi`](https://pypi.org/project/gurmukhi/), [RubyGems: `gurmukhi`](https://rubygems.org/gems/gurmukhi), Gradle `com.shabados:gurmukhi`, SPM | [package README](packages/gurmukhi/README.md) |
-| `packages/sant-lipi` | Unicode Gurmukhi font | TBD | — |
-| `database` | Gurbani + Panthic text corpus (154k source JSON files) built into SQLite | [npm: `@shabados/database`](https://npmjs.org/package/@shabados/database) | [database docs](database/docs) |
-| `brand` | Logos and design assets | — | — |
-
 ## Getting started
 
 ```shell
