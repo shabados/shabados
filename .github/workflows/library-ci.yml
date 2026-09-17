@@ -3,7 +3,7 @@ name: CI (library)
 on:
   pull_request:
     paths:
-      - 'apps/library/**'
+      - 'projects/library/**'
       - 'package.json'
       - 'biome.json'
       - 'mise.toml'
@@ -11,7 +11,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'apps/library/**'
+      - 'projects/library/**'
       - 'package.json'
       - 'biome.json'
       - 'mise.toml'
@@ -22,7 +22,7 @@ jobs:
     name: Typecheck, build
     uses: ./.github/workflows/_ci.yml
     with:
-      working-directory: apps/library
+      working-directory: projects/library
       run: |
         # library has no top-level "lint" script today (electron-vite app; nothing to guard here)
 

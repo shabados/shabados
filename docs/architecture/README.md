@@ -6,12 +6,21 @@ undecided, see [`decisions/`](decisions/).
 
 ## Layout: flat taxonomy, wrappers only at ≥2 members
 
-Top level is `apps/`, `packages/`, `database/`, `brand/` — no deeper grouping
-wrapper (no `apps/desktop/presenter`, no `packages/rust/gurmukhi`) unless a
-category has ≥2 members that need telling apart at a glance. `database/` and
+Top level is `apps/`, `packages/`, `database/`, `brand/`, `projects/` — no deeper
+grouping wrapper (no `apps/desktop/presenter`, no `packages/rust/gurmukhi`) unless
+a category has ≥2 members that need telling apart at a glance. `database/` and
 `brand/` have no siblings, so they sit at root rather than inside an invented
 `data/` or `assets/`. Add the wrapper the day a second member arrives — a wrapper
 around one thing is pure indirection.
+
+**`apps/` vs `projects/`** ([ADR-0015](decisions/0015-apps-vs-projects.md)):
+`apps/` is the Shabad OS product's shells only — `presenter`, `ios`, `android`,
+`web` — sharing `packages/design`, `packages/gurmukhi`, and `docs/requirements/`.
+`projects/` holds standalone tools that support the work without being a shell of
+the product — today just `library`, an Electron app for dewarping scanned pages
+that the `database` component's review process uses. Don't confuse it with
+[ADR-0012](decisions/0012-journeys-replace-viewing-history.md)'s "Library" feature
+inside the product itself; same word, unrelated.
 
 **`apps/presenter` is the exception, deliberately.** The migration imported each
 repo's default branch, and presenter's `main` is still its pre-rewrite v2 layout:
@@ -48,10 +57,13 @@ packages/design (tokens.md, icons.md) — generates DesignTokens/AppIcons into
           apps/ios, apps/android; apps/web does not consume it yet
 brand — assets only, not a code dependency
 
-apps/ios, apps/android — no code deps. Store-retention scaffolds: they bundle a
+apps/ios, apps/android — platform apps, not scaffolds (ADR-0014). They bundle a
   generated corpus slice (database/scripts/export-bundled-banis.ts) and the
-  released Sant Lipi font, and deliberately consume neither packages/gurmukhi nor
-  a shared core while ADR-0010 is undecided.
+  released Sant Lipi font; iOS consumes packages/gurmukhi directly (Swift package,
+  no FFI shim). Neither has a shared core to consume — ADR-0010 is undecided.
+
+projects/library (apps/library until ADR-0015) — Electron desktop tool for
+  dewarping scanned pages; no deps on anything above.
 ```
 
 External chain: `gurmukhi` → `database` → `api` → `sdk`/`mobile`. Everything left
@@ -84,7 +96,8 @@ convention TBD).
 Root `postinstall` orchestrates these so a fresh `bun install` leaves every
 bun-workspace consumer with working artifacts. `apps/presenter` is outside that
 orchestration and gets its dependencies from npm like any external consumer, as are
-`apps/ios` (Xcode) and `apps/android` (Gradle), which are not JS projects at all.
+`apps/ios` (Xcode) and `apps/android` (Gradle), which are not JS projects at all,
+and `projects/library`, which manages its own npm install like `apps/presenter`.
 
 `database`'s build has two modes once orchestration lands: **fetch-prebuilt**
 (default — download the released SQLite artifact; fast, no Rust/Drizzle toolchain,

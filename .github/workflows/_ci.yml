@@ -45,9 +45,9 @@ jobs:
 
       - uses: jdx/mise-action@v4
 
-      # bun workspace root (apps/web, apps/library, packages/gurmukhi/bindings/javascript,
+      # bun workspace root (apps/web, projects/library, packages/gurmukhi/bindings/javascript,
       # database) — install must run at repo root for workspace resolution, not per-area.
-      # --ignore-scripts: apps/library's postinstall (electron-builder install-app-deps)
+      # --ignore-scripts: projects/library's postinstall (electron-builder install-app-deps)
       # fails under hoisting until its electron pin is fixed — drop this flag once that
       # library PR lands. Typecheck/lint don't need lifecycle scripts.
       - name: Install dependencies

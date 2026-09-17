@@ -6,7 +6,7 @@
       "release-type": "node",
       "component": "presenter"
     },
-    "apps/library": {
+    "projects/library": {
       "release-type": "node",
       "component": "library"
     },

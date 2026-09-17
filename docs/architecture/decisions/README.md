@@ -25,6 +25,7 @@ decision recommended, awaiting sign-off) · **Accepted** (build against it).
 | [0012](0012-journeys-replace-viewing-history.md) | Tabs, journeys, and a Library replace viewing history | Accepted | The browser model: tabs carry their entry container, journeys are sessions with a timeline, the Library is the catalogue. |
 | [0013](0013-three-layers-of-specification.md) | Three layers of specification, split by lifetime | Accepted | Requirements stay platform-neutral; icon/gesture mappings are generated data; principles stay in CLAUDE.md. |
 | [0014](0014-one-app-three-shells.md) | One app, three shells | Accepted | Swift, Kotlin, and a web codebase in OS webviews. No Electron. D-pad is the input constraint; the web server is core. |
+| [0015](0015-apps-vs-projects.md) | `apps/` holds the product's shells; `projects/` holds everything else | Accepted | `apps/library` → `projects/library`; a tool the corpus review depends on, not a shell of Shabad OS. |
 
 Related: [presenter-capabilities.md](../../presenter-capabilities.md) — what v2
 does today, the input these decisions were made against.

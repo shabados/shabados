@@ -5,7 +5,7 @@
   "packageManager": "bun@1.2.13",
   "workspaces": [
     "apps/web",
-    "apps/library",
+    "projects/library",
     "packages/gurmukhi/bindings/javascript",
     "database"
   ],
