@@ -38,23 +38,27 @@ congregation. It has already caught one, `translate`, which is 17.4.
 | --- | --- | --- | --- | --- | --- |
 | journeys | `route` | `point.bottomleft.forward.to.point.topright.scurvepath` | 17.0 | `conversion_path` |  |
 | journeysActive | `route` | `point.bottomleft.forward.to.point.topright.scurvepath.fill` | 17.0 | `conversion_path` |  |
-| controls | `sliders-horizontal` | `slider.horizontal.2.square` | 17.0 | `page_info` | **yes** |
-| controlsActive | `sliders-horizontal` | `slider.horizontal.3` | 13.0 | `tune` | **yes** |
+| controls | `settings-2` | `slider.horizontal.2.square` | 17.0 | `page_info` | **yes** |
+| controlsActive | `settings-2` | `slider.horizontal.3` | 13.0 | `tune` | **yes** |
+| fullscreen | `maximize-2` | `arrow.up.left.and.arrow.down.right` | 13.0 | `open_in_full` |  |
+| fullscreenActive | `minimize-2` | `arrow.down.right.and.arrow.up.left` | 13.0 | `close_fullscreen` |  |
 | zoom | `zoom-in` | `plus.magnifyingglass` | 13.0 | `zoom_in` |  |
 | ratio | `a-large-small` | `textformat.size` | 13.0 | `format_size` |  |
-| weight | `bold` | `lineweight` | 14.0 | `line_weight` |  |
-| width | `move-horizontal` | `arrow.left.and.right` | 13.0 | `width_normal` |  |
-| mode | `glasses` | `eyeglasses` | 13.0 | `eyeglasses` |  |
+| weight | `weight` | `lineweight` | 14.0 | `line_weight` |  |
+| width | `unfold-horizontal` | `arrow.left.and.right` | 13.0 | `width_normal` |  |
+| mode | `book-text` | `eyeglasses` | 13.0 | `eyeglasses` |  |
 | centered | `align-center` | `text.aligncenter` | 13.0 | `format_align_center` |  |
-| continuous | `space` | `space` | 16.0 | `space_bar` |  |
+| continuous | `whole-word` | `space` | 16.0 | `space_bar` |  |
 | pauses | `pause` | `pause.fill` | 13.0 | `pause` |  |
-| pronunciations | `audio-lines` | `person.wave.2` | 15.0 | `record_voice_over` |  |
+| pronunciations | `speech` | `person.wave.2` | 15.0 | `record_voice_over` |  |
 | translations | `languages` | `translate` | 17.4 | `translate` |  |
-| appearance | `moon` | `sleep` | 14.0 | `bedtime` |  |
+| notes | `panel-top` | `pad.header` | 26.0 | `toolbar` |  |
+| slideshow | `tv-2` | `tv` | 13.0 | `tv` |  |
+| appearance | `eclipse` | `sleep` | 14.0 | `bedtime` |  |
 | filter | `list-filter` | `line.3.horizontal.decrease` | 15.0 | `filter_list` |  |
 | disclosure | `chevron-right` | `chevron.forward` | 14.0 | `chevron_right` |  |
-| collections | `library-big` | `books.vertical` | 14.0 | `library_books` |  |
-| about | `info` | `info.circle` | 13.0 | `info` |  |
+| library | `library-big` | `books.vertical` | 14.0 | `library_books` |  |
+| about | `badge-info` | `info.circle` | 13.0 | `info` |  |
 | search | `search` | `magnifyingglass` | 13.0 | `search` |  |
 | pin | `pin` | `pin` | 13.0 | `keep` |  |
 | pinned | `pin` | `pin.fill` | 13.0 | `keep` |  |
@@ -78,6 +82,8 @@ congregation. It has already caught one, `translate`, which is 17.4.
 | journeysActive | Journeys sidebar is open; tapping returns to the viewer. Same shape, filled. |
 | controls | Open the Controls sidebar. |
 | controlsActive | Controls sidebar is open. PROPOSED, as above. |
+| fullscreen | Enter fullscreen. PROPOSED. |
+| fullscreenActive | Exit fullscreen. Unlike journeysActive/controlsActive this is a distinct Lucide glyph, not the same shape filled — Lucide has no fullscreen fill variant. PROPOSED. |
 | zoom | Font size of the reading area. Specified by the author. |
 | ratio | Secondary text size relative to the Gurmukhi line. Specified by the author. |
 | weight | Font weight. Specified by the author. |
@@ -88,10 +94,12 @@ congregation. It has already caught one, `translate`, which is 17.4.
 | pauses | Colour vishraam words. Specified by the author. |
 | pronunciations | Transliteration schemes, computed by packages/gurmukhi. Specified by the author. |
 | translations | Translation languages. Specified by the author. |
+| notes | Toggle a line-notes panel in Controls. PROPOSED. |
+| slideshow | Choose a full-screen card — Blank, Waheguru, Fateh, Mul Mantar, Bole So Nihal — to display over the text. PROPOSED. |
 | appearance | Light / dark / auto. Specified by the author. |
 | filter | Filter in All recents: All / Pinned / Recent / Inactive. PROPOSED. |
 | disclosure | Trailing chevron on the All recents row. PROPOSED. |
-| collections | The Collections row, pinned below Recents. PROPOSED — destination undefined. |
+| library | Open the Library — collections, bookmarks, assets and their tables of contents. Pinned below Recents in the Journeys sidebar. Specified by the author ([library.md](../../docs/requirements/library.md), [reading-shell.md](../../docs/requirements/reading-shell.md#getting-between-them)). |
 | about | About Shabad OS — links, social, feedback. PROPOSED. |
 | search | Search. PROPOSED — the shell has no specified entry point yet. |
 | pin | Pin a journey. PROPOSED. |
