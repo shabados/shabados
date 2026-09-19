@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹੀ ਪੀਤ ਬਾਨਾ ਸਯੰਕਾਲ ਧਾਰ︀ਯੋ ॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You, yourself, put on yellow garments, but You dislodge the ascetics"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਪੀਲੇ ਬਸਤ੍ਰ ਧਾਰਨ ਕਰਨ ਵਾਲੀ ਤ੍ਰਿਕਾਲ ਰੂਪ ਹੈਂ"

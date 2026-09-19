@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ; ਤਾ ਕਉ. ਲਗੈ ਨ ਪੀਰ ॥"
 page = 361
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He who becomes resigned to Guru's will, him no pain afflicts."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਗੁਰੂ-ਅਨੁਸਾਰੀ ਹੋ ਜਾਂਦਾ ਹੈ, ਉਸ ਨੂੰ ਕੋਈ ਪੀੜ ਦੁਖਿਤ ਨਹੀਂ ਕਰਦੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Gurmukh is not afflicted by pain."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਗੁਰਮੁਖਿ ਹੈਂ ਤਿਨ ਕੋ (ਪੀਰ) ਦੁਖ ਨਹੀਂ ਲਗਤਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਦੀ ਸਰਨ ਪੈਣ ਕਰਕੇ ਉਸ ਨੂੰ ਕੋਈ ਦੁੱਖ ਪੋਹ ਨਹੀਂ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੁਰਮੁਖਿ = ਗੁਰੂ ਦੀ ਸਰਨ ਪਿਆਂ। ਤਾ ਕਉ = ਉਸ (ਮਨੁੱਖ) ਨੂੰ। ਪੀਰ = ਪੀੜ, ਦੁੱਖ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sí, aquél que entona su mirada hacia el Guru, deja de sufrir"

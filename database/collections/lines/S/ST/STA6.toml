@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਸੇਖ ਪੂਰ ਕੀਰਤਿ ਲੈ ॥੭॥"
 page = 171
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He then asked him to give only two and a half steps of the earth  and accept the special eulogy.7."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਦੇ ਫਲ ਵਜੋਂ) ਹੇ ਰਾਜਨ! ਵਿਸ਼ੇਸ਼ ਯਸ਼ ਅਰਜਿਤ ਕਰ ॥੭॥"

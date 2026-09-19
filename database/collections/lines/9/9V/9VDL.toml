@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਰਥੀ ਅਨਗਨਤ ਸੰਘਾਰਸਿ ॥੮੭॥"
 page = 875
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਣਗਿਣਤ ਮਹਾ ਰਥੀ ਮਾਰ ਦਿੱਤੇ ॥੮੭॥"

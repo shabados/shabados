@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੇ ਬਾਜ ਹੇਰੈ, ਮਹਾ ਤਾਪ ਤੈ ਕੈ ॥੮॥"
 page = 985
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਵੇਖ ਕੇ (ਯੋਧੇ) ਬਹੁਤ ਤੇਜ਼ੀ ਨਾਲ ਘੋੜਿਆਂ ਸਹਿਤ ਭਜੀ ਜਾਂਦੇ ਹਨ ॥੮॥"

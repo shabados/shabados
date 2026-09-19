@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਬੋਲ ਅਰਬ ਅਤੇ ਈਰਾਨ ਲਈ ਸੁਗੰਧ ਭਰਪੂਰ ਹਨ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਮਕਾਲਿਸ਼ ਰਿਆਹੁਲ-ਅਜ਼ਮ ਵਲ-ਅਰਬ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "His words and messages are full of fragrance for the Arab and Iran regions, and"

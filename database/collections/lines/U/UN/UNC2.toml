@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਜੂ; ਰਾਖਿ ਲੇਹੁ ਪਤਿ ਮੇਰੀ ॥"
 page = 703
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O adorable God, preserve Thou my honour."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪੂਜਨੀਯ ਵਾਹਿਗੁਰੂ! ਤੂੰ ਮੇਰੀ ਪਤਿ ਰੱਖ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Dear Lord, please, save my honor!"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਹਰੀ ਜੀ! ਮੇਰੀ ਪਤ ਰਾਖ ਲੀਜੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ ਜੀ! ਮੇਰੀ ਇੱਜ਼ਤ ਰੱਖ ਲਵੋ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਰਿ ਜੂ = ਹੇ ਪ੍ਰਭੂ ਜੀ! ਪਤਿ = ਇੱਜ਼ਤ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Dios, salva mi Honor; me aterroriza la muerte en mi corazón."

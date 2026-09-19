@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਤੁਪਕ ਕੇ ਹੋਤ ਹੈ; ਲੀਜਹੁ ਚਤੁਰ, ਬਿਚਾਰ ॥੫੪੪॥"
 page = 742
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Rathani” and then uttering “Ripu Art” at the end, the names of Tupak are formed.544."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਤੁਪਕ ਦਾ ਨਾਮ ਬਣ ਜਾਏਗਾ। ਸੂਝਵਾਨੋ! ਵਿਚਾਰ ਕਰ ਲਵੋ ॥੫੪੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੜੈ ਕਾਕਣੀਯੰ ॥੨੯॥"
 page = 181
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The vampires are pleased and the horses etc, are rolling in dust.29."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਗਿਰਝਾਂ ਬੋਲ ਰਹੀਆਂ ਸਨ ॥੨੯॥"

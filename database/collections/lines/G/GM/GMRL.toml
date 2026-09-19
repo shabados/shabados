@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹ ਹਣਯੋ ਸੀਸ ਕਿਨੋ ਦੁਫਾਰ ॥"
 page = 254
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the benevolent Lakshman stuck his sharp-edged sword and chopped the demon into two halves."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਸਿਰ ਦੇ ਦੋ ਟੁਕੜੇ ਕਰ ਦਿੱਤੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹੀ ਘਨ ਸਾਵਨ ਜ︀ਯੋ ਬਰਖਿਯੋ ॥੨੫॥"
 page = 970
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sage was gratified, and the rain started to pour like it did in the month of Saawan.(25}"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤਦੋਂ ਸਾਵਣ ਵਰਗੇ ਬਦਲ ਵਰ੍ਹਨ ਲਗ ਗਏ ॥੨੫॥"

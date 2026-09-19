@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਘਰ ਸੂਰ ਸਿੰਘਨ ਭੇਸ ॥੫੫੪॥"
 page = 258
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With garbs like lions the warriors are highly infuriated and their hair have loosened.554."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ੇਰਾਂ ਦੇ ਰੂਪ ਵਿੱਚ ਸੂਰਮੇ ਜੰਗ ਕਰਦੇ ਹਨ ॥੫੫੪॥"

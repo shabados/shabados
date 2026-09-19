@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਜੀਪੁਰ ਕੋ ਮਾਝ ਸੁ; ਤੇ ਦੋਊ ਰਹਹਿ ॥"
 page = 861
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They used to live in Ghazipur."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗਾਜ਼ੀਪੁਰ ਵਿਚ ਦੋਵੇਂ ਰਹਿੰਦੇ ਸਨ।"

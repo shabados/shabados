@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਾਥਿ ਦੀਪਕੁ ਲੈ ਮਹਾ ਪਸੁ; ਮਧਿ ਕੂਪ ਪਰੰਤ ॥੫੯॥"
 page = 619
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In such a position he falls in the well, even having the lamp in his hand.59."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੱਥ ਵਿਚ ਦੀਪਕ ਲੈ ਕੇ ਵੀ ਉਹ ਮੂਰਖ ਖੂਹ ਵਿਚ ਡਿਗਦੇ ਹਨ ॥੫੯॥"

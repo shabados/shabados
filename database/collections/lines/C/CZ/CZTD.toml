@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਜ਼ਾਰਤ ਖ਼ੁਦਸ਼ ਰਾ ਤੁਰਾ ਮੇ ਦਿਹਮ ॥"
 page = 1420
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I hand over to you my ministerial affairs,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੈਨੂੰ ਆਪਣੀ ਵਜ਼ੀਰੀ ਦਿੰਦਾ ਹਾਂ"

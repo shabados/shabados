@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਇਕ ਰਾਠ ਮਹੋਬੇ ਰਹੈ ॥"
 page = 888
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A Rajput used to’ live in Mahobe city."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਰਾਜਪੂਤ ਰਾਠ ਮਹੋਬੇ ਵਿਚ ਰਹਿੰਦਾ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਕਾਮਾ ਲੋਟਤ ਧਰਨਿ; ਮਾਧਵਨਲ ਕੇ ਹੇਤ ॥"
 page = 921
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The separation of Madhwan made her to roll over on the ground,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਧਵਾਨਲ ਦੇ ਹਿਤ ਲਈ ਕਾਮਕੰਦਲਾ ਧਰਤੀ ਉਤੇ ਲੋਟ ਪੋਟ ਹੋ ਰਹੀ ਹੈ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਭਕੰਤ ਘਾਇ ॥"
 page = 103
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Mother (goddess) challenges and the wounds bust."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜ਼ਖਮਾਂ (ਵਿਚੋਂ ਲਹੂ) ਬਘ-ਬਘ ਕਰ ਕੇ ਨਿਕਲ ਰਿਹਾ ਸੀ।"

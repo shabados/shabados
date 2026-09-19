@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਜਨਮ ਜਾਤ, ਨਹੀਂ ਭਰਮ ਭੇਖ ॥੪॥੧੨੪॥"
 page = 29
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which is without is without birth caste illusion and guise! 4. 124"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਨਮ, ਜਾਤਿ ਅਤੇ ਭੇਖ ਦਾ ਕੋਈ ਭਰਮ ਨਹੀਂ ਹੈ ॥੪॥੧੨੪॥"

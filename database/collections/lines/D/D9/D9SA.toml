@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਂਦੀ ਚੰਡਿ ਚੜਾਈ; ਉਤੇ ਰਾਕਸਾ ॥੨੫॥"
 page = 123
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They caused the goddess Chandi to wage war with demons.25."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ) ਰਾਖਸ਼ਾਂ ਉਤੇ ਚੰਡੀ ਚੜ੍ਹਾ ਲਿਆਂਦੀ ॥੨੫॥"

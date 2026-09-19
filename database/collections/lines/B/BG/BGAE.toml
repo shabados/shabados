@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਲਭਦ੍ਰ ਭ੍ਰਾਤਨਿਨਿ ਆਦਿ ਉਚਾਰੋ ॥"
 page = 765
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਬਲਭਦ੍ਰ ਭ੍ਰਾਤਨਿਨਿ' (ਸ਼ਬਦ) ਉਚਾਰਨ ਕਰੋ।"

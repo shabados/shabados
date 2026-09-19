@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਜਾਰ ਸੁਨਾ ਨਯੋ; ਤਿਹ ਡਾਰੀਐ ਅਬਿਚਾਰ ॥"
 page = 690
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਹੋਰ ਨਵਾਂ ਜਾਲ ਸੁਣਿਆ ਹੈ, ਉਸ ਨੂੰ ਬਿਨਾ ਵਿਚਾਰੇ ਪਾਣਾ ਚਾਹੀਦਾ ਹੈ।"

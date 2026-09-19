@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਹੂ ਕਹ ਪਾਹਨ ਮਹਿ; ਬ੍ਰਹਮ ਬਤਾਤ ਹੈ ॥"
 page = 1197
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ ਨੂੰ (ਤੂੰ) ਪੱਥਰ ਵਿਚ ਪਰਮਾਤਮਾ ਦਸਦਾ ਹੈਂ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੇਸਰ ਚੀਰ ਬਨਾਇ ਸਰੀਰ; ਗੁਲਾਬ ਅੰਬੀਰ ਗੁਲਾਲ ਉਡਾਈ ॥"
 page = 389
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They have worn the red garments and have begun to bleach others with the colours"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਰੀਰ ਦੇ ਬਸਤ੍ਰ ਕੇਸਰੀ ਰੰਗ ਦੇ ਬਣਾਏ ਹੋਏ ਹਨ ਅਤੇ ਗੁਲਾਬ (ਦਾ ਅਰਕ) ਅਲਤਾ ਅਤੇ ਗੁਲਾਲ ਉਡਾਉਂਦੀਆਂ ਹਨ।"

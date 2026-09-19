@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸੇਖ ਨਰਕਿ ਜੈ ਹੈ ॥੩੯॥"
 page = 555
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They will not remember the Name of the Lord and such persons will specially be sent to hell.39."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸ਼ੇਸ਼ ਤੌਰ ਤੇ ਨਰਕ ਵਿਚ ਜਾਣਗੇ ॥੩੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤਿ ਦੈਤ ਬਧਹ ॥"
 page = 385
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "End of the killing of the demon."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਥੇ ਦੈਂਤ ਦਾ ਬੱਧ ਸਮਾਪਤ ॥"

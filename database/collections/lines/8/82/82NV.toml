@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾ ਕੋ ਨਾਮੁ ਲੈਤ; ਤੂ ਸੁਖੀ ॥"
 page = 617
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "And repeating whose Name thou shalt ever be at peace."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਨਾਮ ਜੱਪਣ ਦੁਆਰਾ ਤੂੰ ਸੁਖਾਲਾ ਹੋਵੇਗਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Chanting His Name, you shall be at peace."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਜੀਵ! ਜਿਸ ਕੇ ਨਾਮ ਲੈਣੇ ਸੇ ਤੂੰ ਸੁਖੀ ਹੋਵੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਸਿਮਰਿਆਂ ਤੂੰ ਸੁਖੀ ਹੋ ਸਕਦਾ ਹੈਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੋ = ਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Recita el Nombre por el que uno está siempre en Paz,"

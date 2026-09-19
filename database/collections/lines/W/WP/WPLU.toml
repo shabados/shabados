@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਕਰਮ ਹੈ ਨ ਧਰਮ ਹੈ; ਅਜਨਮ ਹੈ ਅਭੇਖ ਹੈ ॥੧੦॥੧੭੦॥"
 page = 32
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is actionless, religionless, birthless and guiseless. 10.170."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਨਾ ਕਰਮ ਹੈ, ਨਾ ਧਰਮ ਹੈ, (ਉਹ) ਅਜਨਮਾ ਅਤੇ ਭੇਖ ਤੋਂ ਰਹਿਤ ਹੈ ॥੧੦॥੧੭੦॥"

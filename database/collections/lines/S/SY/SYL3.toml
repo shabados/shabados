@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਨਿਰੰਕਾਰੁ ਆਕਾਰੁ ਕਰਿ; ਜੋਤਿ ਸਰੂਪੁ ਅਨੂਪ ਦਿਖਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The formless Lord has been beholden in the form of the light (in Guru Nanak and other Gurus)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਨਿਰੰਕਾਰ ਨਿਰਗੁਣ ਪਰਮਾਤਮਾ ਨੇ ('ਅਕਾਰ' ਪੰਜ-ਭੋਤਕ) ਦੇਹ ਕਰ ਕੇ ਆਪਣਾ ਜੋਤਿਮਯ ਅਨੂਪਮ ਰੂਪ (ਉਸ ਵਿਖੇ) ਪ੍ਰਗਟ ਕੀਤਾ ਹੈ।"

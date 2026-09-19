@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਲੇ ਮੁਖ ਬਿਭੂਤੰ ਸੁ ਲੰਗੋਟ ਬਾਧੇ ॥"
 page = 678
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The practising Yogis, smeared with ashes and wearing lion-cloth and all sages resided there peacefully"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਿਸ ਨੇ ਮੁਖ ਉਤੇ ਵਿਭੂਤੀ ਮਲੀ ਹੋਈ ਸੀ ਅਤੇ ਲੰਗੋਟ ਬੰਨ੍ਹਿਆ ਹੋਇਆ ਸੀ।"

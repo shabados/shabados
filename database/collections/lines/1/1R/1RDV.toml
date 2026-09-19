@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਪ੍ਰੀਤ ਪ੍ਰੀਤੇ ॥"
 page = 4
 line = 12
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to Thee O Love Lord!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰੇਮਾਂ ਦੇ ਪ੍ਰੇਮ (ਪ੍ਰੀਤਵਾਨਾਂ ਦੇ ਪ੍ਰੀਤਵਾਨ)! (ਤੈਨੂੰ) ਨਮਸਕਾਰ ਹੈ;"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਨਮੋ, ਪ੍ਰੀਤ ਪ੍ਰੀਤੇ ॥"

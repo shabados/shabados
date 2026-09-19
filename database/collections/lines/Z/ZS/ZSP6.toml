@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀਤਾ ਸੋ ਰਘੁਨਾਥਨ ਵੈਸੀ ॥੪॥"
 page = 967
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The love of both of them was epitome of the love of (legendary) Sita and Rama.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੋ ਜਿਹੀ ਸੀਤਾ ਅਤੇ ਰਾਮ ਦੀ ਸੀ ॥੪॥"

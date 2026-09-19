@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅੜਕਤੁਆ ਅੜੰਗੰ ॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the one to resist among the resistant"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੜਿਕਿਆਂ ਵਿਚ ਤੂੰ ਅੜਨ ਵਾਲਾ ਹੈਂ,"

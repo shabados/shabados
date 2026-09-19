@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੰਬੋਜੇ ਕਾਸਕਾਰੀ ਕੈ ॥੫੨੬॥"
 page = 604
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Before him, the beauty of the women of Kamroop with bewitching eyes and the charm of Kamboj country is devoid of radiance.526."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਕਾਸਕਾਰੀ ਦੇ ਕੰਬੋਜ ਹਨ ॥੫੨੬॥"

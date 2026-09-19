@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜਾ ਰਨਥੰਭੌਰ ਕੋ; ਜਾ ਕੋ ਪ੍ਰਬਲ ਪ੍ਰਤਾਪ ॥"
 page = 884
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja Ranthambhaur was very auspicious ruler."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਨਥੰਭੌਰ ਦਾ ਬੜੇ ਪ੍ਰਤਾਪ ਵਾਲਾ ਰਾਜਾ ਸੀ"

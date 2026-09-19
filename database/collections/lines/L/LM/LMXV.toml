@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰਨ ਹੇਤ ਸੁਤਹਿ ਲੈ ਗਯੋ ॥"
 page = 814
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing this the Raja flew into rage and took his son to kill him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਾਰਨ ਲਈ ਪੁੱਤਰ ਨੂੰ ਲੈ ਗਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਰਮਾਨ ਸੰਗ ਭੇਟਾ ਭਯੋ ॥"
 page = 888
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Once, when he went to’ rob, he came across a warrior."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ) ਉਸ ਦਾ ਸੂਰਮਿਆਂ ਨਾਲ ਟਾਕਰਾ ਹੋ ਗਿਆ।"

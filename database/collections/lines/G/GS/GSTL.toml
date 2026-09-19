@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਨਾ ਜੰਗ ਕਰਦੰਦ ਆਂ ਮੁਲਕ ਰਾ ॥"
 page = 1421
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The worn-torn country was left like,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੰਗ ਕਰ ਕੇ ਮੁਲਕ ਦੀ ਹਾਲਤ ਅਜਿਹੀ ਕਰ ਦਿੱਤੀ"

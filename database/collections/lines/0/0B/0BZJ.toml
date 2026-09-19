@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਗਲ ਭਗਤ; ਜਾ ਕੀ ਕਰਦੇ ਸੇਵਾ ॥"
 page = 1078
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "whose service all the devotes perform,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਟਹਿਲ ਸਾਰੇ ਹੀ ਸ਼ਰਧਾਲੂ ਕਮਾਉਂਦੇ ਹਨ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All the devotees serve Him."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਭਗਤ ਜਿਸ ਕੀ ਸੇਵਾ ਕਰਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਹੀ ਭਗਤ ਜਿਸ ਪ੍ਰਭੂ ਦੀ ਸੇਵਾ-ਭਗਤੀ ਕਰਦੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਾ ਕੀ = ਜਿਸ (ਪ੍ਰਭੂ) ਦੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Todos los Devotos Le sirven. Él es el Maestro de quien no tiene ninguno y el Destructor de las penas del pobre."

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਵ ਆਵ ਸੁਭਾਵ ਸੋ ਕਹਿ; ਲੀਨ ਕੰਠ ਲਗਾਇ ॥"
 page = 683
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They all came and bowed at the feet of the Sovereign, who welcomed them all and hugged them"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਭ ਨੂੰ ਰਾਜੇ ਨੇ) ਸਹਿਜ ਸੁਭਾਵਿਕ ਆਉ ਆਉ ਕਹਿ ਕੇ ਗਲ ਨਾਲ ਲਗਾ ਲਿਆ ਹੈ।"

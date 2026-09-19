@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਾਰ ਸਹਿਤ ਮੈ ਸੋ ਗਹਯੋ; ਗੋਦ ਲਾਜ ਤੇ ਡਾਰਿ ॥"
 page = 863
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘To save myself from embarrassment I tied down some dust."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੋਂ ਸ਼ਰਮ ਦੇ ਮਾਰੇ ਮੈਂ ਸੁਆਹ ਨਾਲ ਗੋਦ ਭਰ ਲਈ।"

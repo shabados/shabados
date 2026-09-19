@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਿਸ ਦਾ. ਅੰਤੁ ਨ ਪਾਈਐ ਪਾਰਾਵਾਰਾ ॥"
 page = 1055
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "His limit and this and that end can be found not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਓੜਕ ਅਤੇ ਇਹ ਤੇ ਓਹ ਕਿਨਾਰਾ ਪਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He has no end or limitation."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਕੇ ਪਾਰ ਉਰਾਰ ਕਾ ਅੰਤ ਨਹੀਂ ਪਾਈਤਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਦੇ ਗੁਣਾਂ) ਦਾ ਅੰਤ ਨਹੀਂ ਪਾਇਆ ਜਾ ਸਕਦਾ, (ਉਸ ਦੀ ਹਸਤੀ) ਦਾ ਉਰਲਾ ਪਾਰਲਾ ਬੰਨਾ ਲੱਭਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਾਰਾਵਾਰਾ = ਪਾਰ-ਅਵਾਰ, ਪਾਰਲਾ ਉਰਲਾ ਬੰਨਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y Cuyos Límites y Umbrales nadie conoce."

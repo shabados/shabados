@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭਰਮੁ ਮੋਹੁ ਸਗਲ ਬਿਨਸਾਇਆ ॥੪॥੨੦॥੭੧॥"
 page = 388
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My doubt and worldly attachment are all obliterated."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰਾ ਸੰਦੇਹ ਅਤੇ ਸੰਸਾਰੀ ਮਮਤਾ ਸਭ ਨਾਸ ਹੋ ਗਏ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "My doubts and attachments have been totally obliterated. ||4||20||71||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਨੋਂ ਨੇ (ਮੋਹੁ) ਅਗ੍ਯਾਨ ਜਾਨਤ ਸਗਲੇ ਭ੍ਰਮੋਂ ਕਾ ਨਾਸ ਕਰਾਇਆ ਹੈ॥੪॥੨੦॥੭੧॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਅੰਦਰੋਂ (ਮਾਇਆ ਦੀ ਖ਼ਾਤਰ) ਭਟਕਣਾ ਦੂਰ ਹੋ ਜਾਂਦੀ ਹੈ (ਉਸ ਦੇ ਮਨ ਵਿਚੋਂ ਮਾਇਆ ਦਾ) ਸਾਰਾ ਮੋਹ ਦੂਰ ਹੋ ਜਾਂਦਾ ਹੈ ॥੪॥੨੦॥੭੧॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਭਰਮੁ = ਮਾਇਆ ਦੀ ਭਟਕਣਾ। ਸਗਲ = ਸਾਰਾ ॥੪॥੨੦॥੭੧॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y mis dudas y apegos han terminado. (4-20-71)"

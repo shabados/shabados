@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਏਕ ਗੰਧ੍ਰਬ ਸਿਉ ਜੁਧ ਮਚ︀ਯੋ ॥"
 page = 147
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "At that time a war was waged with a Gandharva."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਇਕ ਗੰਧਰਬ ਨਾਲ ਯੁੱਧ ਹੋਇਆ।"

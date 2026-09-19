@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰ ਅਵਤਾਰ ਧਨੰਤਰ ਜਾਈ ॥"
 page = 194
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Vishnu was called by the Supreme Lord and ordered to manifest himself in the form of Dhanwantar."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਨੰਤਰੀ ਅਵਤਾਰ ਧਾਰ ਕੇ (ਜਗਤ ਵਿੱਚ) ਜਾਓ,"

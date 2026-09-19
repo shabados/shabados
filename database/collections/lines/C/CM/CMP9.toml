@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਜਾਪ ਜਾਪਤ ਗਉਰ ॥"
 page = 657
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "This orderly was standing at the gate of the king like this and was repeating the name of the goddess Gauri-Parvati in his mind"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਨ ਵਿਚ ਗ਼ੌਰ (ਧਿਆਨ) ਨਾਲ ਜਾਪ ਜਪਦਾ ਹੈ।"

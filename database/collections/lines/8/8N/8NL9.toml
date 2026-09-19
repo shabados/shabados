@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖਿ ਪ੍ਰਭਾ ਲਾਗਤ ਸੁਖ ਜਿਯ ਕੋ ॥"
 page = 848
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ras Manjri was her name and on seeing her one’s mind attained bliss."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਸੁੰਦਰਤਾ ਨੂੰ ਵੇਖ ਕੇ ਮਨ ਖ਼ੁਸ਼ ਹੁੰਦਾ ਸੀ।"

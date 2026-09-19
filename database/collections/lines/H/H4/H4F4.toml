@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਿ ਕਾਟਿ ਕੈ ਪਲ ਖੰਡ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And within her enemies she cut them in an instant."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੈਰੀਆਂ ਨੂੰ ਪਲ ਭਰ ਵਿਚ ਕਟ ਕੇ"

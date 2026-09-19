@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਕੈ ਮਧ ਜਾ ਕੀ ਧੁਜਾ ਸਾਰਦੂਲੰ ॥"
 page = 242
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਝੰਡੇ ਵਿੱਚ ਬੱਬਰ ਸ਼ੇਰ (ਦਾ ਚਿੰਨ੍ਹ) ਲੱਗਾ ਹੋਇਆ ਸ਼ੋਭ ਰਿਹਾ ਹੈ,"

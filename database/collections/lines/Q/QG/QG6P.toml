@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਵਿਤ੍ਰੀ ਪੁਨੀਤਾ ਪੁਰਾਣੀ ਪਰੇਯੰ ॥"
 page = 119
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art pure, holy, ancient, great"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਪਵਿਤਰ, ਪੁਨੀਤ, ਪੁਰਾਤਨ, ਸਮਝ ਤੋਂ ਪਰੇ ('ਪਰੇਯੰ')"

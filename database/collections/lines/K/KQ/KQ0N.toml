@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ ਅੰਤਿ ਸਤ੍ਰੁ ਪਦ ਡਾਰੋ ॥"
 page = 783
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਅੰਤ ਵਿਚ 'ਸਤ੍ਰੁ' ਪਦ ਨੂੰ ਜੋੜੋ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਸਭ ਖੰਡੇ ਕੇ ਨਾਮ; ਸਤਿ ਜੀਅ ਧਾਰੀਐ ॥੩੭॥"
 page = 719
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then all these are the names of Khanda, which is true.37."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਇਹ) ਸਾਰੇ ਖੰਡੇ ਦੇ ਨਾਮ ਹੋ ਜਾਣਗੇ। (ਇਹ ਗੱਲ) ਮਨ ਵਿਚ ਸਚ ਕਰ ਕੇ ਮੰਨ ਲਵੋ ॥੩੭॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਦਾ ਕੁਅਰਿ ਨਿਰਖਾ ਜਬ ਰਾਜਾ ॥"
 page = 1354
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਦਾ ਕੁਮਾਰੀ ਨੇ ਜਦ ਰਾਜੇ ਨੂੰ ਵੇਖਿਆ,"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਿਨੁ ਸਤਿਗੁਰ; ਸਹਜੁ ਕਿਨੈ. ਨਹੀ ਪਾਇਆ ॥"
 page = 1045
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Without the True Guru no one obtains the Divine knowledge."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੱਚੇ ਗੁਰਾਂ ਦੇ ਬਗ਼ੈਰ ਕਿਸੇ ਨੂੰ ਭੀ ਬ੍ਰਹਮ ਗਿਆਨ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੁੰਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Without the True Guru, no one obtains intuitive wisdom."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਬਿਨਾਂ ਸਤਿਗੁਰਾਂ ਸੇ ਐਸਾ ਗਿਆਨ ਕਿਸੇ ਨੇ ਨਹੀਂ ਪਾਯਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਦੀ ਸਰਨ ਤੋਂ ਬਿਨਾ ਕਿਸੇ ਮਨੁੱਖ ਨੇ ਆਤਮਕ ਅਡੋਲਤਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਹਜੁ = ਆਤਮਕ ਅਡੋਲਤਾ। ਕਿਨੈ = ਕਿਸੇ ਨੇ ਭੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sin el Guru Verdadero nadie logra el Estado de Equilibrio,"

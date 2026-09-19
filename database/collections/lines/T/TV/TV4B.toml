@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਸ ਦਿਵਸ ਕੋ ਇਕ ਦਿਨ ਜਾਨੈ ॥"
 page = 952
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She commenced enjoying invariable love-makings, and the years passed like the moments."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਕ ਸਾਲ ਨੂੰ ਇਕ ਦਿਨ ਜਿਤਨਾ ਸਮਝਦਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਪੇਸ਼ੇ ਸ਼ਹੇ ਮਗ਼ਰਬ ਆਮਦ ਦਲੇਰ ॥"
 page = 1409
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She faced the Raja with great courage,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪੱਛਮ ਦੇ ਬਾਦਸ਼ਾਹ ਦੇ ਸਾਹਮਣੇ ਬੜੀ ਦਲੇਰੀ ਨਾਲ ਆ ਗਈ"

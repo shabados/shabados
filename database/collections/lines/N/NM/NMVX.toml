@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰਿਹ ਜੈ ਹੈ ਲਖਿ ਹੈ ਜਬ ਤਾਰੇ ॥"
 page = 1157
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਜਦ ਸ਼ੁਭ ਤਾਰਾ ਦਿਖੇਗਾ ਤਦ (ਉਹ) ਘਰ ਨੂੰ ਜਾ ਸਕਣਗੇ।"

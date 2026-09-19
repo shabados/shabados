@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਿਲਿ ਪਾਰਸ; ਕੰਚਨੁ ਹੋਇਆ ॥"
 page = 657
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Touching the philosopher's stone, I have become gold."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪਾਰਸ (ਅਮੋਲਕ ਰਸਾਇਨ) ਨਾਲ ਲੱਗ ਕੇ ਮੈਂ ਸੋਨਾ ਹੋ ਗਿਆ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Touching the philosopher's stone, I have been transformed into gold."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਬ ਗੁਰੂ ਪਾਰਸ ਕੋ ਮਿਲਕਰ ਇਹ ਜੀਵ ਸ੍ਵਰਨ ਵਤ ਸੁੱਧ ਹੂਆ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਪਾਰਸ ਨਾਲ ਛੋਹ ਕੇ (ਲੋਹਾ) ਸੋਨਾ ਬਣ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਿਲਿ = ਮਿਲ ਕੇ, ਛੋਹ ਕੇ। ਕੰਚਨੁ = ਸੋਨਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Con el toque de la Piedra Filosofal yo también ahora soy oro"

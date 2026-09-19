@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਖੀ ਚਲਹੁ ਚੜਿ ਨਾਵ ਪਿਯਾਰੀ ॥"
 page = 860
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Along with the woman, he reached the bank of the stream and the Jat asked her, ‘Listen to me,(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਿਆਰੀ! ਬੇੜੀ ਉਤੇ ਚੜ੍ਹ ਕੇ ਆਰਾਮ ਨਾਲ ਚਲ"

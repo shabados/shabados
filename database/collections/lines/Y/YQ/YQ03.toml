@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੋਟਿ ਕਲੇਸ ਮਿਟਹਿ; ਹਰਿ ਨਾਇ ॥"
 page = 677
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Millions of pains are removed with God's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜਾਂ ਹੀ ਦੁੱਖ, ਰੱਬ ਦੇ ਨਾਮ ਨਾਲ ਦੂਰ ਹੋ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Millions of pains are removed by the Lord's Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਹਰੀ ਕੇ ਨਾਮ ਜਪਣੇ ਤੇ ਕੋਟ ਕਲੇਸ ਮਿਟ ਜਾਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪ੍ਰਭੂ ਦੇ ਨਾਮ ਵਿਚ ਜੁੜਿਆਂ ਕ੍ਰੋੜਾਂ ਦੁੱਖ-ਕਲੇਸ਼ ਮਿਟ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੋਟਿ = ਕ੍ਰੋੜਾਂ। ਨਾਇ = ਨਾਮ ਦੀ ਰਾਹੀਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y millones de faltas son borradas por Él. Contemplando el Nombre del Señor,"

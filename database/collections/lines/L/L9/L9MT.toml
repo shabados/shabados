@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਤਿ ਕੀਓ ਪਾਪ ਪਰਚੁਰਿਓ ਧਰਮ ॥"
 page = 639
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Even on taking birth, he absorbed himself in actions of Yogs"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਾਪਾਂ ਨੂੰ ਨਸ਼ਟ ਕਰ ਕੇ ਧਰਮ ਦਾ ਪ੍ਰਚਾਰ ਕੀਤਾ ਹੈ।"

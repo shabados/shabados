@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਛੁ ਨ ਪਰਤ ਕਹਿ ਤਿਨ ਕੀ ਬਾਤਾ ॥"
 page = 217
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way the beautiful wedding parties were emblished. Which are indescribable"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਉਨ੍ਹਾਂ ਦਾ ਕੁਝ ਵੀ ਵਰਣਨ ਨਹੀਂ (ਹੋ) ਸਕਦਾ ਸੀ।"

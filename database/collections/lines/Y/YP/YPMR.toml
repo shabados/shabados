@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਵਿਲੋਕਿ ਸੁ ਚਾਵੰਡਿ ਚਾਰ ਪਲੰ ॥"
 page = 664
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਮਾਸ ('ਪਲੰ') ਦੇ ਸੁੰਦਰ ਟੁਕੜੇ ਨੂੰ ਵੇਖ ਕੇ,"

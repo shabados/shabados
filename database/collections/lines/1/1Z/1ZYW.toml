@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਗਰ ਸ਼ਹਿ ਬਿਗੋਯਦ ਬਿਗੋਯਮ ਜਵਾਬ ॥"
 page = 1394
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘To the second one, we will give one hundred thousand horses,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਤੁਸੀਂ ਕਹੋ, ਤਾਂ ਉੱਤਰ ਦਿਆਂ"

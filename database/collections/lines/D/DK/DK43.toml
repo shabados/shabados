@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਕੋ ਲਹਿਯੋ ਨ ਕਛੂ ਤੁਮ ਭੇਦ; ਅਰੇ ਇਹ ਚਉਦਹ ਲੋਕ ਸਵਾਰਿਯੋ ॥"
 page = 493
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You have not been able to understand his mystery till now"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਕ੍ਰਿਸ਼ਨ) ਦਾ ਤੁਸੀਂ ਕੁਝ ਵੀ ਭੇਦ ਨਹੀਂ ਪ੍ਰਾਪਤ ਕੀਤਾ ਹੈ, ਓਇ! ਇਸ ਨੇ ਤਾਂ ਚੌਦਾਂ ਲੋਕਾਂ ਨੂੰ ਸਿਰਜਿਆ ਹੈ।"

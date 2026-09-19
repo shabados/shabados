@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਤ ਬਚਨ ਨ੍ਰਿਪ ਸੈਨ ਬੁਲਾਯੋ ॥"
 page = 813
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The exhilarated Raja immediately called his courtiers"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਕੰਨਿਆ ਬਾਰੇ) ਬੋਲ ਸੁਣ ਕੇ ਰਾਜੇ ਨੇ ਸੈਨਾ ਨੂੰ ਬੁਲਾਇਆ"

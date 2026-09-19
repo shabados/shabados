@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਨਵ ਸੈਨ ਹਤੀ ਇਨਹੂੰ ਸਭ; ਇਉ ਕਹਿ ਕੈ, ਮਨਿ ਕੋਪ ਭਰਿਓ ਹੈ ॥"
 page = 98
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“They have killed all the army of the demons,” saying this the mind of Sumbh was filled with rage.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਇਨ੍ਹਾਂ ਨੇ ਦੈਂਤਾਂ ਦੀ ਸਾਰੀ ਸੈਨਾ ਮਾਰ ਦਿੱਤੀ ਹੈ। ' ਇਹ ਕਹਿ ਕੇ (ਸ਼ੁੰਭ ਦਾ) ਮਨ ਕ੍ਰੋਧ ਨਾਲ ਭਰ ਗਿਆ।"

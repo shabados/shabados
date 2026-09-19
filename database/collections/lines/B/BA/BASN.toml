@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਮਤ ਦੰਤੀ, ਫਿਰੈ ਛੂਛ ਤਾਜੀ ॥"
 page = 1242
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਮਸਤ ਹਾਥੀ ਅਤੇ ਸਵਾਰਾਂ ਤੋਂ ਸਖਣੇ ਘੋੜੇ ਫਿਰ ਰਹੇ ਸਨ।"

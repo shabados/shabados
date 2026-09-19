@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿੰਧੁਰੈ ਸਿੰਧਰੰ ॥"
 page = 244
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The heavenly damsels began to dance and the bugles sounded"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ-ਸਿੰਘੇ ਧੁਨ ਕੱਢ ਰਹੇ ਹਨ।"

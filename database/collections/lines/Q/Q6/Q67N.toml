@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਰਦਸਿ ਕਲਾ ਏਕ ਬਰ ਨਾਰੀ ॥"
 page = 1078
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿਰਦਸ ਕਲਾ ਨਾਂ ਦੀ ਇਕ ਉਤਮ ਇਸਤਰੀ ਸੀ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਜਰਤਿ ਕੌ ਪ੍ਰਾਨਨ ਤੇ ਪ︀ਯਾਰੀ ॥"
 page = 1047
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਦਸ਼ਾਹ ਨੂੰ ਪ੍ਰਾਣਾਂ ਤੋਂ ਵੀ ਪਿਆਰੀ ਸੀ।"

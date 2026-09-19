@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਮਰਮੰਦ ਭਗਣਿਨੀ ਭਣਿਜੈ ॥"
 page = 779
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਤਿਮਰ ਮੰਦ (ਹਨੇਰੇ ਨੂੰ ਘਟਾਉਣ ਵਾਲਾ) ਭਗਣਿਨੀ' (ਸ਼ਬਦ) ਕਹੋ।"

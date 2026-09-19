@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਐਸ ਹੋਇ ਉਧਾਰ ॥"
 page = 635
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤੋਂ ਬਿਨਾ ਹੋਰ (ਕਿਸੇ ਢੰਗ ਨਾਲ) ਉੱਧਾਰ ਨਹੀਂ ਹੋਣਾ,"

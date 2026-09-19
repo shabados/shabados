@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅੰਕ ਰਹੇ ਗਹ ਰਾਮ ਤਿਸੈ ਤਬ ॥"
 page = 229
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮ ਨੇ ਉਸੇ ਵੇਲੇ (ਉਸ ਨੂੰ) ਫੜ ਕੇ ਗਲੇ ਲਾ ਲਿਆ।"

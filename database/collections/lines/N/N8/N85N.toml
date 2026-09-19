@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਉਛਲਿ ਕਰਨਿ ਉਛਾਲ, ਨ ਉਭਿ ਚੜ੍ਹੰਦੀਆਂ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Upward flights do not take them to the highest borders of sky."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਅਰ ਉਨ੍ਹਾਂ ਦਾ ਅੰਡਾ ਬੀ ਉਤਾਹਾਂ ਨੂੰ) ਉਛਲਕੇ ਛਾਲਾਂ ਮਾਰਦਾ ਹੈ, ਪਰੰਤੂ ('ਉਭ') ਅਕਾਸ਼ (ਦੇ ਅੰਤ ਨੂੰ) ਨਹੀਂ ਚੜ੍ਹਦੇ।"

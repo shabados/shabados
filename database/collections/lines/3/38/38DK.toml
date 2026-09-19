@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਤਿ ਕਰਿ ਕੈ ਤ੍ਰਿਯ ਦਈ ਉਠਾਈ ॥"
 page = 854
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਨੇ) ਰਤੀ-ਕ੍ਰੀੜਾ ਕਰ ਕੇ (ਉਸ) ਇਸਤਰੀ ਨੂੰ ਉਠਾ ਦਿੱਤਾ"

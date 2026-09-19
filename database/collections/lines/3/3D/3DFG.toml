@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਮੂਰਖ ਕੇ ਸੀਸ; ਜੂਤਿਯਨ ਝਾਰਿ ਕੈ ॥"
 page = 1125
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਮੂਰਖ ਦੇ ਸਿਰ ਵਿਚ ਜੁਤੀਆਂ ਮਾਰ ਕੇ"

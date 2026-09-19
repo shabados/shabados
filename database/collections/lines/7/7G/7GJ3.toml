@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹੈ ਆਪਨੇ ਹ੍ਰਿਦੇ ਬਿਚਾਰਿਓ ॥"
 page = 450
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Krishna saw Shiva running away, then he reflected in his mind that he would then fight with the enemy himself"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ) ਆਪਣੇ ਹਿਰਦੇ ਵਿਚ ਇਸ ਤਰ੍ਹਾਂ ਵਿਚਾਰ ਕੀਤਾ,"

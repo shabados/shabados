@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿ ਕਰਿ ਅਧਿਕ ਕਟਾਛ ਦਿਖਾਵੈ ॥੪੦॥"
 page = 853
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Never revealed the secret to the Raja.( 40)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਈ ਤਰ੍ਹਾਂ ਦੇ ਕਟਾਖ ਕਰ ਕੇ ਵਿਖਾਂਦੀ ਰਹਿੰਦੀ ॥੪੦॥"

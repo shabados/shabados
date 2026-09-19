@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹਾਡੀ ਪਤਿ ਸੌ ਨਹਿ ਜਰੀ ॥"
 page = 1079
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਹਾਡੀ (ਰਾਜਪੂਤ ਰਾਣੀ) ਪਤੀ ਨਾਲ ਨਾ ਸੜੀ"

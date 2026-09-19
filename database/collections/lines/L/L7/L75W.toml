@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਦਿ ਅਨੀਲ ਅਨਾਦਿ ਅਨਾਹਦ; ਆਪਿ ਅਦ੍ਵੇਖ ਅਭੇਖ ਅਭੈ ਹੈ ॥"
 page = 712
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Primal, Blemishless, Beginningless, Maliceless, Limitless, Indiscriminate and Fearless"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਆਪ ਸਭ ਦਾ ਆਦਿ, ਸੰਖਿਆ ਰਹਿਤ ('ਅਨੀਲ'); ਆਦਿ ਤੋਂ ਬਿਨਾ, ਅਨਾਹਦ, ਅਦ੍ਵੈਖ, ਅਭੇਖ ਅਤੇ ਅਭੈ ਹੈ।"

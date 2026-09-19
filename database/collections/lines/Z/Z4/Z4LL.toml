@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭੰ ਰੂਪ ਸਿਆਮੰ ॥"
 page = 42
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His dark form looks elegant"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ) ਸਾਂਵਲਾ ਰੂਪ ਸੋਭ ਰਿਹਾ ਹੈ"

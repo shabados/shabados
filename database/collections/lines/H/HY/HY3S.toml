@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮ ਦਾਸ ਅਨਤੈ ਰਹਤ; ਪਦੂਆ ਕੇ ਸੰਗ ਸੋਇ ॥"
 page = 824
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Ramdas slept else where, she would sleep with an aide, who"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮ ਦਾਸ ਕਿਤੇ ਹੋਰ ਰਹਿੰਦਾ ਸੀ (ਅਤੇ ਉਸ ਦੀ ਇਸਤਰੀ) ਪਦੂਆ ਨਾਲ ਸੌਂਦੀ ਸੀ।"

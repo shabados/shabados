@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐ ਰੇ ਗਨੇਸ, ਲਰੈ ਹਮਰੇ ਸੰਗ; ਹੈ ਤੁਮਰੇ ਤਨ ਮੈ ਬਲ ਏਤੋ ॥"
 page = 447
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Ganesh! do have so much strength as to fight with me?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਓਏ ਗਣੇਸ਼! ਤੂੰ ਮੇਰੇ ਨਾਲ ਲੜੇਂਗਾ, ਤੇਰੇ ਸ਼ਰੀਰ ਵਿਚ ਇਤਨਾ ਬਲ ਹੈ।"

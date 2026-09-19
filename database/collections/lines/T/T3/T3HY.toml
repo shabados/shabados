@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੈਨ ਸੁਲਛਨ ਨ੍ਰਿਪ ਤਹ ਸੁਭ ਮਤਿ ॥"
 page = 1160
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੋਂ ਦਾ ਸੁਲਛਨ ਸੈਨ ਨਾਂ ਦਾ ਸ਼ੁਭ ਬੁੱਧੀਵਾਲਾ ਰਾਜਾ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਹਮਾ ਤੇ ਨਹਿ ਜਾਤ ਗਨਾਯੋ ॥੯॥"
 page = 1290
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਬ੍ਰਹਮਾ ਕੋਲੋਂ ਵੀ ਗਿਣਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਸੀ ॥੯॥"

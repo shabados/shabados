@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਹਿੰਡੋਲਕਾ ਛੈ ॥੩੦੬॥"
 page = 660
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She, seemed swinging like Rambha, Urvashi and Shachi.306."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਹਿੰਡੋਲ ਰਾਗ ਦੀ ਰਾਗਨੀ ਹੈ ॥੩੦੬॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਤਸਾਹ ਬੈਠੇ ਬਡਭਾਗੀ ॥੧੨॥"
 page = 1304
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵਡਿਆਂ ਭਾਗਾਂ ਵਾਲਾ ਬਾਦਸ਼ਾਹ (ਆ ਕੇ) ਬੈਠਾ ॥੧੨॥"

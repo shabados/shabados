@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਭਾਖੈ, ਮਾਰੌ ਤਿਸੈ; ਦੀਜੈ ਕਛੂ ਬਤਾਇ ॥੮॥"
 page = 989
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I wish to kill anyone whom you may like me to.’(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਕਹੋ, ਮਾਰ ਦਿਆਂ, (ਮੈਨੂੰ) ਕੁਝ ਦਸ ਦਿਓ ॥੮॥"

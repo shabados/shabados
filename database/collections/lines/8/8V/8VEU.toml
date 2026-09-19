@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਸੇਤੀ ਰਤਿ ਕਰੀ ॥"
 page = 977
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The palanquin was placed in the jungle and they relished in lovemaking invariably."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਨ੍ਹਾਂ ਨੇ) ਭਾਂਤ ਭਾਂਤ ਦੀ ਰਤੀ-ਕ੍ਰੀੜਾ ਕੀਤੀ।"

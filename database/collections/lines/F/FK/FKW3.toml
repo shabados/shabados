@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੈਸੇ ਕੈ ਪਾਇਨ ਪ੍ਰਭਾ ਉਚਾਰੋਂ ॥"
 page = 681
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੇ) ਪੈਰਾਂ ਦੀ ਸੁੰਦਰਤਾ ਦਾ ਕਿਸ ਤਰ੍ਹਾਂ ਉਚਾਰਨ ਕਰਾਂ,"

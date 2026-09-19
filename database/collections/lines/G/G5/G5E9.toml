@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਨ ਹੋਮੰ ਕਹੂੰ ਨ ਜ੍ਵਾਲਾ ॥੧੨੮॥"
 page = 563
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "No discussion about Vedas, no prayer no Semitic scriptures, no rosary and no sacrificial fire are seen anywhere.128."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਤੇ ਵੀ) ਨਾ ਕੋਈ ਹੋਮ (ਕਰਦਾ) ਹੈ ਅਤੇ ਨਾ ਹੀ ਅਗਨੀ (ਦੀ ਪੂਜਾ ਕਰਦਾ) ਹੈ ॥੧੨੮॥"

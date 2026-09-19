@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣ ਭੂੰਮਿ ਝੂਮਿ ਜੁਝੇ ਜੁਝਾਰ ॥"
 page = 253
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, the war ensued and many warriors fell in the field"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ-ਭੂਮੀ ਵਿੱਚ ਲੜਾਕੇ ਯੋਧੇ ਮਸਤੀ ਵਿੱਚ ਆ ਕੇ ਲੜੇ ਹਨ।"

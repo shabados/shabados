@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫਿਰੇ ਜ︀ਯੋ ਗੰਗੈਰੀ ॥੧੬॥੫੪॥"
 page = 104
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They strike blows on the enemy with much swiftness like the watter-bird.16.54."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਜਲ-ਭੌਰਾ ('ਗੰਗੈਰੀ') (ਜਲ ਵਿਚ ਤੇਜ਼ੀ ਨਾਲ) ਫਿਰਦਾ ਹੈ ॥੧੬॥੫੪॥"

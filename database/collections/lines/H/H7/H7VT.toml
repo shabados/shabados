@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੇਰੋ ਕਹਿਯੋ ਬਚਨ ਯਹ ਕੀਜੈ ॥੧੪॥"
 page = 892
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Give him a bed, and every body must do what I say.’(14)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੇਰੇ ਕਹੇ ਅਨੁਸਾਰ ਇਸ ਤਰ੍ਹਾਂ ਕਰੋ ॥੧੪॥"

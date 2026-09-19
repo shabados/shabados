@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਚਿਤਾਰਿ ਤਿਨ ਰੋਦਨ ਕਰਿਯੋ ॥"
 page = 895
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘He had only one son and that died too,’ thinking this, Chattar started to cry as well."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਯਾਦ ਕਰ ਕੇ ਉਹ (ਇਸਤਰੀ) ਵੀ ਰੋਣ ਲਗ ਗਈ।"

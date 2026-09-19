@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹਾਰੇ ਜਵਾਨੀ ਬ ਹਰਦੋ ਰਸ਼ੀਦ ॥੧੯॥"
 page = 1417
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As soon as they reached the ages of maturity.(19)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੋਹਾਂ ਉਤੇ ਜਵਾਨੀ ਦੀ ਬਹਾਰ ਆ ਗਈ ॥੧੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮਰੀ ਪ੍ਰਭਾ ਤੁਮੈ ਬਨਿ ਆਈ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thy Greatness is Only Thine"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਪ੍ਰਭਾ ਦਾ ਬਖਾਨ ਤੂੰ ਆਪ ਹੀ ਕਰ ਸਕਦਾ ਹੈਂ,"

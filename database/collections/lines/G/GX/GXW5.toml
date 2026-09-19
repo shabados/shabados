@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਵਾਬੇ ਸੁਖ਼ਨ ਰਾ ਬਰੰਗਸ਼ ਗਿਰਿਫ਼ਤ ॥੧੭॥"
 page = 1398
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And tried to comprehend the (King’s) preposition.(17)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਗੀ ਤਰ੍ਹਾਂ ਜਵਾਬ ਦੇਣ ਵਿਚ ਕਾਫ਼ੀ ਢਿਲ ਮਠ ਹੋ ਗਈ ॥੧੭॥"

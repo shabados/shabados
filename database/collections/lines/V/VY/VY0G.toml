@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭੇ ਬਿਪ੍ਰ ਬੋਲੇ ਕਰਿਯੋ ਰਾਜ ਨੇਹੀ ॥"
 page = 145
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He called all other Brahmins and treated them with love."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ ਹੋਰ) ਸਾਰੇ ਬ੍ਰਾਹਮਣ ਬੁਲਾਏ ਅਤੇ ਰਾਜੇ ਨੇ (ਉਨ੍ਹਾਂ ਨਾਲ) ਪ੍ਰੇਮ ਕੀਤਾ।"

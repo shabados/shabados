@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਤਾ ਲਏ ਪਾਨਿ ਚਲਿ ਆਈ ॥"
 page = 671
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਹੱਥ ਵਿਚ ਭੱਤਾ ਲੈ ਕੇ (ਇਸ ਤਰ੍ਹਾਂ) ਚਲੀ ਆ ਰਹੀ ਸੀ,"

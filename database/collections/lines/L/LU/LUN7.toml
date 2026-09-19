@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਹਲੂਰ ਮੈਂ ਬਾਂਧਿਯੋ ਆਨ ਆਨੰਦਪੁਰ ਗਾਂਵ ॥੩੬॥"
 page = 63
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I came to Kahlur and established the village Anandpur.36."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਹਿਲੂਰ (ਦੀ ਰਿਆਸਤ ਵਿਚ) ਆ ਕੇ ਆਨੰਦਪੁਰ ਪਿੰਡ ਨੂੰ ਆਬਾਦ ਕੀਤਾ ॥੩੬॥"

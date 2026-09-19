@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਾਚੇ ਸਤਿਗੁਰੂ ਦਾਤਾਰਾ ॥"
 page = 1221
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "True and Beneficient is my Satguru,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੱਚੇ ਅਤੇ ਉਦਾਰਚਿਤ ਹਨ ਮੇਰੇ ਸਤਿਗੁਰੂ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The True Guru is the True Giver."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੰਸਾਰ ਮੇਂ ਸਚੇ ਦਾਤਾਰ ਸਤਿਗੁਰੂ ਹੀ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲੇ! ਹੇ ਸਤਿਗੁਰੂ! ਹੇ ਸਭ ਦਾਤਾਂ ਦੇਣ ਵਾਲੇ ਪ੍ਰਭੂ!"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਾਚੇ = ਹੇ ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲੇ! ਦਾਤਾਰਾ = ਹੇ ਸਭ ਦਾਤਾਂ ਦੇਣ ਵਾਲੇ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Guru Verdadero y Bondadoso, teniendo Tu Visión me siento libre de penas;"

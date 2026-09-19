@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਖਨ ਚੀਰ ਪਟੰਬਰ ਵਾਰੈ ॥"
 page = 1170
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਗਹਿਣੇ, ਬਸਤ੍ਰ ਅਤੇ ਰੇਸ਼ਮੀ ਦੁਪਟੇ ਵਾਰ ਦਿੱਤੇ।"

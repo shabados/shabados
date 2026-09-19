@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਜ਼ਾ ਪਸ ਕਿ ਈਂ ਖ਼ਾਨਹ ਮਾ ਅਜ਼ ਤੁਰਾਸਤੁ ॥੧੨॥"
 page = 1406
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Thereafter, my house will be your abode.’(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਪਿਛੋਂ ਮੇਰਾ ਇਹ ਘਰ ਤੇਰਾ ਹੋ ਜਾਏਗਾ ॥੧੨॥"

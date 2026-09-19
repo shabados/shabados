@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਨੰ ਧਨਿ ਲੇਖੈ ॥੪੬੯॥"
 page = 598
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Dancing in the mood of fighting, the warriors fell with broken limbs, and both the gods and demons, on seeing them said “bravo, bravo”.469."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧੰਨ ਧੰਨ ਕਰਦੇ ਹਨ ॥੪੬੯॥"

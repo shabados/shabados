@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਤਿਯ ਤ੍ਰਿਯਾ ਕੇ ਘਰ ਕੌ ਧਾਯੋ ॥੪॥"
 page = 884
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When he found the lady still awake, he went to the house of the other.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੂਜੀ ਇਸਤਰੀ ਦੇ ਘਰ ਵਲ ਚਲਾ ਗਿਆ ॥੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਛ ਗਈ ਲੋਥ ਅਨੇਕ ਅਪਾਰਾ ॥੫॥੨੫੮॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And many corpses lay scattered there.5.258."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਨੇਕ ਅਪਾਰ ਲੌਥਾਂ (ਉਥੇ) ਵਿਛ ਗਈਆਂ ਸਨ ॥੫॥੨੫੮॥"

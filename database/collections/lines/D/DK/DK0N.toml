@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਿਥਾ ਜਗਤ ਮੈ ਜਨਮੁ; ਬਿਨਾ ਜਗਦੀਸ ਗਵਾਯੋ ॥੪੯॥"
 page = 906
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But he does not reflect that he has lost the worth of his birth.(49)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਗਦੀਸ਼ (ਦੇ ਭਜਨ ਤੋਂ) ਬਿਨਾ ਵਿਅਰਥ ਵਿਚ ਜਗਤ ਅੰਦਰ ਜਨਮ ਗੰਵਾਇਆ ਹੈ ॥੪੯॥"

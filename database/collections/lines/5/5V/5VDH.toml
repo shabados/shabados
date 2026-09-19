@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਹੈ ਕਾਲ ਘਾਯੰ ॥੩੩॥"
 page = 63
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The chief of Kot Lehar was seized by death.33."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਵੀ ਕਾਲ ਨੇ ਮਾਰ ਦਿੱਤਾ ॥੩੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੋਨ ਸੁਹਾਨੇ ਬਾਗਨ ਹ੍ਵੈਹੈ ॥"
 page = 1009
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘We will not let you go alive and make the earth drench with yourblood."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲਹੂ ਨਾਲ ਸਫ਼ੈਦ ਬਸਤ੍ਰ ਸੋਹਣੇ ਹੋ ਜਾਣਗੇ।"

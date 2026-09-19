@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੋਰਸੁ ਗਾਈ ਵੇਖਦਾ; ਘਿਉ ਦੁਧੁ ਵਿਚਾਲੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Lord Himself is there in the milk, cow and ghee."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜਿੱਕੂੰ ਹਰ ਰੰਗ ਦੀਆਂ) ਗਾਈਆਂ ਵਿਚ (ਇਕ ਚਿੱਟੇ) ਦੁਧ ਨੂੰ ਤੇ ਦੁਧ ਵਿਚ ਘਿਉ ਨੂੰ ਵੇਖਦਾ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹ ਨਿਜੁ ਹਾਥ ਡਾਰਿ ਸਿਰ ਦੀਨਾ ॥੧੪॥"
 page = 1202
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ (ਉਸ ਨੇ) ਆਪਣੇ ਹੱਥ ਨਾਲ (ਕਾਜ਼ੀ ਦਾ) ਸਿਰ ਸੁਟਿਆ ਸੀ ॥੧੪॥"

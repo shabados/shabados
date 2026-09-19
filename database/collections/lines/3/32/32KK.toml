@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੂਪਵਤੀ ਤ੍ਰੈ ਲੋਕ ਮੈ; ਤਾ ਸੀ ਅਉਰ ਨ ਹੋਇ ॥੨॥"
 page = 971
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As pretty as she through out the domain ofheaven.(2)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿੰਨਾਂ ਲੋਕਾਂ ਵਿਚ ਉਸ ਵਰਗੀ ਰੂਪਵਾਨ ਕੋਈ ਹੋਰ ਨਹੀਂ ਸੀ ॥੨॥"

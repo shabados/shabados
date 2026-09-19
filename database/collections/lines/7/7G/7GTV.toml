@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਹਿਰੇ ਪੁਰਖ ਭੇਸ ਕਹ ਅੰਗਾ ॥੬॥"
 page = 1246
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕੱਲੀ ਹੀ ਮਿਤਰ ਨਾਲ ਫਿਰਦੀ ਸੀ ॥੬॥"

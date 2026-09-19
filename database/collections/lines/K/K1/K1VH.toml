@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਤਰਣਿ ਕਤਰੈ ਕਤਰਣੀ; ਹੋਇ ਦੁਮੂਹੀ ਚੜ੍ਹਦੀ ਸਾਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "His double-blade honed scissors cuts the cloth."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕੈਂਚੀ ਕਾਤਰਾਂ ਨੂੰ ਕਤਰਦੀ ਹੈ, ਦੁਮੂੰਹੀ ਹੋਕੇ ਸਾਣ ਪੁਰ ਚੜ੍ਹਦੀ ਹੈ।"

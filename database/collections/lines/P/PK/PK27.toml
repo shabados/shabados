@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਦਰਾ ਕਰ ਮੱਤ ਮਹਾ ਭਭਕੰ ॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His gait is like that of an elephant"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੀ) ਭਭਕ ਸ਼ਰਾਬ ਪੀ ਕੇ ਮਸਤ ਹੋਏ ਹਾਥੀ ਵਰਗੀ ਹੈ,"

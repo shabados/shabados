@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿੱਖ ਉਬਾਰਿ ਅਸਿੱਖ ਸੰਘਰੋ ॥"
 page = 1387
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Protect my disciples and destroy my enemies"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੁਸੀਂ) ਸਿੱਖਾਂ ਨੂੰ ਬਚਾਓ ਅਤੇ ਅਸਿੱਖਾਂ ਨੂੰ ਨਸ਼ਟ ਕਰੋ।"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਸਿੱਖ੍ਯ ਉਬਾਰਿ; ਅਸਿੱਖ੍ਯ ਸੰਘਰੋ ॥"

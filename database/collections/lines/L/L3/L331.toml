@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੈਂਡ ਚੂਕਿ ਪਰ ਘਰ ਮੈ ਗਈ ॥੧੧॥"
 page = 1059
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੈਂ ਰਸਤਾ ਭੁਲ ਕੇ ਕਿਸੇ ਦੂਜੇ ਦੇ ਘਰ ਚਲੀ ਗਈ ॥੧੧॥"

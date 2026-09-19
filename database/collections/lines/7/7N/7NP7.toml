@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਤਾ ਅਸਿਤਾ ਰਾਜ ਕ੍ਰਾਤੀ ਅਨੰਤੀ ॥"
 page = 119
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "White-black and red-coloured."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੋਰੇ, ਕਾਲੇ ਅਤੇ ਰਾਜ-ਗਰਦੀ ਆਦਿ ਅਨੰਤ ਰੂਪਾਂ ਵਾਲੀ (ਨੂੰ ਨਮਸਕਾਰ ਹੈ);"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੋਸ਼ ਅੰਦਰ ਆਮਦ ਦੁ ਚਸ਼ਮਸ਼ ਕੁਸ਼ਾਦ ॥"
 page = 1406
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With the noise of the drums, when he (Subhat Singh) was awaken,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ (ਸੁਭਟ ਸਿੰਘ) ਹੋਸ਼ ਵਿਚ ਆਇਆ ਅਤੇ ਅੱਖਾਂ ਖੋਲ੍ਹੀਆਂ ਤਾਂ ਕਹਿਣ ਲਗਿਆ"

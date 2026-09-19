@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੋਰ ਜੰਤ੍ਰ ਮੰਤ੍ਰਣੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Though millions of yantras and mantras may be practiced"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਭਾਵੇਂ ਕੋਈ) ਕਰੋੜਾਂ ਜੰਤਰ-ਮੰਤਰ ਕਰੇ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਹਾ ਛੰਦੁ ਦੂਜਾ ॥"
 page = 558
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "GAHA STANZA SECOND"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗਾਹਾ ਛੰਦ ਦੂਜਾ:"

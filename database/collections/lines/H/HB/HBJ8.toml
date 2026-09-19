@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰ ਭਾਤਿ ਭਾਤਨ ਏਕ ਕੋ ਜੁਰਿ; ਏਕ ਏਕ ਉਡਾਹਿਾਂਗੇ ॥"
 page = 554
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Several kinds of people will get together and spread various types of rumours"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਾਂਤ ਭਾਂਤ ਦੇ ਮਨੁੱਖ ਇਕੱਠੇ ਹੋ ਕੇ (ਦੂਜੇ) ਇਕ ਇਕ (ਦੇ ਧਰਮ) ਦਾ ਮਖੌਲ ਉਡਾਉਣਗੇ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਮਿਤ ਦਰਬੁ ਨ੍ਰਿਪ ਤੇ ਜੋ ਲੀਨੋ ॥"
 page = 920
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਜੋ ਬਹੁਤ ਸਾਰਾ ਧਨ ਰਾਜੇ ਤੋਂ ਲਿਆ ਸੀ,"

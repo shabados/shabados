@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭੂਖੇ ਖਾਵਤ, ਲਾਜ. ਨ ਆਵੈ ॥"
 page = 629
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "As a hungry man is not ashamed while eating,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਤਰ੍ਹਾਂ ਇਕ ਭੁੱਖੇ ਬੰਦੇ ਨੂੰ ਖਾਂਦਿਆ ਸ਼ਰਮ ਨਹੀਂ ਆਉਂਦੀ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The hungry man is not ashamed to eat."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੈਸੇ ਭੂਖੇ ਪੁਰਸ਼ ਕੋ ਖਾਤੇ ਲਾਜ ਨਹੀਂ ਆਵਤੀ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਜਿਵੇਂ (ਜੇ ਕਿਸੇ ਭੁੱਖੇ ਮਨੁੱਖ ਨੂੰ ਕੁਝ ਖਾਣ ਨੂੰ ਮਿਲ ਜਾਏ, ਤਾਂ ਉਹ) ਭੁੱਖਾ ਮਨੁੱਖ ਖਾਂਦਿਆਂ ਸ਼ਰਮ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰਦਾ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਲਾਜ = ਸ਼ਰਮ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Así como el hambriento se avergüenza de no comer,"

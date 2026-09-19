@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ਼ਹਿਨਸ਼ਾਹਿ ਰੂਮੀ ਸਿਪਰ ਦਾਦ ਰੋਇ ॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Emperor, the Great, of Rome (sun) covered its face,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਸ਼ਹਿਨਸ਼ਾਹਿ ਰੂਮੀ' (ਸੂਰਜ) ਨੇ ਆਪਣੇ ਮੂੰਹ ਤੇ ਢਾਲ ਰਖ ਲਈ"

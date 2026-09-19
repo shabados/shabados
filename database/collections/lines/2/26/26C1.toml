@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਭ ਇਕਠੇ ਹੋਇ; ਆਇਆ ॥"
 page = 74
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "All come together in a body."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਮਿਲ ਕੇ ਇਕ ਸਮੁਦਾਇ ਵਿੱਚ ਆਏ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All have gathered together,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਗੁਰਮੁਖ ਤਥਾ ਮਨਮੁਖ ਇਕੱਤ੍ਰ ਹੋ ਕਰ ਆਯਾ ਹੈ, ਭਾਵ ਏਹਿ ਕਿ ਮਾਨੁਖ ਜਨਮ ਤੋ ਸਭ ਕੋ ਸਾਮਾਨ ਹੀ ਮਿਲਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ (ਨਰ ਨਾਰ) ਮਨੁੱਖਾ ਜਨਮ ਲੈ ਕੇ ਆਏ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਇਕਠੇ ਹੋਇ = ਇਕੱਠੇ ਹੋ ਕੇ, ਮਨੁੱਖਾ ਜਨਮ ਲੈ ਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Todos nosotros, seres humanos,"

@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਊ, ਬੁਤਾਨ ਕੋ ਪੂਜਤ ਹੈ ਪਸੁ; ਕੋਊ, ਮ੍ਰਿਤਾਨ ਕੋ ਪੂਜਨ ਧਾਇਓ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Some fool worships the idols and someone goes to worship the dead."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਮੂਰਖ ਬੁਤਾਂ (ਮੂਰਤੀ) ਨੂੰ ਪੂਜ ਰਿਹਾ ਹੈ ਅਤੇ ਕੋਈ ਕਬਰਾਂ ਨੂੰ ਪੂਜਦਾ ਫਿਰਦਾ ਹੈ;"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਕੋਊ, ਬੁਤਾਨ ਕੋ ਪੂਜਤ ਹੈ ਪਸੁ; ਕੋਊ, ਮ੍ਰਿਤਾਨ ਕੋ ਪੂਜਨ ਧਾਇਓ ॥"

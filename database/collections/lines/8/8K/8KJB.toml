@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੈਠੌ ਬੀਚ ਅਗਨਿ ਕੀ ਸਿਖਾ ॥੩੫੨॥"
 page = 709
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Now I prepare my own funeral pyre within your view, and sit within the fire-flames.”125.352."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਗਨੀ ਦੀ ਲਾਟ ਵਿਚ ਬੈਠਦਾ ਹਾਂ ॥੩੫੨॥"

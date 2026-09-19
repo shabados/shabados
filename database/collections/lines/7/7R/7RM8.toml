@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਖਨ ਬਸਤ੍ਰ ਪਾਗ ਤਿਹ ਹਰੀ ॥"
 page = 948
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਪਗੜੀ, ਬਸਤ੍ਰ ਅਤੇ ਜ਼ੇਵਰ ਚੁਰਾ ਲਏ।"

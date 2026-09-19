@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰਮ ਪੁਰਖ ਤਜਿ ਤਿਨ ਮਗ ਪਰੈ ॥"
 page = 57
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who fear the castes and follow their path, abandoning the Supreme Lord."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪਰਮ-ਪੁਰਖ (ਦਾ ਅਧਿਆਤਮੀ ਮਾਰਗ) ਛੱਡ ਕੇ ਵੇਦਾਂ ਦੇ ਮਾਰਗ ਉਤੇ ਪੈ ਗਏ ਹਨ,"

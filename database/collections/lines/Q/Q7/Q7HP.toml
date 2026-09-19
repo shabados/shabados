@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਰੰ ਦਾਨਵੇਾਂਦ੍ਰਾਨ ਕੇ ਤਾਕਿ ਝਾਰੇ ॥"
 page = 101
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And hit them on the heads of chief demons."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦਾਨਵਾਂ ਦੇ ਮੁਖੀਆਂ ਦੇ ਸਿਰਾਂ ਨੂੰ ਨਿਸ਼ਾਣਾ ਬਣਾ ਕੇ ਚਲਾ ਦਿੱਤੇ।"

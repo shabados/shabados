@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਵਤ ਹੀ ਦੁਹੂੰ ਹਾਥਨ ਜੋਰਿ ਕੈ ਪਾਇਨ ਊਪਰ ਮਾਥ ਲੁਡਾਏ ॥"
 page = 401
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying this, both the brothers stood up and came to their parents, before whom they bowed reverently"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਉਂਦਿਆਂ ਹੀ ਦੋਵੇਂ ਹੱਥ ਜੋੜ ਕੇ (ਉਨ੍ਹਾਂ ਨੇ ਮਾਤਾ ਪਿਤਾ ਦੇ) ਪੈਰਾਂ ਉਤੇ ਮੱਥੇ ਟੇਕੇ।"

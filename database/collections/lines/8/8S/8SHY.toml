@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਚੀਨੀਐ ਕਰਿ ਗਿਆਨ ॥"
 page = 673
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਗਿਆਨ ਪੂਰਵਕ ਸਮਝਣਾ ਚਾਹੀਦਾ ਹੈ,"

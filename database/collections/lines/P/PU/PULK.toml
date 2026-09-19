@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਇਹ ਕਥਾ ਤਨਕ ਸੁਨਿ ਪਾਵੈ ॥"
 page = 549
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ (ਵਿਅਕਤੀ) ਇਸ ਕਥਾ ਨੂੰ ਥੋੜਾ ਜਿੰਨਾ ਵੀ ਸੁਣ ਲਵੇਗਾ,"

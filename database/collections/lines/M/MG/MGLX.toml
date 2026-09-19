@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੁਲਤ ਸੁਬਾਹ ਮਾਰੂ ਬਜੰਤ ॥"
 page = 603
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There is sound of innumerable elephants and horses and the drums of war are being played"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਗੀ ਡੀਲ ਡੌਲ ਵਾਲੇ ਛਤ੍ਰੀ ਲਲਕਾਰਦੇ ਹਨ ਅਤੇ ਮਾਰੂ ਵਜਦਾ ਹੈ।"

@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਵਿਚਿ ਸੰਗਤਿ ਸਚੁ ਵਰਤਦਾ; ਨਿਤ ਨੇਹੁ ਨਵੇਲਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Truth prevails in the congregation, and unique is His everlasting affinity."

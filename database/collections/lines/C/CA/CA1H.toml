@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਪੰਤ ਜੀਵ ਜਲ ਥਲੰ ॥੨੩॥੧੦੧॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The beings in water and on land repeat His Name.23.101."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਲਾਂ-ਥਲਾਂ ਦੇ ਜੀਵ ਜਪਦੇ ਹਨ ॥੨੩॥੧੦੧॥"

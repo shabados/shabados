@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇਰੀ ਹੀ ਓਰਿ ਹ੍ਵੈ ਹੈ ਸੁਭ ਲਛਨ; ਤੁਇ ਸੁਤ ਸਤ੍ਰਨ ਕੋ ਦੁਖ ਦੈ ਹੈ ॥"
 page = 398
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“All the good omens will be on your side and your sons will agonise the enemies"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਵਲ ਹੀ ਸਾਰੇ ਸ਼ੁਭ ਲੱਛਣ ਹਨ, ਤੇਰੇ ਪੁੱਤਰ ਹੀ ਵੈਰੀਆਂ ਨੂੰ ਦੁਖ ਦੇਣਗੇ।"

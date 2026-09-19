@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਟ ਆਪ ਮਾਨ ॥੪੬॥"
 page = 630
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were enraged because they found the princess more beautiful than themselves.46."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਆਪ ਨੂੰ ਘਟੀਆ ਵਿਚਾਰ ਕੇ ॥੪੬॥"

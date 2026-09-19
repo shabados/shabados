@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅੰਤਰ ਕੀ ਦੁਬਿਧਾ; ਅੰਤਰਿ ਜਰੀਐ ॥"
 page = 1042
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and the mind's duality is burnt down in the mind."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਨ ਦੀ ਦਵੈਤ-ਭਾਵਨਾ ਮਨ ਅੰਦਰ ਹੀ ਸੜ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The duality within is burnt away from within."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪਰੰਤੂ ਮਨ ਅੰਤਰ ਕੀ ਜੋ ਦੁਬਿਧਾ ਹੈ, ਸੋ ਅੰਦਰ ਹੀ (ਜਰੀਐ) ਜਰ ਲਈਐ, ਭਾਵ ਦਮਨੁ ਕਰੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਗੁਰੂ ਦੇ ਸ਼ਬਦ ਦੀ ਬਰਕਤਿ ਨਾਲ ਮਨੁੱਖ ਦੀ) ਅੰਦਰਲੀ ਅਸ਼ਾਂਤੀ ਅੰਦਰ ਹੀ ਸੜ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਦੁਬਿਧਾ = ਮਾਨਸਕ ਖਿਚੋਤਾਣ, ਅਸ਼ਾਂਤੀ। ਜਰੀਐ = ਸਾੜ ਲਈਦੀ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Uno apunta las cinco flechas hacia Yama,"

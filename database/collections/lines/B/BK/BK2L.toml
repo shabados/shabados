@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਨ ਕੌ ਚਲੀ ਸਾਥ ਲੈ ਸਬ ਹੀ ॥੩੬॥"
 page = 1360
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਭ ਨੂੰ ਨਾਲ ਲੈ ਕੇ ਯੁੱਧ ਲਈ ਚਲ ਪਈ ॥੩੬॥"

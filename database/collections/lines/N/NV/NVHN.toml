@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਦਾ ਪਾਣਿਣੀ ਚਕ੍ਰਣੀ ਚਿਤ੍ਰ ਮਾਣੰ ॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The user of the disc, and of the honoured portrait, I salute Thee."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੱਥ ਵਿਚ ਗਦਾ ਫੜਨ ਵਾਲੀ, ਚੱਕਰ ਧਾਰਨ ਕਰਨ ਵਾਲੀ ਅਤੇ ਚਿਤਰ ਸਰੂਪੀ ਨੂੰ ਨਮਸਕਾਰ ਹੈ;"

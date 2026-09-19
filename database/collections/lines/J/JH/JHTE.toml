@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਿਣੀ ਕੀਨ ਮੋ ਕੋ ॥੬੭੩॥"
 page = 271
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram said, “O mother, I am thankful to you because you have made me free from indebtedness.673."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ (ਤੂੰ ਮੈਨੂੰ ਪਿਤਾ ਦੇ) ਰਿਣ ਤੋਂ ਮੁਕਤ ਕੀਤਾ ਹੈ ॥੬੭੩॥"

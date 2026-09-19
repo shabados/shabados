@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭੈ ਸੰਤ ਹਰਖੇ ਰਿਪੰ ਭੇ ਉਦਾਸੰ ॥"
 page = 275
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The enemies became depressed,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਸੰਤ ਪ੍ਰਸੰਨ ਹੋ ਗਏ ਤੇ ਵੈਰੀ ਦੁਖੀ ਹੋਏ।"

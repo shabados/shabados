@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ ਧੂਮ ਦ੍ਵਾਰ ਪਰ ਡਾਰਿਯੋ ॥"
 page = 1262
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਰਾਜੇ) ਦੇ ਦੁਆਰ ਉਤੇ ਧੂਣੀ ਧੁੰਮਾ ਦਿੱਤੀ।"

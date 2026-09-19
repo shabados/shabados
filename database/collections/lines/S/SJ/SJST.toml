@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੋਪੀ ਰਾਇ ਸਾਹ ਸੁਤ ਇਕ ਤਹ ॥"
 page = 1332
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਗੋਪੀ ਰਾਇ ਸ਼ਾਹ ਦਾ ਇਕ ਪੁੱਤਰ ਸੀ"

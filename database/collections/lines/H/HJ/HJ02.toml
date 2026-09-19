@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰਿ ਮ੍ਰਿਗਨ ਯੂਸਫ; ਤਹ ਇਕ ਦਿਨ ਆਇਯੋ ॥"
 page = 1090
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਦਿਨ ਯੂਸਫ਼ ਹਿਰਨ ਦਾ ਸ਼ਿਕਾਰ ਕਰ ਕੇ ਉਥੇ ਆਇਆ।"

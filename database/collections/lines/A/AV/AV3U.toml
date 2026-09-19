@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਸਟ ਗਠਨ ਕੋ ਕਰਾ ਪ੍ਰਹਾਰਾ ॥੨੮੦॥"
 page = 1379
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੁਸ਼ਟਾਂ ਦੇ ਸਮੂਹ ਉਤੇ ਪ੍ਰਹਾਰ ਕੀਤਾ ॥੨੮੦॥"

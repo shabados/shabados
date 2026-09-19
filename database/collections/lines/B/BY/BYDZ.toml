@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਬਿਮਲ ਮਨ ਭਯੋ ਉਦਾਸਾ ॥"
 page = 650
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That great ascetic Dutt, of the pure mind moved further"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦੀ ਬੁੱਧੀ) ਮਹਾਨ ਨਿਰਮਲ ਹੈ ਅਤੇ ਮਨ ਵਿਰਕਤ ਹੈ।"

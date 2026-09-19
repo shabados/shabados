@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਤੁਰ ਭੇਦ ਸਭ ਗਯੋ ਬਿਚਾਰਾ ॥੭॥"
 page = 1299
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜਾ) ਚਤੁਰ ਸੀ (ਇਸ ਲਈ) ਸਾਰਾ ਭੇਦ ਵਿਚਾਰ ਲਿਆ ॥੭॥"

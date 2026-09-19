@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਪੂਤ ਪੂਤ ਕਹਿ ਲੀਨੋ ॥੬॥"
 page = 885
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I have been endowed with a grown up son,’ and he then hugged him claiming ‘my son’, ‘my son.’(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ 'ਪੁੱਤਰ ਪੁੱਤਰ' ਕਹਿ ਕੇ ਪ੍ਰਵਾਨ ਕਰ ਲਿਆ ॥੬॥"

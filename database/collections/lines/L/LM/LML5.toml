@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਨਦਿਨੁ ਹਰਿ ਕਾ ਨਾਮੁ ਵਖਾਣੀ ॥"
 page = 1057
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Night and day, utter I the God's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਰੈਣ ਅਤੇ ਦਿਹੁੰ ਮੈਂ ਹਰੀ ਦੇ ਨਾਮ ਦਾ ਉਚਾਰਨ ਕਰਦਾ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Night and day, chant the Name of the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਿਉਂਕਿ ਜੋ ਗੁਰੂ ਰਾਤਿ ਦਿਨ ਜਗ੍ਯਾਸੂਆਂ ਪ੍ਰਤੀ ਹਰੀ ਨਾਮ ਕਾ ਹੀ ਵਖਿਆਨ ਕਰਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਵਿਚ ਜੁੜ ਕੇ) ਹਰ ਵੇਲੇ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਸਿਮਰਿਆ ਕਰ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਨਦਿਨੁ = ਹਰ ਰੋਜ਼, ਹਰ ਵੇਲੇ। ਵਖਾਣੀ = ਵਖਾਣਿ, ਉਚਾਰਨ ਕਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y que en su corazón al Dios Verdadero enaltezca,"

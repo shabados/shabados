@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੀਨ ਸਕੈ ਬਿਗਸੈ ਨਹਿ ਕਾਹੂ ਸੌ; ਲੋਕ ਕੀ ਲਾਜ ਬਿਦਾ ਕਰਿ ਰਾਖੇ ॥"
 page = 946
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(Such lover) are not satiated and they do not care about people’s talk."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨ ਉਹ ਵੇਖ ਸਕਦੀ ਹੈ, ਨਾ ਹਸ ਕੇ ਕਿਸੇ ਨਾਲ (ਗੱਲ ਕਰ) ਸਕਦੀ ਹੈ ਅਤੇ ਲੋਕਲਾਜ ਨੂੰ ਵਿਦਾ ਕਰ ਦਿੱਤਾ ਹੈ।"

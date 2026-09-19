@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਰ ਬਡੇ ਰਨ ਮਚੇ ਬਿਕਟ ਅਤਿ ॥"
 page = 1384
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਸੂਰਮਿਆਂ ਨੇ ਡਰਾਉਣਾ ਯੁੱਧ ਮਚਾਇਆ ਹੋਇਆ ਸੀ।"

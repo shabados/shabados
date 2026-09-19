@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਵਿਚਿ; ਮਨ ਕੋਟਵਰੀਆ ॥"
 page = 746
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Within them abides mind, the police officer."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਅੰਦਰ ਮਨੂਆ, ਕੋਤਵਾਲ ਵਸਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Within them, the mind is the policeman;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਨ ਕੇ ਵੀਚ ਮਨ ਕੋਟਵਾਲ ਰਹਿਤਾ ਹੈ, ਭਾਵ ਸਭ ਮਨ ਕੇ ਅਨੁਸਾਰੀ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹਰੇਕ ਸਰੀਰ-ਕੋਠੜੀ) ਵਿਚ ਮਨ ਨੂੰ ਕੋਤਵਾਲ ਬਣਾ ਦਿੱਤਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੋਟਵਰੀਆ = ਕੋਤਵਾਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pero en la mente de todos, Él se sienta como Observador."

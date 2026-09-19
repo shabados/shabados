@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗੇ ਕਰਿ ਕਰਿ ਬਾਜ ਨਿਕਾਰੈ ॥"
 page = 1283
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਗੇ ਕਰ ਕਰ ਕੇ ਉਹ ਘੋੜੇ ਨੂੰ ਹੋਰ ਅਗੇ ਨੂੰ ਕਰੀ ਜਾਂਦੀ।"

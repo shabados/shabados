@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਸੰਦੂਕ ਛੋਰਨ ਲਗਾ; ਲੈ ਕੁੰਜੀ ਕਹ ਹਾਥ ॥"
 page = 863
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When, taking the key in his hand, Banyia was going to open the box,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ (ਬਨੀਆ) ਕੁੰਜੀ ਨੂੰ ਹੱਥ ਵਿਚ ਲੈ ਕੇ ਖੋਲ੍ਹਣ ਲਗਾ,"

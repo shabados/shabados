@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੀਰ, ਬਚਨ ਜੋ ਤੁਮ ਕਰਿਯੋ; ਲੌਗ ਦਯੋ ਤ੍ਰਿਯ ਹਾਥ ॥"
 page = 861
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘When the Peer had given her his blessings along with a clove in her hand,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪੀਰ ਜੀ! ਤੁਸੀਂ ਇਸਤਰੀ ਨੂੰ ਲੌਂਗ ਦੇਣ ਵੇਲੇ ਜੋ ਬਚਨ ਕੀਤਾ ਸੀ,"

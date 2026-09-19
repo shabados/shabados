@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭ੍ਰਮੰਤ ਕੋਟਕੰ ਬਨੰ ॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Wandering in millions of forests"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਰੋੜਾਂ ਬਨਾਂ ਵਿਚ ਭਰਮਦਾ ਰਹੇ,"

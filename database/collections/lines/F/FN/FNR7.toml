@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੰਡੇ ਮਹੀਪ ਮਾਵਾਸ ਥਾਨ ॥"
 page = 602
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਕੀ ਰਾਜਿਆਂ ਦੇ ਸਥਾਨਾਂ (ਦੇਸ਼ਾਂ) ਉਤੇ ਯੁੱਧ ਮਚਾਇਆ"

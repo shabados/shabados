@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰਯੋ ਝੂਮ ਭੂਮੰ ਅਘੂਮਯੋ ਅਰਿ ਘਾਯੰ ॥"
 page = 274
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੀਰ ਨਾਲ) ਫੱਟੜ ਹੋ ਕੇ ਘੁਮੇਰੀ ਖਾਂਦਾ ਹੋਇਆ ਧਰਤੀ ਉਤੇ ਡਿੱਗ ਪਿਆ।"

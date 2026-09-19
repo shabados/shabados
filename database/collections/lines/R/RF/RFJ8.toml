@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਚਰੀਟ ਦੁਤਿ ਦੇਖਿ ਬਿਕਾਨੇ ॥"
 page = 1286
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਮੋਲੇ (ਪੰਛੀ) (ਉਸ ਦੀ) ਸੁੰਦਰਤਾ ਨੂੰ ਵੇਖ ਕੇ ਵਿਕ ਗਏ ਹਨ"

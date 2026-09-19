@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੋਗੀ ਜਤੀ ਤਪੀ ਬ੍ਰਹਮਚਾਰੀ ॥"
 page = 326
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I become a Yogi, a continent, a penitent and an ascetic."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਯੋਗੀ, ਸਤੀ, ਤਪੀਸਰ ਤੇ ਪ੍ਰਹੇਜ਼ਗਾਰ ਬਣਿਆ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I was a Yogi, a celibate, a penitent, and a Brahmchaaree, with strict self-discipline."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋਗੀ ਹੂਏ ਜਤੀ ਤਪੀ ਬ੍ਰਹਮਚਾਰੀ ਹੂਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਦੇ ਅਸੀਂ ਜੋਗੀ ਬਣੇ, ਕਦੇ ਜਤੀ, ਕਦੇ ਤਪੀ, ਕਦੇ ਬ੍ਰਹਮਚਾਰੀ;"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Yo fui un Yogui, un asceta, un hombre casto y de conducta piadosa;"

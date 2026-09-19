@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰੰ ਪੂਰਣੰ ਦਤ ਪ੍ਰਗ੍ਰਯਾ ਨਿਧਾਨੰ ॥"
 page = 645
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was persistent silence-observer performing austerities, a great knower of mantras and the treasure of generosity"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੱਤ ਪੂਰਨ ਬ੍ਰਹਮ ਵਿਦਿਆ ਦਾ ਖ਼ਜ਼ਾਨਾ ਹੈ।"

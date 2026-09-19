@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੋਪ ਸੀਆ ਤਿਹ ਭੀਤਰ ਭਈ ॥"
 page = 288
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing these words the earth tore asunder and Sita merged in it"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਜਗਤ ਧੂੰਏਂ ਦੇ ਮਹੱਲ ਵਰਗਾ ਹੈ, (ਦੱਸੋ) ਕਿਸ ਦੇ ਕੰਮ ਆਇਆ ਹੈ?"

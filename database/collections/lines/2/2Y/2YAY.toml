@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬੈ ਦੂਤ ਕਟੁ ਬੈਨ ਐਸੇ ਉਚਾਰੇ ॥"
 page = 922
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The drums started to beat war cries when the emissary spoke harshly."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਦਰਬਾਰ ਵਿਚ ਵੱਡੇ ਭਿਆਨਕ ਨਗਾਰੇ ਵਜੇ। (ਕਾਮਸੈਨ ਰਾਜੇ ਨੇ) ਕਿਹਾ,"

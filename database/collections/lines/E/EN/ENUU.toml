@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਸ ਝੂਠ ਰੂਠਿ ਜਿਦਿਨ ਨ੍ਰਿਪਤਿ; ਰਣਹਿ ਤੁਰੰਗ ਉਥਕਿ ਹੈ ॥"
 page = 696
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The day on which warriors named Jhooth (falsehood) will cause his horse to dance before you in great anger,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਝੂਠ ਅਤੇ ਰੂਠ (ਨਾਂ ਦੇ) ਰਾਜੇ ਜਿਸ ਦਿਨ ਰਣ ਵਿਚ ਘੋੜੇ ਨਚਾਉਣਗੇ,"

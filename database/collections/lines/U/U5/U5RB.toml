@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਲਖ ਰੂਪ ਕਿਨਹੂੰ ਨਹਿ ਜਾਨਾ ॥"
 page = 157
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "None knows Thy Invisible form"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਅਲੱਖ ਰੂਪ ਹੈਂ, (ਅਜੇ ਤਕ) ਤੈਨੂੰ ਕਿਸੇ ਨਹੀਂ ਜਾਣਿਆ,"

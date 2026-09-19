@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਭਾਤ ਜੋਗ ਸਾਧਨਾ ਸਾਧਿ ॥"
 page = 640
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਬਹੁਤ ਤਰ੍ਹਾਂ ਦੀ ਯੋਗ ਸਾਧਨਾ ਕਰਨ ਲਗਾ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਚਿਤ ਜੋ ਧ︀ਯਾਵਤ ਹਰਿ ਭਏ ॥"
 page = 1264
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਇਕ ਮਨ ਨਾਲ ਹਰਿ ਦਾ ਧਿਆਨ ਧਰਦੇ ਹਨ।"

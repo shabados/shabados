@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਸਾਨੂੰ ਆਪਣੀਆਣ ਭਵਾਣ ਦੇ ਇਕ ਇਸ਼ਾਰੇ ਨਾਲ ਸ਼ਹੀਦ ਕਰ ਦਿੱਤਾ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਮਾ ਰਾ ਬ-ਯੱਕ ਇਸ਼ਾਰਾਇ ਅਬਰੂ ਸ਼ਹੀਦ ਕਰਦ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Then, how can it ever even think of going to the flower beds. (12) (4)"

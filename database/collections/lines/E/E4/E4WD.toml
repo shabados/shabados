@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਦਵ ਬਾਚ ਕਾਨ੍ਰਹ ਜੂ ਸੋ ॥"
 page = 523
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of the Yadavas addressed to Krishna:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਯਾਦਵਾਂ ਨੇ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਕਿਹਾ:"

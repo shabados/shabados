@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਠਰ ਹਰਿ ਪਾਯੰ ॥"
 page = 213
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He who advances to that side goes straight to the feet of the Lord (i.e. he is killed)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ ਉਸ ਦੇ) ਪੈਰ ਟਿਕੇ ਹੋਏ ਸਨ।"

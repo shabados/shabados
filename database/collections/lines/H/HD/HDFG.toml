@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਸਾਡੀ ਤਸੱਲੀ ਖ਼ਿਜ਼ਰ ਜਾਣ ਮਸੀਹਾ ਤੋਣ ਭੀ ਨਹੀਣ ਹੋ ਸਕਦੀ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਤਸਕੀਨਿ ਮਾ ਜ਼ਿ ਖ਼ਿਜ਼ਰੋ ਮਸੀਹਾ ਨਮੀ ਸ਼ਵਦ ॥੨੪॥੨॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "O Guru! Kindly show me your sun-like face as soon as possible,"

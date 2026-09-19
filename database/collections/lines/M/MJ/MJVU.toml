@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਛਿਮ ਦੇਵ ਰਾਵ ਬਡਭਾਗੀ ॥"
 page = 975
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੱਛਮ ਵਿਚ ਦੇਵ ਨਾਂ ਦਾ ਵਡਭਾਗੀ ਰਾਜਾ ਸੀ।"

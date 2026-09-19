@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਰਗੀ ਗੰਧ੍ਰਬੀ ਜਛਾਨੀ ॥"
 page = 662
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਰਪ-ਸ਼ਕਤੀ, ਗੰਧਰਬ-ਸ਼ਕਤੀ, ਯਕਸ਼-ਸ਼ਕਤੀ,"

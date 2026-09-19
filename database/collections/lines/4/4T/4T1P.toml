@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਬਾਲਾ ਹੋਇ, ਨ ਵਡਾ ਕਹਾਇਆ ॥੯॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "It became great but never allowed itself to be called so."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਵਡਾ ਹੋਕੇ (ਬੀ) ਆਪਨੂੰ ਵਡਾ ਨਾ ਕਹਾਇਆ।"

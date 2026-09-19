@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਿ ਜੋਗ ਕਰੈ ਲਗੇ ਹ੍ਵੈ; ਜਤ੍ਰ ਤਤ੍ਰ ਉਦਾਸ ॥"
 page = 646
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Becoming unattached, they had begun the practice of Yoga"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੋਂ ਕਿਥੋਂ ਉਦਾਸ ਹੋ ਕੇ ਯੋਗ ਕਰਨ ਲਗੇ ਹਨ।"

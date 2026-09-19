@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਪੈ ਥੋ, ਅਬ ਜਲ ਹ੍ਵੈ ਗਯੋ ॥੨੩॥"
 page = 1020
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ ਇਹ ਦੁੱਧ ('ਪੈ') ਸੀ, ਹੁਣ ਪਾਣੀ ਹੋ ਗਿਆ ਹੈ ॥੨੩॥"

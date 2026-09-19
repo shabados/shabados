@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਤ ਨ ਧਾਮ ਹਮਾਰੇ ਭਯੋ ॥"
 page = 885
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘God has endowed us with lot of wealth, but we had no issue."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਡੇ ਘਰ ਕੋਈ ਪੁੱਤਰ ਨਹੀਂ ਹੋਇਆ ਹੈ।"

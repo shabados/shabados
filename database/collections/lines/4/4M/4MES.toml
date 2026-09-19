@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣ ਬਜੇ ਗਜੇ ਨਗਾਰੇ ॥"
 page = 211
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors raised loud shouts and the terrible trumpets resounded."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ ਦੇ ਅੰਦਰ ਨਗਾਰੇ ਵੱਜ ਗੱਜ ਰਹੇ ਸਨ।"

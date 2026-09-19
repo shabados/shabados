@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਪ੍ਰਭਾ ਧਰ ਹੈਂ ॥੩੫੦॥"
 page = 586
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His eyes are like the deer’s eyes and lotus, He is full of Mercy and Glory.350."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਦਰ ਪ੍ਰਭਾ ਨੂੰ ਧਾਰਨ ਕਰਨ ਵਾਲੇ ਹਨ ॥੩੫੦॥"

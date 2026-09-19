@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਜੁ ਆਧਿਕ ਦੇਸ ਬਟਾਇ ਦਿਯੋ ॥"
 page = 970
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then they called the prostitute and got halfthe sovereignty endowed to her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਅੱਧਾ ਰਾਜ ਵੰਡ ਦਿੱਤਾ।"

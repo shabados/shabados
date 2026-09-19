@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅੰਗਹੁ ਅੰਗੁ ਉਪਾਇਓਨੁ; ਗੰਗਹੁ ਜਾਣੁ ਤਰੰਗੁ ਉਠਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Guru Nanak created him ( Guru Angad) from his limbs as the waves are produced by Ganges out of itself."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਬਾਬੇ ਨੇ ਆਪਣੇ) ਸਰੀਰ ਤੋਂ ਸਰੀਰ ਉਤਪਤ ਕੀਤਾ (ਮਾਨੋਂ) ਗੰਗਾ ਥੋਂ ਤਰੰਗ ਉਠਾਇਆ।"

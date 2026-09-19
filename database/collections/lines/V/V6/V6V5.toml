@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਨ ਸਾਵਨ ਹੈਂ ॥੩੪੫॥"
 page = 585
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the Fascinator of women, Glorious and elegant, He allures the mind like the clouds of Sawan.345."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਵਣ ਦੇ ਬਦਲ ਵਾਂਗ ਹਨ ॥੩੪੫॥"

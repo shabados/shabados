@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਰਾਜ ਭਾਗ ਕਮਾਇ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ruling the prosperous kingdom for a long time,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਚਿਰ ਤਕ ਰਾਜ-ਭਾਗ ਕਮਾ ਕੇ"

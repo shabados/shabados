@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦਇਆ ਮੋਹਿ ਕੀਜੈ; ਦੇਵਾ ॥"
 page = 1005
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My Lord, bless me Thou with Thine mercy,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਸੁਆਮੀ! ਤੂੰ ਮੇਰੇ ਉਤੇ ਮਿਹਰ ਧਾਰ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Please bless me with Your Mercy, O Divine Lord,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਸੇ ਐਸੀ ਪ੍ਰਾਰਥਨਾ ਕਰਿ: ਹੇ ਦੇਵ! ਹਮਾਰੇ ਪਰ ਐਸੀ ਕ੍ਰਿਪਾ ਕਰਿ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਦੇਵ! ਮੇਰੇ ਉੱਤੇ ਦਇਆ ਕਰ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੋਹਿ = ਮੇਰੇ ਉੱਤੇ। ਦੇਵਾ = ਹੇ ਦੇਵ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Dios, bendíceme con Tu Misericordia,"

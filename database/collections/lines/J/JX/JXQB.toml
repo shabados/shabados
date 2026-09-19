@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ਼ੁਨੀਦ ਆਂ ਚੁ ਦਾਨਾਇ ਦਾਨਸ਼ ਨਿਹਾਦ ॥"
 page = 1394
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Because the one who endows helping hand,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਬੁੱਧੀਮਾਨ ਨੇ (ਰਾਜੇ ਦੀ ਗੱਲ) ਸੁਣ ਕੇ ਜਵਾਬ ਵਿਚ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੋ ਭੇਖ ਬਨਾਇ ਕੈ; ਤਹ ਤੇ ਕਰਿਯੋ ਪਿਯਾਨ ॥"
 page = 956
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Disguising as such, she commenced her plan,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਦਾ ਭੇਸ ਬਣਾ ਕੇ (ਉਸ ਨੇ) ਉਥੋਂ ਕੂਚ ਕੀਤਾ"

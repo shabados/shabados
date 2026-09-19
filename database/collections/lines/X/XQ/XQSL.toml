@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇੰਦਏਾਂਦ੍ਰਣੀ ਆਦਿ; ਉਚਾਰਨ ਕੀਜੀਐ ॥"
 page = 798
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਇੰਦ੍ਰ ਏਂਦ੍ਰਣੀ' (ਇੰਦਰ ਦੇ ਸੁਆਮੀ ਕਸ਼੍ਯਪ ਵਾਲੀ ਧਰਤੀ) ਸ਼ਬਦ ਉਚਾਰਨ ਕਰੋ।"

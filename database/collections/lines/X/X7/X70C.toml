@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਹੂੰ ਓਰ ਗਾਜੇ ਮਹਾ ਕਾਲ ਜੂ ਕੇ ॥"
 page = 1370
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਹਾ ਕਾਲ ਜੀ ਦੇ ਚੌਹਾਂ ਪਾਸੇ ਗਜਣ ਲਗੇ ਸਨ।"

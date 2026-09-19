@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਿਮਾ ਅਨੂਪ ॥੨੧੭॥"
 page = 653
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was a god for Sannyasis and for the virtuous people he was mysterious, unmanifested and of unparalleled greatness.217."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਮਹਿਮਾ ਅਨੂਪਮ ਹੈ ॥੨੧੭॥"

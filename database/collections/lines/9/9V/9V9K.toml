@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮਤਿ ਮੂਰਖੁ, ਚਿਤਿ ਨ ਆਣੈ ॥੧੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The wisdom of Gum never resides in the heart of a foolish person."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਲਈ) ਗੁਰੂ ਦੀ ਮਤ ਨੂੰ ਮੂਰਖ ਚਿਤ ਵਿਚ ਨਹੀਂ ਲਿਆਉਂਦਾ॥"

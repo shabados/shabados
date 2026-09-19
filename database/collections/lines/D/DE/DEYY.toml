@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੇ ਭਾਤਿ ਐਸੀ, ਸੁ ਮਾਨੋ ਭਭੂਕੇ ॥"
 page = 978
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸ ਤਰ੍ਹਾਂ ਚਲਦੇ ਸਨ ਮਾਨੋ ਭਾਂਬੜ ਹੋਣ।"

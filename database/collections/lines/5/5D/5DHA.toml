@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੁਛੜਿ ਲਏ ਗੋਵਿੰਦ ਰਾਇ; ਕਰਿ ਚੇਟਕੁ ਚਤੁਰੰਗ ਮਹੇਲੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Through her clever deception, she lifted Krishna in her lap."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਕੁੱਛੜ ਵਿਖੇ ਲੈ ਲੀਤਾ ਚਲਿੱਤ੍ਰ੍ਰਣ (ਸਰੀਰ ਨੂੰ) ਮਹਿਕਾ ਕੇ ਪਿਆਰ ਕਰਨ ਲਗੀ।"

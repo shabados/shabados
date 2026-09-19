@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੰਦ੍ਰਹ ਸੈ ਪਨਹੀ ਤਹ ਝਰੀ ॥੭॥"
 page = 925
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the Raja’s soldiers heard this, they gave him beating of fifteen hundred shoes,(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਨੂੰ ਪੰਦ੍ਰਹ ਸੌ ਜੁਤੀਆਂ ਮਾਰੀਆਂ ॥੭॥"

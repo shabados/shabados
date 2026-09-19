@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੇਰ ਝਾਜ ਬਾਜੈ ਰੁਨਝੁਨੀ ॥੩੨੯॥"
 page = 1382
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਤੇ) ਭੇਰੀਆਂ ਤੇ ਝਾਂਝਾਂ ਨੇ ਰੁਣਝੁਣ ਲਗਾਈ ਹੋਈ ਸੀ ॥੩੨੯॥"

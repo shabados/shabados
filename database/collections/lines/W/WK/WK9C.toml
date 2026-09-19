@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰ ਜਾਤ ਭਟੰ ਹਹਰੰਤ ਹਠੀ ॥"
 page = 188
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮੇ ਡਿਗਦੇ ਜਾਂਦੇ ਸਨ, ਹਠੀ ਸੈਨਿਕ ਘਬਰਾ ਰਹੇ ਸਨ।"

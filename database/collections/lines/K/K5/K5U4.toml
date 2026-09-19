@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਪਖਰੇ ਪੀਲ ਰਾਜਾ ਪ੍ਰਮਾਣੰ ॥"
 page = 271
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨਿਆਂ ਨੇ ਰਾਜਸੀ ਫਬ ਵਾਲੇ ਪਾਖਰਾਂ ਸਮੇਤ ਹਾਥੀ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਮ ਬੇਦ ਉਚਾਰਤ ਸਾਰਸੁਤੀ ॥"
 page = 32
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Superb Shrutis (of the Vedas) declare thus!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਪ੍ਰਕਾਰ ਦੇ ਵੇਦਾਂ ਦੇ ਕਥਨ ਸਰਸਵਤੀ ਉਚਾਰਦੀ ਹੈ।"

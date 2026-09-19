@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਠਉਰ ਨ ਛਤ੍ਰੀ ਏਕ ਨਰੰ ॥"
 page = 153
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“There is not even one Kshatriya in this place."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਸਥਾਨ ਤੇ ਇਕ ਵੀ ਛਤਰੀ ਮਨੁੱਖ ਨਹੀਂ ਹੈ।"

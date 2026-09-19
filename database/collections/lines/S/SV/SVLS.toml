@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਣੀ ਹੁਤੋ ਅਬ੍ਰਣ ਹ੍ਵੈ ਗਯੋ ॥੬੦॥"
 page = 923
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The gods showered their blessing and Bikrim’s injuries Were diminished.(60)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਕਰ ਕੇ) ਘਾਇਲ (ਰਾਜਾ ਬਿਕ੍ਰਮ) ਦੇ ਜ਼ਖ਼ਮ ਠੀਕ ਹੋ ਗਏ ॥੬੦॥"

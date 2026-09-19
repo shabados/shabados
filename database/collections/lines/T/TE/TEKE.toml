@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਸ਼ਸਤੰਦ ਬਰ ਤਖ਼ਤ ਰੂਮੀ ਹੁਮਾਇ ॥"
 page = 1410
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was the one, who was like the phoenix of Rome,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ (ਲੜਕੀ) ਹੁਮਾ ਪੰਛੀ ਵਾਂਗ ਰੂਮ ਦੇਸ਼ ਦੀ ਗੱਦੀ ਉਤੇ ਬੈਠੀ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਨਿ ਦੀਆ ਤੁਧੁ; ਪਾਵਕੁ ਬਲਨਾ ॥"
 page = 913
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and who gave thee fire to burn;"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਤੈਨੂੰ ਜਾਲਣ ਲਈ ਅੱਗ ਦਿੱਤੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He gave you burning fire;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਤੇਰੇ ਕੋ ਅਗਨੀ ਔ ਬਾਲਨ ਦੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪ੍ਰਭੂ ਨੇ ਤੈਨੂੰ ਅੱਗ ਦਿੱਤੀ, ਬਾਲਣ ਦਿੱਤਾ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਾਵਕੁ = ਅੱਗ। ਬਲਨਾ = ਬਾਲਣ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "con el fuego que se consume para darte calor."

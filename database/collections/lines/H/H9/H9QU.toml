@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਕਿਯਾ ਕੈਸੇ ਪਟ ਬਨੇ; ਗਗਨ ਭੂਮਿ ਪੁਨਿ ਦੋਇ ॥"
 page = 904
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The sky and the earth are like two grinding stones."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਕਾਸ਼ ਅਤੇ ਧਰਤੀ ਦੋਵੇਂ ਚੱਕੀ ਦੇ ਪੁੜਾਂ ਵਰਗੇ ਬਣੇ ਹੋਏ ਹਨ।"

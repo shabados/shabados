@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਗ਼ਰ ਰਾ ਬਪੁਰਸ਼ੀਦ ਅਪਸ ਚ ਕਰਦ ॥"
 page = 1396
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Where is the gift, which I granted you;"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੂਜੇ (ਪੁੱਤਰ) ਨੂੰ ਪੁਛਿਆ ਕਿ ਘੋੜਿਆਂ ਦਾ ਕੀ ਕੀਤਾ ਹੈ?"

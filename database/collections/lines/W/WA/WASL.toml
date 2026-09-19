@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਮ ਕਰਮ ਪਰ ਚਲੈ ਨ ਕੁਇ ਹੈ ॥"
 page = 553
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The earth will be pressed underneath with weight and no one will follow the follow the religious tenets"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਧਰਮ-ਕਰਮ (ਦੇ ਮਾਰਗ) ਉਤੇ ਕੋਈ ਨਹੀਂ ਤੁਰੇਗਾ।"

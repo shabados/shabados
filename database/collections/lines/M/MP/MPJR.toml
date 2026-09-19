@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਿੰਨ ਭਿੰਨ ਜਿਮੁ ਦੇਹ ਧਰਾਏ ॥"
 page = 158
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "According as the Lord adopted different forms,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਕਾਲ ਨੇ) ਜਿਵੇਂ ਵਖ ਵਖ ਸ਼ਰੀਰ ਧਾਰਨ ਕੀਤੇ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਰਕਤ ਬੀਰਜ ਜੁਧ ਕਥਨੰ ॥"
 page = 106
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now the war with Rakat Biraj is described:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਰਕਤ-ਬੀਜ ਦੇ ਯੁੱਧ ਦਾ ਕਥਨ"

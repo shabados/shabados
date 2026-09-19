@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨਮ ਜਨਮ ਇਹ ਊਪਰ; ਬਲਿ ਬਲਿ ਜਾਇਯੈ ॥"
 page = 1111
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਇਸ ਉਪਰੋਂ ਜਨਮ ਜਨਮਾਂਤਰਾਂ ਤਕ ਕੁਰਬਾਨ ਹੁੰਦੇ ਰਹੀਏ।"

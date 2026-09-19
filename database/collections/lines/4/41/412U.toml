@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗਣਤ ਗਣੈ ਗੁਰਦੇਵ ਦੀ; ਤਿਸੁ ਦੁਖਿ ਵਿਹਾਵੈ ॥੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Those who slander the Guru, spend their life in sorrows."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਗੁਰਦੇਵ ਦੀ ਨਿੰਦਾ ਕਰੇ (ਉਹ ਉਪਰ ਕਥੇ ਅਪਾਹਜਾਂ ਵਾਂਗੂੰ) ਦੁਖਾਂ ਵਿਚ ਦਿਨ ਕਟੇਗਾ।"

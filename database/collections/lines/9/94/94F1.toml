@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਨਹੂੰ ਕਟਾਰੀ ਕਾਢਿ ਲੀ; ਕਿਨਹੂੰ ਤਨੀ ਕਮਾਨ ॥੯॥"
 page = 865
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Some were holding the spears and some bows and arrows.(9)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ ਨੇ ਕਟਾਰ ਕੱਢੀ ਹੋਈ ਸੀ ਅਤੇ ਕਿਸੇ ਨੇ ਕਮਾਨ ਕਸੀ ਹੋਈ ਸੀ ॥੯॥"

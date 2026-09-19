@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੂੰਜੜੀਆਂ ਵੈਸਾਖ ਵਿਚਿ; ਜਿਉ ਜੂਹ ਪਰਾਈਐ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "As in the month of Vaisakh migratory heron birds fly over foreign lands."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਵੈਸਾਖ ਵਿਚ ਜਿਕੂੰ ਕੂੰਜਾਂ ਪਰਾਈਆਂ ਜੂਹਾਂ ਵਿਚ (ਬੈਠਦੀਆਂ ਹਨ, ਸਦਾ ਓਥੇ ਰਖ ਲੈਣੀਆਂ ਅਸੰਭਵ ਹਨ)।"

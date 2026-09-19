@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਸਰਦਾਰੀਏ ਕਰਦ ਪੇਸ਼ੀਨਹ ਫ਼ੌਜ ॥"
 page = 1421
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Leading the frontal detachments,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਲੜਕੀ) ਨੂੰ ਫ਼ੌਜ ਦਾ ਸਰਦਾਰ ਬਣਾ ਦਿੱਤਾ"

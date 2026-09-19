@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੋਰਿ ਬ੍ਰਯਾਹਿਤਾ ਨਾਰਿ; ਕੇਲ ਤੋ ਸੋ ਨ ਕਮਾਊ ॥"
 page = 834
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Deserting behind my married woman (wife), I will never have sex with you."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੈਂ ਆਪਣੀ) ਵਿਆਹੀ ਹੋਈ ਇਸਤਰੀ ਨੂੰ ਛਡ ਕੇ ਤੇਰੇ ਨਾਲ ਕਾਮ-ਕੇਲ ਨਹੀਂ ਕਰਾਂਗਾ।"

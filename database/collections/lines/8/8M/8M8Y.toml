@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਾਧ ਕੀ ਉਪਮਾ; ਤਿਹੁ ਗੁਣ ਤੇ ਦੂਰਿ ॥"
 page = 272
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The greatness of the saints is beyond the three qualities."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤਾਂ ਦੀ ਵਡਿਆਈ ਤਿੰਨਾਂ ਹੀ ਲੱਛਣਾ ਤੋਂ ਪਰੇਡੇ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The greatness of the Holy people is beyond the three qualities."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਿਉਂਕਿ ਸੰਤੋਂ ਕੀ ਮਹਿਮਾ ਤੀਨੋਂ ਗੁਣੋਂ ਸੇ ਦੂਰ ਅਰਥਾਤ ਪਰੇ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧ ਦੀ ਸਮਾਨਤਾ ਤਿੰਨਾਂ ਗੁਣਾਂ ਤੋਂ ਪਰੇ ਹੈ (ਭਾਵ, ਜਗਤ ਦੀ ਰਚਨਾ ਵਿਚ ਕੋਈ ਅਜੇਹੀ ਹਸਤੀ ਨਹੀਂ ਜਿਸ ਨੂੰ ਸਾਧ ਵਰਗਾ ਕਿਹਾ ਜਾ ਸਕੇ; ਹਾਂ)"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਉਪਮਾ = ਸਮਾਨਤਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "La Grandeza de los Santos está más allá de las tres cualidades."

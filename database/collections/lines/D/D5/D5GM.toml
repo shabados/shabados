@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਿਸੁ ਬਿਨੁ; ਅਵਰੁ. ਨਹੀ ਮੈ ਕੋਇ ॥"
 page = 1172
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Without Him, I lean not on another."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਬਾਝੋਂ ਮੈਨੂੰ ਹੋਰ ਕਿਸੇ ਦਾ ਆਸਰਾ ਨਹੀਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Without Him, I have no other at all."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਪਰਮੇਸ੍ਵਰ ਸੇ ਬਿਨਾਂ ਮੇਰਾ ਸਹਾਇਕ ਔਰ ਕੋਈ ਨਹੀਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਪ੍ਰਭੂ ਤੋਂ ਬਿਨਾ ਮੈਨੂੰ ਹੋਰ ਕੋਈ ਬੇਲੀ ਨਹੀਂ ਦਿੱਸਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sin Ti, no me apoyo en nada ni en nadie."

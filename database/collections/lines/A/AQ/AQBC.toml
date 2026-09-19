@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰੁਝੇ ਕਿਕਾਣੀ ॥"
 page = 185
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘੋੜ ਚੜ੍ਹੇ ਸੂਰਮੇ (ਆਪਸ ਵਿਚ) ਉਲਝੇ ਹੋਏ ਸਨ।"

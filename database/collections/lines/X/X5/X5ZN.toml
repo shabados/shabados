@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰਾ ਪਸਟਣੀ ਪਾਰਬਤੀ ਦੁਸਟ ਹਰਤਾ ॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the greatest apsara, Parbati and the killer of tyrants."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਾ (ਬ੍ਰਹਮਵਿਦਿਆ) ਪਸਟਣੀ (ਪ੍ਰਸੰਨ ਹੋਣ ਵਾਲੀ) ਪਾਰਬਤੀ ਅਤੇ ਦੁਸ਼ਟਾਂ ਨੂੰ ਮਾਰਨ ਵਾਲੀ (ਨੂੰ ਨਮਸਕਾਰ ਹੈ);"

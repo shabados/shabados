@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਪਿ ਤਰੈ; ਲੋਕਹ ਨਿਸਤਾਰ ॥"
 page = 295
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He swims himself and makes other people swim across."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਖੁਦ ਤਰ ਜਾਂਦਾ ਤੇ ਹੋਰਨਾਂ ਲੋਕਾਂ ਨੂੰ ਤਾਰ ਲੈਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He himself swims across, and saves others as well."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਵਹੁ ਆਪ ਤਰੇ ਹੈਂ ਪੁਨਾ ਔਰ ਲੋਕੋਂ ਕੋ ਤਾਰਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ ਕਮਾਉਂਦਾ ਹੈ) ਉਹ ਆਪ ਤਰਦਾ ਹੈ ਤੇ ਲੋਕਾਂ ਦਾ ਭੀ ਨਿਸਤਾਰਾ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਲੋਕਹ ਨਿਸਤਾਰ = ਲੋਕਾਂ ਦਾ ਨਿਸਤਾਰਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "su vida es próspera y su compañía fructífera,"

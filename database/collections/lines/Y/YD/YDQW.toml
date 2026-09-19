@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹ ਤ੍ਰਿਯ ਹਠੀ ਰਾਵਹੂੰ ਜਾਨ︀ਯੋ ॥"
 page = 927
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In spite of beating she did not confess and the Raja thought she was stubborn."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਇਹ ਇਸਤਰੀ ਬਹੁਤ ਹਠ ਵਾਲੀ ਹੈ।"

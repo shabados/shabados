@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਗਿ ਊਧਵ ਕੇ ਕਬਿ ਸ︀ਯਾਮ ਕਹੈ ਬਿਨਤੀ ਕਰਿ ਕੈ ਇਮ ਉਚਰਿਓ ॥"
 page = 390
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਵੀ ਸ਼ਿਆਮ ਕਹਿੰਦੇ ਹਨ, (ਗੋਪੀਆਂ ਨੇ) ਬੇਨਤੀ ਕਰ ਕੇ ਊਧਵ ਨਾਲ ਇਸ ਤਰ੍ਹਾਂ ਉਚਾਰਿਆ।"

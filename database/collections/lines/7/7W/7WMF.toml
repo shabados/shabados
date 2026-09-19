@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਨਮੁਖਿ ਜੋਨਿ ਭਵਾਈਅਨਿ; ਗੁਰਮੁਖਿ ਹਰਿ ਮੇਲਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Whereas the dissenter remains in transmigration, the Gurmukh is assimilated in Har."

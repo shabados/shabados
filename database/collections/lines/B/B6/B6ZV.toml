@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਕ ਨਿਵਾਰਿ ਸੁਖੀ ਹ੍ਵੈ ਜੀਯੈ ॥"
 page = 1089
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਪਿਆਸ ਤੋਂ ਪੈਦਾ ਹੋਏ) ਦੁਖ ਨੂੰ ਦੂਰ ਕਰ ਕੇ ਸੁਖੀ ਹੁੰਦੇ ਹਾਂ।"

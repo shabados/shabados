@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੇਰਨ ਬ︀ਯਾਹ ਰੁਕੰਮਨਿ ਕੋ ਅਤਿ ਹੀ ਚਿਤ ਮੈ ਸੁ ਹੁਲਾਸ ਬਢੈ ਕੈ ॥"
 page = 495
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many other kings reached there alongwith their fourfold army, getting pleased, reached there in order to see the wedding of Rummani"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰੁਕਮਨੀ ਦੇ ਵਿਆਹ ਨੂੰ ਦੇਖਣ ਲਈ (ਉਨ੍ਹਾਂ ਨੇ) ਆਪਣੇ ਮਨ ਵਿਚ ਉਤਸਾਹ ਵਧਾਇਆ ਹੈ।"

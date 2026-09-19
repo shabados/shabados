@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਣਿ ਦਿਖਾਊ ਤੁਹਿ ਨ੍ਰਿਪ ਨਾਗਰਿ ॥੧੭॥"
 page = 1223
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਉਸ ਨੂੰ ਲਿਆ ਕੇ ਤੁਹਾਨੂੰ ਅਤੇ ਚਤੁਰ ਰਾਜੇ ਨੂੰ ਵਿਖਾਉਂਦੀ ਹਾਂ ॥੧੭॥"

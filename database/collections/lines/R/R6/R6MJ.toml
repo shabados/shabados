@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾਗੜਦੰਗ ਤੈ ਕੈ ਹਨੂ ਤਉ ਪੁਕਾਰੇ ॥੫੭੯॥"
 page = 260
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All those who fought with him suffered defeat and for this reason Hanuman is called the “killer of all”.579."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਗੁੱਸਾ ਖਾ ਕੇ ਹਨੂਮਾਨ ਕਹਿਣ ਲੱਗਾ ॥੫੭੯॥"

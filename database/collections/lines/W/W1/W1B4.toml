@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਇਸ ਰਾਜ ਦਯੋ ਤਤਕਾਲਹ ॥"
 page = 218
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਤੁਰੰਤ ਹੁਕਮ ਦਿੱਤਾ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਨਿ ਚਾਖਿਆ; ਤਿਨਿ ਦਰਸਨੁ ਡੀਠਾ ॥"
 page = 1032
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Whosoever tastes it, he sees the Lord's vision."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਕੋਈ ਭੀ ਇਸ ਨੂੰ ਛਕਦਾ ਹੈ, ਉਹ ਸਾਈਂ ਦੇ ਦੀਦਾਰ ਨੂੰ ਵੇਖ ਲੈਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Whoever tastes it, sees the Blessed Vision of the Lord's Darshan."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਇਸ ਰਸ ਕੋ ਚਾਖਿਆ ਹੈ ਤਿਸ ਨੇ ਭਗਵੰਤ ਕਾ ਦਰਸਨੁ ਡੀਠਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਇਹ ਸੁਆਦ ਚੱਖਿਆ ਹੈ ਉਸ ਨੇ ਪਰਮਾਤਮਾ ਦਾ ਦੀਦਾਰ ਕਰ ਲਿਆ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਿਨਿ = ਜਿਸ ਮਨੁੱਖ ਨੇ। ਤਿਨਿ = ਉਸ (ਮਨੁੱਖ) ਨੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y quien sea que la prueba, logra la Visión de Dios."

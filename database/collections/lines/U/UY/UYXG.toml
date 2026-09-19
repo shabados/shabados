@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੰਕ ਨਾਮ ਦਿਜਬਰ ਇਕ ਸੁਨਾ ॥"
 page = 844
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੰਕ ਨਾਂ ਦਾ ਇਕ ਬ੍ਰਾਹਮਣ ਸੁਣਿਆ ਸੀ।"

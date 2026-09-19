@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਹੁ ਨਾਨਕ. ਤੁਮਰੀ ਸਰਣਾਈ ॥"
 page = 1147
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Says Nanak, I have entered Thy sanctuary,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਜੀ ਆਖਦੇ ਹਨ ਮੈਂ ਤੇਰੀ ਪਨਾਹ ਲਈ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Says Nanak, I have come to Your Sanctuary."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਐਸੇ ਕਹੋ: ਹੇ ਗੁਰੋ! ਮੈਂ ਆਪ ਕੀ ਸਰਣ ਲਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਨਾਨਕ ਆਖਦਾ ਹੈ-  ਮੈਂ ਤੇਰੀ ਸਰਨ ਆਇਆ ਹਾਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਾਨਕ = ਹੇ ਨਾਨਕ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Tesoro de todo Mérito. He buscado Tu Santuario, tómame entonces,"

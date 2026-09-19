@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਚਰੰਤ ਪਰਮ ਉਸਤਤਿ ਅਭੇਵ ॥"
 page = 640
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Dutt, bowing before the Lord, eulogized the Unmanifested Brahman who is the Sovereign of Sovereigns,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਪਰਮ ਦੇਵ ਅਤੇ ਅਭੇਵ ਦੀ ਉਸਤਤ ਉਚਾਰੀ।"

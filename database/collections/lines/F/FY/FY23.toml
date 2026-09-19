@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਪੁ ਗਵਾਇ, ਨ ਆਪੁ ਗਣਾਇਆ ॥੧੩॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Gurmukhs efface their individuality and do not pose to assert themselves."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ) ਨਿਰਹੰਕਾਰ ਹੋਕੇ (ਗੁਰਮੁਖਾਂ ਨੇ) ਆਪਾ ਭਾਵ ਨਹੀਂ ਗਿਣਾਇਆ (ਤਿਲਾਂਜਲੀ ਦੇ ਛੱਡੀ ਹੈ)।"

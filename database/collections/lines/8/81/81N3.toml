@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੰਧਾਗਿਰ ਪਰਬਤ ਜਿਹ ਧਾਮਾ ॥"
 page = 1207
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਘਰ ਗੰਧਾਗਿਰ ਪਰਬਤ ਵਿਚ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੀਨ ਨਾਮ ਨਾਲੀ ਕੋ ਲੀਜੈ ॥੬੭੪॥"
 page = 748
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Uttering firstly the words “Kaashth-Prashthani” and thinking about all the names of Tupak and then adding the words “Drum-Vaasani”, recognize the name of “Naalidaar Tupak”.674."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਨਾਲੀ (ਤੁਪਕ) ਦਾ ਨਾਮ ਹੈ ॥੬੭੪॥"

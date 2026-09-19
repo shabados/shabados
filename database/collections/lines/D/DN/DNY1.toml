@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨੰਦਮਾਨ ਸਭ ਭਈ ਭੋਮ ॥੪੬॥"
 page = 638
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Because of him, the whole earth became blissful.46."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀ ਭੂਮੀ ਆਨੰਦਮਈ ਹੋ ਗਈ ਸੀ ॥੪੬॥"

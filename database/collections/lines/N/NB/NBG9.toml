@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਯੰਤੀ ਤੁਹੀ ਮੰਗਲਾ ਰੂਪ ਕਾਲੀ ॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You are Jayanti, Mangal, Kali, Kapali"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਜਯੰਤੀ, ਮੰਗਲਾ, ਕਾਲੀ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਭੂਖਨ ਚੀਰ ਜਰਾਵ ਜਰੀ ॥"
 page = 663
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਤਰ੍ਹਾਂ ਦੇ ਜ਼ੇਵਰ, ਜ਼ਰੀ ਦੇ ਜੜ੍ਹੇ ਹੋਏ ਬਸਤ੍ਰ (ਦਮਕ ਰਹੇ ਹਨ)"

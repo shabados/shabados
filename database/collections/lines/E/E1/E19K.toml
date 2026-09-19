@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਨੇ ਪਛਮੀ ਦੀਹ ਦਾਨੋ ਦਿਵਾਨੇ ॥"
 page = 602
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੱਛਮ ਦਿਸ਼ਾ ਵਿਚ ਵੱਡੇ ਆਕਾਰ ਦੇ ਦਿਵਾਨੇ ਦਾਨਵ ਮਾਰ ਦਿੱਤੇ ਗਏ ਹਨ।"

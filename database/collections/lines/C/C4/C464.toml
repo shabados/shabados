@@ -1,36 +1,36 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਸਾ ਸ੍ਰੀ ਕਬੀਰ ਜੀਉ ਕੇ ਦੁਪਦੇ ॥"
 page = 483
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Asa Reverend Kabir. Dupade."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਸਾ ਪੂਜਯ ਕਬੀਰ। ਦੁਪਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Aasaa Of Kabeer Jee, Dho-Padhay:"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਆਸਾ ਵਿੱਚ ਭਗਤ ਕਬੀਰ ਜੀ ਦੀ ਦੋ-ਬੰਦਾਂ ਵਾਲੀ ਬਾਣੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Asa, Sri Kabir yi, Du-Padas"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਬ੍ਰਹਮਾ ਅਵਤਾਰ ਕਥਨੰ ॥"
 page = 611
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now being the description of Brahma Incarnation"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਬ੍ਰਹਮਾ ਅਵਤਾਰ ਦਾ ਕਥਨ:"

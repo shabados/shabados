@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਦਾਨਵ ਰੋਸ ਭਰੇ ਸਬ ਹੀ ॥"
 page = 101
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the demons were filled with anger,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਦੁਰਗਾ ਦੇ ਬਾਣ (ਉਨ੍ਹਾਂ ਦੈਂਤਾਂ ਨੂੰ) ਲਗੇ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਜਿਤ ਇੰਦ੍ਰਾਣੀ ॥"
 page = 628
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the beauty of the queens, the wife of Indra also felt shy"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇੰਦ੍ਰਾਣੀ ਵੀ ਲਜਿਤ ਹੋ ਰਹੀ ਸੀ।"

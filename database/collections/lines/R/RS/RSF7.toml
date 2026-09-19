@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਦੀਦਨ ਤੁਰਾ ਮਨ ਬਸ ਆਜ਼ੁਰਗਦਹਅਮ ॥"
 page = 1414
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(Shiva said), ‘I am much afflicted on seeing you."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਵਿਅਕਤੀ) ਨੇ ਇਸਤਰੀ ਨੂੰ ਕਿਹਾ, ਤੈਨੂੰ ਗ਼ਮਗੀਨ ਵੇਖ ਕੇ ਮੈਂ ਦੁਖੀ ਹੋਇਆ ਹਾਂ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਏ ਪਾਪ ਦੂਰੰ ॥"
 page = 209
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Yajna (of Vishwamitra) was complete and all the sins were destroyed."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪਾਪ ਦੂਰ ਹੋ ਗਏ ।"

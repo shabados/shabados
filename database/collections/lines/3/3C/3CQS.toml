@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਮਾਰੁ ਮਾਰੁ ਘਾਵਹੀ ॥"
 page = 185
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many warriors are running forward and with their blows are wounding the enemies."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ 'ਮਾਰੋ' 'ਮਾਰੋ' ਬੋਲ ਰਹੇ ਸਨ।"

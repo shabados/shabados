@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮ ਪਰਮ ਪਵਿਤ੍ਰ ਹੈ; ਰਘੁਬੰਸ ਕੇ ਅਵਤਾਰ ॥"
 page = 219
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The incarnation of Ram of the clan of Raghu is extremely pure."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮ ਰਘੂਬੰਸ ਦੇ ਪਰਮ ਪਵਿੱਤਰ ਅਵਤਾਰ ਹਨ।"

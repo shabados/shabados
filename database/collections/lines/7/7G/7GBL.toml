@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਣ ਕਾਸਟ ਘਿਰਤ ਅਸੇਖ ॥"
 page = 709
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then with many grass-blades, the faggots alongwith ghee (clarified butter),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਵਿਚ) ਬਹੁਤ ਸਾਰੇ ਕੱਖ, ਲਕੜਾਂ ਅਤੇ ਘਿਓ (ਪਾਇਆ ਹੋਇਆ ਸੀ)।"

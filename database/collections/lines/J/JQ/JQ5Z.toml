@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਤ ਕਤ ਪੇਖਉ; ਏਕੈ ਓਹੀ ॥"
 page = 387
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Where ever I behold, I behold that Lord alone."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਕਿਤੇ ਭੀ ਮੈਂ ਦੇਖਦਾ ਹਾਂ, ਮੈਂ ਕੇਵਲ ਉਸ ਸੁਆਮੀ ਨੂੰ ਹੀ ਪਾਉਂਦਾ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Wherever I look, I see that One Lord alone."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਸੋਈ) ਓਹੀ ਏਕ (ਜਤ ਕਤ) ਜਹਾਂ ਕਹਾਂ ਦੇਖੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਮੈਂ ਜਿਧਰ ਕਿਧਰ ਵੇਖਦਾ ਹਾਂ ਮੈਨੂੰ ਇਕ ਪਰਮਾਤਮਾ ਹੀ ਦਿੱਸਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਤ ਕਤ = ਜਿਧਰ ਕਿਧਰ। ਪੇਖਉ = ਪੇਖਉਂ, ਮੈਂ ਵੇਖਦਾ ਹਾਂ। ਓਹੀ = ਉਹ (ਪਰਮਾਤਮਾ) ਹੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "A donde sea que volteas solamente encuentras a Dios, el Señor;"

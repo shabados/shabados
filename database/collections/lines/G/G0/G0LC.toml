@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰੁ ਪਦ ਪੰਕਜ ਹਾਥ ਲਗਾਈ ॥"
 page = 1317
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ 'ਪਦ ਪੰਕਜ' (ਚਰਨ ਕਮਲਾਂ) ਨੂੰ ਹੱਥ ਲਗਾਇਆ।"

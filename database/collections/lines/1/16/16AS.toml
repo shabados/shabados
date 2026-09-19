@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਛਬੀਲ ਦਾਸ ਥੋ ਛਤ੍ਰੀ ॥"
 page = 1211
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ (ਇਕ) ਛਬੀਲ ਦਾਸ ਨਾਂ ਦਾ ਛਤ੍ਰੀ ਰਹਿੰਦਾ ਸੀ"

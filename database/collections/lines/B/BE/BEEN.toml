@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਇ ਨ ਜਾਈ; ਰਹਿਆ ਸਮਾਈ ॥"
 page = 1138
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord comes and goes not, but is pervading every where."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਆਉਂਦਾ ਅਤੇ ਜਾਂਦਾ ਨਹੀਂ ਪ੍ਰੰਤੂ ਹਰ ਥਾਂ ਵਿਆਪਕ ਹੋ ਰਿਹਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "God does not come or go; He is All-pervading and permeating."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਆਵਤਾ ਜਾਤਾ ਨਹੀਂ ਔਰ ਚੇਤਨ ਸਤਾ ਕਰ ਸਰਬ ਵਿਖੇ ਸਮਾਇ ਰਹਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜਾ ਪਰਮਾਤਮਾ ਨਾਹ ਜੰਮਦਾ ਹੈ ਨਾਹ ਮਰਦਾ ਹੈ ਜਿਹੜਾ ਪਰਮਾਤਮਾ ਸਭ ਥਾਈਂ ਵਿਆਪਕ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਇ ਨ ਜਾਈ = ਜਿਹੜਾ ਪ੍ਰਭੂ ਨਾਹ ਜੰਮਦਾ ਹੈ ਨਾਹ ਮਰਦਾ ਹੈ। ਰਹਿਆ ਸਮਾਈ = ਜਿਹੜਾ ਪ੍ਰਭੂ ਸਭ ਥਾਂ ਵਿਆਪਕ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Señor no va ni viene, pero prevalece en todo y así Nanak, el Esclavo del Señor,"

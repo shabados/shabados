@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਠਾਕੁਰ ਕਾ ਦਾਸੁ; ਗੁਰਮੁਖਿ ਹੋਈ ॥"
 page = 355
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "he alone is the servant, slave and devotee."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੇਵਲ ਓਹੀ ਨੌਕਰ, ਗੋਲਾ ਅਤੇ ਭਗਤ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "who as Gurmukh, becomes the slave of his Lord and Master."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਕੇ ਸਨਮੁਖ ਰਹਣੇ ਵਾਲਾ ਮਨੁੱਖ ਹੀ ਪਰਮਾਤਮਾ ਕਾ ਦਾਸ ਬਨਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹੀ ਮਨੁੱਖ (ਅਸਲ) ਸੇਵਕ ਹੈ ਦਾਸ ਹੈ ਭਗਤ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੁਰਮੁਖਿ = ਗੁਰੂ ਵਲ ਮੂੰਹ ਰੱਖਣ ਵਾਲਾ, ਜੋ ਗੁਰੂ ਦੇ ਸਨਮੁਖ ਰਹੇ, ਗੁਰੂ ਦੇ ਦੱਸੇ ਰਾਹ ਤੇ ਤੁਰਨ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "el Gurmukj, el que vive apegado al Servicio de Dios."

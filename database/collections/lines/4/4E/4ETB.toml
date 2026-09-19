@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਹ ਏਕਹਿ ਏਕ; ਏਕ ਭਗਵੰਤਾ ॥"
 page = 291
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "When there was but one Unique Lord,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਕੇਵਲ ਇਕ ਅਦੁੱਤੀ ਸਾਹਿਬ ਸੀ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "When there was only the One, the One and Only Lord God,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਹਾਂ ਸਜਾਤੀ੍ਯ ਵਿਜਾਤੀ ਸ੍ਵਗਤ ਭੇਦ ਸੇ ਰਹਿਤ ਏਕ ਭਗਵੰਤ ਹੀ ਥਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਭਗਵਾਨ ਕੇਵਲ ਇਕ ਆਪ ਹੀ ਸੀ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuando Él estaba Solo, se satisfacía a Sí Mismo"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਤਿਨ ਸਾਹ ਨ ਚਿਤ ਤੇ ਟਾਰੇ ॥੬॥"
 page = 1238
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਉਸ ਬਾਦਸ਼ਾਹ ਨੇ ਕਦੇ ਚਿਤ ਤੋਂ ਭੁਲਾਇਆ ਨਹੀਂ ॥੬॥"

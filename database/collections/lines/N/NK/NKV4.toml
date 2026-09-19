@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤਬ ਛੂਟੈ ਬੰਧਨ ਸਕਲ; ਫੁਨ ਨਰਕਿ ਨ ਜਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "`So that all the restraints are erased, and one retreats not to the hell.'"

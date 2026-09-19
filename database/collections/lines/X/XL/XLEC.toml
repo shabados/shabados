@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਨ ਨਾਰਿ ਕੇ ਧਾਮਿ ਛੁਧਾਤੁਰ ॥"
 page = 188
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "At the same time, the great sage Narada reached the house of Vishnu and he was very hungry."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਲੱਛਮੀ ਦੇ ਘਰ ਆ ਗਿਆ।"

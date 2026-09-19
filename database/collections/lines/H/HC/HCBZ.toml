@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਓਹੁ ਪਾਹਣੁ; ਲੈ ਉਸ ਕਉ ਡੁਬਤਾ ॥੨॥"
 page = 739
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "that stone drowns him along with itself."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪੱਥਰ ਹੀ ਉਸ ਨੂੰ ਲੈ ਕੇ ਡੁਬ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "that stone pulls him down and drowns him. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਵਹੁ ਪਥਰ ਲੈ ਕੇ ਉਸੀ ਕੋ ਡੂਬਤਾ ਹੈ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪੱਥਰ (ਆਪਣੇ) ਉਸ (ਪੁਜਾਰੀ) ਨੂੰ ਭੀ ਲੈ ਕੇ (ਪਾਣੀ ਵਿਚ) ਡੁੱਬ ਜਾਂਦਾ ਹੈ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "lo ahoga al final junto con ese ídolo mismo. (2)"

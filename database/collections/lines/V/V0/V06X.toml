@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਾਇ ਲਗੇ ਘਾਯਲ ਜਨੁ ਘੂੰਮਾ ॥"
 page = 1239
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਜ ਲਗਦਾ ਸੀ) ਮਾਨੋ ਘਾਉ ਲਗਣ ਤੇ ਘਾਇਲ ਘੁੰਮਦਾ ਹੋਵੇ।"

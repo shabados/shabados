@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਫਿਰਤ ਰੂਪ ਉਦਾਸ ॥੧੯॥੪੯॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And somewhere one follows the path of Sannyas (asceticism),somewhere someone wanders as an Udasi (stoic).19.49."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਕੋਈ (ਤਪਸਵੀ) ਸੰਸਾਰ ਤੋਂ ਉਪਰਾਮ ਹੋ ਕੇ ਫਿਰ ਰਿਹਾ ਹੈ ॥੧੯॥੪੯॥"

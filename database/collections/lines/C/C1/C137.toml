@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਨਵੰਤ ਅੰਗਦ ਰੀਛਨੰ ॥"
 page = 281
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Alongwith Sugriva, Vibhishan, Hanuman, Angad, Jambvant,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਨੂਮਾਨ, ਅੰਗਦ ਅਤੇ ਜਾਮਵੰਤ ਆਦਿ ਸੈਨਾਪਤੀਆਂ ਵਾਲੀ"

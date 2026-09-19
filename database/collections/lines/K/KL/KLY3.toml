@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੰਦ ਚਲਿਓ ਗ੍ਰਿਹ ਕੋ ਜਬੈ; ਸੁਨੀ ਬਾਤ ਬਸੁਦੇਵ ॥"
 page = 298
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਨੰਦ ਘਰ ਨੂੰ ਚਲਿਆ (ਤਦੋਂ) ਬਸੁਦੇਵ ਨੇ (ਸਾਰੇ ਲੜਕਿਆਂ ਨੂੰ ਮਰਵਾਉਣ ਦੀ ਜੋ) ਗੱਲ ਸੁਣੀ ਸੀ"

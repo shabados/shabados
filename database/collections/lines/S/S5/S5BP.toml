@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਫੁਰਮਾਇਸਿ ਬਹੁਤੁ ਚਲਾਏ ॥"
 page = 989
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He issues many commands."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਘਣੇਰੇ ਹੁਕਮ ਜਾਰੀ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He issues all sorts of commands."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੁਕਮ ਭੀ ਬਹੁਤ ਹੀ ਚਲਾਵਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੁਕਮ ਭੀ ਬਥੇਰਾ ਚਲਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਫੁਰਮਾਇਸਿ = ਹਕੂਮਤ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "nos dormimos en aposentos confortables"

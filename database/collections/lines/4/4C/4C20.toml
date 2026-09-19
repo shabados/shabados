@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਖ ਪੜਤ ਅਛ੍ਰ ਗਯੋ ਪਾਪ ਨਾਠ ॥"
 page = 641
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, Dutt recited the eulogy and by this recitation, all the sins fled away"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਦੇ) ਅੱਖਰਾਂ ਨੂੰ ਪੜ੍ਹਦਿਆਂ ਪਾਪ ਨਸ ਗਿਆ ਹੈ।"

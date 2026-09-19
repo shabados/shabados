@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਪਰ ਕ੍ਰਿਪਾ ਚਛੁ ਕਰਿ ਹੇਰੈ ॥"
 page = 903
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whom-so-ever He takes under his sanctuary,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ (ਉਹ) ਮਿਹਰ ਦੀ ਦ੍ਰਿਸ਼ਟੀ ਨਾਲ ਵੇਖਦਾ ਹੈ,"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਾਇਆ ਮੋਹਿ; ਭਰਮਿ ਨ ਪਾਏ ॥"
 page = 1066
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Through the Love of the world, one has to wander in existences."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਦੀ ਮਮਤਾ ਰਾਹੀਂ, ਇਨਸਾਨ ਨੂ ਜੂਨੀਆਂ ਅੰਦਰ ਭਟਕਣਾ ਪੈਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "In attachment to Maya and doubt, the Lord is not found."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੀਵ ਮਾਇਆ ਕੇ ਮੋਹ ਕਰ ਕੇ ਚੌਰਾਸੀ ਮੇਂ ਭਰਮਣਾ ਹੀ ਪਾਵਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮਾਇਆ ਦੇ ਮੋਹ ਵਿਚ, ਭਟਕਣਾ ਵਿਚ ਫਸਿਆ ਹੋਇਆ ਮਨੁੱਖ ਪਰਮਾਤਮਾ ਨੂੰ ਨਹੀਂ ਮਿਲ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੋਹਿ = ਮੋਹ ਵਿਚ। ਭਰਮਿ = ਭਟਕਣਾ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Engañado por Maya, uno es relegado a tener dudas."

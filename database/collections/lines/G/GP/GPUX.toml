@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਂਗੈ ਅੰਦਰਿ ਸਾਬਤੇ; ਸੇ ਵਿਰਲੇ ਬੰਦੇ ॥੨੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Rare are the people who remain completely poised during the sham."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਗੱਲ ਕੀ) ਸਾਂਗ ਦੇ ਅੰਦਰ ਜੋ ਭਰੋਸਾ ਰੱਖਦੇ ਹਨ, ਓਹ (ਈਸ਼ਵਰ ਦੇ) ਦਾਸ ਬਹੁਤ ਥੋੜੇ ਹਨ।"

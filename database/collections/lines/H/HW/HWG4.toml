@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਮ ਕ੍ਰੋਧ ਹੰਕਾਰ ਲੋਭ ਹਠ ਮੋਹ ਨ ਮਨ ਸਿਉ ਲ︀ਯਾਵੈ ॥"
 page = 709
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Keep your mind unattached from lust, anger, greed, insistence and infatuation,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਮ, ਕ੍ਰੋਧ, ਹੰਕਾਰ, ਲੋਭ, ਹਠ, ਮੋਹ, ਨੂੰ ਮਨ ਵਿਚ ਕਦੇ ਨਾ ਲਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿਰ ਖੋਦਿ ਭੂਮੈ, ਤਿਸੈ ਗਾਡਿ ਡਾਰਿਯੋ ॥"
 page = 988
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "First she displayed him in the village and then she buried him in the ground."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਭੂਮੀ ਖੋਦ ਕੇ ਉਸ ਨੂੰ ਗਡ ਦਿੱਤਾ।"

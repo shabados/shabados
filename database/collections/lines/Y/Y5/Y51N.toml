@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿੰਗੀ ਰਿਖਿ ਬਕਦਾਲਭ ਭਨੇ ॥"
 page = 708
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many sages like Vyas, Prashar, Shringi etc. have mentioned it"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰਿੰਗੀ ਰਿਸ਼ੀ ਅਤੇ ਬਕਦਾਲਭ ਆਦਿਕ (ਤੇਰਾ ਯਸ਼) ਕਹਿੰਦੇ ਹਨ।"

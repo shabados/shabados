@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਹੁਸਨਲ ਵਜੂ ਹੈਂ ॥"
 page = 7
 line = 6
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Thou art the Embodiment of Beauty!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ!) ਤੂੰ ਸੁੰਦਰਤਾ (ਹੁਸਨ) ਦੀ ਮੂਰਤੀ (ਵਜੂਦ) ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਕਿ, ਹੁਸਨੁਲ ਵਜੂ ਹੈਂ ॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੀਰ ਸਮੁੰਦ ਮਥਬੇ ਕਹ ਗਏ ॥"
 page = 982
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The devils and the gods, all, got together and went to churn the sea."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਛੀਰ ਸਮੁੰਦਰ ਰਿੜਕਣ ਲਈ ਗਏ।"

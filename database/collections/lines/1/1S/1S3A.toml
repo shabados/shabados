@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਿ ਮੁਨਿ ਮੋਹਿ ਕਥਾ ਸਮਝਾਈ ॥"
 page = 709
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Now they will not go away from me, O sage! describe them to me with clarity"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੁਨੀ ਨੇ (ਇਨ੍ਹਾਂ ਦੀ) ਕਥਾ ਮੈਨੂੰ ਸੁਣਾ ਦਿੱਤੀ ਹੈ।"

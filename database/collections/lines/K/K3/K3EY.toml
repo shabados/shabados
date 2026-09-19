@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗੇ ਚਲਾ ਰਾਜ ਸੰਨ︀ਯਾਸਾ ॥"
 page = 650
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੰਨਿਆਸ ਰਾਜ (ਦੱਤ) ਅਗੇ ਤੁਰ ਪਿਆ"

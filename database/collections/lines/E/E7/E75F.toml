@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਜਰੁ ਜਾਤਿ ਲੁਹਾਰੁ ਹੈ; ਗੁਰ ਸਿਖੀ ਗੁਰਸਿਖ ਸੁਣਾਵੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "One Lohar caste Sikh named Gujjar was there who preached Sikhism to the Sikhs of the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਜਰ ਨਾਮੇ ਗੁਰੂ (ਅੰਗਦ ਜੀ ਦਾ) ਸਿਖ ਜਾਤ ਦਾ ਲੁਹਾਰ ਸੀ ਇਹ ਗੁਰ ਸਿੱਖੀ ਦਾ ਉਪਦੇਸ਼ ਕਰਦਾ ਸੀ।"

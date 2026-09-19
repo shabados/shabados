@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਵਹੁ ਕਹੈ, ਸੋ ਹੌ ਕਰੌ; ਤਾ ਕੌ ਜਿਯਨ ਉਪਾਇ ॥੩੮॥"
 page = 921
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Him. ‘Whatever he desires, I will fulfi1.’(38)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਜੀਣ ਦਾ ਜੋ ਉਪਾ ਉਹ ਕਹੇਗਾ, ਮੈਂ ਕਰਾਂਗਾ ॥੩੮॥"

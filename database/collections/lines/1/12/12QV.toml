@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀਅ ਰਹੀ, ਰਨ ਰਾਮ ਜਿਤੇ; ਅਵਧੇਸਰ ਬਾਤ ਜਬੈ ਸੁਨਿ ਪਾਈ ॥"
 page = 215
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Dasrath came to know that after conquering Sita, Ram has also conquered the war,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੀਤਾ ਆਪਣੇ ਕੋਲ ਰਹੀ ਹੈ ਅਤੇ ਰਣ ਵਿੱਚ ਰਾਮ ਜਿੱਤੇ ਹਨ (ਇਹ) ਗੱਲ ਜਦੋਂ ਦਸ਼ਰਥ ਨੇ ਸੁਣੀ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁੰਦਰ ਸਦਨ ਹੁਤੋ ਜਹ ਨ੍ਰਿਪ ਬਰ ॥"
 page = 1184
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਥੇ) ਰਾਜੇ ਦਾ ਜੋ ਸੁੰਦਰ ਮਹੱਲ ਸੀ,"

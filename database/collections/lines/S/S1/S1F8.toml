@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੂਟਨੁ ਸੋਇ; ਜੁ ਮਨ ਕਉ ਕੂਟੈ ॥"
 page = 872
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He alone is a bawd, who chastens his mind."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੇਵਲ ਉਹ ਹੀ ਦਲਾ ਹੈ, ਜੋ ਆਪਣੇ ਮਨੂਏ ਨੂੰ ਕੁੱਟ ਕੇ ਠੀਕ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He alone is a pimp, who pounds down his mind."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕੂਟਨਿ ਤੌ ਸੋਇ ਕਹੀਤਾ ਹੈ, ਜੋ ਮਨ ਕੌ ਕੂਟਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਤੁਸੀ 'ਕੂਟਨ' ਠੱਗ ਨੂੰ ਆਖਦੇ ਹੋ, ਪਰ) ਕੂਟਨ ਉਹ ਭੀ ਹੈ ਜੋ ਆਪਣੇ ਮਨ ਨੂੰ ਮਾਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੂਟਨੁ = {Skt. ਕੂਟ=ਕੂੜ, ਠੱਗੀ, ਫ਼ਰੇਬ} ਠੱਗ, ਫ਼ਰੇਬੀ, ਦੱਲਾ; (੨) ਕੁੱਟਣ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El verdadero controlador de prostitutas es aquél que controla y disciplina su mente, quien disciplina su mente"

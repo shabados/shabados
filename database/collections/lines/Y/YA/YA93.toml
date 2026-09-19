@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਰਾਜੇ ਸੋ ਸਖੀ ਬਤਾਈ ॥"
 page = 1000
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Rani insisted, then Raja told her the name of the maid."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਰਾਜੇ ਨੇ ਉਹ ਸਖੀ ਦਸ ਦਿੱਤੀ।"

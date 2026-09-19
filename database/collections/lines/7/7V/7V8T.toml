@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੂਅਰੋ ਜਗ ਧਉਲੁਰ ਜਾਨਿ ਜਟੀ ॥"
 page = 674
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੁਨੀ ਯੋਗੀ ('ਜਟੀ') ਨੇ ਜਗਤ ਨੂੰ ਧੂੰਏ ਦੇ ਘਰ ਵਜੋਂ ਜਾਣ ਲਿਆ।"

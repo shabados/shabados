@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਹਮ ਗ︀ਯਾਨ ਨ੍ਰਿਪ ਕੋ ਸਮੁਝੈਹੋ ॥੫੫॥"
 page = 906
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Meditation. “Keeping an idol there, impart the celestial knowledge to the Raja.”(55)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਾਜੇ ਨੂੰ ਬ੍ਰਹਮ ਗਿਆਨ ਸਮਝਾਵਾਂਗਾ ॥੫੫॥"

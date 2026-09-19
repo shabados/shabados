@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਣੁ ਬੁਧਿ ਕੂਪੰ ॥੨੬੭॥"
 page = 656
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She appeared to be a store of intellect the sage saw her.267."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਬੁੱਧੀ ਦਾ ਖੂਹ ਹੋਵੇ ॥੨੬੭॥"

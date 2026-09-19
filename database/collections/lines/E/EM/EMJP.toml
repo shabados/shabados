@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਮਲੇਸ੍ਵਰ ਨ੍ਰਿਪ ਸੌ ਯੌ ਭਾਖੀ ॥"
 page = 1291
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਮਲਾ ਗੜ ਦੇ ਰਾਜੇ ਨੂੰ ਇਹ ਅਖਵਾ ਭੇਜਿਆ"

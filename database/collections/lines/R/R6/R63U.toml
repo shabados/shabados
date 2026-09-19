@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਰਿਯੋ ਜਾਇ ਦੁਰਗ ਸੁ ਬਾਰਾਣਸੀਸੰ ॥"
 page = 143
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king of Kashi concealed himself in his ciadel,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਸ਼ੀ ('ਬਾਰਾਣ') ਦਾ ਰਾਜਾ (ਡਰ ਦਾ ਮਾਰਿਆ) ਕਿਲੇ ਵਿਚ ਜਾ ਲੁਕਿਆ।"

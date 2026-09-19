@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤ੍ਰੰ ਧਰਤਾ ॥੧੪੧॥"
 page = 214
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Wearing their arms they are destroying the enemies.141."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਸਤ੍ਰਾਂ ਨੂੰ ਧਾਰਨ ਕਰਨ ਵਾਲਾ ਸੀ ॥੧੪੧॥"

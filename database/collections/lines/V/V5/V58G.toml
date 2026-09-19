@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਬਾਸ ਤਾ ਕੋ ਫਿਰੈ ਕੌਨ ਭੇਖਾ ॥"
 page = 1198
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਵਾਸ ਕਿਥੇ ਹੈ ਅਤੇ ਕਿਸ ਭੇਸ ਵਿਚ ਫਿਰਦਾ ਹੈ।"

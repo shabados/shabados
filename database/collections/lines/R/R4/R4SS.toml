@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਇਕਨਾ ਨੋ. ਨਾਉ ਬਖਸਿਓਨੁ; ਅਸਥਿਰੁ ਹਰਿ ਸਤੀ ॥"
 page = 948
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Ever-stable True Lord blesses some with His Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਦੀਵ ਸਥਿਰ ਸੱਚਾ ਸੁਆਮੀ ਕਈਆਂ ਨੂੰ ਆਪਣਾ ਨਾਮ ਪ੍ਰਦਾਨ ਕਰ ਦਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Some are blessed with the Name of the eternal, unchanging True Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਕਨਾ ਕੋ ਅਪਨਾ ਨਾਮ ਬਖਸਿਆ ਹੈ ਵਹੁ ਹੇ ਹਰੀ! ਤੇਰੇ ਸਤ ਸਰੂਪ ਕੇ ਸਾਥ ਇਸਥਿਤ ਹੂਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਜੀਵਾਂ ਨੂੰ ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲੇ ਹਰੀ ਨੇ ਆਪਣਾ ਸਦਾ-ਥਿਰ ਰਹਿਣ ਵਾਲਾ 'ਨਾਮ' ਬਖ਼ਸ਼ਿਆ ਹੋਇਆ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਖਸਿਓਨੁ = ਬਖ਼ਸ਼ਿਆ ਉਸ ਨੇ। ਅਸਥਿਰੁ ਨਾਉ = ਸਦਾ ਰਹਿਣ ਵਾਲਾ ਨਾਮ। ਸਤੀ = ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Señor Verdadero y Eterno los bendice con el Nombre Verdadero."

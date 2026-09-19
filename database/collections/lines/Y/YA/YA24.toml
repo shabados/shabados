@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਿਉਂ ਕਰਿ ਨਿਰਮਲ ਆਰਸੀ; ਸਭਾ ਸੁਧ ਸਭ ਕੋਈ ਦੇਖੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In the clean mirror everybody sees his correct shape."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਿੱਕੁਰ ਨਿਰਮਲ ਆਰਸੀ ਨੂੰ ਸਭਾ ਵਿਖੇ ਸਾਰੇ ਸੁੱਧ ਦੇਖਦੇ ਹਨ (ਕਿ ਵੱਡੀ ਉੱਜਲ ਅਰ ਸਾਫ ਹੈ)।"

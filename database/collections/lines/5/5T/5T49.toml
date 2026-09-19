@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਿਵੰਤ ਬਿਜੁ ਜ੍ਵਾਲਕਾ ॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou movest like the fire of lightning"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਜਲੀ ਵਾਂਗ (ਤੇਰੀ) ਜਵਾਲਾ ਖਿਮਦੀ ਹੈ"

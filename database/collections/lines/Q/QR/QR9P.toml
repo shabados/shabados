@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਧੁਕਰ ਸਾਹ ਸੁ ਬੀਰ; ਜਗਤ ਮੈ ਜਾਨਿਯੈ ॥"
 page = 816
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And was known as Madhukar Shah."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਮਧੁਕਰ ਸ਼ਾਹ ਨਾਂ ਦਾ ਬਹਾਦਰ ਰਾਜਾ ਜਾਣਿਆਂ ਜਾਂਦਾ ਸੀ।"

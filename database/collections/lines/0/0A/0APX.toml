@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਲੋਮਸੁ ਚਿਰ ਜੀਵਣੇ; ਆਦਿ ਅੰਤਿ ਵਿਚਿ ਧੀਰਕ ਧਕੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Millions of long lived rishi such as Lomas despite their fortitude are, ultimately jostled about."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ ਲੋਮਸ (ਰਿਖੀ ਜਿਹੇ) ਚਿਰੰਜੀਵੀਆਂ ਨੇ ਆਦ ਥੋਂ ਲੈਕੇ ਅੰਤ ਤੀਕ ਧੀਰਜ ਵਿਖੇ ਧੱਕੇ ਹੀ ਖਾਧੇ"

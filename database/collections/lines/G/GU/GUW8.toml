@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੰਚਮ ਅਨੁਰਕਤਤਾ; ਛਠਮ ਸਾਮਾਧ ਅਭੈ ਭਟ ॥"
 page = 701
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The fifth one is Anuraktata (attachment) and the sixth warrior is Samadhi (contemplaton)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੰਜਵਾਂ 'ਅਨੁਰਕਤਤਾ' ਅਤੇ ਛੇਵਾਂ 'ਸਾਮਾਧ' (ਸਮਾਧੀ) ਨਿਡਰ ਯੋਧੇ ਹਨ।"

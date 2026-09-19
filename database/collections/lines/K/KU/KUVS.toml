@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਹਿ ਤ੍ਰਿਹਾਟਕ ਪੁਰੀ ਬਖਾਨੈ ॥"
 page = 1331
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਤ੍ਰਿਹਾਟਕ ਪੁਰੀ ਵੀ ਕਹਿੰਦੇ ਸਨ"

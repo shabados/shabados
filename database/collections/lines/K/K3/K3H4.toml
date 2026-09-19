@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨੈਨਹੁ ਦੇਖੁ; ਸਾਧ ਦਰਸੇਰੈ ॥"
 page = 1304
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "With thy eyes, see thou the vision of the saints."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣਿਆ ਨੇਤ੍ਰਾਂ ਨਾਲ ਤੂੰ ਸੰਤਾ ਦਾ ਦਰਸ਼ਨ ਵੇਖ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "With your eyes, gaze upon the Blessed Vision, the Darshan of the Holy."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਨੇਤ੍ਰੋਂ ਕਰ ਕੇ ਸਾਧੋਂ ਕਾ ਦਰਸ਼ਨ ਦੇਖ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਆਪਣੀਆਂ) ਅੱਖਾਂ ਨਾਲ ਗੁਰੂ ਦਾ ਦਰਸਨ ਕਰਿਆ ਕਰ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨੈਨਹੁ = ਅੱਖਾਂ ਨਾਲ। ਸਾਧ ਦਰਸੇਰੈ = ਗੁਰੂ ਦਾ ਦਰਸਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Con tus ojos observa la Visión Bendita del Darshan de los Santos."

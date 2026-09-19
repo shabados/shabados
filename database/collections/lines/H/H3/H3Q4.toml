@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਨ ਕੇ ਪੂਰਨ ਹੋਏ ਕਾਮ ॥"
 page = 682
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "All the affairs of the Lord's slave are adjusted."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਹਿਬ ਦੇ ਗੋਲੇ ਦੇ ਸਾਰੇ ਕਾਰਜ ਰਾਸ ਹੋ ਗਏ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All the affairs of the Lord's humble servant are perfectly resolved."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਰੀ ਕੇ ਜਨੋਂ ਕੇ ਸਰਬ (ਕਾਮ) ਸੰਕਲਪ ਪੂਰਨ ਭਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਪਰਮਾਤਮਾ ਦੇ ਸੇਵਕ ਦੇ ਸਾਰੇ ਕੰਮ ਸਫਲ ਹੋ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪੂਰਨ = ਸਫਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Todas las tareas del Sirviente del Señor son realizadas. Dios salva su honor en ésta era de Kali,"

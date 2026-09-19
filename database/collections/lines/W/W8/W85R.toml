@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਬਨਵੰਤ ਸਿਪਾਹੀ ਭਲੇ ॥"
 page = 216
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors decorated with armours and the youthful soldiers marched forward."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਜਵਾਨ ਚੰਗੇ ਸਿਪਾਹੀ ਸਨ।"

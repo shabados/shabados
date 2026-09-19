@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਿੜਰਿੜ ਅੰਗੰ ॥"
 page = 593
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਦੇ) ਅੰਗ ਆਕੜ ਗਏ ਹਨ (ਅਰਥਾਤ ਉਨ੍ਹਾਂ ਦੀਆਂ ਲਾਸ਼ਾਂ ਆਕੜ ਗਈਆਂ ਹਨ)"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਜੰਪਹਿ ਕਿੰਨਰ ਜਛ ਜੁਅੰ ॥੯॥੧੪੯॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "To him the Yakshas and Kinnars unitedly meditate! 9. 149"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ (ਸਾਰੇ) ਕਿੰਨਰ ਅਤੇ ਯਕਸ਼ ਜਪਦੇ ਹਨ ॥੯॥੧੪੯॥"

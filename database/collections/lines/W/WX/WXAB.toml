@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਰੋਜ਼ੀ ਦਿਹੰਦ ਹੈਂ ॥੧੦੯॥"
 page = 6
 line = 15
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Thou art the Giver of the means of sustenance! 109"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਭ ਨੂੰ ਰੋਜ਼ੀ ਦੇਣ ਵਾਲਾ ਹੈਂ ॥੧੦੯॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਕਿ, ਰੋਜੀ ਦਿਹੰਦ ਹੈਂ ॥੧੦੯॥"

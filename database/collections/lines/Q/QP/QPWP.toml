@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਿੰਡੋਲੀ ਮੇਘ ਮਲਾਰੀ ਹੈ ॥"
 page = 662
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਿੰਡੋਲੀ, ਮੇਘ-ਮਲ੍ਹਾਰੀ,"

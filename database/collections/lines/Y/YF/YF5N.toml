@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਤ ਭਈ ਰਾਜਾ ਤਹਿ ਸਾਤਿਰ ॥"
 page = 1306
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਲਦੀ ('ਸਾਤਿਰ') ਨਾਲ ਰਾਜੇ ਕੋਲ ਚਲੀ ਗਈ।"

@@ -1,54 +1,54 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਖਹਿ; ਕੇਤੇ ਕੀਤੇ ਬੁਧ ॥"
 page = 6
 line = 1
 
 [[content]]
-asset = "JSTS"
+assets = ["JSTS"]
 type = "note"
 language = "pa"
 data = "ਅਨਪੁਰਖ ਬਹੁਵਚਨ ਕਿਰਿਆ"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "All the Buddhas, created by Thee, proclaim Thee."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਬੁੱਧ ਜੋ ਤੂੰ ਸਾਜੇ ਹਨ, ਤੈਨੂੰ ਹੀ ਪੁਕਾਰਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The many created Buddhas speak."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਕਿਤਨੇ ਹੀ (ਜੋ ਬੁਧਿਵਾਨ) ਪਰਮੇਸ੍ਵਰ ਨੇ ਕੀਏ ਹੈਂ, ਵਾ ਬੁਧਿ ਆਦਿਕ ਗ੍ਰਹ ਸੋ ਭੀ ਕਹਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਅਕਾਲ ਪੁਰਖ ਦੇ ਪੈਦਾ ਕੀਤੇ ਹੋਏ ਬੇਅੰਤ ਬੁੱਧ ਉਸ ਦੀ ਵਡਿਆਈ ਆਖਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੇਤੇ = ਬੇਅੰਤ, ਕਈ। ਕੀਤੇ = ਅਕਾਲ ਪੁਰਖ ਦੇ ਪੈਦਾ ਕੀਤੇ ਹੋਏ। ਬੁਧ = ਮਹਾਤਮਾ ਬੁੱਧ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y los Budas también."

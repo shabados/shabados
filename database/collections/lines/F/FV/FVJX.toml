@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸੋਇਨਾ ਰੁਪਾ ਲਖ ਮਣਾ; ਲਖ ਭਰੇ ਭੰਡਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Lacs of mounds of gold and rupees and lacs of filled up store houses;"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੋਨੇ ਚਾਂਦੀ ਦੇ ਲੱਖਾਂ ਮਣਾਂ ਮੂੰਹੀ ਭੰਡਾਰੇ ਭਰੇ ਹੋਏ ਹੋਣ।"

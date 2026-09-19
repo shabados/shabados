@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਹੰਸ ਮੁਖਨ ਕਾ ਬ੍ਰਹਮਾ ਦੇਖਾ ॥"
 page = 708
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਜ਼ਾਰ ਮੂੰਹਾਂ ਵਾਲਾ ਬ੍ਰਹਮਾ ਵੇਖਿਆ ਹੈ,"

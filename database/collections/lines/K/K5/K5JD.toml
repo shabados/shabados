@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਦ੍ਰਵਤੀ ਇਹ ਪੁਰੀ ਬਿਰਾਜੈ ॥"
 page = 1339
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਦੀ ਚੰਦ੍ਰਵਤੀ ਨਗਰੀ ਹੁੰਦੀ ਸੀ,"

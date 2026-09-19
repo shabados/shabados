@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਹੂੰਅਨ ਬੀਚ ਸੁਪਰਧਾ ਬਾਢਾ ॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The wrangling increased on both the sides."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋਹਾਂ ਵਿਚ ਈਰਖਾ ਵਧ ਗਈ"

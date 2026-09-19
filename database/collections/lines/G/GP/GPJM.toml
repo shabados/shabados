@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਟਰਿ ਆਗੇ ਤਿਹ ਲੀਜਿਐ; ਬਹੁ ਕੀਜੈ ਸਨਮਾਨ ॥"
 page = 884
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘We go to see her and give her warm welcome."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਅਗੇ ਜਾ ਕੇ ਮਿਲੀਏ ਅਤੇ ਉਸ ਦਾ ਬਹੁਤ ਸਨਮਾਨ ਕਰੀਏ।"

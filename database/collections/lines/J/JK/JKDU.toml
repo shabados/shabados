@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਬਡੋ ਗਿਰਿ ਥੋ ਤਿਹ ਭੀਤਰ; ਨੈਕੁ ਟਿਕੇ ਚਿਤ ਮੈ ਸੁਖੁ ਪਾਏ ॥"
 page = 490
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They pleased in hiding themselves on a big mountain"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਇਕ ਵੱਡਾ ਪਹਾੜ ਸੀ, ਉਸ ਵਿਚ ਕੁਝ ਸਮੇਂ ਲਈ ਟਿਕੇ ਹਨ ਅਤੇ ਚਿਤ ਵਿਚ ਬਹੁਤ ਸੁਖ ਪਾਇਆ ਹੈ।"

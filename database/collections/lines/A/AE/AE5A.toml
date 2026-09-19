@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨੁ ਸਰਤਾ ਕੇ ਗਿਰੇ ਕਰਾਰਾ ॥੨੦॥"
 page = 184
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Just as with the flooding of the stream, the banks are eroded further, likewise many terrible warriors began to fall on the earth.20."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਨਦੀ ਦੇ ਕੰਢੇ ਡਿਗੇ ਪਏ ਹੋਣ ॥੨੦॥"

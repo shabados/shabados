@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਗਲ ਜੀਅ ਸਰਨਾਗਤੀ; ਪ੍ਰਭ ਪੂਰਨ ਕਾਮ ॥੧॥ ਰਹਾਉ ॥"
 page = 858
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "All the sentient beings seek Thy refuge, O Lord, the Adjuster of all affairs. Pause."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਪ੍ਰਾਣਧਾਰੀ ਤੇਰੀ ਪਨਾਹ ਲੋੜਦੇ ਹਨ, ਹੇ ਸਾਰਿਆਂ ਕੰਮਾਂ ਨੂੰ ਨੇਪਰੇ ਚਾੜ੍ਹਨ ਵਾਲੇ ਸੁਆਮੀ! ਠਹਿਰਾਉ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All beings seek Your Sanctuary, O God, Fulfiller, Resolver of our affairs. ||1||Pause||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪੂਰਨ ਸੰਕਲਪ ਪ੍ਰਭੂ! ਸੰਪੂਰਨ ਜੀਵ ਤੇਰੀ ਸਰਣ ਮੇਂ ਪਰਾਪਤਿ ਹੈਂ; ਵਾ ਸਰਬ ਜੀਵੋਂ ਮੇਂ ਸੇ ਜੋ ਤੇਰੀ ਸਰਣ ਕੋ (ਗਤੀ) ਪ੍ਰਾਪਤਿ ਹੂਏ ਹੈਂ ਤਿਨ ਕੇ ਤੂੰ ਸਰਬ ਕਾਮ ਪੂਰਨ ਕਰਤਾ ਹੈਂ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਭ ਦੀ ਕਾਮਨਾ ਪੂਰੀ ਕਰਨ ਵਾਲੇ ਪ੍ਰਭੂ! ਸਾਰੇ ਜੀਆ ਜੰਤ ਤੇਰੀ ਹੀ ਸਰਨ ਆਉਂਦੇ ਹਨ (ਮੈਂ ਗ਼ਰੀਬ ਭੀ ਤੇਰੀ ਹੀ ਸ਼ਰਨ ਹਾਂ) ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜੀਅ = ਜੀਵ। ਪੂਰਨ ਕਾਮ = ਹੇ ਸਭ ਦੀ ਕਾਮਨਾ ਪੂਰਨ ਕਰਨ ਵਾਲੇ! ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "toda vida busca Tu Santuario y Tú lo llenas todo. (1-Pausa)"

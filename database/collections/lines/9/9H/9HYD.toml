@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੈਵ ਦੈਤ ਕਿਨਹੂੰ ਨਹਿ ਪਾਯੋ ॥"
 page = 915
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "No body, not even the gods and the demons, can grasp the Chritars."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵਤਾ ਅਤੇ ਦੈਂਤ ਕੋਈ ਵੀ ਸਮਝ ਨਹੀਂ ਸਕਿਆ।"

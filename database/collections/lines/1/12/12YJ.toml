@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਸਾ ਬਾਰੁਣੀ ਮੈ, ਰਹੈ ਏਕ ਰਾਜਾ ॥"
 page = 1220
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਰੁਣੀ (ਪੱਛਮ) ਦਿਸ਼ਾ ਵਿਚ ਇਕ ਰਾਜਾ ਰਹਿੰਦਾ ਸੀ।"

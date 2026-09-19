@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਦਰ ਪੇਸ਼ ਗੁਰਬਾਇ ਓ ਆਜਜ਼ ਅਸਤ ॥੪੭॥"
 page = 1399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘And remains meek in the company of the meek.(47)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਗ਼ਰੀਬਾਂ ਸਾਹਮਣੇ ਆਪਣੇ ਆਪ ਨੂੰ ਆਜਿਜ਼ ਸਮਝਦਾ ਹੈ ॥੪੭॥"

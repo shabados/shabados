@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਸਿਖ ਦੇਵੀ ਦੇਵ, ਜਠੇਰੇ ਭਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "For them, the Sikh of the Guru is the god, goddess and the father."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਦੇ ਸਿਖਾਂ ਨੂੰ ਹੀ ਦੇਵੀ ਦੇਵਤੇ ਅਰ ਵਡਕੇ ਸਮਝਦੇ ਹਨ।"

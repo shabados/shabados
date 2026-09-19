@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਜੀਦਸ਼ ਯਕੇ ਰਾਜਹੇ ਨਉਜਵਾ ॥"
 page = 1406
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She saw a young Raja,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਇਕ ਨੌਜਵਾਨ ਰਾਜੇ ਨੂੰ ਵੇਖਿਆ"

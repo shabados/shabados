@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਨਿ ਬਨਿ ਬੀਰ ਪਖਰੀਆ ਚਲੇ ॥"
 page = 216
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘੋੜ-ਸਵਾਰ ਸੂਰਮੇ ਸਜ-ਸਜ ਕੇ ਜਾ ਰਹੇ ਸਨ।"

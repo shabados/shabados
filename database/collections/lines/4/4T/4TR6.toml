@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਭਾਵ ਰਾਮਰਾਜ ਕੀ ॥੧੯੪॥"
 page = 219
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way there was the sway of Ram Rajya and there was no dearth of anything.194."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਰਾਮ ਰਾਜ ਦਾ ਪ੍ਰਭਾਵ ਸੀ ॥੧੯੪॥"

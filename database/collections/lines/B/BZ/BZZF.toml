@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਤਸਤੁਆ ਅਜਾਪੰ ॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art conqueror and without effect on muttering"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਜਿਤ ਰੂਪ ਅਤੇ ਜਾਪਾਂ ਤੋਂ ਪਰੇ ਹੈਂ,"

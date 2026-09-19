@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹ ਕੌਤਕ ਰੀਸਾਲੂ ਲਹਿਯੋ ॥"
 page = 934
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rasaloo saw her holding the deer with her hands and he was astonished to see this miracle."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਿਸਾਲੂ ਨੇ ਇਹ ਕੌਤਕ ਵੇਖਿਆ,"

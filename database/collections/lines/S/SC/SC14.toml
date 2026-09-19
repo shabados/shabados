@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੂੰ ਕਿਆ ਲਪਟਾਵਹਿ; ਮੂਰਖ ਮਨਾ ॥"
 page = 288
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Why art thou clinging to it, O foolish soul?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਇਸ ਨੂੰ ਕਿਉਂ ਚਿਮੜੀ ਹੋਈ ਹੈ, ਹੇ ਮੂੜ੍ਹ ਜਿੰਦੜੀਏ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "why do you cling to it, you fool?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੂਰਖ ਮਨ! ਤੂੰ ਤਿਸ ਕੇ ਸਾਥ ਕਿਉਂ ਅਪਨੇ ਆਪ ਕੋ ਲਪਟਾਵਤਾ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਕਿਉਂ ਇਸ ਨੂੰ ਜੱਫਾ ਮਾਰੀ ਬੈਠਾ ਹੈਂ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਿਆ ਲਪਟਾਵਹਿ = ਕਿਉਂ ਲਪਟ ਰਿਹਾ ਹੈਂ, ਕਿਉਂ ਜੱਫਾ ਮਾਰੀ ਬੈਠਾ ਹੈਂ?"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "entonces, mente ingenua, ¿por qué te aferras tanto a tus bienes?"

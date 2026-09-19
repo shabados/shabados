@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਡਿਠੇ ਸਭੇ, ਠੋਕਿ ਵਜਾਏ ॥੨੦॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "All these relations have been thoroughly tested."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਠੋਕ ਵਜਾ ਕੇ (ਅਰਥਾਤ ਨਿਰਨੈ ਕਰਕੇ) ਦੇਖੇ ਗਏ ਹਨ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹੋਤ ਪੁਨੀਤ; ਕੋਟ ਅਪਰਾਧੂ ॥"
 page = 258
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Millions of those offenders become pure,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜਾਂ ਹੀ ਅਪਰਾਧੀ ਪਵਿਤ੍ਰ ਹੋ ਜਾਂਦੇ ਹਨ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He is the Purifier of sinners. Millions of sinners are purified;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਕ੍ਰੋੜੋਂ (ਅਪਰਾਧੂ) ਪਾਪੀ ਪਵਿਤ੍ਰ ਹੋ ਜਾਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜਾਂ ਹੀ ਉਹ ਅਪਰਾਧੀ ਪਵਿਤ੍ਰ ਹੋ ਜਾਂਦੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੋਟਿ ਅਪਰਾਧੂ = ਕ੍ਰੋੜਾਂ ਅਪਰਾਧੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Un sinnúmero de esos seres se han salvado"

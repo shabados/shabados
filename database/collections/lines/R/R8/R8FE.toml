@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਾ ਕੇ ਖਾਨਾ ਨੈ ਲਿਖ︀ਯੋ ਹਜਰਤਿ ਜੂ ਕੋ ਬਨਾਇ ॥"
 page = 1130
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਖ਼ਜ਼ਾਨੇ) ਦੇ ਖ਼ਾਦਮ ('ਖਾਨਾ') ਨੇ ਬਾਦਸ਼ਾਹ ਨੂੰ ਲਿਖਿਆ"

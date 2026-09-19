@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਬਿਪ੍ਰਨ ਕੌ ਧਾਮ ਬੁਲਾਯੋ ॥"
 page = 1007
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He planned a ritUalistic feast and invited all the Brahmin priests."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਬ੍ਰਾਹਮਣਾਂ ਨੂੰ ਘਰ ਬੁਲਾਇਆ।"

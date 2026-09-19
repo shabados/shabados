@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਆਂਗਨ ਮਹਿ ਸੇਜ ਬਿਛਾਵਹੁ ॥੪੧॥"
 page = 964
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Close the door tightly and lay down a bed in the courtyard.’(41)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸ ਆਂਗਨ ਵਿਚ ਸੇਜ ਵਿਛਾ ਦੇ ॥੪੧॥"

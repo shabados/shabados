@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਸਸਤ੍ਰਣੀ ਅਸਤ੍ਰਣੀ ਕਰਮ ਕਰਤਾ ॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O the wager of war with weapons and arms!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਸਤ੍ਰਾਂ ਅਤੇ ਸ਼ਸਤ੍ਰਾਂ ਨਾਲ ਕਰਮ ਕਰਨ ਵਾਲੀ ਨੂੰ ਨਮਸਕਾਰ ਹੈ;"

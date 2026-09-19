@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਨਾਰਦ ਜੂ ਕ੍ਰਿਸਨ ਪਹਿ ਆਏ ॥"
 page = 373
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now begins the destription of the Arival of Narada for meeting Krishna"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਨਾਰਦ ਜੀ ਕ੍ਰਿਸ਼ਨ ਕੋਲ ਆਏ:"

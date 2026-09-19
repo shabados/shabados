@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਕੋਪਿ ਦੇਵੀ ਧਸੀ ਸੈਨ ਮਧੰ ॥"
 page = 105
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In great ire, the goddess penetrated into the demon-army."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵੀ ਬਹੁਤ ਕ੍ਰੋਧਵਾਨ ਹੋ ਕੇ ਸੈਨਾ ਵਿਚ ਧਸ ਗਈ"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਦਰੀਆਉ ਸਮੁੰਦ ਵਿਚਿ; ਲਖ ਤੀਰਥ ਗੰਗਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Myriads of rivers are there in the ocean and likewise many are pilgrimage centres on the Ganges."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਸਮੁੰਦਰ ਵਿਖੇ ਲੱਖਾਂ ਦਰਿਆਉ ਅਤੇ ਗੰਗਾ (ਵਰਗੇ) ਲੱਖਾਂ ਤੀਰਥ (ਸਮਾਏ ਹੋਏ ਹਨ)।"

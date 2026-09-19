@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਗਿਰ︀ਯੋ ਭੂ ਤਰਿ ਆਨਿ ॥"
 page = 613
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਹ ਧਰਤੀ ਉਤੇ ਆ ਕੇ ਡਿਗਿਆ,"

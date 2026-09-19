@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਚਰਤ ਧਸਿ ਨਰ ॥"
 page = 248
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As soon as the sound rises, people go into their houses and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੀਰਾਂ ਨੂੰ ਧੱਸੀ ਫਿਰਦੇ ਹਨ।"

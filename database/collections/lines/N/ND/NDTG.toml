@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਥਾਰ ਚਾਰ ਅਪਾਰ ਕੁੰਕਮ; ਚੰਦਨਾਦਿ ਅਨੰਤ ॥"
 page = 219
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Four adorned slavers containing saffron, sandalwood etc.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਾਰ ਥਾਲਾਂ ਵਿੱਚ ਬਹੁਤ ਸਾਰਾ ਚੰਦਨ ਅਤੇ ਕੇਸਰ ਭਰ ਕੇ"

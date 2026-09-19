@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪ੍ਰੀਤਮ ਜਾਨਿ ਲੇਹੁ, ਮਨ ਮਾਹੀ ॥"
 page = 634
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O dear friend, realise it in Thy mind,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਿਆਰ ਮਿੱਤ੍ਰਾ! ਆਪਣੇ ਚਿੱਤ ਅੰਦਰ ਇਹ ਸਮਝ ਲੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O dear friend, know this in your mind."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ ਪ੍ਰੀਤਮ! ਐਸੇ ਮਨ ਮੇਂ ਜਾਨ ਲੇਵੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਿੱਤਰ! (ਆਪਣੇ) ਮਨ ਵਿਚ (ਇਹ ਗੱਲ) ਪੱਕੀ ਕਰ ਕੇ ਸਮਝ ਲੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪ੍ਰੀਤਮ = ਹੇ ਸੱਜਣ! ਮਾਹੀ = ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mi amado, entiende que todos"

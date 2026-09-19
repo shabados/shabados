@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭ੍ਰਮ ਪੂਰਬ ਪਛਮ ਉਤ੍ਰ ਦਿਸੰ ॥"
 page = 662
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੂਰਬ, ਪੱਛਮ ਅਤੇ ਉੱਤਰ ਦਿਸ਼ਾਵਾਂ ਨੂੰ ਘੁੰਮ ਫਿਰ ਕੇ"

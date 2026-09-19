@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਅਨੇਕ ਮਨਾਇਯੋ; ਤਊ ਨ ਫਿਰਾ ਨਿਲਾਜ ॥੮॥"
 page = 879
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rani tried to stop him, but that shameless did not hang about.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕ ਤਰ੍ਹਾਂ ਨਾਲ ਮਨਾਇਆ, ਪਰ ਉਹ ਨਿਰਲਜ ਫਿਰ ਵੀ ਨਾ ਰੁਕਿਆ ॥੮॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਗਤ ਸੋਵਤ ਰਾਤਹੂੰ ਦ︀ਯੋਸ ਕਹੂੰ ਮੁਹਿ ਰਾਝਨ ਚੈਨ ਨ ਦੇਹੀ ॥੨੦॥"
 page = 938
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Alone. ‘Day in and day out, Ranjha does not let me be in serenity.’(20)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਗਦਿਆਂ ਸੌਂਦਿਆਂ ਰਾਤ ਦਿਨ ਰਾਂਝਾ ਮੈਨੂੰ ਚੈਨ ਨਹੀਂ ਲੈਣ ਦਿੰਦਾ ॥੨੦॥"

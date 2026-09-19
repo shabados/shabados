@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਾਂ ਕਸ ਕਿ ਈਮਾਂ ਪ੍ਰਸਤੀ ਕੁਨਦ ॥"
 page = 1391
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who follows his faith with sincerity,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਰ ਉਹ ਆਦਮ ਨੂੰ ਈਮਾਨ ਦੀ ਪਾਲਨਾ ਕਰਦਾ ਹੈ,"

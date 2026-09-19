@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਆਨਿ ਠਾਢੇ ਬਡੀ ਸੈਨ ਲੀਨੇ ॥੬੮॥"
 page = 632
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was none other so beautiful on the earth many egoistic canopied kings, taking their armies with them, came and stood there.68."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਵੱਡੀ ਸੈਨਾ ਲੈ ਕੇ ਉਥੇ ਖੜੋਤੇ ਹੋਏ ਸਨ ॥੬੮॥"

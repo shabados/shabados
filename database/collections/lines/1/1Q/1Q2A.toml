@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੀਅ ਕਾਲ ਪੁਰਖ ਬਿਸਾਰ ॥"
 page = 610
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਕਾਲ ਪੁਰਖ ਨੂੰ ਵਿਸਾਰ ਦਿੱਤਾ"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਿਵ ਪੁਰੀ ਕਾ; ਹੋਇਗਾ ਕਾਲਾ ॥"
 page = 237
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The realm of Shiva shall do perish."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵ-ਲੋਕ ਵੀ ਬਿਨਸ ਜਾਏਗਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Realm of Shiva shall also perish."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਾ ਸ਼ਿਵ ਪੁਰੀ ਕਾ ਭੀ ਕਾਲ ਹੋਵੇਗਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵ ਦੀ ਪੁਰੀ ਦਾ ਭੀ ਨਾਸ ਹੋ ਜਾਇਗਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਾਲਾ = ਨਾਸ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El mundo de Shiva también morirá,"

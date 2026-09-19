@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਟਿ ਕਟਿ ਸੁਭਟ ਧਰਨਿ ਪਰ ਪਰਹੀ ॥"
 page = 1080
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਵੀਰ ਕਟ ਕਟ ਕੇ ਧਰਤੀ ਉਤੇ ਡਿਗ ਰਹੇ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਕਬਿਤੁ ਕਾਬਿ ਕੇ ਬੀਚ; ਉਚਾਰਨ ਕੀਜੀਐ ॥੧੧੯੭॥"
 page = 797
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Desh-Ishani”, add the word “ardani” at the end and know all the names of Tupak for using them in poetry.1197."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਦਾ) ਕਬਿੱਤਾਂ ਅਤੇ ਕਾਵਿ ਵਿਚ ਉਚਾਰਨ ਕਰੋ ॥੧੧੯੭॥"

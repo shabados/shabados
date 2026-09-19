@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਕੋਪ ਅਸੁਰ ਪਤਿ ਛੁਦ੍ਰਾ ॥੧੨॥"
 page = 188
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The demon Jalandhar asked for his wife from Ruda and Rudra did not oblige him, therefore the king of demons flew into rage instantly.12."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਲਈ ਜਲੰਧਰ ਝਟ ਪਟ ਗੁੱਸੇ ਵਿਚ ਆ ਗਿਆ ॥੧੨॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਗ ਘੋਟਨਾ ਹਾਥ ਸੰਭਾਰਾ ॥"
 page = 1332
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਭੰਗ ਘੋਟਣ ਵਾਲਾ ਸੋਟਾ ਹੱਥ ਵਿਚ ਫੜਿਆ"

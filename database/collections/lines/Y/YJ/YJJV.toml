@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨ ਰੇ; ਗੁਰਮੁਖਿ. ਅਗਨਿ ਨਿਵਾਰਿ ॥"
 page = 22
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my soul! extinguish the fire through the Guru."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੀ ਜਿੰਦੇ! ਗੁਰਾਂ ਦੇ ਰਾਹੀਂ ਆਪਣੀ ਅੱਗ ਨੂੰ ਬੁਝਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O mind, become Gurmukh, and extinguish the fire within."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਹੇ ਮਨ! ਗੁਰੋਂ ਦ੍ਵਾਰਾ ਗ੍ਯਾਨ ਪਾਇ ਕਰ ਅੰਤਰਿ ਕੀ ਅਗਨਿ ਕੋ (ਨਿਵਾਰ) ਨਿਬ੍ਰਿਤਿ ਕਰੁ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਗੁਰੂ ਦੀ ਸਰਨ ਪੈ ਕੇ (ਤ੍ਰਿਸ਼ਨਾ ਦੀ) ਅੱਗ ਦੂਰ ਕਰ ਸਕੀਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੁਰਮੁਖਿ = ਗੁਰੂ ਦੇ ਸਨਮੁਖ ਹੋ ਕੇ। ਨਿਵਾਰਿ = ਦੂਰ ਕਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mi Alma, sofoca el fuego de tus pasiones a través del Guru."

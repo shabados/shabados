@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਖੇਚਰ ਭੂਚਰ ਚਾਚਰ, ਸਾਧਿ ਸਧਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He perfected their khechari and chachari postures."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਖੇਚਰੀ, ਭੂਚਰੀ, ਚਾਚਰੀ (ਅਗੋਚਰੀ, ਉਨਮਨੀ, ਨਾਮੇ ਜੋਗ ਦੀਆਂ ਪੰਜ ਮੁੰਦ੍ਰਾਂ ਜੋਗੀ ਲੋਕ ਸਾਧ ਲੈਂਦੇ ਹਨ) ਤੇ ਸਾਧ ਸਦਾਉਂਦੇ ਹਨ।"

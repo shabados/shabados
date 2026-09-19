@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਰ ਪਰ ਰਾਖਿ ਲੋਨ ਕੀ ਡਰੀ ॥"
 page = 1335
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਛਾਤੀ ਉਤੇ ਲੂਣ ਦੀ ਡਲੀ ਰਖ ਦਿੱਤੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੰਨ ਪਿਤਾ ਧੰਨ ਵੇ ਜਨਨੀ; ਜੁ ਧਨੰਜੈ ਨਾਮ ਜਿਨੋ ਸੁਤ ਜਾਯੋ ॥੧੬੧੮॥"
 page = 458
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the bravery of Arjuna, the heart of the king was pleased and he said within his hearing, ‘Bravo to the patents of Arjuna, who gave him birth.’1618."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਧੰਨ ਉਹ ਪਿਤਾ ਹੈ ਅਤੇ ਧੰਨ ਉਹ ਮਾਤਾ ਹੈ ਜਿਨ੍ਹਾਂ ਨੇ ਅਰਜਨ ('ਧਨੰਜੈ') ਨਾਂ ਵਾਲਾ ਪੁੱਤਰ ਜੰਮਿਆ ਹੈ ॥੧੬੧੮॥"

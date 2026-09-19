@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਹਪਨ ਸਮੈ ਬਿਕਨ ਜਬ ਭਯੋ ॥"
 page = 1271
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਫੁਲਾਂ ਦੇ ਵਿਕਣ ਦਾ ਸਮਾਂ ਹੋਇਆ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਜਤ ਪਰਮ ਪੁਰਖ ਰਹਿ ਗਏ ॥੬॥"
 page = 55
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who became mad with power and abandoned the worship of Supreme Purusha.6."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪਰਮਾਤਮਾ ਦੀ ਪੂਜਾ ਕਰਨੋ ਹਟ ਗਏ ॥੬॥"

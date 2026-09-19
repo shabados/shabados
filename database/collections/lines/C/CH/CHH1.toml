@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੋਟਿ ਖਤੇ; ਖਿਨ ਬਖਸਨਹਾਰ ॥"
 page = 1148
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Millions of sins, He forgives in an instant."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜਾਂ ਹੀ ਪਾਪ ਉਹ ਇਕ ਮੁਹਤ ਵਿੱਚ ਮਾਫ ਕਰ ਦਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He forgives millions of sins and mistakes in an instant."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜੋਂ ਗੁਨਾਹੋਂ ਕੋ ਇਕ ਖਿਨ ਵਿਚ ਬਖਸ਼ ਦੇਣੇ ਵਾਲਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੋ (ਜੀਵਾਂ ਦੇ) ਕ੍ਰੋੜਾਂ ਪਾਪ ਇਕ ਖਿਨ ਵਿਚ ਬਖ਼ਸ਼ ਸਕਣ ਵਾਲਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੋਟਿ = ਕ੍ਰੋੜਾਂ। ਖਤੇ = ਪਾਪ {ਬਹੁ-ਵਚਨ}।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Millones de errores te son saldados en un instante,"

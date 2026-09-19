@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪ੍ਰੇਮ ਭਗਤਿ ਆਵੇਸ; ਸਹਜਿ ਸੁਖਾਣਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Wherein the individual inspired by loving devotion enjoys the innate delight."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜਿੱਥੇ) ਪ੍ਰੇਮਾ ਭਗਤੀ ਵਿਖੇ ਪ੍ਰਵੇਸ਼ ਹੈ, ਅਰ ਸਹਿਜ ਸੁਖ ਪ੍ਰਾਪਤ ਹੈ।"

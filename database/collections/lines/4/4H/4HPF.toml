@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਅਸਟ ਜੋਜਨ ਮਹਾ ਪਰਮ ਪੁਸਟੰ ॥"
 page = 142
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many of the length of eight Yojanas and very fat"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਹੀ ਅੱਠ ਯੋਜਨਾਂ ਜੇਡੇ ਮੋਟੇ ਸੱਪਾਂ ਦਾ ਭਿਆਨਕ ਬੱਧ (ਇਸ ਯੱਗ ਵਿਚ ਹੋਇਆ ਅਤੇ)"

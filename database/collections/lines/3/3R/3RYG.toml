@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਬਦ ਮਸਲਿਹਤ ਕਸ ਨ ਦਾਦਨ ਦਿਗਰ ॥"
 page = 1398
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Be in your faculty. How can a person dispute"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੁਸੀਂ) ਕਿਸੇ ਹੋਰ ਆਦਮੀ ਨੂੰ ਮਾੜੀ ਸਲਾਹ ਨਹੀਂ ਦਿੱਤੀ।"

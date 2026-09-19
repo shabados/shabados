@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਮਰਜ਼ੇ ਸ਼ੁਮਾ ਰਾ ਖ਼ਿਰਾਜ਼ੇ ਕੁਨਮ ॥੩੧॥"
 page = 1418
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘We may be able to prescribe some medicine.’(31)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਹਾਡੀ ਮਰਜ਼ ਲਈ ਦਵਾ ਦਿਆਂ ॥੩੧॥"

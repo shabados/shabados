@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਖੰਨਿਅਹੁ ਤਿਖੀ; ਬਹੁਤੁ ਪਿਈਣੀ ॥"
 page = 794
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "It is sharper than the two-edged sword, and exceedingly narrow."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਖੰਡੇ ਨਾਲੋਂ ਤੇਜ਼ ਹੈ ਅਤੇ ਨਿਹਾਇਤ ਹੀ ਤੰਗ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "It is sharper than a two-edged sword, and very narrow."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਖੰਨਿਅਹੁ) ਖੰਡੇ ਤੇ ਤਿੱਖੀ ਹੈ ਔਰ ਬਹੁਤ ਹੀ (ਪਿਈਣੀ) ਪਤਲੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਖੰਡੇ ਨਾਲੋਂ ਤਿੱਖਾ ਹੈ, ਬੜੀ ਤੇਜ਼ ਧਾਰ ਵਾਲਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਖੰਨਿਅਹੁ = ਖੰਡੇ ਨਾਲੋਂ। ਪਿਈਣੀ = ਤੇਜ਼ ਧਾਰ ਵਾਲੀ, ਪਤਲੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pues es más filoso que una navaja y más fino que un cabello."

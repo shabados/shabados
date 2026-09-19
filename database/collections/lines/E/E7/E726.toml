@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਕਾਮੁਕੀ ਜਿਉ ਧਰੇ ਰੂਪ ਸੋਹੇ ॥੧੩॥"
 page = 40
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere He manifests Himself as Cupid’s wife, with impressive beauty. 13"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ 'ਰਤੀ' (ਕਾਮ ਦੀ ਪਤਨੀ) ਵਾਂਗ ਸੁੰਦਰ ਰੂਪ ਧਾਰ ਕੇ ਸੋਭ ਰਿਹਾ ਹੈਂ ॥੧੩॥"

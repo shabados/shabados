@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਾਧ ਜਨਾ ਕਾ ਦਰਸੁ; ਨ ਡੀਠਾ ॥੨॥"
 page = 738
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He sees not the vision of the pious persons."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪਵਿੱਤਰ ਪੁਰਸ਼ ਦਾ ਉਹ ਦੀਦਾਰ ਨਹੀਂ ਵੇਖਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He does not see the Blessed Vision of the Darshan of the Holy. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਰ ਸੰਤ ਜਨਾਂ ਕਾ ਦਰਸਨ ਭੀ ਨਹੀਂ ਦੇਖਤਾ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਦੇ ਸੰਤ ਜਨਾਂ ਦਾ ਦਰਸਨ (ਭੀ) ਨਹੀਂ ਕਰਦਾ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pero no logra alcanzar la Visión de los Santos.(2)"

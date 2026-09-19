@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਮ ਕੇ ਧਾਮ ਬਿਖੈ ਚਲਿ ਗਈ ॥੫੫॥"
 page = 958
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When, with the effect of poison, she was extremely exhilarated, she left for the abode of Yama.(55)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਮ ਦੇ ਘਰ ਨੂੰ ਚਲੀ ਗਈ ॥੫੫॥"

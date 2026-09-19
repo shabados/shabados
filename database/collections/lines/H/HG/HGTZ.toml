@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਰੇਜ਼ਾ ਸ਼ਵਦ ਸ਼ਾਹਿ ਮਾਯੰਦਰਾ ॥"
 page = 1424
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king of Mayindra ran away,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਯੰਦਰਾਂ ਦਾ ਬਾਦਸ਼ਾਹ ਉਥੋਂ ਭਜ ਗਿਆ"

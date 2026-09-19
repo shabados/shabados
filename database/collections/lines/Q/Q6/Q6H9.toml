@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੈਨ ਬਿਦਾਦ ਭੂਪ ਤਿਹ ਕੋ ਹੈ ॥"
 page = 1318
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੋਂ ਦਾ ਰਾਜਾ ਬਿਦਾਦ ਸੈਨ ਸੀ।"

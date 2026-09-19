@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਓ ਰਹਿਨੁਮਾ ਅਸਤ ਓ ਰਹਿਨਮੂੰ ॥੭੫॥"
 page = 1393
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He shows the path as a Guide.75."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਹੀ ਰਾਹ ਦਸਣ ਵਾਲਾ ਹੈ ਅਤੇ ਰਸਤੇ ਉਤੇ ਲੈ ਕੇ ਚਲਣ ਵਾਲਾ ਵੀ ਹੈ ॥੭੫॥"

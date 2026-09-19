@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਗਤ ਸੈਨ ਦਾਨਵੀ ਜਰੀ ॥"
 page = 1379
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਦੇ ਲਗਦਿਆਂ ਹੀ ਦੈਂਤ ਸੈਨਾ ਸੜ ਗਈ।"

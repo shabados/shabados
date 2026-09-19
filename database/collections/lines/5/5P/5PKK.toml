@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਸਮ ਸੁੰਦਰ ਕਹੂੰ ਨ ਕਹਾ ॥"
 page = 1226
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵਰਗਾ ਸੁੰਦਰ ਕੋਈ ਵੀ ਕਿਤੇ ਨਹੀਂ ਸੀ।"

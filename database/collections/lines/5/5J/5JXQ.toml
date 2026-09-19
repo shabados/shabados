@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਹੈ ਅੰਤ ਕੋ ਪਾਵ ਨਾਗੇ ਪਧਾਰੇ ॥"
 page = 44
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They had ultimately gone with naked feet. I have seen them having been subdued"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਵੀ ਅੰਤ ਨੂੰ ਨੰਗੇ ਪੈਰੀਂ ਹੀ ਗਏ,"

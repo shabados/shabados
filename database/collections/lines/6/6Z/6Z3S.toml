@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਦੰਤ ਬੇਦ ਚਤ੍ਰਕੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Recite the four Vedas."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚਾਰ ਵੇਦ (ਤੇਰਾ) ਯਸ਼ ਕਥਦੇ ਹਨ,"

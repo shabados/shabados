@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਐਸੀ ਮਾਂਗੁ; ਗੋਬਿਦ ਤੇ ॥"
 page = 1298
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my mind, pray to thy Lord for such boons;"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਤੁੰ ਐਹੋ ਜੇਹੀਆਂ ਦਾਤ ਆਪਣੇ ਪ੍ਰਭੂ ਪਾਸੋ ਮੰਗ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Beg for such blessings from the Lord of the Universe:"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਐਸੀ ਬਿਭੂਤੀ ਗੋਬਿੰਦ ਜੀ ਸੇ ਮਾਂਗੂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਪਾਸੋਂ ਇਹੋ ਜਿਹੀ (ਦਾਤਿ) ਮੰਗ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਐਸੀ = ਇਹੋ ਜਿਹੀ (ਦਾਤਿ)। ਤੇ = ਤੋਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Pide hincado las Bendiciones del Señor del Universo,"

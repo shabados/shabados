@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੂਰਨ ਪਰਮ ਨਿਧਾਨ; ਸਦ ਭਰਪੂਰ ਹੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "God, the supreme store house is always full and omnipresent."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪੂਰਨ ਵਡਾ ਭੰਡਾਰ (ਵਾਹਿਗੁਰੂ) ਸਦਾ ਭਰਪੂਰ ਹੈ (ਕਦੇ ਖਾਲੀ ਨਹੀਂ)।"

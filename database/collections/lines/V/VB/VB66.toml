@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਗਤ ਭਿੰਨ ਭਿੰਨ ਤੇ ਲੇਖਾ ॥"
 page = 159
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And all the beings beg from him according to their writ"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ ਉਹ ਸਭ ਤੋਂ) ਵਖਰਾ ਵਖਰਾ ਲੇਖਾ ਮੰਗਦਾ ਹੈ।"

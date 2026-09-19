@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਥਾ ਬ੍ਰਿਧ ਤੇ ਮੈ ਡਰੋ; ਕਹਾ ਕਰੋ ਬਖਯਾਨ ॥"
 page = 198
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "How far should I narrate the story for fear of lengthening the same"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਥਾ ਦੇ ਵਧ ਜਾਣ ਤੋਂ ਮੈਂ ਡਰਦਾ ਹਾਂ, ਕਿੱਥੋਂ ਤਕ ਕਥਨ ਕਰਾਂ?"

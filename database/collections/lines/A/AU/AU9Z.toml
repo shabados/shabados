@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਬਸੀ ਰਾਇ ਨਰਾਧਿਪ ਤਹਾ ॥"
 page = 1210
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਹਬਸ਼ੀ ਰਾਇ ਨਾਂ ਦਾ ਰਾਜਾ ਸੀ।"

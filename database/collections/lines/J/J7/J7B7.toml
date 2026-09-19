@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਰ ਬਾਦ ਅਹੰਕਾਰ ਪਸਾਰਾ ॥"
 page = 49
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "None could remember KAL and there was only extension of enmity, strife ego."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਵੈਰ, ਵਿਵਾਦ ਅਤੇ ਹੰਕਾਰ ਨੂੰ ਜਨਮ ਦਿੱਤਾ ਹੈ।"

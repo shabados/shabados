@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਦੀਦਨ ਤੁਰਾ ਆਮਦਮ ਈਜ਼ਮਾ ॥੧੨੯॥"
 page = 1405
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Currently, I have come to have a glimpse of you.’(129)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਤੈਨੂੰ ਵੇਖਣ ਲਈ ਇਥੇ ਆਈ ਹਾਂ ॥੧੨੯॥"

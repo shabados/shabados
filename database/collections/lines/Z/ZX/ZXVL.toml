@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤੰਤ ਮੰਤ ਰਾਸਾਇਣਾ; ਕਰਾਮਾਤਿ ਕਾਲਖਿ ਲਪਟਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Alchemy, tantra, mantra and miracles became everything for people."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਤਵੀਤ ਧਾਗੇ, ਮੰਤ੍ਰ ਰਸੈਣਾਂ ਤੇ ਕਰਾਮਾਂਤਾਂ ਦੀ 'ਕਾਲਖ' ਨਾਲ ਲਿਬੜ ਗਏ।"

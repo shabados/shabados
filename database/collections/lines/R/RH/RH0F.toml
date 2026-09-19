@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਰਵ ਦੇਸ ਬਸਤ ਹੈ ਜਹਾ ॥"
 page = 1258
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਗਾਰਵ ਦੇਸ਼ ਵਸਦਾ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਕਹਿਓ ਤਜਿ ਕੈ ਮਥੁਰਾ; ਬ੍ਰਿਜ ਆਵਹੁ ਯਾ ਬਿਧਿ ਬਾਤ ਬਖਾਨੀ ॥"
 page = 393
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Therefore Yashoda has asked you to leave Mathura and come to Braja"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੇ ਹੀ (ਉਸ ਨੇ) ਕਿਹਾ ਕਿ ਮਥੁਰਾ ਛੱਡ ਦਿਓ ਅਤੇ ਬ੍ਰਜ ਵਿੱਚ ਆ ਜਾਓ, ਇਸ ਤਰ੍ਹਾਂ ਦੀ ਗੱਲ ਉਸ ਨੇ ਕਹੀ ਹੈ।"

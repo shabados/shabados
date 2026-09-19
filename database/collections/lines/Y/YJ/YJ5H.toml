@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਹਾਨੇ ਦੁਹਦ ਰਾ ਦਹਨ ਬਰ ਕੁਸ਼ਾਦ ॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The musical drums (instruments) were unveiled,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਢੋਲਚੀਆਂ ਨੇ) ਢੋਲਾਂ ਦੇ ਮੂੰਹ ਖੋਲ੍ਹ ਦਿੱਤੇ (ਅਰਥਾਤ ਢੋਲਾਂ ਨੂੰ ਬਹੁਤ ਵਜਾਇਆ)"

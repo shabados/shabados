@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਹਾਲ ਦਿਆਲ ਤਾਰਣੰ ॥੨੦੪॥"
 page = 221
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“He is merciful and kind towards all and mercifully gives support to helpless and ferries them across.204."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾੜੀ ਹਾਲਤ ਨੂੰ ਸੁਧਾਰਨ ਵਾਲਾ ਦਿਆਲੂ ਹੈ ॥੨੦੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਪ੍ਰਸੰਨ ਭਏ ਗੁਰਦੇਵਾ ॥੩॥"
 page = 198
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Everyone worshipped, adored and served in various ways and the Supreme Preceptor (i.e. the Lord) was pleased.3."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕਰਕੇ ਗੁਰਦੇਵ (ਕਾਲ-ਪੁਰਖ) ਪ੍ਰਸੰਨ ਹੋ ਗਿਆ ॥੩॥"

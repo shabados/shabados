@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਜਿ ਗਯੋ ਤਜ ਦਈ ਲਰਾਈ ॥"
 page = 450
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Shiva became somewhat conscious and he fled away from the war-arena"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਉਹ) ਲੜਾਈ ਛਡ ਕੇ ਭਜ ਗਿਆ।"

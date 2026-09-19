@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਤ ਨ ਲਖੇ ਤਵਨ ਕੇ ਡਰਤੇ ॥੧॥"
 page = 1047
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਤੋਂ ਡਰਦਿਆਂ ਹੋਰ ਕਿਸੇ ਵਲ ਵੇਖਦਾ ਵੀ ਨਹੀਂ ਸੀ ॥੧॥"

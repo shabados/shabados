@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਰਥਊ ਜੋਗ ਸਾਧਨਾ ਸਾਜੀ ॥"
 page = 289
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਯੋਗ ਦੇ ਸਾਰੇ ਢੰਗ (ਲੱਛਮਣ ਨੇ ਵੀ) ਕੀਤੇ"

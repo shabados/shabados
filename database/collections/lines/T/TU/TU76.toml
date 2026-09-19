@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁੰਭ ਨਿਸੁੰਭ ਸੇ ਕੋਟ ਨਿਸਾਚਰ ਜਾਹਿ ਛਿਨੇਕ ਬਿਖੈ ਹਨ ਡਾਰੇ ॥"
 page = 46
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who hath destroyed millions of demons like Sumbh and Nisumbh in and instant."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਸ਼ੁੰਭ-ਨਿਸ਼ੁੰਭ ਵਰਗੇ ਕਰੋੜਾਂ ਰਾਖਸ਼ ਛਿਣ ਭਰ ਵਿਚ ਨਸ਼ਟ ਕਰ ਦਿੱਤੇ ਹਨ;"

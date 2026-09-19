@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਹਫ਼ਤਸ਼ ਗਿਰਾ ਬੁਦ ਚੌਕੀ ਗਿਰਾ ॥੨੮॥"
 page = 1425
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And wanted to slaughter the seventh one who was standing on the platform.(28)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਸੱਤਵਾਂ ਚੌਕੀਦਾਰ ਚੌਕੀ ਉਪਰ ਖੜੋਤਾ ਸੀ ॥੨੮॥"

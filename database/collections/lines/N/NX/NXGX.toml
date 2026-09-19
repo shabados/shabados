@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਸੁ ਅਨੇਕ ਮਾਰੇ ਤਿਹ ਬਾਰੰ ॥੧੬੦॥"
 page = 626
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Performing Gomedh Yajnas in various ways, he sacrificed many animals.160."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕ ਤਰ੍ਹਾਂ ਦੇ ਗੋਮੇਧ ਯੱਗ ਕੀਤੇ ਅਤੇ ਉਨ੍ਹਾਂ ਅਵਸਰਾਂ ਉਤੇ ਬਹੁਤ ਪਸ਼ੂ ਮਾਰੇ ਗਏ ॥੧੬੦॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੈ ਨ ਜਉਨ ਕਹਿ ਹੈ ॥"
 page = 555
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They will not remain stable in their religion and will not do in accordance with their utterance"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਕੁਝ) ਨਹੀਂ ਕਰਨਗੇ, ਜੋ ਉਹ ਕਹਿਣਗੇ।"

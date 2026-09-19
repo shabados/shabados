@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੂਰਖ ਜਾਨਿ ਜਤਨ ਤਿਹ ਕਰਿਯੋ ॥"
 page = 948
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The emissary became furious on receiving the retribution and,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ (ਤਾਸ ਬੇਗ) ਨੂੰ ਮੂਰਖ ਜਾਣ ਕੇ ਇਹ ਯਤਨ ਕੀਤਾ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਵੀ ਨਦਿ ਊਪਰ ਬਸੈ; ਨਾਰਿ ਸਾਹਿਬਾ ਨਾਮ ॥"
 page = 992
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On the banks of Ravi, there used to live a woman called Sahiban."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਵੀ ਨਦੀ ਦੇ ਕੰਢੇ ਸਾਹਿਬਾਂ ਨਾਂ ਦੀ ਇਕ ਇਸਤਰੀ ਵਸਦੀ ਸੀ,"

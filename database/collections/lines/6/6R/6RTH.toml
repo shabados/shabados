@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਲੀ ਕੇ ਗ੍ਰਿਹ ਤੇ ਜਬ ਆਈ ॥"
 page = 918
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਮਾਲੀ ਦੇ ਘਰੋਂ ਆਈ"

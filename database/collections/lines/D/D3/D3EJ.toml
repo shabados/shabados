@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਹਿਤਾ ਕਾਢਿ ਤੁਰਕ ਕਹ ਦਈ ॥"
 page = 1239
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਤੁਰਕਾਂ ਨੂੰ (ਘਰੋਂ) ਕਢ ਕੇ ਪੁੱਤਰੀ ਦਿੱਤੀ ਹੋਵੇ।"

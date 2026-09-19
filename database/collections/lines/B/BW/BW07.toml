@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਰਤੁ ਮਦਨ ਕੇ ਬਸਿ ਹ੍ਵੈ ਜੈ ਹੈ ॥੧੪॥"
 page = 1003
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘When Raja will see you, he will surely be taken over by theCupid.’(14)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਤੁਰਤ ਕਾਮ ਦੇ ਵਸ ਵਿਚ ਹੋ ਜਾਏਗਾ ॥੧੪॥"

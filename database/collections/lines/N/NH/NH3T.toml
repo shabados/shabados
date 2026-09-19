@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੀਨ ਦਿਆਲ ਕੀ ਬਾਤ ਸੁਨਾਵ ਹੋਂ ਤੁਹਿ ਕਉ ਤੁਹਿ ਭੇਦੁ ਛਪਾਈ ॥"
 page = 541
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“I am relating to you the mystery of that Merciful Lord, who is the support of the oppressed"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੈਨੂੰ ਦੀਨ-ਦਿਆਲ ਦੀ ਗੱਲ ਸੁਣਾਉਂਦਾ ਹਾਂ, ਤੂੰ ਇਸ ਭੇਦ ਨੂੰ ਲੁਕਾਈ ਰਖੀਂ।"

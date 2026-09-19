@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਖ ਭਈ ਆਨਿ ਸਰਸ੍ਵਤੀ ਆਪੁ ॥"
 page = 627
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਾਰਿਆਂ) ਦੇ ਮੁਖ ਵਿਚ ਸਰਸਵਤੀ ਆਪ ਆਣ ਬਿਰਾਜੀ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੰ ਦਤ ਕੇ ਆਨਿ ਮੂੰਡੰ ਮੁੰਡਾਏ ॥"
 page = 645
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The people of various countries from far and near, came and got performed the tonsure ceremony from the hands of Dutt,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੱਤ ਦੇ ਹੱਥੀਂ ਸਿਰ ਮੁਨਵਾਏ ਹਨ।"

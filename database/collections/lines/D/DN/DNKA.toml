@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਪਤਿ ਪਰਮ ਗ︀ਯਾਨ ਜਬ ਪਾਯੋ ॥"
 page = 683
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਰਾਜਾ (ਪਾਰਸ ਨਾਥ) ਨੇ ਪਰਮ ਗਿਆਨ ਪ੍ਰਾਪਤ ਕਰ ਲਿਆ।"

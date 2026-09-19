@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾਂ ਏਕ ਬੀਰੰ ਹਰੀ ਚੰਦ ਕੋਪ︀ਯੋ ॥"
 page = 61
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਦੋਂ ਇਕ ਸੂਰਮੇ ਹਰੀ ਚੰਦ ਨੇ ਕ੍ਰੋਧ ਕੀਤਾ"

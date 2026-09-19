@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾਣੈ ਨਾਹੀ ਮਰਣੁ, ਵਿਚਾਰਾ ॥੨॥"
 page = 676
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The wretched creature thinks not of death."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਭਾਗਹੀਣ ਜੀਵ ਮੌਤ ਦਾ ਖਿਆਲ ਨਹੀਂ ਕਰਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The wretched creature does not even think of death. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਾ ਅਪਣੇ ਮਰਨੇ ਕੌ ਵਿਚਾਰਾ ਨਹੀਂ ਜਾਣਤਾ ਹੈ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਮੋਹ ਵਿਚ) ਬੇਬਸ ਹੋਇਆ ਜੀਵ ਆਪਣੀ ਮੌਤ ਨੂੰ ਚੇਤੇ ਨਹੀਂ ਕਰਦਾ ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਰਣੁ = ਮੌਤ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "no quiere entender que irremediablemente será derrotado por la muerte. (2)"

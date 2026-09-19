@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਵਾਟ. ਨ ਪਾਵਉ; ਵੀਗਾ ਜਾਉ ॥"
 page = 354
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I walk not Thy way and follow a zigzag (wrong) path."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੇਰੇ ਰਸਤੇ ਨਹੀਂ ਟੁਰਦਾ ਅਤੇ ਟੇਢੇ ਰਾਹੇ ਜਾਂਦਾ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I have not walked on Your Path; I have followed the crooked path."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰਾ ਰਸਤਾ ਮੈਂ ਨਹੀਂ ਪਾਉਤਾ ਹੂੰ ਅਰ ਟੇਡਾ ਜਾਤਾ ਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ! ਤੇਰੀ ਓਟ ਤੋਂ ਬਿਨਾ) ਮੈਂ ਜੀਵਨ ਦਾ ਸਹੀ ਰਸਤਾ ਨਹੀਂ ਲੱਭ ਸਕਦਾ, ਕੁਰਾਹੇ ਹੀ ਜਾਂਦਾ ਹਾਂ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਾ ਪਾਵਉ = ਮੈਨੂੰ ਨਹੀਂ ਲੱਭਦਾ। ਵਾਟ = ਰਸਤਾ। ਵੀਗਾ = ਵਿੰਗਾ, ਕੁਰਾਹੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "No voy por Tu Sendero y estoy encaminado en un sendero torcido,"

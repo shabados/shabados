@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਸਤ੍ਰ ਅਸਤ੍ਰ ਲੈ ਕੋਪਿ ਸਿਧਾਨੇ ॥"
 page = 1381
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਸਤ੍ਰਾਂ ਸ਼ਸਤ੍ਰਾਂ ਨੂੰ ਲੈ ਕੇ ਗੁੱਸੇ ਵਿਚ ਚਲ ਪਏ।"

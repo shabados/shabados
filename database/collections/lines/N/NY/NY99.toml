@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਲੀ ਮੰਡਲਾਕਾਰ ਜੂਝੈ ਬਿਰਾਜੈ ॥"
 page = 146
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors were fighting in the battlefield in enclosures."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੰਡਲਾਕਾਰ ਬਣਾ ਕੇ ਬਲਵਾਨ ਸੂਰਮੇ (ਯੁੱਧ ਵਿਚ) ਮਗਨ ਸਨ।"

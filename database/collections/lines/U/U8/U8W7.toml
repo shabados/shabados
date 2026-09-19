@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀੜਿਨ ਤੇ ਰਾਜਾ ਗਿਰਿਯੋ; ਪਰਿਯੋ ਧਰਨਿ ਪਰ ਆਨਿ ॥"
 page = 968
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Tbe Raja had fallen from the stairs to the ground,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੌੜੀਆਂ ਤੋਂ ਰਾਜਾ ਡਿਗ ਕੇ ਧਰਤੀ ਉਤੇ ਆ ਪਿਆ।"

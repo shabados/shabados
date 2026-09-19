@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਥੀਂ ਕਿਰਤਿ ਕਮਾਂਵਦਾ; ਪਗਿ ਚਲੈ ਸੁਜਾਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He works with hands and He, the Omniscient One, walks on feet."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਹਥਾਂ (ਅੰਦਰ ਹੋਕੇ) ਕਿਰਤ ਕਰਦਾ ਤੇ ਸਿਆਣਾ ਪੈਰਾਂ ਨਾਲ ਤੁਰਦਾ ਹੈ।"

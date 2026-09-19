@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਆਲਸ ਤਵਨ ਕੋ; ਸੁਨਿ ਰਾਜ ਰਾਜ ਵਤਾਰ ॥"
 page = 697
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O king! the name of this warrior is Aalas (idleness) who has black body and black eyes"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਨਾਂ 'ਆਲਸ' ਹੈ, ਹੇ ਰਾਜਿਆਂ ਦੇ ਅਵਤਾਰ ਰੂਪ ਰਾਜਨ! ਸੁਣੋ,"

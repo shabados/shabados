@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਲਸਕਰ ਬਾਕੀ ਬਚਿਯੋ; ਸੋ ਸਭ ਲੀਨੋ ਲੂਟਿ ॥੧੨॥"
 page = 1047
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਲਸ਼ਕਰ ਬਾਕੀ ਬਚਿਆ ਸੀ ਉਸ ਸਾਰੇ ਨੂੰ ਲੁਟ ਲਿਆ ॥੧੨॥"

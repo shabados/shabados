@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਭਾ ਆਪਾਰ ਮਹਿਮਾ ਅਭੰਗ ॥"
 page = 643
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, whose elegant comeliness cannot be described, His Greatness and Glory is infinite"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦੀ) ਅਪਾਰ ਆਭਾ ਅਤੇ ਅਭੰਗ (ਨਸ਼ਟ ਨਾ ਹੋਣ ਵਾਲੀ) ਮਹਿਮਾ ਹੈ।"

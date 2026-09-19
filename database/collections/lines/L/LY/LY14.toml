@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁ ਮਾਰਾ ਬਿਦਿਹ ਤਾ ਸ਼ਵਮ ਤਾਜ਼ਹ ਦਿਲ ॥"
 page = 1406
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Give me so that my heart brims with freshness,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਮੈਨੂੰ (ਉਹ ਪਿਆਲਾ) ਦੇ ਕਿ ਮੇਰਾ ਦਿਲ ਤਾਜ਼ਾ ਹੋਵੇ"

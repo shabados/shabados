@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਤ੍ਰਿਯ ਮੁਖ ਬਾਏ ਰਹੀ; ਸਕਾ ਨ ਕੋਊ ਬਿਚਾਰ ॥੨੫॥"
 page = 1224
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀਆਂ ਇਸਤਰੀਆਂ ਮੂੰਹ ਅੱਡੀ ਰਹਿ ਗਈਆਂ, ਕੋਈ ਵੀ ਭੇਦ ਨੂੰ ਸਮਝ ਨਾ ਸਕੀ ॥੨੫॥"

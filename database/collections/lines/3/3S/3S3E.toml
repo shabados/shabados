@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਹਾਰੇ ॥੭੬੨॥"
 page = 279
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The number of died is unaccountable, how many of them were killed and how many of them were defeated.762."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਤਨੇ ਹੀ ਹਾਰ ਕੇ (ਭੱਜ ਗਏ ਹਨ) ॥੭੬੨॥"

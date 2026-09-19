@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸੁਖਫਲ ਪਿਰਮ ਰਸੁ; ਚਰਣੋਦਕੁ ਗੁਰ ਚਰਣ ਪਖਾਲੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Gurmukhs having the desire of the fruits of delight with all love wash the feet of the guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖ ਰੂਪ ਫਲ ਪਿਰੀ ਦਾ ਰਸ (ਸਮਝ ਕੇ) ਗੁਰੂ ਦੇ ਚਰਨ ਧੋਕੇ ਚਰਣਾਂਮ੍ਰਿਤ"

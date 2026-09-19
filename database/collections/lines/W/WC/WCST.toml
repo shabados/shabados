@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਮਡੇ ਬਰਬੀਰ ਦਸੋ ਦਿਸਿਯੰ ॥"
 page = 167
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Advancing from all the ten directions, the warriors began to shower the arrows and stones"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਫ਼ੈਦ ਕੀਤੇ ਤੀਰਾਂ ਦੀ ਵਰਖਾ ਕਰ ਰਹੇ ਸਨ।"

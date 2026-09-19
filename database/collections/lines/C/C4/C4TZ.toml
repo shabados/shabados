@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਉਸਾਰਾ ਸਤ੍ਰੁ ਬਖਾਨਿ ਕੈ; ਭੇਦਕ ਗ੍ਰੰਥ ਬਖਾਨ ॥"
 page = 729
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਤਉਸਾਰਾ ਸਤ੍ਰੁ' (ਤੁਸਾਰ ਦਾ ਵੈਰੀ) ਕਹਿ ਕੇ, ਫਿਰ 'ਭੇਦਕ ਗ੍ਰੰਥ' ਕਥਨ ਕਰੋ।"

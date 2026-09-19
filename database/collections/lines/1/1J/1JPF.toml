@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਵਨ ਸਭਾ ਭੀਤਰ ਬੈਠਾਇਸ ॥"
 page = 920
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He called Madhwan Nal and asked him to settle down among the audience."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਸਭਾ ਵਿਚ ਬਿਠਾਇਆ।"

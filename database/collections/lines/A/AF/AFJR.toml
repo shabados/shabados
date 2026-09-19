@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਨ ਉਪਰਤ ਰੋਮ ਉਪਾਰਾ ॥੨੦੦॥"
 page = 1372
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਉਸ ਦਾ ਇਕ ਵਾਲ ਵੀ ਉਖਾੜ ਨਹੀਂ ਸਕਦੇ ਸਨ ॥੨੦੦॥"

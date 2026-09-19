@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅਸਟ ਧਾਤੁ ਦਾ ਜਬਰ ਜੰਗੁ; ਨਿਵੈ ਨ ਫੁਟੈ ਕੋਟ ਢਹਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Cannon made of eight metals neither bends nor explodes but demolishes the fort."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਮੂਰਾ ਅੱਠਾਂ ਧਾਤਾਂ ਦਾ ਨਿਵੰਦਾ ਅਰ ਫੁਟਦਾ ਨਹੀਂ, (ਕਈ) ਕਿਲਿਆਂ ਨੂੰ ਢਾਹ ਸੁਟਦਾ ਹੈ, (ਭਾਵ ਹਾਰਣ ਵਿਖੇ ਨਹੀਂ ਆਉਂਦਾ)।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਯਮ ਤੀਰ ਜ਼ਦ ਹਰਦੋ ਅਬਰੂ ਸ਼ਿਕੰਜ ॥"
 page = 1405
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The third arrow hit above his eyebrows,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੀਜੀ ਵਾਰ (ਰਾਜ ਕੁਮਾਰੀ ਨੇ) ਉਸ ਨੂੰ ਭਰਵਟਿਆਂ ਵਿਚਕਾਰ ਤੀਰ ਮਾਰਿਆ,"

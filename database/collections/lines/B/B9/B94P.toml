@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਤੋਖਣੀ ਪੋਖਣੀ ਸੰਤ ਸਰਬਾ ॥"
 page = 118
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sustainer and bestowed of pleasure to all the saints, I salute thee."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਿਆਂ ਸੰਤਾਂ ਨੂੰ ਪ੍ਰਸੰਨ ਕਰਨ ਅਤੇ ਭਰਨ ਵਾਲੀ ਨੂੰ ਨਮਸਕਾਰ ਹੈ;"

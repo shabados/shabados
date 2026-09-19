@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਹਤ ਸੁਨਤ; ਕਛੁ ਜੋਗੁ ਨ ਹੋਊ ॥"
 page = 251
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Through tell-tale and hearsay, one becomes not worthy at all."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਖਣ ਅਤੇ ਸ੍ਰੋਤ ਰਾਹੀਂ ਇਨਸਾਨ ਮੂਲੋਂ ਹੀ ਲਾਇਕ ਨਹੀਂ ਹੁੰਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Hearing and telling stories, no one attains Yoga."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਹਿਨੇ ਅਰ ਸ੍ਰਵਣ ਕਰਨੇ ਸੇ ਕੁਛ ਪਰਮੇਸ੍ਵਰ ਕੇ ਸਾਥ (ਜੋਗੁ) ਜੁੜਨਾ ਨਹੀਂ ਹੋਤਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਨਿਰਾ ਪ੍ਰਭੂ-ਮਿਲਾਪ ਦੀਆਂ ਗੱਲਾਂ ਆਖਣ ਸੁਣਨ ਨਾਲ ਪ੍ਰਭੂ-ਮਿਲਾਪ ਨਹੀਂ ਹੋ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜੋਗੁ = ਮਿਲਾਪ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Escuchando historietas uno no llega a nada."

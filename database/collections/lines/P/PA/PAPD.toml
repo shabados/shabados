@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਤਿਗੁਰੁ ਭੇਟੇ; ਸੋ ਸੁਖੁ ਪਾਏ ॥"
 page = 468
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He who meets the True Guru, attains peace."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸੱਚੇ ਗੁਰਾਂ ਨੂੰ ਮਿਲ ਪੈਂਦਾ ਹੈ, ਉਹ ਆਰਾਮ ਪਾਉਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "One who meets the True Guru finds peace."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਤਗੁਰੋਂ ਕੋ ਮਿਲਤੇ ਹੈਂ, ਸੋ ਸੁਖ ਪਾਵਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਮਨੁੱਖ ਨੂੰ ਗੁਰੂ ਮਿਲ ਪਿਆ ਹੈ (ਅਸਲੀ) ਸੁਖ ਉਹੀ ਮਾਣਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਤਿਗੁਰੁ ਭੇਟੇ = (ਜਿਸ ਮਨੁੱਖ ਨੂੰ) ਗੁਰੂ ਮਿਲ ਪਏ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Paz y toma el Nombre del Señor en su mente."

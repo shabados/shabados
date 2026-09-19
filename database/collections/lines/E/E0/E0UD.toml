@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਟ ਘਟ ਕੇ ਪਟ ਪਟ ਕੀ ਜਾਨੀ ॥੭॥"
 page = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Regarding the inward recesses of every heart are known to Him.7."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਹਰ ਇਕ ਸ਼ਰੀਰ ਦੀ ਗੁਪਤ ਤੋਂ ਗੁਪਤ ਗੱਲ ਨੂੰ ਜਾਣਦਾ ਹੈ ॥੭॥"

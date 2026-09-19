@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਨਾਮ ਠਾਮ ਅਨਭਵ ਅਭੇਖ ॥"
 page = 642
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He has no form or line, no attachment or detachment"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦਾ) ਕੋਈ ਨਾਂ ਅਤੇ ਥਾਂ ਨਹੀਂ ਹੈ ਅਤੇ ਜੋ ਸੁਤਹ ਪ੍ਰਮਾਣ ਅਤੇ ਭੇਖ ਰਹਿਤ ਹੈ।"

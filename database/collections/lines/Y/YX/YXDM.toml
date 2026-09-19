@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਬਾਹਣੀ ਆਪਨੀ ਰੂਪਣੀ ਹੈ ॥੪੨੫॥"
 page = 336
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thy vehicle is supreme and Thou art the revealer of all the sciences.425."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਾਰੀ ਸੈਨਾ ਵਾਲੀ ਅਤੇ ਆਪ ਹੀ ਆਪਣੇ ਵਰਗੇ ਰੂਪ ਵਾਲੀ ਹੈਂ ॥੪੨੫॥"

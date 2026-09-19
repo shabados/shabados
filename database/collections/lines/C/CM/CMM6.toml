@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਤਿਯ ਥਾਰ ਆਗੇ ਤਿਹ ਰਾਖਾ ॥"
 page = 1271
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਤੀਜਾ ਥਾਲ ਉਸ ਦੇ ਅਗੇ ਰਖਿਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫਿਰਿ ਕਹੋ ਬੈਣ ਨਹੀ ਬੈਣ ਭਾਖ ॥"
 page = 642
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who has not left untouched even one egoist, He cannot be described in words"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਕਦੇ ਬਚਨ ਕਹਿ ਕੇ ਫਿਰ ਬਚਨ ਨਹੀਂ ਕਿਹਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਤਨ ਮੁੰਡ ਦਿਖਾਵਤ ਭਈ ॥"
 page = 975
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After begging, she went to her lover and showed him the heads of her sons."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪੁੱਤਰਾਂ ਦੇ ਸਿਰ (ਉਸ ਨੂੰ) ਵਿਖਾਏ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹੋਤੀ ਨਹੀ; ਕਵਨ ਕਛੁ ਕਰਣੀ ॥"
 page = 1219
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I can do not any other deed."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਕੋਈ ਹੋਰ ਕੰਮ ਨਹੀਂ ਕਰ ਸਕਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I cannot do anything else."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਕੌਨ ਗਿਨਤੀ ਮੇਂ ਹੂੰ, ਕ੍ਯੋਂਕਿ ਮੇਰੇ ਸੇ ਕੁਛ ਸੁਭ ਕਰਣੀ ਨਹੀਂ ਹੋ ਸਕਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੈਥੋਂ ਕੋਈ ਸੁਚੱਜਾ ਕਰਤੱਬ ਨਹੀਂ ਹੋ ਸਕਿਆ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹੋਤੀ ਨਹੀ = ਨਹੀਂ ਹੋ ਸਕਦੀ। ਕਰਣੀ = ਚੰਗੀ ਕਾਰ, ਚੰਗਾ ਕਰਤੱਬ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "No conozco ni puedo realizar ninguna acción."

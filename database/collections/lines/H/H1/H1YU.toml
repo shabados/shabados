@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਅ ਡਿਗੇ ਚਉਰੰ ਚਰਮਾਯੰ ॥"
 page = 247
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors are being faced and killed and they are falling on the ground with armours and fly-whisks"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌੜੀਆਂ ਢਾਲਾਂ ਡਿੱਗੀਆਂ ਪਈਆਂ ਹਨ।"

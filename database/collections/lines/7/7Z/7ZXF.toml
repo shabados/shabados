@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਸੁਭਟ ਕੋ ਤਿਹ ਸਮ ਨਾਹੀ ॥੧੭੨੦॥"
 page = 469
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Kharag Singh has been killed in the battlefield and there is no other warrior like him.1720."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵਰਗਾ ਹੋਰ ਕੋਈ ਸੂਰਮਾ ਨਹੀਂ ਹੈ ॥੧੭੨੦॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਿਧ ਚਉਰਾਸੀਹ ਮੰਡਲੀ; ਖਟਿ ਦਰਸਨਿ ਪਾਖੰਡਿ ਜਿਣਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He ( Baba Nanak) subjugated the eighty four siddhs and hypocrises of the six schools of Indian Philosophy"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਿੱਧਾਂ ਦੀਆਂ ਚੌਰਾਸੀ ਮੰਡਲੀਆਂ, ਖਟ ਦਰਸ਼ਨਾਂ ਦੇ ਪਾਖੰਡਾਂ ਨੂੰ ਬੀ ਜਿੱਤ ਆਇਆ।"

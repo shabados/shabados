@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਹਕਰ ਕਰਮ ਕੀਆ ਜਿਨ ਦਾਰਾ ॥"
 page = 1218
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਇਸਤਰੀ ਨੇ (ਇਤਨਾ) ਕਠਿਨ ਕੰਮ ਕੀਤਾ ਹੈ,"

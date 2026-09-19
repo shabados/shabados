@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੇਸ ਸੁਰੇਸ ਮਹੇਸ ਗਨੇਸ; ਨਿਸੇਸ ਭਲੇ ਜਸੁ ਗਾਵਹਿਗੇ ॥"
 page = 565
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sheshnaga, Indra, Shiva, Ganesha, Chandra, all of them will eulogise Him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ੇਸ਼ਨਾਗ, ਇੰਦਰ, ਸ਼ਿਵ, ਗਣੇਸ਼ ਅਤੇ ਚੰਦ੍ਰਮਾ (ਉਸ ਦੇ) ਚੰਗੀ ਤਰ੍ਹਾਂ ਜਸ ਨੂੰ ਗਾਉਣਗੇ।"

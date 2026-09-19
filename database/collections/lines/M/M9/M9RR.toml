@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਬਿਧਿ ਸਾਥ ਤਾਹਿ ਗ੍ਰਿਹ ਆਨਾ ॥"
 page = 1207
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਤਰ੍ਹਾਂ ਨਾਲ (ਆਦਰ ਸਤਿਕਾਰ ਕਰ ਕੇ ਉਸ ਨੂੰ) ਘਰ ਲੈ ਆਈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਮਹਿ ਦਰਬ ਠਗਨ ਕੀ ਆਸਾ ॥"
 page = 1194
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੁਹਾਡੇ) ਮਨ ਵਿਚ ਧਨ ਠਗਣ ਦੀ ਲਾਲਸਾ ਹੈ"

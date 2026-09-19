@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਗਨ ਗੁਰ ਗੋਰਖ ਕਰਿ ਮਾਨ︀ਯੋ ॥"
 page = 624
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Sannyasis considered him as Dattatreya and the Yogis as Guru Gorakhnath"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੋਗੀਆਂ ਨੇ ਗੁਰੂ ਗੋਰਖ ਕਰ ਕੇ ਮੰਨਿਆ।"

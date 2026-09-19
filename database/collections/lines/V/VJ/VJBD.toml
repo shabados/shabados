@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਸ ਰਾਗ ਸਰਬ ਸਪੰਨਿ ॥"
 page = 672
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਪ੍ਰਕਾਰ ਦੇ ਰਾਗ ਅਤੇ ਰਸ ਵਿਚ ਭਰਪੂਰ,"

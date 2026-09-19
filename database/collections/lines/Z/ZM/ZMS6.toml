@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਟਿਯੋ ਨ ਕਟੈ ਨ ਬਾਰਿਯੋ ਬਰਾਇ ॥"
 page = 139
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "It can neither be chopped nor burnt."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਟਿਆਂ ਕਟਿਆ ਨਹੀਂ ਜਾਂਦਾ, (ਅੱਗ ਨਾਲ) ਸਾੜਿਆਂ ਸੜਦਾ ਨਹੀਂ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਕੋ ਕਹੈ ਕਾਹਿ ॥੫੭੧॥"
 page = 609
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The black arrows are fitted in the bow and they hit the enemies.571."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ (ਹਾਲ) ਕੌਣ ਕਹਿ ਸਕਦਾ ਹੈ ॥੫੭੧॥"

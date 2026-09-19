@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਚਾਤ੍ਰਿਕੁ ਚਾਹਤ ਮੇਹੁ ॥"
 page = 838
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and as the pied-cuckoo longs for the rain,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਜਿਸ ਤਰ੍ਹਾਂ ਪਪੀਹਾ ਬਾਰਸ਼ ਨੂੰ ਲੋਚਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "and as the song-bird longs for the rain,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੈਸੇ ਚਾਤ੍ਰਿਕ ਸ੍ਵਾਂਤਿ ਬੂੰਦ ਕੇ ਲੀਏ ਬ੍ਰਖਾ ਕੋ ਚਾਹਿਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਪਪੀਹਾ (ਹਰ ਵੇਲੇ) ਮੀਂਹ ਮੰਗਦਾ ਹੈ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਚਾਤ੍ਰਿਕੁ = ਪਪੀਹਾ। ਮੇਹੁ = ਮੀਂਹ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "así como el pájaro Cuclillo añora la gota de rocío,"

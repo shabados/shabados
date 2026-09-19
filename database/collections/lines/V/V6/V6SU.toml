@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰੀ ਜਟਾ ਲਾਠਿਯਨ ਛੂਟੀ ॥"
 page = 1039
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲਾਠੀਆਂ ਦੇ ਮਾਰਨ ਨਾਲ ਜਟਾਵਾਂ ਖੁਲ੍ਹ ਗਈਆਂ।"

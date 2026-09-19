@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰੀਂ ਕਾਰਿ ਗਰ ਤੂ ਬ ਬਸਤੀ ਕਮਰ ॥"
 page = 1393
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If you forget this task of Justice,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਤੂੰ ਇਸ ਕੰਮ ਲਈ ਲਕ ਬੰਨ੍ਹ ਲਵੇਂਗਾ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਖ ਤੇ, ਮਾਰਹਿ ਮਾਰ ਬਖਾਨੈ ॥"
 page = 540
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were not caring for the blows of the maces and were uttering the shouts of “kill, kill” from their mouths"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ ਉਹ) ਪ੍ਰਵਾਹ ਨਹੀਂ ਕਰਦੇ, ਮੂੰਹ ਤੋਂ ਮਾਰੋ-ਮਾਰੋ ਪੁਕਾਰਦੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਪ੍ਰਚੰਡ ਬਲਵੰਡ ਬਹੁਰ; ਮਿਲ ਕੈ ਭਟ ਧਾਏ ॥"
 page = 463
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many powerful warriors went forward for fighting"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਪ੍ਰਚੰਡ ਅਤੇ ਬਲਵਾਨ ਸੂਰਮੇ ਫਿਰ ਇਕੱਠੇ ਹੋ ਕੇ ਹਮਲਾਵਰ ਹੋਏ ਹਨ।"

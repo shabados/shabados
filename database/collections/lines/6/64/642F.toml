@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਭੀਤਰ ਆਸਾ ਧਨ ਧਾਰੈਂ ॥"
 page = 1192
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਮਨ ਵਿਚ (ਧਨ ਆਦਿ ਦੀ) ਲਾਲਸਾ ਰਖਦਾ ਹੈਂ"

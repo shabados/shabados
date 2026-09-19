@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਵਗਣ ਛੋਡਿ; ਗੁਣ ਮਾਹਿ ਸਮਾਏ ॥"
 page = 1051
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Shedding sins, merge I then in virtues."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪਾਪਾਂ ਨੂੰ ਤਿਆਗ ਤਦ ਮੈਂ ਨੇਕੀਆਂ ਅੰਦਰ ਲੀਨ ਹੋ ਜਾਂਦਾ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Renouncing vice, I am immersed in virtue."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਚੀ ਕਾਰ ਮੇਂ ਲਗਾਏ ਹੈਂ ਵਹੁ ਔਗਣਾਂ ਕੋ ਛੋਡ ਕੇ ਤੇਰੇ ਗੁਣੋਂ ਮੇਂ ਸਮਾਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਔਗੁਣ ਛੱਡ ਕੇ ਤੇਰੇ ਗੁਣਾਂ ਵਿਚ ਲੀਨ ਹੋਏ ਰਹਿੰਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਛੋਡਿ = ਛੱਡ ਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y así me deshago de mi maldad y me inmerjo en Tus Virtudes,"

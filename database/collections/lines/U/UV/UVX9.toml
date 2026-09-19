@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਗਲ ਜਾਮਨੂੰ ਜਹਾ ਬਿਰਾਜੈਂ ॥"
 page = 1169
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਦੋ ਤਰ੍ਹਾਂ ਦੇ ਜਾਮਨਾਂ ਦੇ ਬ੍ਰਿਛ ਸਨ"

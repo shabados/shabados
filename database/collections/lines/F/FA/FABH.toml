@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਹਿਤੰ ਸਰਬੰ ॥੪੩੭॥"
 page = 670
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If the being relinquishes all like the abandonment of the cage by parrot, then all his actions can bear fruit and he achieves the position of superiority.437."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰੇ (ਸੁਖ) ਪ੍ਰਾਪਤ ਕਰ ਲੈਂਦਾ ਹੈ ॥੪੩੭॥"

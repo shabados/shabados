@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫੁਲੇ ਜਣੁ ਕਿੰਸਕ ਬਾਸੰਤੰ ॥"
 page = 212
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਬਸੰਤ ਰੁਤ ਵਿੱਚ ਕੇਸੂ ਫੁੱਲੇ ਹੋਣ-"

@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੁਣਾਲਯ ਹੈਂ ॥"
 page = 9
 line = 12
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Lord! Thou art the house of Mercy!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ!) ਤੂੰ ਕ੍ਰਿਪਾ ('ਕਰੁਣਾ') ਦਾ ਘਰ ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਕਰੁਣਾਲਯ ਹੈਂ ॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬਗਤ ਦੇਵ, ਅਛੈ ਅਨ ਭਰਮਾ ॥੯॥"
 page = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Unmanifest Lord is Indestructible and ever Stable.9."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਅਵਿਅਕਤ, ਅਵਿਨਾਸ਼ੀ ਅਤੇ ਭਰਮਾਂ ਤੋਂ ਰਹਿਤ ਪਰਮ-ਸੱਤਾ ਹੈ ॥੯॥"

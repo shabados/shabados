@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਬਾਢਵਾਰੀਨ, ਕੋ ਕਾਢ ਢੂਕੈ ॥੭॥"
 page = 983
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were cut into pieces and their elephants were severed.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਹੀ ਤਲਵਾਰਾਂ ਕਢ ਕੇ ਆ ਢੁਕੇ ਹਨ ॥੭॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਪਰਨ ਕੇ ਜਹ ਉਡੈ ਅਵਾਰੇ ॥"
 page = 925
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Huge palaces were even crumbling, and the roofs were flying away."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਛੱਪਰਾਂ ਦੇ ਜਿਥੇ ਉਡ ਉਡ ਕੇ ਅੰਬਾਰ ਲਗ ਗਏ ਸਨ।"

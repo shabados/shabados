@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਹੈ ਬਾਤ ਤੁਮਰੇ ਗ੍ਰਿਹ ਲਹੀ ॥"
 page = 891
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I have seen that happening in your house."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹੀ ਗੱਲ (ਮੈਂ) ਤੁਹਾਡੇ ਘਰ ਵਿਚ ਵੇਖੀ ਹੈ।"

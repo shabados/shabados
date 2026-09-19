@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨਿ ਸਮੇਤ ਲਈ ਪਾਗ ਉਤਾਰੀ ॥੨੦੪੦॥"
 page = 501
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He gave a slap and caused his turban to fall down alongwith the jewel.2040."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਣੀ ਸਮੇਤ ਉਸ ਦੀ ਪਗੜੀ ਉਤਾਰ ਲਈ ॥੨੦੪੦॥"

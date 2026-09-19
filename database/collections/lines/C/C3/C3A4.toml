@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਦੁਰ ਬਹੁਟਾ ਗੋਲ ਛਾਪ; ਕਰਿ ਬਹੁ ਪਰਕਾਰੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Variegated wrist chains and round rings are prepared from gold."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਬੀਰਬਲੀਆਂ (ਜਾਂ ਬੁੰਦੇ), ਬਾਹਾਂ ਦੇ ਬੁਹੱਟੇ, ਗੋਲ ਮੁੰਦ੍ਰੀ (ਛੱਲਾ) ਕਈ ਪ੍ਰਕਾਰ ਦੇ ਕਰਦਾ ਹੈ।"

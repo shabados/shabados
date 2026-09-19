@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਸੀਅ ਕੋ ਛੋਰ ਆਇਯੋ ਉਤਾਲੰ ॥੭੨੨॥"
 page = 275
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Lakshman left her in the Vihar forest, where there were lawful trees of saal and tamaal.722."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਲੱਛਮਣ) ਉਥੇ ਸੀਤਾ ਨੂੰ ਛੱਡ ਕੇ ਛੇਤੀ ਨਾਲ ਮੁੜ ਆਇਆ ॥੭੨੨॥"

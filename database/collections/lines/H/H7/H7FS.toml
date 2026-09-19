@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਰਰੋ ਧ੍ਰਮਰਾਇਆ ॥੨॥"
 page = 746
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "that the Righteous Judge is very strict."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਧਰਮ ਰਾਜਾ ਬਹੁਤ ਸਖਤ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "that the Righteous Judge of Dharma is so strict and stern. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔ ਧਰਮ ਰਾਜਾ ਕਰੜਾ ਹੈ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਧਰਮਰਾਜ ਬੜਾ ਕਰੜਾ (ਹਾਕਮ) ਹੈ ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰਰੋ = ਕਰੜਾ, ਸਖ਼ਤ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "que la Justicia de Dios es tan implacable.(2)"

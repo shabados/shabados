@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪੰ ਗੋਪਲਾਯੰ ਖਰੋ ਖੇਤ ਗਾਜੈ ॥"
 page = 61
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਵੇਲੇ ਗੁਲੇਰੀਆ) ਰਾਜਾ ਗੋਪਾਲ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਖੜੋ ਕੇ ਗਜ ਰਿਹਾ ਸੀ"

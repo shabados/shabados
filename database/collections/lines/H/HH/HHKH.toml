@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਰਉ ਲਾਗਿ ਪਹਿ ਹੋਊਾਂ ਮਸਾਨਾ ॥"
 page = 285
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Bring wood for me so that I may get myself reduced to ashes with my husband.”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ ਸਰੀਰ ਨੂੰ) ਛੱਡ ਦਿਆਂ,"

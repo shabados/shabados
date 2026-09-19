@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਿ ਗੋਰ ਕੌ ਸੀਸ ਝੁਕਾਵਹਿ ॥"
 page = 917
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All used to walk to the place to bow their heads,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆ ਕੇ ਸਮਾਧੀ ('ਗੋਰ') ਨੂੰ ਸੀਸ ਝੁਕਾਂਦੇ ਸਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰਿਹ ਮਹਿ ਹੋਇ ਅਨਗਨਤ ਬਿਤਾ ॥"
 page = 1245
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਘਰ ਵਿਚ ਅਣਗਿਣਤ ਧਨ-ਦੌਲਤ ਹੋਵੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਂਡੋ ਫਿਰੋ ਸਭਨ ਭਯੋ ਰਾਈ ॥੯॥"
 page = 73
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Comprehending Thy Kindness, I have become fearless and in my pride, I consider myself as the king of all. 9."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਆਪਣੇ ਆਪ ਨੂੰ) ਸਭ ਦਾ ਰਾਜਾ ਸਮਝ ਕੇ ਐਂਠਿਆ ਫਿਰਦਾ ਹਾਂ ॥੯॥"

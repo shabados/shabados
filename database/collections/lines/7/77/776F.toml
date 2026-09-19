@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਜਰੀ ਕੀ ਬਰੀ ਕੀ; ਢਿਗ ਤੇ ਕਬਹੂੰ ਨ ਜਾਉ ॥੩੧॥"
 page = 921
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I will adopt my name as “the burnt one”.(31)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੜੀ-ਬੂਟੀ ਵਾਂਗ (ਪ੍ਰੀਤਮ ਦੇ) ਨੇੜਿਓਂ ਕਦੇ ਵੀ ਨਹੀਂ ਜਾਵਾਂਗੀ ॥੩੧॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁੰਭ ਨਿਸੁੰਭ ਰਿਸਾਏ, ਮਾਰੇ ਦੈਤ ਸੁਣ ॥"
 page = 124
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sumbh and Nisumbh were highly enraged on hearing this killing."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੈਂਤਾਂ ਦੇ ਮਾਰੇ ਜਾਣ (ਦੀ ਗੱਲ) ਸੁਣ ਕੇ ਸ਼ੁੰਭ ਅਤੇ ਨਿਸੁੰਭ ਕ੍ਰੋਧਿਤ ਹੋ ਗਏ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਹੁ ਬਲੀ ਬਰਮਾਕ੍ਰਿਤ ਬੰਧੁ; ਸੋਊ ਰਨ ਤੇ ਜਮਲੋਕਿ ਪਠਾਯੋ ॥੧੫੬੪॥"
 page = 453
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And in this way, both the brothers, Bahubali and Vikramakrat were despatched to the abode of Yama.1564."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੂਜਾ) ਬਰਮਾਕ੍ਰਿਤ ਦਾ ਭਰਾ 'ਬਾਹੁਬਲੀ' ਸੀ, ਉਸ ਨੂੰ ਯੁੱਧ-ਖੇਤਰ ਤੋਂ ਯਮ ਲੋਕ ਭੇਜ ਦਿੱਤਾ ਹੈ ॥੧੫੬੪॥"

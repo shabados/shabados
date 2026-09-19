@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਨੇ ਸੂਰ ਸੁੱਧੰ ॥"
 page = 61
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hari Chand (Handooria) in great fury, killed significant heroes."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਗੇ ਸੂਰਮੇ ਮਾਰ ਦਿੱਤੇ।"

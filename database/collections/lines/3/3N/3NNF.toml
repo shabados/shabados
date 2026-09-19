@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਅਨੰਗਹਿ ॥੧੮॥੬੫॥"
 page = 133
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Lord is Formless.18.65."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨੰਗ-ਦੋਸ਼ ਤੋਂ ਮੁਕਤ ਹੈ ॥੧੮॥੬੫॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇੰਦ੍ਰ ਕ੍ਰਿਸਨ ਜਮ ਬਸੁ ਰਿਸ ਭਰੇ ॥"
 page = 464
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇੰਦਰ, ਕ੍ਰਿਸ਼ਨ, ਯਮ ਅਤੇ ਅੱਠ ਬਸੂ,"

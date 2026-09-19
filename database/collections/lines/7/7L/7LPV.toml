@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪਨੑੀਆ ਛਾਦਨੁ ਨੀਕਾ ॥"
 page = 695
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The foot-wear, good clothes,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੁਤੀ, ਚੰਗੇ ਕਪੜੇ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Shoes, fine clothes,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਚਰਨੋਂ ਮੇਂ ਪਹਰਨੇ ਕੋ (ਪਨੀਆ) ਚਰਨ ਦਾਸੀ ਔਰ ਸਰੀਰ ਪਰ ਪਹਰਨੇ ਕੋ (ਛਾਦਨ) ਬਸਤ੍ਰ (ਨੀਕਾ) ਚੰਗਾ ਮਾਂਗਤਾ ਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੁੱਤੀ ਤੇ ਸੋਹਣਾ ਕੱਪੜਾ ਭੀ ਮੰਗਦਾ ਹਾਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਨ੍ਹ੍ਹੀਆ = ਜੁੱਤੀ {Skt. उपानह् }। ਛਾਦਨੁ = ਕਪੜਾ। ਨੀਕਾ = ਸੋਹਣਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Te ruego que me des telas de seda para usar y también sandalias"

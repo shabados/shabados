@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹੋਏ ਪ੍ਰਭੂ ਸਹਾਈ ॥"
 page = 622
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord has become my Helper,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੁਆਮੀ ਮੇਰਾ ਸਹਾਇਕ ਹੋ ਗਿਆ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "God became my helper and my best friend;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਤੁਮ ਜਿਸ ਕੇ ਸਹਾਈ ਹੂਏ ਹੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਪਰਮਾਤਮਾ ਜਿਸ ਮਨੁੱਖ ਦਾ ਮਦਦਗਾਰ ਬਣਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਹਾਈ = ਮਦਦਗਾਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Señor se volvió su Único Santuario"

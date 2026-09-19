@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਰਮ ਅਧਿਕ ਬਚਨ ਸੁਨਿ ਡਰਿਯੋ ॥"
 page = 928
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੈਰਮ ਖਾਂ ਇਹ ਗੱਲ ਸੁਣ ਕੇ ਬਹੁਤ ਡਰ ਗਿਆ"

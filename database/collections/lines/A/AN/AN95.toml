@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਸਰਬਤ੍ਰ ਮੀਤੰ ॥੨੫੦॥"
 page = 655
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was supremely immaculate and friend of all.250."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਦਾ ਮਿਤਰ ਹੈ ॥੨੫੦॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਦੁਖ਼ਤਰ ਵਜ਼ੀਰ ਅਸਤ ਈਂ ਨੌਜਵਾ ॥੮੪॥"
 page = 1420
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘And she is the daughter of the Minister.’(84)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਹ ਮੁਟਿਆਰ ਉਥੋਂ ਦੇ ਵਜ਼ੀਰ ਦੀ ਲੜਕੀ ਹੈ ॥੮੪॥"

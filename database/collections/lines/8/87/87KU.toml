@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੈਨੌ ਨਾਮ ਜਟ ਕੀ ਬਾਮਾ ॥"
 page = 863
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The name of the wife of Naino Jat was Raj Mati."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਨੈਨੌ ਨਾਂ ਦੇ ਜੱਟ ਦੀ ਪਤਨੀ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰੇਮ ਮੰਜਰੀ ਤਿਹ ਗ੍ਰਿਹ ਦਾਰਾ ॥"
 page = 1214
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਘਰ ਪ੍ਰੇਮ ਮੰਜਰੀ ਨਾਂ ਦੀ ਇਸਤਰੀ ਸੀ"

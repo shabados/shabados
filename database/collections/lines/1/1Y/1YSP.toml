@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਰਾਸੰਧਿ ਨ੍ਰਿਪ ਬਾਚ ਹਲੀ ਸੋ ॥"
 page = 482
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Jarasandh addressed to Balram:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ ਜਰਾਸੰਧ ਨੇ ਬਲਰਾਮ ਨੂੰ ਕਿਹਾ:"

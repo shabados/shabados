@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਠਿਯੋ ਬੀਰ ਹਾਠੌ ਕਹਿਯੋ ਜੁਧ ਮੰਡੋ ॥"
 page = 922
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The obstinate Raja pronounced the declaration of war and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਹਠੀ ਬੀਰੋ! ਯੁੱਧ ਕਰੋ।"

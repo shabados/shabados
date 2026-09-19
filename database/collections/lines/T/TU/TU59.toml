@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨੁਕ ਸਿੱਖ ਸਖਾ ਹੈਂ ਭਲੇ ॥"
 page = 72
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The boys who are following them and jeering them, appear like their disciples and servants."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ (ਉਹ ਉਨ੍ਹਾਂ ਦੇ) ਚੰਗੇ ਸਿੱਖ-ਸੇਵਕ ਹੋਣ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਦੇਸ ਵੇਸ ਲਖ ਰਾਜ ਭਾਗ; ਪਰਗਣੇ ਹਜਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Lacs of kingdoms, countries and thousands of paraganas (districts);"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ ਦੇਸ਼, ਲੱਖਾਂ ਮੋਹਣੇ ਭੇਖ, ਰਾਜ ਭਾਗ ਅਰ ਹਜ਼ਾਰਾਂ ਇਲਾਕੇ।"

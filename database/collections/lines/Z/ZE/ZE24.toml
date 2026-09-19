@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੇ ਕਰੈ ਪਤ੍ਰ ਕਾਸਿਪੀ ਸਰਬ ॥"
 page = 641
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਸਾਰੀ ਧਰਤੀ ('ਕਾਸਿਪੀ') ਨੂੰ ਪੱਤਰ (ਕਾਗਜ਼) ਕਰ ਲਈਏ"

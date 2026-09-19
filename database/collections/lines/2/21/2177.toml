@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਬਿਸਾਰਿ ਬੋਧੰ ॥੨੭੩॥"
 page = 702
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The fighters were enraged like fire and they were not even slightly in senses.46.273."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨਾਲ ਅਕਲ ਗਵਾਚ ਜਾਂਦੀ ਹੈ ॥੨੭੩॥"

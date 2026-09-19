@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿੰਗੀ ਆਦਿ ਉਚਾਰਨ ਕੀਜੈ ॥"
 page = 753
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਸਿੰਗੀ' ਸ਼ਬਦ ਦਾ ਉਚਾਰਨ ਕਰੋ।"

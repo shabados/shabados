@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹ ਤਹ ਪਾਪ ਛਪਾ ਸਬ ਦੇਸਾ ॥"
 page = 624
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਕਿਥੇ ਸਾਰੇ ਦੇਸ ਵਿਚੋਂ ਪਾਪ ਛਿਪ ਗਿਆ"

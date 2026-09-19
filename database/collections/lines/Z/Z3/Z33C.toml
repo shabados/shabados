@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕੇ ਤਟ ਅਮਰਾਵਤਿ ਕੋ ਹੈ ॥"
 page = 1160
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਬਰਾਬਰ ਅਮਰਾਪੁਰੀ ਵੀ ਕੁਝ ਨਹੀਂ ਸੀ।"

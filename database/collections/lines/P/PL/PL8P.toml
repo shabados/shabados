@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਲੋ ਪਿਤੁ ਤਾ ਕੇ ਗ੍ਰਿਹ ਆਯੋ ॥"
 page = 919
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One day when he was at her house, her father came to her quarters."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਤਕ ਉਸ ਦਾ ਪਿਤਾ ਘਰ ਆ ਗਿਆ।"

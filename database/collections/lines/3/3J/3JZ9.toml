@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡੁਬਕੀ ਲੇਤੇ ਤਨ ਗਯੋ; ਪ੍ਰਾਨ ਬਹੁਰਿ ਗੇ ਛੂਟਿ ॥੭॥"
 page = 941
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And her soul abandoned her body.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਡੁਬਕੀਆਂ ਲੈਂਦਿਆਂ ਉਸ ਦਾ ਸ਼ਰੀਰ ਗ਼ਰਕ ਹੋ ਗਿਆ ਅਤੇ ਫਿਰ ਪ੍ਰਾਣ ਨਿਕਲ ਗਏ ॥੭॥"

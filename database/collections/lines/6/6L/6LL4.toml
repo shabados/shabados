@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਟੇ ਚਰਮ ਬਰਮੰ ਗਿਰਿ︁ਯੋ ਸਤ੍ਰੁ ਸਸਤ੍ਰੰ ॥"
 page = 160
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸ਼ੂਰਵੀਰਾਂ ਦੇ) ਕਵਚ ('ਬਰਮੰ') ਅਤੇ ਢਾਲਾਂ ਕਟ ਰਹੀਆਂ ਸਨ ਅਤੇ ਸ਼ਸਤ੍ਰ ਤੇ ਅਸਤ੍ਰ ਡਿਗ ਰਹੇ ਸਨ।"

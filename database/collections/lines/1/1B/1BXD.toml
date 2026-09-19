@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਗੜਦੰਗ ਕੋਪੇ ਤਾਗੜਦੰਗ ਤੈ ਕੈ ॥੫੭੮॥"
 page = 260
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sugriva and others got highly enraged.578."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਾਰੇ ਸੈਨਿਕ) ਕ੍ਰੋਧ ਨਾਲ ਤੱਤੇ ਹੋ ਗਏ ॥੫੭੮॥"

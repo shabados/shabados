@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਛਮ ਰੂਪ ਨ ਬਰਨਾ ਜਾਈ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thy subtle form is indescribable"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੇ) ਸੂਖਮ ਰੂਪ ਦਾ ਵਰਣਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ,"

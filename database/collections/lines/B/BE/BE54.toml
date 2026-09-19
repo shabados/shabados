@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਫ਼ਨ ਕਰਦ ਹਰਦੋ ਜ਼ਮੀਂ ਅੰਦਰਾ ॥"
 page = 1395
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Doing so he amassed a good amount of wealth,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਉਹ ਦੋਵੇਂ ਬੀਜ ਧਰਤੀ ਵਿਚ ਦਬ ਦਿੱਤੇ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਮੋਹਨਿ ਦੇ ਸੁਤਾ ਕਹਿਜੈ ॥੨॥"
 page = 1311
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਨ ਮੋਹਨੀ ਨਾਂ ਦੀ ਉਸ ਦੀ ਪੁੱਤਰੀ ਸੀ ॥੨॥"

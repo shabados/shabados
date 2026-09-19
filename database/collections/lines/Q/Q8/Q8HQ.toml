@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਸ ਤਪੀਸਾ ਕੇ ਬਿਖੈ; ਗੜੀ ਸਿਨਸਿਨੀ ਏਕ ॥"
 page = 988
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the country of Tapeesa, there was a fort inhabited by the sages."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਪੀਸਾ ਦੇਸ ਵਿਚ ਇਕ 'ਸਿਨਸਿਨੀ' ਨਾਂ ਦੀ ਗੜ੍ਹੀ ਸੀ।"

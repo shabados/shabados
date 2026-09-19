@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਭੈ ਹਥਿਯਾਰ ਝਾਰ ਹੀ ॥"
 page = 185
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੈ ਤੋਂ ਰਹਿਤ ਹੋ ਕੇ ਸ਼ਸਤ੍ਰ ਚਲਾਉਂਦੇ ਸਨ"

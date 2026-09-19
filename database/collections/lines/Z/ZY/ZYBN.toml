@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਤੁਮਰੇ ਰਸ ਢਰੇ; ਨ ਤਿਹ ਰਸ ਤੁਮ ਢਰੋ ॥"
 page = 828
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One who wants to relish your (sensual) companionship, don’t relate with her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ (ਉਹ) ਤੁਹਾਡੇ ਰਸ ਵਿਚ ਮਗਨ ਹੋ ਜਾਏ (ਤਾਂ) ਤੁਸੀਂ ਉਸ ਦੇ ਰਸ ਵਿਚ ਗ਼ਰਕ ਨਾ ਹੋਵੋ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੇਦ ਅਭੇਦ ਕੀ ਬਾਤ ਸਭੈ; ਕਹਿ ਕੈ ਮੁਖ ਤੇ ਸਭ ਹੀ ਸਮੁਝਾਈ ॥"
 page = 969
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She divulged her actions to the people at large that,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਭੇਦ ਅਭੇਦ ਦੀ ਸਾਰੀ ਗੱਲ (ਰਾਜੇ ਨੂੰ) ਮੂੰਹੋਂ ਬੋਲ ਕੇ ਸਮਝਾਈ।"

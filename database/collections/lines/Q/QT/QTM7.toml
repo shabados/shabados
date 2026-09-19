@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਨੇਹੰ ਨ ਗੇਹੰ, ਨ ਕਾਮੰ ਨ ਧਾਮੰ ॥"
 page = 19
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without love, without home, without just and without home."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰਾ ਕਿਸੇ ਨਾਲ ਕੋਈ ਵਿਸ਼ੇਸ਼) ਸਨੇਹ ਨਹੀਂ ਹੈ, ਨਾ ਘਰ ਹੈ, ਨਾ ਕਾਮਨਾ ਹੈ, ਨਾ ਠਿਕਾਣਾ ਹੈ,"

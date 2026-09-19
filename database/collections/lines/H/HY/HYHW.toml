@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਬਿਕ੍ਰਮ ਕੋ ਦਲੁ ਹੁਤੋ; ਸੋ ਲੈ ਚਲੇ ਉਠਾਇ ॥੮॥"
 page = 931
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And they shook the forces of Bikrim.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੋ ਬਿਕ੍ਰਮ ਦਾ ਸੈਨਾ-ਦਲ ਸੀ, ਉਸ ਨੂੰ ਉਠਾ ਕੇ ਚਲ ਪਏ ॥੮॥"

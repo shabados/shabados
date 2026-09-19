@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਬਮਾਲ ਭਿਰੇ ਕਛੂ; ਪੁਨ ਮਾਰਿ ਐਸੇ ਈ ਕੈ ਲਏ ॥"
 page = 238
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Jambumali fought in the war but he was also killed in the same manner"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂਬਮਾਲ ਕੁਝ ਚਿਰ ਲਈ ਲੜਿਆ, ਫਿਰ (ਉਸ ਨੂੰ) ਅੰਤ ਵਿੱਚ ਉਸੇ ਤਰ੍ਹਾਂ ਮਾਰ ਦਿੱਤਾ ਗਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹ ਚਿਤ ਰੁਚੈ ਤਹੀ ਤੇ ਕਹੀਐ ॥੧੦੬੫॥"
 page = 784
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Add the word “ari” after speaking the word “Turangni” and use the name of Tupak as desired.1065."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਜੀ ਕਰੇ, ਉਥੇ ਕਹੋ ॥੧੦੬੫॥"

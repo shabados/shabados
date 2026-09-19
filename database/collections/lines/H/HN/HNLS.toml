@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਜਸ ਤੁਯੰ ॥"
 page = 128
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Therefore I meditate on Thee,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਲਈ ਮੈਂ ਸਦਾ) ਤੈਨੂੰ ਭਜਦਾ ਹਾਂ,"

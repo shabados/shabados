@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਨਪਦ ॥ ਰਾਮਕਲੀ ॥ ਤ੍ਵਪ੍ਰਸਾਦਿ ॥"
 page = 682
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "VISHNUPADA RAMKALI BY THY GRACE"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਸਨਪਦ: ਰਾਮਕਲੀ: ਤੇਰੀ ਕ੍ਰਿਪਾ ਨਾਲ:"

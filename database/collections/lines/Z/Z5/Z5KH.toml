@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਬੰਦੇ ਦੀ ਬੰਦਗੀ ਵੀ ਸਦਾ ਕਾਇਮ ਰਹਿੰਦੀ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬੰਦਾ ਹਮ ਦਰ ਬੰਦਗੀ ਕਾਇਮ ਬਵਦ ॥੨੪੮॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Thousands of people and thousands of winds and"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸੋ ਟਿਕਾ ਸੋ ਛਤ੍ਰੁ ਸਿਰਿ; ਸੋਈ ਸਚਾ ਤਖਤੁ ਟਿਕਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "With the same mark (on the forehead), the same canopy he radiated on the Throne."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਉਹੋ ਤਿਲਕ, ਊਹੋ ਛਤ੍ਰ ਸਿਰ ਪੁਰ, ਉਹੋ ਸੱਚੇ ਸਿੰਘਾਸਨ ਪੁਰ ਬਿਰਾਜਮਾਨੀ;"

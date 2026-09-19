@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹੀ ਧੂਰਿ ਪੂਰੰ ਧੁਨੰ ਨਿਰਬਖਾਦੰ ॥੪॥"
 page = 165
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which spread equally throughout the universe.4."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਾਰੇ ਜਗਤ ਵਿਚ ਅਖੰਡ ਧੁਨੀ ਵਜੋਂ ਪਸਰ ਗਈ ॥੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਰੀ ਗਉਰਜਾ ਕਾਮਗਾਮੀ ਗੁਪਾਲੀ ॥"
 page = 119
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Parbati, fulfiller of the wishes, the power of Krishna"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੌਰੀ, ਗਿਰਜਾ, ਕਾਮ-ਗਾਮੀ (ਕਾਮਨਾ ਜਾਣਨ ਵਾਲੀ) ਗੁਪਾਲੀ (ਧਰਤੀ ਨੂੰ ਪਾਲਣ ਵਾਲੀ)"

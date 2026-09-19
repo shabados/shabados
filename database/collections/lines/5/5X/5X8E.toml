@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਈ ਮਾਨ ਬ੍ਰਹਮਾ ਲੀਨ ॥"
 page = 613
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ (ਆਗਿਆ) ਬ੍ਰਹਮਾ ਨੇ ਮੰਨ ਲਈ"

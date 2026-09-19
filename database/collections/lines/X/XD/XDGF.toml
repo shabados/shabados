@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਹਰਿ ਨਾਮੁ ਦੇਵੈ; ਜਨੁ ਸੋਇ ॥"
 page = 161
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The man, whom Lord God. gives His Name,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਮਨੁੱਖ ਨੂੰ ਵਾਹਿਗੁਰੂ ਸੁਆਮੀ ਆਪਣਾ ਨਾਮ ਦਿੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Those, unto whom the Lord bestows His Name,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਪਰਮੇਸ੍ਵਰ ਜਿਸ ਕੋ ਹਰਿ ਹਰਿ ਨਾਮ ਦੇਵੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ (ਗੁਰੂ ਦੀ ਰਾਹੀਂ ਜਿਸ ਮਨੁੱਖ ਨੂੰ) ਆਪਣੇ ਨਾਮ ਦੀ  ਦਾਤ ਦੇਂਦਾ ਹੈ, ਉਹ ਮਨੁੱਖ (ਉਸ ਦਾ) ਸੇਵਕ ਬਣ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਨੁ = ਸੇਵਕ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél que, a través de los Santos, recibe el Nombre del Señor,"

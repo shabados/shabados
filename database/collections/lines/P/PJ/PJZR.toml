@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਬੁਰਦੰਦ ਅਕਲੀਮ ਤਾ ਰਾਜ ਤਖ਼ਤ ॥"
 page = 1421
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then was plundered the country of Akleem,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇਸ਼ ਦੇ ਤਖ਼ਤ ਨੂੰ ਬੁਰੀ ਤਰ੍ਹਾਂ ਲੁਟਿਆ"

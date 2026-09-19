@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਿਯੌ ਚਹੋ ਤਬ ਬਰੋ ਪਿਯਾਰੇ ॥੮॥"
 page = 965
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And replied, ‘I am yours. You may marry me any time.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਿਆਰੇ! ਜਦੋਂ ਜੀ ਚਾਹੇ, ਮੈਨੂੰ ਵਰ ਲਵੋ ॥੮॥"

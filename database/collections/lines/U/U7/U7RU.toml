@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਖਨ ਬਸਤ੍ਰ ਬਾਲ ਕੇ ਦਏ ॥੨੧॥"
 page = 977
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘His hair had been removed with a medicine and he had put on women clothes and ornaments.(21)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸਤਰੀ ਦੇ ਬਸਤ੍ਰ ਅਤੇ ਗਹਿਣੇ ਦੇ ਦਿੱਤੇ ॥੨੧॥"

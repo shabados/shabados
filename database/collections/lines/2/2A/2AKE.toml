@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਸਮ ਔਰ ਨ ਜਗ ਮੋ ਬਾਮਾ ॥"
 page = 819
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Known as Jag Jot Mati, there was none equal to her in beauty in the world."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵਰਗੀ ਸੰਸਾਰ ਵਿਚ ਕੋਈ ਹੋਰ ਇਸਤਰੀ ਨਹੀਂ ਸੀ।"

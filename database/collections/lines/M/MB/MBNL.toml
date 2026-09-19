@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਬੀਰ ਬਾਨੀਨ ਕੇ ਬਕਤ੍ਰ ਟੂਟੈ ॥"
 page = 1080
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਤੇ ਬਾਣਾਂ ਵਾਲੇ ਸੂਰਮਿਆਂ ਦੇ ਕਵਚ ਟੁੱਟੇ ਹੋਏ ਸਨ।"

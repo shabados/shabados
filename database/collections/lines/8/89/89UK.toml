@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਰਿ ਕਰਿ ਮਰੀ ਨ ਰੌਰਨ ਪਾਰਾ ॥੧੪॥"
 page = 1205
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੜ ਕੇ ਮਰ ਗਈ, ਪਰ ਚੀਖੀ ਤਕ ਨਹੀਂ ॥੧੪॥"

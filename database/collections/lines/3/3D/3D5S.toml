@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਠੀ ਕਹਾ ਕਾਲ ਕੀ ਖਾਈ ॥"
 page = 878
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The spreading rumour reached the Rani, and she felt herself being Pushed towards the hell."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦਾਸੀ ਨੇ ਕਿਹਾ-) ਹੇ ਕਾਲ ਦੀਏ ਮਾਰੀਏ! (ਤੂੰ ਇਥੇ) ਕਿਉਂ ਬੈਠੀ ਹੈਂ।"

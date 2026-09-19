@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਛਾਡਿ ਸਿਆਨਪ; ਬਹੁ ਚਤੁਰਾਈ ॥"
 page = 190
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Shed thy wit and excessive cleverness."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੀ ਅਕਲਮੰਦੀ ਅਤੇ ਘਣੀ ਚਾਲਾਕੀ ਤਿਆਗ ਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Renounce your cleverness, and your cunning tricks."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਿਆਣਪ ਔਰ ਬਾਣੀ ਕੀ ਚਤੁਰਾਈ ਛੋੜ ਕਰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਖ਼ਿਆਲ ਛੱਡ ਦੇ ਕਿ ਤੂੰ ਬੜਾ ਸਿਆਣਾ ਤੇ ਚਤੁਰ ਹੈਂ (ਤੇ ਜੀਵਨ-ਮਾਰਗ ਨੂੰ ਆਪ ਹੀ ਸਮਝ ਸਕਦਾ ਹੈਂ)"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Deja tu astucia intelectual,"

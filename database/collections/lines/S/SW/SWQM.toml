@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਮ ਝਮਕ ਸਾਗ ਝਮਕੀਯੰ ॥"
 page = 197
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਝਮ-ਝਮ ਕਰਦੇ ਬਰਛੇ ਚਮਕਦੇ ਸਨ"

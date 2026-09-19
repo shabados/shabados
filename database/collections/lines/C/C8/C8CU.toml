@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਵਤ ਚੋਰ ਤ੍ਰਿਯਨ ਕੇ ਭਯੋ ॥"
 page = 884
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Shah was detained in a village on his way and, here, in the house of one lady, the thieves broke in."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਧਰ ਇਸਤਰੀਆਂ ਨੂੰ ਚੋਰ ਆ ਪਿਆ।"

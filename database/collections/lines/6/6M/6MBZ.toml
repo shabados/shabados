@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਪਾਇ ਠਾਢੀ ਜਲ ਭਰਿਹੋ ॥"
 page = 1021
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਪੈਰ ਉਤੇ ਖੜੋ ਕੇ (ਤੁਹਾਡੇ ਲਈ) ਪਾਣੀ ਭਰਾਂਗੀ।"

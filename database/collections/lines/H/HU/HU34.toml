@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਰਾਜ ਦੋਖ ਬ੍ਰਹਮ ਦੋਖ ਬ੍ਰਹਮ ਅਸਤ੍ਰ ਝਾਰ︀ਯੋ ॥"
 page = 706
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Brahmdosh and Raajdosh were finished with Bramastra (the arm of Brahman)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸੇ ਤਰ੍ਹਾਂ) 'ਰਾਜ ਦੋਖ' ਅਤੇ 'ਬ੍ਰਹਮ ਦੋਖ' ਨੂੰ ਬ੍ਰਹਮ ਅਸਤ੍ਰ ਨਾਲ ਝਾੜ ਦਿੱਤਾ ਹੈ।"

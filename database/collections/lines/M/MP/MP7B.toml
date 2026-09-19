@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜੇਹਾ ਭਾਉ, ਤੇਹੋ ਫਲੁ ਪਾਇਆ ॥੧੦॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He receives the fruit in accordance with his desert.'"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜੇਹਾ (ਕਿਸੇ ਦਾ) ਭਾਉ ਹੋਵੇ ਤੇਹਾ ਹੀ (ਉਸ ਨੇ) ਫਲ ਪਾਇਆ ਹੈ।"

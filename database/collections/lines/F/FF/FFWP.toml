@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਜਿ ਲਾਈਯਾ ਮੋਹਿ ॥੨੭੫॥"
 page = 227
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O mother! when you saw that the worst had happened and then you called your son  you must be reproached, I feel ashamed. 275."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਮੈਨੂੰ ਲਾਜ ਲਗਵਾਈ ਹੈ ॥੨੭੫॥"

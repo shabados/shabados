@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੈਤਾਂ ਦੇ ਦਲ ਹਾਰੇ, ਦਹਸਤ ਖਾਇ ਕੈ ॥"
 page = 123
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“The forces of the demons have been defeated on becoming panicky"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਚੰਡੀ ਦੀ) ਦਹਿਸ਼ਤ ਨਾਲ ਹੀ ਦੈਂਤਾਂ ਦੇ ਦਲ ਹਾਰ ਗਏ ਸਨ।"

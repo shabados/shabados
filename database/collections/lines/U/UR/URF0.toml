@@ -1,36 +1,36 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਸਾ ਮਹਲਾ ੫ ਪੰਚਪਦਾ₁ ॥"
 page = 393
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Asa 5th Guru. Panchpada."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਸਾ ਪੰਜਵੀਂ ਪਾਤਸ਼ਾਹੀ। ਪੰਚਪਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Aasaa, Fifth Mehl, Panch-Pada:"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਸਬਦ ਪੰਚ ਪੌੜੀਓਂ ਕਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Asa, Mejl Guru Aryan, Quinto Canal Divino, Panch-Pada."

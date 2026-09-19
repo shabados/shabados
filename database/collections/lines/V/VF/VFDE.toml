@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਹਯੋ ਕਿਸੰ ॥੫੨੯॥"
 page = 255
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the women are running away in illusion and Ravana obstructed them catching their hair.529."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੰਦਰਾਂ ਨੇ ਫੜ ਲਿਆ ਹੈ ॥੫੨੯॥"

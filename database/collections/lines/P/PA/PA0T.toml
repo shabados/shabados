@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੀਅਨ ਕੋ ਦਾਤਾ; ਮੇਰਾ ਪ੍ਰਭੁ ॥"
 page = 894
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My Master is the Bestower of the beings"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰਾ ਮਾਲਕ ਜੀਵਾਂ ਦਾ ਦਾਤਾਰ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "My God is the Giver of souls."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਰਬ ਜੀਵੋਂ ਕਾ ਦਾਤਾ ਮੇਰਾ ਸੁਆਮੀ ਸਮਰਥ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਮੇਰਾ ਪ੍ਰਭੂ ਸਭ ਜੀਆਂ ਨੂੰ ਦਾਤਾਂ ਦੇਣ ਵਾਲਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੋ = ਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mi Dios da la vida, pues Él es el Dios de dioses,"

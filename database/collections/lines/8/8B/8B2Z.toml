@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਮਿਤ ਕਟਕ ਲੀਨੇ ਸੰਗ ਆਯੋ ॥"
 page = 873
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਮਿਤ ਸੈਨਾ ਨਾਲ ਲੈ ਕੇ ਆ ਗਿਆ।"

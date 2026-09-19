@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਜ਼ਾ ਮਾਦਰੇ ਬਰਕਸ ਆਸੁਫ਼ਤਹ ਗਸ਼ਤ ॥"
 page = 1413
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Their mother fell in love with a stranger,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੀ ਮਾਂ ਕਿਸੇ ਹੋਰ ਆਦਮੀ ਉਤੇ ਮੋਹਿਤ ਹੋ ਗਈ।"

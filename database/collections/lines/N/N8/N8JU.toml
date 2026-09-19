@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਗੜਦੰ ਗਹੀਰ ॥੧੦॥੧੬੬॥"
 page = 113
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors were shouting loudly and thundering profoundly.10.166."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗਰਜ ਰਹੇ ਸਨ ॥੧੦॥੧੬੬॥"

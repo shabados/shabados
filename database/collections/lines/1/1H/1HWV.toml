@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਵਿਲੋਕਿ ਸਬਾਹਿ ਲਗੀ ਸਰਣੰ ॥"
 page = 600
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸੁੰਦਰ ਡੀਲ ਡੌਲ ਵਾਲੇ (ਸੂਰਮਿਆਂ) ਦੀ ਸਰਨ ਵਿਚ ਪੈਂਦੀਆਂ ਹਨ।"

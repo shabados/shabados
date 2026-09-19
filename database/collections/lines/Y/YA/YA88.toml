@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਹਤ ਹੁਤੀ ਸੋਇ ਪਤਿ ਪਾਯੋ ॥੭॥"
 page = 1297
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੂੰ) ਚਾਹੁੰਦੀ ਸੀ, ਉਸੇ ਨੂੰ ਪਤੀ ਵਜੋਂ ਪ੍ਰਾਪਤ ਕੀਤਾ ॥੭॥"

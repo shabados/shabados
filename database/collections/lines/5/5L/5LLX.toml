@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਹਿਰ ਥਨੇਸਰ ਕੇ ਬਿਖੈ; ਤੁਰਤ ਪਹੂੰਚੀ ਆਨ ॥੯॥"
 page = 972
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Quickly walked over to the place called Thanesar.(9)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਥਾਨੇਸਰ ਸ਼ਹਿਰ ਵਿਚ ਤੁਰਤ ਆ ਪਹੁੰਚੀ ॥੯॥"

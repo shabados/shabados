@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮਸਕਾਰਯੰ ਮੋਰ ਤੀਰੰ ਤੁਫੰਗੰ ॥"
 page = 46
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I salute the arrow and the gun, I salute the lustrous sword,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ) ਤੀਰ ਅਤੇ ਬੰਦੂਕ ਸਰੂਪ! ਮੇਰੀ (ਤੈਨੂੰ) ਨਮਸਕਾਰ ਹੈ।"

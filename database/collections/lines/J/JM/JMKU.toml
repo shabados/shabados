@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਲੈ ਕਾਲ ਕੇ ਕਾਲ ਕੀ ਰਾਤ੍ਰਿ ਜੈਸੇ ॥੨੬੪॥"
 page = 1377
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਤਰ੍ਹਾਂ ਪਰਲੋ ਕਾਲ ਦੀ ਰਾਤ ਵੇਲੇ (ਵਜਣਗੇ) ॥੨੬੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਧੁਰ ਮਧੁਰ ਧੁਨਿ ਗੀਤ ਉਚਾਰੈ ॥੧੨॥"
 page = 847
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "From both sides colours were sprinkled under the efficacy of music.(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਧੁਰ ਮਧੁਰ ਗੀਤਾਂ ਦਾ ਉਚਾਰਨ ਕਰਦੀਆਂ ਹਨ ॥੧੨॥"

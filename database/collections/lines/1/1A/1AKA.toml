@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਨਾਦ ਨਾਫੀਰਿਯੈ ਔ ਨਗਾਰੇ ॥"
 page = 1268
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਨਗਾਰੇ ਅਤੇ ਨਫ਼ੀਰੀਆਂ ਵਜਣ ਲਗੀਆਂ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੂਜੋ ਕਰ ਤਰਵਾਰਿ ਨਿਕਾਰੀ ॥"
 page = 985
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With a sword in one hand and a mace in the other,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੂਜੇ ਹੱਥ ਵਿਚ ਤਲਵਾਰ ਖਿਚ ਲਈ।"

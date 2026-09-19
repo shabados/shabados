@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਕਾਲ ਪੁਰਖ ਜਪੰਤ ॥"
 page = 610
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਲ ਪੁਰਖ ਨੂੰ ਕੋਈ ਨਹੀਂ ਜਪਦਾ ਹੈ,"

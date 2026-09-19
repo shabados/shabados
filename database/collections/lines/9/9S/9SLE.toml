@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਬਾਛਤ ਜੋ ਬਾਤ; ਉਹੈ ਬਰ ਪਾਵਹੀ ॥"
 page = 827
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Aspirations fulfilled, then what wrong have I done?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮਨ ਦੀ ਇੱਛਾ ਹੋਵੇ, ਉਹੀ ਵਰ ਪ੍ਰਾਪਤ ਕਰਦੇ ਹਨ।"

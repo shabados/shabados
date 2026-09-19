@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬੈ ਕਥਾ ਛਤੀਸਵੀ; ਇਹ ਬਿਧਿ ਕਹੀ ਸੁਧਾਰਿ ॥੧॥"
 page = 855
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Related the thirty-sixth Chritar with due amends.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ੩੬ ਵੀਂ ਕਥਾ ਇਸ ਤਰ੍ਹਾਂ ਸੁਧਾਰ ਕੇ ਕਹੀ ॥੧॥"

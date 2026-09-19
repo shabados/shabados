@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਗੀ ਗਏ ਭਏ ਘਰ ਬਾਰੀ ॥"
 page = 890
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Even ascetics are turned into householders in their association."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਥੇ) ਗਏ ਜੋਗੀ ਵੀ ਘਰਬਾਰੀ ਬਣ ਜਾਂਦੇ ਹਨ।"

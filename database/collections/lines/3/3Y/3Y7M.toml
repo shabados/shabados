@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਸੌ ਨੇਹ ਬਢਾਇ; ਕਹੀ ਹਮ ਆਇ ਕਰਿ ॥"
 page = 861
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I am your well wisher, and that is why I have come,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਤੇਰੇ ਨਾਲ ਸਨੇਹ ਵਧਾ ਕੇ ਮੈਂ ਇਹ (ਗੱਲ) ਆ ਕੇ ਕਹੀ ਹੈ।"

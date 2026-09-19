@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੜ ਭੜ ਬੀਰੰ ॥"
 page = 196
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਿਆਂ ਵਿੱਚ ਖੜਬੜਾਹਟ (ਮਚੀ ਹੋਈ ਸੀ)"

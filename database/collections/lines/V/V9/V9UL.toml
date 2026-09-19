@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਬਿਧਿ ਕੈ ਭੂਪਤਿ ਜਸੁ ਲੀਨਾ ॥"
 page = 173
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "For the remaining half a step, the king Bali got measured his own body and earned approbation."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਰਾਜੇ ਨੇ ਯਸ਼ ਖਟ ਲਿਆ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਖਾਨੁ ਛੁਰਾ ਤਾਰੂ ਤਰੇ; ਵੇਗਾ ਪਾਸੀ ਕਰਣੀ ਸਾਰੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Khanu, Chhura, Taru, had swum (the world ocean)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਖਾਨੂ ਛੁਰਾ, ਤਾਰੂ ਤਰਨ ਵਾਲਾ ਵੇਗਾ ਪਾਸੀ ਦੀ ਕਰਨੀ ਸ਼੍ਰੇਸਟ ਹੋਈ।"

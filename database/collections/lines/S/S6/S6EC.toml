@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਰਾ ਜਾ ਸਬਲ ਸਿੰਘ ਕਿ ਬਿਨਸ਼ਸਤਹ ਅਸਤ ॥੧੫॥"
 page = 1407
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "where Sambal Singh (the Raja) was seated.(15)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਉਸ ਦਾ ਪ੍ਰੀਤਮ ਸਬਲ ਸਿੰਘ ਬੈਠਾ ਹੋਇਆ ਸੀ ॥੧੫॥"

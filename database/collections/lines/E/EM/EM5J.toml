@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਗਨ ਸਗਨ ਤੇ ਰਹਤ ਨਿਰਾਲਮ ॥"
 page = 157
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art not influenced by any omen or auspicious time"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਲਗਨ ਅਤੇ ਸਗਨ ਤੋਂ ਨਿਰਲੇਪ ਰਹਿੰਦਾ ਹੈਂ,"

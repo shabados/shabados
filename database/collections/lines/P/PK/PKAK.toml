@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੀਲ ਹੈਂ ॥"
 page = 3
 line = 5
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Colourless Lord!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਰੰਗ-ਰਹਿਤ (ਅਥਵਾ ਸੰਖਿਆ ਰਹਿਤ) ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਅਨੀਲ ਹੈਂ ॥"

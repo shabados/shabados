@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮੈ ਆਪਨੀ ਆਪਨੀ ਅੰਤ ਮੂਏ ॥੨੭॥"
 page = 41
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were born and then died in their own times! 27"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਹੀ ਆਪਣੇ ਆਪਣੇ ਸਮੇਂ (ਵਿਚ ਹੋ ਕੇ) ਅੰਤ ਵਿਚ ਸਮਾ ਗਏ ॥੨੭॥"

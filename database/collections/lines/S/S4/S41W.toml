@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੇਕ ਬਾਰ ਧਿਆਵਹੀ ॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They remember Thy Name many times"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕ ਵਾਰ (ਤੇਰੇ ਨਾਮ ਦਾ) ਸਿਮਰਨ ਕਰਦੇ ਹਨ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿ ਦਨੁਜ ਪ੍ਰਲਵ ਸੰਤਨ ਉਧਾਰ ॥"
 page = 178
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After manifestation, Rudra destroys the demons and crushing them, he protects the saints."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੈਂਤਾਂ ਲਈ ਪਰਲੋ ਲਿਆਉਂਦਾ ਹੈ ਅਤੇ ਸੰਤਾਂ ਦਾ ਉੱਧਾਰ ਕਰਦਾ ਹੈ।"

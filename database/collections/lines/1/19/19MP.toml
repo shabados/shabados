@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬ ਨਉਤਨੈ ਕਰਿ ਸਾਜ ॥"
 page = 611
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The age the truth was established again and all the new creation appeared"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਸਾਜ ਨਵੇਂ ਕਰ ਲਏ ਗਏ।"

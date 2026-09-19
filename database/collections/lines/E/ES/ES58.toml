@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਅੰਗਸਤੁ ॥੧੬॥੬੩॥"
 page = 133
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Lord is also in female body.16.63."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀ ਰੂਪ ਹੈ (ਇ-ਅੰਗ) ॥੧੬॥੬੩॥"

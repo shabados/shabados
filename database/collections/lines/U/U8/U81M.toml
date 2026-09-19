@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਗਰਬ ਕੇ ਰਸਿ ਭੀਨ ॥੧॥"
 page = 635
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Performing extreme austerities Rudra became egoistic.1."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਉਹ ਹੰਕਾਰ ਦੇ ਰਸ ਵਿਚ ਭਿਜ ਗਿਆ ॥੧॥"

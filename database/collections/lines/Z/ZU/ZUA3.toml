@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਖੰਡ ਦੁਸਟ ਖਾਪ ਹੈ ॥"
 page = 128
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Indivisible and Destroyer on tyrants."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਅਖੰਡ ਰੂਪ ਵਾਲਾ ਅਤੇ ਦੁਸ਼ਟਾਂ ਨੂੰ ਨਸ਼ਟ ਕਰਨ ਵਾਲਾ ਹੈਂ,"

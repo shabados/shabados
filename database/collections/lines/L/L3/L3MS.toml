@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹੀ ਸੁੰਭ ਨੈਸੁੰਭ ਹੰਤੀ ਭਵਾਨੀ ॥"
 page = 335
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Bhavani, the destroyer of Sumbh and Nisumbh"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਸੁੰਭ ਅਤੇ ਨਿਸੁੰਭ ਨੂੰ ਮਾਰਨ ਵਾਲੀ ਭਵਾਨੀ ਹੈਂ।"

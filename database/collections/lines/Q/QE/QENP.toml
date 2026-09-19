@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਤੇ ਦੂਰਿ, ਸਭਨ ਤੇ ਨੇਰਾ ॥"
 page = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is far away from all and closest to all."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਭ ਤੋਂ ਦੂਰ ਅਤੇ ਸਭ ਦੇ ਨੇੜੇ ਹੈ,"

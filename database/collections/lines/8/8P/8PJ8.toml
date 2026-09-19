@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਥੰ ਬਿਸਟਤੰ ਬਯਾਘ੍ਰ ਚਰਮੰ ਅਭੀਤੰ ॥"
 page = 242
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ੇਰ ਦੀ ਖਲ੍ਹ ਨਾਲ ਰਥ ਮੜ੍ਹਿਆ ਹੋਇਆ ਹੈ ਅਤੇ ਭੈ-ਰਹਿਤ ਹੈ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨਤ ਤੀਨ ਰਾਮ ਬਨ ਆਏ ॥੮੨੮॥"
 page = 286
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the there were carrying weapons in different styles and it seemed that three Rams were walking.828."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿੰਨਾਂ ਮਾਵਾਂ ਨੇ (ਪੋਤ੍ਰਿਆਂ ਨੂੰ) ਗਲ ਨਾਲ ਲਾਇਆ"

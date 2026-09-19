@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਡ ਭਏ ਤਰਕਸ ਅਟਕਾਯੋ ॥"
 page = 994
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She did not wake her friend up but took his quiver and hung it Over the tree."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੰਡ ਨਾਲ ਤਰਕਸ (ਭੱਥਾ) ਟੰਗ ਦਿੱਤਾ।"

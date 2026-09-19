@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਾਚੀ ਦਰਗਹਿ; ਪਾਈਐ ਮਾਨੁ ॥"
 page = 1271
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and he attains honour, in the True Court."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਹ ਸੱਚੇ ਦਰਬਾਰ ਵਿੱਚ ਇਜ਼ਤ ਪਾਉਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Honor is obtained in the True Court of the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਚੀ ਦਰਗਾਹ ਮੇਂ ਮਾਨੁ ਪਾਈਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲੀ ਰੱਬੀ ਦਰਗਾਹ ਵਿਚ ਆਦਰ ਮਿਲਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਾਚੀ = ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲੀ। ਮਾਨੁ = ਆਦਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y el Honor es obtenido en la Corte Verdadera del Señor."

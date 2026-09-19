@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੇਲਤ ਸੰਗ ਗ੍ਵਾਰਿਨ ਕੇ ਕਬਿ ਸ︀ਯਾਮ ਕਹੈ ਜੋਊ ਕਾਨਰ ਕਾਲਾ ॥"
 page = 354
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Krishna of black colour is playing with the gopis"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਵੀ ਸ਼ਿਆਮ ਕਹਿੰਦੇ ਹਨ, ਜੋ ਕਾਲੇ ਰੰਗ ਦਾ ਕਾਨ੍ਹ ਹੈ, ਉਹ ਗੋਪੀਆਂ ਨਾਲ ਖੇਡ ਰਿਹਾ ਹੈ।"

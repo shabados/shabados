@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਰਾਮ ਕਰ ਗਏ ਤਮਾਸਾ ॥੮੫੨॥"
 page = 289
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thinking about this thing the men and women remained under depression.852."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਰਾਮ ਦੇ ਨਾਲ ਜਾਣੋਂ ਮੂੰਹ ਨਹੀਂ ਮੋੜਿਆ ॥੮੫੩॥"

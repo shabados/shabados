@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਅਨੂਪਮ ਭੇਸ ਬਨਾਯੋ ॥"
 page = 958
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Mohan retUrned to his house and put on attractive clothes."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੁੰਦਰ ਭੇਸ ਬਣਾ ਲਿਆ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਾਧ ਰੂਪ; ਅਪਨਾ ਤਨੁ ਧਾਰਿਆ ॥"
 page = 1005
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Of himself, the Saint-Guru is the embodiment of the Lord's body."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤ-ਗੁਰਦੇਵ ਜੀ ਖ਼ੁਦ ਸੁਆਮੀ ਦੇ ਸਰੀਰ ਦਾ ਸਰੂਪ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Holy Saint is the very embodiment of the Lord's form."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਭਗਵਤ ਨੇ ਸਾਧੂਆਂ ਕਾ ਰੂਪ ਅਪਨਾਂ ਸਰੀਰ ਧਾਰਿਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਨੇ ਗੁਰੂ-ਰੂਪ ਆਪਣਾ ਸਰੀਰ (ਆਪ ਹੀ ਸਦਾ) ਧਾਰਨ ਕੀਤਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਾਧ = ਗੁਰੂ। ਤਨੁ = ਸਰੀਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y redime a aquél a quien Lo adora Amorosamente."

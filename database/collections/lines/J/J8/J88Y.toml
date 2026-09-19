@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹੇ ਮੋਹ ਦੋਨੋ ॥"
 page = 210
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸੀਤਾ ਤੇ ਰਾਮ) ਦੋਵੇਂ ਇਕ ਦੂਜੇ ਉੱਤੇ ਮੋਹਿਤ ਹੋ ਗਏ।"

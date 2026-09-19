@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿੰਤਾ ਅਧਿਕ ਇਹੈ ਚਿਤ ਮਾਹੀ ॥੨੮॥"
 page = 994
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Afraid, I have no friend of mine with me.’(28)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹੀ (ਮੇਰੇ) ਮਨ ਵਿਚ ਵੱਡੀ ਚਿੰਤਾ ਹੈ ॥੨੮॥"

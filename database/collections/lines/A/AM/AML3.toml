@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਰੁਗਾ ਦੈਤ ਬਜੇ ॥੩੧॥੧੦੮॥"
 page = 108
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The trumpets are resounding and the forces of Durga and the demons are fighting.31.108."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੁਰਗਾ ਨਾਲ ਦੈਂਤ ਲੜ ਰਹੇ ਹਨ ॥੩੧॥੧੦੮॥"

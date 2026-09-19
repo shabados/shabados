@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਮਿ ਤਿਮਿ ਹਠਿ ਇਸਤ੍ਰੀ ਕਰ ਗਹੈ ॥"
 page = 1219
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿਵਂ ਤਿਵੇਂ ਇਸਤਰੀ ਦਾ ਹਠ ਹੋਰ ਵੀ ਵਧਦਾ ਜਾਂਦਾ ਸੀ।"

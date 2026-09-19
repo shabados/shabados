@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਨਾਲੇ ਲਖ ਵਾਹਿ ਵਹਿ; ਨਦੀਆ ਅੰਦਰਿ ਰਲੇ ਰਲਾਵੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Millions of rivulets join the currents of rivers."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ ਨਾਲੇ ਤੇ ਲੱਖਾਂ ਹੜ੍ਹ ਵਗਕੇ ਨਦੀਆਂ ਦੇ ਮੇਲ ਵਿਖੇ ਰਲ ਜਾਂਦੇ ਹਨ।"

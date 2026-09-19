@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਛਿਨ ਦੇ ਤਾ ਕੇ ਤਰੁਨਿ; ਰਹਤ ਸੁ ਰਤਿ ਕੇ ਭੇਸ ॥੧॥"
 page = 1224
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਇਸਤਰੀ ਦਛਿਨ ਦੇ (ਦੇਈ) ਸੀ ਜੋ ਰਤੀ ਦੇ ਸਰੂਪ ਵਰਗੀ ਸੀ ॥੧॥"

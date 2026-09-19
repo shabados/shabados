@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੂਰਛਿਤ ਕਰਿ ਪ੍ਰਿਥਵੀ ਪਰ ਡਾਰਿਯੋ ॥"
 page = 876
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਸ ਨੂੰ) ਬੇਹੋਸ਼ ਕਰ ਕੇ ਧਰਤੀ ਉਤੇ ਸੁਟ ਦਿੱਤਾ।"

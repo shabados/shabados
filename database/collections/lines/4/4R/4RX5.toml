@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਰਭਵਤੀ ਤਾ ਕੌ ਜਗ ਕਹੈ ॥"
 page = 1028
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਜਗਤ ਵਾਲੇ ਗਰਭਵਤੀ ਕਹਿੰਦੇ ਸਨ।"

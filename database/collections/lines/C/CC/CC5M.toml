@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਤਿਗੁਰ ਸਚਾ ਨਾਉ, ਆਖਿ ਸੁਣਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The true Guru has recited (to the disciples) the true name."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਤਿਗੁਰੂ ਨੇ ਆਖਕੇ ਸੱਚਾ ਨਾਮ ਸੁਣਾ ਦਿਤਾ ਹੈ (ਕਿ ਵਾਹਿਗੁਰੂ ਦਾ ਜਾਪ ਕਰੋ, ਜਿਹਾਕੁ ਜਪੁਜੀ ਦੇ ਮੁੱਢ ਵਿਖੇ ਹੈ)।"

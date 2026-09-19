@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੋਰ ਕੋਟ ਦਾਨਕੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One may perform m,illions of types of charities"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਰੋੜਾਂ ਵਾਰ ਕਰੋੜਾਂ ਤਰ੍ਹਾਂ ਦੇ ਦਾਨ ਕਰੇ,"

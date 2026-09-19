@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਯਾ ਤਾ ਸੁਖ਼ਨ ਖ਼ੁਦ ਜ਼ੁਬਾਨੀ ਕੁਨੇਮ ॥"
 page = 1392
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "We can talk to each other in this way"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਥੇ) ਆ ਤਾਂ ਜੋ ਖ਼ੁਦ ਜ਼ਬਾਨੀ ਗੱਲ-ਬਾਤ ਕਰੀਏ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਜ ਨ ਲਾਗਤ, ਰਾਮ, ਕਹੋ ਮੁਹ ॥"
 page = 229
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Ram! where should I go now after touching your feet? Shall I not be ashmed?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਦੱਸੋ ਕਿ ਰਾਜ ਕਰਦਿਆਂ (ਮੈਨੂੰ) ਲਾਜ ਨਹੀਂ ਆਏਗੀ?"

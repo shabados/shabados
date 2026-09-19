@@ -1,16 +1,16 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨ ਨਰ, ਨਾਮ ਤਿਹਾਰੋ ਕਹਾ ॥"
 page = 1388
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਵਿਅਕਤੀ ਨੇ ਤੁਹਾਡਾ ਨਾਮ ਉਚਾਰ ਦਿੱਤਾ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਜਿਨ ਨਰ; ਨਾਮ ਤਿਹਾਰੋ ਕਹਾ ॥"

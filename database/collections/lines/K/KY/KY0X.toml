@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਜੇ ਸਸਤ੍ਰ ਦੇਹੰ ਚਲੋ ਜੁਧ ਧਾਮੰ ॥"
 page = 102
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He bedecked himself with weapons and walked towards the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਰੀਰ ਉਤੇ ਸ਼ਸਤ੍ਰ ਸਜਾ ਕੇ ਯੁੱਧ-ਭੂਮੀ ਨੂੰ ਚਲ ਪਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੈ ਗੈ ਪਤਿ ਦੀਏ ਰਥ ਨਾਨਾ ॥੨॥੬੬॥"
 page = 105
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And also many gifts like horses, elephants and chariots.2.66."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘੋੜਿਆਂ, ਹਾਥੀਆਂ ਅਤੇ ਅਨੇਕ ਤਰ੍ਹਾਂ ਦੇ ਰਥਾਂ ਨਾਲ ਸੁਸਜਿਤ ਕੀਤਾ ॥੨॥੬੬॥"

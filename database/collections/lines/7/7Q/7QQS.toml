@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖੈ ਧਰੇ ਪ︀ਯਾਰ ॥੫੬੭॥"
 page = 608
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The women of gods, getting allured are looking with love towards him.567."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪ੍ਰੇਮ ਪੂਰਵਕ (ਇਨ੍ਹਾਂ ਵਲ) ਤਕਦੀਆਂ ਹਨ ॥੫੬੭॥"

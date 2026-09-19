@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਰਾਜ ਮਹਿਲ ਭਾਨੂ ਬਹਿਲੁ; ਭਾਉ ਭਗਤਿ ਗੁਰਮਤਿ ਮਨਿ ਭਾਣੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Of Rajmahal city is Bhanu Bahal whose mind is absorbed in the wisdom of the Guru and the loving devotion."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਭਾਨੂ ਬਹਲ ਰਾਜਮਹਲ ਦਾ ਵਾਸੀ ਪ੍ਰੇਮੀ ਸਿਖ ਗੁਰਮਤ ਵਾਲਾ ਹੈ।"

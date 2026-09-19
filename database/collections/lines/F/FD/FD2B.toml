@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀਬਰ ਤਾਰ ਖਜੂਰੇ ਭਾਰੀ ॥"
 page = 1178
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੀਬਰ (ਸਿੰਬਲ ਜਾਂ ਸ੍ਰੀਫਲ) ਤਾੜ, ਖਜੂਰ ਆਦਿ ਦੇ ਭਾਰੀ (ਦਰਖ਼ਤ) ਸਨ।"

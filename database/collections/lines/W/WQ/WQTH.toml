@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੀਨ ਭਵਨ; ਨਿਹਕੇਵਲ ਗਿਆਨੁ ॥"
 page = 414
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He acquires the true knowledge of the three worlds."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਤਿੰਨਾਂ ਜਹਾਨਾਂ ਦੀ ਯਥਾਰਥ ਗਿਆਤ ਹੋ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He gains the wisdom of the three worlds."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਨ ਕੇ ਤੀਨ ਲੋਕ ਮੇਂ (ਨਿਹਕੇਵਲ) ਸੁਖ ਸਰੂਪ ਕਾ ਗਿਆਨ ਹੂਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤਿੰਨਾਂ ਭਵਨਾਂ ਵਿਚ ਵਿਆਪਕ ਤੇ ਵਾਸ਼ਨਾ-ਰਹਿਤ ਪ੍ਰਭੂ ਨਾਲ ਉਸ ਦੀ ਡੂੰਘੀ ਸਾਂਝ ਪੈ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਿਹਕੇਵਲ = ਵਾਸ਼ਨਾ-ਰਹਿਤ ਪ੍ਰਭੂ ਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Y recolecta la Sabiduría inmaculada de los tres mundos."

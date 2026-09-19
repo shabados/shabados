@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਾਰੰਤ ਸੀਸ ਕੇਸਰ ਕਟੋਰਿ ॥"
 page = 604
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸੂਰਮਿਆਂ ਦੇ) ਸਿਰ ਉਤੇ ਕੇਸਰ, ਕਸਤੂਰੀ,"

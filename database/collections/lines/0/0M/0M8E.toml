@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਮਾਨੁਖ ਕੋ ਸੋਊ ਬੇਖ ਭਯੋ ॥"
 page = 523
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Krishna took it up, it was transformed into a man"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਹੀ ਉਸ ਦਾ ਮਨੁੱਖ ਰੂਪ ਹੋ ਗਿਆ।"

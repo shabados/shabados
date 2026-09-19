@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਹਿ ਸੈਥੀ ਪਾਵਕ ਬਰਿਯੋ; ਦੁਹੂੰਅਨ ਲਯੋ ਬਚਾਇ ॥"
 page = 924
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He bore the brunt of sword and had decided to burn himself,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੈਹਥੀ ਦਾ ਵਾਰ ਸਹਿ ਕੇ ਅਤੇ ਅੱਗ ਵਿਚ ਸੜ ਕੇ (ਰਾਜੇ ਨੇ) ਦੋਹਾਂ ਨੂੰ ਬਚਾ ਲਿਆ।"

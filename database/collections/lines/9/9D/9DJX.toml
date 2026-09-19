@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੂ ਧੂਮ੍ਰਾਛ ਜ੍ਵਾਲਾਛ ਕੀ ਸੌ ਜਰਾਯੋ ॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And burned to death Dhumarach and Javalach."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਧੂਮ੍ਰਾਛ, ਜਵਾਲਾਛ ਨੂੰ ਸਾੜ ਦਿੱਤਾ ਸੀ।"

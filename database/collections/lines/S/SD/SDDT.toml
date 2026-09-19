@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਬਧ ਕੇਸੀ ਕੀ ਕਥਾ; ਭਈ, ਕਹੋ ਸੋਈ ਬਾਤ ॥੭੭੬॥"
 page = 373
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now with this I relate the story of the killing of Keshi.776."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਕੇਸੀ ਦੇ ਬਧ ਦੀ ਜਿਵੇਂ ਕਥਾ ਹੋਈ, ਉਸ ਗੱਲ ਨੂੰ ਕਹਿੰਦਾ ਹਾਂ ॥੭੭੬॥"

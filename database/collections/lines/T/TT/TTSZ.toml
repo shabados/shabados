@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਭਯੋ ਉਦੋਤ ਨ੍ਰਿਪਾਲ ॥"
 page = 154
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਮਹਾਰਾਜਾ (ਜਗ) ਪ੍ਰਗਟ (ਉਦੋਤ) ਹੋਇਆ"

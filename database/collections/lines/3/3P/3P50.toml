@@ -1,36 +1,36 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗਉੜੀ ਪੂਰਬੀ ੧੨ ॥"
 page = 338
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Gauri Purbi."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗਉੜੀ ਪੂਰਬੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Gauree Poorbee 12:"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Gauri Purbi 12."
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "੧੨ = 'ਘਰ' ਬਾਰ੍ਹਵਾਂ।"

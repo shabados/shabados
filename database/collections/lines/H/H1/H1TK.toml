@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਰਨਿ ਬੰਦਗੀ, ਵਿਰਲੇ ਬੰਦੇ ॥੧੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Rare are the people who undertake such devotional worship."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਅਜਿਹੇ) ਬੰਦਗੀ (ਭਗਤੀ) ਕਰਣ ਹਾਰੇ ਵਿਰਲੇ ਬੰਦੇ ਹਨ (“ਤੇਰਾ ਜਨ ਏਕੁ ਆਧ ਕੋਈ”)॥"

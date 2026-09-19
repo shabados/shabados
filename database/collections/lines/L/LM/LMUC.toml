@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਸ ਚਾਰਵੰਤ ਸੋਭਾ ਨਿਧਾਨ ॥"
 page = 638
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was greatly praiseworthy, had a charming personality and also the store-house of Grace"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਦਾਂ (ਵਿਦਿਆਵਾਂ) ਵਾਲਾ ਅਤੇ ਸ਼ੋਭਾ ਦਾ ਖ਼ਜ਼ਾਨਾ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਬਾਸ ਸੋ ਕੁਪਿਯਾ; ਕਸੀ ਸੁਧਾਰਿ ਕੈ ॥"
 page = 1001
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She took a bamboo stick and, on its top-end, she tied a funnel,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਬਾਂਸ ਨਾਲ (ਇਕ) ਕੁਪੀ ਚੰਗੀ ਤਰ੍ਹਾਂ ਕਸ ਕੇ ਬੰਨ ਦਿੱਤੀ"

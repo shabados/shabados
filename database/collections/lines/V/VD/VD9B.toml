@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੋਪ ਗਏ ਤਜਿ ਗੋਕੁਲ ਕੋ ਬ੍ਰਿਜ; ਆਪਨੇ ਆਪਨੇ ਡੇਰਨ ਆਏ ॥"
 page = 306
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The gopas forsaking Gokul came to their abodes in Braja"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੋਕੁਲ ਨੂੰ ਛਡ ਕੇ ਗਵਾਲੇ ਬ੍ਰਜ-ਭੂਮੀ ਵਿਚ ਆਪਣੇ ਆਪਣੇ ਡੇਰਿਆਂ ਵਿਚ ਆ ਗਏ।"

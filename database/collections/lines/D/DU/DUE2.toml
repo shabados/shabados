@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੂਤ ਦਿਲੀਸਹਿ ਬਚਨ ਉਚਾਰੇ ॥"
 page = 1085
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦਿੱਲੀ ਦੇ ਬਾਦਸ਼ਾਹ (ਅਲਾਉੱਦੀਨ) ਨੂੰ ਦੂਤ ਨੇ ਦਸਿਆ"

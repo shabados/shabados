@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾ ਕੈ ਰਿਦੈ; ਬਸੈ ਹਰਿ ਸੋਇ ॥"
 page = 288
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "in whose heart that God abides."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਦਿਲ ਵਿੱਚ ਉਹ ਵਾਹਿਗੁਰੂ ਵਸਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "whose heart is filled with the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੇ ਰਿਦੇ ਮੇਂ ਸੋ ਹਰੀ ਨਿਵਾਸ ਕਰਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਹਿਰਦੇ ਵਿਚ ਉਹ ਪ੍ਰਭੂ ਵੱਸਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "que sienta en sí mismo la Presencia de Dios."

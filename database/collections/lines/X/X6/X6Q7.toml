@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿੰਘ ਬਿਸੇਸ੍ਵਰ ਰਾਵ ਬਹੁ ਗੁਨਾ ॥"
 page = 1097
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਥੋਂ ਦਾ) ਬਿਸ਼ੇਸ੍ਵਰ ਸਿੰਘ ਨਾਂ ਦਾ ਬਹੁਤ ਗੁਣਵਾਨ ਰਾਜਾ ਸੀ।"

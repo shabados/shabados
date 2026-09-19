@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਕਾਲ ਜੀ ਕੀ ਉਸਤਤਿ ॥"
 page = 39
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Eulogy of the Revered Death (KAL)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕਾਲ ਜੀ ਦੀ ਉਸਤਤ:"

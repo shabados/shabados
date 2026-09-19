@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਭੈ ਵਿਚਿ ਗੁਰਮੁਖਿ ਪੰਥਿ, ਸਰਣੀ ਆਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In fear he comes in the shelter of the way (panth) of Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਫੇਰ) ਭੈ ਵਿਚ ਹੀ ਗੁਰਮੁਖਾਂ ਦੇ ਪੰਥ ਵਿਚ ਆਕੇ ਵਾਹਿਗੁਰੁ ਦੀ ਸ਼ਰਣ ਪੈਂਦਾ ਹੇ।"

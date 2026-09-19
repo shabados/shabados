@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣਿ ਜੰਪਤ ਜੁਗਿਣ ਜੂਹ ਜਯੰ ॥"
 page = 600
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ-ਭੂਮੀ ਵਿਚ ਜੋਗਣਾਂ ਦੀਆਂ ਟੋਲੀਆਂ 'ਜੈਜੈਕਾਰ' ਦਾ ਜਾਪ ਕਰ ਰਹੀਆਂ ਹਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜਿਤ ਸਿੰਘ ਰਾਜਾ ਤਹ ਕੋ ਹੈ ॥"
 page = 1161
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੋਂ ਦਾ ਰਾਜਾ ਅਜਿਤ ਸਿੰਘ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਤ ਰਾਇ ਕੇ ਬਚਨ ਕੋ; ਲੋਗ ਪਰੇ ਅਰਰਾਇ ॥"
 page = 838
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Lmmediately, harkening to the Raja, the people hastened to her,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਦੇ ਬੋਲ ਸੁਣ ਕੇ ਲੋਕੀਂ ਲਲਕਾਰ ਕੇ ਪੈ ਗਏ"

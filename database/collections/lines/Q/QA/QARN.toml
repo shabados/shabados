@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਾ ਹੀ ਕੀ ਹੋਈ ਰਹਤ; ਨਿਤ ਤਿਹ ਅਧਿਕ ਰਿਝਾਇ ॥"
 page = 880
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Apparently she became ally of Rani and tried to keep her happy."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ (ਦਾਸੀ) ਉਸ (ਰਾਣੀ) ਦੀ ਹੀ ਹੋਈ ਰਹੀ ਅਤੇ ਉਸ ਨੂੰ ਅਧਿਕ ਪ੍ਰਸੰਨ ਕਰਦੀ ਰਹੀ।"

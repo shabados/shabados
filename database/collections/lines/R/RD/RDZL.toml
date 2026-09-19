@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਗਤੰ ਗੰਤਾ ॥੪੨੧॥"
 page = 669
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "These vow-observing Yogis of good conduct and sinless Karmas had given up all evil actions.421."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਗੀ ਚਾਲ ਅਥਵਾ ਮਰਯਾਦਾ ਵਾਲਾ ਹੈ ॥੪੨੧॥"

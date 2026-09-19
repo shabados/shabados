@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਤ ਬਚਨ ਉਦਿਤ ਠਗ ਭਯੋ ॥"
 page = 857
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੱਲ ਸੁਣਦਿਆਂ ਹੀ ਠਗ ਤਿਆਰ ਹੋ ਗਿਆ"

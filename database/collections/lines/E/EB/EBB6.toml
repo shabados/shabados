@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਸਿਤ ਜੁਲਾਹੋ ਦ੍ਰੁਮ ਚੜ︀ਯੋ ਗਹੈ ਸੈਹਥੀ ਹਾਥ ॥"
 page = 926
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Being afraid, holding the sword in his hand, he went up the tree."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਡਰ ਦਾ ਮਾਰਿਆ ਜੁਲਾਹਾ ਹੱਥ ਵਿਚ ਸੈਹਥੀ ਫੜ ਕੇ ਬ੍ਰਿਛ ਉਤੇ ਚੜ੍ਹ ਗਿਆ।"

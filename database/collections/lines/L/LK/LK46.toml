@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਕੋ ਭਛਨ ਕਰਿ ਦੁਹਨ; ਲੀਨੋ ਚਰਮ ਉਤਾਰਿ ॥"
 page = 964
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After relishing them they took off their skins."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ (ਚਕਵਿਆਂ) ਨੂੰ ਖਾ ਕੇ ਉਨ੍ਹਾਂ ਦੀ ਖਲੜੀ ਉਤਾਰ ਲਈ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਜਿ ਸ︀ਯਾਨਪ ਹ੍ਵੈ ਗਯੋ ਅਯਾਨਾ ॥੭੩॥"
 page = 1197
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਿਆਣਪ ਛਡ ਕੇ ਇਆਣਾ ਹੋ ਗਿਆ ਹੈਂ ॥੭੩॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਰਬਤੀ ਕੋ ਜਨੁ ਅਵਤਾਰਾ ॥੧॥"
 page = 1179
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮਾਨੋ ਪਾਰਬਤੀ ਦਾ ਹੀ ਅਵਤਾਰ ਹੋਵੇ ॥੧॥"

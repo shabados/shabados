@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਲੀ ਨਾਮ ਆਪਨ ਤੁਮ ਕਰੋ ॥"
 page = 824
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She asked the first one, ‘Disguise yourself as a gardener,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਆਪਣੇ ਆਪ ਨੂੰ ਮਾਲੀ ਬਣਾ ਲੈ"

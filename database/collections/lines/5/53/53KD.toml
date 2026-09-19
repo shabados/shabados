@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਭੈ ਸਾਡ ਰਾਜਾ ਇਕ ਭਾਰੋ ॥"
 page = 980
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਭੈ ਸਾਂਡ ਨਾਂ ਦਾ ਇਕ ਵੱਡਾ ਰਾਜਾ ਸੀ।"

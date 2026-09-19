@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਬੂਝ ਹੈਂ ॥"
 page = 3
 line = 7
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Unthinkable Lord!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਨਿਰਬੂਝ (ਬੁਝੇ ਜਾਣ ਤੋਂ ਪਰੇ) ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਨ੍ਰਿਬੂਝ ਹੈਂ ॥"

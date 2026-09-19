@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਸੁਚਿੰਤ ਜਾਦਵ ਭਏ; ਗਏ ਕ੍ਰਿਸਨ ਪੈ ਧਾਇ ॥"
 page = 523
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thinking about this, all of them, came to Krishna and said, “There is a chameleon in the well"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਯਾਦਵ ਚਿੰਤਿਤ ਹੋ ਗਏ ਅਤੇ ਕ੍ਰਿਸ਼ਨ ਪਾਸ ਭਜ ਕੇ ਗਏ।"

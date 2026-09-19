@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਪੁ ਪਦ ਤਾ ਕੇ ਅੰਤਿ ਬਖਾਣਹੁ ॥"
 page = 783
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਅੰਤ ਉਤੇ 'ਰਿਪੁ' ਪਦ ਕਥਨ ਕਰੋ।"

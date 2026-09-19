@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਯੋ ਇਕ ਜੂਨਿ ਦੇਵਤਾ ਜਨਿਯਤ ॥"
 page = 1200
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸੇ ਤਰ੍ਹਾਂ ਇਕ ਦੇਵਤਾ ਜੂਨ ਵੀ ਜਾਣੀ ਜਾਂਦੀ ਹੈ।"

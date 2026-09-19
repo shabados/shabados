@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿਯੋ ਬਾਜ ਮੇਧੰ ਬਡੋ ਜਗ ਰਾਜਾ ॥"
 page = 144
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king Janmeja began his great horse-sacrifice."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਘੋੜੇ ਦੀ ਪ੍ਰਾਪਤੀ ਤੋਂ ਬਾਦ) ਰਾਜੇ ਨੇ ਬਹੁਤ ਵੱਡਾ ਅਸ਼੍ਵਮੇਧ ਯੱਗ ਕੀਤਾ।"

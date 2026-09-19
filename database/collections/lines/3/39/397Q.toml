@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਕੋ ਚੋਰਿ ਸਦਾ ਚਿਤ ਲੀਜੈ ॥"
 page = 1161
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦਾ ਦਿਲ ਸਦਾ ਚੁਰਾ (ਜ਼ਰੂਰ) ਲੈਣਾ ਚਾਹੀਦਾ ਹੈ।"

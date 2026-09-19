@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪਾਰਬ੍ਰਹਮ; ਜਬ ਭਏ ਦਇਆਲ ॥"
 page = 1298
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Says Nanak, when the Transcendent Lord becomes merciful,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਜੀ ਆਖਦੇ ਹਨ, ਜਦ ਪਰਮ ਪ੍ਰਭੂ ਦਇਆਵਾਨ ਹੋ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "When the Supreme Lord God becomes Merciful,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਬ ਪਾਰਬ੍ਰਹਮ ਦ੍ਯਾਲ ਹੂਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ (ਕਿਸੇ ਪ੍ਰਾਣੀ ਉੱਤੇ) ਪ੍ਰਭੂ ਜੀ ਦਇਆਵਾਨ ਹੁੰਦੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਦਇਆਲ = ਦਇਆਵਾਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuando el Supremo Dios Nuestro Señor muestra su Misericordia,"

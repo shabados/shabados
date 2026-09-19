@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਨਕ; ਬਿਰਥਾ ਕੋਇ. ਨ ਹੋਇ ॥"
 page = 878
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O Nanak, no one returns empty-handed form there,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਨਕ! ਓਥੋਂ ਖਾਲੀ ਹੱਥੀਂ ਕੋਈ ਨਹੀਂ ਮੁੜਦਾ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Nanak, no one returns empty-handed;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਿਤੇ ਹੈਂ: ਤਿਸ ਕੋ ਪੀੜਾ ਕੋਈ ਨਹੀਂ ਹੋਤੀ ਜੋ ਐਸੀ ਬੇਨਤੀ ਕਰਨੇ ਵਾਲਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਨਕ! (ਉਸ ਦੀ ਹਜ਼ੂਰੀ ਵਿਚ ਪਹੁੰਚ ਕੇ) ਕੋਈ (ਸਵਾਲੀ) ਖ਼ਾਲੀ ਨਹੀਂ ਮੁੜਦਾ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਰਥਾ = ਖ਼ਾਲੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "En Tu Corte, Señor, a nadie privas de Tu Misericordia;"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੋਹਾਗਨਿ; ਭਵਨ ਤ੍ਰੈ ਲੀਆ ॥"
 page = 872
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Mammon has conquered three worlds."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮਾਇਆ ਨੇ ਤਿੰਨੇ ਹੀ ਜਹਾਨ ਜਿੱਤ ਲਏ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "This bride has conquered the three worlds."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਮਾਇਆ ਨੇ ਤੀਨ ਭਵਨੋਂ ਕੋ ਹੀ ਵਸ ਕਰ ਲੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਮਾਇਆ ਨੇ ਸਾਰੇ ਜਗਤ ਦੇ ਜੀਵਾਂ ਨੂੰ ਵੱਸ ਕੀਤਾ ਹੋਇਆ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਲੀਆ = ਵੱਸ ਕੀਤੇ ਹੋਏ ਹਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Esta esposa se ha ganado el corazón de las tres Gunas,"

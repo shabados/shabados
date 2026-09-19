@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਉਮੈ ਮਾਰੀ, ਪ੍ਰਗਟੀ ਆਏ ॥੧੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Decimating his ego has come to be known (as devotee)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਹਉਮੈ ਮਾਰੀ ਤੇ ਪ੍ਰਗਟ ਹੋ ਗਏ।"

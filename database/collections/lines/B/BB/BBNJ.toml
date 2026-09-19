@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਕੌ ਬੇਗਿ ਸੰਘਾਰੋ ਚਹੈ ॥੩॥"
 page = 1073
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸ (ਕੁਪੁੱਤਰ) ਨੂੰ ਮਾਰ ਦੇਣਾ ਚਾਹੁੰਦੀ ਸੀ ॥੩॥"

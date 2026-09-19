@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬੈ ਦੈਤ ਭਜੇ ॥"
 page = 181
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Rudra thundered in the battlefield, then all the demons ran away."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਸਾਰੇ ਦੈਂਤ ਭਜ ਗਏ।"

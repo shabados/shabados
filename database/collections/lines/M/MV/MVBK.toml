@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰ ਪੂਰੇ ਉਪਦੇਸਿ; ਸਚੁ ਦਿੜਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Those who have received the teachings of the perfect, remain steadfast on truth."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਪੁਰੇ (ਦਾ ਜਿਨ੍ਹਾਂ ਨੂੰ) ਉਪਦੇਸ਼ ਹੋਯਾ ਹੈ (ਉਨ੍ਹਾਂ ਨੇ) ਸੱਚ ਨੂੰ ਦ੍ਰਿੜ ਕੀਤਾ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੋਲ ਸਕੈ ਨ ਰਹੇ ਚੁਪ ਹੁਇ ਕਬਿ ਸ︀ਯਾਮ ਕਹੈ ਜੁ ਬਡੇ ਅਭਿਮਾਨੀ ॥"
 page = 535
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whatever power was there in Shishupal, the same got merged in the face of Krishna, many proud warriors there sat silently,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਵੀ ਸ਼ਿਆਮ ਕਹਿੰਦੇ ਹਨ ਜੋ ਵੱਡੇ ਅਭਿਮਾਨੀ (ਸੂਰਮੇ) ਸਨ, ਉਹ ਬੋਲ ਨਹੀਂ ਸਕੇ, ਚੁਪ ਕਰ ਕੇ (ਬੈਠੇ) ਰਹੇ।"

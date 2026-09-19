@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੰਤਨ ਮੋ ਕਉ; ਹਰਿ ਮਾਰਗਿ ਪਾਇਆ ॥"
 page = 100
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The saints have put me on the God's path."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧੂਆਂ ਨੇ ਮੈਨੂੰ ਰੱਬ ਦੇ ਰਾਹੇ ਪਾ ਦਿਤਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Saints have set me upon the Lord's Path."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਹਰੀ! ਸੰਤ ਜਨੋਂ ਨੇ ਮੇਰੇ ਕੋ ਤੇਰੇ (ਮਾਰਿਗ) ਰਸਤੇ ਪਾਯਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਨਕ! (ਆਖ-) ਸੰਤਾਂ ਨੇ ਮੈਨੂੰ ਪਰਮਾਤਮਾ ਦੇ (ਮਿਲਾਪ ਦੇ) ਰਸਤੇ ਉੱਤੇ ਪਾ ਦਿੱਤਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੋ ਕਉ = ਮੈਨੂੰ। ਕਉ = ਨੂੰ। ਮਾਰਗਿ = ਰਸਤੇ ਉੱਤੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Los Santos me mostraron el camino hacia el Señor."

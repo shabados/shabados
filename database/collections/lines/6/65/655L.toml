@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਚਲੀਏ ਤਾਜੀ ਚੀਹਾਣੰ ॥੧੨੫॥"
 page = 212
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The armies thundered and the trumpets resounded, the restless horses neighed in the battlefield.125."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚੰਚਲ ਘੋੜੇ ਹਿਣਕਦੇ ਸਨ ॥੧੨੫॥"

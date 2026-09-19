@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਤਾਰ ਅੰਗ ਡਾਰਹੀ ॥੧੦॥"
 page = 50
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Without hesitation they strike the weapons and chop the limbs.10."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਵਿਰੋਧੀਆਂ ਦੇ) ਅੰਗ ਉਤਾਰਦੇ ਜਾ ਰਹੇ ਹਨ ॥੧੦॥"

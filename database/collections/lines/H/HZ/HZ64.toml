@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤ ਭਾਤ ਅਨੇਕ ਭੂਪਤ; ਦੇਤ ਦਾਨ ਅਨੰਤ ॥"
 page = 140
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many kings were giving innumerable types of gifts in charity."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਾਂਤ ਭਾਂਤ ਦੇ ਅਨੇਕ ਰਾਜੇ ਬੇਅੰਤ ਦਾਨ ਦੇ ਰਹੇ ਸਨ।"

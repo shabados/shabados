@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਗਨਾਥ ਦੀਨਾ ਨਾਥ ॥੨੬॥"
 page = 613
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(Vishnu said) “When you will adore Lord-God with the fullness of your heart, then the Lord who is the support of the helpless, will fulfill you wish.”26."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਜਗਤ ਦਾ ਨਾਥ ਅਤੇ ਦੀਨਾਂ ਦਾ ਨਾਥ ਹੈ, ॥੨੬॥"

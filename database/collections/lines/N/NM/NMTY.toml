@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਹ ਬਧੂ ਪਛਿਮ ਇਕ ਰਹੈ ॥"
 page = 1065
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੱਛਮ ਵਿਚ ਇਕ ਸ਼ਾਹ ਦੀ ਪਤਨੀ ਰਹਿੰਦੀ ਸੀ।"

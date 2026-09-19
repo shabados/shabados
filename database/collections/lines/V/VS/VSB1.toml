@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਅਧਿਕ ਰੋਸ ਉਪਜਾਯੋ ॥"
 page = 928
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The emissary came to Bairam and demonstrated his anger."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਬਹੁਤ ਕ੍ਰੋਧਵਾਨ ਕੀਤਾ।"

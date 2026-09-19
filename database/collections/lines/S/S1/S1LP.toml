@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਛੋਭੈ ਛਤ੍ਰ ਧਾਰੀ ਛੈ ॥"
 page = 609
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਛਤ੍ਰਧਾਰੀ ਵਰਗੇ ਸ਼ੋਭਦੇ ਹਨ,"

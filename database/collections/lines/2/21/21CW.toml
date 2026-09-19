@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਨੁ ਜੂ ਬਾਚ ਭ੍ਰਿਗੁ ਸੋ ॥"
 page = 548
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Vishnu addressed to Bhrigu:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸ਼ਣੂ ਨੇ ਭ੍ਰਿਗੂ ਨੂੰ ਕਿਹਾ:"

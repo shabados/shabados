@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਾਨਨ ਤੇ ਪ︀ਯਾਰੋ ਪਹਿਚਾਨੈ ॥"
 page = 952
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Day and night, she would enjoy with him and appraised him much more than her own life."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪ੍ਰਾਣਾਂ ਤੋਂ ਪਿਆਰਾ ਸਮਝਦੀ ਸੀ।"

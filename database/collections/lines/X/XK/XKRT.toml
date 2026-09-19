@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਨਾ ਤਾਹਿ ਨਹਿ ਇੰਦ੍ਰ ਕੀ ਹੂਰ ਹੇਰੈ ॥"
 page = 832
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He ever stayed home and never, even, looked at Indra’s Fairies."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੋਂ ਬਿਨਾ ਇੰਦਰ ਦੀ ਹੂਰ ਨੂੰ ਵੀ ਨਹੀਂ ਵੇਖਦਾ ਸੀ।"

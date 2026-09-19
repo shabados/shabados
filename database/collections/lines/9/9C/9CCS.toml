@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਪਹਾ ਨਿਰਖੇ ਭਰਥਰ ਜਾਨੇ ॥"
 page = 228
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਰਥ ਨੂੰ ਪਛਾਣ ਕੇ ਅਤੇ ਸ਼ਤਰੂਘਨ (ਰਿਪਹਾ) ਨੂੰ ਵੇਖ ਕੇ"

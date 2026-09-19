@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹੀ ਬਾਸਵੀ ਈਸਵਰੀ ਕਾਰਤਿਕਿਆਨੀ ॥"
 page = 336
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Bhavani, Basavi, Parvati and Kartikeya"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਇੰਦਰ ਦੀ ਸ਼ਕਤੀ, ਈਸ਼ਵਰ ਦੀ ਸ਼ਕਤੀ ਅਤੇ ਕਾਰਤਿਕੇਯ ਦੀ ਸ਼ਕਤੀ ਹੈ।"

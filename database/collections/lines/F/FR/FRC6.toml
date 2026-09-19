@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੁਣੰ ਮੇਘ ਲਾਜੇ ॥"
 page = 593
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਦੀ) ਗੂੰਜ (ਸੁਣ ਕੇ) ਬਦਲ ਸ਼ਰਮਿੰਦੇ ਹੋ ਜਾਂਦੇ ਹਨ।"

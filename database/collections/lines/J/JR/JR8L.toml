@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸੁਖ ਫਲੁ, ਗਰਬੁ ਨਿਵਾਰੀ ॥੧੪॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Erasing ego from the self, gurmukhs obtain the fruits of the supreme delight."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਇਉਂ) ਗੁਰਮੁਖਾਂ ਨੇ ਗਰਬ ਨਿਵਾਰਕੇ ਸੁਖ ਫਲ ਪਾਇਆ ਹੈ।"

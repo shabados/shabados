@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰੈ ਰੇਤ ਖੇਤੰ ॥"
 page = 594
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰੇਤ ਦੇ (ਕਿਣਕਿਆਂ ਜਿੰਨੇ ਸੂਰਮੇ) ਯੁੱਧ ਵਿਚ ਡਿਗ ਰਹੇ ਹਨ।"

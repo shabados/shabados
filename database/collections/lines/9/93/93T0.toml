@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਮਨਮੁਖ ਤੀਰਥ ਤਿਹ ਆਯੋ ॥"
 page = 896
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮਨਮੁਖ ਉਸ ਤੀਰਥ ਉਤੇ ਆਇਆ,"

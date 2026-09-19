@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਨ ਗਿਰ ਪੁਰ ਮੰਦਰ ਸਭ ਢਹਿ ਹੈ ॥੨੧॥"
 page = 904
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘And without his Name all the jungles, mountains, mansions, and towns face destruction.(21)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਨ, ਪਰਬਤ, ਨਗਰ, ਮਹੱਲ (ਮੰਦਿਰ) ਸਭ ਢਹਿ ਜਾਣਗੇ ॥੨੧॥"

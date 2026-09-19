@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨੁਕ ਸੋਕ ਦੂਰਿ ਕਰਿ ਡਾਰੇ ॥੨॥"
 page = 816
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Minister conversed with the Raja so as to eliminate-his afflictions.(2)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ (ਉਸ ਦੇ) ਗ਼ਮ ਨੂੰ ਦੂਰ ਕਰ ਦਿੱਤਾ ਹੋਵੇ ॥੨॥"

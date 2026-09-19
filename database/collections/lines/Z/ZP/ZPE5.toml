@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਨਮ ਮਰਣ ਦੂਖ ਤੇ ਰਾਖੈ ॥"
 page = 1271
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He saves man from the pain of birth and death,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਬੰਦੇ ਨੂੰ ਜੰਮਣ ਤੇ ਮਰਨ ਦੀ ਪੀੜ ਤੋਂ ਬਣਾ ਲੈਂਦੇ ਹਨ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He saves us from the pains of death and birth,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੋ ਜਨਮ ਮਰਣ ਕੇ ਦੁਖ ਸੇ ਰਾਖਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਜੰਮਣ ਮਰਨ ਦੇ ਗੇੜ ਦੇ ਦੁੱਖਾਂ ਤੋਂ ਬਚਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਤੇ = ਤੋਂ। ਰਾਖੈ = ਬਚਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él nos salva de las penas de la muerte y del renacimiento,"

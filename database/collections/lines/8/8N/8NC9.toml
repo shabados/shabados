@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਹਰ ਜਹਾਨਾਬਾਦ ਬਸਤ ਜਹ ॥"
 page = 1213
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਜਹਾਨਾਬਾਦ ਸ਼ਹਿਰ ਵਸਦਾ ਸੀ,"

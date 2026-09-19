@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹਿ ਬਹਤ ਬੀਰ ਸੁ ਬੰਕੀਯੰ ॥"
 page = 110
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The crows are uttering “caw, caw” and the blood of mighty heroes is flowing."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਾਂਕੇ ਯੋਧੇ ਬਹਿ ਬਹਿ ਕਰਦੇ (ਸ਼ਸਤ੍ਰ) ਵਾਹ ਰਹੇ ਸਨ।"

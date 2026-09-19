@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਕੇ ਪ੍ਰੇਮ ਜੋਗੰ ਰਹੇ ਰੀਝ ਸਰਬੰ ॥"
 page = 164
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All of them wanted to please her and thought of sharing her love"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਪ੍ਰੇਮ ਦੇ ਯੋਗ ਵਿਚ ਮਸਤ ਹੋ ਕੇ ਰੀਝ ਗਏ"

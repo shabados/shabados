@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਹਾ ਬਿਕਾਰ; ਤਨ ਤੇ ਸਭਿ ਨਸੇ ॥੧॥"
 page = 897
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "all the arch evils hasten away from his body."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਸਾਰੇ ਘੋਰ ਪਾਪ ਉਸ ਦੀ ਦੇਹ ਤੋਂ ਦੌੜ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "all terrible evils are taken away from the body. ||1||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਕੇ ਸਰੀਰ ਤੇ ਬਿਸੇ ਬਡੇ ਬਿਕਾਰ ਰੂਪ ਸਭ ਦੂਰ ਹੂਏ ਹੈਂ॥੧॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਸਰੀਰ ਤੋਂ ਵੱਡੇ ਵੱਡੇ ਵਿਕਾਰ (ਭੀ) ਸਾਰੇ ਨੱਸ ਜਾਂਦੇ ਹਨ ॥੧॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਹਾ ਬਿਕਾਰ = ਵੱਡੇ ਵੱਡੇ ਐਬ। ਤੇ = ਤੋਂ। ਸਭਿ = ਸਾਰੇ ॥੧॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y todas las aflicciones del cuerpo desaparecen.(1)"

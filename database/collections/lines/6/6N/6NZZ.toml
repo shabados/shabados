@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਤਾ ਕੋ ਕੋਊ ਤਾਤ ਮਾਤਾ ਨ ਭਾਈ ॥"
 page = 1198
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਨਾ ਕੋਈ ਪਿਤਾ ਹੈ, ਨਾ ਮਾਤਾ, ਨਾ ਭਰਾ,"

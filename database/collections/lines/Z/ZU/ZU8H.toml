@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੰਤ ਕੈ ਦੂਖਨਿ; ਮਤਿ ਹੋਇ ਮਲੀਨ ॥"
 page = 279
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "By accusing the saints, understanding becomes impure."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧੂਆਂ ਤੇ ਦੂਸਨ ਲਾਉਣ ਨਾਲ ਸਮਝ ਪਲੀਤ ਹੋ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Slandering the Saints, the intellect is polluted."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤੋਂ ਮੇਂ ਦੂਸਣ ਅਰੋਪਣੇ ਸੇ ਬੁਧੀ ਮਲੀਨ ਹੋ ਜਾਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤ ਦੀ ਨਿੰਦਿਆ ਕਰਨ ਨਾਲ (ਮਨੁੱਖ ਦੀ) ਮਤਿ ਮੈਲੀ ਹੋ ਜਾਂਦੀ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਲੀਨ = ਮੈਲੀ, ਭੈੜੀ। ਮਤਿ = ਅਕਲਿ, ਸਮਝ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Su mente se ofusca"

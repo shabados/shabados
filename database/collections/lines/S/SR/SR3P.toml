@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਚੰਤ ਭੂਤ ਭੈਧਰ ਸੁਰੰਗ ॥"
 page = 602
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors were bedecked"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਿਆਨਕ ਅਤੇ (ਲਹੂ ਦੇ ਲਾਲ ਰੰਗ ਵਿਚ) ਚੰਗੀ ਤਰ੍ਹਾਂ ਰੰਗੇ ਹੋਏ ਭੂਤ ਨਚਦੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਰਾਨਿਯਹਿ ਬਕਤ੍ਰ ਦਿਖੈ ਹੈ ॥੩੭॥"
 page = 953
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "shall we show our faces to the Rani?’(37)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਾਣੀ ਨੂੰ ਕੀ ਮੂੰਹ ਵਿਖਾਵਾਂਗੇ ॥੩੭॥"

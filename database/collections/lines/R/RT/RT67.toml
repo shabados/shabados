@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹੀ ਦੇਵ ਤੂ ਦੈਤ ਤੈ ਜਛੁ ਉਪਾਏ ॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You have created Deities, Demons"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਦੇਵਤੇ, ਦੈਂਤ, ਯਕਸ਼,"

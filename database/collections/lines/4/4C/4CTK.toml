@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਿਸ ਨੋ ਮਾਰਿ; ਨ ਸਾਕੈ ਕੋਇ ॥"
 page = 842
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "no one can destroy him."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਜਣਾ ਭੀ ਉਸ ਨੂੰ ਮਾਰ ਨਹੀਂ ਸਕਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "no one can destroy him."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਕੋ ਕੋਈ ਮਾਰਿ ਨਹੀਂ ਸਕਤਾ ਹੈ, ਤਾਂ ਤੇ ਜੀਵ ਪਰਮੇਸਰ ਕੋ ਅਪਨਾ ਮਾਲਕ ਜਾਣੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਕੋਈ (ਕਾਮਾਦਿਕ ਵੈਰੀ) ਢਾਹ ਨਹੀਂ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਤਿਸ ਨੋ = {ਸੰਬੰਧਕ 'ਨੋ' ਦੇ ਕਾਰਨ ਲਫ਼ਜ਼ 'ਤਿਸੁ' ਦਾ (ੁ) ਉਡ ਗਿਆ ਹੈ} ਉਸ (ਮਨੁੱਖ) ਨੂੰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "nadie lo puede destruir,"

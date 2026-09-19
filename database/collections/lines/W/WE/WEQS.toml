@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਰਣ ਮਤ ਕੋ ਕੀਨ ਪਸਾਰਾ ॥"
 page = 675
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way there was the Dutt incarnation of Rudra and he spread his religion"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੇ) ਪੂਰੇ (ਜਗਤ ਵਿਚ ਆਪਣੇ) ਮਤ ਦਾ ਪਸਾਰ ਕੀਤਾ।"

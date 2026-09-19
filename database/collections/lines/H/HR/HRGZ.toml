@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰੂ ਰਾਗ ਬਜਾਵਤ ਧਾਯੋ ॥"
 page = 473
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਮਾਰੂ ਰਾਗ ਵਜਾਉਂਦਾ ਹੋਇਆ ਹਮਲਾਵਰ ਹੋਇਆ"

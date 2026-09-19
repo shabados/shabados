@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜ਼ੀ ਰਾਜਹਾ ਕਸ ਨਿਯਾਮਦ ਨਜ਼ਰ ॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Spoke, ‘None from them suits my eyes.‘"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਲੜਕੀ ਨੇ ਕਿਹਾ) ਇਨ੍ਹਾਂ ਵਿਚੋਂ ਮੇਰੀ ਨਜ਼ਰ ਹੇਠ ਕੋਈ ਨਹੀਂ ਆਇਆ।"

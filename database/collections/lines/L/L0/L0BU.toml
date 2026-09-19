@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮੁਕਤਿ ਪਦਾਰਥੁ; ਤਿਨ ਕਉ ਪਾਏ ॥"
 page = 664
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "They alone attain the wealth of salvation,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੇਵਲ ਓਹੀ ਮੋਖਸ਼ ਦੀ ਦੌਲਤ ਨੂੰ ਪਾਉਂਦੇ ਹਨ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "They alone obtain the treasure of Liberation,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਨ ਕਉ ਹੀ ਗੁਰੋਂ ਨੇ ਮੁਕਤੀ ਆਦਿ ਪਦਾਰਥ ਪ੍ਰਾਪਤਿ ਕੀਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਵਿਕਾਰਾਂ ਤੋਂ ਖ਼ਲਾਸੀ ਕਰਾਣ ਵਾਲਾ ਨਾਮ-ਧਨ ਉਹਨਾਂ ਮਨੁੱਖਾਂ ਨੂੰ ਮਿਲਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੁਕਤਿ ਪਦਾਰਥੁ = ਵਿਕਾਰਾਂ ਤੋਂ ਖ਼ਲਾਸੀ ਦੇਣ ਵਾਲੀ ਕੀਮਤੀ ਚੀਜ਼। ਪਾਏ = ਪ੍ਰਾਪਤ ਹੁੰਦੀ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sólo son bendecidos con la Bienaventuranza de la Liberación quienes,"

@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਹੋਵੈ, ਸੁ ਨਾਮੁ ਧਿਆਈ ॥"
 page = 158
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He, who gets resigned to Guru's will meditates on Lord's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਗੁਰੂ-ਅਨੁਸਾਰੀ ਹੋ ਜਾਂਦਾ ਹੈ, ਉਹ ਸਾਹਿਬ ਦੇ ਨਾਮ ਦਾ ਸਿਮਰਨ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Those who meditate on the Naam become Gurmukh."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਗੁਰਾਂ ਕੇ ਦ੍ਵਾਰੇ ਪ੍ਰਾਪਤ ਹੋਤਾ ਹੈ, ਸੋਈ ਨਾਮ ਕੋ ਧਿਆਵਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੇਹੜਾ ਮਨੁੱਖ ਗੁਰੂ ਦੀ ਸਰਨ ਪੈਂਦਾ ਹੈ, ਉਹ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਸਿਮਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Los vigías del Guru solamente habitan en el Naam, el Nombre del Señor,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੋਜਤ ਅਧਿਕ ਤਹਾ ਤ੍ਰਿਯ ਪਾਈ ॥"
 page = 1059
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਧਿਕ ਖੋਜਣ ਉਪਰੰਤ ਇਸਤਰੀ ਨੂੰ ਉਥੇ ਪਾਇਆ"

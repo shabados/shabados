@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਕੁਰਾਨ ਪੁਰਾਨ ਉਚਰਹੀ ॥"
 page = 157
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One of them recites the Quran and the other one reads Puranas"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਕੁਰਾਨ ਅਤੇ (ਦੂਜੇ) ਪੁਰਾਣ ਪੜ੍ਹਦੇ ਹਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਨੀ ਨ ਜਾਤਿ ਜਿਹ ਛਬਿ ਸੁਰੰਗ ॥"
 page = 643
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਸੁੰਦਰ ਛਬੀ ਦਾ ਵਰਣਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"

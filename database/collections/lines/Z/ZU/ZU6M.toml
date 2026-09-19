@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਰੁ ਤੇਈਸਵੋ ਤਿਹ ਕੀਨ ॥੪੭੩॥"
 page = 673
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Getting absorbed in her love, the king of the sages, adopted her as his Twenty-Third Guru.473."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਤੇਈਵਾਂ ਗੁਰੂ ਕਰ ਲਿਆ ॥੪੭੩॥"

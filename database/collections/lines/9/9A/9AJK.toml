@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਟੇ ਵੀਰ ਜੁਝਾਰੇ ਧਗਾ ਵਜੀਆਂ ॥"
 page = 248
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਗਾਰੇ ਵੱਜੇ ਅਤੇ ਲੜਾਕੇ ਸੂਰਮੇ (ਆਪਸ ਵਿੱਚ) ਜੁੱਟ ਗਏ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਪੁਰਾ ਸਹਰ ਬਸਤ ਹੈ ਜਹਾ ॥"
 page = 1254
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਤ੍ਰਿਪੁਰਾ ਸ਼ਹਿਰ ਵਸਦਾ ਹੈ,"

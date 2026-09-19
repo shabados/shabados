@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨ ਆਲਮੈ ਹਮੈ ਜਗਾਯੋ ॥"
 page = 65
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When their forces crossed the river, Alam (Singh) came and woke me up."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਡਿਉਡੀ ਦੇ ਸਰਦਾਰ ਆਲਮ (ਸ਼ਾਹ ਸਿੰਘ) ਨੇ ਸਾਨੂੰ ਜਗਾਇਆ।"

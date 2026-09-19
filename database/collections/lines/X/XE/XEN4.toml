@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਹਮ ਕਵਚ ਕੋ ਜਾਪ ਉਚਾਰਾ ॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All of them extremely eulogized the goddess and repeated the mantra known as “Brahm-Kavach”."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਬ੍ਰਹਮ-ਕਵਚ' ਜਾਪ ਨੂੰ ਪੜ੍ਹਿਆ।"

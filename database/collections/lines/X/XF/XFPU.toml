@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਕਿਲ ਕਾਕ ਜਹਾ ਕਿਲਕਾਰਹਿ ॥"
 page = 1381
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਕੋਇਲਾਂ ਅਤੇ ਕਾਂ ਕਿਲਕਾਰਦੇ ਸਨ,"

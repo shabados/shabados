@@ -1,10 +1,10 @@
 [[content]]
-asset = "NTHB"
+assets = ["NTHB"]
 type = "primary"
 data = "ਸਰਬੱਤ ਦੇ ਕਾਰਜ ਰਾਸ ਕਰਨੇ ।"
 
 [[content]]
-asset = "SRME"
+assets = ["SRME"]
 type = "translation"
 language = "en"
 data = "Fulfill the purposes of all."

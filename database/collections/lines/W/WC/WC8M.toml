@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਜੁੰਬਸ਼ ਦਰਾਮਦ ਜ਼ਨੇ ਨੇਕ ਤਨ ॥੩੬॥"
 page = 1401
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then, that delicate damsel, flew into rage.(36)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਹ ਨੇਕ ਲੜਕੀ ਰੋਹ ਵਿਚ ਆ ਗਈ ॥੩੬॥"

@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਰਨੈਹਾਰੁ; ਨ ਭੂਲਨਹਾਰਾ ॥"
 page = 253
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Creator errs not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕਰਤਾਰ ਗਲਤੀ ਨਹੀਂ ਕਰਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Creator Lord does not make mistakes."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਯੋਂਕਿ ਕਰਨੇ ਹਾਰਾ ਵਾਹਗੁਰੂ ਭੂਲਨੇ ਵਾਲਾ ਨਹੀਂ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਿਰਜਣਹਾਰ ਭੁੱਲਣ ਵਾਲਾ ਨਹੀਂ ਹੈ, (ਜੇਹੜਾ ਭੀ ਕੰਮ ਉਹ ਕਰਦਾ ਹੈ ਉਸ ਵਿਚ ਗ਼ਲਤੀ ਨਹੀਂ ਰਹਿ ਜਾਂਦੀ।)"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pues Él, el Creador no comete errores."

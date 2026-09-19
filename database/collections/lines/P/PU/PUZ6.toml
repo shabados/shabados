@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਵੀ ਆਪ ਸਵਾਰੇ, ਪਬ ਜਵੇਹਣੇ ॥"
 page = 122
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The goddess herself killed these mountain-like demons."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਬਤਾਂ ਵਰਗੇ (ਦੈਂਤਾਂ ਨੂੰ) ਦੇਵੀ ਨੇ ਆਪ ਮਾਰਿਆ ਸੀ"

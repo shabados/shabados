@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਹਰਿ ਜਪਤ; ਨਾਹੀ ਸੰਤਾਪ ॥"
 page = 897
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Remembering the Lord Master, pain touches man not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੁਆਮੀ ਮਾਲਕ ਦਾ ਸਿਮਰਨ ਕਰਨ ਦੁਆਰਾ ਦੁਖ ਪੀੜ ਇਨਸਾਨ ਨੂੰ ਪੋਹਦੀ ਨਹੀਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Meditating on the Lord, Har, Har, pain will not afflict you."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔ ਹਰਿ ਹਰਿ ਕੇ ਜਾਪ ਜਪਤਿਆਂ ਦੁਖ ਨਹੀਂ ਪ੍ਰਾਪਤਿ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਜਪਦਿਆਂ ਕੋਈ ਦੁੱਖ-ਕਲੇਸ਼ ਪੋਹ ਨਹੀਂ ਸਕਦੇ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਪਤ = ਜਪਦਿਆਂ। ਸੰਤਾਪ = ਦੁੱਖ-ਕਲੇਸ਼।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "el dolor no lo toca a uno."

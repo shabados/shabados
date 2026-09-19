@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮ੍ਰਿਦੁਹਾਸਾ ਨਾਸਾ ਖੰਕਾਲੀ ॥"
 page = 661
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her laughter was like lightning amongst the clouds and her nostril was extremely glorious"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸੇ ਤਰ੍ਹਾਂ ਉਸ ਦਾ) ਕੋਮਲ ਹਾਸਾ ਹੈ, ਉਸ ਦਾ ਨਕ ਭੈਰਵੀ ਸ਼ਕਤੀ ਰਖਣ ਵਾਲਾ ਹੈ।"

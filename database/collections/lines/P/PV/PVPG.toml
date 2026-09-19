@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਢੀਠ ਨਹਿ ਹ੍ਰਿਦੈ ਲਜਾਵੈ ॥੩॥"
 page = 817
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She had become shameless.(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਬਹੁਤ ਜ਼ਿਆਦਾ ਢੀਠ ਸੀ ਅਤੇ ਹਿਰਦੇ ਵਿਚ ਲਜਾਉਂਦੀ ਨਹੀਂ ਸੀ ॥੩॥"

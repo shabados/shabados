@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੋਰਿ ਅਉਰ ਸਭ ਕਾਰਜ ਆਯੋ ॥"
 page = 505
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Krishna heard this, he came to their side, leaving all other engagements"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦ) ਹੋਰ ਸਾਰੇ ਕਾਰਜ ਛਡ ਕੇ ਆ ਗਏ।"

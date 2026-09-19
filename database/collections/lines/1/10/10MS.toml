@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਉਦਹ ਲੋਕਾਂ ਛਾਇਆ, ਜਸੁ ਜਗਮਾਤ ਦਾ ॥"
 page = 127
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The praise of the mother of the universe spread over all the fourteen worlds."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ) ਚੌਦਾਂ ਲੋਕਾਂ ਵਿਚ ਜਗਤ-ਮਾਤਾ (ਦੁਰਗਾ) ਦਾ ਯਸ਼ ਛਾ ਗਿਆ।"

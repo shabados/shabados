@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਰੰਗੰ ਨ ਰਾਗੰ ਅਪਾਰੰ ਅਭੇਖੰ ॥੪॥"
 page = 39
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Colourless, Non-attached, Limitless and Guiseless. 4;"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰਾ) ਨਾ (ਕੋਈ) ਰੰਗ ਹੈ, ਨਾ ਸਨੇਹ ('ਰਾਗੰ') ਹੈ, ਨਾ ਪਾਰ ਹੈ ਅਤੇ ਨਾ ਹੀ ਭੇਖ ਹੈ ॥੪॥"

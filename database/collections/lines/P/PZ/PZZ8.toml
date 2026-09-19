@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਤੇ ਦੀਪ ਅਨ੍ਹੇਰ ਹੈ; ਗੁਰਮੁਖਿ ਦੀਪਕੁ ਸਬਦ ਉਜਾਲਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "All the seven continents are in darkness; gurmukh enlightener them by lamp of Word."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਤੇ ਦੀਪਾਂ ਵਿਖੇ ਹਨੇਰਾ ਵਰਤਦਾ ਹੈ, ਗੁਰਮੁਖਾਂ ਵਿਖੇ ਸ਼ਬਦ ਦੀਪ ਦਾ ਉਜਾਲਾ (ਚਾਨਣਾ) ਹੈ।"

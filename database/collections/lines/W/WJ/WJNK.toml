@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭੈ ਸਸਤ੍ਰ ਸੰਜਾਨ ਸੋ ਸੂਰਬੀਰੰ ॥"
 page = 160
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And the brave fighters are bedecked with weapons and armours."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੂਰਵੀਰ ਸ਼ਸਤ੍ਰਾਂ ਅਤੇ ਕਵਚਾਂ ਨਾਲ ਸ਼ੁਭਾਇਮਾਨ ਸਨ।"

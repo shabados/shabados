@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਲਟਿ ਕਾਮ ਤਾਹੀ ਕੇ ਆਵੈ ॥"
 page = 1278
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਉਲਟਾ ਉਸੇ ਦੇ ਸਿਰ ਪੈਂਦਾ ਹੈ।"

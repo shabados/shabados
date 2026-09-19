@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਜੋ ਭਾਵ ਦੁਤੀਅ ਮਹਿ ਰਾਚੇ ॥"
 page = 157
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who are absorbed in duality,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜੇ ਜਿਹੜੇ ਦ੍ਵੈਤ ਭਾਵ ਵਿਚ ਰੁਝੇ ਹੋਏ ਹਨ,"

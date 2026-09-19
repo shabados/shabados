@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਨਾਰੀ ਤੈ ਭਈ ਹਮਾਰੀ ॥"
 page = 849
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The thieves thought that she was right, she was their own."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਤੋਂ ਇਹ ਸਾਡੀ ਇਸਤਰੀ ਹੋ ਗਈ ਹੈ।"

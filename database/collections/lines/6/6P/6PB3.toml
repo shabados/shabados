@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹ ਹੀ ਰਮੋ ਤਿਹਾਰੇ ਸੰਗਾ ॥"
 page = 1344
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਆਪਣੇ ਅੰਗ ਨੂੰ (ਤੁਹਾਡੇ) ਅੰਗ ਨਾਲ ਜੋੜ ਕੇ"

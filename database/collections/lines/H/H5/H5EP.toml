@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਲਕੰਤ ਸੁ ਡਾਕਣ ਉਚ ਸੁਰੰ ॥"
 page = 235
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Ganas and large vultures are roaming in the sky and the vampires are shrieking violently."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਡਾਕਣੀਆਂ ਉੱਚੀ ਆਵਾਜ਼ ਨਾਲ ਕਿਲਕਾਰੀਆਂ ਮਾਰਦੀਆਂ ਹਨ।"

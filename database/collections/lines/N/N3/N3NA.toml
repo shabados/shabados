@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨਮੁਖਿ. ਰਾਮੁ, ਨ ਜਪੈ; ਅਵਾਈ ॥"
 page = 1025
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The way-ward apostate contemplates not his Lord."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਮੁਹਾਰਾ ਅਧਰਮੀ ਆਪਣੇ ਸਾਹਿਬ ਦਾ ਸਿਮਰਨ ਨਹੀਂ ਕਰਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The self-willed manmukhs are destitute; they do not meditate on the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਮਨਮੁਖ ਅਵੈੜੇ ਨਾਮ ਕੋ ਨਹੀਂ ਜਪਤੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਮਨ ਦੇ ਪਿੱਛੇ ਤੁਰਨ ਵਾਲਾ ਅਵੈੜਾ ਮਨੁੱਖ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਨਹੀਂ ਜਪਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਵਾਈ = ਅਵੈੜਾ। ਮਨਮੁਖਿ = ਆਪਣੇ ਮਨ ਦੇ ਪਿੱਛੇ ਤੁਰਨ ਵਾਲਾ ਬੰਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y aún con ese egocentrismo y sobreviviendo en lo salvaje, no logran habitar en su Dios."

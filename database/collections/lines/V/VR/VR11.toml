@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹੁਕਮੈ ਅੰਦਰਿ; ਸਾਸਿ ਗਿਰਾਸਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Birth and death come not without His Command."

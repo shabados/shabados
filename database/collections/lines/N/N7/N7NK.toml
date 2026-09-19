@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਇ ਨ ਜਾਇ; ਡੋਲੈ ਕਤ ਨਾਹੀ ॥"
 page = 891
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and wabbles not ever and stays stable,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਦੇ ਭੀ ਆਉਂਦਾ ਜਾਂਦਾ ਤੇ ਥਿੜਕਦਾ ਨਹੀਂ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He does not come and go, and he never wavers;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਵਹੁ ਜਨਮਤਾ ਮਰਤਾ ਨਹੀਂ ਪੁਨਹ ਕਦੀ ਡੋਲਤਾ ਨਹੀਂ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਕਿਤੇ ਭਟਕਦਾ ਨਹੀਂ, ਕਿਤੇ ਡੋਲਦਾ ਨਹੀਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਤ = ਕਿਤੇ ਭੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "permanece libre de dudas, ya no va ni viene,"

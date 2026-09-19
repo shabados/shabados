@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੈਤਨ ਕੇ ਬਧ ਕੋ ਜਬੈ; ਚੰਡੀ ਕੀਓ ਪ੍ਰਕਾਸ ॥"
 page = 77
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the idea of destroying the demons was given by Chandi"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੈਂਤਾਂ ਨੂੰ ਮਾਰਨ ਦੀ ਜਦੋਂ ਚੰਡੀ ਨੇ (ਪ੍ਰਤਿਗਿਆ) ਪ੍ਰਗਟ ਕੀਤੀ"

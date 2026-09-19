@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਹੀਅਲ ਖੇਤੀ ਅਉਖਧੀ; ਛਾਦਨ ਭੋਜਨ ਬਹੁ ਬਿਸਥਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Variegated forms of agricultural products, medicines,clothings and foods have been created on earth."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਧਰਤੀ ਰਚਕੇ ਖੇਤੀ ਅਰ ਅਉਧੀਆਂ ਨਾਲ (ਅਲ) ਪੂਰਣ ਕਰ ਦਿੱਤੀ, (ਉਨ੍ਹਾਂ ਥੋਂ) ਕਪੜੇ ਆਦਿਕ ਭੋਜਨਾਂ ਦੇ ਵਡੇ ਵਿਸਥਾਰ ਨਿਕਲਦੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਦੇਖਹੁ ਚਾਤੁਰਤਾ ਇਨ ਕੀ; ਧਰਿ ਬਾਲਕ ਮੂਰਤਿ ਬਿਪ ਛਲੇ ॥੩੦੫॥"
 page = 323
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now see their cleverness that they are cheating all the Brahmins in the guise of Krishna.305."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਇਨ੍ਹਾਂ ਦੀ ਚਾਲਾਕੀ ਵੇਖੋ ਕਿ ਬਾਲਕ ਰੂਪ ਧਾਰ ਕੇ ਬ੍ਰਾਹਮਣਾਂ ਨੂੰ ਛਲ ਲਿਆ ਹੈ ॥੩੦੫॥"

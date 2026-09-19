@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੈ ਜੱਸ ਲੈ ਕੈ ॥੬੧॥"
 page = 70
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After destroying many and receiving approbation, he hath left.61."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਯਸ਼ ਹਾਸਲ ਕਰਦਾ (ਖ਼ੁਦ ਵੀ ਕਾਲ ਵਸ ਹੋ ਕੇ) ਚਲਾ ਗਿਆ ॥੬੧॥"

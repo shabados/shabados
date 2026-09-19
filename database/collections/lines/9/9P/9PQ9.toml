@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਕਾਲ ਨਿਕਟ ਨਹਿ ਆਵੈ ॥੩॥"
 page = 838
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The Sikh, who will find them out for me, will be saved from the clutches of Death.’(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਦੇ ਨੇੜੇ ਕਾਲ ਨਹੀਂ ਆਵੇਗਾ ॥੩॥"

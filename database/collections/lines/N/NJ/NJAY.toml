@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਟੀਕ ਟਾਕੇ ਕਟੈ ਟੋਪ ਸੋਹੈ ॥"
 page = 1367
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਕਟੇ ਹੋਏ ਟੋਪਾਂ ਨਾਲ (ਮੱਥੇ ਉਤੇ ਲਗਾਉਣ ਵਾਲੇ ਲੋਹੇ ਦੇ) ਟਿੱਕੇ ਟੰਗੇ ਪਏ ਸਨ।"

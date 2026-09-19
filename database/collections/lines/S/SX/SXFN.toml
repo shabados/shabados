@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਰਹ ਬਾਨ ਮੋ ਤਨ ਗਡੇ; ਕਾ ਸੋ ਕਰੋ ਪੁਕਾਰ ॥"
 page = 921
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I have been pierced with the arrow of separation, how could I remonstrate?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਯੋਗ ਦਾ ਬਾਣ ਮੇਰੇ ਸ਼ਰੀਰ ਵਿਚ ਲਗਾ ਹੈ, ਕਿਸ ਅਗੇ ਪੁਕਾਰ ਕਰਾਂ।"

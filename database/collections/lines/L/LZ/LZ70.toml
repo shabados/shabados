@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਛਾਡਿ ਕੈ ਸਰ ਜਾਲ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And shooting many arrows,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੀਰਾਂ ਦੀ ਬਹੁਤ ਬੌਛਾੜ ਕਰ ਕੇ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੁਜਾ ਬਧ ਸਿਧੰ ਅਲਜਾ ਜੁਝਾਰੰ ॥"
 page = 697
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਥ ਨਾਲ) ਧੁਜਾ ਬੰਨੀ ਹੋਈ ਹੈ, (ਉਹ) ਜੁਝਾਰੂ ਯੋਧਾ 'ਅਲਜਾ' ਸਿੱਧ ਹੁੰਦਾ ਹੈ।"

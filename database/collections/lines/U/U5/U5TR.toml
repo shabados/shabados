@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਉਮਰ ਕਿਸ ਕੰਮ, ਜੋ ਅਜਾਈਂ ਗੁਜ਼ਰ ਜਾਏ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਉਮਰ ਨਾ ਬੂਦ ਆਂ ਕਿ ਬਰਬਾਦ ਰਫ਼ਤ ॥੨੧੬॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Guru Gobind Singh is the philanthropist who bestows blessings,"

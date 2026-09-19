@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ; ਭਉਜਲੁ ਉਤਰਹੁ ਪਾਰਾ ॥੧॥ ਰਹਾਉ ॥"
 page = 229
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Through the Guru, cross thou the dreadful world-ocean. Pause."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਾਂ ਦੁਆਰਾ ਤੂੰ ਡਰਾਉਣੇ ਸੰਸਾਰ-ਸਮੁੰਦਰ ਤੋਂ ਪਾਰ ਹੋ ਜਾ। ਠਹਿਰਾਉ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Gurmukh crosses over the terrifying world-ocean. ||1||Pause||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਗੁਰਮੁਖੋਂ ਕਾ ਸੰਗ ਕਰ ਕੇ ਸੰਸਾਰ ਸਾਗਰ ਸੇ ਪਾਰ ਉਤਰ ਜਾਓ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪੰਡਿਤ!) ਗੁਰੂ ਦੀ ਸਰਨ ਪੈ ਕੇ ਤੂੰ ਸੰਸਾਰ-ਸਮੁੰਦਰ ਤੋਂ ਪਾਰ ਲੰਘ ਜਾਏਂਗਾ ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਭਉਜਲੁ = ਸੰਸਾਰ-ਸਮੁੰਦਰ ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y cruza el mar de las existencias a través del Guru."

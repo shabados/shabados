@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਸਿਖੀ ਦਾ ਸਿਖਣਾ; ਗੁਰਮੁਖਿ ਸਾਧਸੰਗਤਿ ਦੀ ਸੇਵਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The way of learning the conduct of a Sikh of the Guru is that one should be the holy congregation."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰ ਸਿਖੀ ਦੀ ਸਿਖ੍ਯਾ ਸਾਧ ਸੰਗਤ ਵਿਚ ਗੁਰਮੁਖਾਂ ਦੀ ਸੇਵਾ (ਕਰਕੇ ਪ੍ਰਾਪਤ ਹੁੰਦੀ ਹੈ)।"

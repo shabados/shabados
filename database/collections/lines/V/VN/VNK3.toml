@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪਾਰਬ੍ਰਹਮ ਕੇ ਸੰਗੀ ਸੰਤਾ ॥੩॥"
 page = 186
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "There, Saints the comrades of the Supreme Lord, abide."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਸ਼ਰੋਮਣੀ ਸਾਹਿਬ ਦੇ ਸਾਥੀ, ਸਾਧੂ ਨਿਵਾਸ ਰਖਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "- there, the Saints dwell, in the Company of the Supreme Lord God. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਵਹੁ ਸੰਤ ਪਾਰਬ੍ਰਹਮ ਕੇ ਸੰਗੀ ਹੈਂ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਆਤਮਕ ਅਵਸਥਾ ਵਿਚ ਟਿਕੇ ਹੋਏ) ਸੰਤ ਜਨ ਪਰਮਾਤਮਾ ਦੇ ਚਰਨਾਂ ਵਿਚ ਜੁੜ ਕੇ ਰਚੀ ਰੱਖਦੇ ਹਨ ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ahí habitan los Santos, los amigos del Supremo Señor.(3)"

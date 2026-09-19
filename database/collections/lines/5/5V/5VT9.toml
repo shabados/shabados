@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਦਿ ਪੁਰਖੁ, ਆਦੇਸੁ ਕਰਾਈ ॥੧੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Worthy of salutation is only that primeval Lord."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਆਦਿ ਪੁਰਖ ਨੂੰ ('ਆਦੇਸ਼') ਨਮਸਕਾਰ ਕਰਦਾ ਹੈ।"

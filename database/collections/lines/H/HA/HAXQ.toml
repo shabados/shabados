@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਜੇ ਕਾਨ੍ਰਹਰੇ ਡੰਕ ਡਉਰੂ ਨਫੀਰੰ ॥੪੧੪॥"
 page = 243
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They all penetrated into the nose and of Kumbhkaran and began to play their tabors and other musical instruments.414."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਡੰਕ, ਡੌਰੂ ਅਤੇ ਧੌਂਸੇ ਕਾਨ੍ਹੜੇ ਰਾਗ ਵਿੱਚ ਵਜਾਣ ਲੱਗੇ ॥੪੧੪॥"

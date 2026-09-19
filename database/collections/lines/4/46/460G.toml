@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਣਿ ਲੇਹੁ ਮਿਤ੍ਰ, ਸੰਛੇਪ ਕੰਥ ॥"
 page = 627
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If I relate the whole story, I fear the Granth to become voluminous"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਲਈ ਹੇ) ਮਿਤਰੋ! ਸੰਖੇਪ ਵਿਚ ਹੀ ਕਥਾ ਸੁਣ ਲਵੋ।"

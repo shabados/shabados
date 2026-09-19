@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਈ ਦਸਤਗੀਰ ਅੰਦਰ ਹਰ ਦੋ ਸਰਾਇ ॥੧॥"
 page = 1406
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You lead us, holding our hands, in both the worlds.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਦੋਹਾਂ ਲੋਕਾਂ ਵਿਚ ਹੱਥ ਫੜਨ ਵਾਲਾ ਹੈਂ ॥੧॥"

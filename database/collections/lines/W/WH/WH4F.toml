@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਨਿਆਸ ਜੋਗ ਉਠਿ ਲਾਗ ਕਰਨ ॥੪੯॥"
 page = 639
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And he, destroying sins, propagated Dharma the great Sovereign fell at his feet and getting up, they practiced Sannyas and Yoga.49."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਠ ਕੇ ਸੰਨਿਆਸ ਯੋਗ ਕਰਨ ਵਿਚ ਲੀਨ ਹੋ ਗਏ ਹਨ ॥੪੯॥"

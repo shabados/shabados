@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬੈ ਦੇਵ ਲਰਜੇ ॥"
 page = 111
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They began to roar from all the four sides and hearing their voices, all the gods trembled."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਦੀ ਗਰਜ ਨੂੰ ਸੁਣ ਕੇ) ਸਾਰੇ ਦੇਵਤੇ ਕੰਬ ਰਹੇ ਸਨ।"

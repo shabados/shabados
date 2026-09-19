@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਿ ਕਰਿ ਦੇਸ ਆਪਨੇ ਗਏ ॥"
 page = 964
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They engaged two horses and travelled to their country."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚਲ ਕੇ ਆਪਣੇ ਦੇਸ ਜਾ ਪਹੁੰਚੇ।"

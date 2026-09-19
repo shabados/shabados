@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰਮ ਪੁਰਖ ਪਰਮੇਸਰ ਸੁਆਮੀ ਪਾਵਨ ਪਉਨ ਅਹਾਰੀ ॥"
 page = 710
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O the Lord of Lakshmi! the greatest Light! ,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਰਮ ਪੁਰਖ, ਪਰਮੇਸਰ, ਸੁਆਮੀ, ਪਾਵਨ ਅਤੇ ਪੌਣ ਆਹਾਰੀ,"

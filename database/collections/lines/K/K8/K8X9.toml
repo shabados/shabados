@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਦੇਵ ਦੇਵੰ ਨਮੋ ਰਾਜ ਰਾਜੰ ॥"
 page = 40
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I Salute Him, Who is the god of gods and king of kings"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ) ਦੇਵਤਿਆਂ ਦੇ ਦੇਵਤਾ! (ਤੈਨੂੰ) ਨਮਸਕਾਰ ਹੈ, (ਹੇ) ਰਾਜਿਆਂ ਦੇ ਰਾਜੇ! ਤੈਨੂੰ ਨਮਸਕਾਰ ਹੈ।"

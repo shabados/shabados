@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਰੱਬ ਦੇ ਸਿਮਰਨ ਵਿਚ ਸਥਿਰ ਅਤੇ ਪਰਪੱਕ ਨਹੀਂ ਹੁੰਦੇ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਨੀਸਤ ਸ਼ਾਂ ਰਾ ਬ-ਜ਼ਿਕਰ ਇਸਤਿਕਲਾਲ ॥"
 page = 1
 line = 45
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "They are not firm and consistent in their meditation chores,"

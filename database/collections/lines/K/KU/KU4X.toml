@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਉਤਾਰ ਚੜ੍ਹਾਓ ਦੇ ਹਿਸਾਬ ਤੋਂ ਬਾਹਰ ਹੈ । "
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬੁਲੰਦ ਅਜ਼ ਸ਼ੁਮਾਰਿ ਫ਼ਰਾਜ਼ੋ ਨਸ਼ੇਬ ॥੧੨੬॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He is beyond the arithmetic of ups and downs. (126)"

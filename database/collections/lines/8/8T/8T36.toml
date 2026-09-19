@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੈਨਾ ਸਕਲ ਜੁਝਾਇ ਕੈ; ਕਤਿ ਬੈਠੇ ਛਪ ਜਾਇ ॥"
 page = 284
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The boys (of the sage) said to Ram, “O, the King of Kaushal!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਕਰਾ ਛੰਦ"

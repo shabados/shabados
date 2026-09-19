@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਵਰਨਣ ਬੁੱਧੀ ਅਤੇ ਸੂਝ ਨੂੰ ਰੌਸ਼ਨ ਕਰਦਾ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਆਂ ਕਿ ਊ ਰੌਸ਼ਨ ਕੁਨਦ ਇਦਰਾਕ ਰਾ ॥੫੦੧॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "This description lightens up the intelligence and the wisdom. (501)"

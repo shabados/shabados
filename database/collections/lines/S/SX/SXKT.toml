@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਨ ਬੀਚ ਜਾਸੁ ਅਨੇਕ ॥"
 page = 701
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There is a warrior named Suvichar (good thought), who has many qualities"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਵਿਚ ਅਨੇਕ ਗੁਣ ਹਨ।"

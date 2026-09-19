@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮੀ ਦੇਵ ਦਾਨੋ ਕੀਏ ਜਛ ਥਾਪੇ ॥੪੩੧॥"
 page = 336
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou didst establish the gods, demons and Yakshas.431."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਦੇਵਤੇ, ਦੈਂਤ ਅਤੇ ਯਕਸ਼ ਥਾਪੇ ਹਨ ॥੪੩੧॥"

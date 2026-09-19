@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਇਸੁ ਮਨ ਕਉ; ਨਹੀ ਆਵਨ ਜਾਨਾ ॥"
 page = 330
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "This soul comes and goes not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਆਤਮਾ ਆਉਂਦੀ ਅਤੇ ਜਾਂਦੀ ਨਹੀਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "This mind does not come or go."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਮਨ ਕਉ ਆਵਨ ਜਾਨਾ ਨਹੀਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਮਨੁੱਖ ਦੇ ਇਸ ਆਤਮਾ ਨੂੰ ਜਨਮ ਮਰਨ ਦੇ ਗੇੜ ਵਿਚ ਪੈਣਾ ਨਹੀਂ ਪੈਂਦਾ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Alma ni va ni viene;"

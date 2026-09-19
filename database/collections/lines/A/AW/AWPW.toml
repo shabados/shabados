@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਬਧਾ ਚਟੀ, ਜਾਇ ਭਰੰਦਾ ॥੧੪॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In fact, he goes to the holy congregation under some compulsion."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਬੱਧਾ ਚੱਟੀ ਜਾਕੇ ਭਰ ਛਡਦਾ ਹੈ।"

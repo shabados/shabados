@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭੈ ਸੰਗ ਜਾ ਕੇ ਸਭੇ ਲੋਕ ਪਾਰੰ ॥"
 page = 631
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“He, who has charming garments and chariots and with whom there are all the Lokpals"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਨਾਲ ਸਾਰੇ ਲੋਕ ਪਾਲ ਸ਼ੋਭ ਰਹੇ ਹਨ,"

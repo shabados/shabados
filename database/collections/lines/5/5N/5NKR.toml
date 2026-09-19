@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੂਝਤ ਸਲ ਭਇਓ ਅਸਤਾਮਾ ॥"
 page = 146
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਲ੍ਯ ਦੇ ਜੂਝਣ (ਉਪਰੰਤ) ਅਸ੍ਵਸਥਾਮਾ (ਪੰਜਵਾਂ ਸੈਨਾਪਤੀ) ਹੋਇਆ।"

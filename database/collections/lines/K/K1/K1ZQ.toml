@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੰਤਹੁ; ਹਰਿ ਹਰਿ ਹਰਿ ਆਰਾਧਹੁ ॥"
 page = 627
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O saints, remember thou the Lord Master's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਾਧੂਓ! ਤੁਸੀਂ ਸੁਆਮੀ ਮਾਲਕ ਦੇ ਨਾਮ ਦਾ ਭਜਨ ਕਰੋ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Saints, worship and adore the Lord, Har, Har, Har."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੰਤੋ! ਮਨ ਬਾਣੀ ਕਰ ਕੇ ਹਰੀ ਨਾਮ ਕੋ ਅਰਾਧੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੰਤ ਜਨੋ! ਸਦਾ ਹੀ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਹੀ ਸਿਮਰਿਆ ਕਰੋ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੰਤਹੁ = ਹੇ ਸੰਤ ਜਨੋ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Santos, contemplen siempre al Señor Bondadoso"

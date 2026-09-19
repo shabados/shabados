@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਸਵਾਰਿ ਅਰਿ ਆਦਿ; ਉਚਾਰਨ ਕੀਜੀਐ ॥"
 page = 807
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਬਾਸਵਾਰਿ (ਇੰਦਰ ਦੇ ਵੈਰੀ ਦੈਂਤ) ਅਰਿ' ਪਦ ਦਾ ਉਚਾਰਨ ਕਰੋ।"

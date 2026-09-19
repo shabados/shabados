@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰੀਯੋ ਬਾਚ ਰਾਜਾ ਪ੍ਰਤਿ ॥"
 page = 617
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of the woman addressed to the king:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀ ਨੇ ਰਾਜੇ ਪ੍ਰਤਿ ਕਿਹਾ:"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰੰਕਾਰ ਨ੍ਰਿਬਿਕਾਰ ਨਿਤ︀ਯੰ ਨਿਰਾਲੰ ॥"
 page = 39
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Formless, Flawless, eternal and Non-aligned"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ! ਤੂੰ) ਨਿਰਾਕਾਰ, ਨਿਰ-ਵਿਕਾਰ, ਸਦੀਵੀ ਅਤੇ ਨਿਰਾਲਾ ਹੈਂ।"

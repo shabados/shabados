@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਜੁ ਨਾਇਕ ਸੇਤੀ ਹਿਤ ਛੋਰੋ ॥"
 page = 1323
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਆਪਣੇ ਪਤੀ ਨਾਲ ਪਿਆਰ ਕਰਨਾ ਛਡ ਦਿੱਤਾ"

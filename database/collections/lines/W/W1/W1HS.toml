@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋਮ ਮਾਰਿ ਆਸਨ ਸੌ ਕਸੀ ॥੫੨॥"
 page = 958
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She hung the bags full of coins around her neck, and, with wax, covered her aasan, part ofthe body in between the two legs).(52)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੋਮ ਲਗਾ ਕੇ ਕਾਮ ਆਸਣ (ਗੁਪਤ ਅੰਗ) ਉਤੇ ਕਸ ਲਿਆ ॥੫੨॥"

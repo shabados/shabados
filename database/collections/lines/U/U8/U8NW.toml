@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਪਨਾ ਜਾਨ ਕਰੋ ਪ੍ਰਤਿਪਾਰਾ ॥੩੭੭॥"
 page = 1386
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sustain me, considering me Thine own.377."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣਾ ਜਾਣ ਕੇ ਮੇਰੀ ਪ੍ਰਤਿਪਾਲਨਾ ਕਰੋ ॥੩੭੭॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਅਪਨਾ ਜਾਨ; ਕਰੋ ਪ੍ਰਤਿਪਾਰਾ ॥੧॥"

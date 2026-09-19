@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਨਰ ਅਵਤਾਰ ਕਥਨੰ ॥"
 page = 551
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now beings the description of Nara incarnation"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਨਰ ਅਵਤਾਰ ਦਾ ਕਥਨ"

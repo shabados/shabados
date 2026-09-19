@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨੁਕ ਚੰਦ੍ਰ ਕੌ ਚੀਰਿ ਨਿਕਾਰੀ ॥"
 page = 1006
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His wife, Bharmar Mati, was so comely that she appeared to be takenout of the Moon."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਚੰਦ੍ਰਮਾ ਨੂੰ ਚੀਰ ਕੇ ਕਢੀ ਹੋਵੇ।"

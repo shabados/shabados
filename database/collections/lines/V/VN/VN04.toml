@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੂਰਖ ਨਾਰਿ ਭੇਦ ਨਹਿ ਜਾਨੈ ॥੧੮॥"
 page = 880
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The woman thought her to be her confidant, but the fool did not know real mystery.(18)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ ਉਹ) ਮੂਰਖ ਇਸਤਰੀ ਭੇਦ ਨੂੰ ਨਹੀਂ ਸਮਝਦੀ ਸੀ ॥੧੮॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਗਤ ਮਾਤ ਕੌ ਆਪੁ ਕਹਾਵੈ ॥"
 page = 1325
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਆਪਣੇ ਆਪ ਨੂੰ ਜਗਤ ਮਾਤਾ ਅਖਵਾਉਂਦੀ ਹੈ"

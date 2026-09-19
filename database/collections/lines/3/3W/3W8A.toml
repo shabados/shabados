@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤੁਮ ਏਕੋ ਏਕੁ; ਨਿਰੰਜਨ ਸੋਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "You are the only impeccable,"

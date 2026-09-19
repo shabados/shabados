@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਜਰਤਿ ਤੇ ਤਸਕਰ ਗ੍ਰਿਹ ਆਯੋ ॥"
 page = 859
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘That thief, then, came to the honourable’s house and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਜ਼ੂਰ ਦੇ ਘਰ ਉਹ ਚੋਰ ਆ ਗਿਆ ਹੈ"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੀਰ ਮੁਰੀਦਾਂ ਪਿਰਹੜੀ, ਏਹੁ ਸਾਕੁ ਸੁਖਾਲਾ ॥੭॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And, this is the relationship which brings happiness."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪੀਰਾਂ ਅਤੇ ਮੁਰੀਦਾਂ ਨੇ ਪ੍ਰੀਤ, ਇਹ ਸਾਕ ਸੁੱਖਾਂ ਦਾ ਘਰ ਹੈ।"

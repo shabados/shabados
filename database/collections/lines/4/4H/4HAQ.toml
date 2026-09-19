@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬ ਨਾਮ ਜਥਾ ਮਤ ਸ︁ਯਾਮ ਧਰੋ ॥"
 page = 162
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All these names have been reckoned by the poet Shyam according to his own understanding"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਆਪਣੀ) ਬੁੱਧੀ ਅਨੁਸਾਰ ਸ਼ਿਆਮ (ਕਵੀ ਉਨ੍ਹਾਂ) ਸਭਨਾਂ ਦੇ ਨਾਮ ਧਰਦਾ ਹੈ।"

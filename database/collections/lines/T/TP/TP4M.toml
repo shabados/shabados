@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੇਧਿ ਬੇਧਿ ਗਿਰੈ ਬਰਛਿਨ; ਸੂਰ ਸੋਭਾਵੰਤ ॥੩੩॥"
 page = 103
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the heroes pierced by the daggers have fallen gracefully.33."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਤੇ ਬਰਛਿਆਂ ਨਾਲ ਵਿੰਨ੍ਹੇ ਹੋਏ ਸੂਰਬੀਰ ਡਿਗੇ ਹੋਏ ਸ਼ੋਭਾ ਪਾ ਰਹੇ ਸਨ ॥੩੩॥"

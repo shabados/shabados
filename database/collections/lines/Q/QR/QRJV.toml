@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਗ ਜੀਤਿਓ ਜਬ ਸਰਬ ॥"
 page = 610
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਲਕੀ ਨੇ) ਜਦ ਸਾਰਾ ਜਗਤ ਜਿਤ ਲਿਆ,"

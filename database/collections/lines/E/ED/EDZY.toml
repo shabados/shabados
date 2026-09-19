@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਹਾਇ ਧੋਇ ਕਰਿ ਧ︀ਯਾਨ ਲਗਾਯੋ ॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(He replied) ‘I had come here for an ablution, and after’ taking bath I contemplated."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਹਾ ਧੋ ਕੇ ਧਿਆਨ ਲਗਾਇਆ।"

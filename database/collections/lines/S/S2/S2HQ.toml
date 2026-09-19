@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਜ਼ਾ ਬਾਨੂਏ ਹਮ ਚੁ ਮਾਹੇ ਜਵਾ ॥"
 page = 1413
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He had a moon-like pretty wife,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਇਸਤਰੀ ਪੂਰਨਮਾਸ਼ੀ ਦੇ ਚੰਦ੍ਰਮਾ ਵਰਗੀ ਜਵਾਨ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਕੰਦ੍ਰਪ ਕੋ ਦਰਪੁ ਨਿਵਾਰਿਯੋ ॥"
 page = 979
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He enjoyed with her invariably and illuminated the Cupid’s ego."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਾਮ ਦੇਵ ਦਾ ਸਾਰਾ ਹੰਕਾਰ ਦੂਰ ਕਰ ਦਿੱਤਾ।"

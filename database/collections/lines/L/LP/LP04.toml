@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮਸਤੰ ਮਹੰਤੇ ॥"
 page = 2
 line = 19
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to the Thee O Greatest Lord!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਹਾਨ ਰੂਪ ਵਾਲੇ! ਤੈਨੂੰ ਨਮਸਕਾਰ ਹੈ;"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਨਮਸਤੰ, ਮਹੰਤੇ ॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਤ੍ਰਿਯਾ ਧਨਵੰਤ ਕੀ; ਤੌਨ ਨਗਰ ਮੈ ਆਨਿ ॥"
 page = 833
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The wife of a rich-man came to that town."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਧਨਵਾਨ ਦੀ ਇਸਤਰੀ ਉਸ ਨਗਰ ਵਿਚ ਆ ਕੇ"

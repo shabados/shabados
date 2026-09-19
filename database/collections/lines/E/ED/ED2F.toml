@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਰਣੈਹਾਰੁ; ਨ ਬੁਝੈ ਬਿਗਾਨਾ ॥੩॥"
 page = 178
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The ignorant knows not His creator."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਬੇ-ਸਮਝ ਆਪਣੇ ਕਰਤਾਰ ਨੂੰ ਨਹੀਂ ਜਾਣਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The ignorant ones do not recognize their Creator. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਐਸੇ ਹੰਕਾਰ ਸੰਜੁਗਤ ਹੂਆ ਹੂਆ (ਬਿਗਾਨਾ) ਮੂਰਖ, ਵਾ ਜਮ ਕਾ ਭਛ ਵਾਹਿਗੁਰੂ ਕੋ ਨਹੀਂ ਜਾਨਤਾ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਆਪਣੇ ਅਹੰਕਾਰ ਵਿਚ) ਮੂਰਖ ਮਨੁੱਖ ਆਪਣੇ ਪੈਦਾ ਕਰਨ ਵਾਲੇ ਪਰਮਾਤਮਾ ਨੂੰ ਭੀ ਨਹੀਂ ਸਮਝਦਾ (ਚੇਤੇ ਰੱਖਦਾ) ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਗਾਨਾ = ਬੇ-ਗਿਆਨਾ, ਮੂਰਖ ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Pero el pobre ególatra no conoce a Aquél que lo creó. (3)"

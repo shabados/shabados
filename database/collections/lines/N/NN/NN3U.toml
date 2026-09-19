@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਤਨ ਸਿੰਘ ਜੋ ਤੀਰ ਚਲਾਵੈ ॥"
 page = 989
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਤਨ ਸਿੰਘ ਨੇ ਤੀਰ ਕਮਾਨ ਸੰਭਾਲ ਲਿਆ) ਰਤਨ ਸਿੰਘ ਜੋ ਤੀਰ ਚਲਾਉਂਦਾ,"

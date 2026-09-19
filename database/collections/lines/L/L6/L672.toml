@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਦੀਨ ਦੀਨੰ ਮਹਾ ਨਾਥ ਨਾਥੰ ॥੧੬॥"
 page = 40
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the Most Humble of the meek and Great Lord of lords. 16"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਧਰਮੀਆਂ ਦਾ ਵੀ ਵੱਡਾ ਧਰਮੀ ਹੈ ਅਤੇ ਨਾਥਾਂ ਦਾ ਵੀ ਮਹਾਨ ਨਾਥ ਹੈ ॥੧੬॥"

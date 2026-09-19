@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਰਬੰ ਗਿਆਤਾ ॥੧੪੨॥"
 page = 8
 line = 5
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the knower of all! 142"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਭ ਬਾਰੇ ਜਾਣਕਾਰ ਹੈਂ ॥੧੪੨॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਸਰਬੰ ਗਿਆਤਾ ॥੧੪੨॥"

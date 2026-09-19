@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਰੋ ਪੁਤ੍ਰ ਰਾਜ ਅਧਿਕਾਰੀ ॥"
 page = 1142
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਹਿਲੇ) ਚਾਰੇ ਪੁੱਤਰ ਰਾਜ ਦੇ ਅਧਿਕਾਰੀ ਸਨ"

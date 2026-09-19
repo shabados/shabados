@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਗਨਾਇਕ ਪੈ ਦੁਖੁ ਰੋਤ ਭਈ ॥੨॥"
 page = 178
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the earth transformed itself into a cow and weeping bitterly, she reached the milk-ocean before the Non-temporal Lord.2."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਗਤ ਦੇ ਸੁਆਮੀ ਅਗੇ (ਆਪਣਾ) ਦੁਖ ਰੋ ਕੇ ਦਸਿਆ ॥੨॥"

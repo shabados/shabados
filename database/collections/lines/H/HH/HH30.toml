@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਾਣਸ ਜਨਮੁ ਦੇਹ ਨਿਸ੍ਤਾਰਹੁ ॥"
 page = 1401
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thiswise, thou make thy human birth and body fruitful."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਤੂੰ ਆਪਣੇ ਮੁਨੁਸ਼ੀ ਜੀਵਨ ਅਤੇ ਸਰੀਰ ਨੂੰ ਸਫਲ ਕਰ ਲੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Emancipate your body, and redeem this human incarnation."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਬ ਇਸ ਮਾਨਸ ਜਨਮ ਮੇਂ ਨਾਮ ਜਪ ਕਰ ਕੇ ਅਪਨੇ ਆਪ ਕੋ ਭਵ ਸਿੰਧ ਸੇ ਤਾਰ ਲੇਵੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਤੇ ਇਸ ਤਰ੍ਹਾਂ) ਆਪਣੇ ਮਨੁੱਖਾ ਜਨਮ ਤੇ ਸਰੀਰ ਨੂੰ ਸਫਲ ਕਰ ਲਓ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਦੇਹ = ਸਰੀਰ। ਨਿਸ੍ਤਾਰਹੁ = ਸਫਲਾ ਕਰ ਲਓ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Emancipa tu cuerpo y redime tu encarnación humana."

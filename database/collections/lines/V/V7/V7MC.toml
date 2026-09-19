@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਭਿ ਉਤਰੇ. ਪਾਪ ਕਮਾਤੇ ॥"
 page = 625
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "all the sins previously committed are washed off."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪਿਛਲੇ ਕੀਤੇ ਹੋਏ ਸਾਰੇ ਪਾਪ ਧੋਤੇ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "all sins are erased."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਨ ਕੇ ਸਭ ਪਾਪ ਕਮਾਏ ਹੂਏ ਉਤਰੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹਨਾਂ ਦੇ (ਪਿਛਲੇ) ਕੀਤੇ ਹੋਏ ਸਾਰੇ ਪਾਪ ਲਹਿ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਭਿ = ਸਾਰੇ। ਕਮਾਤੇ = ਕਮਾਏ ਹੋਏ, ਕੀਤੇ ਹੋਏ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Sirviente del Señor, al bañarse en el Lago de Néctar de Guru Ram Das,"

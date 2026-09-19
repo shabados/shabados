@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੀ ਚਲੀ ਮਾਲੀ ਪਹਿ ਆਈ ॥"
 page = 918
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When she was bringing the barley-meal for her husband, she came across the gardener."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਚਲਦੀ ਚਲਦੀ (ਉਸ) ਮਾਲੀ ਕੋਲ ਆ ਗਈ।"

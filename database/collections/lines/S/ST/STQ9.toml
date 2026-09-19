@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਬਾਰਹ ਪੰਥ ਸਧਾਇ ਕੈ; ਗੁਰਮੁਖਿ ਗਾਡੀ ਰਾਹ ਚਲਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Winning over the twelve sects of yogis, the gurmukhs started a simple and straight way (for liberation)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜੋਗੀਆਂ ਦੇ) ਬਾਰਾਂ ਪੰਥ ਜਿੱਤਕੇ ਗੁਰਮੁਖਾਂ ਨੇ ਸੌਖਾ ਰਾਹ ਤੋਰਿਆ ਹੈ।"

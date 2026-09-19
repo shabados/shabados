@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਰੜੇ ਲੁਝਾਰ ॥੩੦੨॥"
 page = 230
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram saw him and holding his wapons he went towards him  keeping control of their weapons both the warriors began their battle.302."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਲੜਾਈ ਤੇ ਉਤਰ ਆਏ ॥੩੦੨॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੰਭਾ ਨਾਮ ਅਪਛਰਾ; ਦਈ ਪਠਾਇ ਕੈ ॥"
 page = 1121
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇੰਦਰ ਨੇ ਰੰਭਾ ਨਾਂ ਦੀ ਅਪੱਛਰਾ ਨੂੰ ਭੇਜਿਆ।"

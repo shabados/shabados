@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਬੈਰਣ ਪ੍ਰਥਮੈ ਹਨੋ; ਬਹੁਰੋ ਬਜੈ ਕ੍ਰਿਪਾਨ ॥੨੧॥"
 page = 718
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thy reality is that Thou killest the enemies beforehand and the sword strikes later on.21."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਸੀਂ ਪਹਿਲਾਂ ਵੈਰੀ ਨੂੰ ਮਾਰਦੇ ਹੋ, ਫਿਰ ਕ੍ਰਿਪਾਨ ਵਜਦੀ ਹੈ ॥੨੧॥"

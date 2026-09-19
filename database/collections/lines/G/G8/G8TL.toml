@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੈ ਅਬ ਲਗਿ ਨਹਿ ਤੀਰਥ ਅਨ੍ਰਹਾਈ ॥"
 page = 1350
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਹੁਣ ਤਕ ਤੀਰਥ ਇਸ਼ਨਾਨ ਨਹੀਂ ਕੀਤਾ,"

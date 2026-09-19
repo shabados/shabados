@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਰਥ ਕੋ ਸਮਰਥ ਕੈ; ਹਜਾਰ ਬਾਨ ਸੋ ਝਨ੍ਰਯੋ ॥"
 page = 706
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Anarth was pierced with a thousand arrows with full power"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਅਨਰਥ' ਨੂੰ 'ਸਮਰਥ' ਨੇ ਹਜ਼ਾਰ ਬਾਣਾਂ ਨਾਲ ਚੀਰ ਦਿੱਤਾ ਹੈ।"

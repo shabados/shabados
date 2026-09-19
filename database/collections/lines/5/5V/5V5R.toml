@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਕੋਟ ਚਕ੍ਰ ਬਕਤ੍ਰਣੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Millions of four-headed Brahmas"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਰੋੜਾਂ ਚੌਹਾਂ ਮੂੰਹਾਂ ਵਾਲੇ ਬ੍ਰਹਮੇ (ਚਕ੍ਰ ਬਕਤ੍ਰਣੰ)"

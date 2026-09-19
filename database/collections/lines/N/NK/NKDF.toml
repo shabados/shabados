@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਛਟ ਛੈਲ ਕੁਅਰਿ ਤਾ ਕੀ ਤ੍ਰਿਯ ॥"
 page = 1141
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਛਟ ਛੈਲ ਕੁਵਰਿ ਨਾਂ ਦੀ ਇਸਤਰੀ ਸੀ।"

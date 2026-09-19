@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰਹਰਿ, ਜਾਨ ਕਾਹਿ ਨ ਲੇਤ ॥"
 page = 682
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਾਣੀ! ਤੂੰ) ਉਸ ਨਰਹਰਿ ਨੂੰ ਕਿਉਂ ਨਹੀਂ ਜਾਣ ਲੈਂਦਾ।"

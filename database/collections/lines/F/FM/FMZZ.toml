@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਕਰੋ ਨ ਨ︀ਯਾਰੋ ਨੈਕ ਸਦਾ ਬਲਿ ਜਾਇਯੈ ॥੪॥"
 page = 1128
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦ) ਉਸ ਨੂੰ ਬਿਲਕੁਲ ਵੱਖ ਨਾ ਕਰਾਂ ਅਤੇ ਸਦਾ ਬਲਿਹਾਰ ਜਾਵਾਂ ॥੪॥"

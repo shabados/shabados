@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਪਿ ਕਮਾਉ; ਅਵਰਾ ਉਪਦੇਸ ॥"
 page = 185
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Practise Name's meditation thyself and instruct others,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਾਮ ਸਿਮਰਨ ਦੀ ਖੁਦ ਕਮਾਈ ਕਰ ਅਤੇ ਹੋਰਨਾ ਨੂੰ ਸਿੱਖ-ਮਤ ਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Practice this yourself, and teach others;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਕਮਾਉ ਔਰੋਂ ਕੋ ਉਪਦੇਸ ਕਰੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਮੇਰੇ ਵੀਰ! ਤੂੰ ਆਪ ਨਾਮ ਸਿਮਰਨ ਦੀ ਕਮਾਈ ਕਰ, ਹੋਰਨਾਂ ਨੂੰ ਭੀ ਉਪਦੇਸ਼ ਕਰ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਮਾਉ = ਨਾਮ ਸਿਮਰਨ ਦੀ ਕਮਾਈ ਕਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Vívanlo y Practíquenlo con otros;"

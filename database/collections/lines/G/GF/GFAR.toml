@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਇਹ ਕਥਾ ਸੁਨੈ ਅਰੁ ਗਾਵੈ ॥"
 page = 289
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਕੋਈ ਇਸ ਰਾਮ ਕਥਾ ਨੂੰ ਸੁਣੇਗਾ ਅਤੇ ਪੜ੍ਹੇਗਾ,"

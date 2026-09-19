@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਨਮਤੀ ਤਿਹਾ ਨਾਮ ਬਖਨਿਯਤ ॥"
 page = 825
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਭਾਨ ਮਤੀ ਨਾਂ ਕਥਨ ਕੀਤਾ ਜਾਂਦਾ ਸੀ।"

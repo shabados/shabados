@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੋਸਨ ਕਦਰ ਤਵਨ ਕੋ ਨਾਮਾ ॥"
 page = 1333
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਨਾਂ ਰੌਸ਼ਨ ਕਦਰ ਸੀ।"

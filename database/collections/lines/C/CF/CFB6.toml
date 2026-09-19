@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਰਹ ਬਾਨ ਕਸਿ ਅੰਗ; ਤਵਨ ਕੇ ਮਾਰਿਯੋ ॥"
 page = 1144
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਬਿਰਹ ਨੇ (ਮਾਨੋ) ਉਸ ਦੇ ਸ਼ਰੀਰ ਵਿਚ ਕਸ ਕੇ ਬਾਣ ਮਾਰ ਦਿੱਤਾ ਹੋਵੇ।"

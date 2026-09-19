@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਪਤਿ ਕੋ ਸਬ ਗਰਬ ਉਤਾਰਿਯੋ ॥"
 page = 481
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The army of Jarasandh was knocked down by Krishna and in this way pulverized the pride of the king"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਾਜੇ ਦਾ ਸਾਰਾ ਹੰਕਾਰ ਉਤਾਰ ਦਿੱਤਾ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣਿ ਅਭੰਗ ਕਲੋਲਹੀ ॥੧੫॥੧੩੭॥"
 page = 111
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The roaring lion is running and such is the continuous situation in the battlefield.15.137."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਣ-ਭੂਮੀ ਵਿਚ ਨਿਰੰਤਰ ਕਲੋਲ ਕਰ ਰਿਹਾ ਸੀ ॥੧੫॥੧੩੭॥"

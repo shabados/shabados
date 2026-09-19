@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਵ ਆਗ︀ਯਾ ਫੇਰਿ ਹੈ ਨ ਕੋਈ ॥੪੪॥"
 page = 842
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I will render every service to your desire and will never evade.’(44)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੁਹਾਡੀ ਕੋਈ ਆਗਿਆ ਨਹੀਂ ਫੇਰਾਂਗੀ ॥੪੪॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਾਡੀ ਸਮਝ ਅਤੇ ਅਕਲ ਤੋਂ ਬਹੁਤ ਉਚੇਰਾ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਅਜ਼ਾਂ ਬਰਤਰੀਂ ਤਰ ਕਿ ਆਇਦ ਗੁਮਾਂ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He is much loftier than our intellect or perception, and"

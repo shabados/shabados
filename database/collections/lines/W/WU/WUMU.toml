@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿੰਨਰ ਗੰਧ੍ਰਬ ਗਾਨ ਕਰੈ ਗਨਿ; ਜਛ ਅਪਛਰ ਨਿਰਤ ਦਿਖਾਵੈਂ ॥੫੪॥"
 page = 80
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the Kinnars and Gandharvas are singing and somewhere the Ganas, Yakshas and Apsaras are dancing.54.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਤੇ) ਕਿੰਨਰ ਅਤੇ ਗੰਧਰਬ ਗਾ ਰਹੇ ਹਨ ਅਤੇ (ਕਿਤੇ) ਯਕਸ਼ ਅਤੇ ਅਪੱਛਰਾਵਾਂ ਨਾਚ ਕਰਕੇ ਵਿਖਾ ਰਹੀਆਂ ਹਨ ॥੫੪॥"

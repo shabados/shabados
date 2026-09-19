@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰਿੜੜਿੜ ਸਾਥੀ ॥੪੧੧॥"
 page = 592
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The horses are neighing and the elephants are trumpeting in groups.411."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਹਿਤ ਚਿੰਘਾੜਦੇ ਹਨ ॥੪੧੧॥"

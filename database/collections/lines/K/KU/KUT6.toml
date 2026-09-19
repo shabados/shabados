@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹੀ ਪਕਰਿ ਟਾਗ ਤੇ ਲਿਯੋ ॥"
 page = 1070
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਹੀ (ਕ੍ਰੀਚਕ ਨੂੰ ਭੀਮ ਨੇ) ਟੰਗਾਂ ਤੋਂ ਪਕੜ ਲਿਆ"

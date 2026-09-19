@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਤ੍ਰ ਸੇਜ ਕੇ ਚਹੂੰ ਦਿਸਿ; ਲੇਤ ਭਵਰਿਯਾ ਨਿਤ ॥"
 page = 852
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘This son kept on going around in the four directions of the bed,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੁੱਤਰ ਦੀ ਸੇਜ ਦੇ ਚੌਹਾਂ ਪਾਸੇ (ਮੈਂ) ਨਿੱਤ ਭੁਆਟਣੀਆਂ ਲੈਂਦੀ ਰਹਿੰਦੀ ਹਾਂ (ਕਿ ਉਹ ਮੁੜ ਪੈਦਾ ਹੋ ਜਾਏ)।"

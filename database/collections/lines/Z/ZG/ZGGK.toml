@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਪਿਯ ਲੈ ਗੰਗਾ ਮਹਿ; ਨੈਹੋ ਜਾਇ ਕੈ ॥"
 page = 1011
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That when the husband was bathing in the River Ganga,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਪਤੀ ਗੰਗਾ ਵਿਚ ਇਸ਼ਨਾਨ ਕਰਨ ਲਈ ਜਾਏਗਾ"

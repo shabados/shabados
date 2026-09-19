@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੰਚਨ ਕੇ ਫਾਸੀ ਗਹਿ ਡਾਰੀ ॥"
 page = 1028
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਲੁਟੇਰਿਆਂ ਨੇ ਸਾਡੇ) ਪੰਜ ਪਤੀਆਂ ਨੂੰ ਫਾਂਸੀ ਲਾ ਦਿੱਤਾ"

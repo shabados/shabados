@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਥਾਪਿਓ ਜਿਹ ਥਾਪ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the Establisher of all the institutions."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਸਭ ਸਥਾਪਨਾਵਾਂ ਨੂੰ ਸਥਾਪਿਤ ਕਰ ਰਖਿਆ ਹੈ,"

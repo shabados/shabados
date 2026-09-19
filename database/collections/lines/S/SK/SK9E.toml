@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਟਿ ਕੈ ਪਗਰੀ ਨਗਰ ਕੋ; ਜਾਤ ਭਏ ਸੁਖ ਪਾਇ ॥"
 page = 896
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After selling the turbans, headed towards their towns, achieving due bliss."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਗੜੀਆਂ ਵੇਚ ਕੇ ਸੁਖ ਪੂਰਵਕ ਘਰ ਨੂੰ ਚਲੇ ਗਏ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੋਗ ਹੇਤ ਅਨੁਸਰੌ; ਬੁਰੈ ਮਤਿ ਮਾਨਿਯੋ ॥"
 page = 818
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘One should not refrain  the treatment must match the disease and one should not desist."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੈਂ) ਰੋਗ ਦੇ ਅਨੁਸਾਰ ਇਲਾਜ ਕਰਦਾ ਹਾਂ; (ਤੁਸੀਂ) ਬੁਰਾ ਨਾ ਮੰਨਣਾ।"

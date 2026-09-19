@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਕਬਰ ਬਪੁਰੋ ਕਹਾ ਛਲਹਿ ਛਲਿ ਡਾਰਿਹੋਂ ॥"
 page = 1125
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸਤਰੀ ਨੇ ਕਿਹਾ) ਅਕਬਰ ਤਾਂ ਕੀ (ਮੈਂ ਤਾਂ) ਛਲ ਨੂੰ ਵੀ ਛਲ ਲਵਾਂਗੀ।"

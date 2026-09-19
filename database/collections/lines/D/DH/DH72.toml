@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਜੋ ਤੂੰ ਵੀ ਰੱਬ ਦੇ ਮੇਲੀਆਂ ਵਿੱਚੋਂ ਹੋ ਜਾਵੇਂ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਤਾ ਤੂ ਹਮ ਅਜ਼ ਵਾਸਿਲਾਨਿ ਊ ਸ਼ਵੀ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "So that you can also become one of Waaheguru's close companions,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵੈਸਹ ਆਪਨੀ ਖਾਟ ਤਰ; ਰਾਖਤ ਭਯੋ ਬਨਾਇ ॥੮॥"
 page = 882
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And placed her under his bed.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸੇ ਤਰ੍ਹਾਂ ਆਪਣੀ ਮੰਜੀ ਹੇਠਾਂ ਰਖ ਦਿੱਤਾ ॥੮॥"

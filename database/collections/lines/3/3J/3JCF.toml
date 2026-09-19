@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੰਡੇ ਆਨਿ ਮਾਨੀ ਮਹਾ ਕੋਪ ਹ੍ਵੈ ਕੈ ॥"
 page = 1093
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੜੇ ਅਭਿਮਾਨੀ (ਸੂਰਮੇ) ਬਹੁਤ ਕ੍ਰੋਧਿਤ ਹੋ ਕੇ ਡਟ ਗਏ ਹਨ।"

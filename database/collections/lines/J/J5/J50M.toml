@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰੇਮ ਛਕੀ ਨ ਪਰੈ ਇਨ ਕੋ ਕਲਿ; ਕਾਮ ਬਢਿਯੋ ਅਤਿ ਹੀ ਤਨ ਵਾ ਕੇ ॥"
 page = 322
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They are not satisfied merely with love and the lust is increasing in their bodies"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰੇਮ ਨਾਲ ਮਸਤ ਹੋਈਆਂ ਨੂੰ ਚੈਨ ਨਹੀਂ ਪੈਂਦਾ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਤਨ ਵਿਚ ਕਾਮ ਬਹੁਤ ਵਧ ਗਿਆ ਹੈ।"

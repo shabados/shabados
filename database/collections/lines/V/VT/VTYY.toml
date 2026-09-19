@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋਰ ਬਰਣ ਰਥ ਬਾਜ; ਮੋਰ ਹੀ ਬਰਣ ਪਰਮ ਜਿਹ ॥"
 page = 696
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the master of peacock-coloured chariot and horses, is also peacock-coloured himself"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੋਰ ਦੇ ਰੰਗ ਵਾਲਾ ਰਥ ਅਤੇ ਬਿਲਕੁਲ ਮੋਰ ਦੇ ਰੰਗ ਵਾਲੇ ਘੋੜੇ ਹਨ।"

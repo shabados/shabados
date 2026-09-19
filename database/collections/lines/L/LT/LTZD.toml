@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਿਯਾਨ ਦਿਯੋ ਤਜਿ ਕੇ ਸਭ ਹੀ; ਤਬ ਹੀ ਰਿਸ ਕੇ ਤਨ ਸਾਥ ਜਰਿਯੋ ਹੈ ॥"
 page = 971
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Abandoning all his tasks, he flew into a rage,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਸਾਰਾ ਧਿਆਨ ਛਡ ਦਿੱਤਾ ਅਤੇ ਕ੍ਰੋਧ ਨਾਲ ਸੜ ਬਲ ਗਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਸੈਯਦ ਮੁਖਿ ਆਨਿ ਦਿਖਾਯੋ ॥"
 page = 818
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Following him the Sayeed entered as well."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਸੱਯਦ ਨੇ ਵੀ ਆ ਕੇ ਸ਼ਕਲ ਵਿਖਾਈ।"

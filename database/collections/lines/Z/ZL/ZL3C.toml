@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨੁ ਸਿਵ ਸਰੂਪ ॥੩੯੪॥"
 page = 666
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "While enduring the sunshine on his body, allied with unique comeliness.394."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਸ਼ਿਵ ਦਾ ਹੀ ਸਰੂਪ ਹੋਵੇ ॥੩੯੪॥"

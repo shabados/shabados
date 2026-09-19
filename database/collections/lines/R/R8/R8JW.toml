@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਠਾਕੁਰ ਪ੍ਰੀਤਮ ਪ੍ਰਭ ਮੇਰੇ ॥"
 page = 894
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my Beloved Lord Master!"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੈਡੇ ਪਿਆਰੇ ਸੁਆਮੀ ਮਾਲਕ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O my Beloved God, my Lord and Master,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਪ੍ਰੀਤਮ ਠਾਕੁਰ ਸਾਮਰਥ! ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਪ੍ਰੀਤਮ ਪ੍ਰਭੂ! ਹੇ ਮੇਰੇ ਠਾਕੁਰ!"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਠਾਕੁਰ = ਹੇ ਠਾਕੁਰ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Maestro mío, oh Dios mío, oh mi Amor, no hay nadie sin Ti."

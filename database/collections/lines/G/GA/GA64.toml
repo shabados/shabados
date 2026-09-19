@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਗ ਬਿਨਾ ਕਰਿ ਤਾਹਿ ਪਠਾਯੋ ॥੭॥"
 page = 896
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Any apostate who came on pilgrimage, he was sent back without the turban.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਪਗ ਤੋਂ ਵਾਂਝਿਆ ਕਰ ਕੇ ਪਰਤਾਇਆ ॥੭॥"

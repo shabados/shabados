@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੈ ਦਿਜ ਆਯੋ ਨਿਜ ਕਰ ਸੰਘਾਰ ॥੩੬॥"
 page = 203
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘What will I say at home? That I am coming back after killing the Brahmin with my own hand! 36."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਆਪਣੇ ਹੱਥਾਂ ਨਾਲ ਬ੍ਰਾਹਮਣ ਨੂੰ ਮਾਰ ਕੇ ਆਇਆ ਹਾਂ ॥੩੬॥"

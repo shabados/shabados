@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੈ ਲੈ ਖੜਗ ਨਗਨ ਕਰਿ ਧੋਪੈ ॥"
 page = 1381
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੱਥਾਂ ਵਿਚ ਨੰਗੀਆਂ ਖੜਗਾਂ ਅਤੇ ਸਿਧੀਆਂ ਤਲਵਾਰਾਂ ਲੈ ਕੇ (ਘੁੰਮਾਣ ਲਗੇ)।"

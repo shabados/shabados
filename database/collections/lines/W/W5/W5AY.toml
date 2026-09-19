@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੜਗ ਸਿੰਘ ਕੇ ਸੰਗ ਨ੍ਰਿਪ; ਚਾਰਿ ਚਾਰੁ ਮਤਿਵੰਤ ॥"
 page = 434
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There were four intoxicated kings with Kharag Singh"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖੜਗ ਸਿੰਘ ਨਾਲ (ਯੁੱਧ ਕਰਨ ਦੀ) ਮਸਤੀ ਨਾਲ ਮਤੇ ਹੋਏ ਚਾਰ ਸ੍ਰੇਸ਼ਠ ਰਾਜੇ ਹਨ।"

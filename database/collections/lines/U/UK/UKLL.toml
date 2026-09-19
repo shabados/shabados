@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰੂੜੋ; ਜਿਹ ਬਸਿਓ ਰਿਦ ਮਾਹੀ ॥"
 page = 260
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "In whose heart the Beauteous Lord abides,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਦਿਲ ਅੰਦਰ ਸੁੰਦਰ ਸੁਆਮੀ ਨਿਵਾਸ ਰਖਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "When the Beautiful Lord abides within the heart,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਦਰ ਪਰਮੇਸ੍ਵਰ ਜਿਸ ਪੁਰਸ ਕੇ ਰਿਦੇ ਮੇਂ ਬਸਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਮਨੁੱਖ ਦੇ ਹਿਰਦੇ ਵਿਚ ਸੋਹਣਾ ਪ੍ਰਭੂ ਆ ਵੱਸੇ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰੂੜੋ = ਸੁੰਦਰ ਹਰੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuando el Bello Señor habita en el corazón,"

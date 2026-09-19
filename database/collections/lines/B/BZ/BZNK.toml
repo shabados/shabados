@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੋਊ ਚਿਤ੍ਰ ਜੋਤੀ ਸੁ ਜੋਧਾ ਪ੍ਰਚੰਡੰ ॥"
 page = 147
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Both were Glory-incarnate and mighty heroes."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋਵੇਂ ਜੋਤਿ ਦਾ ਚਿਤਰ ਸਨ ਅਤੇ ਪ੍ਰਚੰਡ ਯੋਧੇ ਸਨ।"

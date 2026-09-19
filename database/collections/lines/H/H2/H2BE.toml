@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੜਾਕ ਲਾਗੜਦੰ ਪਗੇ ॥੧੯॥੧੭੫॥"
 page = 113
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The heroic warriors have been inspired to face the fighters. 19.175."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਲੜਾਕਿਆਂ ਨਾਲ ਆ ਕੇ ਲੜ ਰਹੇ ਸਨ ॥੧੯॥੧੭੫॥"

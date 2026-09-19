@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰ ਅਉਰੰਗ ਬਰਾਮਦ ਚੁ ਰਉਸ਼ਨ ਗੁਹਰ ॥੨੧॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which was shinning like the pearls.(21)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮੋਤੀਆਂ ਵਾਂਗ ਪ੍ਰਕਾਸ਼ਮਾਨ ਸੀ ॥੨੧॥"

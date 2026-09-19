@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੀਝੇ ਦੇਵ ਦਿਆਲ ਤਿਹ ਉਪਰ; ਪੂਰਣ ਪੁਰਖ ਸੁਖਦਾਈ ॥"
 page = 682
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When He was eulogized in this way, then the perfect Purusha, the Lord was pleased with the king Parasnath"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ) ਪੂਰਨ ਪੁਰਖ, ਸੁਖਦਾਇਕ ਦਿਆਲੂ ਦੇਵ ਉਸ ਉਤੇ ਪ੍ਰਸੰਨ ਹੋ ਗਏ।"

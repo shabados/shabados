@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਪਾਛੈ ਪਹੁਚਤ ਭਯੋ; ਜਹਾ ਹੁਤੀ ਸਸੁਰਾਰਿ ॥੧੩॥"
 page = 926
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The weaver reached the house of his in-laws.(13)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਪਿਛੋਂ ਉਥੇ ਜਾ ਪਹੁੰਚਿਆ ਜਿਥੇ ਉਸ ਦਾ ਸੌਹਰਾ ਘਰ ਸੀ ॥੧੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭੈ ਅੰਤ ਜੈਹੈਂ ॥੭੦॥"
 page = 45
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Have all passed away.70."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਅੰਤ ਵਿਚ ਚਲੇ ਗਏ ਹਨ ॥੭੦॥"

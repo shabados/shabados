@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਮਕਿ ਚਲੈ ਜਬ ਤੁਰੇ ਬਿਰਾਜੈ ॥"
 page = 954
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And bought a black horse spending ten thousand coins."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਹ ਘੋੜੇ ਤੇ ਚੜ੍ਹਦੀ ਤਾਂ ਉਹ ਭੜਕ ਕੇ ਤੁਰ ਪੈਂਦਾ"

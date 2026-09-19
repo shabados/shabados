@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਚਉਰ ਚੀਰ ਸੁਬਾਹ ॥"
 page = 581
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਯੋਧਿਆਂ ਦੇ ਚੌਰ ਅਤੇ ਬਸਤ੍ਰ (ਡਿਗੇ ਪਏ ਹਨ)।"

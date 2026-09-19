@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜਾ ਨ੍ਰਿਪਤਿ ਤਿਲਕ ਸੁਭ ਲਛਨ ॥੧੫॥੨੬੮॥"
 page = 150
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whose king ‘Tilak’ was a person of good qualities.15.268."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਥੋਂ ਦਾ) ਸ਼ੁਭ ਲੱਛਣਾਂ ਵਾਲਾ ਰਾਜ 'ਤਿਲਕ' ਸੀ ॥੧੫॥੨੬੮॥"

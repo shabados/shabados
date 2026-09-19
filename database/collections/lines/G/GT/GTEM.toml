@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅੰਤੁ. ਨ ਪਾਵਹਿ; ਵਡੇ ਵਡੇਰੇ ॥"
 page = 1033
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Even the greatest of the great knows not the Lord's limit."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸ਼ਾਲਾਂ ਦੇ ਪਰਮ ਵਿਸ਼ਾਲ ਭੀ, ਪ੍ਰਭੂ ਦੇ ਓੜਕ ਨੂੰ ਨਹੀਂ ਜਾਣਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Even the greatest of the great do not know Your limits."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੇ ਗੁਨੋਂ ਕਾ ਅੰਤ ਵੱਡੇ ਵਡੇਰੇ ਨਹੀਂ ਪਾ ਸਕਤੇ, ਭਾਵ ਸਿਵ ਬ੍ਰਹਮਾਦੀ ਭੀ ਨੇਤਿ ਨੇਤਿ ਕਹਤੇ ਹੈਂ॥☬ਤਾਂ ਤੇ ਐਸੇ ਬੇਨਤੀ ਕਰੋ:"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਦੁਨੀਆ ਵਿਚ) ਵੱਡੇ ਵੱਡੇ (ਦੇਵਤੇ ਆਦਿਕ ਅਖਵਾਣ ਵਾਲੇ ਭੀ) ਤੇਰੇ ਗੁਣਾਂ ਦਾ ਅੰਤ ਨਹੀਂ ਪਾ ਸਕਦੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "cuando mis superiores no han logrado encontrar ni Tu Fin, ni Tus Límites?"

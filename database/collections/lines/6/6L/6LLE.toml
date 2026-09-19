@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸਤਿ ਸੰਤੋਖੁ, ਸਹਜਿ ਸਮਾਣਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The Gurmukh enters his innate nature through truth and contentment."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖਾਂ ਨੇ ਸਤਿ ਤੇ ਸੰਤੋਖ (ਧਾਰਨ ਕਰਕੇ) ਸਹਿਜ (ਸੁਖ) ਮਾਣ ਲਿਆ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਤਿਨ ਕਰਹਿ ਬਡਾਈ ॥"
 page = 850
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But she used to meet the co-wife as well and often praised her saying,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਾਂਤ ਭਾਂਤ ਦੀ ਉਸ ਦੀ ਵਡਿਆਈ ਕਰਦੀ ਸੀ"

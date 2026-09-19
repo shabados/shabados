@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠਿ ਲਗੇ ਪਾਇ ਨ੍ਰਿਪ ਸਰਬ ਆਇ ॥"
 page = 639
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the unique king Dutt, all the king bowed respectfully at his feet"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਰਾਜੇ ਉਠ ਕੇ (ਉਸ ਦੀ) ਚਰਨੀਂ ਆ ਲਗੇ ਹਨ।"

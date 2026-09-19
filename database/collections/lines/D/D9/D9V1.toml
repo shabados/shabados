@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਆਰਾਵਤੇਸ੍ਰਨਿ ਆਦਿ ਬਖਾਨਹੁ ॥"
 page = 765
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਦੁਆਰਾਵਤੇਸ੍ਰਨਿ' (ਜਮਨਾ ਨਦੀ ਵਾਲੀ ਧਰਤੀ) ਸ਼ਬਦ ਕਥਨ ਕਰੋ।"

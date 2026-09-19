@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪੰ ਬੋਲ ਲੀਨੋ ॥੯੮॥"
 page = 209
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“The Swayyamvara of Sita has been fixed and the king (Janak) has called us.98."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਲਈ) ਜਨਕ ਰਾਜਾ ਨੇ ਨਿਮੰਤਰਿਤ ਕੀਤਾ ਹੈ ॥੯੮॥"

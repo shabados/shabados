@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਮੈ ਡਾਰਿ ਸਰਸਵਹਿ ਦਯੋ ॥"
 page = 927
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She took an earthen-pitcher and put in it linseeds."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵਿਚ ਸਰ੍ਹੋਂ ਪਾ ਦਿੱਤੀ।"

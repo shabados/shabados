@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਪਹੁਚਿਯੋ, ਤਾ ਕੋ ਸਰ ਮਾਰਿਯੋ ॥੨੦॥"
 page = 994
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After taking her away he started to go to another country and who so ever followed he killed him with the arrows.(20)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਵੀ (ਪਿਛਾ ਕਰ ਕੇ) ਪਹੁੰਚਿਆ, ਉਸ ਨੂੰ ਤੀਰ ਮਾਰ ਦਿੱਤਾ ॥੨੦॥"

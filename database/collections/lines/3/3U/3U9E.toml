@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਭਛਤ ਪਉਨ ਮੁਨਿ ਮਨ ਉਦਾਰ ॥੧੫੧॥"
 page = 647
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many go without food and many sages only subsist on air.151."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਉਦਾਰ ਮਨ ਵਾਲੇ ਮੁਨੀ ਵਾਯੂ ਦਾ ਭੋਜਨ ਕਰਦੇ ਹਨ ॥੧੫੧॥"

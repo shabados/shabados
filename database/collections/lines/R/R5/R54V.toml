@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਾਥਨ ਮੈ ਗਹਿ ਕੈ ਸਭ ਬਾਸਨ; ਕੈ ਬਲ ਕੋ ਚਹੂੰ ਓਰਿ ਬਗਾਏ ॥"
 page = 305
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Catching the vessels in their hands, they began to throw them hither and thither"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੱਥਾਂ ਵਿਚ ਸਾਰੇ ਬਰਤਨ ਫੜ ਕੇ ਜ਼ੋਰ ਨਾਲ ਚੌਹਾਂ ਪਾਸੇ ਵਗਾ ਮਾਰੇ।"

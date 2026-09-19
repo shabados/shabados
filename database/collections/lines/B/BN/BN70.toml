@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਮਕਸਿ ਦਾਮਨ ਜਿਮ ਕਰਵਾਰਾ ॥"
 page = 150
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The swords gleamed like lightning,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਜਲੀ ਵਾਂਗ ਤਲਵਾਰਾਂ ਚਮਕਦੀਆਂ ਸਨ।"

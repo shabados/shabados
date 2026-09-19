@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹੀ ਸਿਰ-ਕੱਢ ਹਰਿਕਿਸ਼ਨ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹਮੂ ਹਰਿਕਿਸ਼ਨ ਆਮਦਾ ਸਰ-ਬੁਲੰਦ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "The prominent and distinguished Harekishen is also the same,"

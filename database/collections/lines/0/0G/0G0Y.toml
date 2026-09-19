@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੀ ਕਥਾ ਪੁਰਿ ਭੀਤਰਿ ਆਈ ॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The hearsay reached the town"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਗੱਲ ਤੁਰਦੀ ਤੁਰਦੀ ਨਗਰ ਵਿਚ ਪਹੁੰਚ ਗਈ।"

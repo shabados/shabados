@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਿਕਟਿ ਵਸੈ; ਨਾਹੀ ਪ੍ਰਭੁ ਦੂਰਿ ॥"
 page = 736
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord abides near and is not far."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਹਿਬ ਨੇੜੇ ਹੀ ਵਸਦਾ ਹੈ ਅਤੇ ਦੁਰੇਡੇ ਨਹੀਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "God dwells near at hand; He is not far away."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਸੀ ਤੇ ਸਭ ਕੇ ਨੇੜੇ ਹੀ ਵਸਤਾ ਹੈਂ, ਹੇ ਪ੍ਰਭੂ! ਤੇਰੇ ਸੇ ਕੋਈ ਦੂਰ ਨਹੀਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹਰੇਕ ਜੀਵ ਦੇ) ਨੇੜੇ ਵੱਸਦਾ ਹੈ (ਕਿਸੇ ਤੋਂ ਭੀ) ਪ੍ਰਭੂ ਦੂਰ ਨਹੀਂ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਿਕਟਿ = ਨੇੜੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él está cerca y no lejos."

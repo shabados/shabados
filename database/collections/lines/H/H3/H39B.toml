@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਨੁ ਦੇਖੈ ਨੈਨਾ ਦੋਊ ਸੀਵੌ ॥੧੭॥"
 page = 1091
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਾ ਵੇਖ ਸਕਣ ਦੀ ਸੂਰਤ ਵਿਚ ਦੋਹਾਂ ਅੱਖਾਂ ਨੂੰ ਸੀ ਲਵਾਂਗੀ ॥੧੭॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਤ੍ਰਿਯਾ, ਕਾਰਜ ਮੁਰ ਕੀਜਹੁ ॥"
 page = 855
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਡੋਗਰ ਨੇ ਕਿਹਾ-) ਹੇ ਇਸਤਰੀ! ਮੇਰਾ ਇਕ ਕੰਮ ਕਰੋ"

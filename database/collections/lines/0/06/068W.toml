@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਾ ਬੁਧਿ ਦੀਜੈ; ਜਿਤੁ ਵਿਸਰਹਿ ਨਾਹੀ ॥"
 page = 100
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Give me the mind, O Lord! which may forget Thee not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਉਹ ਮਨ ਦੇ, ਹੇ ਪ੍ਰੀਤਮ! ਜੋ ਤੈਨੂੰ ਨਾਂ ਭੁੱਲੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Give me that state of mind, by which I may not forget You."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਬ ਸੋ ਬੁਧਿ ਦੀਜੀਏ ਜਿਸ ਕਰ ਕੇ ਤੂੰ ਵਿਸਰਿ ਨ ਜਾਵੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਮੈਨੂੰ ਅਜੇਹੀ ਅਕਲ ਦੇ, ਜਿਸ ਦੀ ਬਰਕਤਿ ਨਾਲ ਮੈਂ ਤੈਨੂੰ ਕਦੇ ਨਾਹ ਭੁਲਾਵਾਂ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਿਤੁ = ਜਿਸ (ਬੁਧਿ) ਦੀ ਰਾਹੀਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Quisiera tener una mente, oh Amado, que no se olvide de Ti."

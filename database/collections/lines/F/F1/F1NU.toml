@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹੀ ਚੰਡ ਔ ਮੁੰਡ ਦਾਨੋ ਖਪਾਯੋ ॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And you have obliterated the demons of Chund and Mund."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਚੰਡ ਅਤੇ ਮੁੰਡ ਦੈਂਤਾਂ ਨੂੰ ਖਪਾਇਆ ਸੀ।"

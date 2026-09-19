@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਤਿਗੁਰੁ ਸਿਖ ਕੀ; ਕਰੈ ਪ੍ਰਤਿਪਾਲ ॥"
 page = 286
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The True Guru cherishes his disciple."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੱਚੇ ਗੁਰੂ ਜੀ ਆਪਣੇ ਮੁਰੀਦ ਦੀ ਪਾਲਣਾ ਪੋਸਣਾ ਕਰਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The True Guru cherishes His Sikh."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਤਿਗੁਰ ਸਿਖ ਕੀ ਪ੍ਰਤਿਪਾਲਨਾ ਕਰਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਤਿਗੁਰੂ ਸਿੱਖ ਦੀ ਰੱਖਿਆ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪ੍ਰਤਿਪਾਲ = ਰੱਖਿਆ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Verdadero Guru sostiene al Discípulo, siempre se muestra Bondadoso con él."

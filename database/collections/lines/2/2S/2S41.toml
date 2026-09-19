@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹਜਰਤ ਤ੍ਰਿਯ; ਐਸੇ ਬਚਨ ਸੁਨਾਇਯੋ ॥"
 page = 1060
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਬਾਦਸ਼ਾਹ ਦੀ ਇਸਤਰੀ ਨੇ ਇਸ ਤਰ੍ਹਾਂ ਬਚਨ ਕਹੇ,"

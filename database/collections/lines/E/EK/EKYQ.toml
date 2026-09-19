@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ ਨਿਕਟ ਕਾਲ ਨਹੀ ਆਵੈ ॥੯੦॥"
 page = 909
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The god of destruction does not come near him.(90)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਨੇੜੇ ਕਾਲ ਨਹੀਂ ਆ ਸਕਦਾ ॥੯੦॥"

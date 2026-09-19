@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨ ਸਗਲ ਕਉ; ਹੋਆ ਸੂਖੁ ॥"
 page = 395
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and then the mind attains all peace."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਗਰੋਂ ਚਿੱਤ ਨੂੰ ਸਮੂਹ ਆਰਾਮ ਪਰਾਪਤ ਹੋ ਗਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "then, the mind becomes totally peaceful."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਰੁ ਮਨ ਕੋ ਸਭੁ ਸੁਖ ਹੂਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਮੇਰੇ ਮਨ ਨੂੰ ਪੂਰਨ ਆਨੰਦ ਪ੍ਰਾਪਤ ਹੋਇਆ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਉ = ਨੂੰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "de aquél que es bendecido por el Guru con el Naam,"

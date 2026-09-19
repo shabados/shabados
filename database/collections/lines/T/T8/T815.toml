@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਮ ਰਸਿ; ਜੋ ਜਨ ਤ੍ਰਿਪਤਾਨੇ ॥"
 page = 286
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The persons who are satiated with the name Nectar,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜੇ ਪੁਰਸ਼ ਨਾਮ ਦੇ ਅੰਮ੍ਰਿਤ ਨਾਲ ਰੱਜੇ ਹਨ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Those who are satisfied by the essence of the Naam"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਜਨ ਨਾਮ ਅੰਮ੍ਰਿਤ ਰਸ ਮੇਂ ਤ੍ਰਿਪਤ ਭਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮਨੁੱਖ ਨਾਮ ਦੇ ਸੁਆਦ ਵਿਚ ਰੱਜ ਗਏ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਾਮ ਰਸਿ = ਨਾਮ ਦੇ ਸੁਆਦ ਵਿਚ। ਤ੍ਰਿਪਤਾਨੇ = ਰੱਜ ਗਏ ਹਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquéllos que han encontrado la Plenitud en el Amor del Nombre,"

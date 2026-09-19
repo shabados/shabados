@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਕਥ ਕਹਾਨੀ ॥"
 page = 607
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "This mysterious fact was comprehended by all"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਤਿਯੁਗ ਦੀ) ਕਥਾ ਵਰਣਨ ਤੋਂ ਪਰੇ ਹੈ।"

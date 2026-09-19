@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹੀ ਕੌ ਨ ਆਲੈ ॥੨੯੧॥"
 page = 658
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "None of the young, old and minors remained behind.291."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਵੀ ਘਰ ('ਆਲੈ') ਨਹੀਂ ਰਹੀ ਹੈ ॥੨੯੧॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਮੰ ਭਠੀ ॥੫੩੧॥"
 page = 255
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That persistent Ravana got up on listening to such sounds and it seemed that a fire cauldron was blazing.531."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਭੱਠੀ (ਵਿਚੋਂ ਅੱਗ ਦਾ ਲੰਬੂ ਨਿਕਲਦਾ ਹੈ) ॥੫੩੧॥"

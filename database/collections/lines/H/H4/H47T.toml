@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਦਿਵਸ ਚੜਿਓ ਨ੍ਰਿਪ ਬਰ; ਸੈਲ ਕਾਜ ਅਖੇਟ ॥"
 page = 141
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On one day the king went on a merry-making trip and hunting."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਦਿਨ ਰਾਜਾ (ਪਰੀਕਸ਼ਿਤ) ਸੈਰ ਕਰਨ ਲਈ ਸ਼ਿਕਾਰ ਤੇ ਚੜ੍ਹਿਆ।"

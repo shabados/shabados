@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੰਡੇ ਅਖੰਡ ਕਿਨੇ ਘਮੰਡ ॥"
 page = 627
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He conquered many invincible kings and shattered the pride of many egoistic kings"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਿਰਲਥ (ਸੂਰਬੀਰਾਂ) ਦੇ ਸਿਰ ਲਾਹ ਦਿੱਤੇ।"

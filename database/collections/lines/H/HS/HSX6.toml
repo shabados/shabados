@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿਥ ਭੇਸ ਧਰਿ ਪਰੀ; ਕੁਅਰਿ ਕੇ ਢਿਗ ਗਈ ॥"
 page = 1186
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋਗੀ ਦਾ ਰੂਪ ਧਾਰ ਕੇ ਪਰੀ ਰਾਜ ਕੁਮਾਰ ਕੋਲ ਚਲੀ ਗਈ।"

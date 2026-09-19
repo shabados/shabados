@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਬ; ਕਲੂ ਆਇਓ ਰੇ ॥"
 page = 1185
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O the Darkage has now arrived."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਓ! ਹੁਣ ਕਲਜੁਗ ਆ ਗਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Now, the Dark Age of Kali Yuga has come."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ ਜਨੋਂ! ਅਬ (ਕਲੂ) ਕਲਜੁਗ ਆਇਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਹੁਣ ਮਨੁੱਖਾ ਜਨਮ ਮਿਲਣ ਤੇ (ਨਾਮ ਬੀਜਣ ਦਾ) ਸਮਾ ਤੈਨੂੰ ਮਿਲਿਆ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਬ = ਹੁਣ, ਮਨੁੱਖਾ ਜੀਵਨ ਮਿਲਣ ਤੇ। ਕਲੂ = ਕਾਲੁ, ਸਮਾ, ਨਾਮ ਬੀਜਣ ਦਾ ਸਮਾ। ਰੇ = ਅਨ = {अन्य} ਕੋਈ ਹੋਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "La Era de Kali se ha establecido,"

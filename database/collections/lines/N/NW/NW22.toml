@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਖ ਪਾਵਤ ਦੇਖ ਨਰੇਸ ਭੂਅੰ ॥"
 page = 663
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sun and the moon were frightened from that army and seeing that king, all other kings of the earth were feeling happy"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਧਰਤੀ ਦੇ ਰਾਜੇ ਨੂੰ ਵੇਖ ਕੇ ਸੁਖ ਪ੍ਰਾਪਤ ਕਰ ਰਹੇ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਨ︀ਯਾਸ ਆਦਿ ਧਰਮਣੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One may adopt the religious garb of mendicant"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੰਨਿਆਸ ਆਦਿ ਧਰਮ (ਦਾ ਪਾਲਨ) ਕਰੇ"

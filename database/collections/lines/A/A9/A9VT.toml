@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਾਇਆ ਮੋਹਿ ਕਰੋੜ ਮਿਲਿ; ਹੁਇ ਬਹੁ ਗੁਣੁ ਸੋਹੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And ego, full of pride for having killed lacs of demons, may touch a gursikh;"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮਾਇਆ ਦੇ ਮੋਹ ਕਰੋੜਾਂ ਮਿਲਕੇ ਬਹੁਗੁਣੇ ਹੋਕੇ ਸੋਭ ਰਹੇ ਹਨ।"

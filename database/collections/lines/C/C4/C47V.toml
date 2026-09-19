@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਤੁਪਕ ਕੇ ਹੋਤ ਹੈ; ਲੀਜਹੁ ਸੁਘਰ, ਸੁ ਧਾਰ ॥੬੭੬॥"
 page = 748
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The names of Tupak are formed by uttering the words “Jalaj-Prashthani” which may be comprehended correctly.676."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁਘੜੋ! ਇਹ ਨਾਮ ਤੁਪਕ ਦਾ ਵਿਚਾਰ ਲਵੋ ॥੬੭੬॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੇ ਬਾਣ ਰੁਕੇ ਗੈਣ ॥"
 page = 257
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੀਰਾਂ ਦੇ ਚੱਲਣ ਨਾਲ ਆਕਾਸ਼ ਰੁਕ ਗਿਆ ਹੈ,"

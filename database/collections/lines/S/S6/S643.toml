@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਿਯ ਸੌ ਕਹੀ ਬਾਤ ਮੁਸਕਾਈ ॥"
 page = 977
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Then while taking her to her palace happily, she said,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪ੍ਰੀਤਮ ਨੂੰ ਹੱਸ ਕੇ ਕਿਹਾ,"

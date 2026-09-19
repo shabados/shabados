@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਿ ਕਰਿ ਪਰ ਗਿਰ ਇੰਦ੍ਰ ਹਰਾਯੋ ॥੪॥"
 page = 1267
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਬਤ ਨੂੰ ਹੱਥ ਉਤੇ ਚੁਕ ਕੇ ਇੰਦਰ ਨੂੰ ਹਰਾਇਆ ॥੪॥"

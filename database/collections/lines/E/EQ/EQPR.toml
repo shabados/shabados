@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾ ਕੈ ਸਿਮਰਨਿ; ਨਹੀ ਸੰਤਾਪ ॥੨॥"
 page = 986
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "By whose meditation pain touches not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਇਬਾਦਤ ਦੁਆਰਾ ਪੀੜ ਵਾਪਰਦੀ ਹੀ ਨਹੀਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Meditating on Him, agony is ended. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੇ ਸਿਮਰਨੇ ਸੇ ਭਲੀ ਪ੍ਰਕਾਰ ਤਪਣਾ ਨਹੀਂ ਹੋਤਾ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਸਿਮਰਨ ਨਾਲ ਕੋਈ ਦੁੱਖ-ਕਲੇਸ਼ ਪੋਹ ਨਹੀਂ ਸਕਦੇ (ਉਸ ਨੂੰ ਸਦਾ ਸਿਰ ਨਿਵਾਂਦਾ ਰਹੁ) ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੰਤਾਪ = ਕਲੇਸ਼ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "los pecados son perdonados(2)"

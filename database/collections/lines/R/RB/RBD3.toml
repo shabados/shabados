@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ਼ੁਨੀਦ ਈਂ ਸੁਖ਼ਨ ਰਾ ਦਿਲ ਅੰਦਰ ਨਿਹਾਦ ॥"
 page = 1406
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing this she concealed the secret in her heart,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ (ਰਾਜੇ ਦਾ ਇਹ ਬੋਲ) ਸੁਣ ਕੇ ਆਪਣੇ ਅੰਦਰ ਹੀ ਰਖਿਆ"

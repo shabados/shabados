@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਆਵੇਖ਼ਤ ਬਾ ਯਕ ਦਿਗ਼ਰ ਚੂੰ ਨਿਹੰਗ ॥੯੩॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And like crocodiles pounced upon each other.(93)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਗਰਮੱਛਾਂ ਵਾਂਗ ਇਕ ਦੂਜੇ ਨਾਲ ਭਿੜਨ ਲਗ ਪਏ ॥੯੩॥"

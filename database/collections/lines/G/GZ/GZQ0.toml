@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਠੀ ਪਾਵ ਰੋਪਿਯੰ ॥"
 page = 63
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Kirpal Chand, in great anger, stood firmly in the field."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਯੁੱਧਵੀਰ ਨੇ ਪੈਰ ਜਮਾ ਲਿਆ,"

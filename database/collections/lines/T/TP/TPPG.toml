@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹਾਗੀਰ ਆਦਿਲ ਮਰਿ ਗਯੋ ॥"
 page = 910
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਇਨਸਾਫ਼-ਪਸੰਦ ਜਹਾਂਗੀਰ ਬਾਦਸ਼ਾਹ ਮਰ ਗਿਆ"

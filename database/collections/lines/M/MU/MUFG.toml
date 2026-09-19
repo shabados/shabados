@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਨਵ ਭਰੇ ਰੋਸ ਤਨ ਤਬ ਹੀ ॥"
 page = 1357
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦ) ਦੈਂਤ ਵੀ ਰੋਹ ਨਾਲ ਭਰ ਗਏ।"

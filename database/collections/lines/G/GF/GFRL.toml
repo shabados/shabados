@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅੰਨੈ ਬਿਨਾ; ਨ ਹੋਇ ਸੁਕਾਲੁ ॥"
 page = 873
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Without corn, time passes not in peace."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਨਾਜ ਦਾ ਬਾਝੋਂ ਸਮਾਂ ਸੁੱਖ ਅੰਦਰ ਬਤੀਤ ਨਹੀਂ ਹੁੰਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Without this grain, time does not pass in peace."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅੰਨ ਪੈਦੇ ਹੋਇ ਬਿਨਾਂ ਸੁਕਾਲ ਨਹੀਂ ਹੋਤਾ, ਭਾਵ ਜੀਵ ਖੁਧਾ ਕਰ ਦੁਖੀ ਰਹਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਅੰਨ ਤੋਂ ਬਗ਼ੈਰ ਸੁਕਾਲ ਨਹੀਂ ਹੋ ਸਕਦਾ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Pues sin granos para comer,"

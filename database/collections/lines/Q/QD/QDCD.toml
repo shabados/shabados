@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਅਬਿਯਕਤ ਧਰਮੰ ॥"
 page = 654
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was absorbed in good deeds, an unattached Yogi"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਵਿਅਕਤ ਧਰਮ ਵਾਲਾ ਹੈ,"

@@ -1,36 +1,36 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰਾਗੁ ਰਾਮਕਲੀ ਮਹਲਾ ੯ ਤਿਪਦੇ ॥"
 page = 901
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Rag Ramkali. 9th Guru Tipadas."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਰਾਮਕਲੀ। ਨੌਵੀਂ ਪਾਤਿਸ਼ਾਹੀ ਤਿਪਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Raag Raamkalee, Ninth Mehl, Thi-Padhay:"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਰਾਮਕਲੀ ਵਿੱਚ ਗੁਰੂ ਤੇਗਬਹਾਦਰ ਜੀ ਦੀ ਤਿਨ-ਬੰਦਾਂ ਵਾਲੀ ਬਾਣੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ramkali, Mejl Guru Teg Bajadur, Noveno Canal Divino, Ti-Padas."

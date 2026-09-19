@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰ ਕੀ ਮਹਿਮਾ; ਬੇਦ. ਨ ਜਾਣਹਿ ॥"
 page = 1078
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Guru's glory, even the Vedas know not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਾਂ ਦੀ ਪੰ੍ਰਭਤਾ ਨੂੰ ਵੇਦ ਭੀ ਨਹੀਂ ਜਾਣਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Even the Vedas do not know the Guru's Glory."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੋਂ ਕੀ ਮਹਿਮਾ ਕੋ ਬੇਦ ਨਹੀਂ ਜਾਨ ਸਕਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਦੀ ਉੱਚ-ਆਤਮਕਤਾ ਵੇਦ (ਭੀ) ਨਹੀਂ ਜਾਣਦੇ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਹਿਮਾ = ਵਡਿਆਈ, ਉੱਚ-ਆਤਮਕਤਾ। ਨ ਜਾਣਹਿ = ਨਹੀਂ ਜਾਣਦੇ {ਬਹੁ-ਵਚਨ}।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ni siquiera los Vedas conocen la Gloria del Guru y lo que uno pueda decir son bagatelas,"

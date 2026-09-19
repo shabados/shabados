@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਵ ਲੋਗ ਲਉ ਸੁਨੀ ਪੁਕਾਰਾ ॥"
 page = 106
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rakat Beej marched after sounding his trumpet, which was heard even in the habitation of gods."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦੀ) ਆਵਾਜ਼ ਦੇਵ ਲੋਕ ਤਕ ਸੁਣੀ ਗਈ।"

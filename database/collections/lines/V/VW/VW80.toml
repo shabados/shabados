@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਜਾਤ ਰੇ ਬਾਲ, ਲੀਨੇ ਤੁਰੰਗੰ ॥"
 page = 276
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਹੇ ਬਾਲਕ! ਘੋੜੇ ਨੂੰ ਕਿਥੇ ਲਈ ਜਾਂਦਾ ਹੈਂ?"

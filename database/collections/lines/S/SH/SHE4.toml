@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਇਓ ਤਉਨ ਕੇ ਬੰਸ ਮੈ ਰਾਮ ਰਾਜਾ ॥"
 page = 145
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In his line, there was the king Rama"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਵੰਸ਼ ਵਿਚ (ਅਗੋਂ) ਰਾਮ ਰਾਜਾ ਹੋਇਆ ਹੈ"

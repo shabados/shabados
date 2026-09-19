@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹ ਸਾਲ ਤਮਾਲ ਮਢਾਲ ਲਸੈ ॥"
 page = 665
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਸਾਲ, ਤਮਾਲ ਅਤੇ ਮਢਾਲ ਨਾਂ ਦੇ ਬ੍ਰਿਛ ਸ਼ੋਭਦੇ ਸਨ ਅਤੇ"

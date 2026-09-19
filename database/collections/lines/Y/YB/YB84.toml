@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਖ ਮਰਤ ਫਿਰਿ ਆਵਤ ਭਏ ॥੧॥"
 page = 65
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Some of them fled away from the city, but came back on account of saarevation.1."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਭੁਖੇ ਮਰਦਿਆਂ ਪਰਤ ਆਏ ॥੧॥"

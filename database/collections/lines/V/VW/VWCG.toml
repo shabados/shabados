@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਜੋਬਨ ਤਾ ਕੇ ਹ੍ਵੈ ਆਯੋ ॥"
 page = 950
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਹ ਜੋਬਨਵਤੀ ਹੋ ਗਈ"

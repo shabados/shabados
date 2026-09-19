@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅਉਸਰੁ ਚੁਕਾ, ਹਥ ਨ ਆਵੈ ॥੧੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Lost opportunity comes not again."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਮਾਂ ਗਿਆ ਹੋਇਆ ਫੇਰ ਹੱਥ ਨਹੀਂ ਆਉਂਦਾ।"

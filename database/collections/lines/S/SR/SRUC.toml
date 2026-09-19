@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਾਰਿਯਾ ਉਰਦਾ ਬੇਗਨੀ; ਖੋਜੇ ਜਹਾ ਅਨੇਕ ॥"
 page = 910
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘You come there, where there are numerous mace bearers and researchers."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਅਨੇਕ ਚੋਬਦਾਰ, ਸ਼ਸਤ੍ਰਧਾਰੀ ਅੰਗ ਰਖਿਅਕ ਇਸਤਰੀਆਂ ('ਉਰਦਾ ਬੇਗਨੀ') ਅਤੇ ਖੋਜੇ (ਖੁਸਰੇ) ਮੌਜੂਦ ਹਨ,"

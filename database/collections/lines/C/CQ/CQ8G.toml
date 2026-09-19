@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਉਪਮਾ ਕਬਿ ਨੇ ਬਰਨੀ; ਮਨ ਕੀ ਹਰਨੀ ਤਿਹ ਨਾਉ ਧਰਿਓ ਹੈ ॥"
 page = 92
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The poet hath described this scence in a very attractive manner.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਉਪਮਾ ਕਵੀ ਨੇ ਵਰਣਿਤ ਕੀਤੀ ਹੈ, ਉਸ ਦਾ ਨਾਂ 'ਮਨ ਨੂੰ ਹਰਨ ਵਾਲੀ' (ਮਨ ਮੋਹਕ) ਰਖ ਦਿੱਤਾ ਹੈ,"

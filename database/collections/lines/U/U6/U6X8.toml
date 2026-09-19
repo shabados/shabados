@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਭੂਰਪਾਲੰ ਧੂਰਾ ਰੰਗੁ ਰਚ︀ਯੋ ॥"
 page = 147
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There that Gandharva adopted a wonderful garb."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਭੂਰਪਾਲ ਨੇ ਵਿਚਿਤ੍ਰ ਧੁੰਧਲਾ ਰੰਗ ਫੈਲਾ ਦਿੱਤਾ।"

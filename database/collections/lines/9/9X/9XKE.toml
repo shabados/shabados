@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੂਦਹ ਇਸ਼ਾਰਤ ਬਿ ਚਸ਼ਮੇ ਬਿਆਂ ॥"
 page = 1407
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then, winking, he added, ‘Oh you the Lady among all the ladies."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਉਸ ਨੇ ਅੱਖ ਨਾਲ ਇਸ਼ਾਰਾ ਕੀਤਾ"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੇਵਕੁ ਕੀਨੋ; ਸਦਾ ਨਿਹਾਲੁ ॥"
 page = 289
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "His servant He has rendered ever happy."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਦਾਸ ਨੂੰ ਉਸ ਨੇ ਸਦੀਵੀ ਪ੍ਰਸੰਨ ਕਰ ਦਿੱਤਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He has made His servant eternally happy."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਸੇਵਕ ਕੋ ਨਿਹਾਲ ਕੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇ, ਸੇਵਕ ਨੂੰ ਸਦਾ ਖਿੜੇ-ਮੱਥੇ ਰੱਖਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਿਹਾਲੁ = ਪ੍ਰਸੰਨ, ਖ਼ੁਸ਼।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y lo protege siempre llenándolo de felicidad."

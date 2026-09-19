@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਪਨੇ ਦਾਸ ਕਉ; ਦੇਇ ਵਡਾਈ ॥"
 page = 285
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "On His attendant the Lord bestows glory."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਟਹਿਲੂਏ ਤੇ ਸਾਈਂ ਪ੍ਰਭੁਤਾ ਨਿਛਾਵਰ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He blesses His slave with greatness."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਪਨੇ ਦਾਸ ਕੋ ਵਡਿਆਈ ਦੇਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਆਪਣੇ ਸੇਵਕ ਨੂੰ ਮਾਣ ਬਖ਼ਸ਼ਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਵਡਾਈ = ਵਡਿਆਈ, ਮਾਣ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y le inspira a meditar en el Nombre."

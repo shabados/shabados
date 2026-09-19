@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਿਉ ਜਗਿ ਅੰਦਰਿ ਕਾਮਧੇਨੁ; ਨਹਿ ਆਪੁ ਜਣਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Kamaddhenu, wish fulfilling cow, also lives in this world but never makes itself noticed."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਿੱਕੂੰ ਜਗਤ ਵਿਚ ਕਾਮਧੇਨ ਹੈ ਪਰ ਆਪਾ ਨਹੀਂ ਜਣਾਉਂਦੀ।"

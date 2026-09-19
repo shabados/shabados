@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੁਣਿ ਮੂਰਖ ਮੰਨ ਅਜਾਣਾ ॥"
 page = 155
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Hear O foolish and ignorant mind,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੰਨ ਦੇ, ਹੇ ਬੇਵਕੂਫ ਤੇ ਬੇਸਮਝ ਮਨ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Listen, you foolish and ignorant mind"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਅਗਯਾਤ ਮੂਰਖ ਮਨ! ਤੂੰ ਸਰਵਣ ਕਰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੂਰਖ ਅੰਞਾਣ ਮਨ! ਸੁਣ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mi mente torpe, escúchame y entiende"

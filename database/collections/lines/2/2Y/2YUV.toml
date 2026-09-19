@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਕਰਤ ਨਾਮੁ ਨਿਸ ਦਿਨ ਉਚਾਰ ॥"
 page = 647
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਰਾਤ ਦਿਨ ਨਾਮ ਦਾ ਉਚਾਰਨ ਕਰਦੇ ਹਨ।"

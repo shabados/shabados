@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੋ ਸਿਮਰਨੁ; ਰਖੁ ਕੰਠਿ ਪਰੋਇ ॥"
 page = 971
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "that contemplation twine thou and wear on thy neck."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਭਜਨ ਨੂੰ ਉਣ ਕੇ ਤੂੰ ਆਪਣੀ ਗਰਦਨ ਦੁਆਲੇ ਪਹਿਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Wear that meditative remembrance as your necklace."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਐਸਾ ਸਿਮਰਨ ਕੰਠ ਮੇਂ ਪਰੋਇ ਰਾਖ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਉਸ ਸਿਮਰਨ (ਰੂਪ ਹਾਰ) ਨੂੰ ਪ੍ਰੋ ਕੇ ਸਦਾ ਗਲ ਵਿਚ ਪਾਈ ਰੱਖ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "entreteje Su Contemplación en tu corazón."

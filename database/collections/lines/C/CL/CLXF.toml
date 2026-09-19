@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸੀਹਿ ਬੁਕੇ ਮਿਰਗਾਵਲੀ; ਭੰਨੀ ਜਾਇ ਨ ਆਇ ਖੜੋਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Before the roar of the lion, flocks of deers take to their heels."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ੇਰ ਦੇ ਗਰਜਣ ਨਾਲ ਮਿਰਗਾਂ ਦੀ ਕਤਾਰ ਭੱਜ ਜਾਂਦੀ ਹੈ, ਨਹੀਂ ਖੜੋਂਦੀ।"

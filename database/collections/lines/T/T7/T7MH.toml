@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਵੰ ਨਾਦ ਬਾਜੇ ॥"
 page = 108
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The mighty warriors are roaring and the new instruments are being sounded."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਵੇਂ ਨਵੇਂ ਨਗਾਰੇ ਵਜਦੇ ਹਨ,"

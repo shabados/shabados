@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘੋਟਿ ਭਾਗ ਜਿਮਿ ਦੁਹੂੰਅਨ ਪੀਯੋ ॥"
 page = 1340
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੋਹਾਂ ਨੇ ਉਸ ਨੂੰ ਭੰਗ ਵਾਂਗ ਘੋਟ ਕੇ ਪੀ ਲਿਆ"

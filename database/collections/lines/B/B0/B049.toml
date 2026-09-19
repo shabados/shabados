@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਮ ਪ੍ਰੇਮ ਹੀਣ ਸੁ ਮਿਤ ॥੧੦੫॥"
 page = 634
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The poetry without wisdom and the friend without love.105."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਪ੍ਰੇਮ ਤੋਂ ਸਖਣਾ ਮਿਤਰ ਹੈ ॥੧੦੫॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਹਾਰੌ ਜਹਾ ਆਪੁ ਠਾਢੀ ਵਹੀ ਹੈ ॥੧॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I can envision you to the limits of my perception.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਵੀ ਵੇਖਦਾ ਹਾਂ, ਉਥੇ ਹੀ (ਤੂੰ) ਆਪ ਖੜੋਤੀ ਹੋਈ ਹੈਂ ॥੧॥"

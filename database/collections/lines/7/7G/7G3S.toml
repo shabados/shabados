@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨ ਜੂਪੀ ਸਭ ਲਏ ਹਰਾਇ ॥੭॥"
 page = 1289
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਸਾਰਿਆਂ ਜੁਆਰੀਆਂ ਨੂੰ ਹਰਾ ਦਿੱਤਾ ਹੈ ॥੭॥"

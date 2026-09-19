@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਯਾਰੀ ਮਰਾ ਪੇਸ਼ ਬਖ਼ਸ਼ੀਦਹ ਮਨ ॥"
 page = 1396
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He replied, ‘A number of them died in the wars,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਨੇ ਕਿਹਾ) ਮੇਰੇ ਸਾਹਮਣੇ ਲਿਆਓ ਜੋ ਮੈਂ (ਤੁਹਾਨੂੰ) ਦਿੱਤਾ ਸੀ"

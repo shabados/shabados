@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਸ ਰੀਤਿ ਰਚ︀ਯੋ ॥"
 page = 617
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੋਵੇਂ) ਪ੍ਰੇਮ ਦੇ ਰਸ ਵਿਚ ਲਗ ਗਏ"

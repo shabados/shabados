@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਉਪਚਾਰ ਦੂਰਿ ਹ੍ਵੈ ਗਯੋ ॥੨੮॥"
 page = 893
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Previously I suffered as well and through this it was remedied.’(28)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਇਹ ਇਲਾਜ ਕਰਨ ਨਾਲ ਦੂਰ ਹੋ ਗਿਆ ਸੀ ॥੨੮॥"

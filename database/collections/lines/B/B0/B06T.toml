@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੰਤ ਕਾ ਦੋਖੀ; ਧਰਮ ਤੇ ਰਹਤ ॥"
 page = 280
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The saints' calumniator is devoid of faith."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧੂ ਦਾ ਨਿੰਦਕ ਸਿਦਕ-ਈਮਾਨ ਤੋਂ ਸੱਖਣਾ ਹੁੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The slanderer of the Saint is devoid of faith."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤ ਕਾ ਦੋਖੀ ਧਰਮ ਸੇ ਰਹਿਤ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤ ਦਾ ਨਿੰਦਕ ਧਰਮੋਂ ਹੀਣ ਹੁੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "abandonado como la semilla de sésamo dejada en el campo."

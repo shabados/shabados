@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਈ ਕਰਤ, ਭਾਂਤ ਭਾਂਤਨ ਬਿਚਾਰ ॥"
 page = 30
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many ruminate over several types of philosophies!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਭਾਂਤ ਭਾਂਤ ਦੇ ਵਿਚਾਰ ਕਰਦੇ ਹਨ,"

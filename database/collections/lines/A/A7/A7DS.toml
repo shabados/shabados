@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਸੋਯੋ ਜੋਧਨ ਬਡਭਾਗੀ ॥"
 page = 950
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Once, when Jodan Dev was in slumber,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਵਡਭਾਗੀ ਜੋਧਨ ਸੌਂ ਗਿਆ,"

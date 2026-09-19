@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਪੇ ਆਪੁ, ਉਪਾਇ ਸਮਾਇਆ ॥੭॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He created the world and Himself subsumes it in His self."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਸ੍ਰਿਸ਼ਟੀ) ਆਪ ਰਚਕੇ ਆਪੇ ਹੀ ਸਮਾਇ ਲੈਂਦਾ ਹੈ।"

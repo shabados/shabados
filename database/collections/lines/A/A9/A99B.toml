@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਛ ਸਹਿਤ ਮਛਿੰਦ੍ਰ ਜੋਗੀ; ਬਧਿ ਜਾਰ ਮਝਾਰ ॥"
 page = 690
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੱਛ ਸਮੇਤ ਮਛਿੰਦ੍ਰ ਜੋਗੀ ਨੂੰ ਜਾਲ ਵਿਚ ਬੰਨ੍ਹ ਲਿਆ।"

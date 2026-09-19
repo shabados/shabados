@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗੜਦੰਗ ਏਕੰ ਦਾਗੜਦੰਗ ਦਾਨੋ ॥"
 page = 261
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਦਾਨੇ (ਜੋ ਮੁਨੀ ਦੇ ਭੇਸ ਵਿੱਚ) ਲੁਕਿਆ ਹੋਇਆ ਸੀ,"

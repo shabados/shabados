@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿ ਹਰਿ ਜੰਪੈ ॥੧੨੯॥"
 page = 212
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And began to repeat the name of Lord, trembling with fear.129."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹਰਿ-ਹਰਿ ਜਪਦੇ ਸਨ ॥੧੨੯॥"

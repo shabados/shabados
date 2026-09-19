@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਕਸੂਰ ਦੁਤੀਯ ਲਹੁਰਵਾ ॥"
 page = 48
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There they founded two cities, the one Kasur and the other Lahore."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਵਿਚੋਂ) ਇਕ ਦਾ ਨਾਂ ਕਸੂਰ ਅਤੇ ਦੂਜੇ ਦਾ ਨਾਂ ਲਾਹੌਰ (ਲਵਪੁਰਾ-ਲਹੁਰਵਾ) ਪਿਆ।"

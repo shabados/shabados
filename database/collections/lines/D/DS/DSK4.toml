@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਜਗ ਕਹ ਇਹ ਬਿਧਿ ਭਰਮਾਯਾ ॥"
 page = 1364
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਜਗਤ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਭਰਮਾਇਆ ਹੋਇਆ ਹੈ"

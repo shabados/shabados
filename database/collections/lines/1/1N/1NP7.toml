@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਨਕ ਗੁਰ ਤੇ; ਪਾਈ ਬੁਧਿ ॥੪॥੧੪॥੬੫॥"
 page = 387
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "From the Guru, O Nanak, I have obtained understanding."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਾਂ ਦੇ ਪਾਸੋਂ ਨਾਨਕ ਨੂੰ ਸਮਝ ਪਰਾਪਤ ਹੋਈ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Nanak, I have obtained understanding from the Guru. ||4||14||65||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਗੁਰੋਂ ਸੇ ਉਤਮ ਬੁਧਿ ਪ੍ਰਾਪਤ ਭਈ ਹੈ॥੪॥੧੪॥੬੫॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਨਕ! ਜਿਸ ਨੇ ਗੁਰੂ ਪਾਸੋਂ (ਸਹੀ ਆਤਮਕ ਜੀਵਨ ਦੀ) ਸੂਝ ਪ੍ਰਾਪਤ ਕਰ ਲਈ  ॥੪॥੧੪॥੬੫॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬੁਧਿ = ਅਕਲ, ਸੂਝ। ਤੇ = ਤੋਂ ॥੪॥੧੪॥੬੫॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Dice Nanak, a través del Guru mi mente ha despertado. (4-14-65)"

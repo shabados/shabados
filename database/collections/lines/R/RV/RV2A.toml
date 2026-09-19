@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਛੇਦੰ ਅਭੇਦੰ ਅਨਾਮੰ ਅਠਾਮੰ ॥"
 page = 127
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art unassailable, indiscriminate, without Name and place."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਅਛੇਦ, ਅਭੇਦ, ਅਨਾਮ (ਨਾਮ-ਰਹਿਤ) ਅਤੇ ਅਠਾਮ (ਸਥਾਨਰਹਿਤ) ਹੈਂ,"

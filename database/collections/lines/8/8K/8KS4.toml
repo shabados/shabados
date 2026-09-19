@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਲ ਬੈਰਨ ਕੋ ਪਗ ਦ੍ਵੈ ਨ ਫਟਾ ॥"
 page = 598
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੈਰੀਆਂ ਦੇ ਦਲ ਦੋ ਕਦਮ ਵੀ ਟਲੇ ਨਹੀਂ ਹਨ"

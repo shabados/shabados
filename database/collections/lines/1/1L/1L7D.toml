@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਛਲ ਸੌ ਤ੍ਰਿਯ ਛੈਲ; ਸਭਨ ਕੌ ਛਲਿ ਗਈ ॥"
 page = 1035
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਦੇ ਚਰਿਤ੍ਰ ਨਾਲ ਨੌਜਵਾਨ ਇਸਤਰੀ ਨੇ ਸਭ ਨੂੰ ਛਲ ਲਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਦੇ ਨ ਆਖਨ ਹਾਰੇ, ਧਾਵਨ ਸਾਹਮਣੇ ॥"
 page = 122
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They never uttered the word ‘defeat’ and ran in front of the goddess."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਕਦੇ ਵੀ ਮੂੰਹ ਵਿਚੋਂ 'ਹਾਰ ਗਏ' ਨਹੀਂ ਕਹਿੰਦੇ ਸਨ (ਅਤੇ ਦੇਵੀ ਦੇ) ਸਾਹਮਣੇ (ਸਦਾ) ਡਟਦੇ ਸਨ।"

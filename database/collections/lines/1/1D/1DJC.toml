@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤਰੁਵਰ ਛਾਇਆ ਫੁਲ ਫਲ; ਸਾਖਾ ਪਤ ਮੂਲ ਬਹੁ ਭਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Shady trees, flowers, fruits, branches, leaves, roots exist there."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਿਛਾਂ ਤੋਂ ਛਾਯਾ ਆਦਿ ਫੁਲ ਫਲ ਟਾਹਣੀਆਂ ਪੱਤ੍ਰਾਂ ਦੇ ਵੱਡੇ ਭਾਰ ਲੱਗੇ ਹਨ।"

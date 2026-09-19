@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਭੇ ਹੀ ਪਟਰਾਣੀਆ; ਰਾਜੇ ਇਕ ਦੂ ਇਕ ਪਿਆਰੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "For the king, all are principal queens and he loves them all much and more."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀਆਂ ਹੀ ਸਰਦਾਰਾ ਰਾਣੀਆਂ ਬਣੀਆਂ ਹੋਈਆਂ ਹਨ, ਰਾਜੇ ਨੂੰ ਇਕ ਥੋਂ ਇਕ ਵਧੀਕ ਪਿਆਰੀ ਹੈ।"

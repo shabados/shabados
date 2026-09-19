@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੰਤ੍ਰ ਸਿਖਨ ਹਿਤ ਧਾਮ; ਤਿਹਾਰੇ ਆਇਯੋ ॥"
 page = 827
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(The Raja said), ‘I had come to you to learn the charms"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਨੇ ਉੱਤਰ ਦਿੱਤਾ ਕਿ ਮੈਂ) ਮੰਤ੍ਰ ਸਿਖਣ ਲਈ ਤੇਰੇ ਘਰ ਆਇਆ ਸਾਂ।"

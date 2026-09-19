@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਓ ਹਸਤ ਬੇ ਬੀਨਿਓ ਨੇਕ ਖ਼ੋਇ ॥੪੪॥"
 page = 1399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘He is without an ego and is of good nature.(44)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਨਕ ਤੋਂ ਬਿਨਾ ਨੇਕ ਸੁਭਾ ਵਾਲਾ ਸਮਝੋ ॥੪੪॥"

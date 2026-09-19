@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਬਾਕੀ ਤਾਣ ਸਾਰੇ ਮੋਇਆਣ ਬਰਾਬਰ ਹਨ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦੀਗਰਾਣ ਮੁਰਦੰਦ ਈਹਾਣ ਜ਼ੀਸਤੰਦ ॥੧੪੩॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Guru Angad is the prophet for both the worlds,"

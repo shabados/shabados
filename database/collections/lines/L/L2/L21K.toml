@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਰ ਲਾਇ ਰਹੀ ਪਿਯ ਕੌ ਤ੍ਰਿਯ ਯੋ ॥"
 page = 1164
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀ ਪ੍ਰਿਯ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਛਾਤੀ ਨਾਲ ਲਗਾ ਕੇ ਰਖਦੀ"

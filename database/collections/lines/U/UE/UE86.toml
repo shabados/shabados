@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਰਮ ਕੇਤੁ ਰਾਨੀ ਕੇ ਬਸਿ ਮਹ ॥"
 page = 1323
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮਰਮ ਕੇਤੁ ਰਾਣੀ ਦੇ ਵਸ ਵਿਚ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਨੈ ਜੁਝਾਵਤ ਸਬ ਕੋਈ ਜੂਝਾ ॥"
 page = 707
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਨ੍ਹਾਂ ਨੂੰ ਲੜਾਉਂਦੇ ਹੋਇਆਂ ਹਰ ਕੋਈ ਜੂਝ ਮਰਿਆ ਹੈ।"

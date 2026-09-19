@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਉ ਮੇਰੇ ਬਚ ਕਰਮ ਕਰਿ; ਹ੍ਰਿਦੈ ਬਸਤ ਰਘੁਰਾਇ ॥"
 page = 288
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“If Ram the king Raghu clan abides ever in my heart, in my speech and action then,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੀਤਾ ਉਸ ਵਿੱਚ ਸਮਾ ਗਈ।"

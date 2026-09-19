@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਤਿ ਕੇ ਕਾਚੇ ॥੮੬॥"
 page = 559
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Without understanding the real meaning, they will deliver useless speeches and adopting the temporary religions, they will never talk about the truth.86."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੱਤ ਦੇ ਕੱਚੇ ਹੋਣਗੇ ॥੮੬॥"

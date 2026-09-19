@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨੁਕ ਧਨੀ ਨ੍ਰਿਧਨੀ ਹ੍ਵੈ ਗਯੋ ॥"
 page = 953
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Losing the Raja, servants felt like a wealthy-man becoming a pauper."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ (ਅਚਾਨਕ ਕੋਈ) ਧਨਵਾਨ ਨਿਰਧਨ ਹੋ ਗਿਆ ਹੋਵੇ।"

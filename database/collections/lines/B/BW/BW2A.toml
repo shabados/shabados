@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਥਣੀ ਆਦਿ ਬਖਾਨਿ ਕੈ; ਰਿਪੁ ਅਰਿ ਅੰਤਿ ਉਚਾਰਿ ॥"
 page = 742
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਰਥਣੀ' (ਰਥਾਂ ਵਾਲੀ ਸੈਨਾ) (ਸ਼ਬਦ) ਕਹਿ ਕੇ, (ਮਗਰੋਂ) ਅੰਤ ਤੇ 'ਰਿਪੁ ਅਰਿ' ਪਦ ਜੋੜੋ।"

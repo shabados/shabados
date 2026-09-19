@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਰਖ਼ਸ਼ ਅੰਦਰ ਆਮਦ ਯਕੇ ਤਾਬ ਰੰਗ ॥"
 page = 1424
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When two of the steadfast warriors on the horsebacks entered the fighting,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਇਕ ਲਿਸ਼ਕ ਨੇ ਝਲਕਾਰਾ ਮਾਰਿਆ,"

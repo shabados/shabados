@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨ ਰੇ; ਗਹਿਓ ਨ. ਗੁਰ ਉਪਦੇਸੁ ॥"
 page = 633
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O man, thou hast not embraced the Guru's teaching."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਬੰਦੇ! ਤੈਂ ਗੁਰਾਂ ਦੀ ਸਿੱਖਿਆ ਨੂੰ ਗ੍ਰਹਿਣ ਨਹੀਂ ਕੀਤਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O mind, you have not accepted the Guru's Teachings."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਜਿਸ ਨੇ ਗੁਰੋਂ ਕਾ ਉਪਦੇਸ਼ ਗ੍ਰਹਣ ਨਹੀਂ ਕੀਆ ਹੂਆ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਤੂੰ ਗੁਰੂ ਦੀ ਸਿੱਖਿਆ ਗ੍ਰਹਿਣ ਨਹੀਂ ਕਰਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗਹਿਓ = ਫੜਿਆ, ਗ੍ਰਹਿਣ ਕੀਤਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mi mente, no aceptaste la Sabiduría del Guru;"

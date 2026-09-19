@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਨਹੀਂ ਤਾਂ ਉਹ ਹੱਥੀ ਬੱਧੀ ਡਿੱਗ ਪੈਂਦੇ ਹਨ । "
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਵਰਨਾ ਉਫ਼ਤੰਦ ਦਸਤ-ਬਸਤਾ ਹਮੇ ॥੪੦॥"
 page = 1
 line = 40
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Otherwise, they would fall with their hands tied down. (40)"

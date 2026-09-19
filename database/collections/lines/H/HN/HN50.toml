@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਮਸਾਨ ਕਿਲਕਟੀ ਮਾਰੈ ॥"
 page = 1367
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਭੂਤ ਪ੍ਰੇਤ ('ਮਸਾਨ') ਕਿਲਕਾਰੀਆਂ ਮਾਰ ਰਹੇ ਸਨ।"

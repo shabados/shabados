@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਪਕਤੁਆ ਅਪਾਨੰ ॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Most Holy"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਪਕਣ ਅਤੇ ਪੀਣ ਤੋਂ ਮੁਕਤ ਹੈਂ,"

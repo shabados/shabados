@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸ ਧਿਆਨ ਹਰਿ ਹੇਤ ਲਗਈਐ ॥"
 page = 650
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੇ) ਇਸ ਤਰ੍ਹਾਂ ਦਾ ਧਿਆਨ ਹਰਿ (ਦੀ ਪ੍ਰਾਪਤੀ) ਲਈ ਲਗਾਈਐ,"

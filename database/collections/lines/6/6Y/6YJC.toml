@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਥ ਗਏ ਰੁੰਡ ਭਸੁੰਡ ਅਪਾਰਾ ॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The heads of warriors and trunks of elephants lay scattered on the earth."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਪਾਰ (ਸੂਰਮਿਆਂ ਦੇ) ਧੜ ਅਤੇ (ਹਾਥੀਆਂ ਦੇ) ਸੁੰਡ ਖਿਲਰੇ ਪਏ ਸਨ।"

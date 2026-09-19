@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਢਾਹ ਹੈਂ ॥"
 page = 8
 line = 2
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Coastless!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੈਨੂੰ ਕੋਈ ਡਿਗਾ (ਢਾਹ) ਨਹੀਂ ਸਕਦਾ (ਜਾਂ ਤੇਰਾ ਕੋਈ ਕੰਢਾ ਜਾਂ ਕਿਨਾਰਾ ਨਹੀਂ ਹੈ)"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਅਢਾਹ ਹੈਂ ॥"

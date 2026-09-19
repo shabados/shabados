@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦੁਰਮਤਿ ਹਰੀ. ਸੇਵਾ ਕਰੀ; ਭੇਟੇ ਸਾਧ ਕ੍ਰਿਪਾਲ ॥"
 page = 299
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Evil-intellect is effaced by meeting and serving the compassionate saints."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਦਿਆਲੂ ਸੰਤਾਂ ਨੂੰ ਮਿਲਣ ਅਤੇ ਉਨ੍ਹਾਂ ਦੀ ਘਾਲ ਕਮਾਉਣ ਦੁਆਰਾ ਮੰਦੀ-ਅਕਲ ਮਿਟ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Evil-mindedness is eliminated, by meeting with and serving the compassionate Holy Saints."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਬ ਕ੍ਰਿਪਾਲ ਸੰਤੋਂ ਕੋ ਮਿਲ ਕਰ ਸੇਵਾ ਕਰੀ ਤਬ ਖੋਟੀ ਮਤਿ ਦੂਰ ਹੋ ਗਈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੇਹੜੇ ਵਡ-ਭਾਗੀ ਮਨੁੱਖ ਦਇਆ-ਦੇ-ਘਰ ਗੁਰੂ ਨੂੰ ਮਿਲ ਪਏ ਤੇ ਜਿਨ੍ਹਾਂ ਨੇ ਗੁਰੂ ਦੀ ਦੱਸੀ ਸੇਵਾ ਕੀਤੀ, ਉਹਨਾਂ ਨੇ (ਆਪਣੇ ਅੰਦਰੋਂ) ਖੋਟੀ ਮਤਿ ਦੂਰ ਕਰ ਲਈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਦੁਰਮਤਿ = ਖੋਟੀ ਮਤਿ। ਹਰੀ = ਦੂਰ ਕਰ ਲਈ। ਭੇਟੇ = ਮਿਲੇ। ਸਾਧ = ਗੁਰੂ। ਕ੍ਰਿਪਾਲ = {ਕ੍ਰਿਪਾ-ਆਲਯ} ਦਇਆ ਦਾ ਘਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuando quité la maldad de mi mente y me encontré con el Santo compasivo a través del Servicio,"

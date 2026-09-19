@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹਗੇ ਜਨੁ ਕਿੰਸਕ ਸ੍ਰੋਣ ਸਨੇ ॥"
 page = 189
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The helmets broke and fell in eh battlefield like the flowers saturated with blood."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਲਹੂ ਨਾਲ ਭਿਜੇ (ਇਉਂ ਮਲੂਮ ਹੁੰਦੇ ਸਨ) ਮਾਨੋ ਕੇਸੂ ਝੜੇ ਪਏ ਹੋਣ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਛਲ ਹੈ ਨ ਛਿਦ੍ਰ ਹੈ; ਨ ਛਿਦ੍ਰ ਕੋ ਸਰੂਪ ਹੈ ॥"
 page = 33
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is neither deceit, nor malice nor a form of slander."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਨਾ ਛਲ ਹੈ, ਨਾ ਛਿਦ੍ਰ ਹੈ ਅਤੇ ਨਾ ਹੀ ਛਿਦ੍ਰ (ਨੁਕਸ) ਵਾਲਾ ਸਰੂਪ ਰਖਦਾ ਹੈ।"

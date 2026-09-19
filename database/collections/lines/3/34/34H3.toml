@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਪ੍ਰਜਾ ਸਬ ਮਾਰਗਿ ਲਾਈ ॥"
 page = 194
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਰ ਸਾਰੀ ਪਰਜਾ ਨੂੰ ਧਰਮ ਦੇ ਰਸਤੇ ਉਤੇ ਲਾ ਦਿੱਤਾ"

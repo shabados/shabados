@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਸਚਿਮ ਸੈਨ ਨ੍ਰਿਪਤਿ ਤਹ ਕੋ ਹੈ ॥"
 page = 1229
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੋਂ ਦਾ ਰਾਜਾ ਪਸਚਿਮ ਸੈਨ ਸੀ।"

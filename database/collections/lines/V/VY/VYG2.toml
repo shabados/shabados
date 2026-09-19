@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੂਰਮ ਸਿਰ ਲਹਿਲਾਣੀ; ਦੁਸਮਨ ਮਾਰਿ ਕੈ ॥"
 page = 122
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then it struck on the Tortoise supporting the Bull and thus killing the enemy."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ) ਦੁਸ਼ਮਨ ਨੂੰ ਮਾਰ ਕੇ ਕਛੂਏ ਦੇ ਸਿਰ ਵਿਚ ਚਮਕੀ।"

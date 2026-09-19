@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤੀਜਾ ਕਰਿ ਬੈਰਾਹ ਰੂਪੁ; ਧਰਤਿ ਉਧਾਰੀ ਦੈਤ ਸੰਘਾਰੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In the form of third incarnation Virah, he decimated demons and liberated the earth."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਤੀਜਾ ਸੂਕਰ ਰੂਪ ਧਾਰਕੇ ਧਰਤੀ ਦੀ ਰੱਛਾ ਕੀਤੀ ਤੇ ਦੈਂਤ ਮਾਰੇ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਤ ਕਾਮ ਕ੍ਰੀੜਾ ਬਿਗਸੰਤ ॥"
 page = 1322
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਾਮ-ਕ੍ਰੀੜਾ ਕਰ ਕੇ ਪ੍ਰਸੰਨ ਹੁੰਦੇ ਸਨ।"

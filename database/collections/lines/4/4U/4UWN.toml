@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੇਲ ਬਿਖੈ ਤੁਮ ਮਲਨ ਠਾਢਿ ਕੈ; ਆਪ ਸਬੈ ਕਸਿ ਕੈ ਕਟਿ ਆਵਹੁ ॥੮੪੩॥"
 page = 380
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Tell the wrestlers to get ready and come and keep them standing there.843."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖੇਡ (ਦੇ ਮੈਦਾਨ ਵਿਚ) ਤੁਸੀਂ ਪਹਿਲਵਾਨ ਖੜੇ ਕਰ ਕੇ ਆਪ ਸਾਰੇ ਕਮਰ-ਕਸੇ ਕਰ ਕੇ ਆਓ। (ਅਰਥਾਤ ਸ਼ਸਤ੍ਰ-ਬੱਧ ਹੋ ਕੇ ਆਓ) ॥੮੪੩॥"

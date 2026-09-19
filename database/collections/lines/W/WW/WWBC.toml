@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਦੇਸ ਕੇ ਭੇਸ, ਕੇ ਧਰਮ ਧਾਮੇ ॥"
 page = 26
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere Thou art the abode of virtues of various guises of the county!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਕਿਸੇ ਦੇਸ ਦੇ ਭੇਸ ਅਤੇ ਧਰਮ ਦਾ ਠਿਕਾਣਾ (ਅਰਥਾਤ ਘਰ) ਹੈਂ।"

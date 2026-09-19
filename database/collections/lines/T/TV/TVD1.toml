@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਗਰ ਮਹੇਸ੍ਰਾਵਤਿ ਤਿਹ ਰਾਜਤ ॥"
 page = 1313
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਮਹੇਸ੍ਰਾਵਤੀ ਨਾਂ ਦੀ ਨਗਰੀ ਸੀ,"

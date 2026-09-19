@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹ︀ਯੋ ਠਾਢ ਏਕ ਪਗਾਨ ॥"
 page = 613
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਬ੍ਰਹਮਾ) ਇਕ ਪੈਰ ਉਤੇ ਖੜੋਤਾ ਰਿਹਾ।"

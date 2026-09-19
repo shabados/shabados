@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹਿ ਟਿਕਤ ਏਕ ॥੯੮॥"
 page = 621
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When he fought, none of his limbs turned back, none of his enemies could stand before him and thus ran away.98."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਵੀ ਨਹੀਂ ਟਿਕਦਾ ਸੀ ॥੯੮॥"

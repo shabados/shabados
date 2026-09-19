@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰੁਣ ਜਲਨਿਨੀ ਆਦਿ ਬਖਾਨਹੁ ॥"
 page = 770
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਅਰੁਣ ਜਲਨਿਨੀ' (ਸ਼ਬਦ) ਕਹੋ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬ ਦੁਸਟ ਅਰਿਸਟ ਦਿਨੇ ਖਪਾਇ ॥"
 page = 170
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਦੁਸ਼ਟ ਅਤੇ ਵਿਘਨਕਾਰੀ ਸ਼ਕਤੀਆਂ ਨਸ਼ਟ ਕਰ ਦਿੱਤੀਆਂ"

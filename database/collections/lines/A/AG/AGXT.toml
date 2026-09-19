@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਰਮ ਮੋਹ ਤਿਹ ਦੇਖਤ ਭਾਗੈ ॥"
 page = 652
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਵੇਖ ਕੇ ਭਰਮ ਅਤੇ ਮੋਹ ਭਜ ਜਾਂਦੇ ਹਨ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੀਰ ਮੁਰੀਦਾ ਪਿਰਹੜੀ, ਓਹੁ ਨਿਬਹੈ ਨਾਲੇ ॥੪॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Similarly the Sikh loves Guru and this love accompanies him to the end."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪੀਰਾਂ ਨਾਲ ਮੁਰੀਦਾਂ ਦੀ (ਜੋ) ਪ੍ਰੀਤ ਹੈ ਸੋ ਓੜਕ ਤੀਕ ਨਿਭਦੀ ਹੈ।"

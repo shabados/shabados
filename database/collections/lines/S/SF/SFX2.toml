@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਸਾਧਤ ਨ︀ਯਾਸ ਸੰਨ︀ਯਾਸ ਬਨੰ ॥"
 page = 665
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They absorbed themselves in various practices completely without the element of lust"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਨ ਵਿਚ ਸੰਨਿਆਸ ਦੀਆਂ ਬਹੁਤ ਵਿਧੀਆਂ ਸਾਧੀਆਂ ਹੋਈਆਂ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੌਨ ਜਾਰ ਕੋ ਦਯੋ ਭਿਟਾਈ ॥"
 page = 1003
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rani came to her chambers and introduced her friend to Raja."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਯਾਰ ਨੂੰ ਮਿਲਵਾ ਦਿੱਤਾ।"

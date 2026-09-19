@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ︀ਯੋਂ ਤ︀ਯੋਂ ਅਤਿ ਬ︀ਯਾਕੁਲ ਹ੍ਵੈ ਬਾਮਾ ॥"
 page = 1219
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿਉਂ ਤਿਉਂ ਉਹ ਇਸਤਰੀ ਬਹੁਤ ਵਿਆਕੁਲ ਹੁੰਦੀ ਜਾਂਦੀ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇ ਜਾਨ ਕੂਪ ਪਰੰਤ ॥"
 page = 635
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Those who become proud, they deliberately perform the action of falling into a well"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਜਾਣ ਬੁਝ ਕੇ ਖੂਹ ਵਿਚ ਪੈਂਦੇ ਹਨ।"

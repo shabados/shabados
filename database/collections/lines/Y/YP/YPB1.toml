@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਿਨ ਊਪਰਿ; ਜਾਈਐ ਕੁਰਬਾਣੁ ॥"
 page = 200
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Nanak is a sacrifice unto those,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਾਨਕ ਉਨ੍ਹਾਂ ਉਤੇ ਬਲਿਹਾਰਨੇ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Nanak is a sacrifice to those"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਨ ਕੇ ਊਪਰਿ ਸੇ ਕੁਰਬਾਨ ਜਾਈਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹਨਾਂ ਉਤੋਂ (ਸਦਾ) ਸਦਕੇ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਾਈਐ = ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh, Nanak ofrece su ser en sacrificio a aquél"

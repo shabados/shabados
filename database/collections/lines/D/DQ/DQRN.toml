@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਰ ਨਰ ਕੇ ਸਭ ਅੰਗ ਬਨਾਏ ॥੬॥"
 page = 1302
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੇਰੇ ਸਾਰੇ ਅੰਗ ਪੁਰਸ਼ ਵਾਲੇ ਬਣਾ ਦਿੱਤੇ ਹਨ ॥੬॥"

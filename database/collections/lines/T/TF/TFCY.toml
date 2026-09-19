@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਬੀਰ ਬੀਰਾਨ ਕੀ ਰਾਹ ਰੋਕੈ ॥"
 page = 1369
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਸੂਰਮੇ ਸੂਰਮਿਆਂ ਦਾ ਰਾਹ ਰੋਕ ਰਹੇ ਸਨ।"

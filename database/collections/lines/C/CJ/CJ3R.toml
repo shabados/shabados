@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਨ ਕਾ ਅੰਤ ਨ ਕਾਹੂ ਸੂਝਾ ॥"
 page = 707
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The whole world fought and fell on trying to kill them, but it could not know their end"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ) ਇਨ੍ਹਾਂ ਦਾ ਅੰਤ ਕਿਸੇ ਨੇ ਵੀ ਨਹੀਂ ਜਾਣਿਆ ਹੈ।"

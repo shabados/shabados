@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੀਨੋ ਸਕਲ ਨੈਕ ਨਹਿ ਛੋਰਿਯੋ ॥"
 page = 926
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Bolding a stick he broke the pitcher and drank all the water."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਾ (ਤੇਲ) ਪੀ ਲਿਆ, ਜ਼ਰਾ ਜਿੰਨਾ ਵੀ ਨਾ ਛਡਿਆ।"

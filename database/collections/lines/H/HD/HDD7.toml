@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰਿ ਚਮੂੰ ਚਤੁਰੰਗ ਲਈ; ਤਬ ਲੀਨੋ ਹੈ ਸੁੰਭ ਚਮੁੰਡ ਕੋ ਆਗਾ ॥"
 page = 98
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When all the four divisions of army were killed, Sumbh marched forward to obstruct the advance of Chandi.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਦੋਂ) ਚਤੁਰੰਗਣੀ ਸੈਨਾ ਮਾਰੀ ਗਈ ਤਦੋਂ ਸ਼ੁੰਭ ਚੰਡੀ ਦੇ ਅਗੇ ਆ ਡਟਿਆ।"

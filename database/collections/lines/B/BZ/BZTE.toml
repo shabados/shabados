@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਬੁੱਧਿ ਪ੍ਰਭ ਤੁੱਛ ਹਮਾਰੀ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O God! My intellect is trifling."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਮੇਰੀ ਤੁਛ ਬੁੱਧੀ ਵਿਚ ਕਿਥੋਂ"

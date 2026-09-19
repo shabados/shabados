@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਛਲ ਬਲ ਜਾਨੈ ਘਨੋ; ਜਾ ਮੈ ਬੀਰਜ ਅਪਾਰ ॥੯॥"
 page = 856
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Who is most clever and who maintains greater intellect by dint of his semen.’(9)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਬਹੁਤ ਅਧਿਕ ਛਲ ਬਲ ਜਾਣਦਾ ਹੈ ਅਤੇ ਜਿਸ ਵਿਚ ਅਪਾਰ ਸ਼ਕਤੀ ਹੈ ॥੯॥"

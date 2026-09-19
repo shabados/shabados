@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜ੍ਰਯਾਨੰਦ ਜੂ ਕੌ ਸਤੇ ਲੋਕ ਜਾਨੈ ॥"
 page = 943
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਅਜ ਦੇ ਪੁੱਤਰ ਨੂੰ ਸੱਤੇ ਲੋਕ ਜਾਣਦੇ ਸਨ।"

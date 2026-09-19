@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੇਦ ਨ ਪਾਯੋ ਗੈਨਿ ਯਹਿ; ਤਹਾ ਪਹੁੰਚੀ ਜਾਇ ॥੪॥"
 page = 824
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His mistress had no knowledge of them when she had arrived there.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੈਨੀ ਨੂੰ ਇਹ ਪਤਾ ਨਹੀਂ ਸੀ ਅਤੇ (ਉਹ) ਉਥੇ ਜਾ ਪਹੁੰਚੀ ॥੪॥"

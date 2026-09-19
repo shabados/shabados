@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਲੈ ਮੂਰਤਿ ਜਾਰ ਕੀ ਜਰੀ ॥"
 page = 1088
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਯਾਰ ਦੀ ਮੂਰਤੀ ਨੂੰ ਨਾਲ ਲੈ ਕੇ ਸੜੀ ਹੈ।"

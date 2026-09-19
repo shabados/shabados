@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਰਗਾ ਅਤੈ ਦਾਨਵੀ ਸੂਲ ਹੋਈਆਂ ਕੰਗਾਂ ॥"
 page = 126
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The forces of Durga and demons are piercing each other like sharp thorns."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੁਰਗਾ ਅਤੇ ਦੈਂਤਾਂ ਦੇ ਦਲ (ਇਕ ਦੂਜੇ ਦੇ ਸਾਹਮਣੇ) ਡਟ ਗਏ (ਅਰਥਾਤ ਸੂਲ ਵਾਂਗ ਚੁੱਭਣ ਲਗ ਗਏ)।"

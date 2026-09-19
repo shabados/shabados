@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਸਾਹਿਬਿ ਸਿਰਦਾਰ, ਆਵਣ ਜਾਵਣੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Many masters and leaders come and go."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ 'ਸਾਹਿਬ' (ਸਭਾ ਸੀਂਗਾਰ) (ਲੱਖਾਂ 'ਸਰਦਾਰ') ਰਈਸ ਲੋਕ ਆਂਵਦੇ ਜਾਦੇ ਹਨ।"

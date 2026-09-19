@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਜਛ ਹੈ ਨ ਗੰਧ੍ਰਬ ਹੈ; ਨ ਨਰੁ ਹੈ ਨ ਨਾਰ ਹੈ ॥"
 page = 32
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is neither a Yaksha, nor a Gandharva, nor a man nor a woman."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਯਕਸ਼ ਹੈ, ਨਾ ਗੰਧਰਬ ਹੈ, ਨਾ ਨਰ ਹੈ ਅਤੇ ਨਾ ਹੀ ਨਾਰੀ ਹੈ;"

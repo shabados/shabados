@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੋਲਿ ਬੋਲਿ ਸੁ ਮਿਤ੍ਰ ਮੰਤ੍ਰਨ; ਮੰਤ੍ਰ ਕੀਓ ਬਿਚਾਰ ॥"
 page = 141
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The friends and the ministers who spoke gave the idea"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਮਿਤਰਾਂ ਅਤੇ ਮੰਤਰੀਆਂ ਨੂੰ ਬੁਲਾ ਬੁਲਾ ਕੇ ਵਿਚਾਰ ਕੀਤਾ।"

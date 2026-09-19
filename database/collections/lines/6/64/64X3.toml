@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨਿ ਮੈਲੈ; ਸੂਚਾ ਕਿਉ ਹੋਇ ॥"
 page = 686
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "But with the filthy mind, how can he become pure?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੰਦੇ ਚਿੱਤ ਨਾਲ ਉਹ ਕਿਸ ਤਰ੍ਹਾਂ ਪਵਿੱਤਰ ਹੋ ਸਕਦਾ ਹੈ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "But his mind is still filthy - how can he become pure?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕਾ (ਮਨੁ) ਅੰਤਸਕਰਨ ਮਲੀਨ ਹੈ, ਸੋ ਪੁਰਸ (ਸੂਚਾ) ਪਵਿਤ੍ਰ ਕੈਸੇ ਹੋਵੈ, ਭਾਵ ਸੇ ਨਹੀਂ ਹੋਤਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਉਸ ਦਾ ਮਨ ਮੈਲਾ ਹੀ ਰਿਹਾ, ਤਾਂ ਉਹ ਪਵਿਤ੍ਰ ਕਿਵੇਂ ਹੋ ਸਕਦਾ ਹੈ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨਿ ਮੈਲੇ = ਮੈਲੇ ਮਨ ਦੀ ਰਾਹੀਂ, ਜੇ ਮਨ ਮੈਲਾ ਹੀ ਰਿਹਾ। ਸੂਚਾ = ਪਵਿਤ੍ਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pues su mente es la que está impura."

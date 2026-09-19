@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਨਸਪਤਿ ਮਉਲੀ; ਚੜਿਆ ਬਸੰਤੁ ॥"
 page = 1176
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The spring season has come and the vegetation is in bloom."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਬਹਾਰ ਦੀ ਰੁੱਤ ਆ ਗਈ ਹੈ ਅਤੇ ਨਬਾਤਾਤ ਖਿੜਾਓ ਅੰਦਰ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The season of spring has come, and all the plants have blossomed forth."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪ੍ਰਕਾਰ ਬਸੰਤੁ ਰੁਤ ਕੇ ਚੜਿਆਂ ਬਨਾਸਪਤੀ (ਮਉਲੀ) ਪ੍ਰਫੁਲਤ ਫਲ ਫੂਲ ਸਹਿਤ ਹੋਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਵੇਂ ਜਦੋਂ) ਬਸੰਤ ਚੜ੍ਹਦਾ ਹੈ ਤਾਂ ਸਾਰੀ ਬਨਸਪਤੀ ਹਰੀ-ਭਰੀ ਹੋ ਜਾਂਦੀ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਨਸਪਤਿ = ਰੁੱਖ ਬਿਰਖ ਘਾਹ ਬੂਟ ਆਦਿਕ, ਧਰਤੀ ਵਿਚੋਂ ਉੱਗੀ, ਉਤਭੁਜ। ਮਉਲੀ = ਹਰੀ-ਭਰੀ ਹੋ ਜਾਂਦੀ ਹੈ, ਖਿੜ ਪੈਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "La Primavera ha llegado, toda la vegetación está en flor"

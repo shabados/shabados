@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧੋ ਅੰਗ ਲਾਹੰ ॥"
 page = 51
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The great army is being trampled and limbs are being chopped into halves."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਤੇ) ਅੱਧੇ ਅੰਗ ਵਢੇ ਜਾ ਰਹੇ ਹਨ,"

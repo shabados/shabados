@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਯੋ ਪੂਤ, ਬਿਧਵਾ ਮੁਹਿ ਕੀਨਾ ॥੮੧੯॥"
 page = 285
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing her dead husband Sita said, “O sons! you have made me a widow.”819."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਪਈ"

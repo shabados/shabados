@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ ਕਰ ਪਤਿਯਾ ਦਈ; ਕਹੋ ਕ੍ਰਿਸਨ ਸੋ ਜਾਇ ॥"
 page = 822
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Through a letter she conveyed, ‘Your Radha has been pierced in Your"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਹੱਥ ਵਿਚ ਚਿੱਠੀ ਦੇ ਕੇ (ਕਿਹਾ) ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਜਾ ਕੇ ਕਹਿਣਾ"

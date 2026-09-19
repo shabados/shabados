@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਦਰਸਨ ਡਿਠੋਸੁ ਜਾਇ ਕੈ; ਕਰਣ ਪਲਾਵ ਕਰੇ ਪੁਕਾਰੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "As he approached, he realised it was Krishna. He became full of sorrow and begged forgiveness."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜਦ ਉਸ ਨੇ ਨੇੜੇ) ਜਾਕੇ ਦਰਸ਼ਨ ਕੀਤਾ, ਤਦ ਤਾਂ ਕੀਰਣੇ ਕਰ ਕੇ ਰੋਵੇ।"

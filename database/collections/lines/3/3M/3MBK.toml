@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨ ਰੇ; ਕਹਾ ਭਇਓ ਤੈ ਬਉਰਾ ॥"
 page = 220
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O man, why hast thou become crazy?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਇਨਸਾਨਾਂ ਤੂੰ ਝੱਲਾ ਕਿਉਂ ਹੋ ਗਿਆ ਹੈਂ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O mind, why have you gone crazy?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਤੂੰ ਕਹਾਂ ਬਉਰਾ ਹੋ ਰਹਾ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ (ਮੇਰੇ) ਮਨ! ਤੂੰ ਕਿੱਥੇ (ਲੋਭ ਆਦਿਕ ਵਿਚ ਫਸ ਕੇ) ਪਾਗਲ ਹੋ ਰਿਹਾ ਹੈਂ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਹਾ = ਕਿਥੇ? ਬਉਰਾ = ਪਾਗਲ, ਕਮਲਾ, ਝੱਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mente, ¿Por qué te has vuelto loca?"

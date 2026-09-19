@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਦੀਦਨ ਹੁਮਾਯੂੰ ਜਵਾ ਉਸਤਵਾਰ ॥੪॥"
 page = 1415
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who appeared to be very handsome and at the prime of his youth.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸੁੰਦਰ, ਜਵਾਨ ਅਤੇ ਤਕੜਾ ਸੀ ॥੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜ਼ਿ ਸਰਤਾ ਕਦਮ ਹਮ ਚੁ ਮਿਹਰਸ਼ ਤਪੀਦ ॥੨੭॥"
 page = 1416
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And seeing them in the same bed, became inflammable like the sun.(27)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਿਰ ਤੋਂ ਲੈ ਕੇ ਪੈਰਾਂ ਤਕ ਸੂਰਜ ਵਾਂਗ ਤਪ ਗਿਆ ॥੨੭॥"

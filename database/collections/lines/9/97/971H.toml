@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਨਿ ਚੁਨਿ ਕਿਤੇ ਬਰੰਗਨਿਨ ਬਰੈ ॥"
 page = 1093
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨਿਆਂ ਨੂੰ ਅਪੱਛਰਾਵਾਂ ਚੁਣ ਚੁਣ ਕੇ ਵਰ ਰਹੀਆਂ ਹਨ।"

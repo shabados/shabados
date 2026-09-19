@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਬੰ ਕ੍ਰਿਤ ਗਾਈ ॥੬੫੦॥"
 page = 268
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram hold her to his bosom and the poets sang in praise about this fact.650."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਜਿਹੇ ਪਵਿੱਤਰ ਆਚਰਨ ਕਰਕੇ ਹੀ) ਕਵੀਆਂ ਨੇ (ਸੀਤਾ ਜੀ ਦਾ) ਯਸ਼ ਗਾਇਆ ਹੈ ॥੬੫੦॥"

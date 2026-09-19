@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਨਾਮ ਨਾਦਰਾ ਬਾਨੋ ॥"
 page = 831
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her name was Naadira Bano"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਨਾਂ ਨਾਦਰਾ ਬਾਨੋ ਸੀ।"

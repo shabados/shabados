@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਮ ਕਰਮ ਸਬ ਹੀ ਤਜਿ ਭਾਗੇ ॥"
 page = 193
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the people were absorbed in Shravak Religion (Jainism) and all abandoned the action of Dharma."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਭਨਾਂ ਨੇ ਧਰਮ ਕਰਮ ਤਿਆਗ ਦਿੱਤੇ।"

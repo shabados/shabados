@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਦਨ ਮਤੀ ਤਿਯ ਤਹ ਇਕ ਬਸੀ ॥"
 page = 845
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਇਕ ਮਦਨ ਮਤੀ ਨਾਂ ਦੀ ਇਸਤਰੀ ਰਹਿੰਦੀ ਸੀ,"

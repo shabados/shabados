@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੀਰ ਮੁਰੀਦਾਂ ਪਿਰਹੜੀ, ਓਹੁ ਅਕਥ ਕਹਾਣੀ ॥੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Likewise, indescribable is the story of the love of the Sikh and the Guru"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪੀਰ ਨਾਲ ਮੁਰੀਦਾਂ ਦੀ (ਜਿਹੜੀ) ਪ੍ਰੀਤਿ ਹੈ ਓਹ ਅਕਥ ਕਹਾਣੀ ਹੈ।"

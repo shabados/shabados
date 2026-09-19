@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਬੀਰ ਬੀਰਹਾ ਭਲੇ ॥"
 page = 65
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They left the battlefield though they pretended to be the valiant heroes.7."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ (ਆਪਣੇ ਆਪ ਨੂੰ) ਤਕੜੇ ਗ਼ਾਜ਼ੀ ਅਖਵਾਉਂਦੇ ਸਨ ॥੭॥"

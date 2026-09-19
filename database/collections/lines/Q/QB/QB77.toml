@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨਹੂੰ ਅਪਨੋ ਮਿਤ੍ਰ ਬੁਲਾਇਯੋ ॥"
 page = 830
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Quazi’s wife also had called there, her lover and,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਇਸਤਰੀ) ਨੇ ਵੀ ਆਪਣਾ ਮਿਤਰ ਬੁਲਾ ਲਿਆ"

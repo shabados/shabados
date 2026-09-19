@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਵ ਹਿਤ ਧਰੀ ਬਨਾਇ ਕੈ; ਚਲਹੁ ਮਿਠਾਈ ਖਾਹੁ ॥੧੩॥"
 page = 914
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I have prepared sweetmeats for you, come and relish some.’(13)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੈਂ) ਤੁਹਾਡੇ ਲਈ ਮਠਿਆਈ ਬਣਾਈ ਹੈ, ਚਲ ਕੇ ਉਸ ਨੂੰ ਖਾਓ ॥੧੩॥"

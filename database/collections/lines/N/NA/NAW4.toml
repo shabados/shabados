@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਰਾਮੇ ਕੁਨਦ ਕਾਰਹਾ ਬੇਖ਼ੁਦੀ ॥"
 page = 1427
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Why, sire, did you take an oblivious decision."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਸੀਂ ਇਹ ਬੇਸਮਝੀ ਦਾ ਕੰਮ ਕਿਉਂ ਕੀਤਾ?"

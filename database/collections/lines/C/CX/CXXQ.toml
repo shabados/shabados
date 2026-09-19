@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੇ ਸੁ ਪੂਰ ਕੀਜੀਐ ॥"
 page = 221
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The queen said, “O king! Grant me the boons and fulfil thy sayins."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ (ਤੁਸੀਂ) ਕਹੇ ਹੋਏ ਹਨ, ਉਹ ਪੂਰੇ ਕਰੋ।"

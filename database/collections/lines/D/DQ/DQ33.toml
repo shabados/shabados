@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਹੰਕਾਰੀ ਦੈਤੁ ਮਾਰਿ ਪਚਾਇਆ ॥"
 page = 1154
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The proud demon was killed and destroyed."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਕੜ-ਖਾਂ ਰਾਖਸ਼ ਨਸ਼ਟ ਤੇ ਤਬਾਹ ਕਰ ਦਿਤਾ ਗਿਆ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The egotistical demon was killed and destroyed."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੰਕਾਰੀ ਦੈਤ ਹਰਨਾਖਸ ਕੋ ਮਾਰ ਕਰ ਪਚਾਇ ਦੀਆ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜ ਦੇ ਮਦ ਵਿਚ) ਮੱਤੇ ਹੋਏ (ਹਰਨਾਖਸ਼) ਦੈਂਤ ਨੂੰ ਮਾਰ ਮੁਕਾਇਆ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਾਰਿ = ਮਾਰ ਕੇ। ਪਚਾਇਆ = ਖ਼ੁਆਰ ਕੀਤਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "quien despedazó al malvado rey."

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਨ ਸਕੈ ਮਹਿਮਾ ਜੁ ਤਿਹਾਰੀ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "How can it narrate Thy Praise?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਤਨੀ ਸ਼ਕਤੀ ਹੈ ਕਿ) ਤੇਰੀ ਮਹਿਮਾ ਦਾ ਕਥਨ ਕਰ ਸਕੇ।"

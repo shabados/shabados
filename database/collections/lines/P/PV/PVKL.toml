@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸੁੰਨਿ ਸਮਾਧਿ ਸਮਾਇ, ਆਪੁ ਗਵਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And in that perfect mental tranquillity egoism is done away with."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "('ਸੁੰਨ ਸਮਾਧ'=) ਨਿਵਾਤ ਦੀਪਵਤ ਚਿਤ ਹੋਕੇ ਆਪਣਾ ਆਪ ਭੁਲਾਇਆ ਹੈ।"

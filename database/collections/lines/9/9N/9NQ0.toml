@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁੰਭ ਮਾਰ ਕੈ ਚੰਡਿਕਾ; ਉਠੀ ਸੁ ਸੰਖ ਬਜਾਇ ॥"
 page = 100
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After killing Sumbh, Chnadika rose to blow her conch.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ੁੰਭ ਨੂੰ ਮਾਰ ਕੇ ਚੰਡੀ ਉਠੀ ਅਤੇ ਸੰਖ ਵਜਾਇਆ।"

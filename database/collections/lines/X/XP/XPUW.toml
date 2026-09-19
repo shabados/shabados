@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਚੁਤ ਅਭੈ ਅਭੇਦ ਅਮਿਤ; ਆਖੰਡ ਅਤੁਲ ਬਲ ॥"
 page = 130
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is imperishable, boundless, Non-dual, Unlimited, Indivisible, and hath Unweighable Strenght."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ! ਤੁਸੀਂ) ਅਡਿਗ, ਭੈ-ਰਹਿਤ, ਭੇਦ-ਰਹਿਤ, ਅਸੀਮ, ਅਖੰਡ, ਅਤੁਲ ਬਲ ਵਾਲੇ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੁਬੀਂ ਬੇ ਖ਼ਬਰ ਬਦ ਖ਼ਰਾਸ਼ੀ ਕੁਨਦ ॥"
 page = 1416
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Look, an ignorant scratches his head,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੇਖੋ ਕਿ ਉਹ ਮੂਰਖ ਕਿਤਨਾ ਦੁਖਦਾਇਕ ਕੰਮ ਕਰ ਰਿਹਾ ਹੈ।"

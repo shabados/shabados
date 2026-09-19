@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜ ਸਾਜ ਹਮ ਪਰ ਜਬ ਆਯੋ ॥"
 page = 60
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਗੁਰਗੱਦੀ (ਰਾਜ) ਦੀ ਜ਼ਿਮੇਵਾਰੀ ਸਾਡੇ ਉਤੇ ਪਈ"

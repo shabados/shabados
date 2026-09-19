@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨਕ ਲੂਟਿ ਬਿਧਾ ਤਹਿ ਲਏ ॥੩੨॥"
 page = 946
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They looked like as if the Creator had robbed them off their right.(32)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਉਹ ਪਰਮੇਸ਼੍ਵਰ ਨੇ ਲੁਟ ਲਏ ਹੋਣ ॥੩੨॥"

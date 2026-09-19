@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੋਗ ਬਿਲੋਕਿ ਲਾਜ ਮੁਹਿ ਆਈ ॥੭॥"
 page = 863
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The rupee has fallen on the way, and I was embarrassed to see the people watching.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਲੋਕਾਂ ਨੂੰ ਵੇਖ ਕੇ ਮੈਂ ਲਜਿਤ ਹੋ ਗਈ ॥੭॥"

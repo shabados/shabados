@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੀ ਬਸਿ ਤਰੁਨੀ ਹ੍ਵੈ ਗਈ ॥"
 page = 947
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was immersed so intensively (in his thought) that she felt as if"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ (ਉਹ) ਮੁਟਿਆਰ ਵਸ ਵਿਚ ਹੋ ਗਈ,"

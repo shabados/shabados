@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਗੜਦੰ ਬੀਰੰ ਡਾਗੜਦੰ ਡਕਾਰੇ ॥੩੬॥੧੧੩॥"
 page = 109
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And the brave fighters are belching.36.113."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਾਗੜ ਦੇਸ਼ ਦੇ ਸੂਰਮੇ ਡਕਾਰ ਰਹੇ ਸਨ ॥੩੬॥੧੧੩॥"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦਰਗਹ ਮਿਲੈ, ਤਿਸੈ ਹੀ ਜਾਇ ॥"
 page = 677
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "he alone obtains a place in His court."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੇਵਲ ਉਸੇ ਨੂੰ ਹੀ ਉਸ ਦੇ ਦਰਬਾਰ ਵਿੱਚ ਥਾਂ ਮਿਲਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "obtains a place in the Court of the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਦਰਗਹ) ਪ੍ਰਲੋਕ ਮੇਂ ਤਿਸੀ ਕੌ ਅਸਥਾਨ ਮਿਲਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸੇ ਨੂੰ ਹੀ ਪਰਮਾਤਮਾ ਦੀ ਹਜ਼ੂਰੀ ਵਿਚ ਥਾਂ ਮਿਲਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਾਇ = ਥਾਂ। ਜਿ = ਜੇਹੜੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "encuentra un lugar en la Corte del Señor."

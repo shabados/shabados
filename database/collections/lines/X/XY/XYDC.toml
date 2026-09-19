@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਿ ਸ੍ਰਵਨਨ ਦਾਨਵ ਬੈਨ ਧਏ ॥੭॥"
 page = 167
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then, as commanded by the king, the demons tied him with the column.7."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਦੇ) ਬੋਲ ਸੁਣਦਿਆਂ ਹੀ ਦੈਂਤ ਲੋਕ (ਹੁਕਮ ਦੀ ਪਾਲਨਾ ਲਈ) ਭਜ ਗਏ ॥੭॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰੰਤ ਜੂਝਤੰ ਭਟੰ ॥"
 page = 259
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮੇ (ਇਸ ਤਰ੍ਹਾਂ) ਲੜਦੇ ਹੋਏ ਪ੍ਰਤੀਤ ਹੁੰਦੇ ਹਨ"

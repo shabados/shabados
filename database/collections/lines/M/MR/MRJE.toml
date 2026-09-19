@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋਰੇ ਅਮੋਰ ਜੋਧਾ ਦੁਰਾਣ ॥"
 page = 615
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He killed many dreadful Kshatriyas and suppressed many corrupt and tyrannical warriors"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭਿਆਨਕ ਤੇ ਅਮੋੜ ਯੋਧਿਆਂ (ਦੇ ਮੂੰਹ) ਮੋੜ ਦਿੱਤੇ।"

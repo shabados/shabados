@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹ ਜੜ ਫੂਲਿ ਬਚਨ ਸੁਨਿ ਜਾਵੈ ॥"
 page = 867
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮੂਰਖ (ਇਸਤਰੀ ਦੀ) ਗੱਲ ਸੁਣ ਕੇ ਫੁਲ ਜਾਂਦਾ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਲਿਸ ਗੰਜ ਦਰਬ ਕੇ ਜੇਤੇ ॥"
 page = 1353
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਨ-ਦੌਲਤ ਦੇ ਜਿਤਨੇ ਵੀ ਚਾਲ੍ਹੀ ਖ਼ਜਾਨੇ ਸਨ,"

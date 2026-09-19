@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਗ ਮਾਰਗ ਤੇ ਛਲਿ ਬਹੁਰਾਇਸਿ ॥"
 page = 910
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Reversed his action from yogic meditation."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੋਗ ਦੇ ਮਾਰਗ ਤੋਂ ਛਲ ਨਾਲ ਪਰਤਾ ਲਿਆ।"

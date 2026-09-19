@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਜਰੈ ਨੈਕ ਪਾਵਕ ਮੰਝਾਰ ॥"
 page = 139
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਅੱਗ ਵਿਚ ਰਤਾ ਜਿੰਨਾ ਵੀ ਸੜਦਾ ਨਹੀਂ,"

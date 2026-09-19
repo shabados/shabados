@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਦੀਦਮ ਕਿ ਨਾਹਰ ਬਿਆਮਦ ਬ ਜੰਗ ॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When I saw Nahar Khan in the battlefield,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਮੈਂ ਵੇਖਿਆ ਕਿ (ਤੇਰਾ ਸੈਨਾ ਨਾਇਕ) ਨਾਹਰ ਖ਼ਾਨ ਯੁੱਧ ਕਰਨ ਲਈ ਆਇਆ ਹੈ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਿੰਨ ਭਿੰਨ ਸਭਹੂੰ ਉਪਜਾਯੋ ॥"
 page = 159
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He hath created all in separate forms"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਭਿੰਨ ਭਿੰਨ ਰੂਪ ਵਿਚ ਸਭ ਨੂੰ ਪੈਦਾ ਕੀਤਾ ਹੈ"

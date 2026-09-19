@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੇ ਕੋਪ ਕੈ ਕੈ ਹਠੀਲੇ ਨਿਸਾਕੇ ॥"
 page = 1378
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਿਡਰ ('ਨਿਸਾਕੇ') ਹਠੀਲੇ ਕ੍ਰੋਧਵਾਨ ਹੋ ਕੇ ਚਲ ਪਏ ਸਨ।"

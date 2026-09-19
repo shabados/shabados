@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤੁਲਿ ਨ ਰਤਨਾ ਰਤਕਾਂ; ਮੁਲਿ ਨ ਕਚੁ ਵਿਕਾਵੈ ਪੰਨਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Red and black seed (rata) is not equal to jewel and glass cannot sell at the price of emerald."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਰਤਨ ਅਤੇ ਲਾਲੜੀਆਂ, ਕੱਚ ਅਤੇ ਪੰਨਾ ਇਕ ਮੁੱਲ ਨਹੀਂ ਵਿਕਦੇ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਪ੍ਰਨ ਬੇਦ ਸਰੂਪ ਬਖਾਨਾ ॥"
 page = 625
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਾਹਮਣਾਂ ਨੇ ਵੇਦ ਸਰੂਪ ਕਰ ਕੇ ਵਰਣਨ ਕੀਤਾ"

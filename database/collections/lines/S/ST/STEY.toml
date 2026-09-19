@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੇ ਮਨ, ਭਜ ਤੂੰ ਸਾਰਦਾ; ਅਨਗਨ ਗੁਨ ਹੈ ਜਾਹਿ ॥"
 page = 290
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O mind! Remember the goddess Sharda of innumerable qualities"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਤੂੰ ਸ਼ਾਰਦਾ ਦਾ ਸਿਮਰਨ ਕਰ, ਜਿਸ ਵਿਚ ਅਣਗਿਣਤ ਗੁਣ ਹਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਕੁੰਡਲਾਕਾਰ ਮੁੰਡੈ ਬਿਰਾਜੈ ॥"
 page = 1370
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਕੁੰਡਲਦਾਰ (ਵਾਲਾਂ ਵਾਲੇ) ਸਿਰ ਸ਼ੋਭ ਰਹੇ ਸਨ"

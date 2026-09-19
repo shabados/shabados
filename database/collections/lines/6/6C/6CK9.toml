@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਜਿਯੋ ਸੈਨ ਸੁਭੰ ਕੀਯੋ ਨਾਦ ਉਚੰ ॥"
 page = 112
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Bedecking himself, Sumbh raised a terrible sound"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਭ ਨੇ ਸੈਨਾ ਸਜਾਈ ਅਤੇ ਉੱਚਾ ਨਾਦ ਕੀਤਾ"

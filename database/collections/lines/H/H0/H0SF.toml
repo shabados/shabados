@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਲਿ ਗਈ ਸਭ ਹੀ ਸੁਧ ਘਟ ਕੀ ॥"
 page = 862
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When that woman saw him, she was astounded and lost all her sens"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਸ਼ਰੀਰ ਦੀ ਸਾਰੀ ਸੁਧ ਬੁਧ ਭੁਲ ਗਈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਖਾ ਬਾਣ ਗਗਨ ਗਯੋ ਛਾਈ ॥"
 page = 703
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਣਾਂ ਦੀ ਬਰਖਾ ਆਕਾਸ਼ ਵਿਚ ਛਾ ਗਈ ਹੈ।"

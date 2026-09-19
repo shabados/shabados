@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੰਗੇ ਰੰਗ ਭੂਮ ਦੁਰੰਤ ॥"
 page = 258
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Innumerable weapons and arms are being used and the earth is coloured with blood upto a great distance"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ-ਭੂਮੀ (ਲਹੂ ਦੇ) ਭਿਆਨਕ ਰੰਗ ਨਾਲ ਰੰਗੀ ਹੋਈ ਹੈ।"

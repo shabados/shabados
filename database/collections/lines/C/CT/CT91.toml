@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਕ੍ਰਿਤ ਮੰਜਰੀ ਤਿਹ ਕੀ ਦਾਰਾ ॥"
 page = 1208
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁਕ੍ਰਿਤ ਮੰਜਰੀ ਉਸ ਦੀ ਇਸਤਰੀ ਸੀ।"

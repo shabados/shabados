@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਨਿਆਸਰਿਆਂ ਦੇ ਆਸਰੇ ਹਨ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬੇਕਸਾਂ-ਰਾ ਯਾਰ ਗੁਰ ਗੋਬਿੰਦ ਸਿੰਘ ॥੧੩੬॥"
 page = 10
 line = 136
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, Guru Gobind Singh is the supporter of those who do not have any support. (136)"

@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਿਸ ਕੀ ਕਟੀਐ; ਜਮ ਕੀ ਫਾਸਾ ॥"
 page = 281
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "for him Death's noose is cut."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਲਈ ਮੌਤ ਦੀ ਫਾਹੀ ਕੱਟੀ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "the noose of Death is cut away from his neck."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਕੀ ਜਮ ਕੀ ਫਾਹੀ ਕਾਟੀ ਜਾਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਜਮਾਂ ਵਾਲੀ ਫਾਹੀ ਕੱਟੀ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "las amarras de la muerte le son desatadas,"

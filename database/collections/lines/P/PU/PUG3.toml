@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਉਸੁ ਰਖਵਾਰਾ; ਅਉਰੋ ਹੋਵੈ ॥"
 page = 871
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Some one else becomes her protector."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਹੋਰ ਜਣਾ ਉਸ ਦਾ ਰਖਵਾਲਾ ਬਣ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Someone else becomes her protector."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਿਉਂਕਿ ਉਸ ਕਾ ਰਾਖਾ ਔਰ ਹੋ ਜਾਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਿਉਂਕਿ ਇਸ ਦਾ ਰਾਖਾ (ਖਸਮ) ਕੋਈ ਧਿਰ ਹੋਰ ਬਣ ਜਾਂਦਾ ਹੈ (ਸੋ, ਇਹ ਕਦੇ ਭੀ ਰੰਡੀ ਨਹੀਂ ਹੁੰਦੀ)।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pues ella puede tener otro amante que la cuide y la atienda;"

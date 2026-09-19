@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਖੋਜਤ ਖੋਜਤ; ਸੁਨੀ ਇਹ ਸੋਇ ॥"
 page = 373
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "By searching and, I have heard this news,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਲਭਦਿਆਂ ਤੇ ਭਾਲਦਿਆਂ ਹੋਇਆਂ ਮੈਂ ਇਹ ਖਬਰ ਸੁਣੀ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "By searching and seeking, I have heard this news,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਖੋਜਤੇ ੨ ਯਹ ਸੋਭਾ ਕਾ ਕਨਸੋਇ, ਭਾਵ ਬਾਰਤਾ ਸੁਨੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਭਾਲ ਕਰਦਿਆਂ ਕਰਦਿਆਂ (ਹੇ ਮਾਂ!) ਮੈਂ ਇਹ ਖ਼ਬਰ ਸੁਣ ਲਈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੋਇ = ਖ਼ਬਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Buscando en todas partes escuché el eco dentro de mí,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਹਮਰੋ ਹ੍ਵੈ ਨਾਥ ਬਿਹਾਰੈ ॥੧੯॥"
 page = 847
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Who-so-ever saved her, would become her husband.”(l9)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮੇਰਾ ਸੁਆਮੀ ਬਣ ਕੇ ਰਮਣ ਕਰੇਗਾ ॥੧੯॥"

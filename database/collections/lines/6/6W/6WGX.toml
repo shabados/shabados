@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਮਿਤ ਦਰਬੁ ਤਾ ਕੇ ਰਹੈ; ਦਾਸੀ ਰਹੈ ਹਜਾਰ ॥੩॥"
 page = 919
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was very affluent and had many maids to attend her.(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਕੋਲ ਬੇਹਿਸਾਬਾ ਧਨ ਸੀ ਅਤੇ ਹਜ਼ਾਰਾਂ ਦਾਸੀਆਂ ਰਹਿੰਦੀਆਂ ਸਨ ॥੩॥"

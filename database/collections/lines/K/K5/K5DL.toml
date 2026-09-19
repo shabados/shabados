@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਸੁਧਾ ਬਾਚ ਪੂਤਨਾ ਪ੍ਰਤਿ ॥"
 page = 299
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Yashoda addressed to Putana:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਸੋਧਾ ਨੇ ਪੂਤਨਾ ਨੂੰ ਕਿਹਾ:"

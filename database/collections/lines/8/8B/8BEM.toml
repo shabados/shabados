@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਬਹੂੰ ਤਰਿ ਤਾ ਕੋ ਤ੍ਰਿਯ ਆਵੈ ॥"
 page = 846
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Some times Raja went across and sometimes she swam over,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਦੇ ਇਸਤਰੀ ਨਦੀ ਤਰ ਕੇ (ਉਸ ਪਾਸ) ਆਉਂਦੀ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਫਿਰਤ ਮ੍ਰਿਗਨ ਕਹ ਘਾਵਤ ॥"
 page = 1310
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸੇ ਕਰ ਕੇ ਜੰਗਲੀ ਪਸ਼ੂਆਂ ('ਮ੍ਰਿਗਨ') ਨੂੰ ਮਾਰਦਾ ਫਿਰਦਾ ਸੀ।"

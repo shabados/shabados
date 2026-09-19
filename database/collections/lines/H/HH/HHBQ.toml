@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਬਿਧਿ ਭਯੋ ਭਯਾਨਕ ਜੁਧਾ ॥"
 page = 1368
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਦਾ ਭਿਆਨਕ ਯੁੱਧ ਹੋਇਆ।"

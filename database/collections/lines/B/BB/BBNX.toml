@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਮ ਉਰਬਰਾ ਕ੍ਰਿਸ ਛੀਨ ॥"
 page = 634
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Just as a village becomes helpless without a headman, the earth becomes meaningless without fertility,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਖੇਤੀ ਦੇ ਕਟੇ ਜਾਣ ਤੋਂ ਬਿਨਾ ਉਪਜਾਊ ਧਰਤੀ ਹੈ।"

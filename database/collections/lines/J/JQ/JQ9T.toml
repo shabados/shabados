@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਕੈ ਬਿਕਰਾਲੰ ॥੫੪॥੨੧੦॥"
 page = 116
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The fierce and frightful warriors are busy in various types of prattle.54.210."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਕਵਾਦ ਕਰ ਰਹੇ ਸਨ ॥੫੪॥੨੧੦॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਸਿੰਘ ਹੈ ਨ ਸ︀ਯਾਰ ਹੈ; ਨ ਰਾਉ ਹੈ ਨ ਰੰਕ ਹੈ ॥"
 page = 32
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is neither a lion, nor a jackal, nor a king nor a poor."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਨਾ ਸ਼ੇਰ ਹੈ, ਨਾ ਗਿਦੜ ਹੈ, ਨਾ ਰਾਜਾ ਹੈ, ਨਾ ਭਿਖਾਰੀ ਹੈ;"

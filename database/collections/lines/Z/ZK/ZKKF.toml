@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਬਲ ਚਲੈ ਤੌ ਯਾ ਕੌ ਮਾਰੋ ॥"
 page = 1059
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੁਣ ਜੇ) ਤੁਹਾਡਾ ਵਸ ਚਲੇ ਤਾਂ ਉਨ੍ਹਾਂ ਨੂੰ ਮਾਰੋ,"

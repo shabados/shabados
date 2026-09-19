@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਸਭ ਭਾਤਿਨ ਸਦਾ; ਜਗਤ ਮੈ ਗਾਇਯੈ ॥"
 page = 822
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘And whose benevolence were chanted world over.’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦੇ ਗੁਣਾਂ ਨੂੰ) ਸਭ ਤਰ੍ਹਾਂ ਨਾਲ ਸਦਾ ਜਗਤ ਵਿਚ ਗਾਇਆ ਜਾਂਦਾ ਹੈ,"

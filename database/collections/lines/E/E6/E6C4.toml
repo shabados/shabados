@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸੈ ਹਥਿਆਰੀ ਸੂਰਮਾ; ਪੰਚੀਂ ਪਰਵੇਸੁ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Wielder of a hundred weapons he may be counted among prominent knights."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੋ (ਸਾਰੇ) ਹਥਿਆਰ ਲਾ ਕੇ ਸੂਰਮਾਂ (ਬੀ ਬਣੇ ਤੇ) ਚੌਧਰੀ ਬਨ ਬੈਠੇ।"

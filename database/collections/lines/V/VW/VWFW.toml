@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਕਾਲਿਕਾ ਰੂਪ ਜੁਆਲਾ ਜਯੰਤੀ ॥੪॥੨੨੩॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Blazing like fire Kalika! I salute Thee.4.223."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੁਆਲਾ ਰੂਪ ਵਾਲੀ ਅਤੇ ਜੇਤੂ ਕਾਲਕਾ ਨੂੰ ਨਮਸਕਾਰ ਹੈ ॥੪॥੨੨੩॥"

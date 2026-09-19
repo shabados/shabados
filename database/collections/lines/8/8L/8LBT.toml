@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿ ਅਫ਼ਤਾਦ ਪੁਸ਼ਤ, ਅਸਪਹਾ ਬੇਸ਼ੁਮਾਰ ॥"
 page = 1426
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was pursued by numerous horse-riders,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ ਪਕੜਨ ਲਈ) ਬੇਸ਼ੁਮਾਰ ਘੋੜ ਸਵਾਰ ਉਸ ਪਿਛੇ ਦੌੜਾਏ ਗਏ।"

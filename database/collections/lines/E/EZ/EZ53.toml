@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਪਤ ਔਰ ਰਾਨੀ ਤਿਹ ਰਹਈ ॥"
 page = 1143
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀਆਂ ਸੱਤ ਹੋਰ ਰਾਣੀਆਂ ਸਨ।"

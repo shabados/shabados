@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਸਿਖਾ ਸਾਬਾਸ, ਜਨਮੁ ਸਵਾਰਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Bravo to the Sikhs of Gum who have refined their lives."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਸਿੱਖਾਂ ਨੂੰ ਸ਼ਾਬਾਸ਼ ਹੈ (ਜਿਨ੍ਹਾਂ ਨੇ ਆਪਣਾ) ਜਨਮ ਸੁਵਾਰ ਲੀਤਾ ਹੈ।"

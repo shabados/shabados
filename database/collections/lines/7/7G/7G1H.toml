@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਜ ਸਨੌਢ ਦੇਸ ਤੇ ਗਏ ॥"
 page = 49
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੋਂ ਉਹ ਭਜ ਕੇ ਸਨੌਢ ਦੇਸ਼ ਨੂੰ ਚਲਿਆ ਗਿਆ"

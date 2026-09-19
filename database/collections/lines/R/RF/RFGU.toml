@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਹੌ ਦ੍ਰਿਸਟਿ ਤਵੂ ਪਰ ਕਰਿਹੌ ॥"
 page = 946
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(And told him) ‘When I will come across you,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਜਦ ਮੈਂ ਤੇਰੇ ਵਲ ਨਜ਼ਰ ਕਰਾਂਗੀ"

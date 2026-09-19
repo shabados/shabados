@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤਿਹ ਸਭ ਦੁਸਟਨ ਕਉ ਛੇਦਿ ਕੈ; ਅਕਾਲ ਜਪਾਨਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "They exterminated all the scoundrels and order of the Timeless One."

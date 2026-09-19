@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਿ ਰਾਵ ਕੌ ਸੀਸ ਝੁਕਾਯੋ ॥"
 page = 920
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Madhwan reached the court and bowed his head in obeisance."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆ ਕੇ ਰਾਜੇ ਨੂੰ ਸੀਸ ਝੁਕਾਇਆ।"

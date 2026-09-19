@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਨਾ ਪ੍ਰਾਨ ਕੇ ਜੁਧ ਮਧੰ ਗਿਰਾਏ ॥੨੫॥"
 page = 102
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which laid to rest many warriors in the battlefield.25."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਾਣਾਂ ਤੋਂ ਸਖਣਾ ਕਰ ਕੇ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਡਿਗਾ ਦਿੱਤਾ ॥੨੫॥"

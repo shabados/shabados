@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖਤ ਰਹਿਯੋ ਜਾਰ ਨਹਿੰ ਗਹਿਯੋ ॥"
 page = 1000
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja kept his head hanging and looking down while the paramour taken away."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵੇਖਦਾ ਹੀ ਰਹਿ ਗਿਆ ਪਰ ਯਾਰ ਪਕੜਿਆ ਨਾ ਗਿਆ।"

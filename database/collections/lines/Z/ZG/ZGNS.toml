@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਕੀ ਪ੍ਰੀਤਿ ਬਿਸਾਰਿ; ਤੁਰਤ ਚਿਤ ਤੇ ਦਈ ॥"
 page = 1076
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਰਾਜੇ ਦੀ ਪ੍ਰੀਤ ਤੁਰਤ ਦਿਲੋਂ ਭੁਲਾ ਦਿੱਤੀ।"

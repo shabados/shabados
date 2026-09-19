@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਊਧਵ, ਬਾਤ ਸੁਨੋ ਹਮਰੀ; ਤਿਹ ਕੈ ਬਿਨੁ ਭਯੋ ਹਮਰੋ ਪੁਰ ਹੀਨੋ ॥"
 page = 386
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Udhava! without him, Braja has become poor"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਊਧਵ! ਮੇਰੀ ਗੱਲ ਸੁਣੋ, ਉਸ ਤੋਂ ਬਿਨਾ ਸਾਡਾ ਨਗਰ ਸਖਣਾ ਜਿਹਾ ਹੋ ਗਿਆ ਹੈ।"

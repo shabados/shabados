@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਛਡਿ ਕੁਫਕੜੁ, ਕੂੜੁ ਕੁਧਿਤਾ ॥੨॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "They set aside frivolous argument, falsehood and bad deeds."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਖੋਟਾ ਕੰਮ ਅਰ ਕੂੜੀਆਂ ਹੁੱਜਤਾਂ ਜਾਂ ਕੁਬੁਧੀਆਂ ਨੂੰ ਛੱਡ ਦਿੱਤਾ।"

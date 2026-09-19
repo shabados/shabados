@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਧਸੰਗਤਿ ਚਲਿ ਜਾਇ, ਸੀਸੁ ਨਿਵਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The Gurmukhs serve and attain the fruits of happiness."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਸਰੀਰ ਕਰਕੇ) ਸਾਧ ਸੰਗਤ ਵਿਖੇ ਜਾਕੇ ਸੀਸ ਨਿਵਾਉਂਦੇ ਹਨ (ਭਾਵ ਆਕੜ ਖਾਂ ਨਹੀਂ ਬਣਦੇ)।"

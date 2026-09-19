@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਤੰ ਮਾਲੀ ॥੧੪੬॥"
 page = 214
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the master of yoga-fire and protector of the supreme light.146."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੇਜ਼ ਪ੍ਰਕਾਸ਼ ਵਾਲਾ ਸੀ ॥੧੪੬॥"

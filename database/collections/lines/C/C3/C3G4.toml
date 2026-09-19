@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮਰੀ ਕ੍ਰਿਆ ਕਹਾਂ ਕੋਊ ਕਹੈ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What can one say about Thy doings?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਕ੍ਰਿਆ ਦਾ ਕੋਈ ਕਿਥੋਂ ਤਕ ਵਰਣਨ ਕਰੇ।"

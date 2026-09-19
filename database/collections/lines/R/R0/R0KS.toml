@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇਰੇ ਜੋਰ ਸੋ ਕਹੋ ॥"
 page = 708
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I speak by Thy Power :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਬਲ ਕਰ ਕੇ ਕਹਿੰਦਾ ਹਾਂ:"

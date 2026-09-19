@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਟ ਗਾਵ ਤਾ ਕੇ ਕੀ ਲਈ ॥੧੯॥"
 page = 994
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the Sun was set, it became dark, he took to his way to her village.(19)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਸਾਹਿਬਾਂ ਦੇ ਪਿੰਡ ਦਾ ਰਾਹ ਫੜਿਆ ॥੧੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਦਸੇਸ ਲੀਨ ਬੁਲਾਇ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She called the god Indra,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇੰਦਰ ('ਤ੍ਰਿਦਸੇਸ') ਨੂੰ ਬੁਲਾ ਕੇ"

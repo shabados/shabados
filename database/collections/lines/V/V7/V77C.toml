@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਤ ਉਠੀ ਨ ਭਯੋ ਮਨ ਕ੍ਰੁਧ; ਤਬੈ ਪਗ ਸੋ ਮਹਿ ਗੋਡ ਕੈ ਬਾਹਿਯੋ ॥"
 page = 300
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He moved his foot with force, the mother got up without getting angry"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਮਾਤਾ ਨਾ ਉਠੀ। ਮਨ ਵਿਚ ਕ੍ਰੋਧ ਆ ਗਿਆ, ਤਦ ਪੈਰ ਨਾਲ ਧਰਤੀ ਨੂੰ ਘੁਟ ਕੇ ਦਬਾ ਦਿੱਤਾ।"

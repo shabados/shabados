@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੰਗ ਬਨਾਰਸਿ ਹਿੰਦੂਆਂ; ਮਕਾ ਕਾਬਾ ਮੁਸਲਮਾਣੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The Hindus make pilgrimage to Hardvar and Banaras, the Muslim to the Kaba of Mecca."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਹਿੰਦੂਆਂ, ਗੰਗਾ, ਤੇ ਕਾਂਸ਼ੀ (ਮਿਥ ਲਈ) ਤੇ ਮੱਕਾ ਕਾਬਾ ਮੁਸਲਮਾਨਾਂ (ਪੂਜਾ ਦਾ ਥਾਂ ਮੰਨ ਲੀਤਾ)।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੇਦਿ ਖੇਤ ਤੇ ਖਾਨ ਨਿਕਾਰੇ ॥"
 page = 1026
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਖ਼ਾਨਾਂ ਨੂੰ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਖਦੇੜ ਦਿੱਤਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜਿਓ ਰਾਮ ਸਿੰਘੰ ਮਹਾ ਤੇਜ ਵੰਦੰ ॥"
 page = 63
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With brave Bhim Chand, there were Raj Singh, illustrious Ram Singh,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਹਾ ਤੇਜਵੰਤ ਰਾਮ ਸਿੰਘ ਨੇ ਚੜ੍ਹਾਈ ਕੀਤੀ।"

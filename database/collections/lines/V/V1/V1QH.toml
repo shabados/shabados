@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਸੰਕਾ ਤਿਆਗ ਉਚਰੀਐ; ਸੰਕ ਨ ਮਾਨੀਐ ॥੧੧੯੬॥"
 page = 797
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Manusheshani”, utter the word “antakni” and recognize all the names Tupak without any doubt.1196."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੰਕਾ ਨੂੰ ਤਿਆਗ ਨਿਸੰਗ ਹੋ ਕੇ ਇਸ ਨੂੰ ਉਚਾਰੋ ॥੧੧੯੬॥"

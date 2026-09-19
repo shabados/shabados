@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਲਿਭਦ੍ਰ ਜੂ ਤੀਰਥ ਗਵਨ ਕਥਨੰ ॥"
 page = 539
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Description of the pilgrimage of Balram"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਲਿਭਦ੍ਰ ਜੀ ਦੇ ਤੀਰਥ ਜਾਣ ਦੇ ਪ੍ਰਸੰਗ ਦਾ ਕਥਨ:"

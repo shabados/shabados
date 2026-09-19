@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਕਬਰ ਕੀ ਕਛੁ ਕਾਨਿ ਨ ਧਾਰੈ ॥"
 page = 1099
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਕਬਰ ਤਕ ਦੀ ਵੀ ਕੁਝ ਪਰਵਾਹ ਨਹੀਂ ਕਰਦੀ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਉ ਗੰਗਾ ਕੀ ਧਾਰ ਮੈ; ਜਮੁਨਾ ਪੈਠੀ ਧਾਇ ॥੭੭॥"
 page = 83
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Like Yamuna falling into the current of Ganges.77.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਗੰਗਾ ਦੇ ਵਹਿਣ ਵਿਚ ਜਮਨਾ ਜਾ ਮਿਲਦੀ ਹੈ ॥੭੭॥"

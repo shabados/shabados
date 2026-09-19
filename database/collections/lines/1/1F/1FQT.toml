@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋ ਤੈ ਅਮਿਤ ਦਰਬੁ ਕ︀ਯੋ ਨ ਲੀਜੈ ॥"
 page = 965
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja requested her not become Sati and take as much wealth from him as she wished."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਤੋਂ ਬੇਹਿਸਾਬਾ ਧਨ ਕਿਉਂ ਨਾ ਲੈ ਲਵੋ।"

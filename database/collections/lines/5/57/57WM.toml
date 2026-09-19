@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮਤਿ ਚਲਦੇ, ਵਿਰਲੇ ਬੰਦੇ ॥੨੦॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Only rare ones behave in accordance with the wisdom of the Guru, the Gurmati."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਗੁਰੂ ਦੀ ਸਿੱਖ੍ਯਾ ਵਿਖੇ ਚਲਦੇ ਹਨ, (ਅਜਿਹੇ) 'ਬੰਦੇ' ਵਿਰਲੇ ਹਨ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਹ ਸਿਮਰਨਿ; ਤੁਝੁ ਪੋਹੈ ਨ ਮਾਇ ॥"
 page = 971
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "By remembering, mammon shall affect thee not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਚਿੰਤਨ ਕਰਨ ਨਾਲ ਮਾਇਆ ਤੇਰੇ ਤੇ ਅਸਰ ਨਹੀਂ ਕਰੇਗੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Remembering Him in meditation, Maya will not bother you."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਸਿਮਰਨੇ ਕਰ ਤੇਰੇ ਕੌ ਮਾਇਆ ਨਹੀਂ ਬਿਆਪੇਗੀ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਸਿਮਰਨ ਕਰਕੇ ਤੈਨੂੰ ਮਾਇਆ ਨਹੀਂ ਪੋਂਹਦੀ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਾਇ = ਮਾਇਆ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "meditando en Él, uno no es infectado por Maya;"

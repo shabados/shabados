@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੁਲੇ ਖੇਤ ਮੋ ਖੱਗ ਖੂਨੀ ਖਿਮੰਕੇ ॥"
 page = 160
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He bloody daggers coming out (from) the scabbards) glistened in the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਦਾਨੇ-ਜੰਗ ਵਿਚ ਲਹੂ ਭਰੀਆਂ ਕ੍ਰਿਪਾਨਾਂ ਚਮਕਣ ਲਗੀਆਂ।"

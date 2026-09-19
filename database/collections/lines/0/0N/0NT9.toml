@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰੋ ਯਾ ਸੂਰੀ ਪਰ ਮਰੋ ॥੭॥"
 page = 894
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘That I may kiss you and then go up for hanging.’(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਇਸ ਸੂਲੀ ਉਤੇ ਚੜ੍ਹ ਕੇ ਮਰਾਂ ॥੭॥"

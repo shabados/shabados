@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਤਰ ਧਾਮ ਮ੍ਰਿਤੁ ਕੇ ਜਾਵੋ ॥੩੧॥"
 page = 1000
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘You believe her to be true, if so then, I pray, I should be killed.(31)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਹੀਂ ਤਾਂ ਮੌਤ ਦੇ ਘਰ ਨੂੰ ਜਾ ॥੩੧॥"

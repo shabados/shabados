@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਸੁਨਿ ਪਾਯੋ ॥"
 page = 607
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Everyone heard that Satyuga (Age of Truth) had come"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਨੇ ਸੁਣ ਲਿਆ ਹੈ।"

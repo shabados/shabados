@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਥੀ ਪਾਇਕੰ ਦੰਤ ਪੰਤੀ ਅਨੰਤੰ ॥"
 page = 243
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਰਥਾਂ ਵਾਲੇ ਸੂਰਮੇ, ਪੈਦਲ ਸੂਰਮੇ ਅਤੇ ਅਨੇਕਾਂ ਹੀ ਹਾਥੀਆਂ ਦੀਆਂ ਕਤਾਰਾਂ-"

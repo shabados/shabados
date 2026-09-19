@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੋ ਕਿਛੁ ਕਰੈ; ਸੋਈ ਭਲ ਮਾਨੈ ॥"
 page = 741
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Whatever the Lord does, he accepts that as good."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜਾ ਕੁਝ ਭੀ ਸੁਆਮੀ ਕਰਦਾ ਹੈ, ਉਹ ਉਸ ਨੂੰ ਚੰਗਾ ਸਮਝ ਕੇ ਪਰਵਾਨ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Whatever He does, accept that as good."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਕੁਛ ਅਪਨਾ ਭਾਣਾ ਕਰੇ ਉਸੇ ਕੋ ਜੋ ਭਲਾ ਕਰ ਕੇ ਮਾਨੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਕੁਝ ਭੀ ਪਰਮਾਤਮਾ ਕਰਦਾ ਹੈ ਜੇਹੜਾ ਮਨੁੱਖ ਹਰੇਕ ਉਸ ਕੰਮ ਨੂੰ (ਦੁਨੀਆ ਵਾਸਤੇ) ਭਲਾ ਮੰਨਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਭਲ = ਭਲਾ, ਚੰਗਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "También debe estar complacido con lo que el Señor hace,"

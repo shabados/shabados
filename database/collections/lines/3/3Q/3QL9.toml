@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਰੋਗ ਨ ਸੋਗ ਨ ਭੋਗ ਭੁਯੰ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without ailment sorrow enjoyment and fear!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਨਾ ਰੋਗ ਹੈ, ਨਾ ਸੋਗ ਅਤੇ ਨਾ ਹੀ ਭੂਮੀ ਦੇ ਭੋਗਾਂ (ਦੀ ਚਿੰਤਾ ਹੈ)"

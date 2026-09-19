@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਬੋਲਿਓ ਮੰਤ੍ਰੀ ਸੁਮਤਿ; ਜਰਾਸੰਧਿ ਕੇ ਤੀਰ ॥"
 page = 469
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now the minister, Sumati by name, spoke to the king Jarasandh,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ 'ਸੁਮਤਿ' ਮੰਤਰੀ ਰਾਜਾ ਜਰਾਸੰਧ ਕੋਲ ਬੋਲਣ ਲਗਿਆ,"

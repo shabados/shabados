@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਚ︀ਯੋ ਜੋਰ ਜੁਧੰ ਹਟ੍ਰਯੋ ਨਾਹਿ ਕੋਊ ॥"
 page = 707
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was terrible war and no one retraced his steps"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਤਕੜਾ ਯੁੱਧ ਮਚਿਆ ਹੈ ਅਤੇ ਕੋਈ ਵੀ ਹਟਿਆ ਨਹੀਂ ਹੈ।"

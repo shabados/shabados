@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਜਾ ਲੋਕ ਸਭ ਬਸ ਭਏ ਤਬ ਹੀ ॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the subject with this, came under his control"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਪ੍ਰਜਾ ਦੇ ਲੋਕ ਉਸ ਦੇ ਵਸ ਵਿਚ ਹੋ ਗਏ।"

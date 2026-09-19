@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜਾ ਏਕ ਭੁਟੰਤ ਕੋ; ਚੰਦ੍ਰ ਸਿੰਘ ਤਿਹ ਨਾਮ ॥"
 page = 916
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the Country of Bhutan, there was one Raja named Chander Singh."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੁਟੰਤ ਦਾ ਚੰਦ੍ਰ ਸਿੰਘ ਨਾਂ ਵਾਲਾ ਇਕ ਰਾਜਾ ਸੀ"

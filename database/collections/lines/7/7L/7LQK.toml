@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹਿ ਦੇਵਿ ਜਾਪੁ ਭਣੰਤ ॥"
 page = 610
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "No one the repeats the name of the Lord-God or the name of any other God goddess"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਹੀ ਦੇਵ (ਭਗਵਾਨ) ਦਾ (ਕੋਈ) ਸਿਮਰਨ ਕਰਦਾ ਹੈ।"

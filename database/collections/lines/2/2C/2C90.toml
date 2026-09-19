@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਰਕਿ ਸੇਲ ਸੂਰਮਾ; ਮਟਿਕ ਬਾਜ ਸੁਟਿ ਹੈ ॥"
 page = 701
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਾ ਬਰਛੇ ਨੂੰ (ਅਗੇ ਵਲ) ਸਰਕਾਂਦਾ ਹੈ ਅਤੇ ਮਟਕ ਕੇ ਘੋੜੇ ਨੂੰ ਭਜਾਂਦਾ ਹੈ।"

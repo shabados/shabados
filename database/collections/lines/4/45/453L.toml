@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਸਰਬ ਦੇਖਿ ਡਰਾਨ ॥"
 page = 634
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the king Aj merging in the supreme Light, all the people became fearful like the passengers of a boat without the sailor"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਸਭ ਲੋਕ ਵੇਖ ਕੇ ਡਰ ਗਏ।"

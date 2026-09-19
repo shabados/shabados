@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਕੋ ਦਯਾ, ਕਹੌ ਕਾ ਕਰਿਹੌ ॥"
 page = 900
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(She thought,) ‘What should I do about him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਦੇਵ! ਇਸ (ਮਿਤਰ) ਦਾ (ਹੁਣ) ਕੀ ਕਰਾਂ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਜੋਗ ਮਾਇਆ ਮਹਾ ਰਾਜਧਾਨੀ ॥"
 page = 336
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O great Yogmaya! Thou art the eternal Bhavani in the past, present and future"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਮਹਾਨ ਯੋਗ-ਮਾਇਆ ਹੈਂ, ਤੂੰ ਹੀ ਮਹਾਨ ਰਾਜ ਸੱਤਾ ਹੈਂ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੁਲ︀ਯੋ ਬ︀ਯਾਸ ਪਾਸੰ ਕਰਿਯੋ ਮੰਤ੍ਰ ਚਾਰੰ ॥"
 page = 143
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He called Vyas near him and began consultations."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੇਦ, ਵਿਆਕਰਣ ਅਤੇ ਵਿਦਿਆਵਾਂ ਦੇ"

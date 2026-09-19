@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨੇ ਦੀਹ ਦਾਨਵਾਨ ਕੇ ਮਾਨ ਮੁਚੰ ॥੧੯॥੫੭॥"
 page = 105
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing her shouts, the pride of the demons was destroyed.19.57."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੂੰ) ਸੁਣ ਕੇ ਵਡੇ ਵਡੇ ਰਾਖਸ਼ਾਂ ਦੀ ਹੈਂਕੜ ਨਸ਼ਟ ਹੋ ਗਈ ॥੧੯॥੫੭॥"

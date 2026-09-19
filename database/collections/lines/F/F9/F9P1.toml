@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੀ ਦਾਨਵੀ ਦੇਖਿ ਉਠੀ ਅਪਾਰੰ ॥"
 page = 163
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਨੂੰ ਉਠਿਆ) ਵੇਖ ਕੇ ਦੈਂਤਾ ਦੀ ਅਪਾਰ ਫੌਜ ਵੀ ਉਠ ਖੜੋਤੀ।"

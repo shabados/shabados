@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਭਜੌ ਸੂਰ ਹੁਐ ਕਰ ਨਿਚੈਨ ॥"
 page = 254
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When this hero and his army were killed, then all the warriors, becoming weaponsless, ran away (from the filed)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ (ਹੋਰ) ਸੂਰਮੇ ਬੇਚੈਨ ਹੋ ਕੇ ਭਜ ਗਏ।"

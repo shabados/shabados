@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੁਅਰਿ ਬਸੰਤ ਤਵਨਿ ਕਾ ਨਾਮਾ ॥"
 page = 1352
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਇਸਤਰੀ) ਦਾ ਨਾਂ ਬਸੰਤ ਕੁਮਾਰੀ ਸੀ।"

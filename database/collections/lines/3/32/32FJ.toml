@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿ ਕੇ ਪਗ ਭੇਟਨ ਕਾਜ ਚਲੀ ਕਬਿ ਸ︀ਯਾਮ ਕਹੈ ਸੰਗ ਰਾਧੇ ਅਲੀ ॥"
 page = 347
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Radhika is going with her friend in order to touch the feet of Krishna"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਵੀ ਸ਼ਿਆਮ ਕਹਿੰਦੇ ਹਨ, ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਦੇ ਚਰਨਾਂ ਨੂੰ ਪਰਸਣ ਲਈ ਰਾਧਾ ਆਪਣੀ ਸਖੀ ਨਾਲ ਚਲੀ ਹੈ।"

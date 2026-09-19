@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਕਹੁ ਤੇ ਰਾਨੀ ਲੈ ਕਰਿਹੋ ॥੭॥"
 page = 965
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I will marry you and, lifting you from poverty, I will make you a Rani.’(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਿਰਧਨ ਤੋਂ ਰਾਣੀ ਬਣਾਵਾਂਗਾ ॥੭॥"

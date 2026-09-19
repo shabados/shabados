@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਊਆ ਸੁਤ ਕੋ ਸਾਹੁ ਕੀ; ਦੀਨੀ ਬਧੂ ਮਿਲਾਇ ॥"
 page = 892
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Shah’s son was received as the barber’s son,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾਈ ਦੇ ਪੁੱਤਰ ਨੂੰ ਸ਼ਾਹ ਦੇ ਪੁੱਤਰ ਦੀ ਪਤਨੀ ਮਿਲਾ ਦਿੱਤੀ"

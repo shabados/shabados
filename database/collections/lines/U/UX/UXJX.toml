@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮ੍ਰਿਗ ਮਾਰਤ ਕੋਟ ਕਰੋਰ ਕਿਤੰ ॥"
 page = 665
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He had in his hand a bow and arrows of white colour, with which he had killed many deer"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਹਿਰਨਾਂ ਨੂੰ ਮਾਰਨ ਲਈ ਕਰੋੜਾਂ ਜੁਗਤਾਂ ਕਰਦਾ ਹੁੰਦਾ ਸੀ।"

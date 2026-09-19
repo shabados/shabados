@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਸੁੰਦਰ ਸੁਹਾਗ ਸੇ ॥੫੭੪॥"
 page = 609
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is lustful like the god of love, blooming like a flower an dyed in love like a beautiful song.574."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਸੁੰਦਰਤਾ ਦੇ ਸੌਭਾਗ (ਵਿਧਾਤਾ) ਵਰਗੇ ਹਨ ॥੫੭੪॥"

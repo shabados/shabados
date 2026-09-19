@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਜ ਰਾਜ ਅਰੁ ਗਿਰੇ ਕਿਕਾਣੰ ॥"
 page = 106
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The goddess showered arrows like incessant rain, which caused the horses and their riders fall down."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਕਰਕੇ) ਘੋੜ-ਸਵਾਰ ਅਤੇ ਘੋੜੇ ਡਿਗ ਪਏ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਲਗੈ ਨ ਤਾ ਕੋ ਚੋਟ; ਬਹੁਰਿ ਫਿਰਿ ਆਵਹੀ ॥੭॥"
 page = 1008
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But no one could hit and they remained disappointed.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮੱਛ ਨੂੰ ਨਹੀਂ ਲਗਦੇ ਸਨ ਅਤੇ ਫਿਰ (ਹੇਠਾਂ) ਆ ਡਿਗਦੇ ਸਨ ॥੭॥"

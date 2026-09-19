@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿ ਜਗ ਕੋ ਚਿਤ ਚਾਇ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“There is incentive in my mind for a sacrifice"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਮੇਰਾ ਮਨ ਯੱਗ ਕਰਨ ਨੂੰ ਕਰਦਾ ਹੈ।"

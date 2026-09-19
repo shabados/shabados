@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਤੇ ਲਿਯ ਰਵਿ ਸਸਿ ਉਜਿਯਾਰੀ ॥੧॥"
 page = 1257
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਤੋਂ ਸੂਰਜ ਅਤੇ ਚੰਦ੍ਰਮਾ ਪ੍ਰਕਾਸ਼ ਲੈਂਦੇ ਸਨ ॥੧॥"

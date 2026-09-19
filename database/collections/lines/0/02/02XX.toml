@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਗ ਦ੍ਵੈ ਨ ਭਜਤ ॥੨੩੭॥"
 page = 575
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Because of the sound of the musical instruments of the battlefield the clouds are feeling shy and the bedecked warriors are not retracing, even slightly.237."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋ ਕਦਮ ਵੀ (ਪਿਛੇ ਨੂੰ) ਨਹੀਂ ਭਜਦੇ ॥੨੩੭॥"

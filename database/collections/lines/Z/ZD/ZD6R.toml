@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਿੰਭਿ ਜਗਤ ਕਹ ਕਰਿ ਪਰਚਾਵੈ ॥"
 page = 1197
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਪਾਖੰਡ ਕਰ ਕੇ ਜਗਤ ਨੂੰ ਪਰਚਾਉਂਦੇ ਹਨ"

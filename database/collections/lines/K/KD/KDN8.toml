@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭਗਤਾ ਕਾ; ਅੰਗੀਕਾਰੁ ਕਰਦਾ ਆਇਆ ॥"
 page = 1155
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He has been taking the side of His devotees."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਆਪਣੇ ਅਨੁਰਾਗੀਆਂ ਦਾ ਪੱਖ ਪੂਰਦਾ ਰਿਹਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He has made His devotees His Own."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮੇਸ੍ਵਰ ਭਗਤੋਂ ਕਾ (ਅੰਗੀਕਾਰੁ) ਪਖੁ ਸਦਾ ਹੀ ਕਰਤਾ ਆਯਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਧੁਰ ਤੋਂ ਹੀ ਪਰਮਾਤਮਾ ਆਪਣੇ ਭਗਤਾਂ ਦਾ ਪੱਖ ਕਰਦਾ ਆ ਰਿਹਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅੰਗੀਕਾਰੁ = ਪੱਖ, ਸਹਾਇਤਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "es el Dueño de Sus Devotos,"

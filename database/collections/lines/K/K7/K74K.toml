@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਲਸਕਰ ਚਿਤ ਮਾਹਿ; ਸੁ ਤ੍ਰਾਸ ਬਢਾਇਯੋ ॥"
 page = 927
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The whole (enemy) army was panicked with fear."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਸਾਰੇ ਲਸ਼ਕਰ ਦੇ ਮਨ ਵਿਚ ਬਹੁਤ ਡਰ ਵਿਆਪਤ ਹੋ ਗਿਆ।"

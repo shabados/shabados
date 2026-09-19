@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਤ੍ਰਾਸੰ ਨ ਪ੍ਰਾਸੰ, ਨ ਭੇਦੰ ਨ ਭਰਮੰ ॥"
 page = 24
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without suffering, without strife, without discrimination and without illusion."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਨਾ ਕੋਈ ਡਰ ਹੈ, ਨਾ ਝਗੜਾ ਜਾਂ ਬਖੇੜਾ ਹੈ, ਨਾ ਕੋਈ ਭੇਦ ਹੈ ਅਤੇ ਨਾ ਹੀ ਭਰਮ।"

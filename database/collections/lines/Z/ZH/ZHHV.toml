@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰਵਣ ਮੈਲ ਤੇ ਅਸੁਰ ਪ੍ਰਕਾਸਤ ॥"
 page = 191
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸੇਖਸਾਈ ਦੇ) ਕੰਨਾਂ ਦੀ ਮੈਲ ਤੋਂ (ਮਧੁ ਅਤੇ ਕੈਟਭ) ਦੈਂਤ ਪ੍ਰਗਟ ਹੋਏ,"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਮੈ ਕੀ ਵਡਿਆਈ ॥"
 page = 627
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Such is greatness of the Lord's Name,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਐਹੋ ਜੇਹੀ ਹੈ ਵਿਸ਼ਾਲਤਾ ਪ੍ਰਭੂ ਦੇ ਨਾਮ ਦੀ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "This is the glorious greatness of the Naam."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਏਹੁ ਸਭ ਹਰੀ ਨਾਮ ਕੀ ਹੀ ਵਡਿਆਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਨਾਮ ਦੀ ਹੀ ਬਰਕਤਿ ਹੈ (ਕਿ ਮਨੁੱਖ ਹੋਰ ਹੋਰ ਆਸਰਿਆਂ ਦੀ ਭਾਲ ਛੱਡ ਦੇਂਦਾ ਹੈ)।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਵਡਿਆਈ = ਬਰਕਤਿ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Tal grande es la Gloria del Nombre del Señor"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭਨ ਦਿਖਾਇ ਭੂਮ ਪਰ ਮਾਰਿਯੋ ॥੧੪॥"
 page = 1026
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਭ ਨੂੰ ਵਿਖਾ ਕੇ ਧਰਤੀ ਉਤੇ ਸੁਟ ਦਿੱਤਾ ॥੧੪॥"

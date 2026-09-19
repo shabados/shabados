@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਨੂ ਸੰਗ ਲੈ ਕੈ ॥"
 page = 268
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਨੂਮਾਨ (ਉਨ੍ਹਾਂ ਨੂੰ) ਨਾਲ ਲੈ ਕੇ (ਰਾਮ ਜੀ ਪਾਸ ਆਇਆ)।"

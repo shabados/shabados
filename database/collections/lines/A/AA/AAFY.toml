@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਪਰਮ ਪ੍ਰਗਿਯਾ ਬਿਰਾਜੈ ਅਨੂਪੰ ॥੫॥੨੨੪॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O the bearer of knowledge, unique one! I Salute Thee.5.224."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਪਮਾ ਤੋਂ ਰਹਿਤ ਬਿਰਾਜਣ ਵਾਲੀ ਪਰਮ-ਪ੍ਰਗਿਆ ਨੂੰ ਨਮਸਕਾਰ ਹੈ ॥੫॥੨੨੪॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਅਧਿਕ ਰੋਇ ਗਿਰਿ ਪਰੀ; ਤੌਨ ਹੀ ਖਾਟ ਤਰਿ ॥੯॥"
 page = 1110
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਹੁਤ ਰੋ ਕੇ ਉਸੇ ਮੰਜੀ ਤੋਂ ਹੇਠਾਂ ਡਿਗ ਪਈ ॥੯॥"

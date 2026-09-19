@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਰੁਦ੍ਰ ਐ ਹੈ, ਕਿ ਸ੍ਰੀ ਕ੍ਰਿਸਨ ਐ ਹੈ ॥"
 page = 1198
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਰੁਦ੍ਰ ਆਵੇਗਾ ਜਾਂ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਆਵੇਗਾ,"

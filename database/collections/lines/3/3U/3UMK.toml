@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪੁ ਖਦਾਇਨ ਸੋ ਯੋ ਭਾਖ︀ਯੋ ॥੪॥"
 page = 939
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They (the raiders) were already there; she had served them the dainty foods. What she said, follows:(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪ ਮੁਲਾਣਿਆਂ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ ॥੪॥"

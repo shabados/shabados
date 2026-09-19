@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅਲਖ ਨਿਰੰਜਨੁ ਆਖੀਐ; ਅਕਲ ਅਜੋਨਿ ਅਕਾਲ ਅਪਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "That Lord is without blemish, beyond birth, beyond time and is infinite."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲਖਣ ਤੋਂ ਅਰ ਮਾਯਾ ਥੋਂ ਪਰੇ ਕਹੀਦੇ ਹਨ, ਅਕਲ, ਅਜੋਨੀ, ਅਕਾਲ, (ਆਦਿ) ਅਪਾਰ (ਨਾਮ ਹਨ)।"

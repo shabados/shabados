@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਹੰਕਾਰ ਕੈ ਬਚਨ ਪ੍ਰਮਾਨਤ ॥"
 page = 1194
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੰਕਾਰ ਭਰੇ ਬੋਲ ਬੋਲਦੇ ਹੋ।"

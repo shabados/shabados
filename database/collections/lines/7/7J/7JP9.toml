@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਜੁ ਨਾਰੀ ਮੁਹਿ ਕੀਜੀਯੈ; ਦੇਵ ਕਾਜਿਯਹਿ ਘਾਇ ॥੧੮॥"
 page = 1005
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After annihilating Quazi and the demon, please take me as yourwoman.’(18)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਆਪਣੀ ਪਤਨੀ ਬਣਾ ਲਵੋ ਅਤੇ ਦੇਓ ਤੇ ਕਾਜ਼ੀ ਨੂੰ ਮਾਰ ਦਿਓ ॥੧੮॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਏਕਠੇ ਕਛ ਮਛ ਹ੍ਵੈ ਪਧਾਰੇ ॥"
 page = 1370
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਕੱਛ ਅਤੇ ਮੱਛ ਇਕੱਠੇ ਹੋ ਕੇ ਰੁੜ੍ਹੇ ਜਾ ਰਹੇ ਹੋਣ।"

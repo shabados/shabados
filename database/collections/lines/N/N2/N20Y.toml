@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਮਰਦਾਸ ਪੁਨਿ ਨਾਮੁ ਕਹਾਯੋ ॥"
 page = 55
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ (ਤੀਜੇ ਰੂਪ ਵਿਚ ਉਹ ਗੁਰੂ) ਅਮਰਦਾਸ ਅਖਵਾਏ,"

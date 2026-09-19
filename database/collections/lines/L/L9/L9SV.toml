@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗ ਲਗੀ ਸੁ ਦਿਸਾ ਬਿਦਿਸਾ ਮਧਿ; ਜਾਗ ਤਬੈ ਤਿਹ ਤੇ ਡਰਿ ਰੋਏ ॥"
 page = 313
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The fire broke out at night in all directions and all became afraid"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਵੇਰੇ) ਉਠ ਕੇ ਦਸਾਂ ਦਿਸ਼ਾਵਾਂ ਵਿਚ ਹੀ ਅੱਗ ਲਗੀ ਵੇਖੀ (ਤਾਂ ਬ੍ਰਜਵਾਸੀ) ਉਸ ਤੋਂ ਡਰ ਕੇ ਰੋਣ ਲਗੇ।"

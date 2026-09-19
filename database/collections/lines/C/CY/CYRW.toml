@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮ ਸੋ ਭੋਗ ਅਧਿਕ ਤੁਮ ਕਰੇ ॥੧੮॥"
 page = 840
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘You have had enough sex with me.(18)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਤੁਸੀਂ ਮੇਰੇ ਨਾਲ ਬਹੁਤ ਭੋਗ-ਵਿਲਾਸ ਕਰ ਲਿਆ ਹੈ ॥੧੮॥"

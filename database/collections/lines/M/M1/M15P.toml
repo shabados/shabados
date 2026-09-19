@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰੀ ਪਦਮਿਨੀ ਪ੍ਰਕ੍ਰਿਤਿ; ਪਾਰਬਤੀ ਮਾਨਿਯੈ ॥"
 page = 1190
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਪਰੀ, ਪਦਮਨੀ, ਪ੍ਰਕ੍ਰਿਤੀ (ਮਾਯਾ) ਪਾਰਬਤੀ ਸਝਣੀ ਚਾਹੀਦੀ ਹੈ।"

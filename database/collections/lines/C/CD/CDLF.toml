@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਧੋ ਮਾਨ ਮੁੰਡੰ ॥"
 page = 42
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the effacer of the pride of the demon Madhu"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਧੁ ਦੈਂਤ ਦੇ ਮਾਨ ਨੂੰ ਖ਼ਤਮ ਕਰਨ ਵਾਲਾ"

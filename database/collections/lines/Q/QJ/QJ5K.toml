@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਭਨਾ ਰੰਗਾਂ ਨੋ ਮਿਲੈ; ਰਲਿ ਜਾਇ ਰਲਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "All the dyes mix up in water and it becomes one with every colour;"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਿਆਂ ਰੰਗਾਂ ਵਿਚ ਰਲਾਯਾ ਹੋਇਆ ਰਲ ਮਿਲ ਜਾਂਦਾ ਹੈ (ਕਿਸੇ ਨਾਲ ਦੁਖ ਨਹੀਂ ਕਰਦਾ)।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਉਰਿ ਧਾਰੈ; ਜੋ ਅੰਤਰਿ ਨਾਮੁ ॥"
 page = 274
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He who enshrines the Name in his heart,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਆਪਣੇ ਦਿਲ ਅੰਦਰ ਨਾਮ ਨੂੰ ਟਿਕਾਉਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "One who enshrines the Naam within the heart,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪੁਰਸ ਰਿਦੇ ਅੰਤਰ ਨਾਮ ਕੌ ਧਾਰਣ ਕਰੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮਨੁੱਖ ਸਦਾ ਆਪਣੇ ਹਿਰਦੇ ਵਿਚ ਅਕਾਲ ਪੁਰਖ ਦਾ ਨਾਮ ਟਿਕਾ ਰੱਖਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਉਰਿ = ਹਿਰਦੇ ਵਿਚ। ਅੰਤਰਿ = ਅੰਦਰ, ਮਨ ਵਿਚ। ਧਾਰੈ = ਟਿਕਾਏ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El auténtico Santo es aquél que encumbra el Naam, el Nombre de Dios en su corazón,"

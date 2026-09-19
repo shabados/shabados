@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਬਿਧਿ ਮਾਰ ਬਿਰਾਧ ਕਉ; ਬਨ ਮੇ ਧਸੇ ਨਿਸੰਗ ॥"
 page = 232
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way killing Viradh, Ram and Lakshman penetrated further into the forest."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ 'ਬਿਰਾਧ' ਦੈਂਤ ਨੂੰ ਮਾਰ ਕੇ (ਰਾਮ ਚੰਦਰ) ਨਿਸੰਗ ਹੋ ਕੇ ਬਣ ਵਿੱਚ ਘੁਸ ਗਏ।"

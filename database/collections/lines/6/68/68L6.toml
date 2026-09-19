@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਨ੍ਰਨ ਕਿਨ੍ਰਦੇਵ ਪਹਚਾਨਾ ॥੧੪੧॥"
 page = 624
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Yakshas and Kinnar thought of him as their king.141."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿੰਨਰਾਂ ਨੇ ਕਿੰਨਰ ਰਾਜਾ ਦੇ ਰੂਪ ਵਿਚ ਪਛਾਣਿਆ ॥੧੪੧॥"

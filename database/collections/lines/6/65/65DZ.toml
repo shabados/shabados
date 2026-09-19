@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬ ਹੀ ਸਿਖ ਸੰਜੁਤਿ ਪਾਨ ਗਹੇ ॥"
 page = 666
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਹੀ ਸੇਵਕਾਂ ਸਮੇਤ (ਉਸ ਦੇ) ਪੈਰ ਪਕੜ ਲਏ।"

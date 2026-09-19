@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਬਿ ਚਾਬਿ ਕਰਿ ਓਠ; ਦੁਬਹਿਯਾ ਰਿਸਿ ਭਰੇ ॥"
 page = 1378
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਠਾਂ ਨੂੰ ਚਬ ਚਬ ਕੇ ਰੋਹ ਨਾਲ ਭਰੇ ਹੋਏ ਦੁਬਹੀਏ (ਯੋਧੇ)"

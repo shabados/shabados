@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਿਯੋ ਨ ਸੁਤ ਗ੍ਰਿਹ ਭਯੋ ਹਮਾਰੈ ॥"
 page = 895
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਹਿਣ ਲਗਾ ਕਿ ਮੇਰੇ ਘਰ (ਕੋਈ) ਪੁੱਤਰ ਨਹੀਂ ਹੈ"

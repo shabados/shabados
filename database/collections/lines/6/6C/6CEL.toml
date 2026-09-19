@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹ੍ਵੈ ਰਹੇ ਜਛ ਗੰਧ੍ਰਬ ਮਉਨ ॥੧੦॥"
 page = 628
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Gandharvas and Yakshas kept silent on seeing it.10."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ ਵੇਖ ਕੇ) ਯਕਸ਼ ਅਤੇ ਗੰਧਰਬ ਵੀ ਚੁਪ ਕਰ ਕੇ ਰਹਿ ਜਾਂਦੇ ਹਨ ॥੧੦॥"

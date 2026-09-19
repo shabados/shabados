@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਘੁਰਾਜ ਆਦਿ ਮੋਹੇ ਸੁ ਬੀਰ ॥"
 page = 249
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਕਰਕੇ) ਰਾਮ ਚੰਦਰ ਆਦਿ ਸੂਰਮੇ ਮੋਹੇ ਗਏ ਹਨ"

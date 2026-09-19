@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਹੁ ਸਾਹੁ ਕੇ ਸੁਤ ਦੁਖ੍ਰਯਾਰੇ ॥"
 page = 892
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Being compassionate they said, ‘Listen, you, the distressed son of the Shah,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸ਼ਾਹ ਦੇ ਦੁਖੀ ਪੁੱਤਰ! ਸੁਣੋ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮਰੀ ਮਹਿਮਾ ਅਪਰ ਅਪਾਰਾ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Lord! Thy Praise is Supreme and Infinite,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ!) ਤੇਰੀ ਮਹਿਮਾ ਅਪਰ ਅਪਾਰ ਹੈ"

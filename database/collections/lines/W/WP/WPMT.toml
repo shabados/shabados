@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਜ਼ਾ ਗਾਜਰਾ ਖ਼ਾਨਹ ਕੋਦਕ ਚੁ ਨੇਸਤ ॥"
 page = 1411
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They broke its seal,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਧੋਬੀ ਦੇ ਘਰ ਕੋਈ ਲੜਕਾ ਨਹੀਂ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ ਕਾਲ ਨਿਕਟ ਨਹਿ ਆਵੈ ॥"
 page = 904
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Those who recognise Satnam, the angel of death comes not near them,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਨੇੜੇ ਕਾਲ ਨਹੀਂ ਆ ਸਕਦਾ।"

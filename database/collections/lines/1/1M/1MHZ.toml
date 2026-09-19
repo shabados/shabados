@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਨਿਆਇ ਮੀਮਾਸਕਾ ਤਰਕ ਸਾਸਤ੍ਰੰ ॥"
 page = 151
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere Nyaya Shastra, somewhere Mimansa Shasta and somewhere Tarak Shastra (logic) were studied"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਨਿਆਇ, ਮੀਸਾਂਸਾ ਅਤੇ ਤਰਕ ਸ਼ਾਸਤ੍ਰ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਡਿ ਪ੍ਰਚੰਡ ਕੇ ਸਾਮੁਹਿ ਜਾਇ; ਭਇਆਨਕ ਭਾਲਕ ਜਿਉ ਭਭਕਾਰਿਓ ॥"
 page = 79
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And going before the fierce Chandi, he began to roar like dreadful bear.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪ੍ਰਚੰਡ ਚੰਡੀ ਦੇ ਸਾਹਮਣੇ ਜਾ ਕੇ ਭਿਆਨਕ ਰਿਛ ਵਾਂਗ ਭਬਕ ਮਾਰਨ ਲਗਿਆ।"

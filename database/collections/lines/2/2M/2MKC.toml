@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਕੀ ਤਨਿਕ ਭਨਕ ਸੁਨਿ ਪਾਈ ॥"
 page = 105
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the goddess heard some rumour about them"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੇ (ਆਉਣ ਦੀ) ਮਾੜੀ ਜਿਨੀ ਭਿਣਕ ਦੇਵੀ ਦੇ ਕੰਨਾਂ ਵਿਚ ਪਈ"

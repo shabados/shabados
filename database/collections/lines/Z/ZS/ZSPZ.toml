@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਨਿ ਬਨਿ ਨ੍ਰਿਪ ਆਵਤ ਭਏ; ਸਮਰ ਸੁਯੰਬਰ ਜਾਨ ॥੨੩॥"
 page = 871
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing the news of swayamber for the selection of the bridegroom, fully adorned, the princess arrived.(23)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਯੁੱਧ ਸੁਅੰਬਰ ਦੀ ਗੱਲ ਸੁਣ ਕੇ ਰਾਜੇ ਸਜ ਧਜ ਕੇ ਆਉਣ ਲਗੇ ॥੨੩॥"

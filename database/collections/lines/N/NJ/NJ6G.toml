@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੀਕ ਡਾਰਿ ਨ੍ਰਿਪ ਸੁਤ ਪਰ ਦਈ ॥"
 page = 889
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "While eating beetle-leaf she spit towards the prince,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਪਾਨ ਦੀ) ਪੀਕ ਰਾਜ ਕੁਮਾਰ ਉਤੇ ਸੁਟ ਦਿੱਤੀ।"

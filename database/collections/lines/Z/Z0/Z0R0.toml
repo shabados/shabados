@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਨਾਲਿ ਕੇ ਸਕਲ ਬਿਚਾਰ ॥"
 page = 749
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਨਾਲ (ਤੁਪਕ) ਦਾ ਨਾਮ ਹੈ।"

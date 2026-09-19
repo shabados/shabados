@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੋਹ ਰੁਹੇਲੇ ਆਏ, ਉਤੇ ਰਾਕਸਾਂ ॥"
 page = 123
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The enraged warriors marched against the demons."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰੋਹ ਨਾਲ ਭਰੇ ਹੋਏ ਰਾਖਸ਼ ਉਥੇ ਚੜ੍ਹ ਆਏ।"

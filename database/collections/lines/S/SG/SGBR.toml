@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨ ਮੇਰੇ; ਸਤਿਗੁਰ ਕੈ ਭਾਣੈ ਚਲੁ ॥"
 page = 37
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my soul! walk in the Way of the True Guru."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੀ ਜਿੰਦੜੀਏ! ਸੱਚੇ ਗੁਰਾਂ ਦੀ ਰਜ਼ਾ ਅਨੁਸਾਰ ਟੁਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O my mind, walk in harmony with the True Guru."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਪ੍ਯਾਰੇ! ਤੂੰ  ਸਤਿਗੁਰੋਂ ਕੇ (ਭਾਣੇ) ਹੁਕਮ ਅਨੁਸਾਰ ਚਲੁ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਸਤਿਗੁਰੂ ਦੀ ਰਜ਼ਾ ਵਿਚ ਤੁਰ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਭਾਣੈ = ਭਾਣੇ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "oh mi mente, camina por el Sendero del Señor"

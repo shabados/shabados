@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਿਣਯੋ ਕੁੰਭਕਾਣੰ ॥੪੩੯॥"
 page = 245
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram saw and shot an arrow, which killed Kumbhkaran.439."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੁੰਭਕਰਨ ਮਾਰਿਆ ਗਿਆ ਹੈ ॥੪੩੯॥"

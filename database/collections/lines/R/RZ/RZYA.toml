@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਗਲ ਏਕ ਗਜਨੀ ਰਹੈ; ਬਖਤਿਯਾਰ ਤਿਹ ਨਾਮ ॥"
 page = 899
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A Mughal used to live in Ghazni and his name was Mukhtiyar."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗ਼ਜਨੀ ਵਿਚ ਇਕ ਮੁਗ਼ਲ ਰਹਿੰਦਾ ਸੀ, ਉਸ ਦਾ ਨਾਮ ਬਖ਼ਤਿਆਰ ਸੀ।"

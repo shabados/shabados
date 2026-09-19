@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਈ ਕਲਪ, ਏਕ ਆਸਨ ਬਿਤੰਤ ॥"
 page = 29
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "For many ages they remain in the same posture!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕੋ ਆਸਣ ਉਤੇ ਬੈਠਿਆਂ ਕਈ ਕਲਪ ਬਤੀਤ ਕਰ ਦਿੰਦੇ ਹਨ,"

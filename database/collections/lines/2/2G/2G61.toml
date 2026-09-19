@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁੰਦਰ ਸੁ ਬਾਮ ॥੨੮॥"
 page = 637
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing these words that doe-eyed and extremely beautiful lady (felt agitated).28."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੁੰਦਰ ਇਸਤਰੀ ਦਾ ॥੨੮॥"

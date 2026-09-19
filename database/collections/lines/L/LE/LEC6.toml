@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਅਮ ਰਾ ਬਪੁਰਸ਼ੀਦ ਕਿ ਏ ਨੇਕ ਬਖ਼ਤ ॥"
 page = 1396
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He presented ten to twelve thousand horses,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਥੇ (ਪੁੱਤਰ) ਨੂੰ ਪੁਛਿਆ ਕਿ ਹੇ ਚੰਗੇ ਭਾਗਾਂ ਵਾਲੇ!"

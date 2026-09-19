@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਜੁ ਮਤਿ ਬੀਚ ਯਹੈ ਠਹਰਾਈ ॥"
 page = 958
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the lady (Rani) learnt this, she ascertained,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਆਪਣੀ ਬੁੱਧੀ ਵਿਚ ਇਹ ਸੋਚਿਆ"

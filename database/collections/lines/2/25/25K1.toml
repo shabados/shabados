@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਝੱਟ ਪਲ ਲਈ ਤੂੰ ਮੇਰੇ ਬਾਗ਼ ਵਲ ਆ ਜਾ # ਤੇਰਾ ਰੱਬ ਰਾਖਾ ਹੋਵੇ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦਮੇ ਬਜਾਨਿਬਿ ਬੁਸਤਾਨਿ ਮਨ ਖ਼ੁਦਾ ਹਾਫ਼ਿਜ਼ ॥੪੫॥੨॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "The dust of his path is like a collyrium for our eyes. (59)"

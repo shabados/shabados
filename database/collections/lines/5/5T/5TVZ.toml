@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੇ ਕਹਤ ਜੁਲਾਹੋ ਜਾਇ ॥"
 page = 925
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then he started his journey saying, ‘Come flying and get entrapped.’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਕਹਿੰਦਾ ਹੋਇਆ ਜੁਲਾਹਾ ਤੁਰਦਾ ਜਾ ਰਿਹਾ ਸੀ।"

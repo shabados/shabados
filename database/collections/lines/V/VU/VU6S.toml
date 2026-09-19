@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਹਪਨਿ ਬਰਖਾ ॥"
 page = 103
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They sang the songs of victory and showered flowers."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫੁਲਾਂ ਦੀ ਬਰਖਾ ਕਰਨ ਲਗੇ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਮਲ ਸੈਨ ਰਾਜਾ ਬਲਵਾਨਾ ॥"
 page = 1290
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਮਲ ਸੈਨ ਨਾਂ ਦਾ ਇਕ ਬਲਵਾਨ ਰਾਜਾ ਸੀ"

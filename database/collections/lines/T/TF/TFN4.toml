@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜ੍ਹੇ ਚਿੱਤ ਚਾਵੰ ॥੬॥"
 page = 71
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They inflict wounds with weapons, their minds filled with great zest.6."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੇ ਚਿਤ ਵਿਚ ਚਾਉ ਚੜ੍ਹਦਾ ਹੈ ॥੬॥"

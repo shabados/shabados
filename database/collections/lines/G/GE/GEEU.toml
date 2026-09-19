@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਓਹੁ ਰੋਵੈ ਦੁਖੁ ਆਪਣਾ; ਹਸਿ ਹਸਿ ਗਾਵੈ ਸਭ ਪਰਵਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He cries because of his own suffering but the whole family sings merrily."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਾ ਕੁਟੰਬ ਹਸ ਹਸਕੇ (ਗੀਤ) ਗਾਉਂਦਾ ਹੈ। (ਪਰ) ਬਾਲਕ ਆਪਣੇ ਇਸ ਦੁੱਖ ਨੁੰ ਰੋਂਦਾ ਹੈ।"

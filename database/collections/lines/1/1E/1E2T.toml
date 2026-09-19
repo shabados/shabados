@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਇ ਪਇਆ ਹਰਿ ਤੇਰੈ ਦੁਆਰੈ ॥"
 page = 98
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I have come to lie prostrate at Thy gate, O God!"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਆ ਕੇ ਤੇਰੇ ਬੂਹੇ ਤੇ ਡਿੱਗਾ ਪਿਆ ਹਾਂ, ਹੇ ਵਾਹਿਗੁਰੂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I have come and fallen at Your Door, O Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਹਰੀ! ਮੈਂ ਤੇਰੇ ਦ੍ਵਾਰੇ ਪਰ ਆਇ ਪੜਾ ਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਿਆਰੇ ਹਰੀ! ਮੈਂ ਤੇਰੇ ਦਰ ਤੇ ਆ ਡਿੱਗਾ ਹਾਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਇ = ਆ ਕੇ। ਹਰਿ = ਹੇ ਹਰੀ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "he venido a postrarme ante Tu Puerta."

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕਹੁ ਮਨ ਮਾਯਾ ਠਹਰਾਵਤ ॥"
 page = 158
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The mind gives it the name of Maya"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਮਨ 'ਮਾਇਆ' (ਵਜੋਂ) ਨਿਸਚਿਤ ਕਰਦਾ ਹੈ।"

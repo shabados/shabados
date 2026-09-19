@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁ ਚਸ਼ਮੇ ਮਰਾ ਈਂ ਚਿ ਗਰਦੀਦ ਈਂ ॥"
 page = 1413
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Down with my eyes,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀਆਂ ਅੱਖਾਂ ਦੇ ਵੇਖਦੇ ਹੋਇਆਂ ਇਹ ਕੀ ਵਾਪਰ ਗਿਆ ਹੈ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੁਲਿਓ ਖਗ ਖੂਨੀ ਤਹਾ ਏਕ ਗਾਜੀ ॥"
 page = 597
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਇਕ ਬਹਾਦਰ ਸੂਰਮੇ ਨੇ ਖੂਨੀ ਖੰਡਾ ਕਢ ਲਿਆ ਹੈ।"

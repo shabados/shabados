@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਾਰਿ ਪਾਖਰੈ ਤੁਰੈ ਨਚਾਵੈ ॥੧੫॥"
 page = 870
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And sitting on the horse-backs, they made them to dance.(15)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਾਠੀਆਂ ਪਾ ਕੇ ਘੋੜਿਆਂ ਨੂੰ ਨਚਾ ਰਹੇ ਸਨ ॥੧੫॥"

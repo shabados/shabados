@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੈ ਬੀਰਮ ਕਹ ਬਾਧਿ ਪਠਾਵਹੁ ॥"
 page = 1287
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਤਾਂ ਬੀਰਾਮ ਦੇਵ ਨੂੰ ਬੰਨ੍ਹ ਕੇ (ਮੇਰੇ ਕੋਲ) ਭੇਜ ਦਿਓ,"

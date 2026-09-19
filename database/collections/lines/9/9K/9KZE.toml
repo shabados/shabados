@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਹਰ ਜਾ ਰਸ਼ੀਦੇ ਬ ਬਸਤੇ ਅਜ਼ਾ ॥੧੧੫॥"
 page = 1422
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And captured the place and claimed it as her own.(115)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਵੀ ਪਹੁੰਚਦੀ, ਉਥੇ ਉਨ੍ਹਾਂ ਨੂੰ ਬੰਨ੍ਹ ਲੈਂਦੀ ॥੧੧੫॥"

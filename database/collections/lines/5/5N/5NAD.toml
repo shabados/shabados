@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰ ਚੇਲੇ ਰਹਰਾਸਿ, ਮਨੁ ਪਰਚਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The disciples and the Gurus have enrapt themselves in the mutual love for one another."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਨੇ ਚੇਲੇ ਦਾ ਮਨ ਸੱਚੇ ਰਸਤੇ ਪਰ ਪਰਚਾ ਦਿੱਤਾ ਹੈ।"

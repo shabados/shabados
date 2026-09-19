@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਾਰਿ ਲਾਜ ਸੂਰਮਾ; ਅਪਾਰ ਭਾਜਿ ਹੈ ਸਭੈ ॥"
 page = 700
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When this warrior named Akrodh (peaceful) will be there in the battlefield in this fury, then all the fighters, forgetting their modesty, will run away"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦੋਂ) ਬੇਅੰਤ ਸੂਰਮੇ, ਸਾਰੀ ਲਾਜ ਮਰਯਾਦਾ ਨੂੰ ਭੁਲਾ ਕੇ ਭਜ ਜਾਣਗੇ।"

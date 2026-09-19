@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਚਾਹੇ ਪਹਾੜ ਵੀ ਕਿਉਂ ਨਾ ਹੋਵੇ, ਉਹ ਮਿੱਟੀ ਵਿਚ ਮਿਲ ਜਾਂਦਾ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਅਗਰ ਕੋਹ ਬਾਸ਼ਦ ਬਖ਼ਾਕ ਅਫ਼ਗ਼ਨਦ ॥੧੬੭॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "At that time, even if it were a mountain, it will become a part of the dust. (167)"

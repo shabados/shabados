@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਨਵ ਕੋ ਬਾਧਤ ਭਈ ਇਹ ਚਰਿਤ੍ਰ ਕਰਿ ਬਾਲ ॥੩੩॥"
 page = 988
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The devil, through her deception, became a prisoner.(33)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਚਰਿਤ੍ਰ ਕਰ ਕੇ (ਉਸ) ਇਸਤਰੀ ਨੇ ਦੈਂਤ ਨੂੰ ਬੰਨ੍ਹ ਲਿਆ ॥੩੩॥"

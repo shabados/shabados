@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜੇ ਚੌਪ ਦੂਨੀ ॥੫੩੫॥"
 page = 604
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The bloody daggers came out of scabbards with double zeal.535."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਚਿੱਤ ਵਿਚ) ਦੁਗਣਾ ਚਾਉ ਚੜ੍ਹਿਆ ਹੋਇਆ ਹੈ ॥੫੩੫॥"

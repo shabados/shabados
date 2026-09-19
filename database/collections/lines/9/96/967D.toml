@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਵਾਰਨਿ ਕੇ ਮਨ ਮਧਿ ਬਿਖੈ ਕਬਿ ਸ︀ਯਾਮ ਕਹੈ ਜੋਊ ਬਾਤ ਰੁਚੈ ਹੈ ॥"
 page = 392
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Fearless Krishna would be meeting them within a few days"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜੀ ਗੱਲ ਗੋਪੀਆਂ ਦੇ ਮਨ ਵਿਚ ਚੰਗੀ ਲਗਦੀ ਹੈ (ਊਧਵ ਓਹੀ ਕਹਿਣ ਲਗਦਾ ਹੈ)।"

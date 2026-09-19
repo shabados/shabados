@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ︀ਯਾਮ ਭਨੈ ਰਨ ਭੂਮਿ ਮੈ ਰਹਿਯੋ ਨ ਸੂਰਾ ਏਕ ॥੧੩॥"
 page = 990
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As per the poet Shyam Bhine, not a single soldier was left in the field.(13)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਆਮ ਕਵੀ ਕਹਿੰਦੇ ਹਨ ਕਿ ਰਣ-ਭੂਮੀ ਵਿਚ ਇਕ ਵੀ ਸੂਰਮਾ ਨਹੀਂ ਰਿਹਾ ਹੈ ॥੧੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨ ਸਾਚੁ ਮਹਾ ਨ੍ਰਿਪਰਾਜ ਬਰੰ ॥"
 page = 153
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O great and superb monarch, listen to his truth.”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਹਾ ਬਲਵਾਨ ਰਾਜਨ! ਸੁਣੋ, ਇਹ ਸੱਚੀ ਗੱਲ ਹੈ।"

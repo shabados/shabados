@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਰੋਜ਼ੇ ਅਜ਼ਾ ਈਂ ਖ਼ਬਰਦਾਰ ਸ਼ੁਦ ॥੨੮॥"
 page = 1416
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And had become very cautious.(28)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਲਈ ਉਸ ਦਿਨ ਦੀ ਇਹ ਖ਼ਬਰਦਾਰ ਹੋ ਗਈ ਹੈ ॥੨੮॥"

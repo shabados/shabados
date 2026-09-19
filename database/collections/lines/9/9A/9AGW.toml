@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਆਛਿੱਜ ਦੇਸੈ ॥"
 page = 6
 line = 10
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That thy Abode is unconquerable!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ!) ਤੇਰਾ ਦੇਸ (ਸਥਾਨ) ਨਾਸ਼-ਰਹਿਤ ਹੈ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਕਿ, ਆਛਿੱਜ ਦੇਸੈ ॥"

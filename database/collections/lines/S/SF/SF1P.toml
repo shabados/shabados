@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਭਨਾ ਜੀਆ; ਇਕਾ ਛਾਉ ॥"
 page = 83
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord alone gives shade to all the beings."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੇਵਲ ਸੁਆਮੀ ਹੀ ਸਾਰਿਆਂ ਜੀਵਾਂ ਨੂੰ ਸਾਇਆ ਦਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The One Lord gives shade to all beings."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਰਬ ਜੀਵੋਂ ਕੋ ਏਕ ਵਾਹਿਗੁਰੂ ਕੀ ਹੀ (ਛਾਉ) ਓੜ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਅਸਲ ਵਿਚ) ਸਾਰੇ ਜੀਵਾਂ ਦੀ ਇਕੋ ਹੀ ਨੁਹਾਰ ਹੁੰਦੀ ਹੈ (ਭਾਵ, ਆਤਮਾ ਸਭ ਦਾ ਇਕ ਹੀ ਹੈ)।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਛਾਉ = ਸਾਦ੍ਰਿਸ਼ਟਤਾ, ਨੁਹਾਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sólo el Señor da sombra a todos,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੀਚ ਊਚ ਕਹ ਸੀਸ ਨ ਨੈ ਹੈ ॥"
 page = 553
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All will proclaim themselves as Lord and no younger one will bow before the elder one"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਛੋਟਾ ਵੱਡੇ ਨੂੰ ਸਿਰ ਨਹੀਂ ਨਿਵਾਏਗਾ।"

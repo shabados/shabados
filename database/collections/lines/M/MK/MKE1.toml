@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਗੱਜ ਜੁੱਟੇ ਦੰਤਾਰੇ ਦੰਤਾਰੇ ॥"
 page = 67
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brave warriors fighting with each other appear like the elephants with tusks fighting mutually,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਵਡੇ ਦੰਦਾਂ ਵਾਲੇ ਹਾਥੀ ਆਪਸ ਵਿਚ ਉਲਝੇ ਹੋਣ।"

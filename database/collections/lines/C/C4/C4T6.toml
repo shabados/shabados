@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭਭਾ; ਭਰਮੁ ਮਿਟਾਵਹੁ ਅਪਨਾ ॥"
 page = 258
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Bh: Cast off thine doubt."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਭ-ਆਪਣਾ ਸੰਸਾ ਨਵਿਰਤ ਕਰ ਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "BHABHA: Cast out your doubt and delusion"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਭਭੇ ਦ੍ਵਾਰਾ ਉਪਦੇਸ ਕਰਤੇ ਹੈਂ: ਹੇ ਭਾਈ ਜਨੋ! ਅਪਨਾ ਭ੍ਰਮੁ ਮਿਟਾਇ ਦੇਵੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਇਸ ਸੰਸਾਰ ਦੇ ਪਿਛੇ ਭਟਕਣ ਦੀ ਬਾਣ ਮਿਟਾ ਦਿਓ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਭਰਮੁ = ਦੌੜ-ਭੱਜ, ਭਟਕਣਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "BJABJA: Deshazte de la duda,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਤ ਬਚਨ ਕਾਜੀ ਉਠਿਯੋ; ਸੰਗ ਲਈ ਨਿਜੁ ਨਾਰਿ ॥"
 page = 830
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing this, Quazi got up, took his wife with him and walked to the place."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਬਚਨ ਸੁਣ ਕੇ ਕਾਜ਼ੀ ਉਠਿਆ ਅਤੇ ਆਪਣੀ ਇਸਤਰੀ ਨੂੰ ਨਾਲ ਲੈ ਲਿਆ।"

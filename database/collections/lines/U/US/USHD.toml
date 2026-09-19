@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਣੰ ਘੋਰ ਨੀਸਾਣ ਬਜੇ ਅਪਾਰੰ ॥"
 page = 276
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੱਦਲਾਂ ਦੀ ਗਰਜ ਵਾਂਗ ਅਪਾਰ ਧੌਂਸੇ ਵਜਦੇ ਸਨ।"

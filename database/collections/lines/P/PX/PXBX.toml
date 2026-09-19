@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਸੰ ਆਨ ਰੱਸੰ ਭਲੀ ਭਾਂਤਿ ਭੁਗ︀ਯੰ ॥"
 page = 44
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And had enjoyed nicely the pleasures and vicious tastes."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਸਾਂ ਕਸਾਂ ਦਾ ਚੰਗੀ ਤਰ੍ਹਾਂ ਸੇਵਨ ਕੀਤਾ,"

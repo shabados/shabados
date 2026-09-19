@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਕਪੂਰ ਅਰਗਜਾ ਮਹਿਕੈ ॥"
 page = 1188
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਕਪੂਰ ਅਤੇ ਅਗਰਬਤੀ ਦੀ ਮਹਿਕ ਪਸਰੀ ਹੋਈ ਸੀ"

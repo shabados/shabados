@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਧੁ ਕਰਤ ਹੈ ਬੀਰ ਬਰ; ਰਨ ਦੁੰਦਭੀ ਬਜਾਇ ॥੧੨੭੧॥"
 page = 424
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The armies of both the sides, in great anger, gathered together and the warriors playing upon their trumpets etc. began to wage war.1271."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹਾਦੁਰ ਯੋਧੇ ਰਣ-ਭੂਮੀ ਵਿਚ ਨਗਾਰੇ ਵਜਾ ਕੇ ਯੁੱਧ ਕਰਦੇ ਹਨ ॥੧੨੭੧॥"

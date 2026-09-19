@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਚੁਰਿਓ ਕੁਕਰਮ ॥"
 page = 560
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The dharma will run away and there will be propagation of evil Karmas"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੁਕਰਮ ਬਹੁਤ ਪਸਰ ਜਾਏਗਾ।"

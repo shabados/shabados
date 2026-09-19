@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਸਤ ਦਾਨ ਅਰ ਉਸਟਨ ਦਾਨਾ ॥"
 page = 626
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਾਥੀਆਂ ਦਾ ਦਾਨ, ਊਠਾਂ ਦਾ ਦਾਨ,"

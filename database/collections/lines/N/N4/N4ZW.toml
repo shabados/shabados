@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਪਾਪੀ ਕੇ ਦੇਸ ਨ ਰਹਿਯੈ ॥੧੮॥"
 page = 921
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One should not live in the country of such a vice-man.(l8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਪਾਪੀ ਦੇ ਦੇਸ ਨਹੀਂ ਰਹਿਣਾ ਚਾਹੀਦਾ ॥੧੮॥"

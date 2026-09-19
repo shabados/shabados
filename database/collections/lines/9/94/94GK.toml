@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰਬਰ ਨਿਰਖੇ ਰਘੁਬਰ ਰਾਯੰ ॥੬੨੭॥"
 page = 266
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram saw all the spectacle.627."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ੍ਰੇਸ਼ਠ ਪੁਰਸ਼ ਰਾਮ ਦੇ ਦਰਸ਼ਨ ਕੀਤੇ ॥੬੨੭॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਕਰਤ ਨਿਆਸ ਆਸਾ ਬਿਹੀਨ ॥"
 page = 647
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਆਸ (ਇੱਛਾ) ਤੋਂ ਰਹਿਤ ਹੋ ਕੇ ਯੋਗ ਸਾਧਨਾ ਕਰਦੇ ਹਨ।"

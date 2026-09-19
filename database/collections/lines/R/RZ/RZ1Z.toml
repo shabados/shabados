@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੀਝਿ ਦਿਯਾ ਤਾ ਕੋ ਕਰਤਾਰਾ ॥"
 page = 868
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Because her husband was very handsome; he was as if, God’s special creation."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪਰਮਾਤਮਾ ਨੇ ਉਸ ਨੂੰ ਪ੍ਰਸੰਨ ਹੋ ਕੇ ਦਿੱਤਾ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰਾਮੇਧ ਨ੍ਰਿਪ ਪੂਰਨ ਕਰੈ ॥੬॥"
 page = 1092
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ 'ਨਰਮੇਧ ਯੱਗ' ਪੂਰਾ ਕਰੇ ॥੬॥"

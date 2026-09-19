@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਚ︀ਯੋ ਜਗ ਰਾਜਾ ਚਲਿਓ ਸਰਬ ਕੋਈ ॥੩੧॥"
 page = 678
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Kings, paupers, men, women etc. all came for participation.31."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਕੋਈ ਚਲ ਪਿਆ, (ਕਿਉਂਕਿ) ਰਾਜੇ ਨੇ ਯੱਗ ਰਚਿਆ ਸੀ ॥੩੧॥"

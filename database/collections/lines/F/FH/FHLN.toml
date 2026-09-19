@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਛੁਕ ਕੋਪ ਇਮ ਬਚਨ ਉਚਾਰਾ ॥੮੪੪॥"
 page = 288
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Ram saw this, he said somewhat angrily.844."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ) ਬਚਨ ਨੂੰ ਸੁਣਦਿਆਂ ਸੀਤਾ ਗੁੱਸੇ ਹੋ ਗਈ"

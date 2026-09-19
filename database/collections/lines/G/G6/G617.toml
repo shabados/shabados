@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਪੁ ਗਲਤ ਨਿਤ ਗਲੰਤ ॥"
 page = 611
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The leprosy will prevail in his body and all his body will rot"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਰੀਰ (ਕੋਹੜ ਨਾਲ) ਸਦਾ ਗਲਦਾ ਰਹੇਗਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੀਖ ਮਾਗ ਬਹੁਰੋ ਘਰ ਆਯੋ ॥"
 page = 818
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When he returned after begging, he did not find him (Yusaf Khan) there."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਹ ਭਿਖ ਮੰਗ ਕੇ ਘਰ ਆਇਆ,"

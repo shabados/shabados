@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਥਕੇ ਰਣ ਬੀਰਣ ਬਾਜ ਬਰੰ ॥"
 page = 197
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਿਆਂ ਦੇ ਘੋੜੇ ਰਣ ਵਿੱਚ ਉਛਲਦੇ ਸਨ।"

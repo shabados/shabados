@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫਿਰੀ ਰਾਮ ਦੇਹੀ ॥"
 page = 266
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were allured to see the beauty of Ram"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੰਕਾ ਵਿੱਚ ਰਾਮ ਦੀ ਦੁਹਾਈ ਫਿਰ ਗਈ।"

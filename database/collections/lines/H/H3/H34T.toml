@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਪੁ ਕਰਯੋ ਸਸਤ੍ਰ ਅਸਤ੍ਰੰ ਬਿਹੀਨ ॥"
 page = 254
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੱਛਮਣ ਨੇ ਵੈਰੀ ਨੂੰ ਸ਼ਸਤ੍ਰਾਂ ਤੇ ਅਸਤ੍ਰਾਂ ਤੋਂ ਵਾਂਝਿਆਂ ਕਰ ਦਿੱਤਾ"

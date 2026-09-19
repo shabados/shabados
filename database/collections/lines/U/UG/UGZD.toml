@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਪਨਾ ਖੇਲੁ; ਆਪਿ ਕਰਨੈਹਾਰੁ ॥"
 page = 280
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He Himself is the Doer of His play."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੀ ਖੇਡ ਦਾ ਉਹ ਆਪੇ ਹੀ ਰਚਨਹਾਰ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He Himself is the play, and He Himself is the actor."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਪਨਾ ਖੇਲੁ ਆਪ ਹੀ ਕਰਣੇਹਾਰਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਗਤ-ਰੂਪ) ਆਪਣੀ ਖੇਡ ਆਪ ਹੀ ਕਰਨ ਜੋਗਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Todo forma parte de Su Juego y Él es el Único Jugador."

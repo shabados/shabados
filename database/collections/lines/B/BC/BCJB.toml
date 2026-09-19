@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅੰਬੁਦਨੀ ਸਬਦਾਦਿ ਬਖਾਨੋ ॥"
 page = 759
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਅੰਬੁਦਨੀ' (ਪਾਣੀ ਦੇ ਸਾਗਰਾਂ ਵਾਲੀ ਧਰਤੀ) ਕਥਨ ਕਰੋ।"

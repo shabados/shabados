@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮਰੋ ਕਛੁਕ ਨ︀ਯਾਇ ਬਿਚਰਿਯੈ ॥੭॥"
 page = 947
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘You all people come with me and do justice to us.’(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਡਾ ਕੁਝ ਨਿਆਂ ਵਿਚਾਰਨ ॥੭॥"

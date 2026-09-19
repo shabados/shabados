@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਚੇਰੋ ਮੈ ਭਯੋ ਤਿਹਾਰੋ ॥"
 page = 992
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Listen, Rani, you have endowed me a new life, now I am your slave."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਮੈਂ ਤੇਰਾ ਦਾਸ ਹੋ ਗਿਆ ਹਾਂ।"

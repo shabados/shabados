@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਸਤ੍ਰ ਦਾਨ ਪਟੰਬ੍ਰ ਦਾਨ; ਸੁ ਸਸਤ੍ਰ ਦਾਨ ਦਿਜੰਤ ॥"
 page = 140
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Other items given in charity were the common clothes, silken clothes and weapons."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਸਤ੍ਰਾਂ ਦਾ ਦਾਨ, ਰੇਸ਼ਮੀ ਕਪੜਿਆਂ ਦਾ ਦਾਨ ਅਤੇ ਸ਼ਸਤ੍ਰਾਂ ਦਾ ਦਾਨ ਦਿੱਤਾ।"

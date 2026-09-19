@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਾਣੀ ਕਾਠੁ ਨ ਡੋਬਈ; ਪਾਲੇ ਦੀ ਲਜੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Water does not drown the wood because it lives up to its natural repute of nurturing the things (water rears up the vegetation)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪਾਣੀ ਕਾਠ ਨੂੰ ਡੋਬਦਾ ਨਹੀਂ (ਕਿਉਂ ਜੋ) ਪਾਲਣ ਦੀ ਸ਼ਰਮ (ਪੈਂਦੀ ਹੈ)।"

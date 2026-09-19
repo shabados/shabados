@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਟ ਭਾਤਹਿ ਭਾਤਿ ਭਜਾਇ ਦੀਏ ॥੧੧੯॥"
 page = 623
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, Lavanasura won the battle on the strength of his trident and caused the warriors of many kinds to run away.119."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤਰ੍ਹਾਂ ਤਰ੍ਹਾਂ ਦੇ ਸੂਰਮੇ ਭਜਾ ਦਿੱਤੇ ਗਏ ਹਨ ॥੧੧੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਤੁਪਕ ਕੇ ਹੋਤ ਹੈ; ਚੀਨ ਚਤੁਰ ਚਿਤਿ ਲੇਹੁ ॥੫੬੫॥"
 page = 743
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Add the word “Ripu” after saying the word “Dhadhni” primarily, and in this way recognize the names of Tupak.565."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਤੁਪਕ ਦਾ ਨਾਮ ਬਣ ਜਾਏਗਾ। ਸਿਆਣੇ ਚਿਤ ਵਿਚ ਧਾਰ ਲੈਣ ॥੫੬੫॥"

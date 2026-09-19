@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਸੂ ਪਰੇਤਹੁ, ਬੁਰੀ ਬੁਰੇਹੀ ॥੩॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "His body is worse than then animals’ and the ghosts’."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪਸ਼ੂਆਂ ਅਤੇ ਪ੍ਰੇਤਾਂ ਨਾਲੋਂ ਭੀ (ਉਸ ਦੀ ਦੇਹ) ਬੁਰੀ ਥੋਂ ਬੁਰੀ ਹੈ।"

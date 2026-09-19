@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰਨ ਸਿਰ ਬੁਰਿਆਈ ਦੀਨਾ ॥੩੮॥"
 page = 159
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And fixes the responsibility of vicious acts on others.38."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੋਰਨਾਂ ਦੇ ਸਿਰ ਉਤੇ ਬੁਰਿਆਈ (ਦੀ ਜ਼ਿਮੇਵਾਰੀ) ਪਾਉਂਦਾ ਹੈ ॥੩੮॥"

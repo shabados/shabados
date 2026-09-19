@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਕੇ ਸੰਤ; ਸਦਾ ਪਰਵਾਣੁ ॥"
 page = 897
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Ever approved are the Lord's saints."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਦੀਵ ਹੀ ਪ੍ਰਮਾਣੀਕ ਹਨ ਸੁਆਮੀ ਦੇ ਸਾਧੂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Saints of the Lord are accepted and approved forever."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਵਹੁ ਹਰੀ ਕੇ ਸੰਤ ਸਦਾ ਪਰਵਾਨ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਪ੍ਰਭੂ ਦੀ ਭਗਤੀ ਕਰਨ ਵਾਲੇ ਬੰਦੇ (ਪ੍ਰਭੂ ਦੀ ਹਜ਼ੂਰੀ ਵਿਚ) ਸਦਾ ਆਦਰ-ਸਤਕਾਰ ਪਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੰਤ = ਭਗਤੀ ਕਰਨ ਵਾਲੇ। ਪਰਵਾਣੁ = ਕਬੂਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Los Sirvientes del Señor son aprobados para siempre;"

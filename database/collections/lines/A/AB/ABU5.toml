@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਪੁਰ ਤੇ ਇਹ ਤੁਰਤੁ ਨਿਕਰਿਯੈ ॥"
 page = 920
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Being a Brahmin he should not be killed but he must be banished from the village,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਇਸ ਨੂੰ ਇਸ ਨਗਰ ਤੋਂ ਤੁਰਤ ਕਢ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ।"

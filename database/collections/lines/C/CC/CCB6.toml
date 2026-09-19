@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਸ ਘੂਟਿ ਜਨੁ ਕਰਿ ਮਰਿ ਗਈ ॥"
 page = 1265
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਜ ਪ੍ਰਤੀਤ ਹੁੰਦਾ ਹੈ) ਮਾਨੋ ਸਾਹ ਘੁਟ ਕੇ ਮਰ ਗਈ ਹੋਵੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਗਹਿ ਲਯੋ ਜਾਨ ਨਹਿ ਪਾਯੋ ॥"
 page = 885
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A thief came to steal one day and was caught. Mahaan Singh told"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ (ਮਹਾ ਸਿੰਘ ਨੇ) ਪਕੜ ਲਿਆ ਅਤੇ ਜਾਣ ਨਾ ਦਿੱਤਾ।"

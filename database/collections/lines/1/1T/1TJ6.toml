@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੁ ਸਿਮਿਰਿਤਹਿ ਪ੍ਰਚੁਰ ਜਗਿ ਕਰਾ ॥"
 page = 194
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Vishnu manifested himself as king Manu and propagated Manu Smriti in the world."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ 'ਮਨੁ ਸਮ੍ਰਿਤੀ' ਦਾ ਜਗਤ ਵਿਚ ਪ੍ਰਚਾਰ ਕੀਤਾ।"

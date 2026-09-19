@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਈ ਕੋਟਿ; ਤਪੀਸੁਰ ਹੋਤੇ ॥"
 page = 275
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Many millions become penitents."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕਾਂ ਕ੍ਰੋੜ ਤਪੀ ਬਣ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Many millions become austere penitents."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਕਈ ਕ੍ਰੋੜੋਂ ਤਪ ਕੇ ਕਰਨੇ ਵਾਰੇ ਤਪੀਸਰ ਹੋਤੇ ਭਏ ਹੈਂ ਵਾ ਅਹੂਤੀਆਂ ਪਾਵਣੇ ਵਾਲੇ, ਭਾਵ ਧਰਮ ਕਰਤਾ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਈ ਕਰੋੜਾਂ ਵੱਡੇ ਵੱਡੇ ਤਪੀਏ ਬਣੇ ਹੋਏ ਹਨ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਤਪੀਸੁਰ = ਤਪੀ ਈਸੁਰ, ਵੱਡੇ ਵੱਡੇ ਤਪੀਏ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y muchos otros más, llevando una vida de austeridad."

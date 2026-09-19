@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਦੀਪਕ ਵਿਚਹੁੰ ਮਸੁ ਹੋਇ; ਕੰਮ ਆਇ ਲਿਖੇਰੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The ink obtained from the lamp is used by the writer."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਦੀਵੇ ਥੋਂ ਸ਼ਾਹੀ ਹੋਕੇ ਲਿਖਾਰੀਆਂ ਦੇ ਕੰਮ ਆਉਂਦੀ ਹੈ।"

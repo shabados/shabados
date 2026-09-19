@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਾਹੈ ਤਾਮ ਲੈ ਤਾਹਿ ਖੁਆਰਿਯੋ ॥"
 page = 884
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹੀ ਭੋਜਨ ('ਤਾਮ') ਲੈ ਕੇ ਉਸ ਨੂੰ ਖੁਆਇਆ"

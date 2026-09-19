@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੂਝੋ ਨਾਥ, ਪਾਵਕਹਿ ਬਰਿਹੋ ॥੬॥"
 page = 942
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘And, my Master, if you die, I will become a Sati by sacrificing my body (in the fire) with yours.’(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਥ! ਜੇ ਤੁਸੀਂ ਮਾਰੇ ਗਏ ਤਾਂ (ਮੈਂ ਨਾਲ ਹੀ) ਅੱਗ ਵਿਚ ਸੜ ਜਾਵਾਂਗੀ ॥੬॥"

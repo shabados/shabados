@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਦੇ ਹਰਖੁ ਕਦੇ ਸੋਗੁ, ਤਰਵਰ ਛਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Here happiness and sufferings are like shade of the tree."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਤਿਹਾ ਹੀ) ਬ੍ਰਿੱਛ ਦੀ ਛਾਯਾ ਵਾਂਙੂ ਕਦੇ ਹਰਖ ਕਦੇ ਸੋਗ ਹੁੰਦਾ ਹੈ (ਟਿਕਦਾ ਕੁਛ ਨਹੀਂ)।"

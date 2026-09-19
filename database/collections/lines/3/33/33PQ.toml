@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਿਮਧਰ ਤਾਹਿ ਹਿਮਾਲਯ ਜਾਨਾ ॥"
 page = 625
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਰਫੀਲੇ ਪਰਬਤਾਂ (ਅਰਥਾਂਤਰ-ਚੰਦ੍ਰਮਾ) ਨੇ ਉਸ ਨੂੰ ਹਿਮਾਲਾ ਵਜੋਂ ਜਾਣਿਆ"

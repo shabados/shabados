@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸੁਝੈ, ਸਿਰਜਣਹਾਰਾ ॥੧੯॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Only gurmukh possesses the knowledge of that creator Lord."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖਾਂ ਨੂੰ ਸਿਰਜਣਹਾਰ (ਪਰਮਾਤਮਾ) ਸੁਝਦਾ ਹੈ।"

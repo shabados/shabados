@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਤੇ ਦੇਵ ਰਾਯੰ ॥"
 page = 45
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the god-kings, who came into being,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਤਨੇ ਦੇਵ-ਰਾਜ (ਹੋਏ ਹਨ)"

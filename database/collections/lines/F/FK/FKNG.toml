@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਨਹੂੰ ਮ੍ਰਿਗਨ ਦ੍ਰਿਗਨ ਸਰ ਮਾਰੇ ॥"
 page = 865
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈਆਂ ਨੇ ਹਿਰਨਾਂ ਨੂੰ ਨੈਣਾਂ ਦੇ ਤੀਰ ਮਾਰੇ ਸਨ।"

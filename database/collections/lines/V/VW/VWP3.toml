@@ -1,10 +1,10 @@
 [[content]]
-asset = "AKKB"
+assets = ["AKKB"]
 type = "primary"
 data = "ਜਟਾ ਜੂਟ ਨਖ ਸਿਖ ਕਰ ਪਾਵਨ ਭਗਤ ਸੂਰ ਦ੍ਵੈ ਰੂਪ ਨਰਵਰ ਕੋ ॥"
 
 [[content]]
-asset = "SOTK"
+assets = ["SOTK"]
 type = "translation"
 language = "en"
 data = "By keeping company with the divine it achieved true purity, acquiring the noblest of forms which is that of the truly devoted (bhagat rup)."

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਹਪ ਵਤੀ ਤਾ ਕੋ ਜਗ ਚਹੈ ॥"
 page = 897
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A lady lived in his house, whose name was Pohap Wati."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਜਗਤ ਪੁਹਪ ਵਤੀ ਕਹਿੰਦਾ ਸੀ।"

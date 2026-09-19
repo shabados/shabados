@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਿ ਲੇਹੁ ਬ੍ਰਹਮ ਕੁਮਾਰ ॥੩੬॥"
 page = 613
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Brahma! Also listen to one thing more36"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਬ੍ਰਹਮਾ ਪੁੱਤਰ! (ਧਿਆਨ ਨਾਲ) ਸੁਣ ਲੈ ॥੩੬॥"

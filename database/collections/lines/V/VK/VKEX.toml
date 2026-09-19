@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ ਨਿਕਟ ਕਾਲ ਨਹਿ ਆਯੋ ॥੯੭॥"
 page = 1199
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਨੇੜੇ 'ਕਾਲ' (ਮ੍ਰਿਤੂ) ਨਹੀਂ ਆਉਂਦਾ ॥੯੭॥"

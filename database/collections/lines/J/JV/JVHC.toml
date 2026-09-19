@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਭੇਦ ਨ ਕੋਉ ਪਾਵੈ ॥੧੧॥"
 page = 914
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Every body thought it was full of sweetmeats and no body knew the secret.(11)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਭੇਦ ਨੂੰ ਕੋਈ ਨਾ ਸਮਝ ਸਕਿਆ ॥੧੧॥"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਏਕੁ ਪਛਾਣੈ; ਹਉਮੈ ਮਾਰਿ ॥"
 page = 1277
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Stilling her ego, she who realises the One Lord;"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੀ ਹੰਗਤਾ ਨੂੰ ਮਾਰ, ਜੋ ਇਕ ਸੁਆਮੀ ਨੂੰ ਅਨੁਭਵ ਕਰਦੀ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "She realizes the One Lord, and subdues her ego."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੰਤਾ, ਮਮਤਾ ਕੋ ਮਾਰ ਕਰ ਜੋ ਏਕ ਕੋ ਪਛਾਣਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਆਪਣੇ ਅੰਦਰੋਂ ਹਉਮੈ ਦੂਰ ਕਰ ਕੇ ਸਿਰਫ਼ ਪਰਮਾਤਮਾ ਨਾਮ ਡੂੰਘੀ ਸਾਂਝ ਪਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਾਰਿ = ਮਾਰ ਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ella toma Conciencia del Señor y subyuga a su ego."

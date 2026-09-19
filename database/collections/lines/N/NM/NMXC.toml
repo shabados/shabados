@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮਕਲੀ ਹਿੰਡੋਲ ਗੌਡ; ਗੂਜਰੀ ਮਹਾ ਧੁਨਿ ॥"
 page = 692
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing and hearing he elegant tunes of Sarang, Shuddh Malhar, Vibhas, Ramkali, Hindol, Gaur, Gujri,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮਕਲੀ, ਹਿੰਡੋਲ, ਗੌਡ, ਗੂਜਰੀ ਦੀ ਸੁੰਦਰ ਧੁਨ;"

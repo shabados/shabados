@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਕਟਾਰੀ ਕਾਢਿ ਸੋ; ਹਨਨ ਲਗੀ ਉਰ ਮਾਹਿ ॥"
 page = 1168
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ (ਉਸ ਦੇ ਢਿਡ ਵਿਚੋਂ) ਕਟਾਰ ਕਢ ਕੇ (ਆਪਣੇ) ਹਿਰਦੇ ਵਿਚ ਮਾਰਨ ਲਗੀ।"

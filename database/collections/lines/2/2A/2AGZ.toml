@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਨੁ ਮਨੁ ਧਨ ਤਾ ਪੈ ਸਭ ਵਾਰੋ ॥੬॥"
 page = 948
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Who-so-ever has a glimpse of him, sacrifices his own life over him.’(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਤਨ, ਮਨ ਅਤੇ ਧਨ ਉਸ ਉਤੋਂ ਵਾਰ ਦਿਆਂ ॥੬॥"

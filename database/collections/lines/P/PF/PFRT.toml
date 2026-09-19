@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੰਤ੍ਰੀ ਪ੍ਰਭੁ ਸੋ ਬਚਨ ਉਚਰੇ ॥"
 page = 815
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਮੰਤ੍ਰੀ ਨੇ ਰਾਜੇ ਪ੍ਰਤਿ ਬਚਨ ਕਹੇ।"

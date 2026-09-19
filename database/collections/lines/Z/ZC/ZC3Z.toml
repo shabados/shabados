@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਪਉਨ ਅਹਾਰ ਦੁਰੰਤ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There are innumerable who subsist on air."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਕੋਈ ਕਠਿਨ ਪੌਣ-ਆਹਾਰ ਕਰਦੇ ਹਨ,"

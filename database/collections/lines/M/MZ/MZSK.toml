@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਕਰੈ, ਦਾ ਕਹ ਪਰੈ; ਕਹ ਯਹ ਬਾਧੈ ਸੂਤ ॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Let us see, what he does  how doth he throw the dice   how shalt he keep the propriety of conduct?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਵੇਖੋ, ਇਹ) ਕੀ ਕਰਦਾ ਹੈ, ਦਾਉ ਕੀ ਪੈਂਦਾ ਹੈ ਅਤੇ ਕਿਵੇਂ ਮਰਯਾਦਾ ਬੰਨ੍ਹਦਾ ਹੈ।"

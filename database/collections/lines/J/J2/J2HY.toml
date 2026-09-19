@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਜਲਿਸਿ ਰਾਇ ਬਿਲੋਕਿ ਕੈ; ਰੀਝਿ ਰਹੀ ਤ੍ਰਿਯ ਸੋਇ ॥"
 page = 1012
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The lady saw Majlis Raae and fell in love with him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਇਸਤਰੀ ਮਜਲਿਸ ਰਾਇ ਨੂੰ ਵੇਖ ਕੇ ਮੋਹਿਤ ਹੋ ਗਈ।"

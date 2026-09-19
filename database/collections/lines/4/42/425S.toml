@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਦ੍ਵੈ ਸਹੰਸ੍ਰ ਕਿਤੇ ਜੋਜਨੇਕੰ ॥"
 page = 142
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many of two thousand arms’ length and many of one Yojana length"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਦੋ ਹਜ਼ਾਰ ਹੱਥ ਲੰਬੇ ਅਤੇ ਕਿਤਨੇ ਹੀ ਇਕ ਯੋਜਨ ਲੰਬੇ"

@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਦੈਵੰ ਪ੍ਰਭਾ ਹੈਂ ॥"
 page = 8
 line = 10
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Lord !  Thou art Ever Glorious. O Lord !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਦਾ ਪ੍ਰਕਾਸ਼ਮਾਨ ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਸਦੈਵੰ ਪ੍ਰਭਾ ਹੈਂ ॥"

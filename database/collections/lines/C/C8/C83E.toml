@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੁਣੰ ਮੇਘ ਲਜੇ ॥"
 page = 207
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram shouted so loudly in the war that the clouds felt shy"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਅੱਗੇ) ਬੱਦਲਾਂ ਦੀ ਧੁਨ ਸਰਮਸਾਰ ਹੁੰਦੀ ਸੀ।"

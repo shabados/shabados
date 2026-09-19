@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰਿਹ ਆਵੈ ਜੋ ਸਤ੍ਰੁ; ਨ ਤਾਹਿ ਸੰਘਾਰਿਯੈ ॥"
 page = 1241
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘਰ ਵਿਚ ਜੇ ਵੈਰੀ ਵੀ ਆਵੇ, ਤਾਂ ਉਸ ਨੂੰ ਵੀ ਨਹੀਂ ਮਾਰਨਾ ਚਾਹੀਦਾ।"

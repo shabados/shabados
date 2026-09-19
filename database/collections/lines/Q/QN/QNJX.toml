@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਲਰਿ ਅਧਿਕ ਸ੍ਰਮਤ ਹ੍ਵੈ ਗਏ ॥"
 page = 876
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਹੁਤ ਅਧਿਕ ਲੜਾਈ ਕਰ ਕੇ ਥਕ ਗਏ।"

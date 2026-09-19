@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਰਹਤ ਏਕ ਪਗ ਨਿਰਾਧਾਰ ॥"
 page = 646
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ (ਕੇਵਲ) ਇਕ ਪੈਰ ਤੇ ਨਿਰਾਧਾਰ ਖੜੋਤੇ ਰਹਿੰਦੇ ਹਨ।"

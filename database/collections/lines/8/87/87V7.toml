@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਗ ਜਾਪਨ ਹੈਂ ॥੩੪੩॥"
 page = 585
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Bewitching and Glorious, He is the Affliction-Giver for the enemies and the world remembers Him.343."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਦੁਆਰਾ ਜਪੇ ਜਾਣ ਵਾਲੇ ਹਨ ॥੩੪੩॥"

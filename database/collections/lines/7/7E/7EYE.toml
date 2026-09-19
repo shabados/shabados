@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨੁ ਕ੍ਰਾਤਿ ਦਿਵਾਲਯ ਸਰਬ ਹਰੰ ॥"
 page = 662
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There he saw a city of portraits, where there were temples everywhere"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਉਹ ਸਵਰਗ ('ਦਿਵਾਲਯ') ਦੀ ਚਮਕ ਦਮਕ ਨੂੰ ਹਰ ਰਿਹਾ ਹੋਵੇ।"

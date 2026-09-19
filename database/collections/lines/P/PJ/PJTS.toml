@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਲਕ ਪ੍ਰੇਮ ਤਨ ਉਪਜਾ ਚਾਊ ॥੪੪੯॥"
 page = 671
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The absorption of that persons the love welled up in the mind of the sage.449."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤਨ ਵਿਚ ਚਾਉ ਪੈਦਾ ਹੋ ਗਿਆ ॥੪੪੯॥"

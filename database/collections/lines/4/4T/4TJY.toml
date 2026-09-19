@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਮੀ ਤੇਗ ਕਾਲੰ ॥"
 page = 160
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The blows of the swords are being heard,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਲੇ ਬਦਲਾਂ (ਵਿਚ ਬਿਜਲੀ ਵਾਂਗ) ਤਲਵਾਰਾਂ ਚਮਕ ਰਹੀਆਂ ਸਨ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੀਰ ਮੁਰੀਦਾ ਪਿਰਹੜੀ; ਵਣਜਾਰੇ ਸਾਹੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The love between the disciples and the Guru is the same as is there between a trader and a banker."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪੀਰ ਅਤੇ ਮੁਰੀਦਾਂ (ਅਰਥਾਤ ਗੁਰੂ ਅਤੇ ਚੇਲਿਆਂ ਦੀ) ਗਾਹਕਾਂ ਅਤੇ ਸ਼ਾਹਾਂ ਵਾਂਗੂੰ ਪ੍ਰੀਤ ਹੈ।"

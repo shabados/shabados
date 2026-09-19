@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਿਸ ਕੀ ਕੀਮਤਿ; ਕਹੀ. ਨ ਜਾਇ ॥"
 page = 841
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "His worth can be told not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਮੁੱਲ ਆਖਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "His value cannot be described."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਕੀ ਕੀਮਤਿ ਕਹੀ ਨਹੀਂ ਜਾਤੀ ਹੈ, ਭਾਵ ਮਹਤਤਾ ਨਹੀਂ ਕਹੀ ਜਾਤੀ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ ਆਤਮਕ ਜੀਵਨ ਇਤਨਾ ਉੱਚਾ ਹੋ ਜਾਂਦਾ ਹੈ ਕਿ) ਉਸ ਦਾ ਮੁੱਲ ਨਹੀਂ ਪਾਇਆ ਜਾ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਤਿਸ ਕੀ = {ਸੰਬੰਧਕ 'ਕੀ' ਕਾਰਨ ਲਫ਼ਜ਼ 'ਤਿਸੁ ਦਾ (ੁ) ਉਡ ਗਿਆ ਹੈ}।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Uno no puede imaginar Su Valor."

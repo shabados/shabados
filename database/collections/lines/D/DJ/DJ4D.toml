@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਕ੍ਰਿਪਾਲ ਚਿਤ ਮੋ ਇਹ ਗਨੀ ॥"
 page = 66
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But he could not reconcile with them  then Kirpal thought within his mind:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਕ੍ਰਿਪਾਲ ਨੇ ਮਨ ਵਿਚ ਵਿਚਾਰਿਆ"

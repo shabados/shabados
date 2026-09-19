@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨ ਸਦਾ ਧਿਆਇ; ਕੇਵਲ ਪਾਰਬ੍ਰਹਮੁ ॥"
 page = 270
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "my soul, continuously meditate on the Supreme Lord alone."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀ ਜਿੰਦੜੀਏ! ਤੂੰ ਸਦੀਵ ਸਿਰਫ ਉਸ ਸ਼ਰੋਮਣੀ ਸਾਹਿਬ ਦਾ ਸਿਮਰਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O mind, meditate continually on the Supreme Lord God."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਤਿਸ ਕੇਵਲ ਪਾਰਬ੍ਰਹਮ ਕੌ ਸਦਾ ਧਿਆਵਣਾ ਕਰੁ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਤੂੰ ਸਦਾ ਉਸ ਪਰਮੇਸ਼ਰ ਨੂੰ ਸਿਮਰ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੇਵਲ = ਸਿਰਫ਼।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "permanece absorto en Él,"

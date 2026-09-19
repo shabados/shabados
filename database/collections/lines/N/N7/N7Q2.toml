@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਤੇ ਚਿਰ ਜਿਉ ਤਿਹ ਧ︀ਯਾਨ ਛੁਟਾ ॥"
 page = 666
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਚਿਰ ਬਾਦ ਜਦੋਂ ਉਸ ਦਾ ਧਿਆਨ ਛੁਟਿਆ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਗਰ ਬਿਭਾਸਾਵਤੀ ਮੈ ਕਰਨ ਬਿਭਾਸ ਨਰੇਸ ॥"
 page = 1291
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਭਾਸਾਵਤੀ ਨਗਰ ਵਿਚ ਬਿਭਾਸ ਕਰਨ ਨਾਂ ਦਾ ਰਾਜਾ ਸੀ"

@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਿਸ ਉਚਰਤਿ; ਉਪਜਤਿ ਪਰਤੀਤੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Sermonising which, (sublime) perception is revealed."

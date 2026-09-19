@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਥ ਤਉ ਹੀ ਪਛਾਨ ਜੋ; ਮਨ ਮਾਨਈ ਜਿਹ ਕਾਲ ॥"
 page = 644
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਵੇਲੇ ਮਨ ਮੰਨ ਜਾਂਦਾ ਹੈ, ਤਦ ਹੀ ਨਾਥ ਦੀ ਪਛਾਣ ਹੋ ਜਾਂਦੀ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਾ ਸੰਗ ਲੈ ਟਾਡ ਅਪਾਰਾ ॥"
 page = 651
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਬਹੁਤ ਸਾਰੇ (ਸਮਾਨ ਦੇ ਲਦੇ) ਬਲਦਾਂ ਦਾ ਝੁੰਡ ਨਾਲ ਲੈ ਕੇ ਚਲਿਆ ਸੀ।"

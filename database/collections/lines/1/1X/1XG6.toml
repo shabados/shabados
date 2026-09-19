@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਿ ਬਾਲ ਸੋ ਜੂਝ ਮਚਾਯੋ ॥"
 page = 931
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Arth Rai, then, came forward and embarked on a fight with her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆ ਕੇ ਪਠਾਣੀ ਨਾਲ ਯੁੱਧ ਮਚਾਇਆ।"

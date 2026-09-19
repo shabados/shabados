@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕੇ ਚਿਤ ਕੀ ਬਾਤ; ਆਪੁ ਨਹਿ ਪਾਇਯੈ ॥"
 page = 828
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One whose mind is not intelligible enough,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ (ਇਸਤਰੀ) ਦੇ ਚਿਤ ਦੀ ਗੱਲ ਤੁਸੀਂ ਨਹੀਂ ਸਮਝ ਸਕਦੇ,"

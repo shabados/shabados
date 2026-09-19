@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਇਕ ਸਰ ਤਨ ਬਹੁਰਿ ਪ੍ਰਹਾਰੇ ॥"
 page = 1373
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਮਹਾ ਕਾਲ) ਨੇ ਫਿਰ ਇਕ ਇਕ ਤੀਰ ਚਲਾਇਆ"

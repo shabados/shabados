@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਤ੍ਰਿ ਸੈਨ ਤਹ ਸਾਹ ਭਨਿਜੈ ॥"
 page = 1250
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਛਤ੍ਰਿ ਸੈਨ ਨਾਂ ਦਾ ਉਥੇ ਇਕ ਸ਼ਾਹ ਦਸਿਆ ਜਾਂਦਾ ਸੀ।"

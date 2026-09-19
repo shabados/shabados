@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭੈ ਨਾਰਿ ਆਯੰ ॥੬੩੬॥"
 page = 266
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All of them came forward and fell on his feet.636."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ੍ਰੀ ਰਾਮ ਦੇ ਚਰਨੀਂ ਲੱਗ ਗਈਆਂ ॥੬੩੬॥"

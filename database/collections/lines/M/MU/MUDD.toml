@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਮਾਰਾ ਬਿਗੀਰਦ ਜਿ ਮਾਯੰਦਰਾ ॥੩੧॥"
 page = 1409
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘That he would drag me, even, out of hell.’(31)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਕੀ ਪਤਾ ਇਹ ਮੈਨੂੰ ਮੇਰੇ ਦੇਸ਼ ਤੋਂ ਹੀ ਨਾ ਫੜ ਕੇ ਲੈ ਜਾਵੇ ॥੩੧॥"

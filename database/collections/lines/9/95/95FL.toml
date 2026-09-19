@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਧਸੰਗਤਿ ਮਿਲਿ, ਸਹਜਿ ਸਮੁਝੈ ॥੧੯॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In the holy congregation the state of equipoise is actually identified and known."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧ ਸੰਗਤ ਨਾਲ ਮਿਲਕੇ ਸਹਜ ਪਦ ਵਿਖੇ (ਸਮੱਝੈ=) ਸਮਾਇ ਜਾਂਦਾ ਹੈ।"

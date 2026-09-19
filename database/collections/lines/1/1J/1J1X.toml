@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹੈ ਸੋਕ ਅਬਲਾ ਕੇ ਭਾਰੀ ॥"
 page = 1142
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਇਸਤਰੀ (ਦੇ ਮਨ ਵਿਚ) ਇਹੀ ਬਹੁਤ ਵੱਡਾ ਦੁਖ ਸੀ।"

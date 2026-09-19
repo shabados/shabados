@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਰ ਹਰ ਰਾਮੰ ॥੧੩੩॥"
 page = 213
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And Parashuram began to shower a volley of his arms.133."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮ ਨਾਲ ਝਗੜ ਰਿਹਾ ਹੈ ॥੧੩੩॥"

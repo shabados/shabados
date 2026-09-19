@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਜਿਨ ਕੀ ਕਥਾ ਸੁਧਾਰਿ; ਤਵਾਗੇ ਹਮ ਕਹਹਿ ॥੩॥"
 page = 861
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With due amends I am telling you their story.(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੀ ਕਥਾ ਸੁਧਾਰ ਕੇ ਤੁਹਾਡੇ ਅਗੇ ਮੈਂ ਕਹਿੰਦਾ ਹਾਂ ॥੩॥"

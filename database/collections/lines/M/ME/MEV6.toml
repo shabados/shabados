@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣ ਰਤੇ ਮਤੇ ਮੁਛਾਲੇ ॥੧੨੧॥"
 page = 212
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The terrible trumpets resounded and the warriors with dreadful whiskers began to fight in the war.121."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ ਵਿੱਚ ਮੁੱਛਾਂ ਵਾਲੇ ਮਸਤ ਸੂਰਮੇ (ਫਿਰਦੇ ਸਨ) ॥੧੨੧॥"

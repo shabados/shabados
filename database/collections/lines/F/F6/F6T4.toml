@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਨ ਲਰਿਕਵਾ ਰਹੈ; ਸੇਵ ਤਿਹ ਕੀਜਿਯੈ ॥"
 page = 825
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Bhanu (my son) is still a child,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਾਨ (ਅਜੇ) ਲੜਕਾ ਹੈ, ਉਸ ਦੀ ਸੇਵਾ ਕਰ।"

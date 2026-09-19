@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜਯੋ ਲੈ ਸਿਪਾਹੰ ॥"
 page = 208
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Subahu marched forward alongwith his soldiers in great rage,]"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੈਨਾ ਲੈ ਕੇ ਚੜ੍ਹ ਆਇਆ।"

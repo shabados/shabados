@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਜਨ ਜਾਤ ਸੁਭਦ੍ਰਾ ਹਰਿਓ ॥"
 page = 545
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Arjuna did the same and he abducted the adorable Subhadra"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੂਜਾ ਨੂੰ ਜਾਂਦੀ ਹੋਈ ਸੁਭਦ੍ਰਾ ਨੂੰ ਹਰ ਲਿਆ।"

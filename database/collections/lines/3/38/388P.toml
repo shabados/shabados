@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੇਰ ਖਾਨ ਕਟਿ ਤੇ ਕਟਿ ਡਾਰਿਯੋ ॥"
 page = 1373
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ੇਰ ਖ਼ਾਨ ਨੂੰ ਲਕ ('ਕਟਿ') ਤੋਂ ਕਟ ਦਿੱਤਾ"

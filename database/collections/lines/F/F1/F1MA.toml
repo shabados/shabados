@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਇ ਹਲੀ ਸੋ ਜੁਧੁ ਮਚਾਯੋ ॥੨੧੬੮॥"
 page = 515
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He did not run away and coming in front of Balram began to fight with him.2168."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆ ਕੇ ਬਲਰਾਮ ਨਾਲ ਯੁੱਧ ਮਚਾਇਆ ਹੈ ॥੨੧੬੮॥"

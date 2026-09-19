@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਹਿ ਗਹਿ ਗੁਰਜ ਗਰਬਿਯਾ ਗਾਜੇ ॥"
 page = 931
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The trumpets blew in the town as the intrepid roared."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੰਕਾਰੀ ਸੂਰਮੇ ('ਗਰਬਿਯਾ') ਗੁਰਜ ਪਕੜ ਪਕੜ ਕੇ ਗੱਜਣ ਲਗੇ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ੍ਰ ਕੌਚ ਤਿਹ ਠਾ ਤਬ ਆਯੋ ॥"
 page = 1190
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਚਿਤ੍ਰ ਕੌਚ (ਰਾਜਾ) ਉਸ ਥਾਂ ਉਤੇ ਆਇਆ।"

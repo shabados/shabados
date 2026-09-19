@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਰਥ ਮਾਤ ਐਸੇ ਸੁਨਿ ਪਾਯੋ ॥"
 page = 943
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਭਰਤ ਦੀ ਮਾਤਾ (ਕੈਕਈ) ਨੇ ਇਹ ਸੁਣਿਆ"

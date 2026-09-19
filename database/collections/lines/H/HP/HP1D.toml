@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੀ ਛੀਨ ਪਗਰਿਯਾ ਲ︀ਯਾਵੋ ॥੬॥"
 page = 896
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Whosoever you find urinating there, snatch his turban away.’(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਪਗੜੀ ਖੋਹ ਲਿਆਓ ॥੬॥"

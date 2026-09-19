@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਛਾ ਮੁਛ ਤੇਗੰ, ਬਕੇ ਬਿਕਰਾਲੰ ॥"
 page = 112
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The swords began to chop the bodies with terrible noises."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਲਵਾਰਾਂ ਭਿਆਨਕ ਸ਼ਬਦ ਕਰਦੀਆਂ ਹੋਈਆਂ ਵਢਾ-ਟੁਕੀ ਕਰ ਰਹੀਆਂ ਸਨ।"

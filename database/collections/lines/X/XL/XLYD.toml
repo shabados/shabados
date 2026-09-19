@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਢਿਯੋ ਗਰਬ ਲਹਿ ਰੂਪ ਅਪਾਰਾ ॥"
 page = 199
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way Vishnu manifested himself as Chandra incarnation, but Chandra also became egoistic about his own beauty"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ ਉਸ ਦਾ ਆਪਣਾ) ਅਪਾਰ ਰੂਪ ਵੇਖ ਕੇ ਹੰਕਾਰ ਵਧ ਗਿਆ।"

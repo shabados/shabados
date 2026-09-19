@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਰਿ ਕੁਅਰਿ ਤਿਹ ਸਵਤਿ ਸੁਨਿਜੈ ॥"
 page = 1065
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੋਰਿ ਕੁਅਰਿ ਨਾਂ ਦੀ ਉਸ ਦੀ ਸੌਂਕਣ ਸੁਣੀਂਦੀ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਇਕ ਝਾਰਖੰਡ ਕੇ ਦੇਸਾ ॥"
 page = 1335
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਝਾਰਖੰਡ ਦੇਸ ਦਾ ਇਕ ਰਾਜਾ ਸੀ।"

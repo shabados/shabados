@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਆਗੇ ਕ︀ਯਾ ਮਨੁਖ ਬਿਚਾਰਾ ॥੨੪॥"
 page = 866
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘One who kills the lion instantly, how can a man encounter her,’ (he thought).(24)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਅਗੇ ਮਨੁੱਖ ਵਿਚਾਰਾ ਕੀ ਹੈ ॥੨੪॥"

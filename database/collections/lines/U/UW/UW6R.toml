@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੁ ਕਉਨ ਸੁ ਬੈਠਿ ਬਿਚਾਰ ਕਰੈ ॥"
 page = 153
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They ruminated over the issue as to what measures be taken?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬੈਠ ਕੇ ਵਿਚਾਰ ਕਰਨ ਲਗੇ ਕਿ ਕਿਹੜਾ (ਉਪਾ ਕੀਤਾ ਜਾਏ ਕਿ)"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਚਿਤ ਚੁਰਾਇ; ਸਦਾ ਹੀ ਲੀਜਿਯੈ ॥"
 page = 822
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rather learn what are her internal thoughts."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਚਿਤ ਸਦਾ ਚੁਰਾਈ ਰਖਣਾ ਚਾਹੀਦਾ ਹੈ।"

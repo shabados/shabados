@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹ ਸਮਾਜੁ ਤੁਮ ਹੀ ਕੀਯੋ; ਕਉਤੁਕ ਦੇਖਨ ਕਾਜ ॥੧੫੯੮॥"
 page = 457
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Yudhishtar said with humility, “O Lord of Braja! all this play has been created by you in order to see the sport.”1598."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਸੀਂ ਆਪ ਹੀ ਇਹ ਸਾਰਾ ਪਸਾਰਾ ਰਚਿਆ ਹੈ ॥੧੫੯੮॥"

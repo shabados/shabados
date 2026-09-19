@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਮ ਸਿੰਘ ਜਯ ਸਿੰਘ; ਅਉਰ ਭਟ ਰਨ ਮੈ ਆਏ ॥"
 page = 433
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਰਮ ਸਿੰਘ, ਜਯ ਸਿੰਘ ਅਤੇ ਹੋਰ ਯੋਧੇ ਰਣ-ਭੂਮੀ ਵਿਚ ਆ ਗਏ।"

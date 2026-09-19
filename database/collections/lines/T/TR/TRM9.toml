@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰਮ ਤਤ, ਪਰਮਾਰਥ ਪ੍ਰਕਾਸੀ ॥"
 page = 129
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the Supreme Essence and enlightener of the path of subtle Truth"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮ-ਤੱਤ੍ਵ ਅਤੇ ਪਰਮਾਰਥ ਦਾ ਪ੍ਰਕਾਸ਼ ਕਰਨ ਵਾਲੇ ਹੋ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਵ ਪੀਰ ਬਿਸਾਰ ਕੈ; ਪਰਮੇਸ੍ਰ ਆਪੁ ਕਹਾਹਿਾਂਗੇ ॥"
 page = 553
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Forgetting the gods and Pirs, the people will call themselves God"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵਤਿਆਂ ਅਤੇ ਪੀਰਾਂ ਨੂੰ ਭੁਲਾ ਕੇ (ਆਪਣੇ) ਆਪ ਨੂੰ ਪਰਮੇਸ਼ਵਰ ਅਖਵਾਉਣਗੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਜਾਦਵ ਧਾਇ ਪਰੇ ਇਤ ਤੇ; ਉਤ ਤੇ ਮਿਲਿ ਕੈ ਅਰਿ ਸਾਮੁਹੇ ਧਾਏ ॥"
 page = 478
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Yadavas from this side and the enemies from that side confronted the opponents"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਇਧਰੋਂ ਮਿਲ ਕੇ ਯਾਦਵ ਸੂਰਮਿਆਂ ਨੇ ਹੱਲਾ ਬੋਲ ਦਿੱਤਾ ਅਤੇ ਉਧਰੋਂ ਵੈਰੀ ਦੇ ਸਾਹਮਣੇ ਆ ਡਟੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਧੰ ਸੁ ਮਾਤ ਚਾਹੀਯੰ ॥੨੦॥"
 page = 102
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He drove his horse forward and wanted to kill the Mother (goddess).20."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵੀ (ਦੇ ਸਾਹਮਿਣੇ ਪਹੁੰਚ ਕੇ) ਉਸ ਨੂੰ ਮਾਰਨਾ ਚਾਹਿਆ ॥੨੦॥"

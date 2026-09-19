@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੈਨ ਜੁਝਤ ਨ੍ਰਿਪ ਭਯੋ ਅਤਿ ਆਕੁਲ ॥"
 page = 588
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੈਨਾ ਦੇ ਮਾਰੇ ਜਾਣ ਕਾਰਨ ਰਾਜਾ ਬਹੁਤ ਬੇਚੈਨ ਹੋ ਗਿਆ।"

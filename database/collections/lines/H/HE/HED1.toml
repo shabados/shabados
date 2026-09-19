@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਰ ਕੇਸ ਜਟਾ ਉਪਾਰਿ ॥"
 page = 637
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਿਰ ਤੋਂ ਵਾਲਾਂ ਦੀ ਜਟਾ ਪੁਟ ਸੁਟੀ।"

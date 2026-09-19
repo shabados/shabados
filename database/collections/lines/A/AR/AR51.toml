@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਕੇ ਟੋਪ ਸੀਸੰ ॥"
 page = 579
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸੂਰਮਿਆਂ ਦੇ) ਸਿਰ ਉਤੇ ਲੋਹੇ ਦੇ ਟੋਪ ਸਜ ਰਹੇ ਹਨ"

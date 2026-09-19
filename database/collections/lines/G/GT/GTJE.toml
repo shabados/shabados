@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੀਮੈ ਧੀਮੈ ਤਰਕਹ ਜਾਵੈ ॥"
 page = 897
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As the wind blew, he had, very slowly, slipped away."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਹੌਲੀ ਹੌਲੀ (ਹੇਠਾਂ ਵਲ) ਖਿਸਕਦਾ ਜਾਂਦਾ।"

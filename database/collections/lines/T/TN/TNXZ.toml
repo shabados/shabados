@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਮਾਰ ਮਾਰ ਬੋਲਹੀ ॥੧੨॥"
 page = 50
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors move in the battlefield in a frightful manner, and utter “kill, kill” 12."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਮੂੰਹੋਂ) 'ਮਾਰੋ' 'ਮਾਰੋ' ਹੀ ਬੋਲਦੇ ਹਨ ॥੧੨॥"

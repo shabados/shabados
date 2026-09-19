@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਜਦ ਕਤਰੇ ਨੂੰ ਇਹ ਅਮਰ ਮਿਲਾਪ ਪ੍ਰਾਪਤ ਹੋ ਗਿਆ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਕਤਰਾ ਰਾ ਈਂ ਦੌਲਤਿ ਚੂੰ ਦਸਤਦਾਦ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He is condoner of the sins and is the supporter of and advocates the cause of the world. (63)"

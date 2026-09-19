@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਭੇਜਿਯੋ ਅਕ੍ਰੂਰ ਕਹੁ; ਹਰਿ ਮਾਰਨ ਕੇ ਘਾਤ ॥"
 page = 373
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Kansa sent Akrur for waiting in ambush for the killing of Krishna"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ (ਕੰਸ) ਨੇ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਮਾਰਨ ਦੇ ਦਾਓ ਵਜੋਂ ਅਕਰੂਰ ਨੂੰ ਭੇਜ ਦਿੱਤਾ।"

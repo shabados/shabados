@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਰਮ ਧਰਮ ਲਖ ਜੋਗ ਭੋਗ, ਲਖ ਪਾਠ ਪੜ੍ਹਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "But still, if such a person controlled by ego wishes to be noticed by others,"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ ਕਰਮ, ਧਰਮ, ਜੋਗ, ਭੋਗ, ਲੱਖਾਂ ਪਾਠਾਂ ਦਾ ਪੜ੍ਹਨਾ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨ ਹਤਯੋ ਤਾਤ ਰਣ ਮੋ ਅਖੰਡ ॥"
 page = 254
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਮੇਰੇ ਅਖੰਡ ਪਿਤਾ (ਖਰ) ਨੂੰ ਰਣ-ਖੇਤਰ ਵਿੱਚ ਮਾਰਿਆ ਹੈ,"

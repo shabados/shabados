@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਨੀ ਬਦ ਤੁ ਕਰਦੀ ਖ਼ੁਦਾਵੰਦ ਕਾਰ ॥"
 page = 1407
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘You have treated your husband in such a bad manner,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਜਦੋਂ ਆਪਣੇ ਪਤੀ ਨਾਲ ਅਜਿਹਾ ਮਾੜਾ ਕੰਮ ਕੀਤਾ,"

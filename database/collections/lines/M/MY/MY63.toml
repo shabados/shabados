@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਹਨੋ ਆਜ ਯੌ ਭਾਖੀ ॥੧੨॥"
 page = 1182
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਅਜ ਹੀ ਮਾਰ ਦਿਓ, ਇਸ ਤਰ੍ਹਾਂ ਕਹਿਣ ਲਗੀ ॥੧੨॥"

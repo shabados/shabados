@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਨ ਬਿਨਸਾ ਤਾਹਿ ਪਛਾਨਹੁ ॥"
 page = 1234
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਕਦੇ ਵੀ ਨਾਸ਼ਮਾਨ ('ਬਿਨਸਾ') ਨਾ ਸਮਝੋ।"

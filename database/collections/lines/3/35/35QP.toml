@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨ ਲੇਹੁ ਹਰਿਜਨ ਮਨ ਮਾਹੀਂ ॥੬੧॥"
 page = 60
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O men of God! Understand this that the Lord doth not reside in Vedas and katebs. 61."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤੱਥ ਨੂੰ) ਹਰਿ-ਜਨ ਆਪਣੇ ਮਨ ਵਿਚ ਚੰਗੀ ਤਰ੍ਹਾਂ ਜਾਣ ਲੈਣ ॥੬੧॥"

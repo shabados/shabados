@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਹਰ ਜਾ ਦਵੀਦੇ ਬ ਕੁਸ਼ਤੇ ਅਜ਼ਾ ॥"
 page = 1422
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who so ever she raided, she annihilated,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਜਿਥੇ ਦੌੜ ਕੇ ਪੈਂਦੀ, ਦੁਸ਼ਮਣ ਨੂੰ ਮਾਰ ਦਿੰਦੀ,"

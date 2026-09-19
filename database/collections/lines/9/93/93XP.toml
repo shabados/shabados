@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਇ ਹਨੇ ਗਿਰਿ ਗੇ ਜਨੁ ਝੰਡਾ ॥"
 page = 184
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The kings, chopped into bits, were lying the cluster of trees fallen down by the blow of wind."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਇੰਜ ਪ੍ਰਤੀਤ ਹੁੰਦੇ ਹਨ) ਮਾਨੋ ਹਵਾ ਦੇ ਮਾਰੇ ਝੰਡੇ ਡਿਗੇ ਹੋਣ।"

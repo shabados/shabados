@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰਿਹ ਭਰੇ ਸਰਬ ਸੰਪਤਿ ਸਮਾਜ ॥"
 page = 627
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Sovereign was king of kings and in his kingdom, all the houses were full of wealth"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੇ) ਘਰ (ਰਾਜ) ਸਮਾਜ ਦੀ ਸੰਪੱਤੀ ਨਾਲ ਭਰੇ ਹੋਏ ਸਨ।"

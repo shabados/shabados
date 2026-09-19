@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਾ ਬਢਈ ਕੇ ਕਰ ਮੋ ਦਏ ॥੨੨॥"
 page = 1085
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਲੁਹਾਰ ਦੇ ਹੱਥ ਵਿਚ ਦੇ ਦਿੱਤੇ ਸਨ ॥੨੨॥"

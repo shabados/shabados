@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਬ︀ਯਾਹ ਮੋ ਸੌ ਅਬ ਕਰਿਯੈ ॥੧੦੪॥"
 page = 877
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Now, eliminating all your doubts, you marry me once again.’(104)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੇਰੇ ਨਾਲ ਫਿਰ ਵਿਆਹ ਕਰ ਲਵੋ ॥੧੦੪॥"

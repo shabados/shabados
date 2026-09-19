@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਿ ਸੁੰਦਰਿ, ਤਵ ਸੰਗ; ਭੋਗ ਮੋ ਤੇ ਨਹਿ ਹੋਈ ॥"
 page = 1090
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੁੰਦਰੀ! ਸੁਣ, ਮੇਰੇ ਕੋਲੋਂ ਤੇਰੇ ਨਾਲ ਭੋਗ ਨਹੀਂ ਹੋਏਗਾ,"

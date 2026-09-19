@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੂਠਿ ਗੁਲਾਲਨ ਬਰਛਾ ਭਾਰੇ ॥"
 page = 1381
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭਾਰੇ ਬਰਛੇ ਮਾਨੋ ਗੁਲਾਲ ਦੀ ਮੁੱਠੀ ਹੋਣ।"

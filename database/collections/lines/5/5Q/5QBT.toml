@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਨਵ ਦੇਵ ਫਨਿੰਦ ਅਪਾਰਾ ॥"
 page = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Infinite demons, gods and Sheshanagas."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਬੇਅੰਤ ਦੈਂਤ, ਦੇਵਤੇ, ਸ਼ੇਸ਼ਨਾਗ,"

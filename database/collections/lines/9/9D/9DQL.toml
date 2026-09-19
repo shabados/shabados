@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਹੀ ਨਾਮ ਤੁਫੰਗ ਕੇ; ਲੀਜਹੁ ਸੁਘਰ, ਸੁਧਾਰ ॥੭੭੦॥"
 page = 757
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying “Tran-ripu” and adding “Pati-ripu” at the end, comprehend correctly all the names of Tupak.770."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਨਾਮ ਤੁਫੰਗ ਦਾ ਹੈ, ਸਭ ਸਮਝਦਾਰੋ! ਵਿਚਾਰ ਲਵੋ ॥੭੭੦॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਬੀਰ ਬਿਕਰਾਰ ਬਿਚੇਤੇ ॥"
 page = 1383
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਰਤੀ ਉਤੇ ਬੇਸੁੱਧ ਪਏ ਸਨ।"

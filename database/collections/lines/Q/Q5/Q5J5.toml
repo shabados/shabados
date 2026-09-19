@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰਸਨਾ ਜਪਤੀ; ਤੂਹੀ ਤੂਹੀ ॥"
 page = 1215
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My tongue utters Thy Name, Thy Name alone."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀ ਜੀਭ ਤੇਰੇ ਨਾਮ, ਕੇਵਲ ਤੇਰੇ ਲਾਮ ਨੂੰ ਹੀ ਉਚਾਰਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "My tongue chants Your Name, Your Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਗਵਨ! ਮੇਰੀ ਰਸਨਾ ਤੂੰਹੀ ਤੂੰਹੀ ਕਰ ਕੇ ਜਪ ਰਹੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਮੇਰੀ ਜੀਭ ਸਦਾ ਤੇਰਾ ਜਾਪ ਹੀ ਜਪਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰਸਨਾ = ਜੀਭ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mis labios recitan sólo Tu Nombre, pues sólo Tú me conservas íntegro en el fuego del vientre materno"

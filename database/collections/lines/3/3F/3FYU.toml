@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਮੋਹ ਰਹੈ ਲਖ ਇੰਦ੍ਰ ਸਭਾ ॥"
 page = 162
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After Kalapdrum (Elysian, wish-fulfilling tree) and poison, the heavenly damsel Rambha came out, seeing whom, the people of Indrs’s court allured."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਵੇਖ ਕੇ ਇੰਦਰ ਦੀ ਸਭਾ ਮੋਹੀ ਗਈ।"

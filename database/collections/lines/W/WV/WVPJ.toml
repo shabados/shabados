@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰੁਣ ਪਛਮਹਿ ਉਗ੍ਵੈ; ਬਰੁਣੁ ਉਤਰ ਦਿਸ ਤਕੈ ॥"
 page = 706
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Even if the sun rises in the West or the clouds begin to come from the North"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਜ ਪੱਛਮ ਵਲੋਂ (ਚਾਹੇ) ਚੜ੍ਹ ਪਵੇ, ਅਤੇ ਬਰੁਣ (ਵਰੁਣ) ਉਤੱਰ ਦਿਸ਼ਾ ਵਿਚ ਦਿਸ ਪਵੇ,"

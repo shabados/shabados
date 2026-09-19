@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਈ ਸਿੰਮ੍ਰਿਤਿ ਸਾਸਤ੍ਰ, ਉਚਰੰਤ ਬੇਦ ॥"
 page = 30
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many recite Smritis Shastras and Vedas!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਸਮ੍ਰਿਤੀਆਂ, ਸ਼ਾਸਤ੍ਰਾਂ ਅਤੇ ਵੇਦਾਂ ਨੂੰ ਉਚਾਰਦੇ ਹਨ,"

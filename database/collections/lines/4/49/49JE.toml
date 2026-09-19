@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਾਰਿ ਦਯੋ ਸੇਜਾ ਤਰ ਉਪ ਪਤਿ ॥"
 page = 1332
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸਤਰੀ ਨੇ) ਉਪ-ਪਤੀ (ਭਾਵ ਯਾਰ) ਨੂੰ ਸੇਜ ਹੇਠਾਂ ਲੰਬਾ ਪਾ ਦਿੱਤਾ।"

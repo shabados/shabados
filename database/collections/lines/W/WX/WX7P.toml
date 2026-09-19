@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਓੜਕੁ ਓੜਕੁ ਭਾਲਿ, ਨ ਓੜਕੁ ਪਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In order to know Him, people put in extreme efforts but could not know His extant."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਤਨ ਨਾਲ (ਅਕਾਲ ਪੁਰਖ ਰੂਪ ਸਮੁੰਦਰ ਦੇ) ਅੰਤ ਨੂੰ ਲੱਭਣ ਗਏ, (ਪਰੰਤੂ) ਓੜਕ (ਅੰਤ) ਹੱਥ ਨਾਂ ਆਇਆ।"

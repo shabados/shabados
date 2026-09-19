@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੋ ਸੁਖੁ ਮੋ ਕਉ; ਸੰਤ ਬਤਾਵਹੁ ॥"
 page = 179
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Show me that comfort, O saints,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਉਹ ਠੰਢ-ਚੈਨ ਦਸੋ, ਹੇ ਸਾਧੂਓ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Show me that peace, O Saints,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੰਤ ਜਨੋਂ! ਮੇਰੇ ਕੋ ਸੋ ਸੁਖ ਕਹੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੰਤ ਜਨੋ! ਮੈਨੂੰ ਉਹ ਆਤਮਕ ਆਨੰਦ ਦੱਸੋ (ਜਿਸ ਨਾਲ ਮੇਰੀ ਮਾਇਆ ਦੀ) ਤ੍ਰਿਸ਼ਨਾ ਮਿਟ ਜਾਏ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੋ ਕਉ = ਮੈਨੂੰ। ਸੰਤ = ਹੇ ਸੰਤ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Santos, ¡díganme de algún placer"

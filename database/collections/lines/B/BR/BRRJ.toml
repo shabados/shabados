@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਠਿ ਬਿਰਾਜਤ ਭੂਪ ਤਹਾ; ਜਦੁਬੀਰ ਲੀਏ ਸੰਗ ਚਾਰੋ ਈ ਭਾਈ ॥"
 page = 536
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Yudhishtar was seated there alongwith his four brothers and Krihsna,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਅਤੇ ਚੌਹਾਂ ਭਰਾਵਾਂ ਨੂੰ ਨਾਲ ਲੈ ਕੇ ਰਾਜਾ ਯੁਧਿਸ਼ਠਰ ਉਥੇ ਬੈਠਾ ਸ਼ੋਭਾ ਪਾ ਰਿਹਾ ਹੈ।"

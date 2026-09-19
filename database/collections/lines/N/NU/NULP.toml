@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਖ ਹਜਾਰ ਪੰਚ ਪਰਮਾਨਾ ॥"
 page = 191
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Vishnu waged ferocious war with them for five thousand years ."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪੰਜ ਹਜ਼ਾਰ ਸਾਲਾਂ ਤਕ ਹੁੰਦਾ ਰਹਿੰਦਾ ਹੈ।"

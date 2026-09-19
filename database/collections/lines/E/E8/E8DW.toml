@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਰਿਗੋਵਿੰਦ ਗੁਰੁ ਅਰਜਨਹੁਂ; ਗੁਰੁ ਗੋਵਿੰਦੁ ਹੋਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "From Guru Arjan emerged Guru Hargobind, Guru and God in one."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਅਰਜਨ ਤੋਂ ਗੁਰੂ ਹਰਿਗੋਬਿੰਦ ਗੋਬਿੰਦ ਦਾ ਰੂਪ ਹੋਏ।"

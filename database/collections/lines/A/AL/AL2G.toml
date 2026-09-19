@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਪੋਸ਼ੀਦ ਖ਼ਫ਼ਤਾਨ ਪੋਲਾਦ ਰੰਗ ॥੩੮॥"
 page = 1401
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And put the steel armour on her body.(38)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਸ਼ਰੀਰ ਉਤੇ) ਫੌਲਾਦ ਦਾ ਕਵਚ ਪਾ ਲਿਆ ॥੩੮॥"

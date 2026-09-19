@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਰਸਿਜ ਰੂਪੰ ॥"
 page = 566
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਲਕੀ ਦਾ) ਕੰਵਲ ਦੇ ਫੁਲ ਵਰਗਾ ਰੂਪ ਹੈ।"

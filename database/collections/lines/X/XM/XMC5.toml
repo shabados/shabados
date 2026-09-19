@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਸ ਦਰਬੁ ਗ੍ਰਿਹ ਛਾਡਿ ਕੈ; ਜਾਤ ਲਖਿਯੋ ਨਰ ਨਾਹ ॥੨੫॥"
 page = 904
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As she learnt that Raja was going away leaving the kingdom, wealth and the home.(25)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਰਾਜੇ ਨੂੰ ਦੇਸ਼, ਧਨ, ਘਰ ਆਦਿ ਛਡ ਕੇ ਜਾਂਦਿਆਂ ਵੇਖਿਆ ॥੨੫॥"

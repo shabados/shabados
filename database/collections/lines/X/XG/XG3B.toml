@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਜਰੁ ਗੋਰਸੁ ਵੇਚਿ ਕੈ; ਖਲਿ ਸੂੜੀ ਆਣੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The cattle breeder puts the milk on sale but fetches home, the oil cakes and husk."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁੱਜਰ ਦੁੱਧ ਵੇਚਕੇ ਖਲ ਅਤੇ ਛਾਣ ਬੂਰਾ ਲੈ ਆਉਂਦਾ ਹੈ।"

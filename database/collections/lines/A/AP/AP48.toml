@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅਘ ਨਾਸੀ ਆਤਮ ਅਭੁਲ; ਨਹੀਂ ਭੁਲੈ ਭੁਲਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The vices, He obliterates, and the oblivious one can forget Him not."

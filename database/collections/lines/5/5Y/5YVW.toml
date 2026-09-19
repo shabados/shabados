@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਜਰਿ ਨਾਦਿਨੀ ਆਦਿ ਕਹਿ; ਰਿਪੁ ਪਦ ਅੰਤਿ ਬਖਾਨ ॥"
 page = 744
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਗਜਰਿ ਨਾਦਿਨੀ' (ਸ਼ੇਰ ਦੀ ਧੁਨੀ ਵਾਲੀ ਸੈਨਾ) ਕਹਿ ਕੇ ਅੰਤ ਵਿਚ 'ਰਿਪੁ' ਪਦ ਜੋੜੋ।"

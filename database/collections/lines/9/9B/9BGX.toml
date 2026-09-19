@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤਿਓ ਤੰਤ੍ਰ ਸਾਧੇ ਜੁ ਜਨਮੰ ਬਿਤਾਇਓ ॥"
 page = 44
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many Tantras have been tamed and in such endeavours one hath wasted his birth."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਹੀ ਤੰਤ੍ਰ ਸਾਧ ਲਏ,"

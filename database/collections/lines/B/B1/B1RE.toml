@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੂਖ ਪਖਾਨ ਸਿਲਾ ਰਥ ਸਿੰਘ; ਧਰਾਧਰ ਰੀਛ ਮਹਾ ਅਹਿ ਕਾਰੇ ॥"
 page = 428
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Stones, rocks, chariots, lions, mountains, bears and black cobras"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਿਛ, ਪੱਥਰ, ਸਿਲਾਂ, ਰਥ, ਸ਼ੇਰ, ਪਰਬਤ, ਰਿਛ ਅਤੇ ਵਡ-ਆਕਾਰੇ ਕਾਲੇ ਸੱਪ (ਆਦਿਕ)"

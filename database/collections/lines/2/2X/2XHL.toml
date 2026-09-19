@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮਹ ਨੌਕਰਾ ਰਾ ਜ਼ਿਆਫ਼ਤ ਕੁਨਾਦ ॥੧੮॥"
 page = 1427
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With what was left over she entertained the servants(18)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਾਕੀ ਬਚ ਰਹੇ ਨਾਲ ਨੌਕਰਾਂ ਨੂੰ ਪ੍ਰੇਮ-ਭੋਜ ਕਰਵਾਇਆ ॥੧੮॥"

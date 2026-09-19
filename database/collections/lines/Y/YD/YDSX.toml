@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਣ ਪ੍ਰਜੰਤ ਬਢਤ ਨਿਤਪ੍ਰਤਿ ਤਨ ॥"
 page = 195
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਹਰ ਰੋਜ਼ ਇਕ ਬਾਣ ਜਿੰਨਾ ਸਰੀਰ ਵਧਦਾ ਸੀ"

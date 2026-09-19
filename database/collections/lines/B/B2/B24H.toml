@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਧਸੰਗਤਿ ਸਚੁ ਦੇਸੁ; ਘਰੁ ਪਰਵਾਣਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Holy congregation is the genuine basis and authentic abode of truth."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧ ਸੰਗਤ ਸਚਾ ਉਪਦੇਸ਼ ਹੈ, (ਓਹੀ) ਘਰ ਪ੍ਰਮਾਣੀਕ ਹੈ;"

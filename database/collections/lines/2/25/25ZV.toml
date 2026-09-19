@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹੜ ਆਏ ਕਿਨਿ ਥੰਮੀਅਨਿ; ਦਰੀਆਉ ਵਹੰਦੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Who can obstruct flood in the flowing river."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਹੜਾਂ ਦੇ ਆਇਆਂ ਵਗਦੇ ਦਰਿਆਵਾਂ ਨੂੰ ਕੌਣ ਥੰਮ ਸਕਦਾ ਹੈ?"

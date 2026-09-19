@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫੂਲ ਗੁਲਾਬ ਕੇਵੜਾ ਕੂਜਾ ॥"
 page = 626
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He always worshipped the goddess with roses, pandanus and sugar-candyy"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਿਸ਼ਰੀ ਨਾਲ ਦੇਵ-ਪੂਜਾ ਕਰਦਾ ਸੀ।"

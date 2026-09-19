@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਜਰਾਜ ਸੁ ਬਾਜਨ ਕੇ ਅਸਵਾਰ; ਰਥੀ ਰਥੁ ਪਾਇਕ, ਕਉਨ ਗਨੈ ॥"
 page = 98
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who could count the riders of great elephants and horses, the chariots, warriors on chariots and warriors on foot?,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਡੇ ਵਡੇ ਹਾਥੀਆਂ ਅਤੇ ਘੋੜਿਆਂ ਦੇ ਸਵਾਰ, ਰਥਾਂ ਵਾਲੇ, ਰਥ ਅਤੇ ਪੈਦਲ ਸੈਨਾ (ਦੀ ਕੌਣ) ਗਿਣਤੀ ਕਰ ਸਕਦਾ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਕਬੰਧ ਫਿਰੈ ਬਿਨੁ ਸੀਸ; ਲਖੈ ਤਿਨ ਕਾਇਰ ਹੈ ਬਿਲਲਾਤੇ ॥"
 page = 482
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing which the cowards are getting frightened"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕਨਾਂ ਦੇ ਬਿਨਾ ਸਿਰ ਧੜ ਫਿਰ ਰਹੇ ਹਨ (ਜਿਨ੍ਹਾਂ ਨੂੰ) ਵੇਖ ਕੇ ਕਾਇਰ ਚੀਖ਼ਾਂ ਮਾਰਦੇ ਹਨ।"

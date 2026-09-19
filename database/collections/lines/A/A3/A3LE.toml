@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਤਿਗੁਰ ਨਾਨਕ ਦੇਉ, ਆਪੁ ਉਪਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "God himself created the true Guru Nanak."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਤਿਗੁਰ ਨਾਨਕ ਦੇਵ (ਜੀ ਨੂੰ ਵਾਹਿਗੁਰੂ ਨੇ) ਆਪ ਬਣਾਇਆ ਹੈ।"

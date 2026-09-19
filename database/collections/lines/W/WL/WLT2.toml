@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੈਸੇ ਰਵਿ ਕੇ ਤੇਜ ਤੇ ਰੇਤ ਅਧਿਕ ਤਪਤਾਇ ॥"
 page = 66
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਸੂਰਜ ਦੇ ਤੇਜ ਨਾਲ ਰੇਤ ਬਹੁਤ ਤਪ ਜਾਂਦੀ ਹੈ,"

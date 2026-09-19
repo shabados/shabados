@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਗਿਯੋ ਸਲੌਨੋ ਅਤਿ ਚਿਤ ਭਾਯੋ ॥"
 page = 936
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Kokila ate that meat, she relished it tastefully and said,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਨੂੰ ਸੁਆਦੀ ('ਸਲੌਨੋ' ਨਮਕੀਨ) ਲਗਿਆ ਅਤੇ ਚਿਤ ਨੂੰ ਬਹੁਤ ਹੀ ਭਾਇਆ।"

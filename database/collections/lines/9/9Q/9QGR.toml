@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਲ ਦੀਹ ਦਲੀ ॥੪੫॥"
 page = 618
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She had seven charming sons born to her, who were man of infinite glory and destroyers of enemies. 45."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਵੈਰੀਆਂ ਦੇ ਭਾਰੀ ਦਲ ਨੂੰ ਦਲ ਸੁਟਣ ਵਾਲੇ ਸਨ ॥੪੫॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾਹਿ ਕਰੈ ਨਹੀ ਐਸ ਬਖਾਨਤ ॥"
 page = 859
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whatever the husband wanted to do, the wife would not let him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਉਹ ਨਹੀਂ ਕਰਨਾ', ਇਸ ਤਰ੍ਹਾਂ ਕਹਿੰਦੀ। (ਅਤੇ ਜੋ ਨਹੀਂ ਕਰਨਾ ਹੁੰਦਾ)"

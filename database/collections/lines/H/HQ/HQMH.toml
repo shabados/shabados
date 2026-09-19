@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਮਤਿ ਮਹਾ ਰਿਖ ਰਘੁਬਰ ॥"
 page = 273
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਰਾਮ ਉਤਮ ਬੁੱਧੀ ਵਾਲੇ ਮਹਾਰਿਸ਼ੀ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਦ੍ਵੈ ਅਨਾਸ ਆਸਨ ਅਡੋਲ ॥"
 page = 38
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Non-dual, Indestructible, and hath Steady Seat.!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਦ੍ਵੈਤ-ਰਹਿਤ, ਨਾਸ਼-ਰਹਿਤ, ਅਡੋਲ ਆਸਨ ਵਾਲਾ ਹੈਂ;"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਘੜ ਸਿੰਘ ਲਖਿ ਤਿਹ ਦਸਾ; ਦੇਤ ਭਯੋ ਨਹੀ ਪੀਠਿ ॥"
 page = 417
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਘੜ ਸਿੰਘ ਨੇ ਇਸ ਸਥਿਤੀ ਨੂੰ ਵੇਖ ਕੇ, (ਰਣ ਵਿਚ) ਪਿਠ ਨਹੀਂ ਦਿੱਤੀ।"

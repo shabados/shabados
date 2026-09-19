@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਦਰਪਣਿ ਰੂਪ, ਜਿਵੇਹੀ ਪਿਠਾ ॥੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Mirror reflects the shadow according to the object before it."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੀ ਸ਼ਕਲ (ਤਿਹਾ) ਸ਼ੀਸ਼ਾ ਰੂਪ ਦੱਸਦਾ ਹੈ।"

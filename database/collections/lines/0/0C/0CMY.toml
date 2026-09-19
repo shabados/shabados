@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੈ ਅਪਨੇ ਖਰਚਨ ਕਹ ਦੇਊ ॥੧੭॥"
 page = 880
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘All the wealth of this woman, I will confiscate and let her live barely on subsistence.’(17)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਲੈ ਕੇ, ਆਪਣੇ ਕੋਲੋਂ ਖਰਚ ਲਈ ਦਿਆ ਕਰਾਂ ॥੧੭॥"

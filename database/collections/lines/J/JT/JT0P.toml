@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜ ਕਰਤ ਤੇ ਤਹਾ ਬਿਚਛਨ ॥"
 page = 1331
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਉਹ ਸਿਆਣਾ (ਰਾਜਾ) ਰਾਜ ਕਰਦਾ ਸੀ।"

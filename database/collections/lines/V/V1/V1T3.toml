@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਧਨ ਦੇਵਹਿ ਦਯੋ ਜਗਾਈ ॥"
 page = 950
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On entering the house she woke Jodan Dev up and asked,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੋਧਨ ਦੇਵ ਨੂੰ ਆ ਕੇ ਜਗਾਇਆ"

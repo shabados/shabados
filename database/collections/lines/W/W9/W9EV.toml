@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ਼ਬ ਆਮਦ ਯਕੇ ਫ਼ੌਜ ਰਾ ਸਾਜ਼ ਕਰਦ ॥"
 page = 1403
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The night fell taking with her, her own army (stars),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਰਿਆਂ ਦੀ) ਫ਼ੌਜ ਨੂੰ ਰਾਤ ਲੈ ਕੇ ਆ ਗਈ"

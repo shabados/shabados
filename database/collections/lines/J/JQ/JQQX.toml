@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਭਾਵਤ ਕੇ ਭੋਗ ਕਮੈਹੌ ॥੪੭॥"
 page = 958
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I will walk to his home and fully gratify myself by making love.(47)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਨ ਭਾਉਂਦੇ ਭੋਗ ਕਰਾਂਗੀ ॥੪੭॥"

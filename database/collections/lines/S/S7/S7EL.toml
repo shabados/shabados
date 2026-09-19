@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੰਨ︀ਯ ਤਰੁਨਿ ਤਵ ਰੂਪ ਧੰਨ︀ਯ ਪਿਤੁ ਮਾਤ ਤਿਹਾਰੋ ॥"
 page = 836
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(He said to her), ‘You are admirable and so are your mother and father."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਇਸਤਰੀ! ਤੇਰਾ ਰੂਪ ਧੰਨ ਹੈ ਅਤੇ ਤੇਰੇ ਮਾਤਾ ਪਿਤਾ ਧੰਨ ਹਨ।"

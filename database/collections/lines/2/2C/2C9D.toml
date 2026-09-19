@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਜਨ ਕਾਜ ਚਲੈ ਤਜ ਕੈ ਪੁਰ; ਗੋਪ ਸਭੈ ਮਨ ਮੈ ਹਰਖੇ ॥"
 page = 371
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The gopas, being pleased, left the city for the worship"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਨ ਵਿਚ ਸਾਰੇ ਗਵਾਲੇ ਪ੍ਰਸੰਨ ਹੋ ਕੇ ਨਗਰ ਨੂੰ ਛਡ ਕੇ ਪੂਜਾ ਲਈ ਚਲੇ ਹਨ।"

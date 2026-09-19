@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਹੂੰ ਓਰ ਗਾਜੇ ਹਠੀ ਬੀਰ ਭਾਰੀ ॥੩੨੨॥"
 page = 1382
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਹਾਂ ਪਾਸਿਆਂ ਵਿਚ ਹਠੀਲੇ ਸੂਰਮੇ ਗਜਣ ਲਗੇ ॥੩੨੨॥"

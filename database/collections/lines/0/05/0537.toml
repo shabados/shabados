@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਡੀ ਛਿਨਾਰਿ ਜਗਤ ਮੈ ਜਨਿਯਤ ॥"
 page = 825
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her name was Bhaanmati and she was known as a charlatan."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਵਿਚ ਉਹ ਵੱਡੀ ਵਿਭਚਾਰਨ ਵਜੋਂ ਜਾਣੀ ਜਾਂਦੀ ਸੀ।"

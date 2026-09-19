@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮ ਤੁਮ ਕੋ ਬ੍ਰਿੰਜਨਾਦ ਬਨਾਵੈ ॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“I shall prepare very tasteful food for thee,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਸੀਂ ਤੁਹਾਡੇ ਲਈ ਭੋਜਨ (ਬਿੰਜਨ) ਆਦਿ ਬਣਵਾਉਂਦੇ ਹਾਂ।"

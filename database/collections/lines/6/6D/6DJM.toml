@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਯ ਨਿਕਸੀ ਤਿਹ ਖਾਨ ਸੌ; ਅਤਿ ਹੀ ਭੋਗ ਕਮਾਇ ॥"
 page = 1059
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਇਸਤਰੀ ਉਸ ਖ਼ਾਨ ਨਾਲ ਖ਼ੂਬ ਭੋਗ ਕਰ ਕੇ ਨਿਕਲੀ।"

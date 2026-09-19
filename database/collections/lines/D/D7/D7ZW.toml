@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਿਦਾ ਸ਼ੁਦ ਅਜ਼ੋ ਹਾਲ ਤਿਫ਼ਲੀ ਮਿਜ਼ਾਜ ॥"
 page = 1410
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When all her childhood flew away,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਬਚਪਨ ਵਾਲਾ ਚੰਚਲ ਸੁਭਾ ਖ਼ਤਮ ਹੋ ਗਿਆ"

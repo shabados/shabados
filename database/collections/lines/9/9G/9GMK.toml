@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕ੍ਰਿਪਾ ਨਿਧਾਨ ਕੀ; ਸਰਨੀ ਪਏ ॥੩॥"
 page = 202
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and seeks the shelter of the Treasure of mercy."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਹਿਮਤ ਦੇ ਖ਼ਜ਼ਾਨੇ ਦੀ ਸਰਣਾਗਤ ਸੰਭਾਲ ਲੈਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "seek the Sanctuary of the treasure of mercy. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਬ ਕ੍ਰਿਪਾ ਨਿਧਾਨ ਗੁਰੋਂ ਕੀ ਚਰਨੀ ਪੜੇ ਹਾਂ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੇਹੜੇ ਮਨੁੱਖ ਦਇਆ ਦੇ ਖ਼ਜ਼ਾਨੇ ਪਰਮਾਤਮਾ ਦੀ ਸਰਨ ਆ ਪਏ ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕ੍ਰਿਪਾ ਨਿਧਾਨ = ਕਿਰਪਾ ਦਾ ਖ਼ਜ਼ਾਨਾ ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y entonces, busqué sólo el Refugio del Tesoro de Su Compasión. (3)"

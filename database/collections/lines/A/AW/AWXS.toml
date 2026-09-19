@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਦੇ ਢੁੰਢਾਊ ਸਦਾ ਸਤਿਕਾਰ ਸਹਿਤ ਰਹਿੰਦੇ ਹਨ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਤਾਲਿਬਾਨਿ ਹੱਕ ਹਮੇਸ਼ਾ ਬਾ ਅਦਬ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, even the dry wood of a stem, with his strength, starts to bear fruits. (85)"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮ ਹੈ ਗੇ ਜਹੀ ॥੨੭੬॥"
 page = 228
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "How is it that you lost all sense of shame ? That you have done such a bad deed; I shall go now where Ram has gone. '276."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿੱਥੇ ਰਾਮ ਜੀ ਗਏ ਹਨ ॥੨੭੬॥"

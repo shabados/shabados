@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਾਇ ਚਲੀ ਅਬਿਲੰਬ ਤ੍ਰਿਯਾ ਤਬ ॥"
 page = 233
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Surapanakha heard these words, she immediately started and reaching there,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਉਹ ਇਸਤਰੀ ਬਿਨਾਂ ਦੇਰ ਕੀਤੇ ਧਾਈ ਕਰਕੇ ਤੁਰ ਪਈ।"

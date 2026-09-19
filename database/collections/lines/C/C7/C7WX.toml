@@ -1,10 +1,10 @@
 [[content]]
-asset = "AKKB"
+assets = ["AKKB"]
 type = "primary"
 data = "ਖ਼ਾਲਸਾ ਅਕਾਲ ਪੁਰਖ ਕੀ ਫ਼ੌਜ ॥"
 
 [[content]]
-asset = "SOTK"
+assets = ["SOTK"]
 type = "translation"
 language = "en"
 data = "The Khalsa is the army of Akal Purakh;"

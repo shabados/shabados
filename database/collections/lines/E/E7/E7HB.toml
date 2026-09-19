@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਚੜ੍ਹਿਆ ਸੋਧਣਿ, ਧਰਤਿ ਲੁਕਾਈ ॥੨੪॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Thus he went out to depurate humanity on earth."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਹੁਣ) ਧਰਤੀ ਦੇ ਲੋਕਾਂ ਨੂੰ ਸੋਧਣ ਲਈ ਚੜ੍ਹਾਈ ਕਰ ਦਿੱਤੀ।"

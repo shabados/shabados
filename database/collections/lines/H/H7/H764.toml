@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਾਨੀ ਜਨਮ ਪ੍ਰਥਮ ਜਬ ਆਵੈ ॥"
 page = 905
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਪ੍ਰਾਣੀ ਪਹਿਲਾਂ ਜਨਮ ਧਾਰਦਾ ਹੈ,"

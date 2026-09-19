@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਤ੍ਰੀ ਰੂਪ ਧਰੇ ਸਭੁ ਅਸੁਰਨ ॥"
 page = 173
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਿਆਂ ਦੈਂਤਾ ਨੇ ਛਤਰੀ ਰੂਪ ਧਾਰਨ ਕਰ ਲਿਆ ਹੈ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਸਿਮਰਤ; ਦੈਤ ਦੇਉ. ਨ ਪੋਹੈ ॥"
 page = 1150
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Contemplating God, demon and ghost shall touch thee not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹਰੀ ਦਾ ਭਜਨ ਕਰਨ ਨਾਲ ਬੁਤ ਤੇ ਪ੍ਰੇਤ ਤੈਨੂੰ ਨਹੀਂ ਤੋਂ ਹਣਗੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Meditating in remembrance on the Lord, demons and ghosts shall not touch you."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਹ ਹਰੀ ਕੋ ਸਿਮਰਤੇ ਹੂਏ ਕੋਈ ਦੈਤ ਔ ਦੇਉ ਭੀ ਪੋਹਿ ਨਹੀਂ ਸਕਤਾ ਹੈ, ਭਾਵ ਮਾਯਾ ਅਰ ਕਾਮਾਦਿਕ ਬਿਆਪ ਨਹੀਂ ਸਕਤੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਸਿਮਰਦਿਆਂ ਕੋਈ ਦੈਂਤ ਕੋਈ ਦੇਉ ਆਪਣਾ ਜ਼ੋਰ ਨਹੀਂ ਪਾ ਸਕਦਾ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਦੈਤ ਦੇਉ = ਦੈਂਤ ਦੇਉ, (ਕਾਮਾਦਿਕ ਕੋਈ) ਵੱਡੇ ਤੋਂ ਵੱਡਾ ਦੇਉ। ਨ ਪੋਹੈ = ਆਪਣਾ ਜ਼ੋਰ ਨਹੀਂ ਪਾ ਸਕਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sí habitando en Dios, ni la maldad ni los fantasmas te siguen los pasos."

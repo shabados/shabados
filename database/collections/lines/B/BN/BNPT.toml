@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਤਿਯ ਹਾਥ ਤਾ ਕੌ ਗਹਿ ਲੀਨੋ ॥"
 page = 940
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੂਜੇ ਹੱਥ ਨਾਲ ਉਸ (ਮੁੱਲਾ) ਨੂੰ ਪਕੜ ਲਿਆ"

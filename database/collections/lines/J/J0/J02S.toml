@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਏ ਟੂਕ ਟੂਕੰ ਰਣੰ ਬੀਰ ਧੀਰੰ ॥"
 page = 169
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With the clattering of swords and the crackling noise of the arrows, the mighty and the enduring heroes were chopped into bits"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧੀਰਜਵਾਨ ਯੋਧੇ ਰਣ-ਭੂਮੀ ਵਿਚ ਟੋਟੇ ਟੋਟੇ ਹੋ ਗਏ ਸਨ।"

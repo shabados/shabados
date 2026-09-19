@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਹਿ ਕਹਿਯੋ ਫਿਰਿ ਕੈ ਹਰਿ ਪੈ; ਇਹ ਤੇ ਕਛੁ ਲਾਜ ਨ ਲਾਗਤ ਤੋਰੀ ॥"
 page = 364
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You go and tell Krishna that Radha is not feeling shy of him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪਰਤ ਕੇ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਕਹੀਂ ਕਿ ਇਸ ਤਰ੍ਹਾਂ ਕਰਨ ਤੇ ਤੈਨੂੰ ਕੁਝ ਲਜ ਨਹੀਂ ਲਗਦੀ।"

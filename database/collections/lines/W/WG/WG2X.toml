@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੈਤ ਰਾਜ ਇਸਥਿਤ ਹੈ ਜਹਾ ॥੩੯॥੧੯੫॥"
 page = 115
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Send Lord Shiva to the place, where the demon-king is standing.”39.195."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਦੈਂਤ-ਰਾਜਾ ਖੜੋਤਾ ਹੈ ॥੩੯॥੧੯੫॥"

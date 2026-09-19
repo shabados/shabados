@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਿਏਸਣੀ ਪਦਾਦਿ ਭਣਿਜੈ ॥"
 page = 796
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਮਹਿ ਏਸਣੀ' (ਰਾਜ ਸੈਨਾ) ਸ਼ਬਦ ਦੀ ਵਰਤੋਂ ਕਰੋ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੇਤੇ ਰਾਇ ਬੁਲਾਏ, ਚਲੇ ਜੁਧ ਨੋ ॥"
 page = 123
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All those who were called, marched for war."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਜਿਤਨੇ ਰਾਖਸ਼ ਬੁਲਾਏ ਸਨ, (ਉਹ) ਸਾਰੇ ਯੁੱਧ ਨੂੰ ਚਲ ਪਏ"

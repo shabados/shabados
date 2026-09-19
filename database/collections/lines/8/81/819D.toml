@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਅਉਰ ਜੇ ਸੁਭਟਿ; ਗਨੋ ਤਿਹ ਨਾਮ ਬਿਚਛਨ ॥"
 page = 693
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The names of other warriors are fantastic also"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਰ ਹੋਰ ਜੋ ਯੋਧੇ ਗਿਣੇ ਜਾਂਦੇ ਹਨ, ਉਨ੍ਹਾਂ ਦੇ ਸੁੰਦਰ ਨਾਂ ਹਨ।"

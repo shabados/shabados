@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਿਮੀ ਦਾਮਿਨੀ ਜਾਣ ਭਾਦੋ ਮਝਾਰੰ ॥"
 page = 106
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "It hath hlistened like lightning in the month of Bhadon."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਭਾਦੋਂ (ਦੇ ਮਹੀਨੇ) ਵਿਚ ਬਿਜਲੀ ਚਮਕ ਰਹੀ ਹੋਵੇ।"

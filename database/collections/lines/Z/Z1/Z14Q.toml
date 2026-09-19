@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਵਕਤੇ ਤਰਦਦ ਚੁ ਸ਼ੇਰੋ ਨਿਹੰਗ ॥੧੦॥"
 page = 1413
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were like the roaring lions and vicious like crocodiles.(10)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੰਗ ਵੇਲੇ (ਵੈਰੀਆਂ ਸਾਹਮਣੇ) ਸ਼ੇਰ ਅਤੇ ਮਗਰਮੱਛ ਵਾਂਗ ਡਟ ਜਾਂਦੇ ਸਨ ॥੧੦॥"

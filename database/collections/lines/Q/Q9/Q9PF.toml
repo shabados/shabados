@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੈ ਅਕ੍ਰੂਰ ਕਉ ਆਪਨੇ ਸੰਗ ਕਹਿਯੋ ਅਰੇ ਕਾਨ੍ਹ ਕਹੂੰ ਕਉ ਪਧਾਰਿਯੋ ॥"
 page = 504
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Krishna started going towards that place, then Kratvarma thought of something and taking Akrur with him, he asked him, “Where Krishna has gone?”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਕਰੂਰ ਨੂੰ ਆਪਣੇ ਨਾਲ ਲੈ ਕੇ ਕਿਹਾ, ਓਇ! ਕ੍ਰਿਸ਼ਨ ਕਿਧਰੇ ਚਲਿਆ ਗਿਆ ਹੈ।"

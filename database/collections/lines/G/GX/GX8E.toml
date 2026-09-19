@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਰਘੁਰਾਜ ਰਾਜੁ ਜਗਿ ਕੀਨਾ ॥"
 page = 624
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਪਿਛੋਂ) ਰਘੁਰਾਜ ਨੇ ਜਗਤ ਵਿਚ ਰਾਜ ਕੀਤਾ"

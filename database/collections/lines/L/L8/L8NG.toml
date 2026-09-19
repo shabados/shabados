@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਿਲੇ ਰਾਮ ਰਾਯੰ ॥੬੬੯॥"
 page = 270
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram met all of them.669."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆ ਕੇ ਉਨ੍ਹਾਂ ਦੇ ਪੈਰੀਂ ਪਏ। ਰਾਜਾ ਰਾਮ ਵੀ (ਸਭ ਨੂੰ) ਮਿਲੇ ॥੬੬੯॥"

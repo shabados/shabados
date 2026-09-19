@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ੍ਰਕਲਾ ਧੌਲਹਰ ਉਸਾਰਿਸ ॥"
 page = 1015
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਿਤ੍ਰਕਲਾ ਨੇ ਉਥੇ (ਇਹ ਵੱਡਾ ਸਾਰਾ) ਮਹੱਲ ਉਸਾਰਿਆ (ਅਰਥਾਤ ਚਿਤਰਿਆ)।"

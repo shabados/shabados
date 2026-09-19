@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਅਸੀਣ ਉੱਥੇ ਪੁੱਜ ਚੁਕੇ ਹਾਣ ਜਿੱਥੇ ਬਾਦਸ਼ਾਹ ਵੀ ਨਹੀਣ ਪੁਜ ਸਕਦਾ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਰਸੀਦਾਇਮ ਬਜਾਇ ਕਿ ਬਾਦਸ਼ਾ ਨ ਰਸਦ ॥੩੦॥੧॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "My heart and soul while snapping all its bondages flies to your street,"

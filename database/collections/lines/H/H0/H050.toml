@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਰਾਜਾ ਕਹ ਭੇਦ ਨ ਦੇਈ ॥"
 page = 880
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ (ਇਸਤਰੀ) ਰਾਜੇ ਨੂੰ ਭੇਦ ਨਹੀਂ ਦਿੰਦੀ ਸੀ,"

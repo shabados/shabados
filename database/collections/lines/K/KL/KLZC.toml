@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਸ ਬੇਲ ਬਿਜਿਯਾ ਅਰ ਚੱਕ੍ਰ ਗਦਾ ॥"
 page = 162
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁਦਰਸ਼ਨ ਚੱਕਰ ਅਤੇ ਗਦਾ"

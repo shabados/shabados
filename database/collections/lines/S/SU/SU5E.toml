@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖ਼ਤਾਖ਼ਤ ਦਰਾਮਦ ਹਮਹ ਰੰਗ ਰੰਗ ॥੬੪॥"
 page = 1402
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The voices of the distressed ones were emanating from all sides,(64)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਕਈ ਪ੍ਰਕਾਰ ਦੀਆਂ (ਆਵਾਜ਼ਾਂ ਆਣ ਲਗ ਗਈਆਂ) ॥੬੪॥"

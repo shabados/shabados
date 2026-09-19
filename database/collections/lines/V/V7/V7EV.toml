@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬੈ ਸਪਤਵੌ ਦਿਵਸ; ਪਹੂਚਿਯੋ ਆਇ ਕਰਿ ॥"
 page = 1095
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਸੱਤਵਾਂ ਦਿਨ ਆਣ ਪਹੁੰਚਿਆ"

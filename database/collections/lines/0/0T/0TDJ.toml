@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਤ ਹੋਇ ਸ੍ਵੈ ਗਈ; ਰਾਇ ਤਬ ਯੌ ਕਿਯੋ ॥"
 page = 828
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When she went into deep slumber,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਦੋਂ ਉਹ) ਮਸਤ ਹੋ ਕੇ ਸੌਂ ਗਈ, ਤਦ (ਰਾਜੇ ਨੇ) ਇੰਜ ਕੀਤਾ"

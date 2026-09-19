@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਹਾਥਿ ਬਿਪ ਨੈ ਲਈ ॥੬॥"
 page = 171
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then he circumambulated around the Brahmin several times, after that the king offered millions of charities, but the Brahmin did not touch anything with his hand.6."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ) ਬ੍ਰਾਹਮਣ ਨੇ (ਕਿਸੇ ਨੂੰ) ਹੱਥ ਤਕ ਨਾ ਲਾਇਆ ॥੬॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਹ ਇਸਤ੍ਰੀ, ਤੈ ਯਾਰ ਹਮਾਰੀ ॥੭੧॥"
 page = 1188
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮੇਰੀ ਪਤਨੀ ਹੋਵੇਗੀ ਅਤੇ ਤੂੰ ਮੇਰੀ ਯਾਰ ਹੋਵੇਂਗੀ ॥੭੧॥"

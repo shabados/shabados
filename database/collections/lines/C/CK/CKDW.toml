@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਈ ਭੋਰ ਬਹੁਰੌ ਨਿਕਟ ਕੋ ਹਕਾਰਿਯੋ ॥"
 page = 832
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja had put his son in the prison and, then, in morning he called him back."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਵੇਰ ਹੋਣ ਤੇ ਫਿਰ (ਆਪਣੇ) ਕੋਲ ਬੁਲਾ ਲਿਆ।"

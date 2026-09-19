@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਦੀਵੀ ਮੁਲਕ ਅਤੇ ਅਮਰ ਦੇਸ਼ ਦਾ ਨਿਗਾਹਬਾਨ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਜ਼ਹਾਂਬਾਨਿ ਮੁਲਕਿ ਦਵਾਮੋ ਅਬਦ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He is the caretaker of the eternal and immortal country or region, and"

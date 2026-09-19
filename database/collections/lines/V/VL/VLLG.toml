@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੁਜੰਗ ਮਤੀ ਤਾ ਕੀ ਦੁਹਿਤਾ ਇਕ ॥"
 page = 1162
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਭੁਜੰਗ ਮਤੀ ਨਾਂ ਦੀ ਇਕ ਲੜਕੀ ਸੀ।"

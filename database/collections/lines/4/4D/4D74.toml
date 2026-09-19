@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮੂਰਖ ਨਾਲਿ, ਚੰਗੇਰੀ ਚੁਪਾ ॥੨੦॥੩੨॥ ਬੱਤੀਹ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Silence is the best in the company of fool."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੂਰਖ ਨਾਲ ਚੁਪ ਚੰਗੀ ਹੈ।"

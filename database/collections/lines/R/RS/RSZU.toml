@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠਿ ਕਰਿ ਆਪੁ ਬਿਲੋਕਿਯੈ; ਤੋਰ ਕਿ ਮੋਰੋ ਹੋਇ ॥੮॥"
 page = 868
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Let us try and ascertain who is he, whether your husband or mine.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਠ ਕੇ ਆਪ ਵੇਖ ਲੈ ਕਿ ਤੇਰਾ ਪਤੀ ਹੈ ਜਾਂ ਮੇਰਾ ॥੮॥"

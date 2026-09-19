@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਖ ਦੈ ਦੁਖ ਬਿਨ ਕੀਨੇ ॥੭੦੪॥"
 page = 273
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He identified the people on the earth and comforted them, removing their agony.704."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਨੇ ਪਰਜਾ ਨੂੰ) ਸੁੱਖ ਦੇ ਕੇ ਦੁੱਖਾਂ ਤੋਂ ਰਹਿਤ ਕਰ ਦਿੱਤਾ ॥੭੦੪॥"

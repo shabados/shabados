@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਦੀ ਰਾਜਨਿਨਿ ਆਦਿ ਬਖਾਨੋ ॥"
 page = 762
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਨਦੀ ਰਾਜਨਿਨਿ' (ਗੰਗਾ ਵਾਲੀ ਧਰਤੀ) ਕਹੋ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਲਿ ਗਯੋ ਵਹ ਦਿਨ ਤ੍ਰਿਯ, ਤੋ ਕੋ ॥"
 page = 855
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Dogar said, ‘I am very much distressed, remember that day,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਇਸਤਰੀ! ਤੈਨੂੰ ਉਹ ਦਿਨ ਭੁਲ ਗਿਆ"

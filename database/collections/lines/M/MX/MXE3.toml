@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮਹੂੰ ਤੁਮ ਕਹ ਚਰਿਤ ਦਿਖਾਯੋ ॥੧੦॥"
 page = 838
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Getting angry on me you tried to caste a net on me but on the contrary I put you in a dilemma.’(10)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਸੀਂ ਵੀ ਤੈਨੂੰ ਚਰਿਤ੍ਰ ਵਿਖਾਇਆ ਸੀ ॥੧੦॥"

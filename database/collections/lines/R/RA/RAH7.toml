@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਸਵ ਬਲਿ ਕਹੂੰ ਲੈਨ ਨ ਪਾਯੋ ॥੧॥"
 page = 173
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They considered themselves as the most high and their strength became unlimited.1."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇੰਦਰ (ਬਾਸਵ) ਕਿਤੋਂ ਵੀ ਬਲੀ ਲੈ ਸਕਣ ਦੇ ਸਮਰਥ ਨਾ ਰਿਹਾ ॥੧॥"

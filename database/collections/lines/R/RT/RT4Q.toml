@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੁਜਾ ਤੋ ਬਬਖ਼ਸ਼ੀਦ ਏ ਜਾਨ ਮਾ ॥੪੨॥"
 page = 1396
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘All the elephants, horses and many a camels.‘(42)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੀ ਜਾਨ! ਕਿਸ ਨੂੰ ਬਖ਼ਸ਼ੇ ਹਨ ॥੪੨॥"

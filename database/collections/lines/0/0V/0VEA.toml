@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਔਰ ਬ︀ਯਾਹਿ ਬ︀ਯਾਕੁਲ ਹ੍ਵੈ ਕੀਨੋ ॥"
 page = 925
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਵਿਆਕੁਲ ਹੋ ਕੇ ਹੋਰ ਵਿਆਹ ਕਰ ਲਿਆ।"

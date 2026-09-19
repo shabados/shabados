@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹੀ ਕੇਕਈ ਲੈ ਪਹੁਚਾਵੈ ॥"
 page = 944
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In any direction Dasrath looked, instantly, Kaikaee reached there."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਹੀ ਕੈਕਈ (ਰਥ ਨੂੰ) ਲੈ ਕੇ ਪਹੁੰਚਾ ਦਿੰਦੀ।"

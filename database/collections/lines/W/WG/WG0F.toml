@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਕਹਾ ਸੋ ਕੀਜੀਐ ਨ੍ਰਿਪ, ਇਹੀ ਸਤਿ ਉਪਾਇ ॥੧੩੭॥"
 page = 689
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Do whatever I have said this is the real measure?”137."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਰਾਜਨ! ਜੋ ਮੈਂ ਕਿਹਾ ਹੈ, ਉਹੀ ਕਰੋ। ਇਹੀ ਉਪਾ ਸੱਚਾ ਹੈ ॥੧੩੭॥"

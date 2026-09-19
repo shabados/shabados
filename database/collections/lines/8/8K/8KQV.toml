@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਨਉ ਨਿਧਾਨ ਫੁਰਮਾਨ ਵਿਚਿ; ਪਰਮ ਨਿਧਾਨ ਗਿਆਨ ਗੁਰਭਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Nine treasures are in his command and the great ocean of knowledge goes with him like his brother."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਨੌਂ ਨਿਧਾਂ ਉਨ੍ਹਾਂ ਦੇ ਤਾਬੇ ਹਨ, ਪਰਮ ਨਿਧਾਂ ਦਾ ਸਮੁੰਦਰ (ਅਪਰੋਖ) ਗਿਆਨ ੳਨ੍ਹਾਂ ਦੇ ਅੰਗ ਸੰਗ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਜੁ ਹੁਤੀ ਕਹਿ ਤਾਹਿ ਸੁਨਾਈ ॥"
 page = 1212
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੋ (ਗੱਲ ਉਸ ਦੇ) ਮਨ ਵਿਚ ਸੀ, ਉਸ ਨੂੰ ਦਸ ਦਿੱਤੀ।"

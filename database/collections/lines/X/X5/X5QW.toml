@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜ ਕਰਨ ਕੀ ਆਸ ਚੁਕਾਈ ॥੮੪੭॥"
 page = 288
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing this Ram wondered and in this suffering he ended all hope of ruling.847."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਪਈ"

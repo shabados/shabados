@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਉਸਤਤਿ ਨਿੰਦਾ; ਕਰੈ ਨਰੁ ਕੋਈ ॥"
 page = 1164
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Whether one praises me or slanders me,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਭਾਵੇਂ ਕੋਈ ਮੇਰੀ ਵਡਿਆਈ ਕਰੇ ਜਾ ਬਦਖੋਈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Anyone can praise or slander me."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਪੁਰਸ਼ ਉਸਤਤੀ ਕਰੇ ਚਾਹੇ ਨਿੰਦਾ ਕਰੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਮਨੁੱਖ ਮੈਨੂੰ ਚੰਗਾ ਆਖੇ, ਚਾਹੇ ਕੋਈ ਮੰਦਾ ਆਖੇ (ਇਸ ਗੱਲ ਦੀ ਮੈਨੂੰ ਪਰਵਾਹ ਨਹੀਂ ਰਹੀ),"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਉਸਤਤਿ = ਸੋਭਾ, ਵਡਿਆਈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "No me interesa quien me alabe o me critique,"

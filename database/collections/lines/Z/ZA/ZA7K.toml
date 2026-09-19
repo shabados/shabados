@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮੇਰੇ ਮਨ; ਜਪਿ ਰਾਮ ਨਾਮੁ ਹਰਿ ਰੂੜਾ ॥"
 page = 698
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my Lord, contemplate thou, the Name of the beauteous Lord God."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੀ ਜਿੰਦੜੀਏ! ਤੂੰ ਸੁੰਦਰ ਸੁਆਮੀ ਵਾਹਿਗੁਰੂ ਦੇ ਨਾਮ ਦਾ ਸਿਮਰਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O my mind, chant the Name of the Lord, the beauteous Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਹਰੀ! ਮੇਰੇ ਮਨ ਨੇ ਤੇਰਾ ਰਾਮ ਨਾਮ (ਰੂੜਾ) ਸੁੰਦਰ ਜਪਿਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਸੋਹਣੇ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ (ਸਦਾ) ਜਪਿਆ ਕਰ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨ = ਹੇ ਮਨ! ਗੂੜਾ = ਸੋਹਣਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mi mente, contempla el Nombre del Bello Señor."

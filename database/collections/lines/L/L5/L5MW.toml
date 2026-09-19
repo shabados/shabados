@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਨਿਕ ਬਰਖ; ਕੀਏ ਜਪ ਤਾਪਾ ॥"
 page = 98
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "For many years he may perform recitation and penance,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕਾਂ ਸਾਲਾਂ ਨਹੀਂ ਉਹ ਪਾਠ ਤੇ ਤਪਸਿਆ ਪਿਆ ਕਰੇ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "They chant and meditate, practicing austere self-discipline for years and years;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਾ ਅਨਿਕ ਬਰਖ ਜਪ ਤਪ ਕੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੋਗੀ ਲੋਕ ਅਨੇਕਾਂ ਸਾਲ ਜਪ ਕਰਦੇ ਹਨ, ਤਪ ਸਾਧਦੇ ਹਨ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਰਖ = ਬਰਸ, ਵਰ੍ਹੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Durante años, el Yogui medita y practica una disciplina severa,"

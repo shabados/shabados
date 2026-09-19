@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨੁ ਕਨਕ ਕੀ ਪੁਤ੍ਰਿਕਾ; ਬਿਧਨਾ ਰਚੀ ਬਨਾਇ ॥੨॥"
 page = 927
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And she was, as if, the creation of Brahma, the God, Himself.(2)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਮਾਨੋ ਵਿਧਾਤਾ ਨੇ ਸੋਨੇ ਦੀ ਪੁਤਲੀ ਵਰਗੀ ਬਣਾਈ ਹੋਵੇ ॥੨॥"

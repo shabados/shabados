@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਵਿਲੋਕਿ ਭਗਤਿ ਤਿਹ ਚਤੁਰ ਬਾਕ ॥"
 page = 636
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਸਿਆਣੇ ਬੋਲਾਂ ਅਤੇ ਭਗਤੀ ਨੂੰ ਵੇਖ ਕੇ"

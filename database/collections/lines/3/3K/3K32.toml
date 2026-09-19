@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾ ਤਦਿ ਗੋਰਖੁ; ਨਾ ਮਾਛਿੰਦੋ ॥"
 page = 1035
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Then there was no Gorakh nor Machhinder."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਓਣੋਂ ਨਾਂ ਹੀਗੋਰਖ ਸੀ, ਨਾਂ ਮਾਛਿੰਦਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "There was no Gorakh and no Maachhindra."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੋਰਖੁ ਔ ਮਾਛਿਦ੍ਰ ਭੀ ਨਹੀਂ ਥੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਨਾਹ ਗੋਰਖ ਸੀ ਨਾਹ ਮਾਛਿੰਦ੍ਰ ਨਾਥ ਸੀ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਾਛਿੰਦੋ = ਮਾਛਿੰਦ੍ਰ ਨਾਥ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "No existía Gorakj, el Guru de los yoguis, ni Machindra, su discípulo."

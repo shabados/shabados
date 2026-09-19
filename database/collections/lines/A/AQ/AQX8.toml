@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਨੁ ਇਸਨਾਨ ਪਵਿਤ੍ਰ ਨ ਹੋਈ ॥"
 page = 192
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Such rules were propagated, that no demon could take a bath now, and without taking bath no one could become pure."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ਼ਨਾਨ ਤੋਂ ਬਿਨਾ (ਕੋਈ) ਪਵਿਤਰ ਨਹੀਂ ਹੋ ਸਕਦਾ;"

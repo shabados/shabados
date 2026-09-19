@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਇਕਿ ਲਸਕਰ ਲੈ ਧਾਵਦੇ; ਇਕਿ ਫਿਰਦੇ ਨਠੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Some of them leading the army rush from place to place and some getting defeated flee helter-skelter."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਇਕ (ਮੁੰਡਿਆਂ ਦੀ) ਸੈਨਾ ਆਪਣੇ ਨਾਲ ਲਾਕੇ ਦੌੜਦੇ ਹਨ। ਇਕ (ਹਾਰ ਖਾਕੇ) ਨੱਠੇ ਫਿਰਦੇ ਹਨ।"

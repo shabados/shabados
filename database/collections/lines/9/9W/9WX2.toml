@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਨਾਦ ਹ੍ਵੈ ਕੈ ਭਲੀ ਭਾਂਤਿ ਬਾਜੇ ॥"
 page = 40
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere He become a musical instrument, which is played appropriately"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਕਿਤੇ ਨਾਦ ਹੋ ਕੇ ਭਲੀ ਭਾਂਤ ਵਜ ਰਿਹਾ ਹੈਂ,"

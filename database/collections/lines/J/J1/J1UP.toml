@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੌਥੇ ਪੂਤ ਪਠਾਯੋ ਬਾਲੈ ॥੩੫॥"
 page = 1288
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ (ਉਸ) ਇਸਤਰੀ ਨੇ ਚੌਥਾ ਪੁੱਤਰ ਭੇਜਿਆ ॥੩੫॥"

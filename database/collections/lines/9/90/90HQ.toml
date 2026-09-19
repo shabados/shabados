@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੁਮਾ ਸ਼ਾਹਿ ਮਹਿਬੂਸ਼ੀਯਾ ਪੇਸ਼ ਖਾਦ ॥"
 page = 1409
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja immediately called the tied-up grass-cutter (the Prince),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਦਸ਼ਾਹ ਨੇ ਸਾਰਿਆਂ ਕੈਦ ਘਾਹੀਆਂ ਨੂੰ ਕੋਲ ਬੁਲਾਇਆ"

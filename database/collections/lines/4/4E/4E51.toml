@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਧੋ ਰਾਜ ਹਮਾਰੋ ਲੀਜੈ ॥੨੦॥"
 page = 966
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Please don’t desert your life, and take half of our dominion,’(20)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਬਦਲੇ) ਮੇਰਾ ਅੱਧਾ ਰਾਜ ਲੈ ਲੈ ॥੨੦॥"

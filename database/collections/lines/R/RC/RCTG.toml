@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਚਿੰਤਾ ਹਮਰੋ ਮਨ ਮਾਹੀ ॥"
 page = 974
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(She thought) ‘It is very distressful that this sinner will not let me alone now."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਇਹੀ ਵੱਡੀ ਚਿੰਤਾ ਹੈ ਕਿ ਇਹ ਪਾਪੀ ਮੈਨੂੰ ਨਹੀਂ ਛਡੇਗਾ।"

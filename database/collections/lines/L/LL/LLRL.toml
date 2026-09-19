@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਨਦੀਆ ਨਾਲੇ ਵਾਹੜੇ; ਗੰਗਿ ਸੰਗਿ ਗੰਗੋਦਕ ਹੋਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Rivers and small streams joining Ganges become the sacred river (Ganges)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਨਦੀਆਂ, ਨਾਲੇ ਤੇ ਵਾਹੜੇ ਗੰਗਾ ਨਾਲ ਮਿਲਕੇ ਗੰਗੋਦਕ ਹੋ ਜਾਂਦੇ ਹਨ।"

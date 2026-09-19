@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਨੇਮ, ਸੰਜਮ ਕਹਾ, ਕਹਾ ਗਿਆਨ ਅਗਿਆਨ ॥"
 page = 35
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What are the observance and restraint? What are the knowledge and nescience"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਿਯਮ ਕੀ ਹੈ, ਸੰਜਮ ਕੀ ਹੈ, ਗਿਆਨ ਅਤੇ ਅਗਿਆਨ ਕੀ ਹੈ?"

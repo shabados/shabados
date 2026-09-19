@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਠ ਝਰੋਖਾ ਦਈ ਦਿਖਾਈ ॥"
 page = 1075
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਝਰੋਖੇ ਵਿਚ ਬੈਠ ਕੇ ਰਾਜੇ ਨੂੰ ਵਿਖਾਲੀ ਦਿੱਤੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਦਨ ਕੀ ਤਨ ਕੰਚੁਕੀ; ਕਾਮਾ ਕਸੀ ਬਨਾਇ ॥"
 page = 920
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Very tightly, Kama (Kaamkandla) had worn a sandalwood-scented bodice,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਮਕੰਦਲਾ ('ਕਾਮਾ') ਨੇ ਚੰਦਨ ਦੀ ਅੰਗੀ ('ਕੰਚੁਕੀ') ਚੰਗੀ ਤਰ੍ਹਾਂ ਕਸੀ ਹੋਈ ਸੀ।"

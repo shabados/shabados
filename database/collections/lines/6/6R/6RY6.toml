@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਖਰੇ ਸਿਆਣੇ ਹੋਇ, ਨ ਮਨੁ ਸਮਝਾਵਹੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Even being clever, people do not make their minds understand (the futility of rituals and other allied hypocrisies)"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਬਾਹਲੇ 'ਸਿਆਣੇ' (ਚਤੁਰ ਹੋਕੇ ਲੋਕਾਂ ਨੂੰ ਤਾਂ ਸਮਝੌਤੀਆਂ ਦਿੰਦੇ, ਪਰੰਤੂ ਆਪਣੇ) ਮਨ ਨੂੰ ਸਮਝਾ ਨਹੀਂ ਸਕਦੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੌ ਲਖਿ ਹੈ ਕੋਊ ਬਾਤ; ਤ੍ਰਾਸ ਤੋ ਮੋਨਿ ਰਹੈਂਗੇ ॥"
 page = 834
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Even if one learns, fearful of you, will keep quiet."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਕੋਈ ਗੱਲ ਜਾਣ ਵੀ ਲਏਗਾ ਤਾਂ ਤੁਹਾਡੇ ਡਰ ਦੇ ਮਾਰੇ ਚੁਪ ਹੀ ਰਹੇਗਾ।"

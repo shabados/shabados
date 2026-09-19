@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੈਰੀ ਪੈ ਰਹਿਰਾਸ ਕਰਿ; ਗੁਰ ਸਿਖ ਸੁਣਿ ਗੁਰਸਿਖ ਮਨੀਬੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The true disciples of the Guru touch the feet and bow and abide by the instructions of the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪੈਰੀਂ ਪੈਣ ਦੀ ਰਹੁਰੀਤ ਕਰ ਕੇ ਗੁਰ ਸਿੱਖ੍ਯਾ ਨੂੰ ਸੁਣਕੇ ਗੁਰੂ ਦੇ ਸਿਖ ਮਨਨ ਕਰ ਕੇ ਹਨ (ਭਾਵ ਧਾਰਨ ਕਰਦੇ ਹਨ)।"

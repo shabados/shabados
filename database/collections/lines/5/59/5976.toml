@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੁਧਿ ਕੋ ਪਹਾਰ ॥੪੦੯॥"
 page = 668
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were persons of good intellect and stores of wisdom..409."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮਾਨੋ) ਬੁੱਧੀ ਦਾ ਪਹਾੜ ਹੋਵੇ ॥੪੦੯॥"

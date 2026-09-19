@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਮ ਰੇਖ ਕੀ ਗਤਿ ਹੁਤੇ; ਭਏ ਰੰਕ ਤੇ ਰਾਇ ॥"
 page = 843
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "This is how destiny prevailed, a destitute bacame Raja, she fulfilled her designs,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਰਮ ਰੇਖ (ਅਰਥਾਤ ਭਾਗ) ਦੀ ਚਾਲ ਕਰ ਕੇ ਕੰਗਲੇ ਤੋਂ ਰਾਜਾ ਬਣ ਗਿਆ।"

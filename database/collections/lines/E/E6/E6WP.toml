@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨ ਕੌ ਜਗਤ ਸੀਸ ਨਿਹੁਰਾਵੈ ॥"
 page = 1000
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Who can doubt a Rani, to whom whole word pays obeisance.’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਨੂੰ ਜਗਤ ਸਿਰ ਨਿਵਾਉਂਦਾ ਹੈ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤ੍ਰਿਣ ਅੰਦਰਿ, ਵਡਾ ਪਾਸਾਰਾ ॥੮॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "One blade of grass has infinite extension i.e.the humility becomes base of the whole world."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਘਾ ਦੇ ਅੰਦਰ ਵਡਾ ਫੈਲਾਉ ਹੈ।"

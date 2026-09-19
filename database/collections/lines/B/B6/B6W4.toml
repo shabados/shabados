@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਜਿਓ ਅਲਫ ਖਾਨੰ ਨ ਖਾਨਾ ਸੰਭਾਰਿਓ ॥"
 page = 64
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਲਫ਼ ਖ਼ਾਨ ਭਜ ਗਿਆ, (ਉਸ ਨੇ ਆਪਣਾ) ਸਾਜ਼-ਸਾਮਾਨ ਵੀ ਨਾ ਸੰਭਾਲਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਟਪਟ ਸੁਭਟ ਬਿਕਟ ਕਟਿ ਜਾਵੈ ॥"
 page = 929
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The enraged gallant ones came ahead but were cut instantly."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਝਟਪਟ ਕਠੋਰ ਸੂਰਮੇ ਕਟੇ ਜਾਂਦੇ ਹਨ।"

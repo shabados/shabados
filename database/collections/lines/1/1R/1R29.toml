@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਪੇਲੇਤਿ ਤਾਜੀ ॥੨੬੭॥"
 page = 577
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The ghosts, arising from the graves, are coming towards the battlefield, the warriors are thundering and the horses are running.267."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਘੋੜਿਆਂ ਨੂੰ ਅਗੇ ਵਲ ਪ੍ਰੇਰ ਰਹੇ ਹਨ ॥੨੬੭॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਗ੍ਰਿਹਸਤ ਧਰਮ ਅਪਾਰ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere many follow the householder’s path,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ (ਕਈ) ਗ੍ਰਿਹਸਥ ਧਰਮ ਦੀ ਪਾਲਨਾ ਕਰਦੇ ਹਨ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਦਰੋ ਪ੍ਰਯਾਇ ਅਧਿਕ ਤਿਹ ਸ੍ਵਾਵੈ ॥"
 page = 949
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now (the emissary) set off on this design everyday, and put Beg into sleep with excessive wine."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜ਼ਿਆਦਾ ਸ਼ਰਾਬ ਪਿਲਾ ਕੇ ਉਸ ਨੂੰ ਸੰਵਾ ਦਿੰਦਾ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੋਗ ਕਰਤ ਤਰੁਨਿਯਹਿ ਰਿਝਾਯੋ ॥"
 page = 1227
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੋਗ ਕਰ ਕੇ ਉਸ ਨੇ ਇਸਤਰੀ ਨੂੰ ਬਹੁਤ ਪ੍ਰਸੰਨ ਕੀਤਾ"

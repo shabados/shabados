@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਘੁ ਬੰਸੀਅਨ ਰਘੁਰਾਜ ਪ੍ਰਮਾਨ੍ਰਯੋ ॥"
 page = 625
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਘੂਬੰਸੀਆਂ ਨੇ ਰਘੁ ਰਾਜ ਵਜੋਂ ਪ੍ਰਮਾਣਿਤ ਕੀਤਾ"

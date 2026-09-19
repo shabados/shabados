@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੈ ਗੈ ਰਥ ਪੈਦਲ ਕਟੇ; ਬਚਿਯੋ ਨ ਜੀਵਤ ਕੋਇ ॥"
 page = 115
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The elephants, horses and warriors on foot were all chopped and none could survive."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘੋੜੇ, ਹਾਥੀ, ਰਥ ਅਤੇ ਪੈਦਲ (ਚੌਹਾਂ ਤਰ੍ਹਾਂ ਦੀ ਸੈਨਾ) ਕਟ ਦਿੱਤੀ ਗਈ ਸੀ (ਉਨ੍ਹਾਂ ਵਿਚੋਂ) ਕੋਈ ਵੀ ਜਿਉਂਦਾ ਨਹੀਂ ਬਚਿਆ ਸੀ।"

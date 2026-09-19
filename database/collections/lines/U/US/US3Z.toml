@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਨਕ ਅੰਗਦ ਕੋ ਬਪੁ ਧਰਾ ॥"
 page = 55
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਗੁਰੂ) ਨਾਨਕ ਨੇ (ਗੁਰੂ) ਅੰਗਦ (ਦੇ ਰੂਪ ਵਿਚ ਦੂਜਾ) ਸ਼ਰੀਰ ਧਾਰਨ ਕੀਤਾ"

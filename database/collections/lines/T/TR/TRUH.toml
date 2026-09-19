@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨੁ ਰਵਿ ਉਲਟਿ ਪਲਟ ਹ੍ਵੈ ਗਯੋ ॥"
 page = 1242
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਸੂਰਜ ਉਲਟ ਪੁਲਟ ਗਿਆ ਹੋਵੇ,"

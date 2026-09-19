@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਰਦਾਸਿ ਕਰੀ; ਪੂਰੇ ਗੁਰ ਪਾਸਿ ॥"
 page = 395
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I make supplication in the presence of the Perfect Guru."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਪੁਰਨ ਗੁਰਾਂ ਦੀ ਹਜ਼ੂਰੀ ਵਿੱਚ ਪ੍ਰਾਰਥਨਾ ਕਰਦਾ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I offer this prayer to the Perfect Guru."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਪੂਰੇ ਗੁਰੋਂ ਪਾਸ ਬੇਨਤੀ ਕਰਤਾ ਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਮੈਂ ਤਾਂ ਪੂਰੇ ਗੁਰੂ ਕੋਲ ਹੀ ਅਰਦਾਸ ਕਰਦਾ ਹਾਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰੀ = ਕਰੀਂ, ਮੈਂ ਕਰਦਾ ਹਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Nanak Le reza ahora al Perfecto Guru,"

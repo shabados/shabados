@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਕੀ ਇਨ ਲੈ ਜੜ ਮੂਲ ਕਢੀ ॥"
 page = 154
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He (the king) completely uprooted them."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੀ ਜੜ੍ਹ ਇਸ ਨੇ ਮੂਲੋਂ ਕਢ ਸੁਟੀ।"

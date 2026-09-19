@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਯਾਦ ਆਮਦਸ਼ ਬਦਤਰ ਈਂ ਬੇਵਫ਼ਾ ॥੩੨॥"
 page = 1414
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Although it may have come in your mind very menially.’(32)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਤੈਨੂੰ ਮਾੜੀ ਗੱਲ ਸੁਝੀ ਹੈ ॥੩੨॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੋਂ ਹਰ ਸ਼ਰਧਾਲੂ ਦੀ ਕਾਮਨਾ ਪੂਰੀ ਹੁੰਦੀ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹਰ ਮੁਰੀਦੇ ਸਾਹਿਬਿ ਕਾਮਸ਼ ਬਵਦ ॥੪੩੭॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "It is Him who fulfills all the strong desires of His disciples. (437) "

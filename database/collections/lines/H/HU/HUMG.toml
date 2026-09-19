@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇਰੋ ਦੇਸੁ ਕਹਾ, ਤੇਰੋ ਨਾਮ ਕਹਾ, ਰੇ ॥੨੨੪੮॥"
 page = 523
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Krishna asked, “What is your name, and which is your country?”2248."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਤੇਰਾ ਦੇਸ ਕਿਹੜਾ ਹੈ ਅਤੇ ਤੇਰਾ ਨਾਂ ਕੀ ਹੈ ॥੨੨੪੮॥"

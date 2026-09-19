@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਬਾਹਨੀਸੰ ਨਗੀਸੰ ਨਰੇਸੰ ॥"
 page = 631
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਮਹਾਨ ਸੈਨਾ ਦਾ ਸੁਆਮੀ ਹੈ, ਉਸ ਨੂੰ ਪਹਾੜੀ ਰਾਜਿਆਂ ਦਾ ਰਾਜਾ ਸਮਝੋ।"

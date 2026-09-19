@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੀਨੋ ਭਖਹੁ ਯਾਹਿ ਬਿਧਿ ਭਾਖੇ ॥੧੯॥"
 page = 1272
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤਿੰਨੋ (ਇਸ ਭੋਜਨ ਨੂੰ) ਖਾਓ, ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ ॥੧੯॥"

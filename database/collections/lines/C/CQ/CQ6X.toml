@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਰੋਮ ਤਿਹ ਤਾਹਿ ਨ ਹਰਾ ॥੮॥"
 page = 1352
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਉਸ ਨਾਲ ਉਸ ਦਾ ਇਕ ਵਾਲ ਵੀ ਵਿੰਗਾ ਨਾ ਹੋਇਆ ॥੮॥"

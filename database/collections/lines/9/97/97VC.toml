@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੇਕ ਜਗ︀ਯ ਕ੍ਰਤਬਿਯੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He may perform many types of sacrifices and actions."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕ ਤਰ੍ਹਾਂ ਦੇ ਯੱਗ ਕਰਦਾ ਫਿਰੇ,"

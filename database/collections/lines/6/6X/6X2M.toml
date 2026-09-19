@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠੈ ਨਾਦ ਭਾਰੇ ਛੁਟੈ ਚਿੰਨਗਾਰੈ ॥੪੯॥"
 page = 922
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਤੋਂ) ਭਾਰੀ ਨਾਦ ਉਠਦੇ ਹਨ ਅਤੇ ਚਿੰਗਾਰੀਆਂ ਨਿਕਲ ਰਹੀਆਂ ਹਨ ॥੪੯॥"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੀਰਥਿ ਭਰਮਸਿ; ਬਿਆਧਿ. ਨ ਜਾਵੈ ॥"
 page = 906
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and wandering at shrines, the malady is eradicated not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਧਾਰਮਕ ਅਸਥਾਨਾਂ ਤੇ ਰਟਨ ਕਰਨ ਦੁਆਰਾ ਬੀਮਾਰੀ ਦੂਰ ਨਹੀਂ ਹੁੰਦੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "and wandering around at places of pilgrimage, the disease is not taken away."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੀਰਥੋਂ ਮੇਂ ਭਰਮਤਾ ਹੈ ਇਸ ਸੇ ਭੀ (ਬਿਆਧਿ) ਤੀਨ ਤਾਪ ਵਾ ਜਨਮ ਮਰਨ ਰੂਪੁ ਪੀੜਾ ਨਹੀਂ ਜਾਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ ਤੀਰਥ ਉਤੇ (ਭੀ ਇਸ਼ਨਾਨ ਵਾਸਤੇ) ਜਾਂਦਾ ਹੈ (ਇਸ ਤਰ੍ਹਾਂ) ਉਸ ਦਾ ਕਾਮਾਦਿਕ ਰੋਗ ਦੂਰ ਨਹੀਂ ਹੋ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਭਰਮਸਿ = (ਜੇ) ਭਵੇਂਗਾ। ਬਿਆਧਿ = ਰੋਗ, ਕਾਮਾਦਿ ਰੋਗ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y aunque vague por los lugares de peregrinaje, la enfermedad no se aleja."

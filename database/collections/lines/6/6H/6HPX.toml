@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦੁਤੀਆ; ਤੇਰੀ ਮਨੀਐ ਪਾਂਤਿ ॥"
 page = 374
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Secondly, thy lineage is honoured."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਦੂਜੇ ਤੇਰੀ ਖਾਨਦਾਨੀ ਪਰਵਾਨੀ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Second, you are honored in society."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਦੂਸਰੇ ਤੇਰੀ (ਪਾਤਿ) ਪੰਗਤੀ ਮਾਨੀ ਜਾਤੀ ਹੈ ਅਰਥਾਤ ਪੰਕਤੀ ਕਾ ਅਧਿਕਾਰੀ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਦੂਜੇ, ਤੇਰੀ ਖ਼ਾਨਦਾਨੀ ਭੀ ਮੰਨੀ ਜਾਂਦੀ ਹੈ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨੀਐ = ਮੰਨ ਜਾਂਦੀ ਹੈ। ਪਾਂਤਿ = ਖ਼ਾਨਦਾਨੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "oh esposa, si eres afamada en la sociedad"

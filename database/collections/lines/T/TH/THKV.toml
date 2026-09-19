@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸੁਧੋ ਕਰਿ ਕਰਿ ਭੂਮਿ ਗਿਰਾਯੋ ॥"
 page = 521
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, when Krishna wounded Shiva and knocked him down on the earth,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬੇਸੁਧ ਕਰ ਕੇ ਧਰਤੀ ਉਤੇ ਸੁਟ ਦਿੱਤਾ।"

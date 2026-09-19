@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਤੁਰਤ ਮਾਸੁ ਕਟਿ ਲੀਨੋ ॥"
 page = 936
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਸਾਲੂ ਨੇ) ਤੁਰਤ ਉਸ ਦਾ ਮਾਸ ਕਟ ਲਿਆ"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਸਿਖ ਮਿਲਿਆ, ਪਾਪ ਪਣਿਠਾ ॥੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Meeting such Gursikhs, all the sins are removed."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖਾਂ ਦੇ ਮਿਲਣ ਨਾਲ ਪਾਪ ਦੂਰ ਹੋ ਜਾਂਦੇ ਹਨ।"

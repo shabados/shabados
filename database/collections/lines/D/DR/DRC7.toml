@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਹਰਿ; ਕਬਹੂ. ਨ ਮਨਹੁ ਬਿਸਾਰੇ ॥"
 page = 210
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Never forget the Lord God from Thy Mind."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਚਿੱਤ ਅੰਦਰ ਵਾਹਿਗੁਰੂ ਸੁਆਮੀ ਨੂੰ ਕਦੇ ਵੀ ਨਾਂ ਭੁੱਲ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Never forget the Lord, Har, Har, from your mind."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਭਗਤੋਂ ਕੇ ਦੁਖ ਹਰਿਤਾ ਹਰੀ ਕੋ ਅਪਨੇ ਮਨ ਸੇ ਕਬੀ ਨ ਭੁਲਾਓ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਕਦੇ ਭੀ ਪਰਮਾਤਮਾ ਨੂੰ ਆਪਣੇ ਮਨ ਤੋਂ ਨਾਹ ਵਿਸਾਰ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨਹੁ = ਮਨ ਤੋਂ। ਵਿਸਾਰੇ = ਬਿਸਾਰਿ, ਭੁਲਾਓ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "No te olvides nunca del Señor en tu mente,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰਮਿਤ ਭਏ ਅਰੁ ਭੇ ਮਤਵਾਰੇ ॥"
 page = 1316
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਹ ਥਕ ਗਏ ਅਤੇ ਨਸ਼ੇ ਵਿਚ ਮਤਵਾਲੇ ਹੋ ਗਏ,"

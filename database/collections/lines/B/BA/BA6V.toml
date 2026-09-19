@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਰੰਕ ਰਾਜਾ ਕਹਾ ਨਾਰ ਹੋਈ ॥"
 page = 678
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੀ ਰਾਜਾ, ਕੀ ਨਿਰਧਨ ਅਤੇ ਕੀ ਇਸਤਰੀ,"

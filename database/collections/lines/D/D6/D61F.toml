@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇਲ ਜਬੈ ਤਾਤੋ ਭਯੋ; ਤਾ ਕੀ ਦ੍ਰਿਸਟਿ ਬਚਾਇ ॥"
 page = 849
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the oil was hot enough, with stealthy looks,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਤੇਲ ਗਰਮ ਹੋ ਗਿਆ, ਤਾਂ ਉਸ ਦੀ ਦ੍ਰਿਸ਼ਟੀ ਬਚਾ ਕੇ"

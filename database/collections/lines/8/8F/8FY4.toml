@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਨ ਕੇ ਪ੍ਰਾਨ ਛੁਟਨ ਤੇ ਡਰੌ ॥੩੧॥"
 page = 893
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Every body requested hakim, ‘Please imply some antidote to release us.’(31)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸ ਦੇ ਪ੍ਰਾਣ ਨਿਕਲਣ ਤੋਂ ਡਰੋ ॥੩੧॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਗ ਪਗ ਜਗਿ ਖੰਭ ਕਹੁ ਗਾਡਾ ॥"
 page = 623
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਦਮ ਕਦਮ ਉਤੇ ਯੱਗ ਦੇ ਥਮਲੇ ਗਡੇ ਹੋਏ ਸਨ।"

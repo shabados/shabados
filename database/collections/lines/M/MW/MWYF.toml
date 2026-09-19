@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਯਕ ਬਾਰਗੀ ਦਰ ਖ਼ਰੋਸ਼ ਆਮਦੰਦ ॥੨੬॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "rushed like flies on my men.26."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਰੌਲਾ ਪਾਂਦੇ ਹੋਏ ਇਕੋ ਵਾਰ ਹੀ ਆ ਪਏ ॥੨੬॥"

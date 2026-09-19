@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿ ਧਾਰੀ ਭਾਰੀ ਮੁਕਤਾਯੰ ॥"
 page = 679
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Holding the arms and weapons in your hands"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੱਥ ਵਿਚ ਭਾਰੀ ਮੁਕਤੀ ਨੂੰ ਧਾਰਨ ਕਰਨ ਵਾਲੀ,"

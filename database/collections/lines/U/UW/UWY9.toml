@@ -1,36 +1,36 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰਾਗੁ ਗੋਂਡ ਬਾਣੀ ਨਾਮਦੇਉ ਜੀ ਕੀ ਘਰੁ ੧ ॥"
 page = 873
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Rag Gond, Hymns of Namdev ji."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਗੋਂਡ ਨਾਮਦੇਵ ਦੀ ਬਾਣੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Raag Gond, The Word Of Naam Dayv Jee, First House:"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਗੋਂਡ, ਘਰ ੧ ਵਿੱਚ ਭਗਤ ਨਾਮਦੇਵ ਜੀ ਦੀ ਬਾਣੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Rag Gond, palabras del Reverendo Nam Dev-yi."

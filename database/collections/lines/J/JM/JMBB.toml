@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇਰੇ ਜੋਰਿ ਗੁੰਗਾ ਕਹਤਾ ॥"
 page = 708
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The dumb speaks by Thy power :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਜ਼ੋਰ ਨਾਲ ਗੁੰਗਾ ਕਹਿੰਦਾ ਹਾਂ:"

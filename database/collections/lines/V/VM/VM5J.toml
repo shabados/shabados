@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਸਿਵ ਜੂ ਉਠਿ ਧਾਏ; ਸੂਲ ਸੰਭਾਰ ਕੈ ॥"
 page = 447
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Shiva holding his trident got up and ran"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵੇਲੇ ਸ਼ਿਵ ਤ੍ਰਿਸ਼ੂਲ ਲੈ ਕੇ ਉਠ ਕੇ ਦੌੜਿਆ,"

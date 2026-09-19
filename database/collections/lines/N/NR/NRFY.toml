@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਪੋ ਧਾਪੀ ਹੋਇ ਕੈ; ਨਿਆਰੇ ਨਿਆਰੇ ਧਰਮ ਚਲਾਵੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In the rat-race for selfish ends, different religions have been promulgated."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਆਪੋ ਧਾਪੀ ਹੋਕੇ ਅੱਡੋ ਅੱਡ ਧਰਮ ਤੋਰੇ ਜਾ ਰਹੇ ਹਨ (ਬੋਧ ਤੋਂ ਛੁਟ ਅਨੇਕਾਂ ਮਤ ਜਾਰੀ ਹਨ)।"

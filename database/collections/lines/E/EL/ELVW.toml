@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਚਲੇ ਰਨ ਤੇ ਭਜਿ ਕੈ; ਇਕ ਆਹਵ ਕੋ ਪਗ ਆਗੇ ਕਰੇ ਹੈਂ ॥"
 page = 417
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Someone is running away from the battlefield and someone is moving forward"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਰਣ ਵਿਚੋਂ ਭਜੇ ਜਾ ਰਹੇ ਹਨ ਅਤੇ ਇਕ ਯੁੱਧ ਲਈ ਕਦਮ ਅਗੇ ਵਧਾਉਂਦੇ ਹਨ।"

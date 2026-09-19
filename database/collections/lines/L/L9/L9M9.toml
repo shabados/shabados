@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਤੈ ਚੰਦੇਲ ਇਤੈ ਜਸਵਾਰਾ ॥"
 page = 70
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors of both armies moved in detachments, Raja of Chandel on that side and Raja of Jaswar on this side."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਧਰੋਂ ਚੰਦੇਲ (ਜਾਤਿ ਦਾ ਰਾਜਾ) ਅਤੇ ਇਧਰੋਂ ਜਸਵਾਲ ਦਾ ਰਾਜਾ ਸੀ।"

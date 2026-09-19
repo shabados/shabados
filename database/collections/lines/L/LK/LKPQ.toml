@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਬਿਧਿ ਪ੍ਰਕਾਸ ਭੂਪਤਿ ਕੀਯੋ; ਸੁਨਿ ਹਲਧਰ ਇਮ ਭਾਖਿਯੋ ॥"
 page = 470
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਜੁਗਤ ਨਾਲ ਰਾਜਾ ਪ੍ਰਗਟ ਹੋਇਆ ਹੈ। ਬਲਰਾਮ ਨੇ ਸੁਣ ਕੇ ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਿਟਿ ਗਯੋ ਸੋਕ ਦੇਹ ਕੋ ਸਭ ਹੀ ॥੨੬॥"
 page = 1015
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But when she saw his son, Anuradh, she felt all her affliction eradicated.(26)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਸ਼ਰੀਰ ਦੇ ਸਾਰੇ ਦੁਖ ਮਿਟ ਗਏ ॥੨੬॥"

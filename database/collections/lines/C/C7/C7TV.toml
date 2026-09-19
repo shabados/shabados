@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੀਤ ਭਏ ਰਾਵਣ ਕਹ ਲਿਖਾ ॥"
 page = 288
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One day explaining to women, Sita drew the portrait of Ravana on the wall,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਦਾ ਰਾਵਣ ਨਾਲ ਕੁਝ ਹਿੱਤ ਰਿਹਾ ਹੋਵੇਗਾ,"

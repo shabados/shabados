@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹਿਯੋ ਇਕੇਲੋ ਰਾਇ ਨਿਹਾਰਿਯੋ ॥"
 page = 826
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja remained alone with her and she said, ‘"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੂੰ (ਜਦ) ਇਕਲਿਆਂ ਵੇਖਿਆ,"

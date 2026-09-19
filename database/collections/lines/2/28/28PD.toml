@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਖੂਨ ਖਟੰ ॥"
 page = 114
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The bearers of canopies are running away and somewhere the blood is being flowin."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਖੂਨ ਵਹਾਇਆ ਜਾ ਰਿਹਾ ਸੀ ('ਖਟੰ')"

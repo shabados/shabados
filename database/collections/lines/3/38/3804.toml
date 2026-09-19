@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕਨ ਘਟਵੈ ਏਕ ਬਢਾਵੈ ॥"
 page = 903
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If one is terminated by Him, then the other is bestowed with life."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕਨਾਂ ਨੂੰ ਘਟਾਉਂਦਾ ਹੈ ਅਤੇ ਇਕਨਾਂ ਨੂੰ ਵਧਾਉਂਦਾ ਹੈ।"

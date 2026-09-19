@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹੌ ਕਾਢਿ ਭਗੌਤੀ ਜਾਗਿਯੋ ॥"
 page = 882
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘When the wife was fatally hurt, I took my sword out,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਮੈਂ ਜਾਗ ਕੇ ਤਲਵਾਰ ਕਢੀ।"

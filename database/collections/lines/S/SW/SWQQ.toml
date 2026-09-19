@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰੰ ਅਉਰ ਨਾਰਾਇਣੰ ਰੂਪ ਧਾਰੀ ॥"
 page = 163
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਵਿਸ਼ਣੂ) ਨਰ ਅਤੇ ਨਾਰਾਇਣ ਰੂਪ ਧਾਰ ਕੇ"

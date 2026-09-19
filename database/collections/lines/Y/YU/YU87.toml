@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਏ ਤਾਹਿ ਕੇ ਕਉਰਓ ਪਾਡਵੇਅੰ ॥੪੧॥੨੦੯॥"
 page = 145
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In his line, there were then Kaurvas and Pandavas.41.209."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੋਂ ਅਗੇ ਕੌਰਵ ਅਤੇ ਪਾਂਡਵ ਹੋਏ ॥੪੧॥੨੦੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਤਿ ਪਿਸਾਚ ਰਹੇ ਉਰਝਾਈ ॥੨੯੨॥"
 page = 703
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The rain of arrows spread on the whole sky and the ghosts and fiends also got entangled.65.292."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੂਤ ਅਤੇ ਪਿਸ਼ਾਚ ਉਲਝ ਗਏ ਹਨ ॥੨੯੨॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘੇਰਿ ਪਯਾਦਨ ਜਬ ਲਈ; ਰਹਿਯੋ ਨ ਕਛੂ ਉਪਾਇ ॥"
 page = 819
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The constables surrounded the house from all sides and seeing no escape she put the house to fire,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ (ਉਸ ਇਸਤਰੀ ਨੂੰ) ਪਿਆਦਿਆਂ ਨੇ ਘੇਰ ਲਿਆ ਅਤੇ ਕੋਈ ਉਪਾ ਬਾਕੀ ਨਾ ਰਿਹਾ।"

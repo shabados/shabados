@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਹਮ ਕਹਿਯੋ ਤੁਮ ਹੂੰ ਹਮ ਹੂੰ ਮਿਲਿ; ਜਾਹਿ ਤਹਾ ਜਹ ਹੈ ਬ੍ਰਤਿਧਾਰੀ ॥"
 page = 291
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਹਮਾ (ਨੇ ਉਸ ਨੂੰ) ਕਿਹਾ ਤੂੰ ਤੇ ਮੈਂ ਇਕੱਠੇ ਮਿਲ ਕੇ ਉਥੇ ਜਾਈਏ, ਜਿਥੇ ਵਿਸ਼ਣੂ ਰਹਿੰਦਾ ਹੈ।"

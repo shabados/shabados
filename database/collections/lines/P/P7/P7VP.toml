@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਚੰਡੀ ਚਰਿਤ੍ਰ ਉਸਤਤ ਬਰਨਨੰ ॥"
 page = 119
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Description of the Praise of Chandi Charitra:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਚੰਡੀ ਚਰਿਤ੍ਰ ਦੀ ਉਸਤਤ ਦਾ ਵਰਣਨ"

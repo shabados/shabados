@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਭਾ ਅਧਿਕ ਨ ਬਰਨੀ ਜਾਵੈ ॥"
 page = 1170
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਬਹੁਤ ਅਧਿਕ ਸ਼ੋਭਾ ਦਾ ਵਰਣਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"

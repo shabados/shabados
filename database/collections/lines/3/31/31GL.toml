@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਨ ਕੌ ਇਹੈ ਇਨਾਮੁ ਹੈ; ਭਰਤਾ ਦੇਹੁ ਮਿਲਾਇ ॥੧੬॥"
 page = 1026
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਨ੍ਹਾਂ ਦਾ ਇਹੀ ਇਨਾਮ ਹੈ ਕਿ ਇਨ੍ਹਾਂ ਨੂੰ ਪਤੀ ਮਿਲਾ ਦੇਈਏ ॥੧੬॥"

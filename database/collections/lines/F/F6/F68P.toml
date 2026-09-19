@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਭਾਜਤ ਦੁਸਟ ਬਿਲੋਕ ਜੁਧੰ ॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing which the tyrants run away from the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਨੂੰ ਦੁਸ਼ਟ ਵੇਖ ਕੇ ਯੁੱਧ-ਭੁਮੀ ਵਿਚੋਂ ਭਜ ਜਾਂਦੇ ਹਨ।"

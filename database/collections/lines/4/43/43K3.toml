@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਚੇ ਤਿਤੇ ਸਿਧਾਰੀਯੰ ॥੫੬॥"
 page = 69
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who faced him were killed and those who remained behind, ran away.56."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਉਹੀ ਬਚੇ (ਜੋ ਜੰਗ ਵਿਚੋਂ) ਖਿਸਕ ਗਏ ਸਨ ॥੫੬॥"

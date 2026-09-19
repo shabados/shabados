@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਨਾ ਨ ਜਾਤ ਤੁਮ ਅਤਿ ਬਿਅੰਤ ॥੧੦੨॥"
 page = 643
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "\"O Lord! My intellect is very low and I cannot describe Thy Vastness.102."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੈਂ) ਵਰਣਨ ਨਹੀਂ ਕਰ ਸਕਦਾ, ਤੇਰੀ (ਸ਼ੋਭਾ) ਬੇਅੰਤ ਹੈ ॥੧੦੨॥"

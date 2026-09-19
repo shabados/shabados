@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰ ਚਰਣੀ ਚਿਤੁ ਲਾਇ, ਨ ਚਲੈ ਚਲਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Those who have put their heart at the feet of Lord, never become perishable."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਓਹ ਗੁਰੂ ਦੇ ਚਰਨਾਂ ਵਿਖੇ ਮਨ ਨੂੰ ਟਿਕਾਕੇ ਕਿਸੇ ਦਾ ਚਲਾਇਆ (ਪਰੇਰਿਆ) ਹੋਇਆ ਚਲਾਇਮਾਨ ਨਹੀਂ ਹੁੰਦਾ।"

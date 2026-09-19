@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹ ਤਿਹ ਬਾਤ ਨ ਸਹਿ ਸਕ︀ਯੋ ਚਲਾ ਤੁਰਤੁ ਦੈ ਭਾਜ ॥੮॥"
 page = 878
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He could not reply and started to run away.(8) ."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਗੱਲ ਉਹ ਸਹਿ ਨਾ ਸਕਿਆ (ਭਾਵ ਸਮਝ ਨਾ ਸਕਿਆ) ਅਤੇ ਤੁਰਤ ਭਜ ਪਿਆ ॥੮॥"

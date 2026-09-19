@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਰਬ ਨਿਰੰਤਰਿ ਖਸਮੁ; ਏਕੋ ਰਵਿ ਰਹਿਆ ॥"
 page = 961
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The one Lord is pervading amidst all."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਸੁਆਮੀ ਹੀ ਸਾਰਿਆਂ ਅੰਦਰ ਰਮ ਰਿਹਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The One Lord and Master is all-pervading, permeating everywhere."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਖਸਮ! ਤੂੰ ਸਰਬ ਮੇਂ ਏਕ ਰਸ ਵਿਆਪਕ ਹੋ ਰਹਿਆ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਭਾਵੇਂ) ਖਸਮ-ਪ੍ਰਭੂ ਹੀ ਸਭ ਜੀਵਾਂ ਵਿਚ ਇਕ-ਰਸ ਵਿਆਪਕ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਿਰੰਤਰਿ = ਇਕ-ਰਸ ਸਭ ਵਿਚ। ਰਵਿ ਰਹਿਆ = ਮੌਜੂਦ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y me libere de la maldad del ego, asociándome con los Santos."

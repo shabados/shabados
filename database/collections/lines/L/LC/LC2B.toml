@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਓ ਨਾਮ ਬਸਤਸ਼ ਬਛਤਰਾ ਮਤੀ ॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But the girl, whose name was addressed as Bachtramati,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ ਆਪਣੀ ਪੁੱਤਰੀ ਨੂੰ ਵਿਆਹੁਣਾ ਚਾਹੁੰਦਾ ਹੈ) ਜਿਸ ਦਾ ਨਾਂ ਬਛਤਰਾ ਮਤੀ ਹੈ"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਬ ਮੈ. ਸਹਜਿ ਸਮਾਨੀ ॥"
 page = 830
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Now I am absorbed in celestial beatitude."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਮੈਂ ਬੈਕੁੰਠੀ ਆਨੰਦ ਅੰਦਰ ਲੀਨ ਹੋ ਗਈ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "and now, I am absorbed in celestial bliss."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਿਉਂਕਿ ਅਬ ਮੈਂ (ਸਹਜਿ) ਸਾਂਤਿ ਸਰੂਪ ਮੇਂ ਸਮਾਇ ਗਈ ਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਮੈਂ ਆਤਮਕ ਅਡੋਲਤਾ ਵਿਚ ਟਿਕ ਗਈ ਹਾਂ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਹਜਿ = ਆਤਮਕ ਅਡੋਲਤਾ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "calma y me inmerjo en la Paz del Equilibrio."

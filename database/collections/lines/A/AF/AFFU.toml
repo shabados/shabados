@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲੂਲਾ ਪੈਰੀ ਹੋਂਵਦੀ; ਟੰਗਾਂ ਮਾਰਿ ਨ ਉਠਿ ਖਲੋਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Though with feet, a child (man) is cripple and cannot stand upon his legs."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪੈਰਾਂ ਦੇ ਹੁੰਦਿਆਂ ਲੂਲ੍ਹਿਆਂ ਵਾਂਗੂੰ ਟੰਗਾਂ ਮਾਰਦਾ ਹੈ, ਉਠ ਨਹੀਂ ਖਲੋਂਦਾ।"

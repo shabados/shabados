@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਿਸੁ ਪ੍ਰਭ ਤੇ; ਸਗਲੀ ਉਤਪਤਿ ॥"
 page = 294
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "From that Lord has originated the entire creation."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਸੁਆਮੀ ਤੋਂ ਸਮੂਹ ਰਚਨਾ ਉਤਪੰਨ ਹੋਈ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The entire creation came from God."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਿਉਂਕਿ ਤਿਸ ਪ੍ਰਭੂ ਸੇ ਹੀ ਸਭ ਕੀ ਉਤਪਤੀ ਭਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀ ਸ੍ਰਿਸ਼ਟੀ ਉਸ ਪ੍ਰਭੂ ਤੋਂ ਹੋਈ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਉਤਪਤਿ = ਪੈਦਾਇਸ਼, ਸ੍ਰਿਸ਼ਟੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "ya que todo lo existente ha nacido de Él."

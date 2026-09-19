@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਧੇ ਬਾਢਵਾਰੀ ਮਹਾ ਬੀਰ ਬਾਕੇ ॥"
 page = 813
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The curved swords and other arms"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾਬੀਰ ਅਤੇ ਸ਼ਕਤੀਸ਼ਾਲੀ ਯੋਧੇ ਤਲਵਾਰਾਂ ਨਾਲ ਵਢੇ ਜਾਣ ਲਗੇ।"

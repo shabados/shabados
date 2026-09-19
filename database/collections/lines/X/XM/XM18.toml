@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਬਗਲ ਤਾਰੰਗ ਬਾਜੇ ਬਜਾਵੈ ॥"
 page = 1369
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਤੂੰਬਾ ('ਬਗਲ') ਤਰੰਗ ਆਦਿ ਵਾਜੇ ਵਜਾਏ ਜਾ ਰਹੇ ਸਨ।"

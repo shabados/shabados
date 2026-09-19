@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੁਛਾ ਕੂਣੈ ਭਾਲਦਾ; ਚਉਬਾਰੇ ਚੜ੍ਹਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Carefully watching the four corners he came to the upper room."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "('ਕੁਛ ਕੁਨਾਂ') ਸਾਰੇ ਪਾਸੇ ਦੇਖਕੇ। ਜਦ ਕੁਝ ਹੱਥ ਨਾ ਆਇਆ) ਚੁਬਾਰੇ ਜਾ ਚੜਿਆ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਵਨ ਰੂਪ, ਰਾਨੀ, ਤੁਮ ਹੋ ਜੂ ॥"
 page = 1252
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪੁਛਣ ਲਗਿਆ) ਹੇ ਰਾਣੀ! ਤੂੰ ਕਿਸ ਦਾ ਰੂਪ ਹੈਂ।"

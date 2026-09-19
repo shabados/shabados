@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਹੁਰਿ. ਉਸ ਕਾ; ਬਿਸ੍ਵਾਸੁ. ਨ ਹੋਵੈ ॥"
 page = 268
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord, again, trusts him not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ, ਮੁੜ ਉਸ ਤੇ ਇਤਬਾਰ ਨਹੀਂ ਕਰਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "and he shall not again be trusted."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਾ ਤਿਸ ਕਾ ਵਿਸਾਹੁ ਨਹੀਂ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਮੁੜ ਇਸ ਦਾ ਵਿਸਾਹ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਸ੍ਵਾਸੁ = ਵਿਸਾਹ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y la confianza no le será otorgada otra vez."

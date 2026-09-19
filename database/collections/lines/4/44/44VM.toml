@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤਿ ਚਉਕ ਤਬੈ ॥੨੭॥"
 page = 617
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her glory coveted his mind, when the king saw her, his mind was startled.27."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਚਿਤ ਵਿਚ ਹੈਰਾਨ ਹੋ ਗਿਆ ॥੨੭॥"

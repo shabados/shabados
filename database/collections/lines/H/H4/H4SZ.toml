@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜੇ ਚਉਪ ਦੂਨੀ ॥੪੨੫॥"
 page = 593
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors, with the broken limbs, fell while dancing, being absorbed in fighting, the fighters drew out their daggers with double zeal.425."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਨ੍ਹਾਂ ਨੂੰ ਵੇਖ ਕੇ ਯੋਧਿਆਂ ਨੂੰ) ਦੁਗਣਾ ਚਾਉ ਚੜ੍ਹ ਰਿਹਾ ਹੈ ॥੪੨੫॥"

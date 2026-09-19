@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸੋਈ, ਸਹਜਿ ਸਮਾਵੈ ॥੪॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Such a gurmukh absorbs himself in the equipoise."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਓਹੀ) ਗੁਰਮੁਖ (ਜੋ ਉਕਤ ਸਿਖ੍ਯਾ ਧਾਰਨ ਕਰਦਾ ਹੈ) ਸਹਜ ਪਦ ਵਿਖੇ ਸਮਾਉਂਦਾ ਹੈ।"

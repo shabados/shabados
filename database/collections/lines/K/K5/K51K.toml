@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਹਾਰੇ ਭਲੀ ਭਾਤਿ ਸੋ ਆਨਿ ਤੀਰੰ ॥"
 page = 107
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He shot his arrows very dexterously."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੀਰਾਂ ਦਾ ਚੰਗੀ ਤਰ੍ਹਾਂ ਹਮਲਾ ਕਰ ਦਿੱਤਾ।"

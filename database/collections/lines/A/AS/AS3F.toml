@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕੀ ਜਾਤ ਨ ਪ੍ਰਭਾ ਬਖਾਨੀ ॥"
 page = 1272
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਖ਼ੂਬਸੂਰਤੀ ਦਾ ਵਰਣਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"

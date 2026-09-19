@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਹਰ ਏਕ ਮਿਰਤਕ ਸੌ ਭਯੋ ॥"
 page = 975
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "An uphill task he faced, and for one whole watch he felt like a dead man."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਹ ਇਕ ਪਹਿਰ ਤਕ ਬੇਸੁੱਧ ਹੋ ਗਿਆ।"

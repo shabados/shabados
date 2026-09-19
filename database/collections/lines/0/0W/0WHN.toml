@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਪਰ ਏਕ ਤਵਾ ਕੌ ਡਾਰਿਯੋ ॥"
 page = 999
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In another cauldron, she asked her friend to sit in and covered it with an iron plate."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਉਤੇ ਇਕ ਤਵਾ (ਢੱਕਣ) ਦੇ ਦਿੱਤਾ।"

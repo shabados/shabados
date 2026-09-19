@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੀਵ ਕੀ ਆਸ ਕਉ ਤ︀ਯਾਗਿ ਤਬੈ ਸਬ ਹੀ ਰਸ ਰੁਦ੍ਰ ਬਿਖੈ ਅਨੁਰਾਗੇ ॥"
 page = 406
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were all absorbed in war, leaving the hope of their survival"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੀਉਣ ਦੀ ਆਸ ਨੂੰ ਛਡ ਕੇ ਉਸ ਵੇਲੇ ਸਾਰੇ ਹੀ ਰੌਦਰ ਰਸ ਵਿਚ ਮਗਨ ਸਨ।"

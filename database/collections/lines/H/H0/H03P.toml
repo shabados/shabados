@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਇਓ ਘੋਰ ਆਹਵ ਬਿਕਰਾਰਾ ॥"
 page = 580
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਭਿਆਨਕ ਅਤੇ ਵਿਕਰਾਲ ਯੁੱਧ ਹੋ ਰਿਹਾ ਹੈ।"

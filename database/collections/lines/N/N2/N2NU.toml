@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਿ ਆਪਨੀ ਸੇਜ ਸੁਹਾਈ ॥੮॥"
 page = 837
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was put in the jail, and the woman came back to her bed.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਇਸਤਰੀ) ਆਪਣੀ ਸੇਜ ਉਪਰ ਆ ਗਈ ॥੮॥"

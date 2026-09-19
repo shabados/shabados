@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿ ਖੰਡ ਖੰਡ ਖੰਡੇ ਗੜਵਾਰ ॥੧੭੭॥"
 page = 627
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He conquered many kings and shattered many forts.177."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਲ੍ਹਿਆਂ ਵਾਲਿਆਂ ਰਾਜਿਆਂ ਨੂੰ ਖੰਡੇ ਨਾਲ ਖੰਡ ਖੰਡ ਕਰ ਦਿੱਤਾ ਸੀ ॥੧੭੭॥"

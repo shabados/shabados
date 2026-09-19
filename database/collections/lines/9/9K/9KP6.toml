@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੱਡੇ ਸਰੋਘ ॥੯॥"
 page = 63
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With rage, they showered volley of arrows.9."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੀਰਾਂ ਦੀ ਬਰਖਾ ਕਰਨ ਲਗੇ ॥੯॥"

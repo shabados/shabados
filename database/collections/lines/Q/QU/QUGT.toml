@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਬੀਰ ਜੈਸੇ ॥"
 page = 210
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She gained consciousness and arose like a great warrior."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਤਰ੍ਹਾਂ) ਬਹਾਦਰ ਯੋਧਾ (ਮੂਰਛਾ ਤੋਂ ਉੱਠਦਾ ਹੈ)"

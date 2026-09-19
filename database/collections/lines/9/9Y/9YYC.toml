@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਸੇ ਸ੍ਵਰਗ ਮੋ ਜਾਇ, ਮਾਨੋ ਨ ਮੂਏ ॥੭॥"
 page = 1025
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਵਰਗ ਵਿਚ ਜਾ ਵਸੇ ਹਨ ਮਾਨੋ ਮੋਏ ਹੀ ਨਾ ਹੋਣ ॥੭॥"

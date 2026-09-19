@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੇਈ ਜਪਤ ਜਾਪ ਮਨਿ ਚਿਤ ਖੋਲਿ ॥"
 page = 647
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many are standing on one hand and many are reciting mantras with fullness of mind"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਖੁਲ੍ਹੇ ਮਨ ਚਿਤ ਨਾਲ ਜਾਪ ਜਪਦੇ ਹਨ।"

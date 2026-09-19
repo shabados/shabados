@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਤੇ ਕਬ ਕੁਲ ਸਰਬ ਰਿਝਾਊਾਂ ॥੧॥"
 page = 198
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I an narriating a very ancient story, hearing which all the poets will be pleased.1."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨਾਲ ਸਾਰੇ ਕਵੀ-ਕੁਲ ਨੂੰ ਪ੍ਰਸੰਨ ਕਰਦਾ ਹਾਂ ॥੧॥"

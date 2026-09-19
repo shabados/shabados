@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਦੇਖਾ ਦਿਲੀ ਕੋ ਏਸਾ ॥"
 page = 1341
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਦਿੱਲੀ ਦੇ ਬਾਦਸ਼ਾਹ ਨੂੰ ਵੇਖਿਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਰਿ ਮਮਟਿ ਯਹਿ ਤਹ ਦਯੋ; ਸੋਕ ਹ੍ਰਿਦੈ ਉਪਜਾਇ ॥੧੨॥"
 page = 897
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With afflicted heart, she pushed him up the tower.(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਨ ਵਿਚ ਦੁਖੀ ਹੋ ਕੇ (ਰਾਣੀ ਨੇ) ਉਸ ਨੂੰ ਮੰਮਟੀ ਉਤੇ ਚੜ੍ਹਾ ਦਿੱਤਾ ॥੧੨॥"

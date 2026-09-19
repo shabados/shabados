@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੇਵਡੁ ਆਖਾ, ਸਿਰਜਣਹਾਰਾ ॥੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "When His creation can not be counted how can one know how great the Creator is."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜਦ ਦਾਤਾਂ ਅਤੋਲ ਹਨ ਮੈਂ) ਕਿੱਕੁਰ ਆਖ ਸਕਾਂ (ਕਿ) ਸਿਰਜਣਹਾਰ (ਦਾਤਾ ਆਪ) ਕਿੱਡਾ ਵੱਡਾ ਹੈ।"

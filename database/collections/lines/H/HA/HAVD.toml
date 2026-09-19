@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਮੰ ਰੁਦ੍ਰ ਮੈਣੰ ॥"
 page = 207
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram was surrounded by the forces of demons like Shiva by the forces of Cupid (Kamdev)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਰੁਦ੍ਰ ਨੂੰ ਕਾਮ ਨੇ ਘੇਰਿਆ ਸੀ।"

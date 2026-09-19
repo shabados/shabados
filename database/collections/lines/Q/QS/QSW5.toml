@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੈ ਲੈ ਹਥਿ ਹਥਿਯਾਰਨ ਪਰੇ ॥"
 page = 1008
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing this phenomenon, the contenders flew into the rage and, takingtheir weapons came forward."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੱਥਾਂ ਵਿਚ ਹਥਿਆਰ ਲੈ ਕੇ ਆ ਪਏ।"

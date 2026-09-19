@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਨਾਮ ਤੁਪਕ ਕੇ ਸਭ ਹੀ; ਚਤੁਰ ਬਿਚਾਰੀਐ ॥੭੪੪॥"
 page = 754
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Uttering firstly “Udar-Shvet-charam” and then adding the words “Naath Ripu”, comprehend all the names of Tupak.744."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਸਭ ਲੋਗ ਨਾਮ ਤੁਪਕ ਦੇ ਸਮਝ ਲਵੋ ॥੭੪੪॥"

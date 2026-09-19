@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਗਰ ਸ਼ੋਰਸ਼ੇ ਕੈਬਰੇ ਕੀਨਹ ਕੋਸ਼ ॥"
 page = 1391
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There the spears and lances provided a dreadful sound"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਤੀਰਾਂ ਦੇ ਮਾਰੂ ਰੌਲੇ ਨੇ"

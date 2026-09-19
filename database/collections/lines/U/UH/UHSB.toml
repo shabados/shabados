@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਰਵਰ ਕਹੈ ਕ੍ਰੋਧ ਕਿਯ ਭਾਰਾ ॥"
 page = 1298
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਹਿਣ ਲਗੇ ਕਿ ਪੀਰ ('ਸਰਵਰ') ਨੇ ਸਾਡੇ ਉਤੇ ਬਹੁਤ ਕ੍ਰੋਧ ਕੀਤਾ ਹੈ"

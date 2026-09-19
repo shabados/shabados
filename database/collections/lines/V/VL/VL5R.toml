@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਮੱਕ ਚੰਦ੍ਰ ਸੀਸਿਯੰ ॥"
 page = 42
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The moon is bearning on his head"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੇ) ਸਿਰ ਉਤੇ ਚੰਦ੍ਰਮਾ ਚਮਕ ਰਿਹਾ ਹੈ"

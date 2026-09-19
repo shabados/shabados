@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਹਰਨਾਕਸ; ਹਰੇ ਪਰਾਨ ॥"
 page = 874
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "God took the life of Harnakhash,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਵਾਹਿਗੁਰੂ ਨੇ ਹਰਨਾਖਸ਼ ਦੀ ਜਾਨ ਲੈ ਲਈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Lord took the life of Harnaakhash,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਰੀ ਨੇ ਹੀ ਹਰਨਾਖਸ ਕੇ ਪ੍ਰਾਨ (ਹਰੇ) ਦੂਰ ਕੀਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਨੇ ਹਰਨਾਖਸ਼ (ਦੈਂਤ) ਨੂੰ ਮਾਰਿਆ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਰੇ ਪਰਾਨ = ਜਾਨ ਲੈ ਲਈ, ਮਾਰਿਆ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mi Señor es Aquél que destruyó a Jarnakash;"

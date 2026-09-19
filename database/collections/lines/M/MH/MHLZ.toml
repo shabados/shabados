@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਬਦੇ ਹੀ ਫਿਰਿ ਓਪਤਿ ਹੋਵੈ ॥"
 page = 117
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Through the Word the creation evolves again."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਬਚਨ ਰਾਹੀਂ ਹੀ ਉਤਪਤੀ ਮੁੜ ਪ੍ਰਕਾਸ਼ਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Through the Shabad, creation happens again."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਮਹਾਂਪਰਲੋ ਕੇ ਪੀਛੇ ਫਿਰ ਭੀ ਉਤਪਤੀ ਸਬਦ ਸੇ ਹੋਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਨਾਸ ਤੋਂ ਪਿੱਛੋਂ) ਮੁੜ ਪ੍ਰਭੂ ਦੇ ਹੁਕਮ ਵਿਚ ਹੀ ਜਗਤ ਦੀ ਉਤਪੱਤੀ ਹੁੰਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਓਪਤਿ = ਉਤਪੱਤੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "por la Palabra surge la evolución de la creación otra vez."

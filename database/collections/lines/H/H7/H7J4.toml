@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁ ਕਿਸ਼ਤੀ ਦਰਾਮਦ ਬ ਯਕ ਜਾ ਦੁ ਤਨ ॥"
 page = 1419
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "United into one from two boats were two bodies,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋ ਕਿਸ਼ਤੀਆਂ ਵਿਚ ਵਖੋ ਵਖ ਆਏ ਦੋ ਸ਼ਰੀਰ ਇਕ ਥਾਂ ਤੇ ਆ ਗਏ।"

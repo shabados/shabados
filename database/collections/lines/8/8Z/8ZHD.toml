@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪ ਕਰੇ ਪਰਮੇਸਰ ਸੋਊ ॥"
 page = 71
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The successors of both, Baba (Nanak) and Badur were created by God Himself."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਪਰਮੇਸ਼ਵਰ ਨੇ ਸਿਰਜਿਆ ਹੈ।"

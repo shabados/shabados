@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੇਵਾ ਕਰੀ ਅਧਿਕ ਦਿਨ ਰਾਤਾ ॥"
 page = 182
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They performed various types of mediation, worship and service day and service day and night for a long time."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦਿਨ ਰਾਤ ਬਹੁਤ ਸੇਵਾ ਕੀਤੀ।"

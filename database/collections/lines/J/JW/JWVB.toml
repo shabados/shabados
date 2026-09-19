@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦੂਧਹਿ ਦੁਹਿ; ਜਬ ਮਟੁਕੀ ਭਰੀ ॥"
 page = 1166
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "When the pitcher was filled with the milk,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਚੋਏ ਹੋਏ ਦੁੱਧ ਨਾਲ ਮਟਕੀ ਭਰ ਗਈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "When the pitcher was filled with milk,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਬ ਦੂਧ ਚੋ ਕਰ ਕੇ ਮਟਕੀ ਭਰ ਦਈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਦੁੱਧ ਚੋ ਕੇ ਜਦੋਂ ਉਹਨਾਂ ਮਟਕੀ ਭਰ ਲਈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਦੁਹਿ = ਚੋ ਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuando la cubeta de leche fue llenada,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਮੂੰ ਭਜੀ ਭੂਪਨ ਲਖੀ; ਚਲੇ ਜੁਧ ਕੇ ਕਾਜ ॥"
 page = 431
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When these kings saw the army running away, they marched forward to fight"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਜੀ ਜਾਂਦੀ ਸੈਨਾ ਰਾਜਿਆਂ ਨੇ ਵੇਖੀ ਅਤੇ ਯੁੱਧ ਲਈ ਚਲ ਪਏ।"

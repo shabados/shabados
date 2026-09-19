@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਟਕੌ ਪਟਕੌ ਚਿਤ ਤੇ ਝਟ ਦੈ ਨ ਛੂਟੇ ਇਹ ਭਾਤਿ ਸੋ ਨੇਹ ਲਗ︀ਯੋ ॥"
 page = 952
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘In spite oftrying hard to forsake, it cannot be deserted."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੇ ਪ੍ਰੇਮ ਨੂੰ ਮੈਂ) ਚਿਤ ਤੋਂ ਝਟਕੇ ਦੇ ਕੇ ਪਟਕਣਾ ਚਾਹੁੰਦੀ ਹਾਂ, ਪਰ ਇਸ ਤਰ੍ਹਾਂ ਦਾ ਨੇਹੁ ਲਗਾ ਹੈ ਕਿ ਛੁਟਦਾ ਹੀ ਨਹੀਂ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੂਰਖ ਨਾਰਿ ਭੇਦ ਨਹਿ ਪਾਯੋ ॥੩॥"
 page = 882
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He started to love her many fold, but she could not comprehend this.(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਉਸ ਮੂਰਖ ਇਸਤਰੀ ਨੇ ਭੇਦ ਨਾ ਸਮਝਿਆ ॥੩॥"

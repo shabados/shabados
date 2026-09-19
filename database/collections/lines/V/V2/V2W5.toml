@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਰਮ ਸਿੰਘ ਬਿਲੋਕਿਯੋ; ਜਬ ਤਿਨ ਜਾਇ ਕੈ ॥"
 page = 1011
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But when she saw Beram Singh,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਰਾਣੀ) ਨੇ ਜਦ ਬੈਰਮ ਸਿੰਘ ਨੂੰ ਜਾ ਕੇ ਵੇਖਿਆ"

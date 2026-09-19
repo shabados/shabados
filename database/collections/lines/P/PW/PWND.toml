@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਦੈਵ ਸਾਧ ਅਧੀਨ ਹੈ ॥੫॥੧੩॥"
 page = 128
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Merciful and Eternal and is always honoured by all.5.13."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਦਾ ਸੰਤਾਂ ਦੇ ਅਧੀਨ ਹੈਂ ॥੫॥੧੩॥"

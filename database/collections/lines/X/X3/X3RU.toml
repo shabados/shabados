@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਰਾਸੰਧਿ ਦਲੁ ਸਜਿ ਰਨਿ ਆਯੋ ॥"
 page = 471
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਰਾਸੰਧ ਸੈਨਾ ਸਜਾ ਕੇ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਆ ਗਿਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋ ਸਕੈ ਕਬਿ ਮਹਿਮਾ ਉਚਾਰ ॥"
 page = 636
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, the charm of her beauty is described, and no poet can utter her greatness"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਮਹਿਮਾ ਨੂੰ ਕਿਹੜਾ ਕਵੀ ਕਹਿ ਸਕਦਾ ਹੈ।"

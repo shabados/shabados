@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਕਲੰਕ ਰੂਪ ਅਪਾਰ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That unblemished Entity is Infinite,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਿਸ਼ਕਲੰਕ ਰੂਪ ਵਾਲਾ ਅਪਰ ਅਪਾਰ ਹੈ,"

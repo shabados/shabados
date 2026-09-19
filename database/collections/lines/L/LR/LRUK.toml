@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਲ ਰੂਪ ਭਗਵਾਨ ਭਨੈਬੋ ॥"
 page = 158
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Lord, Who is known as KAL"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ) ਭਗਵਾਨ ਨੂੰ ਕਾਲ-ਰੂਪ ਕਿਹਾ ਜਾਂਦਾ ਹੈ,"

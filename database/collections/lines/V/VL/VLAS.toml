@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਊਧਵ ਕੋ ਬ੍ਰਿਖਭਾਨ ਸੁਤਾ; ਬਚਨਾ ਇਹ ਭਾਤਿ ਸੋ ਉਚਰਿਯੋ ਹੈ ॥"
 page = 391
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਊਧਵ ਨਾਲ ਰਾਧਾ ਨੇ ਇਸ ਤਰ੍ਹਾਂ ਨਾਲ ਬਚਨ ਕਹੇ ਹਨ।"

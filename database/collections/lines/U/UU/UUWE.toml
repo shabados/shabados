@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੀਰਘ ਦੇਹ ਸਲੋਨੀ ਸੀ ਮੂਰਤਿ; ਤੋ ਸਮ ਭਛ ਕਹਾ ਹਮ ਪੈ ਹੈ ॥"
 page = 443
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Your body is long and elegant, where shall we get such food?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੀ) ਲੰਬੀ ਦੇਹ ਅਤੇ ਸਲੋਣੀ ਸੂਰਤ ਹੈ, ਤੇਰੇ ਵਰਗਾ ਭੋਜਨ ਅਸੀਂ ਕਿਥੋਂ ਪ੍ਰਾਪਤ ਕਰਾਂਗੇ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਿਉ ਥਣਿ ਚੰਬੜਿ ਚਿਚੁੜੀ; ਲੋਹੂ ਪੀਐ, ਦੁਧੁ ਨ ਖਾਵੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The tick clings to the cow's udder but drinks blood instead of milk."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਗਊੂ ਦੇ) ਥਣ ਕੋਲ ਚਮਚਿੱਚੜ ਚੰਬੜਦਾ ਹੈ, ਲਹੂ ਪੀਂਦਾ ਹੈ ਤੇ ਦੁੱਧ ਨਹੀਂ ਪੀਂਦਾ।"

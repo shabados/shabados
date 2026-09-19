@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾਹਿ ਮਛਿੰਦਰ ਕਰਿ ਠਹਰਾਯੋ ॥"
 page = 1211
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜਾ ਨੇ) ਉਸ ਨੂੰ ਮਛਿੰਦ੍ਰ ਮੰਨ ਲਿਆ"

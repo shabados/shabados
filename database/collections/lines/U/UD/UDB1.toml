@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮਾਯੂ ਦਰਖ਼ਤੇ ਚੁ ਸਰਵੇ ਚਮਨ ॥੨੬॥"
 page = 1414
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Slim and tall like a cypress tree, who are you?(26)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਰੂ ਵਰਗੇ ਪਤਲੀ ਅਤੇ ਭਾਗਾਂ ਭਰੀ ਕੌਣ ਹੈਂ? ॥੨੬॥"

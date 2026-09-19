@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਹੀ ਕੀ ਗਲ ਹੈ # ਉਸ ਲਈ ਤਾਂ ਸਾਰਾ ਸੰਸਾਰ ਹੀ ਹੈਰਾਨ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਤੂ ਚਿਹ ਬਾਸ਼ੀ ਆਲਮੇ ਹੈਰਾਨਿ ਊ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "What to speak of you alone! The whole world is perplexed indeed for Him,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਦਿਹਾੜੇ ਨਾਵਣ ਆਈ ਦੁਰਗਸਾਹ ॥"
 page = 120
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One day Durga came for a bath."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਦਿਨ (ਜਦੋਂ) ਦੁਰਗਾ ਦੇਵੀ ਨਹਾਉਣ ਲਈ ਆਈ,"

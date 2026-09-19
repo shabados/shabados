@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਦਾੜ ਗਾੜਾ ਧਰੀ ਦੁਖ︀ਯ ਹਰਣੀ ॥"
 page = 118
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the remover of the anguish of saints by destroying the tyrants with Thy dreadful teeth."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦ੍ਰਿੜ੍ਹ ਦਾੜ੍ਹਾਂ ਧਾਰਨ ਕਰਨ ਵਾਲੀ ਅਤੇ ਦੁਖਾਂ ਨੂੰ ਹਰਨ ਵਾਲੀ ਨੂੰ ਨਮਸਕਾਰ ਹੈ;"

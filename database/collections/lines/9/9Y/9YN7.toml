@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਸੂਰ ਅਸੋਭ ਤਾ ਕਹ; ਜਾਨਹੀ ਸਭ ਲੋਕ ॥"
 page = 696
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "This warrior named Shaurai (gratification) is known by all people"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਸੂਰਮੇ ਦਾ ਨਾਂ 'ਅਸੋਭ' ਹੈ ਅਤੇ ਉਸ ਨੂੰ ਸਭ ਲੋਗ ਜਾਣਦੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਖੰ ਮਾਰ ਕੂਕੇ ॥੨੬॥"
 page = 51
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In great anger the warriors rush from all sides shouting “kill, kill”.26."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੂੰਹ ਤੋਂ ਮਾਰੋ-ਮਾਰੋ ਬੋਲ ਰਹੇ ਹਨ ॥੨੬॥"

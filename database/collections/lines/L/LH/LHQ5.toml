@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਰਠ ਦੇਇ ਸੁਤਾ ਇਕ ਤਾ ਕੇ ॥"
 page = 1295
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੋਰਠ ਦੇਈ ਨਾਂ ਦੀ ਉਸ ਦੀ ਇਕ ਪੁੱਤਰੀ ਸੀ"

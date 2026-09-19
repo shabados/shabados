@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਨ ਸਿੰਘ ਸੈਨਾ ਜਾਦਵੀ; ਦੀਨੀ ਘਨੀ ਖਪਾਇ ॥"
 page = 408
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਦ) ਧਨ ਸਿੰਘ ਨੇ ਯਾਦਵਾਂ ਦੀ ਬਹੁਤ ਸੈਨਾ ਖਪਾ ਦਿੱਤੀ,"

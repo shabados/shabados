@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਧਸੰਗਤਿ ਵਿਟਹੁ, ਕੁਰਬਾਣੈ ॥੧੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And goes to sacrifice his self unto the holy congregation."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧ ਸੰਗਤ ੳਤੋਂ ਕੁਰਬਾਣ ਜਾਂਦੇ ਹਨ (ਜਿਥੋਂ ਏਹ ਦਾਤਾਂ ਲਭਦੀਆਂ ਹਨ)।"

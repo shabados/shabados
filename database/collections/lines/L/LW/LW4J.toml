@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਹਬਸ਼ੀ ਬਰੁਦ ਦੁਜ਼ਦ ਦੀਨਾਰ ਜ਼ਰਦ ॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the slave took away the golden crest (sun set)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਬਸ਼ੀ (ਚੋਰ) ਨੇ ਪੀਲੀ ਮੋਹਰ ਚੁਰਾ ਲਈ (ਭਾਵ-ਸੂਰਜ ਡੁਬ ਗਿਆ)"

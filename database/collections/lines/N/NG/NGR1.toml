@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਦ੍ਵੈ ਅਨੰਤ ਉਪਮਾ ਅਤੋਲ ॥"
 page = 38
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Non-dual, Endless and of Immeasurable (Unweighable) Praise"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦ੍ਵੈਤ ਤੋਂ ਮੁਕਤ, ਅੰਤ ਤੋਂ ਬਿਨਾ ਅਤੇ ਅਤੁਲ ਉਪਮਾ ਵਾਲਾ ਹੈਂ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੀਤ ਬਸਨ ਬਨਮਾਲ; ਮੋਰ ਕੋ ਮੁਕਟ ਸੁ ਧਾਰੈ ॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The yellow robes, garlands of flowers around the neck and peacock- crown on the head, were exalting."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੀਲੇ ਬਸਤ੍ਰ, ਬਨਮਾਲਾ, ਮੋਰ-ਮੁਕਟ ਧਾਰਨ ਕੀਤੇ ਹੋਏ ਸਨ।"

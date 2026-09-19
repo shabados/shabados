@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਰ ਬਰ ਅਕਾਲ ॥੧੬੭॥"
 page = 9
 line = 9
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Lord thou art supreme and Immortal. 167.!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਭ ਤੋਂ ਵੱਡਾ ਅਤੇ ਕਾਲ ਤੋਂ ਪਰੇ ਹੈਂ ॥੧੬੭॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਗੁਰ ਬਰ, ਅਕਾਲ ॥੧੬੭॥"

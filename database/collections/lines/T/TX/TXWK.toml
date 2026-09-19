@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਮ ਕਹੈ ਬੈਣ ਤਜ ਭ੍ਰਾਤ ਕਾਨ ॥"
 page = 250
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Coming near the younger brother Vibhishan said that,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਆਪਣੇ) ਭਰਾ (ਰਾਵਣ ਦੀ) ਪ੍ਰਵਾਹ ਛੱਡ ਕੇ (ਲੱਛਮਣ ਨੂੰ ਸਮਾਝਾਇਆ ਕਿ ਇਸ ਦਾਓ) ਨਾਲ"

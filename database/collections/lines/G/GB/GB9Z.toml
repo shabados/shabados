@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਪੇ ਕਰਤਾ. ਆਪੇ ਭੁਗਤਾ ॥"
 page = 1047
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He Himself is the Creator and Himself the Enjoyer."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਆਪ ਕਰਤਾਰ ਹੈ ਤੇ ਆਪ ਹੀ ਅਨੰਦ ਮਾਣਨ ਵਾਲਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He Himself is the Creator, and He Himself is the Enjoyer."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਹੀ ਕਰਮੋਂ ਕਾ ਕਰਤਾ ਹੈ ਪੁਨਃ ਆਪ ਹੀ ਤਿਨੋਂ ਕੇ ਫਲੋਂ ਕਾ ਭੋਗਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਆਪ ਹੀ (ਜੀਵਾਂ ਨੂੰ) ਪੈਦਾ ਕਰਨ ਵਾਲਾ ਹੈ, ਆਪ ਹੀ (ਜੀਵਾਂ ਵਿਚ ਬੈਠ ਕੇ ਪਦਾਰਥਾਂ ਨੂੰ) ਭੋਗਣ ਵਾਲਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰਤਾ = ਪੈਦਾ ਕਰਨ ਵਾਲਾ। ਭੁਗਤਾ = (ਜੀਵਾਂ ਵਿਚ ਬੈਠ ਕੇ) ਭੋਗਣ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él Mismo es el Creador Absoluto, Él Mismo es quien goza de Su Creación,"

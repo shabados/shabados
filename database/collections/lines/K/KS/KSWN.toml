@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉੱਠੈ ਕੜਾਕ ॥੧੮॥"
 page = 66
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors enthusiastically strike their weapons, creating clattering sound.18."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕੜ-ਕੜ (ਦੀ ਧੁਨ) ਉਠਦੀ ॥੧੮॥"

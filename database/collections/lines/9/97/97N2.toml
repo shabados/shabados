@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਦੁ ਨਾਇਕ ਨਾਇਕਾ ਬਖਾਨੋ ॥"
 page = 764
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਜਦੁ ਨਾਇਕ ਨਾਇਕਾ' ਸ਼ਬਦ ਕਹੋ।"

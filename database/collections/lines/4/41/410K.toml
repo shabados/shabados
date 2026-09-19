@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਜੁਛਟਾ ਅਰੁ ਮੈਨਪ੍ਰਭਾ ਸੰਦੇਸ ਬਾਚ ॥"
 page = 394
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Vidyuchhata and Mainprabha:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿੱਜਛਟਾ ਅਤੇ ਮੈਨਪ੍ਰਭਾ ਦੇ ਸੰਦੇਸ਼ ਕਹੇ:"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਨ ਕੇ ਪੇਟ ਪੁਤ੍ਰ ਜੋ ਹ੍ਵੈ ਹੈ ॥"
 page = 1026
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਦੇ ਪੇਟ ਵਿਚੋਂ ਜੋ ਬੱਚਾ ਪੈਦਾ ਹੋਵੇਗਾ,"

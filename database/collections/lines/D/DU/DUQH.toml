@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਤਹਿ ਸੀਸ ਝੁਕਾਇ ਕੈ; ਪੁਨਿ ਬੋਲਿਯੋ ਨ੍ਰਿਪ ਬੈਨ ॥"
 page = 908
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja had bowed his head before his mother and said,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਤਾ ਨੂੰ ਸਿਰ ਝੁਕਾ ਕੇ ਰਾਜਾ ਫਿਰ (ਇਸ ਤਰ੍ਹਾਂ) ਬੋਲਿਆ"

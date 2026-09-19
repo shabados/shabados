@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਟ ਪਟ ਚਕ੍ਰ ਇੰਦ੍ਰ ਉਠਿ ਭਗਾ ॥੮੩੧॥"
 page = 286
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Even Yajnas were performed at one place, seeing which Indra wondered and fled away.831."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਰਤੀ ਵਿੱਚ ਅਨੇਕਾਂ ਹੀ ਹੋਰ ਕਰਮ ਕੀਤੇ ॥੮੩੨॥"

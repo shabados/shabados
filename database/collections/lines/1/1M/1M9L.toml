@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਧੇ ਗੋਲ ਸਾਮੁਹੇ ਆਈ ॥"
 page = 928
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She raided through her army and rounded the enemy forces."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਗੋਲ ਘੇਰਾ (ਵਿਯੂਹ) ਬਣਾ ਕੇ ਸਾਹਮਣੇ ਆਈ।"

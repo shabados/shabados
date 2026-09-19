@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨਸਾ. ਏਕ ਮਾਨਿ ਹਾਂ ॥"
 page = 409
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Cherish but one desire."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੇਵਲ ਇਕ ਇੱਛਿਆ ਹੀ ਧਾਰਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Cherish one desire only:"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸੰਤ ਬੁਧੀ ਮੇਂ ਏਕ ਕੋ ਹੀ ਮਾਨਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਮੇਰੇ ਮਨ!) ਇਕ (ਪਰਮਾਤਮਾ ਦੇ ਮਿਲਾਪ) ਦੀ ਤਾਂਘ (ਆਪਣੇ ਅੰਦਰ) ਕਾਇਮ ਕਰ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨਸਾ = {मनीषा} ਇੱਛਾ। ਮਾਨਿ = ਮੰਨ, ਪੱਕੀ ਕਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ten este único deseo,"

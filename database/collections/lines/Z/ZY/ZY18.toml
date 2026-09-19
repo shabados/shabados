@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਮਤਕਾਰ ਉਠੈ ॥੪੩੪॥"
 page = 245
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The lances are overturning and being used miraculously.434."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚਿੰਗਾਰੇ ਨਿਕਲਦੇ ਹਨ ॥੪੩੪॥"

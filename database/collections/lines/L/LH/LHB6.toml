@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਬੀਰ ਸੀ ਜਾਨਿਯੈ; ਤ੍ਰਿਯਾ ਨ ਸਮਝੀ ਜਾਇ ॥੬॥"
 page = 843
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She reflected herself to be a great warrior.(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸੂਰਵੀਰ ਜਿਹੀ ਲਗਦੀ ਸੀ, ਇਸਤਰੀ ਨਹੀਂ ਸਮਝੀ ਜਾ ਸਕਦੀ ਸੀ ॥੬॥"

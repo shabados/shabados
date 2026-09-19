@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੋਗਨ ਰੂਪ ਧਨੰਤਰ ਪੇਖ︀ਯੋ ॥"
 page = 624
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The lustful women considered him as the god of love and the diseases thought of him as the incarnation of Dhanvantri"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰੋਗੀਆਂ ਨੇ ਧਨੰਤਰੀ ਰੂਪ ਵਜੋਂ ਜਾਣਿਆ।"

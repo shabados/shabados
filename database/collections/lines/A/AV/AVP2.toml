@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਸਰਬਤ੍ਰ ਮੋਹੈ ॥੨੪੬॥"
 page = 655
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His body had been smeared with ashes and all were getting allured towards him.246."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰਿਆਂ ਨੂੰ ਮੋਹ ਰਿਹਾ ਹੈ ॥੨੪੬॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇ ਭਏ ਸਰਬ ਬਿਦਿਆ ਨਿਧਾਨ ॥੧੬੭॥"
 page = 648
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who came and caught the feet of Dutt, they all became the treasure of learning.167."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਾਰੇ ਵਿਦਿਆ ਨਿਧਾਨ ਹੋ ਗਏ ॥੧੬੭॥"

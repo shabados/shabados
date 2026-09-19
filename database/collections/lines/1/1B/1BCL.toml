@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਜੰ ਬੇਦ ਚਰਚਾ ॥੬੭੭॥"
 page = 271
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brothers cleansed the dust from the feet and matted hair of Ram. They worlshipped him in royal way and the Brahmins recited the Vedas.677."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਬਾਦ ਵਿੱਚ) ਬ੍ਰਾਹਮਣਾਂ ਨੇ ਵੇਦ ਪਾਠ ਕੀਤਾ ॥੬੭੭॥"

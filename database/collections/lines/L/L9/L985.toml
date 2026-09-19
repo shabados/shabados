@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਕਹਾ ਜਾਨ ਪਸੁ ਪਾਵੈ ॥੪॥"
 page = 961
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Throwing arrows with both the hands, he would not let any animal escape.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੋਂ (ਭਲਾ) ਕਿਹੜਾ ਪਸ਼ੂ ਬਚ ਸਕਦਾ ਸੀ ॥੪॥"

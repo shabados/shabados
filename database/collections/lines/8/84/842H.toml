@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਟਾ ਲਟਾ ਮਿਲਿ ਧਰਤਿ ਵਿਚਿ; ਹੋਇ ਮੂਲ ਅਗੰਮੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "These flourishing branches ultimately entering the earth again attain the form of roots."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜੜ੍ਹਾਂ ਦੀਆਂ ਡਾਲੀਆਂ ਧਰਤੀ ਨਾਲ ਮਿਲਕੇ ਫੇਰ ਮੁੰਡ ਬਣਕੇ (ਮਾਨੋਂ) ਉਗਮ ਪਈਆਂ ਹਨ।"

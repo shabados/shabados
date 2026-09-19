@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਰਫੰਤ ਭਟੰ ਗਰਜੰ ਗਜੰ ॥"
 page = 167
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors are writhing and the elephants are roaring in such a way,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮੇ ਤੜਪਦੇ ਸਨ, ਹਾਥੀ ਗਜਦੇ ਸਨ"

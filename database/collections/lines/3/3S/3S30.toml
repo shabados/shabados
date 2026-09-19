@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਲੰਬ ਨ ਕਰੋ ਪ੍ਰਾਤ ਹੋਤੋ ਪਧਾਰੇ ॥"
 page = 830
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Let us go quick, and before the day breaks,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੇਰੀ ਨਾ ਕਰੋ, ਸਵੇਰ ਹੁੰਦਿਆਂ ਹੀ ਉਥੇ ਪਹੁੰਚ ਜਾਈਏ"

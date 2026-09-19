@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਹੂੰ ਓਰ ਬਾਕੇ ਰਥੀ ਬੀਰ ਗਾਜੇ ॥"
 page = 1382
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਹਾਂ ਪਾਸੇ ਰਥਾਂ ਵਾਲੇ ਬਾਂਕੇ ਸੂਰਮੇ ਗਜਣ ਲਗੇ।"

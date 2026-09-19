@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਤੇ ਨਾਮੁ ਬਿਅੰਤ ਕਹਾ︁ਯੋ ॥"
 page = 157
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Therefore thou art called ‘Breant’ (the Boundless Lord)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਤੇ (ਤੇਰਾ) ਨਾਂ 'ਬੇਅੰਤ' ਪ੍ਰਚਲਿਤ ਹੋਇਆ ਹੈ।"

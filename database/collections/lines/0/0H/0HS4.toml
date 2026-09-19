@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਿਖਿਆ ਕਾ; ਸਭੁ ਧੰਧੁ ਪਸਾਰੁ ॥"
 page = 1145
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "All the strifes are but the extension of mammon."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਬਖੇੜੇ, ਨਿਰੇ ਪੁਰੇ ਮਾਇਆ ਦਾ ਹੀ ਖਿਲਾਰਾ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All of his conflicts are extensions of his corruption."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੰਪੂਰਨ ਧੰਧਾ ਬਿਸ੍ਯੋਂ ਕਾ ਪਸਾਰਾ ਹੂਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਗਤ ਵਿਚ) ਮਾਇਆ ਦਾ ਹੀ ਸਾਰਾ ਧੰਧਾ ਹੈ, ਮਾਇਆ ਦਾ ਹੀ ਸਾਰਾ ਖਿਲਾਰਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਖਿਆ = ਮਾਇਆ। ਧੰਧੁ = ਖਲਜਗਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Todo el problema viene por estar involucrado con Maya, la ilusión,"

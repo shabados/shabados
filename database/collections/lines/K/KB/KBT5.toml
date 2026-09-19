@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭਗਤੁ ਸੋਈ; ਕਲਿ ਮਹਿ ਪਰਵਾਨੁ ॥"
 page = 888
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and he alone is the approved saint in the Darkage,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕੇਵਲ ਉਹ ਹੀ ਕਲਯੁਗ ਅੰਦਰ ਪ੍ਰਮਾਣੀਕ ਸੰਤ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "he alone is approved in this Dark Age of Kali Yuga,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋਈ ਕਲਯੁਗ ਮੇਂ ਭਗਤ ਪ੍ਰਮਾਨੀਕ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹੀ ਅਸਲ ਭਗਤ ਹੈ, ਉਹੀ ਜਗਤ ਵਿਚ ਮੰਨਿਆ-ਪ੍ਰਮੰਨਿਆ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਲਿ ਮਹਿ = (ਭਾਵ) ਜਗਤ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Únicamente el esta aprobado en estos tiempos oscuros del Kali Yuga,"

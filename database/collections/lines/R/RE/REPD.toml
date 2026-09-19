@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਪ ਕੀ ਦੇਹ ਤਜੀ ਉਨ ਹੂੰ; ਇਕ ਸੁੰਦਰ ਮਾਨੁਖ ਦੇਹ ਧਰਿਓ ਹੈ ॥"
 page = 371
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing the words of his father, Krishna pierced the body of the snake, who manifested himself as a beautiful man (after relinquishing the body of the snake)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਸਰਪ ਦੀ ਦੇਹ ਛਡ ਦਿੱਤੀ ਅਤੇ ਇਕ ਸੁੰਦਰ ਮਨੁੱਖ ਦੇਹ ਧਾਰਨ ਕਰ ਲਈ ਹੈ।"

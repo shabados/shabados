@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਬਿਧਿ ਤਿਨੋ ਭਯੋ ਉਪਹਾਸਾ ॥"
 page = 73
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ (ਬੇਮੁਖਾਂ ਨਾਲ) ਇਸ ਤਰ੍ਹਾਂ ਦਾ ਮਖੌਲ ਹੋਇਆ।"

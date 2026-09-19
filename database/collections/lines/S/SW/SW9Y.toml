@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਰਮਰਿ ਧਰਤਾ ॥"
 page = 213
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Parashuram, the wielder of axe,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰਸੁਰਾਮ) ਕੁਹਾੜਾ ਚੁੱਕੀ ਫਿਰਦਾ ਸੀ,"

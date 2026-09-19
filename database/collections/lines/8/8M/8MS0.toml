@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮਜਨੀ ਗ੍ਰਿਹ ਜਨਮ; ਬਿਧਾਤੈ ਮੁਹਿ ਦਿਯਾ ॥"
 page = 827
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘God gave me birth into the house of a prostitute and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਧਾਤਾ ਨੇ ਮੈਨੂੰ ਵੇਸਵਾ ਦੇ ਘਰ ਜਨਮ ਦਿੱਤਾ ਹੈ।"

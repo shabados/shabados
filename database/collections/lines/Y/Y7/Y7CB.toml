@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜੇ ਘਰੁ ਭੰਨੈ ਪਾਹਰੂ; ਕਉਣੁ ਰਖਣਹਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "If the watchman breaks open the house, then, who else could be a protector."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਰਾਖਾ ਹੀ ਘਰ ਭੰਨਣ ਲਗ ਜਾਵੇ ਤਾਂ ਕੌਣ ਰੱਖਿਆ ਕਰ ਸਕਦਾ ਹੈ?"

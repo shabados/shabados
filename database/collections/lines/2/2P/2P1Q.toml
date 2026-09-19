@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪਤਿ ਸੁੰਭ ਕੋ ਭਾਤ ਹੌ ਕਹ︀ਯੋ ਬਚਨ ਸੁਕਚਾਤ ॥੮੨॥"
 page = 83
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“I am the brother of king Sumbh,” then the added with some hesitation,82"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਮੈਂ ਰਾਜੇ ਸੁੰਭ ਦਾ ਭਰਾ ਹਾਂ। ਫਿਰ ਝਕਦੇ ਹੋਇਆਂ ਬੋਲਿਆ ॥੮੨॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਥੋ ਸੁ ਕੁਮਾਰ ਅਧਿਕ ਤਨ ਹਾਰਿਯੋ ॥"
 page = 994
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Himself he was tired and he was carrying with him Sahiban as well,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਜੇ ਸੋਹਲ ਨੌਜਵਾਨ ਸੀ, ਇਸ ਲਈ ਸ਼ਰੀਰ ਬਹੁਤ ਥਕ ਗਿਆ"

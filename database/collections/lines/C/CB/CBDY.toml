@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਉਮੈ ਰੋਗੁ ਨ ਕਟਈ, ਓਹੁ ਵੈਦੁ ਨ ਲਾਈਐ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Engage not a physician who cannot cure the malady of pride."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਹਕੀਮ ਨਾ ਲਾਈਏ ਜਿਹੜਾਂ ਹਉਮੈ ਦਾ ਰੋਗ ਨਾ ਦੂਰ ਕਰੇ।"

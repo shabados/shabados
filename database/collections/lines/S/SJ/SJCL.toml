@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘੁਮੀ ਪੇਖ ਸੁਭਟ ਰਨ ਹੂਰੰ ॥੫੯੦॥"
 page = 261
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The trumpets resounded violently in the war and seeing the mighty warriors the heavenly damsels advanced towards them again.590."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਿਆਂ ਨੂੰ ਵੇਖਣ ਲਈ ਰਣ ਵਿੱਚ ਹੂਰਾਂ ਘੁੰਮਣ ਲੱਗੀਆਂ ਹਨ ॥੫੯੦॥"

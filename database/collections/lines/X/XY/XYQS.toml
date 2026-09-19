@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮਾਨ ਜਾਇ ਪਾ ਪਰੈਂ ॥੧੯੨॥"
 page = 219
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The idols of gods were established and all were bowing with respect to the gods, expressing their gratitude.192."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਦੇ) ਜਾ ਕੇ ਆਦਰ ਪੂਰਵਕ ਪੈਰੀਂ ਲੱਗਿਆ ਜਾ ਰਿਹਾ ਸੀ ॥੧੯੨॥"

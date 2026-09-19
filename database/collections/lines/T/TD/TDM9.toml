@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਪਹ ਖ਼ਾਨਹ ਆਮਦ ਹਮਹ ਮਉਜ ਮਉਜ ॥੬੦॥"
 page = 1402
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the troops departed for their abodes.(60)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਬੜੀ ਮੌਜ ਨਾਲ (ਸਾਰਿਆਂ ਰਾਜਿਆਂ ਦੀ) ਸੈਨਾ ਡੇਰਿਆਂ ਉਤੇ ਆ ਗਈ ॥੬੦॥"

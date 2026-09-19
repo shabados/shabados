@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸੁਹੜੁ ਤਿਲੋਕਾ ਸੂਰਮਾ; ਸਿਖੁ ਸਮੁੰਦਾ ਸਨਮੁਖੁ ਸਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Brave is Tiloko of Suhar caste and Samunda, another Sikh, always remains before the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਤਿਲੋਕਾ ਸੁਹੜ, ਸੂਰਮਾ ਸਿੱਖ ਤੇ ਸਮੁੰਦਾ ਸ੍ਰੇਸ਼ਟ ਸਨਮੁਖ ਹੈ।"

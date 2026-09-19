@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਚ︀ਯੋ ਜੁਧ ਕ੍ਰੁਧੰ ਮਹਾ ਬਿਕਰਾਲੰ ॥"
 page = 145
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who in great fury waged a terrible war."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾ ਭਿਆਨਕ ਅਤੇ ਕਹਿਰ ਭਰਿਆ ਯੁੱਧ ਹੋਇਆ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੌਸ ਮਿਲਨ ਕੀ ਹ੍ਰਿਦੈ ਬਢਾਈ ॥"
 page = 1273
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਮਿਲਣ ਦੀ ਇੱਛਾ ਹਿਰਦੇ ਵਿਚ ਵਧਾ ਲਈ।"

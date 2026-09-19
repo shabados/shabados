@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਉ ਸੰਗ ਮੀਨਨ ਕੇ ਲਰ ਕੈ ਤਿਨ ਤ︀ਯਾਗ ਸਭੋ ਮਨੋ ਬਾਰਿ ਧਰਇਯਾ ॥੪੮੦॥"
 page = 342
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whatever happened with the gopis, the poet Shyam tells about it saying that they seemed like fish writhing after quarrelling and separating themselves from the sea.480."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਉਂ ਮੱਛੀਆਂ ਨਾਲ ਲੜਾਈ ਕਰ ਕੇ ਮਾਨੋ ਸਮੁੰਦਰ ਉਨ੍ਹਾਂ ਦਾ ਤਿਆਗ ਕਰ ਕੇ ਚਲਾ ਗਿਆ ਹੋਵੇ ॥੪੮੦॥"

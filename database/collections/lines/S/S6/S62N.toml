@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਗੜਦੰਗ ਸੈਨਾ ਲਾਗੜਦੰਗ ਲਾਜੀ ॥"
 page = 260
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The army felt ashamed on remembering the defeat"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਬੰਦਰਾਂ ਦੀ) ਸੈਨਾ ਲੱਜਾਵਾਨ ਹੋਈ।"

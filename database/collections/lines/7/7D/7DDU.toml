@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ︀ਯਾਹਿ ਬਰਾਤੀ ਜਾਇ ਹੈ ਲਾਜ ਨ ਐਹੈ ਤੋਹਿ ॥੧੦॥"
 page = 993
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘If the others took her away after marriage, won’t you be ashned of yourself?’(10)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਬਰਾਤੀ ਮੈਨੂੰ ਵਿਆਹ ਕੇ ਲੈ ਜਾਣਗੇ ਤਾਂ ਤੈਨੂੰ ਲਾਜ ਨਹੀਂ ਲਗੇਗੀ ॥੧੦॥"

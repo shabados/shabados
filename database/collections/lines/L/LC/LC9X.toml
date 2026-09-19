@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬੈ ਝੂਠੁ ਮਾਨੋ, ਜਿਤੇ ਜੰਤ੍ਰ ਮੰਤ੍ਰੰ ॥"
 page = 708
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Consider all Yantras and Mantras as false and consider all those religions as hollow,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਤਨੇ ਵੀ ਜੰਤ੍ਰ ਮੰਤ੍ਰ ਹਨ, ਸਭ ਨੂੰ ਝੂਠ ਮੰਨੋ।"

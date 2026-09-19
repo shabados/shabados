@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਗ਼ਰ ਜ਼ਨ ਨ ਖ਼ੁਦ ਦਸਤ ਅੰਦਾਖ਼ਤਨ ॥"
 page = 1399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Neither he mishandles other person’s woman,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਕਿਸੇ ਦੂਜੇ ਦੀ ਇਸਤਰੀ ਨੂੰ ਆਪਣਾ ਹੱਥ ਨਹੀਂ ਪਾਉਂਦਾ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਅ ਮੇਰ ਅਕਾਸ ਨਿਵਾਸ ਛਿਤੰ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He hath Created the Earth Sumeru mountain and the sky the Earth hath been made the abode for living!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੇ) ਭੂਮੀ, ਸੁਮੇਰ ਪਰਬਤ ਅਤੇ ਆਕਾਸ਼ (ਦੀ ਸਿਰਜਨਾ ਕਰ ਕੇ) ਧਰਤੀ ਨੂੰ ਨਿਵਾਸ ਦਾ ਸਾਧਨ ਬਣਾਇਆ,"

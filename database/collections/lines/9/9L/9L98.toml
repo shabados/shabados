@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਚਤ ਨਾਗਰਿ ਗਾਵਤ ਗਾਥੀ ॥"
 page = 629
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The horses were neighing"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀਆਂ ('ਨਾਗਰਿ') ਨਚ ਰਹੀਆਂ ਸਨ ਅਤੇ ਗਾਥਾ ਗਾ ਰਹੀਆਂ ਸਨ।"

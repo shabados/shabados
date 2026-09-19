@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਪਤਿਤ, ਤੇਰੋ ਬਧਿ ਕਰਿ ਹੈ ॥੨੪੩੮॥"
 page = 545
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Arjuna! we do not fear you, you are a great sinner, we shall kill you.”2438."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਹਾ ਪਾਪੀ! (ਅਜ ਅਸੀਂ) ਤੇਰਾ ਬਧ ਕਰਦੇ ਹਾਂ ॥੨੪੩੮॥"

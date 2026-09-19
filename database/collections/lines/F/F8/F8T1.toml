@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਗਰ ਪਾਵਟਾ ਬਹੁ ਬਸੈ; ਸਾਰਮੌਰ ਕੇ ਦੇਸ ॥"
 page = 896
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Paonta City was established in the country of Sirmaur,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਿਰਮੌਰ ਦੇਸ਼ (ਰਿਆਸਤ) ਵਿਚ (ਇਕ) ਪਾਉਂਟਾ (ਨਾਂ ਦੀ) ਨਗਰੀ ਚੰਗੀ ਤਰ੍ਹਾਂ ਵਸਦੀ ਹੈ।"

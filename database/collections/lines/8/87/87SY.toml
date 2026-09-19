@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯੌ ਸੁਨਿ ਬਚਨ ਅਚਰਜ ਹ੍ਵੈ; ਕੋਪ ਕੀਓ ਨ੍ਰਿਪ ਸੁੰਭ ॥੧੦੪॥"
 page = 86
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing these words and in astonishment, the king Sumbh became furious.104.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਬਚਨ ਸੁਣ ਕੇ ਹੈਰਾਨ ਹੋਏ ਰਾਜੇ ਸੁੰਭ ਨੇ ਕ੍ਰੋਧ ਕੀਤਾ ॥੧੦੪॥"

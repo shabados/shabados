@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਸ ਦੀ ਉਮੀਦ ਫਲ ਆਈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਚੂੰ ਉਮੀਦਸ਼ ਸੂਰਤਿ ਹਾਸਲ ਗ੍ਰਿਫ਼ਤ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, he raises the banner of veneration and maturity high in the sky.(105)        "

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਉ ਚਿਤਵਾ ਮ੍ਰਿਗ ਪੇਖ ਕੈ ਦਉਰਤ; ਸਵਛ ਨਰੇਸ ਪੈ ਤਿਉ ਹਰਿ ਧਾਯੋ ॥"
 page = 425
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Just as seeing the deer, the leopard falls upon them, in the same manner, Krishna fell upon Svachh Singh"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਚਿਤਰਾ ਹਿਰਨ ਨੂੰ ਵੇਖ ਕੇ ਦੌੜਦਾ ਹੈ, ਤਿਵੇਂ ਸ੍ਵਛ ਸਿੰਘ ਉਤੇ ਕ੍ਰਿਸ਼ਨ ਨੇ ਧਾਵਾ ਕਰ ਦਿੱਤਾ।"

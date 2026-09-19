@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਾਵਤ ਚੌਪਿ ਚੜੇ ਚਟਕੀਲੇ ॥"
 page = 1362
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਮੰਗ ਭਰੇ ਬੜੀ ਫੁਰਤੀ ਨਾਲ ਜਾ ਪੈਂਦੇ ਸਨ।"

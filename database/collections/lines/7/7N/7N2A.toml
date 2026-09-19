@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁ ਦਹਿ ਹਜ਼ਾਰ ਅਸਪੋ ਚੁ ਦਰਯਾਇ ਨੀਲ ॥੧੧੮॥"
 page = 1405
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And twelve thousand lightening horses were slain.(118)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨੀਲ ਦਰਿਆ ਦੀ ਚਾਲ ਚਲਣ ਵਾਲੇ ੧੨ ਹਜ਼ਾਰ ਘੋੜੇ ਮਾਰੇ ਗਏ ॥੧੧੮॥"

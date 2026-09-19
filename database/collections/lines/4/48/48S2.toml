@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹ ਕਹ ਸੁ ਕੂਕਤ ਜੋਗਣੀ ॥"
 page = 197
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sound of he tabors of vampires and the cries of the Yoginis are being heard."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਹ-ਕਹ ਕਰਦੀਆਂ ਜੋਗਣਾਂ ਕੂਕ ਰਹੀਆਂ ਸਨ।"

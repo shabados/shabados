@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਗੁਰੂ ਅੰਤ੍ਰੀਵ ਗਿਆਨ ਦਾ ਮਾਲਕ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਮੁਰਸ਼ਦਿ ਊ ਸਾਹਿਬਿ ਅਦਰਾਕ ਹਸਤ ॥੨੮੦॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He is desirous of condoning the sins of the populace,"

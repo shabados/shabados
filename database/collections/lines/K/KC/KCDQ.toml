@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਏ ਸਾਜਨ; ਕਛੁ ਕਹਹੁ ਉਪਾਇਆ ॥"
 page = 251
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O friend, tell me of some device."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਿੱਤ੍ਰ! ਮੈਨੂੰ ਕੋਈ ਤਰਕੀਬ ਦੱਸ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O friend, tell me some way,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਹਾਂ ਪੁਰਸੋ! ਕੋਈ ਉਪਾਉ ਕਥਨ ਕਰੀਏ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੱਜਣ! ਕੋਈ ਐਸਾ ਇਲਾਜ ਦੱਸ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਏ = ਹੇ! ਉਪਾਇਆ = ਇਲਾਜ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh amigo, dime de alguna forma para salir de esto,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੈਨਨ ਸੈਨ ਬੁਲਾਇ; ਸਹਚਰੀ ਢਿਗ ਲਈ ॥"
 page = 1144
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅੱਖ ਦੇ ਇਸ਼ਾਰੇ ਨਾਲ ਸਖੀ ਨੂੰ ਆਪਣੇ ਕੋਲ ਬੁਲਾ ਲਿਆ।"

@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਭਿੱਤ੍ਰੈ ॥੯੯॥"
 page = 6
 line = 7
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the Fearless Lord.99."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਾ ਹੀ ਕੋਈ ਡਰ ਹੈ ॥੯੯॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਨ ਭਿੱਤ੍ਰੈ ॥੯੯॥"

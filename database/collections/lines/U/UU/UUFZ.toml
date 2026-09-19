@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਖੇਲ ਪਉਢੇ ਹਠੀ ਫਾਗ ਜੂਪੰ ॥੪੩॥"
 page = 160
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "It appeared that the group of persistent youths was playing Holi.43."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਹਠੀਲੇ (ਵੀਰ) ਹੋਲੀ ਖੇਡ ਕੇ ਸੁੱਤੇ ਹੋਣ ॥੪੩॥"

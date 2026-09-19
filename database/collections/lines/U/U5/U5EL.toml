@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਜ, ਹਮ ਮਹਾ ਕਾਲ ਕੋ ਮਾਨੈ ॥"
 page = 1199
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਬ੍ਰਾਹਮਣ! ਮੈਂ (ਕੇਵਲ) ਮਹਾ ਕਾਲ ਨੂੰ ਮੰਨਦੀ ਹਾਂ"

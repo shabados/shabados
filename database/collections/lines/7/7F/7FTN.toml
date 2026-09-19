@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੋ ਮੁਕਤਾ; ਸਾਗਰ ਸੰਸਾਰਾ ॥"
 page = 101
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "is delivered from the world ocean."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਜਗਤ ਸਮੁੰਦਰ ਤੋਂ ਮੁਕਤ ਹੋ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Is liberated from the world-ocean."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਪੁਰਸ਼ ਸੰਸਾਰ ਸਮੁੰਦ੍ਰ ਸੇ (ਮੁਕਤਾ) ਛੂਟ ਜਾਤਾ ਹੈ, ਭਾਵ ਪਾਰ ਹੋ ਜਾਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਇਸ ਸੰਸਾਰ-ਸਮੁੰਦਰ (ਦੇ ਵਿਕਾਰਾਂ) ਤੋਂ ਮੁਕਤ ਹੋ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੁਕਤਾ = ਵਿਕਾਰਾਂ ਤੋਂ ਆਜ਼ਾਦ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Uno es llevado a través de este mar de la existencia."

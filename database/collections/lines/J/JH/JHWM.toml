@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਖਤ ਅੰਗ ਸੰਗ ਸੈਨਾ ਸੁਨਿ ॥"
 page = 650
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦਕਸ਼ ਪ੍ਰਜਾਪਤੀ (ਦੇ ਘਰ) ਮੁਨੀ (ਦੱਤ) ਦਾ"

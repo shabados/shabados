@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੰਧ ਸੁਗੰਧਿ ਅਵੇਸੁ ਕਰਿ; ਚੋਆ ਚੰਦਨੁ ਕੇਸਰੁ ਕਾਜੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Mixing many fragrances, the camphor, sandal and saffron have been created."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਕਈ ਗੰਧੀਆਂ ਸੁਗੰਧੀਆਂ ਦੇ ਮਿਲਾਪ ਕਰ ਕੇ ਚੋਆ ਚੰਦਨ ਅਰ ਕੇਸਰ ਕੀਤੇ (ਅਥਵਾ ਕੰਮ ਲਾਇਕ ਬਣਾਏ)"

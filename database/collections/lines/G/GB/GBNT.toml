@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾਹਿ ਮਰੇ ਬਹੁ ਬਾਰ ਜਿਯਾਯੋ ॥"
 page = 1270
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਕਚ) ਨੂੰ ਮਰੇ ਹੋਇਆਂ (ਪਹਿਲਾਂ) ਬਹੁਤ ਵਾਰ ਜੀਵਿਤ ਕਰਵਾਇਆ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਮ ਪੁਰ ਗਏ ਸਹਿਤ ਨਿਜੁ ਰਾਜਾ ॥੮॥"
 page = 1281
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਰਾਜੇ ਸਮੇਤ ਜਮਪੁਰੀ ਨੂੰ ਚਲੇ ਗਏ ॥੮॥"

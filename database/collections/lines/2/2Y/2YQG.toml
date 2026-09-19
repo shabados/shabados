@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਵਿ ਕੀ ਕਰ ਕੰਜ ਪੈ ਮੰਡਿ ਰਹੀ ॥੧੫੦੮॥"
 page = 447
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "It appeared that the ray of the sun was hovering over the lotus.1508."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮਾਨੋ) ਸੂਰਜ ਦੀ ਕਿਰਨ ਕਮਲ ਦੇ ਫੁਲ ਉਤੇ ਪੈ ਰਹੀ ਹੋਵੇ ॥੧੫੦੮॥"

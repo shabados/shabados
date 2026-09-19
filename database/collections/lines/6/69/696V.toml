@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਥਾ ਅਨੰਤ ਉਪਮਾ ਅਗਾਤ ॥"
 page = 139
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "It is difficult to describe the king of three ages, their story is endless and the Praise indescribable."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਉਂਕਿ ਉਨ੍ਹਾਂ ਦੀ) ਕਥਾ ਅਮੁਕ ਹੈ ਅਤੇ ਉਪਮਾ ਕਥਨ ਤੋਂ ਪਰੇ ਹੈ ('ਅਗਾਤ')"

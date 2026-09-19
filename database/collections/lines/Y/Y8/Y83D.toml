@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਸੋ ਸਾਚ ਤਵਨ ਕੋ ਲਹਿਯੋ ॥੧੨॥"
 page = 891
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Roop Kala was after all not telling lies. I have recognised her truthfulness now.’(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਮੈਂ ਉਸ ਦੇ ਸਚ ਨੂੰ ਸਮਝ ਲਿਆ ਹੈ ॥੧੨॥"

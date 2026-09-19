@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਜੰਗ ਦੇ ਮੈਦਾਨਿਾਂ ਦਾ ਸ਼ੂਕਦਾ ਨਾਗ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦਮਾਂ ਅਜ਼ਦਹਾਇ ਬ ਮੈਦਾਨਿ ਰਜ਼ਮ ॥੧੨੩॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, he is the hissing snake of the battlefronts. (123)"

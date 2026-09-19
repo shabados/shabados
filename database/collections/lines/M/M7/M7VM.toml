@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਤ੍ਰੀਆਨੀ ਛੋਰ ਕੈ; ਨਰ ਨਾਹ ਨੀਚਨਿ ਰਾਵ ਹੈ ॥"
 page = 554
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Leaving the functions of Kshatriyas, the kings will perform disgraceful tasks"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਛਤ੍ਰਾਣੀਆਂ ਨੂੰ ਛਡ ਕੇ ਰਾਜਾ ਲੋਗ ਨੀਚ ਇਸਤਰੀਆਂ ਨੂੰ ਭੋਗਣਗੇ।"

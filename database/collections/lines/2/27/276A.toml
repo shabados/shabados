@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਵਸ ਚਾਰ ਕੋ ਪੇਖਨੋ; ਅੰਤ ਖੇਹ ਕੀ ਖੇਹ ॥੪੧॥"
 page = 905
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Of five elements, which at the end are bound to parish.(41)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਾਰ ਦਿਨ ਦਾ ਤਮਾਸ਼ਾ ('ਪੇਖਨੋ') ਹੈ, ਅੰਤ ਨੂੰ ਮਿੱਟੀ ਮਿੱਟੀ ਵਿਚ (ਰਲ ਜਾਂਦੀ ਹੈ) ॥੪੧॥"

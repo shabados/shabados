@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਰਹਵਤੀ ਪੁਰ ਕੌ ਸੁਖ ਦਿਯੋ ॥੧੪॥"
 page = 1281
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਿਰਹਵਤੀ ਨਾਂ ਦੇ ਨਗਰ ਨੂੰ ਸੁਖ ਦਿੱਤਾ ॥੧੪॥"

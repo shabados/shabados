@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੋਗ ਕਹੈ ਮਕਾ ਕਹ ਗਈ ॥"
 page = 1203
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੋਕੀਂ ਕਹਿੰਦੇ ਕਿ ਮੱਕੇ ਨੂੰ ਗਈ ਹੈ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੜਗਨ ਈਸ੍ਵਰ ਪੁਨਿ ਅਤੁਲ ਬਲ ॥"
 page = 624
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਤਲਵਾਰ ਦਾ ਸੁਆਮੀ ਅਤੇ ਅਤੁਲ ਬਲ ਵਾਲਾ ਸੀ"

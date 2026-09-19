@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਨਿਕ ਮਹੇਸ; ਬੈਸਿ ਧਿਆਨੁ ਧਰਹਿ ॥"
 page = 1235
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Millions of Shivas sit and fix their attention on Him."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜਾ ਹੀ ਸ਼ਿਵਜੀ ਬਹਿ ਕੇ ਉਸ ਨਾਲ, ਆਪਣੀ ਬਿਰਤੀ ਜੋੜਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Many Shivas sit in deep meditation."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕ ਸ਼ਿਵਜੀ ਬੈਠੇ ਹੂਏ ਧਿਆਨ ਧਰ ਰਹੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕਾਂ ਹੀ ਸ਼ਿਵ ਬੈਠ ਕੇ ਉਸ ਦਾ ਧਿਆਨ ਧਰ ਰਹੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਹੇਸ = ਮਹੇਸ਼, ਸ਼ਿਵ। ਬੈਸਿ = ਬੈਠ ਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y millones de Shivas Lo contemplan sólo a Él;"

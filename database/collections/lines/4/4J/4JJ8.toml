@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਬੇਦ ਬਿਆਕਰਣ ਬਿਦਿਆ ਬਿਚਾਰੰ ॥੧੧॥੧੭੯॥"
 page = 143
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Vyas was the great scholar of Vedas and the learning of Grammar.11.179."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾ ਵਿਚਾਰਕ ਵਿਆਸ ਨੂੰ ਕੋਲ ਬੁਲਾਇਆ ਅਤੇ ਚੰਗੀ ਤਰ੍ਹਾਂ ਸਲਾਹ ਕਰਨ ਲਗਾ ॥੧੧॥੧੭੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਲ ਗੁਨਿਜਨਨ, ਸੁਨਤ ਭਨੀਜੈ ॥੧੧੮੪॥"
 page = 796
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Vaaridhini”, add the word “Pati ari” and speak the names of Tupak for the talented people.1184."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਨੂੰ ਸਾਰੇ ਗੁਣੀ ਜਨੋ! ਸੁਣ ਕੇ ਕਥਨ ਕਰੋ ॥੧੧੮੪॥"

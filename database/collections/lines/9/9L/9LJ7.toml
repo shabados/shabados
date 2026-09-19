@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਤੇ ਨਿਰਖਿ ਨਾਰਿ ਤਿਹ ਗਈ ॥"
 page = 1297
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਹ ਰਾਣੀ ਉਸ ਨੂੰ ਵੇਖ ਕੇ ਗਈ,"

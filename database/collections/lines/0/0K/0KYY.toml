@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਨਿਕ ਤੀਰਥ; ਮਜਨੁ ਇਸਨਾਨੁ ॥"
 page = 184
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "If includes baths and ablutions at many places of pilgrimage."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਵਿੱਚ ਅਨੇਕਾ ਯਾਤ੍ਰਾ-ਅਸਥਾਨਾ ਦੇ ਨ੍ਹਾਉਣੇ ਅਤੇ ਇਸ਼ਨਾਨ ਆ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "In it are the many sacred shrines of pilgrimage and cleansing baths."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕ ਤੀਰਥੋਂ ਕੇ ਪੂਰਬੋਂ ਕੇ ਇਸਨਾਨ ਕਾ ਫਲ੍ਹ ਹੋਵੇਗਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ ਸਿਮਰਨ ਹੀ) ਅਨੇਕਾਂ ਤੀਰਥਾਂ ਦਾ ਇਸ਼ਨਾਨ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਜਨੁ = {मज्जन = dip} ਚੁੱਭੀ, ਇਸ਼ਨਾਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "En su nombre están todos los santuarios sagrados de peregrinaje y aguas de purificación."

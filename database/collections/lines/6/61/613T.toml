@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਖ ਸੂਖਤ ਜੀ ਜੀ ਤਿਹ ਕਰਤੇ ॥"
 page = 1047
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਜੀ ਜੀ ਕਰਦਿਆਂ ਉਸ ਦਾ ਮੂੰਹ ਸੁਕਦਾ ਸੀ"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਪਤਹੁ ਪਰਗਟ ਹੋਇ ਕੈ; ਭਸਮੰਤ ਕਰਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "That unmanifest fire becoming manifest reduces all to ashes."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਦਿੱਸਣ ਵਾਲੀ ਦਸ਼ਾ ਤੋਂ ਪ੍ਰਗਟ ਹੋਕੇ ਉਨ੍ਹਾਂ ਨੂੰ ਸੁਆਹ ਕਰ ਦੇਂਦੀ ਹੈ।"

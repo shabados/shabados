@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਵ ਰੰਕ ਸਭਹੂੰਨ ਨਿਹਾਰਾ ॥"
 page = 1275
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਅਤੇ ਰੰਕ (ਅਮੀਰ ਅਤੇ ਗ਼ਰੀਬ) ਸਭ ਨੇ ਵੇਖਿਆ।"

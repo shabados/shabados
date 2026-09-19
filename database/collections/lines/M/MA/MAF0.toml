@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਰ ਨਰ ਮੁਨਿ ਸਭ ਕੋ ਮਨ ਮੋਹੈ ॥"
 page = 652
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The white body of the great sage was alluring the gods, men and sages"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਦੇਵਤਿਆਂ, ਮਨੁੱਖਾਂ ਅਤੇ ਮੁਨੀਆਂ ਸਭ ਦੇ ਮਨ ਨੂੰ ਮੋਹ ਰਿਹਾ ਸੀ।"

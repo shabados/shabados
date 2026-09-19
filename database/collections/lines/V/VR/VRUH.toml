@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਨਕ ਅਵਟਿ ਸਾਚੇ ਜਨੁ ਢਾਰੀ ॥੨॥"
 page = 1324
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਜ ਲਗਦਾ ਸੀ) ਮਾਨੋ ਸੋਨਾ ਪੰਘਾਰ ਕੇ ਸੰਚੇ ਵਿਚ ਢਾਲੀ ਗਈ ਹੋਵੇ ॥੨॥"

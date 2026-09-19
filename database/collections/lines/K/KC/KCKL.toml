@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਓਅੰਕਾਰੁ ਅਬੋਲੁ, ਚੋਜ ਵਿਡਾਣੀਐ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The wonder and power of Oankft is indescribable."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਦਾ ਕਾਰਕ) 'ਓਅੰਕਾਰ' ਹੈ, ਬਚਨ ਥੋਂ ਬਾਹਰਾ ਹੈ, (ਉਸਦੇ) ਚੋਜ ਅਚਰਜ ਰੂਪ ਹਨ, (ਓਹ ਕੀ ਹਨ?)"

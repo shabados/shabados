@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਖ ਕਰਨੀ ਤਰੁਣੀ ਸਸਿ ਮੁਖੰ ॥"
 page = 661
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That comely lady was the remover of all sufferings, giver of happiness and moon-faced"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁਖਾਂ ਨੂੰ ਕਰਨ ਵਾਲੀ, ਚੰਦ੍ਰਮੁਖੀ ਮੁਟਿਆਰ,"

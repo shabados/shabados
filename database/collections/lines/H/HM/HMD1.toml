@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਤੇ ਅਧਿਕ ਮਤ ਹ੍ਵੈ ਸੋਯੋ ॥"
 page = 949
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਤੋਂ (ਤੁਸੀਂ) ਅਧਿਕ ਮਸਤ ਹੋ ਕੇ ਸੌਂ ਗਏ"

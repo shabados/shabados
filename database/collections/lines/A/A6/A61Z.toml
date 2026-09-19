@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਦ੍ਵੈਖ ਨ ਦਾਗ ਨ ਦੋਖ ਗਣੰ ॥੫॥੧੪੫॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is considered without blemish stain and malice! 5. 145"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਦ੍ਵੈਸ਼ ਦੇ ਦਾਗ਼ ਅਤੇ ਦੁਖ (ਦੇ ਕਲੰਕ) ਤੋਂ ਮੁਕਤ ਸਮਝਿਆ ਜਾਂਦਾ ਹੈ ॥੫॥੧੪੫॥"

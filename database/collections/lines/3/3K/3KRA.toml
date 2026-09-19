@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੇ ਲਗੋ ਤੁਮ ਆਜ ਹਮਾਰੇ ॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Then thou obeyest me today"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਤੁਸੀਂ ਅਜ ਮੇਰਾ ਕਿਹਾ ਮੰਨੇ।"

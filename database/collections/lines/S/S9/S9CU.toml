@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਸੰਦ ਆਮਦਸ਼ ਹਮ ਚੁ ਗੁਰਰਾ ਨਿਹੰਗ ॥੧੩॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whom she preferred as he roared like a crocodile.(13)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਰਾਜਾ ਪਸੰਦ ਆਇਆ ਜੋ ਮਰਗਮੱਛ ਵਾਂਗ ਗੱਜਣ ਵਾਲਾ ਸੀ ॥੧੩॥"

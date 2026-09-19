@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਗਰ ਅਪਨ ਕੋ ਮਾਰਗ ਲੀਨਾ ॥੨੯॥"
 page = 1174
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਸ਼ਹਿਰ ਦਾ ਰਾਹ ਫੜਿਆ ॥੨੯॥"

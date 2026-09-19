@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਟਾਧਾਰ ਕੋਈ ਰਹੈ ਨ ਪੈ ਹੈ ॥੮॥"
 page = 676
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "who will finish their religion and no person with matted locks will survive.8."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕੋਈ ਜਟਾਧਾਰੀ ਰਹਿ ਨਹੀਂ ਸਕੇਗਾ ॥੮॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਛਨ ਏਕ ਤਹਾ ਮਿਲ ਗਈ ॥"
 page = 652
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ (ਉਸ ਨੂੰ) ਇਕ ਕਾਛਨ (ਕੱਛ ਦੇਸ ਦੀ ਅਰਾਇਨ) ਮਿਲ ਗਈ"

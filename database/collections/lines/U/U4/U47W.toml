@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਸਤ੍ਰ ਮਿਤ੍ਰ ਨਹੀ ਪੁਤ੍ਰ ਭ੍ਰਾਤ ॥੮॥੨੩੮॥"
 page = 37
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without any enemy, friend, son and brother!8. 238"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਨਾ ਕੋਈ ਵੈਰੀ ਹੈ, ਨਾ ਮਿਤਰ ਹੈ, ਨਾ ਪੁੱਤਰ ਅਤੇ ਭਰਾ ਹੈ ॥੮॥੨੩੮॥"

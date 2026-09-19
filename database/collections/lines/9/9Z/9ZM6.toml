@@ -1,29 +1,29 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮਸਤੋ ਪਰਾਜੀ ਸਮਸਤਸਤੁ ਧਾਮੰ ॥੬੧॥"
 page = 4
 line = 6
 
 [[content]]
-asset = "JSTS"
+assets = ["JSTS"]
 type = "note"
 language = "pa"
 data = "ਸਮਸਤਸਤੁ ਦਾ ਉਚਾਰਨ ਸਮਸਤ-ਸੱਤ ਨਹੀਂ ਹੈ ਬਲਕਿ ਸਮਸਤਸਤ ਹੀ ਹੈ। ਸੰਧੀ - ਸਮਸਤ+ਅਸਤ।"
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Victorious over all and art present every-where.61."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਸਾਰੀ ਦੁਨੀਆ ਪੈਦਾ ਕੀਤੀ ਹੈ ਅਤੇ ਸਾਰੀ ਦਾ ਹੀ (ਤੂੰ) ਆਸਰਾ ਹੈਂ ॥੬੧॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਸਮਸਤੋਪਰਾਜੀ; ਸਮਸਤੱਸਤੁ ਧਾਮੰ ॥੬੧॥"

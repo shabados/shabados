@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਛੇ ਆਹੁ ਰੁਕੇ ॥੧੪॥੯੧॥"
 page = 107
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the four types of forces are moving forward and staying in their arens.14.91."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਆਪਣੇ ਆਪਣੇ) ਪੱਖਾਂ ਵਿਚ ਹੀ ਰੁਕੀ ਹੋਈ ਹੈ ॥੧੪॥੯੧॥"

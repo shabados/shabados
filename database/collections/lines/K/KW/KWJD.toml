@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭਰਮਿ ਭਰਮਿ; ਮਾਨੁਖ ਡਹਕਾਏ ॥"
 page = 258
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Wandering in misgiving the men are ruined."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗਲਤ-ਫਹਿਮੀ ਅੰਦਰ ਟੱਕਰਾਂ ਮਾਰਦੇ ਬੰਦੇ ਤਬਾਹ ਹੋ ਗਏ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Wandering around, deluded by doubt, people are ruined."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਭਰਮ ਮੇਂ ਭ੍ਰਮਾਇ ਕਰ ਮਾਨੁਖ (ਡਹਕਾਏ) ਬਹਿਕਾਇ ਵਾ ਡੁਲਾਇ ਰਖੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਧਰਤੀ ਦੇ) ਬੰਦੇ (ਮਾਇਕ ਪਦਾਰਥਾਂ ਦੀ ਖ਼ਾਤਰ) ਭਟਕ ਭਟਕ ਕੇ ਧੋਖੇ ਵਿਚ ਆਉਂਦੇ ਚਲੇ ਆ ਰਹੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਡਹਕਾਏ = ਧੋਖੇ ਵਿਚ ਆਉਂਦੇ ਗਏ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El terrible e intransitable mar de Maya ha engañado a muchos seres humanos,"

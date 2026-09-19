@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭਣਤਿ ਨਾਨਕੁ; ਅਕਥ ਕੀ ਕਥਾ ਸੁਣਾਏ ॥"
 page = 991
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Says Nanak, \"I utter the discourse of the ineffable Lord\"."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਜੀ ਆਖਦੇ ਹਨ: \"ਮੈਂ ਅਕਹਿ ਸੁਆਮੀ ਦੀ ਕਥਾਵਾਰਤਾ ਉਚਾਰਨ ਕਰਦਾ ਹਾਂ।\""
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Nanak humbly prays, I proclaim the Unspoken Speech of the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਜੋ ਇਸ ਨਾਮ ਅਕਥ ਕੀ ਕਥਾ ਸੁਣਾਵਣੇ ਵਾਲਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਨਾਨਕ ਆਖਦਾ ਹੈ ਕਿ ਜਿਸ ਦੇ ਗੁਣ ਕਿਸੇ ਪਾਸੋਂ ਬਿਆਨ ਨਹੀਂ ਹੋ ਸਕਦੇ, ਉਸ ਪਰਮਾਤਮਾ ਦੀਆਂ ਸਿਫ਼ਤ-ਸਾਲਾਹ ਦੀਆਂ ਗੱਲਾਂ (ਉਹ ਮਨੁੱਖ) ਸੁਣਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਭਣਤਿ = ਆਖਦਾ ਹੈ। ਅਕਥ = ਉਹ ਪਰਮਾਤਮਾ ਜਿਸ ਦੇ ਗੁਣ ਬਿਆਨ ਨ ਕੀਤੇ ਜਾ ਸਕਣ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Dice Nanak, recito el Evangelio Irrecitable de mi Señor,"

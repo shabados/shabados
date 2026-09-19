@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾਨਉ ਨਹੀ; ਭਾਵੈ ਕਵਨ ਬਾਤਾ ॥"
 page = 71
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I know not what things please Thee, O Master."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਨਹੀਂ ਜਾਣਦਾ, ਤੈਨੂੰ ਕਿਹੜੀਆਂ ਗੱਲਾਂ ਚੰਗੀਆਂ ਲਗਦੀਆਂ ਹਨ, ਹੈ ਮਾਲਕ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I do not know what pleases my Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਜਾਨਉ ਨਹੀ) ਮੈਂ ਜਾਨ ਨਹੀਂ ਸਕਤਾ ਹੂੰ ਕਿ ਪਰਮੇਸ੍ਵਰ ਕੋ ਕੌਨ ਬਾਤ ਭਾਵਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਸਮਝ ਨਹੀਂ ਕਿ ਪਰਮਾਤਮਾ ਨੂੰ ਕੇਹੜੀ ਗੱਲ ਚੰਗੀ ਲੱਗਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਹੀ ਜਾਨਉ = ਮੈਂ ਨਹੀਂ ਜਾਣਦਾ (ਜਾਨਉਂ)। ਕਵਨ ਬਾਤਾ = ਕੇਹੜੀ ਗੱਲ? ਭਾਵੈ = ਚੰਗੀ ਲੱਗਦੀ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "No sé lo que le place a mi Señor,"

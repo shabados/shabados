@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਕਿਉਣਕਿ ਇਨ੍ਹਾਣ ਵਿੱਚੋਣ ਕੋਈ ਭੀ ਸੁਰਗ ਉਸ ਪਿਆਰੇ ਦੀ ਗਲੀ ਤਕ ਨਹੀਣ ਪਹੁੰਚਦਾ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਅਜ਼ਾਣ ਕਿ ਹੀਚ ਬਦਾਣ ਕੂਇ ਦਿਲਰੁਬਾ ਨ ਰਸਦ ॥੩੦॥੨॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "The devotees of Akaalpurakh  who have mastered the self do not utter any word other that His Naam from their mouth,"

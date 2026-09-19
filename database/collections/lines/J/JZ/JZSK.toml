@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਦਰ ਭਵਾਨੀ ਅਤਿ ਡਰ ਪਾਯੋ ॥"
 page = 1007
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja shot an arrow, which dreaded the sage."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਦ੍ਰ ਭਵਾਨੀ ਬਹੁਤ ਡਰ ਗਿਆ।"

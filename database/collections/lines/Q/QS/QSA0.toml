@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਹਿਨਿਸਿ ਅੰਤਰਿ; ਰਹੈ ਲਿਵ ਲਾਇ ॥"
 page = 1256
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and within his mind, day and night, he remains attached to the Lord."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਆਪਣੇ ਰਿਦੇ ਅੰਦਰ ਉਹ ਦਿਨ ਤੇ ਰੈਣ ਪ੍ਰਭੂ ਨਾਲ ਪਾਈ ਰਖਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Day and night, deep within, he remains lovingly attuned to the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਦਿਨੇ ਰਾਤ ਤਿਸ ਕੇ ਬੀਚ ਬ੍ਰਿਤੀ ਕੋ ਲਗਾਇ ਰਹਿਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਉਹ ਦਿਨ ਰਾਤ (ਹਰ ਵੇਲੇ) ਆਪਣੇ ਅੰਤਰ-ਆਤਮੇ ਪ੍ਰਭੂ-ਚਰਨਾਂ ਵਿਚ ਸੁਰਤ ਜੋੜੀ ਰੱਖਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਹਿ = ਦਿਨ। ਨਿਸਿ = ਰਾਤ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "noche y día y se conserva inmergido en el Uno Verdadero,"

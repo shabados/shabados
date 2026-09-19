@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੋ ਮਾਗੈ; ਸੋ ਭੂਖਾ ਰਹੈ ॥"
 page = 892
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He, who asks for it, remains unsatiated."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜਾ ਇਸ ਨੂੰ ਮੰਗਦਾ ਹੈ, ਉਹ ਭੁੱਖਾ ਹੀ ਰਹਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Whoever begs from her remains hungry."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ (ਮਾਗੈ) ਮਾਇਆ ਕੀ ਇਛਾ ਕਰਤੇ ਹੈਂ, ਸੋ ਤ੍ਰਿਸ਼ਨਾ ਕਰ ਕੇ ਭੂਖਾ ਹੀ ਰਹਿਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੰਤ ਜਨੋ! ਜਿਹੜਾ ਮਨੁੱਖ (ਹਰ ਵੇਲੇ ਮਾਇਆ ਦੀ ਮੰਗ ਹੀ) ਮੰਗਦਾ ਰਹਿੰਦਾ ਹੈ, ਉਹ ਨਹੀਂ ਰੱਜਦਾ (ਉਸ ਦੀ ਤ੍ਰਿਸ਼ਨਾ ਕਦੇ ਨਹੀਂ ਮੁੱਕਦੀ)।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੋ = ਉਹ ਮਨੁੱਖ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Alguien que demande algo de ella permanecerá hambriento;"

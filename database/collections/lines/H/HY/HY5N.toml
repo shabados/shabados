@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਲਕ ਏਕ ਬੀਤੀ ਨਹੀ; ਤਹਾ ਪਹੂੰਚੀ ਆਨਿ ॥੨੧॥"
 page = 956
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And in a few moments she was there where she was destined to arrive.(21)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਕ ਪਲਕਾਰੇ ਵਿਚ ਉਥੇ ਆ ਪਹੁੰਚੀ ॥੨੧॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੇਲ ਕਰਤ ਰਾਜਾ ਜੂ ਆਯੋ ॥"
 page = 900
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja appeared when they were making love."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਦੇ) ਸਹਿਵਾਸ ਕਰਦਿਆਂ ਰਾਜਾ ਜੀ ਆ ਗਏ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਬ੍ਰਿਜਨਾਥ ਕਹਿਓ ਤ੍ਰੀਅ ਸੋ; ਮੁਹਿ ਭੋਜਨ ਗੋਪਿਨ ਧਾਮਿ ਕਰਿਯੋ ॥"
 page = 513
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Krishna said to his wife, “I had taken food and drunk milk in the house of gopis (milk-women)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੇ ਇਸਤਰੀ (ਰੁਕਮਨੀ) ਨੂੰ ਕਿਹਾ ਕਿ (ਬਚਪਨ ਵਿਚ) ਮੈਂ ਗਵਾਲਿਆਂ ਦੇ ਘਰ ਭੋਜਨ ਕਰਦਾ ਸਾਂ।"

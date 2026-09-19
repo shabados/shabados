@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨੁ ਕਰ ਅੰਮਿਤ ਮ੍ਰਿਤ ਕੇ ਆਯੋ ॥੯॥"
 page = 1260
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਮਰ ਰਹੇ ਦੇ ਹੱਥ ਅੰਮ੍ਰਿਤ ਲਗ ਗਿਆ ਹੋਵੇ ॥੯॥"

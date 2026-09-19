@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਿਨਿ ਗੁਰੁ ਗੋਬਿੰਦ ਕੇ ਹੁਕਮ ਸਿਉ; ਗਹਿ ਖੜਗ ਦਿਖਾਨਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "By the command of Guru Gobind Singh, they brandished the swords held high."

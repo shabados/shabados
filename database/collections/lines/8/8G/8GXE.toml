@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਜ ਜੁਆਲੰ ॥੫੪੧॥"
 page = 256
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The arrows began to kill warriors and the fire came out of the shelds.541."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵਿੱਚੋਂ) ਅੱਗ ਨਿਕਲਦੀ ਹੈ ॥੫੪੧॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਿਰਮ ਪਿਆਲੇ ਸਾਉ; ਮਸਤਕਿ ਭਾਗੁ ਹੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "They feeling fortunate quaff the cup of love (of the Lord)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪਿਰੀ ਦੇ ਪਿਆਲੇ ਦਾ ਸਾਉ (=ਸੁਆਦ) ਆਇਆ ਹੈ, ਮੱਥੇ ਪੁਰ ਭਾਗ ਹੈ!"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦੂਜੈ ਭਾਇ; ਮਹਾ ਦੁਖੁ ਪਾਵਹਿ ॥"
 page = 128
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Because of another's love he suffers great pain."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੋਰਸ ਦੀ ਪ੍ਰੀਤ ਦੇ ਕਾਰਨ ਉਹ ਘਣਾ ਕਸ਼ਟ ਉਠਾਉਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "But they are in love with duality, and they suffer in terrible pain."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਦੂਜੇ ਭਾਵ ਮੇਂ ਪੜਤੇ ਹੈਂ ਔ ਮਹਾਂ ਦੁਖ ਪਾਵਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ ਫਿਰ ਭੀ ਉਹ) ਮਾਇਆ ਦੇ ਪਿਆਰ ਵਿਚ (ਟਿਕੇ ਰਹਿੰਦੇ ਹਨ, ਧਰਮ-ਪੁਸਤਕਾਂ ਪੜ੍ਹਦੇ ਹੋਏ ਭੀ ਹਉਮੈ ਆਦਿਕ ਦਾ) ਵੱਡਾ ਦੁੱਖ ਸਹਿੰਦੇ ਰਹਿੰਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਦੂਜੈ ਭਾਇ = ਮਾਇਆ ਦੇ ਪਿਆਰ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pero siendo desviado por la sutil dualidad, sufre y sufre terriblemente."

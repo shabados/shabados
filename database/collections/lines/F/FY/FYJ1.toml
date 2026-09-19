@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਿ ਪੁਨਿ ਅੰਤਿ ਬਹੁਰਿ ਤਿਹ ਦੀਜੈ ॥"
 page = 807
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਗਰੋਂ 'ਅਰਿ' ਪਦ ਅੰਤ ਉਤੇ ਕਹੋ।"

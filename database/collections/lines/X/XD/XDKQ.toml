@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੇ ਜੇ ਹੋਤ ਅਸੁਰ ਬਲਵਾਨਾ ॥"
 page = 195
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜੇ-ਜਿਹੜੇ ਦੈਂਤ ਬਲਵਾਨ ਹੁੰਦੇ ਹਨ,"

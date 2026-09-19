@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੰਤੁਲਾ ਦਾਮਣੀ ਦ੍ਰੁਕਟਾ ਦ੍ਰੁਭ੍ਰਮਾ ॥"
 page = 681
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“You are the lightning of large teeth You are unstoppable and far away from all illusions"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਦੰਤੁਲਾ, ਦਾਮਣੀ, ਦ੍ਰੁਕਟਾ, ਦ੍ਰੁਭ੍ਰਮਾ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਟਿ ਛੈਲ ਪ੍ਰਭਾ ॥"
 page = 586
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਲਕੀ ਅਵਤਾਰ ਦੀ) ਸੁੰਦਰ ਜੁਆਨੀ ਦੀ ਪ੍ਰਭਾ (ਚਮਕ ਰਹੀ ਹੈ,"

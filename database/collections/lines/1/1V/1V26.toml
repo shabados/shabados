@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੀ ਬਾਣ ਬਰਖੰ ॥"
 page = 107
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors filled with delight are showering their arrows."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੀਰਾਂ ਦੀ ਬਰਖਾ ਕਰਦੇ ਹਨ।"

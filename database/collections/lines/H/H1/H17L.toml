@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਲੋਕ ਕੇਹਰਿ ਰਾਇ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Lion-King of this world."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਇਸ ਲੋਕ ਦਾ ਸ਼ੇਰ ਵਰਗਾ ਰਾਜਾ ਸੀ।"

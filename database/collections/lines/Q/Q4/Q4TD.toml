@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਉਧੂ; ਮੇਰਾ ਮਨੁ ਮਤਵਾਰਾ ॥"
 page = 969
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O Yogi, with this wine my soul is intoxicated."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਯੋਗੀ! ਇਸ ਸ਼ਰਾਬ ਨਾਲ ਮੇਰੀ ਆਤਮਾ ਨਸ਼ਈ ਹੋਈ ਹੋਈ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O hermit Yogi, my mind is intoxicated."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਅਉਧੂਤ! ਮੇਰਾ ਮਨੁ ਮਸਤੁ ਹੋ ਰਹਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਜੋਗੀ! ਮੇਰਾ (ਭੀ) ਮਨ ਮਸਤ ਹੋਇਆ ਹੋਇਆ ਹੈ, ਮੈਨੂੰ (ਉੱਚੀ ਆਤਮਕ ਅਵਸਥਾ ਦੀ) ਮਸਤੀ ਚੜ੍ਹੀ ਹੋਈ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਉਧੂ = ਹੇ ਜੋਗੀ! ਮਤਵਾਰਾ = ਮਤਵਾਲਾ, ਮਸਤ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Yogui, mi mente se ha intoxicado con este vino;"

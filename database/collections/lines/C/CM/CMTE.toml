@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਜੀਯਾਇ ਨਰੇਸ ਉਠਾਨਾ ॥"
 page = 187
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Rudra meditated upon the Lord and restored the life of all other kings."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਾਜੇ ਦਕਸ਼ ਨੂੰ ਫਿਰ ਜੀਵਿਤ ਕਰ ਕੇ ਉਠਾ ਦਿੱਤਾ।"

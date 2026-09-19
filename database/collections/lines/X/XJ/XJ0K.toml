@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸੁਧ ਬਾਤ ਕੋ ਭਨੈ ॥੨੦੩॥"
 page = 220
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O foolish woman! why are you uttering such contrary words?203."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਮਲੀ ਗੱਲ ਕਿਉਂ ਕਹਿ ਰਹੀ ਹੈਂ ॥੨੦੩॥"

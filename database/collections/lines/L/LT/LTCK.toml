@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਪੈ ਕ੍ਰੂਰ ਬਕ੍ਰੰ ॥੪੪॥"
 page = 42
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And seem frightful and resplendent. 44."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭਿਆਨਕ ਤੇ ਟੇਢੀਆਂ (ਭਵਾਂ) ਲਿਸ਼ਕ ਰਹੀਆਂ ਹਨ ॥੪੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਭੈ ਜੀਤ ਚਾਹੈ ॥"
 page = 107
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The weapons are being struck with clinking sound and both sides wan their victory."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੋਹਾਂ ਪਾਸਿਆਂ ਤੋਂ (ਵੀਰ-ਯੋਧੇ ਆਪਣੀ) ਜਿਤ ਦੇ ਚਾਹਵਾਨ (ਬਣੇ ਹੋਏ) ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੋਜਨ ਕੈ ਜਸੁਧਾ ਪਹਿ ਤੇ; ਭਟ ਰਾਤਿ ਪਰੇ ਸੋਊ ਸੋਇ ਰਹੈ ਹੈ ॥"
 page = 371
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Both the heroes went to sleep after being served dinner by their mother Yashoda"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮਾਤਾ) ਜਸੋਧਾ ਪਾਸੋਂ ਖਾਣਾ ਖਾ ਕੇ, (ਦੋਵੇਂ) ਸੂਰਮੇ ਰਾਤ ਪੈਣ ਤੇ ਸੌਂ ਰਹੇ ਹਨ।"

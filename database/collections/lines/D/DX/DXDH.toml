@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰਣਵਤ ਬੀਜ ਬਧਾਈਆਂ, ਅਗਣਤ ਸੂਰਤਾਂ ॥"
 page = 125
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sranwat Beej increased himself into innumerable forms."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਕਤ-ਬੀਜ ਨੇ (ਆਪਣੀਆਂ) ਅਣਗਿਣਤ ਸੂਰਤਾਂ ਵਧਾ ਲਈਆਂ।"

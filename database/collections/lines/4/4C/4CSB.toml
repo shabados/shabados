@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਛਲ ਸੋ ਅਬਲਾ ਕਰਿ ਆਈ ॥"
 page = 946
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thus, it is how the lady performed duplicity, and it looked like as if a"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਛਲ ਉਹ ਇਸਤਰੀ ਕਰ ਕੇ ਆ ਗਈ,"

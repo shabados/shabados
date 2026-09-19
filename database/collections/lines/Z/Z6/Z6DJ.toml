@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੇ ਸਪਤ ਬਾਜੀ ਰਥੰ ਏਕ ਚਕ੍ਰੰ ॥"
 page = 631
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਰਥ ਇਕ ਪਹੀਏ ਵਾਲਾ ਹੈ ਅਤੇ ਜਿਸ ਨਾਲ ਸੱਤ ਘੋੜੇ ਜੁਤੇ ਹੋਏ ਹਨ,"

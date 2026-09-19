@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਚ ਪਾਚ ਸੈ ਭੁਜ ਕੇ ਘਨੇ ॥"
 page = 1366
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤਿਆਂ ਦੀਆਂ ਪੰਜ ਪੰਜ ਸੈ ਭੁਜਾਵਾਂ ਸਨ"

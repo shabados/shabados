@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੰਗਸਤੁਆ ਅਰੰਗੰ ॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the colour as well as devoid of colour"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਰੰਗ ਸਹਿਤ ਅਤੇ ਰੰਗ-ਰਹਿਤ ਹੈਂ,"

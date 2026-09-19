@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਇ ਤਬੈ ਚਿਤ ਭੀਤਰ; ਕਿਯਾ ਬਿਚਾਰ ਹੈ ॥"
 page = 828
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja had determined the substance of her charm, (and planned,)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਤਦ ਚਿਤ ਵਿਚ ਵਿਚਾਰ ਕੀਤਾ।"

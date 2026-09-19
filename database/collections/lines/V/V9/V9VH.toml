@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਜ ਕਰੋ ਨਹਿ, ਪੰਕਜ ਨੈਨਾ ॥"
 page = 450
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He (Brahma) said to Krishna, “O Lotus-eyed! do not feel ashamed"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਕਮਲ ਨੈਨ! ਲਜਾ ਨਾ ਕਰੋ।"

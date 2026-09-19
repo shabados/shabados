@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪ੍ਰਭ ਚਰਨ ਕਮਲ ਅਪਾਰ ॥"
 page = 837
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Infinite are the Lord's lotus feet."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਬੇਅੰਤ ਹਨ ਸਾਹਿਬ ਦੇ ਕੰਵਲ ਰੂਪੀ ਪੈਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "God's Lotus Feet are Infinite."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਅਪਾਰ ਕੇ ਜੋ ਚਰਨ ਕਮਲ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਬੇਅੰਤ ਪ੍ਰਭੂ ਦੇ ਸੋਹਣੇ ਚਰਨਾਂ ਤੋਂ-"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪ੍ਰਭ ਅਪਾਰ = ਬੇਅੰਤ ਪ੍ਰਭੂ ਦੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "La Dicha de entregarse a los Pies de Loto del Señor es Maravillosa;"

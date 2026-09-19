@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏ ਹੈ ਪ੍ਰਭੁ ਕੇ ਬਡੇ ਬਨਾਏ ॥"
 page = 1240
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ (ਬਾਦਸ਼ਾਹ ਲੋਗ) ਪ੍ਰਭੂ ਦੇ ਬਣਾਏ ਹੋਏ ਹਨ।"

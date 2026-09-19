@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਕਛੁ ਕਰੋ ਮੰਤ੍ਰ ਅਸੁਰਾਰਾ ॥"
 page = 192
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the gods went to meet Vishnu and said, “ O destroyer of demons  take some steps now.”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਗੋਂ ਦੇਵਤਿਆਂ ਨੇ ਕਿਹਾ) \"ਹੇ ਦੈਂਤਾਂ ਨੂੰ ਨਾਸ਼ ਕਰਨ ਵਾਲੇ!"

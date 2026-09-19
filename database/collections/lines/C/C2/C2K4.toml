@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੋਰਸੁ ਗਾਈਂ, ਹਸਤਿਨਿ ਦੁਝੈ ॥੨॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And expects to get cow-milk from a female elephant (which in fact is impossible)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗਊ ਦਾ ਦੁੱਧ ਹਥਣੀ ਥੋਂ ਚੋਂਦੇ ਹਨ।"

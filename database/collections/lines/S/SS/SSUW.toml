@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਦੁਧਹੁ ਦਹੀ ਵਖਾਣੀਐ; ਦਹੀਅਹੁ ਮਖਣੁ ਕਾਜੁ ਸੁਹੇਲਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The same milk becomes curd and from curd is made butter to be used variously."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਦੁੱਧ ਥੋਂ ਦਹੀਂ, ਤੇ ਦਹੀਂ ਤੋਂ ਮੱਖਣ ਨਿਕਲ ਕੇ ਸਾਰੇ ਕੰਮੀਂ ਸੋਭਦਾ ਹੈ।"

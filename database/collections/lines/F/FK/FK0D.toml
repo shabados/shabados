@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਨ੍ਰਹ ਤਬੈ ਹਸਿ ਕੈ ਮੁਰਲੀ ਸੁ; ਬਜਾਇ ਉਠਿਯੋ ਅਪਨੇ ਕਰਿ ਲੈ ਕੈ ॥"
 page = 326
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Krishna smilingly took his flute in his hand and began to play upon it"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਨ੍ਹ ਉਸ ਵੇਲੇ ਹਸ ਕੇ ਆਪਣੇ ਹੱਥ ਵਿਚ ਮੁਰਲੀ ਲੈ ਕੇ ਵਜਾਉਣ ਲਗ ਪਿਆ।"

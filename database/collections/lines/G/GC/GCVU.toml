@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਪਲ ਕਲਾ ਜੋਬਨ ਖਾ; ਜਬੈ ਨਿਹਾਰਿਯੋ ॥"
 page = 1061
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਪਲ ਕਲਾ ਨੇ ਜਦੋਂ ਜੋਬਨ ਖ਼ਾਨ ਨੂੰ ਵੇਖਿਆ"

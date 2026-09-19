@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਤ ਪੂਤ ਮੁਖ ਤੇ ਤਿਹ ਭਾਖੈ ॥"
 page = 1051
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਮੂੰਹੋਂ ਪੁੱਤਰ ਪੁੱਤਰ ਕਹਿੰਦੀ।"

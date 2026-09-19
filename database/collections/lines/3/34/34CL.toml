@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭੈ ਪਾਵਕ; ਪਾਰਿ ਪਰਾਨਿ ਹਾਂ ॥"
 page = 409
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "he alone attains God's Name and crosses the dreadful fire ocean."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੇਵਲ ਓਹੀ ਰੱਬ ਦੇ ਨਾਮ ਨੂੰ ਪਾਉਂਦਾ ਹੈ ਅਤੇ ਉਹ ਭਿਆਨਕ ਅੱਗ ਦੇ ਸਮੁੰਦਰ ਤੋਂ ਪਾਰ ਹੋ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "he crosses over the terrifying ocean of fire."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਭੈਦਾਇਕ ਕਾਮ ਕ੍ਰੋਧਾਦਿ (ਪਾਵਕ) ਅਗਨਿ ਵਾ ਭ੍ਯ ਰੂਪ ਅਗਨਿ ਸੇ ਪਾਰ ਹੂਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ (ਵਿਕਾਰਾਂ ਦੀ) ਅੱਗ ਦੇ ਖ਼ਤਰੇ ਤੋਂ ਪਾਰ ਲੰਘ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਾਵਕ = ਅੱਗ। ਪਾਰਿ ਪਰਾਨਿ = ਪਾਰ ਪੈ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El que cruza el fuego del miedo"

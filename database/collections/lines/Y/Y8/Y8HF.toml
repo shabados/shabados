@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਧਿ ਹਨਨ ਕੌ ਲੈ ਚਲੇ; ਰਹਿਯੋ ਨ ਕਛੂ ਉਪਾਇ ॥੧੩॥"
 page = 889
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They tied him and took him to kill as there was no other way.(l3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮਾਰਨ ਲਈ ਬੰਨ੍ਹ ਕੇ ਲੈ ਚਲੇ, ਬਚਣ ਦਾ ਕੋਈ ਉਪਾ ਨਾ ਰਿਹਾ ॥੧੩॥"

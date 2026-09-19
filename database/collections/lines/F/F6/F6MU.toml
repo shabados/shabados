@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬੇਅੰਤ ਮਹਿਮਾ ਤਾ ਕੀ; ਕੇਤਕ ਬਰਨ ॥"
 page = 888
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Infinite is His praise. To what extent can I narrate it?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਨੰਤ ਹੈ ਉਸ ਦੀ ਕੀਰਤੀ। ਮੈਂ ਉਸ ਨੂੰ ਕਿਸ ਹੱਦ ਤਾਂਈਂ ਵਰਣਨ ਕਰ ਸਕਦਾ ਹਾਂ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "His glory is endless; how can I describe it?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਕੀ ਤੋ ਬਿਅੰਤ ਮਹਿਮਾ ਹੈ ਕਿਤਨੀਕੁ ਬਰਨਨ ਕਰੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਉਸ ਕਰਤਾਰ ਦੀ ਬੇਅੰਤ ਵਡਿਆਈ ਹੈ। ਕਿਤਨੀ ਕੁ ਬਿਆਨ ਕੀਤੀ ਜਾਏ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਹਿਮਾ = ਵਡਿਆਈ। ਕੇਤਕ = ਕਿਤਨੀ ਕੁ? ਬਰਨ = ਬਿਆਨ ਕੀਤੀ ਜਾਏ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Su Alabanza es Infinita. Dime, ¿cómo podría uno recitarla?"

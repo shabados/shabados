@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਿਣਿ ਮੇਲਾ ਸਿਵਰਾਤਿ ਦਾ; ਖਟ ਦਰਸਨਿ ਆਦੇਸਿ ਕਰਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Conquering the Sivratri fair Baba made the followers of six philosophies bow."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵਰਾਤ ਦਾ (ਸਾਰਾ) ਮੇਲਾ (ਗੁਰੂ ਜੀ ਨੇ) ਜਿੱਤ ਲੀਤਾ, ਖਟ ਦਰਸ਼ਨਾਂ ਨੇ ਨਮਸਕਾਰ ਕੀਤੀ।"

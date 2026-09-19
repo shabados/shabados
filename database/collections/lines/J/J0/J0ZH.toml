@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸੁਨਿਆਰਾ ਸੁਇਨਾ ਘੜੈ; ਗਹਣੇ ਸਾਵਾਰੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The goldsmith creates beautiful ornaments out of gold."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੁਨਿਆਰਾ (ਕਈ ਪ੍ਰਕਾਰ ਦੇ) ਗਹਿਣੇ ਸੋਨੇ ਤੋਂ ਘੜਕੇ ਸੁਆਰਦਾ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੀਤ ਆਯੋ ਤਵ ਤਾਹਿ ਉਚਰਿਹੌ ॥੧੧॥"
 page = 869
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘While making you to stand near me, I will tell her that my husband has come.’(11)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਕਹਾਂਗੀ ਕਿ (ਮੇਰਾ) ਮਿਤਰ ਆਇਆ ਹੈ ॥੧੧॥"

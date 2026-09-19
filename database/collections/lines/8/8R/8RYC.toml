@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਵਾਨਾਨ ਸ਼ਾਇਸਤਹੇ ਯਕ ਗਰੋਹ ॥੧੦੫॥"
 page = 1421
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Constituted of very handsome young-men,(105)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਬਹੁਤ ਸਜੀਲੇ ਨੌਜਵਾਨਾਂ ਦਾ ਇਕ ਜੱਥਾ ਸੀ ॥੧੦੫॥"

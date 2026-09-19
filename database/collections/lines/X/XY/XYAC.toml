@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਧਾ ਨਾਮ ਗੋਪਿ ਇਕ ਰਹੈ ॥"
 page = 902
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਥੇ) ਰਾਧਾ ਨਾਮ ਦੀ ਇਕ ਗੋਪੀ ਰਹਿੰਦੀ ਸੀ।"

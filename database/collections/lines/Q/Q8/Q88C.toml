@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੇਖ ਇਨਾਯਤ ਭਰਤਾ; ਤਾ ਕੋ ਜਾਨਿਯੈ ॥"
 page = 861
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was known as Sheikh Inayat"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਦੇ ਪਤੀ ਦਾ ਨਾਂ ਸੇਖ ਇਨਾਯਤ ਜਾਣਿਆ ਜਾਂਦਾ ਸੀ।"

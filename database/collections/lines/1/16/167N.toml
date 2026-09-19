@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਤੇ ਅਨਿਕ ਅਸੁਰ ਹ੍ਵੈ ਗਏ ॥"
 page = 1362
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਤੋਂ ਹੋਰ ਅਨੇਕ ਦੈਂਤ ਪੈਦਾ ਹੋ ਗਏ ਸਨ।"

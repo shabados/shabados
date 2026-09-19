@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਮੰਗਾਇ ਜਾਲਨ; ਸੰਗ ਲੈ ਦਲ ਸਰਬ ॥"
 page = 689
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਾਂਤ ਭਾਂਤ ਦੇ ਜਾਲਾਂ ਨੂੰ ਮੰਗਵਾ ਕੇ, ਸਾਰੇ ਦਲ ਨੂੰ ਨਾਲ ਲੈ ਕੇ"

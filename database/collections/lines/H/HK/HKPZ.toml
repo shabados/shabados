@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੁਹੇਲਾ; ਕਹਨੁ ਕਹਾਵਨੁ ॥"
 page = 51
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Easy it is to utter and cause to utter."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੁਖੱਲਾ ਹੈ ਆਖਣਾ ਤੇ ਅਖਵਾਉਣਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "It is easy to speak and talk,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਗਵਨ! ਸ਼ਾਸਤ੍ਰਾਂ ਦ੍ਵਾਰੇ ਤੇਰੇ ਜਸ ਕਾ ਕਹਨਾ ਅਰ ਔਰੋਂ ਸੇ ਕਹਾਵਨਾ ਸੁਖਾਲਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਆਖਣਾ ਅਖਵਾਣਾ ਸੌਖਾ ਹੈ (ਕਿ ਅਸੀਂ ਤੇਰਾ ਭਾਣਾ ਮੰਨਦੇ ਹਾਂ)"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੁਹੇਲਾ = ਸੌਖਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Es muy fácil decirlo y sermonearlo"

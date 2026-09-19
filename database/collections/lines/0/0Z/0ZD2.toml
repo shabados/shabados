@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਧਰਤਿ ਆਕਾਸ, ਚਹੂ ਦਿਸਿ ਜਾਨਾ ॥੩੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He is known in all the directions besides earth and sky."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਧਰਤੀ, ਅਕਾਸ਼, ਚਾਰੋਂ ਦਿਸ਼ਾ (ਪੂਰਬ ਪੱਛਮ, ਉੱਤਰ, ਦੱਖਣ ਸਾਰੇ) ਪ੍ਰਸਿੱਧ ਹੈ। “"

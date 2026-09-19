@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਥਰਹਰਤ ਭਾਨੁ ॥"
 page = 621
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੇ ਪ੍ਰਤਾਪ ਤੋਂ) ਸੂਰਜ ਥਰਥਰ ਕੰਬਦਾ ਸੀ,"

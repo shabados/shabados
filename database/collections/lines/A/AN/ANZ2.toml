@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਫਿਰ ਰਾਜ ਕਾਜ ਦੇ ਮਨੋਰਥ ਪੂਰੇ ਹੋ ਜਾਣ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਮਕਸਦਸ਼ ਦਰ ਸਲਤਨਤ ਦਸਤ ਆਮਦੇ ॥੩੭੭॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He has the highest divine insight to appreciate and recognize the 'truth',"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਂਤਿ ਸਹਜ ਸੁਖ ਸੁਕ੍ਰਿਤਾ; ਭਾਉ ਭਗਤਿ ਕਰਾਹੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "If peace, equipoise, good actions motivate for the loving devotion;"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੁਕ੍ਰਿਤ (ਪੁੰਨ ਕਰਣੇ), ਪ੍ਰੇਮਾ ਭਗਤੀ ਕਰਣੀ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸਚੁ ਕਮਾਵੈ ਕਰਣੀ ॥"
 page = 1058
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The pious person does the True deeds."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪਵਿੱਤ੍ਰ ਪੁਰਸ਼ ਸੱਚੇ ਅਮਲ ਕਮਾਉਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Gurmukh practices and lives the Truth."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖ ਸਰੀਰ ਕਰ ਭੀ ਸਚੀ ਕਰਣੀ ਕਮਾਵਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਦਾ-ਥਿਰ ਪ੍ਰਭੂ ਦੇ ਨਾਮ ਸਿਮਰਨ ਦੀ ਕਮਾਈ ਕਰਦਾ ਹੈ, ਇਹੀ ਉਸ ਵਾਸਤੇ ਕਰਨ-ਜੋਗ ਕੰਮ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰਣੀ = ਕਰਨ-ਯੋਗ ਕੰਮ {करणीय}। ਸਚੁ ਕਮਾਵੈ = ਸਦਾ-ਥਿਰ ਹਰਿ-ਨਾਮ ਸਿਮਰਨ ਦੀ ਕਮਾਈ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "La Verdad de seguro la practica, no recita nada más que la Verdad"

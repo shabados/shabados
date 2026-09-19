@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਵਲੜੇ ਭੇਖਿ ॥੫੬੬॥"
 page = 608
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The women of gods and saints are getting pleased. 566."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਦਾ) ਰਾਵਲਾਂ ਵਰਗਾ ਭੇਖ ਹੈ ॥੫੬੬॥"

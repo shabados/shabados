@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਿਕ ਤੂਰ ਭੇਰੀ ਪ੍ਰਣਵ; ਗੋਮੁਖ ਅਨਿਕ ਮ੍ਰਿਦੰਗ ॥"
 page = 811
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Bhairi, Bhravan, Mirdang, Sankh, Vajas, Murlis, Murjs, Muchangs,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੇਰੀ, ਤੂਰ, ਪ੍ਰਣਵ, ਗੋਮੁਖ, ਮ੍ਰਿਦੰਗ,"

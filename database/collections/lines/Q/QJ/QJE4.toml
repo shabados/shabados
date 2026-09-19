@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਪਾਨਿ ਮਾਗੈ, ਕਿਤੇ ਹੂਹ ਛੋਰੈਂ ॥"
 page = 986
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਪਾਣੀ ਮੰਗ ਰਹੇ ਹਨ, ਕਿਤਨੇ ਹਾਲ-ਦੁਹਾਈ ਪਾ ਰਹੇ ਹਨ"

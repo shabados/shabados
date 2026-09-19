@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਮੈ ਜਗਤ ਜਨਮ ਧਰਿ ਆਯੋ ॥"
 page = 57
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "For this reason the Lord sent me and I was born in this world."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤਦ ਹੀ ਮੈਂ ਜਗਤ ਵਿਚ ਜਨਮ ਲਿਆ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਾਤ ਆਪਣੇ ਪਤ ਕੋ ਕਰਿਹੋ ॥"
 page = 952
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਪਤੀ ਦਾ ਕਤਲ ਕਰ ਦਿਆਂਗੀ"

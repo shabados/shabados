@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਹਿਰ ਦੌਲਤਾਬਾਦ ਬਸਤ ਜਹ ॥"
 page = 1324
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਦੌਲਤਾਬਾਦ ਸ਼ਹਿਰ ਵਸਦਾ ਹੈ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹੀ ਕਹ ਕਹ ਕੈ ਹਸੀ ਜੁਧੁ ਪਾਯੋ ॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then, jovially, penetrated the warfare."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਕਹਿ-ਕਹਿ ਕਰ ਕੇ ਹਸਦੇ ਹੋਇਆਂ ਯੁੱਧ ਮੰਡਿਆ ਹੈ।"

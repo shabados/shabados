@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੁਜਾ ਜੋਰਿ ਕਰਿ ਜੁਧੁ; ਜੀਤ ਸਭ ਜਗੁ ਲੀਆ ॥"
 page = 76
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With his armed strength, he conquered the whole world."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਭੁਜਾਵਾਂ ਦੇ ਬਲ ਨਾਲ ਯੁੱਧ ਕਰ ਕੇ ਸਾਰੇ ਸੰਸਾਰ ਨੂੰ ਜਿਤ ਲਿਆ।"

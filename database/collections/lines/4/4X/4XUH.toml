@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਿ ਤ੍ਰਿਯ ਬੈਨ ਮੋਨ ਹ੍ਵੈ ਰਹੈ ॥"
 page = 843
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Every time he bragged as such, wife would just keep quiet."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ (ਉਸ ਦੀ) ਇਸਤਰੀ ਸੁਣ ਕੇ ਚੁਪ ਕਰ ਜਾਂਦੀ।"

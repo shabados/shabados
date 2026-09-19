@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਰਾਮਦਾਸ, ਗੁਰ ਅਮਰ ਸਮੋਗੀ ॥੧੭॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Among such persons is Guru Ram Das who is fully absorbed in Guru Amar Das i.e. he is his constituent."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਵਿਚ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਸਮਾ ਰਹੇ ਹਨ।"

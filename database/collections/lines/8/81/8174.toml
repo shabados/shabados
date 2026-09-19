@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹ ਸਾਧਨ ਸੰਕਟ ਪਰੈ; ਤਹ ਤਹ ਭਏ ਸਹਾਇ ॥"
 page = 173
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Wherever the saints are in distress, the Non-temporal Lord comes there for help."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਜਿਥੇ ਵੀ ਸਾਧਾਂ ਨੂੰ ਸੰਕਟ ਪੈਂਦਾ ਹੈ, ਉਥੇ ਉਥੇ ਹੀ (ਪਰਮ-ਸੱਤਾ) ਸਹਾਇਕ ਹੁੰਦੀ ਹੈ।"

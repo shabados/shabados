@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਦ੍ਰ ਦੇਸ ਚੌਧਰੀ ਭਣਿਜੈ ॥"
 page = 1036
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਦ੍ਰ ਦੇਸ ਦਾ (ਇਕ) ਚੌਧਰੀ ਦਸਿਆ ਜਾਂਦਾ ਸੀ।"

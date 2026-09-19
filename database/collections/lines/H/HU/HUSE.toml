@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜ ਕੁਮਾਰਿ ਬਿਰਾਜਤ ਹੈ ਕੋਊ; ਤਾ ਪਰ ਆਜ ਸਭੈ ਤਨ ਵਾਰੌ ॥"
 page = 969
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘She, rather, looks like a princess, I am sacrifice to her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ (ਇਹ) ਕੋਈ ਰਾਜ ਕੁਮਾਰੀ ਬਿਰਾਜਦੀ ਹੈ ਜਿਸ ਉਤੇ ਅਜ ਸਾਰਾ ਸ਼ਰੀਰ (ਭਾਵ-ਸਭ ਕੁਝ) ਵਾਰ ਦਿਆਂ।"

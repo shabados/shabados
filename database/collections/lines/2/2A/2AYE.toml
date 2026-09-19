@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪੁ ਭਜਨ ਕੋ ਸਾਮੋ ਕਰਿਯੋ ॥"
 page = 928
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Bairam was scared and decided to run away,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪ ਦੌੜਨ ਦੀ ਵਿਉਂਤ ਬਣਾਈ।"

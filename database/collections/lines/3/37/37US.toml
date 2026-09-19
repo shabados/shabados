@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਨ ਸਹਿਤ ਬ੍ਰਹਮਾ ਜਿਹ ਨਾਮਾ ॥"
 page = 200
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There they stayed foe a long time with Vishnu and Brahma."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਥਾਂ ਵਿੱਚ ਵਾਸ ਕੀਤਾ।"

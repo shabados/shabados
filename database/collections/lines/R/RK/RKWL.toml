@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨ ਦੇਵ ਦਾਨਵਾ; ਨਰਾ ॥"
 page = 143
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Neither gods, nor demons or men,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਾਂ ਦੇਵਤੇ, ਦੈਂਤ ਨਾਂ ਮਨੁੱਖ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Neither the angels, nor the demons, nor human beings,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵਤੇ ਅਰੁ ਦੈਂਤ ਅਰੁ ਮਨੁਖ ਸਤ ਨਹੀਂ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਨਾਹ ਦੇਵਤੇ, ਨਾਹ ਦੈਂਤ, ਨਾਹ ਮਨੁੱਖ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਦਾਨਵਾ = ਦੈਂਤ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ni ángeles, ni seres malvados, ni hombres;"

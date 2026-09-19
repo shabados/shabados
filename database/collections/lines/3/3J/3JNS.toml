@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਮਹਿਖੀ ਪੈ ਚੜੇ ਦੈਤ ਢੂਕੇ ॥"
 page = 1371
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਝੋਟਿਆਂ ਉਤੇ ਚੜ ਕੇ ਦੈਂਤ ਢੁਕ ਰਹੇ ਸਨ।"

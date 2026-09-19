@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕ੍ਰਿਸਨਾਜਿਨ ਪਦ ਆਦਿ ਉਚਾਰੋ ॥"
 page = 753
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਕ੍ਰਿਸਨਾਜਿਨ' (ਕਾਲਾ ਚਿੱਟਾ ਹਿਰਨ) ਪਦ ਉਚਾਰੋ।"

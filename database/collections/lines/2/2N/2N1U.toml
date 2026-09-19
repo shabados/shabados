@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਥਮ ਮੀਤ ਨਿਜੁ ਤ੍ਰਿਯ ਨੈ ਟਾਰਿਯੋ ॥"
 page = 1012
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ ਇਸਤਰੀ ਨੇ ਆਪਣੇ ਮਿਤਰ ਨੂੰ ਭੇਜਿਆ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਹ ਕੁੰਦਨ ਰੱਬ ਦੀ ਯਾਦ ਤੌਂ ਪਰਾਪਤ ਹੁੰਦਾ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਈਂ ਤਿਲਾ ਮਾਅਲੂਮ ਅਜ਼ ਯਾਦਿ ਖ਼ੁਦਾ ॥੪੮੩॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, this gold is realized only through the memory of Akaalpurakh. (483)"

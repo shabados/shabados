@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਸੁੰਦਰੀ; ਲੋਕ ਚਤੁਰਦਸ ਜਾਨਿਯੈ ॥"
 page = 1331
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਚੌਦਾਂ ਲੋਕਾਂ ਵਿਚ ਮਹਾਨ ਸੁੰਦਰੀ ਮੰਨਿਆ ਜਾਂਦਾ ਸੀ।"

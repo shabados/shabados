@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਪੂੰਜੀ ਸੰਚਿ; ਕਰਹੁ ਬਿਉਹਾਰੁ ॥"
 page = 289
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Amass God's Name as thy capital and have dealings therein."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਵਾਹਿਗੁਰੂ ਦੇ ਨਾਮ ਦੀ ਰਾਸ ਇਕਤ੍ਰ ਕਰ ਅਤੇ ਉਸੇ ਦਾ ਹੀ ਵਣਜ ਵਾਪਾਰ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "So gather the Lord's Name as your capital, and trade in it."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਰੀ ਨਾਮ ਪੂੰਜੀ ਕੌ ਸੰਚਨ ਕਰਨੇ ਕਾ ਵਿਵਹਾਰ ਕਰੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਦੇ ਨਾਮ ਦੀ ਰਾਸ ਇਕੱਠੀ ਕਰ, ਇਹੀ ਵਿਹਾਰ ਕਰ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੰਚਿ = ਇਕੱਠੀ ਕਰ। ਬਿਉਹਾਰੁ = ਵਪਾਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Junta la Riqueza del Nombre del Señor, tu Verdadero Capital, y comercia con Él."

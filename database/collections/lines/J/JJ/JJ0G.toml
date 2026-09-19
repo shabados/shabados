@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਨ ਮੈ ਮਨੋ ਬਾਘ ਬਚਾ ਬਬਕੰ ॥੫੩॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Intoxicated with wine. His loud thunder appears like the roar of a cub in the forest.53"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਜੰਗਲ ਵਿਚ ਸ਼ੇਰ ਦਾ ਬੱਚਾ ਦਹਾੜ ਰਿਹਾ ਹੋਵੇ ॥੫੩॥"

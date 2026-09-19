@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ, ਟੀਕਾ ਕੋ ਪੁਤ੍ਰ ਸੰਘਰਿਯੈ ॥"
 page = 1177
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਰਾਜ ਤਿਲਕ ਪ੍ਰਾਪਤ ਕਰਨ ਵਾਲੇ (ਵੱਡੇ) ਪੁੱਤਰ ਨੂੰ ਮਾਰਿਆ ਜਾਵੇ।"

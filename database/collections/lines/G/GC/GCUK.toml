@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੰਗ ਜਗੇ ਰਨ ਰੰਗ ਸਮੈ; ਅਰਿਧੰਗ ਕਰੇ ਭਟ ਕੋਟਿ ਦੁਸੀਲੇ ॥"
 page = 810
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In that crucial war, (bodies of) hundreds and thousands of heroes were cut into two."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ-ਭੂਮੀ ਵਿਚ ਯੁੱਧ ਸ਼ੁਰੂ ਹੋਣ ਤੇ (ਦੇਵੀ ਨੇ) ਕਰੋੜਾਂ ਵੀਰਾਂ ਨੂੰ ਦੋ ਦੋ ਹਿੱਸਿਆਂ ਵਿਚ ਕਟ ਸੁਟਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਮੈਦਾ ਦਰਾਮਦ ਕਿ ਦੁਖ਼ਤਰ ਵਜ਼ੀਰ ॥"
 page = 1422
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She, herself, came into the fighting fields,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਜ਼ੀਰ ਦੀ ਲੜਕੀ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਆਈ।"

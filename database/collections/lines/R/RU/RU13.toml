@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਨਿ ਚੁਨਿ ਗੋਬਰ ਹੈ ਪਰ ਧਰੈ ॥"
 page = 888
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਗੋਹੇ ਚੁਣ ਚੁਣ ਕੇ ਘੋੜੇ ਉਤੇ ਧਰ ਲਏ"

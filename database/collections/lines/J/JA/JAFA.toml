@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੋ ਕੋ ਦੁਖ ਦੇਵੋ ਦਿਜ ਨਾਨਾ ॥੨॥੨੮੮॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Thou shalt then be given various types of sufferings.2.288."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਗੋਂ) ਤੁਹਾਨੂੰ ਕਈ ਪ੍ਰਕਾਰ ਦੇ ਦੁਖ ਦਿੱਤੇ ਜਾਣਗੇ ॥੨॥੨੮੮॥"

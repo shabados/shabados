@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਗੜਦੀ ਲੁਥ ਬਿਥੁਰੀ ਚਾਗੜਦੀ ਚਾਵੰਡ ਚਿੰਕਾਰੰ ॥"
 page = 241
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The streams of blood have flowed in the battlefield,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੋਥਾਂ ਖਿੰਡੀਆਂ ਪਈਆਂ ਹਨ ਅਤੇ  ਇੱਲ੍ਹਾਂ ਚੀਕਦੀਆਂ ਹਨ।"

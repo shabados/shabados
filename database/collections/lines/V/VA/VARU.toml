@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮ ਭਗਤਿ ਸਭ ਹੀ ਉਠਿ ਲਾਗੈ ॥"
 page = 652
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing him, all the illusions, attachment etc, fled away and all were absorbed in the devotion of the Lord"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਉਠ ਕੇ ਰਾਮ ਭਗਤੀ ਵਿਚ ਲਗ ਜਾਂਦੇ ਹਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਹ ਦਿਸ ਪਰੇ ਬੀਰ ਹਕਾਰਿ ॥"
 page = 686
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋਹਾਂ ਪਾਸਿਆਂ ਤੋਂ ਹੰਕਾਰੀ ਸੂਰਮੇ (ਇਕ ਦੂਜੇ ਉਤੇ) ਆ ਪਏ ਹਨ।"

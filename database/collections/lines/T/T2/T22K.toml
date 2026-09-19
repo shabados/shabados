@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਗਲ ਘਟਾ; ਦੇਵੈ ਆਧਾਰ ॥੩॥"
 page = 863
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "gives support to all the hearts."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਾਰਿਆਂ ਦਿਲਾਂ ਨੂੰ ਆਸਰਾ ਦਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He gives Support to all hearts. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਗਲ ਸਰੀਰਾਂ ਕੋ ਆਸਰਾ ਦੇ ਰਹਿਆ ਹੈ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪ੍ਰਭੂ ਸਭ ਜੀਵਾਂ ਨੂੰ ਆਸਰਾ ਦੇਂਦਾ ਹੈ ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਗਲ = ਸਾਰੇ। ਘਟਾ = ਘਟਾਂ, ਸਰੀਰਾਂ ਨੂੰ। ਆਧਾਰ = ਆਸਰਾ ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él da Soporte a todos los corazones. (3)"

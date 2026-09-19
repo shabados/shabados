@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਲ ਬੀਚ ਕਰ ਸ੍ਵਰਨ ਚੁਰਾਯੋ ॥੬॥"
 page = 895
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Instantly, he took advantage and, in the blow pipe, he stole the gold.(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫੂਕ ਮਾਰਨ ਵਾਲੀ) ਨਲੀ ਰਾਹੀਂ ਸੋਨਾ ਚੁਰਾ ਲਿਆ ॥੬॥"

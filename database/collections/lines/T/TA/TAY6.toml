@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੈ ਬਰੁ ਮਹਾਰੁਦ੍ਰ ਤੇ ਲੀਨੋ ॥੨੧੮੪॥"
 page = 517
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On the other side Sahasarabahu became egoistic on receiving the boon from Rudra (Shiva).2184."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਮੈਂ ਮਹਾ ਰੁਦ੍ਰ ਪਾਸੋਂ ਵਰ ਲਿਆ ਹੋਇਆ ਹੈ ॥੨੧੮੪॥"

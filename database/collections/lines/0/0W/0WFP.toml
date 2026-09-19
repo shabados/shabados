@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹਿ ਔਰ ਲਹਾ ॥੪੭॥"
 page = 618
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The performed good actions and destroyed the enemies and none seems equivalent in bravery to them. 47."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਵਰਗਾ) ਹੋਰ ਕੋਈ ਨਹੀਂ ਸੀ ॥੪੭॥"

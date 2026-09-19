@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਲਨੀ ਮੁਖ ਤੇ ਆਦਿ; ਉਚਾਰਨ ਕੀਜੀਐ ॥"
 page = 760
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਜਲਨੀ' (ਜਲ ਵਾਲੀ ਧਰਤੀ) ਸ਼ਬਦ ਮੁਖ ਵਿਚੋਂ ਉਚਾਰਨ ਕਰ ਕੇ"

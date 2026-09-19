@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰਣੀ ਆਦਿ ਉਚਾਰਣ ਕੀਜੈ ॥"
 page = 793
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਨਰਣੀ' ਸ਼ਬਦ ਉਚਾਰਨ ਕਰੋ।"

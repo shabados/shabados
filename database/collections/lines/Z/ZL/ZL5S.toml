@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤਲਵਾਰਾਂ ਭਾਲਿਆਂ ਦੀ ਲੋੜ ਨਹੀਂ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਨਿਆਜ਼ਸ਼ ਨਾ ਬਾਸ਼ਦ ਬ ਤੇਗ਼ੋ ਸਨਾਂ ॥੧੫੫॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He does not need swords and spears, (155)"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖ ਰੂਪ ਕਾਪੇ ਜਟਧਾਰੀ ॥"
 page = 676
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਰੂਪ ਵੇਖ ਕੇ ਜਟਾਧਾਰੀ ਕੰਬਣ ਲਗ ਪਏ"

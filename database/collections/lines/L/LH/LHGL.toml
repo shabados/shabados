@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਖਨ ਲੋਗ ਮਰੈ ਸਭ ਕੋਈ ॥"
 page = 198
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was not even a little farming anywhere and the people were dying with hunger."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੁੱਖ ਨਾਲ ਸਾਰੇ ਲੋਕ ਮਰ ਰਹੇ ਸਨ।"

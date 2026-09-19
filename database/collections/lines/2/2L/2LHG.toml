@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਕਾਰੇ ਜਹਾ ਕਾਮਗਾਰੀ ਦਿਹਦ ॥੧੪॥"
 page = 1394
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Whose backs will be adorned with silver trappings.(14)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਸੰਸਾਰ ਵਿਚ ਸਾਰਿਆਂ ਕੰਮਾਂ ਵਿਚ ਸਫਲਤਾ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ ॥੧੪॥"

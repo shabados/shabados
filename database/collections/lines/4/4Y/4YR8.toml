@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਕੀ ਚਿਤ, ਕੋਊ ਕਾਨਿ ਨ ਆਨੈ ॥੩॥"
 page = 867
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The people would act the way the woman commanded, and no one lent ear to the Raja.(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਦੀ ਕੋਈ ਵੀ (ਮਨ ਵਿਚ) ਪਰਵਾਹ ਨਹੀਂ ਕਰਦਾ ਸੀ ॥੩॥"

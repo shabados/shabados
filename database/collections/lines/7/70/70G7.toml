@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਾਇਆ ਸੋਧਹਿ; ਸਬਦੁ ਵੀਚਾਰਹਿ ॥"
 page = 1068
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "They, who search their body, reflect on the Name,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਆਪਣੀ ਦੇਹ ਨੂੰ ਖੋਜਦੇ ਹਨ, ਨਾਮ ਦਾ ਚਿੰਤਨ ਕਰਦੇ ਹਨ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Purify the body, and contemplate the Shabad."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਗੁਰ ਉਪਦੇਸ਼ ਕੋ ਬੀਚਾਰ ਕਰ ਕਾਇਆ ਕੋ ਸੋਧੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜੇ ਮਨੁੱਖ (ਆਪਣੇ) ਸਰੀਰ ਦੀ ਪੜਤਾਲ ਕਰਦੇ ਰਹਿੰਦੇ ਹਨ, ਗੁਰੂ ਦੇ ਸ਼ਬਦ ਨੂੰ ਹਿਰਦੇ ਵਿਚ ਵਸਾਈ ਰੱਖਦੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੋਧਹਿ = ਸੋਧਦੇ ਹਨ, ਪੜਤਾਲ ਕਰਦੇ ਹਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Purifica el cuerpo y medita en el Shabd,"

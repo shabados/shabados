@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੁਟੀ ਚੰਡਿ, ਜਾਗੈ ਬ੍ਰਹਮ; ਕਰਿਓ ਜੁਧ ਕੋ ਸਾਜੁ ॥"
 page = 75
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the Lord Vishnu awoke from sleep, he made preparations for war."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਵੇਲੇ) ਯੋਗ-ਨਿੰਦ੍ਰਾ (ਚੰਡ) ਖੁਲ੍ਹੀ, ਵਿਸ਼ਣੂ ਜਾਗੇ ਅਤੇ ਯੁੱਧ ਦੀ ਤਿਆਰੀ ਕੀਤੀ।"

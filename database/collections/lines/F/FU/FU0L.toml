@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੋਜਤ ਹੈ ਜਿਹ ਸਿਧ ਮਹਾ ਮੁਨਿ; ਬਿਆਸ ਪਰਾਸੁਰ ਭੇਦ ਨ ਚੀਨੋ ॥"
 page = 450
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, whom the adepts search in their contemplation and whose mystery is not comprehended by the great sages like Vyas and Prashar,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਸਿੱਧ ਅਤੇ ਮਹਾਮੁਨੀ ਵਿਆਸ ਅਤੇ ਪਰਾਸ਼ਰ ਖੋਜਦੇ ਹਨ, ਪਰ (ਉਸ ਦਾ) ਭੇਦ ਨਹੀਂ ਪਾ ਸਕੇ ਹਨ;"

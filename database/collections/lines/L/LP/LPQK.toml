@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਕੋ ਹਮਰੀ ਭੈਨ; ਨ ਕੋ ਹਮਰੋ ਕੋਈ ਭਾਈ ॥"
 page = 906
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Neither I have a sister, nor I have any brother."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਕੋਈ ਸਾਡਾ ਭਰਾ ਹੈ ਅਤੇ ਨਾ ਹੀ ਕੋਈ ਭੈਣ ਹੈ।"

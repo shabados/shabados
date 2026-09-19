@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਗ ਗਯੋ ਦਲ ਤ੍ਰਾਮ ਕੈ ਕੈ ॥"
 page = 281
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੈਨਾ ਡਰ ਕੇ ਭੱਜ ਗਈ-"

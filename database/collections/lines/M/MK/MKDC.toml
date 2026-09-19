@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਹਾਦੇਉ ਲਾਇ ਤਾਰ; ਤਾਮਸੁ ਤਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Siva being engrossed in tamas always remained vexed and angry."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵ ਤਾਰ ਲਾ ਕੇ ਤਮੋ ਗੁਣ ਵਿਖੇ ਤੱਤਾ ਹੀ ਰਿਹਾ, (ਸ਼ਾਂਤਿ ਨਾ ਆਈ)।"

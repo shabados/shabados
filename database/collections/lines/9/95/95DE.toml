@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਿਖੁਆਸ ਧਾਰੇ ॥"
 page = 114
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the warriors are bedecked with the bow"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੱਥ ਵਿਚ) ਧਨੁਸ਼ ('ਮਹਿਖੁਆਸ') ਧਾਰੇ ਹੋਏ ਸਨ,"

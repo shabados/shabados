@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਏਕੰਕਾਰੁ, ਅਲਖੁ ਲਖਾਇਆ ॥੨੦॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And this way they visualise that imperceptible Lord."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖਾਂ ਨੂੰ ਅਲਖ (ਵਾਹਿਗੁਰੂ ਨੇ ਆਪਣਾ) ਏਕੰਕਾਰ (ਸਰੂਪ) ਲਖਾ ਦਿਤਾ ਹੈ।"

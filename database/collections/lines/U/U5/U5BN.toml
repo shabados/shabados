@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀਆ ਰਾਮ ਦੇਖੇ ॥੧੦੫॥"
 page = 210
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Vishnu visualized him as the Immanent Lord, and Sita sees him as Ram.105."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੀਤਾ ਨੇ ਸੁਆਮੀ ਰੂਪ ਵਿੱਚ ਵੇਖਿਆ ॥੧੦੫॥"

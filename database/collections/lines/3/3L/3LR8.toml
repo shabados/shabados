@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪਨ ਰਹਤ ਨਿਰਾਲਮ ਜਗ ਤੇ ॥"
 page = 156
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He Himself remains detached from the world,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਜਗਤ ਤੋਂ ਨਿਰਲਿਪਤ ਰਹਿੰਦਾ ਹੈ।"

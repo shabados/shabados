@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਢਾਢਿ ਸੈਨ ਕਰਖਾਹੁ ਸੁਨਾਵੈ ॥"
 page = 1366
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਢਾਢਿ ਸੈਨ ਕਰਖਾ (ਛੰਦ) ਸੁਣਾ ਰਿਹਾ ਸੀ।"

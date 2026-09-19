@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਬੀਰ ਧੀਰ ਸੱਜਿਯੰ ॥੧੮॥"
 page = 51
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The conch is blown and in such a terrible time, the warriors get adorned with patience. 18."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੂਰਮੇ ਧੀਰਜ ਨਾਲ ਸੁਸਜਿਤ ਹੁੰਦੇ ਹਨ ॥੧੮॥"

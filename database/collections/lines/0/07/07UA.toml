@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਸਿ ਹਸਿ ਤਾ ਸੋ ਬਚਨ; ਇਹ ਭਾਤਿ ਉਚਾਰਿਯੋ ॥"
 page = 1107
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਚਰਖਾ ਕੱਤਣ ਵਾਲੀ ਪ੍ਰਤਿ ਭਰਥਰੀ ਨੇ) ਹਸ ਕੇ ਇਸ ਤਰ੍ਹਾਂ ਬੋਲ ਉਚਾਰਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖੋ ਆਜ ਕੈਸੇ ਭਏ ਬੀਰ ਗਾਢੇ ॥੧੧੭॥"
 page = 211
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He asked Ram to stop there and challenged him saying.”I shall now see, what type of hero thou art.”117."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਕਿ ਮੈਂ) ਅੱਜ ਵੇਖਾਂ ਜੋ ਕਿਸ ਤਰ੍ਹਾਂ ਦੇ ਬਹਾਦਰ ਯੋਧਾ ਹੋ ਗਏ ਹਨ ॥੧੧੭॥"

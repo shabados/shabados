@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਪਠਾਨ ਨਾਰਿ ਤਿਹ ਬਰੀ ॥"
 page = 861
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਪਠਾਣ ਨੇ ਇਕ ਇਸਤਰੀ ਨਾਲ ਵਿਆਹ ਕੀਤਾ।"

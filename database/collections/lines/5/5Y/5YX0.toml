@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੀਸਰ ਅਵਰੁ ਤਹਾ ਕੋ ਨਾਹੀ ॥"
 page = 190
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Both Shiva and Jalandhar fought and there was none other in the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਤੀਜਾ ਹੋਰ ਕੋਈ ਨਹੀਂ ਸੀ।"

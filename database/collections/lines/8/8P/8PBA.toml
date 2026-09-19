@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਸਦੀਆਂ ਅੱਖਾਂ ਸਾ੍ਹਮਣੇ ਸਾਰਾ ਅੱਗਾ ਪਿੱਛਾ ਪ੍ਰਤੱਖ ਦਿਸਦਾ ਹੈ । "
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹਵੈਦਾ ਬ-ਚਸ਼ਮਸ਼ ਹਮਾ ਪੁਸ਼ਤ ਰੂ ॥੮੪॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, the whole past and future events manifest before his eyes. (84)"

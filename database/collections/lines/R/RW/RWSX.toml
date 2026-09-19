@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਸਤ੍ਰਾਵਤੀ ਨਗਰ ਉਜਿਯਾਰੀ ॥"
 page = 1303
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਬਸਤ੍ਰਾਵਤੀ ਨਾਂ ਦੀ ਨਗਰੀ ਬਹੁਤ ਸੁੰਦਰ ਸੀ।"

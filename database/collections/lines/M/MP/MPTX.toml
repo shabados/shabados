@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਰੀ ਹੁਤੋ ਤਹਾ ਇਕ ਤਾ ਕੋ ॥"
 page = 1238
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਉਸ (ਸਿਧ ਪਾਲ) ਦਾ ਇਕ ਵੈਰੀ ਹੁੰਦਾ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਨੁ ਦੇਵ ਆਗਿਆ ਜਬ ਪਾਈ ॥"
 page = 192
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸ਼ਣੂ ਨੂੰ ਜਦੋਂ ਆਗਿਆ ਮਿਲੀ,"

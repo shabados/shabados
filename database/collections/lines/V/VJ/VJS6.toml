@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸ ਭਾਤਿ ਮਨ ਸੌ ਮੁਨਿ ਕਹਾ ॥੧੮੮॥"
 page = 650
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There he saw a carder carding cotton and said thus in hiss mind188"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੁਨੀ ਨੇ ਮਨ ਵਿਚ ਇਸ ਤਰ੍ਹਾਂ ਵਿਚਾਰਿਆ ॥੧੮੮॥"

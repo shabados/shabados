@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਬਾਰ ਲਾਜ ਮੋਰੀਅੰ ॥੪੮॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Protect my honour.48."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀ ਲਾਜ ਰਖ ਲਵੋ ॥੪੮॥"

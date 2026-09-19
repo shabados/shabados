@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਦ੍ਵੈਖ ਹਰੀ ॥੪॥੫੪॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Lord is without duality! 4. 54."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਰੀ ਦ੍ਵੈਤਭਾਵ ਤੋਂ ਬਿਨਾ ਹੈ ॥੪॥੫੪॥"

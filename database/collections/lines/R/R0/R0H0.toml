@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਤਾਬਸ਼ ਦਰਾਮਦ ਯਕੇ ਤਾਬ ਨਾਕ ॥"
 page = 1422
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brilliance of the shining (swords) was prevailing all over,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਇਕ ਚਮਕਦਾਰ ਤਲਵਾਰ ਚਮਕੀ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਸੀ ਤੇ ਰਾਨੀ ਕਰਿ ਡਾਰੋ ॥"
 page = 1076
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਕਰ ਕੇ ਉਸ ਨੂੰ) ਦਾਸੀ ਤੋਂ ਰਾਣੀ ਬਣਾ ਦਿੱਤਾ ਸੀ।"

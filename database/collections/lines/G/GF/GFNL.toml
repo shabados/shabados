@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਮਿਤ ਦਰਬ ਪੰਡਿਤ ਕਹ ਦੇਹੀ ॥੮॥"
 page = 1192
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬ੍ਰਾਹਮਣ ਨੂੰ ਬਹੁਤ ਧਨ ਦਿੰਦੇ ਸਨ ॥੮॥"

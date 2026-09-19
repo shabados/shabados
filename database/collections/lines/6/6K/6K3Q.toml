@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਕਾਲ ਲੋਕ ਮਾਨ ਹੈ ॥"
 page = 128
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is worshipped by all in the past, present and future"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿੰਨਾਂ ਕਾਲਾਂ ਵਿਚ ਲੋਕੀਂ (ਤੈਨੂੰ) ਮੰਨਦੇ ਹਨ;"

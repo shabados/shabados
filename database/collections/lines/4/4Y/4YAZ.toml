@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਣਿ ਤਣਿ ਤੀਰ ਚਲਾਏ, ਦੁਰਗਾ ਧਨਖ ਲੈ ॥"
 page = 124
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Durga, taking her bow, stretched it again and again for shooting arrows."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਧਨੁਸ਼ ਲੈ ਕੇ ਖਿਚ ਖਿਚ ਕੇ ਤੀਰ ਚਲਾਏ।"

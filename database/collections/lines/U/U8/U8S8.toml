@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸ ਭਾਤਿ ਜੋ ਸਾਹਿਬ ਧਿਆਈਐ ॥"
 page = 651
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਇਸ ਤਰ੍ਹਾਂ (ਮਗਨਤਾ ਨਾਲ) ਹਰਿ ਦੀ ਆਰਾਧਨਾ ਕਰੀਏ,"

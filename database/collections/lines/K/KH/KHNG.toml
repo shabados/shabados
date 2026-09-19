@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਕੀ ਪ੍ਰੇਮ ਬਾਲਾ ਤਿਸੀ ਠੌਰ ਧਾਈ ॥"
 page = 941
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Imbued in love, she ran to the direction,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰੇਮ ਵਿਚ ਮਗਨ (ਉਹ) ਇਸਤਰੀ ਉਸ ਥਾਂ ਤੇ ਪਹੁੰਚੀ"

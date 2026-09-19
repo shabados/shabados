@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਅਬੈ ਭਜੀਐ, ਤਜੀਐ ਰਨ; ਯਾ ਤੇ ਨ ਕੋਊ ਬਚਿਯੋ ਬਿਨੁ ਮਾਰਿਯੋ ॥"
 page = 478
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Now leave the battlefield and run away, because all will die and none will survive"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਵਾਸਤੇ ਹੁਣ ਰਣ ਨੂੰ ਛਡ ਕੇ ਭਜਣਾ ਚਾਹੀਦਾ ਹੈ ਕਿਉਂਕਿ ਇਸ ਤੋਂ ਮਾਰੇ ਜਾਣ ਤੋਂ ਬਿਨਾ ਕੋਈ ਨਹੀਂ ਬਚਿਆ।"

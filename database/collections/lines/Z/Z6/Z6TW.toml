@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹੀ ਰਿਸਟਣੀ ਪੁਸਟਣੀ ਜੋਗ ਮਾਇਆ ॥"
 page = 335
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Yogmaya, the Sustainer of all"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਰਿਸ਼ਟ ਪੁਸ਼ਟ ਕਰਨ ਵਾਲੀ ਅਤੇ ਯੋਗ-ਮਾਇਆ ਹੈਂ।"

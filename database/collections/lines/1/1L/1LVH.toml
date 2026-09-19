@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਮੈਾ ਤੈਨੂੰ ਇਸ ਲਈ ਪੈਦਾ ਕੀਤਾ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਮਨ ਤੁਰਾ ਆਫ਼ਰੀਦਮ ਅਜ਼ ਪਏ ਆਂ ॥"
 page = 1
 line = 48
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "I have created you for this purpose "

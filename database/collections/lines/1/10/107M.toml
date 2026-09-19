@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੁਅਰੈ ਬਾਟ ਸੈਨ ਸਭ ਲੀਆ ॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The princes distributed all the forces."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਕੁਮਾਰਾਂ ਨੇ ਸਾਰੀ ਸੈਨਾ ਵੰਡ ਲਈ"

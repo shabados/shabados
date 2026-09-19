@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਭੁ ਕੋ ਸੀਸੁ ਨਿਵਾਇਦਾ; ਚੜ੍ਹਿਐ ਚੰਦ੍ਰਾਣੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "All bow towards it as the new moon rises."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਦੂਜ ਦੇ) ਚੰਦ ਚੜੇ ਨੂੰ ਹਰ ਕੋਈ ਮੱਥਾ ਟੇਕਦਾ ਹੈ।"

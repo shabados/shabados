@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਨਾਥ ਸਭ ਜਗਤ ਮੈ ਬ︀ਯਾਪਿ ਰਹਿਯੋ ਸਭ ਦੇਸ ॥"
 page = 903
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Only One is there in the Universe, who is omnipresent."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਪਰਮਾਤਮਾ ਹੀ ਸਾਰੇ ਜਗਤ ਦੇ ਸਾਰਿਆਂ ਦੇਸਾਂ ਵਿਚ ਵਿਆਪ ਰਿਹਾ ਹੈ।"

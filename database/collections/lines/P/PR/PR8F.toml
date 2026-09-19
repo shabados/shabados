@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠਿ ਪਾਇਨ ਲਾਗੇ ਤਬੈ; ਕਰਹਿੰ ਬਡਾਈ ਸੋਇ ॥"
 page = 312
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸੇ ਵੇਲੇ ਉਠ ਕੇ (ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਦੇ) ਚਰਨੀ ਲਗੇ ਅਤੇ ਵਡਿਆਈ ਕਰਨ ਲਗੇ"

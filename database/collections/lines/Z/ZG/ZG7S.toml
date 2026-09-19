@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੁਦ੍ਰਾਵਤਾਰ ਸੁੰਦਰ ਅਜੇਵ ॥"
 page = 638
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Dutt Dev was superior to all in Sannyas Ashrama (monastic order) and was becoming incarnation of Rudra"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਨਾ ਜਿਤੇ ਜਾ ਸਕਣ ਵਾਲੇ ਰੁਦ੍ਰ ਦਾ ਅਵਤਾਰ ਸੀ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਤਿ ਪੰਖੇਰੂ ਵਸਿ ਹੋਇ; ਸਤਿਗੁਰੂ ਧਿਆਈਂ︀ ॥"
 page = 1239
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Dwelling on the True Guru, the mind bird comes under one's sway."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੱਚੇ ਗੁਰਾਂ ਦਾ ਆਰਾਧਨ ਕਰਨ ਦੁਆਰਾ, ਮਨ ਪੰਛੀ ਇਨਸਾਨ ਦੇ ਕਾਬੂ ਵਿੱਚ ਆ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The bird of the intellect comes under one's control, by meditating on the True Guru."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਮਤਿ) ਬੁਧੀ ਉਪਲਖਤ ਮਨ ਰੂਪੀ (ਪੰਖੇਰੂ) ਪੰਛੀ ਵਤ ਹੋ ਜਾਤਾ ਹੈ, ਤਾਂ ਤੇ ਸਤਿਗੁਰੂ ਕੇ ਉਪਦੇਸ ਕਰ ਪਰਮੇਸ੍ਵਰ ਕਾ ਧਿਆਨ ਕਰੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਉਂ ਜਿਉਂ) ਗੁਰੂ ਦੀ ਰਾਹੀਂ (ਗੁਰਮੁਖਿ) ਨਾਮ ਸਿਮਰਦਾ ਹੈ, ਪੰਛੀ (ਵਾਂਗ ਉਡਾਰੂ ਇਹ) ਮੱਤ (ਉਸ ਦੇ) ਵੱਸ ਵਿਚ ਆ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪੰਖੇਰੂ = ਪੰਛੀ। ਵਸਿ = ਵੱਸ ਵਿਚ"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y mi mente, como pájaro nervioso, es calmada habitando en el Guru."

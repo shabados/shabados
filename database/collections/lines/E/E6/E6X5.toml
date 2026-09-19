@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥"
 page = 177
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Let Sri Bhagauti Ji (The Primal Lord) be helpful."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ"

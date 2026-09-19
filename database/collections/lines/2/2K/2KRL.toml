@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗ︀ਯਾ ਭਈ ਨਾਥ ਕੀ ਤਬ ਹੀ ॥"
 page = 1359
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਹੀ ਸੁਆਮੀ ਦੀ ਆਗਿਆ ਹੋਈ।"

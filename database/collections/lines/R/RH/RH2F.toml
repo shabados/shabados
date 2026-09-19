@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜਾਯੰ ਸਹਾਯੰ ਪਰਮੰ ਪ੍ਰਬੀਨੰ ॥੮॥"
 page = 40
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Birthless, He is the Supporter and is Supremely dexterous. 8"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਜਨਮ ਨਹੀਂ ਲੈਂਦਾ, (ਸਭ ਦਾ) ਸਹਾਇਕ ਹੈਂ, ਸ੍ਰੇਸ਼ਠ ਅਤੇ ਨਿਪੁਣ ਹੈਂ ॥੮॥"

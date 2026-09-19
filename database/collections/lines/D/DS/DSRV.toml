@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਏ ਨਮਸਤੇ; ਹਰਏ ਨਮਹ ॥"
 page = 874
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Unto God is my salutations and unto God my obeisance."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਵਾਹਿਗੁਰੂ ਨੂੰ ਮੇਰੀ ਪ੍ਰਣਾਮ ਹੈ ਅਤੇ ਵਾਹਿਗੁਰੂ ਨੂੰ ਹੀ ਮੇਰੀ ਨਮਸ਼ਕਾਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I bow to the Lord, I humbly bow to the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਰੀ ਕੋ ਨਮਸਕਾਰ ਹੈ ਤਨ ਕਰ ਕੇ ਹਰੀ ਕੋ ਨਮਸਕਾਰ ਹੈ ਮਨ ਕਰਕੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀ ਉਸ ਪਰਮਾਤਮਾ ਨੂੰ ਨਮਸਕਾਰ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਰਏ = ਹਰੀ ਨੂੰ (ਵੇਖੋ ਮੇਰੇ 'ਸੁਖਮਨੀ ਸਟੀਕ' ਵਿਚ ਲਫ਼ਜ਼ 'ਗੁਰਏ' ਦੀ ਵਿਆਖਿਆ)।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "¡Hosanna al Señor, Hosanna a mi Dios! Recitando el Nombre del Señor,"

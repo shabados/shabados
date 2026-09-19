@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਜਤ ਭਏ ਬਿਮਨ ਹ੍ਵੈ ਐਸੇ ॥"
 page = 1383
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਅਜਿਹੇ ਬੇਮਨੇ ਹੋ ਕੇ ਭਜ ਰਹੇ ਸਨ,"

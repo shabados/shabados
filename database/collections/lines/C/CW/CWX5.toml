@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੋਹਲੀਅਹੁ ਸਿਰੁ ਕਢਿ ਕੈ; ਫੁਲੁ ਕਸੁੰਭ ਚਲੁੰਭ ਖਿਲਾਰੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The safflower comes up from the upper portion of the thorny weed Carthamus tinctoria and yields its deep colour."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਡੋਡੀਆਂ ਥੋਂ ਸਿਰ ਕੱਢਕੇ ਕਸੁੰਭੇ ਦਾ ਫੁੱਲ ਗਾੜ੍ਹਾ ਰੰਗ ਦੱਸਦਾ ਹੈ।"

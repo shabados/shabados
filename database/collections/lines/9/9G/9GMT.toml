@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਹੂੰਅਨ ਮੂੰਡ ਮੂੰਡਿ ਕੈ ਖਾਵੈ ॥੧੨॥"
 page = 850
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Advancing in such a way, she ransacked them both lavishly.(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੋਹਾਂ ਨੂੰ ਲੁਟ ਲੁਟ ਕੇ ਖਾਂਦੀ ਸੀ ॥੧੨॥"

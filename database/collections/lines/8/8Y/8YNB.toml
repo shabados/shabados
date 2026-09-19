@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਦੈਤ ਕਾਢੋ ਫਿਰੈ, ਦਾਤ ਭਾਰੇ ॥"
 page = 1243
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਦੈਂਤ ਵੱਡੇ ਵੱਡੇ ਦੰਦ ਕਢੀ ਫਿਰਦੇ ਸਨ।"

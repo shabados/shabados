@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਝਾ ਅਤਿਥ ਹੋਇ ਸੰਗ ਗਯੋ ॥"
 page = 939
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Instantly, a messenger was sent and Ranjha accompanied disguised as an ascetic."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਂਝਾ ਉਨ੍ਹਾਂ ਨਾਲ ਫ਼ਕੀਰ ਬਣ ਕੇ ਗਿਆ।"

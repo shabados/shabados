@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਤੰਤ੍ਰ ਹੈ ਨ ਮੰਤ੍ਰ ਹੈ; ਨ ਜੰਤ੍ਰ ਕੋ ਸਰੂਪ ਹੈ ॥"
 page = 32
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is neither Tantra , nor a mantra nor the form of Yantra."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਨਾ ਤੰਤ੍ਰ ਹੈ, ਨਾ ਮੰਤ੍ਰ ਹੈ ਅਤੇ ਨਾ ਯੰਤ੍ਰ ਦਾ ਸਰੂਪ ਹੈ;"

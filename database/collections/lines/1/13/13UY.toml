@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਏ ਸੰਗ ਜੋਧਾ ਬਡੇ ਬੀਰ ਭਾਰੀ ॥"
 page = 104
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He took many brave warriors with him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਆਪਣੇ ਨਾਲ ਵੱਡੇ ਯੋਧੇ ਲਏ ਹੋਏ ਸਨ।"

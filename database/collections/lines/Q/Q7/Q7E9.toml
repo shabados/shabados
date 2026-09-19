@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪੂਰੈ ਗੁਰਿ ਪਾਈਐ; ਮੋਖ ਦੁਆਰੁ ॥"
 page = 114
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Through the perfect Guru the door of salvation is obtained."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪੂਰਨ ਗੁਰਾਂ ਦੇ ਰਾਹੀਂ ਮੁਕਤੀ ਦਾ ਦਰਵਾਜਾ ਪ੍ਰਾਪਤ ਹੁੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Through the Perfect Guru, the gate of salvation is found."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਨ ਪੂਰੇ ਗੁਰੋਂ ਸੇ ਮੁਕਤੀ ਕਾ ਦਰਵਾਜਾ ਗਿਆਨ ਪਾਈਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪੂਰੇ ਗੁਰੂ ਦੀ ਰਾਹੀਂ ਹੀ ਵਿਕਾਰਾਂ ਤੋਂ ਖ਼ਲਾਸੀ ਪਾਣ ਦਾ ਦਰਵਾਜ਼ਾ ਲੱਭਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੁਰਿ = ਗੁਰੂ ਦੀ ਰਾਹੀਂ। ਮੋਖ ਦੁਆਰੁ = (ਵਿਕਾਰਾਂ ਤੋਂ) ਖ਼ਲਾਸੀ ਦਾ ਦਰਵਾਜ਼ਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y a través del Perfecto Guru, encontrar la Puerta de la Salvación;"

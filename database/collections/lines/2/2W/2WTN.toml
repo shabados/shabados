@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਫ਼ੀਲੇ ਦੁ ਦਹ ਹਜ਼ਾਰ ਆਮਦ ਬ ਕਾਰ ॥੧੦੭॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And twelve thousand elephants were destroyed.(107)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ੧੨ ਹਜ਼ਾਰ ਹਾਥੀ ਮਾਰੇ ਗਏ ॥੧੦੭॥"

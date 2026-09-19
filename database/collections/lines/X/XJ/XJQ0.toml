@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਮਾਵਤੀ ਨਗਰ ਚਲਿ ਆਯੋ ॥"
 page = 920
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He (Brahmin) walked away and came to Kamwati, the town of Cupid,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਉਥੋਂ) ਚਲ ਕੇ ਕਾਮਾਵਤੀ ਨਗਰੀ ਵਿਚ ਆ ਗਿਆ।"

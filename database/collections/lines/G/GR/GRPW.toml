@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਲਿ ਥਲਿ ਸਭ ਮਹਿ; ਨਾਮੋ ਡੀਠਾ ॥੨॥"
 page = 863
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "In water, dry land and every place, I see the Name pervading."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪਾਣੀ, ਸੁੱਕੀ ਧਰਤੀ ਅਤੇ ਹਰ ਥਾਂ ਅੰਦਰ ਮੈਂ ਨਾਮ ਨੂੰ ਵਿਆਪਕ ਵੇਖਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "In the water, on the land, and everywhere, I see the Naam. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਜਲੋਂ ਥਲੋਂ ਮੇਂ ਨਾਮ ਕਾ ਹੀ ਮਹਾਤਮੁ ਦੇਖਿਆ ਹੈ; ਵਾ ਨਾਮ ਅਰ ਨਾਮੀ ਅਭੇਦ ਰੂਪ ਕਰ ਕੇ ਕਥਨ ਕੀਆ ਹੈ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਾਣੀ ਵਿਚ ਧਰਤੀ ਉਤੇ ਸਭ ਜੀਵਾਂ ਵਿਚ ਮੈਨੂੰ ਹਰਿ-ਨਾਮ ਹੀ (ਹਰੀ ਹੀ) ਦਿੱਸ ਰਿਹਾ ਹੈ ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਲਿ = ਜਲ ਵਿਚ। ਥਲਿ = ਧਰਤੀ ਵਿਚ, ਧਰਤੀ ਉਤੇ। ਨਾਮੋ = ਨਾਮ ਹੀ, ਪਰਮਾਤਮਾ ਹੀ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "a través del Naam veo al Señor prevaleciendo en la tierra y en las aguas. (2)"

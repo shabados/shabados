@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੁਤ ਬਨਿਤਾ; ਆਪਨ ਨਹੀ ਭਾਈ ॥"
 page = 187
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The sons, wife and brothers are not thine."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਤੂ ਪਤਨੀ ਅਤੇ ਭਰਾ ਤੇਰੇ ਨਹੀਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Children, spouse and siblings are not yours."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਤ੍ਰ ਇਸਤ੍ਰੀ ਭਾਈ ਅਪਨਾ ਨਹੀਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪੁੱਤਰ, ਇਸਤ੍ਰੀ, ਭਰਾ, (ਇਹਨਾਂ ਵਿਚੋਂ ਕੋਈ ਆਪਣਾ ਨਹੀਂ)"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੁਤ = ਪੁੱਤਰ। ਬਨਿਤਾ = ਇਸਤ੍ਰੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Pero no nuestros hijos, esposa o hermanos,"

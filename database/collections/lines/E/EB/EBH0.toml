@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਚਉਰਾਸੀਹ ਜੂਨਿ ਵਿਚਿ; ਜੀਅ ਜੰਤ ਵਿਸੇਖੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Many are the creatures in the eighty-four lacs of species."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਚੌਰਾਸੀਹ ਲਖ ਜੂਨੀਆਂ ਵਿਚੋਂ ਜੀਵ ਜੰਤ ਵਿਸ਼ੇਖ (ਹਨ, ਅਰਥਾਤ ਬੇਗਿਣਤ ਹਨ)।"

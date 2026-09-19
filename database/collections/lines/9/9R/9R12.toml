@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਨ ਸ੍ਵਰਨ ਸਰਤਾ ਹੁਇ ਬਹੀ ॥"
 page = 216
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The beggars had no more desire for wealth because the gift of gold flowed like a stream."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੋਨੇ ਦੇ ਦਾਨ ਦੀ ਮਾਨੋ ਨਦੀ ਵਗ ਰਹੀ ਹੋਵੇ।"

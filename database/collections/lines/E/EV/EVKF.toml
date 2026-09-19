@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਭੈ ਬਾਜ ਡਾਰੈਂ ॥੬੪॥"
 page = 70
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They hold they weapons and cause the horses of both sides to flee.64"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋਹਾਂ ਪਾਸਿਆਂ (ਦੇ ਸੂਰਮੇ) ਘੋੜੇ ਭਜਾਉਂਦੇ ਹਨ ॥੬੪॥"

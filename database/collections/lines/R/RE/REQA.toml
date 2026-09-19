@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਸਿਰ ਤੋਂ ਪੈਰਾਂ ਤਕ ਦੀ ਬੰਦਗੀ ਵੀ ਉਸੇ ਤੋਂ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬੰਦਗੀ ਤਾ ਸਰ ਕਦਮ ਬੁਬਯਾਦਿ ਊ ॥੨੪੫॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "To thousands of inhabitants and thousands of localities"

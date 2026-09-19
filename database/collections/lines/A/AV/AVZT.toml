@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੰਭਾ ਉਰਬਸੀਆ ਘ੍ਰਿਤਾਚੀ ॥"
 page = 661
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰੰਭਾ, ਉਰਬਸੀ, ਘ੍ਰਿਤਾਚੀ ਆਦਿ (ਵਰਗੀ ਸੁੰਦਰ) ਹੈ,"

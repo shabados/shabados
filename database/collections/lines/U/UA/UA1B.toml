@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਰਤ ਹੁਤੀ, ਜੀਵਤ ਸੋ ਭਈ ॥"
 page = 1088
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮਰਨ ਲਗੀ ਸੀ, ਉਹ ਜੀਉਂਦੀ ਹੋ ਗਈ"

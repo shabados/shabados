@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਕਾਰ ਆਮਦਹ ਅਸਪ ਹਫ਼ਤ ਸਦ ਹਜ਼ਾਰ ॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seven hundred thousand horses were killed,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਲੜਾਈ ਵਿਚ ਸੱਤ ਲੱਖ ਘੋੜੇ"

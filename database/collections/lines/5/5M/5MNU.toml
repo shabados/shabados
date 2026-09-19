@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰੇ ਪਠਾਨ ਸੁ ਭੂਮਿ ਮੰਝਾਰੇ ॥੨੦੬॥"
 page = 1373
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨਾਲ ਬਹੁਤ ਸਾਰੇ) ਪਠਾਨ ਧਰਤੀ ਉਤੇ ਡਿਗ ਪਏ ॥੨੦੬॥"

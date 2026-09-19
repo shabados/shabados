@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਸਤ ਜਾਣ ਮਦਣੰ ॥੫੬੮॥"
 page = 259
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The intoxicating sounds are being heard from all the four sides.568."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਣੋ (ਯੋਧੇ) ਸ਼ਰਾਬ ਨਾਲ ਮਤਵਾਲੇ ਹੋ ਰਹੇ ਹੋਣ ॥੫੬੮॥"

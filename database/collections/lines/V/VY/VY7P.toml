@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸ੍ਵੰਭਰ ਹੈਂ ॥"
 page = 10
 line = 1
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Lord! Thou art the Nourisher of the world!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ!) ਤੂੰ ਸ੍ਰਿਸ਼ਟੀ ਦਾ ਭਰਨ-ਪੋਸ਼ਣ ਕਰਨ ਵਾਲਾ ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਬਿਸ੍ਵੰਭਰ ਹੈਂ ॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹਿ ਗਯੋ ਦਛ ਅਕੇਲ ਅਨਾਥਾ ॥"
 page = 186
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, all his companions fell down and Daksha was only left behind."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕਲਾ ਦਕਸ਼ ਹੀ ਅਨਾਥ ਜਿਹਾ ਹੋ ਕੇ ਰਹਿ ਗਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬੈ ਸੰਗਿ ਤਾ ਕੈ ਮਹਾ ਜੁਧ ਠਾਨਯੋ ॥੭੦੯॥"
 page = 274
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram said to him “When you see the enemy without the trident of Shiva, then wage a war with him.”709."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਹੀ ਉਸ ਨਾਲ ਘੋਰ ਯੁੱਧ ਮਚਾ ਦਿਓ ॥੭੦੯॥"

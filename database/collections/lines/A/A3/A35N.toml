@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਚਕਵੀ ਸੂਰਜ ਹੇਤ ਹੈ, ਮਿਲਿ ਹੋਨਿ ਸੁਖਾਲੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Ruddy sheldrake (chakavi) loves sun, and in sunlight, meeting its beloved feels elated."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਚਕਵੀ ਦਾ ਸੂਰਜ ਨਾਲ ਹੇਤ ਹੈ। (ਕਿਉਂ ਜੋ ਜਦ ਉਹ ਚੜ੍ਹਦਾ ਹੈ ਤਦੋਂ ਚਕਵੀ ਚਕਵਾ ਆਪੋ ਵਿਖੇ) ਮਿਲਕੇ ਸੁਖੀ ਹੁੰਦੇ ਹਨ।"

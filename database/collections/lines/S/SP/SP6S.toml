@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰਬਤਿ ਸੁ ਨਾਮ ਲੈ ਤਾਹਿ ਦੀਨ ॥"
 page = 648
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦਾ ਨਾਮ 'ਪਰਬਤਿ' ਦੇ ਦਿੱਤਾ।"

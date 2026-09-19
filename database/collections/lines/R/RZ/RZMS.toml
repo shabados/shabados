@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਿਨ ਹੁਕਮ ਪਾਇ; ਦੀਵਾਨ ਲਗਾਯੰ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Under Command temporal courts are held."

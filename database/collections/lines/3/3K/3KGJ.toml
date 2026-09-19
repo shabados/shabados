@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਗਤੇਸ੍ਵਰ ਹੈਂ ॥੧੭੫॥"
 page = 9
 line = 16
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Lord! Thou art the Master of Universe! 175"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਜਗਤ ਦਾ ਈਸ਼ਵਰ (ਮਾਲਕ) ਹੈਂ ॥੧੭੫॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਜਗਤੇਸ੍ਵਰ ਹੈਂ ॥੧੭੫॥"

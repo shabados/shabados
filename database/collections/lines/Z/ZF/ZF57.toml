@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੇ ਤੀਰ ਤਿਛੰ ॥੨੮॥੧੦੫॥"
 page = 108
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They are desirous of their victory and thus are shooting their sharp shafts.28.105."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿਖੇ ਤੀਰਾਂ ਦੇ ਲਗਣ ਨਾਲ ॥੨੮॥੧੦੫॥"

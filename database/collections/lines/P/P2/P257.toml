@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਬਲਿਸਟ ਅਧਿਸਟ; ਸਕਲ ਸੈਨਾ ਕਹੁ ਜਾਨਹੁ ॥"
 page = 695
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is extremely powerful and master of all forces"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਸਾਰੀ ਸੈਨਾ ਦਾ ਆਧਾਰ (ਅਥਵਾ ਰਖਿਅਕ) ਜਾਣ ਲਵੋ।"

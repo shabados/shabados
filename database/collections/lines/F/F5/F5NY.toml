@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਲ ਤਿਲ ਪ੍ਰਾਇ ਸਕਲ ਕਰਿ ਡਾਰੇ ॥"
 page = 1379
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰਿਆਂ ਨੂੰ ਤਿਲ ਤਿਲ ਦੇ ਬਰਾਬਰ ('ਪ੍ਰਾਇ') ਕਰ ਦਿੱਤਾ।"

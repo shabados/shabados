@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ ਧਾਮ ਅੰਨੁ ਧਨੁ ਭਾਰੀ ॥"
 page = 1036
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਘਰ ਅੰਨ ਅਤੇ ਧਨ ਬਹੁਤ ਸੀ।"

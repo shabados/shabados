@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੇ ਆਤਮਾਹ ਪਰਾਤਮਾ ਪੁਛੰਤ ॥੭॥੧੩੨॥"
 page = 139
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Soul makes enquiries from the Lord.7.132."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਆਤਮਾ ਨੇ ਪਰਮਾਤਮਾ ਨੂੰ ਪੁਛਿਆ ॥੭॥੧੩੨॥"

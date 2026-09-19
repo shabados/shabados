@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਸਮ ਔਰ ਨ ਜਗ ਮੈ ਕੋਈ ॥੨੯॥"
 page = 933
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Be will be a great celibate and gallant person and there will not be any like him in the world.’(29)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਵਰਗਾ ਜਗਤ ਵਿਚ ਹੋਰ ਕੋਈ ਨਹੀਂ ਹੈ ॥੨੯॥"

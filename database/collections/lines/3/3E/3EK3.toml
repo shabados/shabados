@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਗੜਦੀ ਰੋਸ ਰਿਪ ਰਾਜ; ਲਾਗੜਦੀ ਲਛਮਣ ਪੈ ਧਾਯੋ ॥"
 page = 258
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਵਣ (ਰਿਪੁ-ਰਾਜ) ਕ੍ਰੋਧ ਕਰਕੇ ਲੱਛਮਣ ਵੱਲ ਵਧਿਆ ਹੈ।"

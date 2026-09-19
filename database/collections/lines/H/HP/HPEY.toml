@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਵ ਭੇਵ ਨ ਜਾਨਹੀ; ਜਿਹ ਬੇਦ ਅਉਰ ਕਤੇਬ ॥"
 page = 5
 line = 7
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The gods and the Scriptures of Hindus and Muslims do not know Thy secret."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦਾ) ਭੇਦ ਦੇਵਤੇ, ਵੇਦ ਅਤੇ ਕਤੇਬ (ਸਾਮੀ ਧਰਮ ਪੁਸਤਕਾਂ) ਨਹੀਂ ਜਾਣਦੇ;"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਦੇਵ ਭੇਵ ਨ ਜਾਨਹੀ; ਜਿਹ ਬੇਦ ਅਉਰ ਕਤੇਬ ॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਕਿੰਗਸ਼ ਦਰ ਆਮਦ ਦਿਰੰਗਸ਼ ਗਿਰਿਫ਼ਤ ॥"
 page = 1398
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He came in the court, pondered over thoroughly,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਾਰੇ ਵਜ਼ੀਰ) ਗਿਣਤੀ ਮਿਣਤੀ ਵਿਚ ਪੈ ਗਏ ਅਤੇ (ਜਵਾਬ ਦੇਣ ਵਿਚ) ਦੇਰ ਹੋ ਗਈ।"

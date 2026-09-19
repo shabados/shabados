@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਹਜੇ ਹੀ; ਹਰਿ ਨਾਮਿ ਸਮਾਇਆ ॥੩॥"
 page = 365
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He easily gets absorbed in God's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸੁਖੈਨ ਹੀ ਵਾਹਿਗੁਰੂ ਦੇ ਨਾਮ ਅੰਦਰ ਲੀਨ ਹੋ ਜਾਂਦਾ ਹੈ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He is easily absorbed in the Lord's Name. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਹਰੀ! ਨਾਮੀ ਵਹੁ ਸੁਭਾਵਕ ਹੀ ਤੇਰੇ ਸਰੂਪ ਮੇਂ ਸਮਾਯਾ ਹੈ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮਨੁੱਖ (ਸਿਮਰਨ-ਭਗਤੀ ਦੇ ਕਾਰਨ) ਆਤਮਕ ਅਡੋਲਤਾ ਵਿਚ ਟਿਕ ਕੇ ਪਰਮਾਤਮਾ ਵਿਚ ਲੀਨ ਹੋ ਗਿਆ ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਹਜੇ = ਆਤਮਕ ਅਡੋਲਤਾ ਵਿਚ। ਨਾਮਿ = ਨਾਮ ਵਿਚ ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y con toda naturalidad se inmergen en Tu Nombre. (3)"

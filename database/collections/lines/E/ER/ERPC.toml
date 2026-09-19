@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਹਮੀ ਪਾਵ ਗਾੜ ਕਰਿ ਰੋਪੇ ॥੧੯੦॥"
 page = 1371
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭੂਮੀ ਉਤੇ ਚੰਗੀ ਤਰ੍ਹਾਂ ਪੈਰ ਗਡ ਕੇ ਜਮਾ ਲਏ ॥੧੯੦॥"

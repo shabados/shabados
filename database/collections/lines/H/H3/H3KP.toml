@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੂਹਿ ਕਿਰਪਾਣਾਂ ਤਿਖੀਆ ਨਾਲ ਲੋਹੂ ਧੋਈਆਂ ॥"
 page = 126
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Pulling the sharp swords, they have been washed with blood."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸੂਰਮਿਆਂ ਨੇ) ਤੇਜ਼ ਤਲਵਾਰਾਂ ਖਿਚ ਕੇ ਲਹੂ ਨਾਲ ਧੋਈਆਂ ਸਨ।"

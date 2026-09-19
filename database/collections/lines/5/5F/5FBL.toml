@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨਿ ਬੋਲਿ ਬਿਪ੍ਰ ਮਹਾਨ ॥"
 page = 154
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ (ਬਹੁਤ ਸਾਰੇ) ਮਹਾਨ ਬ੍ਰਾਹਮਣ ਬੁਲਾ ਲਏ"

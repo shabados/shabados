@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਵਹੁ ਮੁਖ ਤੇ ਕਹੈ, ਸੁ ਕਹੈ ॥"
 page = 890
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A number of Rajas were under his suzerainty."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਉਹ ਮੂੰਹ ਵਿਚੋਂ ਕਹਿੰਦੀ ਸੀ, ਉਹੀ ਉਹ ਕਹਿੰਦਾ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਬਲ ਦਰੋ ਬੰਦ ਜਬ ਭਯੋ ॥"
 page = 1079
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਕਾਬਲ ਦਾ ਦਰਾ (ਵੈਰੀਆਂ ਨੇ) ਬੰਦ ਕਰ ਦਿੱਤਾ"

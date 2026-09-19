@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਵਤ ਹੁਤੋ ਬੰਧੁ ਲਖਿ ਪਾਈ ॥"
 page = 941
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One day when she ran out, her brother, who was slumbering there, saw her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਸੁਤੇ ਪਏ ਭਰਾ ਨੇ ਉਸ ਨੂੰ ਵੇਖ ਲਿਆ।"

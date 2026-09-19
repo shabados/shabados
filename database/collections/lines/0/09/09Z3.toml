@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰੁ ਪੀਰੁ ਸਦਾਏ; ਮੰਗਣ ਜਾਇ ॥"
 page = 1245
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "One who calls himself a Guru and a spiritual preceptor but goes begging,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਆਪਣੇ ਆਪ ਨੂੰ ਗੁਰੂ ਅਤੇ ਰੁਹਾਨੀ ਰਹਿਬਰ ਅਖਵਾਉਂਦਾ ਹੈ ਅਤੇ ਗਦਾਗਰੀ ਕਰਨ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "One who calls himself a guru or a spiritual teacher, while he goes around begging"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਗੁਰੂ ਪੀਰ ਕਹਾਵਤਾ ਹੈ ਔਰ ਮੰਗਣ ਜਾਤਾ ਹੈ, ਭਾਵ ਤ੍ਰਿਸ਼ਨਾ ਕਰ ਮਾਂਗਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਉਂਝ ਤਾਂ ਆਪਣੇ ਆਪ ਨੂੰ) ਗੁਰੂ ਪੀਰ ਅਖਵਾਂਦਾ ਹੈ (ਪਰ ਰੋਟੀ ਦਰ ਦਰ) ਮੰਗਦਾ ਫਿਰਦਾ ਹੈ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਦਾਏ = ਅਖਵਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "o proclamando ser un guru mendiga de puerta en puerta."

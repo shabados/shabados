@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਜਿਤੀ ਇਹ ਸਾਮੁਹੇ ਸਤ੍ਰਨ; ਸੈਨ, ਗਈ ਸਭ ਯਾਹਿ ਖਪਾਈ ॥"
 page = 542
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He before whom all the armies that went, he destroyed them"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਰ ਜਿਤਨੀ ਵੀ ਵੈਰੀ ਸੈਨਾ ਇਸ ਦੇ ਸਾਹਮਣੇ ਗਈ, (ਉਹ) ਸਾਰੀ ਉਸ ਨੇ ਖਪਾ ਦਿੱਤੀ।"

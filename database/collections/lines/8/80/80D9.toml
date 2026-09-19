@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਏ ਜਿਤਕ ਤਿਤਕ ਤਹ ਮਾਰੇ ॥"
 page = 1363
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਤਨੇ ਵੀ (ਅਗੇ) ਆਏ, ਉਤਨੇ ਹੀ (ਮਹਾ ਕਾਲ ਨੇ) ਮਾਰ ਦਿੱਤੇ।"

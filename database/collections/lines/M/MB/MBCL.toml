@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾ ਕੋਕਿਲਾ ਤੂ ਭਈ ਅਯਾਨੀ ॥"
 page = 934
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the Mynah (bird) told, ‘Kokila why are you behaving foolishly.’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੀ ਕੋਕਿਲਾ ਤੂੰ ਇਆਣੀ ਹੋ ਗਈ ਹੈਂ।"

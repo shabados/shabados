@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬਿਕਾਰ ਰੂਪ ਪ੍ਰਚੰਡ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Glory-incarnate and devoid-king"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਰੂਪ ਪ੍ਰਚੰਡ ਅਤੇ ਵਿਕਾਰ ਤੋਂ ਰਹਿਤ ਸੀ"

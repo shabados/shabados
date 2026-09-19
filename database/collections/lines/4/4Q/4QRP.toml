@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਆਲਮ ਬਿਗੁਜ਼ਰਦ ਸਰੇ ਜਾ ਬਜਾਇ ॥੧੦੭॥"
 page = 1394
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "is not the permanent abode.107."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਸੰਸਾਰ ਜਾਂ ਸਮਾਂ ਸਭ ਦੇ ਸਿਰ ਉਤੋਂ ਲੰਘਦਾ ਜਾ ਰਿਹਾ ਹੈ ॥੧੦੭॥"

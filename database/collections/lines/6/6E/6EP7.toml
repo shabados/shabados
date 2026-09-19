@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਸਠ ਕੁੰਦਨੀ ਆਦਿ ਬਖਾਨੋ ॥"
 page = 749
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) 'ਕਾਸਠ ਕੁੰਦਨੀ' (ਕਾਠ ਦੇ ਮੁਠੇ ਵਾਲੀ) ਕਥਨ ਕਰੋ।"

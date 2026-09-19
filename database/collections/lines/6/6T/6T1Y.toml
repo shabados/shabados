@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਕੋਊ ਸਾਤ ਪੂਤ ਹ︀ਯਾਂ ਮਾਰੈ ॥"
 page = 1049
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਕੋਈ (ਆਪਣੇ) ਸੱਤ ਪੁੱਤਰਾਂ ਦੀ ਬਲੀ ਇਥੇ ਦੇਵੇ"

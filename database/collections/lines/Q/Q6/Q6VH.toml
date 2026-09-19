@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਰ ਨਰ ਨਾਗ ਸੁਰੇਸ; ਜਛ ਕਿੰਨਰ ਮਨ ਮੋਹਤ ॥"
 page = 698
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He allures the mind of all the gods, men, Nagas, Indra, Yakshas, kinnars etc"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਦੇਵਤਿਆਂ, ਮਨੁੱਖਾਂ, ਨਾਗਾਂ, ਇੰਦਰ, ਯਕਸ਼ਾਂ ਅਤੇ ਕਿੰਨਰਾਂ ਦੇ ਮਨ ਨੂੰ ਮੋਹ ਰਿਹਾ ਹੈ।"

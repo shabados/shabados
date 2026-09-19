@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰੰ ਨਰੰ ਬਨਸਪਤੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The vegetation narrates His Praises."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਨਸਪਤੀ ਅਤੇ ਸ੍ਰਸ਼ਠ ਮਨੁੱਖ (ਤੇਰਾ ਵਰਣਨ) ਕਰਦੇ ਹਨ,"

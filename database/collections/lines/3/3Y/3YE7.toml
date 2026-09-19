@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਹੁੜਿ. ਨ ਜੋਨੀ ਪਾਈਐ ॥੩॥"
 page = 623
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "the mortal is not cast into the womb again."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਾਣੀ ਮੁੜ ਕੇ ਗਰਭ ਵਿੱਚ ਨਹੀਂ ਪਾਇਆ ਜਾਂਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I shall not be consigned to reincarnation again. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਕਰ ਜੀਵ ਫੇਰ ਜੋਨੀਓਂ ਮੇਂ ਨਹੀਂ ਪਾਈਏਗਾ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਸਿਫ਼ਤ-ਸਾਲਾਹ ਦੀ ਬਰਕਤਿ ਨਾਲ) ਮੁੜ ਜਨਮ ਮਰਨ ਦੇ ਗੇੜ ਵਿਚ ਨਹੀਂ ਪਈਦਾ ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਹੁੜਿ = ਮੁੜ ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "el Dios, para que no seamos colocados en un vientre otra vez. (3)"

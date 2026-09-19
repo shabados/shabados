@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਪਤ ਰਾਜ ਕਰੈ ਲਗੈ; ਸੁਤ ਸਰਬ ਸੋਭਾਵੰਤ ॥੫੧॥"
 page = 618
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He immediately the seven continents among his seven sons and they all being to rule with extreme glory.51."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੋਭਾ ਯੁਕਤ ਸੱਤ ਪੁੱਤ੍ਰ ਸੱਤਾਂ ਦੀਪਾਂ ਵਿੱਚ ਰਾਜ ਕਰਨ ਲੱਗੇ ॥੫੧॥"

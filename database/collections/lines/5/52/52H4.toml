@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਗਲ ਬਟਰੀਆ ॥"
 page = 537
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "All the mortals are the way-farers,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਪ੍ਰਾਣੀ ਮੁਸਾਫਰ ਹਨ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All are travellers,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਸੇਂ ਯਹ ਕਿ ਸਭੀ ਜੀਵ (ਬਟਰੀਆ) ਬਟਾਊ ਅਰਥਾਤ ਰਾਹੀ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਜੀਵ (ਇਥੇ) ਰਾਹੀ ਹੀ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਟਰੀਆ = (ਵਾਟ = ਰਸਤਾ) ਰਾਹੀ, ਮੁਸਾਫ਼ਿਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Todos los hombres son pasajeros,"

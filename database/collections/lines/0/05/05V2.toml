@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਰਗਾ ਸਭ ਸੰਘਾਰੇ, ਰਾਕਸਿ ਖੜਗ ਲੈ ॥੧੫॥"
 page = 122
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Durga, holding her sword, killed all the demons.15."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੁਰਗਾ ਨੇ ਸਾਰਿਆਂ ਰਾਖਸ਼ਾਂ ਨੂੰ ਖੜਗ ਲੈ ਕੇ ਮਾਰ ਦਿੱਤਾ ॥੧੫॥"

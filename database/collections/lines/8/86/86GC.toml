@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੁਟੈ ਲਪਟ ਜ੍ਵਾਲਾ ਬਸੈ ਬਿਖਧਾਰੰ ॥੪॥੧੭੨॥"
 page = 142
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When they fell in the fire, the flame flared up.4.172."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਦੋਂ) ਸੱਪ ਵਿਚ ਡਿਗਦੇ ਹਨ ਤਾਂ ਅੱਗ ਦੀ ਲਾਟ ਮਚਦੀ ਹੈ ॥੪॥੧੭੨॥"

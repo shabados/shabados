@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਡਮ ਕੁਅਰਿ ਸੁਹਾਗਮ ਦੇਈ ॥"
 page = 884
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Their names were Laadam Kunwar and Suhaag Devi and many other"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਕ ਦਾ ਨਾਂ) ਲਾਡਮ ਕੁਅਰਿ ਸੀ (ਅਤੇ ਦੂਜੀ ਦਾ ਨਾਂ) ਸੁਹਾਗਮ ਦੇਈ ਸੀ।"

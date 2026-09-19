@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਧੇ, ਬਲਾਇ ਲਿਉ ਰੋਸ ਕਰੋ ਨਹਿ; ਕਿਉ ਕਿਹ ਕੋਪ ਕੇ ਸੰਗ ਭਰੀ ਹੈ ॥"
 page = 366
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Radha, you may call Krishna you are getting enraged in vain"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਰਾਧਾ! ਮੈਂ ਤੇਰੀਆਂ ਬਲਾਵਾਂ ਲਵਾਂ, ਕ੍ਰੋਧ ਨਾ ਕਰ, (ਤੂੰ) ਕਿਸ ਕਰ ਕੇ ਕ੍ਰੋਧ ਨਾਲ ਭਰ ਗਈ ਹੈਂ।"

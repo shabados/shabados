@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸੰਖੁ ਸਮੁੰਦਹੁ ਸਖਣਾ; ਰੋਵੈ ਦੇ ਧਾਹਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The conch remains empty even in the ocean and cries when blown."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੰਖ ਸਮੁੰਦ੍ਰ ਥੋਂ ਖਾਲੀ ਨਿਕਲਦਾ ਹੈ, (ਇਸ ਲਈ ਪ੍ਰਾਤਾਕਾਲ ਤੇ ਸੰਧਿਆ ਸਮੇਂ) ਧਾਹਾਂ ਮਾਰ ਮਾਰ ਰੋਂਦਾ ਹੈ ('ਦੇਵਲ ਦੇਵਲ ਧਾਹੜੀ ਦੇਸਹਿ ਉਗਵਤੇ ਸੂਰ')।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਹੀ ਛੋਡਉ. ਰੇ ਬਾਬਾ; ਰਾਮ ਨਾਮ ॥"
 page = 1194
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O sire, I shall abandon not the Lord's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਜਨਾਬ! ਮੈਂ ਪ੍ਰਭੂ ਦੇ ਨਾਮ ਨੂੰ ਨਹੀਂ ਤਿਆਗਾਂਗਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Baba, I will not forsake the Name of the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ (ਬਾਬਾ) ਪਾਂਧਾ ਜੀ! ਮੈਂ ਰਾਮ ਨਾਮ ਕੋ ਨਹੀਂ ਛੋਡੂੰਗਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਬਾਬਾ! ਮੈਂ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਸਿਮਰਨਾ ਨਹੀਂ ਛੱਡਾਂਗਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰੇ ਬਾਬਾ = ਹੇ ਬਾਬਾ! ਛੋਡਉ = ਮੈਂ ਛੱਡਦਾ ਹਾਂ, ਮੈਂ ਛੱਡਾਂਗਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Amor, nunca dejaré el Nombre de Dios,"

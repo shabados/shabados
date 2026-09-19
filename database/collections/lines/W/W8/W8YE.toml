@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮ ਦਾਸ ਨਾਮਾ ਤਹ ਆਯੋ ॥"
 page = 1293
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਰਾਮ ਦਾਸ ਨਾਂ ਦਾ ਵਿਅਕਤੀ ਆਇਆ।"

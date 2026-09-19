@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਬਹੂੰ ਨ ਕਾਮ ਕਿਨੋ ਅਧੀਰ ॥"
 page = 639
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His body was immaculate, which had never been troubled by lust"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਕਾਮਨਾਵਾਂ ਨੇ ਕਦੇ ਆਧਾਰ ਨਹੀਂ ਬਣਾਇਆ।"

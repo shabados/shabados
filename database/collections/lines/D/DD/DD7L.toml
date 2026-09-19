@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਸੇ ਖ਼ਾਨ ਗਰਦੰਦ ਬੇਰੂੰ ਗੁਜ਼ਾਫ਼ ॥੩੦॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "they were dispatched in no time.30."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਬਾਹਰ ਬੈਠੇ ਬਹੁਤ ਸ਼ੇਖ਼ੀਆਂ ਮਾਰ ਰਹੇ ਸਨ ॥੩੦॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਸੰਕਾ ਬਿਚਾਰੈ ॥"
 page = 68
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors are striking their weapons, they do not think of the impending death."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮਨ ਵਿਚ) ਕੋਈ ਸ਼ੰਕਾ ਨਹੀਂ ਵਿਚਾਰਦੇ ਸਨ।"

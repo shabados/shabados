@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੈ ਧਨ ਕਿਯਾ ਅਨਾਥ ਸਨਾਥਾ ॥"
 page = 1295
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਨ ਦੇ ਕੇ ਗ਼ਰੀਬ (ਯਾਰ) ਨੂੰ ਧਨਵਾਨ ਬਣਾ ਦਿੱਤਾ।"

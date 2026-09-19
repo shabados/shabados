@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਰਜੇ ਨਰਸਿੰਘ ਨਰਾਤ ਕਰੰ ॥"
 page = 167
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਰਾਂ ਦਾ ਅੰਤ ਕਰਨ ਵਾਲੇ ਨਰਸਿੰਘ ਨੇ ਗਰਜਨਾ ਕੀਤੀ"

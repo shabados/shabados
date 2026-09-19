@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿੰਘ ਨਰਿੰਦਰ ਭੂਪ ਇਕ ਨ੍ਰਿਪ ਬਰ ॥"
 page = 1339
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਰਿੰਦ੍ਰ ਸਿੰਘ ਨਾਂ ਦਾ ਇਕ ਉੱਤਮ ਰਾਜਾ ਸੀ।"

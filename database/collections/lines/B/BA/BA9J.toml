@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਓਹੁ; ਅਬਿਨਾਸੀ ਰਾਇਆ ॥"
 page = 206
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my Imperishable King,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਓ ਮੇਰੇ ਸਦੀਵੀ ਸਥਿਰ ਪਾਤਸ਼ਾਹ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He is the Eternal King."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਓਹੁ) ਹੇ ਅਬਨਾਸ਼ੀ ਰਾਜਾ ਪਰਮੇਸ੍ਵਰ! ਸਰਬ ਰੂਪ ਤੂੰ  ਆਪ ਹੀ ਹੋ ਰਹਾ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ! ਤੂੰ ਇਕ) ਉਹ ਰਾਜਾ ਹੈਂ ਜੋ ਕਦੇ ਨਾਸ ਹੋਣ ਵਾਲਾ ਨਹੀਂ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰਾਇਆ = ਰਾਜਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él es el Señor Eterno,"

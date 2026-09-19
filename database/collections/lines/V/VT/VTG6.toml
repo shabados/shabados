@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਸਿਖੁ ਸਿਖੁ ਗੁਰ ਸੋਇ; ਅਲਖੁ ਲਖਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Being one with each other the Guru and the Sikh have made the Lord perceptible (in the form of Guru)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਨੇ ਸਿੱਖ ਹੋਕੇ ਤੇ ਸਿੱਖ ਨੇ ਗੁਰੂ ਹੋਕੇ ਉਸ ਅਲਖ (ਪਰਮੇਸਰ) ਨੂੰ ਲਖਾ ਦਿੱਤਾ ਹੈ;"

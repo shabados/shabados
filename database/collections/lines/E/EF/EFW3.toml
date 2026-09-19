@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਚੇ ਬੀਰ ਬੈਤਾਲ, ਭੂਤੰ ਭਭਕੰ ॥੫੮॥੨੧੪॥"
 page = 116
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And in accompaniment with their sound, the ghosts and evil spirits are dancing.58.214."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੀਰ, ਬੈਤਾਲ ਅਤੇ ਭੂਤ ਭਭਕਾਂ ਮਾਰਦੇ ਹੋਏ ਨਚ ਰਹੇ ਸਨ ॥੫੮॥੨੧੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਸ ਚਾਰ ਚਾਰ ਬਿਦਿਆ ਨਿਧਾਨ ॥"
 page = 638
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The loving Dutt, the store of eighteen sciences was born"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਅਠਾਰ੍ਹਾਂ ਵਿਦਿਆਵਾਂ ਦਾ ਖ਼ਜ਼ਾਨਾ ਸੀ।"

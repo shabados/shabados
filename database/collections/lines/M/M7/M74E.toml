@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੁਝਣ ਨੋ ਅਰੜਾਏ, ਰਾਕਸ ਰੋਹਲੇ ॥"
 page = 124
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The infuriated demons shouted loudly for war."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਕ੍ਰੋਧਵਾਨ ਰਾਖਸ਼ ਯੁੱਧ ਕਰਨ ਲਈ ਅਰੜਾ ਰਹੇ ਸਨ।"

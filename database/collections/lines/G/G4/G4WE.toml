@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੋਇਲ ਕਾਂਉ ਰਲਾਈਅਨਿ; ਕਿਉ ਹੋਵਨਿ ਇਕੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Crows and cuckoos however mixed, cannot be one."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕੋਇਲਾਂ ਅਤੇ ਕਾਉਂ ਦੋਵੇਂ ਕੱਠੇ ਕਰੀਏ ਤਾਂ ਕੀ ਇਕ ਹੋ ਸਕਦੇ ਹਨ? (ਅੱਗੇ ਉਤਰ ਦਿੰਦੇ ਹਨ)।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਪਰੰਤੂ ਉਹ ਗੁਰਮੁਖਾਂ ਦੀ ਜੀਭਾ ਉੱਤੇ ਵਸਦਾ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਲੇਕਨ ਊ ਅੰਦਰ ਜ਼ੁਬਾਨਿ ਔਲੀਆ ਸਤ ॥੨੦੭॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "How does the Nature matter before Guru Gobind Singh?"

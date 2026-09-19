@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਟਕਾ ਗਾਠਿ ਮਹਿ ਲਏ; ਨ ਦੇਹੀ ਜਾਨ ਘਰ ॥੭੫॥"
 page = 1197
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦੀ) ਗੰਢ ਵਿਚ ਪੈਸਾ (ਜਾਣ ਲੈਂਦਾ ਹੈ) ਉਸ ਤੋਂ ਲਏ ਬਿਨਾ ਘਰ ਜਾਣ ਨਹੀਂ ਦਿੰਦਾ ॥੭੫॥"

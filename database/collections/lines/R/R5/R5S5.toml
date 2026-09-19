@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਈ ਕੋਟਿ; ਆਚਾਰ ਬਿਉਹਾਰੀ ॥"
 page = 275
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Many millions are the performers of religious and worldly deeds."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਕ੍ਰੋੜ ਹਨ, ਧਾਰਮਕ ਅਤੇ ਸੰਸਾਰੀ ਕਰਮ ਕਰਨ ਵਾਲੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Many millions perform religious rituals and worldly duties."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਾ ਕਈ ਕ੍ਰੋੜੋਂ ਸ੍ਰੇਸਟ ਅਚਾਰੋਂ ਕੇ ਵਿਹਾਰ ਕਰਨੇ ਹਾਰੇ ਭਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਈ ਕਰੋੜਾਂ ਧਾਰਮਿਕ ਰੀਤਾਂ ਰਸਮਾਂ ਕਰਨ ਵਾਲੇ ਹਨ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਚਾਰ ਬਿਉਹਾਰੀ = ਧਾਰਮਿਕ ਰੀਤਾਂ ਰਸਮਾਂ ਕਰਨ ਵਾਲੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "se consagran a la Alabanza del Señor."

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਨ ਖਾਤ ਤੰਬੋਲ; ਗੰਧਿ ਉਤਮ ਬਿਸਥਾਰੇ ॥"
 page = 696
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is chewing th betel leaf in his mouth and its fine odour is spreading on all the four sides"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੂੰਹ ਨਾਲ ਪਾਨ ਦਾ ਬੀੜਾ ਚਬਾਉਂਦਾ ਹੈ ਅਤੇ ਸੁੰਦਰ ਸੁਗੰਧ ਖਿਲਾਰ ਰਿਹਾ ਹੈ।"

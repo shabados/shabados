@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਛੀ ਮਿਟੀ; ਸੋਝੀ ਹੋਇ ॥"
 page = 878
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord's comprehension is the good clay."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਹਿਬ ਦੀ ਸੂਝ ਬੂਝ ਚੰਗੀ ਮਿੱਟੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "This understanding is good clay;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਧਰਮਾਧਰਮ (ਸੋਝੀ) ਸਮਝ ਹੈ ਇਹ ਚੰਗੀ ਮਿਟੀ ਹੋਵੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜੇ ਸਹੀ ਜੀਵਨ-ਜੁਗਤਿ ਨੂੰ ਸਮਝਣ ਵਾਲੀ) ਸੁਚੱਜੀ ਅਕਲ ਦੀ ਮਿੱਟੀ ਹੋਵੇ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੋਝੀ = ਸਮਝ, ਅਕਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Deja que el conocimiento"

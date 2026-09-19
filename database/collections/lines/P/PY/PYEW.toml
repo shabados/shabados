@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਬਰਮੰ ਨ ਚਰਮੰ, ਨ ਕਰਮੰ ਨ ਬਾਕੇ ॥"
 page = 26
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without coat of mail, without shield, without steps and without speech."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰਾ) ਨਾ ਕੋਈ ਕਵਚ ('ਬਰਮੰ') ਹੈ, ਨਾ ਢਾਲ ('ਚਰਮੰ') ਹੈ, ਨਾ ਕਰਮ ਹੈ ਅਤੇ ਨਾ ਹੀ ਡਰ (ਬਾਕ-ਫ਼ਾਰਸੀ ਸ਼ਬਦ) ਹੈ।"

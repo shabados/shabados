@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਬਾਣ ਪਾਣੰ ॥"
 page = 46
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to Him, who wields the bow in his hands"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ) ਹੱਥ ਵਿਚ ਬਾਣ ਧਾਰਨ ਕਰਨ ਵਾਲੇ!"

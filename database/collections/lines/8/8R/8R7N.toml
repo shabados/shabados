@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦਰਦ ਨਿਵਾਰਹਿ ਜਾ ਕੇ ਆਪੇ ॥"
 page = 257
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He whose pain He Himself removes,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਉਹ ਆਪ ਦੁਖ ਦੂਰ ਕਰ ਦਿੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He Himself removes the pains of the Gurmukh;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਵਾਹਗੁਰੂ ਆਪੇ ਹੀ ਜਿਸ ਜਿਸ ਪੁਰਸ ਕੇ (ਦਰਦ) ਦੁਖ ਕੋ ਨਿਬ੍ਰਿਤ ਕਰਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਜਿਨ੍ਹਾਂ ਬੰਦਿਆਂ ਦੇ ਦਿਲ ਵਿਚੋਂ ਤੂੰ ਆਪ ਹੀ (ਮਾਇਆ ਦੇ ਮੋਹ ਦੀਆਂ) ਚੋਭਾਂ ਦੂਰ ਕਰਦਾ ਹੈਂ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él Mismo remueve el dolor del Gurmukh,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਕੋ ਸੋਕ ਦੂਰਿ ਕਰਿ ਦੀਨੋ ॥੪੯॥"
 page = 964
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Retaining her as his principal Rani, he obliterated all his agonies.(49)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਸ ਦੇ) ਚਿਤ ਦਾ ਦੁਖ ਦੂਰ ਕਰ ਦਿੱਤਾ ॥੪੯॥"

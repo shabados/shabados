@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਦੇਖਤ ਰਹੀ ਸੋਇ; ਸੁ ਖਾਟ ਡਸਾਇ ਕੈ ॥"
 page = 825
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Before their arrival, she had put herself to sleep on a bed."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਨੂੰ (ਆਇਆ) ਵੇਖ ਕੇ ਮੰਜੀ ਵਿਛਾ ਕੇ ਸੌਂ ਗਈ।"

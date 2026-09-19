@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੁਟੀ ਬਾਲਤਾ ਜਬ ਸੁਧਿ ਆਈ ॥"
 page = 187
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ (ਉਸ ਦਾ) ਬਾਲਪਣ ਖ਼ਤਮ ਹੋਇਆ ਅਤੇ ਜੁਆਨੀ ਆਈ"

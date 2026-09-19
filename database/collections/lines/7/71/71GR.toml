@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਸੰਤਨ; ਕਰਿ ਨਮੋ ਨਮੋ ॥"
 page = 241
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Make obeisance, obeisance, unto God's Saints."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਮਸਕਾਰ, ਨਮਸਕਾਰਕਰ ਰੱਬ ਦੇ ਸ਼ਾਧੂਆਂ ਨੂੰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Greet the Lord's Saints humbly, with deep respect."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਤੇ ਨਾਮ ਲੈਣੇ ਵਾਲੇ ਜੋ ਹਰੀ ਕੇ ਸੰਤ ਹੈਂ ਤਿਨ ਕੋ ਮਨ ਕਰ ਕੇ ਨਮੋ ਔਰ ਬਾਣੀ ਕਰ (ਨਮੋ) ਨਮਸਕਾਰ ਕਰੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਪਰਮਾਤਮਾ ਦੇ ਸੇਵਕ ਸੰਤ ਜਨਾਂ ਨੂੰ ਸਦਾ ਸਦਾ ਨਮਸਕਾਰ ਕਰਦਾ ਰਹੁ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਮੋ = ਨਮਸਕਾਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Póstrate en Reverencia ante los Santos del Señor,"

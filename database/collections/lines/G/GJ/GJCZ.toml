@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰਸੈ ਦੁਸਟ ਪ੍ਰਾਣੰ ॥੫੩੯॥"
 page = 605
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The tyrants were killed with the arrows of the soldiers.539."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਦੁਸ਼ਟਾਂ ਦੇ ਪ੍ਰਾਣਾਂ ਨੂੰ ਗ੍ਰਸ ਲੈਂਦੇ ਹਨ ॥੫੩੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖੇ ਤੁਮੈ ਤਨ ਆਜੁ; ਮਦਨ ਬਸਿ ਭਯੋ ਹਮਾਰੋ ॥"
 page = 835
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Seeing you I have overcome with passion."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਹਾਡੇ ਸ਼ਰੀਰ ਨੂੰ ਵੇਖ ਕੇ ਅਜ ਮੇਰਾ (ਮਨ) ਕਾਮ ਦੇਵ ਦੇ ਵਸ ਵਿਚ ਹੋ ਗਿਆ ਹੈ।"

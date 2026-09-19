@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮਹ ਖ਼ਾਰ ਮਾਹੀ ਸ਼ਵਦ ਗੁਲ ਰੁਖ਼ਸ਼ ॥੮॥"
 page = 1406
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The thorny bones of the fish would turn into flowers.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਮੱਛੀਆਂ ਦੇ ਸਾਰੇ ਕੰਡੇ ਫੁਲਾਂ ਵਰਗੇ ਹੋ ਜਾਂਦੇ ਸਨ ॥੮॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੇ ਅਬਲਾ ਰਥਹਿ ਧਵਾਵੈ ॥"
 page = 943
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੈਕਈ ਇਸ ਤਰ੍ਹਾਂ ਰਥ ਚਲਾਉਂਦੀ ਸੀ"

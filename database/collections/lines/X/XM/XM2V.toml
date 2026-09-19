@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਉਬਾਲੀ ਦਰਗਾਹੁ; ਭਾਣਾ ਭਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Only he loves the divine will of the Lord."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਬੇਪਰਵਾਹ' (ਵਾਹਿਗੁਰੂ ਦੀ) ਦਰਗਾਹ ਦਾ ਭਾਣਾ ਚੰਗਾ ਲੱਗਾ।"

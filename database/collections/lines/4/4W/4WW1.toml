@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਤੇ ਮੇਦ ਮਾਸ ਜੋ ਪਰੋ ॥"
 page = 1381
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦਾ ਜੋ ਮਾਸ ਅਤੇ ਮਿਝ ਧਰਤੀ ਉਤੇ ਡਿਗੀ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਬੀਰ ਸਾਜੇ ॥"
 page = 51
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The trumpet and conch resound and the great warriors look impressive."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੱਡੇ ਸੂਰਮੇ ਸਜ ਰਹੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖ਼ਰਾਮੀਦਹ ਸ਼ੁਦ ਪੈਕਰੇ ਨਾਜ਼ਨੀ ॥੧੨੬॥"
 page = 1405
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She looked like very delicate but steadfast.(126)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪੁਤਲੀ ਵਾਂਗ ਚਲ ਪਈ ॥੧੨੬॥"

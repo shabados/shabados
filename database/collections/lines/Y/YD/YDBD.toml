@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਬੁਰੇ ਕਰਨਿ ਬੁਰਿਆਈਆਂ; ਭਲਿਆਈ ਭਲਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The wicked go on doing evil deeds whereas the gentle remain busy in good activities."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਬੁਰੇ ਬੁਰਿਆਈ ਹੀ ਕਰਦੇ ਹਨ, ਭਲੇ ਭਲਿਆਈ ਹੀ ਕਰਦੇ ਹਨ।"

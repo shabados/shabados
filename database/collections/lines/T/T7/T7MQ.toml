@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਕੋ ਚਿਤ ਮੋਹਿ ਕਰਿ ਲੀਜੈ ॥੧੫੪੧॥"
 page = 451
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Command also the god of love and make his mind infatuated.”1541."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਇਸ ਦੇ ਚਿੱਤ ਨੂੰ ਮੋਹਿਤ ਕਰ ਲਵੇ ॥੧੫੪੧॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਊ ਗਰਭਵਤੀ ਹ੍ਵੈ ਬ੍ਰਯਾਨੀ ॥੨॥"
 page = 1142
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਵੀ ਗਰਭਵਤੀ ਹੋ ਕੇ ਪ੍ਰਸੂਤਾ ਹੋਈ ॥੨॥"

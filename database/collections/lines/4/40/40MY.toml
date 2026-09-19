@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਤਿਓ ਕਾਲ ਜੀਤਾ ਨ ਤੇ ਕਾਲ ਜੀਤੇ ॥"
 page = 41
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But none could conquer it (him)!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ (ਸਭ ਨੂੰ) ਕਾਲ ਨੇ ਜਿਤਿਆ ਹੈ ਪਰ ਉਹ ਕਾਲ ਨੂੰ ਨਹੀਂ ਜਿਤ ਸਕੇ।"

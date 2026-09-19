@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀਸੁ ਦੀਆ ਪਰ ਸੀ ਨ ਉਚਰੀ ॥੧੩॥"
 page = 55
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "For the sake of saints, he laid down his head without even a sign.13."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਸੀਸ ਦੇ ਦਿੱਤਾ, ਪਰ (ਮੂੰਹੋਂ) ਸੀ ਤਕ ਨਹੀਂ ਕੱਢੀ ॥੧੩॥"

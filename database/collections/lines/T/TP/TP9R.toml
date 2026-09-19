@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਤਿ ਪੁਰਖ; ਪੂਰਨ ਬਿਬੇਕ ॥"
 page = 287
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "he is the True Lord of perfect discrimination."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪੂਰੀ ਪਰਬੀਨਤਾ ਵਾਲਾ ਸੱਚਾ ਸਾਹਿਬ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The True Lord, of perfect perfection"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਪੂਰਨ ਬਿਬੇਕ ਸਹਿਤ ਸਤ ਪੁਰਖ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪੂਰਨ ਪੁਰਖ ਹੈ, ਸਦਾ-ਥਿਰ ਰਹਿਣ ਵਾਲਾ ਅਤੇ ਵਿਆਪਕ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਬੇਕ = ਪਰਖ, ਵਿਚਾਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él es el Ser Verdadero, Su Perfección es Perfecta,"

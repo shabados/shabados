@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਦਿ ਪੁਰਖ ਮਹਿ; ਰਹੈ ਸਮਾਇ ॥੨॥"
 page = 343
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "who remains absorbed in the primal Being."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪ੍ਰਿਥਮ ਪੁਰਖ ਅੰਦਰ ਲੀਨ ਰਹਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "who remains absorbed in the Primal Lord God. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਿਉਂਕਿ ਵਹੁ ਆਦਿ ਪੁਰਖ ਮੇਂ ਸਮਾਇ ਰਹਤਾ ਹੈ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਉਂਕਿ) ਉਹ ਸਦਾ ਸਭ ਦੇ ਸਿਰਜਣ ਵਾਲੇ ਅਕਾਲ ਪੁਰਖ ਵਿਚ ਜੁੜਿਆ ਰਹਿੰਦਾ ਹੈ ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰਹੈ ਸਮਾਇ = ਲੀਨ ਰਹਿੰਦਾ ਹੈ।॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y así te inmergirás en el Ser Primordial. (2)"

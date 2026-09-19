@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਕੋਹਿਸ਼ ਹਮਾ ਫ਼ਰ੍ਹਾਇ ਕਿਬਰੀਆ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਸ਼ਿਕੋਹਿਸ਼ ਹਮਾ ਫ਼ਰ੍ਹਾਇ ਕਿਬਰੀਆ ॥੮੨॥"
 page = 6
 line = 82
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Shikohish Hamaa Faraahaaye Kibreeyaa (82)"

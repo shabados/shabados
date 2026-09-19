@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਿ ਘੰਟਾ ਕੇਹਰਿ ਸਬਦਿ; ਅਸੁਰਨ ਅਸਿ ਰਨ ਲੀਨ ॥"
 page = 77
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing the loud voice of the gong, and the lion-demons holding their swords entered the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘੰਟੇ ਅਤੇ ਸ਼ੇਰ ਦੇ (ਦਹਾੜਨ ਦੇ) ਸ਼ਬਦ ਸੁਣ ਕੇ ਦੈਂਤਾਂ ਨੇ ਰਣ ਵਿਚ ਤਲਵਾਰਾਂ ਖਿਚ ਲਈਆਂ।"

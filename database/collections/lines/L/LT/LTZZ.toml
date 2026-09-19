@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਭਾਤਿ ਚਰਿਤ੍ਰ ਠਟਿਯੋ ਜਿਯ ਮੈ ॥੯॥"
 page = 833
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Planned to dupe him this way.(9)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਮਨ ਵਿਚ ਇਸ ਤਰ੍ਹਾਂ ਦਾ ਚਰਿਤ੍ਰ ਸੋਚਿਆ ॥੯॥"

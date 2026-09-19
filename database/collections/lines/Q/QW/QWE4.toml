@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭੀ ਪੀਤ ਲਾਲੰ ॥"
 page = 208
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The knocking on the shields was audible and the yellow and red shields looked impressive."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਲਾਲ ਪੀਲੇ ਰੰਗਾਂ ਵਿੱਚ ਸ਼ੋਭਾ ਪਾ ਰਹੀਆਂ ਸਨ।"

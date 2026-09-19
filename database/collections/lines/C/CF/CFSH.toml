@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਦਾ ਦੀਜਿਯੈ ਦਾਸ ਕੌ; ਬਨ ਕੌ ਕਰੈ ਪਯਾਨ ॥"
 page = 908
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Please bid me farewell, to enable me to go to the jungle,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਮਾਤਾ!) ਦਾਸ ਨੂੰ ਵਿਦਾ ਕਰੋ (ਤਾਂ ਜੋ) ਬਨ ਨੂੰ ਜਾ ਸਕਾਂ"

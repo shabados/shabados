@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਿਥਵੀ ਕੇ ਖਟ ਪਟ ਉਡਿ ਗਏ ॥੭੮॥"
 page = 1363
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪ੍ਰਿਥਵੀ ਦੇ ਛੇ ਪਟ (ਧੂੜ ਬਣ ਕੇ) ਉਡ ਗਏ ॥੭੮॥"

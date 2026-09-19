@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਨ ਮਾਨ ਕਰੋ ਸਜਨੀ, ਉਠਿ ਬੇਗ ਚਲੋ, ਕਛੁ ਸੰਕ ਨ ਆਨੋ ॥"
 page = 366
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Therefore, O friend! do not be egoistic and forsaking your hesitation go quickly"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਕਰ ਕੇ ਹੇ ਸਜਨੀ! ਰੋਸਾ ਨਾ ਕਰ, ਉਠ ਕੇ ਜਲਦੀ ਚਲ, ਮਨ ਵਿਚ ਕੁਝ ਸੰਗ ਨਾ ਕਰ।"

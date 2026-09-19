@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮਰੇ ਡਾਰਿ ਫੂਲ ਸਿਰ ਜੈ ਹੈ ॥"
 page = 993
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘’When they had taken me in marriage, then what good will be the flower (garland) on his head"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੇਰੇ ਸਿਰ ਵਿਚ ਸੁਆਹ ਪਾ ਜਾਣਗੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਨ ਸਾਜ ਬਾਜ ਸਭੈ ਕਰੋ; ਇਕ ਬੇਨਤੀ ਮਨ ਮਾਨੀਐ ॥"
 page = 237
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They request him to get ready for war."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਰਾਵਣ ਨੂੰ ਕਹਿਣ ਲੱਗੇ ਕਿ) ਯੁੱਧ ਦੀ ਤਿਆਰੀ ਦੇ ਸਾਰੇ ਸਾਜ ਕਰੋ, ਪਰ ਮੇਰੀ ਇਕ ਬੇਨਤੀ ਮੰਨ ਲਵੋ"

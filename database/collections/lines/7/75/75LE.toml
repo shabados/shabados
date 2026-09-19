@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਦ੍ਰ ਕਲਾ ਤਾ ਕੀ ਤ੍ਰਿਯਾ; ਰਤਿ ਕੇ ਰਹਤ ਸਰੂਪ ॥੧॥"
 page = 881
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Chandra Kala was his wife who was as pretty as the Cupid’s consort.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਚੰਦ੍ਰ ਕਲਾ ਨਾਂ ਦੀ ਇਸਤਰੀ ਸੀ ਜੋ ਰਤੀ ਵਾਂਗ ਸੁੰਦਰ ਸੀ ॥੧॥"

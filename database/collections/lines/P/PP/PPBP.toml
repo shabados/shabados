@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਆਸ ਪਰਾਸਰ ਬ੍ਰਹਮ; ਭੇਦ ਨਹਿ ਬੇਦ ਉਚਾਰਤ ॥"
 page = 131
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Vyas, Parshar, Brahma and Vedas cannot describe His mystery."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਆਸ, ਪਰਾਸ਼ਰ, ਬ੍ਰਹਮਾ ਅਤੇ ਵੇਦ (ਵੀ ਉਸ ਦੇ) ਭੇਦ ਨੂੰ ਨਹੀਂ ਦਸ ਸਕਦੇ।"

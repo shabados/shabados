@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਲਜ ਪ੍ਰਿਸਠਣੀ ਪ੍ਰਿਥਮ ਹੀ; ਮੁਖ ਤੇ ਕਰੋ ਉਚਾਰ ॥"
 page = 748
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਜਲਜ ਪ੍ਰਿਸਠਣੀ' (ਜਲ ਤੋਂ ਪੈਦਾ ਹੋਏ ਬ੍ਰਿਛ ਤੋਂ ਬਣੇ ਕਾਠ ਦੀ ਪਿਠ ਵਾਲੀ) ਕਹੋ।"

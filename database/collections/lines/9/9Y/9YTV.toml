@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤੈ ਸੁੰਭ ਨੈਸੁੰਭ, ਦਾਨੋ ਸੰਭਾਰੋ ॥"
 page = 983
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Song of death was prevailing but Sunbh and NiSunbh were fully alert."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਧਰ ਸੁੰਭ ਅਤੇ ਨਿਸੁੰਭ ਦੈਂਤ ਡਟੇ ਖੜੋਤੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਯੋ ਸਿਰਾਨੋ ਭੂਪ ਕੋ; ਸੋਇ ਰਹੇ ਸੁਖ ਪਾਇ ॥੧੨॥"
 page = 833
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Using Raja as their pillow they went into peaceful slumber.(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੂੰ ਸਿਰ੍ਹਾਣਾ ਬਣਾ ਕੇ ਉਹ ਮੌਜ ਨਾਲ ਸੁਤੇ ਰਹੇ ॥੧੨॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿ ਅਰਿ ਸਰ ਤਾ ਕੇ ਤਨ ਮਾਰਿਯੋ ॥੭॥"
 page = 945
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "the Cupids arrows pierced through her heart.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਕਾਮ ਦੇਵ ਨੇ ਉਸ ਦੇ ਸ਼ਰੀਰ ਵਿਚ ਬਾਣ ਮਾਰਿਆ ॥੭॥"

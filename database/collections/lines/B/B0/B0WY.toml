@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕ੍ਰਿਪਾਣ ਪਾਣ ਜੇ ਜਪੈ ॥"
 page = 45
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who meditate on the Supreme KAL,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜੇ ਕ੍ਰਿਪਾਨ ਨੂੰ ਹੱਥ ਵਿਚ ਧਾਰਨ ਕਰਨ ਵਾਲੇ (ਮਹਾਕਾਲ) ਨੂੰ ਜਪਦੇ ਹਨ,"

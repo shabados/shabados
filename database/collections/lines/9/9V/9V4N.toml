@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਬਾਝੁ ਗੁਰੂ ਅੰਧੇਰੁ ਹੈ; ਖਹਿ ਖਹਿ ਮਰਦੇ, ਬਹੁ ਬਿਧਿ ਲੋਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Without Guru is all darkness and people are killing one another."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਉਂਕਿ) ਗੁਰੂ ਬਾਝ ਹਨੇਰਾ ਹੈ, ਲੋਕ ਬਹੁਤ ਭਾਂਤ ਦੀਆ ਜਿਦਾਂ ਵਿਚ ਹੀ ਲੜ ਲੜ ਕੇ ਮਰ ਜਾਂਦੇ ਹਨ।"

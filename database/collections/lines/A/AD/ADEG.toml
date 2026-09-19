@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਧੀ ਬਾਣ ਕਾਮੰ ॥"
 page = 210
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sita looks towards him as Ram, being pierced by Cupid’s arrow."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਕਾਮ ਦੇ ਤੀਰ ਨਾਲ ਵਿੰਨ੍ਹੀ ਗਈ"

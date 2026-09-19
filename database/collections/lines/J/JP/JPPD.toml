@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੇਰੀ ਲਗੀ ਭੂੰਮ ਮੈ ਰਹਿ ਹੈ ॥੧੭॥"
 page = 892
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Which ever the goat you would order to get stuck, that will go to sleep.(17)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਹ ਬਕਰੀ ਭੂਮੀ ਨਾਲ ਜੁੜ ਜਾਏਗੀ ॥੧੭॥"

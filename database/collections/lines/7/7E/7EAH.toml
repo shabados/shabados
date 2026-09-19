@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਉਦਾਲਕ ਰਿਖਿ ਹੁਤੋ; ਦਿਯੋ ਸ੍ਰਾਪ ਰਿਸਿ ਠਾਨਿ ॥"
 page = 974
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sage named Udhalik pronounced a curse on him,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਵਿਚ) ਇਕ ਉਦਾਲਕ ਰਿਸ਼ੀ ਸੀ, (ਉਸ ਨੇ) ਕ੍ਰੋਧਿਤ ਹੋ ਕੇ ਸਰਾਪ ਦਿੱਤਾ।"

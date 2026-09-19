@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿੰਘਨਿ ਜਾਨੁ ਮ੍ਰਿਗੀ ਗਹਿ ਲਈ ॥੧੫॥"
 page = 1248
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਸ਼ੇਰਨੀ ਨੇ ਹਿਰਨੀ ਪਕੜ ਲਈ ਹੋਵੇ ॥੧੫॥"

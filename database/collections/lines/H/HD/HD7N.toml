@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਲਜ ਤ੍ਰਾਣਿ ਸਬਦੋਚਰਿ ਕੈ; ਈਸਰਾਸਤ੍ਰ ਕਹਿ ਦੀਨ ॥"
 page = 734
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਜਲਜ ਤ੍ਰਾਣਿ' ਪਦ (ਪਹਿਲਾਂ) ਕਹਿ ਕੇ (ਫਿਰ) 'ਈਸਰਾਸਤ੍ਰ' (ਸਬਦ ਦਾ) ਉਚਾਰਨ ਕਰੋ।"

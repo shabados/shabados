@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਚਾ ਨਾਮੁ ਅਮੋਲ ਹੈ; ਵਡਭਾਗੀ ਸੁਣੀਐ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "True Naam, the Word, is precious, and is grasped only by the fortunate ones,"

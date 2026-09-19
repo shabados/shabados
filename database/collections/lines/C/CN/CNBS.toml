@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫੂਲ ਰਹੇ ਜਨੁ ਕਿੰਸਕ ਨੇਕੰ ॥"
 page = 168
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The enemies were dyed with blood like many types of blooming flowers."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਕੇਸੂ ਦੇ ਅਨੇਕ ਫੁਲ ਖਿੜੇ ਹੋਣ।"

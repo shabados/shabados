@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਐਸੋ ਕੋ ਭਯੋ, ਰਣ ਮੋਹਿ ਜੀਤੇ ਆਇ ॥"
 page = 685
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who is there anyone else who will come to fight with me"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਗਤ ਵਿਚ) ਹੋਰ ਅਜਿਹਾ ਕੌਣ ਹੈ? ਜੋ ਯੁੱਧ ਵਿਚ ਆ ਕੇ ਮੈਨੂੰ ਜਿਤੇਗਾ।"

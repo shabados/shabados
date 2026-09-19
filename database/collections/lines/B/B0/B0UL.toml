@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਥਨੀ ਅਨਾਦਿ ॥"
 page = 9
 line = 8
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art stated to be without beginning."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰਾ ਵਰਣਨ ਕਥਨ ਤੋਂ ਪਰੇ ਹੈ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਕਥਨੀ ਅਨਾਦਿ ॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਬਾਸਵੀ ਹੈ ॥੨੯੨॥"
 page = 659
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who looked like Parvati or Indrani.292."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਾਂ) ਮਾਨੋ ਇੰਦਰਾਣੀ ਹੋਵੇ ॥੨੯੨॥"

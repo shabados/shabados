@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੇਰਿਆ ਸੰਤ ਜਨਾ ਕੀ; ਬਾਛਉ ਧੂਰਿ ॥"
 page = 1183
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I long for the dust of Thine saints feet."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੇਰੇ ਸਾਧੂਆਂ ਦੇ ਪੈਰਾਂ ਦੀ ਖਾਕ ਦੀ ਚਾਹਨਾ ਕਰਦਾ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I yearn for the dust of the feet of Your Saints."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤਿਨ ਤੇਰੇ ਸੰਤ ਜਨੋਂ ਕੀ ਚਰਨ ਧੂਰੀ ਕੋ ਚਾਹਤਾ ਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੇਰੇ ਸੰਤ ਜਨਾਂ ਦੇ ਚਰਨਾਂ ਦੀ ਧੂੜ ਮੰਗਦਾ ਹਾਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਾਛਉ = ਬਾਛਉਂ, ਮੈਂ ਮੰਗਦਾ ਹਾਂ। ਧੂਰਿ = ਚਰਨ-ਧੂੜ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Señor, añoro el Polvo de los Pies de Tus Santos"

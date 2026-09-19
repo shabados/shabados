@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਈ ਰੁਦ੍ਰ ਛੁਦ੍ਰ ਸਰੂਪ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many Rudras (Shivas) of ghastly appearance are there,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਤੁੱਛ ਰੂਪ ਵਾਲੇ ਰੁਦ੍ਰ ਹਨ,"

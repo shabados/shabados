@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਜੁ ਪੁਰ ਕੋ ਬਹੁਰੋ ਮਗੁ ਲੀਨੋ ॥੩੫॥"
 page = 894
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He married second time and took the way to his village.(35)(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਆਪਣੇ ਨਗਰ ਦਾ ਰਾਹ ਪਕੜਿਆ ॥੩੫॥"

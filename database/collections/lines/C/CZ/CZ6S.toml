@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੋਲਿ ਸਖੀ ਪ੍ਰਤਿ ਬਚਨ ਉਚਾਰਿਯੋ ॥"
 page = 993
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After thinking hard like that, she asked her friend,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਖੀ ਪ੍ਰਤਿ ਬਚਨ ਕਹੇ।"

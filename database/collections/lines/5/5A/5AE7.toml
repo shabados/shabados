@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੀਵਨਾ ਹਰਿ ਜੀਵਨਾ ॥"
 page = 684
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The life, the divine life,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿੰਦਗੀ, ਰੱਬੀ ਜਿੰਦਗੀ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Life, spiritual life, is in the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਤੀਨੋਂ ਕਾਲ ਮੇਂ ਜੀਵਨਾ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਇਹੀ ਹੈ ਅਸਲ ਜੀਵਨ, ਇਹੀ ਹੈ ਅਸਲ ਜ਼ਿੰਦਗ਼ੀ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "La Verdadera Vida significa vivir en Dios y contemplar el Nombre del Señor"

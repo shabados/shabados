@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਧਨ ਚਹਿਯੋ ਸੋਊ ਸਭ ਲੀਨੋ ॥"
 page = 977
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਧਨ ਚਾਹੀਦਾ ਸੀ, ਉਹ ਲੈ ਲਿਆ ਹੈ"

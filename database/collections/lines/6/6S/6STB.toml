@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹਿਯੋ ਗੈਣ ਪੂਰੰ ॥੧੯॥"
 page = 175
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "So much dust arose by (the movement of the) army that the sky was filled with dust.19."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨਾਲ) ਆਕਾਸ਼ ਢਕ ਗਿਆ ਸੀ ॥੧੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋਨੀ ਮਹਾਨ ਸੋਭਾ ਲਸੰਤ ॥੪੩॥"
 page = 638
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brilliance of his body was infinite and from his great personality, he appeared to be a silence-observing ascetic and eminently glorious.43."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਮਹਾਨ ਮੋਨੀ ਸੀ (ਅਤੇ ਉਸ ਦੀ) ਸ਼ੋਭਾ ਚਮਕਦੀ ਸੀ ॥੪੩॥"

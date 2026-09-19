@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਰੋ, ਪ੍ਰਾਨ ਬਿਨਾ ਕਰਿ ਡਾਰੇ ॥"
 page = 435
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then seeing towards them, the arrows were discharged on all the four and they were made lifeless"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚੌਹਾਂ ਨੂੰ ਪ੍ਰਾਣਾਂ ਤੋਂ ਬਿਨਾ ਕਰ ਦਿੱਤਾ ਹੈ।"

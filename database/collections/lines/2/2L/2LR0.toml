@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਓਅੰਕਾਰ ਆਦਿ ॥"
 page = 9
 line = 8
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Lord !  Thou art AUM, the origin of creation. O Lord !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ!) ਤੂੰ ਆਦਿ ਤੋਂ ਓਅੰਕਾਰ ਸਰੂਪ ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਓਅੰਕਾਰ ਆਦਿ ॥"

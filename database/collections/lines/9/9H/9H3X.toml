@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਤਦਪਿ ਤਾਸ, ਪਾਯਤ ਨ ਅੰਤ ॥"
 page = 30
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Still they cannot know the Lord’s end!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਵੀ ਉਸ (ਪ੍ਰਭੂ) ਦਾ ਅੰਤ ਨਹੀਂ ਪਾ ਸਕਦੇ।"

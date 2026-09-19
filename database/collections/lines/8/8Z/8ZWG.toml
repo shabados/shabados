@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਧ ਰਕਤ੍ਰ ਬੀਜ ਕਰਿਯੋ; ਧਰਨੀ ਪਰ ਸੋ ਸੁਰ ਦੇਖਤ ਸਾਰੇ ॥"
 page = 93
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The war that Raktavija waged on the earth, it was seen by all the gods.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਕਤ-ਬੀਜ ਨੇ ਧਰਤੀ ਉਤੇ ਜੋ ਯੁੱਧ ਕੀਤਾ, ਉਸ ਨੂੰ ਸਾਰੇ ਦੇਵਤੇ ਵੇਖਦੇ ਸਨ।"

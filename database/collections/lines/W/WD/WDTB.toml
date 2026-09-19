@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਥੰ ਸੁਵਰਣ ਕੀ ਕਿੰਕਣੀ ਚਾਰ ਸੋਹੈ ॥"
 page = 242
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਰਥ ਨੂੰ ਸੋਨੇ ਦੇ ਸੁੰਦਰ ਘੁੰਘਰੂ ਲੱਗੇ ਹੋਏ ਹਨ,"

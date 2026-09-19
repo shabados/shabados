@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨੁ ਭਯੋ ਪਰਮ ਗਿਆਨੀ ਮਹਾਨ ॥੫੫॥"
 page = 639
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Amongst the sages, he was most skilful and great and was supremely learned.55."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਬੜਾ ਵੱਡਾ ਗਿਆਨੀ ਪੈਦਾ ਹੋਇਆ ਹੈ ॥੫੫॥"

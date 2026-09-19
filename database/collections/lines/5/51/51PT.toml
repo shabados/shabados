@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਢਿ ਭੂਪ ਕੌ ਪ੍ਰਗਟ ਦਿਖਾਏ ॥੧੬॥"
 page = 1323
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਾਹਰ ਕਰ ਕੇ ਰਾਜੇ ਨੂੰ ਵਿਖਾ ਦਿੱਤੇ ॥੧੬॥"

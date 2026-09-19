@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੰਤ ਕੇ ਹਤੇ ਕਉ; ਰਖੈ ਨ ਕੋਇ ॥"
 page = 279
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "None can save him who is accursed of the saints."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧੂਆਂ ਦੇ ਧ੍ਰਿਕਾਰੇ ਹੋਏ ਨੂੰ ਕੋਈ ਭੀ ਬਚਾ ਨਹੀਂ ਸਕਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "One who is cursed by a Saint cannot be saved."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤੋਂ ਕੇ ਮਾਰਨੇ ਵਾਲੇ ਕੋ ਕੋਈ ਨਹੀਂ ਰਾਖਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤ ਦੇ ਫਿਟਕਾਰੇ ਹੋਏ ਬੰਦੇ ਦੀ ਕੋਈ ਮਨੁੱਖ ਸਹੈਤਾ ਨਹੀਂ ਕਰ ਸਕਦਾ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਤੇ ਕਉ = ਮਾਰੇ ਨੂੰ, ਫਿਟਕਾਰੇ ਨੂੰ। ਰਖੈ = ਰੱਖ ਸਕਦਾ, ਸਹੈਤਾ ਕਰਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél que es condenado por un Santo, no encuentra consuelo en ningún sitio"

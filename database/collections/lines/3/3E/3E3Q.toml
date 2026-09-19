@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਭਿਜ ਰੂਪ ਦੁਰੰਤ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His Unaffected Entity is All-Pervasive,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਅਭਿਜ ਰੂਪ ਵਾਲਾ ਸਭ ਵਿਚ ਲੁਕਿਆ ਹੋਇਆ (ਦੁਰੰਤ) ਹੈ,"

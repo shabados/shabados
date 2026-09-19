@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਣੰਕਸੁ ਬਜੇ ਮਜੀਰੰ ॥੪੪੬॥"
 page = 246
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sound of fifes filled a all the four directions and small cymbals of different colors rang.446."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਬਰਣ-ਬਰਣ' ਆਵਾਜ਼ ਕਰਦੇ ਹੋਏ ਮਜੀਰੇ ਵਜਦੇ ਹਨ ॥੪੪੬॥"

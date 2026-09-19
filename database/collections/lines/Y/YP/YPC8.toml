@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਵਨ ਨਾਰਿ ਹਠਨਿ ਹਠਿ ਗਹੀ ॥"
 page = 959
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਹਠੀਲੀ ਇਸਤਰੀ ਨੇ ਹਠ ਕਰੀ ਰਖਿਆ"

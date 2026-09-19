@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਪਜਤ ਹੀ ਉਠਿ ਜੁਝੇ ਜੁਝਾਰਾ ॥"
 page = 707
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On taking birth both these warriors began to fight and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੈਦਾ ਹੁੰਦਿਆਂ ਹੀ (ਇਹ ਦੋਵੇਂ) ਸੂਰਮੇ ਲੜਨ ਲਗ ਗਏ।"

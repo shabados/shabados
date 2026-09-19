@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੂਪਵਾਨ ਗੁਨਵਾਨੁਜਿਯਾਰੀ ॥"
 page = 1284
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਰੂਪਵਾਨ, ਗੁਣਵਾਨ ਅਤੇ ਸੁੰਦਰ ਸੀ।"

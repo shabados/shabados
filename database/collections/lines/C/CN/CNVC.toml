@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਣੰਤ ਚਾਰ ਚਕ੍ਰਣੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is known in all the four directions"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਹਾਂ ਚੱਕਾਂ ਵਿਚ (ਤੁਸੀਂ) ਜਾਣੇ ਜਾਂਦੇ ਹੋ,"

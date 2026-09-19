@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਰਣਿਅੰ ਸਹਾਯੰ ॥੩੯॥"
 page = 42
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And helps those who come under His refuge.39."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਸ਼ਰਨ ਆਇਆਂ ਦੀ ਸਹਾਇਤਾ ਕਰਦਾ ਹੈ ॥੩੯॥"

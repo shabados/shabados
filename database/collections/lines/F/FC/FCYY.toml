@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਪੇ ਆਪਿ ਵਰਤਦਾ; ਗੁਰਮੁਖਿ ਪਰਵਾਣਾ ॥੨੦॥੨॥ ਦੁਇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He is omnipresent in all substances and activities and gurmukhs bow before all such stages."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਆਪੇ ਆਪ ਵਰਤ ਰਿਹਾ ਹੈ (ਪਰ) ਪ੍ਰਮਾਣ ਗੁਰਮੁਖਾਂ ਨੇ ਕੀਤਾ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਾ ਮੁਨੀ ਤਜਿ ਪਰਹਰਿ ਆਸਾ ॥"
 page = 651
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਥੋਂ) ਮੁਨੀ ਦੱਤ ਤਿਆਗਣ ਯੋਗ ਆਸ਼ਾ ਨੂੰ ਛਡ ਕੇ ਚਲ ਪਿਆ।"

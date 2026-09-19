@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਤੁ ਸੇਵਿਐ; ਸਦਾ ਸੁਖੁ ਹੋਈ ॥"
 page = 120
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "By serving whom eternal peace is obtained."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਟਹਿਲ ਕਮਾਉਣ ਦੁਆਰਾ ਦਾਇਮੀ ਆਰਾਮ ਪਰਾਪਤ ਹੁੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Serving Him, eternal peace is obtained."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਕੈਸਾ ਹੈ ਜਿਸ ਕੇ ਸੇਵਨੇ ਸੇ ਸਦਾ ਸੁਖ ਹੋਤਾ ਹੈ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਸਦਾ-ਥਿਰ ਪ੍ਰਭੂ ਦਾ ਸਿਮਰਨ ਕੀਤਿਆਂ ਸਦਾ ਆਤਮਕ ਆਨੰਦ ਬਣਿਆ ਰਹਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਿਤੁ ਸੇਵਿਐ = ਜਿਸ ਦਾ ਸਿਮਰਨ ਕੀਤਿਆਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pues Sirviéndola, obtienes la Paz Eterna."

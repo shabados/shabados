@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਬਾਜੰਤ੍ਰ ਧੁਕੇ ॥੨੬੮॥"
 page = 702
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The trumpets and other musical instruments were played.41.268."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਾਜੇ ਧੁਕ ਧੁਕ ਕਰਦੇ ਹਨ ॥੨੬੮॥"

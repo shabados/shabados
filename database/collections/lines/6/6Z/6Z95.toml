@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਕੋ ਕਸਟ ਨ ਦੇਖਨ ਪੈਹੈਂ ॥"
 page = 72
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those, who are the devotees of Guru’s feet, the sufferings cannot touch them."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਵਲ ਕਸ਼ਟ ਵੇਖ ਵੀ ਨਹੀਂ ਸਕਦਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਯਾਵੁਰਦ ਲਸ਼ਕਰ ਚੁ ਬਰ ਵੈ ਹਦੂਦ ॥"
 page = 1421
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the border was butted by the army,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਹ ਫ਼ੌਜ ਨੂੰ ਰਾਜ ਦੀ ਹਦ ਉਤੇ ਲੈ ਆਈ"

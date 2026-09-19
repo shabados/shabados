@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਈਹਾਂ ਊਹਾਂ; ਚਰਣ ਪੂਜਾਰੇ ॥"
 page = 1340
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Here and hereafter, he adores the Lord's feet."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਏਥੇ ਅਤੇ ਓਥੇ ਉਹ ਪ੍ਰਭੂ ਦੇ ਪੈਰਾਂ ਦੀ ਉਪਾਸ਼ਨਾ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Here and hereafter, they worship the Lord's Feet."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਲੋਕ ਮੇਂ ਔਰ ਊਹਾਂ ਪਰਲੋਕ ਮੇਂ ਸਭ ਲੋਕ ਤਿਸ ਕੇ ਪੂਜਾਰੇ ਅਰਥਾਤ ਚਰਨੋਂ ਕੀ ਪੂਜਾ ਕਰਨਹਾਰੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਮਨੁੱਖ ਦੀ ਇਸ ਲੋਕ ਅਤੇ ਪਰਲੋਕ ਵਿਚ ਇੱਜ਼ਤ ਹੁੰਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਈਹਾਂ = ਇਸ ਲੋਕ ਵਿਚ। ਊਹਾਂ = ਪਰਲੋਕ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquí y aquí después ellos alaban los Pies de Su Señor."

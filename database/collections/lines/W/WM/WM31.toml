@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਗੜਦੀ ਸਸਤ੍ਰ ਸੰਨਾਹ; ਪਾਗੜਦੀ ਪਹਿਰ ਹੈ ਜਵਨ ਦਿਨ ॥"
 page = 699
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਿਨ ਸ਼ਸਤ੍ਰ ਅਤੇ ਕਵਚ ਧਾਰਨ ਕਰੇਗਾ,"

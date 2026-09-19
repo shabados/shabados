@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਯੋ ਗਰਬ ਸਰਬੰ ਭਜੋ ਸੂਰਬੀਰੰ ॥"
 page = 187
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਿਆਂ ਦਾ ਹੰਕਾਰ ਖ਼ਤਮ ਹੋ ਗਿਆ, ਸੂਰਵੀਰ ਭਜ ਗਏ"

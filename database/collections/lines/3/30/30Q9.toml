@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਹਮਾ ਚਾਰ ਹੀ ਬੇਦ ਬਨਾਏ ॥"
 page = 56
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਹਮਾ ਨੇ ਚਾਰ ਵੇਦਾਂ ਦੀ ਰਚਨਾ ਕੀਤੀ"

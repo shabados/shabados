@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰ ਅਵਤਾਰ ਭਯੋ ਅਰਜੁਨਾ ॥"
 page = 551
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਰ ਅਵਤਾਰ ਵਜੋਂ ਅਰਜਨ ਪ੍ਰਗਟ ਹੋਇਆ"

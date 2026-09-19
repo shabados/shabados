@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਗੁਰੂ ਤੋਂ ਕੁਰਬਾਨ ਜਾਵੇ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬਾਦ ਬਰ ਮੁਰਸ਼ਦ ਤਰੀਕਿ ਨਿਸਾਰ ॥"
 page = 1
 line = 2
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Shall sacrifice for my Guru,"

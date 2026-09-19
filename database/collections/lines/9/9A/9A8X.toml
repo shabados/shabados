@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਅਕਬਰ ਆਖੇਟ ਸਿਧਾਯੋ ॥"
 page = 1071
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਦਿਨ ਅਕਬਰ ਸ਼ਿਕਾਰ ਖੇਡਣ ਚੜ੍ਹਿਆ।"

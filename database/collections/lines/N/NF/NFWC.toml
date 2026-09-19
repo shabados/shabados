@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਯੰ ਪਤ੍ਰ ਪਾਇਓ ਸੁਖੰ ਪਾਡਵੇਣੰ ॥੪੪॥੨੧੨॥"
 page = 145
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The great Pandava (Arjuna) attained the victory comfortably.44.212."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਿਨ) ਪਾਂਡਵਾਂ ਦੀ ਸੁਖ ਪੂਰਵਕ ਜਿਤ ਹੋਈ ॥੪੪॥੨੧੨॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਹਰ ਪਾਂਵਟਾ ਕੀ ਸੁਧਿ ਲਈ ॥"
 page = 60
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then I left my home and went to place named Paonta."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪਾਂਵਟਾ ਨਗਰ ਵਲ ਚਲੇ ਗਏ।"

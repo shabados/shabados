@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭਟ ਸਿੰਘ ਯਾ ਕੋ ਨਹਿ ਬਰੈ ॥"
 page = 870
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The priest told the Raja, ‘Subhat Singh does not want to marry her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਸੁਭਟ ਸਿੰਘ ਇਸ ਨਾਲ ਵਿਆਹ ਨਹੀਂ ਕਰੇਗਾ।"

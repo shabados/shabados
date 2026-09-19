@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਲਹੈ ਭਰਾਤਿ; ਹੋਵੈ ਜਿਸੁ ਦਾਤਿ ॥੨॥"
 page = 150
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Doubt departs from Him who receives the gift."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਬਖਸ਼ੀਸ਼ ਪਰਾਪਤ ਹੁੰਦੀ ਹੈ, ਉਸ ਦਾ ਸੰਦੇਹ ਦੂਰ ਹੋ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Doubt departs from one who receives this gift. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੋ ਮੇਰੇ ਸੇ ਗਿਆਨ ਕੀ ਦਾਤ ਹੋਤੀ ਹੈ ਤਿਸ ਕੀ ਭ੍ਰਾਂਤੀ ਉਤਰਤੀ ਹੈ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਮਨ ਦੀ ਭਟਕਣਾ ਦੂਰ ਹੋ ਜਾਂਦੀ ਹੈ ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਲਹੈ = ਲਹਿ ਜਾਂਦੀ ਹੈ। ਭਰਾਤਿ = ਮਨ ਦੀ ਭਟਕਣਾ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "aquél sobre quien se posa la Misericordia del Señor se despoja de toda duda.(2)"

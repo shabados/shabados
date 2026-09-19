@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਸ ਰੰਗ ਭਰੇ ਨੈਨ ॥੫੬੫॥"
 page = 608
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His words are very sweet and his eyes are full of enjoyment and pleasure.565."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨੈਣ ਪ੍ਰੇਮ ਰਸ ਵਿਚ ਭਰੇ ਹੋਏ ਹਨ ॥੫੬੫॥"

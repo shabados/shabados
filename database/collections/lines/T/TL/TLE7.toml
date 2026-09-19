@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਤੇ ਮਾਰਿ ਭੂਪ ਇਹ ਲੀਜੈ ॥੧੬੭੪॥"
 page = 464
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Krishna and Brahma consulted each other and said, “This king will not even be killed by the blazing fire, therefore making some effort, he should be killed.”1674."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਜੋ ਇਸ ਰਾਜੇ ਨੂੰ ਮਾਰ ਲਿਆ ਜਾਵੇ ॥੧੬੭੪॥"

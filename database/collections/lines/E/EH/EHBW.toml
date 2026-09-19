@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹਿਰ ਤਵੀਲ ਛੰਦ ॥ ਪਸਚਮੀ ॥ ਤ੍ਵਪ੍ਰਸਾਦਿ ॥"
 page = 132
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "BAHIR TAVEEL STANZA, PASCHAMI, BY THY GRACE"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹਿਰ ਤਵੀਲ ਛੰਦ: ਪਸਚਮੀ (ਪਸ਼ਤੋ ਭਾਸ਼ਾ ਪ੍ਰਧਾਨ): ਤੇਰੀ ਕ੍ਰਿਪਾ ਨਾਲ:"

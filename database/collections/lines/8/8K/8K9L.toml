@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਯਬੋ ਜਗ ਕੌ ਸਹਲ ਹੈ; ਯਹੈ ਕਠਿਨ ਦ੍ਵੈ ਕਾਮ ॥"
 page = 909
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(And he continued) ‘It is easy to live in this world,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਵਿਚ ਜੀਉਣਾ ਸੌਖਾ ਹੈ, ਪਰ ਇਹ ਦੋਵੇਂ ਕੰਮ ਕਠਿਨ ਹਨ"

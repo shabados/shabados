@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਨਮਿ ਮਰੈ; ਬਹੁ ਜੋਨਿ ਭ੍ਰਮਾਵੈ ॥"
 page = 278
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "comes, goes and wanders in many existences."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਆਉਂਦਾ ਜਾਂਦਾ ਅਤੇ ਬਹੁਤੀਆਂ ਜੂਨੀਆਂ ਅੰਦਰ ਭੌਦਾਂ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "shall live and die, wandering through countless reincarnations."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਜਨਮਤਾ ਮਰਤਾ ਹੂਆ ਬਹੁਤ ਜੋਨੀਓਂ ਮੇਂ ਭ੍ਰਮਾਈਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਦਾ ਜੰਮਦਾ ਮਰਦਾ ਹੈ, ਕਈ ਜੂਨਾਂ ਵਿਚ ਭਟਕਦਾ ਫਿਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਨਮਿ = ਜਨਮ ਲੈ ਕੇ, ਜੰਮ ਕੇ। ਭ੍ਰਮਾਵੈ = ਭਟਕਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "morirá para nacer de nuevo."

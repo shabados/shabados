@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਕੋਊ ਹਮਰੌ ਹਿਤੂ; ਤਹ ਮਿਲਿਯੋ ਮੁਹਿ ਆਇ ॥"
 page = 918
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“If any of my lovers wanted to meet me, should come there.”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਕੋਈ ਮੇਰਾ ਹਿਤੂ (ਮਿਲਣਾ ਚਾਹੇ ਤਾਂ) ਮੈਨੂੰ ਉਥੇ ਆ ਕੇ ਮਿਲੇ।"

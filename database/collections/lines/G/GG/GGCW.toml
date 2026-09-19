@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ; ਵੈਰ ਵਿਰੋਧ ਗਵਾਵੈ ॥"
 page = 942
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Guru-ward effaces enmity and envy."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ-ਸਮਰਪਨ ਦੁਸ਼ਮਨੀ ਤੇ ਈਰਖਾ ਨੂੰ ਮੇਟ ਸੁੱਟਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Gurmukh eliminates hate and envy."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਵੈਰ ਜੋ ਨਵਾਂ ਹੋਵੈ, ਵਿਰੋਧ ਜੋ ਪੁਰਾਤਨ ਹੋਵੈ, ਤਿਸ ਕੋ ਗੁਰਮੁਖ ਗਵਾਵਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਵਾਸਤੇ) ਗੁਰਮੁਖਿ (ਦੂਜਿਆਂ ਨਾਲ) ਵੈਰ-ਵਿਰੋਧ ਰੱਖਣਾ ਭੁਲਾ ਦੇਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Destierra de su mente la envidia"

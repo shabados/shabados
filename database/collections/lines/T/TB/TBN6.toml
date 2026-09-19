@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਇਸ ਨੋ ਵਿਆਪੈ; ਸੋਗ ਸੰਤਾਪੁ ॥"
 page = 1343
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "It is afflicted by sorrow and suffering."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਨੂੰ ਅਫਸੋਸ ਅਤੇ ਕਲੇਸ਼ ਸਤਾਉਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "It is afflicted by sorrow and suffering."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਕੇ ਅਭਿਮਾਨ ਕਰ ਕੇ ਇਸ ਜੀਵਨ ਕੋ ਸੋਕ ਸੰਤਾਪ ਵਿਆਪੇ ਹੂਏ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਇਸ (ਸਰੀਰ) ਨੂੰ ਚਿੰਤਾ-ਫ਼ਿਕਰ ਤੇ ਦੁੱਖ-ਕਲੇਸ਼ ਦਬਾਈ ਰੱਖਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "afligido por la tristeza y el sufrimiento;"

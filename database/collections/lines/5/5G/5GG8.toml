@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਨਛੋਰੈ ਰਘੁਨਾਥ ਸਿੰਘ; ਕੀਨੋ ਕੋਪ ਅਪਾਰ ॥"
 page = 1080
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣਛੋੜ ਅਤੇ ਰਘੁਨਾਥ ਸਿੰਘ ਨੇ ਬਹੁਤ ਕ੍ਰੋਧ ਕੀਤਾ।"

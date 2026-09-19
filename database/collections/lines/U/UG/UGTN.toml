@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਭਯੋ ਆਨਿ ਕ੍ਰਿਸਨਾਵਤਾਰ ॥"
 page = 615
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਕ੍ਰਿਸ਼ਨਾਵਤਾਰ ਆ ਕੇ ਹੋਏ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਚਰ ਮਤੀ ਨਾਮ ਤ੍ਰਿਯ ਤਾ ਕੌ ॥"
 page = 847
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Every house was showered with bliss and they revelled in singing with clapping hands.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਇਸਤਰੀ ਦਾ ਨਾਂ ਚਾਚਰ ਮਤੀ ਸੀ।"

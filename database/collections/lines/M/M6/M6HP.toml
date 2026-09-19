@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਘਰਿ ਕੁਅਰਿ ਸੌ ਜਾਇ ਜਤਾਯੋ ॥"
 page = 998
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One of the maids came to know the secret and went and told Sughar Kumari’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੁਘਰਿ ਕੁਅਰਿ ਨੂੰ ਜਾ ਦਸਿਆ।"

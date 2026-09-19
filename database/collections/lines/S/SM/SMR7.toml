@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਜ ਜਿਯ ਮੈ ਅਸ ਠਾਟ ਠਟਯੋ ॥"
 page = 1007
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Daropdee came of the age, she thought in her mind,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਆਪਣੇ ਮਨ ਵਿਚ ਇਹ ਵਿਉਂਤ ਸੋਚੀ।"

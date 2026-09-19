@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਲ ਪ੍ਰਜਾ ਕਹੁ ਧਰਮ ਸਿਖਾਰਸ ॥"
 page = 194
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sinner was killed instantly and all the subjects were given instructions on Dharma."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀ ਪਰਜਾ ਨੂੰ ਧਰਮ (ਦੀ ਵਿਧੀ) ਸਿਖਾ ਦਿੱਤੀ।"

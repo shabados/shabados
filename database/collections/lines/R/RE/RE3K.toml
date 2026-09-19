@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਭੁ ਕਛੁ ਜਾਨੈ; ਆਤਮ ਕੀ ਰਹਤ ॥"
 page = 269
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He fully knows the way of the human soul."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਬੰਦੇ ਦੀ ਆਤਮਾ ਦੀ ਮਰਿਆਦਾ ਨੂੰ ਪੂਰੀ ਤਰ੍ਹਾਂ ਜਾਣਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He knows all the ways and means of the soul."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਰੁ ਵਹੁ (ਆਤਮ) ਜੀਵ ਕੀ ਸਭ ਕਿਛੁ ਕਰਣੀ ਜਾਨਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਉਂਕਿ ਉਹ ਜੀਵ ਦੀ) ਆਤਮਕ ਰਹਿਣੀ ਦੀ ਹਰੇਕ ਗੱਲ ਜਾਣਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਤਮ ਕੀ ਰਹਤ = ਆਤਮਾ ਦੀ ਰਹਿਣੀ, ਆਤਮਕ ਜ਼ਿੰਦਗੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "porque Él conoce la intimidad de tu Alma."

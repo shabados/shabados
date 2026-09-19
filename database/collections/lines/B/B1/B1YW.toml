@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਮੇਰੇ ਵਲ ਇਕ ਨਿਗਾਹ ਕਰਕੇ, ਨਾਲ ਹੀ, ਮੇਰੇ ਦਿਲ ਦੀ ਰਾਸ ਲੁਟ ਲਈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਨਿਗਾਹ ਕਰਦ ਵਾ ਮਤਾਇ ਦਿਲਮ ਬ-ਗ਼ਾਰਤ ਬੁਰਦ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Malleability implies humility,"

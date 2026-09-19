@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਪੁਰਖ ਉਪਜ︀ਯੋ ਅਭਿਮਾਨੀ ॥"
 page = 676
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O king! Listen, we tell you an episode"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੇ ਨਗਰ ਵਿਚ) ਇਕ ਅਭਿਮਾਨੀ ਪੁਰਸ਼ ਪੈਦਾ ਹੋਇਆ ਹੈ।"

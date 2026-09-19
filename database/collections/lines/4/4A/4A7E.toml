@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਰਾਜ ਰਾਜੰ ਮਹਾ ਨਾਥ ਨਾਥੰ ॥੧੫॥"
 page = 40
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the Great King of kings and Great Lord of lords. 15"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਰਾਜਿਆਂ ਦਾ ਮਹਾਰਾਜਾ ਅਤੇ ਨਾਥਾਂ ਦਾ ਵੀ ਮਹਾਨਾਥ ਹੈ ॥੧੫॥"

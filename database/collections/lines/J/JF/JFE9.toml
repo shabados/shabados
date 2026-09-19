@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮੂਲਿ ਲਾਗੇ; ਸੇ ਜਨ ਪਰਵਾਣੁ ॥"
 page = 362
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The man who, cling to the origin, become acceptable."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜੇ ਬੰਦੇ ਜੜ ਨਾਲ ਜੁੜਦੇ ਹਨ, ਉਹ ਕਬੂਲ ਪੈ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Those who hold fast to their roots, become acceptable."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਮੂਲਿ) ਪਰਮਾਤਮਾ ਮੇਂ ਜੋ ਲਾਗੇ ਹੈਂ, ਸੋ ਦਾਸ ਪ੍ਰਮਾਣੀਕ ਭਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ! ਜੇਹੜੇ ਮਨੁੱਖ) ਜਗਤ ਦੇ ਰਚਨਹਾਰ ਪਰਮਾਤਮਾ (ਦੀ ਯਾਦ) ਵਿਚ ਜੁੜਦੇ ਹਨ, ਉਹ ਮਨੁੱਖ (ਪਰਮਾਤਮਾ ਦੀਆਂ ਨਜ਼ਰਾਂ ਵਿਚ) ਕਬੂਲ ਹੋ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੂਲਿ = (ਜਗਤ ਦੇ) ਮੂਲ (-ਪ੍ਰਭੂ) ਵਿਚ। ਸੇ ਜਨ = ਉਹ ਬੰਦੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Los que se aferran a sus raíces son aprobados,"

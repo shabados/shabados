@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਾਰਾ ਨਗਰੀ ਕੋ ਰਹੈ; ਭਰਥਰਿ ਰਾਵ ਸੁਜਾਨ ॥"
 page = 1101
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਾਰਾ ਨਗਰ ਵਿਚ ਭਰਥਰੀ ਨਾਂ ਦਾ ਇਕ ਸੁਜਾਨ ਰਾਜਾ ਰਹਿੰਦਾ ਸੀ।"

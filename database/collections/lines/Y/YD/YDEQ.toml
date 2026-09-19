@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੰਸਹਿ ਕੇ ਡਰ ਤੇ ਬਸੁਦੇਵ; ਸੁ ਪਾਇ ਜਬੈ ਜਮੁਨਾ ਮਧਿ ਠਾਨੋ ॥"
 page = 296
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੰਸ ਦੇ ਡਰੋਂ ਬਸੁਦੇਵ ਨੇ ਜਦੋਂ ਜਮਨਾ ਵਿਚ ਪੈਰ ਰਖੇ,"

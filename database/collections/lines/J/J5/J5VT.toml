@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਦੂਰਾ ਅਜ਼ੋ ਦਿਲ ਸ਼ਵਦ ਰੇਜ਼ ਰੇਜ਼ ॥੧੪੩॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And they tore off the enemy-hearts into pieces.(143)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਨੂੰ ਵੇਖ ਕੇ ਵੈਰੀਆਂ ਦਾ ਦਿਲ ਟੋਟੇ ਟੋਟੇ ਹੋਣ ਲਗਾ ॥੧੪੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਲੇ ਪਰਮ ਤਤ੍ਵਾਦਿ ਕੋ ਬਛ ਭੇਦ︀ਯੋ ॥"
 page = 705
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He pierced Nir-Ahamkara with eighty arrows and also touched with his arms the waist of Pram-Tattva etc."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮ ਤੱਤ ਆਦਿ (ਯੋਧਿਆਂ ਦੀ) ਵਖੀ ਨੂੰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਨਾਲ ਪਾੜਿਆ ਹੈ।"

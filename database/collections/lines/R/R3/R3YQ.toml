@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਹਰਖ ਬਰਖਣੰ ਧਨੰ; ਨ ਕਰਖ ਸਰਬਤੋ ਨ੍ਰਿਪੰ ॥"
 page = 555
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The kings will forsake the weapons of bow and arrows"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਖੁਸ਼ੀ ਨਾਲ ਧਨ ਦੀ ਬਰਖਾ ਨਹੀਂ ਕਰਨਗੇ, ਪਰ (ਧਨ ਨੂੰ) ਪ੍ਰਜਾ ਤੋਂ ਖੋਹਿਆ ਜਾਂ ਖਿਚਿਆ (ਜ਼ਰੂਰ) ਜਾਏਗਾ।"

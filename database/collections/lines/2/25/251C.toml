@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਮਿ ਮਧ ਕਰਮ ਕੀਏ ਅਨੇਕਾ ॥੮੩੨॥"
 page = 287
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Go-medh, Ajmedh and Bhoop-medh several types of Yajnas were performed.832."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਉਂਕਿ) ਗ੍ਰੰਥ ਵੱਧ ਜਾਣ ਤੋਂ ਹਿਰਦੇ ਵਿੱਚ ਡਰਦਾ ਹਾਂ ॥੮੩੩॥"

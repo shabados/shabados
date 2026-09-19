@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੈ ਗੈ ਰਥੀ ਬਿਨਾ ਅਸਿ ਭਏ ॥"
 page = 929
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Numerous braves lost their lives and were made to relinquish their chariots, horses and elephants."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹਾਥੀਆਂ, ਘੋੜਿਆਂ, ਰਥਾਂ ਅਤੇ ਤਲਵਾਰਾਂ ਤੋਂ ਬਿਨਾ ਹੋ ਗਏ।"

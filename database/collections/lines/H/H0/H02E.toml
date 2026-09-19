@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਸਾ ਮਉ ਨ ਆਈ ਅਨੀ ਦੈਤ ਰਾਜੰ ॥"
 page = 163
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੈਂਤ ਰਾਜੇ ਦੀ ਸੈਨਾ ਦਿਸਣ ਵਿਚ ਨਹੀਂ ਆਈ (ਅਰਥਾਤ ਭਜ ਗਈ)।"

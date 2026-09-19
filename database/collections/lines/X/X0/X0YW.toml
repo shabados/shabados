@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਰਹਤ ਇਕ ਪਗ ਜੁਗ ਪ੍ਰਮਾਨ ॥"
 page = 646
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ (ਕੇਵਲ) ਇਕ ਪੈਰ ਉਤੇ ਯੁਗ (ਜਿੰਨੇ ਲੰਬੇ ਸਮੇਂ ਤਕ ਖੜੋਤੇ) ਰਹਿੰਦੇ ਹਨ।"

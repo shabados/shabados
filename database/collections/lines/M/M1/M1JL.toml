@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਰੋਜ਼ੀ ਦਿਹੰਦ ਅਸਤੁ ਰਾਜ਼ਕ ਰਹੀਮ ॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Provider of Living is benevolent,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਰੋਜ਼ੀ ਦੇਣ ਵਾਲਾ, ਖ਼ੁਰਾਕ ਦੇਣ ਵਾਲਾ ਅਤੇ ਰਹਿਮ ਕਰਨ ਵਾਲਾ ਹੈ।"

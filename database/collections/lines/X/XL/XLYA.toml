@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਨ ਨਾਮ ਤਉਨ ਹ੍ਵੈਗੇ ਕੁਮਾਰ ॥"
 page = 648
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who were subjected to tonsure ceremony in water, all those princes (boys) are under your refuge"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਚੇਲਿਆ ਦਾ ਨਾਂ 'ਬਨ' (ਬਨੀ) ਹੋ ਗਿਆ।"

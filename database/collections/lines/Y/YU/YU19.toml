@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਹੌਸ ਮਨ ਮਹਿ ਰਹੀ; ਸੋ ਤੁਹਿ ਕਹੌ ਸੁਨਾਇ ॥"
 page = 989
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘But there is one ambition of mine which I must express it to you,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਮਨ ਵਿਚ ਇਹ ਹਵਸ ਰਹਿ ਗਈ ਹੈ, ਉਹ ਮੈਂ ਤੈਨੂੰ ਦਸਦਾ ਹਾਂ।"

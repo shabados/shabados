@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਦਿਨ ਤੇ ਹਰ ਅਰਿ ਬਸ ਭਈ ॥"
 page = 1135
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਿਨ ਤੋ ਉਹ ਕਾਮ ਦੇਵ ('ਹਰ ਅਰਿ') ਦੇ ਵਸ ਵਿਚ ਹੋ ਗਈ"

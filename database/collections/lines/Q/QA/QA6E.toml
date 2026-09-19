@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਤਯ ਦਿਵਸ ਪੁਨਿ ਆਵਤ ਭਯੋ ॥੪੭॥"
 page = 934
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After making love with her, he left the place and next day, again, he came back,(47)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੂਜੇ ਦਿਨ ਫਿਰ ਆ ਗਿਆ ॥੪੭॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਭਾਵਤੀ ਓਡਛੇ ਰਾਨੀ ॥"
 page = 1010
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਓਡਛਾ (ਉੜੀਸਾ) ਦੇਸ ਦੀ ਆਭਾਵਤੀ ਨਾਂ ਦੀ ਰਾਣੀ"

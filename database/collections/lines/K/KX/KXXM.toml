@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੋਹ ਦੇਸ ਬਿਖੈ ਗਯੋ ਲੈ; ਪੁਤ੍ਰ ਮਿਤ੍ਰ ਕੁਮਾਰ ॥"
 page = 688
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king alongwith his sons and friends brought the kings of various countries to his own country in fetters,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੁੱਤਰਾਂ, ਮਿਤਰਾਂ ਅਤੇ ਕੁਮਾਰਾਂ ਸਹਿਤ 'ਰੋਹ' ਦੇਸ ਵਿਚ ਲੈ ਗਿਆ।"

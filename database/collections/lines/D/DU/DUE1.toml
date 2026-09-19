@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਕਰੋਧ ਵਿਰੋਧ ਲਖ; ਲਖ ਵੈਰੁ ਕਰੰਦੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Lacs of angry people with lacs of antagonisms and lacs of enmities may be there."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ ਕਰੋਧ, ਲੱਖਾਂ ਵਿਰੋਧ, ਲੱਖਾਂ ਵੈਰ ਕਰਣ ਹਾਰੇ,"

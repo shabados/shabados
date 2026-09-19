@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਪ ਕਰੇ ਬਿਨ ਕ︀ਯੋਨ ਬਚੈ ਬਚੈ ਬਚਾਵੈ ਰਾਮ ॥੧੯॥"
 page = 1070
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪਾਪ ਕੀਤੇ ਬਿਨਾ ਕਿਵੇਂ ਬਚ ਸਕਦਾ ਹੈ, (ਤਦ ਹੀ) ਬਚ ਸਕਦਾ ਹੈ, ਜੇ ਰਾਮ ਬਚਾਏ ॥੧੯॥"

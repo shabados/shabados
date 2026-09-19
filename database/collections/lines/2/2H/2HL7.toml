@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕ੍ਰੂਰਧੁਜ ਬਾਚ ॥"
 page = 427
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Karurdhvaja"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੂਰਧੁਜਾ ਨੇ ਕਿਹਾ:"

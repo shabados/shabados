@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੂਨਿ ਜਾਟ ਕੀ ਤਿਨ ਧਰੀ; ਮ੍ਰਿਤ ਮੰਡਲ ਮੈ ਆਇ ॥"
 page = 938
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She took birth in the household of a Jat."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਆ ਕੇ ਮ੍ਰਿਤ ਮੰਡਲ ਵਿਚ ਜੱਟ ਦੀ ਜੂਨ ਧਾਰਨ ਕੀਤੀ"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭਗਤਿ ਕਰੇ; ਵਿਚਹੁ ਆਪੁ ਖੋਇ ॥"
 page = 1173
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Eradicating ego from within him, when man worships Him,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਅੰਦਰੋ ਹੰਗਤਾ ਨੂੰ ਮਾਰ ਕੇ ਜਦ ਬੰਦਾ ਉਸ ਦੀ ਪੂਜਾ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Through devotional worship, self-conceit is eradicated from within,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਬੀਚ ਸੇ ਆਪਾ ਭਾਵ ਗਵਾਇ ਕਰ ਭਗਤੀ ਕਰੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਮਨੁੱਖ ਆਪਣੇ ਅੰਦਰੋਂ ਆਪਾ-ਭਾਵ ਦੂਰ ਕਰ ਕੇ ਪਰਮਾਤਮਾ ਦੀ ਭਗਤੀ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਪੁ = ਆਪਾ-ਭਾਵ। ਖੋਹਿ = ਦੂਰ ਕਰ ਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Lo alabamos para liberarnos de nuestro ego negativo"

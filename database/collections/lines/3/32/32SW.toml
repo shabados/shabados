@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਓਜ ਸਿੰਘ ਕੋ ਹਤ ਕੀਯੋ; ਓਟ ਸਿੰਘ ਕੋ ਮਾਰਿ ॥"
 page = 431
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After killing of Ot Singh, Oj Singh was killed"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਓਜ ਸਿੰਘ ਨੂੰ ਮਾਰ ਦਿੱਤਾ ਅਤੇ ਓਟ ਸਿੰਘ ਨੂੰ ਖਤਮ ਕਰ ਦਿੱਤਾ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਭਨਾ ਕਾ ਦਾਤਾ ਏਕੁ ਹੈ; ਸਿਰਿ ਧੰਧੈ ਲਾਇ ॥"
 page = 427
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The One Lord is the Giver of all. He assigns every one his occupation."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇੱਕ ਸੁਆਮੀ ਹੀ ਸਾਰਿਆਂ ਨੂੰ ਦੇਣ ਵਾਲਾ ਹੈ, ਉਹ ਹਰ ਇਕ ਨੂੰ ਕੰਮ ਕਾਜ ਤੇ ਲਾਉਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The One Lord is the Giver of all; He assigns tasks to each and every person."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਕਾ ਦਾਤਾ ਏਕ ਅਕਾਲ ਪੁਰਖ ਹੈ, (ਸਿਰਿ) ਭਿੰਨ ਭਿੰਨ ਸਭ ਕੋ ਧੰਧੋਂ ਮੇਂ ਲਗਾਇ ਛੋਡਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਆਪ ਹੀ ਸਭ ਜੀਵਾਂ ਨੂੰ ਸਭ ਕੁਝ ਦੇਣ ਵਾਲਾ ਹੈ, ਉਹ ਆਪ ਹੀ ਹਰੇਕ ਜੀਵ ਨੂੰ ਧੰਧੇ ਵਿਚ ਲਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਿਰਿ = ਸਿਰਿ ਸਿਰਿ, ਹਰੇਕ ਦੇ ਸਿਰ ਦੀ ਰਾਹੀਂ, ਹਰੇਕ ਨੂੰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Bondadoso Señor es Uno Solo; es Él Quien nos apega a nuestras labores."

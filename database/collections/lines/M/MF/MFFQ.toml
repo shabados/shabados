@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਚੇ ਸੂਰ ਨਚੀ ਹੂਰ ॥"
 page = 258
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਿਆਂ ਨੂੰ ਯੁੱਧ ਦਾ ਚਾਉ ਚੜ੍ਹਿਆ ਹੋਇਆ ਹੈ ਅਤੇ ਹੂਰਾਂ ਨੱਚ ਰਹੀਆਂ ਹਨ।"

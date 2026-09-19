@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਟੈ ਖਗ ਧਾਰੰ ॥੪੨੬॥"
 page = 244
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors repeated the shouts of “kill, kill” and the edge of the spears began to break.426."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਲਵਾਰਾਂ ਦੀ ਧਾਰ ਖੁੰਡੀ ਪੈ ਰਹੀ ਹੈ ॥੪੨੬॥"

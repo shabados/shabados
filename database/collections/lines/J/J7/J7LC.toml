@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖਤ ਹੀ ਡਰਪਿਯੋ ਮਘਵਾ; ਡਰਪਿਯੋ ਬ੍ਰਹਮਾ ਜੋਊ ਲੇਖ ਲਿਖੈ ॥"
 page = 379
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing this scene even Brahma and Indra were filled with fear"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਵੇਖਦਿਆਂ ਹੀ ਇੰਦਰ ਡਰ ਗਿਆ, ਬ੍ਰਹਮਾ ਵੀ ਡਰ ਗਿਆ ਅਤੇ (ਉਹ ਚਿਤਰ ਗੁਪਤ ਵੀ ਡਰ ਗਿਆ) ਜੋ ਜੀਵਾਂ ਦੇ ਲੇਖ ਲਿਖਦਾ ਹੈ।"

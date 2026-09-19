@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜੇਯੰ ਅਭੇਯੰ ਅਨਾਮੰ ਅਠਾਮੰ ॥"
 page = 40
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is unconquerable, Indistinguishable, Nameless and Placeless"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ! ਤੂੰ) ਅਜਿਤ, ਭੈ-ਰਹਿਤ, ਬਿਨਾ ਨਾਮ ਅਤੇ ਸਥਾਨ ਦੇ ਹੈਂ।"

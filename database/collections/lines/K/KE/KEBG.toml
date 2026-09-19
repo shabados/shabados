@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਧਨਵਾਨੁ ਲਖੈ ਨਿਜ ਸੇਵਕ; ਤਾਹੀ ਪਰੋਸਿ ਪ੍ਰਸਾਦਿ ਜਿਮਾਵੈ ॥"
 page = 715
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who himself serves meals to his rich disciples,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਕੋਈ ਆਪਣਾ ਸੇਵਕ ਧਨਵਾਨ ਲਗੇ ਤਾਂ ਪਰੋਸ ਕੇ ਭੋਜਨ ਛਕਾਂਦੇ ਹਨ।"

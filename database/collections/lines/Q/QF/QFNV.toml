@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਧੌ ਪੁਹਪ ਧੰਨਿਆ ਫੁਲੀ ਰਾਇਬੇਲੰ ॥"
 page = 143
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Or it may be Rati (the wife of god of love) or it may be the superb creeper of flowers."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਫੁਲਾਂ ਦੀ ਧਨੁਸ਼ ('ਧੰਨਿਆ') ਹੋਵੇ, (ਜਾਂ) ਫੁਲੀ ਹੋਈ ਰਾਇਬੇਲ ਹੋਵੇ।"

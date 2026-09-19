@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਗਏ ਧਾਮਿ ਬ੍ਰਹਮਾਦਿ ਆਦਿ ॥"
 page = 636
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਘਰ ਆਦਿ ਦੇਵ ਬ੍ਰਹਮਾ ਆਦਿ ਗਏ।"

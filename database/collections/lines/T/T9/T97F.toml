@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੋਨਤ ਬਮਤ ਬਦਨ ਤੇ ਏਕਾ ॥"
 page = 1383
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੁਝ ਇਕ ਬਲਵਾਨ ਯੁੱਧ ਵਿਚ"

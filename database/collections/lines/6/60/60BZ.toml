@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਡਰ ਸਿੰਘ ਘਾਇਲ ਜਬ ਭਯੋ ॥"
 page = 417
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਅਡਰ ਸਿਘ ਘਾਇਲ ਹੋ ਗਿਆ,"

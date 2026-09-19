@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਹੂੰ ਬਾਨ ਦੁਹੂਅਨੰ ਕਹ ਹਰਿ ਹੈ ॥"
 page = 994
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘If my husband saw them, he will kill them both with two arrows."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਦੋ ਬਾਣਾਂ ਨਾਲ ਦੋਹਾਂ ਨੂੰ ਮਾਰ ਦੇਵੇਗਾ।"

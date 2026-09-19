@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਸਾ ਵਿਚਿ ਨਿਰਾਸਿ, ਨਿਰਾਸੁ ਵਲਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Remain detached amidst all the hopes and cravings."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਆਸਾ ਦੇ ਵਿਚ ਹੀ ਨਿਰਾਸ ਰਹਿਕੇ ਨਿਰਾਸਤਾ ਵਿਚ ਹੀ ਸਮਾਂ ਬਿਤੀਤ ਕਰਦੇ ਹਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਦੂਰ ਦਰਿਦ੍ਰ ਦਿਯਾ ਕਰਿ ॥"
 page = 1223
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜ ਕੁਮਾਰੀ ਨੇ) ਉਸ (ਦਾਸੀ) ਦੀ ਗ਼ਰੀਬੀ ਦੂਰ ਕਰ ਦਿੱਤੀ"

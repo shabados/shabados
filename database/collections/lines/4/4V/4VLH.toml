@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਟਾਂਗ ਟਾਂਗ ਕਰਿ ਹਨੇ ਨਿਦਾਨਾ ॥"
 page = 63
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਮੂਰਖਾਂ ਨੂੰ ਟੰਗ ਟੰਗ ਕੇ ਮਾਰ ਦਿੱਤਾ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਰੇ ਤੁੰਦ ਤਾਜੀ ॥"
 page = 208
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the bedecked forces, very swift horses began to run"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਜ਼ ਚਾਲ ਵਾਲੇ ਘੋੜੇ ਭੱਜ ਰਹੇ ਸਨ।"

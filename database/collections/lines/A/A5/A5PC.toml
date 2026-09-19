@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਸੋਧ ਫੇਰਿ ਨਹਿ ਲੀਨੋ ॥"
 page = 881
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Without thinking over, the foolish lady at once sent him lot of wealth."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਅਸਲ ਗੱਲ ਨੂੰ) ਸਮਝਣ ਦਾ ਯਤਨ ਫਿਰ ਵੀ ਨਹੀਂ ਕੀਤਾ।"

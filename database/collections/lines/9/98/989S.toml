@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪ ਵਿਸੂਲਾ ਹੋਇਆ, ਤਿਹੁ ਲੋਕਾਂ ਤੇ ਖੁਨਸਾਇ ਕੈ ॥"
 page = 125
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(The demon-king) himself was in great anguish, while exhibiting his anger over the three worlds."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿੰਨਾਂ ਲੋਕਾਂ ਉਤੇ ਖਿਝ ਕੇ ਆਪ ਬਹੁਤ ਕ੍ਰੋਧਵਾਨ ਹੋ ਗਿਆ।"

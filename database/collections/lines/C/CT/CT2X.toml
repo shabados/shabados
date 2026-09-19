@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਭਵਾਨੀ ਭਦ੍ਰ ਡਰਾਇਯੋ ॥"
 page = 1007
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "First, she got the gourd-shell hit and dreaded Bhawani Bhadar."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਭਦ੍ਰ ਭਵਾਨੀ ਨੂੰ ਡਰਾਇਆ।"

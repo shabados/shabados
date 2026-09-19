@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੋ ਸੌ ਅਧਿਕ ਪ੍ਰੀਤਿ ਉਪਜਾਵੈ ॥"
 page = 938
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਨਾਲ ਅਧਿਕ ਪ੍ਰੇਮ ਕਰੇਗਾ"

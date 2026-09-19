@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਿਛਨਿਜ ਆਦਿ ਉਚਾਰਨ ਕੀਜੈ ॥"
 page = 758
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਬ੍ਰਿਛਨਿਜ' (ਘਾਹ) ਦਾ ਉਚਾਰਨ ਕਰੋ।"

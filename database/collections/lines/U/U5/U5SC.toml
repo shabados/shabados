@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਸਹਤ ਤਨ ਪਰ ਤਾਪ ॥੧੫॥੪੫॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere heat is endured on the body.15.45."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਸ਼ਰੀਰ ਉਤੇ ਧੁਪ ('ਤਾਪ') ਸਹਿਨ ਕਰਦੇ ਹਨ ॥੧੫॥੪੫॥"

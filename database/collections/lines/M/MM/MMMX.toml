@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਸਟ ਗਤਿ ਪਾਇ ਹੈ ॥੩੪॥"
 page = 555
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They will not meditate on the feet of the lord and only the tyrants will be hailed .34."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੁਸ਼ਟਾਂ ਦੀ ਸਥਿਤੀ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨਗੇ ॥੩੪॥"

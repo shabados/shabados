@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਸਿ ਹਸਿ ਦੋਊ ਅਲਿੰਗਨ ਦੇਹੀ ॥੪੦॥"
 page = 1016
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Employing eighty-four position they were rejoicing sexually.(40)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੋਵੇਂ ਹਸ ਹਸ ਕੇ ਜਫੀਆਂ ਪਾਉਂਦੇ ਸਨ ॥੪੦॥"

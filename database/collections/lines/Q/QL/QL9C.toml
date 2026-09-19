@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਤਸੁਤੀ ਤਪਸਪਤੀ; ਬਨਸਪਤੀ ਜਪਸ ਸਦਾ ॥"
 page = 33
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The moon, sun and Varuna ever repeat Thy Name."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦਾ) ਚੰਦ੍ਰਮਾ ('ਸਿਤਸਪਤੀ') ਸੂਰਜ ਅਤੇ ਵਰੁਣ ਸਦਾ ਜਪ ਕਰਦੇ ਹਨ,"

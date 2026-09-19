@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਿਆ ਹਉ ਆਖਾ; ਆਖਿ ਵਖਾਣੀ ॥"
 page = 355
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "What should I say utter and describe."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਕੀ ਕਹਾਂ, ਅਤੇ ਉਚਾਰਨ ਤੇ ਬਿਆਨ ਕਰਾਂ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "What should I say, or speak or describe?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਮੁਖ ਕਰ ਕੇ ਸਮਾਨ ਤੇ ਕਿਆ ਕਹੂੰ ਔਰ ਕਿਆ ਮੇਂ ਵਿਸੇਸ ਕਰ (ਵਖਾਣੀ) ਉਸਤਤ ਕਰੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਚੋਜੀ ਪ੍ਰਭੂ! ਗੁਰੂ ਦੇ ਸਨਖੁਖ ਰਹਿਣ ਦਾ ਮੈਂ ਕੀਹ ਜ਼ਿਕਰ ਕਰਾਂ? ਕੀਹ ਆਖ ਕੇ ਸੁਣਾਵਾਂ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਉ = ਮੈਂ। ਆਖਿ = ਆਖ ਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "¿Qué puedo decir, cantar o describir,"

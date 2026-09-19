@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੋ ਕਤ ਜਾਨੈ; ਪੀਰ ਪਰਾਈ ॥"
 page = 793
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "How can he know the pain of another,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਹੋਰਸ ਦੀ ਪੀੜ ਨੂੰ ਕਿਰ ਤਰ੍ਹਾਂ ਜਾਣ ਸਕਦੀ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "How can anyone know the pain of another,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਪੁਰਖੁ ਪਰਾਈ ਪੀੜਾ ਕੋ (ਕਤ) ਕਿਆ ਜਾਨਤਾ ਹੈ ਅਰਥਾਤ ਨਹੀਂ ਜਾਨਤਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਹੋਰਨਾਂ (ਗੁਰਮੁਖਿ ਸੁਹਾਗਣਾਂ) ਦੇ ਦਿਲ ਦੀ (ਇਹ) ਪੀੜ ਕਿਵੇਂ ਸਮਝ ਸਕਦੀ ਹੈ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਰਾਈ ਪੀਰ = ਹੋਰਨਾਂ (ਗੁਰਮੁਖਿ ਸੁਹਾਗਣਾਂ) ਦੀ ਵਿਛੋੜੇ ਦੀ ਪੀੜ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "¿Cómo puede alguien conocer el dolor de otro,"

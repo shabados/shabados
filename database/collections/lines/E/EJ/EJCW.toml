@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਵਰਨ ਕੇ ਸਿਰਿ ਦੈ ਬੁਰਿਆਈ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And imposes the villainy over the head of others"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਾਰੀ ਕਾਰਵਾਈ ਖੁਦ ਕਰਦਾ ਹੈ, ਪਰ) ਬੁਰਿਆਈ ਹੋਰਨਾਂ ਦੇ ਸਿਰ ਦਿੰਦਾ ਹੈ।"

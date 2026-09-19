@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹੀ ਭਾਤਿ ਮਿਲਿ ਸਭਨ ਕਮਾਯੋ ॥"
 page = 896
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the policemen heard thus, they all agreed upon the scheme."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਸਭ ਨੇ ਮਿਲ ਕੇ ਉਸੇ ਤਰ੍ਹਾਂ ਕੀਤਾ।"

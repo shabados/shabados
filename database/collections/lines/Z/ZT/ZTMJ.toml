@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖਿ ਆਭਾ ਲਜੀ ਚੰਚਲਾ ॥੩੨੭॥"
 page = 661
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing her pure diamond necklaces, the lightning was feeling shy.327."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਆਭਾ ਨੂੰ ਵੇਖ ਕੇ ਬਿਜਲੀ ਸ਼ਰਮਸਾਰ ਹੁੰਦੀ ਹੈ ॥੩੨੭॥"

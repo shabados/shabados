@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਹਮ ਪੈ ਕੋਊ ਨ ਪਠਿਯੋ ਪੂਛਨ ਕੁਸਲ ਮਨੁਖ︀ਯ ॥੧੮॥"
 page = 847
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Moreover, neither you sent any body to inquire my welfare.’(l8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਤੁਸੀਂ ਮੇਰੀ ਸੁਖ ਸਾਂਦ ਪੁਛਣ ਲਈ ਕੋਈ ਬੰਦਾ ਨਹੀਂ ਭੇਜਿਆ ॥੧੮॥"

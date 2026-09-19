@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਤ ਫਿਰਤ ਯਾ ਕੋ ਨਿਰਖਿ; ਰਹੇ ਚਰਨ ਲਪਟਾਇ ॥੩੨॥"
 page = 893
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing them walking in, they fell on their feet (and begged),(32)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸ਼ਾਹ ਨੂੰ) ਚਲਦਾ ਫਿਰਦਾ ਦੇਖ ਕੇ ਸਾਰੇ ਉਸ ਦੇ ਚਰਨੀ ਲਗ ਗਏ ॥੩੨॥"

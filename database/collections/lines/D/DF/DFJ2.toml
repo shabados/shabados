@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਤ੍ਰਨਿ ਸਕਲ ਧਰਾ ਕਹੁ ਜੀਤਾ ॥"
 page = 173
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then a long period of time elapsed and the Kshatriyas conquered all the earth."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਛਤਰੀਆਂ ਨੇ ਸਾਰੀ ਧਰਤੀ ਨੂੰ ਜਿਤ ਲਿਆ।"

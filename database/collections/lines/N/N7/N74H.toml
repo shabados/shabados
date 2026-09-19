@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਸਮਝੋ ਰਸਾਇਨ ਹੈ, ਪਰ ਸਾਨੂੰ ਕਿਸਤਰ੍ਹਾਂ ਨਸੀਬ ਹੋ ਸਕਦੀ ਹੈ #"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਕੈ ਮੁਯੱਸਰ ਆਇਦਤ ਈਂ ਕੀਮੀਆ ॥੨੭੮॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "All the tongues are dumbstruck in praising him,"

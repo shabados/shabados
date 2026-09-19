@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਿਛੰ ਬਾਜ ਬਾਧਯੋ ਲਖਯੋ ਸਸਤ੍ਰ ਧਾਰੀ ॥"
 page = 276
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਘੋੜੇ ਨੂੰ ਬ੍ਰਿਛ ਨਾਲ ਬੰਨ੍ਹ ਦਿੱਤਾ। (ਜਦੋਂ ਸ਼ਤਰੂਘਨ ਦੇ) ਸੈਨਿਕਾਂ ਨੇ ਵੇਖਿਆ,"

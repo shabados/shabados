@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਨ ਕੋ ਟੋਟਿ ਕਛੂ ਮੁਹਿ ਨਾਹੀ ॥"
 page = 956
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਮੈਨੂੰ ਧਨ ਦੀ ਕੋਈ ਘਾਟ ਨਹੀਂ ਹੈ'"

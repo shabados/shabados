@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਗਮਗਤ ਤੇਜ ਪੂਰਨ ਪ੍ਰਤਾਪ ॥"
 page = 38
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Light is glittering, O perfectly Glorious Lord!!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰਾ) ਪੂਰਨ ਤੇਜ ਅਤੇ ਪ੍ਰਤਾਪ ਜਗਮਗਾ ਰਿਹਾ ਹੈ।"

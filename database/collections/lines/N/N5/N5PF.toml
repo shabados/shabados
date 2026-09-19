@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਿੰਭ ਦਿਖਾਇ ਕਰੋ ਤਪਸਾ; ਦਿਨ ਰੈਨਿ ਬਸੈ ਜਿਯਰਾ ਧਨ ਮਾਹੀ ॥"
 page = 1193
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਪਾਖੰਡ ਵਿਖਾ ਕੇ ਤਪਸਿਆ ਕਰਦਾ ਹੈਂ, (ਪਰ ਤੇਰਾ) ਮਨ ਦਿਨ ਰਾਤ ਧਨ ਵਿਚ ਵਸਦਾ ਹੈ।"

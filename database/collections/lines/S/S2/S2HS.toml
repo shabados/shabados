@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੋਈ ਕਹੈ; ਮੈ ਧਨਹਿ ਪਸਾਰਾ ॥"
 page = 913
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "One says that he has great manifestation of fortune."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਆਖਦਾ ਹੈ ਕਿ ਉਸ ਪਾਸ ਧਨ ਸੰਪਦਾ ਦਾ ਭਾਰਾ ਅਡੰਬਰ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Some say that they have great expanses of wealth."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਕਹਿਤਾ ਹੈ ਮੈਨੇ ਬਹੁਤ ਧਨ ਕਾ ਪਸਾਰਾ ਕੀਆ ਹੂਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਆਖਦਾ ਹੈ ਮੈਂ ਬਹੁਤ ਧਨ ਕਮਾਇਆ ਹੋਇਆ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਧਨਹਿ = ਧਨ ਦਾ। ਪਸਾਰਾ = ਖਿਲਾਰਾ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Otros se enorgullecen de las fortunas que han acumulado."

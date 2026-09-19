@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਚੱਲ ਭੋਗੇ ॥੭੪॥"
 page = 4
 line = 17
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art their permanent Enjoyer.74."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਚਲ ਭੋਗ ਸਾਮਗ੍ਰੀ ਵਾਲਾ ਹੈਂ ॥੭੪॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਅਚੱਲ ਭੋਗੇ ॥੭੪॥"

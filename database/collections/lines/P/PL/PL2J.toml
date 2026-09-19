@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਤੀ ਲਾਲ ਨੀਕੋ ਰਹੈ ਨਾਮ ਬਾਲਾ ॥"
 page = 832
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲਾਲ ਮਤੀ ਉਸ ਇਸਤਰੀ ਦਾ ਸੋਹਣਾ ਨਾਂ ਸੀ।"

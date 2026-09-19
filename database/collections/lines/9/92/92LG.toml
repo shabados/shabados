@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਖਿ ਕੇ ਤਿਮ ਸੋਭਤ ਜੋਗ ਜਟਾ ॥"
 page = 666
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The matted locks waved on the heads of the Yogis like the rays coming out of the sun"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸੇ ਤਰ੍ਹਾਂ ਰਿਸ਼ੀ ਦੇ ਸਿਰ ਤੋਂ ਜਟਾਵਾਂ ਸ਼ੋਭ ਰਹੀਆਂ ਹਨ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੁਣਿ ਨਾਹ ਪਿਆਰੇ; ਇਕ ਬੇਨੰਤੀ ਮੇਰੀ ॥"
 page = 1111
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my dear Spouse listen one supplication of mine."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਲਾਡਲੇ ਭਰਤੇ! ਤੂੰ ਮੇਰੀ ਇਕ ਪ੍ਰਾਰਥਨਾ ਸੁਣ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Please listen, O my Beloved Husband Lord, to my one prayer."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਯਾਰੇ ਪਤੀ! ਇਕ ਮੇਰੀ ਬੇਨਤੀ ਸ੍ਰਵਣ ਕਰੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਿਆਰੇ (ਪ੍ਰਭੂ-) ਪਤੀ! ਮੇਰੀ ਇਕ ਬੇਨਤੀ ਸੁਣ-"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਾਹ = ਹੇ ਨਾਹ! ਹੇ ਨਾਥ! ਹੇ ਖਸਮ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mi Amado Esposo, escucha mi oración, habitas en mi ser,"

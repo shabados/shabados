@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀੜਿਨ ਤੇ ਖਿਸਕਤ ਨ੍ਰਿਪਤ; ਪਰਿਯੋ ਧਰਨਿ ਪਰ ਆਇ ॥੧੩॥"
 page = 967
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now he was pushed and he was thrown down the stairs.(13)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪੌੜੀਆਂ ਉਤੋਂ ਖਿਸਕਦਾ ਰਾਜਾ ਧਰਤੀ ਉਤੇ ਆਣ ਪਿਆ ॥੧੩॥"

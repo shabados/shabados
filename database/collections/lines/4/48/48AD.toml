@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੂ ਕੁਨੁ ਰੇ ॥"
 page = 694
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord: \"O who art thou?\""
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ: \"ਓਇ, ਤੂੰ ਕੌਣ ਹੈਂ?\""
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "\"Who are you?\""
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਕਹਤੇ ਹੈਂ: ਤੂੰ ਕੌਣ ਹੈ ਅਰਥਾਤ ਆਪ ਕੋ ਕੌਣ ਮੰਨਿਆ ਹੈ?☬ਨਾਮਦੇਵ ਜੀ ਕਹਤੇ ਹੈਂ:"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ (ਪ੍ਰਭੂ) ਜੀ! (ਜੇ ਤੂੰ ਮੈਨੂੰ ਪੁੱਛੇਂ-) ਤੂੰ ਕੌਣ ਹੈਂ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰੇ = ਹੇ ਭਾਈ! ਕੁਨੁ = ਕੌਣ?"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "¿Quién eres Tú?;"

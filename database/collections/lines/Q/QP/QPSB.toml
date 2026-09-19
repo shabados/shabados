@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨੁਕ ਰਾਕ, ਨਵੋ ਨਿਧਿ ਪਈ ॥"
 page = 1223
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ (ਕਿਸੇ) ਰੰਕ ਨੇ ਨੌਂ ਨਿੱਧੀਆਂ ਪ੍ਰਾਪਤ ਕੀਤੀਆਂ ਹੋਣ।"

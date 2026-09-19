@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰੰਥ ਬਢਨ ਤੇ ਅਤਿ ਚਿਤ ਡਰੌ ॥"
 page = 1106
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਉਂਕਿ ਗ੍ਰੰਥ ਦੇ ਵੱਧ ਜਾਣ ਤੋਂ ਮਨ ਵਿਚ ਡਰਦਾ ਹਾਂ।"

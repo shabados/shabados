@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਮ ਤਜੇ ਪ੍ਰਾਣ ਹਮ, ਸੁਤਿ ਬਿਛੋਹਿ ॥"
 page = 203
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਤਰ੍ਹਾਂ ਅਸੀਂ (ਦੋਹਾਂ ਨੇ) ਪੁੱਤਰ ਦੇ ਵਿਛੋੜੇ ਵਿੱਚ ਪ੍ਰਾਣ ਤਿਆਗੇ ਹਨ,"

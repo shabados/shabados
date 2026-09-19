@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੋ ਪਰੈ ਕੈ ਜਾਇ; ਕਹੋ ਲਰਿ ਕੈ ਮਰੈ ॥"
 page = 505
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Shatdhavana! What should we do now? If you say, we shall run away or shall die fighting"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਹੇਂ (ਤਾਂ) ਜਾ ਕੇ (ਪੈਰੀ) ਪੈ ਜਾਵਾਂ, ਕਹੇ (ਤਾਂ) ਲੜ ਕੇ ਮਰ ਜਾਵਾਂ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬੁਧਵਾਰਿ; ਬੁਧਿ ਕਰੈ ਪ੍ਰਗਾਸ ॥"
 page = 344
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "On Wednesday man should enlighten his understanding."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਬੁਧਵਾਰ ਨੂੰ ਬੰਦੇ ਨੂੰ ਆਪਣੀ ਸਮਝ ਉੱਜਲ ਕਰਨੀ ਉੱਚਿੱਤ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "On Wednesday, one's understanding is enlightened."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਬੁਧਵਾਰ ਦ੍ਵਾਰੇ ਕਹਤੇ ਹੈਂ: ਉਤਮ ਬੁਧੀ ਕਾ ਪ੍ਰਕਾਸ ਕਰੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "('ਬਾਰ ਬਾਰ ਹਰਿ ਕੇ ਗੁਨ' ਗਾ ਕੇ, ਮਨੁੱਖ ਆਪਣੀ) ਸੂਝ ਵਿਚ ਪ੍ਰਭੂ ਦੇ ਨਾਮ ਦਾ ਚਾਨਣ ਪੈਦਾ ਕਰ ਲੈਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬੁਧਿ = ਅਕਲ। ਪ੍ਰਗਾਸੁ = ਚਾਨਣ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "En miércoles, uno debe iluminar su mente"

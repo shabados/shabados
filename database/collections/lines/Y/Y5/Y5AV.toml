@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਬੀਰ ਬੀਰਾਨ ਕੋ ਮਾਰਿ ਡਾਰੈ ॥"
 page = 944
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਤੇ ਸੂਰਮੇ ਸੂਰਮਿਆਂ ਨੂੰ ਮਾਰ ਕੇ ਸੁਟ ਰਹੇ ਹਨ।"

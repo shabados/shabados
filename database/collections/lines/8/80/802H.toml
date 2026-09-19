@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਤ ਚਲਤ ਸਸੁਰਾਰਿ ਕੌ ਗਾਵ ਪਹੂੰਚ︀ਯੋ ਆਇ ॥"
 page = 892
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Walking and walking they reached the village of the in-laws."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਰਦੇ ਤੁਰਦੇ ਉਹ ਸੌਹਰੇ ਪਿੰਡ ਆ ਪਹੁੰਚੇ।"

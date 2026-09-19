@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਾਪੇ ਦਾ, ਵਰਤਿਆ ਵਰਤਾਰਾ ॥੨੦॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The sin became ubiquitious all around."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਪ੍ਰਕਾਰ) ਪਾਪ ਦਾ ਵਰਤਾਰਾ ਵਰਤ ਗਿਆ।"

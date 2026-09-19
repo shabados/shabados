@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਬੁਧਿ ਪ੍ਰਕਾਸ ॥੩੯੩॥"
 page = 666
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Had relinquished all the desires because of the unfoldment of knowledge.393."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਅਧਿਕ ਪ੍ਰਕਾਸ਼ ਹੋ ਗਿਆ ਸੀ ॥੩੯੩॥"

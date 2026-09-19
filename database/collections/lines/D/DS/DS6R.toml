@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਣਣੰਛੇ ਕਛੇ ਕਿਕਾਣੰ ॥੧੧੯॥"
 page = 211
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The fighters drenched with blood began to fell and the horses were being crushed in the battlefield.119."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਖ਼ਾਲੀ ਘੋੜੇ ਹਿਣਕਦੇ ਹੋਏ ਫਿਰਨ ਲੱਗੇ ॥੧੧੯॥"

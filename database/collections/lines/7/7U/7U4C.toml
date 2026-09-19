@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾ ਕਉ; ਤੁਮ ਦੀਨੀ ਪ੍ਰਭ ਧੀਰ ॥"
 page = 188
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O Lord, whom though givest Thy consolation,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੁਆਮੀ! ਜਿਸ ਨੂੰ ਤੂੰ ਆਪਣਾ ਦਿਲ ਦਿੰਦਾ ਹੈਂ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Those, unto whom You give Your consolation, God"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਜਿਸ ਕੋ ਤੈਨੇ ਧੀਰਜਤਾ ਦਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਜਿਸ ਮਨੁੱਖ ਨੂੰ ਤੂੰ ਧੀਰਜ ਦਿੱਤੀ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪ੍ਰਭ = ਹੇ ਪ੍ਰਭੂ! ਧੀਰ = ਧੀਰਜ, ਸਹਾਰਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél cuyo Consuelo eres Tú,"

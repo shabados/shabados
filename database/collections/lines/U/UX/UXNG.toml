@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੀਰ ਘਨੇ ਰਨ ਮਾਝ ਹਨੇ; ਮਨ ਮੈ ਨ੍ਰਿਪ ਰੰਚਕ ਕੋਪ ਭਰਿਓ ਹੈ ॥"
 page = 440
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Killing many warriors in the battlefield, the king Kharag Singh became somewhat furious"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ (ਖੜਗ ਸਿੰਘ) ਵਲੋਂ ਰਤਾ ਜਿੰਨਾ ਕ੍ਰੋਧ ਕਰਨ ਤੇ ਬਹੁਤ ਸਾਰੇ ਯੋਧੇ ਰਣ ਵਿਚ ਮਾਰੇ ਗਏ ਹਨ।"

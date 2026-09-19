@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਮ ਦੇਸ ਭੂਪ ਬਿਹੀਨ ॥"
 page = 634
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਦੇਸ ਤੋਂ ਬਿਨਾ ਰਾਜਾ ਹੈ,"

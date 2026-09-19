@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਤੇ ਅਮਿਤ ਅਸੁਰ ਉਠਿ ਧਏ ॥"
 page = 1365
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੋਂ ਅਣਗਿਣਤ ਦੈਂਤ ਉੱਠ ਕੇ ਦੌੜ ਪਏ ਅਤੇ"

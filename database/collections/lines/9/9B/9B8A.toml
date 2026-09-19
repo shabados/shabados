@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਮੁਖ ਸੁਧ ਨਿਸਾਪਤਿ ਸੋ; ਜਿਹ ਕੇ ਤਨ ਕੰਚਨ ਸੀ ਛਬਿ ਛਾਈ ॥"
 page = 347
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The face of Radha is moonlike and her body is beautiful like gold"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਮੂੰਹ ਸੁੰਦਰ ਚੰਦ੍ਰਮਾ ਵਰਗਾ ਹੈ ਅਤੇ ਜਿਸ ਦੇ ਸ਼ਰੀਰ ਦੀ ਛਬੀ ਸੋਨੇ ਵਰਗੀ ਹੈ।"

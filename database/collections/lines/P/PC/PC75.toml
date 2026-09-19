@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰਮੁਖੀਆ ਮੁਹ ਸੋਹਣੇ; ਗੁਰ ਕੈ ਹੇਤਿ ਪਿਆਰਿ ॥"
 page = 66
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Beauteous are the faces of Guru's slaves, who bear love and affection to the Guru."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਦਰ ਹਨ ਚਿਹਰੇ ਗੁਰੂ ਦੇ ਸੇਵਕਾਂ ਦੇ, ਜੋ ਗੁਰਾਂ ਨਾਲ ਪ੍ਰੀਤ ਤੇ ਮੁਹੱਬਤ ਕਰਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Beautiful are the faces of the Gurmukhs, who bear love and affection for the Guru."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨ: ਜਿਨੋਂ ਨੇ ਗੁਰੋਂ ਕੇ ਬਚਨੋਂ ਕੋ ਮੁਖ ਰਖਿਆ ਹੈ, ਤਿਨ ਜੀਵ ਰੂਪੀ ਇਸਤ੍ਰੀਓਂ ਕੇ ਮੁਖ ਸੋਭਨੀਕ ਹੈਂ, ਔਰ ਗੁਰੋਂ ਕੇ ਹਿਤ ਮੇਂ ਹੀ ਤਿਨ ਕਾ ਪ੍ਰੇਮ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਦੇ ਸਨਮੁਖ ਰਹਿਣ ਵਾਲੇ ਮਨੁੱਖਾਂ ਦੇ ਮੂੰਹ (ਨਾਮ ਦੀ ਲਾਲਗੀ ਨਾਲ) ਸੋਹਣੇ ਲੱਗਦੇ ਹਨ, ਕਿਉਂਕਿ ਉਹ ਗੁਰੂ ਦੇ ਪ੍ਰੇਮ ਵਿਚ ਗੁਰੂ ਦੇ ਪਿਆਰ ਵਿਚ ਟਿਕੇ ਰਹਿੰਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹੇਤਿ = ਪਿਆਰ ਵਿਚ, ਪ੍ਰੇਮ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Los semblantes de los Gurmukjs son bellos, pues ellos aman al Guru."

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੋਝ ਰੀਛ ਮਾਰੇ ਝੰਖਾਰਾ ॥੪॥"
 page = 1295
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਰੋਜ਼, ਰਿਛ ਅਤੇ ਬਾਰਾਸਿੰਗੇ ਮਾਰੇ ॥੪॥"

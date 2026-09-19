@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿ ਕੋਪ ਬਲੀ ਬਰਖ੍ਰਯੋ ਬਿਸਖੰ ॥"
 page = 181
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋਧਵਾਨ ਹੋ ਕੇ ਬਲਵਾਨ ਦੈਂਤ ਬਾਣਾਂ ਦੀ ਬਰਖਾ ਕਰਨ ਲਗਿਆ।"

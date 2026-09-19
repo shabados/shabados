@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਰਤਿ ਕਰੌ; ਨ ਛੋਰੋ ਏਕ ਛਿਨ ॥"
 page = 1103
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੈਂ) ਉਸ ਨਾਲ ਭਾਂਤ ਭਾਂਤ ਦੀ ਰਤੀ-ਕ੍ਰੀੜਾ ਕਰਾਂਗੀ ਅਤੇ ਇਕ ਛਿਣ ਲਈ ਵੀ ਨਹੀਂ ਛਡਾਂਗੀ।"

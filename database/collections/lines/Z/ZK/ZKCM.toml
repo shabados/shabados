@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘੁਮੇ ਘਾਇ ਅਘਾਇ ਬੀਰ ਬੰਕੜੇ ਬਬਾੜੰ ॥"
 page = 238
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brave fighters are roaming and killing one another after challenging them."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘਾਇਲ ਹੋਏ ਸੂਰਮੇ ਘੇਰਨੀਆਂ ਖਾ ਰਹੇ ਹਨ। ਯੁੱਧ-ਕਰਮ ਨਾਲ ਰੱਜ ਕੇ ਸੂਰਮੇ ਲਲਕਾਰਦੇ ਹਨ।"

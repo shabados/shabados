@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਕਾਰ ਧਾਮੰ ॥੨੨੧॥"
 page = 222
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Making Ram a sage, turn him out of the home ”221."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘਰ ਤੋਂ ਕੱਢ ਦਿਓ ॥੨੨੧॥"

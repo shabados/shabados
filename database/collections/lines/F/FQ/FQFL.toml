@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਸ ਚਾਲ ਹਮ ਤੇ ਪੁਨਿ ਭਈ ॥"
 page = 60
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਸਾਨੂੰ ਦੇਸ (ਆਨੰਦਪੁਰ) ਤੋਂ ਜਾਣਾ ਪਿਆ"

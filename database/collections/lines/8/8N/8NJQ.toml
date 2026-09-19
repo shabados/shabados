@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਯਾਹਯ ਦਰਾਮਦ ਬ ਗੁਰਜੋ ਗਜ਼ੰਦ ॥੧੬੧॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And the ones beaten with maces raised hue and cries.(161)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਗੁਰਜਾਂ ਦੇ ਵਜਣ ਨਾਲ ਸੂਰਮੇ 'ਹਾਇ ਹਾਇ' ਕਰਨ ਲਗੇ ॥੧੬੧॥"

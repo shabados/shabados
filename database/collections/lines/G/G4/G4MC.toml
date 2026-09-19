@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਲਿਜੁਗ, ਜੋ ਫੇੜੇ ਸੋ ਪਾਵੈ ॥੧੩॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "But in the kaliyug only he suffers who commits evil deed."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਲਿਜੁਗ ਵਿਖੇ ਜੋ ਕਰਮ ਕਰੂ ਸੋਈ ਪਾਊ।"

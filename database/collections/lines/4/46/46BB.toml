@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਨ ਚਰਚਾ ॥੧੬੦॥"
 page = 567
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Even after searching in every home, no worship and prayer and no discussion on Vedas will be seen or heard.160."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਾ ਹੀ (ਹਰਿ ਨਾਮ ਦੀ) ਚਰਚਾ ਹੋਵੇਗੀ ॥੧੬੦॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਏਜ਼ਦ ਗਵਾਹਸਤੁ ਯਜ਼ਦਾਂ ਯਕੇਸਤ ॥੧੩॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Lord Himself is the Witness.13."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖ਼ੁਦਾ ਇਕ ਹੈ ਅਤੇ (ਅਸਾਂ ਦੋਹਾਂ ਵਿਚ) ਗਵਾਹ ਹੈ ॥੧੩॥"

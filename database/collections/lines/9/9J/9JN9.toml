@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਾ ਕੈ ਨਿਕਟਿ; ਨ ਆਵੈ ਮਾਈ ॥੫॥੧੯॥੮੮॥"
 page = 182
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "the mammon does not draw near him."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮਾਇਆ ਉਸ ਦੇ ਲਾਗੇ ਨਹੀਂ ਲਗਦੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Who have obtained the dust of the feet of the Saints. ||5||19||88||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਨ ਪੁਰਸੋਂ ਕੇ ਭੀ ਮਾਇਆ ਸਮੀਪ ਨਹੀਂ ਆਵਤੀ ਹੈ॥੫॥੧੯॥੮੮॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮਾਇਆ ਉਸ ਮਨੁੱਖ ਦੇ ਨੇੜੇ ਨਹੀਂ ਢੁੱਕ ਸਕਦੀ ॥੪॥੧੯॥੮੮॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਾਈ = ਮਾਇਆ ॥੫॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "a él la toda prevaleciente Maya no lo toca. (5-19-88)"

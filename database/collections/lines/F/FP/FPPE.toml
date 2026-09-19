@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਰਿਸਤੁਆ ਅਰੇਖੰ ॥੧੫॥੧੨੩॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art depicted as markless.15.123."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਰੇਖਾ ਤੋਂ ਬਿਨਾ ਕਥਨ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈਂ ॥੧੫॥੧੨੩॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੂੰਡਿ ਮੂੰਡਿ ਕਟਿ ਨਾਕ; ਬਹੁਰਿ ਤਿਹ ਮਾਰਿਯੋ ॥"
 page = 1137
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਸਿਰ ਮੁੰਨ ਕੇ ਅਤੇ ਨੱਕ ਕਟ ਕੇ ਫਿਰ ਮਾਰਿਆ।"

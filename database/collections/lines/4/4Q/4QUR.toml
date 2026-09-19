@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਲਹਿਰ ਬਣ ਗਿਆ, ਤੇ ਲਹਿਰ ਬਣ ਕੇ ਉਸ ਨੇ ਸਾਗਰ ਨੂੰ ਪ੍ਰਨਾਮ ਕੀਤਾ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਮੌਜ ਗਸ਼ਤ ਵਾ ਕਰਦ ਦਰਿਆ ਰਾ ਸਜੂਦ ॥੨੯੪॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He is the prophet of virtues and blessings,"

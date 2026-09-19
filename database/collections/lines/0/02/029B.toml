@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੇ ਅਉਰੁ ਬੀਰੰ ਹਥਿਆਰੰ ਉਘਾਰੇ ॥"
 page = 102
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Other warriors holding their weapons marched forward."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਹੋਰ ਯੋਧੇ ਸ਼ਸਤ੍ਰ ਉਲ੍ਹਾਰ ਕੇ (ਯੁੱਧ-ਭੂਮੀ ਵਲ) ਚਲ ਪਏ।"

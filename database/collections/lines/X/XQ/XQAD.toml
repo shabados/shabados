@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਗੰਜ ਸੂਰ ਅਬਿਚਲ ਜੁਝਾਰ ॥"
 page = 679
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਗੰਜੇ ਜਾ ਸਕਣ ਵਾਲੇ ਸੂਰਮੇ ਅਤੇ ਅਚਲ ਲੜਾਕੇ,"

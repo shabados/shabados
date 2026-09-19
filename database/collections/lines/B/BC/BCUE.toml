@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੀਚ ਤਰੈ ਹਮ ਪੈ ਜਮੁਨਾ; ਮਨ ਭਾਵਤ ਗੀਤ ਸਭੈ ਮਿਲਿ ਗਾਵੈ ॥"
 page = 307
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They should take some eatables with them from their homes, which they would eat together in the forest"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਜਮਨਾ ਵਿਚ ਤਰਾਂਗੇ ਅਤੇ ਸਾਰੇ ਮਿਲ ਕੇ ਮਨ ਚਾਹੇ ਗੀਤ ਗਾਵਾਂਗੇ।"

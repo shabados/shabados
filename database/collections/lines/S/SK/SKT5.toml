@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਛੈ ਮੋਹਣੀ ਆਜੇ ਰਾਚੀ ॥"
 page = 661
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਨ ਨੂੰ ਮੋਹਣ ਵਾਲੀ ਹੈ, ਹੁਣੇ ਹੀ ਰਚੀ ਹੋਈ ਹੈ।"

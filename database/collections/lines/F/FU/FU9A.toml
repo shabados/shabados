@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਏਵਡੁ ਵਡਾ ਹੋਇ ਕੈ; ਕਿਥੈ ਰਹਿਆ ਆਪੁ ਲੁਕਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Being so much great where has He hidden Himself?"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਏਡਾ ਵੱਡਾ ਹੋਕੇ ਕਿਥੇ ਤੂੰ ਆਪਦਾ ਆਪ ਲੁਕਾ ਛਡਿਆ ਹੈ?"

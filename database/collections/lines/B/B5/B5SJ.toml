@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾਹਿ ਕਹਤ ਪਰਮੇਸ੍ਰ ਤੈ; ਮਨ ਮਹਿ ਨਹੀ ਲਜਾਇ ॥੧੧੮॥"
 page = 1200
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਪਰਮੇਸ਼੍ਵਰ ਕਹਿੰਦਿਆਂ (ਇਹ) ਮਨ ਵਿਚ ਨਹੀਂ ਲਜਾਉਂਦੇ ॥੧੧੮॥"

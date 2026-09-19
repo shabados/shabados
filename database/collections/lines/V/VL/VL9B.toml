@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੁਬਾਰਸ਼ ਦਿਹਦ ਤੇਗ਼ ਤਰਕਸ਼ ਖ਼ਤੰਗ ॥੩੮॥"
 page = 1399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘By throwing arrows and brandishing the sword.(38)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਤਲਵਾਰ ਚਲਾਉਂਦਾ ਹੈ ਅਤੇ ਭੱਥੇ ਵਿਚੋਂ ਤੀਰਾਂ ਦਾ ਮੀਂਹ ਵਰ੍ਹਾ ਦਿੰਦਾ ਹੈ ॥੩੮॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕ੍ਰੂਰ ਕਰਮ ਬਧ ਨੈਨ ਨਿਹਾਰਿਓ ॥"
 page = 444
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਦੋਂ) 'ਕ੍ਰੂਰ ਕਰਮ' ਨਾਂ ਦੇ ਦੈਂਤ ਨੂੰ ਅੱਖਾਂ ਨਾਲ ਮਰਦਾ ਵੇਖਿਆ"

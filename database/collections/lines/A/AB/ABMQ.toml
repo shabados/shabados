@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਾਲੀ ਹੂ ਫੁਨਿ ਧਉਲੇ ਆਏ ॥"
 page = 1027
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The back hair, ultimately turn grey."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕਾਲੇ ਵਾਲ, ਅੰਤ ਨੂੰ ਚਿੱਟੇ ਹੋ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Their black hair eventually turns grey."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਾਲੇ ਕੇਸਾਂ ਤੇ ਮੁੜ ਧੌਲੇ ਭੀ ਆਇ ਗਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਵਾਨੀ ਲੰਘ ਜਾਂਦੀ ਹੈ) ਕਾਲੇ ਕੇਸਾਂ ਤੋਂ ਫਿਰ ਧੌਲੇ ਆ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹੂ = ਤੋਂ। ਫੁਨਿ = ਮੁੜ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuando los cabellos negros se tornan blancos,"

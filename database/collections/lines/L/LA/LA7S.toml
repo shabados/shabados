@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਰਾਮਚੰਦੁ ਕਾਰਣ ਕਰਣ; ਕਾਰਣ ਵਸਿ ਹੋਆ ਦੇਹਿਧਾਰੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Due to some reason, Lord, the cause of all the causes assumed the form of Ramchandr."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮਚੰਦਰ ਕਾਰਣ ਕਰਣ ਨੇ ਕਾਰਨ ਦੇ ਵੱਸ ਹੋਕੇ ਦੇਹ ਧਾਰੀ।"

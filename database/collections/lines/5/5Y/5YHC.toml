@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅੰਮ੍ਰਿਤ ਵੇਲੈ ਨਾਵਣਾ; ਗੁਰਮੁਖਿ ਜਪੁ ਗੁਰ ਮੰਤੁ ਜਪਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In ambrosial hours the gurmukhs undertake to inspire themselves and others to bathe and recite the mantra of the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਅੰਮ੍ਰਤ ਵੇਲੇ ਇਸ਼ਨਾਨ ਕਰ ਕੇ ਗੁਰਮੁਖਾਂ ਨੂੰ 'ਗੁਰ ਮੰਤ੍ਰ' (ਅਰਥਾਤ) ਜਪੁਜੀ ਦਾ ਪਾਠ ਜਪਾਇਆ ਹੈ।"

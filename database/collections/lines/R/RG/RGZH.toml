@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਡ ਅਰ ਮੁੰਡ ਪਠਾਏ, ਬਹੁਤਾ ਕਟਕੁ ਦੈ ॥"
 page = 123
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Chand and Mund were sent with huge forces."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਚੰਡ ਅਤੇ ਮੁੰਡ ਨੂੰ ਬਹੁਤ ਸਾਰੀ ਸੈਨਾ ਦੇ ਕੇ (ਰਣ-ਭੂਮੀ ਵਲ) ਭੇਜਿਆ ਗਿਆ"

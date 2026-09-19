@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿ ਅਫ਼ਤਾਦ ਬੂਮਸ ਚੁ ਕਰਖੇ ਅਜ਼ੀਮ ॥੧੪੫॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And he fell flat like a wrecked mansion.(145)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਹ) ਵੱਡੀ ਅਟਾਰੀ ਵਾਂਗ ਧਰਤੀ ਉਤੇ ਡਿਗ ਪਿਆ ॥੧੪੫॥"

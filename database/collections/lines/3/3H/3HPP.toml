@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਗੜਦੀ ਚਟਾਕ ॥੧੫॥੧੭੧॥"
 page = 113
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Several types of noise were spreading in the battlefield.15.171."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚੜਚੜ ਕਰਦੇ (ਬਰਛੇ) ਵਜਦੇ ਸਨ ॥੧੫॥੧੭੧॥"

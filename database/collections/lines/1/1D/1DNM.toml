@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਨਾ ਗਰਮ ਸ਼ੁਦ ਆਤਸ਼ੇ ਕਾਰਜ਼ਾਰ ॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The fight flared again,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਜੰਗ ਬਹੁਤ ਜ਼ੋਰ ਨਾਲ ਮਚ ਪਈ"

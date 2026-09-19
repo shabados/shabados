@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ; ਹਉਮੈ ਚੂਕੈ ਪੀਰ ॥"
 page = 125
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "For the holy man, the agony of ego is dispelled."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨੇਕ-ਬੰਦੇ ਦੀ ਹੰਕਾਰ ਦੀ ਦਰਦ ਦੂਰ ਹੋ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Gurmukhs have the pain of egotism taken away."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਹੇ ਅਰਥ ਕੋ ਸਫਟ ਕਰਤੇ ਹੈਂ ਗੁਰਮੁਖੋਂ ਕੀ ਦੇਹ ਮੇਂ ਸੇ ਹੰਤਾ ਔਰ ਇਸਤ੍ਰੀ ਪੁਤ੍ਰਾਦਿਕੋਂ ਮੇਂ ਸੇ ਮਮਤਾ ਕੀ ਪੀੜਾ ਉਠ ਗਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਅੰਦਰੋਂ ਹਉਮੈ ਦੀ ਪੀੜ ਖ਼ਤਮ ਹੋ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪੀਰ = ਪੀੜ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "porque se ha liberado de la agonía de su propio ego,"

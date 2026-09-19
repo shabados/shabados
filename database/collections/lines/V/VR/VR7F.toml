@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰਤ ਤ੍ਰਿਯ ਕੌ ਪ੍ਰਥਮ ਨਰੇਸਾ ॥"
 page = 1297
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਦੇ ਮਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇਸਤਰੀ ਨੂੰ ਮਾਰ ਦਿੰਦੇ ਹਨ।"

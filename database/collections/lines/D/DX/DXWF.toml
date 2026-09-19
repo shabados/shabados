@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜੇਹਾ ਬੀਉ, ਤੇਹਾ ਫਲੁ ਪਾਇਆ ॥੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "As someone sows, so he reaps."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹਾ ਬੀਜ (ਕੋਈ ਬੀਜੇ) ਤਿਹਾ ਫਲ ਹੁੰਦਾ ਹੈ।"

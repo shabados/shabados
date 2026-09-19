@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰੇ ਚੰਡ ਪ੍ਰਚੰਡ ਨੈ; ਬੀਰ ਖੇਤ ਉਤਾਰੇ ॥"
 page = 121
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The intensely glorious Chandi killed the warriors and threw them in the field."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਚੰਡ ਚੰਡੀ ਨੇ (ਰਾਖਸ਼) ਸੂਰਮਿਆਂ ਨੂੰ ਮਾਰ ਕੇ ਸਥਰ ਲਾਹ ਦਿੱਤੇ ਸਨ,"

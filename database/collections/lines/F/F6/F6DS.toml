@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਕਾਲ ਅਪਾਲ ਦਇਆਲ ਸੁਅੰ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Deathless Patronless Beneficent and Self-Existent !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਖੁਦ ਕਾਲ ਤੋਂ ਬਿਨਾ, (ਕਿਸੇ ਪ੍ਰਕਾਰ ਦੀ) ਪਾਲਨਾ ਤੋਂ ਪਰੇ, ਨਿਰ ਅਭਿਮਾਨ ਅਤੇ ਦਿਆਲੂ ਹੈ,"

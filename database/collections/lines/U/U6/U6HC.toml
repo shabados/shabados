@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਕਹੈ, ਕਹਿ ਕਰੈ, ਕਹਾ ਕਾਲਨ ਕੈ ਸੁਝੈ ॥"
 page = 131
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What doth he say and do? What facts doth reveal Him?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੀ ਕਹਿੰਦਾ ਹੈ, ਕੀ ਕਰਦਾ ਹੈ ਅਤੇ ਕਿੰਨਾ ਗੱਲਾਂ ਕਰਕੇ (ਉਸ ਦੀ) ਸੋਝੀ ਹੁੰਦੀ ਹੈ;"

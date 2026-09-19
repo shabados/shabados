@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਜ ਮੇਧ ਕਰੈ ਲਗੈ; ਹਯਸਾਲਿ ਤੇ ਹਯ ਚੀਨਿ ॥"
 page = 619
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They selected a fine horse from their stable and decided to perform Ashvamedha Yajna"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ ਸਗਰ ਅਸ਼੍ਵਮੇਧ ਯੱਗ ਕਰਨ ਲਗਾ (ਅਤੇ ਇਸ ਲਈ) ਘੋੜਸ਼ਾਲਾ ਤੋਂ ਇਕ ਘੋੜਾ ਚੁਣ ਲਿਆ।"

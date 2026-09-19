@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਦ ਪੰਗਤ ਦਾਮਨੀਅੰ ਦਮਕੰ ॥"
 page = 44
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The chain of Thy teeth glitters like lightning"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੇ) ਦੰਦਾਂ ਦੀ ਪਾਲ ਬਿਜਲੀ ਵਾਂਗ ਚਮਕਦੀ ਹੈ"

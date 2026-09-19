@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੋਰਿ ਕਫਨ ਮੁਖਿ ਨਹਿਨ ਨਿਹਰਿਯਹੁ ॥੫॥"
 page = 1264
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਦਾ ਕਫ਼ਨ ਚੁਕ ਕੇ ਮੂੰਹ ਵੀ ਨਹੀਂ ਵੇਖਣਾ ॥੫॥"

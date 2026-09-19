@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਭ ਮਹਿ ਵਰਤੈ; ਏਕੁ ਅਨੰਤਾ ॥"
 page = 176
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Among all the One Infinite Lord is pervading."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਿਆਂ ਅੰਦਰ ਇਕ ਬੇਅੰਤ ਸਾਈਂ ਵਿਆਪਕ ਹੋ ਰਿਹਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Infinite One is pervading among all."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਏਕ ਜੋ (ਅਨੰਤਾ) ਪ੍ਰਮਾਤਮਾ ਹੈ, ਸੋਈ ਸਰਬ ਮੇਂ ਵਰਤ ਰਹਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ! ਜਦੋਂ ਤੈਨੂੰ ਇਹ ਨਿਸ਼ਚਾ ਹੋ ਜਾਵੇ ਕਿ) ਇਕ ਬੇਅੰਤ ਪ੍ਰਭੂ ਹੀ ਸਭ ਵਿਚ ਵਿਆਪਕ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਵਰਤੈ = ਮੌਜੂਦ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "En todas partes prevalece el Infinito Señor;"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਰਾਜਾ ਪਰਜਾ ਹੋਇ ਕੈ; ਚਾਕਰ ਕੂਕਰ ਦੇਸਿ ਦੁਹਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "By becoming subject of a king, people as servants go around the countries to abide orders."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਸ੍ਰਿਸ਼ਟੀ) ਰਾਜਾ ਪਰਜਾ ਹੋਕੇ (ਵਰਤਦੀ ਹੈ; ਰਾਜਾ ਦੇ) ਨੌਕਰ ਕੁਟਵਾਲ (ਉਸਦੇ ਹੁਕਮ ਦੀ) ਦੇਸ਼ ਵਿਚ ਦੁਹਾਈ ਫੇਰਦੇ ਹਨ।"

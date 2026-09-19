@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਹੀ ਬ੍ਰਹਮਾ ਬਿਸਨ ਬਨਾਯੋ ॥"
 page = 1364
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਸੀਂ ਹੀ ਬ੍ਰਹਮਾ ਅਤੇ ਵਿਸ਼ਣੂ ਬਣਾਇਆ ਹੈ"

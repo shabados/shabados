@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੰਤ ਕੇ ਦੋਖੀ ਕਉ; ਸਭ ਤਿਆਗੈ ॥"
 page = 280
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The saints' slanderer, is abandoned by all."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧੂ ਦੇ ਨਿੰਦਕ ਨੂੰ ਸਾਰੇ ਛੱਡ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The slanderer of the Saint is abandoned by all."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤੋਂ ਕੇ ਅਪਰਾਧੀ ਕੋ ਸਭ ਤਿਆਗ ਜਾਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਸਾਰੇ ਉਸ ਦਾ ਸਾਥ ਛੱਡ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਭ ਤਿਆਗੈ = ਸਾਰੇ ਸਾਥ ਛੱਡ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y nadie quisiera estar cerca de él."

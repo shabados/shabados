@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਗਰਜਿਯੋ ਅਰਜਨੰ ਪਰਮ ਬੀਰੰ ॥"
 page = 145
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In that war, the Supreme hereo Arjuna roared."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਜੰਗ ਵਿਚ) ਮਹਾਨ ਵੀਰ ਅਰਜਨ ਨੇ ਲਲਕਾਰਾ ਮਾਰਿਆ।"

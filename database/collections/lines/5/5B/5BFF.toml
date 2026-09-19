@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰਿਹ ਕੇ ਸਕਲ ਕਾਮ ਤਜ ਆਵੈ ॥"
 page = 942
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਘਰ ਦੇ ਸਾਰੇ ਕੰਮ ਛਡ ਕੇ ਆ ਜਾਵੇ"

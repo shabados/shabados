@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਕਾਇ ਪੇਖੇ ਸਭੈ ਦੇਵ ਛੋਭੈਂ ॥"
 page = 242
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, with whose chariot there are brown horses and seeing whose broad body even the gods become fearful"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਵੱਡੀ ਦੇਹ ਨੂੰ ਵੇਖ ਕੇ ਸਾਰੇ ਦੇਵਤੇ ਭੈ-ਭੀਤ ਹੁੰਦੇ ਹਨ,"

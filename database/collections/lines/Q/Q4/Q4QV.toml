@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਕ੍ਰਤ ਚਾਰੁ ਚੰਦ੍ਰਕਾ ॥੧੧॥੧੯॥"
 page = 129
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brilliance of the flame of Thy fire puzzles brightness of Thy Kingdom.11.19"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਦਰ ਚਾਂਦਨੀ ਵੀ ਚਕਰਾ ਜਾਂਦੀ ਹੈ ॥੧੧॥੧੯॥"

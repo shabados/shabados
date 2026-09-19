@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਫ ਬਾਰ ਤਰੰਗ ਰਬਾਬ ਤੁਰੀ; ਰਣਿ ਸੰਖ ਅਸੰਖ ਬਜਾਵਹਿਗੇ ॥"
 page = 565
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The tabors, the musical glasses, rababs and conches etc. will be played,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਡਫ, ਜਲਤਰੰਗ, ਰਬਾਬ, ਤੁਰੀ ਅਤੇ ਰਣਸਿੰਗੇ ਅਣਗਿਣਤ ਵਜਾਉਣਗੇ।"

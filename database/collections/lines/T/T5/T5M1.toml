@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸੋ ਲਹੈ ਪਦਾਰਥ ਮੁਕਤਿ ਪਦ; ਚੜ੍ਹਿ ਗਗਨ ਸਮਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "There remains no challenge of Yamas,"

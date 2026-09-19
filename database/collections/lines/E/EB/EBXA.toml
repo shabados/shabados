@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਸੋ ਕੌਣ ਬੀਅੰ ਫਿਰੈ ਆਇਸਾਣੰ ॥"
 page = 44
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who is the other one who hath the audacity to refuse His Order?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਜਿਹਾ ਦੂਜਾ ਕੌਣ ਹੈ? ਜੋ (ਤੇਰੀ) ਆਗਿਆ ਨੂੰ ਮੋੜ ਸਕੇ।"

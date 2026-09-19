@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਅਗਨ ਹੋਤ੍ਰ ਅਨੂਪ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere exquisite fire-worship is arranged. ,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਅਨੂਪ ਹਵਨ ('ਅਗਨੀ-ਹੋਤ੍ਰ') ਹੁੰਦੇ ਹਨ,"

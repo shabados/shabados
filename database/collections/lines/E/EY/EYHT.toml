@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਸੁਰੇਸ ਕੋਪਾ ਅਹੰਕਾਰੀ ॥੨੬॥"
 page = 102
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When all the army was thus effaced, then the egoistic demon-king was filled with rage.26."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦੋਂ) ਹੰਕਾਰੀ ਦੈਂਤ-ਰਾਜ ('ਆਸੁਰੇਸ') ਕ੍ਰੋਧਿਤ ਹੋ ਗਿਆ ॥੨੬॥"

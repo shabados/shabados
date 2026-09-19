@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਭਾਵਤੀ ਰਾਨੀ ਤਬੈ; ਤਾ ਕੋ ਰੂਪ ਨਿਹਾਰਿ ॥"
 page = 957
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(On seeing Urvassi, the Rani thought)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਪ੍ਰਭਾਵਤੀ ਰਾਣੀ ਉਸ ਦੇ ਰੂਪ ਨੂੰ ਵੇਖ ਕੇ"

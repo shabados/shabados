@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੇਖ ਸੈਯਦ ਕੇ ਪਾਛੇ ਆਯੋ ॥"
 page = 818
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Incidentally, immediately after the Sayeed the Sheikh walked in,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ੇਖ ਸੱਯਦ ਦੇ ਪਿਛੋਂ ਆ ਗਿਆ।"

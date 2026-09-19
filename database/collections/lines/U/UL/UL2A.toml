@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫਿਰਿ ਫਿਰਿ ਤ੍ਰਿਯ ਆਸਨ ਕਹ ਲੈ ਕੈ ॥"
 page = 1227
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਫਿਰ ਫਿਰ ਇਸਤਰੀ ਨਾਲ ਆਸਣ ਜਮਾਂਦਾ"

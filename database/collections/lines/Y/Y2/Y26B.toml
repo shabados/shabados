@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਠੈ ਦੂਤ ਤਾ ਕੋ ਇਕ ਦੀਨੋ ॥"
 page = 950
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "To entice Raja Punnu (for marriage), he sent his emissary and called him over."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਵਲ ਇਕ ਦੂਤ ਨੂੰ ਭੇਜ ਦਿੱਤਾ।"

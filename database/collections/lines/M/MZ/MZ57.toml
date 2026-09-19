@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਰ ਜਬੈ ਐਸੇ ਕ︀ਯੋ ਨਿਰਖ ਤਰੁਨਿ ਕੀ ਓਰ ॥"
 page = 821
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When he reproved her action severely, she took out a sword and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਯਾਰ ਨੇ ਇਸਤਰੀ ਵਲ ਵੇਖ ਕੇ ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ,"

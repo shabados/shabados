@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਦਿਲਿਸ ਕੀ ਸੁਤਾ ਬਿਯਾਵਹੁ ॥੧੫॥"
 page = 1287
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਦਿੱਲੀ ਦੇ ਬਾਦਸ਼ਾਹ ਦੀ ਪੁੱਤਰੀ ਨਾਲ ਵਿਆਹ ਕਰ ਲੈ ॥੧੫॥"

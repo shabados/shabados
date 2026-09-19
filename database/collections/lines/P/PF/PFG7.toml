@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਸੀਤਾ ਖੋਜਬੋ ਕਥਨੰ ॥"
 page = 236
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now begin the description about the search for Sita :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਸੀਤਾ ਦੀ ਖੋਜ ਦਾ ਕਥਨ"

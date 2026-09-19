@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੰਧਰਬੀ ਸਿਧੰ ਚਾਰਾਣੀ ॥"
 page = 679
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Gandharvas and Siddhas (adepts) remain present at your feet"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੰਧਰਬਣੀ, ਸਿੱਧਣੀ, ਚਾਰਣੀ,"

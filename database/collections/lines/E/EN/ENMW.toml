@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਨਿਕ ਭਨਕ ਪਦੁਮਿਨਿ ਜਬ; ਸਹ ਕਾਨਨ ਪਰੀ ॥"
 page = 1084
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਪਦਮਨੀ ਬਾਰੇ ਬਾਦਸ਼ਾਹ ਦੇ ਕੰਨ ਵਿਚ ਮਾਮੂਲੀ ਜਿਹੀ ਭਿਣਕ ਪਈ"

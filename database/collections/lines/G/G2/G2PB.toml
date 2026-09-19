@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਜੁ ਮਨ ਕੀ ਤਾ ਸੋ; ਜੋ ਬਾਤ ਸੁਨਾਇਯੈ ॥"
 page = 822
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Once she is in the know of the secret, that must become an open"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਆਪਣੇ ਮਨ ਦੀ ਗੱਲ ਉਸ ਨੂੰ ਸੁਣਾਓਗੇ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠਿ ਠਾਢੋ ਮੁਸਲੀ ਭਯੋ; ਦੋਊ ਅਸਤ੍ਰ ਸੰਭਾਰਿ ॥"
 page = 528
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਲਰਾਮ ਦੋਵੇਂ ਅਸਤ੍ਰ ਸੰਭਾਲ ਕੇ ਉਠ ਖੜੋਤਾ"

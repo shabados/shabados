@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੁਦਰਤਿ ਅਗਮ ਅਪਾਰੁ, ਅੰਤੁ ਨ ਪਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "His feats of amusements are inaccessible and limitless; their extremes are unattainable."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕੁਦਰਤ (ਉਸ ਦੀ) ਮਨ ਬਾਣੀ ਤੋਂ ਪਰੇ ਹੈ ਅਰ ਅਪਾਰ ਹੈ (ਜਿਸਦਾ) ਅੰਤ ਕਿਸੇ ਨਹੀਂ ਪਾਇਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੁਤੋਚਾਰ ਕੀਨੇ ॥"
 page = 271
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Brahmins were called in and with the recitation of Vedic mantras Ram was enthroned"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਨੇ) ਵੇਦਾਂ ਦਾ ਪਾਠ ਕੀਤਾ।"

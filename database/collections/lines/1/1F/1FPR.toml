@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ︀ਯਾਮ ਕਿਧੋ ਉਪਮਾ ਤਿਹ ਕੀ ਮਨ ਮਧਿ ਬਿਚਾਰੁ ਕਬਿਤੁ ਸੁ ਜੋਰੋ ॥"
 page = 315
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The poet Shyam says that remembering that simile, he is composing the Kabit stanza in his mind and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਆਮ (ਕਵੀ ਨੇ) ਉਸ ਦੀ ਮਹਿਮਾ ਮਨ ਵਿਚ ਵਿਚਾਰ ਕੇ ਕਵਿਤਾ ਜੋੜੀ ਹੈ।"

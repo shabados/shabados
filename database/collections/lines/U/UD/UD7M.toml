@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁੰਦ੍ਰਿਤ ਮਠ ਕੋ ਦ੍ਵਾਰਨਿ ਕਰਿਹੌ ॥"
 page = 1020
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਠ ਦੇ ਦਰਵਾਜ਼ੇ ਬੰਦ ਕਰ ਦੇਵਾਂਗੀ।"

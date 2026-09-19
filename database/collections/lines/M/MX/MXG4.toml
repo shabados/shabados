@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਤਸਤੁਆ ਅਗੰਡੰ ॥੭॥੧੧੫॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou canst not be attached with anything.7.115."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੰਗਾਂ ਤੋਂ ਬਿਨਾ ਤੂੰ ਗਤਿਮਾਨ ਹੈਂ ॥੭॥੧੧੫॥"

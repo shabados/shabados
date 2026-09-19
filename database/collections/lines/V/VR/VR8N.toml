@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਵ ਪ੍ਰਸਾਦਿ ॥ ਨਰਾਜ ਛੰਦ ॥"
 page = 32
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "BY THY GRACE. NARAAJ STANZA"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਕ੍ਰਿਪਾ ਨਾਲ: ਨਰਾਜ ਛੰਦ:"

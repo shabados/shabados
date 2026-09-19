@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਮੁਨਾ ਬਾਚ ਹਲੀ ਸੋ ॥"
 page = 525
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Yamuna addressed to Balram:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਮਨਾ ਨੇ ਬਲਰਾਮ ਨੂੰ ਕਿਹਾ:"

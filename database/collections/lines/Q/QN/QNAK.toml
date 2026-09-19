@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੁਣ ਘਣ ਲਜੇ ॥"
 page = 196
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing the resounding of the trumpets, the clouds are feeling shy."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਦੀ) ਅਵਾਜ਼ ਅੱਗੇ ਬੱਦਲ ਵੀ ਲਜਾਉਂਦੇ ਸਨ।"

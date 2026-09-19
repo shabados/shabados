@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੁਦ੍ਰ ਭਵਨ ਪੂਜਨ ਤੁਮ ਜੈ ਹੌ ॥"
 page = 1218
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਤੂੰ ਰੁਦ੍ਰ ਦੇ ਮੰਦਿਰ ਵਿਚ ਪੂਜਾ ਲਈ ਜਾਵੇਂਗੀ,"

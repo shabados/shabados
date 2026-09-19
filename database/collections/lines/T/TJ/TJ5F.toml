@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਨ ਕੌ ਰਾਜੁ ਆਪਨੌ ਕਰਿਹੌ ॥"
 page = 909
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(He determined) ‘I will rule over the country during day and, at night,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਦਿਨ ਨੂੰ ਆਪਣਾ ਰਾਜ ਕਰਾਂਗਾ"

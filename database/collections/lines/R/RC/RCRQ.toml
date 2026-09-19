@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਤੁਰੰ ਲਏ ਨ੍ਰਿਪ ਸੰਗਿ ਘਨੀ ॥"
 page = 663
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਆਪਣੇ ਨਾਲ ਬਹੁਤ ਸਾਰੀ ਚਤੁਰੰਗਨੀ ਸੈਨਾ ਲਈ ਹੋਈ ਹੈ।"

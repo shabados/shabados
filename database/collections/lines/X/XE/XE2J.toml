@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਰਿ ਹੈ ਅਨ੍ਰਿਥੰ ॥੫੪॥"
 page = 557
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They will do wicked deeds and quarrel uselessly amongst themselves.54."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨਰਥ ਬੋਲਣਗੇ ॥੫੪॥"

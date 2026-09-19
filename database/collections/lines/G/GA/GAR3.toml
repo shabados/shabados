@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਬਾਗਾ ਰਾਜੇ ਕੇ ਆਯੋ ॥"
 page = 981
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was one (humanoid) horse, which was of good breed, it came near Raja."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਰਾਜੇ ਦਾ ਚੋਗ਼ਾ ਲੈ ਕੇ ਆਇਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੋਹ ਮਈ ਗਰੂਓ ਬਰਛਾ ਗਹਿ; ਕੈ, ਬਲਿ ਸੋ ਕਰਿ ਕੋਪ ਪ੍ਰਹਾਰਿਓ ॥"
 page = 431
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Catching in ire his lance of steel, he struck a blow with great strength"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੋਹਮਈ ਬੜੇ ਭਾਰੇ ਬਰਛੇ ਨੂੰ ਪਕੜ ਕੇ ਅਤੇ ਕ੍ਰੋਧ ਕਰ ਕੇ ਚਲਾ ਦਿੱਤਾ।"

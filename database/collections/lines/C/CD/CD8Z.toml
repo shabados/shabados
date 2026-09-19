@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਧੌ ਨਾਗ ਕੰਨਿਆ ਕਿਧੌ ਬਾਸਵੀ ਹੈ ॥"
 page = 144
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Or she was the daughter of a Naga or Basve, the wife of Sheshanaga"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਨਾਗ-ਕੰਨਿਆਂ ਹੋਵੇ, ਜਾਂ ਇੰਦਰ ਦੀ ਪਤਨੀ ਹੋਵੇ,"

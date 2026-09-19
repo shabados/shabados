@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੇਵਡੁ ਦੁਖੁ ਸੁਖੁ ਆਖੀਐ; ਕੇਵਡੁ ਹਰਖੁ ਸੋਗੁ ਵਿਸਥਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "What is the ambit of suffering and pleasure, happiness and sorrow?"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕੇਡਾਕੁ ਦੁਖ, ਸੁਖ ਆਖੀਏ ਤੇ ਹਰਖ (ਅਰ) ਸੋਗ ਦਾ ਵਿਸਤਾਰ ਕਿੱਡਾਕੁ (ਕਹੀਏ)।"

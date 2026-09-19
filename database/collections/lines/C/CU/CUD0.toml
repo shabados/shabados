@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਜਦੁਬੀਰ ਜਾਨ ਸਭ ਲੀਨੀ ॥੨੪੩੦॥"
 page = 544
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Considering him his Lord-God, he worshipped him and Krishna also comprehended the whole mystery in his mind.2430."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੇ (ਉਸ) ਸਾਰੀ (ਅਵਸਥਾ ਨੂੰ) ਜਾਣ ਲਿਆ ॥੨੪੩੦॥"

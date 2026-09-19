@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਖੰਡ ਅਖੰਡ ਪ੍ਰਚੰਡ ਕੀਏ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He hath Created the indivisible sky with Sun within it!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਅਖੰਡ ਅਤੇ ਪ੍ਰਚੰਡ ਖੰਡਾਂ ਦੀ ਰਚਨਾ ਕੀਤੀ"

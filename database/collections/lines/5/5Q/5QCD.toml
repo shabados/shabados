@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਨਾਦ ਨਾਦੰ ॥"
 page = 41
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Such sounds are peaceful sounds !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਜਿਹੇ ਨਾਦਾਂ ਵਿਚ (ਉਸ ਦੇ) ਮਹਾ ਨਾਦ ਦਾ-"

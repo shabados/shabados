@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਚਰਣ ਕਵਲ, ਸਤਿਗੁਰ ਸਰਣਾਈ ॥੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "They all remain in the shelter of the lotus feet of the true Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਤਿਗੁਰੂ (ਗੁਰੂ ਨਾਨਕ ਦੇ) ਚਰਣਾਂ ਕਮਲਾਂ ਦੀ ਸ਼ਰਨ (ਲੈਣ ਦੇ ਕਾਰਣ ਸਦਾ ਉੱਤਮ ਹਨ, ਅੰਤ ਨੂੰ ਪਰਮ ਧਾਮ ਵਿਖੇ ਨਿਵਾਸ ਦੇਣਗੇ।)।"

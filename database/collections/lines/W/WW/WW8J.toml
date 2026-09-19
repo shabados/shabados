@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਰਾਜਸੂ ਜਗ ਸਿਸੁਪਾਲ ਬਧ ਕਥਨੰ ॥"
 page = 533
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now begins the description of the Rajsui Yajna and the killing of Shishupal"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਰਾਜਸੂ ਯੱਗ ਅਤੇ ਸ਼ਿਸ਼ੁਪਾਲ ਦੇ ਬਧ ਦਾ ਕਥਨ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿ ਕਰਿ ਕੁਵਤਿ ਸੇਜ ਚਰਕਾਵੈ ॥"
 page = 1114
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜ਼ੋਰ ('ਕੁਵਤਿ') ਨਾਲ (ਘਰਸ਼ਣ ਕਰਨ ਤੇ) ਮੰਜੀ ਚਰ ਚਰ ਕਰਨ ਲਗੀ"

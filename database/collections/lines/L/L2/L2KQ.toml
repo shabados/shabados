@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੀਰਤ ਸਾਲੀ ॥"
 page = 214
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors wandered in the battlefield like the gardeners of the forest who prune the plants, they began to destroy the reputation of the heroes."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੀਰਤੀ ਦੇ ਸਥਾਨ"

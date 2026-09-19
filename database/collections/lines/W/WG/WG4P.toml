@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੀਅ ਗਰਬ ਕੋ ਮੁਖ ਚਾਰ ॥"
 page = 635
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਹਮਾ ਨੇ ਹੰਕਾਰ ਕੀਤਾ ਸੀ"

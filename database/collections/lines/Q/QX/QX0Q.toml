@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਆਮਦ ਬਰਾਏ ਹਮਹ ਗ਼ੁਸਲ ਗੰਗ ॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They all came to bathe in the (river) Ganga."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਗੰਗਾ ਵਿਚ ਇਸ਼ਨਾਨ ਕਰਨ ਲਈ ਸਪਰਿਵਾਰ ਇਤਨੀ ਤੇਜ਼ੀ ਨਾਲ ਆਇਆ"

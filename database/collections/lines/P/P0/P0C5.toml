@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਸ ਕੇ ਜਸ ਹੈਂ ॥੧੮੪॥"
 page = 10
 line = 4
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Lord! Thou art not subject! 184"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਯਸ਼ਾਂ ਦਾ ਵੀ ਯਸ਼ ਹੈਂ ॥੧੮੪॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਜਸ ਕੇ, ਜਸ ਹੈਂ ॥੧੮੪॥"

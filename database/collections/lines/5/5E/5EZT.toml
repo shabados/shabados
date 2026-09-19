@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਾ ਕੀ ਮਹਿਮਾ; ਗਨੀ ਨ ਆਵੈ ॥"
 page = 262
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "his praises cannot be recounted."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀਆਂ ਸਿਫ਼ਤ-ਸ਼ਲਾਘਾ ਗਿਣੀਆਂ ਨਹੀਂ ਜਾ ਸਕਦੀਆਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "the praises of his glory cannot be recounted."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਕਿੰਚਤ ਮਾਤ੍ਰ ਜਪਣੇ ਕੀ, ਵਾ ਤਿਸ ਪੁਰਸ਼ ਕੀ ਮਹਿਮਾ ਗਿਣਤੀ ਮੇਂ ਨਹੀਂ ਆਵਤੀ॥☬ਤਾਂ ਤੇ ਐਸੇ ਬੇਨਤੀ ਕਰੋ:"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਵਡਿਆਈ ਬਿਆਨ ਨਹੀਂ ਹੋ ਸਕਦੀ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਹਿਮਾ = ਵਡਿਆਈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Partícula de Su Nombre en su corazón,"

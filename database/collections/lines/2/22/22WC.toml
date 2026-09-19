@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗੜਦੰਗ ਆਏ ਜਹਾ ਰਾਮ ਖੇਤੰ ॥"
 page = 261
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਰਾਮ ਜੀ ਜਿੱਥੇ ਰਣ-ਭੂਮੀ ਵਿੱਚ ਬੈਠੇ ਸਨ"

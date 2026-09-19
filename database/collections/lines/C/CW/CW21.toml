@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਮਿਤ ਆਫੂਆ ਕੀ ਬਰੀ; ਖਾਇ ਚੜਾਈ ਭੰਗ ॥"
 page = 962
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After taking very strong opium and cannabis,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਫ਼ੀਮ ਦੀ ਵੱਡੀ ਗੋਲੀ ਖਾ ਕੇ ਅਤੇ ਭੰਗ ਚੜ੍ਹਾ ਕੇ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਿਕਸਤੁਆ ਅਝਾਪੰ ॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Fearless and Invisible."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਕਿਸੇ ਦੀ ਰੁਕਾਵਟ ਤੋਂ ਨਹੀਂ ਡਰਦਾ,"

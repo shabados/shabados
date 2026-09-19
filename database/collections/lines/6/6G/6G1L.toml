@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਠਾਕੁਰ. ਆਇਓ ਆਹਿ ॥੧॥ ਰਹਾਉ ॥"
 page = 407
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "With eagerness I have come to Thee. Pause."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਚਾਹਣਾ ਨਾਲ ਤੇਰੇ ਕੋਲ ਆਇਆ ਹਾਂ। ਠਹਿਰਾਉ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Lord Master, I have come to You. ||1||Pause||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਠਾਕੁਰ! ਮੈਂ ਆਪ ਕੀ ਸਰਣ ਮੇਂ (ਆਹਿ) ਚਾਹ ਕਰ ਪਰਾਪਤ ਹੂਆ ਹੂੰ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਾਲਕ! ਮੈਂ ਤਾਂਘ ਕਰ ਕੇ (ਤੇਰੀ ਸਰਨ) ਆਇਆ ਹਾਂ੧ ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਠਾਕੁਰ = ਹੇ ਠਾਕੁਰ! ਆਹਿ = ਤਾਂਘ ਕਰ ਕੇ ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pues he venido a Ti con gran añoranza. (1‑Pausa)"

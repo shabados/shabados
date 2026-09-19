@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਭੀ ਪਰਮ ਪੁਰਖ ਨਹੀ ਪਾਏ ॥"
 page = 56
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then I created Siddhas and sadhs, who also could not realize the Lord."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ) ਉਨ੍ਹਾਂ ਨੇ ਵੀ ਪਰਮਾਤਮਾ ਨੂੰ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤਾ।"

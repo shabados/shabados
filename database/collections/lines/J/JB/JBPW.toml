@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ੍ਰ ਰੂਪ ਹੁਤੀ ਤਹਾ ਇਕ; ਨਾਰਿ ਨਾਗਰ ਭੇਸ ॥"
 page = 689
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O king! one day Shiva wearing matted locks persistently entered the ocean, where he saw an unparalleled fasciating woman"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਇਕ ਚਿਤਰ ਦੇ ਸਮਾਨ ਸੁੰਦਰ ਰੂਪ ਵਾਲੀ ਚਤੁਰ ਭੇਸ ਵਾਲੀ ਇਸਤਰੀ ਸੀ।"

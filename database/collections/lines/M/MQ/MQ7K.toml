@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਮਾਲੀ ਇਹ ਬਾਗ ਕੋ; ਆਯੋ ਤੁਮਰੇ ਪਾਸ ॥"
 page = 824
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then she said, ‘This gardener has come to you."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸਤਰੀ ਨੇ ਯਾਰ ਨੂੰ ਕਿਹਾ) ਇਸ ਬਾਗ਼ ਦਾ ਇਹ ਮਾਲੀ ਤੁਹਾਡੇ ਕੋਲ ਆਇਆ ਹੈ।"

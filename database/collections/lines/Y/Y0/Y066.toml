@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੈਸੇ ਕਿਰਖਹਿ; ਬਰਸ ਮੇਘ ॥"
 page = 987
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "As bursting of cloud saves the crop."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਤਰ੍ਹਾਂ ਬੱਦਲ ਦਾ ਵਰ੍ਹਣਾ ਫ਼ਸਲ ਨੂੰ ਬਚਾ ਦਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "as the cloudburst saves the crops;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੈਸੇ ਮੇਘ ਕੇ ਬਰਸਨੇ ਸੇ ਖੇਤੀ ਕੋ ਆਨੰਦ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਖੇਤੀ ਨੂੰ ਬੱਦਲ ਦਾ ਵਰ੍ਹਨਾ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਿਰਖਹਿ = ਖੇਤੀ ਨੂੰ। ਬਰਸ ਮੇਘ = ਬੱਦਲ ਦਾ ਵਰ੍ਹਨਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Así como la granja sedienta está esperando recibir siempre la lluvia de las nubes,"

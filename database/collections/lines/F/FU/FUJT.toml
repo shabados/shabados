@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਉਸਤਤਿ ਕਹਨੁ. ਨ ਜਾਇ; ਮੁਖਹੁ ਤੁਹਾਰੀਆ ॥"
 page = 261
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thine praises O Lord I cannot describe with my mouth."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਮਹਿਮਾ, ਹੈ ਮਾਲਕ! ਮੈਂ ਆਪਣੇ ਮੂੰਹ ਨਾਲ ਬਿਆਨ ਨਹੀਂ ਕਰ ਸਕਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I cannot describe Your Praises with my mouth, O Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਹਾਰਾਜ! ਆਪ ਕੀ ਉਸਤਤਿ ਮੁਖ ਕਰ ਕੇ ਕਹੀ ਨਹੀਂ ਜਾਤੀ, ਭਾਵ ਸੇ ਬਿਅੰਤ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਮੈਥੋਂ ਆਪਣੇ ਮੂੰਹ ਨਾਲ ਤੇਰੀ ਵਡਿਆਈ ਬਿਆਨ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੁਖਹੁ = ਮੂੰਹ ਤੋਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Señor, no puedo entonar Tus Alabanzas porque estoy encantado de haberte visto;"

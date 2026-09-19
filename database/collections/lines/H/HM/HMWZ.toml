@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪਨ ਰੂਪ ਅਨੰਤਨ ਧਰਹੀ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He manifests Himself in innumerable forms,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਤੋਂ ਅਨੰਤ ਰੂਪ ਧਾਰਨ ਕਰਦਾ ਹੈ,"

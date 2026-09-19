@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਬਾਹੰ ਮਰੀਚੰ ॥"
 page = 207
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁਬਾਹੂ ਅਤੇ ਮਰੀਚ ਦੈਂਤ ਮੌਤ ਦੀ ਇੱਛਾ ਕਰਕੇ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਸੰਨ ਦੇਵਤਾ ਭਏ ॥"
 page = 100
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The gods wrere pleased"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੇਵੀ ਦੇ ਪ੍ਰਗਟ ਹੋਣ ਤੇ) ਦੇਵਤੇ ਪ੍ਰਸੰਨ ਹੋ ਗਏ"

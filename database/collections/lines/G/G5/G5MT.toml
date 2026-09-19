@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਜਿ ਬਾਜਿ ਰਥਾਦਿਕ ਪਾਂਤਿ ਗਣੰ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He hath Created elephants horses chariots etc  including footmen!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੇ) ਹਾਥੀ, ਘੋੜੇ, ਰਥ ਆਦਿ ਅਤੇ ਪੈਦਲਾਂ ਦੇ ਸਮੂਹ (ਪੈਦਾ ਕੀਤੇ ਹਨ)।"

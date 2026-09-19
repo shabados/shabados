@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋਰ ਭੇਦ ਇਨ ਸਕਲ ਨਿਹਾਰੇ ॥"
 page = 855
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing this she was perturbed that he knew all her secret."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਇਸ ਨੇ ਮੇਰਾ ਸਾਰਾ ਭੇਦ ਪਾ ਲਿਆ ਹੈ।"

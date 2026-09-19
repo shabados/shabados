@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਠੇ ਜਾਨਕੀ ਭੇਟ ਦੈ ਦੈ ਦੁਰੰਤੰ ॥"
 page = 272
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the ornaments shining like sun are being sent to Sita"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੀਤਾ ਨੂੰ ਭੇਟਾ ਦੇਣ ਲਈ ਭੇਜੇ,"

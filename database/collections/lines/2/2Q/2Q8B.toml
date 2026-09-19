@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਹੂੰ ਤ੍ਰਿਯਨ ਪਕਵਾਨ ਪਕਾਯੋ ॥"
 page = 884
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the Shah was to arrive back, both of them prepared dainty foods."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋਹਾਂ ਇਸਤਰੀਆਂ ਨੇ ਪਕਵਾਨ ਪਕਾਏ।"

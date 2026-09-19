@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਗਾਦਿ ਹੈਂ ॥੧੩੪॥"
 page = 7
 line = 18
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art from the beginning of ages. 134."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਯੁਗਾਂ ਦੇ ਆਰੰਭ ਤੋਂ ਪਹਿਲਾਂ ਦਾ ਹੈਂ ॥੧੩੪॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਜੁਗਾਦਿ ਹੈਂ ॥੧੩੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਜੁ ਆਲੈ ਤੈ ਨਿਕਸਨਿ ਕਰੇ ॥"
 page = 956
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She wore the same ornaments, by taking them out ofthe alcove."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਘਰ ਵਿਚੋਂ ਨਿਕਲ ਪਈ।"

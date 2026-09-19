@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਤ੍ਰਯਾਦਿਤ ਜੂ, ਜਾਨ ਕੋ ਮਾਨ ਮੋਹੈਂ ॥"
 page = 978
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਦਿਤੀ ਅਤੇ ਅਦਿਤੀ ਦੇ ਮਨ ਨੂੰ ਮੋਹ ਰਹੇ ਹੋਣ।"

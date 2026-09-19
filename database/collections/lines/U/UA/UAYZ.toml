@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤਿ ਪੰਚਮੋ ਰਾਜ ਸਮਾਪਤਮ ਸਤੁ ਸੁਭਮ ਸਤੁ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Here ends the Description of the Benign Rule of the Fifth King."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਥੇ ਪੰਜਵੇਂ ਰਾਜ ਦੀ ਸ਼ੁਭ ਸਮਾਪਤੀ ਹੋਈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇ ਜਾਨਿ ਹੈ ਅਨਭੇਵ ॥੧੩॥"
 page = 612
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who will believe in the one Guru-Lord, they will only comprehend His myself.13."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹੀ (ਉਸ) ਭੇਦ ਰਹਿਤ (ਪ੍ਰਭੂ) ਨੂੰ ਪਛਾਣ ਸਕਦੇ ਹਨ ॥੧੩॥"

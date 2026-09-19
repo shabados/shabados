@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨ ਆਸ ਗਾਤ ਹਰਿ ਕੋ ਅਧੀਨ ॥"
 page = 640
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was extremely learned, expert in actions, beyond the desires and obedient to the Lord"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ ਦੀ ਆਸ ਤੋਂ ਰਹਿਤ ਅਤੇ ਹਰਿ ਦੇ ਅਧੀਨ ਹੈ।"

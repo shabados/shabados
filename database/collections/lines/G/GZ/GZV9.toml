@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤੁਝ ਬਿਨੁ ਦੂਸਰਿ; ਅਵਰ ਨ ਕੋਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "None other than You is our protector."

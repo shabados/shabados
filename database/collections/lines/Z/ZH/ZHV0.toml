@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮ ਬਾਚ ਮਦੋਦਰੀ ਪ੍ਰਤਿ ॥"
 page = 267
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The speech of Ram addressed to Mandodari :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮ ਨੇ ਮੰਦੋਦਰੀ ਨੂੰ ਕਿਹਾ-"

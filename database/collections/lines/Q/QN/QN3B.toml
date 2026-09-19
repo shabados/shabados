@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਜ︀ਯੋਂ ਮਛ ਪਾਨੀ ॥"
 page = 702
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors were pleased in the war like the fish in water"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਉਂ ਮੱਛੀ ਪਾਣੀ (ਨੂੰ ਮੰਨਦੀ ਹੈ)।"

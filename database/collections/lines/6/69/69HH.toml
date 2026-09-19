@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਤਿਨੈ ਤਕਿ ਤਿਹ ਬਾਨ ਲਗਾਯੋ ॥"
 page = 450
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਰਾਜੇ ਨੇ ਤਕ ਕੇ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਬਾਣ ਮਾਰਿਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਪਤ ਸਕਲ ਦਿਜ ਕੀਏ ਰਿਝਾਏ ॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who satisfied all the incoming Brahmin."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਨੌਢੀਏ) ਬ੍ਰਾਹਮਣ ਨੇ ਸਾਰਿਆਂ ਨੂੰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਰਜਾ ਕੇ ਤ੍ਰਿਪਤ ਕੀਤਾ।"

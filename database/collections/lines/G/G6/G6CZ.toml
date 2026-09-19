@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂੰਮਿ ਅਕਾਸ ਸਬਦ ਸੁਨਿ ਲਰਜਾ ॥੨੮੭॥"
 page = 1379
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦੀ) ਧੁਨੀ ਨੂੰ ਸੁਣ ਕੇ ਭੂਮੀ ਅਤੇ ਆਕਾਸ਼ ਕੰਬਣ ਲਗ ਗਏ ॥੨੮੭॥"

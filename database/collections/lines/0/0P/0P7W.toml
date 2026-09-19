@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੁਤੁ; ਅਪਰਾਧ ਕਰਤ ਹੈ ਜੇਤੇ ॥"
 page = 478
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "As many as faults the son commits,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿੰਨੇ ਕਸੂਰ ਪੁੱਤਰ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "As many mistakes as the son commits,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਤ੍ਰ ਜਿਤਨੇ ਔਗੁਨ ਕਰਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪੁੱਤਰ ਭਾਵੇਂ ਕਿਤਨੀਆਂ ਹੀ ਗ਼ਲਤੀਆਂ ਕਰੇ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੁਤੁ = ਪੁੱਤਰ। ਅਪਰਾਧ = ਭੁੱਲਾਂ, ਗ਼ਲਤੀਆਂ। ਜੇਤੇ = ਜਿਤਨੇ ਭੀ, ਭਾਵੇਂ ਕਿਤਨੇ ਹੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El hijo comete error tras error,"

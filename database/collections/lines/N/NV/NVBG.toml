@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਜਣ ਮੇਲੁ ਸੁ ਢੰਗ, ਚੋਜ ਵਿਡਾਣਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Meeting with such persons is wonderfully delightful."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੱਜਣਾਂ ਦਾ ਮੇਲ ਸੁੰਦਰ ਢੰਗ ਵਾਲਾ ਹੈ ਇਹ ਵੱਡਾ ਅਚਰਜ ਕੌਤਕ ਹੈ;"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਚੰਡ ਮੁੰਡ ਜੁਧ ਕਥਨੰ ॥"
 page = 105
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now the battle with Chand and Mund is described:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਚੰਡ ਅਤੇ ਮੁੰਡ ਦੇ ਯੁੱਧ ਦਾ ਕਥਨ"

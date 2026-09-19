@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਤ ਪਿਤਾ ਨਹਿ ਭੇਦ ਬਿਚਰਾ ॥"
 page = 1265
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਤਾ ਪਿਤਾ ਨੇ ਵੀ ਭੇਦ ਨਾ ਸਮਝਿਆ।"

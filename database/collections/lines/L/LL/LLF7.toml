@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਵਿ ਨਿਹਾਰਿ ਜ︀ਯੋਂ ਤਮ ਨ ਰਹਾਈ ॥੧੩੩੭॥"
 page = 430
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many of other enemies ran away like the darkness on seeing the sun.1337."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਸੂਰਜ ਨੂੰ ਵੇਖ ਕੇ ਹਨੇਰਾ ਨਹੀਂ ਰਹਿ ਸਕਦਾ ॥੧੩੩੭॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਵ ਪ੍ਰਸਾਦਿ ॥ ਕਬਿਤ ॥"
 page = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "BY THY GRACE KABITT"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਕ੍ਰਿਪਾ ਨਾਲ: ਕਬਿਤ:"

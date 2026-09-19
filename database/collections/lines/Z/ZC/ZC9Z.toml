@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਪਿ ਕੀਨੋ; ਆਪਨ ਬਿਸਥਾਰੁ ॥"
 page = 279
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "His expanse, He has Himself made."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣਾ ਪਸਾਰਾ ਉਸ ਨੇ ਆਪੇ ਹੀ ਕੀਤਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He Himself created His own expanse."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਅਪਨਾ ਬਿਸਥਾਰ ਤਿਸ ਨੇ ਆਪ ਹੀ ਕੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣਾ ਖਿਲਾਰਾ ਉਸ ਨੇ ਆਪ ਹੀ ਬਣਾਇਆ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਸਥਾਰੁ = ਖਿਲਾਰਾ। ਆਪਨ = ਆਪਣਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sólo Él está en todo,"

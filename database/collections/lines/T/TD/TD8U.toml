@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕੌ ਨਿਰਖਿ ਇੰਦ੍ਰ ਪੁਰ ਲਾਜੈ ॥"
 page = 1354
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ (ਦੀ ਸੁੰਦਰਤਾ ਨੂੰ ਵੇਖ ਕੇ) ਇੰਦਰ ਪੁਰੀ ਵੀ ਲਜਾਉਂਦੀ ਸੀ।"

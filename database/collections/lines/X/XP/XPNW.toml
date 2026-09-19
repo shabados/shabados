@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੰਚਨ ਕੋ ਸਭ ਕੋਟ ਗਿਰਾਯੋ ॥"
 page = 1093
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੋਨੇ ਦਾ ਸਾਰਾ ਕਿਲ੍ਹਾ ਢਵਾ ਕੇ"

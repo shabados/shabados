@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਕੋਕਸਾਰੰ ਪੜੈ ਨੀਤ ਧਰਮੰ ॥"
 page = 151
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere Koksar and somewhere Dharam-Niti was being read"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਕਿਤੇ ਕੋਕਸਾਰ ਨੂੰ, (ਕਿਤੇ) ਧਰਮ-ਨੀਤੀ ਨੂੰ ਪੜ੍ਹਦੇ ਸਨ।"

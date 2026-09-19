@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਜ਼ਰ ਕੁਨ ਬਰੋਏ ਤੁ ਏ ਦਿਲਰੁਬਾਇ ॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Oh, my cherished one, look at those faces,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਨੇ ਕਿਹਾ) ਹੇ ਮਨ ਨੂੰ ਮੋਹਣ ਵਾਲੀ ਬੇਟੀ!"

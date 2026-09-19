@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਮਤ ਕੇਤੁ ਸੂਰਾ ਬਡੋ; ਸਮਰ ਸਿੰਘ ਲੈ ਸੰਗ ॥"
 page = 873
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁਮਤ ਕੇਤੁ ਇਕ ਵੱਡਾ ਸੂਰਮਾ ਸੀ। ਉਸ ਨੇ ਸਮਰ ਸਿੰਘ ਨੂੰ ਨਾਲ ਲੈ ਕੇ"

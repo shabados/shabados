@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਧੇ ਛਾਡਿ ਬਾਨਾ ਕਢੀ ਬਾਢਵਾਰੀ ॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The great rulers pray to you and, with the swords and arrows, Annihilate the armies."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਣਾਂ ਨੂੰ ਛਡ ਕੇ ਅਤੇ ਤਲਵਾਰ ਨੂੰ ਕੱਢ ਕੇ (ਤੂੰ ਸੈਨਾਵਾਂ ਦਾ) ਬਧ ਕਰਦੀ ਹੈਂ।"

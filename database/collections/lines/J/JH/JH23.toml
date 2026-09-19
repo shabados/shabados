@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵੁਹ ਨਿਤ ਲਖੇ ਪੂਤ ਬਢਿ ਜਾਵਤ ॥"
 page = 905
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਤਾ ਨਿੱਤ ਸਮਝਦੀ ਹੈ ਕਿ (ਮੇਰਾ) ਪੁੱਤਰ ਵੱਡਾ ਹੋ ਰਿਹਾ ਹੈ,"

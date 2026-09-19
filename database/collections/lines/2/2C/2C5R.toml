@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਯਮ ਦੇਵ ਆਮਦ ਬਗਲ ਤੀਦ ਖ਼ੂੰ ॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Another devil-like, drenched in blood, appeared,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੀਜਾ ਸੂਰਮਾ ਲਹੂ ਨਾਲ ਲਿਬੜਿਆ ਹੋਇਆ ਆਇਆ"

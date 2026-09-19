@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਸਿਖੁ, ਦੂਜੇ ਭਾਵਹੁ ਸੰਗੈ ॥੨॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The Sikh of the Guru is ever shy of the sense of duality."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਦਾ ਸਿਖ ਦੂਜੇ ਭਾਵ ਤੋਂ ਸੰਗਦਾ ਹੈ (ਭਾਵ ਅਨਿੰਨ ਸਿਖ ਹੁੰਦਾ ਹੈ)"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨ ਰੇ; ਗੁਰ ਕੀ ਕਾਰ ਕਮਾਇ ॥"
 page = 66
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O My Soul! do thou perform Guru's service."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੈ ਮੇਰੀ ਜਿੰਦੜੀਏ! ਤੂੰ ਗੁਰਾਂ ਦੀ ਟਹਿਲ ਸੇਵਾ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O mind, work to serve the Guru."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਤੂੰ  ਗੁਰੋਂ ਕੀ ਸੇਵਾ ਕਰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਗੁਰੂ ਦੀ ਦੱਸੀ ਕਾਰ ਕਰ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਮਾਇ = ਕਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mi mente, sigue el Sendero del Guru,"

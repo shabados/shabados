@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖਤ ਮੂਰਤਿ ਕਾਨ੍ਰਹ ਕੀ ਗੋਪਿਨ; ਭੂਲਿ ਗਈ ਗ੍ਰਿਹ ਕੀ ਸੁਧ ਸਾਤੋ ॥"
 page = 339
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing his beauty the gopis lost all other consciousness"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਨ੍ਹ ਦਾ ਰੂਪ ਵੇਖ ਕੇ ਗੋਪੀਆਂ ਨੂੰ ਘਰ ਦੀਆਂ ਸੱਤੇ ਸੁਧਾਂ ਭੁਲ ਗਈਆਂ ਹਨ।"

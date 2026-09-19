@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇਲੰਗਾ ਜਹ ਦੇਸ ਅਪਾਰਾ ॥"
 page = 1206
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਲੰਗਾ ਨਾਂ ਦਾ ਜੋ ਵੱਡਾ ਦੇਸ਼ ਸੀ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿ ਬਸਤਹ ਬਿਯਾਵੁਰਦ ਨਿਜ਼ਦੇ ਸ਼ੁਮਾ ॥੧੭੨॥"
 page = 1424
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Whom I have brought to you tied up.(172)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੁਹਾਡੇ ਕੋਲ ਲਿਆਈ ਹਾਂ ॥੧੭੨॥"

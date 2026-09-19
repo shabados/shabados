@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਤੇ ਤੁਮ ਸੇ ਨ੍ਰਿਪ ਕੋ ਪਾਊ ॥"
 page = 965
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Now I will show you a miracle, through which I could be a sovereign like you."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕਰ ਕੇ ਤੁਹਾਡੇ ਵਰਗੇ ਰਾਜੇ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰ ਸਕਾਂ।"

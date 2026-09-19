@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤ੍ਰਿਸਨਾ ਜਲਣਿ ਬੁਝਾਈਆਂ; ਸਾਂਤਿ ਸਹਜ ਸੰਤੋਖੁ ਦਿੜਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "This fruit has quenched all desires and fires and has further firmed up the feeling of peace, equipoise and contentment."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਤ੍ਰਿਸ਼ਨਾ ਦੀ ਜਲਨ ਬੁਝਾ ਦਿੱਤੀ ਹੈ, ਸ਼ਾਂਤਿ, ਸੰਤੋਖ ਅਰ ਗਿਆਨ ਨੂੰ ਦ੍ਰਿੜ ਕੀਤਾ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਸੁਨੀਲਹਿ ॥੧੯॥੬੬॥"
 page = 133
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Lord reckons everything Himself.19.66."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਦਰ ਰੰਗ ਵਾਲਾ ਹੈ ॥੧੯॥੬੬॥"

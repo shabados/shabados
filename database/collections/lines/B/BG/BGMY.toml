@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹ ਜਬ ਬਾਤ ਬੇਸੁਵਨ ਜਾਨੀ ॥"
 page = 987
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After drinking excessively they were fully intoxicated, and when she learned this,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਵੇਸਵਾ ਨੂੰ ਇਹ ਗੱਲ ਯਕੀਨੀ ਹੋ ਗਈ।"

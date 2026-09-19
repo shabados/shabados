@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹਰਿ ਸਿੱਧ ਸਾਧ ਠਹਿਰਾਏ ॥"
 page = 56
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਹਰਿ ਨੇ ਸਿੱਧ ਅਤੇ ਸਾਧ ਪੈਦਾ ਕੀਤੇ"

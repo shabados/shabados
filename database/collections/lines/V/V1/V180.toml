@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਜ ਦੇਵ ਤਬੈ ਗੁਰ ਚਉਬਿਸ ਕੈ ਕੈ ॥"
 page = 674
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ (ਉਹ) ਬ੍ਰਾਹਮਣ ਦੇਵਤਾ (ਦੱਤ) ਚੌਬੀਸ ਗੁਰੂ ਕਰ ਕੇ"

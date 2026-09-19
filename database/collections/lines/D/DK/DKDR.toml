@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰਾ ਕਮਾਲ ਕਮਾਲਾਂ ਦਾ ਕਮਾਲ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਐ ਕਮਾਲਿ ਤੋ ਕਮਾਲਸਤੋ ਕਮਾਲਸਤੋ ਕਮਾਲ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Will have his deserted house, with the achievement of the Truth, rehabilitated and revived again. (204)"

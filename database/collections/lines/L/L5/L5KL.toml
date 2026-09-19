@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਅੰਤ ਭਰਮ ਭੇਵ ਹੈ ॥"
 page = 128
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is endless and Indiscriminate from illusion."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੇਅੰਤ ਅਤੇ ਭਰਮਾਂ ਤੋਂ ਭਿੰਨ ਹੈ;"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਡੋ ਸੁ ਜਸੁ ਜਗ ਭੀਤਰ ਲੈ ਹੋ ॥੨੪੭੦॥"
 page = 549
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the boys came near Krishna, Vishnu said, “Go and return these boys and earn the praise in the world.”2470."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਗਤ ਵਿਚ ਬਹੁਤ ਯਸ਼ ਖਟੋ ॥੨੪੭੦॥"

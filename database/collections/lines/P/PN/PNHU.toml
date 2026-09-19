@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਿ ਭੂਪ ਹਲਾਯੁਧ ਕੀ ਬਤੀਯਾ; ਅਪੁਨੇ ਮਨ ਮੈ ਅਤਿ ਹੀ ਡਰੁ ਮਾਨਿਯੋ ॥"
 page = 485
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing the words of Balram, Jarasandh became extremely fearful"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਲਰਾਮ ਦੀਆਂ ਗੱਲਾਂ ਸੁਣ ਕੇ ਰਾਜੇ (ਜਰਾਸੰਧ) ਨੇ ਆਪਣੇ ਮਨ ਵਿਚ ਬਹੁਤ ਡਰ ਮੰਨਿਆ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰ︀ਯੋ ਬ︀ਯਾਹ ਰਾਜਾ ਭਇਓ ਸੁ ਪ੍ਰਸੰਨੰ ॥"
 page = 143
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On his marriage, the king became very happy."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ (ਕਾਸ਼ੀ ਰਾਜ ਦੀਆਂ ਕੁਮਾਰੀਆਂ ਨਾਲ) ਵਿਆਹ ਕਰਕੇ ਬਹੁਤ ਪ੍ਰਸੰਨ ਹੋਇਆ"

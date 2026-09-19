@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਪਾਪਿਸਟ ਅਜਾਨ ॥"
 page = 564
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਹੀ ਵੱਡੇ ਪਾਪੀ ਅਤੇ ਮੂਰਖ ਹਨ"

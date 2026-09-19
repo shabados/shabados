@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੈਸੇ ਰਾਜ ਹਮਾਰੋ ਸਰੈ ॥੩॥"
 page = 850
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She always pondered over, how their rule could remain dynamic for ever,(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਕਿਵੇਂ ਸਾਡਾ ਰਾਜ ਸੰਵਰ ਜਾਏ (ਅਰਥਾਤ ਉੱਨਤੀ ਕਰੇ) ॥੩॥"

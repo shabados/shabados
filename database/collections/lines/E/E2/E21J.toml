@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਯਾਧ ਬਧਯੋ ਖਰੰਦੂਖਣੰ ਖੇਤ ਥੈ ਏਕ ਹੀ ਬਾਣ ਸੋਂ ਬਾਲ ਮਾਰੇ ॥"
 page = 239
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And also killed Viradh and Khar-Dushan, and killed Bali with one arrow"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਨੇ) ਬਿਰਾਧ ਨੂੰ ਮਾਰਿਆ, 'ਖਰ' ਤੇ ਦੂਖਣ' ਖੇਤ ਰੱਖਿਆ ਅਤੇ ਇਕੋ ਹੀ ਤੀਰ ਨਾਲ ਬਾਲੀ ਨੂੰ ਮਾਰ ਦਿੱਤਾ।"

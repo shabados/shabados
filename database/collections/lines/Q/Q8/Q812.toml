@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿੱਹ ਆਵਤ ਸਭ ਲੋਕ ਡਰਾਨੇ ॥"
 page = 71
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਆਣ ਨਾਲ ਸਭ ਲੋਕ ਭੈਭੀਤ ਹੋ ਗਏ।"

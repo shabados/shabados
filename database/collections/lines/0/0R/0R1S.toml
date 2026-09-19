@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਘਵਾਤਕ ਅਰਿ ਆਦਿ; ਸਬਦ ਕੋ ਭਾਖੀਐ ॥"
 page = 807
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਮਘਵਾਂਤਕ (ਦੈਂਤ) ਅਰਿ' ਸ਼ਬਦ ਦਾ ਕਥਨ ਕਰੋ।"

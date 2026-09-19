@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੁਨਦ ਤੀਰ ਬਾਰਾਨ ਰੋਜ਼ੇ ਤਮਾਮ ॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All day the arrows were showered,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਾ ਦਿਨ ਤੀਰਾਂ ਦੀ ਬਰਖਾ ਹੁੰਦੀ ਰਹੀ,"

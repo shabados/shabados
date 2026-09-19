@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਦ੍ਰਭਗਾ ਤਾ ਕੋ ਜਗ ਕਹੈ ॥"
 page = 896
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the country of the Raja, a rivulet flowed which was known as Chandra Bhagga."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਸਾਰੇ ਚੰਦ੍ਰਭਗਾ (ਚਨਾਬ) ਕਹਿੰਦੇ ਸਨ।"

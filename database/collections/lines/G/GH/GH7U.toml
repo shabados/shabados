@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਾਤ ਗਰਭ ਮਹਿ; ਤੁਮ ਹੀ ਪਾਲਾ ॥"
 page = 132
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "In mother's womb Thou cherisheth the child."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮਾਂ ਦੇ ਪੇਟ ਅੰਦਰ ਤੂੰ ਹੀ ਬੱਚੇ ਨੂੰ ਪਾਲਦਾ-ਪੋਸਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "In the womb of the mother, You cherish and nurture the baby."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮਾਤਾ ਕੇ ਗਰਭ ਮੇਂ ਭੀ ਤੂੰ ਹੀ ਪਾਲਨਾ ਕਰਤਾ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮਾਂ ਦੇ ਪੇਟ ਵਿਚ ਤੂੰ ਹੀ (ਜੀਵਾਂ ਦੀ) ਪਾਲਣਾ ਕਰਦਾ ਹੈਂ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗਰਭ ਮਹਿ = ਪੇਟ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "eres también Quien me alimentó en el vientre de mi madre,"

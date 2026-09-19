@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮੁਹਿ ਸਾਰ ਜੁੱਝੇ ॥"
 page = 69
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors are busy in wreaking vengeance, they become martyrs facing the sword."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਸਤ੍ਰਾਂ ਦੇ ਸਨਮੁਖ ਹੋ ਕੇ ਜੂਝਣ ਲਗੇ।"

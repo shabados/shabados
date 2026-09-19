@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਏ ਸੈਣਪਾਲੰ ਬਲੀ ਸੂਲ ਸਲ੍ਰਯੰ ॥"
 page = 146
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the brave warrior Salaya became the general of Kauravas."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਤੋਂ ਬਾਦ ਕੌਰਵਾਂ ਦਾ ਚੌਥਾ) ਸੈਨਾ ਨਾਇਕ (ਵੈਰੀਆਂ ਨੂੰ) ਸੂਲ ਵਾਂਗ ਚੁਭਣ ਵਾਲਾ ਬਲਵਾਨ ਸ਼ਲ੍ਯ ਹੋਇਆ।"

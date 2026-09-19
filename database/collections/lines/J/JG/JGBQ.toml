@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਸਾ ਢਾਰ ਧਰੈ ਕਸ ਦਾਵਾ ॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They thought, how the dice be cast and the rouse be played?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ ਵਿਚਾਰਨ ਲਗੇ) ਕਿ ਕਿਹੋ ਜਿਹਾ ਪਾਸਾ ਸੁਟ ਕੇ ਦਾਉ ਲਗਾਇਆ ਜਾਏ।"

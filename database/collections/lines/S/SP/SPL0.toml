@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਦੈਵ ਪੁਰਖ ਪਰਧਾਨ ਹੈ ॥੬॥੧੪॥"
 page = 128
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is always the Supreme Purusha. 6. 14."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਸਦਾ ਪ੍ਰਧਾਨ ਪੁਰਖ ਹੈਂ ॥੬॥੧੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਖੀ ਸਹਸ ਠਾਢੀ ਜਹਾ; ਸੁੰਦਰਿ ਪਰੀ ਸਮਾਨ ॥੨੧॥"
 page = 813
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Fairylike beauties were awaiting.(2l)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਹਜ਼ਾਰ ਸਖੀਆਂ ਨਾਲ ਪਰੀ ਵਰਗੀ ਸੁੰਦਰੀ ਖੜੋਤੀ ਸੀ ॥੨੧॥"

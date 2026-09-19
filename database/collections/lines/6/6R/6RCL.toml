@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਭੂਪ ਦਸ ਕੋਪ ਕੈ; ਧਾਏ ਸੰਗ ਲੈ ਬੀਰ ॥"
 page = 431
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Other ten kings, in great fury, marched forward alongwith their warriors"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਰ ਦਸ ਰਾਜੇ ਕ੍ਰੋਧਵਾਨ ਹੋ ਕੇ (ਆਪਣੇ ਨਾਲ) ਸੂਰਮੇ ਲੈ ਕੇ ਹਮਲਾਵਰ ਹੋਏ ਹਨ"

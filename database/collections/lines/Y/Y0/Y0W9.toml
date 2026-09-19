@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਪੰ ਨਾਸ ਹੇਤੰ ਦੀਯੋ ਰਾਮ ਅਪੰ ॥"
 page = 274
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਰਾਮ ਨੇ ਖੁਦ ਵੈਰੀ ਨੂੰ ਮਾਰਨ ਵਾਸਤੇ ਦਿੱਤਾ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਬਿਰਧ ਕੁਰੂਪ ਨਿਧਨ ਜੜ ਪੈ; ਕਿਯੋ ਜਾਇ ਹੈ ॥੧੫॥"
 page = 816
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A simpleton, poor and unwise old man,(15)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ ਇਸਤਰੀ) ਬਿਰਧ, ਕੁਰੂਪ, ਨਿਰਧਨ ਅਤੇ ਮੂਰਖ (ਪੁਰਸ਼) ਕੋਲ ਕਿਉਂ ਜਾਏਗੀ ॥੧੫॥"

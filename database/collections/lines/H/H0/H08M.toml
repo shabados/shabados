@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੋਦਾਨ ਆਦਿ ਬਿਧਵਤ ਸਨਾਨ ॥੧੫॥"
 page = 615
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He bestowed different typed of charities of gold and cows and took bath at various pilgrim-satations.15."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵਿਧੀਪੂਰਵਕ ਇਸ਼ਨਾਨ ਕਰ ਕੇ ਗੋਦਾਨ ਕੀਤੇ ॥੧੫॥"

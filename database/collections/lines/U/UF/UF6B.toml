@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਭੂਮਿ ਬੰਸ ਤੇ ਗਈ ॥੧॥"
 page = 54
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In due course of time it actually happened that the Bedi caln lost its kingdom.1."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਉਹ ਭੂਮੀ (ਬੇਦੀ) ਬੰਸ ਤੋਂ ਖੁਸ ਗਈ ॥੧॥"

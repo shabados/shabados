@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠਿ ਉਠਿ ਪਾਪ ਕਰਮ ਸੌ ਲਾਗਤ ॥"
 page = 559
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Here and there, forsaking the religious injunction, people will run away, they will be absorbed in sinful acts"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਠ ਉਠ ਕੇ ਪਾਪ ਕਰਮਾਂ ਵਿਚ ਲਗ ਜਾਣਗੇ।"

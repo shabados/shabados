@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਪੂਰੇ ਅਤੇ ਕਾਮਿਲ ਸਤਿਗੁਰੂ ਦਾ ਸ਼ਬਦ ਸਾਡੇ ਲਈ ਅੰਮ੍ਰਿਤ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਆਬਿ ਹਯਾੱਤਿ ਮਾ ਸਖ਼ੁਨਿ ਪੀਰਿ ਕਾਮਿਲ ਅਸਤ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "They, the noble souls, are always euphoric while in His meditation day and night,"

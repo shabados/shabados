@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਊਰਵ ਜੀਤਿ ਗਾਵ ਸਬ ਆਨੀ ॥"
 page = 551
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੌਰਵਾਂ ਨੂੰ ਜਿਤ ਕੇ (ਉਨ੍ਹਾਂ ਤੋਂ) ਸਾਰੀਆਂ ਬਸਤੀਆਂ ਖੋਹ ਲਈਆਂ,"

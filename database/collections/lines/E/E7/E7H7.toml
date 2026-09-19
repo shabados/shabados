@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਧਰਮ ਚਲੇ ਤਬ ਜੀਉ ਬਢੇ ॥"
 page = 178
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਧਰਮ ਚਲ ਪਿਆ ਤਾਂ ਜੀਵਾਂ ਵਿਚ ਵਾਧਾ ਹੋ ਗਿਆ"

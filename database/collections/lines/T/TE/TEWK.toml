@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭ੍ਰਮੰਤ ਅਧ ਬਧਤੰ ਕਮਧ ਬਧਤੰ ਕਟੰ ॥"
 page = 672
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲਕਾਂ ਨੂੰ ਬੰਨ੍ਹੇ ਹੋਏ ਧੜ ਅੱਧੇ ਪਚੱਧੇ ਕਟੇ ਹੋਏ ਫਿਰ ਰਹੇ ਸਨ।"

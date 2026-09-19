@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਯਹ ਬਾਰਹ ਸਦੀ ਨਿਬੇੜ ਕਰਿ; ਗੁਰ ਫਤੇ ਬੁਲਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Eradicating the influence of twelve centuries, the Guru's slogan ravelled,"

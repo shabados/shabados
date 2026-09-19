@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰਿ ਬਿਦਾਰ ਦਈ ਸਭ ਸੈਣ; ਸੁ ਚੰਡਿਕਾ ਚੰਡ ਸੋ ਆਹਵ ਕੀਨੋ ॥"
 page = 86
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She killed and destroyed all the forces of the enemy confronting Chand in the war.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਚੰਡ (ਦੈਂਤ) ਨਾਲ ਯੁੱਧ ਕਰ ਕੇ (ਉਸ ਦੀ) ਸਾਰੀ ਸੈਨਾ ਨੂੰ ਮਾਰ ਕੇ ਨਸ਼ਟ ਕਰ ਦਿੱਤਾ।"

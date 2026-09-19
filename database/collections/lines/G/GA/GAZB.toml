@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਦਿਨ ਤੇ ਤਿਹ ਨਾਰਿ ਸੌ ਰਮ︀ਯੋ ਨ ਰੁਚਿ ਉਪਜਾਇ ॥੩੮॥"
 page = 853
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And from that day onward he never made love to her.(38)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਿਨ ਤੋਂ ਉਸ ਇਸਤਰੀ ਨਾਲ ਰਾਜੇ ਨੇ ਰੁਚੀ ਪੂਰਵਕ ਭੋਗ ਨਾ ਕੀਤਾ ॥੩੮॥"

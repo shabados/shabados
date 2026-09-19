@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਈ ਸੈਣ ਬਧੰ ॥੩੦॥"
 page = 181
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And hath chopped their bodies into bits and killed the army.30."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਇਸ ਤਰ੍ਹਾਂ ਸਾਰੀ ਦੈਂਤ) ਸੈਨਾ ਮਾਰੀ ਗਈ ॥੩੦॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੜਕਾ ਕਰਮੁਕੰ ਉਧੰ ॥"
 page = 113
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਨੁਸਾਂ ('ਕਰਮੁਕੰ') ਦੀ ਕੜਾਕ-ਕੜਾਕ ਦੀ ਉੱਚੀ ਧੁਨੀ"

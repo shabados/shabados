@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰਫ਼ਤੰਦ ਓ ਰਾ ਬੁਬਸਤੰਦ ਸਖ਼ਤ ॥"
 page = 1407
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They (the people) got hold of the Raja and tied him,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੋਕਾਂ ਨੇ ਉਸ ਰਾਜੇ ਨੂੰ ਪਕੜ ਕੇ ਬੰਨ੍ਹ ਲਿਆ।"

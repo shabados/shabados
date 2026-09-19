@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਿਨ ਸਬਦ ਸੁਧਾਰ; ਗਰੰਥ ਬਣਾਇਓ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Who with the treasure of nectarous Word, compiled the Granth (the book of Holy Scriptures)."

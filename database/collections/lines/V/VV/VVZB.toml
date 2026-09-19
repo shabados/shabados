@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀਤਾ ਬਾਚ ਪੁਤ੍ਰਨ ਸੋ ॥"
 page = 285
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The description of the Revival of all by Sita :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਾਰੀ ਵਾਰਤਾ) ਸੁਣ ਕੇ ਮੁਨੀ ਰਾਜ (ਬਾਲਮੀਕ) ਵੀ ਬਹੁਤ ਰੋਏ।"

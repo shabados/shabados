@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਤੁਰ ਪੁਰਖੁ ਆਗੇ ਹੁਤੋ; ਸਕਲ ਭੇਦ ਗਯੋ ਪਾਇ ॥੬੧॥"
 page = 907
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, being a clever man, comprehended all the secret.(61)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਹ ਬੰਦਾ ਅਗੇ ਹੀ ਸਿਆਣਾ ਸੀ, ਸਾਰਾ ਭੇਦ ਸਮਝ ਗਿਆ ॥੬੧॥"

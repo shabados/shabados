@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਕ੍ਰਮ ਬਚ ਕਰਿ ਮੰਤ੍ਰਿ ਬਰਿ; ਇਹੈ ਬਚਨ ਮੁਰ ਤੋਹਿ ॥"
 page = 847
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Concentrating on your mind, body and soul, Oh My Minister, I request you,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ, ਬਚਨ ਅਤੇ ਕਰਮ ਕਰ ਕੇ ਚੰਗੇ ਵਜ਼ੀਰ! ਮੇਰੀ ਤੈਨੂੰ ਇਹੀ ਬੇਨਤੀ ਹੈ"

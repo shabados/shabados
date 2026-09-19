@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਕੁਰਬਾ ਸ਼ਵਦ ਹਰਕਸੇ ਨਾਜ਼ਦਾ ॥੪॥"
 page = 1406
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her coquetry had made the lives of all the people unendurable.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਾਵ-ਭਾਵ ਨੂੰ ਸਮਝਣ ਵਾਲਾ ਹਰ ਵਿਅਕਤੀ ਉਸ ਤੋਂ ਕੁਰਬਾਨ ਜਾਂਦਾ ਸੀ ॥੪॥"

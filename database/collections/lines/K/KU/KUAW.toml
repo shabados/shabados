@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਊ ਸਨਮੁਖ ਹੋਤ ਨ ਪਏ ॥"
 page = 444
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then all the enemies ran away and none of them stayed before him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕੋਈ ਵੀ ਸਾਹਮਣੇ ਨਹੀਂ ਆਇਆ।"

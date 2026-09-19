@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਅਲਖੁ ਲਖਾਇ, ਚੋਜ ਵਿਡਾਣਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Gurmukhs perceive His wondrous sport."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਐਉਂ ਗੁਰਮੁਖ ਪਰਮਾਤਮਾਂ ਨੂੰ ਲਖ ਲੈਂਦੇ ਹਨ; (ਇਹ) ਵੱਡਾ ਅਸਚਰਜ ਕੌਤਕ ਹੈ (ਕਿ ਫਿਰ ਬੀ)"

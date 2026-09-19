@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮੀ ਡਹ ਡਹ ਕੈ ਡਵਰ ਕੋ ਬਜਾਯੋ ॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You beat the drum of invasion and,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਡਹਿ-ਡਹਿ ਕਰ ਕੇ ਡੋਰੂ ਨੂੰ ਵਜਾਇਆ ਹੈ।"

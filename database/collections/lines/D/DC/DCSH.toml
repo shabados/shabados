@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਚੀ ਪਾਰਬਤੀ ਹੋਇ ਨ ਤੈਸੀ ॥"
 page = 1280
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਸਚੀ ਅਤੇ ਪਾਰਬਤੀ ਵੀ ਉਸ ਵਰਗੀ (ਸੁੰਦਰਤਾ ਵਾਲੀ) ਨਹੀਂ ਸੀ।"

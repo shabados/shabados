@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਰੇਵਹ ਬਬਾਵੁਰਦ ਚੰਦੀ ਕਰੋਹ ॥"
 page = 1422
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The noises, which were overwhelming for many miles,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੁਝ ਕੋਹਾਂ ਤਕ ਰੌਲਾ ਸੁਣਾਈ ਦੇਣ ਲਗ ਗਿਆ।"

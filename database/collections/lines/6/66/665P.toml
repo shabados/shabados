@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੈਨਾ ਸਤਹੂੰ ਨ੍ਰਿਪਨ ਕੀ; ਕੋਪਿ ਭਰੀ ਅਰਰਾਇ ॥"
 page = 873
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੱਤਾਂ ਰਾਜਿਆਂ ਦੀ ਸੈਨਾ ਕ੍ਰੋਧ ਨਾਲ ਭਰ ਕੇ ਅਰੜਾ ਕੇ ਪੈ ਗਈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨ ਬਿਧਿ ਦੂਸਰ ਸ੍ਵਰਗ ਸੁ ਧਾਰੋ ॥੧॥"
 page = 945
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The town inhabited there seemed to be another heaven established by the Brahma, the Creator.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਵਿਧਾਤਾ ਨੇ ਦੂਜਾ ਸਵਰਗ ਬਣਾਇਆ ਹੋਵੇ ॥੧॥"

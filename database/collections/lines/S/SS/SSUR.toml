@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਚਾ ਬੇਪਰਵਾਹੁ; ਸਚਿ ਸਮਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Becoming carefree that true disciple merges himself in the truth."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੱਚਾ ਬੇਪਰਵਾਹ (ਹੋਕੇ) ਸੱਚ ਵਿਖੇ ਸਮਾ ਗਏ।"

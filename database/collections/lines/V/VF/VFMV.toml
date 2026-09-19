@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਯਾ ਪੈ ਅਟਕਤ ਭਈ; ਰਤਿ ਪਤਿ ਤਾਹਿ ਬਿਚਾਰ ॥੩॥"
 page = 927
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Considering him to be the Cupid, she wrapped herself around him.(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਇਸਤਰੀ) ਉਸ ਨੂੰ ਰਤੀ-ਪਤੀ ਵਿਚਾਰ ਕੇ ਉਸ ਵਿਚ ਮਗਨ ਹੋ ਗਈ ॥੩॥"

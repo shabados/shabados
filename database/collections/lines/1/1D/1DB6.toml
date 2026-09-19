@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਤ੍ਰਾਸ ਕੈ ਕੈ, ਮਹਾ ਸੈਨ ਭਾਜੀ ॥੫॥"
 page = 990
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਡਰ ਮੰਨ ਕੇ ਵੱਡੀ ਸੈਨਾ ਭਜ ਗਈ ਹੈ ॥੫॥"

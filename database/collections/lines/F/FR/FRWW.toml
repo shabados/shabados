@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਛਿਨ ਪੂਰਬ ਸਿਵਹਿ ਭ੍ਰਮਾਯੋ ॥"
 page = 1013
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing Shiva running away, the devils gave him a chase."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੱਖਣ ਤੇ ਪੂਰਬ ਵਲ ਸ਼ਿਵ ਨੂੰ ਭਜਾਇਆ।"

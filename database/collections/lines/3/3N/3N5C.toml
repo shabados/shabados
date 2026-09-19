@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਮਲਿਨੀ ਮ੍ਰਿਗੀ ਹੈ ॥੩੨੩॥"
 page = 661
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her eyes were like those of a doe or lotus.323."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਹਿਰਨੀ ਦੀਆਂ (ਅੱਖਾਂ ਦੇ ਮਾਣ ਨੂੰ) ਮਸਲਣ ਵਾਲੀ ਹੈ ॥੩੨੩॥"

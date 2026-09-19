@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੈ ਸਨਮਾਨ ਬਰਾਤ ਬੁਲਾਈ ॥੫॥"
 page = 1313
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਨਮਾਨ ਸਹਿਤ ਬਰਾਤ ਨੂੰ ਬੁਲਾਇਆ ॥੫॥"

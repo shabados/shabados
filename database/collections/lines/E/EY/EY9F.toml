@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਿਉ ਨੀਵਾਨਿ, ਨੀਰੁ ਚਲਿ ਜਾਈ ॥੪॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Just as the water flows down towards low"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਿੱਕੁਰ ਪਾਣੀ ਨਿਵਾਣ ਨੂੰ ਤੁਰਕੇ ਜਾਂਦਾ ਹੈ।"

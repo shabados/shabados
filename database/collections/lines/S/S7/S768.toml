@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਜੁੰਬਸ਼ ਦਰਾਮਦ ਚੁ ਅਫ਼ਰੀਤ ਮਸਤ ॥"
 page = 1401
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He came in like an inebriated giant,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜਾ ਗਜ ਸਿੰਘ) ਦੈਂਤ ਵਾਂਗ ਗੁੱਸੇ ਨਾਲ ਭਰਿਆ ਹੋਇਆ ਆਇਆ।"

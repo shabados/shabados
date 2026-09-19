@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਆਹਾ ਸੁਧਾਯੰ ਨਮੋ ਸੀਤਲੇਯੰ ॥੨੮॥੨੪੭॥"
 page = 119
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art pure fire-manifestation and also cold-incarnate, I salute Thee.28.247."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਵਾਹਾ (ਅਗਨੀਰੂ ਪਾ) ਸੁਧਾ (ਅੰਮ੍ਰਿਤ-ਰੂਪਾ) ਅਤੇ ਸੀਤਲਾ ਨੂੰ ਨਮਸਕਾਰ ਹੈ ॥੨੮॥੨੪੭॥"

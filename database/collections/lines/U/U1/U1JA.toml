@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਨ ਗੁਨ ਪ੍ਰਬੀਨ ॥"
 page = 621
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਨ ਦੌਲਤ ਅਤੇ (ਅਨੇਕ ਪ੍ਰਕਾਰ ਦੇ) ਗੁਣਾਂ ਵਿਚ ਪ੍ਰਬੀਨ ਸੀ,"

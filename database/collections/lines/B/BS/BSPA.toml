@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹਤ ਮਾਸੁ ਦਾਨਾ ਭਏ; ਅਸ੍ਵਨ ਦਯੋ ਖਵਾਇ ॥੧੨॥"
 page = 1126
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਾਕੀ ਬਚਿਆ ਮਾਸ ਦਾਣੇ ਵਿਚ ਪਾ ਕੇ ਘੋੜਿਆਂ ਨੂੰ ਖਵਾ ਦਿੱਤਾ ॥੧੨॥"

@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰੂ ਅਰਜਨ; ਪੰਚਮ ਠਹਿਰਾਇਓ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And confirmed fifth pontification upon Guru Arjan,"

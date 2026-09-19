@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹਾ ਕਮਛ੍ਰਯਾ ਕੋ ਭਵਨ; ਤਿਸੀ ਠੌਰ ਕੇ ਰਾਇ ॥"
 page = 1094
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਕਮਛ੍ਯਾ (ਦੇਵੀ) ਦਾ ਮੰਦਿਰ ਹੈ, ਉਥੋਂ ਦਾ ਹੀ ਉਹ ਰਾਜਾ ਹੈ।"

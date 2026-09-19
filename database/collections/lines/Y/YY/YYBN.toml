@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਰਾਤਿ ਸੁਖਾਲਾ ਕਿਉ ਸਵੈ; ਤਿਣੁ ਅੰਦਰਿ ਅਖੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "How could he sleep peacefully who has the grass blade in his eye."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਅੱਖ ਵਿਖੇ ਤੀਲਾ ਪੈ ਜਾਂਦਾ ਹੈ ਉਹ (ਦੱਸੋ।) ਰਾਤ ਨੂੰ ਕਿੱਕਰ ਸੌਖਾ ਸੋਂ ਸਕਦਾ ਹੈ?"

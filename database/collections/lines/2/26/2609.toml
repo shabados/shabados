@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੁਲੇ ਖੱਗ ਖੂਨੀ ਮਹਾਂ ਬੀਰ ਖੇਤੰ ॥"
 page = 53
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਿਆਂ ਨੇ ਖ਼ੂਨੀ ਤਲਵਾਰਾਂ ਮਿਆਨ ਵਿਚੋਂ ਕਢ ਲਈਆਂ ਹਨ।"

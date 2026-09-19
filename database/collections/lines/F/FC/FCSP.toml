@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਖੰਡ ਤਪੀ ਨਹੀ ਜੋਗ ਡੁਲੰ ॥"
 page = 663
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sage, seeing his stable mind, was wonder-struck"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਅਖੰਡ ਤਪਸਵੀ ਹੈ, (ਇਸ ਦਾ) ਯੋਗ ਅਡੋਲ ਹੈ।"

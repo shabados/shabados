@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਤ ਦਿਨਨ ਕੋ ਬੈਰ; ਗਯੋ ਪੂਤੈ ਬਹੁਰਾਵਹਿ ॥"
 page = 906
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The age-old enmities are eliminated by dint of the sons."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਦਿਨਾਂ ਦਾ (ਪੁਰਾਣਾ) ਵੈਰ ਪੁੱਤਰ ਹੀ ਚੁਕਾਉਂਦੇ ਹਨ।"

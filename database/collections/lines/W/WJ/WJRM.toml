@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਛਿਮ ਕੁਮਾਰਿ ਐਸੋ ਕਹਿਯੋ; ਸੁਨਹੁ ਬਿਸਨ ਜੂ, ਬੈਨ ॥"
 page = 1031
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਲੱਛਮੀ ਕੁਮਾਰੀ ਨੇ ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ, ਹੇ ਵਿਸ਼ਣੂ ਜੀ! (ਮੇਰੀ) ਗੱਲ ਸੁਣੋ।"

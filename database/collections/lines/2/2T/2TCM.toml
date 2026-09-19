@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੂਪੰ ਰਾਮੰ ॥੧੪੪॥"
 page = 214
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In that battlefield the beautiful Ram, who is the abode of righteousness is looking glorious.144."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰੂਪ ਵਾਲਾ ਸੀ ॥੧੪੪॥"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਾਧਸੰਗਿ; ਹਰਿ ਕੇ ਗੁਨ ਗਾਉ ॥"
 page = 272
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "In the guild of saints sing God's praises."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਤਿ ਸੰਗਤ ਅੰਦਰ ਵਾਹਿਗੁਰੂ ਦਾ ਜੱਸ ਗਾਇਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "In the Company of the Holy, sing the Glorious Praises of the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਾ ਸੰਤੋਂ ਕੇ ਸੰਗ ਮੇਂ ਮਿਲ ਕਰ ਹਰੀ ਕੇ ਗੁਣੋਂ ਕੋ ਗਾਵਣਾ ਕਰੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਪ੍ਰਭੂ ਦੇ ਗੁਣ ਗਾਵਾਂ (ਇਹ ਮੇਰੀ ਕਾਮਨਾ ਹੈ)।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗਾਉ = ਮੈਂ ਗਾਵਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "En la Compañía de los Santos, canta las Gloriosas Alabanzas del Señor."

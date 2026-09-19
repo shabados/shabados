@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਅਮਿਤ ਸਿੰਘ ਸੈਨਾ ਸਹਿਤ ਬਧਹਿ ਕਥਨੰ ॥"
 page = 411
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਅਮਿਤ ਸਿੰਘ ਦੇ ਸੈਨਾ ਸਮੇਤ ਬਧ ਦਾ ਕਥਨ।"

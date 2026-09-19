@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਗੋਯਾ# ਤੇਰੇ ਬਿਨਾਣ ਦੋਹਾਣ ਜਹਾਨਾਣ ਵਿਚ ਹੋਰ ਕੋਈ ਨਹੀਣ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਨੀਸਤ ਗੋਯਾ ਗ਼ਰਿ ਤੂ ਦਰ ਦੋ ਜਹਾਣ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "It is the blessing of a complete and true Guru that made me aware (of this reality),"

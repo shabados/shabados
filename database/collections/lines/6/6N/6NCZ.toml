@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਈ ਇੰਦ੍ਰ ਪਾਨਪਹਾਰ ॥"
 page = 611
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੇ ਦੁਆਰ ਉਤੇ) ਕਈ ਇੰਦਰ ਪਾਣੀ ਪਿਲਾਉਣ ਵਾਲੇ ਸੁਰਾਹੀ-ਬਰਦਾਰ ਹਨ,"

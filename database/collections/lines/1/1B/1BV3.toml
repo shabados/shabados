@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਤਰਤੀਬ ਦਾਨਿਸ਼ ਬਤਦਬੀਰ ਤੇਗ਼ ॥"
 page = 1393
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You are the acme of beauty and wisdom"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਚੰਗੀ ਅਕਲ ਵਾਲਾ ਅਤੇ ਤਲਵਾਰ ਚਲਾਉਣ ਵਿਚ ਪ੍ਰਬੀਨ ਹੈਂ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਪੀਰ ਪਤਿਸਾਹ, ਪਰਚੇ ਲਾਵਹੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Millions of spiritualists and emperors confuse the public."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ ਪੀਰਾਂ ਦੇ ਪਾਤਸ਼ਾਹ (ਭਾਵ ਵਡੇ ਪੀਰ) ਕਰਾਮਾਤਾਂ ਲਾਉਣੇ ਕਰ ਕੇ (ਲੋਕਾਂ ਨੂੰ ਪਰਚਾਉਂਦੇ) ਹਨ।"

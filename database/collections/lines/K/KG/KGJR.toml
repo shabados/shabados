@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੋਗਨ ਸਭਨ ਬੁਲਾਇ ਕੈ; ਆਛੋ ਕਫਨ ਬਨਾਇ ॥"
 page = 856
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After calling the people and putting a nice coffin around,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਿਆਂ ਲੋਕਾਂ ਨੂੰ ਬੁਲਾ ਕੇ ਅਤੇ ਚੰਗਾ ਜਿਹਾ ਕਫ਼ਨ ਬਣਾ ਕੇ"

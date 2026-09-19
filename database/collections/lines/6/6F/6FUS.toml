@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਯਤ ਬਚੇ ਰਨ ਤ︀ਯਾਗ ਪਧਾਰੇ ॥"
 page = 992
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਜੀਉਂਦੇ ਬਚ ਗਏ, ਉਹ ਰਣਭੂਮੀ ਛਡ ਕੇ ਚਲੇ ਗਏ।"

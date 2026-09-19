@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਨੰਦ ਆਵਤ ਸੁਨ︀ਯੋ ਲਯੋ ਗਰੇ ਸੌ ਲਾਇ ॥"
 page = 815
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When she would notice Mahan Nand coming back, she would"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਦੋਂ ਉਸ ਨੇ) ਮਹਾਨੰਦ ਨੂੰ ਆਉਂਦਿਆਂ ਸੁਣਿਆ ਤਾਂ ਗਲੇ ਨਾਲ ਲਾ ਲਿਆ"

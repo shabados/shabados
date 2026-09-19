@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬੈ ਨਰਕ ਤੇ ਆਦਿ ਲੈ ਬੀਰ ਭਾਗੇ ॥੩੧੪॥"
 page = 705
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many arrows struck the limbs of Aalas (laziness) and all these warriors fled towards hell.87.314."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਨਰਕ' ਆਦਿ ਤੋਂ ਲੈ ਕੇ ਸਾਰੇ ਸੂਰਮੇ ਭਜ ਗਏ ਹਨ ॥੩੧੪॥"

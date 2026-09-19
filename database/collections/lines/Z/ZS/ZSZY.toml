@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮ ਬਾਚ ਪਰਸੁਰਾਮ ਸੋ ॥"
 page = 215
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Ram addressed to Parashuram:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮ ਨੇ ਪਰਸੁਰਾਮ ਪ੍ਰਤਿ ਕਿਹਾ-"

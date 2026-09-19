@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਪ੍ਰਾਨ ਬਚਾਵਤ ਕੋ ਹਮ ਸੋ ਜਮ ਜਉ ਭਿਰਿ ਹੈ ਨ ਤਊ ਡਰਿ ਹੌਂ ॥"
 page = 485
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If even Yama comes to protect his life, then I shall also fight with him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਮੇਰੇ ਕੋਲੋਂ ਕਿਵੇਂ ਪ੍ਰਾਣ ਬਚਾ ਸਕਦਾ ਹੈ। (ਜੇ) ਜਮ ਵਾਂਗ ਲੜੇਗਾ, ਤਾਂ ਵੀ ਨਹੀਂ ਡਰਾਂਗਾ।"

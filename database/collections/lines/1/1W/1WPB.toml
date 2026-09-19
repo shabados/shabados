@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਮੈਣ ਉਸ ਮਾਲਕ ਦੇ ਇਹਸਾਨਾਣ ਕਾਰਨ ਸ਼ਰਮਸਾਰ ਹਾਣ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦਾਇਮ ਅਜ਼ ਇਹਸਾਨਿ ਊ ਸ਼ਰਮਿੰਦਾ-ਏਮ ॥੫੭॥੧॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "In appearance, they look just like an embodiment of the specie of Akaalpurakh,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਨਿਜੁ ਪੂਤਨ ਕਹ ਰਾਜ; ਪਕਾਵਤ ਤਹ ਭਈ ॥੩॥"
 page = 1028
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਰਾਣੀ) ਆਪਣੇ ਪੁੱਤਰਾਂ ਨੂੰ ਰਾਜ ਭਾਗ ਦੇਣ ਦੀ ਸੋਚਣ ਲਗੀ ॥੩॥"

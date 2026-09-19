@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਹਕ ਅਪਨੋ ਮੂੰਡ ਮੁੰਡਾਯੋ ॥੧੪॥"
 page = 913
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Neither the friend attained anything rather he got his head shaved off without any purpose (faced humiliation).(14)(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਅਰਥ ਵਿਚ ਆਪਣਾ ਸਿਰ ਮੁੰਨਵਾ ਲਿਆ ॥੧੪॥"

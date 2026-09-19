@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਾਹਾ ਦੈਯਾ ਕਹ ਕ︀ਯਾ ਕਰਿਯੈ ॥"
 page = 866
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਰਮਾਤਮਾ ('ਦੈਯਾ')! (ਅਸੀਂ) ਹੁਣ ਕੀ ਕਰੀਏ।"

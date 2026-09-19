@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਮਰਦਾਸ ਅੰਗਦ ਪਹਿਚਾਨਾ ॥"
 page = 55
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sri Nanak was recognized in Angad, and Angad in Amar Das."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਗੁਰੂ ਅੰਗਦ ਨੂੰ ਅਮਰਦਾਸ (ਵਜੋਂ) ਮੰਨਿਆ ਗਿਆ"

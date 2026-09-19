@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਨੁ ਮੇਰਾ ਸੰਪੈ ਸਭ ਮੇਰੀ; ਬਾਗ ਮਿਲਖ ਸਭ ਜਾਏ ॥"
 page = 212
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My body, my entire wealth, gardens and property all shall pass away."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀ ਦੇਹਿ, ਮੇਰੀ ਸਾਰੀ ਦੌਲਤ, ਬਗੀਚੇ, ਅਤੇ ਜਾਇਦਾਦ, ਸਮੂਹ ਖਤਮ ਹੋ ਜਾਣਗੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "My body, wealth, and all my gardens and property shall all pass away."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰਾ ਸਰੀਰ ਔਰ ਮੇਰੀ ਵਿਭੂਤੀ ਤਥਾ ਬਾਗ ਔਰ (ਮਿਲਖ) ਜਾਗੀਰ ਔਰ ਸਭ ਜਾਗਾ ਮੇਰੀ ਹੈ, ਇਨ ਪ੍ਰਮੱਤ ਹੋ ਕਰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਸਰੀਰ ਮੇਰਾ ਹੈ, ਇਹ ਧਨ-ਪਦਾਰਥ ਸਾਰਾ ਮੇਰਾ ਹੈ, ਇਹ ਬਾਗ਼ ਮੇਰੇ ਹਨ, ਇਹ ਜ਼ਮੀਨਾਂ ਮੇਰੀਆਂ ਹਨ, ਇਹ ਸਾਰੇ ਥਾਂ ਮੇਰੇ ਹਨ-"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਿਲਖ = ਜ਼ਮੀਨ। ਜਾਏ = ਥਾਂਵਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El cuerpo, las propiedades y pertenencias se irán todas;"

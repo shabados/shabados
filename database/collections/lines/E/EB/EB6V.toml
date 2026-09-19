@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਭਾਤਿ ਮਾਰਿਓ ਵਾਹਿ ॥੧੧॥"
 page = 611
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Giving him various types of suffering, killed him in this way.11."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸ ਤਰ੍ਹਾਂ ਉਸ ਨੂੰ ਮਾਰ ਦਿੱਤਾ ॥੧੧॥"

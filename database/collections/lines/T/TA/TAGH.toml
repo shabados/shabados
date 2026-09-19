@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਨ ਰਸ ਕਸਨ ਭੂਲ ਨਹਿ ਖਾਵਹਿ ॥"
 page = 1235
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਨ੍ਹਾਂ ਰਸਾਂ ਕਸਾਂ ਨੂੰ ਭੁਲ ਕੇ ਵੀ ਨਹੀਂ ਖਾਂਦੇ।"

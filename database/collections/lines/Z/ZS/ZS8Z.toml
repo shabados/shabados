@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਣਿ ਭੂਤ ਪਿਸਾਚ ਪਰੇਤ ਪਰੀ ਮਿਲਿ; ਜੀਤ ਕੇ ਗੀਤ ਗਵਾਵਹਿਗੇ ॥"
 page = 566
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The ghosts, imps, fiends, fairies, fairies, ganas etc. will together sing the song of His victory"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗਣ, ਭੂਤ, ਪਿਸ਼ਾਚ, ਪ੍ਰੇਤ ਅਤੇ ਪਰੀਆਂ ਮਿਲ ਕੇ, ਵਿਜੈ ਦੇ ਗੀਤ ਗਾਉਣਗੇ।"

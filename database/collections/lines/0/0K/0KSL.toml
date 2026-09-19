@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਵਹੁ ਤਾਕੀ ਛੋਰਿ ਤ੍ਰਿਯ; ਨਿਰਖੈ ਨੈਨ ਪਸਾਰਿ ॥"
 page = 869
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘When, through the open window, she sees you with eyes wide open,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਹ ਇਸਤਰੀ ਖਿੜਕੀ ਖੋਲ ਕੇ ਅਤੇ ਅੱਖਾਂ ਪਸਾਰ ਕੇ ਵੇਖੇਗੀ,"

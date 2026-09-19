@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਦਾ ਰਹੋ ਇਹ ਧਾਮ ਤਿਹਾਰੈ ॥"
 page = 966
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘What good will be this sovereignty for me? This must remain with you."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਸਦਾ ਤੁਹਾਡੇ ਕੋਲ ਹੀ ਰਹੇ।"

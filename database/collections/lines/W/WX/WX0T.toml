@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਬੇਦ ਬਿਆਸ ਅਵਤਾਰ ॥੧੮॥੪੮॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere someone is incarnation of Ved Vyas. 18.48."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ (ਕਈ) ਵੇਦ ਵਿਆਸ ਦਾ ਅਵਤਾਰ ਹਨ ॥੧੮॥੪੮॥"

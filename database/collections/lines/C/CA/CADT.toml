@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਗੰਨਾਥ ਸਿਉ; ਗੋਸਟਿ ਕਰੈ ॥੭॥"
 page = 974
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and he converses with the Lord of the world."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਹ ਸ਼੍ਰਿਸ਼ਟੀ ਦੇ ਸੁਆਮੀ ਨਾਲ ਬਾਤ ਚੀਤ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "then, he speaks with the Lord of the world. ||7||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਕੇ ਨਾਥ ਸਾਥ ਵਹੁ (ਗੋਸਟਿ) ਬਾਤਾਂ, ਭਾਵ ਮਿਲਾਪੁ ਕਰਤਾ ਹੈ॥੭॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਸਦਾ ਲਈ) ਪਰਮਾਤਮਾ ਨਾਲ ਮੇਲ ਕਰ ਲੈਂਦਾ ਹੈ ॥੭॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੋਸਟਿ = ਮਿਲਾਪ ॥੭॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "entonces el flujo del Éxtasis será constante y podrá conversar con Dios de hombre a hombre. (7)"

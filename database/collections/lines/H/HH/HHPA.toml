@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰ ਭੇਟਤ; ਮਨਿ ਭਇਆ ਅਨੰਦ ॥"
 page = 1148
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Meeting with the Guru, my mind is in bliss."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਾਂ ਨਾਲ ਮਿਲ ਕੇ ਮੇਰਾ ਚਿੱਤ ਪ੍ਰਸੰਨ ਹੋ ਗਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Meeting with the Guru, my mind is in bliss."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੋਂ ਕੇ ਮਿਲਾਪ ਸੇ ਮਨ ਮੇਂ ਅਨੰਦ ਹੂਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਨੂੰ ਮਿਲਿਆਂ ਉਸ ਦੇ ਮਨ ਵਿਚ ਆਨੰਦ ਬਣ ਆਉਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੁਰ ਭੇਟਤ = ਗੁਰੂ ਨੂੰ ਮਿਲਦਿਆਂ। ਮਨਿ = ਮਨ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y encontrando al Guru mi mente ha entrado en Éxtasis,"

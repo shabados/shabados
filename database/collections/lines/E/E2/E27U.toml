@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਨੀਚੁ ਕਹਾਇ, ਊਚ ਘਰਿ ਆਈ ॥੨੮॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "By calling himself lowly, one attains the high position."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਨੀਚ ਕਹਾਕੇ ਉੱਚੇ ਦਰਜੇ ਵਿਚ ਆਈਦਾ ਹੈ।"

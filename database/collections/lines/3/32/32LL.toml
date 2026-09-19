@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨੀਕੇ; ਸਾਚੇ ਕੇ ਵਾਪਾਰੀ ॥"
 page = 1032
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The good are the dealers of the True Lord."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਭਲੇ ਹਨ ਸੱਚੇ ਸੁਆਮੀ ਦੇ ਵਣਜਾਰੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The noble people are traders in Truth."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਾਚੇ ਕੇ ਬਿਆਪਾਰੀ ਹੈਂ, ਸੋ ਭਲੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਦਾ-ਥਿਰ ਰਹਿਣ ਵਾਲੇ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਵਿਹਾਝਣ ਵਾਲੇ ਬੰਦੇ ਚੰਗੇ ਜੀਵਨ ਵਾਲੇ ਹੁੰਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨੀਕੇ = ਚੰਗੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Puros son los que comercian con la Verdad"

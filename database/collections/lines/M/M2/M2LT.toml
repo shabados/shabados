@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਆਨਿ ਵਾ ਤ੍ਰਿਯਾ ਕਹ ਕੂਟਹਿ ॥"
 page = 850
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Outwardly she robbed her of her wealth and beat her (mentally)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਆ ਕੇ ਰਾਣੀ ਤੋਂ (ਧਨ) ਖਿਚਦੀ ਸੀ।"

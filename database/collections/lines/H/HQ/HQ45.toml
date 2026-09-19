@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰ ਕੀ ਤੇ ਵਾ ਕੀ ਹ੍ਵੈ ਗਈ ॥"
 page = 1227
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪਰਾਈ (ਇਸਤਰੀ) ਹੁਣ ਉਸ ਦੀ ਹੋ ਗਈ।"

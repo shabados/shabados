@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਰੀਚੰਗ ਉਚਿਸ੍ਰਵ ਰਾਜਾ ॥"
 page = 915
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਰੀਚੰਗ ਵਿਚ ਉਚਿੱਸ਼੍ਰਵ (ਨਾਂ ਦਾ ਇਕ) ਰਾਜਾ ਸੀ।"

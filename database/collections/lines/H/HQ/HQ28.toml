@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਕੇ ਜੀਵ ਜੰਤ੍ਰੰ ਲਖੇ ਪਰਮ ਰੂਪੰ ॥"
 page = 645
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮ ਰੂਪ ਵਾਲੇ ਨੂੰ ਜੰਤ੍ਰ ਵਾਂਗ ਵੇਖ ਕੇ ਹੈਰਾਨ ਹੋ ਰਹੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਰਾ ਮਨ ਕਿ ਫ਼ਰਜ਼ੰਦ ਬਖ਼ਸ਼ੀਦਹਅਮ ॥"
 page = 1412
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘(Who said), “I have endowed you the son,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਤੁਹਾਨੂੰ ਲੜਕਾ ਬਖ਼ਸ਼ਿਆ ਹੈ,"

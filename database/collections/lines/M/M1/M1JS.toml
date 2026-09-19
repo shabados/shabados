@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਗਰ ਬਰ ਯਕਾਯਦ ਦਹੋ ਦਹ ਹਜ਼ਾਰ ॥"
 page = 1394
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When one man is attacked by lakh,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਕਰ ਇਕ ਉਤੇ ਇਕ ਲੱਖ ਬੰਦਾ ਚੜ੍ਹ ਕੇ ਆ ਜਾਵੇ,"

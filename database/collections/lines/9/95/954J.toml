@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕੋ ਸਕਲ ਸੁਕਬਿ ਕੁਲ ਜੋਵੈ ॥੧੦੭੪॥"
 page = 786
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Utter the word “Imbhani” and add the word “ari” at the end, then the comprehensible names for all the poets are formed.1074."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਨੂੰ ਸਾਰੀ ਕਵੀ ਕੁਲ ਸਮਝ ਲਵੋ ॥੧੦੭੪॥"

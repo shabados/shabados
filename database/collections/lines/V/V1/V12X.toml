@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਮ ਬਿਨਾ; ਜੋ ਪਹਿਰੈ ਖਾਇ ॥"
 page = 240
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Without God's Name, he, who wears and eats,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਦੇ ਨਾਮ ਦੇ ਬਗੈਰ ਜਿਹੜਾ ਪਹਿਨਦਾ ਤੇ ਖਾਂਦਾ ਹੈ,।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Without the Naam, one who dresses and eats well"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਨਾਮ ਸੇ ਬਿਨਾ ਜੋ ਜੀਵ ਪਹਰਤਾ ਖਾਤਾ ਹੈ, ਸੋ ਐਸਾ ਹੈ ਜੈਸੇ ਕੁਤਾ (ਜੂਠਨ) ਰਸੋਈ ਮੇਂ ਪੜ ਜਾਵੇ ਰਸੋਈ ਅਪਵਿਤ੍ਰ ਹੋ ਜਾਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਪਰਮਾਤਮਾ ਦੇ ਨਾਮ ਦੀ ਯਾਦ ਤੋਂ ਬਿਨਾ ਮਨੁੱਖ ਜੋ ਕੁਝ ਭੀ ਪਹਿਨਦਾ ਹੈ ਜੋ ਕੁਝ ਭੀ ਖਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਹਿਰੈ = ਪਹਿਨਦਾ ਹੈ। ਖਾਇ = ਖਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuando me visto y como sin el Naam,"

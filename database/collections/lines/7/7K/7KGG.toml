@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਜਿ ਪਛੁਤਾਨ੍ਰਯੋ ਇਨ ਕਰਤਾਰਾ ॥੨੫॥"
 page = 1272
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਨ੍ਹਾਂ ਨੂੰ ਸਿਰਜ ਕੇ ਕਰਤਾਰ (ਵਿਧਾਤਾ) ਵੀ ਪਛਤਾਇਆ ਹੈ ॥੨੫॥"

@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬੋਲਹੁ ਰਾਮੁ; ਕਰੇ ਨਿਸਤਾਰਾ ॥"
 page = 353
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Utter thou the Lord's Name, which shall redeem thee."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸੁਆਮੀ ਦੇ ਨਾਮ ਦਾ ਉਚਾਰਨ ਕਰ ਜੋ ਤੇਰਾ ਪਾਰ ਉਤਾਰਾ ਕਰ ਦੇਵੇਗਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "So speak the Lord's Name, which shall emancipate you."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਯਾਰੇ! ਰਾਮ ਬੋਲਹੁ ਜੋ ਤੁਮਾਰਾ ਨਿਸ੍ਤਾਰਾ ਕਰੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਸਿਮਰੋ, ਸਿਮਰਨ (ਸੰਸਾਰ-ਸਮੁੰਦਰ ਤੋਂ) ਪਾਰ ਲੰਘਾ ਲੈਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Recita el Naam, el Nombre del Señor para que seas redimido,"

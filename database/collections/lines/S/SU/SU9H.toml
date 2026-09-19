@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਦਲ ਸੇ ਸਭ ਹੀ ਦਲ ਫੂਟੇ ॥੩੪੦॥"
 page = 1383
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਦਲ ਵਾਂਗ ਸਾਰੇ (ਵੈਰੀ) ਦਲ ਖੇਰੂੰ ਖੇਰੂੰ ਹੋ ਗਏ ॥੩੪੦॥"

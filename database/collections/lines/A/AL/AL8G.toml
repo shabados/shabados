@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਕਰਤਾ ਹਰਿ ਰਾਇ ਨੌਂ ਆਸਮਾਨਾਂ ਨੂੰ ਹੁਕਮ ਦੇਣ ਵਾਲਾ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਫ਼ਰਮਾ-ਦਿਹੇ ਨਹੁ ਤਬਕ ਗੁਰੂ ਕਰਤਾ ਹਰਿ ਰਾਇ ॥੯੦॥"
 page = 7
 line = 90
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, Guru Har Rai is commanding all the nine skies. (90)"

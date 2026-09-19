@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਗ ਨਿਤ ਲੈ ਨ੍ਰਿਪ ਸੁਤ ਕੌ ਜਾਵੈ ॥"
 page = 1246
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਰੋਜ਼ ਰਾਜੇ ਦੇ ਪੁੱਤਰ ਨੂੰ ਨਾਲ ਲੈ ਕੇ ਜਾਂਦੀ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਮੱਛ ਮੁੰਡੰ ॥"
 page = 45
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Fish incarnation of spatious mouth,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੱਡੇ ਸਿਰ ਵਾਲੇ ਮੱਛ ਅਵਤਾਰ ਨੂੰ ਵੀ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੈ ਕਮਲਾ ਦਲ ਨਰਗਸ ਕੋ ਗੁਲ; ਲਜਤ ਹ੍ਵੈ ਫੁਨਿ ਦੇਖਤ ਤਾਨੋ ॥"
 page = 315
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The lotus and narcissus are feeling shy before his charm"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਮਲ ਦੇ ਪੱਤੇ ਅਤੇ ਨਰਗਸ ਦੇ ਫੁਲ ਵੀ ਉਸ ਨੂੰ ਵੇਖਦਿਆਂ ਹੀ ਲਜਿਤ ਹੁੰਦੇ ਹਨ।"

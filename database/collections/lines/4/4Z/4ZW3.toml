@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰਿਯੋ ਫੇਰਿ ਭੂਮੈ, ਕਹੂੰ ਰਾਵ ਜਾਈ ॥"
 page = 1002
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After four watches, when he awoke, he found himselflying on the ground."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ) ਫਿਰ ਕਿਤੇ ਜਾ ਕੇ ਭੂਮੀ ਉਤੇ ਡਿਗ ਪਿਆ।"

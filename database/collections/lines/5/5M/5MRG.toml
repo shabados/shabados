@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਨ ਮਨਿ ਮਹਾਨ ਅਤ ਹੀ ਉਦਾਰ ॥"
 page = 642
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His Greatness and Glory are infinite"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਅਤਿਅੰਤ ਉਦਾਰ ਅਤੇ ਮੁਨੀਆਂ ਦੇ ਮਨ (ਵਿਚ ਵਸਣ ਵਾਲਾ) ਮਹਾਨ ਹੈ।"

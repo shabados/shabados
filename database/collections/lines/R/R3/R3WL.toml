@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਪ੍ਰਮਾਨ ਰਾਨੀ ਕੀ ਥੀ ਛਬਿ ॥"
 page = 1262
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਣੀ ਦੀ ਅਸੀਮ ਸੁੰਦਰਤਾ ਸੀ,"

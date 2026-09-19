@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਖੇਦ ਅਭੇਦ ਅਛੇਦ ਨਰੰ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without anguish without difference and Unassailable Purusha!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਸ਼ਟ ਤੋਂ ਬਿਨਾ, ਅਭੇਦ, ਅਛੇਦ ਪੁਰਸ਼ ਹੈ;"

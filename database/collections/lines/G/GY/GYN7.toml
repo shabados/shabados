@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਦਿ ਪੁਰਖ ਆਦੇਸੁ ਹੈ; ਕੁਦਰਤਿ ਕੁਰਬਾਣਾ ॥੨੪॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "I salute that primal Lord and I am sacrifice unto His feats."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਆਦਿ ਪੁਰਖ (ਪਾਰਬ੍ਰਹਮ) ਨੂੰ ਨਿਮਸਕਾਰ ਹੈ, (ਉਸ ਦੀ) ਕੁਦਰਤ ਥੋਂ ਅਸੀਂ ਬਲਿਹਾਰ ਜਾਂਦੇ ਹਾਂ।"

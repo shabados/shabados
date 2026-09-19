@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਸਿ ਹਸਿ ਕਰਿ ਦਿਜ ਕੇ ਮੁਖ; ਕਸਿ ਕਸਿ ਕੈ ਦਈ ॥"
 page = 1200
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹਸ ਹਸ ਕੇ ਬ੍ਰਾਹਮਣ ਦੇ ਮੂੰਹ ਉਤੇ ਕਸ ਕਸ ਕੇ ਮਾਰੀ।"

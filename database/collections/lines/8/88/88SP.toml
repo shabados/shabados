@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਈ ਰਾਮ ਬਾਰ ਬੁਹਾਰ ॥"
 page = 612
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਹੀ ਰਾਮ (ਉਸ ਦੇ) ਦੁਆਰ ਉਤੇ ਝਾੜੂ ਦਿੰਦੇ ਹਨ।"

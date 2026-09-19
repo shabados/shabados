@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਕਰਮ ਹੈ ਨ ਭਰਮ ਹੈ; ਨ ਧਰਮ ਕੋ ਪ੍ਰਭਾਉ ਹੈ ॥"
 page = 33
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is beyond the impact of action, illusion and religion."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਵਿਚ) ਨਾ ਕਰਮ ਹੈ, ਨਾ ਭਰਮ ਹੈ; (ਉਸ ਉਤੇ) ਨਾ ਧਰਮ ਦਾ ਪ੍ਰਭਾਵ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਮਲੇ ਸੁਮਾਰ ॥"
 page = 231
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors who never fell began to fall and also regain their control"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖਾਈ ਹੋਈ ਮਾਰ ਨੂੰ ਯੋਧੇ ਯਾਦ ਕਰਦੇ ਸਨ"

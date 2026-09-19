@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮੁੰਤ੍ਰਾਸਤ੍ਰ ਟੁਟੇ ॥੨੮੮॥"
 page = 703
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Kumantrastra (arms of bad spells and Sumantrastras (arms of auspicious spells were shot and then burst.61.288."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁਮੰਤ੍ਰ ਅਸਤ੍ਰ ਟੁਟ ਰਹੇ ਹਨ ॥੨੮੮॥"

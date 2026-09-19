@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਜਾਮੇਧ ਸੁ ਜਗ ਕੋ; ਕਿਉ ਕੀਜੀਐ ਸਵਧਾਨ ॥"
 page = 141
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As to how the elephant sacrifice be performed methodically?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਗਜ-ਮੇਧ ਯੱਗ ਕਿਵੇਂ ਵਿਧੀਪੂਰਵਕ ਕੀਤਾ ਜਾਏ।"

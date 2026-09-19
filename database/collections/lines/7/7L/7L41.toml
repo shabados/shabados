@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੁਮਾ ਖ਼ੁਰਦ ਸ਼ਰਬਤ ਕਿ ਯਾਰੇ ਚੁਅਮ ॥"
 page = 1402
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And this fourth one faced the same end."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਥੇ (ਰਾਜੇ ਨੂੰ ਵੀ) ਉਸ ਨੇ ਪਹਿਲਿਆਂ ਵਾਂਗ ਸ਼ਰਬਤ ਪਿਲਾਇਆ"

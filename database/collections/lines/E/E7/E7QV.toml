@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਰਥੀ ਅਉ ਮਹਾ ਭਯਾਰਾ ॥੩੩੨॥"
 page = 707
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "These dreadful warriors are greatly persistent, greatly heroic and greatly terrible.105.332."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾਰਥੀ ਅਤੇ ਬਹੁਤ ਭਿਆਨਕ ਹਨ ॥੩੩੨॥"

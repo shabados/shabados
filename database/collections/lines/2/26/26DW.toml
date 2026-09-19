@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਜੋਤਿ ਦਸ ਚਾਰਿ ਨਿਧਾਨੂ ॥"
 page = 624
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was a great hero and superb intellectual, he was the store of fourteen sciences"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਤੇਜ ਵਾਲਾ ਅਤੇ ਚੌਦਾਂ ਵਿਦਿਆਵਾਂ ਦਾ ਨਿਧੀ ਸੀ।"

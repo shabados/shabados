@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨ ਮਨ ਹਰਿ ਚਰਨਨ ਠਹਿਰਾਯੋ ॥"
 page = 56
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਨੇ ਆਪਣਾ ਮਨ ਹਰਿ ਚਰਨਾਂ ਨਾਲ ਜੋੜਿਆ,"

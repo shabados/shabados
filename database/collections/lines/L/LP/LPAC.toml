@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਜੀਲੇ ਰੋਹਵਾਰੀ ਕੈ ॥"
 page = 604
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The angry and furious tone of the Kalki incarnation, who assumed royalty, is very queer"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਠੋਰ ('ਰਜੀਲੇ') ਗੁੱਸੇ ਵਾਲੇ ਹਨ।"

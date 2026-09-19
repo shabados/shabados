@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਛੇਦੀ ਅਭੇਦੀ ਅਰੂਪੀ ਮਹਾਨੈ ॥"
 page = 128
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Unassailable, Indiscriminate, Formless and Unmatchable."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਛੇਦ, ਅਭੇਦ, ਅਰੂਪ ਅਤੇ ਮਹਾਨ ਹੈ;"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫੇਰਿ ਗਏ ਜਸੋਧਾ ਹੂ ਕੇ ਮੰਦਿਰ; ਤਾ ਪਗ ਪੈ ਇਹ ਮਾਥ ਛੁਹਾਏ ॥"
 page = 525
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He put his head on their feet for bidding farewell,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਜਸੋਧਾ ਦੇ ਘਰ ਵਲ ਚਲਾ ਗਿਆ ਅਤੇ ਉਸ ਦੇ ਪੈਰਾਂ ਉਤੇ ਮੱਥਾ ਰਖ ਦਿੱਤਾ।"

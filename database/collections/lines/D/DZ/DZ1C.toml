@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਣੇ ਭੂਮ ਮਾਥੰ ॥੪੪੦॥"
 page = 246
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Heard this news, he, in great anguish, threw his head on the earth.440."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਉਸ ਨੇ ਆਪਣਾ) ਮੱਥਾ ਧਰਤੀ ਨਾਲ ਮਾਰਿਆ ॥੪੪੦॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਕੀ ਤੈਨੂੰ ਜੀਊਣ ਦੇ ਅਰਥਾਣ ਦਾ ਪਤਾ ਹੈ #"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਜ਼ੀਸਤਨ ਰਾ ਮਾਅਨੀ ਦਾਨੀ ਕਿਹ ਚੀਸਤ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "With the grace of Akaalpurakh, he is the blessing for the sinners. (55)"

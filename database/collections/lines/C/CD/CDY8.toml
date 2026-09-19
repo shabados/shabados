@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਰਬ ਪਾਪ ਬਿਦਾ ਕਰਿ ਦੀਨੋ ॥੪॥"
 page = 869
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They paid their respects to the Ganga to cast off their profanities of the life theretofore.( 4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪਿਛਲੇ ਪਾਪ ਮਿਟਾ ਦਿੱਤੇ ॥੪॥"

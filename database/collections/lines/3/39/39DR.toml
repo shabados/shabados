@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਵੈ ਸਹੰਸ ਰਸਨਾਹੁ ਸੁਹਾਈ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which contain two thousand tongues."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀਆਂ) ਦੋ ਹਜ਼ਾਰ ਜੀਭਾਂ ਸੋਭ ਰਹੀਆਂ ਹਨ।"

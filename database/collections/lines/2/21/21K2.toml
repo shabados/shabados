@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਤੈ ਕੁੰਭ ਕਾਜੰ ॥"
 page = 245
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On this side the arrows are being discharged and on that side Kumbhkaran is doing his job of destroying the army,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਧਰੋਂ ਕੁੰਭਕਰਨ ਲੜ ਰਹੇ ਹਨ।"

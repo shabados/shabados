@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਲ ਸੁਜਨ ਜਨ ਸੁਨਤੇ ਕਹੋ ॥੧੧੮੧॥"
 page = 795
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Sindhuni”, add the word “ardani” afterwards and know all the names of Tupak.1181."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਨੂੰ ਸਾਰੇ ਵਿਦਵਾਨਾਂ ਨੂੰ ਸੁਣਾ ਕੇ ਕਥਨ ਕਰੋ ॥੧੧੮੧॥"

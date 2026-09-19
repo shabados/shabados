@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬੈ ਦੇਵੀਅੰ ਪਾਣਿ ਬਾਣੰ ਸੰਭਾਰੰ ॥"
 page = 102
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the goddess caught hold of her bow and arrows."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਦੇਵੀ ਨੇ ਹੱਥ ਵਿਚ ਬਾਣ ਸੰਭਾਲ ਲਏ"

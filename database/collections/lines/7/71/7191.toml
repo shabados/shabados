@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁੰਨੂ ਸਾਹ ਸਿਕਾਰ ਸਿਧਾਯੋ ॥"
 page = 952
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In due course of time, Raja Punnu marched out for hunting."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਹ ਸ਼ਿਕਾਰ ਨੂੰ ਚਲਾ ਗਿਆ।"

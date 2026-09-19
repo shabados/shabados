@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਤ ਇਨ ਮਿਲਿ ਕੈ ਕੇਲ ਮਚਾਯੋ ॥"
 page = 1016
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whereas the Raja was busy in mustering army, they (Ukha and the lover) were, together, revelling in sex."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਧਰ ਇਹ (ਦੋਵੇਂ) ਮਿਲ ਕੇ ਰਤੀਕ੍ਰੀੜਾ ਕਰਨ ਲਗੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਚਤ ਭੂਤ ਬਜਾਵਤ ਤਾਰੀ ॥"
 page = 150
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the ghosts were dancing, while clapping their hands"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਤੇ) ਭੂਤ ਤਾੜੀਆਂ ਵਜਾ ਕੇ ਨਚ ਰਹੇ ਸਨ।"

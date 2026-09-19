@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਰਿਯੋ ਨ੍ਰਿਪਤਿ ਸੁਨਿ ਕਾਨ; ਅਧਿਕ ਪੀਟਤ ਭਈ ॥"
 page = 1087
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਤੀ ਦੀ ਮੌਤ ਕੰਨ ਨਾਲ ਸੁਣ ਕੇ ਬਹੁਤ ਪਿਟਣ ਲਗ ਗਈ।"

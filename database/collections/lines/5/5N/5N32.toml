@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਜੀਉ; ਅਪਣੀ ਕ੍ਰਿਪਾ ਕਰੇਇ ॥"
 page = 1129
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "When the Sire Lord shows His mercy,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਮਹਾਰਾਜ ਮਾਲਕ ਆਪਣੀ ਮਿਹਰ ਧਾਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "When the Dear Lord showers His Mercy,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਬ ਹਰੀ ਅਪਣੀ ਕਿਰਤਾ ਕਰਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਮਨੁੱਖ ਉੱਤੇ) ਪਰਮਾਤਮਾ ਆਪਣੀ ਕਿਰਪਾ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰੇਇ = ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Dios por Sí Mismo, nos bendice con Su Misericordia,"

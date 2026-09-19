@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੰਤ ਤੇਗ ਤਿਛਣੀ ॥੪੭੮॥"
 page = 599
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Bhairavi is shouting and the yoginis are laughing, the sharp swords fulfilling the desires, are striking the blows.478."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿੱਖੀ ਤਲਵਾਰ ਚਲਦੀ ਹੈ ॥੪੭੮॥"

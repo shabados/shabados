@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਹੁ ਮੇਰਾ ਏਕੁ; ਦੂਜਾ ਨਹੀ ਕੋਈ ॥"
 page = 357
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My spouse is but One. there is no other second like Him."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਡਾਂ ਭਤਾਰ ਕੇਵਲ ਇਕ ਹੈ। ਹੋਰ ਕੋਈ ਦੂਸਰਾ ਉਸ ਵਰਗਾ ਨਹੀਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "My Husband is the One; there is no other like Him."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰਾ (ਸਹੁ) ਸ੍ਵਾਮੀ ਏਕ ਹੈ, ਉਸ ਕੇ ਬਰਾਬਰ ਕਾ ਦੂਸਰਾ ਕੋਈ ਨਹੀਂ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰਾ ਖਸਮ-ਪ੍ਰਭੂ ਹਰ ਵੇਲੇ ਇਕ-ਰਸ ਰਹਿੰਦਾ ਹੈ, ਉਸ ਵਰਗਾ ਹੋਰ ਕੋਈ ਨਹੀਂ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਏਕੁ = ਸਦਾ ਇਕ-ਰਸ ਰਹਿਣ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mi Señor es el Único y Uno sólo; sí, no hay nadie más"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਸਕਲ ਸੁਜਨ ਜਨ ਸੁਨਤ; ਨਿਡਰ ਹੁਇ ਭਾਖੀਅਹਿ ॥੧੧੮੦॥"
 page = 795
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Mahaa-ranavi”, add the word “Pat-mardanani” at eh end and fearlessly know all the names of Tupak.1180."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਨੂੰ ਸੁਜਾਨਾਂ ਦੀ ਸਭਾ ਵਿਚ ਨਿਸੰਗ ਹੋ ਕੇ ਕਹੋ ॥੧੧੮੦॥"

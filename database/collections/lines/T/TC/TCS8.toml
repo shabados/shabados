@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਏ ਹਾਥ ਸੈਥੀ ਅਰਬ ਖਰਬ ਧਾਏ ॥"
 page = 928
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੱਥ ਵਿਚ ਸੈਹਥੀਆਂ ਲੈ ਕੇ ਅਰਬਾਂ ਖਰਬਾਂ ਸੂਰਮੇ ਚੜ੍ਹ ਆਏ"

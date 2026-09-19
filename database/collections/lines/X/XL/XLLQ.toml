@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਫੀ ਰੰਕ ਦਰਬੁ ਉਪਜਾਵੈ ॥"
 page = 1152
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਿਰਧਨ ਸੋਫ਼ੀ ਵੀ ਧਨ ਪੈਦਾ ਕਰਦਾ ਹੈ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹੀ ਆਨਿ ਪਤਿ ਕੌ ਬੈਠਾਰਿਯੋ ॥੨੦॥"
 page = 999
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She brought her husband there where the cauldrons were lying.(20)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਆ ਕੇ ਪਤੀ ਨੂੰ ਬਿਠਾ ਦਿੱਤਾ ॥੨੦॥"

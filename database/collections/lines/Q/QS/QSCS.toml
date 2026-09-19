@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਯਾ ਤਾ ਬਗੀਰੀ ਬ ਮਨ ਈਂ ਦਯਾਰ ॥੬੧॥"
 page = 1392
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Get this area as a feoff (jagir) from you, you may keep this thing in your mind.61."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਮੇਰੇ ਕੋਲੋਂ ਇਹ ਇਲਾਕਾ ਲੈ ਲਵੀਂ ॥੬੧॥"

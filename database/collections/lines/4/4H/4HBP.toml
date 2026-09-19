@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੌਤ੍ਰ ਸੋਧ ਕੌ ਬੇਗਿ ਮੰਗਇਯੈ ॥"
 page = 529
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Send some messenger towards that side and get some news about the safety of my grandson"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਮੈਨੂੰ) ਪੋਤਰੇ ਦੀ ਖ਼ਬਰ ਜਲਦੀ ਮੰਗਵਾ ਦਿਓ।"

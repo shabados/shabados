@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਜਦੁਪਤਿ ਦਰਸਨ ਮੁਹਿ ਦਿਯੋ ॥੩੨॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘When I sought His divination with great determination, then Shri Krishna came into my vision.(32)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੇ ਮੈਨੂੰ ਦਰਸ਼ਨ ਦਿੱਤੇ ॥੩੨॥"

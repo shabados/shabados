@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਖਚਾਰ ਬਕਤ ਬਿਅੰਤ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The four-handed Brahma Speak of Him as Unlimited."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਾਰ ਮੁਖਾਂ ਵਾਲਾ ਬ੍ਰਹਮਾ ਜਿਸ ਨੂੰ ਬੇਅੰਤ ਬੇਅੰਤ ਦਸਦਾ ਹੈ,"

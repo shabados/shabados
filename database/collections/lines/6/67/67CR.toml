@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਗਸ਼ਤਨ ਦਰਾਬੇ ਬ ਬੇਰੂੰ ਅਜ਼ਾ ॥"
 page = 1426
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "For long time, the horse paddled around in water,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘੋੜਾ ਪਾਣੀ ਵਿਚ ਘੁੰਮਦਾ-ਤਰਦਾ ਬਾਹਰ ਆ ਗਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੁਨਦ ਜ਼ਰਹੇ ਰਥ ਚਹਾਰੋ ਹਜ਼ਾਰ ॥"
 page = 1405
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Four thousands chariots were shattered,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਾਰ ਹਜ਼ਾਰ ਰਥ ਟੋਟੇ ਟੋਟੇ ਕਰ ਦਿੱਤੇ ਗਏ"

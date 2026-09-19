@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਖਚਾਰ ਰੂਪ ਅਨੂਪ ॥੪॥"
 page = 635
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was the seventh incarnation of Brahma and when he was redeemed, then he assumed the form of fourheaded Brahma i.e. merged himself in Brahma.4."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਉਪਮਾ ਰਹਿਤ ਚੌਮੂੰਹਾ ਰੂਪ ਸੀ ॥੪॥"

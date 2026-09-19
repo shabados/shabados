@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮੁੰਦ੍ਰ ਸਪਤ ਧਾਰਯੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He hath put the seven oceans at their places."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੁਸੀਂ) ਸੱਤ ਸਮੁੰਦਰ ਟਿਕਾਏ ਹੋਏ ਹਨ,"

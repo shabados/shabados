@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਹੀ ਸਾਹਿਬ ਦਾ ਰੂਪ ਹੈ ਅਤੇ ਉਸੇ ਦਾ ਹੀ ਹੁਕਮ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਊ ਬਰੰਗਿ ਸਾਹਿਬੀ ਅਰਸ਼ਾਦਿ ਊ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Thousands of the regions representing the forms of Waaheguru, and thousands of heavens; (17)"

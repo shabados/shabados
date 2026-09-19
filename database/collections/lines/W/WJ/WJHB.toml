@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਕਛੁ ਕਹਿਯੋ ਚਰਿਤ੍ਰਹਿ ਕਰਿਯੈ ॥"
 page = 912
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then he whispered to perform some more chicanery,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ (ਉਸ ਨੇ) ਕਿਹਾ ਕਿ ਕੁਝ ਹੋਰ ਚਰਿਤ੍ਰ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ"

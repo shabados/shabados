@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਨਿਵਤਿ ਸਿੰਘਹਿ ਸੋ ਰਹੈ; ਚਿਤਵਤ ਆਠੋ ਜਾਮ ॥੧੮॥"
 page = 813
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She always had sensual looks for Hanwant Singh.(l8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੱਠੇ ਪਹਿਰ ਹਨਿਵੰਤ ਸਿੰਘ ਨੂੰ ਯਾਦ ਕਰਦੀ ਰਹਿੰਦੀ ਸੀ ॥੧੮॥"

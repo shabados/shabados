@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਕੇ ਛੋਭ ਛਤ੍ਰੀ ਤਜੈ ਬਾਣ ਰਾਜੀ ॥"
 page = 67
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors, in great fury, are showering volleys of arrows"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋਧਿਤ ਸੂਰਮੇ ਤੀਰਾਂ ਦੀਆਂ ਲੜੀਆਂ ਛਡ ਰਹੇ ਹਨ।"

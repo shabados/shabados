@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਦੀ ਕਦਰ ਕੀਮਤ ਸਭ ਨਾਲੋਂ ਉਚੇਰੀ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬਰ ਤਰ ਅਜ਼ ਹਰ ਕਦਰ ਗੁਰ ਗੋਬਿੰਦ ਸਿੰਘ ॥"
 page = 10
 line = 144
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "The worth and value of  Guru Gobind Singh is the highest of all,"

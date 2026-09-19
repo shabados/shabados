@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨੀ︁ਯਹੁ ਸੰਤ, ਸਬੈ ਚਿਤ ਲਾਈ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O saints  listen to it attentively."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੰਤੋ! ਸਾਰੇ ਚਿੱਤ ਲਗਾ ਕੇ ਸੁਣੋ,"

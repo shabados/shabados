@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗੇ ਤੇ ਨਾਰਿ ਭਈ ਇਕ ਲੇਹਿਸ; ਗਾਗਰ ਪੰਡਿਤ ਡਾਰਿ ਦਏ ਹੈ ॥"
 page = 293
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The priests taking Vasudev with them, are going towards the home of Kansa and seeing a beautiful woman in front of them, the Pundits caused her metallic pitcher to fall"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਗੋਂ ਇਕ ਇਸਤਰੀ (ਪਾਣੀ ਦੀ) ਗਾਗਰ ਲੈ ਕੇ ਆਈ ਅਤੇ ਪੰਡਿਤ ਉਤੇ ਪਾ ਦਿੱਤੀ।"

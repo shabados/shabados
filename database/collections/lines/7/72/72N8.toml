@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਛਲਾਪੁਰ ਇਕ ਭੂਪ ਭਨਿਜੈ ॥"
 page = 1344
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਛਲਾਪੁਰ ਦਾ ਇਕ ਰਾਜਾ ਦਸੀਂਦਾ ਸੀ।"

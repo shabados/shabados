@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹਿ ਤਸਕਰ, ਜਮਧਾਮ ਪਠੈ ਹੈ ॥੩॥"
 page = 837
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "People shouted at him and expressed that he should be sent to the hell.(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੇ ਚੋਰ! ਤੈਨੂੰ ਯਮਲੋਕ ਭੇਜਾਂਗੇ ॥੩॥"

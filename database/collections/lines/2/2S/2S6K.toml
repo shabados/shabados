@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਰਬ ਸੈਨ ਨਾਮ ਜਗ ਕਹੈ ॥"
 page = 1226
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪੂਰਬ ਸੈਨ ਦੇ ਨਾਂ ਨਾਲ ਜਗਤ ਵਿਚ ਜਾਣਿਆ ਜਾਂਦਾ ਸੀ।"

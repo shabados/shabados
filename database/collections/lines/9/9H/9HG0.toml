@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਧੇ ਸਾਹੁ ਤਿਹ ਤਰੇ; ਤਹੀ ਆਵਤ ਭਏ ॥"
 page = 1154
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਾਲਕੀ ਦੇ) ਹੇਠਾਂ ਬੰਨ੍ਹਿਆਂ ਹੋਇਆ ਸ਼ਾਹ ਉਥੇ (ਆਪਣੇ ਘਰ) ਆ ਗਿਆ"

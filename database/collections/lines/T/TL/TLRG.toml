@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੂਝਤ ਭਏ ਪੈਗ ਨਹਿ ਭਾਗੇ ॥੪੫॥"
 page = 1360
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਜੂਝਦੇ ਰਹੇ ਪਰ (ਇਕ) ਕਦਮ ਵੀ ਨਹੀਂ ਭਜੇ ॥੪੫॥"

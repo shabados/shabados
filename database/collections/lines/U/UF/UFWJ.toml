@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਨਾਤਰ ਮੋਰ ਜਿਯਨ ਕੀ; ਆਸ ਚੁਕਾਇਯੈ ॥੬॥"
 page = 1138
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਹੀਂ ਤਾਂ ਮੇਰੇ ਜੀਣ ਦੀ ਆਸ ਛਡ ਦੇ ॥੬॥"

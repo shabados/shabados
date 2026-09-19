@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਉ ਭਾਵੈ; ਤਿਉ ਲੈਹਿ ਮਿਲਾਈ ॥"
 page = 104
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "As it pleases so do Thou unite me with Thee."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਤਰ੍ਰਾਂ ਤੈਨੂੰ ਚੰਗਾ ਲਗਦਾ ਹੈ ਉਸੇ ਤਰ੍ਹਾਂ ਮੈਨੂੰ ਆਪਣੇ ਨਾਲ ਮਿਲਾ ਲੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "if it pleases You, unite me with You."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੈਸੇ ਭਾਵੈ ਤੈਸੇ ਮਿਲਾਇ ਲੇਹਿ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਹੋ ਸਕੇ, ਮੈਨੂੰ ਆਪਣੇ ਚਰਨਾਂ ਵਿਚ ਜੋੜ ਲੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਿਉ ਭਾਵੈ = ਜਿਵੇਂ ਤੈਨੂੰ ਚੰਗਾ ਲੱਗੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Señor, úneme en el Amor Contigo, si es Tu Voluntad."

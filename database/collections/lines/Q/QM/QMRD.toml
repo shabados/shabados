@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਥਮ ਕੋਟ ਲੋਹਾ ਕੋ ਰਾਜੈ ॥"
 page = 1092
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਪਹਿਲਾ ਕਿਲ੍ਹਾ ਲੋਹੇ ਦਾ ਸੀ,"

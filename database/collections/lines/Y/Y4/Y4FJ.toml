@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕੇ ਹੁਤੀ ਨ ਕਛੁ ਘਟ ਮਹਿ ਮਤਿ ॥"
 page = 1209
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਤੋਂ ਘਟ ਮੂਰਖ ਇਸ ਧਰਤੀ ਉਤੇ ਕੋਈ ਨਹੀਂ ਸੀ।"

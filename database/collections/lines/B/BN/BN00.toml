@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਮੀ ਜਾਰ ਕੇ ਸਾਥ ਬਿਹਸਿ ਕਰਿ ॥"
 page = 1276
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪ੍ਰਸੰਨਤਾ ਪੂਰਵਕ ਯਾਰ ਨਾਲ ਰਮਣ ਕਰਨ ਲਗੀ।"

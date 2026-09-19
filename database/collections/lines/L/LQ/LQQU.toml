@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮਿੱਟੀ ਦੇ ਸਰੀਰ ਵਿਚ ਕਿਸਤਰ੍ਹਾਂ ਪਨਾਹ ਲੈ ਸਕਦਾ ਹੈ #"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦਰ ਵਜੂਦਿ ਖ਼ਾਕ ਕੈ ਮਾਵਾ ਕੁਨਦ ॥੩੨੪॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He is the ocean of bestowals and a sea of compassion,"

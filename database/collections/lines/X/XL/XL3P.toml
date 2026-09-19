@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੋਟਿ ਜਤਨ; ਸੰਤੋਖੁ. ਨ ਪਾਇਆ ॥"
 page = 804
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Contentment is attained not by millions of efforts,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜਾਂ ਹੀ ਉਪਰਾਲਿਆਂ ਦੇ ਰਾਹੀਂ ਸੰਤੁਸ਼ਟਤਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੁੰਦੀ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "By millions of efforts, peace is not obtained;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜੋਂ ਉਪਾਵ ਕਰਨੇ ਤੇ ਇਸ ਮਨ ਨੇ ਸੰਤੋਖ ਨਹੀਂ ਪਾਇਆ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਕ੍ਰੋੜਾਂ ਜਤਨ ਕੀਤਿਆਂ ਭੀ (ਮਾਇਆ ਦੀ ਤ੍ਰਿਸ਼ਨਾ ਵਲੋਂ) ਸੰਤੋਖ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੁੰਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੋਟਿ = ਕ੍ਰੋੜਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Con miles de esfuerzos no logré el Contentamiento,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਤ੍ਰਿਯ ਤਾਹਿ ਬਚਨ ਅਸਿ ਕੀਨਾ ॥੭॥"
 page = 867
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The maid let him not sit down and told him,(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤਦ (ਉਸ) ਇਸਤਰੀ ਨੇ ਉਸ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ ॥੭॥"

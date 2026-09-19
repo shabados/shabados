@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਪ ਕੋ ਭਲੇ ਠੌਰ ਹਮ ਪਾਯੋ ॥੮੦॥"
 page = 909
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja declared that he had found a place for meditation.(80)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਅਸੀਂ ਤਪ ਲਈ ਚੰਗਾ ਸਥਾਨ ਪ੍ਰਾਪਤ ਕਰ ਲਿਆ ਹੈ ॥੮੦॥"

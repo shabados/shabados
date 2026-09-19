@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਲ ਭੇਦ ਸਮੁਝਾਇ ਕੈ; ਹਰਿ ਪ੍ਰਤਿ ਦਈ ਪਠਾਇ ॥੮॥"
 page = 971
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She related her the secret and sent her to Lord Indra.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਸਾਰਾ ਭੇਦ ਦਸ ਕੇ ਇੰਦਰ ਕੋਲ ਭੇਜ ਦਿੱਤੀ ॥੮॥"

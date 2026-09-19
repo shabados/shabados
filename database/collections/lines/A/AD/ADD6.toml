@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰ ਸੋ ਰਜਪੂਤ ਕਹਾਤ ਭਏ ॥੧੮॥੩੦੮॥"
 page = 154
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were called Rajputs.18.308."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪੁਰਸ਼ ਰਾਜਪੂਤ ਅਖਵਾਉਣ ਲਗੇ ॥੧੮॥੩੦੮॥"

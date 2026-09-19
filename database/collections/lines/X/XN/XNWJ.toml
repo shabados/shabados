@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਠੀ ਰੋਸ ਬਾਢੇ, ਸੁ ਗਾਢੇ ਅਨੀਕੇ ॥"
 page = 1287
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਕੜੀ ਸੈਨਾ ਦੇ ਹਠੀ ਯੋਧਿਆਂ ਨੇ ਰੋਹ ਵਧਾ ਲਿਆ ਸੀ।"

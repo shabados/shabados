@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਤੀ ਲਹੌਰ ਤਹਾ ਤ੍ਰਿਯ ਸੁਨੀ ॥"
 page = 1169
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਲਾਹੌਰ ਮਤੀ ਨਾਂ ਦੀ ਇਕ ਛਤ੍ਰਾਣੀ ਇਸਤਰੀ ਸੁਣੀਂਦੀ ਸੀ"

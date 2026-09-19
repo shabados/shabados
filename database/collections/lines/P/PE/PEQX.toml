@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖ਼ੁਸ਼ ਆਮਦ ਬ ਤਦਬੀਰ ਮਾਨੋ ਮਹੀਪ ॥"
 page = 1397
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He (King) displayed his desire, as he (son) was to be given the kingdom,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨਧਾਤਾ ਰਾਜਾ (ਚੌਥੇ ਪੁੱਤਰ ਦੀ) ਜੁਗਤ ਤੋਂ ਪ੍ਰਸੰਨ ਹੋਇਆ"

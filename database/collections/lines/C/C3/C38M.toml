@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੋਗ ਅਟਕਿ ਬਹੁ ਰਹੇ; ਨ ਤਿਨ ਬਚ ਮਾਨਿਯੋ ॥"
 page = 825
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "People tried to dissuade her but she did not listen to anyone."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਜਿਹਾ ਕਰਨ ਤੋਂ) ਲੋਕੀਂ ਬਹੁਤ ਰੋਕ ਹਟੇ, (ਪਰ ਉਸ ਨੇ ਕਿਸੇ ਦਾ) ਬਚਨ ਨਾ ਮੰਨਿਆ।"

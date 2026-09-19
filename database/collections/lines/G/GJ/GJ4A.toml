@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਨਿਕ ਜਤਨ ਕਰਿ; ਕਾਇਆ ਪਾਲੀ ॥"
 page = 325
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "With various efforts the body is cherished,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕਾਂ ਉਪਰਾਲਿਆਂ ਨਾਲ ਇਹ ਸਰੀਰ ਪਾਲਿਆ ਪੋਸਿਆ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Trying various methods, you cherish your body,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕ ਜਤਨ ਕਰ ਕੇ ਜੋ (ਕਾਇਆ) ਦੇਹ ਪਾਲੀਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕਾਂ ਜਤਨ ਕਰ ਕੇ ਇਹ ਸਰੀਰ ਪਾਲੀਦਾ ਹੈ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਾਇਆ = ਸਰੀਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Uno atiende su cuerpo con gran cuidado,"

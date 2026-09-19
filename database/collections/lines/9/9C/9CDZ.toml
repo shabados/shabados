@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਖ ਰਾਸਨ ਸੇ ॥੩੧॥"
 page = 617
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Being absorbed and dyed with love, they kept engrossed in sexual enjoinment many types of postures.31."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸੁਖ ਦੀ ਰਾਸ (ਵਰਗੇ ਸਨ) ॥੩੧॥"

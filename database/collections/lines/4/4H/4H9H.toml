@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹ ਤੁਮ ਧਰੋ ਬਿਸਨ ਅਵਤਾਰਾ ॥"
 page = 174
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਵਿਸ਼ਣੂ! ਤੁਸੀਂ ਉਸ ਦੇ (ਘਰ) ਜਾ ਕੇ ਅਵਤਾਰ ਧਾਰਨ ਕਰੋ"

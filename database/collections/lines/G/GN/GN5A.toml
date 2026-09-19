@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋ ਆਤਮਾ ਸਰੂਪ ਹੈ, ਕਹਾ ਸ੍ਰਿਸਟਿ ਕੋ ਬਿਚਾਰ ॥"
 page = 35
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What is the Nature of the Soul? What is the concept of the world?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਤਮਾ ਦਾ ਸਰੂਪ ਕੀ ਹੈ ਅਤੇ ਸ੍ਰਿਸ਼ਟੀ ਦਾ ਵਿਚਾਰ ਕਿਵੇਂ ਹੈ?"

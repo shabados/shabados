@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੇਕ ਸੱਤ੍ਰੁ ਟਾਰਹੀ ॥੫੧॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which causes many enemies to flee away.51."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਅਨੇਕ ਵੈਰੀਆਂ ਨੂੰ ਭਜਾ ਦਿੰਦਾ ਹੈ ॥੫੧॥"

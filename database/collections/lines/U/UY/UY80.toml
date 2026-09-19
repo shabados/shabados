@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਆਕੁਲ ਹੋਤ ਧਰਨਿ ਜਬ ਭਾਰਾ ॥"
 page = 190
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਰਤੀ ਜਦੋਂ (ਪਾਪਾਂ ਦੇ) ਭਾਰ ਨਾਲ ਵਿਆਕੁਲ ਹੁੰਦੀ ਹੈ"

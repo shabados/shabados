@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਮਹਾ ਬਲਵਾਨ ਕਮਾਨਨ; ਤਾਨਿ ਚਲਾਵਤ ਇਉ ਸਰ ਛੂਟੇ ॥"
 page = 474
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "From the bows of several powerful warriors the arrows are being discharged in this way"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਮਹਾ ਬਲਵਾਨ ਕਮਾਨਾਂ ਨੂੰ ਕਸ ਕੇ ਚਲਾਉਂਦੇ ਹਨ ਅਤੇ ਇਸ ਤਰ੍ਹਾਂ ਬਾਣ ਛੁਟਦੇ ਹਨ,"

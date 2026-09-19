@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਮੰਕੇ ਡੰਕ ਵਾਰੋ ਕੈ ॥"
 page = 604
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His drums, are his shields, his blows are severe,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਢਾਲਾਂ ਉਤੇ (ਹਥਿਆਰਾਂ ਦੇ) ਡਗੇ ਵਜ ਰਹੇ ਹਨ।"

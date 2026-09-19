@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਉਪਹਾਸ ਠਉਰ ਤਿਹ ਭਏ ॥"
 page = 514
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Krishna went to the city, many types of amusements and pleasantries occurred there"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ) ਉਥੇ ਬਹੁਤ ਹਾਸਾ-ਠੱਠਾ ਹੋਇਆ।"

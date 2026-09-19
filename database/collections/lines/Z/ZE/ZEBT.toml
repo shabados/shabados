@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੰਤ ਜਨਾ ਮਿਲਿ; ਬੋਲਹੁ ਰਾਮ ॥"
 page = 865
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Associating thyself with the pious persons, utter thou the Lord's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪਵਿੱਤਰ ਪੁਰਸ਼ਾਂ ਨੂੰ ਮਿਲ ਕੇ, ਤੂੰ ਪ੍ਰਭੂ ਦੇ ਨਾਮ ਦਾ ਉਚਾਰਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Joining the humble Saints, chant the Lord's Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤ ਜਨਾਂ ਸਾਥ ਮਿਲ ਕੇ ਰਾਮ ਨਾਮ ਬੋਲੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਸੰਤ ਜਨਾਂ ਨਾਲ ਮਿਲ ਕੇ, ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਸਿਮਰਿਆ ਕਰੋ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਿਲਿ = ਮਿਲ ਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Asóciate con los Santos y recita el Nombre de Dios,"

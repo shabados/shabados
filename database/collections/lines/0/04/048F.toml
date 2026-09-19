@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੰਧਨ ਛੂਟੇ ਸੁ ਥਾਨ ਸਵਾਰਿਯੋ ॥"
 page = 1012
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੰਧਨ ਤੋਂ ਛੁਟਣ ਤੇ (ਉਸ ਨੇ ਪੀਰ ਦੇ) ਥਾਨ ਨੂੰ ਸੰਵਾਰਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਚਿ ਤ੍ਰਿਯਾ ਕਹ ਤੀਰ ਲਗਾਯੋ ॥"
 page = 846
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing this, the milkman came forward, and pulled that woman out."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸਤਰੀ ਨੂੰ ਖਿਚ ਕੇ ਕੰਢੇ ਲੈ ਆਇਆ।"

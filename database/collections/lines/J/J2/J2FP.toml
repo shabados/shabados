@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤਿ ਬਕਾਸੁਰ ਦੈਤ ਬਧਹਿ ॥"
 page = 306
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "End of the killing of the Demon Bakasura."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਥੇ ਬਕਾਸੁਰ ਦੈਂਤ ਦੇ ਬੱਧ ਦਾ ਵਰਣਨ ਸਮਾਪਤ।"

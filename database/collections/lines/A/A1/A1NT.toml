@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਬੀਰ ਮਾਰੇ ਗਿਰੇ ਭੂਮਿ ਮੋਹੈ ॥੧੩੭॥"
 page = 1368
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਮਾਰੇ ਹੋਏ ਸੂਰਮੇ ਧਰਤੀ ਉਤੇ ਡਿਗੇ ਹੋਏ ਮੋਹ ਰਹੇ ਸਨ ॥੧੩੭॥"

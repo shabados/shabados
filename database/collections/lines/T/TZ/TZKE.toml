@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਰਬ ਹੀ ਸਿਰਜੇ ਧਰਮ ਕੇ ਸਾਜਾ ॥"
 page = 194
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Vishnu incarnated himself as the king Manu and established all the actions of Dgarma."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਧਰਮ ਦੇ ਸਾਰੇ ਸਾਜ ਸਿਰਜ ਦਿੱਤੇ।"

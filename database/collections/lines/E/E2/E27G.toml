@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹੀ ਮੈਨ ਕੁਅਰਿ ਜੀ ਜਾਗੀ ॥"
 page = 950
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Maan Kunwar woke up."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਹੀ ਮੈਨ ਕੁਅਰਿ ਜਾਗ ਪਈ।"

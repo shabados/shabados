@@ -1,16 +1,16 @@
 [[content]]
-asset = "SSKS"
+assets = ["SSKS"]
 type = "primary"
 data = "ਸੋਰਠਾ ॥"
 
 [[content]]
-asset = "SSPK"
+assets = ["SSPK"]
 type = "translation"
 language = "en"
 data = "Sorath:"
 
 [[content]]
-asset = "SSSK"
+assets = ["SSSK"]
 type = "translation"
 language = "pa"
 data = "ਪਿਤਾ ਗੁਰੂ ਤੋਂ ਗੁਰੂ ਪੁਤ੍ਰ ਪ੍ਰਗਟਿਆ:"

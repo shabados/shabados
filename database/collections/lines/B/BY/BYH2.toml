@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੰਗਨ ਨਾਹੀ ਪਾਣੀ; ਦਲੀ ਹੰਘਾਰ ਕੈ ॥"
 page = 122
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Challenging the armies, these warriors do not even ask for water."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਣ ਵਿਚ ਵੈਰੀ) ਦਲ ਨੂੰ ਲਲਕਾਰਦੇ ਹੋਏ (ਸੂਰਵੀਰ) ਪਾਣੀ ਤਕ ਨਹੀਂ ਮੰਗਦੇ ਸਨ।"

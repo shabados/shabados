@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੌ ਤੌ ਯਾ ਕੋ ਗਾਡਿਯੈ; ਕਹੌ ਤੇ ਦੇਉ ਜਰਾਇ ॥੩੦॥"
 page = 912
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With your order it should be either buried or put on fire.(30)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਹੋ, ਤਾਂ ਇਸ ਨੂੰ ਗਡ ਦਿੱਤਾ ਜਾਏ ਜਾਂ ਕਹੋ ਤਾਂ ਸਾੜ ਦਿੱਤਾ ਜਾਏ ॥੩੦॥"

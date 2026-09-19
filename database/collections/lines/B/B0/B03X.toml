@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜ ਅਨੁਜਨਨਿਨਿ ਆਦਿ ਕਹਿਜੈ ॥"
 page = 773
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਅਜ (ਚੰਦ੍ਰਮਾ) ਅਨੁਜਨਨਿਨਿ' (ਸ਼ਬਦ) ਕਥਨ ਕਰੋ।"

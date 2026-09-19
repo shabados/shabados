@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਵੀ ਚਾਵਡੀ ਡਾਕਣੀਯੰ ਡਕਾਰੰ ॥੩॥੧੫੯॥"
 page = 112
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The voices of vultures and vampires were heard in the battlefield.3.159."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੁੜੇਲਾਂ ਬੋਲ ਰਹੀਆਂ ਸਨ ਅਤੇ ਡਾਕਣੀਆਂ ਡਕਾਰ ਰਹੀਆਂ ਸਨ ॥੩॥੧੫੯॥"

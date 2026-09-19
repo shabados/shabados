@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਥ ਫਕੀਰਨ ਕੇ ਅਨੁਰਾਗੀ ॥"
 page = 1313
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫ਼ਕੀਰਾਂ ਨਾਲ ਪ੍ਰੇਮ-ਸੰਪਰਕ ਕਾਇਮ ਕਰ ਲਿਆ।"

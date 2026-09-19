@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਰੁਧ ਜੀ ਕੋ ਬ︀ਯਾਹ ਕਥਨੰ ॥"
 page = 514
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Description of the marriage of Aniruddh"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨਰੁੱਧ ਜੀ ਦੇ ਵਿਆਹ ਦਾ ਕਥਨ:"

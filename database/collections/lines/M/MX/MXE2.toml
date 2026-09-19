@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀਆਂ ਛੁਪੀਆਂ ਹੋਈਆਂ ਖੁਬੀਆਂ ਦਾ ਜਦ ਪਤਾ ਚਲ ਗਿਆ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਮਹਰਮ ਹਰਫ਼ਾਤਿ ਊ ਰਾ ਗਸ਼ਤਾ ਅਸ਼ਤ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "How long would you be in the never-ending captivity of anxieties?"

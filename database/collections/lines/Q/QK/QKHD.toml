@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਿਟਿ ਮਦ ਗਯੋ ਜਬੈ ਸੁਧ ਪਾਈ ॥"
 page = 949
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਨਸ਼ਾ ਖ਼ਤਮ ਹੋ ਗਿਆ ਅਤੇ ਹੋਸ਼ ਆ ਗਈ,"

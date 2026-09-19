@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਮਾ ਡੰਮਿ ਡਉਰੂ ਡਕਾ ਡੁੰਕ ਡੰਕੰ ॥"
 page = 110
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sound of the trumpets and the tabors is being heard."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਡੌਰੂ ਡੰਮ ਡੰਮ ਕਰ ਰਹੇ ਸਨ (ਅਤੇ ਨਗਾਰਿਆਂ ਉਤੇ) ਡੱਗੇ ਡਕ ਡਕ ਕਰ ਕੇ (ਵਜ ਰਹੇ ਸਨ)।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਚੇ ਭੂਤ ਭਾਰੀ ॥"
 page = 52
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The flesh-eating creatures are laughing and the gangs of ghosts are dancing."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵਡੇ ਭੂਤ ਨਚ ਰਹੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੂਧ ਭਾਤ ਆਗੇ ਲੈ ਧਰਹੀ ॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They presented him milk and rice,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਅਗੇ ਦੁੱਧ ਅਤੇ ਭਾਤ ਲਿਆ ਕੇ ਰਖੇ"

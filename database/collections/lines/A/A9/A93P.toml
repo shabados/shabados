@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੋਈ ਬਿਧਾਤਾ; ਖਿਨੁ ਖਿਨੁ ਜਪੀਐ ॥"
 page = 1004
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "contemplate thou that creator every moment."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਉਸ ਸਿਰਜਣਹਾਰ ਨੂੰ ਹਰ ਮੁਹਤ ਯਾਦ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Each and every instant, meditate on that Creator Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋਈ ਕਰਮ ਫਲ ਪਰਦਾਤਾ ਖਿਨ ਖਿਨ ਮੇਂ ਜਪੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸੇ ਸਿਰਜਣਹਾਰ ਨੂੰ ਹਰੇਕ ਖਿਨ ਜਪਣਾ ਚਾਹੀਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਧਾਤਾ = ਸਿਰਜਣਹਾਰ। ਜਪੀਐ = ਜਪਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Habita por siempre y para siempre en Él,"

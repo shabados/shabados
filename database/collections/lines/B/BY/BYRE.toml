@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਛਤ ਧੂਪ ਕੁੰਕਮਹਿ ਲਾਹੀ ॥"
 page = 917
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Men and women would walk to the place burning incense and sprinkling saffron."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚੌਲ ਕੇਸਰ ਲਗਾਉਂਦੇ ਅਤੇ ਧੂਪ (ਜਗਾਉਂਦੇ ਸਨ)।"

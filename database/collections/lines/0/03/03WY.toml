@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਕ੍ਰਮ ਬਚ ਜਿਨ ਬਸਿ ਕੀਨਾ ਪਿਯ ॥੧॥"
 page = 1162
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਮਨ, ਬਚਨ ਅਤੇ ਕਰਮ ਕਰ ਕੇ ਪਤੀ ਨੂੰ ਵਸ ਵਿਚ ਕੀਤਾ ਹੋਇਆ ਸੀ ॥੧॥"

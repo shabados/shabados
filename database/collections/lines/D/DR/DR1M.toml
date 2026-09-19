@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਨਕਰ ਚਿਤ ਚਕਵੀ ਜਾਨਿਆ ॥"
 page = 625
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The peacocks thought of him as cloud and the Chakvi (Brahmani duck) as sun"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚਕਵੀ ਨੇ ਚਿਤ ਵਿਚ ਸੂਰਜ ਕਰ ਕੇ ਸਮਝਿਆ।"

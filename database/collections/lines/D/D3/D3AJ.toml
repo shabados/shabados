@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਤਿਗੁਰ ਸਰਣੀ ਜਾਇ; ਸੀਸੁ ਨਿਵਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He is true Sikh who surrenders before the Guru and bows his head;"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੇ) ਸਤਿਗੁਰੂ ਦੀ ਸ਼ਰਨੀ ਜਾਕੇ ਸਿਰ ਨਿਵਾਇਆ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾ ਕਉ; ਆਪਿ ਕਰਹਿ ਫੁਰਮਾਨੁ ॥੩॥"
 page = 200
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "for whom, the Lord Himself issues the command."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਲਈ ਪ੍ਰਭੂ ਖੁਦ ਹੁਕਮ ਜਾਰੀ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "the Lord Himself issues His Royal Command. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੋ ਤੂੰ ਆਪ ਗੁਰ ਉਪਦੇਸ ਰੂਪ ਹੁਕਮ ਕਰਤਾ ਹੈਂ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ (ਸੇਵਕ) ਦੇ ਵਾਸਤੇ ਤੂੰ ਆਪ ਹੁਕਮ ਕਰਦਾ ਹੈਂ ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਫੁਰਮਾਨੁ = ਹੁਕਮ ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "el Honor de uno es aprobado y uno recibe el Sello de la Verdad.(3)"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਹਨ ਦਿਸ ਤੇ ਸਤਿ ਉਪਜਾਵਾ ॥"
 page = 707
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He created truth from the right side and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੱਜੇ ਪਾਸੇ ਤੋਂ 'ਸਤਿ' ਨੂੰ ਪੈਦਾ ਕੀਤਾ"

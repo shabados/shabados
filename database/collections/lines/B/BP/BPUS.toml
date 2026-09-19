@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਹਿ ਲ︀ਯਾਵਹੁ ਤਿਹ ਤੀਰ ਹਮਾਰੇ ॥"
 page = 838
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja ordered thus, ‘Go and get her and also bring my shoes and robe."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਉਸ ਨੂੰ ਪਕੜ ਕੇ ਮੇਰੇ ਕੋਲ ਲੈ ਆਓ।"

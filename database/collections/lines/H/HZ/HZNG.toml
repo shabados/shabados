@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਰਿ ਵਾਹਿਗੁਰੂ ਮੰਤਰ ਅਗੰਮ; ਜਗ ਤਾਰਨਹਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The emancipator Guru (advanced) the incantation of Har, Wahiguru, God the Supreme, Har, Wahiguru."

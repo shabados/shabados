@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਉ ਤਿਸ ਵਿਟਹੁ ਵਾਰਿਆ; ਛੋਡਿ ਸਿਆਣਪ ਹੋਇ ਇਆਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "I am sacrifice unto him who repudiating all cleverness becomes childlike"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਉਸਥੋਂ ਵਾਰਨੇ ਜਾਂਦਾ ਹਾਂ ਜੋ ਸਿਆਣਪਾਂ ਛੱਡਕੇ ਇਆਣਾ (ਭੋਲਾ ਭਾਲਾ) ਬਣ ਰਹੇ।"

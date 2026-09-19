@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਘਰ ਵਿਚਿ ਪੁਛਣ ਘਲਿਆ; ਅੰਤਿ ਕਾਲ ਹੈ ਕੋਇ ਅਸਾੜਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The Guru asked him to enquire at home as to which family members would be co-partner him of his evil deeds at death."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਸੰਤਾਂ ਨੇ) ਭੇਜਿਆ ਭਈ ਘਰੋਂ ਤੂੰ ਪੁਛ ਆ ਕਿ ਅੰਤ ਨੂੰ ਤੇਰਾ ਕੋਈ (ਰੱਛਕ) ਭੀ ਹੋਊੂ?"

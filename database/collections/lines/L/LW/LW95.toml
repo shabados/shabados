@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਿਲੇ ਮਤ ਦੰਤੀ ਕਿਤੇ ਸੇਤ ਬਰਨੰ ॥੧੮॥੧੮੬॥"
 page = 143
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He also got many wanton white-coloured elephants with tusks.18.186."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਹੀ ਚਿੱਟੇ ਰੰਗ ਦੇ ਮਸਤ ਹਾਥੀ ਮਿਲੇ ॥੧੮॥੧੮੬॥"

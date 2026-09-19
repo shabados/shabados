@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਨੇਹ ਗੇਹ, ਨਹੀ ਪਿਤ੍ਰ ਮਾਤ ॥"
 page = 29
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which is without love home father and mother!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੂੰ) ਘਰ, ਪਿਤਾ ਅਤੇ ਮਾਤਾ ਦਾ ਸਨੇਹ ਨਹੀਂ ਹੈ;"

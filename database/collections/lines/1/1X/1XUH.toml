@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਤਿਤੁ ਅਜਾਮਲ ਪਾਪੁ ਕਰਿ; ਜਾਇ ਕਲਾਵਤਣੀ ਦੇ ਰਹਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Ajamil, the fallen sinner lived with a prostitute."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਇਕ) ਅਜਾਮਲ ਨਾਮੇ ਪਾਪੀ ਪਾਪ ਕਰ ਕੇ ਕਲੌਤਣੀ ਦੇ (ਘਰ)ਜਾ ਰਿਹਾ।"

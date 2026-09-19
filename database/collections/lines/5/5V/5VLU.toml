@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਨਮਤੀ ਤਿਹ ਕੀ ਬਰ ਨਾਰੀ ॥"
 page = 1079
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨਵਤੀ ਉਸ ਦੀ ਸੁੰਦਰ ਇਸਤਰੀ ਸੀ।"

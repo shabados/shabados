@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਵਣ ਜਾਣ ਰਹੇ; ਜਨਮੁ ਨ ਤਹਾ ਮਰਿ ॥"
 page = 524
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My comings and goings, have ceased, as there is no birth and death there."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੁੱਕ ਗਏ ਹਨ ਮੇਰੇ ਆਉਣੇ ਅਤੇ ਜਾਣੇ ਕਿਉਂ ਜੋ ਉਥੇ ਪੈਦਾਇਸ਼ ਤੇ ਮੌਤ ਹਨ ਹੀ ਨਹੀਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "My comings and goings have ended - there is no birth or death there."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਆਵਣ ਜਾਣ ਸੇ ਰਹਿਤ ਹੂਏ ਹੈਂ, ਕਿਉਂਜੋ ਤਿਸ ਆਚੁਤ ਸ੍ਵਰੂਪ ਮੇਂ ਪ੍ਰਾਪਤਿ ਹੋ ਕਰ ਜਨਮਣਾ ਮਰਣਾ ਨਹੀਂ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਉਨ੍ਹਾਂ ਦੇ ਜਨਮ ਮਰਨ ਮੁੱਕ ਜਾਂਦੇ ਹਨ, ਓਥੇ ਉਨ੍ਹਾਂ ਲਈ ਕੋਈ ਜਨਮ ਤੇ ਮੌਤ ਨਹੀਂ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਰਿ = ਮਰੀ, ਮੌਤ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sus idas y venidas se acaban, sus nacimientos y muertes."

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘੂਮਿ ਭੂਮਿ ਕੇ ਊਪਰ ਛਰਿਯੋ ॥"
 page = 1040
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਭਵਾਟਣੀਆਂ ਖਾ ਖਾ ਕੇ ਧਰਤੀ ਉਤੇ ਡਿਗਿਆ।"

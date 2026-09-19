@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਸੰ ਹਾਥ ਅੱਤ੍ਰੰ ॥੪੧॥"
 page = 42
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And the weapons glisten in His hands.41."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੱਥ ਵਿਚ ਅਸਤ੍ਰ ਲਿਸ਼ਕਦੇ ਹਨ ॥੪੧॥"

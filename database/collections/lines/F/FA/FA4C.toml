@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਤਿਗੁਰ; ਮੈ ਬਲਿਹਾਰੀ ਤੋਰ ॥"
 page = 1195
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My True Guru, a sacrifice am I Unto thee."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਸੱਚੇ ਗੁਰਦੇਵ ਜੀ, ਕੁਰਬਾਨ ਹਾਂ ਮੈਂ ਤੁਹਾਡੇ ਉਤੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I am a sacrifice to You, O my True Guru."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਤਿਗੁਰ! ਮੈਂ ਆਪ ਕੇ ਬਲਿਹਾਰਨੇ ਜਾਤਾ ਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਤਿਗੁਰੂ! ਮੈਂ ਤੈਥੋਂ ਸਦਕੇ ਹਾਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਲਿਹਾਰੀ ਤੋਰ = ਤੈਥੋਂ ਸਦਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "En sacrificio ofrezco mi vida a Ti, oh Guru,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਚਿਤ ਹ੍ਵੈ ਦ੍ਰਿੜ ਜਪੁ ਜਬ ਕਿਯੋ ॥"
 page = 841
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਮਨ ਨੂੰ ਦ੍ਰਿੜ੍ਹਤਾ ਨਾਲ ਇਕਾਗਰ ਕੀਤਾ,"

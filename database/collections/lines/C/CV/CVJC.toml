@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰ ਜੁਧ ਕੇ ਹੇਤ ਸਿਧਾਰੇ ॥੧੬੬੦॥"
 page = 463
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors wearing their armours and holding weapons marched for war.1660."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਯੁੱਧ ਲਈ ਚਲ ਪਏ ਹਨ ॥੧੬੬੦॥"

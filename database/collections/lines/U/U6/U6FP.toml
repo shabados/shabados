@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹੇ ਨ, ਇਆਨੀ ॥"
 page = 222
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਨੇ ਕਿਹਾ-) ਹੇ ਇਆਣੀ! (ਚੁੱਪ ਕਿਉਂ) ਨਹੀਂ ਰਹਿੰਦੀ?"

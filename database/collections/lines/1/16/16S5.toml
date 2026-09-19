@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਿਥਾ ਨ ਦੀਜੈ ਜਾਨ; ਮੈਨ ਬਸਿ ਮੈ ਭਈ ॥"
 page = 827
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Don’t lose this opportunity  I am in the grip (of Cupid)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਮੇਂ ਨੂੰ) ਵਿਅਰਥ ਨਾ ਜਾਣ ਦਿਓ, ਮੈਂ (ਇਸ ਵੇਲੇ) ਕਾਮ ਦੇ ਵਸ ਵਿਚ ਹਾਂ।"

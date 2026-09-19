@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਵਨੈ ਘਾਤ ਤ੍ਰਿਯਾ ਲਖਿ ਜਾਵੈ ॥"
 page = 895
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As soon as the goldsmith tried to steal, the woman came to know of it."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਦਾਓ ਨੂੰ ਇਸਤਰੀ ਜਾਣ ਜਾਂਦੀ।"

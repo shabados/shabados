@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪਹੁ ਮਾਰਿ ਕਟਾਰੀ ਮਰੀ ॥"
 page = 995
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The woman, then, thought of her lover and killed herself with a dagger."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪ ਕਟਾਰ ਮਾਰ ਕੇ ਮਰ ਗਈ।"

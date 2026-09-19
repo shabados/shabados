@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਚੀਤਾ ਤੇ ਹਰਿਨ ਗਹਾਏ ॥"
 page = 865
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "First the dogs were let loose to chase the deer, then were sent the tiger after them."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਚਿਤਰਿਆਂ ਦੁਆਰਾ ਹਿਰਨਾਂ ਨੂੰ ਪਕੜਵਾਇਆ।"

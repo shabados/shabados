@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਪਨਾ ਦਿਯੋ ਪੀਰ ਸੁਖਦਾਈ ॥੬॥"
 page = 1279
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁਪਨੇ ਵਿਚ (ਦਰਸ਼ਨ) ਦੇ ਕੇ ਮੇਰੀ ਮੰਨਤ ਪੂਰੀ ਕਰ ਦਿੱਤੀ ਹੈ ॥੬॥"

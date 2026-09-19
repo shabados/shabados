@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ︀ਯਾਰਹ ਰੁਦ੍ਰ ਭਾਨ ਸਭ ਆਏ ॥"
 page = 464
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The eleven Rudras and Surya reached there fore the protection of Ajit Singh"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗਿਆਰਾਂ ਰੁਦਰ ਅਤੇ ਸਾਰੇ ਸੂਰਜ ਆਏ ਹਨ।"

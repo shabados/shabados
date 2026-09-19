@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਧਿ ਖਾਟ ਤਰ ਭਾਟ ਕੌ; ਤਾ ਕਰ ਤੇ ਮਦ ਪੀਯ ॥"
 page = 1058
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਾਟ ਨੂੰ ਮੰਜੀ ਹੇਠਾਂ ਬੰਨ੍ਹ ਕੇ ਅਤੇ ਉਸ ਦੇ ਹੱਥ ਨਾਲ ਸ਼ਰਾਬ ਪੀ ਕੇ,"

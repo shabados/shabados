@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਹਸਿ ਰਿਸਾਲੁ ਬਚਨ ਸੁਨਾਯੋ ॥੬੪॥"
 page = 936
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the deer came towards that side, Rasaloo said jovially,(64)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਰਿਸਾਲੂ ਨੇ ਹਸ ਕੇ ਕਿਹਾ ॥੬੪॥"

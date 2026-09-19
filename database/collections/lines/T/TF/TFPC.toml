@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੋ ਦਗਧ ਤੋ ਕੌ ਦਿਵੌ ਐਸ ਸ੍ਰਾਪੰ ॥"
 page = 142
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Or by giving such curse I shall reduce thee to ashes"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੈਨੂੰ ਅਜਿਹਾ ਸ੍ਰਾਪ ਦਿਆਂਗਾ (ਜਿਸ ਨਾਲ ਤੂੰ ਵੀ) ਸੜ ਜਾਵੇਂਗਾ।"

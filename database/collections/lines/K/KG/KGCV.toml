@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਰਸ ਤਿਲਕ ਦੇਇ ਤਿਹ ਦਾਰਾ ॥"
 page = 1258
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਪਤਨੀ ਦਾ ਨਾਂ ਰਸ ਤਿਲਕ ਦੇਈ ਸੀ।"

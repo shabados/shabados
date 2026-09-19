@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫੋਕਟ ਧਰਮ ਸਜੇ ਸਬ ਹੀ; ਹਮ ਏਕ ਹੀ ਕੌ ਬਿਧਿ ਨੇਕ ਪ੍ਰਮਾਨਯੋ ॥੧੫॥"
 page = 713
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way you prove Shukdev, Prashar etc. as liars   all the so-called religions are hollow    I only accept the One Lord as the Providence.15."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਧਰਮ ਫੋਕਟ ਰੂਪ ਵਿਚ ਸਥਿਤ ਹਨ। ਅਸੀਂ ਤਾਂ ਇਕ ਨੂੰ ਹੀ ਅਨੇਕ ਢੰਗਾਂ ਨਾਲ ਪ੍ਰਮਾਣਿਤ ਕਰਦੇ ਹਾਂ ॥੧੫॥"

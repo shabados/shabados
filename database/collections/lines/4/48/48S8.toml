@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਖ ਪੋਛ ਤਬੈ ਬਚਨਾ ਉਚਰੇ ॥"
 page = 236
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His younger brother clasped him and raised him and said while cleansing his face :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੂੰਹ ਪੂੰਝ ਕੇ ਉਸ ਵੇਲੇ ਇਹ ਬੋਲ ਕਹੇ-ਹੇ ਪ੍ਰਭੂ!"

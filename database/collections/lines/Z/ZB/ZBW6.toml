@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਿਯੋ ਐਸ ਕੈ ਬਿਸਨੁ ਤ੍ਰਿਤੀਆਵਤਾਰੰ ॥"
 page = 163
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In great anger. The blows of the steel-arms began to rain and at this juncture Vishnu manifested his third incarnation."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਮੌਕੇ ਵਿਸ਼ਣੂ ਨੇ ਤੀਜਾ ਅਵਤਾਰ ਧਾਰਿਆ।"

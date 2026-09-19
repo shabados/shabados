@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਜਰ︀ਯੋ ਤਾ ਮਹਿ ਰਾਇ ॥"
 page = 709
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਉਸ ਵਿਚ ਰਾਜਾ (ਪਾਰਸ ਨਾਥ) ਸੜ ਗਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਆ ਚੂਕ ਪੁਕਾਰਤ ਭਈ ॥"
 page = 652
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sage met a lady-gardener there, who was shouting continuously"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ 'ਸੌਣ ਵਾਲਾ ਚੁਕ ਗਿਆ' (ਜੋ ਕਿਸਾਨ ਸੌਂ ਗਿਆ,"

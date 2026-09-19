@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖਿ ਲਾਜ ਗੰਗ ਤਰੰਗ ॥"
 page = 657
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing his bright and blemishless limbs, the waves of Ganges felt shy"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੰਗਾ ਦੀਆਂ ਲਹਿਰਾਂ ਲਜਾ ਰਹੀਆਂ ਹਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੇਦ ਕਤੇਬ ਯੌ ਭੇਦ ਬਤਾਵੈ ॥੨੫॥"
 page = 1235
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੇਦ ਕਤੇਬ ਇਹੀ ਭੇਦ ਦੀ ਗੱਲ ਦਸਦੇ ਹਨ ॥੨੫॥"

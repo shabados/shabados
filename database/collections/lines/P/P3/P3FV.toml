@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹ ਚਲਿ ਖਬਰ ਜਾਤ ਭੀ ਤਹਾ ॥"
 page = 954
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਸਿਯਾ ਤੇ ਉਸ ਦੇ ਪਤੀ ਪੁੰਨੂੰ ਦੇ ਮਰਨ ਦੀ) ਇਹ ਖ਼ਬਰ ਉਥੇ ਜਾ ਪਹੁੰਚੀ"

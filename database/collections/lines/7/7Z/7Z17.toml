@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਛੇ ਅਰੁਨ ਬਸਤ੍ਰ ਤਨ ਧਾਰੇ ॥"
 page = 960
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਸੁੰਦਰ ਲਾਲ ਬਸਤ੍ਰ ਧਾਰਨ ਕੀਤੇ"

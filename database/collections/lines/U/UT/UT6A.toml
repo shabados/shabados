@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਬਿਬੇਕ ਅਬਿਬੇਕ; ਜਗਤ ਦ੍ਵੈ ਨ੍ਰਿਪਤਿ ਸੁਲਛਨ ॥"
 page = 692
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Vivek and Avivek both are the kings of distinct characteristics (of the world)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਬਿਬੇਕ ਅਤੇ ਇਕ ਅਬਿਬੇਕ, ਦੋਵੇਂ ਜਗਤ ਵਿਚ ਚੰਗੇ ਲੱਛਣਾਂ ਵਾਲੇ ਰਾਜੇ ਹਨ।"

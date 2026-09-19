@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਲਪ ਬ੍ਰਿਛ ਧੁਜ ਕੁਅਰ ਕੌ; ਨਿਰਖਿ ਗਈ ਲਲਚਾਇ ॥"
 page = 1163
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੁੰਵਰ ਕਲਪ ਬ੍ਰਿਛ ਧੁਜ ਨੂੰ ਵੇਖ ਕੇ (ਉਹ) ਲਲਚਾ ਗਈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਵ ਹਿਤ ਭੇਸ ਅਤਿਥ ਕੋ ਸਾਜਾ ॥੧੬॥"
 page = 1300
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਲਈ ਸਾਧ ਦਾ ਭੇਸ ਧਾਰਿਆ ਹੈ ॥੧੬॥"

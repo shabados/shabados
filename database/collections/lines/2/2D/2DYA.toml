@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਮਨੰ ਬਰਖਾ ਨਭ ਤੇ ਬਰਖੇ ॥"
 page = 179
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing this performance all the saints were pleased and gods showered flowers form heaven."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਕਾਸ਼ ਤੋਂ ਫੁਲਾਂ ਦੀ ਬਰਖਾ ਹੋਣ ਲਗੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿ ਸਕਤਣਿ ਪਦ ਆਣਿ ਭਣਿਜੈ ॥"
 page = 791
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਹਰਿ ਸਕਤਣਿ' (ਸ਼ੇਰ ਦੀ ਤਾਕਤ ਵਾਲੀ ਸੈਨਾ) ਸ਼ਬਦ ਕਹੋ।"

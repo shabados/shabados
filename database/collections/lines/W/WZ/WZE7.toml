@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹੀ ਆਪ ਕੋ ਰਕਤ ਦੰਤਾ ਕਹੈ ਹੈ ॥"
 page = 810
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You, with the red teeth,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਆਪਣੇ ਨੂੰ ਲਾਲ ਦੰਦਾਂ ਵਾਲੀ ਅਖਵਾਂਦੀ ਹੈਂ।"

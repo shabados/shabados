@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਤ ਇਤੀ ਨਹੀ ਬਰਨ ਸੁਨਾਊਂ ॥"
 page = 158
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I have no power to give their description,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੇਰੇ ਵਿਚ) ਇਤਨੀ ਸਮਰਥਾ ਨਹੀਂ (ਜੋ ਸਾਰੇ ਬ੍ਰਿੱਤਾਂਤ ਦਾ) ਵਰਣਨ ਕਰਕੇ ਸੁਣਾਵਾਂ"

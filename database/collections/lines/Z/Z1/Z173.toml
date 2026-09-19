@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਚਰੇ ਬੈਨ ਇਹ ਹਣੋ ਜਾਇ ॥"
 page = 568
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਹੰਕਾਰ ਨਾਲ ਬੋਲ ਉਚਾਰੇ ਕਿ ਇਸ ਨੂੰ (ਲੈ) ਜਾ ਕੇ ਮਾਰ ਦਿਓ।"

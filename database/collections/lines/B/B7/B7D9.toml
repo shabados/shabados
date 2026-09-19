@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤੈ ਉਚਰੇ ਰਾਮ ਲੰਕੇਸ ਬੈਣੰ ॥"
 page = 241
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਧਰ ਰਾਮ ਜੀ ਨੇ ਵਿਭੀਸ਼ਣ ਨੂੰ (ਲੰਕਾ ਦਾ ਰਾਜਾ ਹੋਣ ਦੇ) ਬੋਲ ਕਹੇ ਹਨ"

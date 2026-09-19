@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇ ਭੀ ਬਲਿ ਪੂਜਾ ਉਰਝਾਏ ॥"
 page = 55
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਵੀ ਆਪਣੀ ਬਲੀ ਅਤੇ ਪੂਜਾ ਵਿਚ ਉਲਝ ਗਏ"

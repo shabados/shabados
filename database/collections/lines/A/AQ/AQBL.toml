@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਸਦੇ ਤੀਰ ਦੇ ਸਾਹਮਣੇ ਪੱਥਰ ਜਾਂ ਲੋਹਾ ਕੀ ਹਨ#"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਚਿ ਸੰਗੋ ਚਿ ਆਹਨ ਬਰਿ ਤੀਰਿ ਊ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Neither the stone nor the steel are no match against his arrow, and"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨੇ ਸਰਬ ਮਾਤੈਂ ॥੬੭੧॥"
 page = 270
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brave Ram began to talk and all the mothers listened.671."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ) ਸਾਰੀਆਂ ਨੂੰ ਮਾਤਾ ਸੁਣਨ ਲਗੀ ॥੬੭੧॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਤ ਛੋਹਨੀ ਦਲੁ ਲੀਏ; ਰਥ ਪੈਦਲ ਗਜ ਬਾਜ ॥"
 page = 456
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With them there were several extremely big military units alongwith chariots, soldiers on foot, elephants and horses"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਪਾਂਡਵਾਂ ਨੇ) ਰਥ, ਪੈਦਲ, ਘੋੜੇ ਅਤੇ ਹਾਥੀ ਵਾਲੀ ਬਹੁਤ ਸਾਰੀ ਅਛੋਹਣੀ ਸੈਨਾ (ਨਾਲ) ਲਈ ਹੋਈ ਹੈ।"

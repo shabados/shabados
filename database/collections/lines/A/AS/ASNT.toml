@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤੈਨੂੰ ਉਮਰ ਦਾ ਫਲ ਪਰਾਪਤ ਹੋ ਜਾਵੇਗਾ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਤੂ ਹਮ ਅਜ਼ ਈਂ ਉਮਰ ਯਾਬੀ ਬਹਿਰਾਇ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Put his head down on his sacred lotus feet, (137)"

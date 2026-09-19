@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਬਿਧਨਾ ਮਸਤਕ ਲਿਖਾ; ਅੰਤ ਤੈਸਿਯੈ ਹੋਇ ॥੪੪॥"
 page = 1154
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਵਿਧਾਤਾ ਨੇ ਮਸਤਕ ਉਥੇ ਲਿਖ ਦਿੱਤਾ ਹੈ, ਅੰਤ ਵਿਚ ਉਸੇ ਤਰ੍ਹਾਂ ਹੀ ਹੁੰਦਾ ਹੈ ॥੪੪॥"

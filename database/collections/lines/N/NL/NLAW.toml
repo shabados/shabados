@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਖ ਝਾਝ ਅਰੁ ਢੋਲ ਬਜਾਇ ॥"
 page = 1382
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸੰਖ, ਝਾਂਝ ਅਤੇ ਢੋਲ ਵਜਾਉਂਦੇ ਹੋਏ"

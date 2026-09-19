@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹੀ ਘੋਰ ਘਟਾ ਘਨ ਗਾਜ੍ਰਯੋ ॥"
 page = 926
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the weaver and his wife were running away, the thunder storm approached,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਵੇਲੇ ਭਿਆਨਕ ਬਦਲ ਗੱਜਣ ਲਗਿਆ।"

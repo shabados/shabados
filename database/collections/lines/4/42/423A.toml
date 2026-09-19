@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਯੋ ਮੂੜ ਰਾਵਣ ਰਣ ਕ੍ਰੁਧੰ ॥"
 page = 262
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੂਰਖ ਰਾਵਣ ਦੇ ਮਨ ਵਿੱਚ (ਉਸ ਵੇਲੇ) ਕ੍ਰੋਧ ਹੋਇਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੂਖ ਜਿਤੇ ਜੁ ਹੁਤੇ ਮਨ ਮੈ; ਤਿਤਨੇ ਹਰਿ ਨਾਮੁ ਕੇ ਲੇਵਤ ਖੋਏ ॥"
 page = 335
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the sufferings are destroyed by the repetition of the name of the Lord"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਦੇ) ਮਨ ਵਿਚ ਜਿਤਨੇ ਦੁਖ ਸਨ, ਉਹ ਸਾਰੇ ਹਰਿ ਨਾਮ ਦੇ ਲੈਣ ਨਾਲ ਨਸ਼ਟ ਹੋ ਗਏ।"

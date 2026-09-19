@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੇਤਿਕ ਬਾਇ ਪਿਤ ਤਨ ਬਢੀ ॥੨੪੩॥"
 page = 1375
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਈਆਂ ਦੇ ਸ਼ਰੀਰ ਵਿਚ ਵਾਯੂ ਅਤੇ ਪਿਤ ਵਧ ਗਈ ॥੨੪੩॥"

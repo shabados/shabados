@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਬਿਛੌਨਾ ਕੀ ਬਿਛਵਾਏ ॥"
 page = 920
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja, then, sent them away, and collected the leaves of lotus,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵਿਛੌਣੇ ਵਾਂਗ ਵਿਛਵਾ ਦਿੱਤੇ।"

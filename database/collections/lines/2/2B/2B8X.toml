@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਰਮਤਿ ਛਾਇ ਰਹੀ ॥੧੩੪॥"
 page = 564
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "New activities were introduced and the wicked intellect spread on all the four sides.134."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਸਭ ਦੇ ਮਨ ਵਿਚ) ਦੁਰਮਤ ਛਾਈ ਹੋਈ ਹੈ ॥੧੩੪॥"

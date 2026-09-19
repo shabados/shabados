@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਰੁਦ੍ਰ ਅਰੁ ਚੰਡਿ ਕੇ; ਚਲੇ ਪੂਜਬੇ ਕਾਜ ॥"
 page = 371
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾ ਰੁਦਰ ਅਤੇ ਚੰਡੀ ਦੀ ਪੂਜਾ ਦੇ ਕੰਮ ਲਈ ਚਲੇ ਹਨ।"

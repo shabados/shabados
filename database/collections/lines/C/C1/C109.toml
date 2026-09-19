@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਸ੍ਰੀ ਆਦ ਪੁਰਖੰ, ਅਨਾਦੰ ਸਰੂਪੰ ॥"
 page = 708
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸ੍ਰੀ ਆਦਿ ਪੁਰਸ਼ ਅਨਾਦਿ,"

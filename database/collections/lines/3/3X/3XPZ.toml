@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪ ਚਲੇ ਜੂਝਨ ਅਭਿਮਾਨੀ ॥"
 page = 115
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The demon-king Sumbh did not accept this proposal and in his pride, marched forward for war."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਅਭਿਮਾਨੀ (ਦੁਰਗਾ ਨਾਲ) ਲੜਨ ਲਈ ਆਪ ਤੁਰ ਪਿਆ।"

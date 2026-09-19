@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਰਾਜੇ ਡਿਠਾ ਚਲਿਤੁ ਇਹੁ; ਏਹ ਖੜਾਵ ਹੈ ਚੋਜ ਵਿਡਾਣੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The king upheld this feat and realized that there her matching sandal was a miracle."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਇਹ ਚਲਿੱਤ੍ਰ੍ਰ ਦੇਖਿਆ ਕਿ ਇਹ ਖੜਾਉਂ ਤਾਂ ਵੱਡਾ ਅਚਰਜ ਕੌਤਕ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜਾ ਮੇਧ ਤੇ ਸਕੈ ਨ ਗਨ ਕਿਹ ॥"
 page = 626
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He also performed Gajmedh Yajnas and he performed Ajaamedh Yajnas so many times that they cannot be enumerated"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਜਾ-ਮੇਧ (ਬਕਰੇ ਦੀ ਬਲੀ ਵਾਲੇ) ਯੱਗ ਕਿਤਨੇ ਕੀਤੇ,"

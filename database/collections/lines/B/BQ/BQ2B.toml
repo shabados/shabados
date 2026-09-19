@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਣਿਓ ਕਾਲ ਰੂਪੰ ॥"
 page = 593
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਰਾਜਿਆਂ ਨੇ ਕਾਲ ਵਰਗੇ (ਸੂਰਮਿਆਂ ਨੂੰ) ਜਿਤ ਲਿਆ ਸੀ,"

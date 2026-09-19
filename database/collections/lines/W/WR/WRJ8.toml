@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪੇ ਆਪੁ ਗਰੀਬ ਨਿਵਾਜਾ ॥"
 page = 337
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Be Benevolent towards me,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਸੀਂ ਆਪਣੇ ਆਪ ਹੀ ਗ਼ਰੀਬਾਂ ਨੂੰ ਵਡਿਆਉਣ ਵਾਲੇ ਹੋ।"

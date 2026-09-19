@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਲੌ ਬਖਾਨੋ, ਬਡੇ ਗਰਬਧਾਰੀ ॥"
 page = 631
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਥੋਂ ਤਕ ਕਹਾਂ ਜੋ ਵੱਡੇ ਹੰਕਾਰ ਵਾਲੇ ਹਨ,"

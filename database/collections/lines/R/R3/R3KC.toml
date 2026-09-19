@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਪਰ ਅਵਰ ਸਮ੍ਰਯਾਨਾ ਡਾਰਾ ॥"
 page = 1329
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਉਪਰ ਇਕ ਹੋਰ ਸ਼ਾਮਿਆਨਾ ਪਾ ਦਿੱਤਾ,"

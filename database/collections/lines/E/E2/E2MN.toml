@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਸਨ ਕੀ ਮਨ ਭੀਤਰਿ ਧਰੀ ॥੧੫॥"
 page = 857
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The swindler looked at the coins and checked the dates of minting. (15)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਸਾਰੀਆਂ ਦੇ ਸੰਨ ਮਨ ਵਿਚ ਰਖ ਲਏ ॥੧੫॥"

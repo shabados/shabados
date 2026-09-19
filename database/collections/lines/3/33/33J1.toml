@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਸਿਤ ਸਾਰਥੀ ਅਗ੍ਰ; ਅਸਿਤ ਆਭਰਣ ਰਥੋਤਮ ॥"
 page = 692
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His charioteer is also black, whose garments are also black"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਅਗੇ (ਬੈਠਾ) ਰਥਵਾਨ ਕਾਲੇ ਰੰਗ ਵਾਲਾ ਹੈ ਅਤੇ (ਉਸ ਦੇ) ਉੱਤਮ ਰਥ ਦੇ ਗਹਿਣੇ ਵੀ ਕਾਲੇ ਰੰਗ ਦੇ ਹਨ।"

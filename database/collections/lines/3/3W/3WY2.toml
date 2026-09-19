@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨਕੀ ਸੁਭੰਗਿ ॥੨੬੭॥"
 page = 227
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram, the abode of religious action, went to the forest alongwith Lakshman and Janaki (Sita).267."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਦਰ ਸੀਤਾ (ਵੀ ਨਾਲ ਲੈ ਗਏ) ਹਨ ॥੨੬੭॥"

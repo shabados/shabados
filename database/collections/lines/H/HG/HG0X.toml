@@ -1,29 +1,29 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੱਤ੍ਰ ਚੱਕ੍ਰ ਪਾਸੇ ॥"
 page = 6
 line = 6
 
 [[content]]
-asset = "JSTS"
+assets = ["JSTS"]
 type = "note"
 language = "pa"
 data = "\"ਚੱਤ੍ਰ\" ਦਾ ਉਚਾਰਨ \"ਤ\" ਤੇ ਔਂਕੜ ਸਹਿਤ ਕਰਨਾ ਹੈ।"
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O the Lord Present in all the four direction!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ! ਤੂੰ) ਚੌਹਾਂ ਚੱਕਾਂ ਵਾਲਿਆਂ ਦੇ ਕੋਲ ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਚੱਤ੍ਰੁ ਚੱਕ੍ਰ, ਪਾਸੇ ॥"

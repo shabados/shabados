@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਪੇ ਪੁਰਖੁ; ਆਪੇ ਹੀ ਨਾਰੀ ॥"
 page = 1020
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thou Thyself are the male and Thy self the female."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਆਪ ਨਰ ਹੈ ਅਤੇ ਆਪ ਹੀ ਮਦੀਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "You Yourself are the male, and You Yourself are the female."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਹੀ ਤੂੰ (ਪੁਰਖੁ) ਈਸ੍ਵਰ ਹੈਂ ਔ ਆਪ ਹੀ ਤੂੰ (ਨਾਰੀ) ਮਾਇਆ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹਰੇਕ) ਮਰਦ ਭੀ ਪ੍ਰਭੂ ਆਪ ਹੀ ਹੈ ਤੇ (ਹਰੇਕ) ਇਸਤ੍ਰੀ ਭੀ ਆਪ ਹੀ ਹੈ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Tú Mismo eres lo masculino y también lo femenino,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਠ ਚੌਤਰੇ ਨ︀ਯਾਉ ਚੁਕਾਵੈ ॥੨੯॥"
 page = 912
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And the police indulged to implement justice.(29)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਿਆਂ ਚੁਕਾਉਣ ਲਈ ਦੰਡ ਦਿੰਦਾ ਸੀ ॥੨੯॥"

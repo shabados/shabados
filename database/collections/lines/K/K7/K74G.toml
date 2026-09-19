@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬ ਜਗਤ ਕੋ ਪਤਿ ਦੇਖਿ ॥"
 page = 673
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਸਾਰੇ ਜਗਤ ਦਾ ਸੁਆਮੀ ਦੇਖਿਆ ਜਾਂਦਾ ਹੈ,"

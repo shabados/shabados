@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਫੁਲਿਤ ਭਈ ਜਗਤ ਕੀ ਰਾਨੀ ॥"
 page = 1359
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦ ਉਹ) ਜਗਤ ਦੀ ਰਾਣੀ ਪ੍ਰਸੰਨ ਹੋ ਗਈ।"

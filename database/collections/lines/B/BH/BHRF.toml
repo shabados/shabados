@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਅਪਨੋ ਸੰਗਿ ਸ︀ਯਾਮ ਮਿਲਾਯੋ ॥੨੧੦੧॥"
 page = 508
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "” He absorbed his mind in Krishna, thus increasing his love for him.2101."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਮਨ ਨੂੰ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨਾਲ ਜੋੜ ਦਿੱਤਾ ॥੨੧੦੧॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਰਧ ਭਏ ਤਨੁ ਕਾਪਈ; ਨਾਮੁ ਨ ਜਪਿਯੋ ਜਾਇ ॥"
 page = 905
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘When he gets old, his body starts shaking as he had not meditated on the Name,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਰਧ ਹੋਣ ਤੇ ਸ਼ਰੀਰ ਕੰਬਣ ਲਗ ਜਾਂਦਾ ਹੈ ਅਤੇ ਨਾਮ ਜਪਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਠਟਾ ਸਹਿਰ ਬਸਿਯੋ ਤਹ ਭਾਰੋ ॥"
 page = 945
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਠੱਟਾ ਨਾਂ ਦਾ ਵੱਡਾ ਨਗਰ ਵਸਿਆ ਹੋਇਆ ਸੀ,"

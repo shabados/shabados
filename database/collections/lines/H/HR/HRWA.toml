@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਨ ਦੁਹੂੰ ਜੋਗ ਸਾਧਨਾ ਸਾਧੀ ॥"
 page = 1337
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਨ੍ਹਾਂ ਦੋਹਾਂ ਨੇ ਯੋਗ ਸਾਧਨਾ ਕੀਤੀ ਹੈ।"

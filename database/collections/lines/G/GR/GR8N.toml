@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਵਨ ਕੋ ਧਨੁ ਧਾਮ ਸਭ; ਦੈਤਨ ਲੀਓ ਛਿਨਾਇ ॥"
 page = 77
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The demons seized all the abodes and wealth of gods."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵਤਿਆਂ ਦੇ ਸਾਰੇ ਧਨ ਅਤੇ ਧਾਮ ਨੂੰ ਦੈਂਤਾਂ ਨੇ ਖੋਹ ਲਿਆ।"

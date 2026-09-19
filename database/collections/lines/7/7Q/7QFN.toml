@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭੇ ਸਵਰਨ ਕੇ ਪਤ੍ਰ ਬਾਧੇ ਗਜਾ ਮੈ ॥"
 page = 146
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sheets of gold covering the maces looked splendid."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਜਾਂ ਨਾਲ ਬੰਨ੍ਹੇ ਹੋਏ ਸੋਨੇ ਦੇ ਪੱਤਰੇ ਸੋਭਦੇ ਸਨ।"

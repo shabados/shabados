@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਕੇ ਅਸਪ ਸ਼ਾਇਸਤਏ ਯਕ ਹਜ਼ਾਰ ॥"
 page = 1392
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Your saying that I may bring for you a very fine steed of one thousand rupees and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਹਜ਼ਾਰ ਰੁਪੈਏ (ਮੁੱਲ ਵਾਲਾ) ਇਕ ਸੁੰਦਰ ਘੋੜਾ ਲਿਆਈਂ"

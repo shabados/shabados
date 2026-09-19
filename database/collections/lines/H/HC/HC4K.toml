@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਖ਼ੁਰਦਨ ਯਕੇ ਤੀਰ ਸ਼ੁਦ ਗ਼ਰਕਿ ਖ਼ੂੰ ॥੨੭॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "with one arrow he wos drenched in his won blood.27."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ (ਮੇਰਾ) ਇਕੋ ਤੀਰ ਖਾ ਕੇ ਲਹੂ ਵਿਚ ਗ਼ਰਕ ਹੋ ਗਿਆ (ਅਰਥਾਤ ਮਰ ਗਿਆ) ॥੨੭॥"

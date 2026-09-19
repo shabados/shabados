@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਫਲ ਕਉ ਅਬ ਭਛ ਕਰੋ; ਸੁ ਛੁਧਾਤਰੁ ਹ੍ਵੈ ਤਹ ਭਛਨ ਧਾਯੋ ॥"
 page = 501
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He contemplated that he was hungry, therefore he would eat that fruit"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਇਸ ਫਲ ਨੂੰ ਹੁਣ ਖਾ ਲਵਾਂ', ਉਹ ਭੁਖ ਨਾਲ ਆਤੁਰ ਹੋ ਕੇ ਉਸ ਨੂੰ ਖਾਣ ਲਈ ਭਜਿਆ।"

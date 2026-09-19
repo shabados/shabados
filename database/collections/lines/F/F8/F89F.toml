@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਦੁਖਿਤ ਬਿਲੋਕਿ ਕੈ; ਦਯਾ ਭਈ ਮਨ ਮਾਹਿ ॥੧੬॥"
 page = 892
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Watching him in agony, they took pity on him.(16)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਦੁਖੀ ਵੇਖ ਕੇ (ਉਨ੍ਹਾਂ ਦੇ) ਮਨ ਵਿਚ ਦਇਆ ਆ ਗਈ ॥੧੬॥"

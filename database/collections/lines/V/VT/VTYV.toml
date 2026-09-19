@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਮੁਲਕੋ ਅਰਾਕਸ਼ ਬਿਆਮਦ ਅਜ਼ਾ ॥੧੧॥"
 page = 1425
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Which were brought from the country of Iraq.(11)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਇਰਾਕ ਦੇਸ਼ ਤੋਂ ਉਸ ਕੋਲ ਆਏ ਸਨ ॥੧੧॥"

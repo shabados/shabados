@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਹੁ ਨਾਨਕ; ਤਾ ਕੀ ਨਿਰਮਲ ਸੋਇ ॥੩॥"
 page = 278
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "pure is the celebrity of him, Says Nanak."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਜੀ ਫੁਰਮਾਉਂਦੇ ਹਨ, ਪਵਿੱਤ੍ਰ ਹੈ ਉਸ ਦੀ ਕੀਰਤੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "- says Nanak, his reputation is spotlessly pure. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਤਿਸ ਕੀ ਸੋਭਾ ਨਿਰਮਲ ਹੋਤੀ ਹੈ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਆਖ, ਹੇ ਨਾਨਕ! ਉਸ ਮਨੁੱਖ ਦੀ ਸੋਹਣੀ ਸੋਭਾ ਖਿਲਰਦੀ ਹੈ ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੋਇ = ਸੋਭਾ ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "será reconocido como crisol de pureza.(3)"

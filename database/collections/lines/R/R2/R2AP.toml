@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਾਰਜੁ ਆਇਆ ਸਗਲਾ ਰਾਸਿ ॥"
 page = 1152
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and all my tasks are adjusted."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੇਰੇ ਸਾਰੇ ਕੰਮ ਸੌਰ ਗਏ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All my affairs have been resolved."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਹੀ ਕਾਰਜ ਹਮਾਰਾ ਸਿਧ ਵਾ ਸਚਾ ਹੋ ਗਿਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ (ਹਰੇਕ) ਕੰਮ ਮੁਕੰਮਲ ਤੌਰ ਤੇ ਸਿਰੇ ਚੜ੍ਹ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਾਰਜੁ = ਕੰਮ। ਆਇਆ ਰਾਸਿ = ਸਿਰੇ ਚੜ੍ਹ ਗਿਆ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y ahora vivo en total Plenitud."

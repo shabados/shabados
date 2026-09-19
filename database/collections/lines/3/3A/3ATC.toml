@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਖਿ ਬਹਿਨਿ ਤਾ ਸੋ ਲਪਟਾਈ ॥"
 page = 1011
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Along with her husband she reached Ganga, and there, calling him sister, embraced him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭੈਣ ਕਹਿ ਕੇ ਉਸ (ਮਿਤਰ) ਨਾਲ ਲਿਪਟ ਗਈ।"

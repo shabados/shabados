@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਯਾ, ਤਿਹਾਰੇ ਹ੍ਵੈ ਰਹੇ; ਇਮਿ ਸਮਝੋ ਮਨ ਮਾਹਿ ॥"
 page = 881
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘My dear lady, please be considerate, I am forever yours,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਿਯਾ! ਮਨ ਵਿਚ ਇਸ ਤਰ੍ਹਾਂ ਸਮਝ ਕਿ ਮੈਂ ਤੇਰਾ ਹੀ ਹਾਂ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਗ ਬਿਦਾ ਮੁਖਿ ਲੀਨ ਉਤਾਲੰ ॥"
 page = 218
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After marrying the daughter of King Janak, the princes soon asked for permission to depart."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੂੰਹ ਨਾਲ ਛੇਤੀ ਹੀ ਵਿਦਾਇਗੀ ਮੰਗ ਲਈ।"

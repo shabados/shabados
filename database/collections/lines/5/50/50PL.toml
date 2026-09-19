@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਪ੍ਰਭ ਕਉ ਨਿਤ ਬ੍ਰਹਮ ਸਚੀਪਤਿ; ਸ੍ਰੀ ਸਨਕਾਦਿਕ ਹੂੰ ਜਪੁ ਕੀਨੋ ॥"
 page = 450
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, whose name is muttered ever by Brahma, Indra, Sanak etc."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪ੍ਰਭੂ ਨੂੰ ਬ੍ਰਹਮਾ, ਇੰਦਰ, ਸਨਕਾਦਿਕ ਵਰਗੇ ਨਿੱਤ ਜਪਦੇ ਹਨ,"

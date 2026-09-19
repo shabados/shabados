@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹੀ ਕੁਅਰਿ ਸਖਿਯਨ ਜੁਤ ਗਾਵੈ ॥"
 page = 1149
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਹੀ ਸਖੀਆਂ ਸਹਿਤ ਕੁਮਾਰੀ ਗਾਣ ਲਗ ਜਾਂਦੀ।"

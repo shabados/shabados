@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੰਚਣ ਕਉ; ਹਰਿ ਏਕੋ ਨਾਮੁ ॥"
 page = 676
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I have only the Lord's Name amass."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਕੱਤਰ ਕਰਨ ਲਈ ਮੇਰੇ ਕੋਲ ਕੇਵਲ ਸਾਈਂ ਦਾ ਨਾਮ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I gather only the Lord's Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੰਚਣ ਅਰਥਾਤ ਇਕਤ੍ਰ ਕਰਨੇ ਕੋ ਭੀ ਏਕ ਹਰੀ ਕਾ ਨਾਮ ਹੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਵਾਸਤੇ ਇਕੱਠਾ ਕਰਨ ਲਈ (ਭੀ) ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਹੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੰਚਣ ਕਉ = ਜਮ੍ਹਾਂ ਕਰਨ ਲਈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sólo tengo el Nombre del Señor para atesorar"

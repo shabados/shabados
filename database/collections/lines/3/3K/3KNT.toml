@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਇਕਿ ਪਰਿ ਕਰਿ ਕੈ ਉਡਰਨਿ; ਪੰਖੀ ਜਿਵੈ ਰਹੇ ਲੀਲਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Some of them became winged and flew like birds."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਇਕ (ਜੋਗੀ) ਖੰਭ ਲਾਕੇ ਉਡਣ ਲਗ ਪਏ, ਜਿਵੇਂ ਪੰਛੀ ਅਕਾਸ਼ ਵਿਚ ਤਾਰੀਆਂ ਲਾਉਂਦੇ ਹਨ।"

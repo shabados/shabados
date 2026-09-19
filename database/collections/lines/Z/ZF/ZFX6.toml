@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਲਕੀ ਅਵਤਾਰ ਰਿਸਾਵਹਿਗੇ ॥"
 page = 582
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਲਕੀ ਅਵਤਾਰ ਕ੍ਰੋਧਵਾਨ ਹੋਣਗੇ,"

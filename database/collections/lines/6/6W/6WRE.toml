@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਲਿਸਤਾ ਕੁਨਦ ਬੂਮ ਸ਼ੋਰੀਦ ਦਸਤ ॥੮॥"
 page = 1427
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And as well as desolated the blooming gardens(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਵੇਖਣਾ ਉਜਾੜ ਅਤੇ ਕੱਲਰੀ ਧਰਤੀ ਨੂੰ ਬਾਗ਼ ਵਿਚ ਬਦਲ ਦਿੰਦੀ ਸੀ ॥੮॥"

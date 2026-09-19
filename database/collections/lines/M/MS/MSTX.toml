@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਣੀ ਨ ਜਾਤਿ ਜਿਹ ਰੰਗ ਰੇਖ ॥"
 page = 642
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਰੰਗ ਅਤੇ ਰੇਖ ਦਾ ਵਰਣਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"

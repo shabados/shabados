@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਔਰ ਰਾਨਿਯਨ ਓਰ ਨ ਹੇਰੈ ॥"
 page = 933
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Every day Raja started to stay with her and abandoned going to other Ranis."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੋਰ ਰਾਣੀਆਂ ਵਲ ਵੇਖਦਾ ਤਕ ਨਹੀਂ ਸੀ।"

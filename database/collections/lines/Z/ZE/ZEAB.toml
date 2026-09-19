@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹ ਮ੍ਰਿਗ ਹਨਤ ਹੇਤ ਤਹ ਆਯੋ ॥"
 page = 934
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja took her with him where he was going for hunting the deer."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਉਹ ਹਿਰਨਾਂ ਨੂੰ ਮਾਰਨ ਲਈ ਆਉਂਦਾ ਸੀ।"

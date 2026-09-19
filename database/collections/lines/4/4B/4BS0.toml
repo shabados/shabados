@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹੁਕਮੈ ਅੰਦਰਿ; ਇੰਦ੍ਰ ਉਪਾਯੰ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "With the Command, Indra, the king of gods, is enthroned."

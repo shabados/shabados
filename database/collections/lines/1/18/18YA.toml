@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਖ ਬਿੱਜੁਲ ਜ੍ਵਾਲ ਘਣੰ ਪ੍ਰਜੁਲੰ ॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The face appears like the in blaze of lightning the dark clouds."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰਾ) ਮੁਖ ਬਦਲਾਂ ਦੀ ਬਿਜਲੀ ਦੀ ਅੱਗ ਵਾਂਗ ਲਿਸ਼ਕਦਾ ਹੈ।"

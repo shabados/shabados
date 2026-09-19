@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨ ਨਰ ਏਕ ਪੁਰਖ ਕਹੱ ਧਿਆ︁ਯੋ ॥"
 page = 158
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The person, who hath meditated only on the Supreme Purusha,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪੁਰਸ਼ ਨੇ ਇਕ ਪਰਮ-ਪੁਰਸ਼ ਨੂੰ ਧਿਆਇਆ ਹੈ,"

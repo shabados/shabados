@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯੌ ਹੀ ਬਾਰ ਛਿ ਸਾਤ ਕਰਿ; ਲਯੋ ਦਰਬੁ ਸਭ ਛੀਨ ॥"
 page = 913
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "By repeating this action for six or seven time, she lost all her wealth,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਛੇ ਸੱਤ ਵਾਰ ਕਰ ਕੇ (ਉਸ ਇਸਤਰੀ ਤੋਂ) ਸਾਰਾ ਧਨ ਹਥਿਆ ਲਿਆ।"

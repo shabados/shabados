@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੈਨ ਦਿਪੈ ਨੀਕੇ ਕਜਰਾਰੇ ॥"
 page = 966
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਸੁੰਦਰ ਕਜਲੇ ਵਾਲੇ ਨੈਣ ਸ਼ੋਭਦੇ ਸਨ।"

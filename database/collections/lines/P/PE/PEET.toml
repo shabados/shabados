@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਹਨੇ ਕਰ ਪਾਇਨ ਤੇ; ਜਿਨ ਜੈਸੋ ਕੀਯੋ, ਫਲ ਤੈਸੋ ਈ ਪਾਯੋ ॥"
 page = 483
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many were killed by cutting their hands and feet, everyone received the reward of his actions"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਹੱਥਾਂ ਪੈਰਾਂ ਤੋਂ ਵਢੇ ਹੋਏ ਹਨ, ਜਿਨ੍ਹਾਂ ਨੇ ਜਿਹੋ ਜਿਹਾ ਕੀਤਾ ਹੈ ਉਹੋ ਜਿਹਾ ਫਲ ਪਾਇਆ ਹੈ।"

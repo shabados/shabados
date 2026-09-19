@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਤੀਅ ਝੁੰਡ ਸਭ ਸੁਭਟ ਪਚਾਰੰ ॥"
 page = 263
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "From the third he was seeing his own warriors and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੀਜੇ ਨਾਲ ਸਾਰਿਆਂ ਸੂਰਮਿਆਂ ਦੇ ਸਮੂਹ ਨੂੰ ਲਲਕਾਰ ਰਿਹਾ ਹੈ"

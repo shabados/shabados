@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਵਾਹੁ ਵਾਹੁ ਤਿਸ ਨੋ ਆਖੀਐ; ਜਿ ਸਚਾ ਗਹਿਰ ਗੰਭੀਰੁ ॥"
 page = 514
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Address bravo! bravo! unto Him, who is true profound and unfathomable."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਫਰੀਨ! ਆਫਰੀਨ! ਉਸ ਨੂੰ ਕਹੁ, ਜੋ ਸੱਚਾ, ਡੂੰਘਾ ਅਤੇ ਅਥਾਹ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Chant Waaho! Waaho! to the Lord, who is True, profound and unfathomable."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਚਾ ਗਹਿਰ ਗੰਭੀਰ ਹੈ ਤਿਸ ਕੋ ਵਾਹੁ ਵਾਹੁ ਕਹੀਏ ਅਰਥਾਤ ਧੰਨਬਾਦ ਕਰੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਸਿਫ਼ਤ-ਸਾਲਾਹ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ, ਜੋ ਪ੍ਰਭੂ ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲਾ ਹੈ ਤੇ ਵੱਡੇ ਜਿਗਰੇ ਵਾਲਾ ਹੈ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Canta Wajo, Wajo al Señor, Quien es Verdad, Profundo e Insondable."

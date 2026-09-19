@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਚਰਮ ਕੀ ਚਾਰ ਬਿਦਿਆ ਬਤਾਵੈ ॥"
 page = 151
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the skilful use of the shield was being described"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ (ਕੋਈ) ਢਾਲ ਦੀ ਸੁੰਦਰ ਵਿਦਿਆ ਦਸ ਰਿਹਾ ਸੀ।"

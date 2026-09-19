@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬੈ ਜੰਗ ਹਾਰਿਯੋ ਕੀਯੋ ਬਿਸਨ ਮੰਤ੍ਰੰ ॥"
 page = 164
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ (ਦੋਹਾਂ ਧਿਰਾਂ ਨੇ ਇਸ ਤਰ੍ਹਾਂ) ਯੁੱਧ ਵਿਚ ਹਾਰ ਖਾ ਲਈ"

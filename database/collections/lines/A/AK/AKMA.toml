@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਊਚ ਨੀਚ ਤਾ ਕੈ ਪ੍ਰਜਾ; ਰਹੀ ਚਰਨ ਸੌ ਲਾਗ ॥੧॥"
 page = 966
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All, high and low, would bow to him to convey their humility.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਪ੍ਰਜਾ ਦੇ ਸਾਰੇ ਉੱਚੇ ਨੀਵੇਂ ਉਸ ਦੇ ਚਰਨਾਂ ਨਾਲ ਲਗੇ ਹੋਏ ਸਨ ॥੧॥"

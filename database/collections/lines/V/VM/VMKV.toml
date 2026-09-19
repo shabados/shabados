@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਾਥ ਹਥਯਾਰਨ ਊਪਰ ਧਰੈ ॥"
 page = 870
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the princes flew into rage on her decision and put their hands on their arms,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੱਥ ਹਥਿਆਰਾਂ ਉਪਰ ਧਰ ਲਏ।"

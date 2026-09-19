@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਇਨਸਾਫ ਅਤੇ ਮੁਹੱਬਤ ਦੇ ਮੁਖੜੇ ਦੀ ਰੌਣਕ ਹੈ । "
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਰੁਖ਼ਿ ਮਿਹਰੋ ਇਨਸਾਫ਼ ਰਾ ਇੰਜਲਾ ॥੧੦੮॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He is the happy disposition of the face of justice and love. (108)"

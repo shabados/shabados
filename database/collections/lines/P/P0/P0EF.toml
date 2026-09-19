@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭੈ ਚੇਤ ਹੀਣੰ ਲਗੇ ਜਾਨ ਬਾਣੰ ॥੨॥"
 page = 164
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All become without consciousness as though they were hit by the arrows.2."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਚੇਤਨਾ ਹੀਣ ਹੋਣ ਲਗੇ ਜਿਵੇਂ ਤੀਰ ਲਗੇ ਹੁੰਦੇ ਹ ਨਾ ॥੨॥"

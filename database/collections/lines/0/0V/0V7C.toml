@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੀਰਥ ਕਰਨ ਪਾਰਥ ਤਬ ਧਾਯੋ ॥"
 page = 545
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਅਰਜਨ ਤੀਰਥ (ਯਾਤ੍ਰਾ) ਕਰਨ ਲਈ ਚਲ ਪਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੇਰੋ ਘਨੋ ਹਿਤ ਹੈ ਤੁਮ ਸੋ ਸਖੀ, ਅਉਰ ਕਿਸੀ ਨਹਿ ਗ੍ਵਾਰਨਿ ਮਾਹੀ ॥"
 page = 368
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O my dear Radha! I only love you and not any other gopi"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਖੀ! ਮੇਰਾ ਤੇਰੇ ਨਾਲ ਬਹੁਤ ਪਿਆਰ ਹੈ ਅਤੇ ਹੋਰ ਕਿਸੇ ਗੋਪੀ ਵਿਚ ਨਹੀਂ ਹੈ।"

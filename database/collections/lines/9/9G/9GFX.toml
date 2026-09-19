@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਨ ਲਗੇ ਲਖ ਸੁੰਭ ਦਈਤ; ਧਸੇ ਰਨ ਲੈ ਕਰਵਾਰਨ ਕੋ ॥"
 page = 81
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the king Sumbh pierced by the arrows, the demons-forces jumped into the battlefield, drawing out their swords.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਭ ਨੂੰ ਤੀਰ ਲਗੇ ਵੇਖ ਕੇ ਦੈਂਤ ਤਲਵਾਰਾਂ ਖਿਚ ਕੇ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਧਸ ਗਏ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਨਾ ਤੇਗ਼ ਤਾਬਸ਼ ਤ ਪੀਦ ਆਫ਼ਤਾਬ ॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The swords were becoming as hot as the sun,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਲਵਾਰਾਂ ਸੂਰਜ ਦੀ ਤਪਸ਼ ਵਾਂਗ ਇਤਨੀਆਂ ਤਪ ਗਈਆਂ (ਕਿ ਉਨ੍ਹਾਂ ਦੀ ਗਰਮੀ ਨਾਲ)"

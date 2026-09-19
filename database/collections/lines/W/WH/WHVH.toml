@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਰ ਨਾਮ ਸੁਨਿ ਮੂਰਿ ਮਤਿ; ਅਤਿ ਹਰਖਤ ਭਯੋ ਜੀਯ ॥"
 page = 844
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing this the foolish Raja was satisfied,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਾ ਨਾਮ ਸੁਣ ਕੇ ਉਹ ਮੂਰਖ ਰਾਜਾ ਮਨ ਵਿਚ ਬਹੁਤ ਪ੍ਰਸੰਨ ਹੋਇਆ"

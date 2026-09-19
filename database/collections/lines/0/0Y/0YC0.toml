@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਥਨੀ ਬਦਨੀ ਬਾਹਰਾ; ਆਪੇ ਆਪਣਾ ਬ੍ਰਹਮੁ ਜਣਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He put up before the self (atman) as identical to indescribable Brahm."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਥਨੀ (ਕਥਾ) ਤੇ ਬਦਨੀ (ਕਵੀਸ਼ਰੀਆਂ) ਥੋਂ (ਆਤਮਾ) ਬਾਹਰ ਹੈ ਤੇ ਆਪਣੇ ਆਪ ਹੀ ਬ੍ਰਹਮ ਜਣਾ ਦਿਤਾ।"

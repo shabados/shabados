@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੁਮਰੀ ਓਟ ਤੁਮਾਰੀ ਆਸਾ ॥"
 page = 378
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thou art my refuge and Thou art my hope."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਮੇਰੀ ਪਨਾਹ ਹੈਂ ਅਤੇ ਤੂੰ ਹੀ ਮੇਰੀ ਊਮੀਦ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "You are my support, You are my hope."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸ੍ਵਾਮੀ! ਮੁਝੇ ਤੁਮਾਰੀ ਓਟ ਹੈ ਔਰ ਤੁਮਾਰੀ ਹੀ ਆਸਾ ਲਗ ਰਹੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਗੋਪਾਲ! ਮੈਨੂੰ ਤੇਰਾ ਹੀ ਸਹਾਰਾ ਹੈ, ਮੈਨੂੰ ਤੇਰੀ ਸਹਾਇਤਾ ਦੀ ਆਸ ਰਹਿੰਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਓਟ = ਆਸਰਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Tuyo es el Refugio; en Ti reside toda mi esperanza."

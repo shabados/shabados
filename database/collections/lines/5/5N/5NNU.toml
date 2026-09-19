@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਠੇ ਕੋਟ ਦੂਤੰ ॥"
 page = 210
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸੀਤਾ ਦੇ ਸੁਅੰਬਰ ਦੀ ਸੂਚਨਾ ਦੇਣ ਲਈ ਰਾਜੇ ਜਨਕ ਨੇ) ਕਰੋੜਾਂ ਦੂਤ ਭੇਜੇ ਸਨ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੈ ਗਏ ਤਾਸੁ ਦ੍ਰੋਹੀ ਦੁਰੰਤ ॥"
 page = 568
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਭਿਆਨਕ ਧ੍ਰੋਹੀ ਜਲਾਦ (ਉਸ ਨੂੰ) ਉਥੇ ਲੈ ਗਏ"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲੰਘ ਨਿਕਥੈ, ਵਰੈ ਸਰਾਪੈ ॥੧੯॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "It has gone far beyond the influence of boons and curses."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਵਰ ਸਰਾਪ (ਸਿੱਧੀਆਂ ਆਦਿ) ਤੋਂ ਲੰਘਕੇ (ਗੁਰਮੁਖ ਪੰਥ ਹੈ)।"

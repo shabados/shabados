@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਜੈ ਹੋਇ ਤੁਮਰੀ ਤਾ ਤੇ ਰਣ ॥"
 page = 191
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You should also perform sacrifices, and then you will be victorious in the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਤੇ ਯੁੱਧ ਵਿਚ ਤੁਹਾਡੀ ਵੀ ਜਿੱਤ ਹੋਵੇਗੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘੁਮੰਤ ਅਘ ਓਘਯੰ ॥"
 page = 259
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਪਾਸੇ ਪਾਪ (ਰੂਪ ਰਾਖਸ਼) ਫਿਰ ਰਹੇ ਹਨ,"

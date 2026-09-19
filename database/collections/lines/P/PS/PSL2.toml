@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੀਮੜਾ ਭੈਹਰੀ ਭੂਤਲਾ ਬਾਵਜਾ ॥"
 page = 681
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You have a large body  You are the remover of fear and you are the emotion-manifestation of the whole world"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੀਮੜਾ, ਭੈਹਰੀ, ਭੂਤਲਾ, ਭਾਵਜਾ,"

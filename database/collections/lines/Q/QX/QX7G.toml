@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਨਿ ਬੈਠਿ ਸਰਬ ਰਾਜਾਧਿਕਾਰ ॥"
 page = 629
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the splendour here and there, the kings sat down"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਰਾਜਾਂ ਦੇ ਅਧਿਕਾਰੀ (ਅਰਥਾਤ ਰਾਜੇ) ਬਣ ਠਣ ਕੇ ਬੈਠੇ ਸਨ।"

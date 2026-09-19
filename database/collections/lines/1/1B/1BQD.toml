@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਮ ਕੀਓ ਆਪ ਕਰਤੇ ਪਸਾਰ ॥"
 page = 36
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Tell me all the musings) how the Creator created the expanse of the world?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਕਰਤੇ ਨੇ (ਸਾਰੀ ਸ੍ਰਿਸ਼ਟੀ ਦਾ) ਪਸਾਰ ਕਿਵੇਂ ਕੀਤਾ ਹੈ?"

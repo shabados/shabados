@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਹੀ ਤੁਹਿ ਸੋ ਆਨਿ ਮਿਲਾਵਹਿ ॥"
 page = 851
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Whosoever you want, could be brought to delight you."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਹੀ ਤੁਹਾਨੂੰ ਆਣ ਮਿਲਾਉਂਦੀ ਹਾਂ।"

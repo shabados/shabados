@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖਤ ਸੁਰ ਬਿਵਾਨ ਚੜਿ ਸਾਰੇ ॥੧੮॥"
 page = 932
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵੇਖਣ ਲਈ ਸਾਰੇ ਦੇਵਤੇ ਬਿਮਾਨਾਂ ਉਤੇ ਚੜ੍ਹ ਕੇ ਆਏ ॥੧੮॥"

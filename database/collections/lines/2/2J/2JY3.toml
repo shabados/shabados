@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰੌ ਜਾਇ ਸਾਹਿਬਹਿ ਧਰਿਯੋ ॥"
 page = 995
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "First they killed Mirza and then, some went and grasped Sahiban."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਜਾ ਕੇ ਸਾਹਿਬਾਂ ਨੂੰ ਧਰ ਲਿਆ।"

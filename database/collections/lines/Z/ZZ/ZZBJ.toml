@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਗੜਦੰ ਬੀਰੰ ਆਗੜਦੰ ਉਤਾਰੇ ॥੩੬੨॥"
 page = 587
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The dreadful fighting continues and the warriors have got enraged, the warriors are striking their lances and are dismounting the fighters from their horses.362."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਿਆਂ ਨੂੰ (ਧਰਤੀ ਉਤੇ) ਵਿਛਾ ਦਿੱਤਾ ਹੈ ॥੩੬੨॥"

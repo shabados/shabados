@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨਿ ਰੀਸਾਲੂ ਧਾਇ; ਇਹ ਠਾ ਪਹੁੰਚੈ ਆਇ ਕੈ ॥"
 page = 934
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Lest, Raja Rasaloo comes here,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਤਾਂ ਰਿਸਾਲੂ ਇਸ ਸਥਾਨ ਉਤੇ ਆ ਪਹੁੰਚੇ"

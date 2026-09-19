@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਿਤਣੀਸਣੀ ਪਦਾਦਿ ਭਣਿਜੈ ॥"
 page = 793
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਛਿਤਣੀਸਣੀ' ਸ਼ਬਦ ਦਾ ਕਥਨ ਕਰੋ।"

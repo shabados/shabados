@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਚਿੰਤਾ ਤ੍ਰਿਯ ਕਰਹੀ; ਇਸੀ ਸੰਗ ਜਾਇ ਹੌ ॥"
 page = 1142
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀ ਨੇ ਮਨ ਵਿਚ ਸੋਚਿਆ ਕਿ (ਹੁਣ) ਇਸ ਨਾਲ ਹੀ ਚਲੀ ਜਾਵਾਂ"

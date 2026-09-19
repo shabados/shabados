@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਤਿ ਸੋਯੋ ਲਹਿ ਤ੍ਰਿਯ ਮਨ ਮਾਹੀ ॥"
 page = 852
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਤੀ ਨੂੰ ਸੁਤਾ ਵੇਖ ਕੇ ਇਸਤਰੀ ਨੇ ਮਨ ਵਿਚ"

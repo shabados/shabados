@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਸੂਰੀ ਕਾਰਨ ਕਿਹ ਲੇਹੁ ॥"
 page = 1319
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਸੀਂ ਕਿਸ ਕਾਰਨ ਸੂਲੀ ਲੈਂਦੇ ਹੋ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਗਤ ਬਾਨ ਧਰਨਿ ਗਿਰ ਪਰਿਯੋ ॥"
 page = 936
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਣ ਦੇ ਲਗਦਿਆਂ ਹੀ (ਹੋਡੀ) ਧਰਤੀ ਉਤੇ ਡਿਗ ਪਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਤਿ ਨਿਕਾਰ ਕੇਸ ਗਹਿ ਲੇਹੀ ॥"
 page = 856
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Screeching their teeth, they pulled each other’s hair."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੰਦ ਪੀਂਹਦੇ ਹੋਇਆਂ (ਇਕ ਦੂਜੇ ਦੇ) ਵਾਲ ਫੜ ਲਏ।"

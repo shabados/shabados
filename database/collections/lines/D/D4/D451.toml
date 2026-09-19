@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਸਤ੍ਰੀ ਤਜੀ ਸਕਲ ਸੰਸਾਰਾ ॥੩॥"
 page = 552
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brighter enjoys the body of the sister and the whole world relinquishes the wife/3."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰੇ ਸੰਸਾਰ ਨੇ (ਵਿਆਹੀ ਹੋਈ) ਇਸਤਰੀ ਨੂੰ ਤਿਆਗ ਦਿੱਤਾ ਹੈ ॥੩॥"

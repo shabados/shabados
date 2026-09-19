@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਤਭੁਜ ਸਰੂਪ ਅਬਿਗਤ ਅਭੰਗ ॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Germinating Entity, Unmanifested and Invincible"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾਸ਼ ਤੋਂ ਬਿਨਾ ਹੈ ਗਤਿ ਤੋਂ ਰਹਿਤ"

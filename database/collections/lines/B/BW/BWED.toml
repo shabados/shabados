@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਬੀਰਨ ਕੇ ਪਦੁ ਸੀਸ ਕਟੇ; ਭਟ ਏਕਨ ਕੋ ਦਯੋ ਫਾਰਿ ਹੀਯੋ ॥੧੧੯੭॥"
 page = 417
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere they chopped the heads of the warriors and somewhere they tore their bosoms.1197."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕਨਾਂ ਸੂਰਮਿਆਂ ਦੇ ਹੱਥ ਅਤੇ ਸਿਰ ਕਟੇ ਗਏ ਹਨ ਅਤੇ ਇਕਨਾਂ ਯੋਧਿਆਂ ਦੀਆਂ ਛਾਤੀਆਂ ਪਾੜ ਦਿੱਤੀਆਂ ਗਈਆਂ ਹਨ ॥੧੧੯੭॥"

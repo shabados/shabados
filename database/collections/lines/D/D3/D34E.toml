@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਸੁ ਪਾਹਣ ਕਉ; ਠਾਕੁਰੁ ਕਹਤਾ ॥"
 page = 739
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The stone which he calls his god;"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜੇ ਪੱਥਰ ਨੂੰ ਉਹ ਆਪਣਾ ਦੇਵਤਾ ਆਖਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "That stone, which he calls his god,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪਥਰ ਕੋ ਇਹ ਠਾਕੁਰ ਕਹਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਸਾਕਤ ਮਨੁੱਖ ਜਿਸ ਪੱਥਰ ਨੂੰ ਪਰਮਾਤਮਾ ਆਖਦਾ (ਸਮਝਦਾ) ਰਹਿੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਉ = ਨੂੰ। ਕਹਤਾ = ਆਖਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ese ídolo al que él llama “su dios”,"

@@ -1,10 +1,10 @@
 [[content]]
-asset = "AKKB"
+assets = ["AKKB"]
 type = "primary"
 data = "ਖ਼ਾਲਸੇ ਕਰ ਮੇਰੋ ਸਤਿਕਾਰਾ ॥"
 
 [[content]]
-asset = "SOTK"
+assets = ["SOTK"]
 type = "translation"
 language = "en"
 data = "through the Khalsa I have performed every deed. 522"

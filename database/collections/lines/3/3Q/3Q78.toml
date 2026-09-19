@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੂਰਮ ਬੀਬੀ ਨਾਰਿ ਤਵਨ ਘਰ ॥"
 page = 864
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her husband’s name was Adal Mohammed, and he was very proficient in executing justice."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਘਰ ਨੂਰਮ ਬੀਬੀ (ਨਾਂ ਵਾਲੀ) ਇਸਤਰੀ ਸੀ"

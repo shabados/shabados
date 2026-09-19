@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਹੰਕ ਭੈਰਵੀ ਸੁਰੀ ॥"
 page = 599
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੈਰਵੀ ਸ਼ਕਤੀ ਲਲਕਾਰੇ ਮਾਰਦੀ ਹੈ।"

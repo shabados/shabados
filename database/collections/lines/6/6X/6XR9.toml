@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭੂਲਾ ਕਾਹੇ ਫਿਰਹਿ; ਅਜਾਨ ॥"
 page = 283
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Why wanderest thou astray O ignorant man?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਕਿਉਂ ਕੁਰਾਹੇ ਭਟਕਦਾ ਫਿਰਦਾ ਹੈ, ਹੇ ਬੇਸਮਝ ਬੰਦੇ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Why do you wander around, you ignorant fool?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਅਗਿਆਤ! ਕਿਉਂ ਭੂਲਾ ਫਿਰਤਾ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਅੰਞਾਣ! ਕਿਉ ਭੁੱਲਿਆਂ ਫਿਰਦਾ ਹੈਂ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਜਾਨ = ਹੇ ਅੰਵਾਣ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y rescátate de la ignorancia."

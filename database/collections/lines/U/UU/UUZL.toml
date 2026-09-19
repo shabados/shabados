@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾਰ ਅਪਨੇ ਬ੍ਰਹਮਨ ਠਹਰਾਯੋ ॥"
 page = 1295
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਆਪਣੇ ਯਾਰ ਨੂੰ ਹੀ ਬ੍ਰਾਹਮਣ ਬਣਾ ਦਿੱਤਾ"

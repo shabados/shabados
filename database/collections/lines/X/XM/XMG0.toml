@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਵਡਾ ਆਪਿ, ਵਡੀ ਵਡਿਆਈ ॥੧੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He is great and His grandeur is also great"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਭੀ ਵੱਡਾ ਹੈ (ਤੇ ਉਸਦੀ) ਸ਼ੋਭਾ ਦਾ ਭੀ ਅੰਤ ਨਹੀਂ ਹੈ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪ੍ਰਭ ਕਉ ਸਿਮਰਹਿ; ਸਦਾ ਅਬਿਨਾਸੀ ॥"
 page = 263
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "They, who meditate on the Lord become immortal for ever."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਾਹਿਬ ਨੂੰ ਆਰਾਧਦੇ ਹਨ, ਉਹ ਹਮੇਸ਼ਾਂ ਲਈ ਅਮਰ ਹੋ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Those who remember God are immortal and eternal."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪ੍ਰਭੂ ਕੌ ਸਿਮਰਤੇ ਹੈਂ, ਸੋ ਸਦਾ ਹੀ ਅਬਿਨਾਸੀ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਦਾ ਲਈ ਜਨਮ ਮਰਨ ਤੋਂ ਰਹਿਤ ਹੋ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਬਿਨਾਸੀ = ਨਾਸ-ਰਹਿਤ, ਜਨਮ ਮਰਨ ਤੋਂ ਰਹਿਤ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y obtienen la Vida Eterna."

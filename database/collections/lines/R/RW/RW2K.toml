@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਵ ਧਾਰ ਅਪਾਰਹਿ ਪਾਰ ਪਰੈ ॥"
 page = 664
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, whosoever loves the Lord, he crosses this infinite ocean of existence"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਸੰਸਾਰ ਸਾਗਰ ਦੀ ਅਥਾਹ ਧਾਰ ਤੋਂ ਪਾਰ ਹੋ ਜਾਏਗਾ।"

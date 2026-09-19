@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਪੇ ਮਿਹਰਵਾਨ ਅਗਮ ਅਥਾਹੇ ॥"
 page = 1067
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He Himself is Merciful, Boundless and Unfathomable."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਆਪ ਹੀ ਦਇਆਵਾਨ, ਹਦਬੰਨਾ-ਰਹਿਤ ਅਤੇ ਬੇਥਾਹ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He Himself is merciful, inaccessible and unlimited."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਤੂੰ ਮੇਹਰਵਾਨ ਅਗਮ ਅਥਾਹ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ (ਆਪਣੇ ਵਰਗੇ) ਆਪ ਹੀ ਆਪ! ਹੇ ਮਿਹਰਵਾਨ! ਹੇ ਅਪਹੁੰਚ! ਹੇ ਡੂੰਘੇ ਜਿਗਰੇ ਵਾਲੇ!"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਪੇ = ਆਪ ਹੀ। ਅਥਾਹੇ = ਹੇ ਅਥਾਹ! ਹੇ ਡੂੰਘੇ ਜਿਗਰੇ ਵਾਲੇ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sí, Él Mismo es Bondadoso, Infinito y Sin Fronteras."

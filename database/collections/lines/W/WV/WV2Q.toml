@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਕੋਪ ਕਰਿ ਹੇਤੁ ਬਿਸਾਰਾ ॥"
 page = 1238
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਬਹੁਤ ਕ੍ਰੋਧ ਕਰ ਕੇ ਪਿਆਰ ਨੂੰ ਭੁਲਾ ਦਿੱਤਾ"

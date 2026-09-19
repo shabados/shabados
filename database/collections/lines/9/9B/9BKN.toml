@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਜੁ ਪਤਿ ਬਾਨ ਸਾਥ ਹਨਿ ਡਾਰਿਯੋ ॥੧॥"
 page = 954
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The co-wife of Shashi, who had killed her own husband with an arrow, has been killed.’(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਆਪਣੇ ਪਤੀ ਨੂੰ ਬਾਣ ਨਾਲ ਮਰਵਾ ਦਿੱਤਾ ਸੀ ॥੧॥"

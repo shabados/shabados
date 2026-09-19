@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕਨ ਕੇ ਬਿਬ ਪਾਗ ਕਟੇ; ਅਰੁ ਏਕਨ ਕੇ ਸਿਰ ਹੀ ਕਟਿ ਡਾਰੇ ॥"
 page = 529
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He knocked down the turbans and heads of many"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕਨਾਂ ਦੇ ਦੋਵੇਂ ਪੈਰ ਕਟੇ ਗਏ ਅਤੇ ਇਕਨਾਂ ਦੇ ਸਿਰ ਹੀ ਕਟ ਦਿੱਤੇ।"

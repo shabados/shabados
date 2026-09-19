@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਬਿਧਿ ਕੈ ਜਗ ਕੋ ਦੁਖ ਦ︁ਯੋ ॥"
 page = 159
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who, in many ways, distressed the world"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਬਹੁਤ ਤਰ੍ਹਾਂ ਨਾਲ ਜਗਤ ਨੂੰ ਦੁਖ ਦਿੱਤਾ।"

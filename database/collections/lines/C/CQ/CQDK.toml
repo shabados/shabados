@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਸੁ ਜਾਨ ਤੁਪਕ ਕੇ ਸਭ ਹੀ ॥"
 page = 796
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਨੂੰ) ਸਭ ਤੁਪਕ ਦਾ ਨਾਮ ਸਮਝੋ।"

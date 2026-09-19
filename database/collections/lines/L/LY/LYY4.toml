@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਛਿਜ ਤੇਜ ਅਰੁ ਬਿਮਲ ਮਤਿ ॥"
 page = 638
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Dutt was a person of purity, indestructible splendour and pure intellect"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ) ਤੇਜ ਅਣਛਿਜ ਸੀ ਅਤੇ ਬੁੱਧੀ ਨਿਰਮਲ ਸੀ।"

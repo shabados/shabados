@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਸੋ ਕਰਤ ਬਿਸਨੁ ਘਮਸਾਨਾ ॥"
 page = 191
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸ਼ਣੂ ਉਨ੍ਹਾਂ (ਦੋਹਾਂ ਦੈਂਤਾਂ) ਨਾਲ ਯੁੱਧ ਕਰਦਾ ਹੈ"

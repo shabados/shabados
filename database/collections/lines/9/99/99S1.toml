@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰੀ ਸੁਰੀ ਜਿਹ ਨਿਰਖਿ ਲਜਾਨੀ ॥੧॥"
 page = 1189
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਵੇਖ ਕੇ ਦੇਵ ਇਸਤਰੀਆਂ ਅਤੇ ਨਾਰੀਆਂ ਲਜਾਉਂਦੀਆਂ ਸਨ ॥੧॥"

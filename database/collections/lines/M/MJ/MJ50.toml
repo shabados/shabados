@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਚਹੀਐ, ਤਿਹ ਠਵਰ ਭਣਿਜੈ ॥੧੧੪੭॥"
 page = 792
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the wood “Shaakhaainani” and the word “Dharani” at the end and know all the names of Tupak.1147."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਚਾਹੋ, ਉਥੇ ਹੀ ਕਥਨ ਕਰੋ ॥੧੧੪੭॥"

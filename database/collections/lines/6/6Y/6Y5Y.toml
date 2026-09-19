@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਸੋ ਚੁਰਾਵਤ ਭੂਪ ॥੯੬॥"
 page = 634
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hundreds of kings evaded him, seeing the moonlike beauty of his face.96."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਰਾਜਾ ਚਿਤ ਨੂੰ ਚੁਰਾ ਲੈਂਦਾ ਹੈ ॥੯੬॥"

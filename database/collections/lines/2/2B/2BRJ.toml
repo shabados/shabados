@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਾਨ ਲੋਭ ਤੇ ਬਕਤ; ਸਭਨ ਪਰ ਜਾਨਿਯੈ ॥"
 page = 1138
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਨੇ ਸਮਝ ਲਿਆ ਕਿ ਪ੍ਰਾਣ ਬਚਾਣ ਲਈ (ਇਹ) ਇਸ ਤਰ੍ਹਾਂ ਬਕ ਬਕ ਕਰ ਰਿਹਾ ਹੈ।"

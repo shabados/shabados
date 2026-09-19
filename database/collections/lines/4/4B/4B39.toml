@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੀਰ ਕਮਾਨ ਆਨਿ ਮੁਹਿ ਦੀਜੈ ॥"
 page = 964
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Please don’t worry about me,just get me a bow and arrow."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੈਨੂੰ ਤੀਰ ਕਮਾਨ ਲਿਆ ਦੇ।"

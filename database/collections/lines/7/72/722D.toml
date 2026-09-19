@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਨਹੁ ਮਹਾਕਾਲ ਘਨ ਗਰਜੇ ॥੩੦੮॥"
 page = 1380
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਪਰਲੋ ਕਾਲ (ਮਹਾਕਾਲ) ਦੇ ਬਦਲ ਗਰਜ ਰਹੇ ਹੋਣ ॥੩੦੮॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਥਮ ਧ︀ਯਾਇ ਸ੍ਰੀ ਭਗਵਤੀ ਬਰਨੌ ਤ੍ਰਿਯਾ ਪ੍ਰਸੰਗ ॥"
 page = 812
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "To commence with, with devotion to the Reverend Faculty, I narrate the Female Wonders."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾ ਅਧਿਆਇ ਸ੍ਰੀ ਭਗਵਤੀ (ਦਾ ਕਹਿ ਕੇ ਹੁਣ) ਤ੍ਰਿਆ ਪ੍ਰਸੰਗ ਦਾ ਵਰਣਨ ਕਰਦਾ ਹਾਂ।"

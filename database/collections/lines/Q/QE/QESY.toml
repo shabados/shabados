@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਸੋ ਕਉਣ ਬੀਯੋ, ਧਰੇ ਭਾਰੁ ਪੱਬੰ ॥"
 page = 161
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਜਿਹਾ ਦੂਜਾ ਕੌਣ ਹੈ ਜੋ ਪਰਬਤ ਦਾ ਭਾਰ ਸਹਾਰੇ?"

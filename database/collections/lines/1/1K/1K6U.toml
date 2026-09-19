@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖਿ ਪ੍ਰਭਾ ਤਿਹ ਤਰੁਨਿ; ਅਧਿਕ ਬੌਰੀ ਭਈ ॥"
 page = 1190
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਸੁੰਦਰਤਾ ਨੂੰ ਵੇਖ ਕੇ ਉਹ ਇਸਤਰੀ ਕਮਲੀ ਹੋ ਗਈ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜਿ ਸੁਤ ਜਹਾ ਚਿਤ ਲੈ ਜਾਵੈ ॥"
 page = 944
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਦਸ਼ਰਥ ਦਾ ਚਿਤ ਜਾਣਾ ਚਾਹੁੰਦਾ,"

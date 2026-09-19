@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਜ ਜਬੈ ਇਨਹੂੰ ਨ ਕਰੀ; ਤਬ ਹੀ ਕੁਪਿਓ ਇਨ ਪੈ ਧਰਤਾ ਪ੍ਰਘ ॥"
 page = 328
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When they not worship Indra, he became furious and bore his Vajra"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਇਨ੍ਹਾਂ ਨੇ (ਇੰਦਰ ਦੀ) ਪੂਜਾ ਨਾ ਕੀਤੀ ਤਦੋਂ ਬਜ੍ਰ-ਧਾਰੀ ਇੰਦਰ ਇਨ੍ਹਾਂ ਉਤੇ ਗੁੱਸੇ ਹੋ ਗਿਆ।"

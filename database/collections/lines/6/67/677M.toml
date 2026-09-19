@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਰਜ ਛਪਾ ਰੈਨਿ ਹ੍ਵੈ ਆਈ ॥"
 page = 1168
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਜ ਛੁਪ ਗਿਆ ਅਤੇ ਰਾਤ ਹੋ ਗਈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਹੂ ਕੀ ਸੰਕਾ ਨਹਿ ਕਰੈ ॥"
 page = 888
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She had been collecting the cakes of horses’ dung so that no body could suspect."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਸੇ ਦੀ ਵੀ ਕੋਈ ਪਰਵਾਹ ਨਾ ਕੀਤੀ।"

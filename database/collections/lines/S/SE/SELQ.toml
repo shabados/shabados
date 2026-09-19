@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਗਟਿ ਹੈ ਜਿਤਹੀ, ਤਿਤ ਧਰਮ ਦਿਸਾ ਲਖਿ; ਪਾਪਨ ਪੁੰਜ ਪਰਾਵਹਿਗੇ ॥"
 page = 565
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The place where he will manifest Himself, the condition of dharma will begin there and the mass of sins will flee away"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਕਿਥੇ ਧਰਮ ਦੀ ਸਥਿਤੀ ਪਸਰ ਜਾਏਗੀ, ਜਿਸ ਨੂੰ ਵੇਖ ਕੇ ਪਾਪਾਂ ਦੇ ਸਮੂਹ ਭਜ ਜਾਣਗੇ।"

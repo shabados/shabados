@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਜੁ ਦੇਹੀ ਕੋ ਘਾਵ ਦਿਖਾਯੋ ॥"
 page = 855
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He called all the people and showed them the injuries on his body,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਸ਼ਰੀਰ ਦੇ ਜ਼ਖ਼ਮ ਵਿਖਾਏ।"

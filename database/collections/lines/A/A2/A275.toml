@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਭਾ ਸੈਨ ਆਯੋ, ਜਹਾ ਬਾਗ ਨੀਕੋ ॥"
 page = 1220
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਕ ਵਾਰ) ਪ੍ਰਭਾ ਸੈਨ (ਉਥੇ) ਆਇਆ ਜਿਥੇ ਸੁੰਦਰ ਬਾਗ਼ ਸੀ।"

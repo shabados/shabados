@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਿ ਬਡੇਨ ਕੀ ਛਾਡਿ ਦਈ; ਕੁਲ ਭੀਤਰ ਆਪਨੋ ਰਾਹ ਚਲਾਯੋ ॥੪੩॥"
 page = 294
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Kansa dept them imprisoned in his own house and forsaking the traditions of his elders, he engaged servants to keep a watch over them and bound them to submit to his orders, remaining fully under his control.43."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੰਸ ਨੇ ਵੱਡਿਆਂ ਦੀ ਆਨ ਸ਼ਾਨ ਛਡ ਦਿੱਤੀ ਅਤੇ ਕੁਲ ਵਿਚ ਆਪਣਾ ਹੀ ਰਾਹ ਚਲਾ ਦਿੱਤਾ ॥੪੩॥"

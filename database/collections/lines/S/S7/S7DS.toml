@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਇਤ੍ਰੀ ਸੰਧਿਯਾਨ ਕੈ ਅਜਾਪ ਜਾਪ ਜਾਪਹੀ ॥੩॥"
 page = 195
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Working on difficult jobs, they used to stablise in their mind the Uninstallable Lord and used to recite the Gyatri and Sandhya.3."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੰਧਿਆਂ ਅਤੇ ਗਾਇਤ੍ਰੀ ਦੇ ਅਜਪਾ-ਜਾਪ ਜਪਦੇ ਹਨ ॥੩॥"

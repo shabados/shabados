@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਮਾਹੇ ਫ਼ਲਕ ਆਫ਼ਤਾਬੇ ਯਮਾ ॥੨੭॥"
 page = 1414
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Are you either the moon in the sky or sun over the earth?’(27)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਕਾਸ਼ ਦਾ ਚੰਦ੍ਰਮਾ ਹੈਂ ਜਾਂ ਸੰਸਾਰ ਦਾ ਸੂਰਜ ਹੈਂ ॥੨੭॥"

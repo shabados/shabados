@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਕੋ ਸੋਕ ਨਿਵਾਰਿ ਕੈ; ਰਾਵ, ਕਚਹਿਰੀ ਜਾਹੁ ॥"
 page = 914
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Now, Oh my Raja, dislodge all the doubts from your mind and go to the Court."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਰਾਜਨ! ਮਨ ਦਾ ਦੁਖ ਦੂਰ ਕਰ ਕੇ ਕਚਹਿਰੀ (ਦਰਬਾਰ) ਵਿਚ ਜਾਓ।"

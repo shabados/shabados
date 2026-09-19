@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰੁਨ ਬਸਤ੍ਰ ਅੰਗਨ ਮੈ ਕਰਿਹੌ ॥੧੨॥"
 page = 965
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I will disguise as a Sati (the one who immolates her self with the dead body of her husband) and put on red clothes.(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਰੀਰ ਉਤੇ ਲਾਲ ਬਸਤ੍ਰ ਪਾਵਾਂਗੀ ॥੧੨॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਟ ਛੋਰ ਰੁਦ੍ਰ ਤਹ ਨਚੀਯੰ ॥"
 page = 197
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਿਰ ਦਾ) ਜੂੜਾ ਖੋਲ੍ਹ ਕੇ ਰੁਦ੍ਰ ਉਥੇ ਨੱਚਦਾ ਸੀ।"

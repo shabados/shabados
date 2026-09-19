@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਜ਼ਦ ਤੇਗ਼ ਖ਼ੁਦ ਦਸਤ ਹਰ ਦੋ ਸ਼ਿਕਸਤ ॥੧੬॥"
 page = 1413
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She stood up and cut their heads with the sword.(16)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਆਪਣੇ ਹੱਥ ਵਿਚ ਤਲਵਾਰ ਲੈ ਕੇ ਦੋਹਾਂ ਨੂੰ ਕਤਲ ਕਰ ਦਿੱਤਾ ॥੧੬॥"

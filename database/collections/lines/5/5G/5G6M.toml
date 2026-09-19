@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਚਾਰੇ ॥੨੨੫॥"
 page = 573
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There are seen many warriors able to confront the very great power and there are also seen those in helpless condition.225."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਰ ਰਹੇ ਹਨ ॥੨੨੫॥"

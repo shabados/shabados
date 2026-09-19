@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਹੈ ਦੇਹ ਤੇ ਕੁਸਟ ਸਰਬੰ ਨ੍ਰਿਪਾਨੰ ॥"
 page = 145
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Then all the ailment of leprosy will be removed from thy body.”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦੋਂ) ਤੁਹਾਡੀ ਦੇਹ ਤੋਂ ਸਾਰਾ ਕਸ਼ਟ ਹਟੇਗਾ।"

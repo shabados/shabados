@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਗਤਿ ਦੇਸ ਏਸ੍ਵਰ ਹੂੰ ਆਯੋ ॥੫੦॥"
 page = 872
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤ੍ਰਿਗਤਿ ਦੇਸ ਦਾ ਰਾਜਾ ਵੀ ਆ ਪਹੁੰਚਿਆ ॥੫੦॥"

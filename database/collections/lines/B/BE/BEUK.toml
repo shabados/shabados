@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਾਨੀ, ਪਰਮ ਪੁਰਖ ਪਗ ਲਾਗੋ ॥"
 page = 709
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Man! fall at the feet of the supreme Purusha,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਾਣੀ! ਪਰਮ ਪੁਰਖ ਦੇ ਚਰਨੀ ਲਗ ਜਾਓ।"

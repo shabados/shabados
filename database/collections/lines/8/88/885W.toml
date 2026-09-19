@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਮਾਲਸ਼ ਕਰਾਮਾਤ ਆਜ਼ਮ ਕਰੀਮ ॥"
 page = 1414
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is absolute, divine, eminent, and compassionate."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪਰਮਾਤਮਾ ਕਰਾਮਾਤ ਵਿਚ ਪੂਰਨ ਹੈ ਅਤੇ ਬਹੁਤ ਕ੍ਰਿਪਾਲੂ ਹੈ।"

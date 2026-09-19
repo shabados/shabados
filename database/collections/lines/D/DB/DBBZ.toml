@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਰਬੀਰ ਜਾ ਕੇ ਸਦਾ; ਰਹੈ ਚਰਨ ਸੋ ਲਾਗ ॥੧॥"
 page = 1007
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many intrepid visited him and fell on his feet for blessings.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਬੀਰ ਉਸ ਦੇ ਸਦਾ ਚਰਨੀ ਲਗੇ ਰਹਿੰਦੇ ਸਨ ॥੧॥"

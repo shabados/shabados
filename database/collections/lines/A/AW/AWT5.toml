@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਤੀਐ ਅਸ੍ਵ ਉਸਟ ਗਜ ਲੀਨਾ ॥੧॥੨੫੪॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The second one took horses, camels and elephants.1.254."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੂਜੇ ਨੂੰ ਘੋੜੇ, ਊਠ ਅਤੇ ਹਾਥੀ ਲੈ ਲਏ ॥੧॥੨੫੪॥"

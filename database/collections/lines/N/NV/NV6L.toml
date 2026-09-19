@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਹੁ ਚਉਤਰੇ ਜਾਇ ਜਤਾਈ ॥੭॥"
 page = 885
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Shah’s wife announcing, ‘My son, my son.’ went around and informed everybody.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਨੀਏ ਨੇ (ਘਰ ਦੇ) ਚੌਬੂਤਰੇ (ਉਤੇ) ਜਾ ਕੇ (ਸਭ ਨੂੰ) ਦਸਿਆ ॥੭॥"

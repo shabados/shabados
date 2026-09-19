@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾ ਕੀ ਸੋਭਾ; ਘਟਿ ਘਟਿ ਬਨੀ ॥੨॥"
 page = 182
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "His glory is manifest in every heart."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਸ਼ਾਨ ਸ਼ੌਕਤ ਹਰ ਦਿਲ ਅੰਦਰ ਪ੍ਰਗਟ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "His Glory is manifest in each and every heart. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਜਿਸ ਕੀ ਸੋਭਾ ਘਟ ਘਟ ਮੇਂ ਬਨ ਰਹੀ ਹੈ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪਰਮਾਤਮਾ ਦੀ ਸੁੰਦਰਤਾ ਹਰੇਕ ਸਰੀਰ ਵਿਚ ਫਬਣ ਵਿਖਾ ਰਹੀ ਹੈ, (ਉਸਦਾ ਨਾਮ ਸਦਾ ਸਿਮਰ) ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਘਟਿ ਘਟਿ = ਹਰੇਕ ਘਟ ਵਿਚ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél, Cuya Gloria es revelada en cada corazón.(2)"

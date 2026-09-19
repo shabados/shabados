@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਿਟਿਓ ਦੇਹ ਗਰਬੰ ॥੩੨॥"
 page = 181
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All of them abandoned their weapons and the pride of all was shattered.32."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਰੀਰ ਦਾ ਮਾਣ ਮਿਟਾ ਦਿੱਤਾ ॥੩੨॥"

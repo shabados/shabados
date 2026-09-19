@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਝੈਯੈ ਤੁਮੈ ਭੋਗ ਭਾਵਤ ਕਮੈਯੈ ॥"
 page = 830
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And satisfy you through lovemaking."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਨ ਭਾਉਂਦੀ ਕ੍ਰੀੜਾ ਕਰ ਕੇ ਤੁਹਾਨੂੰ ਰਿਝਾਵਾਂਗੀ।"

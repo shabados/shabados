@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਭਾਨਾ ਆਵਲ ਵਿਗਹ ਮਲੁ; ਬੁਧੋ ਛੀਂਬਾ ਗੁਰ ਦਰਬਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Bhana, Vigah Mal and Buddho, the calicoprinter have also come to the court of the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਭਾਨਾ ਆਵਲ ਵਿਗਹਮਲ, ਬੁੱਧੂ ਨਾਮੇ ਗੁਰ ਦਰਬਾਰ ਦਾ ਧੋਬੀ।"

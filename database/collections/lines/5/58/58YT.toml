@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿਓ ਜੁਧ ਤੇ ਦੇਵਲੋਕੰ ਪਿਆਣੰ ॥੪੫॥੨੧੩॥"
 page = 145
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Dying in the battlefield, he went to heaven.45.213."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦ੍ਰੋਣਾਚਾਰਯ ਨੇ) ਯੁੱਧ-ਭੂਮੀ ਤੋਂ ਦੇਵ ਲੋਕ ਨੂੰ ਪ੍ਰਸਥਾਨ ਕੀਤਾ ॥੪੫॥੨੧੩॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਉਮੈ ਗਰਬੁ ਨਿਵਾਰਿ ਕੈ; ਸਾਧਸੰਗਤਿ ਸਚ ਮੇਲਿ ਮਿਲੰਦੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Deleting ego from themselves they take dip into the sacred tank of the holy congregation."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਹਉਮੈਂ ਹੰਕਾਰ ਦੂਰ ਕਰਾਕੇ ਸਾਧ ਸੰਗਤ ਦੇ ਸਚੇ ਮੇਲ ਵਿਚ ਮਿਲਦੇ ਹਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਦੀ ਪੈਰਿ ਕਰਿ ਪਾਰ ਪਰਾਈ ॥"
 page = 855
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਤੂੰ ਨਦੀ ਤਰ ਕੇ ਪਾਰ ਗਈ ਸੈਂ"

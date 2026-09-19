@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜਾ ਏਕ ਪਹਾਰ ਕੋ; ਚਿਤ੍ਰਨਾਥ ਤਿਹ ਨਾਮ ॥"
 page = 896
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the hill, there used to live a Raja whose name was Chiter Nath."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਪਹਾੜ ਦਾ ਰਾਜਾ ਸੀ, ਜਿਸ ਦਾ ਨਾਂ ਚਿਤ੍ਰਨਾਥ ਸੀ।"

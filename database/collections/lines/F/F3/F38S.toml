@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਬਕੰਤ ਕੇਹਰ ਡੋਲਹੀ ॥"
 page = 111
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ੇਰ ('ਕੇਹਰ') ਦਹਾੜਦਾ ਹੋਇਆ ਘੁੰਮ ਰਿਹਾ ਸੀ"

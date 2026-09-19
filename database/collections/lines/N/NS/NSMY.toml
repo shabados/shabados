@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਦੀਵੀ ਨੇਕ ਗੁਣਾਂ ਨੂੰ ਵਧਾਉਣ ਵਾਲਾ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਸਆਦਤ ਫਜ਼ਾਇੰਦਇ ਸਰਮਦੀ ॥੭੬॥"
 page = 5
 line = 76
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, is the propagator of the eternal virtues. (76)"

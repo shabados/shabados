@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ, ਛਲੀਆ ਆਪ ਕਹਾਯਾ ॥"
 page = 156
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Therefore Thou art called ‘Crafty’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸੇ ਲਈ ਆਪਣੇ ਆਪ ਨੂੰ 'ਛਲੀਆ' ਅਖਵਾਉਂਦਾ ਹੈ।"

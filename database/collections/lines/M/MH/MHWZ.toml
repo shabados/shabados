@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹੋਇ ਹੈਰਾਨੁ, ਕਰੇਨਿ ਜੁਹਾਰੀ ॥੩੨॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "All got surprised and they all bowed."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਅਚਰਜ ਹੋ ਕੇ (ਫਿਰ) ਲੱਗੇ ਨਿਮਸਕਾਰਾਂ ਕਰਨ।"

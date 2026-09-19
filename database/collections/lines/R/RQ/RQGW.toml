@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਿਤਾ ਸਹਿਤ ਮਾਤਾ ਹਨਿ ਡਾਰੀ ॥"
 page = 1337
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪਿਤਾ ਸਮੇਤ ਮਾਤਾ ਨੂੰ ਮਾਰ ਦਿੱਤਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਰਾਜਾ ਹਰਖਤ ਭਯੋ; ਤੁਮਰੀ ਤੀਰ ਲਗਾਇ ॥"
 page = 1007
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja felt very contended by hitting the gourd-shell,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਰਾਜਾ ਤੂੰਬੀ ਨੂੰ ਤੀਰ ਮਾਰ ਕੇ ਬਹੁਤ ਖ਼ੁਸ਼ ਹੋਇਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾ ਤੋਰੀ ਮਤਿ ਕੋ ਹ੍ਵੈ ਗਯੋ ॥"
 page = 949
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘What are you carrying on your shoulders? What has happened to your intelligence?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਅਕਲ ਨੂੰ ਕੀ ਹੋ ਗਿਆ ਹੈ।"

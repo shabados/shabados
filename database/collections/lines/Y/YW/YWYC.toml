@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰੁ ਤੇ ਬੇਮੁਖੁ ਹੋਇ ਕੈ; ਪਾਪ ਕਮਾਵੈ ਦੁਰਮਤਿ ਦਹਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He became an apostate. He was entangled in the cobweb of evil deeds."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਥੋਂ ਬੇਮੁਖ ਹੋ ਗਿਆ, ਵਡੇ ਪਾਪ ਕਮਾਵੇ ਤੇ ਖੋਟੀ ਮਤ ਨੇ ਨਾਸ਼ ਕਰ ਦਿਤਾ।"

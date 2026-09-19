@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਗੜਦੰਗ ਰੋਸ ਰੋਹੇ ਦੁਰੰਤ ॥੪੮੩॥"
 page = 250
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Calling his innumerable warriors, full of resentment and very wrathful.483."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਪ੍ਰਚੰਡ ਕ੍ਰੋਧ ਦੇ ਭਰੇ ਹੋਏ ਗੁਸੈਲ ਸਨ ॥੪੮੩॥"

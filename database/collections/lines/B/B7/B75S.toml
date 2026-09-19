@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਜਨ ਕਉ; ਇਹੀ ਸੁਹਾਵੈ ॥"
 page = 613
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "This is what becomes the Lord's slave."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਹੋ ਕੁੱਛ ਹੀ ਪ੍ਰਭੂ ਦੇ ਗੋਲੇ ਨੂੰ ਫਬਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "This is what befits the Lord's servant."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮੇਸਰ ਕੇ ਪ੍ਯਾਰ੍ਯੋਂ ਕੋ ਏਹੀ ਬਾਤ ਸੁਹਾਵੈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਦੇ ਭਗਤ ਨੂੰ ਇਹੀ ਕਾਰ ਚੰਗੀ ਲੱਗਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੁਹਾਵੈ = ਸੁਖਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Esto es lo que hace un Hombre de Dios: siempre ve a su Señor cerca,"

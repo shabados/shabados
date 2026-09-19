@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੋਈ ਕਰੈ ਪੂਜਾ; ਕੋਈ ਸਿਰੁ ਨਿਵਾਇ ॥੨॥"
 page = 885
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Some perform Hindu worship and some bow their heads in the Muslim fashion."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਹਿੰਦੂਆਂ ਵਾਲੀ ਉਪਾਸ਼ਨਾ ਕਰਦੇ ਹਨ ਅਤੇ ਕਈ ਮੁਸਲਮਾਨੀ ਤਰੀਕੇ ਨਾਲ ਸੀਸ ਨਿਵਾਉਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Some perform devotional worship services, and some bow their heads in prayer. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਿੰਦੂ ਪੂਜਾ ਕਰਤੇ ਹੈਂ ਮੁਸਲਮੀਨ ਸਿਰ ਨਿਵਾਵਤੇ ਹੈਂ ਅਰਥਾਤ ਨਿਵਾਜ ਪੜਤੇ ਹੈਂ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਮਨੁੱਖ (ਪ੍ਰਭੂ ਦੀ ਮੂਰਤੀ ਬਣਾ ਕੇ) ਪੂਜਾ ਕਰਦਾ ਹੈ, ਕੋਈ ਨਮਾਜ਼ ਪੜ੍ਹਦਾ ਹੈ ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਿਰੁ ਨਿਵਾਇ = ਨਮਾਜ਼ ਪੜ੍ਹਦਾ ਹੈ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "otros hacen servicios de alabanzas de devoción, algunos hacen reverencia en oración. (2)"

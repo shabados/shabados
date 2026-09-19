@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਾਰਬ੍ਰਹਮ, ਸਤਿਗੁਰ ਬਲਿਹਾਰੇ ॥੭॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "I am sacrifice unto this trancendental Brahm in the form of true Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਓਹੀ) ਪਾਰਬ੍ਰਹਮ ਰੂਪ ਸਤਿਗੁਰੂ (ਨਾਨਕ) ਹੈ, (ਮੈਂ ਉਸ ਪੁਰੋਂ) ਬਲਿਹਾਰ (ਜਾਂਦਾ) ਹਾਂ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਦਾ ਕੁਅਰਿ ਤਿਹ ਸੁਤਾ ਭਨਿਜੈ ॥"
 page = 1354
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਸਦਾ ਕੁਮਾਰੀ ਨਾਂ ਦੀ ਪੁੱਤਰੀ ਦਸੀ ਜਾਂਦੀ ਸੀ,"

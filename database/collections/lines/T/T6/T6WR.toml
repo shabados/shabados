@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੈ ਤੀਰ ਤਰਵਾਰ, ਕਾਤੀ ਕਟਾਰੀ ॥"
 page = 1287
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੀਰ, ਤਲਵਾਰਾਂ, ਕਾਤੀਆਂ ਅਤੇ ਕਟਾਰਾਂ ਚਲਣ ਲਗੀਆਂ।"

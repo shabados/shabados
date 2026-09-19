@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹਸਿ ਬਹਸਿ ਆਲਿੰਗਨ ਕਰਹੀ ॥"
 page = 962
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And, by squeezing and clasping the woman, he was feeling blissful."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੱਸ ਹੱਸ ਕੇ ਆਲਿੰਗਨ ਕਰਦੀ ਹੈ"

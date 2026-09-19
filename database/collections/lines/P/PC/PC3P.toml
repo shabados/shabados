@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿ ਅਜ਼ ਤਾਜ਼ੀ ਅਸਪਾਨ ਪੋਲਾਦ ਨਾਲ ॥"
 page = 1421
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were provided with Arabian horses, (which were) outfitted with steel hooves."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਫ਼ੌਲਾਦੀ ਖੁਰੀਆਂ ਵਾਲੇ ਅਰਬੀ ਘੋੜੇ"

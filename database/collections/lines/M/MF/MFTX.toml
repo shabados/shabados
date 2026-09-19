@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਹੀ ਪਾਪ ਬਿਦਾ ਕਰ ਦੈਹੋ ॥੪॥"
 page = 1010
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘We will take her with us and, through ablution, we will wash away all our sins.’(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰੇ ਹੀ ਪਾਪ ਧੋ ਦਿਆਂਗੇ ॥੪॥"

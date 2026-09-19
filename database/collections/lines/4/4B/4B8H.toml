@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਨ ਚੰਦ ਇਕ ਨ੍ਰਿਪਤ ਫਿਰੰਗਾ ॥"
 page = 1215
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਸਨ ਚੰਦ ਇਕ ਫਿਰੰਗੀ (ਦੇਸ਼) ਦਾ ਰਾਜਾ ਸੀ।"

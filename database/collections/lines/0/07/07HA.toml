@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜਿ ਜੋਗ ਦੋਨੋ ਹੀ ਕੀਜਹੁ ॥੩੧॥"
 page = 905
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Not to keep the Ranis in adversity and not to abandon the kingship.(31)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਾਜ ਅਤੇ ਜੋਗ ਦੋਹਾਂ ਨੂੰ ਭੋਗਣਾ ਹੈ ॥੩੧॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੰਡਸ ਚੌਪਰ ਖੇਲ ਖਿਲਾਨਾ ॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Began to play chess."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਪੜ ਦੀ ਖੇਡ ਖੇਡਣ ਦੀ ਵਿਵਸਥਾ ਕੀਤੀ।"

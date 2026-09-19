@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਭਾਵਤ ਕੇ ਭੋਗ ਕਮਾਵੈ ॥੧੪॥"
 page = 840
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And enjoyed heart felt sex.(14)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਸ ਨਾਲ) ਮਨ ਭਾਉਂਦੇ ਭੋਗ ਵਿਲਾਸ ਕਰਦੀ ॥੧੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖੀ ਮ੍ਰੀਚ ਨੈਣੰ ॥"
 page = 208
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Marich saw his army running away,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਰੀਚ ਨੇ (ਆਪਣੀ) ਅੱਖੀਂ ਵੇਖ ਲਿਆ।"

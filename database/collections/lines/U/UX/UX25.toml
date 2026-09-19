@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਲਬਾਹਨ ਬਿਕ੍ਰਮ ਭਏ; ਬਾਜਿਯੋ ਲੋਹ ਅਪਾਰ ॥"
 page = 933
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salwan and Bikrim entered the combat,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਲਬਾਹਨ ਅਤੇ ਬਿਕ੍ਰਮ ਵਿਚਕਾਰ ਬਹੁਤ ਲੋਹਾ ਵਜਣ ਲਗਿਆ।"

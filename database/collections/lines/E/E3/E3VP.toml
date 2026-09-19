@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਰਕਿਰਤੀ ਹੂ ਬਾਹਰਾ; ਗੁਰਮੁਖਿ ਵਿਰਲੋਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Any rare gurmukh remains away from the effects of maya."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਰਥ ਥੋਂ ਬਾਹਰ ਵਿਰਲੇ ਗੁਰਮੁਖ ਹਨ।"

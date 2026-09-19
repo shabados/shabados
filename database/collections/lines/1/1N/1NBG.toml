@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਸਕਤਿ ਕ੍ਰਿਪਾ ਕਰ ਕਰਾ ॥"
 page = 190
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Shiva meditated upon the Shakti (power) and the Power (Shakti) was Gracious towards him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਕਰ ਕੇ ਸ਼ਕਤੀ ਨੇ (ਉਸ ਉਤੇ) ਕ੍ਰਿਪਾ ਕੀਤੀ"

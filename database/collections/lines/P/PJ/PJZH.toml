@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੌ ਨ੍ਰਿਪ ਕਹਿਯੋ ਨ ਕਰੈ ਤਿਹਾਰੋ ॥"
 page = 905
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Then he told me that, if Raja refused to obey”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਜੇ ਰਾਜਾ ਤੁਹਾਡੇ ਕਹੇ ਅਨੁਸਾਰ ਨਾ ਕਰੇ;"

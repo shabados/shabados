@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਆਸਨ ਕਰੇ; ਚੁੰਬਨ ਕਰੇ ਬਨਾਇ ॥"
 page = 998
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She adopted invariable postures and kissed him a lot."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਪ੍ਰਕਾਰ ਦੇ ਆਸਨ ਕੀਤੇ ਅਤੇ ਤਰ੍ਹਾਂ ਤਰ੍ਹਾਂ ਦੇ ਚੁੰਬਨ ਲਏ।"

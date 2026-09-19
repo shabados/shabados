@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਗ ਮ੍ਰਿਗ ਜਛ ਭੁਜੰਗਨ ਮੋਹੈ ॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Krishna’s glamour was so high that, even, the birds, antelopes, and reptiles  idolised him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੂੰ ਵੇਖ ਕੇ) ਪੰਛੀ, ਹਿਰਨ, ਯਕਸ਼ ਅਤੇ ਨਾਗ ਮੋਹਿਤ ਹੋ ਰਹੇ ਸਨ।"

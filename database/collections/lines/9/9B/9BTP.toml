@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੀ ਨ੍ਰਿਪ ਆਗ︀ਯਾ ਮਹਿ ਰਹਈ ॥"
 page = 965
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ ਉਸ ਦੀ ਆਗਿਆ ਵਿਚ ਰਹਿੰਦਾ ਸੀ।"

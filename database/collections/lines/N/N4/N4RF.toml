@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਇਸ ਮਾਨਿ ਪੁਰੰਦਰ ਕੋ; ਸੁ ਭਯੋ ਤਿਹ ਕੇ ਸੰਗ ਬਾਤ ਉਚਾਰੀ ॥"
 page = 506
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਗਿਆ ਮੰਨ ਕੇ ਅਰਜਨ ਨੇ ਉਸ (ਇਸਤਰੀ) ਨਾਲ ਸਾਰੀ ਗੱਲ ਇਸ ਤਰ੍ਹਾਂ ਕੀਤੀ,"

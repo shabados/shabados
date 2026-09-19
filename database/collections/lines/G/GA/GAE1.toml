@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਲੌ ਨਿਕਸਾ ਸਿੰਘ ਅਪਾਰਾ ॥"
 page = 865
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The hunting was proceeding thus, when a huge lion emerged."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਦੋਂ ਤਕ ਇਕ ਵੱਡਾ ਸ਼ੇਰ ਆ ਨਿਕਲਿਆ।"

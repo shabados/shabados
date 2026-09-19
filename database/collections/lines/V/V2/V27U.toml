@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਇਹੁ ਵੇਛੋੜਾ ਸਹਿਆ; ਨ ਜਾਇ ॥"
 page = 1262
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "This separation he can bear not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਜੁਦਾਇਗੀ ਨੂੰ ਉਹ ਸਹਾਰ ਨਹੀਂ ਸਕਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "She cannot endure this separation."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਵਿਛੋੜਾ ਸਹਾਰਾ ਨਹੀਂ ਜਾਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਪਾਸੋਂ) ਇਹ ਵਿਛੋੜਾ ਸਹਾਰਿਆ ਨਹੀਂ ਜਾਂਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "su sueño ni tampoco aguantar esta separación."

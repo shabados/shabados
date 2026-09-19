@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਤੈ ਬਰਖ ਦ੍ਵੈ ਅਸਟ ਮਾਸੰ ਪ੍ਰਮਾਨੰ ॥"
 page = 677
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਦੋਂ) ਦੋ ਵਰ੍ਹੇ ਅਤੇ ਅੱਠ ਮਹੀਨੇ ਤਕ ਗੁਜ਼ਰ ਗਏ"

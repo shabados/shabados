@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸਾਧੂ ਸੰਗੁ, ਚਲਣੁ ਜਾਣਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Gurmukhs have learnt the technique of life in the holy congregation."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖ ਨੇ ਸਾਧੂਆਂ ਦੀ ਸੰਗਤ ਕਰ ਕੇ (ਇਸ ਜਹਾਨ ਫਾਨੀ ਥੋਂ) ਚਲਣਾ ਹੀ ਜਾਣ ਲੀਤਾ ਹੈ।"

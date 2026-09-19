@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਖੁ ਦੈ ਤਾਹਿ ਮਾਰਿ ਹੀ ਡਾਰਿਯੋ ॥"
 page = 886
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Raja put his foot inside the Rani’s place, she killed him with poison."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਜ਼ਹਿਰ ਦੇ ਕੇ ਮਾਰ ਹੀ ਦਿੱਤਾ।"

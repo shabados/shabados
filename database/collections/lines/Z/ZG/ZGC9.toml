@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਭੈ ਸੁ ਧਾਰ ॥੪੭॥"
 page = 630
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The kings of charming forms and apparently beauty-incarnate and of supreme glory were there.47."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਹੁਤ ਫਬ ਰਿਹਾ ਹੈ ॥੪੭॥"

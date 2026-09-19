@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਸੁ ਸਾਤ ਭਏ ॥"
 page = 618
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਦੇ ਉਸ ਇਸਤ੍ਰੀ ਤੋਂ) ਸੱਤ ਪੁੱਤਰ ਪੈਦਾ ਹੋਏ"

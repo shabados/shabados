@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਯਾਲਕੋਟ ਕੇ ਦੇਸ ਮੈ; ਸਾਲਬਾਹਨਾ ਰਾਵ ॥"
 page = 931
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the country of Sialkote, there used to live a Raja called Salwan."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਿਆਲਕੋਟ ਦੇ ਦੇਸ਼ ਵਿਚ ਸਾਲਬਾਹਨ ਨਾਂ ਦਾ ਇਕ ਰਾਜਾ ਸੀ"

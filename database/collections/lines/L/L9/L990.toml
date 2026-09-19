@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੈ ਤੀਰ ਤਾਰੇ ॥"
 page = 114
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Wonderful type of arrows have been shot and because of them many fighters have expired."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ) ਤੀਰਾਂ ਨੇ ਕਿਤਨੇ (ਯੁੱਧਵੀਰ) (ਯੁੱਧ ਰੂਪੀ ਨਦੀ ਤੋਂ) ਪਾਰ ਕਰ ਦਿੱਤੇ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਤੇਜੁ ਲਖੇ ਭਟ ਯੌ ਭਟਕੇ ॥"
 page = 811
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The heroes took to their heels"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਤੇਜ ਨੂੰ ਵੇਖ ਕੇ ਸੂਰਮੇ ਇਸ ਤਰ੍ਹਾਂ ਭਜ ਗਏ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਤ ਭਵਾਨੀ ਭਦ੍ਰ; ਬਚਨ ਤਹ ਆਇਯੋ ॥"
 page = 1006
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After getting the message, Bhadar Bhawani came there."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਦ੍ਰ ਭਵਾਨੀ ਬਚਨ ਸੁਣ ਕੇ ਉਥੇ ਆ ਗਿਆ।"

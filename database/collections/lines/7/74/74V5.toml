@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਾਇਆ ਮੋਹੁ ਜਗਤੁ ਗੁਬਾਰਾ ॥"
 page = 1043
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The World is enveloped by the darkness of the love of riches."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੰਸਾਰ ਨੂੰ ਧਨ-ਦੌਲਤ ਦੀ ਮਮਤਾ ਦੇ ਅਨ੍ਹੇਰੇ ਨੇ ਘੇਰਿਆ ਹੋਇਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The world is in the darkness of love and attachment to Maya."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮਾਇਆ ਕੇ ਮੋਹ ਕਰ ਕੇ ਜਗਤ ਮੇਂ ਅੰਧੇਰ ਹੋ ਰਹਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਸ੍ਰਿਸ਼ਟੀ ਵਿਚ ਪ੍ਰਭੂ ਆਪ ਹੀ) ਮਾਇਆ ਦਾ ਮੋਹ ਪੈਦਾ ਕਰਨ ਵਾਲਾ ਹੈ (ਜਿਸ ਨੇ) ਜਗਤ ਘੁੱਪ ਹਨੇਰਾ ਬਣਾ ਰੱਖਿਆ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੁਬਾਰਾ = ਹਨੇਰਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El mundo está envuelto en el caos del engaño y de las pasiones con Maya,"

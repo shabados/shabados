@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਯੋ ਏਕ ਘਟ ਫੋਰਿ; ਬਹੁਤ ਠਿਕਰੀ ਭਈ ॥"
 page = 1130
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਇਕ ਘੜਾ ਭੰਨ ਦਿੱਤਾ ਅਤੇ ਬਹੁਤ ਸਾਰੀਆਂ ਠੀਕਰੀਆਂ ਬਣ ਗਈਆਂ।"

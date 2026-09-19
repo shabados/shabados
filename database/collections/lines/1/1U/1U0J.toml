@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਲਗਿਯੋ ਏਕ ਸੰਗ ਨੇਹਾ ॥"
 page = 1253
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਇਕ ਨਾਲ ਪਿਆਰ ਹੋ ਗਿਆ,"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਰਵਸਿ ਪਰਉਪਕਾਰ ਨੋ; ਪਰ ਹਥਿ ਪਥਰ ਦੰਦ ਭਨਾਵੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Controlled by the sense of benevolence it gets itself broken on stone."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪਰੋਪਕਾਰ ਦੇ ਲਈ ਪਰਾਏ ਵੱਸ ਪੈਕੇ, ਪਰਾਏ ਹੱਥੀਂ ਪੱਥਰ ਨਾਲ ਦੰਦ ਭਨਾਂਵਦਾ ਹੈ।"

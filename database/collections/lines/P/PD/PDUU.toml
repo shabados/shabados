@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਯੋ ਕਉਨ ਬੀਰੰ ਸੁ ਯਾ ਤੇ ਅਲੋਹੰ ॥੧॥"
 page = 50
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which warrior could save himself from the blwos of mighty king lust and the great courtiers creed and attachment? 1."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਲਾ ਕੌਣ ਸ਼ੂਰਵੀਰ ਬਚ ਕੇ ਗਿਆ ਹੈ? ॥੧॥"

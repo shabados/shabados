@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਏ ਜਾਰ ਕਰਿ ਜਾਤ ਨ ਕਹਾ ॥੧੯੨॥"
 page = 650
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There he saw a Fisherman going with his net.192."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਹੱਥ ਵਿਚ ਜਾਲ ਲਈ ਜਾ ਰਿਹਾ ਸੀ (ਜਿਸ ਦਾ) ਵਰਣਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ॥੧੯੨॥"

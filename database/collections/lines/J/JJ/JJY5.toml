@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਾਧਵੇ; ਭਜੁ ਦਿਨ ਨਿਤ ਰੈਣੀ ॥"
 page = 743
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Day and night ever meditate thou on God's the Lord of wealth."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਦਿਨ ਅਤੇ ਰਾਮ ਨੂੰ ਸਦੀਵ ਹੀ ਮਾਇਆ ਦੇ ਸੁਆਮੀ, ਵਾਹਿਗੁਰੂ ਦਾ ਸਿਮਰਨਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Meditate, vibrate constantly, day and night, on the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਿਆਰੇ! ਮਾਧਵ ਕੋ ਨਿਤ ਹੀ ਰਾਤ ਦਿਨ ਭਜ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਦਿਨ ਰਾਤ ਸਦਾ ਮਾਇਆ ਦੇ ਪਤੀ ਪ੍ਰਭੂ ਦਾ ਨਾਮ ਜਪਿਆ ਕਰ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਾਧਵੇ = {मा = धव। ਮਾਇਆ ਦਾ ਪਤੀ} ਪਰਮਾਤਮਾ ਨੂੰ। ਭਜੁ = ਸਿਮਰਦਾ ਰਹੁ। ਰੈਣੀ = ਰਾਤ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Contempla siempre a tu Único Dios y habitando en Su Refugio,"

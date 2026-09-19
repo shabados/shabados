@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੀ ਸਕਤਿ ਸੀਘ੍ਰ ਸ੍ਰੀ; ਕ੍ਰਿਪਾਣਿ ਪਾਣਿ ਧਾਰ ਕੈ ॥"
 page = 111
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Immediately the powers wore the sword and went towards the arena of war"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਸ਼ਕਤੀਆਂ ਤੁਰਤ ਹੱਥਾਂ ਵਿਚ ਤਲਵਾਰਾਂ ਧਾਰਨ ਕਰ ਕੇ (ਯੁੱਧ-ਭੂਮੀ ਵਲ) ਚਲ ਪਈਆਂ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੋਬਹ ਤੋਬਹ ਕਰੈ ਖੁਦਾਈ ॥੧੨॥"
 page = 940
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Through the woman, Khan got them beaten and then they expressed their regrets.(l2)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੁਲਾਣੇ ਤੋਬਾ ਤੋਬਾ ਕਰਨ ਲਗੇ ॥੧੨॥"

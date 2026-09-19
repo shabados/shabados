@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਨਾਮੰ ਨ ਠਾਮੰ ਮਹਾ ਜੋਤਿ ਜਾਗੰ ॥"
 page = 39
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Nameless, Placeless; and a Radiating Great Effulgence"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਨਾਮ ਹੈ, ਨਾ ਠਿਕਾਣਾ ਹੈ, (ਬਸ) ਜਗਣ ਵਾਲੀ (ਤੂੰ) ਮਹਾ ਜੋਤਿ ਹੈਂ।"

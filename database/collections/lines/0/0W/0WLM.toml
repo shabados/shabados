@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਪਤਿ ਕੋ ਮੁਹਿ ਤ੍ਰਾਸ ਦਿਖਾਰੈ ॥"
 page = 1161
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪਤੀ ਦਾ ਤੂੰ ਮੈਨੂੰ ਡਰ ਵਿਖਾ ਰਿਹਾ ਹੈਂ,"

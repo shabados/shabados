@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਦਾ ਬੰਦਾ ਦੋਹਾਣ ਜਹਾਨਾਣ ਦਾ ਮਾਲਕ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬੰਦਾਇ ਊ ਸਾਹਿਬ ਹਰ ਦੋ ਸਰਾ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Whosoever has not been able to eradicate his self ego,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਿਯੋ ਤਾਹਿ ਸੁਨਿ ਸਚੀ ਪਿਆਰੀ ॥"
 page = 974
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੁਜਾਤੀ ਨੇ) ਉਸ ਨੂੰ ਕਿਹਾ, ਹੇ ਪਿਆਰੀ ਸਚੀ! ਸੁਣ,"

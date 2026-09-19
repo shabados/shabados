@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਪੁ ਕਰਤੇ; ਤਪਸੀ ਭੂਲਾਏ ॥"
 page = 370
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "She leads astray the penitents who practise penance."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤਪੱਸਿਆ ਕਰਦੇ ਹੋਇਆਂ ਤੱਪੀਆਂ ਨੂੰ ਇਹ ਕੁਰਾਹੇ ਪਾ ਦਿੰਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "She leads astray the penitents who practice penance."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਪ ਕਰਤੇ ਹੂਏ ਤਪਸ੍ਵੀ ਮਾਯਾ ਨੇ ਭੁਲਾਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤਪ ਕਰ ਰਹੇ ਤਪਸ੍ਵੀਆਂ ਨੂੰ (ਇਸ ਮਾਇਆ ਨੇ) ਕੁਰਾਹੇ ਪਾ ਦਿੱਤਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਭੁਲਾਏ = ਕੁਰਾਹੇ ਪਾ ਦਿੱਤੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Los ascetas que practican austeridades son engañados;"

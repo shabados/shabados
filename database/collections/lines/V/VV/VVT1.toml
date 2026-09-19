@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਈਰਖਾ ਅਰੁ ਉਚਾਟ ਏ ਦੋਊ; ਜੰਗ ਜੋਧਾ ਸੂਰ ॥"
 page = 697
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Irsha (jealousy) and Ucchatan (indifference), both of them are warriors"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਈਰਖਾ' ਅਤੇ 'ਉਚਾਟ' ਇਹ ਦੋਵੇਂ ਜੰਗ ਦੇ ਸੂਰਮੇਂ ਯੋਧੇ ਹਨ।"

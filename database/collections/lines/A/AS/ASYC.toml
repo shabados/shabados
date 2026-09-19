@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਗੇ ਮੁਖਕੰ ਬਰਣ ਬਾਜੀ ਰਥੇਸੰ ॥"
 page = 242
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਸੁੰਦਰ ਰਥ ਅੱਗੇ ਚੂਹੇ ਰੰਗੇ ਘੋੜੇ ਲੱਗੇ ਹੋਏ ਹਨ,"

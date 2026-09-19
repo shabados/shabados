@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਯ ਤਿਨ ਕਹ ਅਪਨੀ ਕਰਿ ਮਾਨੈ ॥"
 page = 880
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀ (ਰਾਣੀ) ਉਸ ਨੂੰ ਆਪਣਾ ਸਮਝਦੀ ਸੀ,"

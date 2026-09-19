@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਿਟ ਜੈ ਹੈ ਸਭ ਖਸਟ ਕਰਮ ਕੇ; ਧਰਮ ਘਰਨ ਘਰਿ ॥"
 page = 558
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The people will commit many sins and will not even do one task of righteousness"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਛੇ ਕਰਮਾਂ ਦੇ ਧਰਮ ਘਰਾਂ ਤੋਂ ਮਿਟ ਜਾਣਗੇ।"

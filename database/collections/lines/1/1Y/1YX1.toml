@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਕੇ ਸਹਾਈ ਆਪ ॥੪॥"
 page = 611
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He helps those who repeat His Name.4."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੇ ਸਹਾਈ (ਉਹ) ਆਪ ਹੀ (ਹੋਏ ਹਨ) ॥੪॥"

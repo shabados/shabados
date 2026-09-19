@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੈਸਿਕ ਧਰਿਯੋ ਸਰੂਪ ਮੁਰਾਰਾ ॥"
 page = 190
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now I enumerate the incarnations of Vishnu as to what type of incarnations he adopted."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਮੁਰਾਰੀ ਨੇ ਰੂਪ ਧਾਰਿਆ ਹੈ।"

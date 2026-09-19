@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਸੁੰਦਰ ਮਠ ਊਚੀ; ਧੁਜਾ ਬਿਰਾਜਹੀ ॥"
 page = 1049
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਬਹੁਤ ਸੁੰਦਰ ਮਠ ਸੀ ਅਤੇ (ਉਸ ਉਤੇ) ਉੱਚੀ ਧੁਜਾ ਸ਼ੁਭਾਇਮਾਨ ਸੀ।"

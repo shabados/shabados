@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਤੁਮ ਮਿਲਿ ਕੈ ਨਹਿ ਮਾਰੋ ॥੯॥"
 page = 885
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘We have taken him as our son and now you do not punish him.’(9)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਲਈ) ਤੁਸੀਂ ਇਸ ਨੂੰ ਮਿਲ ਕੇ ਨਾ ਮਾਰੋ ॥੯॥"

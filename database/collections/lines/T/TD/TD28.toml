@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਰੱਬ ਦੀ ਯਾਦ ਵਿਚ ਪਰਪੱਕ ਅਤੇ ਪਰਬੀਨ ਹਨ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹਮ ਚੁਨਾਣ ਦਰ ਯਾਦਿ ਹੱਕ ਦਾਰੰਦ ਦਸਤ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, all the four principal mineral deposits are under his seal. (122)"

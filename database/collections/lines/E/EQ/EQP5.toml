@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਸੁ ਪਛ ਸਰਬਿ ਦਿਸਾਨ ॥"
 page = 658
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀਆਂ ਦਿਸ਼ਾਵਾਂ ਦੇ ਪਸ਼ੂ ਅਤੇ ਪੰਛੀ"

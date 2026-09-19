@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਤੇ ਧਰਮ ਕੁਅਰ ਕੋ ਟਾਰਿਯੋ ॥੧੭॥"
 page = 1112
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨਾਲ ਕੁੰਵਰ ਦਾ ਧਰਮ ਭ੍ਰਸ਼ਟ ਕਰ ਦਿੱਤਾ ॥੧੭॥"

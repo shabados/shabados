@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇਰੇ ਹੀ ਸੰਗ ਬਿਰਾਜ ਹੋ ਮੀਤ, ਮੈ; ਔਰ ਕਰੌਗੀ ਕਹਾ ਪਤਿ ਕੈ ਕੈ ॥"
 page = 993
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I am bequeathed to you, my friend, why do I go for another husband."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਿਤਰ! (ਮੈਂ) ਤੇਰੇ ਨਾਲ ਸ਼ੋਭਾ ਪਾਵਾਂਗੀ, ਹੋਰ ਪਤੀ ਕਰ ਕੇ ਕੀ ਕਰਾਂਗੀ।"

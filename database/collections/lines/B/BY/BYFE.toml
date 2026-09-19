@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਹਰਿ; ਮਨ ਮਹਿ ਨਾਮੁ ਕਹਿਓ ॥"
 page = 979
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He who utters the God's Name, within his mind,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਆਪਣੇ ਰਿਦੇ ਅੰਦਰ ਸੁਆਮੀ ਵਾਹਿਗੁਰੂ ਦੇ ਨਾਮ ਦਾ ਉਚਾਰਨ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "One who chants the Name of the Lord, Har, Har, within his mind"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਰਿ ਹਰਿ ਕਾ ਨਾਮ ਮਨ ਮੇਂ ਪ੍ਰੇਮ ਕਰ ਕੇ ਜਿਸ ਨੇ ਕਹ੍ਯੋ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਭੀ ਮਨੁੱਖ ਨੇ) ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਆਪਣੇ ਮਨ ਵਿਚ ਸਿਮਰਿਆ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਹਿਓ = ਆਖਿਆ, ਉਚਾਰਿਆ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Siempre y para siempre recito el Nombre del Señor;"

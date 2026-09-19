@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੇਲਤ ਗ੍ਵਾਰਨਿ ਸੋ ਕ੍ਰਿਸਨ; ਆਦਿ ਨਿਰੰਜਨ ਸੋਇ ॥"
 page = 374
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The primal Lord Krishna began to play with the gopis"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਦਿ ਨਿਰੰਜਨ ਰੂਪ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਗੋਪੀਆਂ ਨਾਲ ਖੇਡ ਰਿਹਾ ਹੈ।"

@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਏਕਹਿ ਆਪਿ; ਅਵਰ ਨਹ ਹੋਊ ॥"
 page = 252
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He is but One, there shall not be another."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਕੇਵਲ ਇਕ ਹੈ, ਹੋਰ ਕੋਈ ਹੋਵੇਗਾ ਹੀ ਨਹੀਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He Himself is the One; there shall never be any other."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮੇਸ੍ਵਰ ਅਦੁਤੀ ਆਪ ਹੀ ਹੈ ਔਰ ਆਗੇ ਕੋ ਭੀ ਤਿਸ ਬਿਨ ਔਰ ਕੋਈ ਨਹੀਂ ਹੋਵੇਗਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਆਪਣੇ ਵਰਗਾ) ਉਹ ਆਪ ਹੀ ਆਪ ਹੈ (ਉਸ ਵਰਗਾ) ਹੋਰ ਕੋਈ ਨਹੀਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él es el Uno Supremo, como Él no hay nadie más."

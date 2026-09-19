@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਊ ਤਿਹਾਰੀ ਕ੍ਰਿਪਾ ਤੇ; ਕਛੁ ਕਛੁ ਕਹੋ ਬਨਾਇ ॥੪੪॥"
 page = 812
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With Your blessings I have narrated this, although with a bit of exaggeration.( 44)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਵੀ ਤੇਰੀ ਕ੍ਰਿਪਾ ਨਾਲ ਕੁਝ ਕੁਝ ਬਣਾ ਕੇ ਕਹਿੰਦਾ ਹਾਂ ॥੪੪॥"

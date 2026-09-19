@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੰਨ︀ਯੋ ਤ੍ਰਿਯਾ ਧੰਨਿ ਦੇਸ ਤਿਹ ਧੰਨ︀ਯ ਪਿਤਾ ਧੰਨਿ ਮਾਇ ॥੧੨॥"
 page = 984
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘She and her parents are worthy ofhonours.’(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਇਸਤਰੀ ਧੰਨ ਹੈ, ਉਹ ਦੇਸ ਧੰਨ ਹੈ, ਉਸ ਦੀ ਮਾਤਾ ਧੰਨ ਹੈ, ਉਸ ਦਾ ਪਿਤਾ ਧੰਨ ਹੈ ॥੧੨॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਵੀ ਚਾਵਡੀਯੰ ਨਫੀਰੰ ਰਣੰਕੰ ॥"
 page = 107
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The vultures shriek and the clarionets are being played."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਲਾਂ ਬੋਲ ਰਹੀਆਂ ਹਨ ਅਤੇ ਤੂਤੀਆਂ ਵਜ ਰਹੀਆਂ ਹਨ"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਗਿਆ; ਸਤਿ ਸਹੁ ਹਾਂ ॥"
 page = 410
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Submit thou to the Lord's true fiat."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਾਹਿਬ ਦੇ ਸੱਚੇ ਹੁਕਮ ਨੂੰ ਪ੍ਰਵਾਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Submit to the Order of the True Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੋਂ ਕੀ ਆਗ੍ਯਾ ਸਤ ਜਾਨ ਕਰ ਸਹਾਰਨੀ ਕਰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਦੀ ਰਜ਼ਾ ਨੂੰ ਮਿੱਠੀ ਕਰ ਕੇ ਮੰਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਗਿਆ = ਰਜ਼ਾ, ਹੁਕਮ। ਸਹੁ = ਸਹਾਰ, ਮੰਨ। ਸਤਿ = ਠੀਕ, ਸੱਚੀ (ਜਾਣ ਕੇ)।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sométete al Comando del Verdadero Señor"

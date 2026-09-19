@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੇ ਪਰੇ ਧਰਨੀ ਪਰ ਬੀਰ; ਸੁ ਕੈ ਕੈ ਦੁਖੰਡ ਜੁ ਚੰਡਿਹਿ ਡਾਰੇ ॥"
 page = 89
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, the warriors cut into halves by Chandi, are lying on the ground.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਚੰਡੀ ਦੁਆਰਾ ਦੋ ਦੋ ਟੁਕੜੇ ਕੀਤੇ ਸੂਰਵੀਰ ਧਰਤੀ ਉਤੇ ਪਏ ਹਨ।"

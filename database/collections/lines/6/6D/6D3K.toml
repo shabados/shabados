@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿ ਕੋ ਪੁਨਿ ਸੁਧਿ ਸੁ ਆਨਨ ਪੇਖਿ; ਕਿਧੌ ਤਿਨ ਕੀ ਠਗ ਡੀਠ ਲਗੀ ॥"
 page = 338
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Again seeing the beautiful face of Krishna, the sight of gopis has stayed there"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਕ੍ਰਿਸ਼ਨ ਦੇ ਸ਼ੁਧ ਸਰੂਪ ਮੁਖ ਨੂੰ ਵੇਖ ਕੇ ਉਨ੍ਹਾਂ ਦੀ ਠਗਣੀ ਨਜ਼ਰ ਲਗ ਗਈ ਹੈ।"

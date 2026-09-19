@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਤ ਨਾਸ ਤਿਹ ਪਰਿਵਾਰ ॥"
 page = 611
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ) ਪਰਿਵਾਰ ਨਿੱਤ ਨਸ਼ਟ (ਹੁੰਦਾ ਰਹੇਗਾ)"

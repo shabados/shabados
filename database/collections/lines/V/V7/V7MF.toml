@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖੀ ਪ੍ਰੀਤਿ ਤਾ ਕੀ ਮਨ ਸਾਚੀ ॥"
 page = 822
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On reading the letter Sri Krishna perceived the true love she was in."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦ) ਉਸ ਦੇ ਮਨ ਦੀ ਸੱਚੀ ਪ੍ਰੀਤ ਨੂੰ ਜਾਣਿਆ।"

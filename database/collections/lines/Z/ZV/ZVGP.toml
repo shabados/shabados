@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰਹੈ ਬੇਬਾਣੀ; ਮੜੀ ਮਸਾਣੀ ॥"
 page = 467
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He who dwells in wilderness and at burial and cremation-ground."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਬੀਆਬਾਨ ਅਤੇ ਕਬਰਸਤਾਨ ਤੇ ਸ਼ਮਸ਼ਾਨ ਭੂਮੀਆਂ ਤੇ ਰਹਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "One who lives in the wilderness, in cemetaries and cremation grounds"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਬੇਬਾਣੀ) ਉਜਾੜੋਂ ਮੇਂ ਰਹਤਾ ਹੈ ਮੜੀਓਂ ਮਸਾਣੋਂ ਮੇਂ ਰਹਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਜਾੜਾਂ ਵਿਚ, ਮੜ੍ਹੀਆਂ ਵਿਚ, ਮਸਾਣਾਂ ਵਿਚ ਜਾ ਰਹਿੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬੇਬਾਣੀ = ਜੰਗਲਾਂ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pues el ciego no conoce la Esencia y llora hasta el final."

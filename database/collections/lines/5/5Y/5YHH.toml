@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਜੇਕਰ ਤੂੰ ਧਰਮੀ ਬੰਦਿਆਂ ਦੀ ਸੇਵਾ ਕਰੇਂ"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਚੂੰ ਸਾਲਕਾਨਿ ਖ਼ੁਦਾਇ ਰਾ ਬਾ ਕੁਨੀ ਤੂ ਖ਼ਿਦਮਤੇ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "If God's remembrance becomes a close friend of your life,"

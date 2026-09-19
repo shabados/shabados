@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਜ਼ੋ ਦੀਦਹ ਸ਼ੁਦ ਦੀਦਹੇ ਦੋਸਤ ਸਰਦ ॥੫੧॥"
 page = 1397
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Made him worthy of the throne.(51)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਨੂੰ ਵੇਖ ਕੇ ਦੋਸਤਾਂ ਦੀਆਂ ਅੱਖਾਂ ਠੰਢੀਆਂ ਹੁੰਦੀਆਂ ਸਨ ॥੫੧॥"

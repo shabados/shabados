@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬੈ ਕੁਅਰਿ ਪ੍ਰਤਿਮਾ; ਸਿਵ ਕੀ ਕਰ ਮੈ ਲਈ ॥"
 page = 1200
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਰਾਜ ਕੁਮਾਰੀ ਨੇ ਸ਼ਿਵ ਦੀ ਮੂਰਤੀ ਹੱਥ ਵਿਚ ਲੈ ਲਈ"

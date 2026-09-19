@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫਾਗੜਦੀ ਪ੍ਰਹਸਤ ਜੁਝੰਤ ਲਾਗੜਦੀ ਲੈ ਚਲਯੋ ਅਪ ਦਲ ॥"
 page = 241
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਦੋਂ) ਪ੍ਰਹਸਤ ਜੂਝਣ ਲਈ ਆਪਣੀ ਸੈਨਾ ਲੈ ਕੇ ਚਲਿਆ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਨਹੁ ਸਕ੍ਰ ਕੇ ਸਤ੍ਰ ਸੁਧਾਰਾ ॥੪॥"
 page = 174
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Vishnu, manifested yourself in his house and destroy the enemies of India.”4."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇੰਦਰ ਦੇ ਵੈਰੀਆਂ ਨੂੰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਮਾਰ ਦਿਓ ॥੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੰਤੰ ਅਨੀਲੰ ਅਰੂਪੰ ਅਦ੍ਵੈਖੰ ॥"
 page = 40
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Limitless, Blemishless, Formless and Maliceless"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਅਨੰਤ, ਅਨੀਲ (ਗਿਣਤੀ ਤੋਂ ਪਰੇ) ਅਰੂਪ ਅਤੇ ਦ੍ਵੈਸ਼ ਰਹਿਤ ਹੈ।"

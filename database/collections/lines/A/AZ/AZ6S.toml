@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਗਰ ਢੰਢੋਰਾ ਨਾਰਿ ਫਿਰਾਯੋ ॥"
 page = 1302
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਇਸਤਰੀ ਨੇ ਨਗਰ ਵਿਚ ਢੰਡੋਰਾ ਪਿਟਵਾ ਦਿੱਤਾ।"

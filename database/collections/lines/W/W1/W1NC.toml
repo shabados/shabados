@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਉ ਜਿਉ ਓਹੁ ਵਧਾਈਐ; ਤਿਉ ਤਿਉ ਹਰਿ ਸਿਉ ਰੰਗੁ ॥"
 page = 71
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The more he frequents the saints' congregation the more the Love for the Lord."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿੰਨਾ ਜਿਆਦਾ ਉਹ ਸਤਿਸੰਗਤ ਅੰਦਰ ਜੁੜਦਾ ਹੈ, ਓਨਾ ਹੀ ਜਿਆਦਾ ਉਸ ਦਾ ਸਾਈਂ ਨਾਲ ਪਿਆਰ ਪੈ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The more time we spend there, the more we come to love the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੈਸੇ ਜੈਸੇ ਉਸ ਸਤਿਸੰਗਿ ਕੋ ਵਧਾਈਐ ਹੈ, ਤੈਸੇ ਤੈਸੇ ਹੀ ਹਰੀ ਸੇ ਪ੍ਰੇਮ ਬਢਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਤੇ ਇਹ ਇਕ ਕੁਦਰਤੀ ਨਿਯਮ ਹੈ ਕਿ) ਜਿਉਂ ਜਿਉਂ ਉਹ (ਸਤ ਸੰਗ ਵਿਚ ਬੈਠਣਾ) ਵਧਾਇਆ ਜਾਂਦਾ ਹੈ ਤਿਉਂ ਤਿਉਂ ਪਰਮਾਤਮਾ ਨਾਲ ਪਿਆਰ (ਭੀ ਵਧਦਾ ਜਾਂਦਾ ਹੈ)।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰੰਗੁ = ਪ੍ਰੇਮ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mientras más la frecuenta, más crece su Amor a Dios,"

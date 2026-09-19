@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਵ ਰੰਕ ਕਾਹੂ ਕੋ ਕਹਤਾ ॥੨੫॥"
 page = 158
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then there would have not been any king or pauper in this world.25."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕੋਈ) ਕਿਸੇ ਨੂੰ ਰਾਜਾ ਅਤੇ ਰੰਕ ਕਿਉਂ ਕਹਿੰਦਾ? ॥੨੫॥"

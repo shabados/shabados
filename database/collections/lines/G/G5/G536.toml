@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਤਾਹੀ ਕੂੰਈ ਬਿਖੈ ਜਾਇ ਪਰਿਯੋ ਬਿਸੰਭਾਰ ॥"
 page = 926
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When he fell in the well, became unconscious,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਹ ਖੂਹੀ ਵਿਚ ਜਾ ਪਿਆ ਅਤੇ ਬੇਹੋਸ਼ (ਹੋ ਗਿਆ)"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਪਰ ਤ੍ਰਿਯ ਪਰ ਸੇਜ; ਭਜਤ ਹੈ ਜਾਇ ਕਰਿ ॥"
 page = 1150
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪਰ-ਇਸਤਰੀ ਦੇ (ਘਰ) ਜਾ ਕੇ ਪਰਾਈ ਸੇਜ ਉਤੇ ਭੋਗਦਾ ਹੈ,"

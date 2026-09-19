@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੁਮ ਸਮਰਥ; ਅਗਨਤ ਅਪਾਰੇ ॥"
 page = 260
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thou art Omnipotent Incomputable and Infinite."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੇ ਸਾਹਿਬ, ਸਰਬ-ਸ਼ਕਤੀਵਾਨ, ਗਿਣਤੀ-ਰਹਿਤ ਅਤੇ ਅਨੰਤ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "You are All-powerful, endless and infinite."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ (ਅਪਾਰੇ) ਬੇਅੰਤ ਵਾਹਿਗੁਰੂ! ਤੁਮ ਸਮਰਥ ਗਿਣਤੀ ਮੇਂ ਨਹੀਂ ਆਵਤੇ ਹੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਾਡੀਆਂ ਭੁੱਲਾਂ ਨੂੰ ਬਖ਼ਸ਼ਣ-ਜੋਗ ਹੈਂ, ਤੇਰੇ ਗੁਣ ਗਿਣੇ ਨਹੀਂ ਜਾ ਸਕਦੇ, ਤੇਰੇ ਗੁਣਾਂ ਦਾ ਅੰਤ ਨਹੀਂ ਪੈ ਸਕਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pero Tu eres Todo Poderoso, Indescriptible e Infinito."

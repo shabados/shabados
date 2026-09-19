@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਯਜ਼ਦਾਂ ਬਰੋ ਰਹਿਨੁਮਾ ਆਯਦਸ਼ ॥੪੩॥"
 page = 1391
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "the Ture Lord gives him the guidance.43."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਉਸ ਦਾ ਪਥ-ਪ੍ਰਦਰਸ਼ਨ ਕਰਦਾ ਹੈ ॥੪੩॥"

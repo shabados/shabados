@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮੋਤੀ ਹੋਵੈ ਸਿਪ ਮੁਹਿ; ਬਹੁ ਮੋਲੁ ਮੁਲਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The same when they fall into a sea-shell become pearls."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਿੱਪ ਵਿਚ ਮੋਤੀ ਬਣਕੇ ਵਡਾ ਮੁੱਲ ਪੁਆਉਂਦੀ ਹੈ।"

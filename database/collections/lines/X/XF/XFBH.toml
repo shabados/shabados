@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਸਾ ਭਰਮ ਬਿਕਾਰ ਮੋਹ; ਇਨ ਮਹਿ ਲੋਭਾਨਾ ॥"
 page = 815
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Hope, doubt, sin and worldly attachment, in these the mortal is engrossed."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਮੀਦ, ਸੰਦੇਹ ਪਾਪ ਅਤੇ ਸੰਸਾਰੀ ਲਗਨ ਇਨ੍ਹਾਂ ਵਿੱਚ ਪ੍ਰਾਣੀ ਗਲਤਾਨ ਹੋਇਆ ਹੋਇਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Hope, doubt, corruption and emotional attachment - in these, he is engrossed."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਭ੍ਰਮ ਕਰ ਇਨ ਆਸਾ, ਮੋਹਾਦੀ ਵਿਕਾਰੋਂ ਮੇਂ ਲੋਭਾਏਵਾਂਨ ਰੋ ਰਹਾ ਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ! ਮੰਦ-ਭਾਗੀ ਜੀਵ) ਦੁਨੀਆ ਦੀਆਂ ਆਸਾਂ, ਵਹਿਮ, ਵਿਕਾਰ, ਮਾਇਆ ਦਾ ਮੋਹ-ਇਹਨਾਂ ਵਿਚ ਹੀ ਫਸਿਆ ਰਹਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਇਨ੍ਹ੍ਹ ਮਹਿ = ਇਹਨਾਂ ਵਿਚ {ਨੋਟ: ਅੱਖਰ 'ਨ' ਦੇ ਹੇਠ ਅੱਧਾ 'ਹ' ਹੈ}।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "He sido desviado por la ansiedad, las ilusiones, el vicio y el apego;"

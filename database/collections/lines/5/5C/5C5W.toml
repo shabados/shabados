@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੁਨੰ ਬੇਦ ਕੀ ਭੂਪ ਤਾਂ ਤੇ ਕਰਾਈ ॥"
 page = 53
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਉਨ੍ਹਾਂ ਤੋਂ ਵੇਦ-ਧੁਨ ਕਰਵਾਈ (ਵੇਦਾਂ ਦਾ ਪਾਠ ਕਰਵਾਇਆ)"

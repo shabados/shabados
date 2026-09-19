@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਨੰ ਮਨੋਦੋਤਿ ॥"
 page = 607
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His light shone like the sun"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਜ ਪ੍ਰਤੀਤ ਹੁੰਦਾ ਹੈ) ਮਾਨੋ ਸੂਰਜ ਚੜ੍ਹਿਆ ਹੋਵੇ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਤੇ ਅਤਿ ਅਬਲਾ ਜਿਯ ਜਰਈ ॥੩॥"
 page = 1101
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕਰ ਕੇ ਇਸਤਰੀ ਮਨ ਵਿਚ ਬਹੁਤ ਸੜਦੀ ਸੀ (ਅਰਥਾਤ ਦੁਖੀ ਹੁੰਦੀ ਸੀ) ॥੩॥"

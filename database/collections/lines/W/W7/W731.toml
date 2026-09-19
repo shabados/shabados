@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬ ਹੀ ਰਿਖਿ ਅੰਗਨ ਜਾਨ ਲਏ ॥"
 page = 665
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the various practices which have been described in Shrutis (Vedas), they were all performed by these sages"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਾਰੇ ਹੀ ਰਿਸ਼ੀ ਨੇ ਸ਼ਰੀਰ ਉਤੇ ਸਾਧ ਲਏ ਹਨ।"

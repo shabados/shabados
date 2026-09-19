@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਛਾਡਿ ਰਸ ਨੇਕ ਨ ਮਾਚੈ ॥"
 page = 649
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਰਸ ਨੂੰ ਛਡ ਕੇ ਹੋਰਨਾਂ (ਰਸਾਂ) ਵਿਚ ਮਗਨ ਨਾ ਹੋਵੇ।"

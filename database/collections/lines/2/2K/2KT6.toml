@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਬਲ ਛਲਿਆ ਸਤੁ ਪਾਲਦਾ; ਪਾਤਾਲਿ ਸਿਧਾਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Though duped (by Visnu), King Bali observed truth and went to the netherworld."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ ਬਲ ਪਾਤਾਲ ਚਲਿਆ ਗਿਆ ਪਰ ਸਤ ਨਾ ਛਡਿਆ।"

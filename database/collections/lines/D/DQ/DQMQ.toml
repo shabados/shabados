@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਤੇਰੇ ਦੋਊ ਅੰਡ ਚਬੈਹੈ ॥੬॥"
 page = 862
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘When she wil1 see you sleeping, she will bite your eggs.’(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਤੁਹਾਡੇ ਦੋਵੇਂ ਅੰਡਕੋਸ਼ ਚਬ ਲਵੇਗੀ ॥੬॥"

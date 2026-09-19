@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਸਿੰਘ ਕੇ ਘਰ ਬਿਖੈ; ਤਸਕਰ ਰਹੈ ਅਪਾਰ ॥"
 page = 885
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the house of Mahaan Singh, there used to come a number of thieves."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾ ਸਿੰਘ ਦੇ ਘਰ ਵਿਚ ਬਹੁਤ ਚੋਰ ਰਹਿੰਦੇ ਸਨ।"

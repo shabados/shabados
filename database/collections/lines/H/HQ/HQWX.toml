@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋ ਨਿੰਦਾ, ਜਸ ਹੈ ਕਵਨ, ਕਵਨ ਪਾਪ, ਕਹ ਧਰਮ ॥"
 page = 35
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What are slander and praise? What are sin and rectitude?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਿੰਦਾ ਕੀ ਹੈ, ਯਸ਼ ਕੀ ਹੈ, ਪਾਪ ਕੀ ਹੈ, ਧਰਮ ਕੀ ਹੈ?"

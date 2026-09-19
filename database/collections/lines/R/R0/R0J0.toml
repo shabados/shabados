@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਵਰਨ ਮੰਜਰੀ ਬਾਜ ਹਰਿ; ਮਿਤ੍ਰਹਿ ਦਏ ਬਨਾਇ ॥"
 page = 1157
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਵਰਨ ਮੰਜਰੀ ਨੇ ਘੋੜੇ ਚੁਰਾ ਕੇ ਮਿਤਰ ਨੂੰ ਦੇ ਦਿੱਤੇ"

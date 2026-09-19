@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ੍ਰਯੋ ਛੋਰਿ ਮੂਰਛਨਾ ਜਾਗਿਯੋ ॥੧੧॥"
 page = 975
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the second watch approached, he regained the consciousness.( 11)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਬੇਹੋਸ਼ੀ ਨੂੰ ਛਡ ਕੇ ਸਚੇਤ ਹੋ ਕੇ ਜਾਗ ਪਿਆ ॥੧੧॥"

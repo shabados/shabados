@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਵਰਾਜ ਬਿਰਾਜਤ ਪਾਨ ਸਦਾ ॥੬॥"
 page = 162
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The later two look impressive in the hands of princes always.6."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਯੁਵਰਾਜਾਂ ਦੇ ਹੱਥ ਵਿਚ ਸਦਾ ਸ਼ੋਭਦੇ ਹਨ ॥੬॥"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਏ ਸ੍ਰਵਣਹੁ ਮੇਰਿਹੋ; ਸਾਚੈ ਸੁਨਣੈ ਨੋ ਪਠਾਏ ॥"
 page = 922
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O cars of mine, ye were sent to hear the True Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰਿਓ ਕੰਨੋ! ਤੁਹਾਨੂੰ ਸਤਿਨਾਮ ਸੁਣਨ ਲਈ ਭੇਜਿਆ ਗਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O my ears, you were created only to hear the Truth."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰਿਓ ਕਰਣੋ! ਤੁਸੀਂ ਸਚੇ ਹਰੀ ਨੇ ਅਪਨੇ ਨਾਮ ਕੇ ਸੁਨਨੇ ਕੋ (ਪਠਾਏ) ਭੇਜੇ ਹੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਕੰਨੋ! ਪਰਮਾਤਮਾ ਦੀ ਸਿਫ਼ਤ-ਸਾਲਾਹ ਦੀ ਬਾਣੀ ਸੁਣਨ ਵਾਸਤੇ ਬਣਾਇਆ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸ੍ਰਵਣ = ਕੰਨ। ਪਠਾਏ = ਭੇਜੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oídos míos, ustedes fueron creados para escuchar sólo la Verdad; (36)"

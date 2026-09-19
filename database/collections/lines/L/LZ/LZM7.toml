@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਲ ਪ੍ਰਜਾ ਡਾਰੀ ਪਗਨ; ਦੈ ਜੋਗੀ ਕਹ ਰਾਜ ॥੯॥"
 page = 1216
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੋਗੀ ਨੂੰ ਰਾਜ ਦੇ ਕੇ ਸਾਰੀ ਪ੍ਰਜਾ ਉਸ ਦੇ ਪੈਰੀਂ ਪਾ ਦਿੱਤੀ ॥੯॥"

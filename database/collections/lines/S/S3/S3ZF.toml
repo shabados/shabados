@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਤੁਪਕ ਕੇ ਹੋਤ ਹੈ; ਲੀਜਹੁ ਸੁਕਬਿ, ਸੁ ਧਾਰਿ ॥੫੪੩॥"
 page = 742
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Nabchari” and then uttering “Ripu Ari” at the end, O Poets, the names of Tupak are formed, which you may improve.543."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਤੁਪਕ ਦਾ ਨਾਮ ਹੋ ਜਾਏਗਾ। ਕਵੀ ਜਨੋ! ਸਮਝ ਲਵੋ ॥੫੪੩॥"

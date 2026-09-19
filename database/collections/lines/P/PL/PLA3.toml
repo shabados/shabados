@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਬਹੁ ਅਸੁਰਨ ਤਨ ਧਰੋ ॥"
 page = 1381
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੋਂ ਬਹੁਤ ਸਾਰੇ ਦੈਂਤਾਂ ਨੇ ਸ਼ਰੀਰ ਧਾਰਨ ਕੀਤੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਗੀ ਪਾਇ ਮੈ ਰਹੋ ਤਿਹਾਰੇ ॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(She said) ‘Please, come to our house, I will always remain attached to your feet."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੁਹਾਡੇ ਚਰਨਾਂ ਨਾਲ ਲਗੀ ਰਹਾਂਗੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਨ ਮੁਹਰਨ ਕੋ ਬਨਿਕ ਨ ਜਾਨੋ ॥"
 page = 858
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੋਹਰਾਂ ਦੇ ਸੰਨ ਬਨੀਆ ਨਹੀਂ ਜਾਣਦਾ ਸੀ।"

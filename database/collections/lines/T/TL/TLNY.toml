@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਰ ਭਾਵ ਤਿਨ ਮਾਝ ਭਨਿਜੈ ॥"
 page = 1065
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਵਿਚ ਬਹੁਤ ਵੈਰ ਭਾਵ ਦਸਿਆ ਜਾਂਦਾ ਸੀ।"

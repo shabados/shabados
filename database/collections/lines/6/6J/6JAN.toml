@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੀਰ ਖਾਨ ਠਾਢੋ ਹੁਤੋ; ਮੁਸਕੈ ਲਈ ਚਰਾਇ ॥੯॥"
 page = 981
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Teer Khan, who was standing there, tied up his arms.(9)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖ਼ਾਨ ਕੋਲ ਖੜੋਤਾ ਸੀ, ਉਸ ਨੇ ਮੁਸ਼ਕਾਂ ਕਸ ਦਿੱਤੀਆਂ ॥੯॥"

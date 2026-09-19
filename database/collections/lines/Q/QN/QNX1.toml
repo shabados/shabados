@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਤਮਾਗਨਾ ਭੇਸ ਬਨਾਈ ॥"
 page = 1178
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉੱਤਮ ਇਸਤਰੀ ਦਾ ਭੇਸ ਬਣਾ ਲਿਆ।"

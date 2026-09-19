@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣ ਵਿਚ ਘਤੀ ਘਾਣੀ; ਲੋਹੂ ਮਿਝ ਦੀ ॥"
 page = 122
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The press of blood and marrow has been set in motion in the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ-ਭੂਮੀ ਵਿਚ ਲਹੂ ਅਤੇ ਮਿਝ ਦੀ ਘਾਣੀ ਬਣੀ ਪਈ ਸੀ।"

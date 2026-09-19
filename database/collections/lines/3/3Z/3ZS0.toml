@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਲਖ ਰੂਪ, ਅਛੈ ਅਨਭੇਖਾ ॥"
 page = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is an Inconceivable Entity, Exernal and Garbless."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਦਿਸਣ ਤੋਂ ਪਰੇ, ਨਾ ਨਸ਼ਟ ਹੋਣ ਵਾਲਾ ਅਤੇ ਭੇਖਾਂ ਤੋਂ ਰਹਿਤ ਹੈ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਧ ਪਾਲ ਤਬ ਐਸ ਬਿਚਾਰੀ ॥"
 page = 1240
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਸਿਧ ਪਾਲ ਨੇ ਇਸ ਤਰ੍ਹਾਂ ਵਿਚਾਰ ਕੀਤਾ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਤਿਹ ਮਦਨ ਰੂਪ ਅਵਿਰੇਖਾ ॥"
 page = 676
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The man or woman, who saw him, considered him s the god of love"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਉਸ ਨੇ (ਉਸ ਨੂੰ) ਕਾਮਦੇਵ ਦੇ ਰੂਪ ਵਿਚ ਵੇਖਿਆ।"

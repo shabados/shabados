@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਹਾਰਮ ਦਰਾਮਦ ਚੁ ਸ਼ੇਰਾ ਬਜੰਗ ॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The fourth valiant person entered the fight,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਥਾ ਸੂਰਮਾ ਸ਼ੇਰ ਵਾਂਗ ਹਲਾ ਕਰ ਕੇ ਆ ਪਿਆ,"

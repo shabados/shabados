@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਸ ਤੇ ਕੋਊ ਨ ਰਹਿਯੋ ਪਛਾਨੈ ॥"
 page = 937
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All, now, realised that he (Ranjha) was the son of a Jat and no one realised his real identity (that he was the son of a Rani)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਕੋਈ ਪਛਾਣਨ ਵਾਲਾ ਨਾ ਰਿਹਾ।"

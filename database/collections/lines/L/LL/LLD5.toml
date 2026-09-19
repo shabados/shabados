@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਹੁ ਝਰੋਖਾ ਭਏ ਨਿਕਾਰਿਸਿ ॥੧੧॥"
 page = 1155
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਾਹ ਦੇ ਝਰੋਖੇ ਵਿਚੋਂ ਬਾਹਰ ਕਢ ਲਿਆ ॥੧੧॥"

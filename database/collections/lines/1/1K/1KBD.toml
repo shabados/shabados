@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਦਲ ਮਹੰਮਦ ਨਾਮ ਤਵਨਿ ਪਤਿ ॥"
 page = 864
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਪਤੀ ਦਾ ਨਾਂ ਅਦਲ ਮੁਹੰਮਦ ਸੀ"

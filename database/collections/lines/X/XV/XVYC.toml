@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨੰਦੀ ਗਿਰਜਾ ਕਉਮਾਰੀ ॥"
 page = 679
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“You are he bliss-giving girija Kumari"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਨੰਦ ਦੇਣ ਵਾਲੀ, ਪਾਰਬਤੀ, ਕੁਮਾਰੀ,"

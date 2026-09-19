@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਪਾਵਿਤ੍ਰਤਾ ਛੈ ॥"
 page = 660
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was illustrious, pure and like enlightning effulgence"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਪਵਿਤ੍ਰਤਾ ਹੈ,"

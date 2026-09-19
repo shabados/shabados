@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਛ ਕਿੰਨ੍ਰਜਾ ਕਹਿ, ਹਮ ਲੈ ਹੈਂ ॥"
 page = 1171
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਯਕਸ਼ ਅਤੇ ਕਿੰਨਰਾਂ ਦੀ ਜਾਈਆਂ ਕਹਿੰਦੀਆਂ ਕਿ ਅਸੀਂ ਪ੍ਰਾਪਤ ਕਰਾਂਗੀਆਂ,"

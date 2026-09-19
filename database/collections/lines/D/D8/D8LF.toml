@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਗੜਦੰ ਜੋਧਾ ਮਾਗੜਦੰ ਮਾਰੇ ॥"
 page = 595
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮੇ 'ਮਾਰੋ-ਮਾਰੋ' ਕਹਿੰਦੇ ਹਨ।"

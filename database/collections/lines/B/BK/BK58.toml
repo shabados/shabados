@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ੍ਰਯੋ ਸੂਰ ਚੰਦ੍ਰ ਪ੍ਰਗਟਯੋ ॥"
 page = 1049
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਜ ਡੁਬਿਆ ਅਤੇ ਚੰਦ੍ਰਮਾ ਚੜ੍ਹਿਆ।"

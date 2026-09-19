@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮੋਹਿ ਸੇਵਕੁ ਬੇਚਾਰਾ ॥੧॥"
 page = 1005
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I am a poor salve of His."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਉਸ ਦਾ ਇਕ ਗਰੀਬੜਾ ਗੋਲਾ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I am just His poor servant. ||1||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਸੇਵਕ ਗਰੀਬ ਹੂੰ॥੧॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ (ਤਾਂ ਉਸ ਦੇ ਦਰ ਤੇ ਇਕ) ਨਿਮਾਣਾ ਸੇਵਕ ਹਾਂ ॥੧॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੋਹਿ = ਮੈਂ। ਬੇਚਾਰਾ = ਨਿਮਾਣਾ ॥੧॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y yo, Su Sirviente, soy pobre, muy pobre, ante Él. (1)"

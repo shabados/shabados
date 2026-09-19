@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ, ਕਿਸੂ ਕੇ ਧਾਮ ਨ ਗਯੋ ॥"
 page = 1072
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਫਿਰ ਉਹ ਕਿਸੇ ਦੇ ਘਰ ਨਾ ਗਿਆ।"

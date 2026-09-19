@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਤ੍ਰਾ ਲਈ ਮਾਰਿ ਤਾ ਕੋ ਜਿਯ ॥"
 page = 1238
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਜਾਨੋ ਮਾਰ ਕੇ ਸਾਰੀ ਦੌਲਤ ('ਮਾਤ੍ਰਾ') ਲੈ ਲਈ।"

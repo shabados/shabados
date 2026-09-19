@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਤ੍ਰ ਔਰ ਤਿਹ ਜਾਰ ਕੋ; ਇਕ ਕੋਨਾ ਮੈ ਜਾਇ ॥"
 page = 821
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With the help of another person she dug out a hole in the corner and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੁੱਤਰ ਅਤੇ ਉਸ ਯਾਰ ਨੂੰ (ਘਰ ਦੇ) ਇਕ ਕੋਨੇ ਵਿਚ ਲੈ ਗਈ"

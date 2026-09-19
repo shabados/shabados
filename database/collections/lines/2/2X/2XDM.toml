@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਾਮ ਰੋਗਿ; ਮੈਗਲੁ ਬਸਿ ਲੀਨਾ ॥"
 page = 1140
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The disease of lust overwhelms the elephants."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸ਼ੇ ਭੋਗ ਦੀ ਬਿਮਾਰੀ ਹਾਥੀ ਨੂੰ ਕਾਬੂ ਕਰ ਲੈਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The disease of sexual desire overwhelms the elephant."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਾਮ ਰੋਗ ਨੇ ਹਸਤੀ ਕੋ ਬਸ ਕਰ ਲੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਾਮ-ਵਾਸਨਾ ਦੇ ਰੋਗ ਨੇ ਹਾਥੀ ਨੂੰ ਆਪਣੇ ਵੱਸ ਵਿਚ ਕੀਤਾ ਹੋਇਆ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰੋਗਿ = ਰੋਗ ਨੇ। ਮੈਗਲੁ = ਹਾਥੀ। ਬਸਿ = ਵੱਸ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El elefante es controlado con la enfermedad de la lujuria,"

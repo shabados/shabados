@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਸੋਹਣਾ, ਨੇਕ ਸੁਭਾਉ ਅਤੇ ਨੇਕ ਤਬੀਅਤ ਵਾਲਾ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਖ਼ੂਬ-ਰੂ ਓ ਖ਼ੂਬ-ਖ਼ੂ ਓ ਖ਼ੁਸ਼-ਸੀਅਰ ॥੮੭॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, the meditation and remembrance of Waaheguru always abides in his heart. (439)"

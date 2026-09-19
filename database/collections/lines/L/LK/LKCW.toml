@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਮਿ ਲਾਗਤ ਸਾਵਨ ਕੋ ਮੇਹਾ ॥"
 page = 1264
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਸਾਵਣ ਦਾ ਮੀਂਹ ਵਰ੍ਹ ਰਿਹਾ ਹੋਵੇ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਮੰਤੁ ਸਮ੍ਹਾਲਿ, ਜਪੁ ਜਪਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Gurmukh carefully and attentively recites the moolmantar."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖ ਲੋਕ (ਜਪੁਜੀ) ਮੰਤ੍ਰ ਨੂੰ ਆਪ ਸੋਧਕੇ ਜਪਦੇ ਅਰ (ਹੋਰਨਾਂ ਨੂੰ) ਜਪਣ ਦਾ ਉਪਦੇਸ਼ ਦਿੰਦੇ ਹਨ।"

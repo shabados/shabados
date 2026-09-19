@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਯੋ ਚਿਰਾਇ ਕੈ ਚਪੀ; ਬਬਰਖ ਸਾਇਕੋ ਸਿਤੰ ॥"
 page = 283
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the war of Bharat, many warriors began to run away fearfully. On this side, in great fury, Bharat began to shower arrows."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੂਪ ਨਰਾਜ ਛੰਦ"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਪੂਰ ਕਰੰਮੁ, ਸਰਣੀ ਆਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The Gurmukh who has surrendered before the Guru is a blest one and his fate is perfect one."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਇਸੇ ਵਾਸਤੇ) ਗੁਰਮੁਖ ਪੂਰੇ ਕਰਮਾਂ ਵਾਲੇ ਹਨ (ਕਿ ਸਤਿਗੁਰੂ ਜੀ ਦੀ) ਸ਼ਰਣ ਲੀਤੀ ਹੈ (ਸ਼ਰਣ ਦਾ ਫਲ ਕੀ ਹੈ?)।"

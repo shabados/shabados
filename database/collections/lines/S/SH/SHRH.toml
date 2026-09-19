@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਖੇਮ ਕੁਸਲ ਭਇਆ ਇਸਨਾਨਾ ॥"
 page = 624
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "With peace and pleasure, I, now, take the bath."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਰਾਮ ਅਤੇ ਅਨੰਦ ਨਾਲ ਹੁਣ, ਮੈਂ ਨਹਾਉਂਦਾ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "With joy and pleasure, I take my purifying bath."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਸੀ ਸੇ ਸੁਖ ਅਨੰਦ ਸਾਥ ਇਸਨਾਨ ਭਇਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਅੰਦਰ ਆਤਮਕ ਸੁਖ ਆਨੰਦ ਬਣ ਗਿਆ ਹੈ-ਇਹ ਹੈ ਇਸ਼ਨਾਨ (ਜੋ ਮੈਂ ਗੁਰੂ-ਸਰ ਵਿਚ ਕੀਤਾ ਹੈ)।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਖੇਮ ਕੁਸਲ = ਆਤਮਕ ਸੁਖ ਆਨੰਦ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Estoy en Éxtasis como si me hubiera dado un Baño Eterno."

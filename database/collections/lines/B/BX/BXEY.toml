@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮੂਲਾ ਬੇਰੀ ਜਾਣੀਐ; ਤੀਰਥੁ ਅਤੈ ਮੁਕੰਦੁ ਅਪਾਰੀ ॥"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੂਲਾ ਬੇਰੀ, ਤੀਰਥਾ ਤੇ ਮੁੰ ਦਾ ਅਪਾਰ ਸਿੱਖ ਜਾਣੀਦੇ ਸੇ।"

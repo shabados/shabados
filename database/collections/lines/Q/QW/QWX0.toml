@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਸੇ ਰੀਝ ਰੰਗੰ ॥੪੮੮॥"
 page = 600
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who resisted before them, was killed and he, who was defeated, he surrendered, in this way, all were delightfully adjusted.488."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਲਕੀ ਅਵਤਾਰ ਯੁੱਧ) ਦੇ ਰੰਗ ਵਿਚ ਰੰਗੇ ਹੋਏ ਹਨ ॥੪੮੮॥"

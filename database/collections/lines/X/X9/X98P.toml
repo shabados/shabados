@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘੂੰਘਟ ਛੋਰਿ ਕੋਕਿਲਾ ਧਾਈ ॥"
 page = 934
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘੁੰਘਟ ਨੂੰ ਛਡ ਕੇ ਕੋਕਿਲਾ ਭਜਦੀ ਹੋਈ ਆਈ।"

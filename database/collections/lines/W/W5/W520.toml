@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੌਢਿ ਰਹਾ ਸੋਵਤ ਸੋ ਜਾਨੋ ॥੩੨॥"
 page = 852
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He made love with Hirde Mati and went to his bed.(32)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਲੰਮਾ ਪੈ ਗਿਆ ਜਿਵੇਂ ਸੁਤਾ ਹੋਇਆ ਹੋਵੇ ॥੩੨॥"

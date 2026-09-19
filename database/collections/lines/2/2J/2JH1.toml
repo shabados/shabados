@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਯੋ ਨ ਮੀਤ ਕੈਸੇਹੂੰ ਤਿਹ ਘਰ ॥"
 page = 1347
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਰਾਜ ਕੁਮਾਰ ਕਿਸੇ ਤਰ੍ਹਾਂ ਵੀ ਉਸ ਦੇ ਘਰ ਨਾ ਗਿਆ।"

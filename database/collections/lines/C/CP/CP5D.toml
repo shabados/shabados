@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਵ ਚਰਨਨ ਮਨ ਰਹੈ ਹਮਾਰਾ ॥"
 page = 1386
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Let my mind rest under Thy Feet"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰਾ ਮਨ (ਸਦਾ) ਤੁਹਾਡੇ ਚਰਨਾਂ ਨਾਲ ਜੁੜਿਆ ਰਹੇ।"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਤਵ ਚਰਨਨ; ਮਨ ਰਹੈ ਹਮਾਰਾ ॥"

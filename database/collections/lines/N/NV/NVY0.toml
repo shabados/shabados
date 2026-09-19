@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਲੀਖਤ ਮੁਦਾਮੈਂ ॥੧੨੧॥"
 page = 7
 line = 7
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Thou hast perpetual offspring! 121"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਥਿਰ ਸੰਤਾਨ ('ਸਲੀਖਤ') ਵਾਲਾ ਹੈਂ ॥੧੨੧॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਸਲੀਖਤ ਮੁਦਾਮੈ ॥੧੨੧॥"

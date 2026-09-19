@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਭ ਤਜੀ; ਮਨੈ ਕੀ ਕਾਮ ਕਰਾ ॥"
 page = 408
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I have renounced all the affairs of my mind's desire."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਆਪਣੇ ਚਿੱਤ ਦੀ ਖਾਹਿਸ਼ ਦੇ ਸਾਰੇ ਕੰਮ ਛੱਡ ਛੱਡੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I have renounced all of the affairs of my mind's desires."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਮਨ ਕੀ ਜੋ ਕਾਮ ਕਲਾ ਵਾ ਕਲਪਨਾ ਥੀ ਸੋ ਸਭ ਤਜੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਆਪਣੇ ਮਨ ਦੀਆਂ ਸਾਰੀਆਂ ਵਾਸ਼ਨਾਂ ਤਿਆਗ ਦੇਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨੈ ਕੀ = ਮਨ ਦੀ। ਕਾਮ ਕਰਾ = ਵਾਸ਼ਨਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "He renunciado y parado todos los deseos de mi mente,"

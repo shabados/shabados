@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕਹ ਨਿਰਖਿ ਰੂਪ ਸਿਰ ਨ︀ਯਾਯੋ ॥"
 page = 1207
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਰੂਪ ਨੂੰ ਵੇਖ ਕੇ (ਰਾਣੀ ਨੇ) ਸਿਰ ਨਿਵਾ ਦਿੱਤਾ।"

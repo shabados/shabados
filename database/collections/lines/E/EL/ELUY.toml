@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਬਲਿਸਟ ਅਸਿ ਤੇਜ ਪ੍ਰਚੰਡਾ ॥"
 page = 624
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਅਤਿ ਬਲਵਾਨ ਅਤੇ ਪ੍ਰਚੰਡ ਤੇਜ ਵਾਲਾ ਸੀ"

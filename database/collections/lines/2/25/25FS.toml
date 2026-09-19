@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ︀ਯਾਮ ਚਿਤਾਰ ਕੈ ਸ︀ਯਾਮ ਕਹੈ ਮਨ ਮੈ ਸਭ ਗ੍ਵਾਰਨੀਯਾ ਦੁਖ ਪਾਵੈ ॥"
 page = 392
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Remembering Krishna, the poet says that all the gopis are suffering"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਵੀ) ਸ਼ਿਆਮ ਕਹਿੰਦੇ ਹਨ, ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਯਾਦ ਕਰ ਕੇ ਸਾਰੀਆਂ ਗੋਪੀਆਂ ਮਨ ਵਿਚ ਦੁਖ ਪਾਉਂਦੀਆਂ ਹਨ।"

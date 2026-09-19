@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਦ ਬਿਖੁ ਕੇ ਤਿਨ ਤਨ ਚਰੈ; ਤੁਰਤੁ ਤਰਫਿ ਮਰਿ ਜਾਹਿ ॥੨੪॥"
 page = 1095
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਸ਼ਰੀਰ ਨੂੰ ਜ਼ਹਿਰ ਦੀ ਮਸਤੀ ਚੜ੍ਹ ਜਾਂਦੀ ਅਤੇ ਤੁਰਤ ਤੜਫ ਤੜਫ ਕੇ ਮਰ ਜਾਂਦਾ ॥੨੪॥"

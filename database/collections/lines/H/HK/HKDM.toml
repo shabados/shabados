@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਖੰਡ ਅਤੁਲ ਪ੍ਰਤਾਪ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His Glory is Indivisible and Inestimable,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ) ਪ੍ਰਤਾਪ ਅਖੰਡ ਅਤੇ ਅਤੁਲ (ਨ ਤੁਲਨਾਇਆ ਜਾ ਸਕਣ ਵਾਲਾ) ਹੈ,"

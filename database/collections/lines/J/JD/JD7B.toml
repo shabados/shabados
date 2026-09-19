@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਠਾ ਤੇ ਦੋਊ ਰਹਹਿ; ਚੌਧਰ ਕਰਹਿ ਬਨਾਇ ॥੩॥"
 page = 859
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They used to lived there; he was the headman of the place.(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਦੋਵੇਂ ਰਹਿੰਦੇ ਸਨ ਅਤੇ ਚੌਧਰ ਕਰਦੇ ਸਨ ॥੩॥"

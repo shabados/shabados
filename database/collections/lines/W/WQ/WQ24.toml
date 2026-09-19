@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੇ ਪਖਰੇ ਬਾਜ ਰਾਜੰ ਸੁ ਭੰਤੰ ॥"
 page = 243
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors on foot, on horses, on elephants and in chariots, wearing their armours, marched forward"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਾਖਰਾਂ ਨਾਲ ਸਜੇ ਰਾਜ-ਘੋੜਿਆਂ ਵਾਲੇ ਸੂਰਮੇ ਵੀ (ਕੁੰਭਕਰਨ ਨੂੰ ਜਗਾਣ ਲਈ) ਤੁਰ ਪਏ।"

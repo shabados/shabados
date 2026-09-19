@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਬੈਠ ਮਾਨੋਰਮਾ ਗ੍ਰੰਥ ਬਾਚੈ ॥"
 page = 151
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere someone studied the book Manorama"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ (ਕੋਈ) ਬੈਠ ਕੇ 'ਮਨੋਰਮਾ' ਗ੍ਰੰਥ ਦਾ ਪਾਠ ਕਰ ਰਿਹਾ ਸੀ।"

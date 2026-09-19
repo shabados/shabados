@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਾਰ ਭੂਤ ਸਤਿ; ਹਰਿ ਕੋ ਨਾਉ ॥"
 page = 289
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The real thing is God's True Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਸਲ ਵਸਤੂ ਵਾਹਿਗੁਰੂ ਦਾ ਸੱਚਾ ਨਾਮ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The essential reality is the True Name of the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਰਬ ਮੇਂ ਸੇ ਸਾਰ ਰੂਪ ਜੋ (ਸਤਿ) ਨਿਹਚੇ ਕਰ ਕੇ ਹਰੀ ਕਾ ਨਾਮ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਦਾ ਨਾਮ ਹੀ ਸਭ ਪਦਾਰਥਾਂ ਤੋਂ ਉੱਤਮ ਪਦਾਰਥ ਹੈ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਾਰ = ਸ੍ਰੇਸ਼ਟ, ਸਭ ਤੋਂ ਚੰਗੀ। ਭੂਤ = ਪਦਾਰਥ, ਚੀਜ਼।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pues cualquiera que Lo escuche, Lo declame"

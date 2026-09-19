@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਈ ਦੇਸ ਦੇਸ, ਭਾਖਾ ਰਟੰਤ ॥"
 page = 30
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many speak languages of different countries!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਦੇਸ ਦੇਸ ਦੀ ਬੋਲੀ ਬੋਲਦੇ ਹਨ,"

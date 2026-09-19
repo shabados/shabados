@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੂਪ ਕੁਰੂਪ ਅਹੀਰ ਕੋ; ਸੁੰਦਰ ਤਾ ਕੀ ਨਾਰਿ ॥"
 page = 844
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "An ugly looking milkman possessed this pretty wife."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੁਜਰ ਦਾ ਰੂਪ ਕੋਝਾ ਸੀ, ਪਰ ਉਸ ਦੀ ਇਸਤਰੀ ਸੁੰਦਰ ਸੀ।"

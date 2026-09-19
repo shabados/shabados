@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਰੀ ਆਸੁਰੀ ਕਿੰਨ੍ਰਨਿ; ਕਵਨ ਬਿਚਾਰਿਯੈ ॥"
 page = 1179
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕੁੰਵਰ ਪੁੱਛਣ ਲਗਾ) ਦਸ, ਤੂੰ ਦੇਵ ਇਸਤਰੀ, ਦੈਂਤ ਇਸਤਰੀ ਜਾਂ ਕਿੰਨਰੀ ਵਿਚੋਂ ਕੌਣ ਹੈਂ?"

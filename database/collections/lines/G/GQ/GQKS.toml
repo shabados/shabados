@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੁਲੈ ਬਿਪ ਲੀਨੇ ॥"
 page = 271
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਬ੍ਰਾਹਮਣ ਬੁਲਾ ਲਏ,"

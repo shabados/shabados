@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਨੇ ਬਾਰਦੀ ਡੰਕ ਡਉਰੂ ਬਜਾਏ ॥"
 page = 119
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And Shiva, the rider of the Bull, playing his tabor, is looking elegant."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਲਦ ਵਾਲਾ (ਬਾਰਦੀ-ਸ਼ਿਵ) ਡਕ-ਡਕ ਡਉਰੂ ਵਜਾ ਰਿਹਾ ਸੀ,"

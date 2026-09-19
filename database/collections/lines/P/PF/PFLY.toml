@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਤ ਸਬਦ ਕੌ ਭਾਖਿ; ਬਹੁਰਿ ਅਰਿ ਭਾਖੀਐ ॥"
 page = 719
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If the word “A” is said after uttering the sword “Bhoot”,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਹਿਲਾਂ) 'ਭੂਤ' ਸ਼ਬਦ ਕਹਿ ਕੇ, ਫਿਰ 'ਅਰਿ' (ਸ਼ਬਦ) ਬੋਲਿਆ ਜਾਏ।"

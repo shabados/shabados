@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਚਿੰਤਾ ਤਾ ਕੇ ਚਿਤ ਮਾਹੀ ॥੪॥"
 page = 842
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One factor always worried her  the Raja had no male issue.( 4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਚਿੰਤਾ ਉਸ ਦੇ ਮਨ ਵਿਚ ਸੀ ॥੪॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੌੜ ਭਰਥ ਸੰਨ︀ਯਾਸੀ ਰਹੈ ॥"
 page = 1039
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌੜ ਭਰਤ ਨਾਂ ਦਾ ਇਕ ਸੰਨਿਆਸੀ ਰਹਿੰਦਾ ਸੀ।"

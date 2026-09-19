@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਵਤ ਭਯੋ ਅੰਧੇਰੇ ਘਰ ਪਿਯ ॥"
 page = 1260
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪ੍ਰੀਤਮ ਹਨੇਰੇ ਘਰ ਵਿਚ ਦਾਖਲ ਹੋਇਆ।"

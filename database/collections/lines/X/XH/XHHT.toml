@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਮੱਕ ਚੰਦ੍ਰ ਚਾਰੀਅੰ ॥"
 page = 45
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The glitter of his face is more beautiful than that of the moon"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੇ ਸਰੂਪ ਦੀ) ਚੰਦ੍ਰਮਾ ਤੋਂ ਵੀ ਸੁੰਦਰ ਚਮਕ ਨੇ"

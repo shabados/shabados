@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਿਤਸਤੁਆ ਅਛਾਪੰ ॥੮॥੧੧੬॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art there on the eath but hidden.8.116."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਰਤੀ (ਛਿਤ) ਉਤੇ ਤੂੰ ਹੀ ਪ੍ਰਗਟ ਹੈਂ ॥੮॥੧੧੬॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰ ਚੁਸਤ ਜਾ ਵਤਨਰਾ ॥"
 page = 269
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“He who is ever in blossom like garden and ever thoughtful about his kingdom"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੇਤਨਾ ਦੇਣ ਵਾਲਾ (ਪੁਰਚੁਸਤ) ਹੈ,"

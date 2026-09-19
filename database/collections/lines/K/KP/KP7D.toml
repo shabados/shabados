@@ -1,36 +1,36 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗਉੜੀ ਕਬੀਰ ਜੀ ਪੰਚਪਦੇ₂ ॥"
 page = 326
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Gauri Kabir Ji. Panchpade."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗਉੜੀ ਕਬੀਰ ਜੀ। ਪੰਚਪਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Gauree, Kabeer Jee, Panch-Padhay:"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਰਥਾਤ ਪੰਜ ਪੰਜ ਪਦੋਂ ਕੇ ਦੋ ਸਬਦ ਕਹੈਂਗੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Gauri Kabir yi, Panch-Pada."

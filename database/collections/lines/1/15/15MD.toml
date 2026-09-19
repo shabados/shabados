@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਵੀ ਚਾਵਡੀਅੰ ਕਿਲੰਕਾਰ ਕੰਕੰ ॥"
 page = 50
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਚਮੁੰਡਣਾਂ ਬੋਲਦੀਆਂ ਹਨ ਅਤੇ ਕਿਤੇ ਇੱਲਾਂ ਕਿਲਕਾਰੀਆਂ ਮਾਰਦੀਆਂ ਹਨ।"

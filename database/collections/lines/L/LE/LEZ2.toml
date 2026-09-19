@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਗੜਦੀ ਮੂਰਛਾ ਭਯੋ; ਲਾਗੜਦੀ ਲਛਮਣ ਰਣ ਜੁਝਯੋ ॥"
 page = 258
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Lakshman while fighting in the field became unconscious and Ram,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੱਛਮਣ ਰਣ ਵਿੱਚ ਲੜਦਾ ਹੋਇਆ ਮੂਰਛਿਤ ਹੋ ਗਿਆ ਹੈ।"

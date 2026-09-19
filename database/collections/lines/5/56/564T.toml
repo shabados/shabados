@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕੇ ਤਨ ਬਿਰਹਾ ਬਸੈ; ਲਗਤ ਤਿਸੀ ਕੋ ਪੀਰ ॥"
 page = 945
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One, who faces separation, can only feel the brunt of pain."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਤਨ ਵਿਚ ਵਿਯੋਗ (ਦੀ ਪੀੜ) ਹੁੰਦੀ ਹੋਵੇ, ਉਸ ਨੂੰ ਇਸ ਦਰਦ ਦਾ ਅਹਿਸਾਸ ਹੁੰਦਾ ਹੈ।"

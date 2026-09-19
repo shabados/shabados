@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਧ ਦੁਪਹਰੀ ਜਿਨ; ਕਰ ਪਿਯਹਿ ਸੰਘਾਰਿਯੋ ॥"
 page = 1135
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੁਪਹਿਰ ਵੇਲੇ ਜਿਸ ਨੇ (ਆਪਣੇ) ਹੱਥ ਨਾਲ ਪਤੀ ਨੂੰ ਮਾਰ ਦਿੱਤਾ"

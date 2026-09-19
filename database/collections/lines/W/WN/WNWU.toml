@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਠਟ ਠਟੇ ਅਪਾੜ ਪਾੜੇ ॥"
 page = 223
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She rips and breaks the hardest one, she establishes the unestablished and tears that which can’t be torn"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਥਾਪਨਾ-ਹੀਣਾਂ ਨੂੰ ਸਥਾਪਿਤ ਕਰ ਦਿੱਤਾ, ਨ ਪਾਟਣ ਵਾਲਿਆਂ ਨੂੰ ਪਾੜ ਦਿੱਤਾ,"

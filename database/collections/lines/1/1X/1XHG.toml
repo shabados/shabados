@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਿਯੋ ਸਸਤ੍ਰ ਬਾਹੀ ॥"
 page = 64
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕ੍ਰਿਪਾਲ ਚੰਦ) ਸ਼ਸਤ੍ਰ ਚਲਾਉਂਦਾ ਹੋਇਆ ਅਗੇ ਤੁਰਦਾ ਗਿਆ।"

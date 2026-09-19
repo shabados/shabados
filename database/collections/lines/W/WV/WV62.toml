@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਬਾਦਾ ਕੁਨਦ ਤਾਖ਼ਤ ਬਰ ਮੁਲਕ ਸਖ਼ਤ ॥"
 page = 1409
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘God forbid, if that King raided, then this country would be ruined."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਜਿਹਾ ਨਾ ਹੋਵੇ ਕਿ ਉਹ ਸਾਡੇ ਮੁਲਕ ਉਤੇ ਚੜ੍ਹਾਈ ਕਰ ਦੇਵੇ।"

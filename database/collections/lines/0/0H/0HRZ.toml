@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਾਜਹਿ ਬਾਜੇ ਧੁਨਿ ਆਕਾਰਾ ॥"
 page = 1061
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The musical instruments of the body ring."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਦੇਹ ਦੇ ਸੰਗੀਤਕ ਸਾਜ਼ ਵੱਜਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The musical instruments of the body vibrate and resound."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਕਾਰ ਰੂਪ ਵਾਜੇ ਹੈਂ ਧੁਨ ਜੋ ਨਿਕਸਤੀ ਹੈ ਇਹ ਤਿਨ ਕਾ ਵਜਣਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਸਾਰੇ ਦਿੱਸ ਰਹੇ ਸਰੀਰ (ਮਿੱਠੀ ਸੁਰ) ਨਾਲ (ਮਾਨੋ) ਵਾਜੇ ਵੱਜ ਰਹੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਕਾਰਾ = ਸਾਰੇ (ਦਿੱਸ ਰਹੇ) ਸਰੀਰ। ਬਾਜਹਿ = ਵੱਜ ਰਹੇ ਹਨ। ਧੁਨਿ = ਸੁਰ (ਨਾਲ)।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mira, los instrumentos del cuerpo emiten notas de varios tipos,"

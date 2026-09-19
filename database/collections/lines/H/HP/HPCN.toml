@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾ ਇਹੁ ਬਿਨਸੈ; ਨਾ ਇਹੁ ਜਾਇ ॥"
 page = 868
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He neither perishes, nor departs He."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਾਂ ਉਹ ਨਾਸ ਹੁੰਦਾ ਹੈ ਨਾਂ ਹੀ ਉਹ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He does not die; He does not go away."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਇਹੁ ਮਰਤਾ ਹੈ ਨ ਜਨਮਤਾ ਹੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਪਰਮਾਤਮਾ ਐਸਾ ਹੈ ਕਿ) ਨਾਹ ਇਹ ਕਦੇ ਮਰਦਾ ਹੈ ਨਾਹ ਜੰਮਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਾਇ = ਜੰਮਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "No puede ser destruida ni se va a ningún lado,"

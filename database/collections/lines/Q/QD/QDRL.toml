@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਊਚ ਨੀਚ ਕਰ ਭਿੰਨ ਦਿਖਾਏ ॥"
 page = 158
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were shown distinctly as high and low"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉੱਚੇ ਨੀਵੇਂ ਬਣਾ ਕੇ (ਉਨ੍ਹਾਂ ਨੂੰ) ਭਿੰਨ ਭਿੰਨ ਕਰਕੇ ਵਿਖਾਇਆ।"

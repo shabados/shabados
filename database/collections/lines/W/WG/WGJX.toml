@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਬਰੁ ਹੋਇ ਹਲੀਮ, ਆਪੁ ਗਵਾਵਹੀ ॥੧੨॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Only the contented and the humble lose their sense of egocentricity."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਹੜੇ) ਸੰਤੋਖ ਨੂੰ ਧਾਰਕੇ ਸ਼ਹਿਣਸ਼ੀਲ ਹੋਏ ਹਨ, (ਓਹ) ਆਪਣਾ ਆਪ ਗੁਆ ਦਿੰਦੇ ਹਨ।"

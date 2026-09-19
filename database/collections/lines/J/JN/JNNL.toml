@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਨਵ ਦੇਵ ਫਨਿੰਦ੍ਰ ਧਰਾਧਰ; ਪਛ ਪਸੂ ਨਹਿ ਜਾਤਿ ਗਨਾਯੋ ॥"
 page = 713
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who created innumerable gods, demons, Sheshnaga, tortoises, birds, animals etc.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸਨੇ) ਦੈਂਤ, ਦੇਵਤੇ, ਸ਼ੇਸ਼ਨਾਗ, ਧਰਾਧਰ (ਪਰਬਤ) ਪੰਛੀ ਅਤੇ ਪਸ਼ੂ (ਇਤਨੇ ਪੈਦਾ ਕੀਤੇ ਹਨ ਕਿ ਉਨ੍ਹਾਂ ਦੀ) ਗਿਣਤੀ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।"

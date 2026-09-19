@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਹ ਨਰ; ਰਾਮ ਭਗਤਿ. ਨਹਿ ਸਾਧੀ ॥"
 page = 328
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He, who has not performed Lord's service,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਐਸੇ ਗੁਨਾਹਗਾਰ ਬੰਦੇ ਨੇ ਜਿਸ ਨੇ ਸਾਹਿਬ ਦੀ ਸੇਵਾ ਨਹੀਂ ਕਮਾਈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "That man who has not practiced devotional worship of the Lord"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪੁਰਸ ਨੇ ਰਾਮ ਕੀ ਭਗਤੀ ਨਹੀਂ ਸਿਧ ਕਰੀ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਮਨੁੱਖ ਨੇ ਪ੍ਰਭੂ ਦੀ ਬੰਦਗ਼ੀ ਨਹੀਂ ਕੀਤੀ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰਾਮ ਭਗਤਿ = ਪ੍ਰਭੂ ਦੀ ਬੰਦਗੀ। ਸਾਧੀ = ਕੀਤੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "¿Por qué el malvado no murió tan pronto como nació,"

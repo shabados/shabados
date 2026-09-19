@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਈਂ ਰਾ ਬਿਜ਼ਦ ਆਂ ਬਈ ਆਂ ਜਦੰਦ ॥"
 page = 1413
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘One hit the other and, right in front of my eyes,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਇਸ ਨੂੰ ਮਾਰਿਆ ਅਤੇ ਇਸ ਨੇ ਉਸ ਨੂੰ ਮਾਰਿਆ।"

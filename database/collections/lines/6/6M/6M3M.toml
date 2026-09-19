@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੀਮਤਿ ਕਿਨੈ. ਨ ਪਾਈਆ; ਕਿਤੈ. ਨ ਲਇਆ ਜਾਇ ॥"
 page = 555
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "No one can evaluate Him and He cannot be purchased for any price."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਕੋਈ ਮੁੱਲ ਨਹੀਂ ਪਾ ਸਕਦਾ ਅਤੇ ਉਹ ਕਿਸੇ ਕੀਮਤ ਤੋਂ ਵੀ ਖਰੀਦਿਆਂ ਨਹੀਂ ਜਾ ਸਕਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "No one can evaluate Him; He cannot be purchased at any price."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੀ ਨੇ ਆਜ ਤਕ ਕੀਮਤ ਨਹੀਂ ਪਾਈ ਹੈ, ਗੁਰੋਂ ਸੇ ਬਿਨਾਂ ਕਿਸੀ ਪ੍ਰਕਾਰ ਕਰ ਕੇ ਲਿਆ ਨਹੀਂ ਜਾਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ ਨੇ ਉਸ ਦੀ ਕੀਮਤ ਨਹੀਂ ਪਾਈ ਤੇ ਕਿਸੇ ਥਾਂ ਤੋਂ (ਮੁੱਲ ਦੇ ਕੇ) ਲਿਆ ਭੀ ਨਹੀਂ ਜਾਂਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਿਤੈ = ਕਿਸੇ ਥਾਂ ਤੋਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y nunca podrá ser comprado a ningún precio. Uno conoce Su Misterio"

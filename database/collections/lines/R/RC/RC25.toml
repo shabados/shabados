@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗਦਹੁੰ ਚੰਦਨ ਲਦੀਐ; ਨਹਿੰ ਗਾਂਧੀ ਗਾਜੁ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Laden with sandalwood, the donkey cannot be called a perfumer."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਖੋਤੇ ਉਤੇ ਚੰਦਨ ਲੱਦ ਦੇਈਏ) ਤਾਂ ਉਹ ਗਾਂਧੀ ਨਹੀਂ ਕਹੀਦਾ।"

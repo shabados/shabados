@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਜ਼ਰ ਕਰਦ ਬਰ ਬਚਹ ਗੌਹਰ ਨਿਗਾਰ ॥"
 page = 1410
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Once she came across an appraiser of diamonds (jeweller),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਇਕ ਜੌਹਰੀ ਦੇ ਬੱਚੇ ਉਤੇ ਨਜ਼ਰ ਪਈ (ਤਾਂ ਆਸ਼ਕ ਹੋ ਗਈ)।"

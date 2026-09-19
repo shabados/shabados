@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਾਗੜਦੰ ਹਸੇ ਖਾਗੜਦੰ ਖੇਤੰ ॥੩੭੪॥"
 page = 588
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the war, the goddess Kali also pleased in the sky, the Bhairav and ghosts etc. also in the battlefield.374."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਚ ਹਸ ਰਹੇ ਹਨ ॥੩੭੪॥"

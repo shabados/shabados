@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਰੂਪਵੰਤ ਸੁ ਬਾਲ ॥"
 page = 633
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਰਾਜ ਕੁਮਾਰੀ ਬਹੁਤ ਸੁੰਦਰ ਸਰੂਪ ਵਾਲੀ ਹੈ।"

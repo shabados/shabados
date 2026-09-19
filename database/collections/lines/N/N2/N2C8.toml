@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਕਹ︀ਯੋ ਤਾਹਿ ਨੀਕੇ ਸੁਭਾਇ ॥੯॥"
 page = 615
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The manner in which Brahma assumed his body, I now describe it nicely.9."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਬੜੇ ਚੰਗੇ ਢੰਗ ਨਾਲ ਕਹਿੰਦਾ ਹਾਂ ॥੯॥"

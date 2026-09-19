@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹੀਰੈ, ਹੀਰਾ ਬੇਧਿ ਮਿਲੰਦਾ ॥੭॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The diamond heart of devotee Bali, cut by the diamond Lord was finally subsumed in Him."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਤਿੱਕੁਰ ਬਲ ਭਗਤ ਦਾ ਮਨ) ਹੀਰੇ ਨਾਲ ਹੀਰੇ ਵਾਂਙੂ ਵਿੱਨ੍ਹਿਆਂ ਜਾਕੇ ਮਿਲ ਗਿਆ।"

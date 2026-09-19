@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਸ੍ਰੀ ਨਾਮ ਤੁਪਕ ਕੇ ਜਾਨਹੁ ॥੯੭੩॥"
 page = 776
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying the word “Nishishbhagaa”, add the words “Jaachar-pati-shatru” nad know all the names of the names of Tupak.973."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਨੂੰ) ਸਭ ਤੁਪਕ ਦਾ ਨਾਮ ਸਮਝੋ ॥੯੭੩॥"

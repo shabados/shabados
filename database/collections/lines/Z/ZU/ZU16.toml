@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਜਾਹੁ ਭਰਥ ਉਚਾਰਯੋ ॥"
 page = 281
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then sitting down, he held consultations and addressing Bharat, he asked him to go, saying,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਰਤ! ਤੁਸੀਂ ਜਾਓ,"

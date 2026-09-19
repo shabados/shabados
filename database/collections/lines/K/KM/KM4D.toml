@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਪਟਿ ਲਪਟਿ ਤਾ ਸੌ ਰਮਿਯੋ; ਰੁਤਿਸ ਪ੍ਰਭਾ ਤਿਹ ਜਾਨਿ ॥"
 page = 1070
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਰੁਤਿਸ ਪ੍ਰਭਾ ਸਮਝ ਕੇ ਉਸ ਨਾਲ ਲਿਪਟ ਲਿਪਟ ਕੇ ਰਮਣ ਕੀਤਾ"

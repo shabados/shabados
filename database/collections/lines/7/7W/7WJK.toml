@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਨਹਿ ਲਗੀ ਸਿੰਘ ਕੇ ਜਾਈ ॥"
 page = 865
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Jehangir aimed and shot but could not hit the lion,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਉਹ ਸ਼ੇਰ ਨੂੰ ਜਾ ਕੇ ਨਾ ਲਗੀ।"

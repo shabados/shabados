@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਬਾ ਜ਼ਨਿ ਨਿਸ਼ਸਤੰਦ ਪੁਸ਼ਤੇ ਪਲੰਗ ॥੩॥"
 page = 1415
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who was sitting on the bedstead besides his wife.(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਆਪਣੀ ਇਸਤਰੀ ਨਾਲ ਪਲੰਘ ਉਪਰ ਬੈਠਾ ਹੋਇਆ ਸੀ ॥੩॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰੰ ਏਕੁ ਨਾਰਾਇਣੰ ਦੁਐ ਸਰੂਪੰ ॥"
 page = 163
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਨਰ ਅਤੇ ਦੂਜਾ ਨਾਰਾਇਣ ਰੂਪ ਸੀ।"

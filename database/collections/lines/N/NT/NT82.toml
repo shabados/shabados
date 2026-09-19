@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਸਤ੍ਰੁ ਕੇ ਭੀਮ ਹਸਤੀ ਚਲਾਏ ॥"
 page = 147
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Bhima threw there the elephants of the enemy upwards."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਭੀਮਸੈਨ ਨੇ ਵੈਰੀ ਦੇ ਹਾਥੀ ਚੁਕ ਚੁਕ ਕੇ ਸੁਟੇ।"

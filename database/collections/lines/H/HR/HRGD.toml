@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਸੁਰੰਧਕ ਬੀਰ ਬੀਯੋ ਤਬ ਹੀ ॥"
 page = 179
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After a long time, another demons named Andhakasura came on the scene"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਅੰਧਕ ਨਾਂ ਦਾ ਦੂਜਾ ਵੀਰ (ਪੈਦਾ ਹੋ ਗਿਆ)।"

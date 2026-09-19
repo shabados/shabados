@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਛਲ ਸੌ ਤ੍ਰਿਯ ਭੂਤ ਕਹਿ; ਦੀਨੋ ਗੋਰਿ ਗਡਾਇ ॥੩੩॥"
 page = 912
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And with her trickery the woman got him declared as a ghost.(33)(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਇਸਤਰੀ ਨੇ ਭੂਤ ਕਹਿ ਕੇ ਕਬਰ ਵਿਚ ਦਬਵਾ ਦਿੱਤਾ ॥੩੩॥"

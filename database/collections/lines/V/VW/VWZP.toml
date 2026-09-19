@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹੇ ਤੇ ਚਹੂੰ ਓਰ, ਐ ਕੈ ਹਕਾਰੇ ॥੨੧॥"
 page = 979
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "virtuous, he (Jalandhar) could not be killed.(21)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਰਹਿ ਗਏ ਹਨ, ਉਹ ਚੌਹਾਂ ਪਾਸਿਆਂ ਤੋਂ ਆ ਕੇ ਲਲਕਾਰੇ ਮਾਰ ਰਹੇ ਹਨ ॥੨੧॥"

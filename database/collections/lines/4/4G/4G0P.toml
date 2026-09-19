@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅੰਧ ਭਯੋ ਬੈਠੋ ਰਹਿਯੋ; ਗਯੋ ਜਾਰ ਤਬ ਭਾਜ ॥"
 page = 879
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He became blind and kept sitting and the lover ran away."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਅੰਨਾ ਹੋ ਕੇ ਬੈਠ ਰਿਹਾ ਅਤੇ ਤਦ ਯਾਰ ਭਜ ਗਿਆ।"

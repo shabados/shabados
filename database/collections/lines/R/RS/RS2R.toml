@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਊ ਪਾਨ ਖੁਆਰੈਂ ॥"
 page = 270
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Someone swung she fly-whisk, someone offered the betel"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਪਾਨ ਖੁਆਉਂਦਾ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਡਿ, ਕ੍ਰਿਪਾ ਹਮ ਪੈ ਕਰੀਐ; ਹਮਰੋ ਅਤਿ ਪ੍ਰੀਤਮ ਹੋਇ ਕਨਈਯਾ ॥"
 page = 320
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Chandi! be graceful to us so that Krishna may remain our beloved"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਚੰਡਿਕਾ! ਸਾਡੇ ਉਤੇ ਕ੍ਰਿਪਾ ਕਰੋ ਕਿ ਕਾਨ੍ਹ ਸਾਡਾ ਪ੍ਰੀਤਮ ਬਣਿਆ ਰਹੇ।"

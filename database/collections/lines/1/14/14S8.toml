@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੂਝੇ ਚੰਦ ਨਰਾਇਨ ਨਾਮਾ ॥"
 page = 71
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, the battle continued on both sides (with great vigour). Chandan Rai was killed."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਵਿਚ) ਨਰਾਇਨ ਚੰਦ ਨਾਂ (ਵਾਲਾ ਸੂਰਮਾ) ਮਾਰਿਆ ਗਿਆ।"

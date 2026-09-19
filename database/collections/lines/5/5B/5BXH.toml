@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਰ ਚਾਰ ਚਰਾਚਰਯੰ ਹੁਹਰੰ ॥੫੬॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then all the movable and immovable objects become restless.56."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ) ਚੌਹਾਂ ਦਿਸ਼ਾਵਾਂ ਦੇ ਜੜ-ਚੇਤਨ ਘਬਰਾ ਜਾਂਦੇ ਹਨ ॥੫੬॥"

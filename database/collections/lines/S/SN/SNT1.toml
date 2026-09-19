@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੋ ਬਚਨ ਚੰਡਿਕਾ ਭਾਖਿਯੋ ॥"
 page = 933
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Be was given the name of Rasaloo and the goddess Chandika willed,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਡਿਕਾ ਨੇ ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ"

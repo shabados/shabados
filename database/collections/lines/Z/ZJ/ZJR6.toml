@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਦਿਵਸ ਰਾਨੀ; ਲੈ ਤਾ ਕੌ ਤਹ ਗਈ ॥"
 page = 984
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਦਿਨ ਰਾਣੀ ਉਸ (ਭ੍ਰਮਰ ਕਲਾ) ਨੂੰ ਉਥੇ ਲੈ ਕੇ ਗਈ"

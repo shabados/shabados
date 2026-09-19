@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਚਰਨ ਨਾਮ ॥"
 page = 9
 line = 9
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thy Feet and Thy Name are meditated in every heart."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹਰ ਇਕ ਜੀਵ ਦੇ) ਚਿੱਤ ਵਿਚ ਤੇਰੇ ਚਰਨਾਂ ਦਾ ਧਿਆਨ ਅਤੇ ਤੇਰੇ ਨਾਮ ਦਾ ਸਿਮਰਨ ਹੈ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਚਿਤ ਚਰਨ, ਨਾਮ ॥"

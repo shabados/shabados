@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਚਿਤ੍ਰਕਾਰੀ ਲਿਖੀ ਚਿਤ੍ਰ ਜੈਸੇ ॥"
 page = 630
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Standing in the royal court she appeared like the portrait of painter"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਚਿਤਰਕਾਰ ਨੇ ਚਿਤਰ ਬਣਾ ਦਿੱਤਾ ਹੋਵੇ।"

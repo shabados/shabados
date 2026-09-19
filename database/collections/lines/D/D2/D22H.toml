@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਾ ਕੋ ਮੂੰਡ ਮੂੰਡਿ ਨਿਤ ਖਾਵੈ ॥੩੫॥"
 page = 881
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja started to squeeze more wealth out of her and this way made fool of her.(35)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਨਿੱਤ ਲੁਟ ਲੁਟ ਕੇ ਖਾਂਦਾ ॥੩੫॥"

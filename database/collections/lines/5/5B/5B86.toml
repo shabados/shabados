@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗੇ ਜਾਇ ਪਿਤਾ ਚਲਿ ਲੀਨਾ ॥"
 page = 1329
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਿਤਾ ਨੂੰ ਅਗੋਂ ਚਲ ਕੇ ਮਿਲੀ"

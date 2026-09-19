@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਰਾਨੀ ਸੌ ਕੇਲ ਕਮਾਏ ॥"
 page = 1001
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the meantime came Parm Singh who had been enjoying with Rani."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਰਾਣੀ ਨਾਲ ਰਤੀ ਮਨਾਈ ਸੀ।"

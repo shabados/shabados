@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਸ ਨੋ ਸਾਚਾ; ਸਿਫਤੀ ਲਾਏ ॥"
 page = 993
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He, whom the True Lord yokes to His praise and imparts Divine understanding,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਸੱਚਾ ਸੁਆਮੀ ਆਪਣੀ ਸਿਫ਼ਤ-ਸਲਾ ਨਾਲ ਜੋੜਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Rare is that one, who as Gurmukh,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪੁਰਸ ਕੋ ਸਾਚਾ ਵਾਹਿਗੁਰੂ ਅਪਨੀ ਸਿਫਤੋਂ ਮੇਂ ਲਾਵਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲਾ ਪਰਮਾਤਮਾ ਆਪਣੀ ਸਿਫ਼ਤ-ਸਾਲਾਹ ਵਿਚ ਜੋੜਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਿਫਤੀ = ਸਿਫ਼ਤ-ਸਾਲਾਹ ਦੇ ਕੰਮ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél a quien el Uno Verdadero ha uncido a Su Presencia, ese extraordinario ser con Conciencia de Dios,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਅਮ ਰਾ ਜੁਦਾ ਕਰਦ ਪੰਜਮ ਬਕੁਸ਼ਤ ॥"
 page = 1425
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The fourth one was slashed and fifth decimated,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਥੇ ਦਾ ਸਿਰ ਵਖਰਾ ਕੀਤਾ, ਪੰਜਵੇਂ ਨੂੰ ਮਾਰ ਦਿੱਤਾ"

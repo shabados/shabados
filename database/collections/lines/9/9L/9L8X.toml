@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਹਿਰਿ ਕਵਚ ਸਭ ਸੂਰ ਸੁਹਾਵੈ ॥"
 page = 870
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਵਚ ਪਾ ਕੇ ਸਾਰੇ ਸੂਰਮੇ ਸੁਸ਼ੋਭਿਤ ਹੋ ਰਹੇ ਸਨ"

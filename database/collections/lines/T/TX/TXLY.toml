@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੈਯਦ ਸੇਖ ਪਠਾਨ; ਮੁਗਲ ਬਹੁ ਆਵਈ ॥"
 page = 818
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Sayeeds, the Sheikhs, the Pathans, and the Mughals frequently"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਪਾਸ) ਸੱਯਦ, ਸ਼ੇਖ, ਪਠਾਨ ਅਤੇ ਮੁਗ਼ਲ ਬਹੁਤ ਆਉਂਦੇ ਸਨ"

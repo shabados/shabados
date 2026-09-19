@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਤ ਭਿੰਨ ਭਿੰਨ ਬਖਾਨ ਹੈ ॥੬੧॥"
 page = 557
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The injunctions of Vedas will not be considered quthentic and the people will describe various other religions.61."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੱਖ ਵੱਖ ਮਤਾਂ ਦਾ ਬਖਾਨ ਕਰਨਗੇ ॥੬੧॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਜਰਤਿ ਸਾਥ ਜ੍ਵਾਬ ਯੌ ਦੀਜੈ ॥੧੭॥"
 page = 1084
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਾਦਸ਼ਾਹ ਨੂੰ ਇਹ ਉੱਤਰ ਦਿਓ ॥੧੭॥"

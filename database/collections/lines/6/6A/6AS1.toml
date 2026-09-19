@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜੇ ਖੁਥੀ ਬਿੰਡਾ ਬਹੈ; ਕਿਉ ਹੋਇ ਬਜਾਜੁ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "A cricket sitting on the heap of cloth does not become a draper."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਬੀਂਡਾ ਥੇਕੀ ਪਰ ਬੈਠ ਜਾਵੇ ਉਹ ਬਜਾਜ ਕਿਕੂੰ ਹੋ ਸਕਦਾ ਹੈ?"

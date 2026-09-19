@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਹ ਫੇਰ ਭੁੱਖਾ ਤਿਹਾਇਆ ਅਤੇ ਕਮਜ਼ੋਰ ਮੁੜ ਜਾਂਦਾ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬਾਜ਼ ਗਰਦਦ ਗੁਰਜਨਾ ਖ਼ੁਆਰੋ ਨਜ਼ਾਰ ॥੧੦॥"
 page = 1
 line = 10
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, returns disappointed hungry, thirsty and debilitated. (10)"

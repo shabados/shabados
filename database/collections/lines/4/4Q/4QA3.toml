@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੇਦ ਅਹੀਰ ਨ ਕਛੁ ਲਹਿਯੋ; ਆਯੋ ਅਪਨੇ ਗ੍ਰੇਹ ॥"
 page = 845
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Without understanding the secret, milkman returned to his home,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੁਜਰ ਕੋਈ ਭੇਦ ਨਾ ਸਮਝ ਕੇ ਆਪਣੇ ਘਰ ਆ ਗਿਆ।"

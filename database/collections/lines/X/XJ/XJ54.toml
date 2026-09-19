@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿੰਘ ਗਊ ਕਹ ਘਾਸੁ ਚੁਗਾਵੈ ॥"
 page = 626
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The cow caused the lion to drink milk and the lion supervised the cow while grazing"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ੇਰ ਗਊ ਨੂੰ ਘਾਹ ਚਰਾਉਂਦਾ ਸੀ।"

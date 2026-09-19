@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਤਿ ਕੋ ਮੂੰਡ ਤਿਸੀ ਘਰ ਡਾਰਾ ॥"
 page = 1202
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਤੀ ਦਾ ਸਿਰ ਉਸੇ (ਰਾਜੇ) ਦੇ ਘਰ ਛਡ ਦਿੱਤਾ"

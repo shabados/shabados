@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਵੈ ਦ੍ਵੈ ਸੀਂਗਨ ਬਧੀ ਮਸਾਲ ਜਰਾਇ ਕੈ ॥"
 page = 1094
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੋ ਦੋ ਮਸਾਲਾਂ ਬਾਲ ਕੇ ਬਲਦਾਂ ਦੇ ਸਿੰਘਾਂ ਨਾਲ ਬੰਨ੍ਹ ਦਿੱਤੀਆਂ।"

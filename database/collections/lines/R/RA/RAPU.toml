@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਵਿਚਿ. ਕਰਤਾ ਪੁਰਖੁ ਖਲੋਆ ॥"
 page = 623
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Creator Lord stood in the midst,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਿਰਜਣਹਾਰ ਸੁਆਮੀ ਆਪ ਆ ਖੜਾ ਹੋਇਆ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Creator Lord Himself stood between us,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤੀਰਥ ਕੇ ਕਾਰਜ ਕਰਨੇ ਕੇ ਬੀਚ ਤੋ ਕਰਤਾ ਪੁਰਖ ਖਲੋਇਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਰਬ-ਵਿਆਪਕ ਕਰਤਾਰ ਆਪ ਉਸ ਦੀ ਸਹੈਤਾ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰਤਾ = ਕਰਤਾਰ। ਪੁਰਖੁ = ਸਰਬ-ਵਿਆਪਕ। ਵਿਚਿ ਖਲੋਆ = ਆਪ ਸਹੈਤਾ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Señor Creador se volvió mi Soporte y ningún mal me acogió."

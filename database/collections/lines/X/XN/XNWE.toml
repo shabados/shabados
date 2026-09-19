@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੋਮਾਚਿ ਗਦ ਗਦ ਬੈਨ ॥"
 page = 637
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰੋਮਾਂਚਿਤ ਹੋਣ ਕਰ ਕੇ (ਉਸ ਦੇ) ਬੋਲ ਗਦ ਗਦ ਹੋ ਗਏ ਸਨ।"

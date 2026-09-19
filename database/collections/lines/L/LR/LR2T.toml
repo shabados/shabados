@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੈਂਡੇ ਖਾ ਡੋਗਰ ਤਹ ਰਹੈ ॥"
 page = 854
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਇਕ ਗੈਂਡੇ ਖਾਂ (ਨਾਂ ਦਾ) ਡੋਗਰ ਰਹਿੰਦਾ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਜੋ ਪਾਏ ਨ੍ਰਿਪ ਰਹੇ; ਮਾਰਿ ਅਬਲਾ ਦਏ ॥੧੪॥"
 page = 1095
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਧਰ) ਜੋ ਰਾਜੇ ਰਹਿ ਗਏ, (ਉਨ੍ਹਾਂ ਨੂੰ) ਇਸਤਰੀ ਨੇ ਮਾਰ ਦਿੱਤਾ ॥੧੪॥"

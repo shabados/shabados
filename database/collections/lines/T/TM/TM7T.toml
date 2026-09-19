@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸੇਖ ਦੇਵ ਮੋਹੀਅੰ ॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And gods and are the treasure of the Grace alone."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸ਼ੇਸ਼ ਦੇਵਤਿਆਂ ਨੂੰ ਮੋਹਣ ਵਾਲਾ ਹੈਂ,"

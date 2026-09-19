@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤਿ ਰਘੁ ਰਾਜ ਸਮਾਪਤਹਿ ॥੯॥੫॥"
 page = 627
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "End of “The Rule of king Raghu.”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਥੇ ਰਘੂ ਦੇ ਰਾਜ ਦੀ ਸਮਾਪਤੀ ॥੯॥੫॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਿਯੋ ਚਹਹੁ ਜੌ ਮੋਹਿ; ਤੁ ਤਬ ਹੀ ਪਾਇਹੋ ॥"
 page = 1188
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਪਹਿਲਾਂ ਉਸ (ਰਾਜ ਕੁਮਾਰੀ) ਨਾਲ ਮੇਰਾ ਵਿਆਹ ਕਰਾ ਦੇਵੇਂਗੀ।"

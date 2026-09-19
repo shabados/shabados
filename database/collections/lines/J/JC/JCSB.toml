@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀਸ ਰਹੀ ਧਰ ਸਖੀ ਪਗਨ ਪਰ ॥"
 page = 1223
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਖੀ ਦੇ ਪੈਰਾਂ ਉਤੇ ਸਿਰ ਧਰਨ ਲਗ ਗਈ"

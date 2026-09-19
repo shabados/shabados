@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਪਤ੍ਰ ਕਰਿ ਸਾਥ ਬਤਾਯੋ ॥"
 page = 989
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "To convey his concurrence, he lifted his arm."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਕ ਹੱਥ ਵਿਚ ਇਕ ਪੱਤਰ ਲੈ ਕੇ (ਉਸ ਦੇ) ਸੰਕੇਤ ਨਾਲ ਦਸਿਆ।"

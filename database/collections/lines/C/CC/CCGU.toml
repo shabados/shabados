@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਰਾਜਾ ਰਾਜਨ ਕੇ ਈਸਾ ॥੨॥੨੯੨॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Thou , O monarch, art the Lord of the kings.”2.292."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਤੁਸੀਂ ਰਾਜਿਆਂ ਦੇ ਸੁਆਮੀ ਰਾਜੇ (ਬਣੇ ਰਹੋ) ॥੨॥੨੯੨॥"

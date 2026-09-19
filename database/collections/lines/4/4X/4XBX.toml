@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖਿ ਲਜਤ ਅਨਾਸ ॥੪੦੬॥"
 page = 667
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were full of virues and were no prone to destruction.406."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਵੇਖ ਕੇ ਆਸ ਮੁਕਤ ਵੀ ਸ਼ਰਮਸਾਰ ਹੁੰਦਾ ਸੀ ॥੪੦੬॥"

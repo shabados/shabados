@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਰਬ ਘਟ ਪ੍ਰਤਿਪਾਲ ॥"
 page = 838
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "God sustains all the hearts."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਵਾਹਿਗੁਰੂ ਦਿਲਾਂ ਦੀ ਪਰਵਰਿਸ਼ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "cherishes and and sustains every heart."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਰਬ (ਘਟ) ਸਰੀਰ ਧਾਰੀਓਂ ਕੀ ਪਾਲਨਾਂ ਕਰਨਹਾਰੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਭ ਸਰੀਰਾਂ ਦੇ ਪਾਲਣਹਾਰ!"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਘਟ = ਸਰੀਰ। ਪ੍ਰਤਿਪਾਲ = ਹੇ ਪਾਲਣ ਵਾਲੇ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sostienes a los corazones por todas partes."

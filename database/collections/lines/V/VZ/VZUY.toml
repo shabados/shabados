@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਾਬਾ ਬੋਲਨਾ. ਕਿਆ ਕਹੀਐ ॥"
 page = 870
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O Father, If I speak, what words should I utter?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਿਤਾ! ਜੇਕਰ ਮੈਂ ਬੋਲਾਂ, ਤਾਂ ਕਿਹੜੇ ਬਚਨ ਉਚਾਰਨ ਕਰਾਂ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O father, if I speak, what words should I utter?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਬੋਲਣਾ ਬਾਣੀ ਕਾ ਤੋ (ਕਿਆ) ਕੈਸਾ ਵਾ ਵਹੁ ਸ੍ਰੇਸਟ ਕਹੀਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! (ਜਗਤ ਵਿਚ ਰਹਿੰਦਿਆਂ) ਕਿਹੋ ਜਿਹੇ ਬੋਲ ਬੋਲੀਏ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਿਆ ਬੋਲਨਾ = ਕਿਹੋ ਜਿਹੀ ਗੱਲ-ਬਾਤ?"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh padre, ¿qué podría uno platicarle al Santo?"

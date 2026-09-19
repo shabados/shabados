@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਕੇ ਮੁਖਿ ਦੇਖਿ ਛਟਾ ਸੁਭ ਸੁੰਦਰ; ਮਧਿਮ ਲਾਗਤ ਜੋਤਿ ਸਸੀ ਹੈ ॥"
 page = 351
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the beauty of these gopis, the light of the moon is looking dim"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਦੇ ਮੁਖ ਦੀ ਸੁੰਦਰ ਚਮਕ ਨੂੰ ਵੇਖ ਕੇ ਚੰਦ੍ਰਮਾ ਦੀ ਜੋਤਿ ਮਧਮ ਲਗਦੀ ਹੈ।"

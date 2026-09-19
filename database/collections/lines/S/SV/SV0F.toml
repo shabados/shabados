@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਸ ਕੋਸ ਲਗਿ ਠਾਢੇ ਭਏ ॥"
 page = 949
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਕੋਹ ਕੋਹ ਦੇ ਫ਼ਾਸਲੇ ਉਤੇ ਖੜੇ ਹੋ ਗਏ"

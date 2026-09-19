@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖਤ ਊਚ ਨੀਚ ਨਰ ਨਾਹਾ ॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The high and low all began to watch the play"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਉੱਚੇ ਨੀਵੇਂ ਅਤੇ ਵੱਡੇ ਨਿੱਕੇ ਅਧਿਕਾਰੀ ਵੇਖ ਰਹੇ ਸਨ।"

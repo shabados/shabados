@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੇਮੁਖਿਨੀ ਸਬਦਾਦਿ ਕਹਿ; ਅਰਿ ਪਦ ਅੰਤਿ ਬਖਾਨ ॥"
 page = 783
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਸੇਮੁਖਿਨੀ' ਸ਼ਬਦ ਕਹਿ ਕੇ ਅੰਤ ਉਤੇ 'ਅਰਿ' ਸ਼ਬਦ ਕਥਨ ਕਰੋ।"

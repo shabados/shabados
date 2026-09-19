@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਥਾ ਸਕਤਿ ਭੋਜਨ ਕਰਿ ਜੈਯੋ ॥੧੩॥"
 page = 1271
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਯਥਾਸ਼ਕਤੀ ਭੋਜਨ ਜੇਵਨ ਕਰੋ ॥੧੩॥"

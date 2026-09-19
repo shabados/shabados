@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮੀ ਸੁੰਭ ਨੈਸੁੰਭ ਦਾਨੌ ਸੰਘਾਰੇ ॥੪॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But don’t hesitate to decimate the Demons.( 4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਸੁੰਭ ਅਤੇ ਨਿਸੁੰਭ (ਨਾਂ ਵਾਲੇ) ਦੈਂਤਾਂ ਨੂੰ ਮਾਰਿਆ ਹੈ ॥੪॥"

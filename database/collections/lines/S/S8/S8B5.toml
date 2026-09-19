@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਭਾਤਿ ਸਾਧਤ ਦਾਉ ॥"
 page = 657
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was not even raising his foot slightly and he was in the posture of playing trick in many ways"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਢੰਗਾਂ ਨਾਲ ਕਰਤੱਵ ਨਿਭਾ ਰਿਹਾ ਹੈ।"

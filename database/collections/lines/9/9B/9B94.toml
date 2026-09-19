@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਬਿਧਿ ਕੋਪ ਕਾਲ ਜਬ ਭਰਾ ॥"
 page = 1378
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਜਦ ਕਾਲ ਕ੍ਰੋਧ ਨਾਲ ਭਰ ਗਿਆ,"

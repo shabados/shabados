@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਾਟ ਡਾਰਿ ਪਤਿ ਸੌ ਸ੍ਵੈ ਰਹੀ ॥"
 page = 1012
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She talked to him as such and, then, setting the bed, went to sleep with her husband."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਮੰਜੀ ਵਿਛਾ ਕੇ ਪਤੀ ਨਾਲ ਸੌਂ ਗਈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖਿ ਚਮੂੰ ਸਭ ਜਾਦਵੀ ਹਰਿ ਜੂ ਅਪੁਨੇ ਸਾਥ ॥"
 page = 402
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਯਾਦਵਾਂ ਦੀ ਸਾਰੀ ਸੈਨਾ ਨੂੰ ਆਪਣੇ ਨਾਲ ਵੇਖ ਕੇ"

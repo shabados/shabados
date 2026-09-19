@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮੁਰਦਾ ਹੋਇ, ਮੁਰੀਦੁ ਗਰੀਬੀ ॥੩॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He who becomes humble and dead to all desires is the true disciple."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਗ਼ਰੀਬ ਮੁਰਦਾ ਹੋ ਜਾਵੇ ਉਹ ਮੁਰੀਦੀ (ਸਿੱਖੀ ਦੇ ਜੋਗ ਹੁੰਦਾ ਹੈ)।"

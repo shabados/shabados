@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਤ ਤੇ ਉਗ੍ਰ ਦਤ ਨ੍ਰਿਪ ਆਯੋ ॥੭॥"
 page = 990
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He himself entered the fight and from this side Raja Uger Sen arrived too.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਧਰੋਂ ਉਗ੍ਰਦੱਤ ਰਾਜਾ ਖ਼ੁਦ ਆ ਗਿਆ ॥੭॥"

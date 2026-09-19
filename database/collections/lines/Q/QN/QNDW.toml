@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਰ ਬਾਸਨਿ ਸੁੰਦਰਿ ਸਭੈ; ਤਿਹ ਠਾ ਕਰੈ ਪਯਾਨ ॥"
 page = 984
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the ladies of the town went to that temple,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਗਰ ਦੀਆਂ ਰਹਿਣ ਵਾਲੀਆਂ ਸਾਰੀਆਂ ਸੁੰਦਰੀਆਂ (ਇਸਤਰੀਆਂ) ਉਥੇ ਜਾਂਦੀਆਂ ਸਨ"

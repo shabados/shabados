@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਫ਼ੌਜੇ ਅਜ਼ੀਂ ਜ਼ੇਰਿ ਸੁਮ ਅਫ਼ਗਨਮ ॥੧੮॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I would not have budhed and inch from my place.18."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਮੈਂ) ਆਪਣੀ ਪਿਆਰੀ ਫ਼ੌਜ ਨੂੰ ਲੰਗੜਾ ਨਾ ਕਰਵਾ ਲੈਂਦਾ ॥੧੮॥"

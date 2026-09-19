@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਛੁਕ ਦਰਬੁ ਤਾ ਤੇ ਚਟਵਾਯੋ ॥"
 page = 880
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja called a woman, lured her with money,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਕੁਝ ਧਨ ਦਾ ਲੋਭ ਦਿੱਤਾ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਹ ਕੁਰੂਪ ਭੂਪ ਕੌ ਭਾਰਾ ॥"
 page = 1340
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਦਾ ਸ਼ਰੀਰ ਭਾਰੀ ਅਤੇ ਕੁਰੂਪ ਸੀ"

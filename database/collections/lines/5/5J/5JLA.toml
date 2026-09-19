@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਏ ਸਰਬ ਕਾਜਾ ॥"
 page = 605
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king of China met his men, whose objectives were fulfilled"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੇ) ਸਾਰੇ ਕਾਰਜ ਪੂਰੇ ਹੋ ਗਏ ਹਨ।"

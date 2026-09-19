@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਵਾਰਾਵਤਿ ਉਗ੍ਰੇਸੁਜਿਆਰਾ ॥"
 page = 1092
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਦ੍ਵਾਰਾਵਤੀ ਵਿਚ ਇਕ ਉਗ੍ਰਸੈਨ ('ਉਗ੍ਰੇਸ') ਨਾਂ ਦਾ ਪ੍ਰਤਾਪੀ ਰਾਜਾ ਹੈ।"

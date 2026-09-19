@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਸਿ ਸੂਰਜ ਤਾ ਕੇ ਸਭ ਸਾਖੀ ॥੩॥"
 page = 1165
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਜ ਅਤੇ ਚੰਦ੍ਰਮਾ ਸਭ ਇਸ ਦੇ ਸਾਖੀ ਸਨ ॥੩॥"

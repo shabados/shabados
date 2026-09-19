@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਹੁ ਸੰਤ, ਚਿਤ ਦੈ ਸਭੈ; ਜਿਹ ਬਿਧਿ ਭਯੋ ਨਿਦਾਨ ॥੫੬॥"
 page = 1242
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੰਤੋ! ਸਾਰੇ ਚਿਤ ਲਾ ਕੇ ਸੁਣੋ, ਜਿਸ ਤਰ੍ਹਾਂ (ਸਾਰੇ ਸ਼ੋਰ ਸ਼ਰਾਬੇ ਦਾ) ਅੰਤ ਹੋਇਆ ॥੫੬॥"

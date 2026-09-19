@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਮ ਐਸੇ ਕਹਿਯੋ ਨ ਫਿਰੈ ਜਮ ਲੋਕ ਤੇ ਦੇਵਨ ਕੇ ਫੁਨਿ ਆਇਸ ਸੋਂ ॥"
 page = 385
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Yama said, “No one, who has come here, can leave this world, even on the bidding of the gods"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਗੋਂ) ਯਮਰਾਜ ਨੇ ਇਸ ਪ੍ਰਕਾਰ ਕਿਹਾ, ਯਮਲੋਕ ਵਿਚੋਂ ਦੇਵਤਿਆਂ ਦੀ ਆਗਿਆ ਨਾਲ ਵੀ (ਕੋਈ) ਪਰਤ ਨਹੀਂ ਸਕਦਾ।"

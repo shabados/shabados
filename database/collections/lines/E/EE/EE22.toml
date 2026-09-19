@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਰਾਤੀ ਕੀਰਤਿ ਸੋਹਿਲਾ; ਕਰਿ ਆਰਤੀ ਪਰਸਾਦੁ ਵੰਡੰਦੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Having recited the Sohila and made supplication at night they distribute sacred food (prasad)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੌਣ ਵੇਲੇ ਕੀਰਤਨ ਸੋਹਿਲਾ ਪੜ੍ਹਦੇ ਹਨ ਅਰ ਆਰਤੀ ਕਰ ਕੇ ਪ੍ਰਸ਼ਾਦ ਵੰਡਦੇ ਹਨ।"

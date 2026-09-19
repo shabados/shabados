@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੁਥਪੇਣ ਥਪੰ ॥੫੫॥"
 page = 557
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They will recite the evil mantras and will establish the uncivilised notions.55."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾੜੀਆਂ ਸਥਾਪਨਾਵਾਂ ਕਰਨਗੇ ॥੫੫॥"

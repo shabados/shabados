@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਪੁਤ੍ਰ ਹੋਤ ਭਯੋ ਅਜ ਬਰ ॥"
 page = 48
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸਦਾ 'ਅਜ' ਨਾਂ ਦਾ ਸ੍ਰੇਸ਼ਠ ਪੁੱਤਰ ਪੈਦਾ ਹੋਇਆ"

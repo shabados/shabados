@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਲ ਕ੍ਰਿਆ ਐਸੀ ਤਹ ਭਈ ॥"
 page = 48
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In due course all these daughters"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਦੋਂ ਕਾਲ ਨੇ ਅਜਿਹੀ ਖੇਡ ਵਰਤਾਈ"

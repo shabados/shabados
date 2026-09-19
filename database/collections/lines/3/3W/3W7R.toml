@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮਤਿ ਨਿਰਮਲੁ ਨਿਰਮਲਾ; ਸਮਦਰਸੀ ਸਮਦਰਸ ਸਰੇਖੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Pious followers of the wisdom of Guru always remain pure and egalitarian."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮਤ ਵਾਲੇ ਨਿਰਮਲ ਅਤੇ ਸਮਦਰਸ਼ੀ ਹਨ (ਉਹ ਹੋਰਨਾਂ ਨੂੰ ਅਪਣੇ) ਜਿਹਾ ਨਿਰਮਲ ਤੇ ਸਮਦਰਸ਼ੀ ਜਾਣਦੇ ਹਨ।"

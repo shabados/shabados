@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੰਡੁ ਪੁਤ੍ਰ ਜਾਨੀ ਇਹੈ; ਮਾਰਤ ਜਾਦਵ ਮੋਰ ॥"
 page = 545
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੰਡੁ ਪੁੱਤਰ (ਅਰਜਨ) ਨੇ ਇਹ ਜਾਣ ਲਿਆ ਕਿ ਯਾਦਵ ਮੈਨੂੰ ਮਾਰ ਦੇਣਗੇ।"

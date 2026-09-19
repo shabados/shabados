@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੋਪ ਕਹੈ ਸਭ ਹੀ ਮੁਖ ਤੇ; ਇਹ ਕਾਨ੍ਰਹ ਬਲੀ ਬਰ ਹੈ ਬਲ ਮੈ ॥"
 page = 330
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the gopas said, “Krishna is extremely powerful"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਗਵਾਲੇ (ਆਪਣੇ) ਮੁਖ ਤੋਂ ਇਹ ਕਹਿਣ ਲਗੇ ਕਿ ਕਾਨ੍ਹ ਬਲ ਵਿਚ ਬਹੁਤ ਬਲਵਾਨ ਹੈ।"

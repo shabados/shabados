@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਥਰਥਰ ਕਰਤ ਕਹੈ ਨਹਿ ਆਵੈ ॥"
 page = 1148
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਥਰਥਰ ਕੰਬ ਰਹੀ ਸੀ, (ਕੁਝ) ਕਿਹਾ ਨਹੀਂ ਜਾ ਰਿਹਾ ਸੀ।"

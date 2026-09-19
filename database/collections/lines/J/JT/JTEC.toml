@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀਹਾਂ ਵਾਂਗੂ ਗਜਣ, ਸਭੇ ਸੂਰਮੇ ॥"
 page = 121
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the warriors roar like lions."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਸੂਰਮੇ ਸ਼ੇਰਾਂ ਵਾਂਗ ਗਜ ਰਹੇ ਸਨ"

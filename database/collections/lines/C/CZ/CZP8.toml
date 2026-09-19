@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੈ ਸਬਦ ਦੇਵਨ ਉਚਾਰਿਯੋ ॥੬੦॥੨੧੬॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the gods saw (Sumbh) without weapons, they began to hail the goddess.60.216."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦੋਂ) ਦੇਵਤਿਆਂ ਨੇ (ਦੁਰਗਾ ਦਾ) ਜੈ-ਘੋਸ਼ ਕਰ ਦਿੱਤਾ ॥੬੦॥੨੧੬॥"

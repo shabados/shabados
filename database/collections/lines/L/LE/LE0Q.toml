@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਧੁ ਨਿਸੁੰਭ ਕਰਿਓ ਅਤਿ ਹੀ; ਜਸੁ ਇਆ ਛਬਿ ਕੋ ਕਬਿ ਕੋ ਬਰਨੈ ॥"
 page = 96
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Nisumbh hath waged a very fierce war which poet can describe its splendour?,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਿਸ਼ੁੰਭ ਨੇ ਬਹੁਤ ਯੁੱਧ ਕੀਤਾ ਹੈ, ਇਸ ਛਬੀ ਦਾ ਯਸ਼ ਕਿਹੜਾ ਕਵੀ ਵਰਣਨ ਕਰ ਸਕਦਾ ਹੈ?"

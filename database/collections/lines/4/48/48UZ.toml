@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਈ ਦ︀ਯੋਸ ਬਿਤੇ ਤਿਹ ਭੇਦ ਸੁਨ︀ਯੋ ॥"
 page = 971
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਕਈ ਦਿਨ ਬੀਤਣ ਤੋਂ ਬਾਦ (ਮੁਨੀ ਨੂੰ) ਭੇਦ ਦਾ ਪਤਾ ਲਗਾ"

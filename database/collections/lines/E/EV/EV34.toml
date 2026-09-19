@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖਤ ਮੁਹਰ ਸਭਾ ਸਭ ਹਸੀ ॥"
 page = 1305
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੋਹਰ ਨੂੰ ਵੇਖ ਕੇ ਸਾਰੀ ਸਭਾ ਹਸਣ ਲਗੀ"

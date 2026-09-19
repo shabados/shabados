@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਛੁ ਤ੍ਰਿਯ ਤੈ ਬਿਭਚਾਰ ਕਮਾਯੋ ॥"
 page = 902
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Shah, in right fury, asked, ‘Oh, woman you have indulged in debauchery."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਇਸਤਰੀ! (ਤੂੰ) ਕੁਝ ਵਿਭਚਾਰ ਕੀਤਾ ਹੈ।"

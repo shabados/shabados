@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਧੌ ਕੰਜਕੀ ਮਾਝ ਸੋਭਾ ਪ੍ਰਕਾਸੀ ॥੨੦॥੧੮੮॥"
 page = 143
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Or the inner glory of the lotus hath manifested itself.20.188."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਫਿਰ ਮਾਨੋ ਕਮਲ ਵਿਚਲੀ ਸ਼ੋਭਾ ਹੀ ਪ੍ਰਗਟ ਹੋ ਗਈ ਹੋਵੇ ॥੨੦॥੧੮੮॥"

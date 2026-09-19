@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀਅ ਨਿਰਖ ਨਾਥ ਮਨ ਮਹਿ ਰਿਸਾਨ ॥"
 page = 249
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੀਤਾ ਨੇ (ਆਪਣੇ) ਸੁਆਮੀ ਦੀ (ਅਜਿਹੀ ਹਾਲਤ ਵੇਖ ਕੇ) ਮਨ ਵਿੱਚ ਕ੍ਰੋਧ ਕੀਤਾ।"

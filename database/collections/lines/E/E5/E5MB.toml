@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭਗਤਾਂ ਸਰਨਿ; ਪਰੁ ਹਾਂ ॥"
 page = 410
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Entering the sanctuary of God's devotees,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਵਾਹਿਗੁਰੂ ਦੇ ਅਨੁਰਾਗੀ ਦੀ ਓਟ ਲੈਣ ਨਾਲ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Taking to the Sanctuary of His devotees,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਭਗਤੋਂ ਕੀ ਸਰਨਿ ਪੜੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਭਗਤ-ਜਨਾਂ ਦੀ ਸਰਨੀਂ ਪਿਆ ਰਹੁ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਰੁ = ਪਉ। ਸਰਨਿ ਪਰੁ = ਆਸਰਾ ਲੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuando uno busca el Refugio de los Devotos del Señor,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਛੋ ਭੋਜਨ ਤਾਹਿ ਖਵਾਯੋ ॥"
 page = 864
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She invited a Mughal at her house and served him dainty foods."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਚੰਗਾ ਭੋਜਨ ਖੁਆਇਆ।"

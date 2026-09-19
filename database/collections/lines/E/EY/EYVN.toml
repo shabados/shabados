@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇ ਘਨਸਾਰ ਦੂਜ ਦਿਸਿ ਭਈ ॥੧੫॥"
 page = 981
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And planned Kookum to raid from one side and ,Ghansaar from the other.(15)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਘਨਸਾਰ ਦੇਈ ਦੂਜੇ ਪਾਸੇ ਵਲ ਚਲ ਪਈ ॥੧੫॥"

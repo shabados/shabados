@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਧਰਾ ਬ੍ਰਹਮ ਕਸਪ ਵਤਾਰ ॥"
 page = 614
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਬ੍ਰਹਮਾ ਨੇ ਕਸ਼ਪ ਅਵਤਾਰ ਧਾਰਨ ਕੀਤਾ।"

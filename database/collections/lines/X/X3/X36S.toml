@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਲਟਿ ਭੇਦ ਤਿਹ ਤ੍ਰਿਯਹਿ ਸਿਖਾਯੋ ॥"
 page = 1278
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਇਸਤਰੀ (ਨੂੰ ਬੁਲਾ ਕੇ) ਉਲਟੀ ਗੱਲ ਸਮਝਾ ਦਿੱਤੀ।"

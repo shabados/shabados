@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਮ ਨ ਕਤਹੂੰ ਰਹਾਨ; ਪਾਪ ਪ੍ਰਚੁਰ ਜਗ ਮੋ ਧਰਾ ॥"
 page = 562
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The dharma was not visible in the world and the sin greatly prevailed in the world"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਵੀ ਧਰਮ ਨਹੀਂ ਰਿਹਾ ਹੈ, ਜਗਤ ਵਿਚ ਧਰਤੀ ਉਤੇ ਅਤਿ ਅਧਿਕ ਪਾਪ ਪਸਰ ਗਿਆ ਹੈ।"

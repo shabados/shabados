@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੈਨ ਘਨੋ ਇਹ ਕੈ ਸੰਗਿ ਹੈ; ਜੋ ਪੈ ਜੁਧੁ ਕਰੈ, ਨਹੀ ਜਾਤਿ ਬਚਈਯੈ ॥"
 page = 489
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "We cannot save ourselves with fighting"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਦੇ ਨਾਲ ਬਹੁਤ ਵੱਡੀ ਸੈਨਾ ਹੈ। ਜੇ ਕਰ (ਇਸ ਨਾਲ) ਯੁੱਧ ਕਰਦੇ ਹਾਂ ਤਾਂ ਬਚਿਆ ਨਹੀਂ ਜਾ ਸਕੇਗਾ।"

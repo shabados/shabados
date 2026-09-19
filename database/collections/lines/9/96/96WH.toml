@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੀਦ ਭੂਖਿ ਸਿਗਰੀ ਹੀ ਭਾਗੀ ॥"
 page = 951
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She (Sassi) was discontented, she lost her sleep and her appetite was ruined."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰੀ ਨੀਂਦਰ ਅਤੇ ਭੁਖ ਖ਼ਤਮ ਹੋ ਗਈ।"

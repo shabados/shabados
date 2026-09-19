@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿੰਘਹਿ ਦ੍ਰਿਸਟਿ ਜੁਲਾਹੇ ਪਰੀ ॥"
 page = 926
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਦ) ਸ਼ੇਰ ਦੀ ਨਜ਼ਰ ਜੁਲਾਹੇ ਉਤੇ ਪਈ"

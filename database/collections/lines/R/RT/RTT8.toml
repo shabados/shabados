@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਨ︀ਯਾਸ ਭੂਪ ॥"
 page = 666
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sage Dutt, the king of Sannyas looked very beautiful like Shiva,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧੁਪ ਨੂੰ ਸਹਿੰਦਾ ਸੀ।"

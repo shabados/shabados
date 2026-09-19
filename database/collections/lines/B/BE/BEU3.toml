@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਸੁਰਨ ਕੀ ਸੈਨਾ ਹੁਤੇ; ਅਸੁਰ ਨਿਕਸਿਯੋ ਏਕ ॥"
 page = 943
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "From the army of devils, one devil sprung out,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੈਂਤਾਂ ਦੀ ਸੈਨਾ ਵਿਚੋਂ ਇਕ (ਬਲਵਾਨ) ਦੈਂਤ ਨਿਕਲਿਆ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਲੋ ਬੁਰੋ ਨਹਿ ਮੂੜ ਬਿਚਾਰਾ ॥੫॥"
 page = 1285
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਮੂਰਖ ਨੇ ਚੰਗੇ ਮਾੜੇ ਦਾ ਵਿਚਾਰ ਨਾ ਕੀਤਾ ॥੫॥"

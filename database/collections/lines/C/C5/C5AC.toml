@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਪਾਰਥ ਕੇਤੇ ਕਟਕ; ਕਾਟੇ ਕੋਪ ਬਢਾਇ ॥"
 page = 1008
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Parth (Arjan) was outraged, as well, and decimated a few."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਅਰਜਨ ਨੇ ਕ੍ਰੋਧ ਵਧਾ ਕੇ ਕਈ ਸੂਰਮੇ ਮਾਰ ਦਿੱਤੇ।"

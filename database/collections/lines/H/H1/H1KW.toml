@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਸਾ ਕੀ ਆਸਾ ਪੁਰਖ; ਜੋ ਕੋਊ ਤਜਤ ਬਨਾਇ ॥"
 page = 1106
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਸ਼ਾ ਦੀ ਆਸ ਜੋ ਕੋਈ ਵਿਅਕਤੀ ਤਿਆਗ ਦਿੰਦਾ ਹੈ,"

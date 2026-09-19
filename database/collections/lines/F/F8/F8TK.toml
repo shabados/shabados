@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋਇ ਇਕਤ੍ਰ ਸਨੈ ਹਰਿ ਗ੍ਵਾਰਨ; ਲੈ ਅਪੁਨੇ ਸੰਗਿ ਪੈ ਸਭ ਗਾਈ ॥"
 page = 309
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Krishna moved on with the boys and the cows"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰਿਸ਼ਨ ਗਵਾਲ ਬਾਲਕਾਂ ਸਹਿਤ ਇਕੱਠੇ ਹੋਏ ਅਤੇ ਆਪਣੇ ਨਾਲ ਸਾਰੀਆਂ ਗਊਆਂ ਲੈ ਲਈਆਂ।"

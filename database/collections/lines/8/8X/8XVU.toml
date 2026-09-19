@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਮਡੇ ਸੂਰ ਸੁ ਫਉਜ ਬਨਾਈ ॥"
 page = 704
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਸੂਰਮੇ ਫੌਜ ਬਣਾ ਕੇ ਚੜ੍ਹ ਪਏ ਸਨ,"

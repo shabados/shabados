@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਕੁੰਤੀ ਕੇ ਗ੍ਰਿਹ ਗਏ; ਕੁਸਲ ਪੂਛਿਓ ਜਾਇ ॥"
 page = 506
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then he went to the home of Kunti to enquire about the welfare of the family"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਕੁੰਤੀ ਦੇ ਘਰ ਗਏ ਅਤੇ ਜਾ ਕੇ ਸੁਖ-ਸਾਂਦ ਪੁਛੀ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਚਾ ਸਾਹਿਬੁ ਸਚੀ ਨਾਈ ॥"
 page = 1048
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "True is the Lord and true is His Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੱਚਾ ਹੈ ਸੁਆਮੀ ਅਤੇ ਸੱਚਾ ਹੈ ਉਸ ਦਾ ਨਾਮ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "True is the Lord and Master, and True is His Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਵਹੁ ਸਾਹਿਬ ਸਾਚਾ ਹੈ, ਉਸ ਕੀ ਵਡਿਆਈ ਭੀ ਸਚੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮਾਲਕ-ਪ੍ਰਭੂ ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲਾ ਹੈ, ਉਸ ਦੀ ਵਡਿਆਈ ਭੀ ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਾਹਿਬੁ = ਮਾਲਕ। ਸਚੀ = ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲੀ। ਨਾਈ = {स्ना} ਵਡਿਆਈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Verdad es el Maestro, Verdad es Su Nombre"

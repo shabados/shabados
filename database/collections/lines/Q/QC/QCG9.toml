@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੁਖੁ. ਨ ਪਾਇਨਿ ਮੁਗਧ ਨਰ; ਸੰਤ ਨਾਲਿ ਖਹੰਦੇ ॥"
 page = 306
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The pigheaded persons who tussle with the saints obtain not peace."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਬੁਧੂ ਬੰਦੇ ਜੋ ਸਾਧੂਆਂ ਨਾਲ ਖਹਿਬੜਦੇ ਹਨ, ਆਰਾਮ ਨਹੀਂ ਪਾਉਂਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The stubborn men who fight with the Saints shall never find peace."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮੂਰਖ ਪੁਰਸ ਸੰਤੋਂ ਕੇ ਸਾਥ ਖਹਤੇ ਹੈਂ ਅਰਥਾਤ ਦ੍ਵੈਸ ਕਰਤੇ ਹੈਂ, ਸੋ ਸੁਖ ਨਹੀਂ ਪਾਵਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮੂਰਖ ਮਨੁੱਖ (ਅਜੇਹੇ) ਸੰਤਾਂ ਨਾਲ ਵੈਰ ਕਰਦੇ ਹਨ ਉਹ ਸੁਖ ਨਹੀਂ ਪਾਂਦੇ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੁਗਧ = ਮੂਰਖ। ਖਹੰਦੇ = (ਜੋ) ਝਗੜਾ ਪਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "los testarudos que molestan a los Santos no encuentran Paz."

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਰੁਨਿ ਜੁ ਹੁਤੀ ਬ੍ਰਿਧ ਹ੍ਵੈ ਗਈ ॥"
 page = 1107
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੋ ਜੁਆਨ ਸੀ ਉਹ ਬੁੱਢੀ ਹੋ ਗਈ।"

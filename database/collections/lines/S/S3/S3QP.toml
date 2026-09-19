@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਜਾਤੰ ਨ ਪਾਤੰ, ਨ ਮਿਤ੍ਰੰ ਨ ਮੰਤ੍ਰੇ ॥"
 page = 25
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without caste, without line, without friend and without adviser."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੀ) ਨਾ ਕੋਈ ਜਾਤਿ ਹੈ, ਨਾ ਬਰਾਦਰੀ ਹੈ, ਨਾ ਮਿਤਰ ਹੈ ਅਤੇ ਨਾ ਹੀ ਸਲਾਹਕਾਰ (ਮੰਤ੍ਰੀ) ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅੰਗਨ ਮੈ ਸਜਿਹੌ ਭਗਵੇ ਪਟ; ਹਾਥ ਬਿਖੈ ਗਡੂਆ ਗਹਿ ਲੈਹੌ ॥"
 page = 1172
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਰੀਰ ਉਤੇ ਭਗਵੇ ਕਪੜੇ ਸਜਾ ਲਵਾਂਗੀ ਅਤੇ ਹੱਥ ਵਿਚ ਗੜਵਾ ਫੜ ਲਵਾਂਗੀ।"

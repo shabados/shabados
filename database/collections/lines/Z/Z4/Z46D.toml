@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਚੂਕੀਅਲੇ; ਮੋਹ ਮਇਆਸਾ ॥"
 page = 972
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The attachment of mammon is effaced,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮਾਇਆ ਦੀ ਲਗਨ ਮਿਟ ਗਈ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "My attachment to Maya has been eradicated;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਜੋਗੀ ਕੀ ਮੋਹ ਰੂਖ ਆਸਾ ਚੂਕ ਗਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀਆਂ ਮੋਹ-ਭਰੀਆਂ ਆਸਾਂ ਹੁਣ ਮੁੱਕ ਗਈਆਂ ਹਨ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੋਹ ਮਇ = ਮੋਹ ਦੀ ਭਰੀ ਹੋਈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Me he liberado de mis apegos a Maya"

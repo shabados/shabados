@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਪਨੇ ਜਾਨਿ ਰਾਖਿ ਕਰਿ ਲੀਜੈ ॥"
 page = 893
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Please promote some resolve, and considering us all as your own subject, save us."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣਾ ਜਾਣ ਕੇ (ਸਾਡੀ) ਰਖਿਆ ਕਰੋ।"

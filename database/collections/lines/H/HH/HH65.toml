@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੀਤਾ ਬਰਖ ਏਕ ਦਿਨ ਜਾਨ︀ਯੋ ॥"
 page = 855
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A. year lapsed like this, and after one year, one day came,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਲ ਬੀਤਿਆ ਇਕ ਦਿਨ ਵਰਗਾ ਲਗਦਾ ਸੀ।"

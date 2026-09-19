@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੋ ਜਨੁ ਐਸਾ; ਮੈ ਮਨਿ ਭਾਵੈ ॥"
 page = 1126
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He, such a person, is pleasing to my mind."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਇਹੋ ਜਿਹਾ ਪੁਰਸ਼, ਮੇਰੇ ਚਿੱਤ ਨੂੰ ਚੰਗਾ ਲਗਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Such a humble person is pleasing to my mind."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਐਸਾ ਅਨੰਨ੍ਯ ਦਾਸ ਮੇਰੇ ਮਨ ਕੋ ਭਾਵਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਮਨ ਵਿਚ ਤਾਂ (ਪਰਮਾਤਮਾ ਦਾ) ਅਜੇਹਾ ਦਾਸ ਪਿਆਰਾ ਲੱਗਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਨੁ = ਦਾਸ। ਮੈ ਮਨਿ = ਮੇਰੇ ਮਨ ਵਿਚ। ਭਾਵੈ = ਪਿਆਰਾ ਲੱਗਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél que hace a un lado su ego, que camina en el Sendero del Guru y que vive imbuido en el Dios Trascendente,"

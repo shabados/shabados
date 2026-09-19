@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਧਸੰਗਤਿ ਮਿਲਿ, ਸਹਜਿ ਸਮਾਇਆ ॥੭॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Only joining the holy congregation, one could be absorbed in one's innate nature."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧ ਸੰਗਤ ਵਿਖੇ ਮਿਲਣਹਾਰੇ (ਗੁਰਮੁਖ) ਸਹਿਜ ਪਦ ਵਿਖੇ ਸਮਾਂ ਜਾਂਦੇ ਹਨ।"

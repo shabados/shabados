@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲੇਪ ਅਲੇਪ, ਸਦਾ ਨਿਰਬਾਣਾ ॥੨੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Living in the world he remains detached and liberated."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਇਸੇ ਕਰ ਕੇ ਸਾਰੇ) 'ਲੇਪਾਂ' ਥੋਂ ਅਲੇਪ ਹੋਕੇ ਨਿਰਬੰਧਨ ਰਹਿੰਦੇ ਹਨ।"

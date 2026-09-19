@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਸੇਖ ਬਾਣ ਬੁਠਹੀ ॥"
 page = 180
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The blind (headless) trunks are rising in the battlefield and casting special showers of arrows."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸ਼ੇਸ਼ ਬਾਣ-ਬਰਖਾ ਹੋ ਰਹੀ ਸੀ।"

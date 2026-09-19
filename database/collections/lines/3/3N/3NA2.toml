@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਪ ਤਬੈ ਰਾਜਾ ਕੋ ਭਯੋ ॥"
 page = 990
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When army started to run away, Raja flew into rage,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਰਾਜੇ ਨੂੰ ਗੁੱਸਾ ਆਇਆ।"

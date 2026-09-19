@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਜੁੱਧ ਖੰਭੰ ਰਣੰ ਭੂਮ ਗਾਡੰ ॥"
 page = 69
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There Hussain stood quite alone like the pole of a flagg fixed in the ground."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਰਣ-ਭੂਮੀ ਵਿਚ ਯੁੱਧ ਦਾ ਖੰਭਾ ਗਡਿਆ ਹੋਵੇ।"

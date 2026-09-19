@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰਕ ਬਿਖੈ ਤਾ ਕੌ ਜਮ ਡਾਰੈ ॥"
 page = 1165
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਯਮਰਾਜ ਨਰਕਾਂ ਵਿਚ ਸੁਟੇਗਾ"

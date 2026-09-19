@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਝੀਝ ਰਾਗਣੋ ਚਿਤੰ ਬਦੰਤ ਰਾਗ ਸੁਪ੍ਰਭੰ ॥"
 page = 672
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਿਤ ਵਿਚ ਰਾਗ ਉਤੇ ਪ੍ਰਸੰਨ ਹੁੰਦੀ ਸੀ ਅਤੇ ਸ੍ਰੇਸ਼ਠ ਰਾਗ ਗਾ ਰਹੀ ਸੀ।"

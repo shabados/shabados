@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਰਾਜ ਕਹ ਜਿਯ ਸੁਖ ਹੋਈ ॥"
 page = 1169
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਜੋ ਮੇਰੇ) ਸੁਆਮੀ ਦੇ ਜੀ ਨੂੰ ਸੁਖ ਪ੍ਰਾਪਤ ਹੋਵੇ।"

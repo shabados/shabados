@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਇਓ ਨਾਦ ਉਧੰ ॥੪੨੭॥"
 page = 593
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When all the kings fled away, then the king (of Sambhal) himself rotated and came in front and producing the terrible sound, he began the fighting.427."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਭਾਰਾ ਰੌਲਾ ਅਤੇ ਗੂੰਜ ਪੈ ਗਈ ਹੈ ॥੪੨੭॥"

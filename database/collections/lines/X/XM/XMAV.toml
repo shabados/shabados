@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਪ ਕਲਾ ਨਾਮਾ ਰਹੈ; ਸੁਤਾ ਸਾਹ ਕੀ ਏਕ ॥"
 page = 1074
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੂਪ ਕਲਾ ਨਾਂ ਦੀ ਇਕ ਸ਼ਾਹ ਦੀ ਪੁੱਤਰੀ ਰਹਿੰਦੀ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੰਡਿ ਅੰਗਿ ਬਿਭੂਤ ਉਜਲ; ਸੀਸ ਜੂਟ ਜਟਾਨ ॥"
 page = 646
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Smearing their bodies with ashes and wearing matted locks on their heads,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਰੀਰਾਂ ਉਤੇ ਵਿਭੂਤੀ ਮਲ ਕੇ ਉਜਲੇ ਕਰ ਲਏ ਹਨ ਅਤੇ ਸਿਰ ਉਤੇ ਜਟਾਵਾਂ ਦਾ ਜੂੜਾ (ਬਣਾ ਲਿਆ ਹੈ)।"

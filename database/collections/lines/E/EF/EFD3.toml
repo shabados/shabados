@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਭਾਈ ਭੀਵਾਂ ਸੀਹਰੰਦਿ; ਰੂਪ ਚੰਦੁ ਸਨਮੁਖ ਸਤ ਭਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The truly devoted and close Sikhs are Bhai Bhiva, Sih Chand and Rup Chand (of Sirhind)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਭਾਈ ਭੀਵਾ ਤੇ ਰੂਪ ਚੰਦ (ਏਹ ਦੋ ਸਿੱਖ) ਸਿਰਹੰਦ ਵਿਖੇ ਸੱਚੇ ਭਾਵ ਵਾਲੇ ਸਨਮੁਖ (ਸਿੱਖ) ਹੋਏ।"

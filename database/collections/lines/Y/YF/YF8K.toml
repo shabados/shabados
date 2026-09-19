@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੂਮ੍ਰਕੇਸ ਦਾਨਵ ਸਦਨਿ; ਜਨਮ ਧਰਤ ਭਈ ਜਾਇ ॥੧੦॥"
 page = 188
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She took birth on the earth in the house of the demon Dhumarkesh.10."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਸ ਬ੍ਰਿੰਦਾ ਨੇ) ਧੂਮ੍ਰਕੇਸ ਦਾਨਵ ਦੇ ਘਰ ਜਾ ਕੇ ਜਨਮ ਧਾਰਨ ਕੀਤਾ ॥੧੦॥"

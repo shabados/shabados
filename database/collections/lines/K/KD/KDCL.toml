@@ -1,29 +1,29 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮਸਤੰ ਸੁਬਨਮੇ ॥੨੧॥"
 page = 2
 line = 15
 
 [[content]]
-asset = "JSTS"
+assets = ["JSTS"]
 type = "note"
 language = "pa"
 data = "\"ਸੁਬਨਮੇ\" ਦਾ ਉਚਾਰਨ \"ਸੁ ਬਨਮੇ\" ਕਰਨ ਅਸ਼ੁਧ ਹੈ ਕਿਉਂਕਿ ਇਹ ਸਮਾਸੀ ਸ਼ਬਦ ਹੈ ਤੇ ਇਸ ਦੀ ਸੰਧੀ ਹੈ - ਸੁਬਨ+ਮਯ = ਸੁਬਨਮੇ। ਭਾਵ ਸੰਸਾਰ-ਰੂਪੀ ਸੰਤਾਨ ਵਾਲਾ।"
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to Thee O Loveliest Lord! 21"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਜਨਮ-ਸਹਿਤ! (ਸੰਤਾਨ ਅਥਵਾ ਪੁੱਤਰ ਰੂਪ ਵਿਚ ਪੈਦਾ ਹੋਣ ਵਾਲੇ-'ਸੁਵਨਮਯ') ਤੈਨੂੰ ਨਮਸਕਾਰ ਹੈ ॥੨੧॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਨਮਸਤੰ, ਸੁਬਨਮੇ ॥੨੧॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਤ੍ਰਯੋ ਕਾਪਟੰ ਖਾਪਟੰ, ਸੋਕ ਪਾਲੰ ॥"
 page = 705
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) 'ਕਾਪਟ', 'ਖਾਪਟ' ਅਤੇ 'ਸੋਕ ਪਾਲ' (ਨਾਂ ਵਾਲੇ ਯੋਧਿਆਂ ਨੂੰ) ਮਾਰ ਦਿੱਤਾ ਹੈ।"

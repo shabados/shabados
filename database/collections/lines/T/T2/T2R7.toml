@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਰਜ ਵਤ ਤਿਹ ਧਾਮ ਦੁਲਾਰੀ ॥"
 page = 1337
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਘਰ ਸੂਰਜ ਵਰਗੀ ਪੁੱਤਰੀ ਸੀ।"

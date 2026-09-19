@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਅਗਨਾਸਤ੍ਰ ਕਰਖੇ ॥੨੭੯॥"
 page = 703
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Shailastras, Pavanastras and Meghastras are being showered and the fire-arms are crackling.52.279."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਗਨ ਅਸਤ੍ਰਾਂ ਨੂੰ ਖਿਚਿਆ ਜਾ ਰਿਹਾ ਹੈ ॥੨੭੯॥"

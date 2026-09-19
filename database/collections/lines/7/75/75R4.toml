@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੁ ਤਰਫਤ ਤਵ ਮਿਲਨ ਕੋ; ਤਨੁ ਭੇਟਤ ਨਹਿ ਜਾਇ ॥"
 page = 957
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੇਰਾ) ਮਨ ਤੈਨੂੰ ਮਿਲਣ ਲਈ ਤੜਪਦਾ ਹੈ, ਪਰ ਸ਼ਰੀਰ ਮੇਲਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।"

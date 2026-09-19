@@ -1,10 +1,10 @@
 [[content]]
-asset = "NTHB"
+assets = ["NTHB"]
 type = "primary"
 data = "ਸੇਈ ਪਿਆਰੇ ਮੇਲ, ਜਿਨ੍ਹਾਂ ਮਿਲਿਆਂ ਤੇਰਾ ਨਾਮ ਚਿਤ ਆਵੇ ।"
 
 [[content]]
-asset = "SRME"
+assets = ["SRME"]
 type = "translation"
 language = "en"
 data = "Grant us the association of those dear ones, on meeting whom one is reminded of Your Name."

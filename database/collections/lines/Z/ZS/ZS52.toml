@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਦਿ ਨ ਅੰਤੁ ਬਿਅੰਤੁ ਹੈ; ਅਗਮ ਅਗੋਚਰ ਫੇਰ ਫਿਰੰਦੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Beginning and end of those life currents cannot be understood."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਅਗਮ ਅਗੋਚਰ' (ਅਕਾਲ ਪੁਰਖ ਰੂਪੀ ਅਸਗਾਹ ਸਮੁੰਦ੍ਰ ਵਿਖੇ) ਘੁੰਮਣ ਘੇਰੀਆਂ ਖਾਂਦੇ ਹਨ।"

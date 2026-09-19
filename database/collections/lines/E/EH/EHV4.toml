@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸਾ ਕਵਨ ਕੁਕਰਮ, ਕਹੋ ਹਮ ਤੇ ਭਯੋ ॥"
 page = 1353
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਤੋਂ ਅਜਿਹਾ ਕਿਹੜਾ ਕੁਕਰਮ ਹੋਇਆ ਹੈ"

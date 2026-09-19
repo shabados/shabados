@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਚਾਟ ਮਾਰਣਾਦਿ ਬਸਿਕਰਣ ਕੋ ਸਰੰ ਹਨ︀ਯੋ ॥"
 page = 706
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ucchatan, Maaran and Vashikarn etc. were killed with arrows"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਉਚਾਟ', 'ਮਾਰਣ' ਅਤੇ 'ਬਸੀਕਰਣ' ਆਦਿ ਨੂੰ ਤੀਰਾਂ ਨਾਲ ਨਸ਼ਟ ਕਰ ਦਿੱਤਾ ਹੈ।"

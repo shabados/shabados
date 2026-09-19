@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਵਤ ਜਾਤ; ਨਰਕ ਅਵਤਾਰ ॥"
 page = 299
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "It comes, goes and fall into hell."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਆਉਂਦਾ ਜਾਂਦਾ ਅਤੇ ਦੋਜ਼ਕ ਵਿੱਚ ਪੈਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "It comes and goes, and is reincarnated in hell."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਯਾਂ ਤੇ ਜਨਮਤਾ ਮਰਤਾ ਪੁਨਾ ਨਰਕ ਮੇਂ (ਅਵਤਾਰ) ਜਨਮ ਲੇਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਕਰਕੇ ਇਹ) ਜਨਮ ਮਰਨ ਦੇ ਗੇੜ ਵਿਚ ਪਿਆ ਰਹਿੰਦਾ ਹੈ, ਦੁੱਖਾਂ ਵਿਚ ਹੀ ਜੰਮਦਾ ਰਹਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਵਤਾਰ = ਜਨਮ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y así viene y va y cae en la oscuridad de la conciencia."

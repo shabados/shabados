@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਕੁਅਰਿ ਵਾ ਕੀ ਛਬਿ ਲਹੀ ॥"
 page = 1352
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾ ਕੁਮਾਰੀ ਨੇ ਉਸ ਦੀ ਸੁੰਦਰਤਾ ਨੂੰ ਵੇਖਿਆ"

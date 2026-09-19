@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੀਸ ਜਟਾਨ ਕੋ ਜੂਟ ਧਰੇ ਬਰ ॥"
 page = 229
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਭਰਤ ਨੇ ਸਿਰ) ਉੱਤੇ ਜਟਾਵਾਂ ਦਾ ਸੁੰਦਰ ਜੂੜਾ ਧਾਰ ਲਿਆ"

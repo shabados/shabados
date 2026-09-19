@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਹੀ ਧਨੁ ਇਕਠੋ ਕੈ ਲਯੋ ॥"
 page = 899
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the Shah had gone to sleep, he accumulated all the wealth,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰਾ ਧਨ ਇਕੱਠਾ ਕਰ ਲਿਆ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਰਿਯੋ ਰੋਸ ਨਰਸਿੰਘ ਸਰੂਪੰ ॥"
 page = 169
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਸਮੇਂ ਨਰਸਿੰਘ ਸਰੂਪ ਨੂੰ ਵੀ ਕ੍ਰੋਧ ਆ ਗਿਆ"

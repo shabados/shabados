@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਲੀ ਕੁੰਭਕਾਨੰ ਤਊ ਨਾਹਿ ਜਾਗਿਅੰ ॥੪੧੫॥"
 page = 243
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All of them, like children, fled in a state of perplexity, but even then the mighty Kumbhkaran did not awake.415."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਤਾਂ ਵੀ ਕੁੰਭਕਰਨ ਸੂਰਮਾ ਨਾ ਜਾਗਿਆ ॥੪੧੫॥"

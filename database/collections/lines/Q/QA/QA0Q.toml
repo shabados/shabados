@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਹੁ ਅਹੀਰਨ, ਬੈਨ; ਕਹਾ ਤੁਮ ਕਰਤ ਹੋ ॥"
 page = 845
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Listen, you the milkmaid, what are you doing?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਗੁਜਰੀ! ਮੇਰੀ ਗੱਲ ਸੁਣ, ਤੂੰ ਕੀ ਕਰ ਰਹੀ ਹੈਂ।"

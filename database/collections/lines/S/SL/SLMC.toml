@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋ ਕਹ ਜੀਤਿ ਤਬ ਆਗੇ ਜਾਯੋ ॥੧੦॥"
 page = 928
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And (she disguised as) Bairam Khan senta massager, ‘First win me before you proceed further.’(10)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਜਿਤ ਕੇ ਹੀ ਅਗੇ ਜਾ ਸਕਦੇ ਹੋ ॥੧੦॥"

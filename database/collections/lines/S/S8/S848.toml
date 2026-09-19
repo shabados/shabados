@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਦੂਲਹ ਬ︀ਯਾਹਨ ਆਯੋ ॥"
 page = 992
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਸਾਹਿਬਾਂ) ਦਾ ਦੂਲ੍ਹਾ ਉਸ ਨੂੰ ਵਿਆਹੁਣ ਲਈ ਆਇਆ।"

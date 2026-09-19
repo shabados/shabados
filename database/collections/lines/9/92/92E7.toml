@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇਜਵਾਨ ਕਛੁ ਜਾਤ ਨ ਕਹਾ ॥"
 page = 1250
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਬਹੁਤ) ਤੇਜਵਾਨ ਸੀ ਕਿ ਬਖਾਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"

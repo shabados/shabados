@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਵ ਅਦੇਵਨ ਕੋ ਬਿਰਮਾਯੋ ॥"
 page = 1075
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੇਵਤਿਆਂ ਤੇ ਦੈਂਤਾ ਨੂੰ (ਆਪਣੀ ਸੁੰਦਰਤਾ ਨਾਲ) ਭਰਮਾ ਦਿੱਤਾ।"

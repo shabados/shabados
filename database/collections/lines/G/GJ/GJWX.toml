@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਿੱਟੈ ਜੁਆਨ ॥੧੯॥"
 page = 66
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The swords are struck and the warriors are lying on the ground.19."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਯੋਧੇ ਧਰਤੀ ਉਤੇ ਲੇਟਦੇ ਹਨ ॥੧੯॥"

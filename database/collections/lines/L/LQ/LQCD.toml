@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਡਲੇ ਵਾਸੀ, ਸੰਗਤਿ ਭਾਰੀ ॥੧੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Grand was the assemblage of Dalla inhabitants."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(੯) ਏਹ ਡੱਲੇ ਵਾਸੀਆਂ ਦੀ ਭਾਰੀ ਸੰਗਤ ਸੀ।"

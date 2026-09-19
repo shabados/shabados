@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਦੀਨ ਅਤੇ ਦੁਨੀਆ ਦੋਵੇਂ ਬਹੁਤ ਹੈਰਾਨ ਹਨ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦੀਨੋ ਦੁਨਿਆ ਹਰ ਦੋ ਹੈਰਾਂ ਮਾਂਦਾ ਅੰਦ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Neither any one can describe his eclat to any limits nor has enough courage to do so. (51)"

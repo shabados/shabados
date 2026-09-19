@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਹਿਦ ਖਾਨਹੁ ਜਬਰ ਖਾਨ ਸੁ; ਵਾਹਿਦ ਖਾਨ ਗਏ ਸੰਗ ਸੂਰੇ ॥"
 page = 457
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were accompanied by the warriors like Zahid Khan, Jabbar Khan and Wahid Khan"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਹਦ ਖ਼ਾਨ, ਜਬਰ ਖ਼ਾਨ ਅਤੇ ਵਾਹਿਦ ਖ਼ਾਨ ਸੂਰਮੇ (ਉਨ੍ਹਾਂ) ਨਾਲ ਗਏ ਹਨ।"

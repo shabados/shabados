@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭ੍ਰਮਿ ਭ੍ਰਮਿ ਪਿੰਡ ਅਵਾਰਾ ਪਾਰੈ ॥"
 page = 1106
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਾਲ ਹੀ) ਆਵਾਗਵਣ ਵਿਚ ਭਰਮ ਭਰਮ ਕੇ ਸ਼ਰੀਰ ('ਪਿੰਡ') ਧਾਰਨ ਕਰਦਾ ਹੈ।"

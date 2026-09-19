@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਨੀਰੈ ਅੰਦਰਿ ਨੀਰੁ, ਮਿਲੈ ਮਿਲਾਇਆ ॥੨॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "As the water mixing with water becomes one, likewise deleting ego, the Sikh merges into the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪਾਣੀ ਵਿਚ ਪਾਣੀ ਵਾਂਙੂ ਮਿਲਦੇ ਨੂੰ ਮੇਲ ਲੈਂਦੇ ਹਨ।"

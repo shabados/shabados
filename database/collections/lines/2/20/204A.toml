@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੱਜੇ ਗਹੀਰ ॥"
 page = 67
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The heroes who stand firmly in the field, thunder."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੰਭੀਰ (ਗਰਜ ਕਰਨ ਵਾਲੇ ਨਗਾਰੇ) ਵਜਦੇ ਹਨ।"

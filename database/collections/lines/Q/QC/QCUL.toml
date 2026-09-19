@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਮਕਤ ਕਹੂੰ ਖਗਨ ਕੀ ਧਾਰਾ ॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the sharp edges of the swords gleamed."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਤਲਵਾਰਾਂ ਦੀਆਂ ਧਾਰਾਂ ਚਮਕਦੀਆਂ ਸਨ।"

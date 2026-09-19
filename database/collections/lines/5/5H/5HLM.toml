@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਲੋਕ ਰੂਪ ਰਾਜਿਯੰ ॥"
 page = 45
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is bedecked with supernatural beauty,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਅਲੌਕਿਕ ਰੂਪ ਵਿਚ ਸਜ ਰਿਹਾ ਹੈ,"

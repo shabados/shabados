@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਤਿਯ ਨਾਰਿ ਤਬ ਅਧਿਕ ਰਿਸਾਈ ॥"
 page = 1331
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਦੇ ਇਸ ਸਲੂਕ ਕਰ ਕੇ) ਦੂਜੀ ਇਸਤਰੀ ਤਦ ਬਹੁਤ ਕ੍ਰੋਧਿਤ ਹੋਈ"

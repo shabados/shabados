@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਲ ਤਮਾਲ ਜਹਾ ਦ੍ਰੁਮ ਭਾਰੇ ॥"
 page = 1178
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਸਾਲ ਅਤੇ ਤਮਾਲ ਦੇ ਵੱਡੇ ਬ੍ਰਿਛ ਸਨ"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੁਮ ਮਿਹਰਵਾਨ; ਦਾਸ ਹਮ ਦੀਨਾ ॥"
 page = 562
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thou art the merciful Master and I am a meek attendant of Thine."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਦਇਆਵਾਨ ਮਾਲਕ ਹੈਂ ਅਤੇ ਮੈਂ ਤੇਰਾ ਮਸਕੀਨ ਸੇਵਕ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "You are the Merciful Master; I am Your humble servant."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਮ ਜੀਵ ਦੀਨ ਆਪ ਕੇ ਦਾਸ ਹੈਂ, ਤੁਮ ਕਿਰਪਾਲ ਹੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਅਸੀਂ ਜੀਵ ਤੇਰੇ ਨਿਮਾਣੇ ਸੇਵਕ ਹਾਂ, ਤੂੰ ਸਾਡੇ ਉਤੇ ਦਇਆ ਕਰਨ ਵਾਲਾ ਹੈਂ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਮ = ਅਸੀ। ਦੀਨਾ = ਨਿਮਾਣੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Eres mi Dios Benévolo, y yo, Tu humilde Sirviente."

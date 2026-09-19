@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਿਕ ਜਤਨ ਅਬਲਾ ਕਰਿ ਹਾਰੀ ॥"
 page = 1286
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਬਾਲਿਕਾ ਬਹੁਤ ਯਤਨ ਕਰ ਹਟੀ,"

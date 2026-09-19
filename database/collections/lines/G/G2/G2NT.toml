@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਖਗ ਦਗੰ ਝਮਾ ਝਮ ਬਾੜੰ ॥"
 page = 118
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the glistening sword, annulling the daggers."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੱਥ ਵਿਚ ਝਮ ਝਮ ਚਮਕਦੀ ਤਲਵਾਰ ਰੂਪਾ ਨੂੰ ਨਮਸਕਾਰ ਹੈ;"

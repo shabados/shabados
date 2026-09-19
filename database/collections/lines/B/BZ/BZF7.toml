@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮ ਸਾਹੁਨ ਕੇ ਪੂਤ; ਦੇਸ ਪਰਦੇਸ ਬਿਹਾਰੈ ॥"
 page = 1145
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਗੋਂ ਉਸ ਵਿਅਕਤੀ ਨੇ ਉੱਤਰ ਦਿੱਤਾ) ਅਸੀਂ ਸ਼ਾਹਾਂ ਦੇ ਪੁੱਤਰ ਹਾਂ ਅਤੇ ਦੇਸ਼ ਵਿਦੇਸ਼ ਵਿਚ ਵਿਚਰਦੇ ਹਾਂ।"

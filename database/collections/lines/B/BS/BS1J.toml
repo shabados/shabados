@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਨਾਰਿ ਪੁਰਖ ਨੋ ਵੇਖਿ, ਨ ਪੈਰੁ ਹਟਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "They do not retrace their steps while seeing a man or woman."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤ੍ਰੀ ਪੁਰਖਾਂ ਵੱਲ ਵੇਖਕੇ ਆਪਣਾ ਪੈਰਾਂ (ਪਿੱਛੇ) ਨਹੀਂ ਹਟਾਉਂਦੇ (ਭਾਵ ਸਗਨ ਕੁਸਗਨ ਨਹੀਂ ਜਾਣਦੇ)।"

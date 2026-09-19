@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜ︀ਯੋ ਬਾਜ ਤਾਜੀ ਕੋਪਤੰ ਸਰੂਪੰ ॥"
 page = 697
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਕਬੂਤਰੀ ਰੰਗ ਦੇ ਤਾਜ਼ੀ ਘੋੜੇ ਉਤੇ ਚੜ੍ਹਿਆ ਹੋਇਆ ਹੈ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਸੋ ਦਰਬੁ ਲੁਟਾਵੈ ॥"
 page = 851
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘And he fritters away wealth in various forms."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤਰ੍ਹਾਂ ਤਰ੍ਹਾਂ ਨਾਲ ਧਨ ਲੁਟਾਉਂਦਾ ਹੈ।"

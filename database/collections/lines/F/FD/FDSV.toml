@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਯੋ ਪ੍ਰਾਤ ਜਬ ਤਮ ਮਿਟਿ ਗਯੋ ॥"
 page = 986
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Fighting hard with him, all the combatants lost the will, and none could finish the devil."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਸਵੇਰਾ ਹੋਇਆ ਅਤੇ ਹਨੇਰਾ ਖ਼ਤਮ ਹੋ ਗਿਆ।"

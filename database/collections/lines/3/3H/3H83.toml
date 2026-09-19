@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰ ਚੇਲਾ ਪਰਚਾਇ, ਜਗ ਪਰਚਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The Guru loves disciple and disciple makes the whole world happy."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਨੂੰ ਚੇਲਾ ਪ੍ਰਸੰਨ ਕਰ ਕੇ ਜਗਤ ਨੂੰ ਪਰਚਾਉਂਦਾ ਹੈ (ਅਰਥਾਤ ਪ੍ਰਸੰਨ ਕਰਦਾ ਹੈ)। (ਹੋਰ ਕੀ ਹੁੰਦਾ ਹੈ?)"

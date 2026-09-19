@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤਿ ਅਜੈ ਸਿੰਘ ਕਾ ਰਾਜ ਸੰਪੂਰਨ ਭਇਆ ॥"
 page = 154
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Here ends the complete Description of the Rule of Ajai Singh."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਥੇ ਅਜੈ ਸਿੰਘ ਦਾ ਰਾਜ ਸੰਪੂਰਨ ਹੋਇਆ।"

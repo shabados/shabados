@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਕੈ ਬੰਕ ਬੈਣੰ ॥"
 page = 111
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Their faces and eyes are reddened with blood and they are uttering challenging words from their mouths."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਠੋਰ ਬਚਨ ਬੋਲ ਰਹੀਆਂ ਸਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੀਨ ਬਾਰ ਨ੍ਰਿਪ ਪਦਹਿ ਪ੍ਰਮਾਨੋ ॥"
 page = 804
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਤਿੰਨ ਵਾਰ 'ਨ੍ਰਿਪ' ਸ਼ਬਦ ਜੋੜੋ।"

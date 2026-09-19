@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾਨਿ ਲਯੋ ਧਨੁ ਬਾਨ ਮਹਾ; ਬਰ ਕੈ ਉਰਿ ਸਿੰਘ ਅਨੂਪ ਕੇ ਲਾਯੋ ॥"
 page = 433
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He pulled his big bow and discharged an arrow towards Anupam Singh"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਬਲਰਾਮ ਨੇ) ਬਹੁਤ ਵੱਡੇ ਧਨੁਸ਼ ਵਿਚ ਬਾਣ ਕਸ ਲਿਆ ਅਤੇ ਅਨੂਪ ਸਿੰਘ ਦੀ ਛਾਤੀ ਵਿਚ ਮਾਰਿਆ।"

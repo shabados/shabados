@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਮਕਿ ਤੇਗ ਦਾਮਿਣੀ; ਸੜਕਿ ਸੂਰ ਮਟਿ ਹੈ ॥"
 page = 700
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਜਲੀ ਵਰਗੀ ਚਮਕ ਵਾਲੀ ਤਲਵਾਰ ਸੜਕ ਕਰ ਕੇ ਸੂਰਮੇ ਤੁਰਤ ('ਮਟਿ') (ਚਲਾਂਦੇ ਹਨ)।"

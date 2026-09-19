@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਟਲ ਅਨੰਤ ਅਨਾਦਿ ਅਖੈ; ਅਖੰਡ ਪ੍ਰਬਲ ਦਲ ॥"
 page = 130
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Eternal, Infinite, Beginningless, Indivisible, and Master of Mighty forces."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਟਲ, ਅਨੰਤ, ਅਨਾਦਿ, ਨਾ ਨਸ਼ਟ ਹੋਣ ਵਾਲੇ, ਅਖੰਡ, ਪ੍ਰਬਲ ਸ਼ਕਤੀ ਵਾਲੇ,"

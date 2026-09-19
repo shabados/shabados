@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਾਡਵ ਬਨ ਪਾਵਕਹਿ ਚਰਾਵਾ ॥"
 page = 551
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖਾਂਡਵ ਬਨ ਨੂੰ ਅਗਨੀ ਤੋਂ ਖਵਾਇਆ (ਅਰਥਾਤ ਸਾੜ ਦਿੱਤਾ)"

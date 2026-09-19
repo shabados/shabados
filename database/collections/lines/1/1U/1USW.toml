@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਗ੍ਰਾਹ ਸੇ ਖੜਗ ਝਮਕਹਿ ॥"
 page = 1367
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਖੜਗ ਮਗਰ ਮੱਛਾਂ ਵਰਗੇ ਚਮਕਦੇ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਮਾਰਾ ਨਿਗ੍ਹਾਅਸਤ ਯਜ਼ਦਾਂ ਸ਼ੁਕਰ ॥੧੦੫॥"
 page = 1394
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I depend upon the Grace of the Lord.105."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਮੇਰੀ ਨਜ਼ਰ ਪਰਮਾਤਮਾ ਦਾ ਸ਼ੁਕਰ ਕਰਨ ਵਲ ਹੈ ॥੧੦੫॥"

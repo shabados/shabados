@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੋਰ ਬਿਸਨ ਠਾਨੀਐ ॥੨੪॥੧੦੨॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Millions of Vishnus adore Him.24.102."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਰੋੜਾਂ ਵਿਸ਼ਣੂ ਵੀ (ਤੇਰਾ) ਧਿਆਨ ਕਰਦੇ ਹਨ ॥੨੪॥੧੦੨॥"

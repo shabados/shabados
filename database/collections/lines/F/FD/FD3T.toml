@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਕ ਚਢੇ ਮਛਿੰਦ੍ਰ ਪੈ ਆਯੋ ॥੩੩੦॥"
 page = 707
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the king got agitated and came to Matsyendra.103.330."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਕ ਚੜ੍ਹਾ ਕੇ ਮਛਿੰਦ੍ਰ ਕੋਲ ਆਇਆ ॥੩੩੦॥"

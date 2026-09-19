@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੀਯੋ ਇੰਦ੍ਰ ਐਰਾਵਤੰ ਬਾਜ ਸੂਰੰ ॥"
 page = 163
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇੰਦਰ ਨੂੰ ਐਰਾਵਤ ਹਾਥੀ ਅਤੇ ਸੂਰਜ ਨੂੰ ਉੱਚਸ੍ਰਵਾ ਘੋੜਾ ਦਿੱਤਾ।"

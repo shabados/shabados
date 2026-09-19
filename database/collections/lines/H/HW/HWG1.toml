@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨੁ ਤਨੁ ਅਰਪੈ; ਕ੍ਰਿਸਨ ਪਰੀਤਿ ॥੬॥"
 page = 974
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "His soul and body, he offers to his Lord's love."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੀ ਜਿੰਦੜੀ ਅਤੇ ਦੇਹ ਉਹ ਆਪਣੇ ਪ੍ਰਭੂ ਦੇ ਪ੍ਰੇਮ ਦੀ ਭੇਟਾ ਕਰ ਦਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He dedicates his mind and body to the Lord's Love. ||6||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰਿਸਨ ਕੀ ਪ੍ਰੀਤਿ ਮੇਂ ਮਨ ਤਨ ਅਰਪਤਾ ਹੈ॥੬॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣਾ ਮਨ, ਆਪਣਾ ਸਰੀਰ ਪ੍ਰਭੂ ਦੇ ਪਿਆਰ ਤੋਂ ਸਦਕੇ ਕਰਦਾ ਹੈ ॥੬॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕ੍ਰਿਸ਼ਨ = ਪ੍ਰਭੂ ॥੬॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y ofrecer su mente y su cuerpo al amor de Krishna.(6)"

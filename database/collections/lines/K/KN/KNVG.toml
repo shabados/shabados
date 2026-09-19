@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਲਾਖ ਜੋਗੀਸਰ; ਕਰਤੇ ਜੋਗਾ ॥"
 page = 562
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Hundreds of thousands of Yogis practise Yoga."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ ਹੀ ਯੋਗੀ ਯੋਗ ਕਮਾਉਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Tens of thousands of Yogis practice Yoga."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਲਾਖੋਂ ਹੀ ਜੋਗੀਸ੍ਵਰ ਜਿਸ ਕੇ ਮਿਲਨੇ ਵਾਸਤੇ ਜੋਗ ਕਰਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਪ੍ਰਭੂ-ਮਿਲਾਪ ਲਈ) ਲੱਖਾਂ ਹੀ ਵੱਡੇ ਵੱਡੇ ਜੋਗੀ ਜੋਗ-ਸਾਧਨ ਕਰਦੇ ਰਹਿੰਦੇ ਹਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "millones de adeptos practican la disciplina de Yoga,"

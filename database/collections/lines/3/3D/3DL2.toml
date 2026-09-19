@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਾਗੋ ਅਰੂਪੋ ਅਰੇਖੋ ਅਰੰਗ ॥"
 page = 1394
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The King had four sons,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ (ਦ੍ਵੈਸ਼) ਤੋਂ ਪਰੇ, ਰੂਪ ਤੋਂ ਰਹਿਤ ਰੇਖਾ ਅਤੇ ਰੰਗ ਤੋਂ ਰਹਿਤ ਹੈ।"

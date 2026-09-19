@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖਹੁ ਕਾਲ ਕ੍ਰਿਆ ਕਸ ਕਰੀ ॥੮੪੩॥"
 page = 288
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After her death, look at the doing of KAL (death). Sumitra also died.843."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਕੁਝ ਕ੍ਰੋਧ ਕਰਕੇ ਇਸ ਤਰ੍ਹਾਂ ਦੇ ਬਚਨ ਕਹੇ ॥੮੪੪॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਤਿ ਹਰਿ ਲਈ ਕਹਾ ਯਾ ਕੀ ਤਿਹ ॥"
 page = 1249
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਉਸ ਨੇ ਕਿਤੇ ਇਸ ਦੀ ਅਕਲ ਹੀ ਖੋਹ ਲਈ ਹੈ।"

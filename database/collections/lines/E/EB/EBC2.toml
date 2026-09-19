@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਦਾ ਸੁ ਬਨ ਕੇ ਬੀਚ ਬਿਹਾਰੈ ॥"
 page = 961
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Remaining always in the jungle, he used to kill many deer."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਦਾ ਬਨ ਵਿਚ ਹੀ ਘੁੰਮਦਾ ਰਹਿੰਦਾ ਸੀ।"

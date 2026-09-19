@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਨਿਯਹਿ ਭੂਖ ਅਧਿਕ ਜਬ ਜਾਗੀ ॥"
 page = 937
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਣੀ ਨੂੰ ਜਦੋਂ ਭੁਖ ਨੇ ਅਧਿਕ ਸਤਾਇਆ,"

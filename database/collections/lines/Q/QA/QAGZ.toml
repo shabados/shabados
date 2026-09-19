@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਜ ਜਾਨਿ ਕਰ ਜੋ ਤਰੁਨਿ; ਮੁਰਿ ਕੈ ਕਰਤ ਪਯਾਨ ॥"
 page = 835
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The lady who comes to me to worship me,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਨੇ ਕਿਹਾ) ਜੋ ਨੌਜਵਾਨ ਇਸਤਰੀ (ਮੈਨੂੰ) ਪੂਜਣ ਯੋਗ ਜਾਣ ਕੇ ਮੇਰੇ ਵਲ ਆਉਂਦੀ ਹੈ,"

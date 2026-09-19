@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਿਮਿ ਝਿਮਿ ਗਿਰੈ ਸ੍ਰੋਨ ਜਿਮਿ ਝਰਨਾ ॥"
 page = 1383
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਦੇ ਸ਼ਰੀਰਾਂ ਤੋਂ) ਝਰਨਿਆਂ ਵਾਂਗ ਲਹੂ ਝਿਮ ਝਿਮ ਕਰਦਾ ਝਰ ਰਿਹਾ ਸੀ।"

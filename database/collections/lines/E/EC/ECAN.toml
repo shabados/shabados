@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹਾ ਆਪਨੋ ਪਤਿ ਹੁਤੋ; ਤਹਾ ਗਈ ਰੁਚਿ ਮਾਨ ॥੨੦॥"
 page = 1064
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਿਥੇ ਉਸ ਦਾ ਪਤੀ ਸੀ, ਉਥੇ ਪ੍ਰਸੰਨਤਾ ਪੂਰਵਕ ਜਾ ਪਹੁੰਚੀ ॥੨੦॥"

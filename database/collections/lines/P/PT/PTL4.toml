@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਹੀਐ ਜਹਾ ਤਹੀ ਪਦ ਕਹੀਐ ॥੭੨੪॥"
 page = 752
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Utter firstly the word “Tarini” and then add the word “Jaa” to it: and you may use all the names of Tupak to your heart’s desire.724."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਚਾਹੋ, ਇਸ ਦੀ ਵਰਤੋਂ ਕਰੋ ॥੭੨੪॥"

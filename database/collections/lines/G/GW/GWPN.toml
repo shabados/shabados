@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਸੁੰਦਰਿ ਹੁਤੀ ਅਪਾਰਾ ॥"
 page = 1278
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਉਸ (ਪਹਿਲੀ) ਨਾਲੋਂ ਅਧਿਕ ਸੁੰਦਰ ਸੀ।"

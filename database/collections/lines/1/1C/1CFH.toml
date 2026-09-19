@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤੈ ਦੇਵ ਬਾਕੇ, ਉਤੈ ਦੈਤ ਗਾਜੇ ॥੧੪॥"
 page = 983
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਪਾਸੇ ਬਾਂਕੇ ਦੇਵਤੇ ਹਨ ਅਤੇ ਉਧਰ ਦੈਂਤ ਗਜ ਰਹੇ ਹਨ ॥੧੪॥"

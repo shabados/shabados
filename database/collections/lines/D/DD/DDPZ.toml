@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਔਰ ਪੁਰਖੁ ਤਿਹ ਅਤਿਥ ਪਛਾਨੈ ॥"
 page = 1313
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਉਸ ਨੂੰ ਸਾਧ ਸਮਝਦੇ ਸਨ,"

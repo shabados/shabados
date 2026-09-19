@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਵ ਨਿਧਿ ਨਾਮੁ; ਨਿਧਾਨੁ ਹਰਿ ਕੇਰੈ ॥"
 page = 1304
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Name of my God is the nine treasure of the riches."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਵਾਹਿਗੁਰੂ ਦਾ ਨਾਮ ਧਨ-ਦੌਲਤ ਦੇ ਨੌ ਖ਼ਜ਼ਾਨੇ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Lord's Name is the wealth of the nine treasures."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਹਰੀ! ਆਪ ਕੇ ਨਾਮ ਨਵਨਿਧੀਓਂ ਕੇ (ਨਿਧਾਨੁ) ਖਜਾਨੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ-ਖ਼ਜ਼ਾਨਾ (ਮਾਨੋ, ਧਰਤੀ ਦੇ) ਨੌ ਹੀ ਖ਼ਜ਼ਾਨੇ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਵਨਿਧਿ = (ਧਰਤੀ ਦੇ) ਨੌ (ਹੀ) ਖ਼ਜ਼ਾਨੇ। ਨਿਧਾਨੁ = ਖ਼ਜ਼ਾਨਾ। ਹਰਿ ਕੇਰੈ = ਹਰੀ ਦੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Nombre del Señor es la Riqueza de los Nueve Tesoros."

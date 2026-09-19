@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੀਨਾ ਲੂਟਿ ਸਕਲ ਤਿਹ ਧਨ ਕੌ ॥"
 page = 1222
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਸਾਰੇ ਧਨ ਨੂੰ ਲੁਟ ਲਿਆ"

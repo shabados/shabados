@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੂੜ ਰਾਵ ਪ੍ਰਫੁਲਿਤ ਭਯੋ; ਸਕਿਯੋ ਨ ਛਲ ਕਛੁ ਪਾਇ ॥"
 page = 1021
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੂਰਖ ਰਾਜਾ ਖ਼ੁਸ਼ ਹੋ ਗਿਆ ਪਰ ਛਲ ਨੂੰ ਕੁਝ ਨਾ ਸਮਝ ਸਕਿਆ।"

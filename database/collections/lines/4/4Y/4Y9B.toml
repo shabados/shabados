@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਂ ਬੀਰ ਜੈਸੇ ॥੩੭॥"
 page = 42
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Like a great warrior. 37."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਕੋਈ ਵੱਡਾ ਸੂਰਮਾ ਹੁੰਦਾ ਹੈ ॥੩੭॥"

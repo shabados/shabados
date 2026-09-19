@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਭਵਨ ਕੇ ਕਰਤਾ ਠਹਰਾਏ ॥੨੪੨੯॥"
 page = 544
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When his father saw him coming, he recognised him as the creator of all the three worlds.2429."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਉਨ੍ਹਾਂ ਨੂੰ) ਤ੍ਰਿਭਵਨ ਦਾ ਕਰਤਾ ਮੰਨ ਲਿਆ ॥੨੪੨੯॥"

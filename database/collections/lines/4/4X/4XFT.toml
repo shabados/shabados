@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰਕਾਸੁਰ ਕੌ ਘਾਇਯੋ; ਅਬਲਾ ਲਈ ਛਿਨਾਇ ॥੨੦॥"
 page = 1093
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਰਕਾਸੁਰ ਨੂੰ ਮਾਰ ਕੇ ਇਸਤਰੀਆਂ ਨੂੰ ਖੋਹ ਲਿਆ ॥੨੦॥"

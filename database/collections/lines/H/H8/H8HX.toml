@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਇੰਦ੍ਰਾਦਿਕ ਹਾਥਿ ਨ ਆਯੋ ॥੧੫੫੧॥"
 page = 452
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The crown that he has obtained from Ram, it could not be obtained by Indra etc.1551."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਇੰਦਰ ਆਦਿਕ ਦੇ ਹੱਥ ਵੀ ਨਹੀਂ ਲਗਾ ॥੧੫੫੧॥"

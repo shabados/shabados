@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੌਰਾ ਬਾਦਿਲ ਨਿਕਟ ਬੁਲਾਯੋ ॥"
 page = 1084
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੋਰਾ ਅਤੇ ਬਾਦਲ (ਨਾਂ ਦੇ ਸੂਰਮਿਆਂ ਨੂੰ ਆਪਣੇ) ਕੋਲ ਬੁਲਾਇਆ।"

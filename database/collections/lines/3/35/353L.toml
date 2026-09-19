@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੇ ਕੌ ਐਸੋ ਲਹਤ; ਜਿਯਤ ਨ ਛਾਡਤ ਔਰ ॥"
 page = 923
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Tlien they struck each other with force,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਜਿਹੇ ਨੂੰ ਅਜਿਹਾ ਹੀ ਟਕਰਨਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ (ਉਸ ਨੂੰ) ਜੀਉਂਦਾ ਨਹੀਂ ਛਡਣਾ ਚਾਹੀਦਾ ਹੈ।"

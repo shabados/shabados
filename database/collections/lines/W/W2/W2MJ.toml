@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਿਯੋ ਚਲਿਯੋ ਕਾਮਾ ਗ੍ਰਿਹ ਆਯੋ ॥"
 page = 920
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Brahmin learned about this secret proclamation, he instantly came to the house of that woman,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਚਲਦਾ ਚਲਦਾ ਕਾਮਕੰਦਲਾ ਦੇ ਘਰ ਆਇਆ।"

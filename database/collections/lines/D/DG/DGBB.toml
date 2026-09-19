@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਯਾਵੁਰਦ ਪੁਰ ਅਕਲ ਖ਼ਾਨਹ ਕਜ਼ਾ ॥"
 page = 1395
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He kept repeating the process for ten years,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਅਕਲ ਦਾ ਭੰਡਾਰ ਰਖਣ ਵਾਲਾ ਪੁੱਤਰ ਉਨ੍ਹਾਂ ਨੂੰ ਘਰ ਲੈ ਆਇਆ।"

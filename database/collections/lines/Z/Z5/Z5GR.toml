@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਏਕਾ ਟੇਕ; ਮੇਰੈ ਮਨਿ ਚੀਤ ॥"
 page = 187
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Within my mind and heart is the one roost."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਰਿਦੇ ਤੇ ਦਿਲ ਅੰਦਰ ਇਕੋਂ ਹੀ ਓਟ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Within my conscious mind, the One Lord is my only Support."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਹਾਰਾਜ! ਮੇਰੇ ਮਨ ਚਿਤ ਮੇਂ ਏਕ ਤੇਰਾ ਹੀ ਆਸਰਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਮੇਰੇ ਮਨ-ਚਿੱਤ ਵਿਚ ਸਿਰਫ਼ ਇਹ ਸਹਾਰਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਟੇਕ = ਆਸਰਾ। ਮਨਿ ਚੀਤਿ = ਮਨ-ਚਿੱਤ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mi mente descansa su esperanza sólo en el Uno,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਿਯਾ ਰਫ਼ਤ ਸ਼ੁਦ ਕਿਸ਼ਤੀਏ ਹਰ ਦੁ ਦਸਤ ॥"
 page = 1419
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The boat slipped through under the protection of the hands,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਦੋਹਾਂ ਹੱਥਾਂ ਵਿਚੋਂ ਕਿਸ਼ਤੀ ਉਦੋਂ ਨਿਕਲ ਗਈ"

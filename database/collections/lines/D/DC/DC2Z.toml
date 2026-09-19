@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਧਰਮਸਾਲ ਕਰਤਾਰਪੁਰੁ; ਸਾਧਸੰਗਤਿ ਸਚ ਖੰਡੁ ਵਸਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Founding dharamsala, the place for dharma, at Kartarpur, it was inhabited by the holy congregartion as the abode"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਧਰਮਸਾਲਾ ਕਰਤਾਰ ਪੁਰ ਵਿਖੇ ਬਣਾ ਕੇ ਸਾਧ ਸੰਗਤ ਰੂਪੀ ਸਚਖੰਡ ਵਸਾ ਦਿੱਤਾ।"

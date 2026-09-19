@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਣੇ ਜੀਤ ਕਰਖਾ ॥"
 page = 207
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Wishing for their victory, the demons showered their arrows."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿੱਤ ਦੇ ਗੀਤ ਸੁਣਦੇ ਸਨ।"

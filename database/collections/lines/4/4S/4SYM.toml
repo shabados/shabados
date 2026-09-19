@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਉ ਸਮੈ ਕਛੁ ਰਿਸਕ ਬਿਚਾਰਿਓ ॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the dice was thrown, (one of the two real brothers) thought in indignation,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦਾਉ (ਲਗਾਉਣ) ਵੇਲੇ (ਕਿਸੇ ਨੂੰ) ਕੁਝ ਗੁੱਸਾ ਆ ਗਿਆ"

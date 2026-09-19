@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਦਾਸ ਖੜਾ ਦਰ ਪਕੜਿ ਕੈ; ਇਉਂ ਉਚਰਿ ਸੁਣਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Gurdas, leaning on the door, was eulogising this;"

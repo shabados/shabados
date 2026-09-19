@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਲਾ ਚਹੋ ਆਪਨ ਜੋ ਸਬਹੀ ॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“If thou art thy own well-wisher,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੇ ਤੁਸੀਂ) ਸਾਰੇ ਆਪਣਾ ਭਲਾ ਚਾਹੁੰਦੇ ਹੋ"

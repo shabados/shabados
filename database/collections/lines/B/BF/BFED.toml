@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਦ੍ਵੈ ਅਲਖ ਪੁਰਖ ਅਬਿਗਾਮੀ ॥"
 page = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Non-dual and Imperceptible Purusha is Inseparable."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਦ੍ਵੈਤ-ਰਹਿਤ, ਅਦ੍ਰਿਸ਼ ਪੁਰਸ਼ ਵਾਸਤਵਿਕਤਾ ਦਾ ਗਿਆਨਵਾਨ"

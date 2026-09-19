@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਉਜਲ ਅੰਗ ਸੁਰੰਗ ਸੁਭੰ ॥"
 page = 665
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With concentrated mind, he was stable at one place in the sky and his limbs were extremely white and pretty"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਬੜੇ ਉਜਲੇ ਸ਼ਰੀਰ ਅਤੇ ਸੋਹਣੇ ਰੰਗ ਵਾਲਾ ਸੀ।"

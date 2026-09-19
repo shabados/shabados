@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਲੌ ਸਦਨ ਦਿਲੀਸ ਕੇ; ਦ੍ਰਿਗਨ ਬਿਲੋਕੇ ਨਾਹਿ ॥"
 page = 1005
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I have not seen the house ofthe Emperor of Delhi."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਅਜ ਤਕ ਦਿੱਲੀ ਦੇ ਬਾਦਸ਼ਾਹ ਦਾ ਮਹੱਲ ਨਹੀਂ ਵੇਖਿਆ।"

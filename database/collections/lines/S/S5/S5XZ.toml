@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਟ ਅੰਗ ਪਾਣਿ ਉਛਾਲੀਯੰ ॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now in great rage in the battlefield, the dreadful Kali raised six hands of her arms powerfully"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਛੇ ਹੱਥਾਂ ਅਤੇ ਭੁਜਾਵਾਂ ਨੂੰ ਉਤੇ ਉਛਾਲਿਆ ਹੋਇਆ ਸੀ।"

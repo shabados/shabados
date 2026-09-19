@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹਾ ਚਹੋ ਤਿਹ ਠਵਰ ਬਖਾਨੋ ॥੧੦੮੯॥"
 page = 787
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying the word “Phaldhar-arini”, add the word “ari” at the end and know all the names of Tupak.1089."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਲੋੜ ਸਮਝੋ, ਉਥੇ ਵਰਤੋ ॥੧੦੮੯॥"

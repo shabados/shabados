@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਕਰ ਬੀਚ ਸਕਤਿ ਕੋ ਲਇਓ ॥"
 page = 448
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ (ਗਣੇਸ਼ ਨੇ) ਬਰਛੀ ਨੂੰ ਹੱਥ ਵਿਚ ਲੈ ਲਿਆ"

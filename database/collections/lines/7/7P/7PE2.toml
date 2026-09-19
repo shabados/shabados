@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹ ਸਭ ਭੇਦ ਤਿਨੈ ਲਖਿ ਲਯੋ ॥੩੧॥"
 page = 987
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now, surrendering all his weapons, he became armless and this became visible to all.(31)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਹ ਸਾਰੀ ਗੱਲ ਉਸ (ਵੇਸਵਾ) ਨੇ ਜਾਣ ਲਈ ॥੩੧॥"

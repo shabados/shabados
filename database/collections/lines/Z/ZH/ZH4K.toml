@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਮਤੰ ਨੂਰੰ ॥"
 page = 669
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing their radiance even the sun was wonder-struck"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨੂਰ ਨੂੰ ਉਗਲ ਰਹੇ ਹਨ,"

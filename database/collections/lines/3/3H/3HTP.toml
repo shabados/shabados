@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਿਤਰਨ ਪਛ ਪਹੂਚਾ ਆਈ ॥"
 page = 859
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What he did not want to do, with due care of his honour, she would do it.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਰਾਧਾਂ ਦਾ ਪੱਖ ਆ ਪਹੁੰਚਿਆ।"

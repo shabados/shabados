@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਂ ਬੀਰ ਬੰਕੰ ॥"
 page = 50
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਨੇਕ) ਬਾਂਕੇ ਮਹਾਨ ਯੋਧੇ"

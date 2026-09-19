@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਖੇਲ ਧੌ ਕਰੈ ਕਰਾਵਾ ॥੨॥੨੫੫॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "How the game and trick be played?2.255."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੀ ਪਤਾ ਇਹ ਖੇਲ ਕੀ ਕਰਦਾ ਕਰਾਉਂਦਾ ਹੈ ॥੨॥੨੫੫॥"

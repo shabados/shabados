@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਣ ਦੀ ਮਿਹਰ ਨੇ ਹਰ ਦਿਲ ਤੇ ਅਸਰ ਕੀਤਾ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਲੁਤਫ਼ਿ ਸ਼ਾਣ ਬਰ ਹਰ ਦਿਲੇ ਤਾਸੀਰ ਕਰਦ ॥੯੮॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "With his grace and kindness, one attains the mastery and control of the heart. (450)"

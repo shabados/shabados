@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੰਤ ਅਨੰਤ ਭਾਖੀਐ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Innumerable Sheshanaga eulogize Him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੰਤ ਸ਼ੇਸ਼ਨਾਗ (ਅਨੰਤ) ਸਿਮਰਨ ਕਰਦੇ ਹਨ,"

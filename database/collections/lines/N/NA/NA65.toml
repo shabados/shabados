@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਹਾਂ ਪੁਰਖ ਆਚਾਣਚਕ; ਗਨਿਕਾ ਵਾੜੇ ਆਇ ਖਲੋਤਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Once a great man was passing by who halted in her courtyard."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਮਹਾਂ ਪੁਰਖ ਸੁਤੇ ਸਿੱਧ ਗਨਕਾਂ ਦੇ ਵੇਹੜੇ ਆ ਖੜੋਤਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਲਗੋ ਜੋਗ ਸਾਧਨ ਅਨੂਪ ॥"
 page = 640
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He had manifested as the apparent form of yoga and then had been absorbed in the practice of Yoga"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਅਨੂਪਮ ਯੋਗ ਸਾਧਨਾ ਕਰਨ ਲਗਾ ਹੈ।"

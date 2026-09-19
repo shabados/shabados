@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਜੇ ਹਥਿਯਾਰ ਭਜੇ ਅਧੀਰ ॥੪੭੮॥"
 page = 249
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brave fighters thundered bedecking themselves with weapons and the great warriors with power of endurance began to run away from the battlefield.478."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸੂਰਮਿਆਂ ਨੇ) ਸ਼ਸਤ੍ਰ ਸਜਾ ਲਏ ਅਤੇ ਅਧੀਰ ਹੋ ਕੇ ਯੁੱਧ ਲਈ ਭੱਜ ਪਏ ॥੪੭੮॥"

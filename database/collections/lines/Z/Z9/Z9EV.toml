@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੇਸ੍ਵਾ ਹੁਤੀ ਏਕ ਪੁਰ ਤਵਨੈ ॥"
 page = 1280
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨਗਰ ਵਿਚ ਇਕ ਵੇਸਵਾ ਰਹਿੰਦੀ ਸੀ।"

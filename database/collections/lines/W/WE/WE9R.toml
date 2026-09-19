@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਐਸੀ ਕਿੰਗੁਰੀ ਵਜਾਇ ਜੋਗੀ ॥"
 page = 908
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Strike thou such strains on thy lyre, O Yogi,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਐਹੋ ਜਿਹੀ ਵੀਣਾ ਵਜਾ, ਹੇ ਯੋਗੀ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Play that harp, Yogi,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਜੋਗੀ! ਬ੍ਰਹਮ ਚਿੰਤਨ ਰੂਪ ਜੋ ਕਿੰਗੁਰੀ ਹੈ ਐਸੀ ਤੂੰ ਕਿੰਗੁਰੀ ਬਜਾਇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਜੋਗੀ! ਤੂੰ ਅਜਿਹੀ ਵੀਣਾ ਵਜਾਇਆ ਕਰ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਿੰਗੁਰੀ = ਵੀਣਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Yogui, toca esas cuerdas de la cítara,"

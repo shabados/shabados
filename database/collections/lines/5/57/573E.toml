@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਤ ਦੇਗ ਅਰੁ ਦੇਗਚੇ; ਰਾਨੀ ਲਏ ਮੰਗਾਇ ॥"
 page = 998
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rani collected a number of cauldrons,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਣੀ ਨੇ ਬਹੁਤ ਸਾਰੇ ਦੇਗਚੇ ਅਤੇ ਦੇਗਾਂ ਮੰਗਵਾ ਲਈਆਂ।"

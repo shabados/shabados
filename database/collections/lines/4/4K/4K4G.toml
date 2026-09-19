@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਿਨੋ ਸੁ ਭਗਤ ਅਪਨੋ ਛਿਨਾਇ ॥"
 page = 170
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਆਪਣੇ ਭਗਤ ਨੂੰ (ਵੈਰੀ ਦੇ ਹੱਥੋਂ) ਖੋਹ ਲਿਆ"

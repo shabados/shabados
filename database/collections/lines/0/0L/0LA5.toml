@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੂਤੀ ਬਾਚ ਕਾਨ੍ਰਹ ਜੂ ਸੋ ॥"
 page = 367
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of the messenger addressed to Krishna:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੂਤੀ ਨੇ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਕਿਹਾ:"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਮਹੀਨ; ਕਾਲਖ ਮੁਖਿ ਮਾਇਆ ॥"
 page = 366
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The mortals without the Name get soot rubbed on their faces."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਾਮ ਵਿਹੂਣ ਪ੍ਰਾਣੀਆਂ ਦੇ ਚਿਹਰੇ ਉਤੇ ਦੁਨੀਆਂਦਾਰੀ ਦੀ ਕਾਲਖ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Those who lack the Naam have their faces rubbed in the dirt of Maya."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਨਾਮ ਸੇ ਜੋ ਰਹਿਤ ਹੈਂ ਤਿਨ ਕੇ ਮੁਖ ਪਰ ਮਾਯਾ ਕੀ ਸ੍ਯਾਹੀ ਲਗੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਮੇਰੇ ਮਿੱਤਰੋ!) ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਸਿਮਰਨ ਤੋਂ ਬਿਨਾ ਜੀਊਣਾ ਫਿਟਕਾਰ-ਜੋਗ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮੁਖਿ = ਮੂੰਹ ਉਤੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Pobre de aquél que vive sin el Naam, el Nombre del Señor;"

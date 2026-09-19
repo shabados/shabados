@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਸਿ ਟੂਟਹਿਗੇ ॥੩੩੬॥"
 page = 585
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In their fury, they will discharged arrows, during their fighting in the war, their swords will break.336."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਲਵਾਰਾਂ ਟੁਟਣਗੀਆਂ ॥੩੩੬॥"

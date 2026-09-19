@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਬੈਦੂਰਥ ਦੈਤ ਬਧ ਕਥਨੰ ॥"
 page = 538
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now beings the description of the killing of the demon Vidurath"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਬੈਦੂਰਥ ਦੈਂਤ ਦੇ ਬਧ ਦਾ ਕਥਨ:"

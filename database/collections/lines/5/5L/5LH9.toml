@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਇ ਬਸੇ ਗਿਰਵਰ ਜਹਿ ਭਾਰੇ ॥"
 page = 71
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Some people left us and took refuge in the big hills."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਥੇ) ਜਾ ਵਸੇ ਜਿਥੇ ਵਡੇ ਪਹਾੜ ਸਨ।"

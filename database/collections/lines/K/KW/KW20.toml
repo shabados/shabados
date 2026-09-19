@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੀਅ ਜੰਤ ਤੇਰੀ ਸਰਣਾਈ ॥"
 page = 1060
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "All the creatures seek Thy refuge."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਮੂਹ ਜੀਵ ਤੇਰੀ ਪਨਾਹ ਲੋੜਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All beings and creatures seek Your Sanctuary."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਜੀਅ ਜੰਤ ਤੇਰੀ ਸਰਨਾਈ ਹੈਂ ਅਰਥਾਤ ਤੇਰੇ ਆਸਰੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਜੀਅ ਜੰਤ ਤੇਰੇ ਹੀ ਆਸਰੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜੀਅ = {ਲਫ਼ਜ਼ 'ਜੀਵ' ਤੋਂ ਬਹੁ-ਵਚਨ}।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y todas las criaturas buscan sólo Tú Refugio,"

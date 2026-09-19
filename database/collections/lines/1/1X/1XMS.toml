@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਵਨ ਜਾਰ ਸੌ ਯੌ ਰਹੈ; ਨਿਜੁ ਨਾਰੀ ਜਿਯੋ ਹੋਇ ॥"
 page = 842
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The lover lived there as if he was living with his own wife."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਯਾਰ ਨਾਲ ਇਸ ਤਰ੍ਹਾਂ ਰਹਿਣ ਲਗੀ ਜਿਵੇਂ ਉਸ ਦੀ ਆਪਣੀ ਇਸਤਰੀ ਹੋਵੇ।"

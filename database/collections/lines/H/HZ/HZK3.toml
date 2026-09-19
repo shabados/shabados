@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਤ ਭਈ ਤਹ ਹੀ ਕੌ ਬਾਮਾ ॥੧੨॥"
 page = 1248
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਧਰ ਨੂੰ ਹੀ ਉਹ ਇਸਤਰੀ ਚਲੀ ਗਈ ॥੧੨॥"

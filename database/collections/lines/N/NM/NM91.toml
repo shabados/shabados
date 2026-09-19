@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜੇ ਤੇਜ ਮਾਣੰ ॥"
 page = 180
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Holding their bows in their hands, excessively glorious and proud warriors have marched forward,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੇਜ ਤੇ ਮਾਣ ਨਾਲ (ਯੁੱਧ ਕਰਨ ਲਈ) ਚੜ੍ਹੇ ਸਨ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਚੁ ਖਰਾ ਸਾਬਾਸਿ ਹੈ; ਕੂੜੁ ਨ ਚਲੈ ਦਮੜਾ ਖੋਟਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Truth being pure earns applause but the falsehood like a counter coin does not get circulated."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੱਚ ਖਰਾ ਹੈ, ਹਰ ਕੋਈ ਸ਼ਾਬਾਸ਼ ਕਹਿੰਦਾ ਹੈ, ਕੂੜ ਖੋਟੇ ਰੁਪਏ ਵਾਂਙੂ (ਬਾਜ਼ਾਰ) ਨਹੀਂ ਚੱਲਦਾ।"

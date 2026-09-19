@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਰਿ ਕਿਰਪਾ; ਗੁਰ ਦੀਨੋ ਨਾਉ ॥"
 page = 395
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Guru has mercifully given me God's Name"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮਿਹਰਬਾਨੀ ਕਰਕੇ ਗੁਰਾਂ ਨੇ ਮੈਨੂੰ ਹਰੀ ਦਾ ਨਾਮ ਦਿੱਤਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "In His Mercy, the Guru bestows the Lord's Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ ਗੁਰੋਂ ਨੇ ਕ੍ਰਿਪਾ ਕਰ ਕੇ ਮੁਝੇ ਨਾਮ ਦੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਨੇ ਕਿਰਪਾ ਕਰ ਕੇ ਮੈਨੂੰ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਦਿੱਤਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰਿ = ਕਰ ਕੇ। ਗੁਰਿ = ਗੁਰੂ ਨੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "el Nombre del Señor, y su mente está siempre en Éxtasis."

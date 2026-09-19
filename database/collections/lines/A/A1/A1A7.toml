@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਣਿਓ ਕਾਲ ਭਾਰੀ ॥੭੩॥"
 page = 45
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Was killed by mighty KAL.73."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਲਵਾਨ ਕਾਲ ਨੇ ਨਾਸ਼ ਕਰ ਦਿੱਤਾ ॥੭੩॥"

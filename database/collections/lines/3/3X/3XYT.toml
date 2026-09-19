@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਯਾ ਕੌ ਧਨ ਦੀਜਿਯੈ; ਜਿਨਿ ਇਹ ਜਾਇ ਨਿਰਾਸ ॥੭॥"
 page = 825
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You must give him lot of money to go away without getting angry.’(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਨੂੰ ਬਹੁਤ ਧਨ ਦਿਉ, ਤਾਂ ਜੋ ਇਹ ਨਿਰਾਸ ਨਾ ਜਾਏ ॥੭॥"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਪਣੀ ਕਲਾ; ਆਪੇ ਹੀ ਜਾਣੈ ॥"
 page = 159
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "His might, He Himself Knows."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੀ ਸ਼ਕਤੀ ਉਹ ਆਪ ਹੀ ਜਾਣਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He Himself knows His Own Almighty Power."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਆਪਣੀ ਕਲਾ ਕੋ ਆਪ ਹੀ ਜਾਨਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਆਪਣੀ ਇਹ ਗੁਝੀ ਤਾਕਤ ਆਪ ਹੀ ਜਾਣਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਲਾ = ਤਾਕਤ, ਸ਼ਕਤੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sólo Dios conoce Sus Poderes Misteriosos,"

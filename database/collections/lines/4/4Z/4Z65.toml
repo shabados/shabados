@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਿਰਖ ਕੀ ਛਾਇਆ ਸਿਉ; ਰੰਗੁ ਲਾਵੈ ॥"
 page = 268
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Man falls in love with the shade of the tree,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਨਸਾਨ ਦਰਖਤ ਦੀ ਛਾਂ ਨਾਲ ਪ੍ਰੀਤਿ ਪਾ ਲੈਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "People fall in love with the shade of the tree,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੈਸੇ ਜੇ ਕੋਈ ਬਿਰਛ ਕੀ ਛਾਇਆ ਕੇ ਸਾਥ (ਰੰਗ) ਪ੍ਰੇਮ ਲਗਾਵਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜੇ ਕੋਈ ਮਨੁੱਖ) ਰੁੱਖ ਦੀ ਛਾਂ ਨਾਲ ਪਿਆਰ ਪਾ ਬੈਠੇ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਰਖ = ਰੁੱਖ। ਰੰਗੁ = ਪਿਆਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Y así como pronto se desvanece la pasajera sombra de un árbol,"

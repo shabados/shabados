@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਸ ਸਾਵਨ ਕੋ ਬਰਸਤ ਮੇਹਾ ॥"
 page = 1303
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਸਾਵਣ ਦੇ ਮਹੀਨੇ ਵਿਚ ਮੀਂਹ ਪੈਂਦਾ ਹੈ।"

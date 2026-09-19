@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਜਨ ਸਭ ਦੇਸ ਕੇ; ਜਪਤ ਆਠਹੂੰ ਜਾਮ ॥੧॥"
 page = 896
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the people of the land revered him, all the time.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਸਾਰੇ ਦੇਸ ਦੇ ਲੋਕ ਅਠੇ ਪਹਿਰ ਯਾਦ ਕਰਦੇ ਸਨ ॥੧॥"

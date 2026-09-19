@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਚੱਕ੍ਰ ਪਾਣੰ ॥"
 page = 46
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to Him, Who holds the disc in His hand,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਚੱਕਰ ਨੂੰ ਹੱਥ ਵਿਚ ਧਾਰਨ ਕਰਨ ਵਾਲੇ! (ਤੈਨੂੰ) ਨਮਸਕਾਰ ਹੈ।"

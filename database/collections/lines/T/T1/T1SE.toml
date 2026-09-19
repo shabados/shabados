@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਟਿ ਸੂਰ ਜਨੁ ਚੜੇ ਸਵਾਰੇ ॥੭॥"
 page = 1004
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Who can relate her qualities as she epitomises thousands of Suns?’(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਜ ਪ੍ਰਤੀਤ ਹੁੰਦਾ ਹੈ) ਮਾਨੋ ਕਰੋੜਾਂ ਸੂਰਜ ਸੰਵਰ ਕੇ ਚੜ੍ਹ ਪਏ ਹੋਣ ॥੭॥"

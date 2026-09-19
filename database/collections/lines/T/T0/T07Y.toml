@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੋਰ ਪਾਪ ਟਾਰੀਅੰ ॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the remover of millions of sins."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਕਰੋੜਾਂ ਪਾਪਾਂ ਨੂੰ ਹਟਾ ਦਿੰਦੀ ਹੈ।"

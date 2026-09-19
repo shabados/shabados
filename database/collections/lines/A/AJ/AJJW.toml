@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਿਯੋ ਬਿਸਨ ਜਲੰਧਰ ਰੂਪ ਧਰੋ ॥"
 page = 189
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਨੇ) ਵਿਸ਼ਣੂ ਨੂੰ ਕਿਹਾ, \"(ਜਾ ਕੇ) ਜਲੰਧਰ ਦਾ ਰੂਪ ਧਾਰਨ ਕਰੋ"

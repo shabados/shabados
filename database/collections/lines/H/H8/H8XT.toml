@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਿਰਿ ਕਰਵਤੁ ਧਰਾਇ; ਬੇੜ ਘੜਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "A tree getting sawed helps to make boat."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਿਰ ਪਰ ਆਰਾ ਧਰਾ ਕੇ (ਬ੍ਰਿਛ ਕੱਟ ਕੇ ਤਖਤੇ ਚੀਰ ਕੇ) ਬੇੜਾ ਘੜਾਉਂਦੇ ਹਨ।"

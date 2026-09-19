@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰਯੋ ਰਾਮ ਸਿਸਤ ਜਿ ਕਾਨ ॥"
 page = 282
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sons of Ram pulling their bows shot an arrow in the heart of the king of Lanka"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੰਕੋਚ ਛੱਡ ਕੇ ਤੀਰ ਮਾਰਿਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਯੋ ਪ੍ਰਾਤ ਪਿਤ ਬੂਬਨਾ; ਰਾਜਾ ਲਏ ਬੁਲਾਇ ॥"
 page = 946
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the day broke, Boobna’s father called in all the princes,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਵੇਰ ਹੋਣ ਤੇ ਬੂਬਨਾ ਦੇ ਪਿਤਾ ਨੇ (ਸਾਰੇ) ਰਾਜੇ ਬੁਲਾ ਲਏ"

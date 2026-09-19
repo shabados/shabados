@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਕੈ ਬਖਾਨੋ, ਕਹੇ ਮੋ ਨ ਆਵੈ ॥੩॥੯੩॥"
 page = 20
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "How should He be described? Nothing can be said. 3.93."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਬਾਰੇ) ਕੀ ਕਹਿ ਕੇ ਦਸਾਂ (ਕਿਉਂਕਿ ਉਹ) ਕਹਿਣੇ ਵਿਚ ਨਹੀਂ ਆਉਂਦਾ ॥੩॥੯੩॥"

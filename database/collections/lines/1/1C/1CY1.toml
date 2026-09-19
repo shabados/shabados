@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਸ ਤੇ ਟਰਿ ਹੈ ॥੫੩॥"
 page = 557
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They will be filled with illusions and will abandon the approbation.53."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਸ (ਖਟਣ ਵਾਲੇ ਕਰਮ) ਤੋਂ ਟਲਣਗੇ ॥੫੩॥"

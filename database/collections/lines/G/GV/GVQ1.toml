@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਪਨ ਫਿਰਤ ਸੰਘਾਰਤ ਕਾਢੀ ॥੩॥੨੫੬॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which is said to be the destroyer of the kings.3.256."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਰਾਜਿਆਂ ਦਾ ਵਿਨਾਸ਼ ਕਰਨ ਵਾਲੀ ਦਸੀ ਜਾਂਦੀ ਹੈ ॥੩॥੨੫੬॥"

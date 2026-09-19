@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੰਚਨ ਕੇ ਗ੍ਰਿਹ ਕੈ ਦੀਏ ਤ︀ਯਾਰ ਭਲੇ ਕਿਨਹੂੰ ਤਿਨ ਕਉਨ ਅਚਾਹਿਯੋ ॥"
 page = 492
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He left the earth and without the desire of anybody he prepared the golden mansions"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਕਿਸੇ ਨੇ ਸੋਨੇ ਦੇ ਚੰਗੇ ਚੰਗੇ ਘਰ ਤਿਆਰ ਕਰ ਦਿੱਤੇ ਹਨ, ਉਨ੍ਹਾਂ ਨੂੰ (ਭਲਾ) ਕਿਹੜਾ ਪਸੰਦ ਨਹੀਂ ਕਰਦਾ।"

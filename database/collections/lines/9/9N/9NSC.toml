@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਅਸਟ ਦ੍ਵੈ ਅਵਤਾਰ ਕਥੈ ਕਥਾਣੰ ॥"
 page = 151
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the discourse about the ten incarnations was being delivered."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਦਸ ਅਵਤਾਰਾਂ ਦੀ ਕਥਾ ਹੋ ਰਹੀ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਕਰਮ ਭਰਮ ਬਿਚਾਰ ॥੨੦॥੫੦॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the Karmas be considered as illusion.20.50."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਕਰਮਾਂ ਨੂੰ ਭਰਮ ਮਾਤਰ ਸਮਝਣਾ ਚਾਹੀਦਾ ਹੈ ॥੨੦॥੫੦॥"

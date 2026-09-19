@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਪਿਆ ਕਪਟੁ ਤਿਹ ਉਦੇ ਹੋਤ ॥"
 page = 638
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਜਨਮ ਲੈਂਦਿਆਂ ਹੀ ਕਪਟ ਕੰਬਣ ਲਗ ਗਿਆ ਸੀ।"

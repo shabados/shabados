@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਸਰਬੱਤ੍ਰ ਕਾਜੈ ॥"
 page = 7
 line = 2
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Thou art the cause of all!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ!) ਤੂੰ ਸਭ ਦਾ ਕਾਰਜ (ਭਾਵ ਕਾਰਨ) ਸਰੂਪ ਹੈ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਕਿ, ਸਰਬਤ੍ਰ ਕਾਜੈ ॥"

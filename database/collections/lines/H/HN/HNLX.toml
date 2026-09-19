@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹਾ ਗਸ਼ਤ ਚੂੰ ਰਉਸ਼ਨਸ਼ ਮਾਹਿਤਾਬ ॥੧੦੫॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And, like moon, everything became visible.(105)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਜਹਾਨ ਚੰਦ੍ਰਮਾ ਦੀ ਚਾਂਦਨੀ ਵਾਂਗ ਪ੍ਰਕਾਸ਼ਮਾਨ ਹੋ ਗਿਆ ॥੧੦੫॥"

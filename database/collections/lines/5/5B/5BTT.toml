@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰਾਖਾ ਏਕੁ ਹਮਾਰਾ ਸੁਆਮੀ ॥"
 page = 1136
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "the one Lord is my Protector,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਪ੍ਰਭੂ ਮੇਰਾ ਰਖਵਾਲਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The One Lord, my Lord and Master, is my Protector."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸ੍ਵਾਮੀ! ਏਕ ਤੂੰ ਹੀ ਹਮਾਰਾ ਰਛਕ ਹੈਂ॥☬ਪੁਨ: ਕੈਸਾ ਹੈਂ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਅਸਾਂ ਜੀਵਾਂ ਦਾ ਰਾਖਾ ਇਕ ਮਾਲਕ-ਪ੍ਰਭੂ ਹੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਮਾਰਾ = ਅਸਾਂ ਜੀਵਾਂ ਦਾ। ਸੁਆਮੀ = ਮਾਲਕ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Nuestro Único Santuario será siempre nuestro Señor,"

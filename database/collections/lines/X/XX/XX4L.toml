@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁੰਦਰਿ ਸਕਲ ਭਵਨ ਮੈ ਜਾਨੀ ॥"
 page = 913
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Indra Mati was his senior Rani who was acclaimed to be most beautiful ill the world."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਾਰਿਆਂ ਲੋਕਾਂ ਵਿਚ ਸੁੰਦਰ ਜਾਣੀ ਜਾਂਦੀ ਸੀ।"

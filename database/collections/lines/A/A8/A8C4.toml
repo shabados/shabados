@@ -1,29 +1,29 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮਸਤੁਲ ਅਦੀਸ ਹੈਂ ॥"
 page = 8
 line = 18
 
 [[content]]
-asset = "JSTS"
+assets = ["JSTS"]
 type = "note"
 language = "pa"
 data = "ਅਦੀਸ = ਆਦਿ-ਈਸ਼ਵਰ"
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Thou art hidden from all!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਭ ਲਈ ਅਦ੍ਰਿਸ਼ ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਸਮਸਤੁਲ, ਅਦੀਸ ਹੈਂ ॥"

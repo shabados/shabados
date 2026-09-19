@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਇਕ ਬਿਨਸੈ ਇਕ ਅਸਥਿਰੁ ਗਾਜੇ ॥੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "On the one hand the world was passing away and on the other the life current would go stably."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਨਾਸ਼ ਹੁੰਦੇ ਜਾਂਦੇ ਹਨ ਦੂਜੇ ਆਪ ਨੂੰ ਅਚੱਲ (ਮੰਨਕੇ) ਗਜਦੇ ਹਨ।"

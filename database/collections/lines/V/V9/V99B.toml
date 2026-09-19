@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮੇਰਾ ਪ੍ਰਭੁ; ਹੋਆ ਸਦਾ ਦਇਆਲਾ ॥"
 page = 627
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My Lord is ever merciful."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਮਾਲਕ ਸਦੀਵ ਹੀ ਮਿਹਰਬਾਨ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "My God is forever Merciful."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰਾ ਸ੍ਵਾਮੀ ਮੇਰੇ ਪਰ ਸਦੀਵ ਦਇਆਲ ਹੂਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਮੇਰਾ ਪ੍ਰਭੂ ਸਦਾ ਹੀ ਦਇਆਵਾਨ ਰਹਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mi Señor es siempre Bueno conmigo;"

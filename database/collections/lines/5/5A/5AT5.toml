@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਸ ਆਨਿ ਅਪਨੇ ਬਸੇ; ਤਿਯ ਕੋ ਸਦਨ ਬਨਾਇ ॥"
 page = 964
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘They had come to their own country now,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਦੇਸ ਵਿਚ ਆ ਕੇ ਵਸ ਗਏ ਅਤੇ ਰਾਣੀ ਨੂੰ ਨਵਾਂ ਮਹੱਲ ਬਣਵਾ ਦਿੱਤਾ।"

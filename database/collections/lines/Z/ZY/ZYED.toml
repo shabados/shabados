@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕਹੁ ਰਾਮ ਉਚਰ ਮੁਨਿ ਜਨ ਸਬ; ਸੇਵਤ ਧਿਆਨ ਲਗਾਏ ॥"
 page = 681
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sages meditate on that sword-like power"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ 'ਰਾਮ' ਕਹਿ ਕੇ ਸਾਰੇ ਮੁਨੀ ਲੋਗ ਧਿਆਨ ਲਗਾ ਕੇ ਸੇਵਾ (ਪੂਜਾ) ਕਰਦੇ ਹਨ,"

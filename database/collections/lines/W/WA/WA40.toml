@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਉਤੁਕ ਸਭ ਲੋਕਨ ਦਰਸਾਯੋ ॥"
 page = 516
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Even on becoming unconscious, both of them continued fighting"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਕੌਤਕ ਸਭ ਲੋਕਾਂ ਨੇ ਵੇਖਿਆ।"

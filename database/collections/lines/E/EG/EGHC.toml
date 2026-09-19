@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਸੇ ਕਉਲਿ ਕੁਰਆਂ ਕੁਨਦ ਏਤਬਾਰ ॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whosoever puts faith on the oath of Quran,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਵਿਅਕਤੀ (ਤੇਰੀ) ਕੁਰਾਨ ਦੀ ਕਸਮ ਉਤੇ ਵਿਸ਼ਵਾਸ ਕਰਦਾ ਹੈ,"

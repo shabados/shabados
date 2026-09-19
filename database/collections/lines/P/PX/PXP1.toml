@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਤ ਭਯੋ ਸਭ ਜਗਤ ਕੋ; ਕਉਤਕ ਦੇਖੋ ਜਾਇ ॥੨੩੦੫॥"
 page = 530
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, the sage seeing the wonderful conduct of the Lord, clung to his feet and then left in order to see the spectacle of the whole world.2305."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਸਾਰੇ ਜਗਤ ਦੇ ਕੌਤਕ ਵੇਖਣ ਲਈ ਚਲ ਪਿਆ ॥੨੩੦੫॥"

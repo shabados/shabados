@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤਪੜੁ ਝਾੜਿ ਵਿਛਾਇ, ਧੂੜੀ ਨਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Sweeping and spreading the sitting mats they bathe in the dust of the holy congregation."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਸੇਵਾ ਕੀ ਹੈ? ਸਾਧ ਸੰਗਤ ਦੇ ਬੈਠਣ ਦਾ) ਤੱਪੜ ਝਾੜ ਝੰਬਕੇ ਵਿਛਾਉਂਦੇ ਹਨ ਅਰ ਚਰਣ ਧੂੜੀ ਵਿਖੇ ਨਹਾਉਂਦੇ ਹਨ।"

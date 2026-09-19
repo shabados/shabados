@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਦਨੀ ਆਦਿ ਉਚਾਰਨ ਕੀਜੈ ॥"
 page = 788
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਰਦਨੀ' (ਹਾਥੀ-ਸੈਨਾ) (ਸ਼ਬਦ) ਉਚਾਰਨ ਕਰੋ।"

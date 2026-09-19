@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹਾਗੀਰ ਪਾਤਿਸਾਹ ਕੇ; ਬੇਗਮ ਨੂਰ ਜਹਾ ॥"
 page = 865
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Emperor Jehangir had Noor Jehan as his Begum, the Rani."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਹਾਂਗੀਰ ਬਾਦਸ਼ਾਹ ਦੀ ਨੂਰ ਜਹਾਂ ਬੇਗਮ ਸੀ।"

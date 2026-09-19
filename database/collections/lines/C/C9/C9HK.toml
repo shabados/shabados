@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਢਾਲ ਗਦਾ ਪ੍ਰਘ ਪਟਿਸ ਦਾਰੁਣ; ਹਾਥ ਤ੍ਰਿਸੂਲਨ ਕੋ ਗਹਿ ਕੈ ॥"
 page = 959
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਢਾਲ, ਗਦਾ, ਕੁਹਾੜਾ, ਪੱਟਾ ਅਤੇ ਭਿਆਨਕ ਤ੍ਰਿਸ਼ੂਲਾਂ ਨੂੰ ਹੱਥ ਵਿਚ ਲੈ ਕੇ"

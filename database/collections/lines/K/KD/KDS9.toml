@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੁਤਿ ਕਰੇ ਬੇਦ ਅਰੁ ਧਰੇ ਅਰਥ ॥"
 page = 614
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਸ੍ਰੁਤੀਆਂ ਤੋਂ ਵੇਦ ਬਣਾਏ ਅਤੇ ਉਨ੍ਹਾਂ ਵਿਚ ਅਰਥ ਭਰੇ"

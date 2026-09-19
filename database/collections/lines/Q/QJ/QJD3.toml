@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੈਨ ਮ੍ਰਿਤਕਾ ਕੀ ਰਚਿ ਲੀਨੋ ॥"
 page = 931
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He acted the way Universal Mother dictated and prepared an earthen army."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਨੇ) ਮਿੱਟੀ ਦੀ ਸੈਨਾ ਬਣਾ ਲਈ।"

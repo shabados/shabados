@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਇ ਰਿਖੀਸਨ ਕਉ ਦਈ; ਕਹ ਲਉ ਕਰੋ ਬਿਚਾਰ ॥"
 page = 164
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The wish-fulfilling cow was given to the sages  how far can I describe all these things"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਿਸ਼ੀਆਂ ਨੂੰ ਕਾਮਧੇਨੁ ਗਊ ਦਿੱਤੀ, (ਸੁ ਮੈਂ) ਕਿਥੋਂ ਤਕ ਵਿਚਾਰ ਪ੍ਰਗਟ ਕਰਾਂ।"

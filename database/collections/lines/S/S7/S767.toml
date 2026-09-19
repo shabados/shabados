@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਸਿਰੀ ਸਸਤ੍ਰ ਅਸਤ੍ਰ ਲੈ ਮਾਈ ॥੩॥੬੭॥"
 page = 105
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She then promptly came down with her weapons and armour.3.67."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਹ ਅਸਤ੍ਰ-ਸ਼ਸਤ੍ਰ ਲੈ ਕੇ (ਯੁੱਧ ਲਈ) ਨਿਕਲ ਪਈ ॥੩॥੬੭॥"

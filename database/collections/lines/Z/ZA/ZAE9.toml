@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਦਰਬ ਤਾ ਕੌ ਦਯੋ; ਮੋਲ ਪੁਤ੍ਰ ਤਿਹ ਲੀਨ ॥"
 page = 842
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She paid lot of money to that lady and bought her son."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਬਹੁਤ ਸਾਰਾ ਧਨ ਦਿੱਤਾ ਅਤੇ ਉਸ ਦਾ ਪੁੱਤਰ ਮੁਲ ਲੈ ਲਿਆ।"

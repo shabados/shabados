@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਾਹਨ ਵਾਰੋ ਵਾਰੀ, ਸੂਰੇ ਸੰਘਰੇ ॥"
 page = 121
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And strike them again and again killing warriors."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਨ੍ਹਾਂ ਨੂੰ) ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਸੂਰਵੀਰ ਵਾਰੋ ਵਾਰੀ ਚਲਾਉਂਦੇ ਸਨ।"

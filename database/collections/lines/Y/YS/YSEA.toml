@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੰਤਰੀ ਭਿੰਭਰੀ ਛਤ੍ਰਣੀ ਛਿੰਛਲਾ ॥੭੩॥"
 page = 681
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You are the mistress of the Tantas You are all pervading and have canopy over your head.73."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੰਤਰੀ, ਭਿੰਭਰੀ, ਛਤ੍ਰਣੀ, ਛਿੰਛਲਾ ॥੭੩॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਪਰਮ ਪਾਟੰਬਰੰ ਭਾਨ ਤੇਜੰ ॥"
 page = 272
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈਆਂ ਨੇ ਸੂਰਜ ਦੇ ਪ੍ਰਕਾਸ਼ (ਵਰਗੇ ਚਮਕਦਾਰ) ਅਤੇ ਬਹੁਤ ਉਤਮ ਰੇਸ਼ਮੀ ਕੱਪੜੇ"

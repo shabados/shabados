@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮ੍ਰਿਗ ਮਨ ਹੇਰਿ ਜਿਨੇ ਨਰ ਨਾਰਿਨ; ਰਹਤ ਸਦਾ ਉਰਝਾਇ ॥"
 page = 542
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That lime is like that trap, in which all the men and women always remain entangled"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀਆਂ ਅਤੇ ਪੁਰਸ਼ਾਂ ਦੇ ਮਨ ਰੂਪ ਹਿਰਨ ਉਸ ਨੂੰ ਵੇਖਣ ਵਿਚ ਹੀ ਉਲਝੇ ਰਹਿੰਦੇ ਹਨ।"

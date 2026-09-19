@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧੀ ਉਰਧਵੀ ਆਪ ਰੂਪਾ ਅਪਾਰੀ ॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art seated everywhere, up and below."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਪਰ-ਹੇਠਾਂ ਵਿਚ ਵਿਆਪਤ ਹੋਣ ਵਾਲੀ ਅਪਾਰ-ਰੂਪਾ (ਨੂੰ ਨਮਸਕਾਰ ਹੈ);"

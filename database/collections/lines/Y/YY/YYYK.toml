@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਸਤਕੁ ਸੀਸੁ ਅਮੋਲੁ ਹੈ; ਚਰਣ ਸਰਣਿ ਗੁਰੁ ਧੂੜਿ ਸੁਹਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The forehead is also invaluable which remaining in the shelter of the feet of the Guru adorns itself with the dust of the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੱਥਾ ਅਤੇ ਸਿਰ (ਤਦ) ਅਮੋਲਕ ਹਨ (ਜਦੋਂ) ਗੁਰਾਂ ਦੇ ਚਰਣਾਂ ਦੀ ਸ਼ਰਣ ਦੀ ਧੂੜ ਪਿਆਰੀ ਲੱਗੇ ਤਾਂ।"

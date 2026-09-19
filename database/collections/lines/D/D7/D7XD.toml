@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਡਿਗੇ ਬਾਜ ਖੂਰਨ ਭੂ ਖਟ ਪਟ ॥"
 page = 1366
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਰਤੀ ਦੇ ਛੇ ਪੜਦੇ ਘੋੜਿਆਂ ਦੇ ਖੁਰਾਂ ਨਾਲ ਉਡ ਗਏ।"

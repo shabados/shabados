@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਕ੍ਰਮ ਸਿੰਘ ਸਾਹੁ ਸੁਤ ਇਕ ਤਹ ॥"
 page = 1218
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਬਿਕ੍ਰਮ ਸਿੰਘ ਨਾਂ ਦੀ ਇਕ ਸ਼ਾਹ ਦਾ ਪੁੱਤਰ ਸੀ,"

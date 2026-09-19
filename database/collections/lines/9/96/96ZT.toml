@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਬਨ ਕੇ ਭਛਨ ਫਲ ਆਯੋ ॥"
 page = 987
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When they felt hungry, the devils came to that place,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਬਨ ਵਿਚ ਫਲ ਖਾਣ ਲਈ ਆਇਆ।"

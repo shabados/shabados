@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਐ ਮਾਲ ਸੀਸੰ ॥"
 page = 604
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Shiva also joined the armies and danced and discharged arrows in a queer way.537."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਿਰਾਂ ਦੀ ਮਾਲਾ ਪਰੋ ਰਿਹਾ ਹੈ।"

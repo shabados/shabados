@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਮੰ ਧਾਮ ॥੮੦੪॥"
 page = 284
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They are running away without seeing anything  they are leaving even Ram, the abode of Dharma.804."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੇਟਾ ('ਕੋਰ') ਵਜੋਂ- (ਭੱਜੇ ਜਾ ਰਹੇ ਹਨ ॥੮੦੫॥"

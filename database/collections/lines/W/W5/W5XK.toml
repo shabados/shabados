@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਹਿਹੋ ਏਕ ਕੇਸ ਜਬ ਜਰੋ ॥"
 page = 1013
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Initially try to put your hand on your head, if a couple of hair are burnt,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਇਕ ਅੱਧ ਵਾਲ ਸੜਨ ਲਗੇ (ਤਾਂ ਹੱਥ) ਚੁਕ ਲੈਣਾ।"

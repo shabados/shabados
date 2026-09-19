@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭਹਿਨ ਕੇ ਦੇਖਤ ਤਿਸੈ; ਲਯੋ ਬਿਵਾਨ ਚੜਾਇ ॥"
 page = 966
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "While every body was warching, he made her to occupy the palanquin."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਦੇ ਦੇਖਦੇ ਹੋਇਆਂ ਉਸ ਨੂੰ ਪਾਲਕੀ ਵਿਚ ਚੜ੍ਹਾ ਲਿਆ।"

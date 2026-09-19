@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਡੀ ਕਾਲੀ ਦੁਹੂੰ ਮਿਲਿ; ਕੀਨੋ ਇਹੈ ਬਿਚਾਰ ॥"
 page = 92
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Chandi and Kali both together took this decision,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਡੀ ਅਤੇ ਕਾਲੀ ਨੇ ਮਿਲ ਕੇ ਇਹ ਵਿਚਾਰ ਬਣਾਇਆ ਕਿ"

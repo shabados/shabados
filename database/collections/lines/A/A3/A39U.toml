@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਮਾਨ ਹੈ ਨ ਮਉਤ ਹੈ; ਨ ਸਾਕ ਹੈ ਨ ਸੰਕ ਹੈ ॥"
 page = 32
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He egoless, deathless, kinless and doubtless."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਨਾ ਮਾਣ ਹੈ, ਨਾ ਮੌਤ, ਨਾ ਸਾਕ ਹੈ ਅਤੇ ਨਾ ਹੀ ਸ਼ੰਕਾ ਹੈ;"

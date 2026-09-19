@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੁ ਮੰਤ੍ਰ ਮਿਤ੍ਰ, ਉਤਾਲ ॥੭॥੩੨੬॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O my friends, tell me quickly.”7.326."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਿਤ੍ਰ ਮੰਤਰੀ! ਜਲਦੀ ਸਲਾਹ ਦਿਓ ॥੭॥੩੨੬॥"

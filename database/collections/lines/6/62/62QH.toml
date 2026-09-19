@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਦੁਧਹੁ ਦਹੀ ਜਮਾਈਐ; ਕਰਿ ਨਿਹਚਲੁ ਧਰਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "For making curd Some rennet is added into it and then it is placed undistributed."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਦੁੱਧ ਥੋਂ (ਜਦ) ਦਹੀਂ ਜਮਾਈਦਾ ਹੈ ਤਾਂ ਅਡੋਲ ਰਖ ਦੇਈਦਾ ਹੈ।"

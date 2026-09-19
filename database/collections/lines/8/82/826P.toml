@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੀਨਿ ਬੀਨਿ ਬਾਨਨ ਤਨ ਮਾਰੇ ॥"
 page = 1384
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਸੂਰਮਿਆਂ ਦੇ ਸ਼ਰੀਰਾਂ ਉਤੇ) ਚੁਣ ਚੁਣ ਕੇ ਤੀਰ ਚਲਾ ਰਹੇ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਕਸ ਰਣੋ ਨ ਭਜਨ, ਰੋਹੇ ਰੋਹਲੇ ॥"
 page = 121
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The highly infuriated demons do not flee from the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋਧ ਨਾਲ ਭਰੇ ਹੋਏ ਗੁਸੈਲ ਰਾਖਸ਼ ਰਣ-ਭੂਮੀ ਵਿਚੋਂ ਭਜਦੇ ਨਹੀਂ ਸਨ।"

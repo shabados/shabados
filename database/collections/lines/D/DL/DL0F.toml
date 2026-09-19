@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਈ ਕਰੈ ਜੁ ਵਹ ਹਸ ਕਹਈ ॥"
 page = 965
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king always obeyed her and, happily complied with her wishes."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜਾ) ਉਹੀ ਕਰਦਾ ਜੋ ਉਹ ਹਸ ਕੇ ਕਹਿੰਦੀ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਾ ਨ ਚਿਤ ॥"
 page = 630
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ ਰਾਜ ਕੁਮਾਰੀ) ਨੇ ਚਿਤ ਵਿਚ ਨਾ ਲਿਆਂਦਾ।"

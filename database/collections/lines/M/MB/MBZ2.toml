@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਸਟ ਸਿਧ ਹ੍ਵੈ ਹੈ ਘਰਿ ਮਾਹਾਂ ॥"
 page = 72
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The malechha (barbarian) cannot touch their shadwow, the eight miraculous powers in their house."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੱਠ ਸਿੱਧੀਆਂ (ਉਨ੍ਹਾਂ ਦੇ) ਘਰ ਵਿਚ ਰਹਿੰਦੀਆਂ ਹਨ।"

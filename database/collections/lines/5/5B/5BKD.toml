@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਤਿ ਰੀਝਿ ਰਹੀ ਅਵਲੋਕਤਿ ਯੋ ॥"
 page = 1164
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਸੁੰਦਰਤਾ ਨੂੰ ਵੇਖ ਕੇ ਇਸ ਤਰ੍ਹਾਂ ਰੀਝ ਗਈ"

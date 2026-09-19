@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਨਕ ਪਾਇਆ ਨਾਮੁ ਨਿਧਾਨੁ ॥੪॥੩੩॥੪੬॥"
 page = 1149
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and he has obtained the treasure of the Lord's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਸਾਹਿਬ ਦੇ ਨਾਮ ਦਾ ਖਜਾਨਾ ਪਰਾਪਤ ਹੋ ਗਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Nanak has obtained the treasure of the Naam, the Name of the Lord. ||4||33||46||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਅਬ ਹਮਨੇ ਨਾਮੁ ਰੂਪੁ ਖਜਾਨਾ ਪਾਯਾ ਹੈ॥੩੩॥੪੬॥☬ਗੁਰੂ ਕੋ ਔ ਪਰਮੇਸ੍ਵਰ ਕੋ ਅਭੇਦ ਕਹਿ ਕਰ ਉਸਤ੍ਤੀ ਕਰਤੇ ਹੈਂ:"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਨਕ! ਉਸ ਨੇ ਨਾਮ-ਖ਼ਜ਼ਾਨਾ ਹਾਸਲ ਕਰ ਲਿਆ ॥੪॥੩੩॥੪੬॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਿਧਾਨੁ = ਖ਼ਜ਼ਾਨਾ ॥੪॥੩੩॥੪੬॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "entonces a uno le es entregado el Tesoro del Naam, el Nombre del Señor. (4-33-46)"

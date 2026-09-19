@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਟਿ ਕੋਟਿ ਬੁਲਾਇ ਰਿਤਜ; ਕੋਟਿ ਬ੍ਰਹਮ ਬੁਲਾਇ ॥"
 page = 140
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Million of ritual-conscious Brahmins were called."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਰੋੜਾਂ ਯੱਗ ਕਰਨ ਵਾਲੇ ਕਰਮਕਾਂਡੀਆਂ ('ਰਿਤਜ') ਨੂੰ ਅਤੇ ਕਰੋੜਾਂ ਬ੍ਰਾਹਮਣਾਂ ਨੂੰ ਬੁਲਾ ਲਿਆ।"

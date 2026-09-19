@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਛਜੂ ਭਲਾ ਜਾਣੀਐ; ਮਾਈ ਦਿਤਾ ਸਾਧੁ ਵਿਚਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Chhaju was Bhalla and Mai Ditta was a poor sadhu."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਛੱਜੂ ਭੱਲਾ, ਮਾਈ ਦਿੱਤਾ ਵੀਚਾਰ ਵਾਲੇ ਸਾਧ ਹਨ।"

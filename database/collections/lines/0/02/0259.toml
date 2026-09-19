@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਕਪੂਰ ਕਥੂਰੀਆ; ਅੰਬਰ ਮਹਿਕੰਦੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "With myriads camphor’s and musk’s the sky may be made full of fragrance;"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ ਕਪੂਰ ਲੱਖਾਂ ਕਸਤੂਰੀਆਂ ਅਰ ਲੱਖਾਂ ਮੁਸ਼ਕੰਬਰ ਮਹਿਕ ਰਹੇ ਹੋਣ।"

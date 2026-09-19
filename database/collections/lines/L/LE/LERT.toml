@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਯਾਦ ਆਮਦਸ਼ ਰੋਜ਼ਗਾਰੇ ਕੁਹਨ ॥੯੩॥"
 page = 1421
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And reminisced on the old days.(93)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇੰਜ ਕਰਦਿਆਂ ਉਸ ਨੂੰ ਬੀਤੇ ਦੀ ਯਾਦ ਆ ਗਈ ॥੯੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਵਰੁ ਚਾਰੁ ਚਹੂੰ ਓਰਿ ਢੁਰਤ; ਸੁੰਦਰ ਛਬਿ ਪਾਵਤ ॥"
 page = 696
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The fly-whisk is swinging on all the four sides and the setting is very fine"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਹਾਂ ਪਾਸੇ ਢੁਰਦਾ ਹੋਇਆ ਸੁੰਦਰ ਚੌਰ ਸੁੰਦਰ ਛਬੀ ਪਾ ਰਿਹਾ ਹੈ।"

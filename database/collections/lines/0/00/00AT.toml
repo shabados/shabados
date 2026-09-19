@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਿਯੋ ਰਾਮ ਬਾਲਾ ॥੧੧੨॥"
 page = 211
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Garlanded Ram and wedded him as her spouse.112."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ ਨਾਲ) ਸੀਤਾ ਨੇ ਰਾਮ ਨੂੰ ਵਰ ਲਿਆ ॥੧੧੨॥"

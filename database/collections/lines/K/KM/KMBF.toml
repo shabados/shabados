@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜਿ ਮੇਰ ਸ੍ਰਿੰਗ ਮਹਾਨ ॥"
 page = 673
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁਮੇਰ ਪਰਬਤ ਦੀ ਮਹਾਨ ਚੋਟੀ ਉਤੇ ਚੜ੍ਹ ਕੇ"

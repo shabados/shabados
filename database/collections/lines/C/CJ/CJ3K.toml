@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਮ ਕਰਮ ਸਬ ਹੂੰ ਤਜਿ ਦਏ ॥"
 page = 193
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The saints became devoid of saintliness and all abandoned the action of Dharma"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਭ ਨੇ ਧਰਮ-ਕਰਮ ਛੱਡ ਦਿੱਤੇ।"

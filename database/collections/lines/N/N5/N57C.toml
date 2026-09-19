@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਦਰਕਾਰ ਇਨਸਾਫ ਓ ਹਿੰਮਤ ਅਸਤ ॥"
 page = 1399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘To do the justice, he always girds up his lions,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਇਨਸਾਫ਼ ਕਰਨ ਵੇਲੇ ਹਿੰਮਤ ਕਰਦਾ ਹੈ"

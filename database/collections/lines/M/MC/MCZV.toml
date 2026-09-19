@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋਰ ਮਿਲਨ ਕੋ ਖ︀ਯਾਲ ਨ ਪਰੈ ॥"
 page = 975
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(He thought) ‘I must say something which she cannot do and abandon thought of meeting me."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਮੈਨੂੰ ਮਿਲਣ ਦੇ ਖ਼ਿਆਲ ਨਹੀਂ ਪਵੇਂਗੀ।"

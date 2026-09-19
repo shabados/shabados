@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਯ ਚਰਿਤ੍ਰ ਇਕ ਤੁਮੈ ਸੁਨੈਹੋ ॥"
 page = 853
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Listen, My Sovereign, I would relate a story now, which would Sooth your heart."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਹਾਨੂੰ ਇਕ ਤ੍ਰੀਆ ਚਰਿਤ੍ਰ ਸੁਣਾਉਂਦਾ ਹਾਂ"

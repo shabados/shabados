@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰਹਰਿ ਧੀਰੰ ॥੧੫੮॥"
 page = 566
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Forsaking good action, all will accept the enemy’s dharma and abandoning the forbearance, there will be sinful actions in every home.158."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧੀਰਜ ਨੂੰ ਤਿਆਗ ਦਿੱਤਾ ਹੈ ॥੧੫੮॥"

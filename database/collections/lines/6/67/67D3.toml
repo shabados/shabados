@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅਚਰਜ ਨੋ ਆਚਰਜੁ ਹੈ; ਅਚਰਜੁ ਹੋਵੰਦਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Even the most wonderful wonder becomes full of wonder in the presence of loving delight."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਅਚਰਜ ਤੋਂ ਜਿਹੜਾ ਵੱਡਾ ਅਚਰਜ ਹੈ, (ਉਹ ਬੀ) ਅਚਰਜ ਹੋ ਜਾਂਦਾ ਹੈ।"

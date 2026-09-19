@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਲ ਦੇਖਿ ਕਬਿ ਲੇਹੁ ਬਨਾਈ ॥੪॥"
 page = 551
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Therefore I have said it in brief and the poets will themselves improves my mistakes.4."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਥੇ ਕਿਥੇ) ਭੁਲ ਵੇਖੋ, ਤਾਂ ਹੇ ਕਵੀ ਜਨੋਂ! ਉਸ ਨੂੰ ਸੋਧ ਲੈਣਾ ॥੪॥"

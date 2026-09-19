@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮ ਨ ਸਕਤ ਕਰ ਸਿਫਤ ਤੁਮਾਰੀ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I cannot (have sufficient words to) praise Thee,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੇਰੀ ਸਿਫ਼ਤ ਨਹੀਂ ਕਰ ਸਕਦਾ।"

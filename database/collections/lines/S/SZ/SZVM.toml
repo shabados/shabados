@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਵੈ ਦਿਨ ਲਗੇ ਸੂਰਜ ਨਹਿ ਚੜਿਯੋ ॥੧੩॥"
 page = 1129
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੋ ਦਿਨਾਂ ਤਕ ਸੂਰਜ ਨਹੀਂ ਚੜ੍ਹਿਆ ॥੧੩॥"

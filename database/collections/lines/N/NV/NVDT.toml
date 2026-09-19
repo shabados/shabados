@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਸੀ ਦੂਸਰਿ ਜਗ ਮਹਿ ਨਾਹੀ ॥"
 page = 1247
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵਰਗੀ ਜਗ ਵਿਚ ਦੂਜੀ ਨਹੀਂ ਸੀ।"

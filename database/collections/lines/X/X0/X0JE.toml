@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਸਿੰਘ ਫਾਰੇ ॥"
 page = 114
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many brave fighters were torn by the lion and thrown on the ground."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਈਆਂ ਨੂੰ ਸ਼ੇਰ ਨੇ ਪਾੜ ਸੁਟਿਆ।"

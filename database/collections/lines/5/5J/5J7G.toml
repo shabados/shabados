@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹੀ ਤਜਾ ਗਏ ਜਬ ਪ੍ਰਾਨਾ ॥"
 page = 1335
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਹੀ (ਉਸ ਨੇ ਰਾਜੇ ਨੂੰ) ਛਡਿਆ, ਜਦ (ਉਸ ਦੇ) ਪ੍ਰਾਣ ਨਿਕਲ ਗਏ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਸਟਕਾ ਸਭ ਦੇਸ ਕੀ; ਸਭ ਦੇਸ ਕੀ ਜਿਉਨਾਰ ॥"
 page = 140
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Also the fuel-wood and food-materials from all countries"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਿਆਂ ਦੇਸਾਂ ਦੀ ਲਕੜੀ ਅਤੇ ਖਾਣ ਦੇ ਪਦਾਰਥ,"

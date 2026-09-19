@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੰਨ︀ਯ ਬੇਰ ਹਮ ਤੇ ਜਗਤ ਨਿਰਖਿ ਪਥਿਕ ਕੌ ਲੇਤ ॥"
 page = 836
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(She) ‘Worthy are those berries whom whole world can see,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਡੇ ਤੋਂ ਉਹ ਬੇਰ (ਬ੍ਰਿਛ) ਧੰਨ ਹੈ ਜੋ ਰਾਹੀਆਂ ਨੂੰ ਜਦੋਂ ਵੇਖ ਲੈਂਦਾ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਬਿਕ੍ਰਮ ਸਭ ਸੈਨ ਬੁਲਾਯੋ ॥"
 page = 922
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Bikrim called all his army."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਬਿਕ੍ਰਮਜੀਤ ਨੇ ਸਾਰੀ ਸੈਨਾ ਬੁਲਾ ਲਈ।"

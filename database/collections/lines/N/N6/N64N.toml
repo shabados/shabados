@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧੋ ਸੁ ਧੂਮ ਧੂਮਹੀ ॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many with faces upside down light the fire"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਨੇਕਾਂ ਲੋਕ) ਉਲਟੇ ਲਟਕ ਕੇ ਧੂਣੀਆਂ ਧੁਖਾਉਂਦੇ ਹਨ,"

@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਓਹੀ ਉਪਾਵਨਹਾਰੁ ਹੈ; ਗੁਰ ਸਬਦੀ ਜਾਪੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He, Himself, is the Creator, and is savoured through the Guru's Word."

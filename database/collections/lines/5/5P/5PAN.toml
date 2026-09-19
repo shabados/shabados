@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਬਿਚਾਰ ਹੈ ਭਟ ਏਕ ॥"
 page = 701
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ 'ਬਿਚਾਰ' ਨਾਂ ਦਾ ਸੂਰਮਾ ਹੈ,"

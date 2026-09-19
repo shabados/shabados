@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਗੜਦੰ ਰਹਸੇ ਪਾਗੜਦੰ ਪ੍ਰੇਤੰ ॥੩੭੧॥"
 page = 588
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors shouted, the horses danced, the fighters died and the ghosts etc. became pleased.371."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੂਤ-ਪ੍ਰੇਤ ਪ੍ਰਸੰਨ ਹੋ ਰਹੇ ਹਨ ॥੩੭੧॥"

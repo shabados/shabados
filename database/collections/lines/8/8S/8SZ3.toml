@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਜਾਣਕਾਰ # ਇਸ ਕਿਤਾਬ ਵਿਚ ਬਿਨਾਂ ਰੱਬ ਦੀ ਬੰਦਗੀ ਦੇ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਨੀਸਤ ਦਰ ਵੈ ਮੁੰਦਰਜ ਐ ਬਾ-ਖ਼ਬਰ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "O informed person! In this volume,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਣੇ ਸਰਬ ਭੂਪੰ ਸਰੇ ਸਰਬ ਕਾਜਾ ॥"
 page = 144
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He conquered all the kings and all his errands were set right."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਰਾਜੇ ਜਿਤ ਲਏ ਅਤੇ ਸਾਰੇ ਕੰਮ ਸੰਵਰ ਗਏ।"

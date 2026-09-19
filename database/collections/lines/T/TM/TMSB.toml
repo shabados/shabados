@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਧੇ ਗੋਲ ਸਾਮੁਹੇ ਆਏ ॥"
 page = 873
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਝੁੰਡ ਬਣਾ ਕੇ (ਰਾਜ ਕੁਮਰੀ ਦੇ) ਸਾਹਮਣੇ ਆਏ।"

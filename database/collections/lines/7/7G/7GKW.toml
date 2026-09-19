@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਮਾਣ ਬਾਣ ਧਾਰਹੀ ॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The arrow is fitted in the bow"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਕਮਾਨ ਵਿਚ ਬਾਣ ਧਰਿਆ ਹੋਇਆ ਹੈ,"

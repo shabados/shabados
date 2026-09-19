@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੋ ਚਰਿਤ ਚੰਚਲਾ ਕੀਨੋ ॥"
 page = 1052
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਦਾ ਚਰਿਤ੍ਰ ਇਸਤਰੀ ਨੇ ਕੀਤਾ"

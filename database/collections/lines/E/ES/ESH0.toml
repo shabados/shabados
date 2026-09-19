@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਸੁ ਅੰਦਰਿ ਰੰਗੁ; ਸੋਈ ਗੁਣ ਗਾਵੈ ॥"
 page = 114
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He who has Lord's love within him, sings the God's praises,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਵਿੱਚ ਪ੍ਰਭੂ ਦੀ ਪ੍ਰੀਤ ਹੈ, ਉਹ ਵਾਹਿਗੁਰੂ ਦਾ ਜੱਸ ਗਾਇਨ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Those who have the Lord's Love within, sing His Glorious Praises;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੇ ਮਨ ਮੇਂ ਪ੍ਰੇਮ ਹੈ, ਸੋਈ ਗੁਣ ਗਾਵਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਮਨੁੱਖ ਦੇ ਹਿਰਦੇ ਵਿਚ ਲਗਨ ਹੈ, ਉਹੀ ਸਦਾ ਪਰਮਾਤਮਾ ਦੀ ਸਿਫ਼ਤ-ਸਾਲਾਹ ਦੇ ਗੀਤ ਗਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰੰਗੁ = ਲਗਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél en el que el Amor radica, canta las Virtudes del Señor,"

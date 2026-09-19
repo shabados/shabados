@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬੰਧਨ ਕਾਟਨਹਾਰੁ. ਮਨਿ ਵਸੈ ॥"
 page = 1147
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "If the snapper of bonds bides in the mind,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੇਕਰ ਬੇੜੀਆਂ ਕੱਟਣ ਵਾਲਾ ਚਿੱਤ ਵਿੱਚ ਟਿਕ ਜਾਵੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "If the Lord, the Shatterer of bonds, abides in the mind,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਬੰਧਨ ਕਾਟਨਹਾਰ ਪਰਮੇਸ੍ਵਰ ਜੇਕਰ ਮਨ ਮੇਂ ਬਸ ਜਾਵੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਜਦੋਂ ਇਹ ਫਾਹੀਆਂ ਕੱਟ ਸਕਣ ਵਾਲਾ ਪਰਮਾਤਮਾ (ਮਨੁੱਖ ਦੇ) ਮਨ ਵਿਚ ਆ ਵੱਸਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਾਟਨਹਾਰੁ = ਕੱਟ ਸਕਣ ਵਾਲਾ ਪ੍ਰਭੂ। ਮਨਿ = ਮਨ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Si uno enaltece el Nombre de Dios,"

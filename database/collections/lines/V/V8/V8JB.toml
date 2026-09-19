@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਲੰਕ ਬਾਨਰੀ ਪੁਤੰ ॥"
 page = 259
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On the other side the monkeys are shrieking"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੰਦਰੀਆਂ ਦੇ ਪੁੱਤਰ ਕਿਲਕਾਰੀਆਂ ਮਾਰਦੇ ਹਨ।"

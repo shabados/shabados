@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਗ਼ਰ ਦਾਨਹ ਰਾ ਬਸਤ ਮੂੰਗੀ ਪਟਨ ॥"
 page = 1396
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The recording scribe picked up the pen,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੂਜੇ (ਮੂੰਗੀ ਦੇ) ਦਾਣੇ (ਦੀ ਆਮਦਨ) ਤੋਂ ਮੂੰਗੀ-ਪਟਨ (ਨਾਂ ਦਾ ਸ਼ਹਿਰ) ਵਸਾਇਆ"

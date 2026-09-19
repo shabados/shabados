@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਦੁਤਿਯ ਸਖੀ ਲੈ ਪਾਗ; ਚਲਾਇ ਬਹੁਰਿ ਦਈ ॥੧੪॥"
 page = 1139
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੂਜੀ ਸਖੀ ਨੇ ਪਗੜੀ ਚੁਕ ਕੇ ਫਿਰ ਸੁਟ ਦਿੱਤੀ ॥੧੪॥"

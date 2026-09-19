@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਪ ਸੈਨ ਇਹ ਜਾਤ ਨ ਲਹੀ ॥"
 page = 650
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿ ਇਸ ਪੇਂਜੇ) ਨੇ ਰਾਜੇ ਦੀ ਸੈਨਾ ਨੂੰ ਜਾਂਦਿਆਂ ਵੇਖਿਆ ਤਕ ਨਹੀਂ,"

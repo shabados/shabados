@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਰ ਜਾਨਿ ਕੈ ਪਰਿ ਪਾਇ ॥"
 page = 673
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The enthusiastic sage, accepted her as his Guru, fell at her feet"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਗੁਰੂ ਜਾਣ ਕੇ ਪੈਰੀਂ ਪੈ ਗਿਆ।"

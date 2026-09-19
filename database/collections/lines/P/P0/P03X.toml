@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਵ ਦੈਤ ਦਾਨਵ ਮਨ ਮੋਹੈ ॥੩੧੬॥"
 page = 1381
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੇਵਤਿਆਂ ਤੇ ਦੈਂਤਾਂ ਦਾ ਮਨ ਮੋਹ ਰਹੇ ਹੋਣ ॥੩੧੬॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾ ਤੋ ਯਾ ਕਹ ਦੇਸ ਨਿਕਰਿਯੈ ॥੩॥"
 page = 919
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Either Madhwan may be killed or should be banish:d from the village,(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਹੀਂ ਤਾਂ ਇਸ ਨੂੰ ਦੇਸ ਨਿਕਾਲਾ ਦੇ ਦਿਓ ॥੩॥"

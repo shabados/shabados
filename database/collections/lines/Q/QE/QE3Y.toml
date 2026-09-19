@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਅਮਿਤ ਕੋਪ ਤਬ ਤਯੋ ॥"
 page = 977
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਰੁਦ੍ਰ ਦਾ) ਗੁੱਸਾ ਹੋਰ ਭੜਕ ਉਠਿਆ"

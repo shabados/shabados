@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਕਾਸੋ ਸਬੈ ਆਪੁ ਆਪੰ ਪ੍ਰਕਾਰੰ ॥"
 page = 678
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All sitting there held consultations in their own way regarding Vedic learning"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਆਪਣੀਆਂ ਆਪਣੀਆਂ ਜੁਗਤਾਂ ਨੂੰ ਪ੍ਰਗਟ ਕਰਦੇ ਸਨ।"

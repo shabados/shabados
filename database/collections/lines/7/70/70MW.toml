@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਸੁੰਧਰੇਸਣੀ ਆਦਿ; ਉਚਾਰਨ ਕੀਜੀਐ ॥"
 page = 796
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਬਸੁੰਧਰੇਸਣੀ' (ਪ੍ਰਿਥਵੀ ਪਤੀ ਦੀ ਸੈਨਾ) (ਸ਼ਬਦ) ਨੂੰ ਉਚਾਰੋ।"

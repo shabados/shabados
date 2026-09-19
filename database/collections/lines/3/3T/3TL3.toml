@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਕਟ ਕੇਤੁ ਕੀ ਗਡੀ ਪਛਾਨੋ ॥"
 page = 1278
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਕਟ ਕੇਤੁ (ਰਾਜੇ) ਦੀ ਦਬੀ ਹੋਈ ਸਮਝੋ।"

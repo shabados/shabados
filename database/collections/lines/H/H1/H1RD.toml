@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੰਡੇ ਬੀਰ ਹੰਕੰ ॥੬੩॥"
 page = 70
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors on whose faces there are winsome whiskers, they are shouting very loudly.63."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਵੀਰ ਲਲਕਾਰੇ ਮਾਰ ਰਹੇ ਹਨ ॥੬੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭੇ ਮਾਰ ਗਿਰਾਈਆਂ, ਅੰਦਰਿ ਖੇਤ ਦੈ ॥"
 page = 125
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The goddess hath killed and thrown on the ground in the battlefield (all the forms of Sranwat Beej)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੇਵੀ ਨੇ ਰਕਤਬੀਜ ਦੀਆਂ ਸਾਰੀਆਂ ਸੂਰਤਾਂ ਨੂੰ) ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਮਾਰ ਕੇ ਡਿਗਾ ਦਿੱਤਾ ਹੈ।"

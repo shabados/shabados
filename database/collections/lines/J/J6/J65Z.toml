@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਮਤਕਾਰ ਛੁਟੈ ॥੨੭੩॥"
 page = 578
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Where the warriors are fighting in the battlefield, there is much pomp and show, when the lances are turned upside down, there appears a miracle (that all the warriors re killed).273."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ ਨੇਜ਼ਿਆਂ ਵਿਚੋਂ) ਚਮਕਾਰੇ ਨਿਕਲ ਰਹੇ ਹਨ ॥੨੭੩॥"

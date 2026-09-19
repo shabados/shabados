@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪੁ ਘੜਾ ਜਾਨੁਕ ਕਰਤਾਰਾ ॥"
 page = 1286
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਪਰਮਾਤਮਾ ਨੇ ਆਪ ਘੜਿਆ ਹੋਵੇ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹਰੀ ਕੁਹੀ ਸਿਚਾਨ ਸਮਾਜਾ ॥"
 page = 1256
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹਿਰੀ, ਕੂਹੀ ਆਦਿ ਸ਼ਿਕਾਰੀ ਪੰਛੀ (ਨਾਲ ਲੈ ਲਏ)।"

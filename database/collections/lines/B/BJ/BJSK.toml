@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਲਾ ਸਰੂਪ ਰੂਪ ਤਿਹ ਜਾਨਾ ॥"
 page = 552
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਸਰੂਪ ਪੱਥਰ ਰੂਪ (ਭਾਵ ਮੂਰਤੀ) ਜਾਣਨਾ ਚਾਹੀਦਾ ਹੈ।"

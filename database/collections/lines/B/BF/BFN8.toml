@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਨ੍ਰਹ ਜੂ ਬਾਚ ਗ੍ਵਾਰਿਨ ਸੋ ॥"
 page = 355
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Krishna addressed to the gopis:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰਿਸ਼ਨ ਜੀ ਨੇ ਗੋਪੀਆਂ ਨੂੰ ਕਿਹਾ:"

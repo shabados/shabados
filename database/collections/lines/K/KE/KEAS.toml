@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੂੰ ਵਡ ਸਾਹੁ; ਜਾ ਕੇ ਕੋਟਿ ਵਣਜਾਰੇ ॥"
 page = 181
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thou art the great Merchant, who has million of dealers."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਵਡਾ ਵਣਜਾਰਾ ਹੈ ਜਿਸ ਦੇ ਕਰੋੜਾਂ ਹੀ ਹਟਵਾਣੀਏ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "You are the Great Merchant; You have millions of traders."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਐਸਾ ਵੱਡਾ ਸਾਹ ਹੈਂ ਜਿਸ ਕੇ ਕ੍ਰੋੜੋਂ ਜਗ੍ਯਾਸੂ ਰੂਪ ਵਣਜਾਰੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਤੂੰ ਸਭ ਤੋਂ ਵੱਡਾ ਹੈਂ, ਕ੍ਰੋੜਾਂ ਜੀਵ ਤੇਰੇ ਵਣਜਾਰੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਾ ਕੇ = ਜਿਸ ਦੇ। ਕੋਟਿ = ਕ੍ਰੋੜਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mi Señor es el Gran Mercader;"

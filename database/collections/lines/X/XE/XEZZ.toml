@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੁਮਾ ਅਸਪ ਪਾ ਸਦ ਹਜ਼ਾਰ ਆਵਰੀਦ ॥"
 page = 1396
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Through one seed of moong, he raised a city,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪੰਜ ਲੱਖ ਘੋੜੇ ਵੀ ਲੈ ਆਇਆ"

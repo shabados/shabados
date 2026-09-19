@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਫਿਰ ਮੰਦੇ ਚੰਗੇ ਭਾਗਾਂ ਨੂੰ ਪੱਤਰੀ ਵਿਚ ਲਿਖਦੇ ਹਨ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬਰ ਨਿਗਾਰੰਦ ਨਹਿਸੋ ਸਾਅਦ ਹਮੇ ॥"
 page = 1
 line = 44
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Then they pen down their good and not-so-good fortunes in their horoscopes,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਚਤ ਭਯੋ ਜਬ ਹੀ ਰਨ ਦਾਰੁਨ ॥"
 page = 1365
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਭਿਆਨਕ ਯੁੱਧ ਸ਼ੁਰੂ ਹੋ ਗਿਆ"

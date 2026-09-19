@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾਹਿ ਸਿਖ︀ਯ ਜੋ ਹਮੈ ਬਤਾਵੈ ॥"
 page = 838
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਬਾਰੇ ਜੋ ਸਿੱਖ ਸਾਨੂੰ ਦਸੇਗਾ,"

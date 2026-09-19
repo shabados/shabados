@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰ ਕਾ ਸਬਦੁ; ਕਹੁ ਹਾਂ ॥"
 page = 410
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Utter thou the hymns of the Guru."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਗੁਰਾਂ ਦੀ ਬਾਣੀ ਦਾ ਉਚਾਰਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Chant the Word of the Guru's Shabad."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੋਂ ਕਾ ਉਪਦੇਸ ਕਥਨ ਕਰੁ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਦਾ ਗੁਰੂ ਦੀ ਬਾਣੀ ਉਚਾਰਦਾ ਰਹੁ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਹੁ = ਉਚਾਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y recita sólo la Palabra del Guru."

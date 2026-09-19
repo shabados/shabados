@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰਾ ਦਿਲ ਅਤੇ ਜਾਨ ਹਰ ਸਵੇਰੇ ਅਤੇ ਸ਼ਾਮ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦਿਲੋ ਜਾਨਮ ਬ-ਹਰ ਸਬਾਹੋ ਮਸਾ ॥"
 page = 1
 line = 1
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Every morning and evening, my heart and soul,"

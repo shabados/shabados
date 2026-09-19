@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣ ਹੇਰਿ ਅਗੰਮ ਅਨੂਪ ਹਰੰ ॥"
 page = 189
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਦੇ ਅਦੁੱਤੀ ਅਤੇ ਅਗੰਮੀ ਯੁੱਧ ਨੂੰ ਵੇਖ ਕੇ,"

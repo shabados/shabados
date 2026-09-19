@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਣ ਜਛ ਭੁਜੰਗ ਸੁ ਕਿੰਨਰ ਸਿਧ ਪ੍ਰਸਿਧ ਸਬੈ ਜਸੁ ਗਾਵਹਿਗੇ ॥"
 page = 565
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Ganas, Yakshas, Nagas, Kinnars and all famous adepts will eulogise Hiim"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗਣ, ਯਕਸ਼, ਸੱਪ ਅਤੇ ਕਿੰਨਰ ਅਤੇ ਪ੍ਰਸਿੱਧ ਸਿੱਧ ਲੋਕ ਸਾਰੇ ਜਸ ਦਾ ਗਾਇਨ ਕਰਨਗੇ।"

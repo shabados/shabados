@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਦਸ ਤੁਯੰ ॥੩॥੬੯॥"
 page = 134
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Indescribable.3.69."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੂੰ ਹੀ ਦਸੇ ਜਾਣ ਤੋਂ ਬਾਹਰ ਹੈ ॥੩॥੬੯॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਈਸਰਣਿ ਆਦਿ ਬਖਾਨਿ ਕੈ; ਰਿਪੁ ਅਰਿ ਉਚਰਹੁ ਅੰਤਿ ॥"
 page = 737
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਈਸਰਣਿ' (ਸੁਆਮੀ ਦੀ ਸੈਨਾ) ਕਹਿ ਕੇ ਅੰਤ ਉਤੇ 'ਰਿਪੁ ਅਰਿ' ਕਥਨ ਕਰੋ।"

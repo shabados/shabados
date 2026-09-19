@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕੌ ਕੋਪਿ ਬ੍ਰਿਛ ਕੀ ਮਾਰੈ ॥"
 page = 1071
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਕ੍ਰੋਧਿਤ ਹੋ ਕੇ ਬ੍ਰਿਛ (ਦੀ ਸਟ) ਮਾਰਦਾ ਸੀ,"

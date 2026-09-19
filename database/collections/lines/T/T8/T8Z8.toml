@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਦੇ ਨ ਹੋਵੈ ਘਟਿ; ਸਚੀ ਪਤਿਸਾਹੀਐ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The warehouse of the True King is never deficient."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਦੇ ਬੀ ਘੱਟ ਨਹੀਂ ਹੋਊ (ਕਿਉਂਕਿ) ਸੱਚੇ ਦੀ ਪਾਤਸ਼ਾਹੀ ਦਾ ਹੈ।"

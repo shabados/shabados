@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਪਟ ਸਨੇਹੀ, ਉਜੜ ਖੋਲੇ ॥੧੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Such a cheat is like an abandoned and desolate place."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਪਟੀ ਲੋਕ ਉੱਜੜੇ ਘਰ ਵਾਂਙੂੰ ਹਨ।"

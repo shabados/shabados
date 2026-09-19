@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਪਾਸ ਕੇ ਹੋਤ ਹੈ; ਚਤੁਰ ਲੀਜੀਅਹੁ ਚੀਨ ॥੪੦੬॥"
 page = 735
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying the word “Khal”, then adding “Yaantak’ at the end, O wise men! the names of Paash are formed, which you may recognize.406."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਪਾਸ ਦੇ ਨਾਮ ਬਣ ਜਾਂਦੇ ਹਨ। ਚਤੁਰ ਲੋਗ ਵਿਚਾਰ ਲੈਣ ॥੪੦੬॥"

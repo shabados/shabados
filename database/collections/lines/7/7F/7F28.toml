@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਣ ਘਣ ਗਾਜੇ ॥"
 page = 196
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Such a sound is being heard in the battlefield as if the clouds are thundering."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਬੱਦਲ ਗੱਜਦੇ ਹੋਣ।"

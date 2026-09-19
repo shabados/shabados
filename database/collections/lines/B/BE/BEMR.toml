@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬਲਾ ਮਨੁ ਤਾ ਕੈ ਕਰ ਦਯੋ ॥"
 page = 1104
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀ (ਰਾਣੀ) ਨੇ ਆਪਣਾ ਮਨ ਉਸ (ਚੰਡਾਲ) ਨੂੰ ਦੇ ਦਿੱਤਾ।"

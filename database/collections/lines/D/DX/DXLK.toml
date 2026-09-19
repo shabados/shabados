@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਵਨ ਸੁ ਕਬਿ, ਤਿਹ ਪ੍ਰਭਾ ਉਚਾਰੈ ॥"
 page = 1004
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਹੜਾ ਕਵੀ ਉਸ ਦੀ ਪ੍ਰਭਾ ਦਾ ਬਖਾਨ ਕਰ ਸਕਦਾ ਹੈ।"

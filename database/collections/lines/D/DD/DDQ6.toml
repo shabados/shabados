@@ -1,29 +1,29 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਲਾਹ ਹੈਂ ॥"
 page = 3
 line = 8
 
 [[content]]
-asset = "JSTS"
+assets = ["JSTS"]
 type = "note"
 language = "pa"
 data = "\"ਅਲਾਹ\" ਦਾ ਉਚਾਰਨ \"ਅੱਲਾਹ\" ਨਹੀਂ ਹੈ। \"ਅ-ਲਾਹ\" ਦਾ ਭਾਵ ਹੈ ਅਲੱਭ।"
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Unbound Lord!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਲਾਭ (ਲਾਹ) ਪ੍ਰਾਪਤ ਕਰਨ ਤੋਂ ਮੁਕਤ ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਅਲਾਹ ਹੈਂ ॥"

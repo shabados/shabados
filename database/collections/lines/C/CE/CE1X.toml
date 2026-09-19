@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਰੇਗਾ ਨਾ ਬਾ ਯਕ ਦਿਗ਼ਰ ਰੇਖ਼ਤਮ ॥੩੯॥"
 page = 1416
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘And neither could we copulate each other.’(39)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖੇਦ ਹੈ ਕਿ ਇਕ ਦੂਜੇ ਨੂੰ ਮਿਲ ਕੇ ਡਿਗੇ ਵੀ ਨਹੀਂ ਹਾਂ ॥੩੯॥"

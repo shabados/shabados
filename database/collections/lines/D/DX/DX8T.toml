@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪ੍ਰਭ; ਇਹੈ ਮਨੋਰਥੁ ਮੇਰਾ ॥"
 page = 533
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O Lord, this alone is my heart's desire."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੁਆਮੀ! ਕੇਵਲ ਏਹੀ ਮੇਰੇ ਦਿਲ ਦੀ ਚਾਹਨਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "God, this is my heart's desire:"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਮੇਰਾ ਮਨੋਰਥ ਇਹੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਮਨ ਦੀ ਇਹੀ ਤਾਂਘ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨੋਰਥੁ = ਮਨ ਦੀ ਤਾਂਘ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Señor, oh Tesoro de Misericordia,"

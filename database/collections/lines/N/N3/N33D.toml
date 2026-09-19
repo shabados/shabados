@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਸਮ ਦੁਖ ਜਗ ਦੂਸਰ ਨਾਹੀ ॥੧੧॥"
 page = 878
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The day when one’s companion is taken away, that day becomes most agonizing.( 11)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵਰਗਾ ਸੰਸਾਰ ਵਿਚ ਹੋਰ ਕੋਈ ਦੁਖ ਨਹੀਂ ਹੁੰਦਾ ॥੧੧॥"

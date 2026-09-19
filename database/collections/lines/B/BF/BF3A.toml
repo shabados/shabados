@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਗੀ ਰਹੀ ਜਾ ਕੀ ਜਿਯ ਆਸ ॥"
 page = 1322
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਉਸ ਦੇ ਮਨ ਵਿਚ ਉਸ (ਯਾਰ) ਦੀ ਆਸ ਲਗੀ ਰਹੀ।"

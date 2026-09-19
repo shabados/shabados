@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਯੋ ਰਾਮ ਪਾਨੰ ॥"
 page = 211
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮ ਨੇ (ਸ਼ਿਵ ਧਨੁਸ਼ ਨੂੰ) ਹੱਥ ਵਿੱਚ ਚੁੱਕ ਲਿਆ"

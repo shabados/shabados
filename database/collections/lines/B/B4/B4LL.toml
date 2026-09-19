@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹਿ ਰਜੀਆ ਕਾ ਪੁਤ ਮਹਾਬਲ ॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“This son of the maid-servant is a mighty warriors,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਰਜੀਆ (ਦਾਸੀ) ਦਾ ਪੁੱਤਰ ਬਹੁਤ ਬਲਵਾਨ ਹੈ"

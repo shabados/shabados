@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰੀ ਮੂਰਛਨਾ ਹ੍ਵੈ ਧਰਨਿ; ਬਿਧੀ ਬਿਰਹ ਕੇ ਬਾਨ ॥੧੫॥"
 page = 946
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "wisdom becoming unconscious, fell flat on the ground.(15)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਰਹੋਂ ਦੇ ਬਾਣ ਦੀ ਵਿੰਨ੍ਹੀ ਹੋਈ ਧਰਤੀ ਉਤੇ ਮੂਰਛਿਤ ਹੋ ਕੇ ਡਿਗ ਪਈ ॥੧੫॥"

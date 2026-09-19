@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਰਿ ਗੜ ਕੋਟ ਹਜਾਰ, ਰਾਜ ਕਮਾਵਣੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Constructing thousands of forts people rule over them"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਿਲ੍ਹੇ ਤੇ ਕੋਟ ਹਜ਼ਾਰਾਂ ਤਣਵਾਕੇ ਰਾਜ ਕਰਦੇ ਹਨ। ('ਜਿਨਿ ਗੜ ਕੋਟਿ ਕੀਏ ਕੰਚਨ ਕੇ ਛੋਡਿ ਗਇਆ ਸੋ ਰਾਵਨੂ”ੇ"

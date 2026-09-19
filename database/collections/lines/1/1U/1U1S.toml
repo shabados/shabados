@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੇ ਕਹੈ ਅਬਲਾ ਮਨ ਮਾਹੀ ॥੨੫॥"
 page = 956
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘As I have no dearth of wealth,’ and this way the destitute kept on planning,(25)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਇਸਤਰੀ ਆਪਣੇ ਮਨ ਵਿਚ ਕਹਿੰਦੀ ਹੈ ॥੨੫॥"

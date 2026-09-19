@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਚ ਕਮਾਨ ਛਾਡਿ ਸਰ ਦੀਨੋ ॥"
 page = 445
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Krishna took the Yakshastra (the arm relating to Yakshas) in his hand and pulling his bow discharged it"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਮਾਨ ਉਤੇ ਚਿਲਾ ਚੜ੍ਹਾ ਕੇ ਤੀਰ ਛਡ ਦਿੱਤਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯੌ ਗ੍ਰਿਹ ਕੌ ਦਰਸਨ ਨਹਿ ਕਰੈ ॥੬॥"
 page = 889
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Either he should kill the deer or should never came back to’ show me his face.(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸ ਤਰ੍ਹਾਂ ਘਰ ਆ ਕੇ ਸ਼ਕਲ ਨਾ ਦਿਖਾਏ ॥੬॥"

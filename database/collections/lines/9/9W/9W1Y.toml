@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇਕ ਭਾਜ ਚਾਲੀਯੰ; ਸੁਰੇਸ ਲੋਗ ਕੋ ਗਏ ॥"
 page = 197
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿੰਨੇ ਹੀ ਦੈਤ ਭੱਜ ਕੇ ਇੰਦਰ ਪੁਰੀ ਵੱਲ ਚਲੇ ਗਏ।"

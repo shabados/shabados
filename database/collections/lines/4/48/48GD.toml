@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗਣਤੈ. ਪ੍ਰਭੂ ਨ ਪਾਈਐ; ਦੂਜੈ ਭਰਮੀਤਾ ॥"
 page = 510
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Through count the Lord is not attained and the man wanders in the love of another."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਲੇਖੇ ਪੱਤੇ ਰਾਹੀਂ ਸਾਹਿਬ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੁੰਦਾ ਅਤੇ ਇਨਸਾਨ ਦਵੈਤ-ਭਾਵ ਅੰਦਰ ਭਟਕਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "God cannot be obtained by counting; the mortal wanders in doubt."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਰਮੋਂ ਕੀ ਗਿਨਤੀਓਂ ਸੇ ਪ੍ਰਭੂ ਕੋ ਨਹੀਂ ਪਾਈਤਾ ਦ੍ਵੈਤ ਭਾਉ ਸੇ ਭਰਮੀਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ ਮਾਇਆ ਦੀਆਂ ਹੀ) ਵਿਚਾਰਾਂ ਕੀਤਿਆਂ ਪ੍ਰਭੂ ਨਹੀਂ ਮਿਲਦਾ, (ਸਗੋਂ) ਮਾਇਆ ਵਿਚ ਹੀ ਭਟਕੀਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗਣਤੈ = ਗਣਤ ਨਾਲ, ਵਿਚਾਰਾਂ ਨਾਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Uno es engañado por el otro; encontrando al Verdadero Guru, uno muere para su ego."

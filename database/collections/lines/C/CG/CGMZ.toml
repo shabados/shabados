@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਊਖਾ ਨਿਜੁ ਪਿਤੁ ਕੇ ਨਿਰਖਿ; ਨੈਨ ਰਹੀ ਨਿਹੁਰਾਇ ॥"
 page = 1016
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On seeing, her father has arrived, she put her eyes down in shame. And said (to the lover),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਊਖਾ ਨੇ ਆਪਣੇ ਪਿਤਾ ਨੂੰ ਵੇਖ ਕੇ ਅੱਖਾਂ ਨੀਵੀਆਂ ਕਰ ਲਈਆਂ।"

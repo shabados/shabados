@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਟਕਾ ਟੂਕ ਟੋਪੰ ॥"
 page = 208
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Various sounds arose in the battlefield and there were knocking on the helmets."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਟੱਕਾ-ਟੱਕ' ਕਰਕੇ ਟੋਪ ਟੁੱਟਦੇ ਸਨ।"

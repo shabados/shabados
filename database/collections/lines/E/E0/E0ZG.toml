@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਹੈ ਜੁਧ ਮੋ ਸੋ ਕਰੇ ਆਨਿ ਕੋਊ ॥"
 page = 165
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They wanted that some brave warriors may come forward to fight with them"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੋਵੇਂ) ਚਾਹੁੰਦੇ ਸਨ ਕਿ ਕੋਈ (ਸਾਡੇ ਨਾਲ) ਆ ਕੇ ਯੁੱਧ ਕਰੇ।"

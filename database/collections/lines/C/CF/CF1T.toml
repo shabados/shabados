@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੈਠਿ ਅੰਧੇਰੇ ਧਾਮ ਮਹਿ; ਕਾਢਿ ਲਈ ਕਰਵਾਰਿ ॥"
 page = 855
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the house when it was dark, she took the sword out,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਹਨੇਰ ਘਰ ਵਿਚ ਵੜ ਕੇ ਤਲਵਾਰ ਕਢ ਲਈ"

@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਨਿ ਦੀਨੀ; ਸੋਭਾ ਵਡਿਆਈ ॥"
 page = 177
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Who has given thee renown and greatness."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਤੈਨੂੰ ਨਾਮਵਰੀ ਤੇ ਬਜੁਰਗੀ ਦਿੱਤੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He has given you fame and greatness;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਜਿਸ ਨੇ (ਸੋਭਾ) ਉਸਤਤੀ ਤਥਾ (ਵਡਿਆਈ) ਪ੍ਰਤਿਸਟਾ ਦਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਮੈਨੂੰ ਸੋਭਾ ਦਿੱਤੀ ਹੈ ਵਡਿਆਈ ਬਖ਼ਸ਼ੀ ਹੈ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sin que tú intervinieras en nada."

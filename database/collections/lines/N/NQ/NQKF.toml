@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਗਜ ਦੀਪ ਸਭੈ ਕਰਿ ਕੈ; ਅਰੁ ਸਾਤ ਸਮੁੰਦ੍ਰਨ ਕੀ ਮਸੁ ਕੈਯੈ ॥"
 page = 1192
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਦੀਪਾਂ (ਟਾਪੂਆਂ) ਨੂੰ ਕਾਗ਼ਜ਼ ਬਣਾ ਕੇ ਅਤੇ ਸੱਤ ਸਮੁੰਦਰਾਂ ਦੀ ਸਿਆਹੀ ਕਰ ਲਈਏ।"

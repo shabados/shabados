@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਗਤ ਏਕ ਕਿਨਾਰੇ ਭਏ ॥੪੮॥"
 page = 964
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Swimming and swirling they went a long way and touched the bank.(48)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਕ ਥਾਂ ਕੰਢੇ ਜਾ ਲਗੇ ॥੪੮॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਸੈ ਚਿਤ੍ਰ ਰੂਪੰ ਬਚਿਤ੍ਰੰ ਅਪਾਰੰ ॥"
 page = 144
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her wonderful and infinite beauty glistened like a painting."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ) ਅਪਾਰ ਅਤੇ ਵਿਚਿਤ੍ਰ ਚਿਤਰ ਵਰਗਾ ਸਰੂਪ ਚਮਕਦਾ ਸੀ,"

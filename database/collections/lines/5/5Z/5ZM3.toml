@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਵਾਇ ਸੁਣਾਏ ਛਾਣਨੀ; ਤਿਸੁ ਉਠ ਉਠਾਲੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "With the sound of the seive it is vain to cause the camel to get up."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਊਠ ਨੂੰ ਛਾਨਣੀ ਵਜਾਕੇ (ਕੋਈ) ਸੁਣਾਵੇ ਕਿ ਉਹ (ਡਰਕੇ) ਉਠ ਖੜੋਵੇ।"

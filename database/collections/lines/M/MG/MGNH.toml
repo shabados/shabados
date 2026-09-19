@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪਰਬਤ ਦੋਖ ਮਹਾ ਬਿਕਰਾਲਾ ॥"
 page = 742
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The mountain like most dreadful sins of mine,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਪਹਾੜ ਵਰਗੇ ਪਰਮ ਭਿਆਨਕ ਪਾਪ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Even huge mountains of sin and corruption"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਪਰਬਤ) ਬੜੇ ਦੋਸ਼ ਜੋ ਅਤੀ ਭੈਦਾਇਕ ਥੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! (ਸਰਨ ਆਏ ਮਨੁੱਖ ਦੇ) ਪਹਾੜਾਂ ਜੇਡੇ ਵੱਡੇ ਤੇ ਭਿਆਨਕ ਐਬ-"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਰਬਤ ਦੋਖ = ਪਹਾੜ ਜੇਡੇ ਐਬ। ਬਿਕਰਾਲਾ = ਡਰਾਉਣੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Los errores que parecen ser tan amenazantes como el pico de la montaña más alta,"

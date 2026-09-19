@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਭੇਖ ਰੰਕ ਕੋ ਕਿਯੋ ॥੧੦॥"
 page = 887
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘A priest had passed a curse on the Raja that he would become a pauper.(10)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਲਈ ਉਸ ਨੇ ਗ਼ਰੀਬ ਦਾ ਭੇਸ ਧਾਰਨ ਕੀਤਾ ਹੈ ॥੧੦॥"

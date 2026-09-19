@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਅਸਤੁਆ ਅਕਾਰੰ ॥"
 page = 137
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou Thyself manifestest Thy Forms"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਓਅੰਕਾਰ ਹੀ ਤੇਰਾ ਆਕਾਰ ਹੈ,"

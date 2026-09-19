@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੰਤ ਜਨਾ ਕਾ ਸਦਾ ਸਹਾਈ ॥"
 page = 898
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He is ever the succourer of His saints."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਆਪਣਿਆਂ ਸਾਧੂਆਂ ਦਾ ਹਮੇਸ਼ਾਂ ਸਹਾਇਕ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He is forever the helper and support of the humble Saints."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ  ਸੰਤ ਜਨੋਂ ਕਾ ਸਦਾ ਸਹਾਈ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਆਪਣੇ ਸੰਤਾਂ ਦਾ ਸਦਾ ਮਦਦਗਾਰ ਹੁੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਹਾਈ = ਮਦਦਗਾਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Es el Eterno Compañero y Amigo de los Santos;"

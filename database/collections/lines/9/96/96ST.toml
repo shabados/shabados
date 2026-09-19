@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਇਓ ਕੋਪ ਰਾਜਾ ਗਹੇ ਬਿਪ੍ਰ ਸਰਬੰ ॥"
 page = 144
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king in great fury caught hold of all the Brahmins."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ ਹੋਏ ਰਾਣੀ ਦੇ ਅਨਾਦਰ ਕਰਕੇ) ਰਾਜਾ ਕ੍ਰੋਧ ਨਾਲ ਭਰ ਗਿਆ ਅਤੇ ਸਾਰੇ ਬ੍ਰਾਹਮਣ ਪਕੜ ਲਏ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਨਕ ਸਿਮਰੈ; ਨਾਮੁ ਨਿਧਾਨੁ ॥੪॥੬੬॥੧੩੫॥"
 page = 193
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "so that Nanak may meditate on thine Name-treasure."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਕਿ ਨਾਨਕ ਤੇਰੇ ਨਾਮ ਦੇ ਖ਼ਜ਼ਾਨੇ ਦਾ ਆਰਾਧਨ ਕਰੇ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "upon Nanak, that he may meditate on the treasure of the Naam. ||4||66||135||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਤੇਰਾ ਨਾਮ ਜੋ ਨਿਧਾਨ ਹੈ ਤਿਸ ਕੋ ਸਿਮਰਨ ਕਰੂੰ॥੪॥੬੬॥੧੩੫॥☬ਸੰਤ ਜਨੋ ਕੀ ਉਪਮਾ:"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤਾ ਕਿ ਤੇਰਾ ਦਾਸ ਨਾਨਕ ਤੇਰਾ ਨਾਮ ਸਿਮਰਦਾ ਰਹੇ (ਤੇਰਾ ਨਾਮ ਹੀ ਤੇਰੇ ਦਾਸ ਵਾਸਤੇ ਸਭ ਸੁਖਾਂ ਦਾ) ਖ਼ਜ਼ਾਨਾ ਹੈ ॥੪॥੬੬॥੧੩੫॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਾਨਕ = ਹੇ ਨਾਨਕ! ਨਿਧਾਨੁ = ਖ਼ਜ਼ਾਨਾ ॥੪॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "para que pueda habitar en Tu Nombre, oh Tesoro de toda Virtud. (4-66-135)"

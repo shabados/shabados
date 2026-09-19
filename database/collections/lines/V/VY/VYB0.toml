@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰਨ ਕੀ ਸੁ ਕਹਾ ਗਨਤੀ; ਜੁ ਬਡੇ ਭਟ ਜੀਵਤ ਜਾਨ ਨ ਪਾਵੈ ॥੧੨੨੩॥"
 page = 420
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What was number of others? Even the great warriors could not go alive from that place.1223."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਰਾਂ ਦੀ ਤਾਂ ਕੀ ਗਿਣਤੀ ਹੈ, ਜੋ ਵੱਡੇ ਵੱਡੇ ਯੋਧੇ ਹਨ, (ਉਹ ਵੀ) ਜੀਉਂਦੇ ਜਾ ਨਹੀਂ ਸਕਦੇ ॥੧੨੨੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੋਰ ਕੋਟਕੰ ਬ੍ਰਤੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Millions hold million types of fasts."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਰੋੜਾਂ ਵਾਰ ਕਰੋੜਾਂ ਤਰ੍ਹਾਂ ਦੇ ਬ੍ਰਤ ਧਾਰਨ ਕਰੇ,"

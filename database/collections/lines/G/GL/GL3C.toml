@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਸ ਤੋਰਨ ਕੀਜੀਐ; ਤਕ ਛਾਡੀਐ ਤੁਹਿ ਬਾਲ ॥੨੦੨॥"
 page = 220
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“And destroyed you, but I let you go because you are a woman.”202."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਤੇਰਾ ਨਾਸ ਨਹੀਂ ਕਰਦਾ, ਤੈਨੂੰ ਇਸਤਰੀ ਵੇਖ ਕੇ ਛੱਡਦਾ ਹਾਂ ॥੨੦੨॥"

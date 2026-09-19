@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਿਉ ਪਰਵਾਰੁ ਪਤੰਗ ਦਾ; ਦੀਪਕ ਬਾਝੁ ਨ ਹੋਰ ਸੁ ਜਾਣੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Similarly to the moth family nothing but the flame of lamp is visible."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪਤੰਗ ਦਾ ਕੋੜਮਾ ਦੀਵੇ ਬਾਝ ਹੋਰ ਕਿਸੇ ਨੂੰ ਨਹੀਂ ਪਛਾਣਦਾ।"

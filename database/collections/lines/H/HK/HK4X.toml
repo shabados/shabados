@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਾ ਚੇਲਾ ਕਹ ਲਯੋ ਛਪਾਈ ॥"
 page = 853
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I persuaded the ascetic to spare him and hid away the disciple."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਉਸ ਦੇ ਚੇਲੇ ਨੂੰ ਲੁਕਾ ਲਿਆ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜੀ ਜਾਤ ਹੁਤੀ ਸੋਊ ਸ︀ਯੰਦਨ ਪੈ ਬ੍ਰਿਜ ਨਾਇਕ ਦ੍ਰਿਸਟਿ ਬਿਖੈ ਕਰਿ ਕੈ ॥"
 page = 496
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਅੱਖਾਂ ਵਿਚ ਵਸਾ ਕੇ ਉਹ ਰਥ ਉਤੇ ਚੜ੍ਹੀ ਹੋਈ ਜਾ ਰਹੀ ਹੈ।"

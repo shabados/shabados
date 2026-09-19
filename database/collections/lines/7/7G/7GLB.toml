@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਰਾ ਕੁਦਰਤੇ ਨੇਸਤ ਈਂ ਗੁਫ਼ਤ ਨੀਸਤ ॥"
 page = 1394
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘One (boy) should be given ten thousand elephants,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਦਾ ਉੱਤਰ ਦੇਣ ਦੀ ਮੇਰੇ ਵਿਚ ਸ਼ਕਤੀ ਨਹੀਂ ਹੈ,"

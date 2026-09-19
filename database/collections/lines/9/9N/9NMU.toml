@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਰਸੁਤੀ ਨਾਮ ਤਿਨ ਨਾਮ ਮੇਲ ॥੧੬੬॥"
 page = 648
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who were made disciples on the bank of river Sarasvati, they were named as ‘Sarasvati’.166."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੇ ਨਾਂ ਨਾਲ 'ਸਰਸਵਤੀ' ਨਾਮ ਮਿਲਾ ਦਿੱਤਾ ॥੧੬੬॥"

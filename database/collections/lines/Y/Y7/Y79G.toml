@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਦਿਜ ਕੈ, ਇਕ ਨ੍ਰਿਪ ਕੇ ਆਯੋ ॥"
 page = 546
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Krishna manifested himself in tow forms, in one form he went to the king and in the other he went to the Brahmin"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ (ਰੂਪ) ਬ੍ਰਾਹਮਣ ਦੇ ਅਤੇ ਇਕ ਰਾਜੇ ਦੇ ਘਰ ਆਇਆ।"

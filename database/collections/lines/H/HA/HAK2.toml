@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਭਯੋ, ਜੋ ਹੈ ਲੈ ਗਯੋ ॥੭॥"
 page = 899
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Why had you taken loan from him? What, then, if he has taken your horses in lieu (of his money).’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਕੀ ਹੋਇਆ ਜੋ (ਉਹ ਤੁਹਾਡਾ) ਘੋੜਾ ਲੈ ਗਿਆ? ॥੭॥"

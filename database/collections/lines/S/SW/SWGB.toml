@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਗੰ ਰਾਮ ਰਾਰੀ ॥"
 page = 271
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਰਾਮ ਦੇ ਚਰਨਾਂ ਦੀ ਧੂੜ ਨੂੰ ਝਾੜਿਆ।"

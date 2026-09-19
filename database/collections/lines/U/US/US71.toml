@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਨਹ ਮਾਹ ਗਸ਼ਤਹ ਬ ਆਂ ਬਿਸਤਨੀ ॥"
 page = 1410
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When nine month have gone by,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਸ ਨੂੰ ਗਰਭ ਠਹਿਰਿਆਂ ਨੌਂ ਮਹੀਨੇ ਬੀਤ ਗਏ"

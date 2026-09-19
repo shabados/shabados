@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੁਲੇ ਖੱਗ ਖੂਨੀ ਖਿਆਲੰ ਖਤੰਗੰ ॥"
 page = 160
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The bloody daggers and sharp arrow were struck,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖੂਨੀ ਨੰਗੀਆਂ ਤਲਵਾਰਾਂ ਅਤੇ ਤੀਰਾਂ ਦਾ ਖ਼ਿਆਲ ਕਰ ਕੇ ਕਾਇਰ ਭਜੀ ਜਾ ਰਹੇ ਸਨ"

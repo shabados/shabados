@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੋਗ ਪ੍ਰਜਾ ਕੋ ਕਰਿਯਹੁ ਨਾਸਾ ॥੩॥"
 page = 194
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He also told him to spread Ayurveda and destroy the ailments of the subjects.3."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪਰਜਾ ਦੇ ਸਾਰੇ ਰੋਗਾਂ ਨੂੰ ਨਾਸ ਕਰੋ ॥੩॥"

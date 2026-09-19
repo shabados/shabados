@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹੁਕਮੇ; ਪਉਣ ਪਾਣੀ ਗੈਣਾਰੰ ॥"
 page = 1037
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The air, water and the sky are subject to His order."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹਵਾ, ਜਲ ਤੇ ਆਸਮਾਨ ਉਸ ਦੇ ਫ਼ੁਰਮਾਨ ਤਾਬੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "By His Hukam, air, water and fire came into being."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੁਕਮ ਮੇਂ ਹੀ ਪੌਣ, ਪਾਣੀ, ਆਕਾਸਾਦੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੁਕਮ ਵਿਚ ਹੀ ਹਵਾ ਪਾਣੀ (ਆਦਿਕ ਤੱਤ ਬਣੇ) ਤੇ ਆਕਾਸ਼ ਬਣਿਆ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੈਣਾਰੰ = ਆਕਾਸ਼।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sí, es a través de la Voluntad del Señor, que el aire, el agua y el espacio vinieron a existir."

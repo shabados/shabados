@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਲੈ ਦਿਯੋ ਚੰਡਾਰਹਿ; ਅਤਿ ਹਿਤੁ ਠਾਨਿ ਕੈ ॥"
 page = 1104
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਚੰਡਾਲ ਨਾਲ ਪ੍ਰੀਤ ਪਾ ਕੇ (ਉਸ ਨੂੰ) ਦੇ ਦਿੱਤਾ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਸ ਨੋ ਬਖਸੇ; ਸਾਚਾ ਸੋਇ ॥"
 page = 364
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "It is received by him, unto whom the True Master grants."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਉਸ ਨੂੰ ਪਰਾਪਤ ਹੁੰਦਾ ਹੈ, ਜਿਸ ਨੂੰ ਉਹ ਸੱਚਾ ਮਾਲਕ ਪਰਦਾਨ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "It is bestowed only by the True Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪਰੰਤੂ ਜਿਸ ਕੋ ਸਚਾ ਅਕਾਲ ਪੁਰਖ ਦੇਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ ਇਹ ਧਨ ਸਿਰਫ਼ ਉਸ ਮਨੁੱਖ ਨੂੰ ਮਿਲਦਾ ਹੈ) ਜਿਸ ਨੂੰ ਸਦਾ-ਥਿਰ ਰਹਿਣ ਵਾਲਾ ਪਰਮਾਤਮਾ ਆਪ ਬਖ਼ਸ਼ਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਾਚਾ = ਸਦਾ-ਥਿਰ ਪ੍ਰਭੂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y aquél a quien el Señor Bendice, Verdad, Verdad es él."

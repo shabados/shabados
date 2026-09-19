@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੂਝਿ ਪ੍ਰਾਨ ਸਨਮੁਖ ਜੇ ਦੇਹੀ ॥"
 page = 929
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਨਮੁਖ ਹੋ ਕੇ ਪ੍ਰਾਣ ਛਡਦੇ ਹਨ,"

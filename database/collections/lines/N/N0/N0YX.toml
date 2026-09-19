@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੇਵਕੁ ਲਾਇਓ ਅਪੁਨੀ ਸੇਵ ॥"
 page = 887
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "His Servant, the Guru has yoked to his service."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਟਹਿਲੂਏ ਨੂੰ ਗੁਰਾਂ ਨੇ ਆਪਣੀ ਟਹਿਲ ਅੰਦਰ ਜੋੜ ਲਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He has linked His servant to His service."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਸੇਵਕ ਕੋ ਅਪਨੀ ਸੇਵਾ ਮੇਂ ਲਾਇਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਜਿਸ (ਗੁਰੂ) ਨੇ (ਮੈਨੂੰ ਆਪਣਾ) ਸੇਵਕ (ਬਣਾ ਕੇ) ਆਪਣੀ (ਇਸ) ਸੇਵਾ ਵਿਚ ਲਾਇਆ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅੰਮ੍ਰਿਤੁ = ਆਤਮਕ ਜੀਵਨ ਦੇਣ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Guru trae al sirviente a su servicio"

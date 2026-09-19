@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਚਿਯੋ ਤਿਹ ਦਾਰੁਣ ਭੂਮਿ ਜੁਧੰ ॥"
 page = 188
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors moved in the battlefield in great anger and a dreadful war began."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਧਰਤੀ ਤੇ ਭਿਆਨਕ ਯੁੱਧ ਮਚ ਰਿਹਾ ਸੀ।"

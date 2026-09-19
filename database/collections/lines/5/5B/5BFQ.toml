@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਾਕਤੁ ਸੁਆਨੁ; ਸਭੁ ਕਰੇ ਕਰਾਇਆ ॥"
 page = 481
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The doggish mammon-worshipper does everything as the Lord causes him to do."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੁੱਤੜ ਮਾਇਆ ਦਾ ਉਪਾਸ਼ਕ ਸਾਰਾ ਕੁਛ ਓਹੀ ਕਰਦਾ ਹੈ, ਜਿਹੜਾ ਸੁਆਮੀ ਉਸ ਪਾਸੋਂ ਕਰਵਾਉਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The dog, the faithless cynic, does everything as the Lord causes him to do."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਾਕਤ ਰੂਪ ਸੁਆਨ ਸਭ ਆਪ ਨੇ ਕਰਮ ਜੋ ਪੂਰਬ ਕਰੇ ਹੈਂ ਤਿਨ ਕਾ ਕਰਾਇਆ ਹੂਆ ਅਬ ਪਾਪ ਕਰਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕੁੱਤਾ ਤੇ ਸਾਕਤ ਜੋ ਕੁਝ ਕਰਦਾ ਹੈ, ਪ੍ਰੇਰਿਆ ਹੋਇਆ ਹੀ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El amante del poder, como perro, hace sólo lo que su maestro dice,"

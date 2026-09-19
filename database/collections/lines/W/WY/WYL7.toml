@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਨਪਦ ॥ ਤਿਲੰਗ ॥ ਤ੍ਵਪ੍ਰਸਾਦਿ ਕਥਤਾ ॥"
 page = 684
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "VISHNUPADA  TILANG BY THY GRACE"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਸਨਪਦ: ਤਿਲੰਗ: ਤੇਰੀ ਕ੍ਰਿਪਾ ਨਾਲ ਕਹਿੰਦਾ ਹਾਂ:"

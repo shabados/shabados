@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਇਕ ਕਵਾਉ ਪਸਾਉ ਕਰਿ; ਓਅੰਕਾਰੁ ਸੁਣਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "From one resonance the Oankar-Braham created the whole universe."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਇਕ (ਵਾਹਿਗੁਰੂ) ਨੇ ਵਾਕ ਤੋਂ ਪਸਾਰਾ ਕਰ ਕੇ 'ਓਅੰਕਾਰ' (ਸ਼ਬਦ) ਸੁਣਾਯਾ।"

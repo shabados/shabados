@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿ ਰਫ਼ਤੰਦ ਹਰਦੋ ਬ ਹੁਕਮੇ ਅਮੀਰ ॥"
 page = 1419
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Both embarked to act according the will of God,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਦੇ ਹੁਕਮ ਨਾਲ ਉਹ ਦੋਵੇਂ ਅਗੇ ਚਲ ਪਏ।"

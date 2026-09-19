@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਵਤਿ ਸੰਘਾਰੀ, ਪਤਿ ਛਲਾ; ਮ੍ਰਿਤਹਿ ਲਯੋ ਉਬਾਰਿ ॥"
 page = 1218
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੌਂਕਣ ਨੂੰ ਮਾਰ ਕੇ ਅਤੇ ਪਤੀ ਨੂੰ ਛਲ ਕੇ (ਆਪਣੇ) ਮਿਤਰ ਨੂੰ ਬਚਾ ਲਿਆ।"

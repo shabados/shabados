@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫੁਲੈ ਫੂਲ ਜੈਸੇ ॥੮੭॥"
 page = 208
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors have caught hold of each other like a flower meeting the other flower joyfully.87."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਫੁੱਲ ਖਿੜੇ ਹੁੰਦੇ ਹਨ ॥੮੭॥"

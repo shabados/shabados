@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੇਘਨ ਕੇ ਬਧਬੇ ਕਹੁ ਕਾਨ੍ਰਹ; ਚਲਿਯੋ ਉਠਿ ਕੈ ਕਰਤਾ ਜੋਊ ਤਾਣੇ ॥"
 page = 329
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The powerful Krishna moved for killing the clouds"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਾਰੇ ਵਿਸ਼ਵ ਦਾ ਕਰਤਾ ਹੈ, (ਉਹ) ਕ੍ਰਿਸ਼ਨ ਬਦਲਾਂ ਨੂੰ ਨਸ਼ਟ ਕਰਨ ਲਈ ਉਠ ਕੇ ਚਲ ਪਿਆ।"

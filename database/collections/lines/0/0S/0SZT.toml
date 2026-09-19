@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪਨ ਭੇਖ ਸੁਭਟ ਕੋ ਧਰਿਯੋ ॥"
 page = 943
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਨੇ ਖ਼ੁਦ ਸੂਰਮੇ ਦਾ ਭੇਸ ਧਾਰਨ ਕੀਤਾ"

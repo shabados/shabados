@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਉਦਹੂ ਲੋਕਨ ਮੈ ਜਿਹ ਕੋ ਦਿਨਿ ਰੈਨਿ ਸਦਾ ਜਸੁ ਕੇਵਲ ਗਇਯੈ ॥"
 page = 546
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His praises are sung in all the fourteen worlds day and night"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਦਾਂ ਲੋਕਾਂ ਵਿਚ ਸਦਾ ਰਾਤ ਦਿਨ, ਕੇਵਲ ਜਿਸ ਦਾ ਯਸ਼ ਗਾਇਆ ਜਾਂਦਾ ਹੈ।"

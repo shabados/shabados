@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਨੁ ਮਨੁ ਸਉਪਉ; ਕ੍ਰਿਸਨ ਪਰੀਤਿ ॥੫॥"
 page = 413
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Dedicate thy body and soul to the love of the Lord."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੀ ਦੇਹਿ ਤੇ ਆਤਮਾ ਨੂੰ ਪ੍ਰਭੂ ਦੇ ਪ੍ਰੇਮ ਦੇ ਸਮਰਪਣ ਕਰ ਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Dedicate your body and mind to the Love of the Lord. ||5||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਤਨ ਮਨ ਕ੍ਰਿਸਨ ਪ੍ਰੀਤ ਮੇਂ (ਸਉਪਉ) ਅਰਪਨ ਕਰੋ॥੫॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਉਸ ਨੇ ਆਪਣਾ ਤਨ ਤੇ ਮਨ ਪਰਮਾਤਮਾ ਦੀ ਪ੍ਰੀਤ ਤੋਂ ਭੇਟਾ ਕਰ ਦਿੱਤਾ ਹੈ ॥੫॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਉਪਉ = ਸਮਰਪਣ (ਕੀਤਾ ਹੈ)। ਕ੍ਰਿਸ਼ਨ = ਪਰਮਾਤਮਾ ॥੫॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y logra que su mente habite en el Equilibrio, abandona su cuerpo y su mente al Amor del Señor. (5)"

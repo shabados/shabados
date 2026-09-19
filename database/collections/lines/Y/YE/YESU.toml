@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰਿ ਗਿਰਿ ਪਰੇ ਧਰਨਿ ਬਿਕਰਾਲਾ ॥"
 page = 1379
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦ) ਭਿਆਨਕ (ਦੈਂਤ) ਧਰਤੀ ਉਤੇ ਡਿਗਣ ਲਗ ਪਏ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਭੇਦ ਹਰੀ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Lord’s secrets cannot be known!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਰੀ ਭੇਦ (ਖੰਡ ਖੰਡ ਕਰਨ ਦੀ ਕ੍ਰਿਆ) ਤੋਂ ਰਹਿਤ ਹੈ,"

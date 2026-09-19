@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਚਲ ਦੇਵ ਤਿਹ ਨਾਮ ਰਹਤ ਪ੍ਰਿਯ ॥"
 page = 859
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sri Diljan Mati was her name and the husband was known as Achal Dev."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਦੇ ਪਤੀ ਦਾ ਨਾਂ ਅਚਲ ਦੇਵ ਸੀ।"

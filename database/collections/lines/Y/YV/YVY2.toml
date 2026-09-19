@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰਿੰਗ ਧਰੇ ਹਰਿ ਧੇਨ ਹਜਾਰ; ਤਬੈ ਤਿਹ ਕੇ ਸਿਰ ਊਪਰਿ ਵਾਰੈ ॥"
 page = 313
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "At the same time, one thousand golden-horned cows, sacrificing them on Krishna, were given in charity"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੋਨੇ ਵਾਲੇ ਸਿੰਗਾਂ ਵਾਲੀਆਂ ਹਜ਼ਾਰ ਗਊਆਂ, ਉਸ ਵੇਲੇ (ਮਾਤਾ ਨੇ) ਉਸ ਦੇ ਸਿਰ ਉਤੋਂ ਵਾਰ ਦਿੱਤੀਆਂ।"

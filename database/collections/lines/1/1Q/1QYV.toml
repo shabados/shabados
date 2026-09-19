@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤ੍ਰਿਯ ਕੋ ਯੌ ਬਚਨ ਸੁਨਾਏ ॥"
 page = 988
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the mean time a Mughal Sheikh Sayeed came in to talk to the woman."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਇਸਤਰੀ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ,"

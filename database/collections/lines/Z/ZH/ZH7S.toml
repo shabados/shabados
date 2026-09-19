@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੇਦਿ ਚਿਛੁਰ ਬਿੜਾਰਾਸੁਰ; ਧੂਲਿ ਕਰਣਿ ਖਪਾਇ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The goddess had killed the demons named Chithar and Biraal and destroyed Dhoolkaran"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੇਵੀ ਨੇ) ਚਿਛੁਰ, ਬਿੜਾਰ ਅਤੇ ਧੂਲਿਕਰਣ ਨਾਂ ਦੇ ਦੈਂਤਾਂ ਨੂੰ ਮਾਰ ਕੇ ਖਪਾ ਦਿੱਤਾ"

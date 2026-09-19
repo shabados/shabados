@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਈ ਭੋਰ ਫਿਰਿ ਪਕਰ ਮੰਗਾਯੋ ॥"
 page = 815
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja sent his son to the prison and early next morning called him  back."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਵੇਰ ਹੋਣ ਤੇ ਫਿਰ ਪਕੜ ਕੇ ਮੰਗਵਾ ਲਿਆ।"

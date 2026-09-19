@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਾਰਿ ਡਾਰਿ ਯਾ ਸਫ ਮੈ ਦੇਹੀ ॥"
 page = 935
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘We both will eat the sultanas and then throw them towards the mat."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਟਾਈ ਵਿਚ ਸੁਟਾਂਗੇ।"

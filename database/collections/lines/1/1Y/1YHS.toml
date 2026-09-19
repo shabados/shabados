@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੈਸੇ ਹੀ ਫੂਲ ਗੁਲਾਮ ਜਾਤ ਭਯੋ ॥"
 page = 66
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸੇ ਤਰ੍ਹਾਂ ਗੁਲਾਮ (ਹੁਸੈਨੀ) ਫੁਲ ਕੇ (ਅੰਨ੍ਹਾ ਹੋ) ਗਿਆ"

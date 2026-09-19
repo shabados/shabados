@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਕ੍ਰਤ ਭਈ ਗਗਨ ਕੀ ਤਰੁਨੀ; ਦੇਵ ਅਦੇਵ ਤ੍ਰਸਾਏ ॥"
 page = 684
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The heavenly damsels were wonder-struck"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਕਾਸ਼ ਦੀਆਂ ਇਸਤਰੀਆਂ (ਅਪੱਛਰਾਵਾਂ) ਹੈਰਾਨ ਹੋ ਗਈਆਂ ਅਤੇ ਦੇਵਤੇ ਤੇ ਦੈਂਤ ਡਰਨ ਲਗੇ।"

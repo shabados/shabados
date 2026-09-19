@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜਾ ਕੋ ਪਤਿ ਕੇ ਸਹਿਤ; ਛਲ ਸੌ ਗਈ ਸੁਵਾਇ ॥੩੪॥"
 page = 1153
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੂੰ ਛਲ ਪੂਰਵਕ ਪਤੀ ਨਾਲ ਸੁਆ ਦਿੱਤਾ ॥੩੪॥"

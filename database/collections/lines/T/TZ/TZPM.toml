@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਲਾ ਨ ਤਾ ਕਹ ਜਗਤ ਉਚਾਰੈ ॥੧੬॥"
 page = 1165
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਗਤ ਵੀ ਉਸ ਨੂੰ ਚੰਗਾ ਨਹੀਂ ਕਹੇਗਾ ॥੧੬॥"

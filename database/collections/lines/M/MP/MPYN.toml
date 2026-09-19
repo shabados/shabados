@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰੁ ਰਾਮਦਾਸ; ਚਉਥੇ ਪਰਗਾਸਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In the fourth personification, appeared Guru Ram Dass,"

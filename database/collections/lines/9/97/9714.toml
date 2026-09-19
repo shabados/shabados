@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਬੁਸਤਾ ਗੁਲੇ ਸੁਰਖ਼ ਬੇਰੂੰ ਕਸ਼ੀਦ ॥੮॥"
 page = 1410
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As the rose flower which bloomed in the garden.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਅੰਦਰ ਅਜਿਹਾ ਖੇੜਾ ਆਇਆ ਜਿਵੇਂ ਲਾਲ ਫੁਲ ਬਾਗ਼ ਵਿਚ ਖਿੜਦੇ ਹਨ ॥੮॥"

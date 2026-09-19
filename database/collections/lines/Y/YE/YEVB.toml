@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਿਯੋ ਬੀਰੀਯਾ ਤੀਰੀਯਾ ਨ ਚਲਾਯੰ ॥"
 page = 61
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The hill-chief spurred his horse and fled, the warriors went away without discharging their arrows."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਜੇ ਜਾਂਦੇ ਉਤੇ (ਸਾਡੇ) ਵੀਰਾਂ ਨੇ (ਕੋਈ) ਤੀਰ ਨਾ ਚਲਾਇਆ।"

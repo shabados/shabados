@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਉਨ ਧਰਮ, ਕੋ ਕਰਮ ਹੈ, ਕਹੋ ਸਕਲ ਬਿਸਥਾਰ ॥੨॥੨੦੨॥"
 page = 35
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What is the object of Dharma? Tell me all in detail.2.202."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਰਮ ਦਾ ਕਰਮ ਕਿਹੜਾ ਹੈ? ਇਸ ਨੂੰ ਵਿਸਤਾਰ ਨਾਲ ਦਸੋ ॥੨॥੨੦੨॥"

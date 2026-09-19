@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਮਾਨਾਦਿ ਕੇ, ਚਾਰ ਬਾਜੀ ਸੰਘਾਰੇ ॥"
 page = 705
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੀਜੇ ਬਾਣ ਨਾਲ) 'ਗੁਮਾਨ' ਆਦਿ ਦੇ ਚਾਰ ਘੋੜੇ ਮਾਰ ਦਿੱਤੇ ਹਨ।"

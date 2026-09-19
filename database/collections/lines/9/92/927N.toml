@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਠਿਯੋ ਖੇਤਿ ਖੂਨੀ ਦਿਜੰ ਖੇਤ੍ਰ ਹਾਯੋ ॥"
 page = 174
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜਾ) ਹਠ ਕਰਕੇ ਖਲੋ ਗਿਆ ਕਿ (ਹੁਣੋ) ਖੂਨੀ ਬ੍ਰਾਹਮਣ ਨੂੰ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਮਾਰਦਾ ਹਾਂ"

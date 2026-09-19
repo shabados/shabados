@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋਜ ਮਾਨ ਮੋਚਨੰ ॥"
 page = 129
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thy wide and red eyes destroy the pride of Cupid."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਮਦੇਵ ('ਮਨੋਜ') ਦੇ ਮਾਣ ਨੂੰ ਵੀ ਨਸ਼ਟ ਕਰ ਦਿੰਦੇ ਹਨ।"

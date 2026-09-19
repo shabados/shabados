@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਅਫ਼ਗ਼ਾਨਿ ਦੀਗਰ ਬਿਆਮਦ ਬ ਜੰਗ ॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Another Afghan, with a bow and arrow"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਇਕ ਹੋਰ ਪਠਾਣ ਯੁੱਧ ਕਰਨ ਲਈ (ਰਣ-ਖੇਤਰ ਵਿਚ) ਆਇਆ,"

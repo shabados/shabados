@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਸੰਖ ਬਜਿਯੋ ॥"
 page = 110
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "From this side the lion hath roared and the conch hath been blown."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮਾਨੋ) ਵੱਡਾ ਸੰਖ ਵਜਿਆ ਹੋਵੇ।"

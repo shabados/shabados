@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿ ਅਫ਼ਤਾਦ ਮੁਰਛਤ ਨ ਖ਼ੁਰਦੰਦ ਤਆਮ ॥੧੦੨॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As they did not have time to take meals, they fell flat.(102)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਰੋਟੀ ਤਕ ਨਾ ਖਾਈ ਅਤੇ ਬੇਹੋਸ਼ ਹੋ ਕੇ ਡਿਗ ਪਏ ॥੧੦੨॥"

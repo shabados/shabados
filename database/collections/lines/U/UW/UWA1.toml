@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੋਇ ਨ ਜਾਨੈ; ਤੁਮਰਾ ਅੰਤੁ ॥"
 page = 268
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "No one Knows Thy limit."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰਾ ਓੜਕ ਕੋਈ ਨਹੀਂ ਜਾਣਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "No one knows Your limits."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਗਵੰਤ! ਆਪ ਕਾ ਕੋਈ ਅੰਤ ਨਹੀਂ ਜਾਨਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਤੇਰਾ ਅੰਤ ਨਹੀਂ ਪਾ ਸਕਦਾ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Moldeador de nuestro destino,"

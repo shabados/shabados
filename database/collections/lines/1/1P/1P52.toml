@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਆਦਿ ਰੂਪੇ, ਨਮੋ ਆਦਿ ਰੂਪੇ ॥੧੫॥੧੦੫॥"
 page = 26
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to that Primal entity Salutation to that Primal Entity.15.105."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਆਦਿ ਸਰੂਪ! (ਤੈਨੂੰ) ਨਮਸਕਾਰ ਹੈ, ਨਮਸਕਾਰ ਹੈ ॥੧੫॥੧੦੫॥"

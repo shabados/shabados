@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਕਾਲੀ ਕੁਹਕੇ ॥"
 page = 703
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The goddess is resplendent and the goddess Kali is shouting,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਲੀ ਕਿਲਕਾਰੀਆਂ ਮਾਰਦੀ ਹੈ।"

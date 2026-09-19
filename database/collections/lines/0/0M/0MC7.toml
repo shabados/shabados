@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਅਉਰ ਅਉਰ ਉਚਾਹਿਗੇ; ਮਤਣੋ ਗਤੰ ਚਤੁਰਥ ਦਿਨੰ ॥"
 page = 554
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਹੋਰ ਹੋਰ (ਮਤ) ਪੈਦਾ ਹੋਣਗੇ ਜੋ ਚੌਥੇ ਦਿਨ ਖ਼ਤਮ ਹੋ ਜਾਣਗੇ।"

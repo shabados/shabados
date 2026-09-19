@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਿਅ ਦਾਦੇ ਦੇ, ਰਾਹਿ ਚਲੰਦਾ ॥੨੯॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Both follow the path shown by their forefathers."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪਿਉ ਦਾਦੇ ਦੇ ਰਸਤੇ ਤੁਰਦੇ ਹਨ।"

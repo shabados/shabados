@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਪਟੂਆ ਸੌ ਭੋਗ ਕਮਾਯੋ ॥"
 page = 860
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But she cut the melon, enabled him (husband) to eat and then had sex."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਪਟੂਆ ਨਾਲ ਭੋਗ ਕੀਤਾ।"

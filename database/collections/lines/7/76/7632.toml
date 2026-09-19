@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਪੇ ਬੀਰ ਬਕਤ੍ਰੰ ਕੀਏ ਰਕਤ ਨੈਣੰ ॥"
 page = 160
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Other heroes also blazing with anger began to shout loudly, with their eyes reddened with blood."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਸ) ਸੂਰਵੀਰ ਦਾ ਮੂੰਹ ਤਪ ਗਿਆ ਅਤੇ (ਉਸ ਨੇ) ਅੱਖਾਂ ਲਾਲ ਕਰ ਲਈਆਂ।"

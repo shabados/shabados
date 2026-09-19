@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੂਪ ਨਰਾਜ ਛੰਦ"
 page = 283
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "ANOOP NIRAAJ STANZA"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਦੁੱਖ ਦੀ ਪੀੜ ਨਾਲ ਦੁਖੀ ਹੋ ਕੇ ਧਰਤੀ ਉੱਤੇ ਡਿੱਗ ਪਏ ॥੭੯੫॥"

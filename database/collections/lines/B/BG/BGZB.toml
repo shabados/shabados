@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਟਾਰਾ ਸਰਾਫ ਹੈ; ਭਗਤੁ ਵਡਾ ਭਗਵਾਨ ਸੁਭਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Bhai Katara is a gold merchant and Bhai Bhagavan Das is of devotional nature."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਾਟਾਰਾ ਸਰਾਫ ਤੇ ਭਗਵਾਨ ਵਡੇ ਭਗਤ ਨੇਕ ਸੁਭਾ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਨੀ ਚਤੁਰ ਅਰੁ ਤਰੁਨਿ; ਤਰੁਨਿ ਜੋ ਪਾਇ ਹੈ ॥"
 page = 816
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Why would a woman, getting a wealthy and wise young man, go to"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਨਵਾਨ, ਚਤੁਰ ਅਤੇ ਜਵਾਨ (ਪੁਰਸ਼) ਨੂੰ ਪ੍ਰਾਪਤ ਕਰ ਕੇ"

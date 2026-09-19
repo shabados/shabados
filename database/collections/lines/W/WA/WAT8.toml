@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਜਿਜ ਨ ਬਾਤ ॥੧੬੮॥"
 page = 9
 line = 10
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art never subservient to anybody. 168."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਕਿਸੇ ਗੱਲ ਲਈ ਵੀ ਅਸਮਰਥ (ਆਜਿਜ਼) ਨਹੀਂ ॥੧੬੮॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਆਜਿਜ ਨ, ਬਾਤ ॥੧੬੮॥"

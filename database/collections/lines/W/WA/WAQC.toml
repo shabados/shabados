@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਪਹੁ, ਕਿਸੈ ਨ ਜਾਣੈ ਮੰਦਾ ॥੧੨॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Inverse is the tradition of love which makes the head bow to the feet. The altruist Sikh considers none as the bad or the worse."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਗੁਰਸਿਖ) ਕਿਸੇ ਨੂੰ ਆਪਣੇ ਤੋਂ ਬੁਰਾ ਨਹੀਂ ਜਾਣਦਾ।"

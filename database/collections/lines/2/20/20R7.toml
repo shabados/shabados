@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਥਰਹਰਤ ਭੂਮਿ ਆਕਾਸ ਸਰਬ ॥"
 page = 638
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਾ ਆਕਾਸ਼ ਅਤੇ ਧਰਤੀ ਕੰਬ ਰਹੀ ਸੀ।"

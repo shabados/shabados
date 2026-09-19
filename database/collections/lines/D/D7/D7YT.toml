@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰੁ ਚੇਲੇ ਰਹਰਾਸਿ; ਅਲਖੁ ਅਭੇਉ ਹੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The ways of the Guru and the disciple are mysterious and imperceptible."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਤੇ ਚੇਲੇ ਦੀ (ਏਕਤਾ ਅਥਵਾ) ਰਹੁਰੀਤੀ ਅਲਖ ਤੇ ਅਭੇਵ ਹੈ।"

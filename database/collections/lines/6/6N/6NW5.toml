@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖਿ ਤਵਨ ਕੋ ਰੂਪ; ਤਰਿਨਿ ਮੋਹਿਤ ਭਈ ॥"
 page = 1160
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਰੂਪ ਵੇਖ ਕੇ ਰਾਣੀ ਉਸ ਉਤੇ ਮੋਹਿਤ ਹੋ ਗਈ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਏਕੋ ਸੇਵੀ; ਅਵਰੁ. ਨ ਦੂਜਾ ॥"
 page = 1048
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I serve the One Lord and not another."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਇਕ ਸਾਈਂ ਦੀ ਸੇਵਾ ਕਰਦਾ ਹਾਂ ਤੇ ਕਿਸੇ ਹੋਰਸ ਦੀ ਨਹੀਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I serve the One Lord, and no other at all."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਏਕ ਕੋ ਹੀ ਸੇਵਤੇ ਹੈਂ ਔਰ ਦੂਸਰਾ ਨਹੀਂ ਜਾਨਿਆ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਇਕ ਪਰਾਮਤਮਾ ਦੀ ਹੀ ਸੇਵਾ-ਭਗਤੀ ਕਰਦਾ ਹਾਂ; ਕਿਸੇ ਹੋਰ ਦੂਜੇ ਦੀ ਸੇਵਾ ਮੈਂ ਨਹੀਂ ਕਰਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੇਵੀ = ਸੇਵੀਂ, ਮੈਂ ਸੇਂਵਦਾ ਹਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Habito sólo en el Único Dios, en nadie más."

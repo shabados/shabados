@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘੇਰਿ ਲਯੋ ਹਰਿ ਕੌ ਜਬ ਹੀ; ਹਰਿ ਜੂ ਤਬ ਹੀ ਸਬ ਸਸਤ੍ਰ ਸੰਭਾਰੇ ॥"
 page = 417
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Krishna was besieged, he held up his weapons"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਉਨ੍ਹਾਂ ਨੇ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਘੇਰ ਲਿਆ, ਤਦੋਂ ਹੀ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੇ ਸਾਰੇ ਸ਼ਸਤ੍ਰ ਸੰਭਾਲ ਲਏ।"

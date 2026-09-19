@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਨੈਨ ਮੋਰੈ ॥੨੧॥੯੮॥"
 page = 108
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They are penetrating into the warrior-stronghold and do not turn away their eyes from it.21.98."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ ਉਸ ਵੱਲੋਂ) ਅੱਖ ਮੋੜਦੇ ਨਹੀਂ ਹਨ ॥੨੧॥੯੮॥"

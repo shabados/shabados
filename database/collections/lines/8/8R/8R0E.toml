@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਪਿ ਸਹਾਈ ਹੋਆ ॥"
 page = 628
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord Himself has become my support."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਖੁਦ ਮੇਰਾ ਸਹਾਇਕ ਥੀ ਗਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He Himself has become my help and support."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਵਾਹਿਗੁਰੂ ਆਪ ਹਮਾਰਾ ਸਹਾਈ ਹੂਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ! ਗੁਰੂ ਦੀ ਕਿਰਪਾ ਨਾਲ) ਪਰਮਾਤਮਾ ਆਪ ਮਦਦਗਾਰ ਬਣਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਹਾਈ = ਮਦਦਗਾਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él, por Sí Mismo, nos protege a todos; sí,"

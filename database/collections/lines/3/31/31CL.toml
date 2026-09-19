@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਭੂਤੇਸ ਪਿਆਰੀ ॥੩੧੯॥"
 page = 660
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was a Gandharva woman or a Vidyadhar girl or the spring like lady or a beloved of all the people.319."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਸ਼ਿਵ ਦੀ ਪਿਆਰੀ ਹੈ ॥੩੧੯॥"

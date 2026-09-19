@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਿਬਿਖ ਅਦ੍ਵੈਖ ॥"
 page = 668
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "These sages in the garb of Sannyasis, were without malice and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸ਼ਿਆਂ ਤੋਂ ਰਹਿਤ ਅਤੇ ਦ੍ਵੈਸ਼ਭਾਵ ਤੋਂ ਮੁਕਤ ਸੀ।"

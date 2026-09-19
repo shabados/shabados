@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਰੋ ਕਰਤਾ ॥੯੦॥"
 page = 560
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The wife, relinquishing her husband, will also forget the Lord.90."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਭ ਨੂੰ) ਕਰਤਾ (ਪੁਰਖ) ਭੁਲ ਜਾਏਗਾ ॥੯੦॥"

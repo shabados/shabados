@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੈ ਛਬਿ ਤੁਮਰੀ ਨਿਰਖ; ਨਾਥ, ਅਟਕਤ ਭਈ ॥"
 page = 1032
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਥ! ਮੈਂ ਤੇਰੀ ਸੁੰਦਰਤਾ ਨੂੰ ਵੇਖ ਕੇ ਮੋਹਿਤ ਹੋ ਗਈ ਹਾਂ"

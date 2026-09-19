@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹ ਤੁਮ ਕਥਾ ਚਲਾਇਯੋ; ਕਵਨੋ ਪਾਇ ਪ੍ਰਸੰਗ ॥੧੨॥"
 page = 822
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Any of your lessons.’(l2)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਪ੍ਰਸੰਗ ਪਾ ਕੇ ਉਥੇ ਤੂੰ ਇਹ ਕਥਾ ਕਹੀਂ ॥੧੨॥"

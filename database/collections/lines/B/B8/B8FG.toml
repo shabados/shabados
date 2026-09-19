@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੈ ਹਰਣੀ ਭੀਮਾ ਭਾਮਾਣੀ ॥"
 page = 679
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You are the remover of fear, the mighty goddess Durga"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਿਆਨਕ ਰੂਪ ਵਾਲੀ, ਇਸਤਰੀ ਸਰੂਪ ਵਾਲੀ (ਅਰਥਾਂਤਰ-ਪ੍ਰੇਮ ਕਰਨ ਵਾਲੀ) ਦੁਰਗ ਦੈਂਤ ਨੂੰ ਮਾਰਨ ਵਾਲੀ"

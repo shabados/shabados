@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਖ ਸੰਤਨ ਕੋ ਜਿਹ ਭਾਤਿ ਦੀਏ ॥"
 page = 178
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I shall describe now as to how Shiva waged wars and gave comfort to the saints"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੰਤਾਂ ਨੂੰ ਜਿਸ ਤਰ੍ਹਾਂ ਸੁਖ ਦਿੱਤੇ।"

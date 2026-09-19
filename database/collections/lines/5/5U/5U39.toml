@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜੋਨਿ ਜੋਨਿ ਜੀਅ ਜੰਤ, ਅੰਤੁ ਨ ਪਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "No end is known of the creatures of even one species."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜੂਨ ਜੂਨ ਵਿਚ ਹੋਰ ਜੀਅ ਜੰਤ ਹਨ (ਜੈਸੇ ਕੁੱਤੇ ਪਰ ਚਿਚੜ) ਅੰਤ ਨਹੀਂ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਕਾਇ ਨਾਮਾ ਮਹਾਬੀਰ ਜੇਵੰ ॥੪੦੦॥"
 page = 242
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And who has mashed the pride of all the gods, he is known as broad-bodies Kumbhkaran.400."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਨਾਥ!) ਉਸ ਮਹਾਂਬੀਰ ਦਾ ਨਾਂ 'ਮਹਾਂਕਾਇ' ਹੈ ॥੪੦੦॥"

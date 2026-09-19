@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅਹਿਨਿਸਿ ਸੂਰਜ ਚੰਦੁ, ਦੀਵੇ ਬਾਲਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "For day and night He lit the sun and the moon as lamps."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਦਿਨ (ਦੇ ਲਈ) ਸੂਰਜ (ਤੇ) ਰਾਤ (ਦੇ ਚਾਨਣ ਲਈ) ਚੰਦ (ਮਾਨੋਂ ਦੋ) ਦੀਵੇ ਬਾਲੇ ਹਨ।"

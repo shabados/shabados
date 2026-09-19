@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖਿਓ ਅਪਨੇ ਨੈਨ ਭਰਿ; ਬਹਿਤੋ ਜਮੁਨਾ ਤੀਰ ॥੧੫੨॥"
 page = 305
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There they saw the flowing waters of Yamuna.152."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਉਨ੍ਹਾਂ ਨੇ) ਆਪਣੀਆਂ ਅੱਖਾਂ ਨਾਲ ਜਮਨਾ ਦਾ ਜਲ ਵਗਦਾ ਹੋਇਆ ਵੇਖ ਲਿਆ ॥੧੫੨॥"

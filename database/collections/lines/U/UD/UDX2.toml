@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਡ੍ਰਯੋ ਜਗ ਥੰਭੰ ਕਰਿਯੋ ਹੋਮ ਕੁੰਡੰ ॥"
 page = 144
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The columns of the sacrificial place were fixed and the sacrificial altar was constructed."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਯੱਗ ਦਾ ਖੰਭਾ ਗਡ ਦਿੱਤਾ ਅਤੇ ਯੱਗ-ਕੁੰਡ ਬਣਾ ਲਿਆ।"

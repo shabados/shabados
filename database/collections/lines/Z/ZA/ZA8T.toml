@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਲੋਕਨ ਕੇ ਉਪਜੀ ਦੁਚਿਤਾਈ ॥"
 page = 970
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When it kept on raining incessantly for long time, people’s minds were filled with apprehension:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਲੋਕਾਂ ਦੇ ਮਨ ਵਿਚ ਦੁਬਿਧਾ ਪੈਦਾ ਹੋ ਗਈ।"

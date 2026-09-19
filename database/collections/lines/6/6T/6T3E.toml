@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੀਸ ਤੀਸ ਛਿਤ ਪੈ ਭਟ ਡਾਰੈ ॥"
 page = 1064
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਵੀਹ ਤੀਹ ਜਵਾਨ ਧਰਤੀ ਉਤੇ ਸੁਟ ਦਿੰਦੀ ਸੀ।"

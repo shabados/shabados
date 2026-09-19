@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮੈਥਹੁ ਬੁਰਾ, ਨ ਕੋਈ ਸਰਿਠੇ ॥੩੦॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "None is worse than me in the whole creation."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਥੋਂ ਬੁਰਾ ਸ੍ਰਿਸ਼ਟੀ ਵਿਖੇ ਹੋਰ ਕੋਈ ਨਹੀਂ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਪਟ ਸੁਭਟ ਚਟਪਟ ਕਟੇ; ਖਟਪਟ ਕਹੀ ਨ ਜਾਇ ॥"
 page = 461
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The mighty warriors were chopped very quickly and the dreadfulness of the war cannot be described"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਨਿਪਟ ਪ੍ਰਬਲ ਯੋਧੇ ਸਨ, (ਉਹ) ਝਟ ਪਟ ਕਟੇ ਗਏ ਹਨ। (ਉਸ) ਲੜਾਈ ਦਾ ਬਿਆਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"

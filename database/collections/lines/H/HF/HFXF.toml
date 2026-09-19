@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੇ ਕਹਿਓ ਬ੍ਰਿਜ ਕਉ ਤੁਮ ਤਿਆਗਿ; ਗਏ ਮਥੁਰਾ ਜੀਅ ਐਸੋ ਹੀ ਭਾਯੋ ॥"
 page = 543
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Came here, it seems that Matura is more dear to you"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ ਕਿ ਤੁਸੀਂ ਬ੍ਰਜ-ਭੂਮੀ ਨੂੰ ਛਡ ਕੇ ਮਥੁਰਾ ਚਲੇ ਗਏ, ਇਸ ਤਰ੍ਹਾਂ (ਤੁਹਾਡੇ) ਮਨ ਨੂੰ ਚੰਗਾ ਲਗਾ।"

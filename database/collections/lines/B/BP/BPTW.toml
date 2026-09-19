@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੀਝਿ ਰਹੇ ਮਨ ਮੈ ਸਭ ਹੀ; ਫੁਨਿ ਸ੍ਰੀ ਜਦੁਬੀਰ ਕੀ ਓਰਿ ਚਿਤੈ ਕੈ ॥੨੦੧੨॥"
 page = 498
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And all are getting pleased on seeing Krishna.2012."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਸਾਰੇ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਵਲ ਵੇਖੀ ਕੇ ਮਨ ਵਿਚ ਪ੍ਰਸੰਨ ਹੋ ਰਹੇ ਹਨ ॥੨੦੧੨॥"

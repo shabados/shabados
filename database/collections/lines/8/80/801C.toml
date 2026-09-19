@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਬੀਰ. ਮਹਿਦੀ ਕਰਿ ਕੈ ਘਾਲਿਆ; ਆਪੁ ਪੀਸਾਇ ਪੀਸਾਇ ॥"
 page = 947
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Kabir, grinding, grinding, I have made myself into the henna paste."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕਬੀਰ ਪੀਹ, ਪੀਹ ਕੇ, ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਮਹਿੰਦੀ ਦੀ ਲੇਵੀ ਬਣਾ ਲਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Kabeer, I have ground myself into henna paste."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਬੀਰ ਸਾਹਿਬ ਜੀ ਕਹਤੇ ਹੈਂ: ਪੁਰਸ ਨੇ ਅਪਨੇ ਸਰੀਰ ਕੋ ਮਹਿੰਦੀ ਕਰ ਪਾਯਾ, ਭਾਵ ਅਤੀ ਕਠਨ ਸਾਧਨ ਕਰ ਕੇ ਦੁਖ ਦੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਕਬੀਰ! ਮੈਂ ਆਪਣੇ ਆਪ ਨੂੰ ਮਹਿਦੀ ਬਣਾ ਕੇ (ਭਾਵ, ਮਹਿਦੀ ਵਾਂਗ) ਪੀਹ ਪੀਹ ਕੇ ਘਾਲ ਕਮਾਈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਪੁ = ਆਪਣੇ ਆਪ ਨੂੰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Dice Kabir, he molido mi ser y me convertí en pasta de tinte de Jenna."

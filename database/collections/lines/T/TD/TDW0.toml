@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਝੁਰਤ ਜੁਝ ਨਰ ॥"
 page = 248
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors are entangled among themselves and all are fighting with one another,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੂਝ ਕੇ (ਹੋਰਨਾਂ) ਵੀਰਾਂ ਤੋਂ ਵਿਛੁੜ ਜਾਂਦੇ ਹਨ।"

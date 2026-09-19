@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤਕ ਬਾਇ ਤੇ ਭਏ ਅਧੀਰਾ ॥"
 page = 1376
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਈ ਵਾਯੂ ਦੇ ਰੋਗ ਨਾਲ ਅਧੀਰ ਹੋ ਗਏ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅਕਥ ਕਥਾ ਹੈ ਅਕਥ ਦੀ; ਕਿਉ ਆਖਿ ਸੁਣਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "How can the story of that ineffable Lord be told?"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਅਕਥ (ਈਸ਼੍ਵਰ) ਦੀ ਕਥਾ ਭੀ ਅਕਥ ਹੈ, ਕਿੱਕੁਰ (ਕੋਈ) ਆਖ ਸੁਣਾਵੇ।"

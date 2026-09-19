@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਨਸ ਕੀ ਕਹ ਹੈ ਗਨਤੀ; ਸੁਰ ਰਾਜਹਿ ਕੋ ਪਿਖਿ ਫਾਟਤ ਹੀਆ ॥"
 page = 301
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What go say of men, even Indra, the king of gods, seeing the body of the demon, was filled with fear"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਨੁੱਖਾਂ ਦੀ ਕੀ ਗਿਣਤੀ ਹੈ, (ਉਸ ਦੈਂਤ ਨੂੰ) ਵੇਖ ਕੇ ਇੰਦਰ ਦਾ ਹਿਰਦਾ ਵੀ ਫਟਣ ਲਗਿਆ।"

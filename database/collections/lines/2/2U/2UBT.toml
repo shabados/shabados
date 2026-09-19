@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੁਨਿ ਮਨ. ਅਕਥ ਕਥਾ; ਹਰਿ ਨਾਮ ॥"
 page = 719
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Hear thou, O man, the inexpressible discourse of God's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਬੰਦੇ! ਤੂੰ ਵਾਹਿਗੁਰੂ ਦੇ ਨਾਮ ਦੀ ਅਕਹਿ ਕਥਾ ਵਾਰਤਾ ਸ੍ਰਵਣ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Listen, O mind, to the Unspoken Speech of the Lord's Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਵਾ ਹੇ ਪਿਆਰੇ! (ਅਕਥ) ਪਰਮੇਸਰ ਕੀਆਂ ਕਥਾ ਕੋ ਸ੍ਰਵਣ ਕਰ ਕੇ ਹਰਿ ਨਾਮ ਕੌ ਜਪੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ (ਮੇਰੇ) ਮਨ! ਉਸ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਤੇ ਸਿਫ਼ਤਿ-ਸਾਲਾਹ ਸੁਣਿਆ ਕਰ ਜਿਸ ਦਾ ਸਹੀ ਸਰੂਪ ਬਿਆਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨ = ਹੇ ਮਨ! ਅਕਥ = ਉਹ ਪ੍ਰਭੂ ਜਿਸ ਦਾ ਸਰੂਪ ਬਿਆਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ। ਅਕਥ ਕਥਾ = ਉਸ ਪ੍ਰਭੂ ਦੀਆਂ ਸਿਫ਼ਤਿ-ਸਾਲਾਹ ਦੀਆਂ ਗੱਲਾਂ ਜਿਸ ਦਾ ਸਹੀ ਸਰੂਪ ਦੱਸਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mente, escucha la Indescriptible Palabra del Nombre del Señor."

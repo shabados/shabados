@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਨਿ ਦੀਆ ਤੁਧੁ; ਪਵਨੁ ਅਮੋਲਾ ॥"
 page = 913
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He, who gave thee invaluable air,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਤੈਨੂੰ ਨਿਰਮੋਲਕ ਹਵਾ ਦਿੱਤੀ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He gave you the invaluable air;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਤੇਰੇ ਕੋ ਅਮਲੋਕ ਪੌਨ ਦੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪ੍ਰਭੂ ਨੇ ਤੈਨੂੰ ਕਿਸੇ ਭੀ ਮੁੱਲ ਤੋਂ ਨਾਹ ਮਿਲ ਸਕਣ ਵਾਲੀ ਹਵਾ ਦਿੱਤੀ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਵਨੁ = ਹਵਾ। ਅਮੋਲਾ = ਨਿਰਮੋਲਕ, ਕੀਮਤੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Deja que tu mente busque y entre en el Santuario de Aquél que te bendijo con el aire invaluable para respirar,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਨੁ ਏਕ ਦੂਸਰ ਨਾਹਿ ॥"
 page = 611
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ (ਪ੍ਰਭੂ) ਦੇ ਹੋਰ ਦੂਜਾ ਕੋਈ ਨਹੀਂ ਹੈ।"

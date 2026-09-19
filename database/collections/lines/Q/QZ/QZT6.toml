@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਰਾਜਾ ਮੁਲਤਾਨ ਕੋ; ਬਿਰਧ ਛਤ੍ਰ ਤਿਹ ਨਾਮ ॥"
 page = 1135
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਰਧ ਛਤ੍ਰ ਨਾਂ ਦਾ ਮੁਲਤਾਨ ਦਾ ਇਕ ਰਾਜਾ ਸੀ।"

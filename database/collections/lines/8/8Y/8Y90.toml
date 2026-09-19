@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਜਾਦੂ, ਜਾਦੂਗਰ ਬਣ ਗਏ ਹਨ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਸਾਹਿਰਾਂ ਗਸ਼ਤਾ ਅੰਦ ਜਾਦੂਇ ਮਨ ॥੩੪॥"
 page = 1
 line = 34
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "My sorcery has become the sorcerer himself. (34)"

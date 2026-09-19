@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੋਟਾ ਪਾਨ ਤਬਾਲੀ ਜਾਸਨ ਜੁਧ ਨੂੰ ॥"
 page = 126
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That drummers should sound the drums because they would go for war."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਨਗਾਰਿਆਂ ਉਤੇ ਚੋਟਾਂ ਲਾ ਦਿਓ (ਕਿਉਂਕਿ ਉਹ) ਯੁੱਧ ਨੂੰ ਜਾਣਗੇ।"

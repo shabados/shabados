@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿ ਪੁਰਸ਼ੀਦ ਓ ਰਾ ਕਿ ਏ ਨੇਕ ਬਖ਼ਤ ॥"
 page = 1415
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She (he) was, then, counselled, ‘You the lucky one,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਦਸ਼ਾਹ ਨੇ ਉਸ ਨੂੰ ਪੁਛਿਆ ਕਿ ਐ ਨੇਕ ਬਖ਼ਤ!"

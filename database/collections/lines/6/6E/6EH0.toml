@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਤੁਮ ਸਤਿ ਪਛਾਨਿਯੋ ਜੋਗੀ ਪਹੁਚ︀ਯੋ ਆਇ ॥੫੬॥"
 page = 907
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Through which you will acknowledge the God-seeking Yogi.”(56)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਤੁਸੀਂ ਸਚ ਸਮਝਣਾ ਕਿ ਜੋਗੀ ਆ ਪਹੁੰਚਿਆ ਹੈ ॥੫੬॥"

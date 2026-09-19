@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਆਪਨ ਤੇ ਘਟਿ ਜਾਨਹਿਗੇ ॥੯੬॥"
 page = 560
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They will not have any faith in gods and manes and will consider all others inferior to them.96."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਨੂੰ ਆਪਣੇ ਤੋਂ ਘਟ ਜਾਣਨਗੇ ॥੯੬॥"

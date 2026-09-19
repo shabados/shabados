@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਆਠ ਜਨਮ ਲਗਿ ਪਲ ਪਲ; ਬਲਿ ਬਲਿ ਜਾਇਯੈ ॥੬॥"
 page = 1190
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਤੋਂ ਅੱਠ ਜਨਮਾਂ ਤਕ ਪਲ ਪਲ ਬਲਿਹਾਰ ਜਾਈਏ ॥੬॥"

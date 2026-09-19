@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਮਹਿ ਝੂਠ ਨੈਕ ਨਹੀ ਜਾਨੋ ॥੧੧੯੦॥"
 page = 796
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Kumbhaashini”, add the word “arini” at the end and recognize all the names of Tupak.1190."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਵਿਚ ਕੋਈ ਝੂਠ ਨਾ ਸਮਝੋ ॥੧੧੯੦॥"

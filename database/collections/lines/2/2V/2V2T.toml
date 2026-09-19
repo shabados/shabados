@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭ੍ਰਮਰ ਕਲਾ ਤਾ ਕੋ ਨਿਰਖਿ; ਬਿਸਰੇ ਸੋਕ ਅਪਾਰ ॥"
 page = 1006
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the dejections ofBharmar Kala were obliterated,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਵੇਖ ਕੇ ਭ੍ਰਮਰ ਕਲਾ ਦੇ ਬੇਸ਼ੁਮਾਰ ਦੁਖ ਦੂਰ ਹੋ ਗਏ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਰੁਦ੍ਰ ਕੌ ਪੂਜਿ ਕੈ; ਬਹੁਰ ਬਸੈ ਗ੍ਰਿਹ ਆਨਿ ॥੮॥"
 page = 984
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And returned to their households after idolising Shiva.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਹਾ ਰੁਦ੍ਰ ਦੀ ਪੂਜਾ ਕਰ ਕੇ ਫਿਰ ਘਰ ਨੂੰ ਆ ਜਾਂਦੀਆਂ ਸਨ ॥੮॥"

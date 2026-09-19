@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਲਜੁਗਿ ਨਾਮਾ ਭਗਤੁ ਹੋਇ; ਫੇਰਿ ਦੇਹੁਰਾ ਗਾਇ ਜਿਵਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In kaliyuga, a devotee named Namdev made the temple rotate and dead cow alive."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਲਿਜੁਗ ਵਿਖੇ ਨਾਮਾਂ ਭਗਤ (ਛੀਂਬਾ) ਸੀ, (ਇਸਨੇ) ਠਾਕੁਰ ਦਵਾਰਾ ਫੇਰ ਦਿੱਤਾ ਤੇ ਗਉ ਜਿਵਾ ਦਿੱਤੀ।"

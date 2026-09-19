@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮਹਿ ਗੋਸ਼ਤੋ ਦੇਗ਼ ਅੰਦਰ ਨਿਹਾਦ ॥"
 page = 1427
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She put his meat in a saucepan"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਯਾਰ ਦਾ ਮਾਸ ਦੇਗ ਅੰਦਰ ਪਾ ਦਿੱਤਾ"

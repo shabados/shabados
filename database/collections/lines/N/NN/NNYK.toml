@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਉਪਜੈ ਪਚੈ; ਹਰਿ ਬੂਝੈ ਨਾਹੀ ॥"
 page = 127
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Man is born and he dies but understands not God."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਨਸਾਨ ਜੰਮਦਾ ਹੈ ਤੇ ਉਹ ਮਰ ਜਾਂਦਾ ਹੈ ਪ੍ਰੰਤੂ ਵਾਹਿਗੁਰੂ ਨੂੰ ਨਹੀਂ ਸਮਝਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "They are born, and they die, but they do not understand the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਹਰੀ ਕੋ ਨਹੀਂ ਸਮਝਤਾ ਸੋ ਉਪਜ ਕੇ ਵਾਸਨਾ ਰੂਪੀ ਅਗਨੀ ਮੇਂ (ਪਚੈ) ਜਲਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੇਹੜਾ ਮਨੁੱਖ ਪਰਮਾਤਮਾ ਨਾਲ ਸਾਂਝ ਨਹੀਂ ਪਾਂਦਾ, ਉਹ ਕਦੇ ਜੰਮਦਾ ਹੈ ਕਦੇ ਸੜਦਾ ਹੈ (ਭਾਵ ਉਹ ਕਦੇ ਤਾਂ ਸੁਖ ਦਾ ਸਾਹ ਲੈਂਦਾ ਹੈ ਕਦੇ ਹਾਹੁਕੇ ਲੈਂਦਾ ਹੈ)।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਚੈ = ਖ਼ੁਆਰ ਹੁੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El hombre nace y muere, pero no conoce la Realidad,"

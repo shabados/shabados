@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਤ੍ਰਿਯ ਭੋਗ ਜਾਰ ਸੌ ਕੀਨਾ ॥"
 page = 1339
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਇਸਤਰੀ ਨੇ ਯਾਰ ਨਾਲ ਰਮਣ ਵੀ ਕੀਤਾ"

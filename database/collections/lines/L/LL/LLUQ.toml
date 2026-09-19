@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਕੀਏ ਜਗਤ ਮੈ ਜਗ ਧਰਮ ॥"
 page = 139
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਨੇ) ਜਗਤ ਵਿਚ ਜੋ ਯੱਗ ਕਰਦੇ ਹੋਇਆਂ ਧਰਮ ਕੀਤੇ"

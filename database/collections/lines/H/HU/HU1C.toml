@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੋਊ ਹਰਿ ਆਵਤ ਭਏ; ਹਰਿ ਸਮਾਨ ਹਿਤ ਜੁਧ ॥੨੨੬੭॥"
 page = 526
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Agreeing to this proposal, both the forces abandoning their anger stood there and both the Vasudevs advanced forward to fight.2267."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋਵੇਂ ਕ੍ਰਿਸ਼ਨ ਸ਼ੇਰਾਂ ਵਾਂਗ ਯੁੱਧ ਕਰਨ ਲਈ ਆ ਗਏ ॥੨੨੬੭॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਤੁਰਥ ਅਵਸਥਾ ਅਰਿ ਪਦ; ਆਦਿ ਬਖਾਨੀਐ ॥"
 page = 805
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਚਤੁਰਥ ਅਵਸਥਾ' (ਬੁਢਾਪਾ) ਨਾਲ 'ਅਰਿ' ਸ਼ਬਦ ਬਖਾਨ ਕਰੋ।"

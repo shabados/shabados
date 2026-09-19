@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਹ ਜੈਨ ਅਲਾਵਦੀਨ ਜਹ ॥"
 page = 1286
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਬਾਦਸ਼ਾਹ ਜੈਨ ਅਲਾਵਦੀਨ (ਅਲਾਉੱਦੀਨ ਖ਼ਿਲਜੀ) ਸੀ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬੈ ਬਾਗ ਨੀਕੋ, ਸੁ ਤੌਨੋ ਨਿਹਾਰਿਯੋ ॥"
 page = 1220
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਉਸ ਨੇ ਸੁੰਦਰ ਬਾਗ਼ ਨੂੰ ਵੇਖਿਆ"

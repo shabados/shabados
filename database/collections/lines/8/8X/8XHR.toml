@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰੀ ਸਿੰਘ ਤਬ ਕੀਯਾ ਉਠਾਨਾ ॥"
 page = 69
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਹਰੀ ਸਿੰਘ ਨੇ ਹਮਲਾ ਕਰ ਦਿੱਤਾ"

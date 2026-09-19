@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਰੌਸ਼ਨ ਦਿਲੇ ਸ਼ਾਹਿ ਓ ਨਾਮ ਬੂਦ ॥"
 page = 1416
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was known as a person with courageous heart,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਬਾਦਸ਼ਾਹ ਦਾ ਨਾਮ 'ਰੌਸ਼ਨ ਦਿਲ' ਸੀ।"

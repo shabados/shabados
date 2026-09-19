@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਹਮਰੇ ਸੰਗ ਆਇ ਭਿਰੇ; ਨ ਲਰੈ, ਪਰਮੇਸੁਰ ਕੀ ਸਹੁ ਤਾ ਕੋ ॥"
 page = 419
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“I swear by God that I shall not fight with you"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮੇਰੇ ਨਾਲ ਆ ਕੇ ਲੜੇ, ਜੇ ਨਹੀਂ ਲੜੇਗਾ, (ਤਾਂ) ਉਸ ਨੂੰ ਪਰਮੇਸ਼ਵਰ ਦੀ ਸੌਂਹ।"

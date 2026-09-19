@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹੀ ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹਮੂ ਹਸਤ ਤੇਗਿ ਬਹਾਦਰ ਗੁਰੂ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Guru Teg Bahaadar is the same also,"

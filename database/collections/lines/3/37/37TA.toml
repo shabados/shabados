@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਬਿਕ੍ਰਮਾ ਤਿਹ ਘਾਇ ਚਲਾਵੈ ॥"
 page = 932
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਵੀ ਬਿਕ੍ਰਮ ਉਸ ਉਤੇ ਵਾਰ ਕਰਦਾ,"

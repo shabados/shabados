@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਨ ਪ੍ਰਬੰਧ ਕਹਤ ਸ੍ਰਮ ਪਾਊ ॥"
 page = 190
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If I relate all these stories in detail, then it may delusively be called Vishnu-system."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਵਿਸ਼ਣੂ-ਪ੍ਰਬੰਧ (ਗ੍ਰੰਥ) ਕਹਿਣ ਲਈ ਬਹੁਤ ਯਤਨ ਕਰਨਾ ਪਵੇਗਾ।"

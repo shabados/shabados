@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਹੈ ਨਿਸੰਗ ॥"
 page = 103
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੈਂਤ) ਨਿਸੰਗ ਹੋ ਕੇ (ਸ਼ਸਤ੍ਰ) ਚਲਾ ਰਹੇ ਸਨ।"

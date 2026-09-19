@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਬਾਬਾ ਆਇਆ ਤੀਰਥੈ; ਤੀਰਥਿ ਪੁਰਬਿ ਸਭੇ ਫਿਰਿ ਦੇਖੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Baba (Nanak) came to the pilgrimage centres and by participating in the ceremonies there he observed them minutely."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਬਾਬਾ ਤੀਰਥਾਂ ਨੂੰ (ਜਦ) ਆਯਾ, (ਓਥੇ) 'ਤੀਰਥ ਪੁਰਬ' (=ਤੀਰਥਾਂ ਦੇ ਦਿਨ ਦਿਹਾਰਾਂ ਦੇ ਕੁੰਭ ਗ੍ਰਹਣ ਆਦਿ ਮੇਲੇ) ਫਿਰ ਫਿਰਕੇ ਸਾਰੇ ਦੇਖੇ।"

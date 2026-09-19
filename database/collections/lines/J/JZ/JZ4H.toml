@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਠਵੇ ਮਾਰਿ, ਸਪਤਮੋ ਘਾਯੋ ॥"
 page = 1074
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਛੇਵੇਂ ਨੂੰ ਮਾਰ ਕੇ (ਫਿਰ) ਸੱਤਵਾਂ ਮਾਰ ਦਿੱਤਾ।"

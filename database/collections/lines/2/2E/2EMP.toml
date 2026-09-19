@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਲੀ ਅਨੂਪਮ ਸਿੰਘ ਅਤਿ; ਬਲ ਸੋ ਲਰਿਓ ਰਿਸਾਇ ॥"
 page = 432
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਲਵਾਨ ਅਨੂਪ ਸਿੰਘ ਬਹੁਤ ਕ੍ਰੋਧ ਕਰ ਕੇ ਬਲਰਾਮ ਨਾਲ ਲੜਿਆ।"

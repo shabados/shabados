@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪਨ ਮੰਤ੍ਰੀ ਸੁਮਤਿ ਕਉ; ਲੀਨੋ ਨਿਕਟਿ ਬੁਲਾਇ ॥੧੭੫੬॥"
 page = 472
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the army fled away, the king thought of a plan and called his minister Sumati before him.1756."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ 'ਸੁਮਤਿ' (ਨਾਂ ਵਾਲੇ) ਮੰਤਰੀ ਨੂੰ ਕੋਲ ਬੁਲਾ ਲਿਆ ॥੧੭੫੬॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਮੁਹਿ ਕਹੇ ਨ ਆਵਤ ਨੇਹਾ ॥"
 page = 1303
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਪ੍ਰੇਮ ਦਾ ਮੇਰੇ ਕੋਲੋਂ ਵਰਣਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"

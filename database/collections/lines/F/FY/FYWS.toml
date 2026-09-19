@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਲਕੁ ਪੈੜਾ ਹੈ ਕੋਹਲੀ; ਦਰਗਹੁ ਭੰਡਾਰੀ ਅਤਿ ਭਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Noble Paira, the Kohali is the store keeper of the court of the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮਲਕ ਪੈੜਾ ਕੋਹਲੀ ਦਰਗਾਹ ਦਾ ਵਡਾ ਭਾਰੀ ਭੰਡਾਰੀ ਹੈ।"

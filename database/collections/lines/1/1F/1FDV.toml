@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਖ਼ੂਬੀ ਦਰ ਆਮਦ ਗੁਲੇ ਬੋਸਤਾ ॥"
 page = 1417
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All of them blossomed like garden,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਗ਼ ਦਾ ਫੁਲ (ਭਾਵ ਲੜਕਾ) ਸੁੰਦਰਤਾ ਵਿਚ ਆਇਆ (ਭਾਵ ਜਵਾਨੀ ਨੇ ਖ਼ੂਬ ਰੰਗ ਬੰਨ੍ਹਿਆ)"

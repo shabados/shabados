@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਫਿਰ ਸਭ ਪ੍ਰਿਥਵੀ ਕੇ ਊਪਰੇ; ਹਾਕਮ ਠਹਿਰਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Then controlled the entire society, and explained the commands."

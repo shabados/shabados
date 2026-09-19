@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਆਨਿ ਆਪੁ ਹਾਥ ਦੈ; ਬਚਾਇ ਮੋਹਿ ਲੇਹਿੰਗੇ ॥"
 page = 614
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਵੇਲੇ) ਪ੍ਰਭੂ ਆਪਣਾ ਹੱਥ ਦੇ ਕੇ ਮੈਨੂੰ ਬਚਾ ਲੈਣਗੇ।"

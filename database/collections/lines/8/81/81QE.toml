@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਤੇ ਕਛੁ ਸੰਗ੍ਰਹੌ; ਮੰਤ੍ਰ ਮਨ ਮੋ ਚਹਿਯੋ ॥"
 page = 826
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja was contented to see an ascetic and thought he could learn a few charms from her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਉਸ ਤੋਂ ਕੁਝ ਮੰਤ੍ਰ (ਆਦਿ) ਪ੍ਰਾਪਤ ਕਰ ਲਏ ਜਾਣ।"

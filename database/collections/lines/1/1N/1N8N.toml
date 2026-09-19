@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਬਾਲਬ ਬਕੁਨ, ਦਮ ਬਦਮ ਨੋਸ਼ ਕੁਨ ॥"
 page = 1428
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Fill it up to the brim  so that I can drink it with every breath"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪਿਆਲਾ ਕੰਢੇ ਤਕ ਭਰਿਆ ਹੋਵੇ ਜਿਸ ਨੂੰ ਮੈਂ ਹਰ ਵੇਲੇ ਪੀਂਦਾ ਰਹਾਂ"

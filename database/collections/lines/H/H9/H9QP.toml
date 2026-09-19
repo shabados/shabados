@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਿਖੇਸ ਕਉ ਰਣਿ ਜੀਤਿ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After conquering Mahishasura in the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਿਖਾਸੁਰ ਨੂੰ ਰਣ-ਭੂਮੀ ਵਿਚ ਜਿਤ ਕੇ"

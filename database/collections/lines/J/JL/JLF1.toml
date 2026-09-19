@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਬਨਿਤਾ ਪਤਿ ਆਪਨੋ ਤ︀ਯਾਗ ਔਰ ਪੈ ਜਾਇ ॥"
 page = 936
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The woman, who abandons her husband and goes to others,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਇਸਤਰੀ ਆਪਣੇ ਪਤੀ ਨੂੰ ਤਿਆਗ ਕੇ ਹੋਰ ਕੋਲ ਜਾਂਦੀ ਹੈ"

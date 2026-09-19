@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਚੰਨਣ ਪਰਉਪਕਾਰੁ ਕਰਿ; ਅਫਲ ਸਫਲ ਵਿਚਿ ਵਾਸੁ ਵਸਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Sandal being benevolent makes all the trees, be they with or without fruits, fragrant."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਚੰਦਨ ਦਾ ਬੂਟਾ ਪਰੋਪਕਾਰੀ ਹੈ, ਜੋ ਅਫਲ ਸਫਲ (ਸਭ ਬੂਟਿਆਂ) ਵਿਚ ਵਾਸ਼ਨਾ ਪਾ ਦਿੰਦਾ ਹੈ,"

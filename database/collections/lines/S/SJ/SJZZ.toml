@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਬਦਿ ਸੁਰਤਿ ਉਪਦੇਸੁ; ਸਚਿ ਸਮਾਣਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Only they have realised Him whose surati (consciousness) has merged into the truth after accepting the commands of the Word."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਨੇ) ਸਬਦ ਸੁਰਤ ਦੇ ਉਪਦੇਸ਼ ਨਾਲ (ਜਗ੍ਯਾਸੂਆਂ ਨੂੰ) ਸਚ ਸਮਾਇਆ ਹੈ।"

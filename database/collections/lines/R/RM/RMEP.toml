@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਰਾਇ ਮਹਤਾਬ; ਸੁਦਾਗਰ ਆਇਯੋ ॥"
 page = 1021
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਮਹਤਾਬ ਰਾਇ ਨਾਂ ਦਾ ਸੌਦਾਗਰ ਆਇਆ।"

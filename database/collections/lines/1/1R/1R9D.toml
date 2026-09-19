@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਦਾ ਉਨ੍ਹਾਣ ਦੀ ਗਲੀ ਦੀ ਹੀ ਪਰਕਰਮਾ ਕਰਦਾ ਰਹੁ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦਾਯਮਾ ਮੀ ਗਰਦ ਗਿਰਦਿ ਕੂਇ ਸ਼ਾਣ ॥੧੧॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, pick up scraps of food from His dining table just for a moment. (363)"

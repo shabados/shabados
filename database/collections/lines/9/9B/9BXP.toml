@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਿਰੀ ਗੁਰੂ ਸਾਹਿਬੁ, ਸਭ ਊਪਰਿ ॥"
 page = 1401
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Sire great Guru showered his benediction on all;"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾਰਾਜ ਵਡੇ ਗੁਰਾਂ ਨੇ ਸਾਰਿਆਂ ਉਤੇ ਆਪਣੀ ਮਿਹਰ ਧਾਰੀ ਹੈ;"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Great, Supreme Guru showered His Mercy upon all;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਗੁਰੂ ਸਾਹਿਬ ਸਰਬ ਕੇ ਊਪਰ ਸਿਰੋਮਣੀ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਗੁਰੂ ਨੇ ਸਾਰੇ ਜੀਆਂ ਉੱਤੇ ਮਿਹਰ ਕੀਤੀ ਹੈ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Grandioso y Supremo Guru, roció Su Misericordia sobre nosotros,"

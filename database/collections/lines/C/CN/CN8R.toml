@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਨਹੂੰ ਨ ਤਿਹ ਸੋ ਜੁਧੁ ਮਚਾਯੋ ॥"
 page = 452
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "None of them went forward to fight with the king"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ ਨੇ ਵੀ ਉਸ ਨਾਲ ਯੁੱਧ ਨਹੀਂ ਮਚਾਇਆ ਹੈ।"

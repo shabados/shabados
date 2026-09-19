@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਨਿਕ ਭੂਖਨ; ਕੀਨੇ ਬਹੁ ਰੰਗਾ ॥"
 page = 736
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Out of gold are made ornaments of many kinds."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੋਨੇ ਵਿਚੋਂ ਬੜੀਆਂ ਕਿਸਮਾਂ ਦੇ ਗਹਿਣੇ ਬਣਾਏ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Jewels and ornaments of many different forms are fashioned from gold."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਵਰਨ ਕੇ ਗਹਨੇ ਸੁਨਿਆਰੇ ਨੇ ਬਹੁਤ ਪ੍ਰਕਾਰ ਕੇ ਕੀਏ ਸੋ ਕਨਕ ਰੂਪ ਹੀ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸੋਨੇ ਤੋਂ ਕਈ ਕਿਸਮਾਂ ਦੇ ਗਹਿਣੇ ਘੜੇ ਜਾਂਦੇ ਹਨ (ਉਹ ਅਸਲ ਵਿਚ ਸੋਨਾ ਹੀ ਹੁੰਦੇ ਹਨ)।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਨਿਕ = ਸੋਨਾ। ਭੂਖਨ = ਗਹਿਣੇ। ਕੀਨੇ = ਬਣਾਏ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "en mil formas se moldea el oro."

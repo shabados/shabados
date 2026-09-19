@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਨਿਓ ਰਾਜ ਦੁਰਜੋਧਨੰ ਜੁਧ ਭੂਮੰ ॥"
 page = 147
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(Ultimately) the king Duryodhana was killed in the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਆਖੀਰ ਵਿਚ) ਰਾਜਾ ਦੁਰਯੋਧਨ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਮਾਰਿਆ ਗਿਆ।"

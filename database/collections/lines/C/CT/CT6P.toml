@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੌਰਾ ਦੇਈ ਨਾਰਿ ਤਿਹ ਸੋਹੈ ॥"
 page = 1301
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਗੌਰਾ ਦੇਈ ਨਾਂ ਦੀ ਇਸਤਰੀ ਸ਼ੋਭਦੀ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਠੇ ਪਖਰਿਯਾ ਹਨਿਯਹੁ; ਬਿਸਿਖ ਪ੍ਰਹਾਰ ਕਰਿ ॥"
 page = 1240
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੀਰਾਂ ਦੇ ਵਾਰ ਕਰ ਕੇ ਜਵਾਨ ਘੋੜ ਸਵਾਰਾਂ ਨੂੰ ਮਾਰ ਦਿਓ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਖੰਡ ਬ੍ਰਤੰ ਅਨਡੰਡ ਤਨੰ ॥"
 page = 663
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਖੰਡ ਬ੍ਰਤ ਵਾਲਾ ਅਤੇ ਦੰਡ ਤੋਂ ਰਹਿਤ ਤਨ ਵਾਲਾ ਹੈ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਹੋਂਦੇ ਤਾਣ, ਰਹੈ ਨਿਤਾਣਿਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Though being powerful, the gurmukhs always consider themselves weak and humble."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖ ਬਲ (ਜਾਂ ਵਸੀਕਾਰ) ਰੱਖਕੇ ਬੀ ਨਿਤਾਣੇ ਹੋ ਰਹੇ ਹਨ।"

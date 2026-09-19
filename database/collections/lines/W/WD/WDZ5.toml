@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਉ ਹਸਿ ਕੈ ਅਪਨੇ ਬਸ ਕੈ; ਬਲਦੇਵਹਿ ਕਉ ਤਬ ਛਾਡਿ ਦਯੋ ਹੈ ॥੧੪੩੮॥"
 page = 440
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then laughingly he subdued Balram but subsequently let him go.1438."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਹਸ ਕੇ ਅਤੇ ਆਪਣੇ ਵਸ ਵਿਚ ਕਰ ਕੇ ਬਲਰਾਮ ਨੂੰ ਤਦ ਛਡ ਦਿੱਤਾ ਹੈ ॥੧੪੩੮॥"

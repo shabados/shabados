@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਿਤੁ ਕਾਰਣਿ; ਸਿਰਿ ਛਾਈ ਪਾਈ ॥"
 page = 951
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "What for has he put ashes on his head?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸ ਵਾਸਤੇ ਉਸ ਨੇ ਆਪਣੇ ਸਿਰ ਵਿੱਚ ਸੁਆਹ ਪਾਈ ਹੈ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Why does he apply ashes to his forehead?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸ ਵਾਸਤੇ ਜੋਗੀ ਨੇ ਸਿਰ ਪਰ ਸੁਆਹ ਪਾਈ, ਭਾਵ ਭੁਖ ਕਿਉਂ ਧਾਰਣੁ ਕੀਆ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਿਰ ਉਤੇ ਸੁਆਹ ਉਸ ਨੇ ਕਾਹਦੇ ਲਈ ਪਾਈ ਹੈ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਿਰਿ = ਸਿਰ ਉਤੇ। ਛਾਈ = ਸੁਆਹ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "¿Por qué entonces se untan cenizas sobre su frente?"

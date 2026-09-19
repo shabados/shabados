@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਦਾਨਦ ਕਿ ਈਂ ਰਾ ਖ਼ਬਰਦਾਰ ਸ਼ੁਦ ॥"
 page = 1416
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king assumed that she had discerned his intentions,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਦਸ਼ਾਹ ਨੇ ਸਮਝਿਆ ਕਿ ਇਸ ਨੇ (ਮੇਰੀ ਨੀਅਤ) ਨੂੰ ਭਾਂਪ ਲਿਆ ਹੈ।"

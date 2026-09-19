@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੀ ਚਲੀ ਆਈ ਤਹਾ; ਜਹਾ ਹੁਤੇ ਨਿਜੁ ਮੀਤ ॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Walking along she reached the place where there was her friend."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਲਦਿਆਂ ਚਲਦਿਆਂ ਉਥੇ ਆ ਪਹੁੰਚੀ ਜਿਥੇ ਉਸ ਦਾ ਮਿਤਰ (ਬੈਠਾ) ਸੀ।"

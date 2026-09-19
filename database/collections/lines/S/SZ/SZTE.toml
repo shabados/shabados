@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠੀ ਸਸਤ੍ਰ ਝਾਰੰ ਅਪਾਰੰਤ ਵੀਰੰ ॥"
 page = 276
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਪਾਰ ਸੂਰਮਿਆਂ ਦੇ ਸ਼ਸਤ੍ਰਾਂ ਵਿੱਚੋਂ ਅੱਗ ਵਰ੍ਹਦੀ ਸੀ।"

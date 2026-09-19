@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੰਦਰ ਤੂਰ ਕਰੂਰ ਕਰੋਰਾ ॥"
 page = 150
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Million of drums and musical instruments sounded."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਰੋੜਾਂ ਢੋਲ, ਤੂਰ ਆਦਿ ਤੇਜ਼ੀ ਨਾਲ ਵਜਣ ਲਗੇ"

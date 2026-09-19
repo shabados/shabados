@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋਰੀ ਸੁਤਾ ਕਰੀ ਬਿਧਿ ਰਾਨੀ ॥੧੯॥"
 page = 1158
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਮੇਰੀ ਪੁੱਤਰੀ ਨੂੰ ਵਿਧਾਤਾ ਨੇ ਰਾਣੀ ਬਣਾ ਦਿੱਤਾ ਹੈ ॥੧੯॥"

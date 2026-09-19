@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਸਤ੍ਰੁ ਛਿਨ ਮਾਝ ਸੰਘਾਰੇ ॥੮੬॥"
 page = 1363
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਹੁਤ ਜ਼ਿਆਦਾ ਵੈਰੀ ਛਿਣ ਵਿਚ ਮਾਰ ਦਿੱਤੇ ॥੮੬॥"

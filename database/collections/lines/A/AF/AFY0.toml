@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਉਸਦੀ ਤਲਵਾਰ ਦਾ ਜੌਹਰ ਜਦ ਰੌਸ਼ਨ ਹੁੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਵਲੇ ਜੌਹਰਿ ਤੇਗ਼ ਅਫ਼ਰੋਖ਼ਤਾ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "But when the skill, feat and the power of his sword springs up"

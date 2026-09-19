@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਰਗਜ ਦੇਇ ਨਾਰਿ ਜਾ ਕੇ ਘਰ ॥"
 page = 1265
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਘਰ ਮਰਗਜ ਦੇਈ ਨਾਂ ਦੀ ਇਸਤਰੀ ਸੀ।"

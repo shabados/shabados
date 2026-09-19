@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜ੍ਰਿੜਰਿੜ ਜੰਗੰ ॥੪੧੯॥"
 page = 593
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The large daggers are striking blows on the limbs in the war-arena.419."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜੇ ਜੰਗ ਵਿਚ ਰੁਝੇ ਸਨ ॥੪੧੯॥"

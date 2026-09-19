@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਭੈ ਹ੍ਵੈ ਸਭਹੂੰਨ ਬਿਚਾਰਿਯੋ ॥"
 page = 995
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They had intended to put the woman on the saddle of a horse"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਨੇ ਨਿਰਭੈ ਹੋ ਕੇ ਵਿਚਾਰਿਆ।"

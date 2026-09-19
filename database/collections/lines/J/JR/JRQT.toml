@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਚੇ ਕੋਪ ਕੈ ਸੁ ਉਸਟੀ ਦਮਾਮੇ ॥"
 page = 1370
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਊਠਾਂ ਉਤੇ ਬੰਨ੍ਹੇ ਨਗਾਰੇ ਕ੍ਰੋਧ ਸਹਿਤ ਵਜਾਏ ਜਾ ਰਹੇ ਸਨ,"

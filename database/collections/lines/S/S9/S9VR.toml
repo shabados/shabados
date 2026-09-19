@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪਹਿਲ ਪੁਰਸਾਬਿਰਾ ॥"
 page = 693
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "First Primal Being becomes manifest."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲੇ ਪਹਿਲ ਆਦਿ ਪੁਰਖ ਉਤਪੰਨ ਹੋਇਆ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "First of all, there was only the Primal Being."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਿਥਮੇ ਪੁਰਸ ਕੋ (ਬਿਰਾ) ਵੈਰਾਗ ਧਾਰਨ ਕੀਆ ਚਾਹੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ ਪੁਰਸ਼ (ਅਕਾਲ ਪੁਰਖ) ਪਰਗਟ ਹੋਇਆ {\"ਆਪੀਨ੍ਹ੍ਹੈ ਆਪੁ ਸਾਜਿਓ, ਆਪੀਨ੍ਹ੍ਹੈ ਰਚਿਓ ਨਾਉ\"}।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪੁਰਸਾਬਿਰਾ = ਪੁਰਸ-ਆਬਿਰਾ। ਪੁਰਸ = ਪਰਮਾਤਮਾ। ਆਬਿਰਾ = ਪਰਗਟ (ਹੋਇਆ)। ਆਬਿਰ ਭੂ = {आविर भु } ਪਰਗਟ ਹੋਣਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "En el comienzo el Espíritu Divino se volvió Manifiesto"

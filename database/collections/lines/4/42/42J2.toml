@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ, ਆਕਰਖ ਕਰਤ ਹੋ ਕਬਹੂੰ ॥"
 page = 1387
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When at any time He withdraws His creation,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਕਦੇ (ਸ੍ਰਿਸ਼ਟੀ ਨੂੰ ਆਪਣੇ ਵਲ) ਖਿਚਦੇ ਹੋ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਜਬ ਆਕਰਖ; ਕਰਤ ਹੋ ਕਬਹੂੰ ॥"

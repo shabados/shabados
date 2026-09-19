@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਬਚਨ ਤਾ ਕੋ; ਇਹ ਭਾਤਿ ਸੁਨਾਇਯੋ ॥"
 page = 819
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She served him dainty viands and asked him to throw a handful of dryfruit towards the sack and said,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਉਸ ਨਾਲ ਇਸ ਤਰ੍ਹਾਂ ਬਚਨ ਕੀਤਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹੀ ਪਰਮ ਪੁਰਖ ਕਹੁ ਪਾਵੈ ॥"
 page = 671
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If such a love is applied towards the Lord, only then that Supreme Lord can be realized"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ (ਉਹ) ਪਰਮ ਪੁਰਖ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰ ਲਵੇਗਾ।"

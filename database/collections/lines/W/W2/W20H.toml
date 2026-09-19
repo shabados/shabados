@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੈਨਪ੍ਰਭਾ ਬਾਚ ਕਾਨ੍ਰਹ ਜੂ ਸੋ ॥"
 page = 363
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Mainprabha addressed to Krishna:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨਪ੍ਰਭਾ (ਨਾਂ ਦੀ ਗੋਪੀ) ਨੇ ਕ੍ਰਿਸ਼ਨ ਜੀ ਪ੍ਰਤਿ ਕਿਹਾ:"

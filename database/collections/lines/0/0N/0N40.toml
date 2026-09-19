@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭ ਬਾਚ ਸੋ ਸੁਖ ਦੈਨ ॥"
 page = 690
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the knowledge-Guru uttered these ambrosial words,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੁਖ ਦੇਣ ਵਾਲੇ ਬਚਨ ਕਹੇ।"

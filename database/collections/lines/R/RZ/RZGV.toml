@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰ ਆਨ੍ਰਯੋ ਇਸਤ੍ਰੀ ਕਰਿ ਤਾ ਕੌ ॥੮॥"
 page = 1302
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਇਸਤਰੀ ਵਜੋਂ ਵਿਆਹ ਕੇ ਲੈ ਆਈ ॥੮॥"

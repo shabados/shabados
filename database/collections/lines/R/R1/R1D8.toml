@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਿਯ ਕੋ ਪ੍ਰਿਥਮ ਜਵਾਇ; ਆਪੁ ਪੁਨਿ ਖਾਇਯੈ ॥"
 page = 832
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(A Woman) should eat after she had served meals to her husband."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ ਪ੍ਰਿਯ ਨੂੰ ਖਵਾ ਕੇ ਫਿਰ ਆਪ ਖਾਣਾ ਚਾਹੀਦਾ ਹੈ।"

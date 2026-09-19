@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖ ਰਾਇ ਤ੍ਰਿਯ ਕੋ ਰਮਤ; ਸਰ ਤਨਿ ਕਾਨ ਪ੍ਰਮਾਨ ॥"
 page = 852
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja on seeing two in love flew in rage,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਇਸਤਰੀ ਨੂੰ ਰਮਣ ਕਰਦਿਆਂ ਵੇਖ ਕੇ ਬਾਣ ਨੂੰ ਕੰਨ ਤਕ ਖਿਚਿਆ"

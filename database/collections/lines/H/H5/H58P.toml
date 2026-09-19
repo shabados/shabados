@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਚੇ ਸੂਰ ਬੀਰ ਹੰਕਾਰੀ ॥੨੧॥"
 page = 929
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A great number lost their lives and the egoist (alive) ories commenced dancing.(21)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੰਕਾਰੀ ਸੂਰਮੇ ਨੱਚਣ ਲਗੇ ॥੨੧॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਕਾਬਿ ਕੀਨੋ ਜਉਨ ॥੩॥"
 page = 635
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "To what extent I should describe the number of poems that he composed?3."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਕਾਵਿ ਉਸ (ਕਾਲਿਦਾਸ) ਨੇ ਰਚੇ ਸਨ ॥੩॥"

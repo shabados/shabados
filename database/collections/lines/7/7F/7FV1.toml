@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਿਆਵਹੁ ਚੰਡੀ ਬਾਧ ਕੈ; ਨਾਤਰ ਡਾਰੋ ਮਾਰ ॥੧੦੭॥"
 page = 86
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Arrest and bring Chandi otherwise kill her.”107.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ ਕਿਹਾ ਕਿ) ਚੰਡੀ ਨੂੰ ਬੰਨ੍ਹ ਲਿਆਓ, ਨਹੀਂ ਤਾਂ ਮਾਰ ਦਿਓ ॥੧੦੭॥"

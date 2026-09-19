@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੇਸ ਲੈ ਸੰਨ︀ਯਾਸ ਕੋ ਨ੍ਰਿਪ ਛਾਡਿ ਕੈ ਜਯ ਪਤ੍ਰ ॥"
 page = 646
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Their honours and victories, they adopted Sannyas and Yoga and have come there"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵਿਜੈ-ਪੱਤਰਾਂ ਨੂੰ ਛਡ ਕੇ ਸੰਨਿਆਸ ਦਾ ਭੇਸ ਲੈ ਲਿਆ ਹੈ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਨਿਆਇ ਅਤੇ ਇਨਸਾਫ ਦਾ ਮੁਖੜਾ ਚਮਕ ਪਿਆ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਰੁਖ਼ਿ ਅਦਲੋ ਇਨਸਾਫ਼ ਅਫ਼ਰੋਖ਼ਤਾ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "The face of justice, equity and fair play glistened, "

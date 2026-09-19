@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਛੁ ਅਉਰ ਕ੍ਰਿਆ ਇਹ ਭਾਤਿ ਠਟੀ ॥੪੮੮॥"
 page = 674
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then that sage with matted locks, considering this world like a cloud of smoke, formulated a plan of another activity.488."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਇਸ ਤਰ੍ਹਾਂ ਦੀ ਕੁਝ ਹੋਰ ਕ੍ਰਿਆ ਬਣਾ ਲਈ ॥੪੮੮॥"

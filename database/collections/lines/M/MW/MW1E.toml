@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖ ਮਦਨ ਦੁਤ ਹੋਤ ਸੁ ਮਾਰੰ ॥੫੯੪॥"
 page = 262
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The bracelets of their hands are spreading brightness and seeing such elegance the beauty of the god of love is getting dim.594."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਦੀ) ਸ਼ੋਭਾ ਨੂੰ ਵੇਖ ਕੇ ਕਾਮਦੇਵ ਵੀ ਮਾਤ ਖਾ ਜਾਂਦਾ ਹੈ ॥੫੯੪॥"

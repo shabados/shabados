@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੀਧਾ ਛੋਡਿ; ਅਪੂਠਾ ਬੁਨਨਾ ॥੩॥"
 page = 185
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and leaving the straight way, he weaves backwards."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਿੱਧੇ ਸਤੇਲ ਰਸਤੇ ਨੂੰ ਤਿਆਗ ਕੇ, ਉਹ ਪਿਛੇ ਨੂੰ ਉਣਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "leaving the straight and narrow path, he weaves his way backwards. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੀਧਾ ਛੋਡ ਅਰਥਾਤ ਨਿਸਕਾਮ ਕਰਮ ਕਰਨੇ ਛੋਡ ਕਰ, ਜੋ ਪਰਮੇਸ੍ਵਰ ਸੇ ਉਲਟੀ ਤਰਫ ਚਲਾਉਣੇ ਵਾਲੇ ਸਕਾਮ ਕਰਮ ਹੈਂ ਇਨ ਕੋ ਬੁਨਨਾ ਅਰਥਾਤ ਧਾਰਨ ਕਰਤਾ ਹੈ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੀਵਨ ਦਾ ਸਿੱਧਾ ਰਾਹ ਛੱਡ ਕੇ ਅਸੀਂ ਜੀਵਨ-ਤਾਣੀ ਦੀ ਪੁੱਠੀ ਬੁਣਤ ਬੁਣ ਰਹੇ ਹਾਂ ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਛੋਡਿ = ਛੱਡ ਕੇ। ਅਪੂਠਾ = ਪੁੱਠਾ ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "el telar no teje el zigzag y produce el patrón equivocado. (3)"

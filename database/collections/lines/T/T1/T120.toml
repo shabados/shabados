@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਤਬ ਪੁਨਿ ਬ੍ਰਹਮਾ ਪ੍ਰਗਟਾਹੀ ॥"
 page = 177
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whenever the knowledge of Vedas is destroyed, Brahma is then manifested."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਤਦੋਂ ਫਿਰ ਬ੍ਰਹਮਾ ਪ੍ਰਗਟ ਹੁੰਦਾ ਹੈ।"

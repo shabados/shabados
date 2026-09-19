@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਮ੍ਰਿਗ ਨੈਨ ਮਤੀ ਤਹ ਰਾਜੈ ॥"
 page = 814
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That, with the eyes of a deer, and with her exquisiteness,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ (ਉਹ) ਮ੍ਰਿਗਨ। ਨਾ ਮਤੀ ਰਹਿੰਦੀ ਸੀ,"

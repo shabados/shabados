@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਨਿਕ ਚੰਦ ਤਵਨ ਕਹ ਬਰਾ ॥"
 page = 1165
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨਿਕ ਚੰਦ ਨੇ ਉਸ ਨੂੰ ਵਿਆਹਿਆ"

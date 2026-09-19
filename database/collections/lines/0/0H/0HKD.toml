@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭ੍ਰਿਤ ਨ੍ਰਿਪਿ ਛੋਰੈ ॥"
 page = 560
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The disciples will turn away from their Guru and the servants will leave the king"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨੌਕਰ ਰਾਜੇ ਨੂੰ ਛਡ ਦੇਣਗੇ।"

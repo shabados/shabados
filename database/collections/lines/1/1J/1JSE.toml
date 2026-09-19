@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮਨ ਪਠਾਨਨ ਕੇ ਤਿਸੈ; ਸੀਸ ਝੁਕਾਵਤ ਆਨਿ ॥੧॥"
 page = 1124
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਠਾਣਾਂ ਦੇ ਕਬੀਲੇ ('ਤੁਮਨ') ਉਸ ਨੂੰ ਆ ਕੇ ਸੀਸ ਝੁਕਾਉਂਦੇ ਸਨ ॥੧॥"

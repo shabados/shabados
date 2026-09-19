@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਜ ਜਮਦਗਨਿ ਜਗਤ ਮੋ ਸੋਹਤ ॥"
 page = 174
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਮਦਗਨਿ ਨਾਂ ਦਾ ਮੁਨੀ (ਦਿਜ) ਜਗਤ ਵਿਚ ਬਿਰਾਜਦਾ ਹੈ।"

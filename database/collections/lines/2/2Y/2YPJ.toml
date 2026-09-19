@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਸਤ੍ਰੰ ਨੇਤਾ ॥੧੪੫॥"
 page = 214
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Conqueror of war and eminently specialist in the use of weapons.145."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਸਤ੍ਰਾਂ ਨੂੰ ਵਰਤਣ ਵਾਲਾ ਸੀ ॥੧੪੫॥"

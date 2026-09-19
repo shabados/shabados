@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹੋਵੈ ਮਿਸਰੀ ਕਲੀਕੰਦ; ਮਿਠਿਆਈ ਢਾਲਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "It is moulded into lump sugar and variegated sweets."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮਿਸਰੀ, ਕਲਾਕੰਦ ਤੇ ਢਾਲਵੀਂ ਮਠਿਆਈ (ਪੇਠਾ ਆਦਿ) ਬਣਦੀ ਹੈ।"

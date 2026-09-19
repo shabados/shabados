@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਹੋਂ ਵਿਛੁੜਿਆ, ਵਣਜਾਰਾ ॥੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Jiv the travelling trader thus gets separated from the Lord, the great banker."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਅਕਾਲ ਪੁਰਖ ਆਪਣੇ) ਸ਼ਾਹ ਥੋਂ ਵਣਜਾਰਾ (ਜੀਵ) ਵਿਛੁੜ ਗਿਆ।"

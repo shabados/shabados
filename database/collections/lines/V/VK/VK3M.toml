@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਦੋ ਜਹਾਨ ਕੀ, ਲੱਖਾਂ ਹੀ ਉਸ ਦੇ ਮੁਰੀਦ ਹਨ,   "
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਮੁਰੀਦਸ਼ ਦੋ ਆਲਮ ਚਿਹ ਬਲ ਸਦ ਹਜ਼ਾਰ ॥"
 page = 5
 line = 77
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "What to speak of just two worlds, he had millions of followers,"

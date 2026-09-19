@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜਿਤਾਵਤੀ ਨਗਰ ਇਕ ਸੋਹੈ ॥"
 page = 1161
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਜਿਤਾਵਤੀ ਨਾਂ ਦਾ ਇਕ ਸ਼ਹਿਰ ਸ਼ੋਭਦਾ ਸੀ।"

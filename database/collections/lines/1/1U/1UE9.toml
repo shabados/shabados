@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੇ ਤਿਨ ਕੋ ਕਛੁ ਦੇਤ, ਉਸਤਤਿ ਤਾ ਕੀ ਕਰੈ ॥"
 page = 1194
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਉਨ੍ਹਾਂ ਨੂੰ (ਭਾਵ ਤੁਹਾਨੂੰ) ਕੁਝ ਦਿੰਦਾ ਹੈ, ਉਸ ਦੀ ਉਸਤਤ ਕਰਦੇ ਹੋ"

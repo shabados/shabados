@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਵ ਪੂਜ ਰਨ ਮਾਝ ਭਜਾਏ ॥"
 page = 1379
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੇਵ-ਪੂਜਾ ਕਰਨ ਵਾਲਿਆਂ ਨੂੰ ਰਣ ਵਿਚੋਂ ਭਜਾ ਦਿੱਤਾ।"

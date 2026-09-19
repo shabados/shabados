@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਚੇਰੀ ਨ੍ਰਿਪਾ ਪਕਰਿ ਮੰਗਾਈ ॥"
 page = 927
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the backbiting reacted, the Raja summoned that maid."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾਸੀ ਨੂੰ ਰਾਜੇ ਨੇ ਪਕੜ ਕੇ ਮੰਗਵਾਇਆ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਪੁਰ ਕੁਪ੍ਰਯੋ ਫਿਰੰਗ ਰਾਇ ਮਨ ॥"
 page = 1281
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੇ ਫਿਰੰਗ ਰਾਇ ਮਨ ਵਿਚ ਕ੍ਰੋਧਿਤ ਹੋਇਆ।"

@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਮੇ ਹੀ; ਹਮ ਨਿਰਭਉ ਭਏ ॥"
 page = 863
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Through the Name, I have become fearless."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਾਮ ਦੇ ਰਾਹੀਂ ਮੈਂ ਨਿਡੱਰ ਹੋ ਗਿਆ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Through the Naam, I have become fearless."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਨਾਮ ਕਰ ਕੇ ਹੀ ਹਮ ਨਿਰਭਉ ਹੂਏ ਹੈਂ, ਭਾਵ ਸੇ ਜਮਾਦਿਕੋਂ ਕੇ ਭੈ ਸੇ ਰਹਿਤ ਹੂਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਪ੍ਰਭੂ-ਨਾਮ ਦਾ ਸਦਕਾ ਹੀ ਦੁਨੀਆ ਦਾ ਕੋਈ ਡਰ ਪੋਹ ਨਹੀਂ ਸਕਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "A través del Nombre del Señor se me quita el miedo;"

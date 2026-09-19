@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਕਰੇ ਜਗਿ ਅਰੁ ਹੋਮ ਸਾਜ ॥"
 page = 615
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, after conquering many kings, manu performed many hom-yajnas,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਸਾਰੇ ਹੋਮ ਸਾਜੇ ਅਤੇ ਯੱਗ ਕੀਤੇ।"

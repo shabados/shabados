@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਮਤਿ ਬਾਢਿਯਹਿ ਤਬੈ ਉਚਾਰੋ ॥"
 page = 901
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁਮਤਿ ਨਾਂ ਦੇ ਤਰਖਾਣ ਨੇ ਉਸ ਨੂੰ ਕਿਹਾ,"

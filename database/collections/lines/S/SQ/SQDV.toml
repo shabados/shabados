@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਚੁ ਕੂੜੁ, ਕਰਤੂਤਿ ਵੀਚਾਰਾ ॥੮॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Such are the actions of the truth and the falsehood."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੱਚ ਕੂੜ ਦੀ ਕਰਤੂਤ ਦੀ ਇਹ ਵੀਚਾਰ ਹੈ।"

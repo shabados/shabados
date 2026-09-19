@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੇਖ ਅਤਿਥ ਕੋ ਧਾਰਤ ਭਯੋ ॥"
 page = 1233
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਧ ਦਾ ਭੇਖ ਧਾਰਨ ਕਰ ਲਿਆ।"

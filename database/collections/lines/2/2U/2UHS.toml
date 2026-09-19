@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਟਪਟ ਬਾਹੰ ਕਟਿ ਕਟਿ ਡਾਰੋ ॥"
 page = 265
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The superb Ram killed all of them and chopped their arms"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਦੀਆਂ ਬਾਂਹਵਾਂ ਨੂੰ ਝਟ-ਪਟ ਕਟ ਦਿਓ।"

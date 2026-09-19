@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਇਉਂ ਸਤਿ ਸੰਗਤਿ ਕਾ; ਮੇਲ ਮਿਲਾਯੰ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Then, they encountered the holy congregation,"

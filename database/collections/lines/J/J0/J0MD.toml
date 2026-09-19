@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਰਭਰਾਇ ਉਠ ਠਾਢ ਭੀ; ਤਾਹਿ ਬੈਦ ਠਹਰਾਇ ॥੪॥"
 page = 817
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She got up abruptly and told Zaahid Khan, ‘I have called in a vaid, the lay-doctor, for you.’(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਘਬਰਾ ਕੇ ਉਠ ਖੜੋਤੀ ਅਤੇ ਉਸ ਨੂੰ ਵੈਦ ਵਜੋਂ ਠਹਿਰਾਇਆ (ਮੰਨਿਆ) ॥੪॥"

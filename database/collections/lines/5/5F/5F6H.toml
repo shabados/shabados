@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਮੰ ਧਾਮੰ ॥੭੯੯॥"
 page = 283
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors began to run on being shot by arrows  the sbode of Dharma (Ram) saw all this.799."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਵੀਰੋ! ਛੇਤੀ ਹੀ ॥੮੦੦॥"

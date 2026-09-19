@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੋਟਨ ਲਗੇ ਰੋਹ ਮਨ ਆਨੋ ॥"
 page = 820
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She (the maid) was infuriated after getting severe beating."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੱਟਾਂ ਵਜਣ ਨਾਲ (ਲੌਂਡੀ ਦੇ) ਮਨ ਵਿਚ ਕ੍ਰੋਧ ਆਇਆ।"

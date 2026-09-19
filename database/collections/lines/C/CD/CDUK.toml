@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰਵਾਰ ਕੇ ਦੇਸ ਮੈ; ਉਗ੍ਰ ਦਤ ਇਕ ਰਾਵ ॥"
 page = 989
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the country of Marwar, Raja Uger Datt used to live."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਰਵਾੜ ਦੇਸ ਵਿਚ ਉਗ੍ਰਦੱਤ ਨਾਂ ਦਾ ਇਕ ਰਾਜਾ ਸੀ।"

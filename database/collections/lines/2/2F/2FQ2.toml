@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣ ਰਤੇ ਸੂਰਾ ਸਾਮੰਤੰ ॥"
 page = 212
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Just as the flowers blossom in the spring, in the same manner are seen the mighty warriors fighting in the war."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਲਹੂ ਨਾਲ) ਲਾਲ ਹੋਏ ਸੂਰਮੇ ਰਣ ਵਿੱਚ ਇਸ ਤਰ੍ਹਾਂ ਫਿਰਦੇ ਸਨ।"

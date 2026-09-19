@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਸੁ, ਪੂਰਨ ਹੁਇ ਹੈ ਕਾਮ ॥"
 page = 611
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who will remember the Name of the Lord in the Iron Age, all their tasks will be fulfilled"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੀਆਂ ਕਾਮਨਾਵਾਂ (ਮਨੋਰਥ) ਪੂਰਨ ਹੋ ਜਾਂਦੀਆਂ ਹਨ।"

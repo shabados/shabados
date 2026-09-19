@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁ ਵੈ ਤਰਾਕ ਪਨੀਨ ਕੇ; ਪਰੈ ਤਿਹਾਰੇ ਕਾਨ ॥"
 page = 864
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She said, ‘My friend listen to me, I have beaten Quazi enough,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਉਹ ਜੁਤੀਆਂ ਦੀ ਤੜਾਕ (ਦੀ ਆਵਾਜ਼) ਤੁਹਾਡੇ ਕੰਨ ਵਿਚ ਪੈਂਦੀ ਸੀ,"

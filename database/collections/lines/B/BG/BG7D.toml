@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਰਨ ਹੋਇ ਹਮਾਰੀ ਆਸਾ ॥"
 page = 1386
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "May all the aspirations be fulfilled"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀ ਆਸ ਪੂਰੀ ਹੋ ਜਾਏ।"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਪੂਰਨ ਹੋਇ; ਹਮਾਰੀ ਆਸਾ ॥"

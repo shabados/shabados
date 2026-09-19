@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਚਰਿਓ ਆਤਮਾ ਪਰਮਾਤਮਾ ਸੰਗ ॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The soul said to the Higher Soul"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਤਮਾ ਨੇ ਪਰਮਾਤਮਾ ਤੋਂ ਪੁਛਿਆ"

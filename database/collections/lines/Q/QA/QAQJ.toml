@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮਤਿ ਪੂਰ ਕਰੰਮ, ਆਪੁ ਗਵਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In accordance with the wisdom of the Guru he deletes his ego and accomplishes the (virtuous) actions."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਉਂ ਜੋ) ਪੂਰਣ ਕਰਮਾਂ ਕਰ ਕੇ ਗੁਰੂ ਮਤ ਲੈਕੇ ਅਹੰਕਾਰ ਨੂੰ ਗਵਾ ਦਿਤਾ ਹੈ।"

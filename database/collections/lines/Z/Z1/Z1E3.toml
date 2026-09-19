@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਿਰਿਨਾਛਸ ਤਬ ਆਪੁ ਰਿਸਾਨਾ ॥"
 page = 169
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਹਿਰਨਕਸ਼ਪ ਨੇ ਆਪ ਕ੍ਰੋਧ ਕੀਤਾ"

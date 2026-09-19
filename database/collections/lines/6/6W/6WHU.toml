@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਹੀ ਸਲਾਮਤਿ; ਘਰਿ ਲੈ ਆਇਆ ॥੩॥"
 page = 372
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I have brought home this merchandise safe and sound."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਐਨ ਠੀਕ ਤੇ ਦਰੁਸਤ ਤੌਰ ਤੇ ਮੈਂ ਆਪਣਾ ਸੌਦਾ ਸੂਤ ਘਰ ਲੈ ਆਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I have brought this merchandise home, safe and sound. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਸਹੀ ਸਲਾਮਤਿ) ਸੁਖ ਚੈਨ ਕੇ ਸਾਥ ਨਿਰਬਿਘਨ ਨਾਮ ਰਤਨ ਅਪਨੇ (ਘਰਿ) ਹ੍ਰਿਦੇ ਮੇਂ ਲੇ ਆਯਾ ਅਰਥਾਤ ਪ੍ਰਾਪਤਿ ਹੂਆ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਇਹ ਨਾਮ-ਸੌਦਾ ਮੈਂ ਸਹੀ ਸਲਾਮਤਿ ਸਾਂਭ ਕੇ ਆਪਣੇ ਹਿਰਦੇ-ਘਰ ਵਿਚ ਲੈ ਆਂਦਾ ਹੈ ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਘਰਿ = ਹਿਰਦੇ-ਘਰ ਵਿਚ ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y la transporté a salvo hasta el interior de mi más íntimo hogar. (3)"

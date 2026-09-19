@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਪਜਿਆ ਆਨ ਸੰਨ︀ਯਾਸ ਰਾਇ ॥੪੮॥"
 page = 639
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His glory is indescribable and he manifested himself as the king of ‘Sannyas’.48."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ) ਆ ਕੇ ਸੰਨਿਆਸ ਰਾਜ ਪੈਦਾ ਹੋਇਆ ਹੈ ॥੪੮॥"

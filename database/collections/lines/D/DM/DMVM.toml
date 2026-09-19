@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੋਊ ਬੀਰ ਬਾਨਾ ਬਧੈ ਅਧ ਅਧੰ ॥"
 page = 146
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Both the warriors had tightened their tearing shafts."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋਹਾਂ ਵੀਰਾਂ ਨੇ ਟੋਟੇ ਟੋਟੇ ਕਰ ਦੇਣ ਵਾਲੇ ਬਾਣਾਂ (ਦੇ ਭੱਥੇ) ਬੰਨ੍ਹੇ ਹੋਏ ਸਨ।"

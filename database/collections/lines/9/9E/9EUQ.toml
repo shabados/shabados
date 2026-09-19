@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਉਣੁ. ਨ ਮੂਆ; ਕਉਣੁ. ਨ ਮਰਸੀ ॥"
 page = 1022
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "who has not died and who shall die not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੌਣ ਨਹੀਂ ਮਰਿਆ ਅਤੇ ਕੌਣ ਹੈ ਜੇ ਮਰੇਗਾ ਨਹੀਂ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Who has not died? Who shall not die?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੀਛੇ ਕੌਨ ਨਹੀਂ ਮੂਆ ਔਰ ਆਗੇ ਕੌਣ ਹੋ ਜੋ ਨਾ ਮਰੇਗਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਵਿਚ ਹੋਰ ਜੇਹੜਾ ਭੀ ਜੀਵ ਆਇਆ ਉਹ (ਆਖ਼ਰ) ਮਰ ਗਿਆ, ਜੇਹੜਾ ਭੀ ਆਵੇਗਾ ਉਹ (ਜ਼ਰੂਰ) ਮਰੇਗਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Y como ser humano, ¿quién no ha muerto o terminado en la muerte?"

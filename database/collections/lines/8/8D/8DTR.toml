@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠਕੰਤ ਤਾਲੰ ॥੧੯੦॥"
 page = 570
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The thundering warriors discharged arrows, their shields were raised and the rhythmic sound was heard.190."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਵਿਚੋਂ) ਲੈਅ ਪੈਦਾ ਹੁੰਦੀ ਹੈ ॥੧੯੦॥"

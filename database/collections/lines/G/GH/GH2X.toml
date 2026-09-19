@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਲਖ ਧਰਤਿ ਅਗਾਸਿ, ਅਧਰ ਧਰਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Lakhs of earths and skies He kept hanging without support."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ ਧਰਤੀਆਂ ਨਿਰਾਸਰੇ ਲੱਖਾਂ ਅਕਾਸ਼ਾਂ ਵਿਚ ਧਰੀਆਂ ਹਨ।"

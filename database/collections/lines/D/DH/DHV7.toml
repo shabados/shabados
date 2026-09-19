@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਤੇ ਬਸਿ ਰਾਜਾ ਹ੍ਵੈ ਗਯੋ ॥"
 page = 867
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "God had bestowed her with beauty; even the Raja had fallen for her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕਰ ਕੇ ਰਾਜਾ ਵੀ ਉਸ ਦੇ ਵਸ ਵਿਚ ਹੋ ਗਿਆ ਸੀ।"

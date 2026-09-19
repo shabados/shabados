@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਿੰਭ ਵਿੰਭ ਕਛੁ ਨੈਕ ਨ ਕਰੋਂ ॥੫੦॥"
 page = 59
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whatever He told me, I say unto you, there is not even a little heresay in it.50."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕੋਈ ਵੀ ਪਾਖੰਡ ਆਦਿ ਬਿਲਕੁਲ ਨਹੀਂ ਕਰਾਂਗਾ ॥੫੦॥"

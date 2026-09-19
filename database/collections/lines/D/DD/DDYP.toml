@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੈ ਲਰਿ ਕਰਿ ਸੁਰਸਰਿ ਤਟ ਮਰਿ ਹੌ ॥"
 page = 870
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਤਾਂ ਮੈਂ ਲੜ ਕੇ ਗੰਗਾ ਦੇ ਕੰਢੇ ਮਰ ਜਾਵਾਂਗੀ,"

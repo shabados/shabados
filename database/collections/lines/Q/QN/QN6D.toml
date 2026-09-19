@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਕ੍ਰ ਅਲਾਤ ਕੀ, ਬਾਤ ਬਘੂਰਨ; ਛਤ੍ਰ ਨਹੀ ਸਮ ਅਉ ਖਰਸਾਨੋ ॥"
 page = 98
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Even the disc, wind, canopy nd grindstone cannot revolve so swiftly.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਉਸ ਦੇ ਸਮਾਨ ਆਤਸ਼ਬਾਜ਼ੀ ਦੀ ਚੱਕਰੀ, ਵਾਵਰੋਲੇ ਦੀ ਹਵਾ, (ਰਾਜ ਸਿੰਘਾਸਨ ਦਾ) ਛੱਤਰ ਅਤੇ (ਸ਼ਸਤ੍ਰ) ਤੇਜ਼ ਕਰਨ ਵਾਲੀ ਸਾਣ ਵੀ (ਨਹੀਂ ਘੁੰਮ ਸਕਦੀ)।"

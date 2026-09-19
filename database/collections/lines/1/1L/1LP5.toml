@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੀਯ ਮੋ ਸਿਵ ਦੇਖਿ ਰਹਾ ਚਕ ਕੈ ॥"
 page = 189
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵ ਯੁੱਧ ਨੂੰ ਵੇਖ ਕੇ ਦਿਲ ਵਿਚ ਹੈਰਾਨ ਹੋ ਗਿਆ"

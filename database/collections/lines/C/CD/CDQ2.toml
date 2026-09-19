@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨ ਸੁਅ ਬਚਨ ਮੋਨਿ ਹ੍ਵੈ ਰਹਿਯੋ ॥੨੦॥"
 page = 813
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But Hanwant Singh remained mute.(20)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੁੱਤਰ (ਰਾਜੇ ਦਾ) ਬਚਨ ਸੁਣ ਕੇ ਚੁਪ ਹੀ ਰਿਹਾ ॥੨੦॥"

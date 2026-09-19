@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੂੰਈ ਮਨਿ ਕੁ ਮੰਗਾਇ ਕੈ; ਅੰਗ ਲਈ ਲਪਟਾਇ ॥"
 page = 897
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He asked for one quintal of cotton and woofs and wrapped them around him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਣ ਕੁ ਰੂੰ ਮੰਗਵਾ ਕੇ (ਉਸ ਨੂੰ) ਸ਼ਰੀਰ ਉਤੇ ਲਪੇਟ ਲਿਆ"

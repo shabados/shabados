@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਹੂ ਕਹ ਮੁਹਰੈ ਚਟਵਾਈ ॥"
 page = 880
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ (ਦਾਸੀ) ਨੂੰ ਮੋਹਰਾਂ ਦਾ ਲਾਲਚ ਦਿੱਤਾ,"

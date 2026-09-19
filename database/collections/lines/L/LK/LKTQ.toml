@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੋਟਿ ਜਨਮ ਕੇ; ਕਿਲਵਿਖ ਖੋਇ ॥੨॥"
 page = 199
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and sins of myriad of births are effaced."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕ੍ਰੋੜਾ ਜਨਮਾਂ ਦੇ ਪਾਪ ਮਿਟ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The sinful mistakes of millions of incarnations are erased. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਵਹੀ ਚਰਚਾ ਕਰੋੜਾਂ ਜਨਮੋਂ ਕੇ ਪਾਪੋਂ ਕੋ ਗਵਾਇ ਦੇਤੀ ਹੈ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਤੇ, ਮਨੁੱਖ ਆਪਣੇ) ਕ੍ਰੋੜਾਂ ਜਨਮਾਂ ਦੇ (ਕੀਤੇ ਹੋਏ) ਪਾਪ ਦੂਰ ਕਰ ਲੈਂਦਾ ਹੈ ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਿਲਵਿਖ = ਪਾਪ। ਖੋਇ = (ਮਨੁੱਖ) ਨਾਸ ਕਰ ਲੈਂਦਾ ਹੈ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y los errores de todos los tiempos son absueltos.(2)"

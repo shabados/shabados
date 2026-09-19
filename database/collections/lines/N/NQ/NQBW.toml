@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੀਰ ਤੁਫੰਡ ਤੁਪਨ ਕੇ ਮਾਰੇ ॥੩੫੦॥"
 page = 1384
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੀਰਾਂ, ਬੰਦੂਕਾਂ ਅਤੇ ਤੋਪਾਂ ਨਾਲ ਮਾਰੇ ਹੋਏ ॥੩੫੦॥"

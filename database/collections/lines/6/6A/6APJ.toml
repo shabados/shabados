@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਬੰਧ ਹੈ ਜਗਬੰਦ ਜੀ ॥੬੦॥"
 page = 557
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "People will not worship the Lord, the remover of all sufferings.60."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਤੋਂ ਬੰਦਨਾ ਕੀਤੇ ਜਾਣ ਵਾਲੇ ਦੀ ਬੰਦਨਾ ਨਹੀਂ ਕਰਨਗੇ ॥੬੦॥"

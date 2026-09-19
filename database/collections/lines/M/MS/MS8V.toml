@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਛਮਨ ਬਾਚ ਸਿਸ ਸੋ ॥"
 page = 279
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The speech of Lakshman addressed to the boys :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੱਛਮਣ ਨੇ ਬੱਚਿਆਂ ਨੂੰ ਕਿਹਾ-"

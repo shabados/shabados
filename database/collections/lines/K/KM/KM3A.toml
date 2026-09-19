@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਯੋ ਏਕ ਪੁਤ੍ਰੰ ਤਹਾ ਜਾਨਕੀ ਤੈ ॥"
 page = 276
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਸੀਤਾ (ਦੇ ਗਰਭ) ਤੋਂ ਇਕ ਪੁੱਤਰ ਪੈਦਾ ਹੋਇਆ।"

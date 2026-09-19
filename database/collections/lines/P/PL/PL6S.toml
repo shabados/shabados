@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੋਟਿ ਉਪਾਰਜਨਾ; ਤੇਰੈ ਅੰਗਿ ॥"
 page = 1156
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Millions of universes are in Thy Being, O Lord."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜਾਂ ਹੀ ਆਲਮ, ਤੇਰੇ ਸਰੂਪ ਅੰਦਰ ਹਨ, ਹੇ ਸੁਆਮੀ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Millions of universes are the limbs of His Being."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜੋਂ ਹੀ ਜੀਵ ਤੇਰੇ (ਉਪਾਰਜਨਾ) ਉਤਪਤਿ ਕੀਏ ਹੂਏ ਹੈਂ, ਸੋ ਹੇ ਭਗਵਨ! ਤੇਰੇ ਅੰਗ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਕ੍ਰੋੜਾਂ ਹੀ ਉਤਪੱਤੀਆਂ ਤੇਰੇ ਆਪੇ ਵਿਚ ਸਮਾ ਜਾਂਦੀਆਂ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਉਪਾਰਜਨਾ = ਉਤਪੱਤੀਆਂ। ਤੇਰੈ ਅੰਗਿ = ਤੇਰੇ ਅੰਗ ਵਿਚ, ਤੇਰੇ ਆਪੇ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuyos Brazos acarician millones de Universos"

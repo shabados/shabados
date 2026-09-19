@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਬਿਬੇਕ ਤਬ ਰੋਸਹਿ ਭਰਾ ॥"
 page = 704
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਬੇਕ ਰਾਜਾ ਗੁੱਸੇ ਨਾਲ ਭਰ ਗਿਆ।"

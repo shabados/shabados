@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰਾਮ ਰਸਾਇਣੁ; ਗੁਰਮੁਖਿ ਚਾਖੈ ॥"
 page = 415
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He who, through the Guru, quaffs Divine elixir,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਗੁਰਾਂ ਦੇ ਰਾਹੀਂ ਈਸ਼ਵਰੀ ਅੰਮ੍ਰਿਤ ਨੂੰ ਪਾਨ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Gurmukh drinks in the Lord's sublime essence;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖਿ ਰਾਮ ਨਾਮ ਰੂਪ ਅੰਮ੍ਰਿਤ ਚਾਖਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੇਹੜਾ ਮਨੁੱਖ ਗੁਰੂ ਦੀ ਸਰਨ ਪੈ ਕੇ ਰਸਾਂ ਦਾ ਘਰ ਨਾਮ-ਰਸ ਚੱਖਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰਸਾਇਣੁ = ਰਸਾਂ ਦਾ ਘਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél que a través del Guru prueba el Elixir del Naam, el Nombre del Señor,"

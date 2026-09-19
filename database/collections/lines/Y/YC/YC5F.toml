@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪ੍ਰਥਮੇ; ਤਿਆਗੀ ਹਉਮੈ ਪ੍ਰੀਤਿ ॥"
 page = 370
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Firstly, I have given up the love of pride."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ ਮੈਂ ਹੰਗਤਾ ਦਾ ਪਿਆਰ ਛੱਡ ਦਿੱਤਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "First, I renounced my egotistical love of myself."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਥਮ ਹਮਨੇ ਹੰਤਾ ਮਮਤਾ ਕੀ ਪ੍ਰੀਤੀ ਤ੍ਯਾਗੀ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਦੋਂ ਗੁਰੂ ਦੀ ਕਿਰਪਾ ਨਾਲ ਮੈਨੂੰ ਪ੍ਰਭੂ-ਪਤੀ ਮਿਲਿਆ, ਤਾਂ ਸਭ ਤੋਂ) ਪਹਿਲਾਂ ਮੈਂ ਹਉਮੈ ਨੂੰ ਪਿਆਰਨਾ ਛੱਡ ਦਿੱਤਾ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪ੍ਰਥਮੈ = ਪਹਿਲਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Primero dejé el amor a mi ego;"

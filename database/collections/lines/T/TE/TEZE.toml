@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਯਹ ਤਨਿਕ ਭਨਿਕ ਸੁਨਿ ਪਈ ॥"
 page = 936
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ (ਰਾਣੀ ਕੋਕਿਲਾ ਨੂੰ) ਇਸ ਦੀ ਮਾੜੀ ਜਿੰਨੀ ਭਿਣਕ ਪੈ ਗਈ"

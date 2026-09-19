@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਬਾੜੇ ਬੀਰੰ ਹਾਬੀਰੰ ॥"
 page = 212
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The thundering musical instruments were played in the war and the brave soldiers roared."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਿਆਂ ਨੂੰ ਮਾਰਨ ਵਾਲੇ ਸੂਰਮੇ ਲਲਕਾਰ ਰਹੇ ਸਨ।"

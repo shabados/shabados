@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਤਾਂ ਤੇਰੇ ਦਿਲ ਅੰਦਰ ਵਸਦਾ ਹੈ, ਪਰ ਤੂੰ ਬਾਹਰ ਨਸਦਾ ਹੈਂ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਊ ਦਰੂਨਿ ਦਿਲ ਤੂ ਬੀਰੂੰ ਮੀ-ਰਵੀ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "His face, with Waaheguru's magnanimity and munificence, is always radiant and shininmg. (170)"

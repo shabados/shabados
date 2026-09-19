@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਹੁ ਭਏ ਇਹ ਭਾਤਿ ਉਚਰੀ ॥੧੨॥"
 page = 857
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He saw a heap of gold-coins there and addressed the Shah.(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਾਹੂਕਾਰ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਕਹਿਣ ਲਗਾ ॥੧੨॥"

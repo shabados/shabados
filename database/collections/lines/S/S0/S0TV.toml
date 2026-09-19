@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹਿ ਕਹੋ ਬਾਤ ਸੁਨਿ ਬਿਮਲ ਮਤ ॥"
 page = 640
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Dutt! Listen to me with pure intellect"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਿਰਮਲ ਬੁੱਧੀ ਵਾਲੇ! ਤੈਨੂੰ ਗੱਲ ਕਹਿੰਦਾ ਹਾਂ, (ਧਿਆਨ ਨਾਲ) ਸੁਣ।"

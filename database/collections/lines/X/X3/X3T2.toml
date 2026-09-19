@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਵਨਿ ਤਰੁਨਿ ਗੁਰ ਤਵਨ ਕੀ; ਲਾਗਤ ਸੁਤਾ ਸਮਾਨ ॥੩੮॥"
 page = 835
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘To me, she is like the daughter of my Guru.’(38)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਇਸਤਰੀ ਉਸ ਗੁਰੂ ਦੀ ਧੀ ਦੇ ਸਮਾਨ ਲਗਦੀ ਹੈ ॥੩੮॥"

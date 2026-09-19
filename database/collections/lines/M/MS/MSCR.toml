@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੈਂ ਮਦ ਬੈਣੰ ॥੬੩੪॥"
 page = 266
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They all absorbed their minds in Ram, forsaking the love of their husbands and looking towards him resolutely, they began to talk with one another.634."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਸਤੀ ਵਾਲੇ ਬਚਨ ਬੋਲ ਰਹੀਆਂ ਸਨ ॥੬੩੪॥"

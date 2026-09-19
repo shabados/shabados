@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹੈ ਆਪਨੇ ਹ੍ਰਿਦੈ ਬਿਚਾਰਿਯੋ ॥"
 page = 961
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raj Kumari observed this scene and thought in her mind."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਹਿਰਦੇ ਵਿਚ ਇਹ ਵਿਚਾਰ ਕੀਤਾ।"

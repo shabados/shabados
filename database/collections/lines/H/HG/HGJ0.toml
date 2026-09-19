@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਤ੍ਰਿਯ ਘਾਤ ਭਲੀ ਲਖਿ ਪਾਈ ॥"
 page = 816
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(As planned) The women found an auspicious moment, when the"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਇਸਤਰੀ ਨੂੰ ਚੰਗਾ ਮੌਕਾ ਮਿਲ ਗਿਆ।"

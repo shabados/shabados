@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਣਿ ਮਾਣਿਕ ਮੋਤੀ ਲਾਲ ਸੁਚੇ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He Created the gems rubies pearls and jewels!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਣੀਆਂ, ਮਾਣਕ, ਮੋਤੀ, ਲਾਲ ਸਾਜੇ ਹਨ;"

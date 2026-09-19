@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੇ ਸਉਹੇ ਦੁਰਗਸਾਹ, ਜਣ ਕਾਬੈ ਹਾਜੀ ॥"
 page = 126
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They marched in front of Durga, like pilgrims going for Haj to Kaabah (Mecca)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਦੁਰਗਾ ਦੇ ਸਾਹਮਣੇ ਇਸ ਤਰ੍ਹਾਂ ਚਲੇ ਸਨ ਮਾਨੋ ਹਾਜੀ ਕਾਬੇ (ਵਲ ਜਾਂਦੇ ਹੋਣ)।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਹਰਮੁ ਹਕੁ ਹਜੂਰਿ, ਅਲਖੁ ਲਖਾਵਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Pervading Lord they perceive the imperceptible."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਓਹ ਹਰ ਜਗਹ ਮੌਜੂਦ ਖੁਦਾ ਦੇ 'ਮਹਿਰਮ' ਹੋ ਗਏ ਹਨ ਅਰ ਅਲਖ ਨੂੰ ਲਖ ਗਏ ਹਨ।"

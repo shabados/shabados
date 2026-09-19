@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਰਾਵ ਐਸੇ ਕਹਾ; ਬਿਹਸ ਸੁ ਮੰਤ੍ਰੀ ਸੰਗ ॥"
 page = 848
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ridiculing, the Raja said to the Minster like this."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਰਾਜੇ ਨੇ ਹਸ ਕੇ ਮੰਤ੍ਰੀ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ"

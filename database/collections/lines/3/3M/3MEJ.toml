@@ -1,36 +1,36 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੋਰਠਿ ਮਹਲਾ ੫ ਘਰੁ ੧ ਚੌਤੁਕੇ ॥"
 page = 608
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Sorath 5th Guru. Chautukas."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੋਰਠਿ ਪੰਜਵੀਂ ਪਾਤਿਸ਼ਾਹੀ। ਚੋਤੁਕੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Sorat'h, Fifth Mehl, First House, Chau-Thukay:"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sorath, Mejl Guru Aryan, Quinto Canal Divino, Chau-Tukas."
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਚੌਤੁਕੇ = ਚੌ-ਤੁਕੇ, ਚਾਰ ਚਾਰ ਤੁਕਾਂ ਵਾਲੇ 'ਬੰਦ' (ਇਸ ਸ਼ਬਦ ਦੇ ਹਰੇਕ 'ਬੰਦ' ਵਿਚ ਚਾਰ ਤੁਕਾਂ ਹਨ)।"

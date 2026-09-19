@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਜੈ ਸਬੈ ਭੂਪ ॥"
 page = 608
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Before his great beauty, all the kings felt shy"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੂੰ ਵੇਖ ਕੇ) ਸਾਰੇ ਰਾਜੇ ਸ਼ਰਮਿੰਦੇ ਹੁੰਦੇ ਹਨ।"

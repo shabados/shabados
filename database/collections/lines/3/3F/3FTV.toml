@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੜਬੜ ਧਾਮੰ ॥੧੩੮॥"
 page = 214
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram stood firmly and within the whole place, there was turmoil.138."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਖਲਬਲੀ ਮਚਾਣ ਵਾਲਾ ਸੀ ॥੧੩੮॥"

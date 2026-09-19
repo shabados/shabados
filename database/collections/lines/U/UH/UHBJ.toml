@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਸਕਾਵਤੀ ਨਗਰ ਤਰ ਨਿਕਸਾ ॥"
 page = 1299
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਇਸਕਾਵਤੀ ਨਗਰ ਦੇ ਨੇੜੇ ਜਾ ਨਿਕਲਿਆ।"

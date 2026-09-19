@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਾ ਕੀ ਕਰ ਦਾਰੀ ਧਰੀ; ਪਗਿਯਾ ਲਈ ਉਤਾਰਿ ॥"
 page = 837
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "People pulled his beard and took his turban off"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਦੇ ਭਰਾ) ਦੀ ਦਾੜ੍ਹੀ ਫੜ ਲਈ ਅਤੇ ਸਿਰ ਉਤੋਂ ਪਗੜੀ ਲਾਹ ਲਈ।"

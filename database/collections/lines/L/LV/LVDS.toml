@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਸੁਨ ਲੇਹੁ ਕਹੋ ਇਹ ਬਾਤਾ ॥"
 page = 649
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Listen not to the manner in which Dutt adopted twenty-four Gurus"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਇਹ ਗੱਲ ਦਸਦਾ ਹਾਂ, ਸੁਣ ਲਵੋ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਹੁ ਰਾਵ ਜੂ ਗ︀ਯਾਨ ਹਮਾਰੋ ॥"
 page = 903
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Listen to me, my sovereign,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਰਾਜਨ! ਸਾਡਾ ਗਿਆਨ ਸੁਣੋ।"

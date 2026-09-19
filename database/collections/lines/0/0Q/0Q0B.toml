@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬੈ ਹਲਾਯੁਧ ਐਸੇ ਕਹਿਯੋ ॥"
 page = 484
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਬੁਲਰਾਮ ਨੇ ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ"

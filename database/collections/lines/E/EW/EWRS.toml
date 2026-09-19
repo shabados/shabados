@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਜੇਕਰ ਤੂੰ ਚਾਹੁੰਦਾ ਹੈਣ ਕਿ ਰੱਬ ਦਾ ਭਗਤ ਬਣੇਣ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਗਰ ਤੂ ਮੀਖ਼ਾਹੀ ਕਿ ਮਰਦਿ ਹੱਕ ਸ਼ਵੀ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "His status and rank is far higher than those selected accepted ones,"

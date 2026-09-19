@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹੀ ਮੁੰਡ ਮਰਦੀ ਕਪਰਦੀ ਭਵਾਨੀ ॥"
 page = 335
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Bhavani, the smasher of heads in the battlefield"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਮੁੰਡ (ਦੈਂਤ ਨੂੰ ਮਾਰਨ ਵਾਲੀ) ਕੇਸਾਂ ਦਾ ਜੂੜਾ ਕਰਨ ਵਾਲੀ ਅਤੇ ਭਵਾਨੀ ਹੈਂ।"

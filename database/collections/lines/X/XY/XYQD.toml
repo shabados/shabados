@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੰਦਨ ਬਨ ਸੌ ਨਿਰਖਿਯੈ; ਜਾ ਸਮ ਕਹੂੰ ਨ ਔਰ ॥੮॥"
 page = 1169
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਨੰਦਨ ਬਨ ਵਰਗਾ ਦਿਖਦਾ ਸੀ ਜਿਸ ਵਰਗਾ ਹੋਰ ਕੋਈ ਨਹੀਂ ਸੀ ॥੮॥"

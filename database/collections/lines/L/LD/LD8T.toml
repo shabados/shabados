@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖਿ ਲਜਤ ਗੰਗ ॥੨੨੩॥"
 page = 653
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That king was enromusly praiseworthy, treasure of virtues and had such a pure body that on seeing him, even the ganges felt shy.223."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦੀ ਨਿਰਮਲਤਾ ਨੂੰ) ਵੇਖ ਕੇ ਗੰਗਾ ਵੀ ਲਜਾਉਂਦੀ ਸੀ ॥੨੨੩॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰਮ ਪਾਪ ਤੇ ਭੂਮਿ ਡਰਾਨੀ ॥"
 page = 290
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘੋਰ ਪਾਪਾਂ ਕਾਰਨ ਧਰਤੀ ਭੈ ਭੀਤ ਹੋ ਗਈ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਰੀ ਰਾ ਬਿਕੋਬਦ ਘਰੀਯਾ ਘਰੀਯਾਰ ॥"
 page = 1425
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As the time-keeper hit the gong,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਘੜੀਆਲ ਵਜਾਣ ਵਾਲਾ ਘੜੀਆਲ ਨੂੰ ਵਜਾਉਂਦਾ"

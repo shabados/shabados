@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਮਸਲਤਿ ਹਮ ਜਿਯਹਿ ਬਨਾਈ ॥"
 page = 896
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As no turbans were available to buy, we thought of a plan,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਅਸੀਂ ਮਨ ਵਿਚ ਇਕ ਸਲਾਹ ਕੀਤੀ"

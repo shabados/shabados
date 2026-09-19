@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹ੍ਵੈ ਜੋਗਨ ਬਨ ਮਾਝ ਸਿਧਈ ॥੧੧॥"
 page = 948
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "all the wealth, she had gone to the jungle and become an ascetic.(11)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੋਗਣ ਬਣ ਕੇ ਬਨ ਨੂੰ ਚਲੀ ਗਈ ॥੧੧॥"

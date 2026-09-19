@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖਿ ਦੇਵ ਅਦੇਵ ਸੁ ਲਜਹੀ ॥"
 page = 168
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors are thundering in the war and seeing them both the gods and demons are feeling shy"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਨੂੰ ਵੇਖ ਕੇ ਦੈਂਤ ਅਤੇ ਦੇਵਤੇ ਸ਼ਰਮਿੰਦੇ ਹੋ ਰਹੇ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਰੁ ਸਤ੍ਰਸਵੋ ਕਰ ਤਾਸੁ ਕਹਿਓ ॥੩੬੯॥"
 page = 665
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing him, the great sage observed silence and accepted him as the Seventeenth Guru.369."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਆਪਣਾ ਸਤਾਰ੍ਹਵਾਂ ਗੁਰੂ ਕਹਿ ਦਿੱਤਾ ॥੩੬੯॥"

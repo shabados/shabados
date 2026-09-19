@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਗਤ ਘਾ ਇਹ ਕੈ ਮਰਿ ਗਯੋ ਅਰਿ; ਅੰਤਕ ਕੇ ਫੁਨਿ ਧਾਮਿ ਸਿਧਾਰਿਯੋ ॥"
 page = 540
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the blow struck him, he died and went to the next world"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਦੀ ਸਟ ਲਗਦਿਆਂ ਹੀ ਵੈਰੀ ਮਰ ਗਿਆ ਅਤੇ ਯਮਲੋਕ ਨੂੰ ਚਲਾ ਗਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰਿੰਗਨ ਤੇ ਸ੍ਰਿੰਗੀ ਗਹਿ ਲੀਨੋ ॥੯॥"
 page = 961
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja had made the deer tired and caught it by holding it from the horns.(9)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹਿਰਨ ਨੂੰ ਸਿੰਗਾਂ ਤੋਂ ਫੜ ਲਿਆ ॥੯॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਨ ਚੇਤ ਸੁਚੇਤ ਉਠੇ ਹਰਿ ਯੌਂ ॥"
 page = 236
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਰੀਰ ਵਿੱਚ ਸੁਰਤ ਆ ਜਾਣ ਨਾਲ ਰਾਮ ਇਸ ਤਰ੍ਹਾਂ ਸੁਚੇਤ ਹੋ ਉੱਠੇ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੈ ਗ੍ਰਿਹ ਦਯੋ, ਸੁਪਨ ਮੈ ਜਾ ਕੇ ॥੧੧॥"
 page = 1110
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਘਰ ਸੁਪਨੇ ਵਿਚ ਤੁਸੀਂ ਦੇ ਦਿੱਤਾ ਸੀ ॥੧੧॥"

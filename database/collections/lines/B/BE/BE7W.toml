@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਰਕਤੁਆ ਪ੍ਰਕਾਸੰ ॥"
 page = 137
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the illuminator of detachment"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਰਕਤ (ਨਿਰਲੇਪ) ਵਿਅਕਤੀਆਂ ਨੂੰ ਤੂੰ (ਆਪਣੇ ਤੇਜ) ਨਾਲ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰਨ ਵਾਲਾ ਹੈਂ,"

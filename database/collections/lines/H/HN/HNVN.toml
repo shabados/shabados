@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੇਰਾ ਸਕਰ ਕੁਚਾਰੂ ਲ︀ਯਾਏ ॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And with them they brought sweetmeats and snacks"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ ਉਸ ਲਈ) ਬਕਰਾ ('ਛੇਰਾ') ਸ਼ਕਰ, ਕਚਾਲੂ ਲੈ ਕੇ ਆਏ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜਾ ਪ੍ਰਜਾ ਸਭੈ ਲਗੇ; ਜਹ ਜਹ ਕਰਨ ਕੁਕਰਮ ॥"
 page = 564
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king and also his subject performed evil acts"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ ਅਤੇ ਪ੍ਰਜਾ ਸਭ ਜਿਥੇ ਕਿਥੇ ਕੁਕਰਮ ਕਰਨ ਲਗ ਗਏ ਹਨ।"

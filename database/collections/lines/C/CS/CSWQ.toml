@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੇਰਿ ਰੂਪ ਨ੍ਰਿਪ ਕੋ ਲਲਚਾਵੈ ॥"
 page = 1139
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਰਾਜੇ ਦਾ ਰੂਪ ਵੇਖ ਕੇ ਲਲਚਾ ਜਾਂਦੀ।"

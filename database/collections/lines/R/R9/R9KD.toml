@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਊਚ ਨੀਚ ਸਭਹਿਨ ਸੰਗ ਲੈ ਕੈ ॥"
 page = 965
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the day broke she marched (towards the pyre) and all, the rich and the poor, followed."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਠ ਪੂਰਵਕ ਸਤੀ ਚਲ ਪਈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕਹਿ ਆਪ ਸਭਨ ਮੋ ਬਿਆਪਾ ॥"
 page = 159
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Only one lord pervades all"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕੋ ਆਪ ਹੀ ਸਾਰਿਆਂ ਵਿਚ ਵਿਆਪਤ ਹੋ ਰਿਹਾ ਹੈ,"

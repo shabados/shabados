@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਦੁਖ︀ਯ ਸੌ ਰੋਵਤ ਭਈ ॥"
 page = 861
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One day the woman went to the Peer and, incessantly crying, narrate her afflictions."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਧਿਕ ਦੁਖ ਕਾਰਨ ਰੋ ਪਈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇ ਕਰ ਸ੍ਰਾਪ ਜਾਤ ਭਯੋ ਰਿਖਿ ਬਰ ॥"
 page = 188
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾਰਿਸ਼ੀ ਨਾਰਦ ਸ਼ਰਾਪ ਦੇ ਕੇ ਚਲਾ ਗਿਆ।"

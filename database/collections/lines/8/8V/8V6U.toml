@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਲਹੌਰ ਸੁਨਾਰੋ ਰਹੈ ॥"
 page = 895
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the city of Lahore, there lived a goldsmith,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲਾਹੌਰ ਵਿਚ ਇਕ ਸੁਨਿਆਰਾ ਰਹਿੰਦਾ ਸੀ।"

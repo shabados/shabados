@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਬਿਧ ਪ੍ਰਕਾਰ ਆਸਨਨ ਧਰੈ ॥੪॥"
 page = 1329
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਈ ਪ੍ਰਕਾਰ ਦੇ ਆਸਣ ਮਾਣੇ ॥੪॥"

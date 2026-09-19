@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਕੈਬਰ ਕਮਾ ਹਮ ਚੁ ਤੀਰੋ ਤੁਫ਼ੰਗ ॥੪੪॥"
 page = 1401
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As swiftly as an arrow from the bow or a shot from the gun.(44)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਕਮਾਨ ਵਿਚੋਂ ਤੀਰ ਛੁਟਦਾ ਹੋਵੇ ਜਾਂ ਬੰਦੂਕ ਵਿਚੋਂ ਗੋਲੀ ਚਲਦੀ ਹੋਵੇ ॥੪੪॥"

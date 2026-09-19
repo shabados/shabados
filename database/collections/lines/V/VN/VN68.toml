@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਨਕੰ ਦੁਤਿ ਉਜਲ ਅੰਗ ਸਨੇ ॥"
 page = 665
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੇ) ਸੋਨੇ ਰੰਗੇ ਉਜਲੇ ਅੰਗ ਚਮਕ ਰਹੇ ਸਨ,"

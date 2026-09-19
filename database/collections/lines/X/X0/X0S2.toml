@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੇਵਕ ਜਾਨਿ ਰਾਖਿ ਕੈ ਲੇਵੈ ॥੧੯॥"
 page = 932
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She would let him hit and, considering him (Raja Salwan) as her devotee, always saved him.(19)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਆਪਣਾ) ਸੇਵਕ ਸਮਝ ਕੇ ਉਸ ਦੀ ਰਖਿਆ ਕਰਦੀ ॥੧੯॥"

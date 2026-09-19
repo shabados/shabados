@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਿ ਤਿਹ ਭੇਦ ਕੁਅਰ ਤਨ; ਦਈ ਪਠਾਇ ਕੈ ॥"
 page = 1346
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਸਾਰਾ ਭੇਦ ਸਮਝਾ ਕੇ ਕੁੰਵਰ ਵਲ ਭੇਜ ਦਿੱਤਾ।"

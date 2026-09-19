@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੋਬਿੰਦ ਜੀਉ, ਸਤਸੰਗਤਿ ਮੇਲਿ; ਹਰਿ ਧਿਆਈਐ ॥"
 page = 1179
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my Venerable Lord Master unite me Thou with the society of saints, that I may remember Thee."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਾਣਨੀਯ ਸੁਆਮੀ ਮਾਲਕ! ਮੈਨੂੰ ਸਾਧ ਸੰਗਤ ਨਾਲ ਜੋੜ ਦੇ, ਤਾਂ ਜੋ ਮੈਂ ਤੇਰਾ ਆਰਾਧਨ ਕਰਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Dear Lord of the Universe, lead me to join the Sat Sangat, the True Congregation, so that I may meditate on You, Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਹਰੀ ਗੋਬਿੰਦ ਜੀਉ! ਮੈਨੂੰ ਵਹੁ ਸਤਸੰਗਤਿ ਮੇਲ ਜਹਾਂ ਤੇਰਾ ਧ੍ਯਾਨੁ ਕਰੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਗੋਬਿੰਦ ਜੀ! (ਮੈਨੂੰ) ਸਾਧ ਸੰਗਤ ਵਿਚ ਮਿਲਾ। (ਸਾਧ ਸੰਗਤ ਵਿਚ ਮਿਲ ਕੇ) ਹੇ ਹਰੀ! (ਤੇਰਾ ਨਾਮ) ਸਿਮਰਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੋਬਿੰਦ ਜੀਉ = ਹੇ ਪ੍ਰਭੂ ਜੀ! {ਸੰਬੋਧਨ}। ਮੇਲਿ = ਮਿਲਾ। ਧਿਆਈਐ = ਧਿਆਇਆ ਜਾ ਸਕਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Dios, guíame hasta Tus Santos, para que Te pueda contemplar y liberándome de mi ego negativo,"

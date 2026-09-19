@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਰਾਤਿ ਆਰਤੀ ਸੋਹਿਲਾ; ਮਾਇਆ ਵਿਚਿ ਉਦਾਸੁ ਰਹਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In the evening, instructing the recitation of Arati and Sohild, the true Guru has inspired people to remain detached even amidst maya."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਰਾਤ ਨੂੰ (ਸੌਣ ਵੇਲੇ) ਆਰਤੀ ਸੋਹਲੇ (ਦਾ ਪਾਠ ਦੱਸਿਆ ਹੈ) ਮਾਯਾ ਵਿਖੇ ਰਹਿਕੇ ਉਦਾਸ (ਬ੍ਰਿਤੀ ਰੱਖਣੀ ਦੱਸੀ) ਹੈ।"

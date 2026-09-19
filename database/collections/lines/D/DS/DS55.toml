@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁੰਬਨ ਭਾਤਿ ਭਾਤਿ ਸੋ ਦਏ ॥"
 page = 1016
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Emoploying eighty-four poses, she kissed him variably."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਾਂਤ ਭਾਂਤ ਦੇ ਚੁੰਬਨ ਦਿੱਤੇ।"

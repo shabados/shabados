@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਤਿਯ ਓਰ ਤੇ, ਚਾਰਜ ਸੁਕ੍ਰਾ ਰਿਸਾਯੋ ॥"
 page = 983
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Shankar Acharya was leaping in anger."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੂਜੇ ਪਾਸਿਓਂ ਸ਼ੁਕ੍ਰਾਚਾਰਯ ਨੂੰ ਬਹੁਤ ਰੋਹ ਚੜ੍ਹਿਆ ਹੈ।"

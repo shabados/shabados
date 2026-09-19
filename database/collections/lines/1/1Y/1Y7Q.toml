@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਚੰਚਲਾ ਚਾਰੁ ਚੀਰੈ ਬਨੈ ਕੈ ॥"
 page = 1369
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਅਪੱਛਰਾਵਾਂ ('ਚੰਚਲਾ') ਸੁੰਦਰ ਬਸਤ੍ਰ ਸਜਾ ਕੇ"

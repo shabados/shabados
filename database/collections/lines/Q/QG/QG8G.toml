@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਚੀ ਭਗਤੀ ਆਪੇ ਲਾਏ ॥"
 page = 1053
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Attaches He Himself to His true devotion."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਸੱਚੇ ਪ੍ਰੇਮ ਨਾਲ ਉਹ ਆਪ ਹੀ ਜੋੜਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He attaches them to true devotional worship."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਆਪ ਹੀ ਭਗਤੀ ਮੇਂ ਲਾਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਹੀ ਉਹਨਾਂ ਨੂੰ ਆਪਣੀ ਸੱਚੀ ਭਗਤੀ ਵਿਚ ਜੋੜਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "los ata Él Mismo a Su Devoción Verdadera,"

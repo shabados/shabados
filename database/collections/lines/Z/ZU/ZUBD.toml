@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਡੇ ਸੈਲ ਸੇ ਲਸਤ ਮਤੰਗਾ ॥੧੩੪॥"
 page = 1367
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹਾਥੀ ਵਡਿਆਂ ਪਰਬਤਾਂ ਵਰਗੇ ਸ਼ੁਭਾਇਮਾਨ ਸਨ ॥੧੩੪॥"

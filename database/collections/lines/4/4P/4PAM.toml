@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਤੇ ਭਿੰਨ ਰਹਤ ਕਰਤਾਰਾ ॥"
 page = 60
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who quarrel in ego, they are far removed from the Lord."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਤੋਂ ਪਰਮਾਤਮਾ (ਹਮੇਸ਼ਾਂ) ਵਖ ਰਹਿੰਦਾ ਹੈ।"

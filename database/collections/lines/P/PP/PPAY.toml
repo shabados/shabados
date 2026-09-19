@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹੋਇ ਪੂਰਣ ਧ︀ਯਾਨ ॥"
 page = 673
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When He is recognized through the knowledge, then the adoration will be complete"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਪੂਰਨ ਧਿਆਨ ਦੀ ਅਵਸਥਾ ਪ੍ਰਾਪਤ ਹੋਵੇਗੀ।"

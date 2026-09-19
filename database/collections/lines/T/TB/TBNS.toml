@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰ ਚੇਲੇ, ਪਰਚੈ ਪਰਚੰਦੇ ॥੧੩॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The Guru's Sikhs delight in such enjoyments."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰ ਚੇਲੇ ਦੇ ਪਰਚੇ (ਪ੍ਰੇਮ) ਵਿਖੇ ਪਰਚ ਰਹੇ ਹਨ॥"

@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਬਾਧ ਬਿਭੂਤੇ ॥੧੪੬॥"
 page = 8
 line = 8
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salution to Thee O Non-annoying Glorious Lord ! 146"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਿਰਵਿਘਨ ਸੰਪੱਤੀ ਵਾਲੇ! (ਤੈਨੂੰ ਨਮਸਕਾਰ ਹੈ) ॥੧੪੬॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਨ੍ਰਿਬਾਧਿ ਬਿਭੂਤੇ ॥੧੪੬॥"

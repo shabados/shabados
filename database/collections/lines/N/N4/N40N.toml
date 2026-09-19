@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਤਰ ਧਰੋ ਦੁਜਨਵਾ ਤੋਹੂ ॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O thou shalt be considered like them"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਹੀਂ ਤਾਂ ਤੁਹਾਨੂੰ ਵੀ ਉਨ੍ਹਾਂ ਦੋਹਾਂ ਨਾਲ ਮਿਲਾ ਦੇਵਾਂਗੇ (ਮਾਰ ਦੇਵਾਂਗੇ)।"

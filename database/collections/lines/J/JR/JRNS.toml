@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਓਜਈ ਅਫਰੀਦੀਏ ਕੋਪਿ ਆਏ ॥"
 page = 929
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Guiyes, Muhamadees, Dyojis and Afreedis came forward with extreme fury."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦਓਜਈ, ਅਫਰੀਦੀਏ (ਆਦਿ ਜਾਤਾਂ ਦੇ ਸੂਰਮੇ) ਕ੍ਰੋਧਵਾਨ ਹੋ ਕੇ ਆ ਗਏ ਹਨ।"

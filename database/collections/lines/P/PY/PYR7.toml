@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਖੇ ਸਬ ਜਟ ਧਾਰੀ ॥"
 page = 674
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਜਟਾਧਾਰੀ (ਯੋਗੀ) ਆਨੰਦਿਤ ਹੋ ਰਹੇ ਹਨ"

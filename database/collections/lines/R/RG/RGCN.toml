@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨੁਕ ਤੀਰ ਸਿੰਧ ਮਥਿਆਨੀ ॥"
 page = 966
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Krishna Kunwar was his principal Rani; she looked like being churned out of the sea of milk."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਛੀਰ ਸਮੁੰਦਰ ਨੂੰ ਮੱਥ ਕੇ ਕਢੀ ਹੋਵੇ।"

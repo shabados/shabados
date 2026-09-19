@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰਹਿ ਮਾਰਿ ਦਸੌ ਦਿਸਿ ਕੂਕੇ ॥੧੫੨॥"
 page = 1368
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦਸਾਂ ਦਿਸ਼ਾਵਾਂ ਵਿਚ 'ਮਾਰੋ ਮਾਰੋ' ਕੂਕਣ ਲਗੇ ॥੧੫੨॥"

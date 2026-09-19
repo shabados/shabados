@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਤਨ ਮੂਕਨ ਕੋ ਅਤਿ ਹੀ; ਫੁਨਿ ਤਉਨ ਗੁਫਾ ਮਹਿ ਜੁਧੁ ਮਚਾਨੋ ॥"
 page = 502
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was dreadful battle with legs and fist,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਉਨ੍ਹਾਂ ਨੇ ਗੁਫਾ ਵਿਚ ਲਤਾਂ ਅਤੇ ਮੁਕਿਆਂ ਦਾ ਬਹੁਤ ਯੁੱਧ ਮਚਾਇਆ।"

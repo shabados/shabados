@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਵਾ ਰਉ ਦਰਾਮਦ ਬ ਤੀਰੋ ਤੁਫ਼ੰਗ ॥"
 page = 1422
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The intensity of the arrows was so great;"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੀਰਾਂ ਅਤੇ ਬੰਦੂਕਾਂ ਦੀ ਇਸ ਤਰ੍ਹਾਂ ਚਲਾਚਲੀ ਹੋ ਰਹੀ ਸੀ"

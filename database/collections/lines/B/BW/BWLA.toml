@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪੋ ਬਾਚ ਕਾਨ੍ਰਹ ਸੋ ॥"
 page = 508
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of the king addressed to Krishna:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਕਿਹਾ:"

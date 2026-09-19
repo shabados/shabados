@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਿਖ ਧੁਜ ਨਗਰ ਸਾਹ ਇਕ ਤਾ ਕੇ ॥"
 page = 1149
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨਗਰ ਵਿਚ ਬ੍ਰਿਖ ਧੁਜ ਨਾਂ ਦਾ ਇਕ ਸ਼ਾਹ (ਰਹਿੰਦਾ ਸੀ)"

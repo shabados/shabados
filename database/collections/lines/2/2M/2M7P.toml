@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜ਼ਿ ਦੇਵਾਰ ਜੋ ਅੰਦਰੂੰ ਮੂਸ ਹਸਤ ॥"
 page = 1417
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Inside that wall, a mouse used to live,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਦਰਸੇ ਦੀ ਦੀਵਾਰ ਵਿਚ ਇਕ ਚੂਹਾ ਰਹਿੰਦਾ ਸੀ,"

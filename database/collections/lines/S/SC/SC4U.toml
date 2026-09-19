@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਦੁਸਟ ਪੁਸਟਾਰਦਨੀ ਛੇਮ ਕਰਣੀ ॥"
 page = 118
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the bestower of bliss by destroying the great sinners."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਿਸ਼ਟ-ਪੁਸ਼ਟ (ਦੁਸ਼ਟਾਂ ਨੂੰ) ਨਸ਼ਟ ਕਰਨ ਵਾਲੀ ਅਤੇ ਕਲਿਆਣ ਕਰਨ ਵਾਲੀ ਨੂੰ ਨਮਸਕਾਰ ਹੈ;"

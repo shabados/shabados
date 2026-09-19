@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਦੰ ਮਛ ਲਜੈ ॥"
 page = 579
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਦੀ ਚੰਚਲਤਾ ਨਾਲ) ਨਦੀਆਂ ਦੇ ਮੱਛਾਂ ਨੂੰ ਮਾਤ ਪੈਂਦੀ ਹੈ।"

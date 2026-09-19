@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਿਯਾ ਅਪਨੀ ਆਪਨੀ; ਇਕ ਆਵੈ, ਇਕ ਜਾਹਿ ॥੪॥"
 page = 818
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thus they came daily and went to their houses after copulating.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੀ ਆਪਣੀ ਵਾਰੀ ਨਾਲ ਇਕ ਆਉਂਦਾ ਸੀ ਅਤੇ ਇਕ ਜਾਂਦਾ ਸੀ ॥੪॥"

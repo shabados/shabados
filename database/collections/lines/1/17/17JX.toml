@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਿਖ ਭਲਾ ਰਵਿਤਾਸ ਵਿਚਿ; ਧਉਣੁ ਮੁਰਾਰੀ ਗੁਰ ਸਰਣਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Inhabitant of Rohtas village and belonging to Dhavan caste, a Sikh named Murari has come in the shelter of the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਰਵਤਾਸ (ਨਗਰ) ਵਿਚ ਧਉਣ ਮੁਰਾਰੀ ਭਲਾ, ਉੱਤਮ ਸਿਖ ਗੁਰੂ ਦੀ ਸ਼ਰਨ ਪਿਆ।"

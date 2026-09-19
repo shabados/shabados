@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨਿ ਬੂਝਿ ਇਕ ਦਿਜ ਕਹ ਮਾਰਿ ॥"
 page = 1352
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਜਾਣ ਬੁਝ ਕੇ ਇਕ ਬ੍ਰਾਹਮਣ ਨੂੰ ਮਾਰ ਦਿੱਤਾ"

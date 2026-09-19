@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਠੈ ਪਾਲਕੀ ਤਾਹਿ ਬੁਲਾਯੋ ॥੨੭॥"
 page = 927
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the Raja learned the secret, he sent palanquin and honoured the weaver.(27)(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਪਾਲਕੀ ਭੇਜ ਕੇ ਉਸ ਨੂੰ ਬੁਲਵਾ ਲਿਆ ॥੨੭॥"

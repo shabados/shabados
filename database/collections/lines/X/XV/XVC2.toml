@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋਮ ਨ ਗੁਨੀਅਤ ॥੧੨੫॥"
 page = 563
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Because of vicious karmas, the dharma has fled away and no one talks about the Havana and yajna.125."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਮ (ਬਾਰੇ ਵੀ ਕਿਤੇ) ਵਿਚਾਰ ਨਹੀਂ ਹੁੰਦਾ ॥੧੨੫॥"

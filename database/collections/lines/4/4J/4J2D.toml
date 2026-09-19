@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਘੁਬਰ ਜੂਝੇ ॥੮੧੫॥"
 page = 285
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Al the limbs of Ram were pierced and his whole body eroded, the whole army came to know this that Ram had passed away.815."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋਹਾਂ ਬਾਲਕਾਂ ਅੱਗੇ ਭੱਜ ਤੁਰੀ ॥੮੧੬॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁੰਦਰ ਤਾਹਿ ਝਰੋਖੇ ਜਹਾ ॥"
 page = 961
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ (ਮਹੱਲ ਦੇ) ਸੁੰਦਰ ਝਰੋਖੇ ਸਨ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਤੁਰਾਨਨ ਮੁਖ ਚਤੁਰ ਲਖਿ; ਯਾਹੀ ਤੇ ਕਰੈ ॥"
 page = 1286
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਵੇਖਣ ਲਈ ਹੀ ਬ੍ਰਹਮਾ ਨੇ ਚਾਰ ਮੁਖ ਬਣਾ ਲਏ ਸਨ।"

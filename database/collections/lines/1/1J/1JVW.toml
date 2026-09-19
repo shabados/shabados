@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਠਾਢ ਤਾ ਕੌ ਕਿਯਾ; ਆਪੁ ਗਈ ਤਿਹ ਪਾਸ ॥"
 page = 869
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Leaving him there, she went to his wife and said,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਉਥੇ ਖੜਾ ਕਰ ਕੇ ਆਪ ਉਸ (ਸ਼ਾਹਣੀ) ਕੋਲ ਚਲੀ ਗਈ।"

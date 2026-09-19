@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਣ ਹੂਰੰ ਪੂਰੰ ਗੈਣਾਯੰ ॥"
 page = 212
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਾ ਆਕਾਸ਼ ਹੂਰਾਂ ਦੇ ਝੁੰਡਾਂ ਨਾਲ ਭਰਿਆ ਹੋਇਆ ਸੀ,"

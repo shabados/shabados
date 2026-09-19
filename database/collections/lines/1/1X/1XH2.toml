@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਟ ਚੰਦ ਚਕ ਪਰੈ; ਤੁਲ ਨਹੀ ਤੇਜ ਬਿਚਾਰਤ ॥"
 page = 131
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A million moons are astonished to fine their light very dim as compared to His Light."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਰੋੜਾਂ ਚੰਦ੍ਰਮਾ ਹੈਰਾਨ ਹਨ (ਕਿਉਂਕਿ ਉਹ ਆਪਣਾ) ਤੇਜ (ਉਸ ਦੇ ਤੇਜ ਦੇ) ਬਰਾਬਰ ਨਹੀਂ ਸਮਝਦੇ।"

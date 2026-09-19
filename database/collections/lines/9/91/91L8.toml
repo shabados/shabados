@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਘਰ ਹੀ ਵਿਚਿ ਉਦਾਸੁ, ਨ ਵਿਆਪੈ ਮਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Now being detached, he remains at home and maya does not affect him."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਘਰ ਹੀ ਵਿਖੇ ਉਦਾਸ ਰਹਿੰਦੇ ਹਨ (ਉਨ੍ਹਾਂ ਨੂੰ) ਮਾਇਆ ਦੁਖ ਨਹੀਂ ਦਿੰਦੀ। (ਹੋਰ ਕੀ?)"

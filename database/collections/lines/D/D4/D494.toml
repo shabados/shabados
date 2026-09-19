@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰੇ ਜਨ; ਮਨੁ ਮਾਧਉ ਸਿਉ ਲਾਈਐ ॥"
 page = 324
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O man, apply thy mind to the Lord of wealth."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਬੰਦੇ! ਆਪਣੇ ਚਿੱਤ ਨੂੰ ਮਾਇਆ ਦੇ ਪਤੀ ਨਾਲ ਜੋੜ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O humble people, link your mind to the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਜਨ! ਮਨੁ ਮਾਧਉ ਕੇ ਸਾਥ ਲਗਾਈਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਮਨ ਨੂੰ ਪਰਮਾਤਮਾ ਨਾਲ ਜੋੜਨਾ ਚਾਹੀਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਰੇ ਜਨ = ਹੇ ਭਾਈ! ਮਾਧਉ = ਮਾਧਵ {ਮਾ = ਮਾਇਆ। ਧਵ = ਪਤੀ} ਮਾਇਆ ਦਾ ਪਤੀ ਪ੍ਰਭੂ। ਸਿਉ = ਨਾਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh amigo, entona tu ser sólo en el Señor,"

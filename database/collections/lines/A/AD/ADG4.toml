@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਵਿਲੋਕਯ ਚਾਵੰਡਿ ਚਾਰੁ ਪ੍ਰਭੰ ॥"
 page = 664
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਇਕ ਸੁੰਦਰ ਪ੍ਰਭਾ ਵਾਲੀ ਇਲ (ਚਾਂਵਡ) ਵੇਖੀ"

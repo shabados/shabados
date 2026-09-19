@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਲਰੀ ਮੋਤਿਯਨ ਛੂਟੀ ॥"
 page = 935
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਕਰ ਕੇ ਮੋਤੀਆਂ ਦੀ ਲੜੀ ਟੁਟ ਗਈ ਹੈ,"

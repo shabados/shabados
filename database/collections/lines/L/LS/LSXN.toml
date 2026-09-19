@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣ ਅਸ ਕਾਲ ਜਲਧ ਜਿਮ ਗਾਜਾ ॥"
 page = 150
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The war was waged so violently as if the ocean was thundering"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ-ਭੂਮੀ ਵਿਚ ਕਾਲ ਇੰਜ (ਗੱਜ ਰਿਹਾ ਸੀ) ਮਾਨੋ ਬਦਲ ਗੱਜਦੇ ਹੋਣ।"

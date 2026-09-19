@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੌਨੇ ਸਭਾ ਕਪਿਲ ਮੁਨਿ ਆਯੋ ॥"
 page = 937
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਸਭਾ ਵਿਚ ਕਪਿਲ ਮੁਨੀ ਆਇਆ।"

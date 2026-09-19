@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੂਪ ਰੇਖ ਜਾ ਕੇ ਕਛੁ ਨਾਹੀ ॥"
 page = 903
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without any boundaries and vignettes."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਕੋਈ ਰੂਪ-ਰੇਖਾ ਨਹੀਂ ਹੈ।"

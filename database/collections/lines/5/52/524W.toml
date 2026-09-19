@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹੀ ਦਰਬ ਕੇ ਲੋਭ; ਦੇਸ ਪਰਦੇਸ ਸਿਧਾਏ ॥"
 page = 1195
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸੇ ਧਨ ਦੇ ਲਾਲਚ ਕਰ ਕੇ ਦੇਸ ਪਰਦੇਸ ਵਿਚ ਜਾਂਦੇ ਹਨ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਰੁਮਜ ਸਬਦ ਕੋ ਆਦਿ ਉਚਾਰੋ ॥"
 page = 749
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਦ੍ਰੁਮਜ' (ਬ੍ਰਿਛ ਦੇ ਜਾਏ ਕਾਠ) ਪਦ ਨੂੰ ਪਹਿਲਾਂ ਉਚਾਰੋ।"

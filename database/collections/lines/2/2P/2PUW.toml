@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਠ ਕੀਨ ਦਿਜੈ ਤਿਨ ਲੀਨ ਸੁਤਾ ॥"
 page = 153
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Sanaudh Brahmin persisted in not returning the refugee brothers, then the king Ajai Singh married his daughter."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਨੌਢੀ) ਬ੍ਰਾਹਮਣ ਨੇ ਹਠ ਕੀਤਾ (ਤਾਂ ਰਾਜਾ ਅਜੈ ਸਿੰਘ ਨੇ) ਉਸ ਦੀ ਪੁੱਤਰੀ ਲੈ ਲਈ"

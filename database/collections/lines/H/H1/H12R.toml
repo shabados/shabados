@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਤ ਆਨਿ ਪ੍ਰਗਟੈ ਕੋਊ ਨਾਹੀ ॥"
 page = 850
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Because her female issues would not survive, and had no luck of a son."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪੁੱਤਰ ਕੋਈ ਪ੍ਰਗਟ ਨਹੀਂ ਸੀ ਹੋਇਆ।"

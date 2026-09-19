@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਡਿ ਪ੍ਰਚੰਡ ਤਬੈ ਬਲ ਧਾਰਿ; ਸੰਭਾਰਿ ਲਈ ਕਰਵਾਰ ਕਰੀ ਕਰਿ ॥"
 page = 97
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "At that time, the powerful Chandi, pulling up her strength, held fast her sword in her hand.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵੇਲੇ ਪ੍ਰਚੰਡ ਚੰਡੀ ਨੇ ਪੂਰੀ ਸ਼ਕਤੀ ਨਾਲ ਦ੍ਰਿੜ੍ਹਤਾ (ਕਰੀ) ਪੂਰਵਕ ਤਲਵਾਰ ਸੰਭਾਲ ਲਈ"

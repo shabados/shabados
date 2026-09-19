@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੰਸੀ ਬਜਾਵੈ ਤਹਾ ਤੁ ਕਹਾ, ਅਰੁ ਆਪ ਕਹਾ ਭਯੋ, ਮੰਗਲ ਗਾਵੈ ॥"
 page = 363
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Wherever he is playing on his flute and singing the songs of praise,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੇ) ਬੰਸਰੀ ਵਜਾਉਂਦਾ ਹੈ ਤਾਂ ਕੀ ਹੋਇਆ; (ਅਤੇ ਜੇ) ਆਪ ਮੰਗਲਮਈ (ਗੀਤ) ਗਾਉਂਦਾ ਹੈ, ਤਾਂ ਵੀ ਕੀ ਹੋਇਆ।"

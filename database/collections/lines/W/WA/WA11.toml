@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਕਾ ਤੁਹੀਂ ॥੧੬॥੬੬॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(Lord,) You are the house itself! 16. 66."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਖ਼ੁਦ ਹੀ ਮਕਾਨ ਹੈਂ ॥੧੬॥੬੬॥"

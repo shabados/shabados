@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਤਿਗੁਰ ਦੀ, ਵਡੀ ਵਡਿਆਈ ॥੨੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Great is the grandeur of the true Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(੯) ਸਤਿਗੁਰ ਦੀ ਵਡਿਆਈ ਵਡੀ ਹੈ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੂ ਸਾਹਿਬੁ ਗੁਣੀ ਗਹੇਰਾ ॥"
 page = 623
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O Lord art an ocean of excellences."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੇ ਪ੍ਰਭੂ! ਗੁਣਾਂ ਦਾ ਸਮੁੰਦਰ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Lord and Master, You are the ocean of excellence."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਗੁਣੋਂ ਕਾ ਸਮੁੰਦਰ ਮੇਰਾ ਸੁਆਮੀ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਾਡਾ ਮਾਲਕ ਹੈਂ, ਤੂੰ ਗੁਣਾਂ ਦਾ ਖ਼ਜ਼ਾਨਾ ਹੈਂ, ਤੂੰ ਡੂੰਘੇ ਜਿਗਰੇ ਵਾਲਾ ਹੈਂ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੁਣੀ = ਗੁਣਾਂ ਦਾ ਮਾਲਕ। ਗਹੇਰਾ = ਡੂੰਘਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "en el Nombre del Señor,"

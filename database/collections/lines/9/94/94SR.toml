@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਟਕਾ ਟਕਾ ਕਰਿ ਦਿਜਨ ਲੁਟਾਵੈ ॥"
 page = 915
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whatever wealth Raja squeezed out of that woman, he distributed among Brahmins, the priests."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਰੁਪਇਆ ਰੁਪਇਆ ਕਰ ਕੇ ਬ੍ਰਾਹਮਣਾਂ ਨੂੰ ਵੰਡ ਦਿੰਦਾ ਸੀ।"

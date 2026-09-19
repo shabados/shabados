@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜ ਸਮਾਜ ਦੀਯੋ ਪਊਵਾ ਪਰ ॥"
 page = 229
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Wearing matted hair on his head he dedicated all the royal task to those sandals."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਾਜ ਦਾ ਭਾਰ (ਰਾਮ ਦੀਆਂ) ਖੜਾਵਾਂ ਉੱਤੇ ਪਾ ਦਿੱਤਾ।"

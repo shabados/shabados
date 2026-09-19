@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਨ ਜੀਤੇ ਜੀਤੋ ਸੰਸਾਰਾ ॥੩੫੧॥"
 page = 709
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The whole world is conquered, on conquering them.124.351."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਨ੍ਹਾਂ (ਦੋਹਾਂ ਨੂੰ) ਜਿਤਣ ਨਾਲ ਸਾਰਾ ਸੰਸਾਰ ਜਿਤ ਲਿਆ ਜਾਂਦਾ ਹੈ ॥੩੫੧॥"

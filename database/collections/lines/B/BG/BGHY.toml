@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲੋਭ ਲੁਭਤਿ ਮਕਰੰਦ ਰਸਿ; ਦੂਰਿ ਦਿਸੰਤਰਿ ਆਇ ਮਿਲੰਦੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "With the sunrise, they come attracted from far and wide and meet the lotus."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਕਮਲ ਦੀ) ਮਕਰੰਦ ਰਸ ਦੇ ਲੋਭ ਵਿਖੇ (ਮਨ) ਲੋਭਾਇਮਾਨ ਹੈ (ਇਸ ਲਈ) ਦੂਰ ਦੇਸ਼ਾਂਤ੍ਰਾਂ ਤੋਂ ਆ ਮਿਲਦੇ ਹਨ।"

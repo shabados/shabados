@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕੀਸਵਾ ਗੁਰੁ ਤਾ ਕਹ ਕੀਆ ॥"
 page = 671
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ (ਦੱਤ ਨੇ) ਇਕੀਸਵਾਂ ਗੁਰੂ ਧਾਰਨ ਕਰ ਲਿਆ,"

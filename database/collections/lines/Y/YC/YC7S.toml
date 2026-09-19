@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਕ੍ਰਿਤ ਕ੍ਰਿਤ ਕਾਰਣੋ; ਅਨਿਤ ਨਿਤ ਹੋਹਿਗੇ ॥"
 page = 555
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Forbidden works will always be performed"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨ ਕੀਤੇ ਜਾਣ ਵਾਲੇ ਕ੍ਰਿਤਾਂ ਨੂੰ ਕੀਤਾ ਜਾਵੇਗਾ ਅਤੇ ਅਸਥਾਈ (ਕੰਮਾਂ ਨੂੰ) ਨਿੱਤ ਕੀਤਾ ਜਾਵੇਗਾ।"

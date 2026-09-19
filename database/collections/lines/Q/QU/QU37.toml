@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਪਾਪਿਸਟ ਕਠੂਰ ॥"
 page = 564
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the people have become cruel, characterless, sinners and hard-hearted"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਹੀ ਪਾਪੀ ਅਤੇ ਕਠੋਰ ਹਨ।"

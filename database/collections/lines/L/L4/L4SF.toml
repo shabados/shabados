@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਭਾਵਤ ਪਾਵਤ ਪਤਿ ਭਈ ॥"
 page = 1165
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਮਨ ਚਾਹਿਆ ਪਤੀ ਪ੍ਰਾਪਤ ਕਰ ਲਿਆ"

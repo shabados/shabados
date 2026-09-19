@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੋਟ ਨ ਕਾਹੂੰ ਕੀ ਲਗੀ, ਸੀਸ ਰਹੇ ਨਿਹੁਰਾਇ ॥੧੨॥"
 page = 1008
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As their arrows were going astray, and they felt remorseful.(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ ਦਾ ਬਾਣ ਵੀ ਨਾ ਵਜਿਆ, ਬਸ ਸਿਰ ਨੀਵਾਂ ਕਰ ਕੇ (ਬੈਠ ਗਏ) ॥੧੨॥"

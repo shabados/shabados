@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਪਰ ਧਨ ਰੂਪ, ਨਿੰਦ ਨ ਗੋਈਐ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In the company of the gurmukhs neither the wealth and physical beauty of others is seen nor is backbiting committed."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਧਨ, (ਪਰ ਇਸਤ੍ਰੀ) ਰੂਪ (ਵੱਲ ਨਹੀਂ ਤੱਕਦੇ ਤੇ) ਨਾ ਹੀ (ਕਿਸੇ ਦੀ) ਨਿੰਦਾ ਕਰਦੇ ਹਨ।"

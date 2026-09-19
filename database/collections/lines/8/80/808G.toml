@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਗਨਿ ਸਾਥ ਤਿਹ ਅਧਿਕ ਤਪਾਈ ॥"
 page = 1335
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਅਗਨੀ ਨਾਲ ਉਸ ਨੂੰ ਬਹੁਤ ਤਪਾਇਆ,"

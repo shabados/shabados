@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭਟ ਸਿੰਘ ਪ੍ਰਤਿ ਦਏ ਪਠਾਈ ॥"
 page = 870
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja called the priest over and invited Subhat Singh."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੁਭਟ ਸਿੰਘ ਕੋਲ ਭੇਜ ਦਿੱਤਾ।"

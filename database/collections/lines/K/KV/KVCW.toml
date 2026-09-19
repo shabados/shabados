@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਗੁ ਕਲਿਆਣ ਪਾਤਿਸਾਹੀ ੧੦ ॥"
 page = 710
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "RAGA KALYAN OF THE TENTH KING"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਕਲਿਆਣ ਪਾਤਿਸਾਹੀ ੧੦:"

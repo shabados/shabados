@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਕਥ ਚਲਿ ਤਿਹ ਤ੍ਰਿਯ ਪੈ ਗਈ ॥"
 page = 956
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "This is what happened this side. Now we talk about the other woman"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਕਥਾ ਉਸ ਇਸਤਰੀ ਵਲ ਮੁੜਦੀ ਹੈ"

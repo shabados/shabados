@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਥਰਹਰ ਕੰਪੈ ਸਤ੍ਰੁ ਜਾ ਕੇ ਡਰ ॥"
 page = 1246
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਡਰ ਦੇ ਮਾਰੇ ਵੈਰੀ ਥਰ ਥਰ ਕੰਬਦੇ ਸਨ।"

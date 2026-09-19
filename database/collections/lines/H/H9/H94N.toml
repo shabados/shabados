@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਬਾਨਗਰ ਪੰਧਰਵੋ ਗੁਰੂ ਕਥਨੰ ॥"
 page = 662
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now beings the description of the adoption of the Arrow-maker as his Fifteenth Guru"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਬਾਨ-ਗਰ ਪੰਦ੍ਰਹਵੇਂ ਗੁਰੂ ਦੇ ਪ੍ਰਸੰਗ ਦਾ ਕਥਨ"

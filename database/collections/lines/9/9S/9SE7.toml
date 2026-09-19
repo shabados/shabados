@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੁਦਰਤਿ ਕਰਮੁ; ਨ ਕਹਣਾ ਜਾਈ ॥"
 page = 107
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord's power and bounty can not be described."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਈਂ ਦੀ ਸ਼ਕਤੀ ਤੇ ਬਖਸ਼ਸ਼ ਬਿਆਨ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "His Creative Power and His Bounties cannot be described."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਕੁਦਰਤੀ ਅਰਥਾਤ ਅਨੇਕ ਸਕਤੀਆਂ ਵਾਲੇ ਹਰੀ! ਤੇਰਾ (ਕਰਮੁ) ਕਰਤੱਬੁ ਕਹਾ ਨਹੀਂ ਜਾਤਾ ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਕੁਦਰਤਿ ਬਿਆਨ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ, ਤੇਰੀ ਬਖ਼ਸ਼ਸ਼ ਬਿਆਨ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰਮੁ = ਬਖ਼ਸ਼ਸ਼।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Nadie puede acabar de decir de Sus Abundancias, ni de Su Poder."

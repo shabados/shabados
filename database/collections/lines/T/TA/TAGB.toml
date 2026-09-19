@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਯ ਕੌ ਕਾਮ ਕਰਾ ਅਤਿ ਭਈ ॥"
 page = 958
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Talking and talking, the dusk approached and her desire for sex kindled."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸਤਰੀ (ਦੇ ਮਨ ਵਿਚ) ਕਾਮ ਕਲਾ ਬਹੁਤ ਵੱਧ ਗਈ।"

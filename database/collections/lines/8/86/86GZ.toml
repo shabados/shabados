@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤੈ ਦਤ ਧਾਯੋ, ਅਨਾਦਤ ਉਤੰ ॥"
 page = 704
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "From one side, the followers of Dutt ran and from the second side other people"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਧਰੋਂ 'ਦੱਤ' ਨੇ ਧਾਵਾ ਕੀਤਾ ਹੈ, ਉਧਰੋਂ 'ਅਨਾਦੱਤ' (ਚੜ੍ਹ ਆਇਆ ਹੈ)।"

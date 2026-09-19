@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਕਿਉਣ ਜੋ ਤੇਰੀ ਮਸਤ ਅੱਖ ਅੱਜ ਨਸ਼ੇ ਨਾਲ ਭਰੀ ਹੌਈ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਚਸ਼ਮਿ ਮਸਤ ਤੂ ਇਮਰੂਜ਼ ਖ਼ੁਮਾਰੇ ਦਾਰਦ ॥੨੯॥੨॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Anyone who has been struck by the love-bug (disease), like Goyaa,"

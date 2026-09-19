@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੰਤ ਆਦਿ ਦੇਵ ਹੈ ॥"
 page = 128
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Boundless and Primal Lord"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਅੰਤ ਤੋਂ ਬਿਨਾ ਅਤੇ ਆਦਿ-ਦੇਵ ਹੈਂ;"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਮੁ ਦੇਹਿ; ਮਾਗੈ ਦਾਸੁ ਤੇਰਾ ॥"
 page = 1005
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Bless Thou me with Thine Name. O Lord, This gift, alone, Thy slave begs of Thee."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਮੈਨੂੰ ਆਪਣਾ ਨਾਮ ਪ੍ਰਦਾਨ ਕਰ, ਹੇ ਪ੍ਰਭੂ! ਤੇਰਾ ਗੋਲਾ ਕੇਵਲ ਇਹ ਦਾਤ ਹੀ ਤੇਰੇ ਕੋਲੋਂ ਮੰਗਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Please bless me with Your Name, Lord; Your slave begs only for this."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੇਰਾ ਦਾਸ ਏਹੀ ਮਾਂਗਤਾ ਹੂੰ, ਮੁਝੇ ਨਾਮ ਦੇਹੁ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰਾ ਦਾਸ ਤੇਰੇ ਦਰ ਤੋਂ ਤੇਰਾ ਨਾਮ ਮੰਗਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਾਗੈ = ਮੰਗਦਾ ਹੈ {ਇਕ-ਵਚਨ}।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sólo el Señor Infinito e Insondable es la Fuente de toda actividad."

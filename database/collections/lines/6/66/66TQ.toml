@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਮ ਸੈਨ ਤਿਹ ਨਾਮ ਕਹਤ ਨਰ ॥"
 page = 1281
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੋਕੀਂ ਉਸ ਦਾ ਨਾਂ ਕਾਮ ਸੈਨ ਕਹਿੰਦੇ ਸਨ।"

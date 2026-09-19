@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਤੀਆ ਇੰਦ੍ਰ ਰਘੁ ਰਾਜ ਅਪਾਰੰ ॥"
 page = 626
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Performing many Raajsu Yajnas, the king Raghu seemed like a second Indra"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦੇ ਫਲਸਰੂਪ) ਮਹਾਨ ਰਘੁਰਾਜ ਨੂੰ ਦੂਜਾ ਇੰਦਰ ਮੰਨਿਆ ਜਾਣ ਲਗਿਆ।"

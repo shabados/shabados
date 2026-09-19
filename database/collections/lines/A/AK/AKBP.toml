@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋਹਨ ਆਜੁ ਕਹਿਯੋ ਮੈ ਐਹੋ ॥"
 page = 948
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "considering him to be an idiotic, decided to do something."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ ਦਸਿਆ) ਮੋਹਨ ਨੇ ਕਿਹਾ ਹੈ ਕਿ ਅਜ ਮੈਂ ਆਵਾਂਗਾ।"

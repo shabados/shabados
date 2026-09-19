@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਊ ਨ ਤ੍ਰਿਯ ਆਸਨ ਤਿਹ ਤਜਾ ॥"
 page = 1356
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਵੀ ਇਸਤਰੀ ਨੇ ਉਸ ਦਾ ਆਸਣ ਨਾ ਛਡਿਆ।"

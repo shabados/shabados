@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੌਨ ਭੰਡਾਰ ਸੁਹਾਤ ਨ ਮੋ ਕਹ; ਸੋਵਤ ਹੂੰ ਬਿਝ ਕੈ ਬਰਰਾਊਾਂ ॥"
 page = 1105
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹੱਲ ਅਤੇ ਭੰਡਾਰ ਮੈਨੂੰ ਚੰਗੇ ਨਹੀਂ ਲਗਦੇ ਅਤੇ ਸੁੱਤੀ ਹੋਈ ਚੌਂਕ ਕੇ ਬਰੜਾਉਣ ਲਗਦੀ ਹਾਂ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੰਗ ਰਾਇ ਤਾ ਕੀ ਤ੍ਰਿਯਾ; ਅਤਿ ਜੋਬਨ ਤਿਹ ਅੰਗ ॥"
 page = 884
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rang Raae was his wife, who was at the prime of her youth."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰੰਗ ਰਾਇ ਉਸ ਦੀ ਪਤਨੀ ਸੀ ਜੋ ਬਹੁਤ ਜੋਬਨਵਤੀ ਸੀ।"

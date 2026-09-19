@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਰੂਸ ਕੇ ਦੇਸ ਕੀ; ਓਰ ਪਯਾਨੋ ਕੀਨ ॥੧੯॥"
 page = 1119
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਰੂਸ ਦੇਸ ਵਲ ਪ੍ਰਸਥਾਨ ਕੀਤਾ ॥੧੯॥"

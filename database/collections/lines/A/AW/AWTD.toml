@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਬਿ ਪ੍ਰਸੰਗ ਪੂਰਨ ਤਬ ਕੀਨੋ ॥੨੧॥"
 page = 1132
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਕਵੀ ਨੇ ਪ੍ਰਸੰਗ ਪੂਰਾ ਕਰ ਦਿੱਤਾ ॥੨੧॥"

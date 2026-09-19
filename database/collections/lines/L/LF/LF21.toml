@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮਰੇ ਸਿਰ ਪਰ ਕਾਢਿ ਕੈ; ਠਾਢੇ ਹ੍ਵੈ ਤਰਵਾਰਿ ॥"
 page = 885
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘They (the police) might put a sharp sword above your head,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਸਿਰ ਉਤੇ (ਸਿਪਾਹੀ) ਤਲਵਾਰ ਕਢ ਕੇ ਖੜੋਤੇ ਹੋਣਗੇ"

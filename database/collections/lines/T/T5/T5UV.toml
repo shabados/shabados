@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਸ ਸੋ ਜਦੁਰਾਇ ਮਹਾ ਰਸੀਆ; ਤਬ ਹੀ ਤਿਹ ਕੇ ਪਿਛੂਆਨ ਸੋ ਲਾਗੈ ॥"
 page = 360
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Great aesthete Krishna, then closely followed her"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪ੍ਰੇਮ) ਰਸ ਵਿਚ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਮਹਾਨ ਰਸੀਆ ਹੈ, ਉਹ ਤਦੋਂ ਹੀ ਉਸ ਦੇ ਪਿਛੇ ਪਿਛੇ ਲਗ ਤੁਰਿਆ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖਿ ਆਤੁਰ ਤਾ ਕੋ ਸਖੀ; ਚਲੀ ਤਹਾ ਤੇ ਧਾਇ ॥"
 page = 1123
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਬੇਹਬਲਤਾ ਨੂੰ ਵੇਖ ਕੇ ਸਖੀ ਉਥੋਂ ਜਲਦੀ ਨਾਲ ਚਲ ਪਈ।"

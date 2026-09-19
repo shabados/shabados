@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਜ਼ਾ ਦਉਰ ਦੀ ਬਾਦਸ਼ਾਹਸ਼ ਬਵਦ ॥੧੫॥"
 page = 1398
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Enthrone him to run the righteous kingdom.’(15)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਇਸ ਦੌਰ ਦੀ ਬਾਦਸ਼ਾਹੀ ਦੇ ਦਿਓ ॥੧੫॥"

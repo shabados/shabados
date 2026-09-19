@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਭਿ ਕਿਲਵਿਖ ਕਾਟੈ; ਹਰਿ ਤੇਰੇ ॥"
 page = 998
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "God shall wipe out all thy sins."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਵਾਹਿਗੁਰੂ ਤੇਰੇ ਸਾਰੇ ਪਾਪ ਮਲੀਆਮੈਟ ਕਰ ਦੇਵੇਗਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Lord shall eradicate all your sins."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਸਭ ਪਾਪ ਹਰੀ ਕਾ ਜਾਪ ਹੀ ਕਾਟੇਗਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਤੇਰੇ ਸਾਰੇ ਪਾਪ ਕੱਟ ਸਕਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਭਿ = ਸਾਰੇ। ਕਿਲਬਿਖ = ਪਾਪ। ਕਾਟੈ = ਕੱਟਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y el Señor borrará todas tus faltas."

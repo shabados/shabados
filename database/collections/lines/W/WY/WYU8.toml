@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ, ਕਾਲ ਨਿਕਟਿ ਨਹਿ ਐਹੈ ॥"
 page = 1387
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who meditate even on the Supreme Destroyer, the death cannot approach them"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਕਾਲ ਉਨ੍ਹਾਂ ਦੇ ਨੇੜੇ ਨਹੀਂ ਆਉਂਦਾ।"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਤਾ ਕੇ; ਕਾਲ ਨਿਕਟਿ ਨਹਿ ਐਹੈ ॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਗਿਆਨਵਾਨਾਂ ਵਿਚ ਸਤਿਕਾਰ ਪਾਉਂਦਾ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਗਰਦਦਸ਼ ਦਰ ਰਾਹਿ ਇਰਫ਼ਾਂ ਮੁਹਤਰਿਮ ॥੫੦੦॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He receives laurels among the enlightened persons. (500)"

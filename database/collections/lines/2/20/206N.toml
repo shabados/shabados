@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਏ ਭਸਮ ਅਦਭੁਤ ਕਾਇ ॥੩੫੭॥"
 page = 709
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The flames of fire arose, in which the king was burnt and his body was reduced to ashes.130.357."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਅਦਭੁਤ ਦੇਹ ਭਸਮ ਹੋ ਗਈ ॥੩੫੭॥"

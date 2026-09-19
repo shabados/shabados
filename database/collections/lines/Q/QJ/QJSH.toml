@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਲੀਨ ਰੁਦ੍ਰ ਕਰਿ ਬਚਾਇ ॥੧੬੪॥"
 page = 567
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A Brahmin always worshipped that goddess, who had chopped the demon named Dhumarlochan into two parts, who had helped the gods and even saved Rudra.164."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਹੱਥ ਦੇ ਕੇ ਸ਼ਿਵ ਨੂੰ ਬਚਾ ਲਿਆ ਸੀ ॥੧੬੪॥"

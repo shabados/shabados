@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪ ਲੇਹੁ ਤੁਮ ਕਥਾ ਸੁਧਾਰੀ ॥੩॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou mayst Thyself improve this narration.3."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਸੀਂ ਆਪ ਹੀ (ਮੇਰੇ ਲਿਖੇ ਇਸ) ਬ੍ਰਿੱਤਾਂਤ ਨੂੰ ਸੁਧਾਰ ਲਵੋ ॥੩॥"

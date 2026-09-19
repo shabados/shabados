@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੰਤ ਬਾਣ ਤੀਛਣੰ; ਅਨੰਤ ਅੰਤ ਕੰਕਯੰ ॥"
 page = 231
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sound of obstructing the shields and the sound of the striking swords are being heard and the sharp arrows destroying innumerable people are being discharged"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੇਅੰਤ ਤਿੱਖੇ ਬਾਣ ਚਲਦੇ ਸਨ ਜੋ ਅਨੇਕਾਂ ਦਾ ਅੰਤ ਕਰਦੇ ਸਨ।"

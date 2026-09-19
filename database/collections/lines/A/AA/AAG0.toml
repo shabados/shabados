@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਏਕ ਨਾਮ ਕੇ ਸਮੰ ॥੧੨॥੯੦॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All these acts do not equal the merit of the remembrance of the Name of One Lord.12.90."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ ਸਭ) ਇਕ ਨਾਮ ਦੇ ਬਰਾਬਰ ਨਹੀਂ ਹਨ ॥੧੨॥੯੦॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਬਦ ਸੁਰਤਿ ਲਿਵ ਲਾਇ; ਹੁਕਮੁ ਕਮਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Who by merging his consciousness in the Word has acted according to the divine Will (hukam)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਬਦ ਵਿਖੇ ਸੁਰਤ ਲਾ ਕੇ (ਵਾਹਿਗੁਰੂ ਦੇ) ਹੁਕਮ ਨੂੰ ਕਮਾਇਆ।"

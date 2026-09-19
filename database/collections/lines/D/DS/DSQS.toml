@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਏ ਜੂਝਿ ਜੋਧਾ ਬਡੇਈ ਹੰਕਾਰੀ ॥"
 page = 929
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੱਡੇ ਵੱਡੇ ਹੰਕਾਰੀ ਜੋਧੇ ਮਾਰੇ ਗਏ ਹਨ।"

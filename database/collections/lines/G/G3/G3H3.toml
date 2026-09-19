@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਠੇ ਖਗ ਧੀਰੰ ॥੪੪੫॥"
 page = 246
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The persistent warriors like Mahodar held their swords and stood firmly with forbearance.445."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਲਵਾਰਾਂ ਫੜ ਲਈਆਂ ॥੪੪੫॥"

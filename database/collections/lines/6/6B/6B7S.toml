@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਬਿਧ ਦੈਤ ਸੰਘਾਰ ਕਰ; ਧਵਲਾ ਚਲੀ ਅਵਾਸ ॥"
 page = 105
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, killing the demons, the goddess Durga went to her abode."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਦੈਂਤਾਂ ਨੂੰ ਮਾਰ ਕੇ ਦੁਰਗਾ ਆਪਣੇ ਨਿਵਾਸ ਨੂੰ ਚਲੀ ਗਈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੂਜੀ ਬੈਰਾਗਿਨ ਕੇ ਦ੍ਰਯਾਈ ॥"
 page = 999
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One cauldron, she sent to the poor and the second one to the sages."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੂਜੀ ਬੈਰਾਗੀਆਂ ਨੂੰ ਦੇ ਦਿੱਤੀ।"

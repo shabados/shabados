@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੜ ਰੜ ਖੋਲੰ ॥੧੩॥"
 page = 196
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The resounding of the drums and the sound of the empty quivers is also being hard.13."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖੋਲਾਂ ਵਿੱਚ ਖੜ-ਖੜ ਦੀ ਅਵਾਜ਼ ਨਿਕਲ ਰਹੀ ਸੀ ॥੧੩॥"

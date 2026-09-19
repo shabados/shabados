@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੈ ਤੁਮ ਪਰ ਅਟਕਤਿ ਭਈ; ਤਾ ਤੇ ਲਿਖਿਯੋ ਬਨਾਇ ॥"
 page = 1005
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I have fallen in love with you, and that is why I am writing this letter."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੈਨੂੰ (ਵੇਖਦਿਆਂ ਹੀ) ਮੋਹਿਤ ਹੋ ਗਈ ਹਾਂ, ਇਸ ਲਈ ਇਹ ਪੱਤਰ ਲਿਖਿਆ ਹੈ।"

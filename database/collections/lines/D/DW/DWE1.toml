@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਉਨ ਨ ਮੋਹੈ, ਕਹੋ ਬਿਚਾਰਾ ॥੧੭੪॥"
 page = 648
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whereas he was a Yogi, he was also extremely beautiful, then who would there be without allurement.174."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਲਾ ਵਿਚਾਰ ਕਰ ਕੇ ਦਸੋ, ਕਿਹੜਾ ਮੋਹਿਤ ਨਾ ਹੁੰਦਾ ॥੧੭੪॥"

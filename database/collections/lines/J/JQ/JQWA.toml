@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨੁਕ ਪ੍ਰਭਾ ਦਿਪਤਿ ਕਿਰਣਾਧਰ ॥"
 page = 1158
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਸੁੰਦਰਤਾ ਮਾਨੋ ਸੂਰਜ ਦੇ ਸਮਾਨ ਹੋਵੇ।"

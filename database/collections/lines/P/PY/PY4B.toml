@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਜੁਗਿਯਾ ਕੇ ਗ੍ਰਿਹ ਲੈ ਆਯੋ ॥"
 page = 826
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And brought him to the Jogan"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਉਸ ਜੋਗੀ ਦੇ ਘਰ ਲੈ ਆਇਆ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਭਾ ਸੈਨ ਨਾਮਾ, ਰਹੈ ਤਾਹਿ ਤਾਤਾ ॥"
 page = 1220
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭਾ ਸੈਨ ਨਾਂ ਦਾ ਉਸ ਦਾ ਪਿਤਾ (ਉਥੇ) ਰਹਿੰਦਾ ਸੀ"

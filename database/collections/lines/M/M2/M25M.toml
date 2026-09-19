@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਸੁਨਿ ਦਾਨਵ ਚਪਲ ਗਤਿ; ਗਇਓ ਸੁੰਭ ਕੇ ਪਾਸ ॥"
 page = 83
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing this, that demon went to king Sumbh very swiftly,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ (ਗੱਲ) ਸੁਣ ਕੇ ਦੈਂਤ ਬਿਜਲੀ ਦੀ ਗਤੀ ਨਾਲ ਸੁੰਭ ਕੋਲ ਗਿਆ।"

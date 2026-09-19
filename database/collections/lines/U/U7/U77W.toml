@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੈਰੀ ਪੈ ਪਾਖਾਕੁ; ਮੁਰੀਦੈ ਥੀਵਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "By becoming the dust of the feet the disciple is required to be near the feet of the the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੁਰੀਦ (ਨੂੰ ਚਾਹੀਏ ਗੁਰੂ ਦੀ) ਪੈਰੀਂ ਪੈਕੇ, ਚਰਣ ਧੂੜ ਬਣੇ।"

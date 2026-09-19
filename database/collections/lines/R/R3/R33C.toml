@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਿਕਲ ਮਾਇਆ ਸੰਗਿ ਧੰਧ ॥"
 page = 1306
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and clinging to the worldly affairs, he is bewildered."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੰਸਾਰੀ ਵਿਹਾਰਾਂ ਨਾਲ ਚਿਮੜ ਉਹ ਵਿਆਕੁਲ ਹੋ ਗਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "bewildered by the entanglements of Maya."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮਾਯਾ ਕੇ ਧੰਧ੍ਯੋਂ ਸਾਥ ਬ੍ਯਾਕੁਲ ਹੋ ਰਹਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮਾਇਆ ਦੇ ਝੰਬੇਲਿਆਂ ਨਾਲ ਵਿਆਕੁਲ ਹੋਏ ਰਹਿੰਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਕਲ = ਵਿਆਕੁਲ, ਘਬਰਾਏ ਹੋਏ। ਸੰਗਿ = ਨਾਲ। ਮਾਇਆ ਧੰਧ = ਮਾਇਆ ਦੇ ਧੰਧੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Engañado se ha vuelto un salvaje por los embrujos de Maya."

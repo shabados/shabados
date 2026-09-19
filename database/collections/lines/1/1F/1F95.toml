@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅਜਬੁ ਅਜਾਇਬੁ ਸੰਙਿਆ; ਉਮਰਸਾਹੁ ਗੁਰ ਸੇਵ ਕਰੰਦਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Ajab, Ajaib and Umar belonging to Sangha caste are the servants (masands) of the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਅਜਬ ਤੇ ਅਜਾਇਬ ਅਤੇ ਉਮਰ ਸ਼ਾਹ, (ਇਹ ਤਿੰਨੋ) ਸੰਘੇ ਜਾਤ ਵਾਲੇ ਗੁਰ ਸੇਵਾ ਕਰਦੇ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਨ ਸਾਵਰੇ ਰਾਵਰੇਅੰ ਹੁਲਸੰ ॥"
 page = 44
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the same manner Thy dark body hath its glow."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸੇ ਤਰ੍ਹਾਂ ਤੇਰਾ ਸਾਂਵਲਾ ਸ਼ਰੀਰ ਚਮਕਦਾ ਹੈ।"

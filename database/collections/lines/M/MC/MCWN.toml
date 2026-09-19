@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਬਾਦਸ਼ਾਹੀ ਅਤੇ ਦਰਵੇਸ਼ੀ ਕੀ ਹੈ# ਸਮਝ ਲੈ ਕਿ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਚੀਸਤ ਸੁਲਤਾਨੀ ਵਾ ਦਰਵੇਸ਼ੀ ਬਿਦਾਣ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "When, by abiding the All-powerful in his heart, recognized His Entity,"

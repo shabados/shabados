@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਭਾਖਤ ਹੈ ਪ੍ਰਗਟ ਪੁਕਾਰੀ ॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That we utter apparently."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ (ਪ੍ਰਯੋਜਨ) ਪ੍ਰਗਟ ਕਰ ਕੇ ਸੁਣਾਉਂਦੇ ਹਾਂ"

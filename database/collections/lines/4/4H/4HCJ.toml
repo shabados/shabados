@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਨਛੀ ਏਕ ਹਾਥ ਮੋ ਧਾਰੇ ॥"
 page = 650
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਹੱਥ ਵਿਚ ਇਕ ਕੁੰਡੀ ਵਾਲੀ ਸੋਟੀ ('ਬਿਨਛੀ') ਪਕੜੀ ਹੋਈ ਸੀ।"

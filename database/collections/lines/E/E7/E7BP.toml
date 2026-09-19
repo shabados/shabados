@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ︀ਯਾਮ ਕੀ ਪ੍ਰੀਤਿ ਘਨੀ ਤੁਮ ਸੋਂ ਤਿਹ ਤੇ ਤੁਮ ਕੋ ਅਤਿ ਹੀ ਸੁਖ ਦੈ ਹੈ ॥"
 page = 398
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Your son will become the king and you will be in great comfort"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਹਾਡੇ ਨਾਲ ਕ੍ਰਿਸ਼ਨ ਦੀ ਬਹੁਤ ਨਿਘੀ ਪ੍ਰੀਤ ਹੈ, ਉਸ ਕਰ ਕੇ ਤੁਹਾਨੂੰ ਬਹੁਤ ਸੁਖ ਦੇਵੇਗਾ।"

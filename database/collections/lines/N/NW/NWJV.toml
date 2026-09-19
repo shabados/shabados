@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇ ਤੇ ਅਬ ਚਹੀਅਤ ਹੈ ਕਹੇ ॥੬॥"
 page = 73
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the wonderful things that were comprehended by the ancient sages, I want to speak about all of them.6."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਉਹ (ਮੈਂ) ਹੁਣ ਕਹਿਣੇ ਚਾਹੁੰਦਾ ਹਾਂ ॥੬॥"

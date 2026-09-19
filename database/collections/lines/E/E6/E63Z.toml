@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਕਬਿ ਜਨਨ ਕੇ ਸੁਨਤ ਭਨੀਜੈ ॥੧੨੦੨॥"
 page = 798
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Deseshani Ramanani”, add the word “antakani” at the end and know all the names of Tupak.1202."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਵੀ ਜਨੋ। (ਇਸ ਨੂੰ) ਸੁਣਾ ਕੇ ਕਥਨ ਕਰੋ ॥੧੨੦੨॥"

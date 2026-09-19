@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਨਿਜੁ ਨਾਰੀ ਸੋ ਨੇਹੁ; ਨ ਕਬਹੂੰ ਕੀਜਿਯੈ ॥੧੯॥"
 page = 851
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘(Might be) one had to abandon his own female.(l9)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੀ ਨਾਰੀ ਨਾਲ ਕਦੇ ਪ੍ਰੇਮ ਨਹੀਂ ਕਰਨਾ ਚਾਹੀਦਾ ॥੧੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛ੍ਵੈ ਸਕਾ ਪਾਪ ਨਹੀ ਕਉਨ ਕਾਲ ॥"
 page = 641
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The death and sin have not been able to touch Him at any time"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਪਾਪ ਕਿਸੇ ਸਮੇਂ ਵੀ ਛੋਹ ਨਹੀਂ ਸਕਿਆ ਹੈ।"

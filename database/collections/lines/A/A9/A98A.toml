@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਸਪਤ ਜੋਜਨ ਲੌ ਕੋਸ ਅਸਟੰ ॥"
 page = 142
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many serpents from the length of seven upto eight Kos,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਹੀ ਸੱਤ ਯੋਜਨਾਂ ਜਿੰਨੇ ਅਤੇ ਅੱਠ ਕੋਹਾਂ ਜੇਡੇ,"

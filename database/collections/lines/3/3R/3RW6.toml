@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਾਨ, ਤਿਹਾਰੌ ਰੂਪ ਲਖਿ; ਬੇਗਮ ਰਹੀ ਲੁਭਾਇ ॥"
 page = 911
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(And he was told again) ‘Khan, the Begum has been bewitched by your looks,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਖ਼ਾਨ! ਤੇਰਾ ਰੂਪ ਵੇਖ ਕੇ ਬੇਗਮ ਲੋਭਾਇਮਾਨ ਹੋ ਗਈ ਹੈ।"

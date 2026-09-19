@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੈਸੇ ਮ੍ਰਿਗ ਮ੍ਰਿਗਯਾ ਕੋ ਲਹੇ ॥"
 page = 938
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ ਸਥਿਤੀ) ਉਸ ਹਿਰਨ ਵਰਗੀ ਹੋ ਗਈ ਜੋ 'ਮ੍ਰਿਗਯਾ' (ਸ਼ਿਕਾਰੀ) ਨੂੰ ਵੇਖ ਕੇ"

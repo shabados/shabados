@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਭੇ ਜਾਣਨਿ ਆਪਣਾ; ਕਹੀ. ਨ ਠਾਹੇ ਚਿਤੁ ॥੨॥"
 page = 1096
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Everyone thinks Him his own and He breaks not any one's heart."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹਰ ਕੋਈ ਉਸ ਨੂੰ ਆਪਣਾ ਨਿੱਜ ਦਾ ਖ਼ਿਆਲ ਕਰਦਾ ਹੈ ਅਤੇ ਉਹ ਕਿਸੇ ਦਾ ਦਿਲ ਭੀ ਨਹੀਂ ਤੋੜਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All think of Him as their own; He never breaks anyone's heart. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਜੀਵ ਆਪਣਾ ਜਾਣਤੇ ਹੈਂ ਵਹੁ ਕਿਸੀ ਕਾ ਚਿਤ ਨਹੀਂ ਢਾਹਤਾ, ਭਾਵ ਕਿਸੀ ਕੋ ਨਹੀਂ ਕਹਿੰਦਾ ਜੋ ਮੇਂ ਤੇਰਾ ਨਹੀਂ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਹੀ ਜੀਵ ਉਸ ਪ੍ਰਭੂ ਨੂੰ ਆਪਣਾ (ਮਿਤ੍ਰ) ਜਾਣਦੇ ਹਨ, ਉਹ ਕਿਸੇ ਦਾ ਦਿਲ ਤੋੜਦਾ ਨਹੀਂ ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਭੇ = ਸਾਰੇ ਜੀਵ। ਜਾਣਨਿ = ਜਾਣਦੇ ਹਨ। ਕਹੀ ਚਿਤੁ = ਕਿਸੇ ਦਾ ਭੀ ਦਿਲ। ਨ ਠਾਹੇ = ਨਹੀਂ ਢਾਹੁੰਦਾ, ਨਹੀਂ ਤੋੜਦਾ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él no rompe ningún corazón. (2)"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ︀ਯਾਮ ਕਹੈ ਤਿਨ ਚਛਨ ਸੋ ਸਭ ਦੇਖ ਲਯੋ ਜੁ ਬਡੀ ਬਡਿਭਾਗਨਿ ॥੧੩੩॥"
 page = 303
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The poet says that those who saw this spectacle with their own eyes, they are very fortunate.133."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਆਮ ਕਵੀ ਕਹਿੰਦੇ ਹਨ ਕਿ (ਜਸੋਧਾ ਨੇ) ਅੱਖਾਂ ਨਾਲ ਸਭ ਕੁਝ ਵੇਖ ਲਿਆ। (ਸਚਮੁਚ) ਉਹ ਵਡਿਆਂ ਭਾਗਾਂ ਵਾਲੀ ਹੈ ॥੧੩੩॥"

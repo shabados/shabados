@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਮੈ ਕਛੂ ਭੇਦ ਨਹੀ ਮਾਨੋ ॥੬੯੪॥"
 page = 750
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying the word “Utbhuj” in the beginning and thinking about the word “Prashthani” in the mind, comprehend all the names of Tupak without any difference.694."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਵਿਚ ਕੋਈ ਅੰਤਰ ਨਾ ਸਮਝੋ ॥੬੯੪॥"

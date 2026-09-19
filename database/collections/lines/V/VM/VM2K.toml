@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਣਕਸਤੁਆ ਅਣਾਪੰ ॥੧੦॥੧੧੮॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thy limits canst not be measured by anyone.10.118."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਨਾਪਣ ਵਾਲਾ ਅਤੇ ਨਾਪ-ਰਹਿਤ ਹੈਂ ॥੧੦॥੧੧੮॥"

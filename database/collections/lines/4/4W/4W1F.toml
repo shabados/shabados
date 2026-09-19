@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਸਾਵੰਤ ਜੁਟੇ ॥"
 page = 702
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The arms arose, the warriors fought"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਲਵਾਨ ਸੂਰਮੇ (ਯੁੱਧ ਵਿਚ) ਜੁਟ ਗਏ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਕਛ ਕਾਛ ਕਛੈ ॥"
 page = 556
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The uneatable will be eaten and people will visit the unworthy places"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਫਿਰਨ ਵਾਲੇ ਸਥਾਨਾਂ ਉਤੇ ਫਿਰਨਗੇ (ਅਰਥਾਂਤਰ-ਨ ਧਾਰਨ ਕਰਨ ਯੋਗ ਰੂਪ ਧਾਰਨ ਕਰਨਗੇ)।"

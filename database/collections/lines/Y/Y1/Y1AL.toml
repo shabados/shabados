@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਯਕੀਨ ਜਾਣੋ ਕਿ ਉਹ ਬਿਲਕੁਲ ਪ੍ਰੀਤਮ ਦਾ ਹੀ ਰੂਪ ਬਣ ਗਿਆ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਤਹਿਕੀਕ ਬਿਦਾਣ ਕਿ ਐਨਿ ਜਾਨਾਣ ਸ਼ੁਦਾ ਅਸਤ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, to tie up our minds with Waaheguru's devotion is also real deliverance. (276)"

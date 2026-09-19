@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹੇਸੁਰਾਚਲੰ ਬਸੇ ॥"
 page = 100
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They inhabited the Kailash mountain"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵ ਦੇ ਪਰਬਤ (ਕੈਲਾਸ਼) ਉਤੇ ਜਾ ਵਸੇ।"

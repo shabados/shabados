@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨੀ ਦਸਤ ਉਠਾਏ, ਰਹੇ ਨ ਜੀਵਦੇ ॥"
 page = 124
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who raised their hands against the goddess, did not survive."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਨੇ (ਦੇਵੀ ਵਲ) ਹੱਥ ਉਲ੍ਹਾਰਿਆ, (ਉਨ੍ਹਾਂ ਵਿਚੋਂ ਕੋਈ ਵੀ) ਜੀਉਂਦਾ ਨਾ ਰਿਹਾ।"

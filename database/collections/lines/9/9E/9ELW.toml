@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਣੇ ਦੋਖ ਭਾਜੰ ॥੪੨॥"
 page = 42
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And listening to His voice the sorrows run away. 42."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ ਨਾਂ) ਸੁਣਦਿਆਂ ਹੀ ਦੋਖ ਭਜ ਜਾਂਦੇ ਹਨ ॥੪੨॥"

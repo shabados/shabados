@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਖੰਡ ਮੰਡਲੀਕ ਸੋ; ਪ੍ਰਚੰਡ ਰੂਪ ਦੇਖੀਐ ॥"
 page = 701
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦਾ) ਰੂਪ ਅਖੰਡ ਰਾਜੇ ('ਮੰਡਲੀਕ') ਜਿਹਾ ਪ੍ਰਚੰਡ ਵੇਖਿਆ ਜਾਂਦਾ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਥੁਰਾ ਮੰਡਲ ਕੇ ਬਿਖੈ; ਜਨਮੁ ਧਰੋ ਹਰਿ ਰਾਇ ॥੩॥"
 page = 290
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Vishnu took birth in Mathura area for the welfare of saints, on receiving the orders of the Loard.3."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਥੁਰਾ ਖੇਤਰ ('ਮੰਡਲ') ਵਿਚ ਵਿਸ਼ਣੂ ਨੇ ਜਨਮ ਧਾਰਨ ਕੀਤਾ ॥੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਿਤ੍ਰਹਿ ਕਾਢਿ ਖਾਟ ਪਰ ਲਯੋ ॥੭॥"
 page = 860
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After making love she sent him out. Then she got the friend out and they sat down on the bed.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਿਤਰ ਨੂੰ (ਮਟ ਵਿਚੋਂ) ਕਢ ਕੇ ਮੰਜੇ ਉਤੇ ਪਾ ਲਿਆ ॥੭॥"

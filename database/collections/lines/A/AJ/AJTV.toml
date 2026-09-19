@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੰਤ ਤੀਛਣੋ ਅਸੰ ਖਿਮੰਤ ਧਾਰ ਉਜਲੰ ॥"
 page = 282
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿੱਖੀਆਂ ਤਲਵਾਰਾਂ ਚੱਲਦੀਆਂ ਹਨ ਅਤੇ ਚਿੱਟੀਆਂ ਧਾਰਾਂ ਚਮਕਦੀਆਂ ਹਨ।"

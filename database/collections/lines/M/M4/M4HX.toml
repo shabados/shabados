@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਤਿ ਚਿੰਤਾ ਮਨ ਮੈ ਕਰੈ; ਮੀਤ ਮਿਲਨ ਕੀ ਆਸ ॥੪॥"
 page = 912
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Dejected, she always desired for a meeting with him.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਿਤਰ ਨੂੰ ਮਿਲਣ ਦੀ ਆਸ ਵਿਚ ਨਿੱਤ ਮਨ ਵਿਚ ਸੋਚਦੀ ॥੪॥"

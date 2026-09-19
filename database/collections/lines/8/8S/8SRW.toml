@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਿਰਸਾਨੀ; ਜਿਉ ਰਾਖੈ ਰਖਵਾਲਾ ॥"
 page = 914
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "As the guardsman guards his crop,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਤਰ੍ਹਾਂ ਰਾਖਾ ਆਪਣੀ ਖੇਤੀ ਦੀ ਰਖਵਾਲੀ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "As the farmer protects his fields;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਖੇਤੀ ਕੋ ਜੈਸੇ ਰਾਖਾ ਰਾਖਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਰਾਖਾ ਖੇਤੀ ਦੀ ਰਾਖੀ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਿਰਸਾਨੀ = ਖੇਤੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Así como el granjero protege su granja con su vida,"

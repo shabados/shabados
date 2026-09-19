@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਇ ਪਇਆ ਸਰਣਾਗਤੀ; ਮਾਰੀਦਾ ਅੰਬਰੀਕ ਛੁਡਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Then he surrendered before Ambaris and Ambaris saved the dying sage."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜਦ ਰਿਖੀ ਭਗਤ) ਅੰਬਰੀਕ ਦੀ ਆਕੇ ਸ਼ਰਨੀ ਪਿਆ, (ਤਦੋਂ ਭਗਤ ਨੇ ਉਸ) ਮਰੀਂਦੇ ਨੂੰ ਛੁਡਾ ਲੀਤਾ।"

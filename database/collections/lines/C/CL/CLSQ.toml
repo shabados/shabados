@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਮੰਤ੍ਰ ਭੀਨਾ ॥੨੬੫॥"
 page = 656
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Dutt, seeing her, eulogized her and accepting her as his Guru, he was absorbed in his great mantra.265."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਹੋ ਜਿਹੀ ਇਹ ਬਾਲਕਾ ਖੇਡ ਵਿਚ ਭਿਜੀ ਹੋਈ ਹੈ) ॥੨੬੫॥"

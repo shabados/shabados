@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਛਿਜ ਤੇਜ ਸੂਰਤਿ ਅਪਾਰ ॥"
 page = 642
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ) ਤੇਜ ਅਣਛਿਜ ਹੈ ਅਤੇ ਸੂਰਵੀਰਤਾ ਅਪਾਰ ਹੈ।"

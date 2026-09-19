@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨ ਬੈਠ ਮੰਤ੍ਰ ਬਿਚਾਰਯੋ ॥"
 page = 281
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸ੍ਰੀ ਰਾਮ ਨੇ) ਫਿਰ ਬੈਠ ਕੇ ਵਿਚਾਰ ਕੀਤਾ ਅਤੇ ਕਿਹਾ-"

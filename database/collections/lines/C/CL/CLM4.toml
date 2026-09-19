@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰਸ੍ਰਯੰ ਧਰੰ ਜਾਨ ਲੋਹੰ ਸੁਰੰਗੰ ॥੨੫॥"
 page = 677
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She gave him two unfailing arms which could cause the steel-armoured enemies to fall on the earth.25."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਦਰ ਕਹਾੜਾ ਧਾਰਨ ਕਰਨ ਲਈ ਦਿੱਤਾ ਜੋ ਲੋਹੇ ਦਾ ਬਣਿਆ ਦਸਿਆ ਜਾਂਦਾ ਹੈ ॥੨੫॥"

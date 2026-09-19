@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਨੀਲਾਰੀ ਦੇ ਮਟ ਵਿਚਿ; ਪੈ ਗਿਦੜੁ ਰਤਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Once a jackal fell into a dyer's vat and got dyed."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਗਿੱਦੜ ਲਿਲਾਰੀ ਦੇ ਮਟਕੇ ਵਿਚ ਪੈਕੇ ਰੰਗਿਆ ਗਿਆ।"

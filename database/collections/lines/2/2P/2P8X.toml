@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਛਿੰਦ੍ਰ ਬਾਚ ਪਾਰਸਨਾਥ ਸੋ ॥"
 page = 691
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Matsyendra : Addressed to Parasnath :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਛਿੰਦ੍ਰ ਨੇ ਕਿਹਾ, ਪਾਰਸ ਨਾਥ ਨੂੰ:"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾਸ ਕਿਉ ਨ ਪਛਾਨਹੀ, ਜੇ ਹੋਹਿ ਹੈ ਅਬ ਹੈ ॥"
 page = 682
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Why do you not pray to Him, who will be there in future and who is there in the present?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਕਿਉਂ ਨਹੀਂ ਪਛਾਣਦਾ, ਜੋ ਹੁਣ ਹੈ ਅਤੇ (ਭਵਿਸ਼ ਵਿਚ) ਹੋਵੇਗਾ।"

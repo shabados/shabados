@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਤੁ ਬਢੈਹੌ ਹੌ ਤੁਮੈ; ਅਬੈ ਅਧਿਕ ਧਨ ਲੇਹੁ ॥੩॥"
 page = 883
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And, in lieu, she promised to give him lot of wealth.(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੈਨੂੰ ਬਹੁਤ ਉੱਨਤ ਕਰਾਂਗੀ, (ਮੇਰੇ ਪਾਸੋਂ) ਹੁਣੇ ਹੀ ਅਧਿਕ ਧਨ ਲੈ ਲਵੋ ॥੩॥"

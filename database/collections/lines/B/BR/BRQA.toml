@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਸਾ ਚਾਰਿ ਜਾ ਕੀ ਸਦਾ ਲੋਹ ਮਾਨੋ ॥"
 page = 922
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘We persist and you must recognise, as our potency is known in all the four directions (of the world).’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਲੋਹਾ ਚਾਰੇ ਦਿਸ਼ਾਵਾਂ ਮੰਨਦੀਆਂ ਹਨ।"

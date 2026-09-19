@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨ ਖੰਡਿ ਕਰੇ ਗਨ ਦਈਤ ਰਣੰ ॥"
 page = 162
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The bow and arrow, the bull Nandi and the dagger (which had destroyed the demons) came out of the ocean."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਨੇ ਜੰਗ ਵਿਚ ਦੈਂਤਾ ਦੇ ਦਲ ਦਾ ਨਾਸ਼ ਕੀਤਾ ਸੀ।"

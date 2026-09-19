@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਕੋਊ ਪੁਰਖ ਬਿਲੋਕਤ; ਤਿਨ ਕੋ ਆਇ ਕੈ ॥"
 page = 826
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Any body who saw her"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਇਸਤਰੀ) ਨੂੰ ਜੋ ਕੋਈ ਪੁਰਸ਼ ਆ ਕੇ ਵੇਖਦਾ,"

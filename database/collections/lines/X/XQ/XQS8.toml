@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਨ ਹੋਮੰ ਕਹੂੰ ਨ ਦਾਨੰ ॥"
 page = 563
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਵੀ ਹੋਮ ਨਹੀਂ ਹੁੰਦਾ, ਨਾ ਹੀ ਦਾਨ ਹੁੰਦਾ ਹੈ।"

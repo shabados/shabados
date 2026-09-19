@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਭੰਗ ਅਗੰਜ ਮਹਾ ਪ੍ਰਬਲੰ ॥੯॥੨੯੯॥"
 page = 153
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Thou art invincible, unassailable and Soverrign of Supreme might.9.299."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਟੁੱਟਣ ਵਾਲੇ, ਨਾ ਖ਼ਤਮ ਹੋਣ ਵਾਲੇ, ਮਹਾਨ ਅਤੇ ਪ੍ਰਬਲ ਹੋ ॥੯॥੨੯੯॥"

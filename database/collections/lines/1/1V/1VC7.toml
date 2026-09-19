@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਰੂਪ ਸਨੇ ॥੩੫੭॥"
 page = 586
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the field of Refuge, the Killer of the enemy, Most Glorious and Most Charming.357."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਸੁੰਦਰ ਰੂਪ ਨਾਲ ਯੁਕਤ ਹੈ ॥੩੫੭॥"

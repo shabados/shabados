@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਸਸਤ੍ਰ ਸੱਖੰ ॥"
 page = 53
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the faces with whiskers have fallen, somewhere only weapons are lying."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਤੇ ਖਾਲੀ ਸ਼ਸਤ੍ਰ ਹੀ ਪਾਏ ਹਨ।"

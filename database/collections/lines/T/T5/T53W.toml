@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਕ੍ਰਮ ਬਚਨ ਕੁਅਰਿ ਅਸ ਕਹਿਯੋ ॥"
 page = 1349
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦ) ਮਨ, ਬਚਨ ਅਤੇ ਕਰਮ ਕਰ ਕੇ ਕੁੰਵਰੀ ਨੇ ਕਿਹਾ,"

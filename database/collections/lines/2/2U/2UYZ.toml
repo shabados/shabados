@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫ਼ਕੀਰੇ ਸ਼ਵਮ ਮੁਲਕ ਚੀਂ ਮੇ ਰਵਮ ॥੨੩॥"
 page = 1413
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I will, now, become an ascetic and go to the Country of China.’(23)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਫ਼ਕੀਰਨੀ ਬਣ ਕੇ ਇਸ ਦੇਸ਼ ਵਿਚੋਂ ਨਿਕਲ ਜਾਵਾਂ ॥੨੩॥"

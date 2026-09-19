@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਯਾਘ੍ਰ ਕੇਤੁ ਤਿਹ ਨਾਮ ਕਹਿਜੈ ॥"
 page = 1331
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਨਾਂ ਬ੍ਯਾਘ੍ਰ ਕੇਤੁ ਦਸਿਆ ਜਾਂਦਾ ਸੀ।"

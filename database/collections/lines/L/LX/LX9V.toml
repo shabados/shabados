@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਰੂਪ ਜਗ ਸੁਨਤ ਜਵਨ ਕੋ ॥"
 page = 849
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her name was Chhattar Manjri; she was admired as the most beautiful."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਰੂਪ ਵੀ ਜਗਤ ਵਿਚ ਬਹੁਤ ਸੁੰਦਰ ਦਸਿਆ ਜਾਂਦਾ ਸੀ।"

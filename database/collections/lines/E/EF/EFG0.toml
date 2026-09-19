@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰੇ ਅੰਤ ਘੂਮੰ ॥"
 page = 175
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਈ ਸੂਰਮੇ) ਅੰਤ ਵਿਚ ਭਵਾਟਣੀ ਖਾ ਕੇ ਡਿਗਦੇ ਸਨ"

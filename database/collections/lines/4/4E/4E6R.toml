@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਹਾਵਤ ਜਹਾ ਆਪੁ ਹਰਿ ਠਾਢੇ ॥"
 page = 823
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The bliss was radiating every heart around the place over where Sri Krishna was bathing."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਹਿਰਦੇ ਵਿਚ"

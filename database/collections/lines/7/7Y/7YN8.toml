@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਜ ਮੁਰਿ ਹਾਥ ਦਾਨ ਨਹਿ ਲੇਹੀ ॥"
 page = 850
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She contemplated in her mind, ‘Not even God would approve me without a son,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਹੱਥੋਂ ਬ੍ਰਾਹਮਣ ਦਾਨ ਨਹੀਂ ਲੈਣਗੇ"

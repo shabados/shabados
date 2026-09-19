@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਯੋ ਪ੍ਰੇਮ ਜੋਗੰ ਲਗੇ ਨੈਨ ਐਸੇ ॥"
 page = 164
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The demons began to die and felt that they were considered worthy of love for Mohini."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੋਹਨੀ ਦੇ) ਪ੍ਰੇਮ ਦੇ ਯੋਗ ਵਿਚ (ਉਨ੍ਹਾਂ ਦੀਆਂ) ਅੱਖੀਆਂ ਇਸ ਤਰ੍ਹਾਂ ਲਗੀਆਂ ਸਨ,"

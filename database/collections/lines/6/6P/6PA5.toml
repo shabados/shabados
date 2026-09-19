@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾਹਿ ਜਾਰਨੀ ਨਾਥ ਬਿਚਾਰਿਯੋ ॥"
 page = 1057
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਯਾਰਨੀ (ਵਿਭਚਾਰਨ) ਇਸਤਰੀ ਦੇ ਪਤੀ ਨੇ ਵਿਚਾਰ ਪੂਰਵਕ"

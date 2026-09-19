@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੜਕਾਰ ਸਾਗੰ ਤੜਕਾਰ ਤੀਰੰ ॥੧੧॥"
 page = 165
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sound of the drums and horns was being heard and there was also the clattering of the daggers and the crackling of the arrows.11."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੜ-ਸੜ ਕਰਦੇ ਬਰਛੇ ਅਤੇ ਤੜ-ਤੜ ਕਰਦੇ ਤੀਰ (ਚਲਦੇ ਹਨ) ॥੧੧॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਦ੍ਰ ਧਾਮਿ ਬਸਿ ਹੈ ਬ੍ਰਹਮਣੀ ॥"
 page = 553
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ੂਦ੍ਰ ਦੇ ਘਰ ਬ੍ਰਾਹਮਣੀ ਵਸੇਗੀ"

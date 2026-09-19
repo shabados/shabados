@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜ਼ਿ ਤੋਪੋ ਵ ਨੇਜ਼ਹ ਬਪੋਸ਼ੀਦ ਦਹਿਰ ॥੧੨੯॥"
 page = 1422
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And the earth shook with the roar of guns.(129)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਸਿਪਾਹੀਆਂ ਨੇ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਬਹੁਤ ਰੌਲਾ ਪਾਇਆ ॥੧੨੯॥"

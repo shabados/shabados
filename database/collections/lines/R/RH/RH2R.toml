@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੇਘਨ ਧ੍ਵਨਨੀ ਆਦਿ ਕਹਿ; ਰਿਪੁ ਅਰਿ ਬਹੁਰਿ ਉਚਾਰ ॥"
 page = 746
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਮੇਘਨ ਧ੍ਵਨਨੀ' ਕਹਿ ਕੇ ਫਿਰ 'ਰਿਪੁ ਅਰਿ' ਸ਼ਬਦ ਕਹੋ।"

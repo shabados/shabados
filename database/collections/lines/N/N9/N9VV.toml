@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਮਰਾ ਕਹਾ ਕਰੈ ਸੰਸਾਰੁ ॥"
 page = 875
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "then, what can the world do unto me?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਜਗਤ ਮੈਨੂੰ ਕੀ ਕਰ ਸਕਦਾ ਹੈ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "then what can the world do to me?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੌ ਸੰਸਾਰੁ ਹਮਾਰਾ ਕਿਆ ਕਰ ਸਕਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ (ਮੈਨੂੰ ਚਮਾਰ ਚਮਾਰ ਆਖਣ ਵਾਲੇ ਇਹ) ਲੋਕ ਮੇਰਾ ਕੁਝ ਭੀ ਵਿਗਾੜ ਨਹੀਂ ਸਕਦੇ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਹਾ ਕਰੈ = ਕੁਝ ਵਿਗਾੜ ਨਹੀਂ ਸਕਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "¿qué mal nos puede hacer el mundo?"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਹੁ ਤ੍ਰਿਯਾ ਸੋ ਅਗਮਨੈ; ਕਹਿਯੋ ਬਚਨ ਸੌ ਜਾਇ ॥੩॥"
 page = 820
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Before she put Sayeed in the bed belonging to the trader’s wife, the maid had gone to the trader’s wife and told,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਾਹ ਦੀ ਇਸਤਰੀ ਨੂੰ ਪਹਿਲਾਂ ਹੀ ਇਹ ਗੱਲ ਜਾ ਦਸੀ ॥੩॥"

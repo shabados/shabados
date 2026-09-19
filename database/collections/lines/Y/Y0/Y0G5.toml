@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲੇਖ ਅਲੇਖ ਅਲਖਿ; ਬਾਣੀ ਗਾਵਣੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "They sing paeans of the invisible Lord who is beyond all accounts."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੇਖੇ ਥੋਂ ਅਲੇਖ ਜੋ ਅਲੱਖ (ਪਰਮਾਤਮਾਂ) ਹੈ, ਉਸ ਦੀ ਬਾਣੀ ਉਚਾਰ (ਗੁਰੂ ਦੇ ਸਿੱਖ ਆਪ) ਕਰਦੇ ਹਨ।"

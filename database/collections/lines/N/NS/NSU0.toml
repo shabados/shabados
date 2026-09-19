@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਰਹਾਨਲ ਸੋਈ ਠਹਿਰਾਈ ॥"
 page = 960
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The pyre the Sati had built, he thought it to be the pyre of separation."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਵਿਯੋਗ ਦੀ ਅੱਗ ਮੰਨ ਕੇ"

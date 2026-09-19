@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਸ਼ੇਰੇ ਯਿਆਂ ਹਮ ਚੁ ਗੋਰੇ ਕੁਹਨ ॥੧੪੯॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Like a lion slays an old antelope.(149)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਵੱਡਾ ਸ਼ੇਰ ਵੱਡੀ ਨੀਲ ਗਾਂ ਨੂੰ ਮਾਰ ਦਿੰਦਾ ਹੈ ॥੧੪੯॥"

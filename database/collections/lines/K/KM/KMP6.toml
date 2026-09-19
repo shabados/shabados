@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨੀਲੁ ਅਨੀਲੁ ਅਗੰਮੁ; ਸਰਜੀਤੁ ਸਬਾਇਆ ॥"
 page = 1282
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He, the Creator-Lord of all is endless, infinite and inaccessible."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਾਰਿਆਂ ਦਾ ਸਿਰਜਣਹਾਰ ਸੁਆਮੀ, ਓੜਕ-ਰਹਿਤ ਬੇਅੰਤ ਅਤੇ ਪਹੁੰਚ ਤੋਂ ਪਰੇ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Creator of all is Infinite, Endless and Inaccessible."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਅਗੰਮੁ) ਹੇ ਮਨ ਬਾਣੀ ਕਾ ਪਰਾ ਰੂਪੁ! (ਨੀਲੁ ਅਨੀਲੁ) ਨੀਲ, ਪਦਮਾਦਿਕ ਸੰਖ੍ਯਾ ਤੇ ਰਹਤ ਅਗਿਣਤ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇ, ਉਹ ਸਦਾ ਜੀਉਂਦਾ ਰਹਿਣ ਵਾਲਾ ਪ੍ਰਭੂ ਆਪ ਬੇਅੰਤ ਹੀ ਬੇਅੰਤ ਅਤੇ ਪਹੁੰਚ ਤੋਂ ਪਰੇ-"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨੀਲੁ ਅਨੀਲੁ = (ਭਾਵ,) ਬੇਅੰਤ। ਸਰਜੀਤੁ = ਸਦਾ ਜੀਉਂਦੇ ਰਹਿਣ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "La vasta expansión del agua cundió por todas partes. El Creador de Todo es Infinito,"

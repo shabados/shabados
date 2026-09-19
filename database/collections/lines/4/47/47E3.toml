@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਭ ਕੁਝ ਇੱਕੋ ਵਾਰ ਤਿਆਗ ਦਿੰਦੇ ਹਨ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਜਮਲਾ ਰਾ ਯੱਕ ਬਾਰੋਗੀ ਬਿਗੁਜ਼ਾਸ਼ਤੰਦ ॥੩੮੭॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Whether we talk about Arjun, Bheem, Rustam or Saam, or"

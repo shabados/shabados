@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਗਹਿਰ ਬਨ ਤਹ ਇਕ ਲਹਾ ॥"
 page = 1169
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਇਕ ਬਹੁਤ ਸੰਘਣਾ ਬਨ ਵੇਖਿਆ।"

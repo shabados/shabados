@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਿ ਤਰੇ ਰਾਜਾ ਪਰਿਯੋ; ਲਗੇ ਕਟਾਰੀ ਅੰਗ ॥੧੪॥"
 page = 967
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As he had been killed with a dagger.(14)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਰੀਰ ਵਿਚ ਕਟਾਰ ਖਾ ਕੇ ਰਾਜਾ ਹੇਠਾਂ ਆ ਡਿਗਿਆ ॥੧੪॥"

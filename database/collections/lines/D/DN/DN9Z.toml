@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਬਨੰਗ ਤਾ ਕੇ ਜਬ ਭਯੋ ॥"
 page = 1274
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਸ ਦੇ ਸ਼ਰੀਰ ਵਿਚ ਜੋਬਨ ਪਸਰ ਗਿਆ"

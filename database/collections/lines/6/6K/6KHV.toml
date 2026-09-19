@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੀਅ ਹਿੰਸਾ ਤੇ ਸਬਹੂੰ ਹਟਾਯੋ ॥"
 page = 192
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then he ended the performance of Yajnas and made all indifferent to the idea of violence on beings."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੀਵ ਮਾਰਨ ਤੋਂ ਸਭਨਾਂ ਨੂੰ ਹਟਾ ਦਿੱਤਾ।"

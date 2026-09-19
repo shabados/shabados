@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਪੀ ਭੂਮਿ ਗਗਨ ਥਰਹਰਾ ॥੮੧॥"
 page = 1363
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਰਤੀ ਕੰਬ ਗਈ ਅਤੇ ਆਕਾਸ਼ ਥਰਥਰਾ ਗਿਆ ॥੮੧॥"

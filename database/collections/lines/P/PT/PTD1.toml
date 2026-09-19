@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਸੋਕ ਕੇ ਸਾਗਰ ਬੀਚ ਡੁਬੇ ॥"
 page = 153
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All of them seemed to have been drowned in the ocean of sorrow."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਸੋਗ ਦੇ ਸਾਗਰ ਵਿਚ ਡੁਬੇ ਹੋਏ ਸਨ।"

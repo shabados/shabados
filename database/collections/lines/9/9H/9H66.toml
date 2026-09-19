@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੈ ਦਲ ਮੈ ਦਲ ਮੀਜ ਦਇਓ; ਤਿਲ ਤੇ ਜਿਮੁ ਤੇਲ ਨਿਕਾਰਤ ਤੇਲੀ ॥"
 page = 92
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She pressed the army of the demons in an instant, just as the oilman presses the oil from the sesame seed.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਵੈਰੀ ਦੇ) ਦਲ ਵਿਚ ਵੜ ਕੇ ਪਲ ਵਿਚ ਹੀ ਮਿਧ ਦਿੱਤਾ ਹੈ ਜਿਵੇਂ ਤਿਲਾਂ ਤੋਂ ਤੇਲੀ ਤੇਲ ਕੱਢਦਾ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੈਡ ਯਾਹਿ ਗਯੋ ਨਹੀ ਮ੍ਰਿਗ, ਰੇ ਰਖੀਸਰ, ਬੋਲ ॥"
 page = 141
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(He said to the sage) “O great sage! Please speak, did the deer go this way ?”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਨੇ ਰਿਸ਼ੀ ਨੂੰ ਪੁਛਿਆ) ਹੇ ਰਿਸ਼ੀ, ਦਸ ਕਿ ਇਸ ਰਸਤੇ ਤੋਂ ਕੋਈ ਹਿਰਨ ਤਾਂ ਨਹੀਂ ਗਿਆ?"

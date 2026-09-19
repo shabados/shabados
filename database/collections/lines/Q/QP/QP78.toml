@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਨਕ. ਤਉ ਫਿਰਿ; ਦੂਖ ਨ ਥੀਆ ॥੪੫॥"
 page = 259
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "then man sickens not again, O Nanak."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਾਨਕ, ਤਦ ਬੰਦਾ ਮੁੜ ਬੀਮਾਰ ਨਹੀਂ ਪੈਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "then, O Nanak, one does not suffer illness again. ||45||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਫਿਰ ਤਿਸ ਪੁਰਸ ਕੋ ਦੁਖ ਕਬੀ ਨਹੀਂ ਹੂਆ ਹੈ॥੪੫॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਨਕ! ਉਸ ਨੂੰ ਮੁੜ (ਕੋਈ ਵਿਕਾਰ) ਦੁੱਖ ਪੋਹ ਨਹੀਂ ਸਕਦਾ ॥੪੫॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "oh, dice Nanak, para uno el dolor deja de existir.(1)"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਮਡਿ ਚਲੇ ਦੈ ਢੋਲ ਨਗਾਰੇ ॥"
 page = 1382
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਢੋਲ ਅਤੇ ਨਗਾਰੇ ਵਜਾਉਂਦੇ ਹੋਏ ਉਮਡ ਕੇ ਚਲ ਪਏ ਸਨ।"

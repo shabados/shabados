@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੋਭ ਮੂਲ ਇਹਿ ਜਗ ਕੋ ਹੂਆ ॥"
 page = 49
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੋਭ ਇਸ ਜਗਤ ਦਾ ਮੂਲ (ਆਧਾਰ) ਬਣ ਗਿਆ ਹੈ"

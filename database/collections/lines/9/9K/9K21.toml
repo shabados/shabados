@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਲਹਨੋ. ਜਿਸੁ ਮਥਾਨਿ ਹਾਂ ॥"
 page = 409
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "On whose brow there is such a writ,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਮੱਥੇ ਉਤੇ ਐਹੋ ਜੇਹੀ ਲਿਖਤਾਕਾਰ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "One who has such destiny recorded upon his forehead, obtains it;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੇ ਮਸ੍ਤਕ ਮੇਂ ਯਹ ਪ੍ਰਾਪਤ ਹੋਨਾ ਲਿਖਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਮਨੁੱਖ ਦੇ ਮੱਥੇ ਉੱਤੇ ਭਾਗ ਜਾਗਦੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਲਹਨੋ = ਲਹਣਾ, ਭਾਗ। ਮਥਾਨਿ = ਮੱਥੇ ਉਤੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Solamente aquél que así lo tiene escrito en su frente, obtiene este Estado."

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਕਲੰਕ ਭਾਗਵਿ ਭੇਸ ॥"
 page = 658
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sage saw him and he seemed to him like a part of a blemishless moon"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਨਿਸ਼-ਕਲੰਕ ਭਗਵੇ ਭੇਸ ਵਾਲਾ ਹੈ।"

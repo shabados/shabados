@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਨਾ ਤਾਜ਼ੀਆਨਹ ਬਿਜ਼ਦ ਤਾਜ਼ੀਅਸ਼ ॥"
 page = 1425
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She mounted the horse and hit him so hard,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਸਵਾਰ ਹੋ ਕੇ ਘੋੜੇ ਨੂੰ ਅਜਿਹੀ ਚਾਬਕ ਮਾਰੀ"

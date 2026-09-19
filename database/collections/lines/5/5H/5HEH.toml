@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜੈ ਸਿੰਘ ਰਾਖ︀ਯੋ ਰਜੀ ਪੁਤ੍ਰ ਸੂਰੰ ॥"
 page = 144
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The maid-servant’s son was named AJAI SINGH,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਜੀ (ਦਾਸੀ) ਦੇ ਪੁੱਤਰ ਦਾ ਨਾਂ 'ਅਜੈ ਸਿੰਘ' ਰਖਿਆ (ਜੋ ਬਹੁਤ) ਸੂਰਵੀਰ,"

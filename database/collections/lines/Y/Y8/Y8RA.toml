@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਮਾਨਤ ਕੋ ਮਾਨਿ ਰਤਿ; ਦੀਨੋ ਜਾਰ ਉਠਾਇ ॥"
 page = 1011
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After enjoying fervently, she bade goodbye to the lover,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਨਮਰਜ਼ੀ ਅਨੁਸਾਰ ਰਤੀ-ਕ੍ਰੀੜਾ ਕਰ ਕੇ ਯਾਰ ਨੂੰ ਭੇਜ ਦਿੱਤਾ"

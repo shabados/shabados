@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਦਿਹ ਸਾਕੀਯਾ ਜਾਮ ਫ਼ੀਰੋਜ਼ ਰੰਗ ॥"
 page = 1410
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Saki! Give me the cup full of greenish (liquid),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਾਕੀ! ਮੈਨੂੰ ਹਰੇ ਰੰਗ (ਦੀ ਸ਼ਰਾਬ) ਦਾ ਪਿਆਲਾ ਬਖ਼ਸ਼"

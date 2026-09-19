@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਲਰਜ਼ੀਦ ਦਰਯਾਬ ਦਰਰੀਦ ਕੋਹ ॥੧੨੬॥"
 page = 1422
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Made the rivers desperate and severed the mountains.(126)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦਰਿਆ ਕੰਬਣ ਲਗ ਗਿਆ ਅਤੇ ਪਹਾੜ ਫਟੜ ਲਗ ਗਏ ॥੧੨੬॥"

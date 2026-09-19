@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਫੋਕਟ ਧਰਮ ਸਭੈ ਤਜਿ ਹੈਂ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who forsake all the fake religions !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜੇ ਲੋਕ ਸਾਰੇ ਵਿਅਰਥ ਧਰਮ ਕਾਰਜ ਛਡ ਦਿੰਦੇ ਹਨ"

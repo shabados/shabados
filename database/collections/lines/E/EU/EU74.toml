@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਵਨਾ ਭੈ ਹਰੀ ਭੂਤਿਲੀ ਭੈਹਰਾ ॥"
 page = 680
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“You manifest yourself in accordance with everyone’s emotion  You are the fear-remover of the world"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਵਨਾ ਪੂਰੀ ਕਰਨ ਵਾਲੀ, ਭੈ ਹਰਨ ਵਾਲੀ,"

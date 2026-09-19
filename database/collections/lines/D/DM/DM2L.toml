@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਖ ਕੀਨ ਚੰਡ ਬਨਾਇ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“The goddess Chandi had performed the sacrifice"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਡੀ ਨੇ ਮਹਿਖਾਸੁਰ ਨਾਂ ਦੇ"

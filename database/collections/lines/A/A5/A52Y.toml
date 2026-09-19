@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਨੇਸ ਕ੍ਰਿਤ ਹਾਰੀਯੰ ॥੧੦॥੧੮॥"
 page = 129
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art wearing such crown on Thy head which debases the pride of sum.10.18."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦੇ ਸਾਹਮਣੇ) ਸੂਰਜ ਦੀ ਕਾਂਤੀ (ਚਮਕ) ਵੀ ਹਾਰ ਜਾਂਦੀ ਹੈ (ਫਿੱਕੀ ਪੈ ਜਾਂਦੀ ਹੈ) ॥੧੦॥੧੮॥"

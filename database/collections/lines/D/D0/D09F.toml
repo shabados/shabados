@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨ ਅੰਧਤਾ ਰਵਿ ਰਸਮ ॥"
 page = 691
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When that sheet was reduced to ashes like the destruction of the darkness by the sun,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਸੂਰਜ ਦੀਆਂ ਕਿਰਨਾਂ ਨੇ ਹਨੇਰੇ ਨੂੰ (ਨਸ਼ਟ ਕਰ ਦਿੱਤਾ ਹੋਵੇ)।"

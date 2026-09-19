@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹਾ ਦਾਬਿ ਕੈ ਬੂਟ ਮੈ ਮਾਟ ਆਈ ॥"
 page = 941
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Where, under the bush, she had hidden the pitcher."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਉਹ ਬ੍ਰਿਛ ਹੇਠਾਂ ਘੜਾ ਲੁਕਾ ਕੇ ਆਈ ਸੀ।"

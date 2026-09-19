@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਕਰਾ ਯਾ ਮੂਰਖ ਕੋ ਹਰਿਯੈ ॥੧॥"
 page = 949
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘We should endeavour and steal a goat from an idiot.’(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮਾਰਗ ਉਤੇ ਜਾ ਰਹੇ) ਇਸ ਮੂਰਖ ਦਾ ਬਕਰਾ ਖੋਹ ਲੈਣਾ ਚਾਹੀਦਾ ਹੈ ॥੧॥"

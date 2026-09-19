@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਨਹੂੰ ਪ੍ਰਭੁ ਪਾਹਨ ਪਹਿਚਾਨਾ ॥"
 page = 56
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈਆਂ ਨੇ ਪੱਥਰ ਨੂੰ ਪ੍ਰਭੂ ਕਰ ਕੇ ਪਛਾਣਿਆ"

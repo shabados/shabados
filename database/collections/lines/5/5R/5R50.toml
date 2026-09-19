@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿ ਕੋਪ ਘਨੋ ਅਸੁਰਾਰ ਇਵੰ ॥"
 page = 188
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Having been besieged from all the for sides, held his arrow and flew into rage over the demons."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੈਂਤ ਰਾਜੇ (ਜਲੰਧਰ) ਨੇ ਵੀ ਬਹੁਤ ਕ੍ਰੋਧ ਕਰ ਕੇ ਇਸੇ ਤਰ੍ਹਾਂ ਕੀਤਾ।"

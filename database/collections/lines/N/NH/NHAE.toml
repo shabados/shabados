@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਤੋ ਕੌ ਪਤਿ ਧਾਮ ਬਸੈ ਹੈ ॥੧੨॥"
 page = 821
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Dig that corner and show me, otherwise I will not live in this house.’(l2)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਹੀ ਤੇਰਾ ਪਤੀ ਘਰ ਵਿਚ ਵਸੇਗਾ ॥੧੨॥"

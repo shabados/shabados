@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਿਸੁ ਬਿਨੁ; ਕਿਉ ਸਰੈ ਹਾਂ ॥"
 page = 410
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "How can I do without Him?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਬਾਝੋਂ ਮੇਰਾ ਕਿਸ ਤਰ੍ਹਾਂ ਗੁਜ਼ਾਰਾ ਹੋ ਸਕਦਾ ਹੈ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "How can I live without Him?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਕੇ ਜਾਪ ਬਿਨਾਂ ਮੇਰੇ ਕੋ ਕੈਸੇ ਸਰੈ, ਭਾਵ ਰਹਾ ਜਾਵੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਉਂਕਿ) ਉਸ (ਦੀ ਯਾਦ) ਤੋਂ ਬਿਨਾ ਜੀਵਨ ਸੁਖੀ ਨਹੀਂ ਗੁਜ਼ਰਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਿਉ ਸਰੈ = ਚੰਗਾ ਨਹੀਂ ਲੰਘ ਸਕਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "¿Cómo puede uno estar satisfecho sin Ti?"

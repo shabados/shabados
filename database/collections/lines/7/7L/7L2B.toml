@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਤਾਰਣੀ ਕਾਰਣੀ ਲੋਕ ਮਾਤਾ ॥"
 page = 119
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The one who ferries across all over the terrible sea of life, the primary cause of all causes, O Bhavani! The mother of the universe."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਭ ਨੂੰ) ਤਾਰਨ ਵਾਲੀ, ਕਾਰਨ-ਸਰੂਪਾ ਅਤੇ ਲੋਕ ਮਾਤਾ ਤੈਨੂੰ ਨਮਸਕਾਰ ਹੈ;"

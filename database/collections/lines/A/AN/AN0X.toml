@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਕੌ ਛੋਰਿ ਤਰੇ ਤੇ ਦਯੋ ॥"
 page = 1012
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the paramour was gratified with sex, the Raja was let loose."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਰਾਜੇ ਨੂੰ ਹੇਠੋਂ ਛਡ ਦਿੱਤਾ।"

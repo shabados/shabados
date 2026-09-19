@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਧਨ ਸਿਧਿ ਰੂਪ ਤਿਹ ਬੂਝਾ ॥"
 page = 625
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The women considered him s the incarnation of lust and the saints saw him s adept"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਧਾਂ ਨੇ ਉਸ ਨੂੰ ਸਿੱਧ ਰੂਪ ਵਿਚ ਵਿਚਾਰਿਆ।"

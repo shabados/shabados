@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੰਕਨ ਜਾਨ ਕਾਮ ਕੇ ਕਰ ਕੋ ॥"
 page = 1265
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਕਾਮ ਦੇਵ ਦੇ ਹੱਥ ਦਾ ਕੜਾ ਹੋਵੇ।"

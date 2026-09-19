@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਿਸੁ ਤਤੀ ਵਾਉ; ਨ ਲਗੈ ਕਾਈ ॥"
 page = 132
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "is not affected by even the hot wind."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਕਦੇ ਗਰਮ ਹਵਾ ਤੱਕ ਨਹੀਂ ਲੱਗ ਸਕਦੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "is not touched by the hot winds."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਕੋ ਕੋਈ ਤੱਤੀ ਵਾਉ ਨਹੀਂ ਲਗਤੀ, ਭਾਵ ਏਹਿ ਕਿ ਕਿਸੀ ਤਰਾਂ ਕਾ ਕਸ਼ਟ ਪ੍ਰਾਪਿਤ ਨਹੀਂ ਹੋਤਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਕੋਈ ਦੁੱਖ ਕਲੇਸ਼ ਪੋਹ ਨਹੀਂ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਾਈ = ਕੋਈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "aun los vientos calientes no lo tocan."

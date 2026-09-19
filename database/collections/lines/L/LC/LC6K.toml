@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਕਾਲੀ ਨਾਗ ਨਾਥਬੋ ॥"
 page = 312
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਕਾਲੀ ਨਾਗ ਨੂੰ ਨੱਥਣ ਦਾ ਪ੍ਰਸੰਗ:"

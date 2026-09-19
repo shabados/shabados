@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਦੀਨ ਹ੍ਵੈ ਠਗ ਕਹਿਯੋ; ਸੁਨੁ ਕਾਜਿਨ ਕੇ ਰਾਇ ॥"
 page = 857
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Listen Quazi; listen to our accounts, keeping in mind the honour of Allah."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਨਿਮਾਣਾ ਹੋ ਕੇ ਠਗ ਨੇ ਕਿਹਾ, ਹੇ ਕਾਜ਼ੀਆਂ ਦੇ ਸ਼ਿਰੋਮਣੀ!"

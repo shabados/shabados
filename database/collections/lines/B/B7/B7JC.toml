@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰਿ ਚੋਰ ਇਹ ਗਏ ਉਚਾਰੋ ॥੧੩॥"
 page = 855
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Then why not kill him now and declare that some thief had murdered him.’(13)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਲੋਕਾਂ ਨੂੰ) ਕਹਾਂਗੀ ਕਿ ਇਸ ਨੂੰ ਚੋਰ ਮਾਰ ਗਏ ਹਨ ॥੧੩॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਫਲ ਜਨਮੁ, ਕੋਈ ਵਰੁਸਾਵੈ ॥੧੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Any rare one gets such a blest life."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਉਸਦਾ) ਸਫਲ ਜਨਮ ਹੈ ਜਿੱਥੋਂ ਕੋਈ ਵਰੋਸਾਵੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਸ਼ਿਕਮਸ਼ ਫ਼ਰੋਮਾਦ ਅਜ਼ ਤੁਖ਼ਮਿ ਸ਼ਾਹ ॥੧੪॥"
 page = 1410
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And through the semen of that tycoon, she became pregnant.(14)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਸ਼ਾਹੂਕਾਰ ਦੇ ਬੀਰਜ ਤੋਂ ਉਸ ਨੂੰ ਗਰਭ ਠਹਿਰ ਗਿਆ ॥੧੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਯਾਕੁਲ ਗਿਰੇ ਹਸਤ ਅਰੁ ਘੋਰਾ ॥"
 page = 289
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was uproar throughout the city and the elephants and horses also began to fall, being worried, what type of sport has been played by Ram?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਸਰੀਰ ਤੋਂ ਯੋਗ-ਅਗਨੀ ਪੈਦਾ ਕਰ ਲਈ।"

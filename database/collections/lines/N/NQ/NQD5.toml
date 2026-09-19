@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹ ਪਤ੍ਰਣ ਮਧ ਲਹ︀ਯੋ ਮ੍ਰਿਗਹਾ ॥"
 page = 665
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਪੱਤਰਾਂ ਦੇ ਓਹਲੇ (ਦੱਤ ਮੁਨੀ ਨੇ) ਇਕ ਸ਼ਿਕਾਰੀ ਵੇਖਿਆ।"

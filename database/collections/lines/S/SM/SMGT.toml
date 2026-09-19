@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਸਿਯਹਿ ਹੇਰਿ ਸਭੈ ਬਲਿ ਜਾਵਹਿ ॥੮॥"
 page = 951
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In unison, they were singing and appreciating Sassi Kala.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਸਿਯਾ ਨੂੰ ਵੇਖ ਕੇ ਸਾਰੇ ਨਿਛਾਵਰ ਹੁੰਦੇ ਸਨ ॥੮॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਧਸ ਤੁਯੰ ॥੧੦॥੭੬॥"
 page = 134
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the ocean.10.76."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੂੰ ਹੀ ਸਮੁੰਦਰ ਹੈਂ ॥੧੦॥੭੬॥"

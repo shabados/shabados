@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁੰਦਰ ਅੰਗ ਸੁ ਏਕਨਿ ਕੇ ਕਬਿ ਸ︀ਯਾਮ ਕਹੈ ਰਹੇ ਸ੍ਰੋਨਤ ਸੋ ਭਰਿ ॥"
 page = 479
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The elegant limbs of many were filled with blood, having their heads chopped"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਵੀ ਸ਼ਿਆਮ ਕਹਿੰਦੇ ਹਨ, ਇਕਨਾਂ ਦੇ ਸੁੰਦਰ ਸ਼ਰੀਰ ਲਹੂ ਨਾਲ ਲੱਥ ਪੱਥ ਹੋਏ ਪਏ ਹਨ।"

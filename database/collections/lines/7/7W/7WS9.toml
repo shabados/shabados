@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਜ਼ਦ ਤਾਜ਼ੀਯਾਨਹ ਬ ਹਰ ਚਾਰ ਚਾਰ ॥"
 page = 1410
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She gave four lashes to each one of them (the grass-cutters),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਹਰ ਕੈਦੀ ਨੂੰ ਚਾਰ ਚਾਰ ਕੋਰੜੇ ਮਾਰੇ ਅਤੇ ਕਿਹਾ,"

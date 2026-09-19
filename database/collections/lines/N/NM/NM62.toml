@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਚਾਤੁਰਿ ਰਾਨੀ ਸੁਮਤਿ; ਬਾਤੈ ਕਹੀ ਅਨੇਕ ॥"
 page = 906
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The wise Rani talked very sensibly,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤਿ ਸੂਝਵਾਨ ਅਤੇ ਬੁੱਧੀਮਾਨ ਰਾਣੀ ਨੇ ਅਨੇਕ ਗੱਲਾਂ ਕਹੀਆਂ।"

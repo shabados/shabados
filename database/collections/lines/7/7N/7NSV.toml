@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬੈ ਪਾਇ ਲਾਗੇ ॥"
 page = 101
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When they fell at the feet of the goddess"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ (ਦੇਵੀ ਦੇ) ਚਰਨਾਂ ਦੀ ਛੋਹ ਪ੍ਰਾਪਤ ਕੀਤੀ,"

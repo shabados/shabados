@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਚਲੁ ਦਰਹਾਲੁ; ਦੀਵਾਨਿ ਬੁਲਾਇਆ ॥"
 page = 792
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Get up, in this very condition. The Righteous judge has called thee."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਏਸੇ ਹਾਲਤ ਵਿੱਚ ਹੀ ਟੁਰ ਪਉ। ਧਰਮਰਾਜ ਨੇ ਤੈਨੂੰ ਸੱਦਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Get going! Come just as you are! You have been summoned to His Court."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਸੀ ਹਾਲ ਅੰਦਰ ਚਲੁ, ਭਾਵ ਜਮਦੂਤ ਐਸੇ ਕਹੇਂਗੇ: ਧਰਮ ਰਾਇ ਕੇ ਦੀਵਾਨ ਮੇਂ ਤੁਮ ਕੋ ਬੁਲਾਇਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਛੇਤੀ ਚੱਲ, ਧਰਮ-ਰਾਜ ਨੇ ਸੱਦਿਆ ਹੈ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਦਰਹਾਲੁ = ਹੁਣੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Eres llamada por Dios para irte como estás; la Corte del Señor te ha llamado."

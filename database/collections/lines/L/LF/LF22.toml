@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਤੇ ਦਾਨਵੌ ਬਾਨ ਪਾਨੀ ਚਲਾਏ ॥"
 page = 101
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the shafts shot by the demons with their hands,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਤਨੇ ਵੀ ਬਾਣ ਦਾਨਵਾਂ ਨੇ ਆਪਣੇ ਹੱਥਾਂ ਨਾਲ ਚਲਾਏ,"

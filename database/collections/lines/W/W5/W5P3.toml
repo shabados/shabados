@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੈ ਅਬ ਹੀ ਰਾਨੀਯਹਿ ਜਿਯਾਰੋ ॥੯॥"
 page = 1257
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਇਹ ਹੁਣੇ ਰਾਣੀ ਨੂੰ ਜੀਵਿਤ ਕਰ ਦੇਏ (ਭਾਵ-ਕਲੇਜਾ ਵਾਪਸ ਕਰ ਦੇਏ) ॥੯॥"

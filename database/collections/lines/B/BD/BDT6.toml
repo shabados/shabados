@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਊ ਨ ਰੁਚਿਯੋ, ਕਟਾਰੀ ਮਰਿਯੋ ॥"
 page = 1073
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਵੀ ਪਸੰਦ ਨਾ ਆਇਆ ਅਤੇ ਕਟਾਰੀ ਮਾਰ ਕੇ ਮਾਰ ਦਿੱਤਾ।"

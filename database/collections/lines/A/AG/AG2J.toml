@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰ ਕਰ ਧੂਮੰ ਸਰਬਰ ਡਾਰੈਂ ॥"
 page = 266
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They began to tear their raiments and put the dust on their heads"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਿੱਟੀ ਨੂੰ ਹੱਥਾਂ ਨਾਲ ਸਿਰ ਉਤੇ ਪਾਂਦੀਆਂ ਸਨ,"

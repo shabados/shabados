@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਨ ਕਰੋ ਕਰਤੇ ਬਡੋ; ਸੁਪਨ ਦਿਯੋ ਪਤਿ ਆਇ ॥"
 page = 825
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Bhanu is now big enough now and my husband has come into my dream."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਨੇ ਭਾਨ ਹੁਣ ਵੱਡਾ ਕਰ ਦਿੱਤਾ ਹੈ ਅਤੇ ਸੁਪਨੇ ਵਿਚ ਪਤੀ ਨੇ ਮੈਨੂੰ ਵਿਖਾਈ ਦਿੱਤੀ ਹੈ।"

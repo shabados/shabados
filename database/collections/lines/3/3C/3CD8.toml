@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਬਲਿ ਰਾਜਾ ਘਰਿ ਆਪਣੈ; ਅੰਦਰਿ ਬੈਠਾ ਜਗਿ ਕਰਾਵੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Bali, the king, was busy in performing a yajna in his palace."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ ਬਲਿ ਆਪਣੇ ਘਰ ਅੰਦਰ ਬੈਠਾ ਜੱਗ ਕਰਾਉਂਦਾ ਸੀ।"

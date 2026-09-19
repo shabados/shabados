@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏ ਜਨ ਭੇਵ ਨ ਹਰਿ ਕੋ ਪਾਵੈ ॥"
 page = 1192
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪੱਥਰ ਵਿਚ ਪਰਮਾਤਮਾ ਨੂੰ ਸਥਿਤ ਮੰਨਦਾ ਹੈ,"

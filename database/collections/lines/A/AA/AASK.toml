@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੇ ਏਕ ਨਾਮ ਲੈਬੇ ਕੋ; ਜਗ ਮੋ ਰਹਤ ਭਏ ॥"
 page = 687
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who his himself, remained a follower of Dutt and lived without recognition"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਇਕ ਨਾਮ ਲੈਣ ਲਈ ਹੀ ਜਗਤ ਵਿਚ ਬਚ ਰਹੇ ਹਨ।"

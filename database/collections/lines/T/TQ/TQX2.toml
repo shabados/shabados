@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਾਧੋ ਸੋਢੀ ਕਾਸਮੀਰ; ਗੁਰਸਿਖੀ ਦੀ ਚਾਲ ਚਲਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Madho Sodhi made the Sikh tradition in vogue in Kashmir."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮਾਧੋ ਸੋਢੀ ਨੇ ਕਸ਼ਮੀਰ ਵਿਚ ਜਾ ਕੇ ਗੁਰ ਸਿੱਖੀ ਦੀ ਰੀਤ=ਤੋਰੀ।"

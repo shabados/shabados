@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਲੈ ਜਰੀ ਪਿਤ੍ਰਯ ਕੀ ਖਾਵੈ ॥੨੫੧॥"
 page = 1376
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪਿਤ (ਵਾਯੂ) ਦੀ ਬੂਟੀ ਖਾ ਲੈਂਦਾ ਸੀ ॥੨੫੧॥"

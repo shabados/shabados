@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਹ ਕੋ ਉਤੈ ਚਿਤ ਲਲਚਾਯੋ ॥"
 page = 545
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Arjuna coveted to marry Subhadra"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਧਰ ਉਸ (ਸੁਭਦ੍ਰਾ) ਦਾ ਚਿਤ ਵੀ (ਅਰਜਨ ਲਈ) ਲਲਚਾਇਆ।"

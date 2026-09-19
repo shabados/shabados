@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਮਰਦਾਸ ਰਾਮਦਾਸ ਕਹਾਯੋ ॥"
 page = 55
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਗੁਰੂ) ਅਮਰਦਾਸ ਨੂੰ (ਗੁਰੂ) ਰਾਮਦਾਸ ਕਰ ਕੇ ਜਾਣਿਆ ਗਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਖ ਬੇਨੁ ਬੀਨਾ ਬਜੀ; ਮੁਰਲੀ ਮੁਰਜ ਮੁਚੰਗ ॥੩੫॥"
 page = 811
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The musical instrument of various types commenced to blow. 35"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੰਖ, ਬੇਨ, ਬੀਨਾ, ਮੁਰਲੀ, ਮੁਰਜ, ਮੁਚੰਗ ਆਦਿ ਅਨੇਕ ਤਰ੍ਹਾਂ ਦੇ ਵਾਜੇ ਵਜਣ ਲਗ ਗਏ ਹਨ ॥੩੫॥"

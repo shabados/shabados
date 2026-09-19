@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੁਰਕਾ ਬਿਬੇਕ ਲੈ ਹਾਥ ॥"
 page = 690
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਰਾਜਨ!) ਬਿਬੇਕ ਦਾ ਛੁਰਾ ਹੱਥ ਵਿਚ ਲੈ ਲਵੋ।"

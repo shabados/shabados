@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਛ ਕਰੀ ਪ੍ਰਲਾਦਹਿ ਕੀ; ਇਨ ਹੀ ਹਰਨਾਖਸ ਕੀ ਉਰ ਫਾਰੀ ॥"
 page = 332
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He protected Prahalada by bursting open the belly of Hiranayakashipu"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸੇ ਨੇ ਹਿਰਨਾਖਸ਼ (ਹਿਰਣਯਕਸ਼ਿਪੁ) ਦੀ ਛਾਤੀ ਪਾੜ ਕੇ ਪ੍ਰਹਿਲਾਦ ਭਗਤ ਦੀ ਰਖਿਆ ਕੀਤੀ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜ ਸੁਤਾ ਤਬ ਦੇਗ ਮੰਗਾਇ ॥"
 page = 1312
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜ ਕੁਮਾਰੀ ਨੇ ਤਦ ਦੇਗ ਮੰਗਵਾਈ"

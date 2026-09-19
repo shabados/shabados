@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਾਮੰ ਅਧਾਮੰ, ਅਨੀਲੰ ਅਨਾਦੰ ॥"
 page = 708
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without name and place  He is indestructible,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਨਾਮ ਤੋਂ ਰਹਿਤ, ਧਾਮ ਤੋਂ ਰਹਿਤ, ਗਿਣਤੀ ਤੋਂ ਪਰੇ ਅਤੇ ਆਦਿ ਤੋਂ ਬਿਨਾ ਹੈ।"

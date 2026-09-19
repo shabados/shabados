@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਕਰੋਪ ਕਰੋਧ ਕਰਿ; ਦੁਸਮਨ ਹੋਇ ਜੋਹੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Lacs of enemies may stare in anger; temptations in lacs and lacs of mammons may inveigle and deceive;"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ 'ਕਰੋਪ' ਕਰੋਧ ਕਰ ਕੇ ਵੈਰੀ ਹੋਕੇ ਤੱਕਦੇ ਹਨ।"

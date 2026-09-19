@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਤੇ ਅਮਿਤ ਅਸੁਰਨ ਬਪੁ ਧਰਾ ॥"
 page = 1363
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੋਂ ਬੇਸ਼ੁਮਾਰ ਦੈਂਤਾਂ ਨੇ ਸ਼ਰੀਰ ਧਾਰਨ ਕੀਤੇ,"

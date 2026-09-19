@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਪੇ ਪਲੰਘੁ ਵਿਛਾਇ ਕੈ; ਆਪਿ ਅੰਦਰਿ ਸਉਂਦਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He Himself spreads the bedstead and Himself reclines on it."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜਿੱਕੁਰ ਕੋਈ) ਆਪ ਹੀ ਮੰਜਾ ਵਿਛਾਕੇ ਆਪ ਹੀ (ਉਸ) ਵਿਚ ਸਉਂਦਾ ਹੈ।"

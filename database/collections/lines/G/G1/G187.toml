@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੰਥਰਾ ਇਕ ਗਾਧ੍ਰਬੀ; ਬ੍ਰਹਮਾ ਪਠੀ ਤਿਹ ਕਾਲ ॥"
 page = 219
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "At the same time Brahma sent a Gandharva woman named Manthra to the place,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵੇਲੇ ਬ੍ਰਹਮਾ ਨੇ ਮੰਥਰਾ ਨਾਮ ਦੀ ਇਕ ਗੰਧਰਬਨੀ ਭੇਜ ਦਿੱਤੀ।"

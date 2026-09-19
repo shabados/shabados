@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਮਟਿਯੋ ਅਧਰ ਧਰਨਿ ਸੋ ਰਹੈ ॥"
 page = 892
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now whenever he said, get stuck, it (goat) would lie down."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ (ਉਸ ਦਾ) ਹੇਠਲਾ ਹੋਠ ('ਅਧਰ') ਧਰਤੀ ਨਾਲ ਚਿਮਟ ਗਿਆ।"

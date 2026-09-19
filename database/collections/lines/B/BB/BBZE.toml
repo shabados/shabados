@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਰਾਚਾਰ ਸੁਤ ਹੇਤ ਕਮਾਵੈ ॥"
 page = 850
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She had been laundering money foolishly and indulging in base action"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪੁੱਤਰ (ਦੀ ਪ੍ਰਾਪਤੀ) ਲਈ ਦੁਰਾਚਾਰ ਕਰਦੀ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਿਯੋ ਤਾਹਿ ਕਿਰਲਾ ਕੋ ਜਾਮਾ ॥"
 page = 523
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was a Kshatriya king named Dig, who was born as a chameleon"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਕਿਰਲੇ ਦੀ ਦੇਹ ਧਾਰਨ ਕਰ ਲਈ।"

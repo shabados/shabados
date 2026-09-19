@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੀਰ ਸਮੁੰਦ੍ਰ ਜਹ ਥੋ ਤਿਹ ਗਏ ॥੨॥"
 page = 200
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The all the gods assembled and went to the milk-ocean.2."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਛੀਰ ਸਮੁੰਦਰ (ਵਿੱਚ) ਜਿਥੇ (ਸੋਖ-ਸਾਈ ਰਹਿੰਦਾ ਸੀ, ਉਸ ਕੋਲ) ਉਥੇ ਗਏ ॥੨॥"

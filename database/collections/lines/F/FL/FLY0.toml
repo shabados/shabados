@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਠਮੰ ਠੋਕਿ ਠਾਰੇ ॥"
 page = 114
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The enemies have been destroyed in the first round and thrown away. They have been struck on their bodies with weapons and made cool (by death)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਾਰ-ਮਾਰ ਕੇ ਠੰਡਾ ਕਰ ਦਿੱਤਾ ਸੀ।"

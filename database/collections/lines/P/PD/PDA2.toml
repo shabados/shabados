@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਸਿਪਾਣੰ ਮਾਣੰ ਲੋਕਾਯੰ ॥"
 page = 679
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Holding the sword in your hand, You honour the saints,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੱਥ ਵਿਚ ਤਲਵਾਰ ਧਾਰਨ ਕਰਨ ਵਾਲੀ ਅਤੇ ਲੋਕਾਂ ਦੇ ਮਾਣ ਵਾਲੀ,"

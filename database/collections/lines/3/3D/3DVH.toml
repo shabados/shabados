@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੂਹਿ ਮਿਆਨੋ ਲਈਆਂ, ਜੁਆਨੀ ਸੂਰਮੀ ॥"
 page = 125
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The youthful warriors pulled out their swords from their scabbards."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਲਵਾਨ ਸੂਰਮਿਆਂ ਨੇ (ਤਲਵਾਰਾਂ) ਮਿਆਨਾਂ ਵਿਚੋਂ ਖਿਚ ਲਈਆਂ।"

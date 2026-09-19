@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਰ ਆਂ ਜਾ ਬਿਆਮਦ ਕਿ ਬਿਨਸ਼ਸਤਹ ਸ਼ਾਹ ॥"
 page = 1420
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then they reached the place where a king was seated,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਉਥੇ ਆ ਪਹੁੰਚੇ ਜਿਥੇ (ਹਬਸ਼ ਦੇਸ਼ ਦਾ) ਬਾਦਸ਼ਾਹ ਬੈਠਾ ਸੀ।"

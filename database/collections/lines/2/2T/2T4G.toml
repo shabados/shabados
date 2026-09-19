@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੀ ਸੀਸ ਨਿਐ ਕੈ ॥"
 page = 111
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the powers came and went back paying their obeisance."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੀਸ ਝੁਕਾਏ ਅਤੇ (ਯੁੱਧ ਲਈ) ਚਾਲੇ ਪਾ ਦਿੱਤੇ।"

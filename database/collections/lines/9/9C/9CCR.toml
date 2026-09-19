@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦੂਖੁ ਅੰਧੇਰਾ; ਮਨ ਤੇ ਜਾਇ ॥"
 page = 893
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My soul is rid of pain and darkness,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀ ਆਤਮਾਂ ਤੋਂ ਪੀੜ ਅਤੇ ਹਨ੍ਹੇਰਾ ਦੂਰ ਹੋ ਗਏ ਹਨ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Pain and darkness are gone from my mind;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਅੰਧੇਰਾ) ਅਗਿਆਨ ਪੁਨਾ ਦੁਖ ਭੀ ਮੇਰੇ ਮਨ ਤੇ ਚਲਾ ਜਾਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਉਸ ਮਨੁੱਖ ਦੇ ਮਨ ਤੋਂ ਦੁੱਖ-ਕਲੇਸ਼ ਤੇ (ਮਾਇਆ ਦੇ ਮੋਹ ਦਾ) ਹਨੇਰਾ ਚਲਾ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨ ਤੇ = ਮਨ ਤੋਂ। ਜਾਇ = ਚਲਾ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Me libero entonces de la oscuridad y del dolor;"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੀਤਿ ਬਰਾਤਿਨ ਦੁਲਹ ਕੀ; ਬਾਸੁਦੇਵ ਸਭ ਕੀਨ ॥"
 page = 292
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਸੁਦੇਵ ਨੇ ਜਾਂਞੀਆਂ ਅਤੇ ਲਾੜੇ ਦੀਆਂ ਸਾਰੀਆਂ ਰੀਤਾਂ ਪੂਰੀਆਂ ਕੀਤੀਆਂ।"

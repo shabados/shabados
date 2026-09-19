@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੈਸੇ ਹੀ ਮੁਸਲੀ ਛਬਿ ਪਾਵੈ ॥੨੧੬੭॥"
 page = 515
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He appeared like Yama carrying his staff.2167."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸੇ ਤਰ੍ਹਾਂ ਬਲਰਾਮ ਸ਼ੋਭਾ ਪਾ ਰਿਹਾ ਸੀ ॥੨੧੬੭॥"

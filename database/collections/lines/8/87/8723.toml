@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਸਟਮ ਗੁਰੂ ਤਿਸੀ ਕਹੁ ਜਾਨਾ ॥੧੯੦॥"
 page = 650
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing him, Dutt smiled in his mind and said, “I accept him as my sixth Guru.”190."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸੇ ਨੂੰ ਛੇਵਾਂ ਗੁਰੂ ਜਾਣ ਲਿਆ ॥੧੯੦॥"

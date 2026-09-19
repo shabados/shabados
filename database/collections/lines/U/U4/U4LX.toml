@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾ ਕਉ; ਗੁਰੁ ਹਰਿ ਮੰਤ੍ਰੁ ਦੇ ॥"
 page = 211
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He whom the Guru gives God's Name,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਗੁਰੂ ਜੀ ਵਾਹਿਗੁਰੂ ਦਾ ਨਾਮ ਦਿੰਦੇ ਹਨ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Those unto whom the Guru gives the Mantra of the Lord's Name,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੋ ਗੁਰੋਂ ਨੇ ਹਰੀ ਨਾਮ ਮੰਤ੍ਰ ਦੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਗੁਰੂ ਜਿਸ ਮਨੁੱਖ ਨੂੰ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ-ਮੰਤ੍ਰ ਦੇਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਉ = ਨੂੰ। ਮੰਤ੍ਰ = ਉਪਦੇਸ਼। ਦੇ = ਦੇਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél a quien el Guru bendice con el Mantra del Señor,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਉਦਹ ਲੋਕਨ ਕੋ ਕਰਤਾ ਇਹ; ਸਾਧਨ ਸੰਤ ਇਹੈ ਜੀਅ ਜਾਨਿਯੋ ॥"
 page = 535
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Krishna is the Lord of all the fourteen worlds, all the saints accept this"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ (ਕ੍ਰਿਸ਼ਨ) ਚੌਦਾਂ ਲੋਕਾਂ ਦਾ ਕਰਤਾ ਹੈ, ਸਾਧਾਂ ਸੰਤਾਂ ਨੇ ਇਹੀ ਮਨ ਵਿਚ ਜਾਣਿਆ ਹੈ।"

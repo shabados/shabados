@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜਾਤ ਅੰਗ ਲਾਹਹੀ ॥੧੫॥"
 page = 50
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They strike the swords and shoot the arrows and suddenly chop away the limbs. 15."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਛੋਪਲੇ ਹੀ ਅੰਗ ਵੱਢ ਸੁਟਦੇ ਹਨ ॥੧੫॥"

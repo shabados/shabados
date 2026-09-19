@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਨ ਪਾਵਤਿ ਹੋਨਿ ਅਨੀਤਾ ॥"
 page = 624
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The traditions of Dharma became prevalent in all directions and there was no misconduct anywhere"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਤੇ ਵੀ ਅਨੀਤੀ ਨਹੀਂ ਹੋ ਸਕਦੀ ਸੀ।"

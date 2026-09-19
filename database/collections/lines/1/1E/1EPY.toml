@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅੰਬਰੀਕ ਮੁਹਿ ਵਰਤੁ ਹੈ; ਰਾਤਿ ਪਈ ਦੁਰਬਾਸਾ ਆਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "One evening while king Ambaris was fasting he was visited by sage Durvasa"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜਾ) ਅੰਬਰੀਕ ਦਾ ਮੂੰਹ (ਇਕਾਦਸ਼ੀ ਦੇ) ਬਰਤ ਵਾਲਾ ਸੀ, ਜਦ ਰਾਤ ਬੀਤੀ ਤਦ ਦੁਰਬਾਸ਼ਾ (ਰਿਖੀ) ਆ ਗਿਆ।"

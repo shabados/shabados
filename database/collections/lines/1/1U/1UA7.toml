@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੈ ਧਰਮ ਗੀਤਾ ॥"
 page = 267
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“I should get my Sita back, so that the work of righteousness may move forward"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਜੋ) ਧਰਮ ਦੀ ਮਰਯਾਦਾ ਚਲ ਪਏ।"

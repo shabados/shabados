@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿੰਤਾ ਕਰਤ ਅਰਧ ਨਿਸਿ ਖੋਈ ॥੧੩॥"
 page = 1096
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚਿੰਤਾ ਕਰਦਿਆਂ (ਭਾਵ ਸੋਚਦਿਆਂ) ਅੱਧੀ ਰਾਤ ਬੀਤ ਗਈ ॥੧੩॥"

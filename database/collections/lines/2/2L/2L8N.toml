@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਜਤ ਨਾਥ ਸੌ ਕਛੁ ਨ ਬਖਾਨੈ ॥੧੦॥"
 page = 879
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Only the woman knew this secret which, being ashamed, she could not disclose.(10)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਉਹ ਸ਼ਰਮ ਨਾਲ ਪਤੀ ਨੂੰ ਕੁਝ ਵੀ ਕਹਿੰਦੀ ਨਹੀਂ ਸੀ ॥੧੦॥"

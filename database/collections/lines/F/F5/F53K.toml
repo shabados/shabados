@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਹਮਾਦਕ ਸਬ ਹੀ ਪਚਹਾਰੇ ॥"
 page = 157
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Brahma and others have got tired in knowing Thy end"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਹਮਾ ਆਦਿ ਸਾਰੇ (ਉਸ ਦਾ ਗੁਣ ਗਾਉਂਦੇ) ਥਕ ਗਏ ਹਨ,"

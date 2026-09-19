@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਬਾਛਤ ਬਰ ਮਾਗਿ; ਜਾਨਿ ਗੁਰ, ਸੀਸ ਝੁਕਾਵਹਿ ॥"
 page = 836
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“They bow their heads and wish for boons."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਨ ਬਾਂਛਿਤ ਵਰ ਮੰਗ ਕੇ ਗੁਰੂ ਮੰਨਦੇ ਹੋਇਆਂ ਸੀਸ ਝੁਕਾਉਂਦੀਆਂ ਹਨ।"

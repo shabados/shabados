@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਤੇ ਅਧਿਕ ਚਿਤ ਮੈ ਡਰੋ ॥"
 page = 853
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Oh, my love, dreadfully, I want to tell you a tale."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਤੁਹਾਡੇ ਕੋਲੋਂ ਮਨ ਵਿਚ ਬਹੁਤ ਡਰਦੀ ਹਾਂ।"

@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭਰਮਤ ਡੋਲਤ ਭਏ ਉਦਾਸਾ ॥"
 page = 686
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "wanders, wavers and becomes a renouncer."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਰਟਨ ਕਰਦਾ ਅਤੇ ਡਿਕੋਡੇਲੇ ਖਾਂਦਾ ਹੈ ਅਤੇ ਤਿਆਗੀ ਥੀ ਵੰਞਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "wanders, roams around and becomes a renunciate."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਉਦਾਸ ਭਏ ਹੂਏ ਡੋਲਤੇ ਫਿਰਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤਿਆਗੀ ਬਣ ਕੇ ਥਾਂ ਥਾਂ ਭਟਕਦਾ ਡੋਲਦਾ ਫਿਰਿਆ (ਤੇ ਇਹਨਾਂ ਹੀ ਕਰਮਾਂ ਨੂੰ ਧਰਮ ਸਮਝਦਾ ਰਿਹਾ),"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "o vaga sin rumbo pidiendo limosna, volviéndose asceta, eso en sí no lo va a purificar,"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਭਗਤੂ ਛੁਰਾ ਵਖਾਣੀਐ; ਡਲੂ ਰੀਹਾਣੈ ਸਾਬਾਸੁ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Devotee Chhura and Dallu are said to be the inhabitants of Haryana."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਭਗਤ ਛੁਰਾ ਤੇ ਡੱਲੂ ਰੀਹਾਣੇ ਦੇ ਵਸਨੀਕ ਧੰਨਤਾ ਯੋਗ ਕਹੀਦੇ ਸਨ।"

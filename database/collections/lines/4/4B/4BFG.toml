@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਕਹੋ ਚਤ੍ਰ ਚਤ੍ਰੈ ਬਿਚਾਰ ॥"
 page = 139
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Tell me Graciously Thy thoughts about all the four:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਨ੍ਹਾਂ ਚੌਹਾਂ ਬਾਰੇ ਤੁਸੀਂ ਵਿਚਾਰ-ਪੂਵਕ ਸਮਝਾਓ।"

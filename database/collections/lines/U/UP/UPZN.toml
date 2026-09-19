@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਹੁ ਨਾਨਕ; ਜਿਸੁ ਪੂਰਾ ਭਾਗੁ ॥"
 page = 189
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Says Nanak, whose destiny is perfect,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਨਾਨਕ ਜੀ ਆਖਦੇ ਹਨ ਜਿਸ ਦੀ ਪ੍ਰਾਲਬੰਧ ਪੂਰਨ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Says Nanak, those who have perfect destiny"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਜਿਸ ਕਾ ਪੂਰਨ ਪੁੰਨ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਨਾਨਕ ਆਖਦਾ ਹੈ- ਜਿਸ ਮਨੁੱਖ ਦੀ ਵੱਡੀ ਕਿਸਮਤ ਹੁੰਦੀ ਹੈ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh, dice Nanak, debido a un perfecto Destino"

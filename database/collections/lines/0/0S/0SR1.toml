@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਲਈ ਕੋਈ ਸ਼ਾਣਤ-ਥਾਣ ਜਾਣ ਕਿਸੇ ਹਵੇਲੀ ਦੀ ਸੁੰਦਰ ਨੁੱਕਰ ਕੀ ਕਰ ਸਕਦੀ ਹੈ#"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਮੁਕਾਮਿ ਅਮਨੋ ਖ਼ੁਸ਼ ਗੋਸ਼ਾ ਯਾਰ ਸਰਾ ਚਿ ਕੁਨਦ ॥੨੦॥੩॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "What the people of India derive singing your poetry. (34) (5)"

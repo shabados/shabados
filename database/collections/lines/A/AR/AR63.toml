@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਭਿ ਕਰਿ ਕਰਿ ਵੇਖੈ; ਅਪਣੇ ਚਲਤਾ ॥"
 page = 998
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He works all His wondrous plays and beholds them."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਆਪਣੇ ਸਮੂਹ ਅਦਭੁਤ ਖੋਲ ਰਚਦਾ ਹੈ ਅਤੇ ਉਨ੍ਹਾਂ ਨੂੰ ਵੇਖਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He stages all His wondrous plays, and watches them."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਅਪਨੇ ਚਲਤਾਂ ਕੋ ਕਰਿ ਕਰਿ ਕੇ ਆਪ ਹੀ ਦੇਖਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਸਾਰੇ ਚੋਜ-ਤਮਾਸ਼ੇ ਕਰ ਕਰ ਕੇ ਉਹ ਆਪ ਹੀ ਵੇਖ ਰਿਹਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਭਿ = ਸਾਰੇ। ਕਰਿ = ਕਰ ਕੇ। ਚਲਤਾ = ਚੋਜ = ਤਮਾਸ਼ੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él trabaja Sus Maravillas y viéndolas, está complacido."

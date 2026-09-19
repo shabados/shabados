@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਨਾ ਭਾਤਿ ਜਟਨ ਕਹ ਧਾਰੇ; ਅਰੁ ਮੁਖ ਬਿਭੂਤ ਲਗਾਏ ॥"
 page = 683
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All of them had grown matted locks of various kinds and smeared ashes of their faces"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਨੇ) ਕਈ ਪ੍ਰਕਾਰ ਦੀਆਂ ਜਟਾਂ ਧਾਰਨ ਕੀਤੀਆਂ ਹੋਈਆਂ ਸਨ ਅਤੇ ਮੂੰਹ ਉਤੇ ਵਿਭੂਤੀ ਲਗਾਈ ਹੋਈ ਸੀ।"

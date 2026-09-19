@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਜਹੁ ਜੋ ਨ ਸਰਪੰ ਜਰੋ ਅਗਨ ਆਪੰ ॥"
 page = 142
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“If thou dost not abandon this gift of abandoning the serpent-sacrifice, I shall burn myself in the fire"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ (ਤੂੰ) ਸੱਪਾਂ (ਦੇ ਯੱਗ ਨੂੰ) ਨਹੀਂ ਛਡੇਂਗਾ ਤਾਂ (ਹਵਨ ਦੀ) ਅੱਗ ਵਿਚ ਮੈਂ ਆਪ ਸੜ ਮਰਾਂਗਾ।"

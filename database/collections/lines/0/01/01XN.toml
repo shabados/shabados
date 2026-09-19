@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰੇ ਆਨਿ ਕੈ ਬਾਢਵਾਰੀਨ ਲੈ ਕੈ ॥੧੫॥"
 page = 929
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Brave Lodhis were awfully enraged and fell upon, brandishing their swords.(15)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਲਵਾਰਾਂ ਲੈ ਕੇ ਟੁਟ ਕੇ ਆ ਪਏ ਹਨ ॥੧੫॥"

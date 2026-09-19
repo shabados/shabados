@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇੰਦ੍ਰ ਦੇਵ ਰੀਝੇ ਰਹੈ; ਜਾਨਿ ਸਚੀ ਅਨੁਹਾਰਿ ॥੧॥"
 page = 894
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was none like her; even, the god Indra fancied her.(l)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਸਚੀ ਵਰਗੀ ਸਮਝ ਕੇ ਇੰਦਰ ਵੀ ਬਹੁਤ ਰੀਝਿਆ ਰਹਿੰਦਾ ਸੀ ॥੧॥"

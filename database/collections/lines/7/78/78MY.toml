@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਪਤਿਬ੍ਰਤਾ ਜਗਤ ਮੈ ਚੀਨੀ ॥"
 page = 977
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He adopted the woman called Brinda, who was exalted as virtuous wife."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਜਗਤ ਵਿਚ ਅਤਿ ਪਤਿਬ੍ਰਤਾ ਮੰਨੀ ਜਾਂਦੀ ਸੀ।"

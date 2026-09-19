@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਜਾਣੀਐ ਜਤ ਜੋਗ ॥"
 page = 673
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਜਤ (ਇੰਦਰੀਆਂ ਉਪਰ ਕਾਬੂ ਪਾਣ ਵਾਲਾ) ਯੋਗ ਦੁਆਰਾ ਜਾਣਨਾ ਚਾਹੀਦਾ ਹੈ"

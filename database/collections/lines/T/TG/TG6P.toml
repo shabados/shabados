@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਮਰ ਸੇ ਰਣ ਚਿੱਛਰ ਸੇ ਰਕਤਿੱਛਰ ਸੇ ਝਟ ਦੈ ਝਝਕਾਰੇ ॥"
 page = 46
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who hath immediately thrashed and thrown down far away the demons like Chamar, Ranchichchhar and Rakat Beej."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਾਮਰ, ਚਿੱਛਰ, ਲਾਲ ਅੱਖਾਂ ਵਾਲੇ ਦੈਂਤ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਜਲਦੀ ਹੀ ਝਾੜ ਸੁਟੇ ਹਨ;"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਰਾਵ ਕੌ ਆਨ ਦਿਖਾਯੋ ॥੮॥"
 page = 997
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And showed Raja the one with whom she had made love.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਫਿਰ ਰਾਜੇ ਨੂੰ ਆਣ ਵਿਖਾਇਆ ॥੮॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਲ ਦੀਪ ਜ︀ਯੋਂ ਸਭਾ ਸੁਹਾਈ ॥੧੮॥"
 page = 1239
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਸਾਰੀ ਸਭਾ ਵਿਚ ਦੀਪਕ ਸ਼ੁਭਾਇਮਾਨ ਹੋ ਗਿਆ ਹੋਵੇ ॥੧੮॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਬਿਨੁ ਰੁਚੈ ਨ ਭੋਜਨ ਬਾਰਾ ॥੪॥"
 page = 1206
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੋਂ ਬਿਨਾ (ਉਸ ਨੂੰ) ਭੋਜਨ ਅਤੇ ਜਲ ਚੰਗੇ ਨਹੀਂ ਲਗਦੇ ਸਨ ॥੪॥"

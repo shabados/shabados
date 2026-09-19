@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਲ ਥਲ ਮਹੀਅਲ ਕੀਓ ਪਸਾਰਾ ॥"
 page = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who pervades the watery, earthly and heavenly expanse."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੇ) ਜਲ, ਥਲ ਅਤੇ ਆਕਾਸ਼ ਦਾ ਪਸਾਰ ਕੀਤਾ ਹੈ।"

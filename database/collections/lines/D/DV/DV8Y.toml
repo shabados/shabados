@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨਮੁਖਿ ਆਵੈ; ਮਨਮੁਖਿ ਜਾਵੈ ॥"
 page = 1073
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The egocentric comes and the egocentric goes."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮਨਮੱਤੀਆ ਆਉਂਦਾ ਹੈ ਤੇ ਮਨਮੱਤੀਆ ਹੀ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The self-willed manmukh comes, and the self-willed manmukh goes."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮਨਮੁਖ ਆਵਤਾ ਹੈ ਅਰ ਮਨਮੁਖ ਜਾਤਾ ਹੈ, ਭਾਵ ਜਨਮਤਾ ਮਰਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਮਨ ਦੇ ਪਿੱਛੇ ਤੁਰਨ ਵਾਲਾ ਮਨੁੱਖ ਜੰਮਦਾ ਹੈ ਮਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨਮੁਖਿ = ਆਪਣੇ ਮਨ ਦੇ ਪਿੱਛੇ ਤੁਰਨ ਵਾਲਾ ਮਨੁੱਖ। ਆਵੈ = ਜੰਮਦਾ ਹੈ। ਜਾਵੈ = ਮਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El ególatra va y viene sin cesar, sufre dolor una y otra vez,"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਪਨੀ ਬਣਤ; ਆਪਿ ਬਨਾਈ ॥"
 page = 277
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "His own handi-work, He has Himself made."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੀ ਨਿੱਜ ਦੀ ਬਣਤਰ, ਉਸ ਨੇ ਖੁਦ ਹੀ ਬਣਾਈ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He Himself fashioned His own handiwork."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਪਨੀ ਬਨਾਵਟ, ਭਾਵ ਰਚਨਾ ਤਿਸ ਨੇ ਆਪ ਹੀ ਬਨਾਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਇਹ (ਜਗਤ-) ਰਚਨਾ ਉਸ ਨੇ ਆਪ ਰਚੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਣਤ = ਬਨਾਵਟ, ਆਕਾਰ, ਜਗਤ-ਰੂਪ ਘਾੜਤ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Señor Mismo ha generado la creación entera,"

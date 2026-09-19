@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਹੀ ਰਾਜਾ, ਅਉਰ ਹੀ ਨ੍ਰਯਾਯੰ ॥੧੩੦॥"
 page = 563
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The strange clothes, speech, arms, weapons, rites, customs, love, king and his justice are visible.130."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਰ (ਤਰ੍ਹਾਂ ਦੇ) ਰਾਜੇ ਹਨ ਅਤੇ ਹੋਰ (ਤਰ੍ਹਾਂ ਦੇ) ਹੀ ਨਿਆਂ ਹਨ ॥੧੩੦॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਠੇ ਸੁ ਸੋਗ ॥੮੬॥"
 page = 621
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing about the destruction of his sons, the whole city was steeped in sorrow and all the people here and there were filled with anguish.86."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੋਗ ਵਿਚ ਡੁਬੇ ਬੈਠੇ ਸਨ ॥੮੬॥"

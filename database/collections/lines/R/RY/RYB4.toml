@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਧਸੰਗਤਿ, ਗੁਰਸਿਖ ਪੁਜੰਦੇ ॥੩॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Similarly, the Sikhs of Guru, associate themselves with the company of the holy persons."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਤਿਵੇਂ ਗੁਰੂ ਕੇ ਸਿੱਖ ਸਾਧਸੰਗਤਿ ਵਿਚ ਪਹੁੰਚਦੇ ਹਨ।"

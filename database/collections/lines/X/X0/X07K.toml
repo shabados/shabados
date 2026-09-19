@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਾਤ ਅਉਰ ਬਸੀਕਰਣ; ਬਡ ਬੀਰ ਧੀਰ ਅਪਾਰ ॥"
 page = 697
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ghaat (ambush) and Vashikaran (control) are also great warriors"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਘਾਤ' ਅਤੇ 'ਬਸੀਕਰਣ' ਅਪਾਰ ਧੀਰਜ ਵਾਲੇ ਵੱਡੇ ਸੂਰਮੇ ਹਨ।"

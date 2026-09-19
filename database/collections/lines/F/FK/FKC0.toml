@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਪਰ ਮੀਤ ਲਯੋ ਬੈਠਾਈ ॥੪੨॥"
 page = 964
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Elegantly she bedecked a bed and over it made the lover to sit.(42)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਉਪਰ ਮਿਤਰ ਨੂੰ ਬਿਠਾ ਲਿਆ ॥੪੨॥"

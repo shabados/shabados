@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜਿਯੋ ਸੁ ਕੋਪ ਗਜਿ ਕੈ ॥"
 page = 113
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He (demon-king) marched forward, in great fury, bedecking himself with an army of warriors."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੂਰੇ ਕ੍ਰੋਧ ਨਾਲ ਗਜਦਾ ਹੋਇਆ (ਸੁੰਭ) ਚੜ੍ਹ ਪਿਆ।"

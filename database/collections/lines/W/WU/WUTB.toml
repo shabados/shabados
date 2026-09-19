@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੀਸਰ ਭੋਗ ਤਰੁਨਿ ਕੇ ਰਾਤੋ ॥"
 page = 1227
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੀਜਾ ਨੌਜਵਾਨ ਇਸਤਰੀ ਨਾਲ ਭੋਗ ਵਿਚ ਮਗਨ,"

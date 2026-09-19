@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਗ਼ੁਫ਼ਤਹ ਕਸੇ ਕਸ ਖ਼ਰਾਸ਼ੀ ਕੁਨੀ ॥੬੫॥"
 page = 1392
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "so that you may not talk ill or cause injury to anybody.65."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਸੇ ਦੇ ਕਹੇ ਤੇ ਕਿਸੇ ਨੂੰ ਦੁਖੀ ਨਾ ਕਰ ॥੬੫॥"

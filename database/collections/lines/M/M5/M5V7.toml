@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜ ਕਮੈਹੈ ਪੁਤ੍ਰ ਹਮਾਰੋ ॥੨੩॥"
 page = 956
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As she had gotten rid of Punnu and placed her son on the throne.(23)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੁਣ) ਮੇਰਾ ਪੁੱਤਰ ਰਾਜ ਕਰੇਗਾ ॥੨੩॥"

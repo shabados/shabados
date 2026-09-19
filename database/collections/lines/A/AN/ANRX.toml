@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਕਾਲ ਕੀ ਬੰਦ ਤੇ; ਸਭ ਕੋ ਲੇਹੁ ਛੁਰਾਇ ॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Please do liberate us from the servitude of the death."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਦੇਵ ਆਤਮਾ! ਅਸਾਂ) ਸਾਰਿਆਂ ਨੂੰ ਮਹਾ ਕਾਲ ਦੇ ਬੰਧਨ ਤੋਂ ਮੁਕਤ ਕਰਾ ਦਿਓ।"

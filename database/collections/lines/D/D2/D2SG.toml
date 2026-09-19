@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭਗਤ ਟੇਕ ਤੁਹਾਰੇ ॥"
 page = 1272
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thine devotees seek but Thy support."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਅਨੁਰਾਗੀ ਕੇਵਲ ਤੇਰਾ ਹੀ ਆਸਰਾ ਲੋੜਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Your devotees take Your Support."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਗਵਨ! ਜੋ ਭਗਤ ਆਪ ਕੇ (ਟੇਕ) ਆਸਰੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ! ਤੇਰੇ) ਭਗਤਾਂ ਨੂੰ ਤੇਰੀ ਹੀ ਟੇਕ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਟੇਕ = ਆਸਰਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sólo Tú eres, oh Dios. Tus Devotos se amparan en Ti"

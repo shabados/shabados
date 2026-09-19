@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਤਿ ਚਮਕ︀ਯੋ ਕਰ ਖੜਗ ਸੰਭਾਰਿਯੋ ॥"
 page = 862
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The woman started to grope his eggs. The husband took out a sword,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਪਤੀ ਨੇ ਕ੍ਰੋਧਿਤ ਹੋ ਕੇ ਤਲਵਾਰ ਨੂੰ ਖਿਚ ਲਿਆ।"

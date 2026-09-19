@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਪਨ ਚਲਿਤ; ਆਪਿ ਕਰਨੈਹਾਰ ॥"
 page = 291
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He Himself is the performer of his play"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣਿਆਂ ਕੌਤਕਾਂ ਦਾ ਉਹ ਆਪੇ ਹੀ ਰਚਣਹਾਰ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He Himself is the Performer in His own plays;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਤੇ ਅਪਨੇ ਚਰਿਤ੍ਰ ਪ੍ਰਭੂ ਆਪ ਹੀ ਕਰਨੇ ਹਾਰਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਤਮਾਸ਼ੇ ਆਪ ਹੀ ਕਰਨ ਵਾਲਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਚਲਿਤ = ਤਮਾਸ਼ੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él, por Sí solo, despliega los caracteres de Su escenario;"

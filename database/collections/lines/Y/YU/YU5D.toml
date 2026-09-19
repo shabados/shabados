@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਿਨੁ ਕੰਠੈ; ਕੈਸੇ ਗਾਵਨਹਾਰੀ ॥"
 page = 1140
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "What is a musician without a melodious voice?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੁਰੀਲੀ ਆਵਾਜ ਦੇ ਬਾਝੋਂ ਕਾਹਦਾ ਰਾਗੀ ਹੈ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Without a voice, how is one to sing?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨ: ਕੰਠ ਸੇ ਬਿਨਾਂ ਗਾਵਨਹਾਰੀ ਕੈਸੇ, ਭਾਵ ਯਹਿ ਕਿ ਬ੍ਯਰਥ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਗਲੇ ਤੋਂ ਬਿਨਾ ਕੋਈ ਗਵਈਆ ਗਾ ਨਹੀਂ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੰਠ = ਗਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "¿Cómo la cítara podría tocarse sin cuerdas?,"

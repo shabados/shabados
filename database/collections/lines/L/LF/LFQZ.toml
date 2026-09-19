@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਗੜਦੰਗ ਚਤ੍ਰ ਨਟ ਜਯੋਂ ਕੁਦੰਤ ॥"
 page = 250
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Very swift-moving horses were brought who jumped hither and thither like and actor"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਘੋੜੇ) ਚਤੁਰ ਨਟ ਵਾਂਗ ਕੁੱਦਦੇ ਸਨ।"

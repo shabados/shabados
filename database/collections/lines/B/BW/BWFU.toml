@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਥਾ ਸਕਤਿ ਕੈ, ਅਲਪ ਤਾ ਤੇ ਉਚਾਰੋ ॥"
 page = 1287
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸੇ ਲਈ ਯਥਾ ਸ਼ਕਤੀ ਥੋੜੇ ਹੀ ਉਚਾਰੇ ਹਨ।"

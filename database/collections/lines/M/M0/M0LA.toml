@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਦਰੁ ਦੈ ਆਸਨੁ ਬੈਠਾਯੋ ॥"
 page = 922
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Bikrim called Madhwan and asked him respectfully to be seated."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਦਰ ਪੂਰਵਕ ਆਸਣ ਉਤੇ ਬਿਠਾਇਆ"

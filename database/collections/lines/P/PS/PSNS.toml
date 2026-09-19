@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਸ ਤੇ ਉਪਜੇ; ਤਿਸੁ ਮਾਹਿ ਸਮਾਏ ॥"
 page = 282
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He is absorbed in Him from whom he had sprung."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਉਸ ਅੰਦਰ ਲੀਨ ਹੋ ਜਾਂਦਾ ਹੈ, ਜਿਸ ਤੋਂ ਉਹ ਪੈਦਾ ਹੋਇਆ ਸੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "From Him we came, and into Him we shall merge again."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਵਾਹਿਗੂਰ ਸੇ ਵਹੁ ਉਪਜੇ ਥੇ ਤਿਸੀ ਮੇਂ ਸਮਾਏ ਅਰਥਾਤ ਲੀਨ ਭਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪ੍ਰਭੂ ਤੋਂ ਉਹ ਸੇਵਕ ਪੈਦਾ ਹੋਏ ਹਨ, ਉਸੇ ਵਿਚ ਲੀਨ ਰਹਿੰਦੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਉਪਜੇ = ਪੈਦਾ ਹੋਏ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "De Él venimos y en Él nos vamos a inmergir."

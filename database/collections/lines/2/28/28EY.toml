@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰ ਪਿਯਰੀ ਮੁਖ ਪਰ ਗਈ; ਨੈਨ ਰਹੀ ਨਿਹੁਰਾਇ ॥"
 page = 838
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her face became pale, and her eyes remained wide open."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਮੂੰਹ ਪੀਲਾ ਪੈ ਗਿਆ ਅਤੇ ਅੱਖਾਂ ਨੀਵੀਆਂ ਹੋ ਗਈਆਂ।"

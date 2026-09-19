@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੂਪ ਰੇਖ ਜਾਕਰ ਨ ਕਛੁ; ਅਰੁ ਕਛੁ ਨਹਿਨ ਆਕਾਰ ॥"
 page = 552
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Neither he is beautiful nor he does any work"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਕੁਝ ਰੂਪ-ਰੇਖਾ ਨਹੀਂ ਹੈ ਅਤੇ ਕੋਈ ਆਕਾਰ ਵੀ ਨਹੀਂ ਹੈ।"

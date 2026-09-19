@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਪਨ ਕਮਾਇਐ; ਆਪੇ ਬਾਧੇ ॥"
 page = 199
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "They are bound by their own actions."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਅਮਲਾ ਦੇ ਕਾਰਨ ਉਹ ਆਪ ਹੀ ਬਝ ਗਏ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "By their own actions, they are bound and gagged."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਪਨੇ ਮੰਦਕਰਮ ਕਰਨੇ ਸੇ ਮਰਵਾਹੇ ਆਪ ਹੀ (ਬਾਧੇ) ਨਾਸ ਹੂਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਆਪਣੇ ਕੀਤੇ ਕਰਮਾਂ ਅਨੁਸਾਰ ਜੀਵ ਆਪ ਹੀ (ਮੋਹ ਦੇ ਬੰਧਨਾਂ ਵਿਚ) ਬੱਝੇ ਰਹਿੰਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਪਨ ਕਮਾਇਐ = ਆਪਣੇ ਕੀਤੇ ਕਰਮਾਂ ਅਨੁਸਾਰ। ਆਪੇ = ਆਪ ਹੀ। ਬਾਧੇ = ਬੱਝੇ ਹੋਏ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Estamos atados por las consecuencias de nuestras propias acciones,"

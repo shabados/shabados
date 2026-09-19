@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰ ਭੇਟਤ; ਹਉ ਗਈ ਬਲਾਏ ॥"
 page = 101
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and met the Guru the demon of pride has departed."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਗੁਰਾਂ ਨੂੰ ਮਿਲਿਆ ਹਾਂ, ਹੰਕਾਰ ਦਾ ਭੂਤ ਦੂਰ ਹੋ ਗਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The demon of pride has departed."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੋਂ ਕੇ ਮਿਲਨੇ ਸਾਰ ਹੀ ਤਬ ਸੇ (ਹਉ) ਅਹੰਤਾ (ਬਲਾਏ) ਦੂਰ ਹੋ ਗਈ ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਨੂੰ ਮਿਲਿਆਂ (ਮੇਰੇ ਅੰਦਰੋਂ) ਹਉਮੈ ਦੀ ਬਲਾ ਦੂਰ ਹੋ ਗਈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੁਰ ਭੇਟਤ = ਗੁਰੂ ਨੂੰ ਮਿਲਿਆਂ। ਹਉ ਬਲਾਏ = ਹਉਮੈ ਦੀ ਬਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "La maldad me ha dejado en Paz."

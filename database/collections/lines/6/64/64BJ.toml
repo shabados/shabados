@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਪੁ ਛਾਡੀਯੋ ਨਹੀਂ ਏਕ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And did not leave even one of them alive."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਵੀ ਵੈਰੀ (ਬਾਕੀ) ਨਹੀਂ ਛਡਿਆ।"

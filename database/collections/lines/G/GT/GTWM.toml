@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਬੇਦ ਬ੍ਰਹਮਾ ਕੀਨ ॥"
 page = 613
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the Lord commended, then Brahma preprared the Vedas"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਬ੍ਰਹਮਾ ਨੇ ਵੇਦਾਂ ਨੂੰ ਉਚਾਰਿਆ।"

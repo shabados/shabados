@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਨੇ ਸਾਰੇ ਖ਼ਾਸ ਅਤੇ ਪਰਵਾਨਤ ਨਿਕਟਵਰਤੀਆਂ ਨੂੰ ਉਸਦੇ ਚਰਨਾਂ ਨਾਲ ਲਗਾਇਆ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹਮਾ ਖ਼ਾਸਗਾਂ ਰਾ ਬਪਾਇਸ਼ ਫ਼ਗੰਦ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "The Almighty Himself directed all His near and selected ones to fall at Guru's feet,"

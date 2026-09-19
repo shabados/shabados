@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਨੁ ਬਾਨ ਸੰਭਾਰ ਕੈ ਪਾਨਨ ਮੈ; ਅਰਿ ਭੂਪਤਿ ਕਉ ਲਲਕਾਰਿ ਪਰੋ ॥"
 page = 461
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hold your bow and arrows in your hands and fall upon the king shouting at him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੱਥਾਂ ਵਿਚ ਧਨੁਸ਼ ਬਾਣ ਸੰਭਾਲ ਕੇ ਰਾਜਾ (ਖੜਗ ਸਿੰਘ) ਨੂੰ ਲਲਕਾਰਾ ਮਾਰ ਕੇ ਪੈ ਜਾਓ।"

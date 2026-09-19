@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਯੋ ਘੋਰ ਰਨ ਜਾਤ ਨ ਬਰਨਾ ॥੩੩੫॥"
 page = 1383
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਘਮਸਾਨ ਯੁੱਧ ਹੋਇਆ, ਜਿਸ ਦਾ ਵਰਣਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ॥੩੩੫॥"

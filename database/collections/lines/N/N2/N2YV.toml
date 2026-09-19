@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਭਰਨ ਸੈਨ ਕੁਅਰ ਤਿਨ ਲਹਾ ॥"
 page = 1250
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਅਭਰਨ ਸੈਨ ਨਾਂ ਦਾ ਕੁਮਾਰ ਵੇਖਿਆ।"

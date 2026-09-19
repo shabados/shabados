@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਪੇ ਆਪਿ ਵਰਤਦਾ; ਗੁਰਮੁਖਿ ਰੰਗ ਮਾਣਾ ॥੧੦॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The Lord permeates among all and the gurmukhs enjoy His love."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਤਿੱਕੁਰ) ਆਪ ਹੀ ਆਪ ਵਰਤਦਾ ਹੈ (ਉਸਦੇ) ਰੰਗ (ਪ੍ਰੇਮ) ਨੂੰ ਗੁਰਮੁਖ ਮਾਣਦੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਨ੍ਰਿਬਿਕਾਰੰ ਨਮੋ ਨ੍ਰਿਜੁਰੇਅੰ ॥"
 page = 40
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I Salute Him, Who is without vices and without ailments"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ) ਵਿਕਾਰਾਂ ਤੋਂ ਰਹਿਤ! (ਤੈਨੂੰ) ਨਮਸਕਾਰ ਹੈ, (ਹੇ) ਰੋਗਾਂ ਤੋਂ ਰਹਿਤ! (ਤੈਨੂੰ) ਨਮਸਕਾਰ ਹੈ।"

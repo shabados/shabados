@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਲ ਦਰਬ ਇਹ ਛਲ ਤਿਹ ਦ੍ਰਯਾਯੋ ॥੮॥"
 page = 1295
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸ ਚਰਿਤ੍ਰ ਨਾਲ ਸਾਰਾ ਧਨ ਉਸ ਨੂੰ ਦਿਵਾ ਦਿੱਤਾ ॥੮॥"

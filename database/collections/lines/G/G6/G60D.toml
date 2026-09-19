@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹੀ ਜਾਲਪਾ ਕਾਲਕਾ ਕੈ ਬਖਾਨੀ ॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You are known as Jalpa, Kalka"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਜਾਲਪਾ, ਕਾਲਕਾ ਵਜੋਂ ਵਰਣਨ ਕੀਤੀ ਜਾਂਦੀ ਹੈਂ।"

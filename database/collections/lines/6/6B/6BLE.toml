@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੁਣੰ ਮੇਘ ਲਾਜੇ ॥"
 page = 207
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The musical instruments resounded violently and hearing their sounds, he clouds felt shy."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਦੀ) ਆਵਾਜ਼ ਅੱਗੇ ਬੱਦਲ (ਦੀ ਧੁਨੀ) ਲੱਜਾ ਰਹੀ ਸੀ।"

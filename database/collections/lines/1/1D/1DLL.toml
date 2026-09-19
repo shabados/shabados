@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰ ਸੋ ਔਸੀ ਕਾਢਿ ਕੈ; ਲਈ ਸਲਾਕ ਉਠਾਇ ॥"
 page = 896
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "While drawing the lines thus, she had taken away the pipe,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ) ਹੱਥ ਨਾਲ ਔਂਸੀ ਕਢੀ ਕੇ (ਸੋਨੇ ਦੀ) ਸਲਾਖ਼ ਨੂੰ ਚੁਕ ਲਿਆ"

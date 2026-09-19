@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੋਰਿ ਰਾਵ ਤਬ ਜਲਜ ਮੰਗਾਏ ॥"
 page = 920
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਰਾਜੇ ਨੇ ਕਮਲ ਫੁਲ ਤੁੜਵਾ ਕੇ ਮੰਗਵਾਏ"

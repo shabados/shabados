@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਭੂਮਿ ਲੋਟੈ, ਸੁ ਹਾਥੈ ਉਚਾਏ ॥"
 page = 1287
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਹੱਥ ਚੁਕੇ ਹੋਇਆਂ ਧਰਤੀ ਉਤੇ ਲੇਟਦੇ ਸਨ,"

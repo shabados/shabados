@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਨਿਰਭਯਾਣੰ ॥"
 page = 46
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to Him, who is Fearless."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੈਨੂੰ) ਨਮਸਕਾਰ ਹੈ। (ਹੇ) ਡਰ ਤੋਂ ਰਹਿਤ! (ਤੈਨੂੰ) ਨਮਸਕਾਰ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਪੰਥ ਪੰਥ ਸਭ ਲੋਗਨ ਲਾਯਾ ॥"
 page = 192
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਨੂੰ ਗਲਤ ਮਾਰਗ ਉਤੇ ਪਾ ਦਿੱਤਾ"

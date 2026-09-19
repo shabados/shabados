@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਬਦਤ ਬਾਤ ॥੪੦੦॥"
 page = 667
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And knowing the attributes of the Lord, he did not disclose anything to others.400."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੂੰਹੋਂ) ਗੱਲ ਕਹੀ ਨਹੀਂ ਜਾ ਸਕਦੀ ਸੀ ॥੪੦੦॥"

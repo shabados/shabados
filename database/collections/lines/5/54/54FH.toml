@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਭੋਗਾਸਤ੍ਰ ਸੁਟੇ ॥੨੮੭॥"
 page = 703
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Arogastras (the health arms) and Bhogastras (the pleasure arms) are also being discharged.60.287."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੋਗ ਅਸਤ੍ਰਾਂ ਨੂੰ (ਵੈਰੀ ਸੈਨਾ ਉਤੇ) ਸੁਟਿਆ ਜਾ ਰਿਹਾ ਹੈ ॥੨੮੭॥"

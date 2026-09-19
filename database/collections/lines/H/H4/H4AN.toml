@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪ੍ਰਭੁ ਤੁਮਰਾ ਮਰਮੁ; ਨ ਕਿਨਹੂ ਲਖਿਓ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "But without pondering over You, none will be consumed."

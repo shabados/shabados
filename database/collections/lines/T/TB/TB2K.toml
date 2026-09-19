@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਤ ਚਤੁਰ ਦਸ ਗਨ ਅਵਤਾਰੂ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Besides ten, other fourteen incarnations are also reckoned"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਨ੍ਹਾਂ ਤੋਂ ਭਿੰਨ ਚੌਦਾਂ ਅਵਤਾਰ (ਹੋਰ ਵੀ) ਗਿਣੇ ਗਏ ਹਨ।"

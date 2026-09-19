@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੈਰਵੀ ਭੈਹਰੀ ਭੂਚਰਾ ਭਾਨਵੀ ॥"
 page = 680
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Goddess! you are Bhairavi, the remover of fear and the mover in the world in the world"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭੈਰਵੀ, ਭੈ-ਹਰੀ, ਭੂਚਰੀ, ਭਾਨਵੀ,"

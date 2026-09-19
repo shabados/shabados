@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਹਤ ਏਕ ਅਨੇਕ ਪ੍ਰਕਾਰੰ ॥"
 page = 168
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਸੂਰਮੇ ਅਨੇਕ ਤਰ੍ਹਾਂ ਨਾਲ ਸ਼ੁਭਾਇਮਾਨ ਸਨ"

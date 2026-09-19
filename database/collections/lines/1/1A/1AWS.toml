@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁੰਡ ਸੁੰਭ ਕੇ ਚੰਡਿਕਾ; ਚਢਿ ਬੋਲੀ ਇਹ ਭਾਇ ॥"
 page = 87
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "These words were uttered by Chandika herself, seated on the tongue of Sumbh.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਭਾਵ ਨਾਲ ਚੰਡੀ ਸੁੰਭ ਦੇ ਮੂੰਹ ਵਿਚ ਸਥਿਤ ਹੋ ਕੇ ਬੋਲੀ,"

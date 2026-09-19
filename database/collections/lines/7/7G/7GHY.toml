@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤੈਨੂੰ ਰੱਬ ਦੀ ਸੱਚੀ ਦਾਤ ਸਦਾ ਲਈ ਪਰਾਪਤ ਹੋ ਜਾਵੇਗੀ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਤਾ ਬ-ਯਾਬੀ ਈਂ ਸਆਦਤ ਰਾ ਮਦਾਮ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "You will be bestowed with the Waaheguru's true boon for ever,"

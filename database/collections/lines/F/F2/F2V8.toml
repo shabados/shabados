@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਤਿ ਪਿਤ ਭਰਮੈ ॥"
 page = 560
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪੁੱਤਰਾਂ ਦੇ ਮਾੜੇ ਵਿਵਹਾਰ ਕਰ ਕੇ) ਮਾਤਾ ਪਿਤਾ (ਘਰੋਂ ਬਾਹਰ) ਭਟਕਦੇ ਰਹਿਣਗੇ"

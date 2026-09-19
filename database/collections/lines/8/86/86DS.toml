@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਦਰਗਾਹ ਦੀ ਧੂੜ ਮੇਰੇ ਸਿਰ ਲਈ ਸੌ ਤਾਜਾਣ ਵਰਗੀ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਖ਼ਾਕਿ ਦਰਗਾਹਿ ਤੂ ਸਦ ਤਾਜ ਅਸਤ ਬਹਿਰਿ ਫ਼ਰਕਿ ਮਨ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "We prostrate our head on the ground in prayers every moment and breath,"

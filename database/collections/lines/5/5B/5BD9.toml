@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹਿ ਤਤ੍ਰ ਥਲੀ ਸਤ ਪਤ੍ਰ ਰਹੇ ॥"
 page = 236
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਰੋਵਰ ਵਿੱਚ) ਉਸ ਥਾਂ ਉੱਤੇ ਕਮਲ ਨਾ ਰਹੇ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਦੂਆ ਸੌ ਰਤਿ ਮਾਨਿ ਕੈ; ਤਹਾ ਪਹੂੰਚੀ ਆਇ ॥"
 page = 824
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਦੂਆ ਨਾਲ ਪ੍ਰੇਮ-ਕ੍ਰੀੜਾ ਕਰ ਕੇ (ਉਹ) ਉਥੇ ਪਹੁੰਚ ਗਈ"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਨਿ ਨਾਹ ਨਿਰੰਤਰਿ; ਭਗਤਿ. ਨ ਕੀਨੀ ॥"
 page = 793
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "who performs not her Spouse's service continually."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਆਪਣੇ ਪਤੀ ਦੀ ਸੇਵਾ ਇਕਰਸ ਨਹੀਂ ਕਰਦੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "she does not worship her Husband Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ (ਨਾਹਿ) ਭਰਤਾ ਕੀ ਨਿਰਤ੍ਰੰ ਭਗਤੀ ਨਹੀਂ ਕਰੀ, ਵਹੀ ਦੁਹਾਗਣੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਖਸਮ-ਪ੍ਰਭੂ ਦੀ ਬੰਦਗੀ ਇੱਕ-ਰਸ ਨਹੀਂ ਕੀਤੀ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਿਨਿ = ਜਿਸ ਨੇ। ਨਾਹ ਭਗਤਿ = ਖਸਮ-ਪ੍ਰਭੂ ਦੀ ਬੰਦਗੀ। ਨਿਰੰਤਰਿ = ਇੱਕ-ਰਸ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "vive llena de dolor al estar separada de su Señor,"

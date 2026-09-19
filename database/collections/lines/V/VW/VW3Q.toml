@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਨ ਗਨਤ ਚਤ੍ਰਮੁਖ ਪਰਾ ਹਾਰ ॥"
 page = 643
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਦੇ) ਗੁਣਾਂ ਦਾ ਵਿਚਾਰ ਕਰਦਿਆਂ ਬ੍ਰਹਮਾ ਹਾਰ ਗਿਆ,"

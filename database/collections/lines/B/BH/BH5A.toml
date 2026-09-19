@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਝੁਮੈਤਿ ਝੁਮੀ ॥੨੫੯॥"
 page = 577
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The blows are being endured with pleasure, the warriors are falling down while swinging and thundering.259."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਘਾਇਲ ਹੋ ਕੇ) ਝੂਮਦੇ ਹੋਏ ਨਿਉਂਦੇ ਹਨ ॥੨੫੯॥"

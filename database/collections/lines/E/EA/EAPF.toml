@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਬਹੁਤ ਭਾਤਿ ਦੁਖ ਦੇਹ ਸਹਤ ॥"
 page = 647
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many are abiding only with the hope of meeting the Lord and many are enduring many kinds of sufferings"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਕਈ ਤਰ੍ਹਾਂ ਦੇ ਦੁਖ ਸ਼ਰੀਰ ਉਤੇ ਸਹਿੰਦੇ ਹਨ।"

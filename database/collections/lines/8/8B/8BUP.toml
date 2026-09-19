@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨੰਦ ਸਾਥੰ ॥੨੦॥"
 page = 628
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The young damsels were dancing and were singing happily while clapping their hands.20."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਨੰਦ ਸਹਿਤ (ਖੁਸ਼ ਹੋ ਰਹੀਆਂ ਸਨ) ॥੨੦॥"

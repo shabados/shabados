@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਲਿ ਕਿੰਕਣਿ ਭੂਖਤ ਅੰਗਿ ਬਰੰ ॥"
 page = 663
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਦਰ ਤੜਾਗੀਆਂ (ਵਜਦੀਆਂ) ਸਨ ਅਤੇ ਅੰਗ ਗਹਿਣਿਆਂ ਨਾਲ ਸਜੇ ਹੋਏ ਸਨ।"

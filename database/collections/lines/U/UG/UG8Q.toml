@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਸਹੇਟ ਉਤ ਦੀਪ ਜਗਾਯੋ ॥"
 page = 1278
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਮਿਥੇ ਹੋਏ ਸਥਾਨ ਉਤੇ ਦੀਵਾ ਜਗਾਇਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੋਹਿ ਛਾਡਿ ਵਾ ਕੌ ਨਹਿ ਬਰੌਂ ॥"
 page = 993
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Tell me, my friend, what should I do? Forsaking you I will, never go to some body else."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੈਨੂੰ ਛਡ ਕੇ ਉਸ ਨਾਲ ਵਿਆਹ ਨਹੀਂ ਕਰਾਂਗੀ।"

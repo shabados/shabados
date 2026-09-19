@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮ ਬਾਚ ਸੀਤਾ ਪ੍ਰਤਿ ॥"
 page = 224
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Ram addressed to Sita :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮ ਨੇ ਸੀਤਾ ਪ੍ਰਤਿ ਕਿਹਾ-"

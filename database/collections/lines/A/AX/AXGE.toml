@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਨਹੀਂ ਤਾਂ ਰੱਬ ਦਾ ਸੱਚਾ ਰਾਹ ਕਿਵੇਂ ਮਿਲਦਾ #"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਵਰਨਾ ਈਂ ਰਾਹਿ ਖ਼ੁਦਾ ਕੈ ਜਾਨਦੇ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Otherwise, how could we find out the true path of God ?"

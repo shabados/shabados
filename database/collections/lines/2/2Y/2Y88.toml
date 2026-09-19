@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਚੇ ਸਸਤ੍ਰ ਝਾਰੰ ॥"
 page = 580
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਸਤ੍ਰਾਂ ਦੇ ਖੂਬ ਵਾਰ ਹੁੰਦੇ ਹਨ, ਲਹੂ ਪੀਣ ਵਾਲੀਆਂ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਥਰਹਰ ਕਰਤ ਲੋਹ ਤਨ ਪੂਰੰ ॥"
 page = 261
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was consternation, the warriors ran and their bodies wearing armour trembled"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੋਹੇ ਨਾਲ ਮੜ੍ਹੇ ਹੋਏ ਸਰੀਰਾਂ ਵਾਲੇ (ਰਣ ਵਿਕ੍ਰਮ) ਵੀ ਥਰ-ਥਰ ਕੰਬਣ ਲੱਗ ਪਏ ਹਨ।"

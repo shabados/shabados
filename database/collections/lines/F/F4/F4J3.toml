@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਰਹੀ ਜਿਹ ਓਰ ਸੁ ਦਿਸਟ ਧਰੈ ॥"
 page = 236
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਯੋਗੀ (ਰਾਮ) ਜਿਸ ਪਾਸੇ ਨਜ਼ਰ ਮਾਰਦੇ ਸਨ,"

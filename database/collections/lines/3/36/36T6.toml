@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਤੇਜੁ ਪ੍ਰਚੰਡ ਪ੍ਰਤਾਪੁ ਬਢ︀ਯੋ ॥"
 page = 154
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His glory and magnificence increased enormously."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ) ਤੇਜ ਪ੍ਰਚੰਡ ਹੋ ਗਿਆ ਅਤੇ ਪ੍ਰਤਾਪ ਬਹੁਤ ਵੱਧ ਗਿਆ।"

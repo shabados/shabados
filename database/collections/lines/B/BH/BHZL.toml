@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖਿ ਚਮਕ ਤਰਵਾਰ ਕੀ; ਦੁਰਯਾ ਮਹਿਖ ਤਰ ਜਾਇ ॥"
 page = 855
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But, observing the glitter of the sword, he had already hidden himself under a buffalo,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਡੋਗਰ) ਤਲਵਾਰ ਦੀ ਚਮਕ ਵੇਖ ਕੇ ਮਝ ਦੇ ਹੇਠਾਂ ਜਾ ਲੁਕਿਆ"

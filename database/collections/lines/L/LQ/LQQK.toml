@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੁਜਾ ਸ਼ਾਹ ਤੈਮੂਰ ਬਾਬਰ ਕੁਜਾਸਤ ॥"
 page = 1414
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "How Temur Shah and Babar have dissipated?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੈਮੂਰ, ਬਾਬਰ, ਕਿਥੇ ਹਨ?"

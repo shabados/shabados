@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇਜਵਾਨ ਬਲਵਾਨ ਧਰਤ੍ਰੀ ॥"
 page = 1222
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਤੇਜਵੰਤ, ਬਲਵਾਨ ਅਤੇ ਅਸਤ੍ਰ-ਧਾਰੀ ਛਤ੍ਰੀ ਸੀ।"

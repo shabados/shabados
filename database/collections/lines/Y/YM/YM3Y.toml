@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਜਿ ਤ੍ਰਾਸ ਭਾਈ ਥਿਰ ਭੂਮਿ ਥਲੰ ॥"
 page = 664
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing those four vulture, even the earth below became stable out of fear seeing them,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਡਰ ਨੂੰ ਛਡ ਕੇ ਧਰਤੀ ਉਤੇ ਸਥਿਰ ਹੋ ਗਈ।"

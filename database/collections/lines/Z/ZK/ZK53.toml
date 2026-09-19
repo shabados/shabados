@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਮੌ ਪਰਿਯੋ ਜੁਲਾਹੋ ਜਾਈ ॥੨੩॥"
 page = 926
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was a, well which was not visible to them and the weaver fell in it.(23)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੁਲਾਹਾ ਵਿਚ ਜਾ ਡਿਗਿਆ ॥੨੩॥"

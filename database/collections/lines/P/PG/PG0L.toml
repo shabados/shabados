@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਖ਼ੁਦ ਦਸਤ ਖ਼ਾਹੰਦ, ਨ ਗੀਰੰਦ ਮਾਲ ॥"
 page = 1399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘(He) does not wish to touch other people’s effects,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਆਪਣੇ ਹੱਥਾਂ ਨਾਲ (ਕਿਸੇ ਹੋਰ ਦਾ) ਮਾਲ ਹਥਿਆਉਣ ਦੀ ਇੱਛਾ ਨਹੀਂ ਰਖਦਾ,"

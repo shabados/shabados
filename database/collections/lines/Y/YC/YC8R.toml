@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਜ ਖੁਰਨ ਭੂ ਆਕੁਲ ਭਈ ॥"
 page = 1365
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘੋੜਿਆਂ ਦੇ ਖੁਰਾਂ (ਦੇ ਵਜਣ ਨਾਲ) ਧਰਤੀ ਵਿਆਕੁਲ ਹੋ ਗਈ"

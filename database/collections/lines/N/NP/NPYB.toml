@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰ ਪਰਸਾਦੀ ਪਰਗਟੁ ਹੋਈ ॥"
 page = 1055
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "By the Guru's grace, becomes he manifest."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਾਂ ਦੀ ਦਇਆ ਦੁਆਰਾ ਉਹ ਜ਼ਾਹਰ ਹੋ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "By Guru's Grace, He is revealed."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰ ਕਿਰਪਾ ਤੇ ਪ੍ਰਗਟ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਗੁਰੂ ਦੀ ਕਿਰਪਾ ਨਾਲ ਹੀ ਉਹ ਪਰਗਟ ਹੁੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਰਸਾਦੀ = ਪਰਸਾਦਿ, ਕਿਰਪਾ ਨਾਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pero es a través de la Gracia del Guru que se vuelve Manifiesto."

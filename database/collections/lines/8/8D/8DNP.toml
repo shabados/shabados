@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਦੁਜ਼ਦੇ ਸ਼ਵਦ ਵਕਤ ਸ਼ਬ ਰਾ ਅਸੀਰ ॥੧੭॥"
 page = 1409
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But could not, he surrendered and become a prisoner.(17)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਰਾਤ ਦੇ ਚੋਰ ਨੂੰ ਪਕੜ ਲਿਆ ਜਾਂਦਾ ਹੈ ॥੧੭॥"

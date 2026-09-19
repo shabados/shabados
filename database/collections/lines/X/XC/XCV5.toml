@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਲਿਜੁਗਿ ਨਾਨਕ ਨਾਮੁ ਸੁਖਾਲਾ ॥੩੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In Kaliyug, instead of yogic exercises the name of the Lord who is beyond all sufferings (Nanak) is the only source of delight."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਲਿਜੁਗ ਵਿਖੇ (ਗੁਰੂ) ਨਾਨਕ (ਦਾ ਦੱਸਿਆ ਹੋਇਆ) ਨਾਮ ਹੀ ਸੁੱਖਾਂ ਦਾ ਘਰ ਹੈ।"

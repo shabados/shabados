@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਖਿ ਭਖਿ ਮਾਸ ਕਾਕ ਕਹੂੰ ਕਹਕੈ ॥"
 page = 1383
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਕਾਂ ਮਾਸ ਖਾ ਖਾ ਕੇ ਕਾਂ-ਕਾਂ ਕਰ ਰਹੇ ਸਨ।"

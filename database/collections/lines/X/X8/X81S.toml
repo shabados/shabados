@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮੁਏ ਮੁਰੀਦ, ਗੋਰਿ ਗੁਰ ਪੀਰਾ ॥੨੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Those who have become dead to their ego, they only absorb in the eternal trance in the from of the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜੇਹੜੇ) ਮੁਰੀਦ ਗੁਰੂ ਪੀਰਾਂ ਨੂੰ (ਆਪਣੀ) ਗੌਰ (ਬਣ ਕੇ ਆਪ) ਮੁਰਦੇ ਹੋ ਰਹੇ ਹਨ, (ਭਾਵ ਆਪਾ ਭਾਵ ਤੋਂ ਮਰਕੇ ਗੁਰੂ ਚਰਨਾਂ ਵਿਖੇ ਨਿਵਾਸ ਕਰ ਰਹੇ ਹਨ)।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਰੂਪੰ ਨ ਭੂਪੰ, ਨ ਕਾਯੰ ਨ ਕਰਮੰ ॥"
 page = 24
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without form, without hunger, without body and without action."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ) ਨਾ ਕੋਈ ਰੂਪ ਹੈ, ਨਾ ਹੀ (ਉਸ ਉਪਰ ਕੋਈ) ਰਾਜਾ ਹੈ, ਨਾ ਕੋਈ ਕਾਇਆ ਹੈ ਅਤੇ ਨਾ ਹੀ ਕਰਮ।"

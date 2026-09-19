@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਚਉਰਾਸੀਹ ਲਖ ਜੋਨਿ ਵਿਚਿ; ਜਲੁ ਥਲੁ ਮਹੀਅਲੁ ਤ੍ਰਿਭਵਣਸਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Water earth and the nether world are full of eighty-four lacs of species."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਲਾਂ ਥਲਾਂ ਆਕਾਸ਼ਾਂ ਤਿੰਨੇ ਭਵਨਾਂ ਵਿਚ ਚੌਰਾਸੀ ਲੱਖ ਜੂਨੀਆਂ ਬਣਾਈਆਂ।"

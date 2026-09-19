@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰਦਨ ਪਾਤਿ ਛੋਰਿ ਕੈ ਦਈ ॥"
 page = 977
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the palanquin was passing through the city, the people gave them the way."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਪਰਦਿਆਂ ਦੇ ਪੱਲੇ ਖੋਲ੍ਹ ਦਿੱਤੇ।"

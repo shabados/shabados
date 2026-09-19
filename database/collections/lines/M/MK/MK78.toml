@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਤਿ ਉਠਿ ਕਰਤ ਦੇਵ ਕੀ ਪੂਜਾ ॥"
 page = 626
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਿੱਤ ਉਠ ਕੇ ਕੇਵੜੇ ਅਤੇ ਗੁਲਾਬ ਦੇ ਫੁਲਾਂ"

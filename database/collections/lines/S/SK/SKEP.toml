@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਿਰੇ ਸੁ ਮਰੇ, ਬਚੇ ਤੇ ਹਾਰੇ ॥"
 page = 1269
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ (ਯੁੱਧ-ਭੂਮੀ ਵਿਚ) ਲੜੇ ਸਨ, ਉਹ ਮਾਰੇ ਗਏ, ਜੋ ਬਚ ਗਏ, ਉਹ ਹਾਰ ਗਏ।"

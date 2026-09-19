@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੈ ਸਬਦ ਦੇਵ ਪੁਕਾਰ ਹੀ ॥"
 page = 117
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵਤੇ ਜੈ-ਜੈ-ਕਾਰ ਦੇ ਸ਼ਬਦ ਬੋਲਦੇ ਸਨ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਹਰ ਕਲੀਮ ਹਫਤ ਜਿ ॥"
 page = 269
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“His qualities are known all over the world and he is famous in the seven regions of the world"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸੱਤਾਂ (ਹਫ਼ਤ) ਵਲਾਇਤਾਂ ਵਿੱਚ ਪ੍ਰਗਟ ਹੈ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅੰਤ ਕਾਲ ਸੋਈ ਖਾਪਨ ਹਾਰਾ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The same Temporal Lord ultimately destroys all"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੰਤ ਕਾਲ ਹੀ ਸਭ ਨੂੰ ਖਪਾਉਣ ਵਾਲਾ ਹੈ।"

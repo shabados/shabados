@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੰਕ ਮੈ ਬੰਕ ਨਿਸਾਚਰ ਥੋ; ਰਘੁਨੰਦਨ ਕੋ ਸੁਨਿ ਏਕ ਕਹਾਨੀ ॥"
 page = 985
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the country of Lanka, a devious devil heard the story of Raghunandan (Rama)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੰਕਾ ਵਿਚ ਇਕ ਵਿਗੜੇ ਹੋਏ ਦੈਂਤ ਨੇ ਰਘੁਨੰਦਨ (ਸ੍ਰੀ ਰਾਮ) ਦੀ ਕਹਾਣੀ ਸੁਣੀ"

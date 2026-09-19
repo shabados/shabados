@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਝੈ ਹੂਰੰ ॥੫੦੪॥"
 page = 252
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors with red eyes are shouting, having been intoxicated they are fighting and the heavenly damsels are looking at them.504."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਪਸਰਾਵਾਂ ਵੇਖਦੀਆਂ ਹਨ ॥੫੦੪॥"

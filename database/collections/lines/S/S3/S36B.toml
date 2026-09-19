@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੂਟ︀ਯੋ ਹੁਤੋ ਲੂਟਿ ਧਨੁ ਲੀਨੋ ॥੧੪॥"
 page = 949
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He did not distinguish between the truth and deception and squandered his wealth.(14)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੂਤ ਨੇ ਲੋਕਾਂ ਤੋਂ) ਲੁਟਿਆ ਹੋਇਆ ਧਨ (ਉਸ ਤੋਂ) ਲੁਟ ਲਿਆ ॥੧੪॥"

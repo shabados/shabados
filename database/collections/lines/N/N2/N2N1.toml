@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਛੈਲ ਰੂਪਾ ਨਮੋ ਦੁਸਟ ਦਰਣੀ ॥"
 page = 118
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The beauteous and the destroyer of the tyrants"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੁਆਨ ਰੂਪ ਵਾਲੀ ਅਤੇ ਦੁਸ਼ਟਾਂ ਨੂੰ ਦਲਣ ਵਾਲੀ ਨੂੰ ਨਮਸਕਾਰ ਹੈ;"

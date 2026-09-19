@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਾਇਆ ਮੋਹੁ ਅਗਿਆਨੁ ਹੈ; ਬਿਖਮੁ ਅਤਿ ਭਾਰੀ ॥"
 page = 509
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Spiritual darkness is the basis of love of worldly valuables and it is difficult and exceedingly heavy to ever-come it."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਤਮਕ ਅਨ੍ਹੇਰਾ ਸੰਸਾਰੀ ਪਦਾਰਥਾਂ ਦੇ ਪਿਆਰ ਦੀ ਬੁਨਿਆਦ ਹੈ। ਇਸ ਨੂੰ ਕਾਬੂ ਕਰਨਾ ਮੁਸ਼ਕਿਲ ਅਤੇ ਪਰਮ ਬੋਝਲ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Emotional attachment to Maya is spiritual darkness; it is very difficult and such a heavy load."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਗ੍ਯਾਨ ਕਰ ਕੇ ਮਾਯਾ ਕਾ ਮੋਹੁ ਅਤਿ ਭਾਰੀ (ਬਿਖਮੁ) ਕਠਨ ਹੋ ਰਹਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮਾਇਆ ਦਾ ਮੋਹ ਤੇ ਅਗਿਆਨ (ਰੂਪ ਸਮੁੰਦਰ) ਬੜਾ ਭਾਰਾ ਔਖਾ ਹੈ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਖਮ = ਔਖਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "La ignorancia nos conduce a amar a Maya y muy difícil es tratar de superarla."

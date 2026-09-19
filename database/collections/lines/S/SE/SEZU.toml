@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗੇ ਜਹਾ ਸਿੰਧ ਕੋ ਰਾਈ ॥"
 page = 950
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Floating and floating, the girl reached where the Raja of Sindh was standing."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਅਗੇ ਸਿੰਧ (ਖੇਤਰ) ਦਾ ਰਾਜਾ (ਰਹਿੰਦਾ) ਸੀ।"

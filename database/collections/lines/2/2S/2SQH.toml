@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਤਿਸੁ ਲਛਨ ਨਗਰ ਇਕ ਸੋਹੈ ॥"
 page = 1160
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੱਤੀਸਲਛਣਾਂ (ਨਾਲ ਭਰਪੂਰ) ਇਕ ਨਗਰ ਸ਼ੋਭਦਾ ਸੀ"

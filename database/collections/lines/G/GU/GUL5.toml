@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਆਸ ਗਹਿ ਐਸ ਅਨਾਸਾ ॥"
 page = 650
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Leaving all other desires and keeping only one thought in his mind, Dutt, the king of Yogis moved further"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੇ) ਇਕ ਆਸ ਫੜ ਕੇ ਹੋਰ ਆਸਾਂ ਛਡ ਦਿੱਤੀਆਂ ਹਨ।"

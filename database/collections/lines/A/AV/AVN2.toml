@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨਿ ਮੁਹਿ ਜਾਨੁ ਠਗਉਰੀ ਲਾਈ ॥"
 page = 709
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He has agitated me and driven my life to deception"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਉਸ ਨੇ ਮੇਰੇ ਨਾਲ ਠਗੀ ਕੀਤੀ ਹੈ।"

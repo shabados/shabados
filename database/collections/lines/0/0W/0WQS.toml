@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁੰਡਨ ਤੇ ਗਜ ਰਾਜਨ ਕੋ ਗਹਿ; ਕੈ, ਕਰਿ ਕੈ ਬਲ ਸੋ ਝਕਝੋਰੈ ॥"
 page = 474
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Catching hold of the trunks of the elephants, is shaking them violently with force"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਡਾਂ ਤੋਂ ਵੱਡੇ ਹਾਥੀਆਂ ਨੂੰ ਪਕੜ ਕੇ ਹੱਥਾਂ ਦੇ ਜ਼ੋਰ ਨਾਲ ਝਕਝੋਰ ਦਿੰਦੇ ਹਨ।"

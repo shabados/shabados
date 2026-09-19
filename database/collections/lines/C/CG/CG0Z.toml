@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੂਰਣੁ, ਪਰਉਪਕਾਰੁ ਕਰੰਦਾ ॥੨॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Only perfect one undertakes altruism."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ) ਪੂਰਾ ਪਰੋਪਕਾਰ ਕਰਦਾ ਰਹਿੰਦਾ ਹੈ।"

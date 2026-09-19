@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਨ ਸੀਤ ਘਾਮ, ਬਰਖਾ ਸਹੰਤ ॥"
 page = 29
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "For Thy realization they endure cold heat and rain on their body!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਈ ਲੋਕ) ਸ਼ਰੀਰ ਉਤੇ ਸਰਦੀ, ਗਰਮੀ ਅਤੇ ਬਰਖਾ ਸਹਿੰਦੇ ਹਨ,"

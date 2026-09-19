@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਮੋ ਕੌ ਤੈ ਲਯੋ ਬੁਲਾਈ ॥੧੩॥"
 page = 949
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the effect ofthe intoxication wore off, you called me over.’(13)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਤੁਸੀਂ ਮੈਨੂੰ ਬੁਲਾ ਲਿਆ ॥੧੩॥"

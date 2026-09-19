@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰਫ਼ਤੰਦ ਸ਼ਮਸ਼ੇਰ ਪੌਲਾਦ ਦਸਤ ॥੧੯॥"
 page = 1413
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘And took the swords in their hands,(19)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ) (ਫਿਰ) ਫ਼ੌਲਾਦੀ ਤਲਵਾਰਾਂ ਹੱਥ ਵਿਚ ਪਕੜ ਲਈਆਂ ॥੧੯॥"

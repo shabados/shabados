@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨੋ ਬੈਨ ਬਾਲਾ, ਸੁਰੂਪੰ ਸੁ ਭਾਨੰ ॥੫੩॥"
 page = 630
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O princess! See that sun-faced great king of the East.53."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਰਾਜ ਕੁਮਾਰੀ! ਸੁਣੋ, (ਇਸ ਦਾ) ਸਰੂਪ ਸੂਰਜ ਵਰਗਾ ਹੈ ॥੫੩॥"

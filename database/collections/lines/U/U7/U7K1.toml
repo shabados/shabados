@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਆਸਫ ਖਾਨ ਬਿਸਾਰਿ; ਹ੍ਰਿਦੈ ਤੇ ਦੇਤ ਭੀ ॥੧੨॥"
 page = 1124
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਸਫ਼ ਖ਼ਾਨ ਨੂੰ (ਉਸ ਨੇ) ਹਿਰਦੇ ਤੋਂ ਭੁਲਾ ਦਿੱਤਾ ॥੧੨॥"

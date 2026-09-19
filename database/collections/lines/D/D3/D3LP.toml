@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਦਰ ਪੇਸ਼ ਯਾਰੇ ਵਫ਼ਾਦਾਰ ਮਾ ॥੧੭॥"
 page = 1415
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Go to the blossoming bud and bring her to me.(17)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀ ਵਫ਼ਾਦਾਰ ਯਾਰ ਕੋਲ ਜਾ ॥੧੭॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਾਥਿ ਨ ਪਾਰਾਵਾਰੁ, ਲਹਰੀ ਛਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "His waves, shades etc are limitless."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਅਕਾਲ ਰੂਪ ਸਾਗਰ ਦੇ) ਪਾਰਾਵਾਰ ਦਾ ਕੋਈ ਅੰਤ ਨਹੀਂ ਹੈ (ਅਨੰਦ ਦੀਆਂ) ਲਹਿਰਾਂ ਨਾਲ ਛਾ ਰਿਹਾ ਹੈ।"

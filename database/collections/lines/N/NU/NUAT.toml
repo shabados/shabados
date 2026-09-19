@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਿਰ ਕੇਸ ਧਾਰਿ ਗਹਿ ਖੜਗ ਕੋ; ਸਭ ਦੁਸਟ ਪਛਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Head high with full tresses, and the sword in hand, (the Panth) eliminated the adversaries,"

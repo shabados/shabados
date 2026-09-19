@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਨਿ ਮਨ ਅਭੇਵ ॥"
 page = 667
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "These sages, supreme amongst Sannyasis understood the internal mysteries"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਹੀਂ ਪਾਇਆ ਜਾ ਸਕਦਾ।"

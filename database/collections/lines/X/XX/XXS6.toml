@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਣ ਗਾਵਤ; ਮਨੁ ਹਰਿਆ ਹੋਵੈ ॥"
 page = 104
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "By signing Thine praises the soul is reverdured."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰਾ ਜੱਸ ਗਾਉਣ ਦੁਆਰਾ ਆਤਮਾ ਸਰ-ਸਬਜ਼ ਹੋ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Singing Your Glorious Praises, my mind is rejuvenated."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੁਮਾਰੇ ਗੁਨ ਗਾਇਨ ਕਰਨੇ ਸੇ ਮਨੁ ਹਰਿਆ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਪਰਮਾਤਮਾ ਦੀ ਸਿਫ਼ਤ-ਸਾਲਾਹ ਕਰ ਕੇ (ਆਤਮਕ ਜੀਵਨ ਵਲੋਂ ਮੇਰਾ ਸੁੱਕਾ ਹੋਇਆ) ਮਨ ਹਰਾ ਹੁੰਦਾ ਜਾ ਰਿਹਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗਾਵਤ = ਗਾਂਦਿਆਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Recitando Tus Alabanzas, mi mente está en flor;"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ ਰਹਤ ਜਾਇ ਗ੍ਰਿਹ ਭਈ ॥੧੩॥"
 page = 1135
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ (ਫ਼ੌਜਦਾਰ) ਦੇ ਘਰ ਜਾ ਕੇ ਰਹਿਣ ਲਗੀ ॥੧੩॥"

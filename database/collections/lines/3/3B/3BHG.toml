@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁ ਮੈ ਤੁਮੈ ਸਿਵ ਬਾਨੀ ਕਹੀ ॥"
 page = 891
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘What I told you about Shiva’s utterances,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੁਹਾਨੂੰ ਜਿਹੜੀ ਸ਼ਿਵ-ਬਾਣੀ ਕਹੀ ਸੀ,"

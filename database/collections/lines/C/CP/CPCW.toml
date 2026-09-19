@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਚਿੰਤਤ ਹੀ; ਦੀਸੈ ਸਭੁ ਕੋਇ ॥"
 page = 932
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Every one seems to be care-ridden."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹਰ ਕੋਈ ਫਿਕਰਮੰਦ ਦਿਸਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Everyone has worries and cares."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਕੋਈ ਚਿੰਤਾ ਕਰਤੇ ਹੀ ਦੇਖੀਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਧਰ ਤੱਕੋ ਚੰਚਲਤਾ ਦੇ ਕਾਰਨ) ਹਰੇਕ ਜੀਵ ਚਿੰਤਾਤੁਰ ਦਿੱਸਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਚਿੰਤਤ = ਚਿੰਤਾਤੁਰ। ਸਭੁ ਕੋਇ = ਹਰੇਕ ਜੀਵ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "trascurre siempre Consciente y alcanza la Vida Eterna."

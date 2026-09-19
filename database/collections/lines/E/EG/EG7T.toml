@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਸ਼ਮਸ਼ੇਰ ਰਾ ਦੀਦ ਆਂ ਨੌਜਵਾ ॥"
 page = 1407
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When that young man saw the sword,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਸ ਨੌਜਵਾਨ ਨੇ ਤਲਵਾਰ ਨੂੰ ਵੇਖਿਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਾਡਤ ਬਾਨ ਤਾਨਿ ਧਨੁ ਕਰਿ ਰਿਸਿ ॥"
 page = 959
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "From both sides braves swarmed and, in fury, shot the arrows."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕ੍ਰੋਧ ਨਾਲ ਕਮਾਨਾਂ ਖਿਚ ਕੇ ਤੀਰ ਛਡਦੇ ਹਨ।"

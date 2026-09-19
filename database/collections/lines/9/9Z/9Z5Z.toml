@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੋ ਤਨ ਤਯਾਗਤ ਹੀ ਸੁਨ ਰੇ ਜੜ, ਪ੍ਰੇਤ ਬਖਾਨ ਤ੍ਰਿਆ ਭਜਿ ਜੈ ਹੈ ॥"
 page = 716
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After abandoning the body, O fool! Your wife will also run away calling you a ghost"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੂਰਖ! ਤੇਰੇ ਸ਼ਰੀਰ ਦੇ ਛਡਦਿਆਂ ਹੀ (ਤੇਰੀ) ਇਸਤਰੀ ਪ੍ਰੇਤ ਪ੍ਰੇਤ ਕਹਿੰਦੀ (ਤੇਰੇ ਕੋਲੋਂ) ਭਜ ਜਾਏਗੀ।"

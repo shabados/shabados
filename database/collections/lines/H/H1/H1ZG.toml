@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠਤ ਕੜਾਕ ॥੩੦॥"
 page = 103
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The guns boom and produce roaring sounds. 30"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਗੋਲੀਆਂ ਵਰ੍ਹਨ ਨਾਲ) ਕਾੜ-ਕਾੜ (ਦੀ ਧੁਨ) ਉਠ ਰਹੀ ਹੈ ॥੩੦॥"

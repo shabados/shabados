@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੋਲਿ ਰਸੋਯਹਿ ਤਿਨ ਕਹੀ; ਇਹ ਰਾਜੈ ਬਿਖਿ ਦੇਹੁ ॥"
 page = 883
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She asked her cook to give poison to the Raja,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਰਸੋਈਏ ਨੂੰ ਬੁਲਾ ਕੇ ਕਿਹਾ ਕਿ ਇਸ ਰਾਜੇ ਨੂੰ ਜ਼ਹਿਰ ਦੇ ਦਿਓ।"

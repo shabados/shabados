@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮ ਸੇਵਾ ਕਰਿ ਹੈ ਜਗਨਾਥਾ ॥੧੭॥"
 page = 1345
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਸੀਂ ਜਗਨ ਨਾਥ ਦੀ ਪੂਜਾ ਕਰਾਂਗੇ ॥੧੭॥"

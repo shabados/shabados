@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਯੋ ਭਿਰਨ ਇਹੀ ਬਲੁ ਕਹਿਯੋ ॥"
 page = 489
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਵੈਰੀ ਪੈਰਾਂ ਦੇ ਆਧਾਰ ਤੇ ਪੈਦਲ ਹੋ ਗਿਆ,"

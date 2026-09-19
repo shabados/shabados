@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਮਧਰ ਵਹੈ ਬਹੁਰਿ ਉਰਿ ਮਾਰੀ ॥"
 page = 968
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She narrated this story to all and took the dagger and thrust it into her own heart."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਉਹ ਜਮਧਾੜ ਆਪਣੀ ਛਾਤੀ ਵਿਚ ਮਾਰ ਲਈ।"

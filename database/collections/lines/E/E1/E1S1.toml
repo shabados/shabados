@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਕਿਓ ਛੋਭ ਛੱਤ੍ਰੀ ਕਰਯੋ ਜੁੱਧ ਸੁੱਧੰ ॥"
 page = 60
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the Maternal uncle Kirpal, in great ire, manifested the war-feats like a true Kshatriya."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਛਾਤ੍ਰ-ਤੇਜ ਵਿਚ ਰੰਗੀਜ ਕੇ ਉਨ੍ਹਾਂ ਨੇ ਭਿਆਨਕ ਯੁੱਧ ਕੀਤਾ।"

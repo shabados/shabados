@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸ ਭਾਤਿ ਨਿਤ ਭ੍ਰਿਤਨ ਕੇ; ਨਿਸਦਿਨ ਸੋਚ ਬਿਹਾਇ ॥"
 page = 851
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja’s hirelings were alarmed and they reflected,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਰਾਜੇ ਦੇ ਨੌਕਰ ਰਾਤ ਦਿਨ ਇਹੀ ਸੋਚਦੇ ਰਹਿੰਦੇ"

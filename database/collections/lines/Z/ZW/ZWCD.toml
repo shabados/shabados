@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿਸਤੁਆ ਹਰੰਗੇ ॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Lord! Thou art in every colour."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਰ ਇਕ ਵਿਚ ਤੂੰ ਹਰ ਰੰਗ ਵਿਚ ਵਿਆਪਤ ਹੈਂ,"

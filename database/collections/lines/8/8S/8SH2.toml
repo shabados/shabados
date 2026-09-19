@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਕਹਾ ਉਪਮਾ ਤਿਹ ਕੀ; ਸੁ ਕਹੀ ਜੁ ਕਛੁ ਮਨ ਮਧਿ ਲਹੀ ਹੈ ॥"
 page = 306
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What more should I describe this spectacle"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਹੋਰ ਉਪਮਾ ਕੀ ਕਹਾਂ, ਉਹੀ ਕਹੀ ਹੈ ਜੋ ਮਨ ਵਿਚ ਆਈ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੈ ਅਬਲਾ ਪਹੁਚਾਵੈ ਤਹਾ ॥੧੭॥"
 page = 943
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Wherever Raja wanted to go, the lady took him there.(17)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਹੀ ਕੈਕਈ ਲੈ ਕੇ ਪਹੁੰਚਾ ਦਿੰਦੀ ਸੀ ॥੧੭॥"

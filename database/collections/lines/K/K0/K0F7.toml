@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਧਸੰਗਤਿ ਮਿਲਿ, ਅਲਖੁ ਲਖਾਵੈ ॥੧੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Such gurmukhs have the glimpse of that invisible Lord in the holy congregation."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਅਜਿਹੇ) ਸਾਧ ਸੰਗਤ ਦੇ ਮਿਲਨ ਵਿਖੇ ਅਲਖ ਦੀ ਲੱਖਤਾ ਹੁੰਦੀ ਹੈ।"

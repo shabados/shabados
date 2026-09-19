@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਰਿ ਆਂਖਿ ਅਉਰ ਨ ਆਨਿ ॥੫੮੫॥"
 page = 610
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the people consider me as their own and none other comes to their sight.585."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੋਰ ਕਿਸੇ ਨੂੰ (ਆਪਣੀ) ਅੱਖ ਹੇਠ ਨਾ ਲਿਆਂਦਾ ॥੫੮੫॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਕਾ ਸੋਕ ਦੂਰਿ ਕਰਿ ਦੀਨਾ ॥੧੧॥"
 page = 834
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She came forward herself to receive him and pacified her anxiety.(11)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਚਿਤ ਦਾ ਦੁਖ ਦੂਰ ਕਰ ਦਿੱਤਾ ॥੧੧॥"

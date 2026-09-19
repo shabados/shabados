@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੀੜਤ ਕੈ ਸਬ ਬਾਨਨ ਸੋ; ਪੁਨਿ ਇੰਦ੍ਰ ਤੇ ਆਦਿਕ ਬੀਰ ਭਜਾਏ ॥"
 page = 442
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Inflicted by the arrows Indra etc. ran away"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਦੇ) ਬਾਣਾਂ ਨਾਲ ਸਾਰੇ ਪੀੜਿਤ ਹੋ ਗਏ ਹਨ ਅਤੇ ਇੰਦਰ ਆਦਿ ਸਾਰੇ ਸ਼ੂਰਵੀਰ ਭਜਾ ਦਿੱਤੇ ਗਏ ਹਨ।"

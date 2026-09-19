@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਦਮ ਪਾਚ ਸਾਤਕ ਲਗੇ; ਮਿਲੇ ਸਿਤਾਬੀ ਆਇ ॥੨॥"
 page = 837
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And within five or seven feet they caught him.(2)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪੰਜ ਸਤ ਕਦਮਾਂ ਉਤੇ ਜਲਦੀ ਹੀ ਆ ਮਿਲੇ ॥੨॥"

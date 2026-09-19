@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਿਥਮੈ ਧਨ ਸਬਦੋ ਉਚਰਿ; ਹਰਤਾ ਆਯੁਧ ਦੀਨ ॥"
 page = 732
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਧਨ' ਸ਼ਬਦ ਦਾ ਉਚਾਰਨ ਕਰੋ, ਫਿਰ 'ਹਰਤਾ' ਅਤੇ 'ਆਯੁਧ' ਸ਼ਬਦ ਜੋੜੋ।"

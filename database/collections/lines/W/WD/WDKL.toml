@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਮਿਤ ਬਾਨ ਬਰਛਾ ਭਏ; ਰਹਤ ਪਵਨ ਉਰਝਾਇ ॥੧੨॥"
 page = 813
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They all assembled in the fighting fields.(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਣਾਂ ਦੀ ਬੇਹਿਸਾਬੀ ਬਰਖਾ ਹੋਈ, (ਜਿਸ ਵਿਚ) ਪੌਣ ਵੀ ਉਲਝ ਕੇ ਰਹਿ ਗਈ ॥੧੨॥"

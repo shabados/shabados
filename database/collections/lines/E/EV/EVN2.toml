@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਈ ਸੇਸਨਾਗ ਅਸੇਸ ॥੯॥"
 page = 611
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many indras are in His service, many Brahmas recite the Vedas, many Shivas sit at His Gate and many Sheshnagas remain present in order to become His bed.9."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਹੀ ਸ਼ੇਸ਼ਨਾਗ ਅਣਗਿਣਤ (ਨਾਮ ਜਪਦੇ ਹਨ) ॥੯॥"

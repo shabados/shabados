@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੀਝਤ ਰਾਜਾ ਖੀਝਤ ਅਛਰਾ ॥"
 page = 629
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The heavenly damsels were dancing while singing, seeing whom, the kings got pleased and their queens were also getting angry"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਖੁਸ਼ ਹੋ ਰਹੇ ਸਨ ਅਤੇ (ਉਨ੍ਹਾਂ ਦੀਆਂ) ਰਾਣੀਆਂ ('ਅਛਰਾ') ਖਿਝ ਰਹੀਆਂ ਸਨ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਦਾ ਪ੍ਰੇਮ ਤੈਨੂੰ ਰੱਬ ਦਾ ਹੀ ਰੂਪ ਬਣਾ ਦਿੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਇਸ਼ਕਿ ਮੌਲਾ ਮਰ ਤੁਰਾ ਮੌਲਾ ਕੁਨਦ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Love for Waaheguru transforms you into the very image of Waaheguru Himself,"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪਾਰਬ੍ਰਹਮ; ਅਪਰੰਪਰ ਸੁਆਮੀ ॥"
 page = 192
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thou. O Limitless Lofty Lord Master,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੇ ਹੱਦਬੰਨਾ-ਰਹਿਤ ਉੱਚੇ ਸਾਹਿਬ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Supreme Lord God, Infinite Lord and Master,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਾਰਬ੍ਰਹਮ! ਹੇ ਪਰੇ! ਤੇ ਪਰੇ ਬੇਅੰਤ ਸ੍ਵਾਮੀ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਾਰਬ੍ਰਹਮ ਪ੍ਰਭੂ! ਹੇ ਬੇਅੰਤ ਪ੍ਰਭੂ! ਹੇ ਜਗਤ ਦੇ ਮਾਲਕ ਪ੍ਰਭੂ!"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਪਰੰਪਰ = ਹੇ ਬੇਅੰਤ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Tú, Maestro Trascendente e Infinito;"

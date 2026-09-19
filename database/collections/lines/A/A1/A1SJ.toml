@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨਿ ਬਾਹ ਕਟੀ ਹਰਿ ਦਾਤਨ ਸੋ; ਤਿਹ ਕੇ ਸਭ ਦਾਤ ਤਬੈ ਝਰ ਗੇ ॥"
 page = 373
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He (Keshi) tried to penetrate his teeth in the arm of Krishna, but his teeth fell off"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ (ਜਦ) ਦੰਦਾਂ ਨਾਲ ਕ੍ਰਿਸ਼ਨ ਦੀ ਬਾਂਹ ਕਟੀ, ਤਦ ਉਸ ਦੇ ਸਾਰੇ ਦੰਦ ਝੜ ਗਏ।"

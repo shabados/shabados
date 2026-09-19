@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਗਰ ਆਪਨੇ ਓਰ ਸਿਧਾਰਿਯੋ ॥੨੯॥"
 page = 995
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "in the meantime they had surrounded him.(29)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਨਗਰ ਵਲ ਚਲ ਪਿਆ ॥੨੯॥"

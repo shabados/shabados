@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਠੇ ਅਲੀ ਇਕ; ਲੀਨੋ ਭਵਨ ਬੁਲਾਇ ਕੈ ॥"
 page = 1097
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਸਹੇਲੀ ਭੇਜ ਕੇ ਉਸ ਨੂੰ ਭਵਨ ਵਿਚ ਬੁਲਾ ਲਿਆ"

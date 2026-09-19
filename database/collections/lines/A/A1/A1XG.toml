@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਸਿੰਘ ਸਿੰਘੰ ਡਹੇ ਗਜ ਮਾਤੰ ॥"
 page = 165
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors are giving the blows of their fists and feet in this way as if the thundering lions have furiously attacked one another"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਜ ਲਗਦਾ ਸੀ) ਮਾਨੋ ਸ਼ੇਰ ਨਾਲ ਸ਼ੇਰ ਜਾਂ ਮਸਤ ਹਾਥੀ ਨਾਲ ਹਾਥੀ ਭਿੜ ਰਿਹਾ ਹੋਵੇ।"

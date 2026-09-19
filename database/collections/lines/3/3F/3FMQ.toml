@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਬਯੋਤ ਬਾਗੋ ਤਿਮੰ ਸੀਅ ਸੋਹੀ ॥"
 page = 272
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On all the four sides, revolving the canopies, declarations were made regarding Ram and SIta also looked splendid like a decorated garden."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੀਤਾ ਵੀ ਇਸ ਤਰ੍ਹਾਂ ਸ਼ੋਭ ਰਹੀ ਸੀ ਮਾਨੋ ਵਿਉਂਤਿਆ ਹੋਇਆ ਬਾਗ਼ ਹੋਵੇ।"

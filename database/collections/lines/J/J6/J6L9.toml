@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੂ ਕਰਤਾਰੁ; ਕਰਹਿ ਸੋ ਹੋਇ ॥"
 page = 723
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thou art the Creator, What Thou doest, that alone happens."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਿਰਜਣਹਾਰ ਹੈ, ਜੋ ਤੂੰ ਕਰਦਾ ਹੈ, ਕੇਵਲ ਓਹੀ ਹੁੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "You are the Creator; whatever You do, that alone happens."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਕਰਤਾ ਪੁਰਖ! ਜੋ ਤੂੰ ਕਰਤਾ ਹੈਂ ਸੋਈ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸਾਰੇ ਜਗਤ ਦਾ ਪੈਦਾ ਕਰਨ ਵਾਲਾ ਹੈਂ, ਜੋ ਕੁਝ ਤੂੰ ਕਰਦਾ ਹੈਂ, ਉਹੀ ਹੁੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰਹਿ = ਤੂੰ ਕਰਦਾ ਹੈਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y sólo ocurre lo que es Tu Voluntad, oh Señor Creador."

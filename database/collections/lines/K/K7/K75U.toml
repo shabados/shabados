@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਘੁਕੁਲ ਬੀਚ ਅਧਿਕ ਉਜਿਯਾਰੋ ॥"
 page = 940
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the city of Ropar, there lived a magnanimous Raja called"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਰਘੂਕੁਲ ਵਿਚ ਬਹੁਤ ਪ੍ਰਸਿੱਧ ਸੀ।"

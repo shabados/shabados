@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਜੋਂ ਸੁ ਏਕ ਨਾਮਯੰ ॥"
 page = 58
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੈਂ ਕੇਵਲ) ਇਕ (ਪ੍ਰਭੂ ਦੇ) ਨਾਮ ਦਾ ਭਜਨ ਕਰਾਂਗਾ"

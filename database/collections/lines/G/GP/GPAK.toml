@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਆਲੂਦਗੀ ਦਰ ਨ ਬਸਤਨ ਕਮਰ ॥੪੦॥"
 page = 1399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Because he cannot not indulge in the bad deeds.(40)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਬੁਰਾਈ ਲਈ ਲਕ ਨਹੀਂ ਬੰਨ੍ਹਦਾ ॥੪੦॥"

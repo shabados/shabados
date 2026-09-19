@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਬ੍ਰਿਜਨਾਥ ਇਹੀ, ਇਹ ਪਾਰਥ; ਭੀਮ ਇਹੈ, ਤਿਹ ਭੂਪਤਿ ਜਾਨੋ ॥"
 page = 532
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Arjuna said like this to Krishna, then the king thought that they were, in fact, Krishna, Arjuna and Bhima."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ) ਰਾਜੇ ਨੇ ਜਾਣ ਲਿਆ ਕਿ ਇਹ ਕ੍ਰਿਸ਼ਨ ਹੈ, ਇਹ ਅਰਜਨ ਹੈ ਅਤੇ ਇਹ ਭੀਮ ਹੈ।"

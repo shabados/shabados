@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਤਸਕਰ ਤਾ ਕੌ ਜਗ ਕਹੈ ॥"
 page = 989
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There lived one lowborn called Beer Datt, who was known as a big thief."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਸਾਰਾ ਜਗਤ ਵੱਡਾ ਚੋਰ ਕਹਿੰਦਾ ਸੀ।"

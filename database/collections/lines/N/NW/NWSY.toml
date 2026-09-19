@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖ︀ਯੋ ਹੁਤੋ ਜੌਨੇ ਅਤਿਥ ਵਹੈ ਚਲਿਯੋ ਹੈ ਸੰਗ ॥੧੬॥"
 page = 821
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The people, that mendicant, who had seen all the happenings, came along too.(16)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਅਤਿਥ ਵੀ ਨਾਲ ਚਲ ਪਿਆ (ਜਿਸ ਨੇ ਇਹ ਘਟਨਾ) ਵੇਖੀ ਸੀ ॥੧੬॥"

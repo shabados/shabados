@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਸ ਹਜਾਰ ਪਨਹੀਨ ਕੀ; ਸਹੀ ਜੁਲਾਹੇ ਮਾਰਿ ॥"
 page = 926
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After getting the beating of more than ten thousand shoes,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦਸ ਹਜ਼ਾਰ ਜੁਤੀਆਂ ਦੀ ਮਾਰ ਜੁਲਾਹੇ ਨੇ ਖਾਈ।"

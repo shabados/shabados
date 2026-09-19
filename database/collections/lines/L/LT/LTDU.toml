@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਉਸ ਗੁਰੂ ਤੋਂ ਬਿਨਾਂ ਸਾਰਾ ਜਹਾਨ ਘੋਰ ਅਨ੍ਹੇਰਾ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਆਲਮੇ ਦਾਂ ਜੁਜ਼ ਊ ਤਮਾਮ ਸਿਆਹ ॥੫॥"
 page = 1
 line = 5
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Still the whole world will be in pitch darkness without Him. (5)"

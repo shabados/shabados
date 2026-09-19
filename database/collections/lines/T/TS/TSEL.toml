@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਜਾਤ ਬ︀ਯਾਹ ਨਹਿ ਕੀਨੋ ॥੪॥"
 page = 992
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘You have stolen my heart and I cannot go to marry any body else.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਲਈ (ਮੈਂ ਕਿਸੇ ਹੋਰ ਨਾਲ) ਵਿਆਹ ਨਹੀਂ ਕਰ ਸਕਦੀ ॥੪॥"

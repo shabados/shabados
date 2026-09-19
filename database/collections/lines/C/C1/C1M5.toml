@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮ ਤੁਮ ਵੈ ਤੀਨੋ ਮਿਲ ਖਾਵੈ ॥੪॥੨੯੪॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Which they, thou and me, all shall eat together.”4.294."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਸੀਂ, ਤੁਸੀਂ ਤੇ ਉਹ ਤਿੰਨੋ ਮਿਲ ਕੇ ਖਾਵਾਂਗੇ ॥੪॥੨੯੪॥"

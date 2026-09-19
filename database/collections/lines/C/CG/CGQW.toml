@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੀਤਿ ਨ ਜਾਨਤ ਪ੍ਰੀਤ ਕੀ; ਪੈਸਨ ਕੀ ਪਰਤੀਤ ॥"
 page = 828
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘She does not understand the essence of love as money is the only her passion."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਪ੍ਰੇਮ ਦੀ ਰੀਤ ਨੂੰ ਨਹੀਂ ਸਮਝਦੀ, (ਇਸ ਨੂੰ) ਪੈਸਿਆਂ ਵਿਚ ਹੀ ਵਿਸ਼ਵਾਸ ਹੈ।"

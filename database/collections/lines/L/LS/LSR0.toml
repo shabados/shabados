@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਲਿ ਕੰਪਤ ਭੀਰੁ ਅਭੀਰ ਭਯੰ ॥"
 page = 600
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਲਕੀ (ਅਵਤਾਰ) ਦੇ ਭੈ ਕਰ ਕੇ ਕਾਇਰ ਅਤੇ ਸੂਰਵੀਰ (ਸੂਰਮੇ) ਕੰਬ ਰਹੇ ਹਨ।"

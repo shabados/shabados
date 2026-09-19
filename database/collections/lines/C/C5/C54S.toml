@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਕੇ ਨਾਮ ਰਾਹੋ ਸੁਰਾਹੋ ਦਿਗਰ ॥"
 page = 1425
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The name of one horse is Rahu and the other is Surahu."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਘੋੜੇ ਦਾ ਨਾਂ ਰਾਹੋ ਸੀ ਅਤੇ ਦੂਜੇ ਦਾ ਸੁਰਾਹੋ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਹਰ ਲਹੌਰ ਬਿਖੈ ਹੁਤੀ; ਏਕ ਬਹੁਰਿਯਾ ਸਾਹ ॥"
 page = 819
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A trader’s wife used to live in the city of Lahore."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲਾਹੌਰ ਨਗਰ ਵਿਚ ਇਕ ਸ਼ਾਹ ਦੀ ਇਸਤਰੀ ਰਹਿੰਦੀ ਸੀ,"

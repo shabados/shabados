@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਰੱਬ ਹਰ ਹਾਲਤ ਵਿਚ ਸਾਡੀ ਰੱਖਿਆ ਲਈ ਹਾਜ਼ਰ ਨਾਜ਼ਰ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਚੂੰ ਖ਼ੁਦਾ ਹਾਜ਼ਿਰ ਅਸਤ ਦਰ ਹਮਾ ਹਾਲ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Who has been able to attain (or attach himself to) a perfect Guru. (211)"

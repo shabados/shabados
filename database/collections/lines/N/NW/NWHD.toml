@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਸ ਚਾਰ ਚਾਰੁ ਬਿਦਿਯਾ ਨਿਧਾਨ ॥"
 page = 602
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ੧੮ ਵਿਦਿਆਵਾਂ ਦਾ ਖ਼ਜ਼ਾਨਾ ਸੀ।"

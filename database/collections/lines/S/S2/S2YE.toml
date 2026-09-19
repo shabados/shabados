@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮੈ ਆਪਨੀ ਕਾਲ ਤੇਊ ਦਲੀਅੰ ॥"
 page = 44
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The KAL crushed them on their turn."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ) ਆਪਣੀ ਵਾਰੀ 'ਤੇ ਕਾਲ ਨੇ ਉਨ੍ਹਾਂ ਨੂੰ ਮਸਲ ਦਿੱਤਾ।"

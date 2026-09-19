@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਰੀ ਏਕ ਬੇਲੰਬ, ਰਾਜਾ, ਨ ਕੀਜੋ ॥੧੫॥"
 page = 1221
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੇ ਰਾਜਨ! ਇਕ ਘੜੀ ਵੀ ਦੇਰ ਨਹੀਂ ਕਰਨੀ ॥੧੫॥"

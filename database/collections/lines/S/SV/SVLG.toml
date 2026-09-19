@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ ਬੀਚ ਰਾਖ ਤਿਹ ਧਾਰਿਯੋ ॥੩੭॥"
 page = 934
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the wilderness he built a house and he kept her there.(37)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਵਿਚ ਉਸ ਨੂੰ ਟਿਕਾ ਦਿੱਤਾ ॥੩੭॥"

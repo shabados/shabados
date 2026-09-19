@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ਼ਰੀਅਤ ਪ੍ਰਸਤੋ ਫ਼ਜ਼ੀਲਤ ਮੁਆਬ ॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the Source of all virtues, keeper of Dharma"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਧਰਮ ਦੀ ਪਾਲਨਾ ਕਰਨ ਵਾਲਾ, ਵਡਿਆਈਆਂ ਦਾ ਠਿਕਾਣਾ,"

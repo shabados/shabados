@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੁਕਮਿਨੀ ਬਾਚ ਸਖੀਅਨ ਸੋ ॥"
 page = 494
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Rukmani addressed to her friends:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰੁਕਮਨੀ ਆਪਣੀਆਂ ਸਹੇਲੀਆਂ ਨੂੰ ਕਹਿੰਦੀ ਹੈ:"

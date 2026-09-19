@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਭਿੰਨ ਭਿੰਨੇ ਅਡੰਡ ਡਾਡੇ ॥"
 page = 223
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨ ਭੇਦੇ ਜਾ ਸਕਣ ਵਾਲਿਆਂ ਨੂੰ ਭੇਦ ਦਿੱਤਾ, ਨ ਡੰਡੇ ਜਾ ਸਕਣ ਵਾਲਿਆਂ ਨੂੰ ਡੰਡ ਦਿੱਤਾ,"

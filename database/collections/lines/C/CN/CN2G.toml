@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਤਛਿਨ ਅਕਪਟ ਕਿਨੋ ਉਦੋਤ ॥੪੪॥"
 page = 638
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That king of the Yogis spread his infinite greatness and glory and on his manifestation, the fraudulent tendencies trembled and he made them stingless in an instant.44."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਉਸੇ ਵੇਲੇ 'ਅਕਪਟ' ਨੂੰ ਪ੍ਰਗਟ ਕਰ ਦਿੱਤਾ ॥੪੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਮ ਦੇਸ ਕੇ ਸਾਹ ਕੋ; ਸੁੰਦਰ ਏਕ ਸਪੂਤ ॥"
 page = 888
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Shah of the country of Siam had a san,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਾਮ ਦੇਸ ਦੇ ਬਾਦਸ਼ਾਹ ਦਾ ਇਕ ਸੁੰਦਰ ਪੁੱਤਰ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਧਰਮ ਕੇ ਕਰਮ, ਕੇ ਭਰਮ ਮਾਨੇ ॥"
 page = 27
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere Thou acceptest the ritualistic discipline as illusion!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ (ਤੁਸੀਂ) ਧਰਮ-ਕਰਮ ਨੂੰ ਭਰਮ ਮੰਨਣ ਵਾਲੇ ਹੋ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਰ ਨਰ ਨਾਗਿ ਭੁਜੰਗਨ ਮੋਹੈ ॥੨॥"
 page = 1006
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her magnificent youth was relished by the gods, devils and serpents.(2)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਕਰ ਕੇ) ਦੇਵਤੇ, ਮਨੁੱਖ ਅਤੇ ਨਾਗ ਤੇ ਭੁਜੰਗ ਮੋਹੇ ਪਏ ਸਨ ॥੨॥"

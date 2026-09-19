@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਧੰਨਿ ਜਨਮੁ; ਤਾਹੀ ਕੋ ਗਣੈ ॥"
 page = 341
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Blessed is accounted the advent of him,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੁਬਾਰਕ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ ਉਸ ਦਾ ਆਗਮਨ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Blessed is the coming of one"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸੀ ਕਾ ਜਨਮ ਧੰਨ ਗਿਣੀਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਉਸੇ ਮਨੁੱਖ ਦੇ ਜੀਵਨ ਨੂੰ ਭਾਗਾਂ ਵਾਲਾ ਗਿਣਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਧੰਨਿ = ਮੁਬਾਰਿਕ, ਭਾਗਾਂ ਵਾਲਾ। ਤਾਹੀ ਕੋ = ਉਸੇ (ਮਨੁੱਖ) ਦਾ ਹੀ। ਗਣੈ = (ਜਗਤ) ਗਿਣਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Es considerada Bendecida la vida de aquél que calma su mente"

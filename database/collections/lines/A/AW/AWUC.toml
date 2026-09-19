@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੀਨ ਤ੍ਰਿਆਨ ਬਰਾ ਜਿਹ ਰੁਚਿ ਕਰ ॥੨੧॥"
 page = 48
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who had been a great archer and had married three wives with pleasure.21."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਆਪਣੀ ਖੁਸ਼ੀ ਨਾਲ ਤਿੰਨ ਇਸਤਰੀਆਂ ਨਾਲ ਵਿਆਹ ਕੀਤਾ ॥੨੧॥"

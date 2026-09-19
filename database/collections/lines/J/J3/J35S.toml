@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਰੀਝਏ ਕਛੁ ਸੁਗ੍ਰ ॥੪੭੪॥"
 page = 673
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then ascending the Sumeru mountain the sage performed great austerities for many years and felt pleased as the essence-finder.474."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਸੁਘੜ (ਪਰਮਾਤਮਾ) ਕੁਛ ਪ੍ਰਸੰਨ ਹੋਏ ॥੪੭੪॥"

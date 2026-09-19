@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਇ ਪਰਿਯੋ ਸਿਵ ਜੂ ਹਰਿ ਕੇ; ਕਹਿਯੋ ਮੋ ਬਿਨਤੀ ਹਰਿ ਜੂ, ਸੁਨਿ ਲੀਜੈ ॥"
 page = 522
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Shiva said, holding the feet of Krishna, “O Lord! listen to my request"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵ ਜੀ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਦੇ ਪੈਰੀਂ ਪੈ ਗਿਆ ਅਤੇ ਕਹਿਣ ਲਗਿਆ, ਹੇ ਕ੍ਰਿਸ਼ਨ ਜੀ! ਮੇਰੀ ਬੇਨਤੀ ਸੁਣ ਲਵੋ।"

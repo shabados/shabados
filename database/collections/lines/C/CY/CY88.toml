@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੌਕੀ ਹੁਤੀ ਤਹਾ ਚਲਿ ਆਯੋ ॥"
 page = 878
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The lover left the place without the maid and reached where the watchmen were posted."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਥੇ ਆ ਪਹੁੰਚਿਆ ਜਿਥੇ (ਪਹਿਰੇਦਾਰਾਂ ਦੀ) ਚੌਕੀ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਪੈਮਾਂਸ਼ਿਕਨ ਬੇਦਰੰਗ ਆਮਦੰਦ ॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Your army breaking the oath and in great haste"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੇ) ਬਚਨ ਨੂੰ ਤੋੜਨ ਵਾਲੇ (ਸਿਪਾਹੀ) ਝਟ ਪਟ ਤੇਗ਼ਾਂ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣ ਕੁੰਜਰ ਪੁੰਜ ਗਿਰਾਇ ਦੀਏ ॥"
 page = 102
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She overthrew in the battlefield the herds of elephants,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ-ਭੂਮੀ ਵਿਚ (ਦੇਵੀ ਨੇ) ਹਾਥੀਆਂ ਦੇ ਝੁੰਡ ('ਪੁੰਜ') ਡਿਗਾ ਦਿੱਤੇ"

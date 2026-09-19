@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਪਿ ਸਹੰਦੇ ਦੁਖ; ਜਗੁ ਵਰੁਸਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "They endure suffering themselves but pour happiness on the world."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਕਸ਼ਟ (ਧੁਪ ਛਾਉਂ ਦਾ) ਸਹਾਰਕੇ ਜਗ ਦਾ ਵਰਸਾਉ (ਪਰੋਪਕਾਰ) ਕਰਦੇ ਹਨ।"

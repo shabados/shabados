@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਓ ਰਾ ਪਦਰ ਰਾਜਹੇ ਉਤਰ ਦੇਸ਼ ॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her father ruled over a kingdom in the north."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਪਿਤਾ ਉੱਤਰ ਦੇਸ (ਪਹਾੜੀ ਇਲਾਕੇ) ਦਾ ਰਾਜਾ ਸੀ।"

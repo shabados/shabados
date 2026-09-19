@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠੈ ਅਸਤ੍ਰ ਘਾਤੰ ॥੨੯੧॥"
 page = 580
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The determined warriors are fighting taking up their shields and Shiva wearing his rosary of skulls is dancing, the blows of weapons and arms are being struck.291."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਸਤ੍ਰਾਂ ਦੇ ਘਾਤ ਹੁੰਦੇ ਹਨ ॥੨੯੧॥"

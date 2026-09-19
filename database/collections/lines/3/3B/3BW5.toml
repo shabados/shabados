@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੋਰ ਮੋਹਿ ਮਾਰਤ ਹੁਤੋ; ਤ੍ਰਿਯ ਕੇ ਲਾਗਿਯੋ ਘਾਇ ॥"
 page = 882
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘A thief had come to kill me, but (he) hit my wife instead."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੋਰ ਮੈਨੂੰ ਮਾਰਨ ਲਗਿਆ ਸੀ, ਪਰ ਮੇਰੀ ਇਸਤਰੀ ਨੂੰ ਘਾਓ ਲਗ ਗਿਆ।"

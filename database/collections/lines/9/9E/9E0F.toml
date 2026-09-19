@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਹਿੰਗੁਲਾ ਪਿੰਗੁਲਾ ਤੋਤਲਾਯੰ ॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Performer of gentle acts like children at the places like Hinglaj and Pinglaj."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਿੰਗੁਲਾ, ਪਿੰਗੁਲਾ ਅਤੇ ਤੋਤਲਾ ਨੂੰ ਨਮਸਕਾਰ ਹੈ;"

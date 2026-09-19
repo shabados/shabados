@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੇਜੇ ਬੰਬਲੀਆਲੇ, ਦਿਸਨ ਓਰੜੇ ॥"
 page = 126
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The lances bedecked with tassels seem leaning"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫੁੰਮਣਾਂ ਵਾਲੇ ਨੇਜ਼ੇ (ਇਉਂ) ਉਲਰੇ ਹੋਏ ਦਿਸ ਰਹੇ ਸਨ"

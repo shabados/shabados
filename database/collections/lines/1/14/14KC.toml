@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹ ਨਹਿ ਮਰੈ ਨ ਕਾਹੂ ਮਾਰੈ ॥"
 page = 903
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Neither it perishes, nor it annihilates the others,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨ ਇਹ ਮਰਦਾ ਹੈ ਅਤੇ ਨਾ ਹੀ ਕਿਸੇ ਨੂੰ ਮਾਰਦਾ ਹੈ।"

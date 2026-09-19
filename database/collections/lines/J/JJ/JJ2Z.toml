@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਧਨਿ ਲਖਾ ਮੂੜ੍ਹ ਨਹਿ ਪਾਯੋ ॥੯॥"
 page = 55
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Amar Das was called Ram Das, only the saints know it and the fools did not.9."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧੂ ਲੋਕਾਂ ਨੇ (ਇਸ ਭੇਦ ਨੂੰ) ਸਮਝ ਲਿਆ, ਪਰ ਮੂਰਖ ਪਛਾਣ ਨਹੀਂ ਸਕੇ ॥੯॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਥਮ ਕੁੰਭਣੀ ਸਬਦ ਬਖਾਨਹੁ ॥"
 page = 786
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਭੰਭਣੀ' (ਹਾਥੀ-ਸੈਨਾ) ਸ਼ਬਦ ਕਹੋ।"

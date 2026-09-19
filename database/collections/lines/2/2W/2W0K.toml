@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਛਬਿ ਕੀ ਉਪਮਾ ਅਤਿ ਹੀ; ਕਵਿ ਨੇ ਅਪਨੇ ਮਨ ਮੈ ਲਖਿ ਪਾਈ ॥"
 page = 95
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The poet hath imagined well in his mind the glory of that occasion.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਸਮੇਂ ਦੀ) ਛਬੀ ਦੀ ਉਪਮਾ ਕਵੀ ਨੇ ਆਪਣੇ ਮਨ ਵਿਚ (ਚੰਗੀ ਤਰ੍ਹਾਂ) ਜਾਣ ਲਈ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਿਨ ਮੋ ਕੀਯੋ ਅਸੁਰ ਕੋ ਨਾਸਾ ॥"
 page = 190
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਛਿਣ ਵਿਚ ਹੀ ਦੈਂਤ ਨੂੰ ਨਸ਼ਟ ਕਰ ਦਿੱਤਾ ਗਿਆ।"

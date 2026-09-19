@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਵਿਚਹੁ; ਹਉਮੈ ਜਾਇ ॥"
 page = 230
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Through the Guru ego goes from within."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਾਂ ਦੇ ਰਾਹੀਂ ਹੰਕਾਰ ਅੰਦਰੋਂ ਚਲਿਆ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Gurmukh eradicates egotism from within."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖੋਂ ਕੇ ਹਿਰਦੇ ਮੇਂ ਸੇ ਹੰਤਾ ਮਮਤਾ ਜਾਤੀ ਰਹਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪੰਡਿਤ!) ਗੁਰੂ ਦੀ ਸਰਨ ਪਿਆਂ ਮਨ ਵਿਚੋਂ ਹਉਮੈ ਦੂਰ ਹੋ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਵਿਚਹੁ = ਮਨ ਵਿਚੋਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Por la Gracia del Guru, el ego desaparece;"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਰੇ ਮਹੀਪ ਕਰ ਕੈ ਉਪਾਵ ॥"
 page = 602
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੇ ਰਾਜੇ (ਕਲਕੀ ਨੇ) ਉਪਾਉ ਕਰ ਕੇ ਮਾਰ ਸੁਟੇ ਹਨ।"

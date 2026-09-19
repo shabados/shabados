@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾ ਕੇ ਭਗਤ ਕਉ; ਨਾਹੀ ਭੈ ॥"
 page = 1181
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "whose devotees feels not fear,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਜਿਸ ਦੇ ਵੈਰਾਗੀ ਨੂੰ ਡਰ ਨਹੀਂ ਲੱਗਦਾ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "His devotees are not afraid."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਜਾ ਕੇ) ਜਿਸ ਕੋ ਅਰਥਾਤ ਤੇਰੇ ਭਗਤੋਂ ਕੋ ਕਿਸੀ ਕਾ ਭੈ ਨਹੀਂ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪਰਮਾਤਮਾ ਦੇ ਭਗਤਾਂ ਨੂੰ (ਦੁਨੀਆ ਦੇ ਕੋਈ) ਡਰ ਪੋਹ ਨਹੀਂ ਸਕਦੇ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਭੈ = ਦੁਨੀਆ ਦੇ ਡਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "esos Gurmukjs no le temen a nada ni a nadie"

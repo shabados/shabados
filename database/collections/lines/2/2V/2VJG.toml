@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭਹਿਨ ਕੀ ਮੁਸਕੈ ਕਸਿ ਦੀਨੋ ॥੧੦॥"
 page = 940
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They took them out of the house and tied them up.(10)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰਿਆਂ ਦੀਆਂ ਮੁਸ਼ਕਾਂ ਕਸ ਦਿੱਤੀਆਂ ॥੧੦॥"

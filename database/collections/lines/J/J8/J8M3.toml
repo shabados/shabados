@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠੀ ਅਗਨਿ ਜ੍ਵਾਲਾ ਪ੍ਰਲੈ ਕਾਲ ਜੈਸੀ ॥੨੧॥"
 page = 1268
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਪਰਲੋ ਦੇ ਸਮੇਂ ਦੀਆਂ ਅਗਨੀ ਦੀਆਂ ਲਾਟਾਂ ਨਿਕਲਦੀਆਂ ਹੋਣ ॥੨੧॥"

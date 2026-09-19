@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਰਣਣ ਲਾਜੇ ॥੫੩੬॥"
 page = 256
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The enemies ran and felt shy of fighting.536."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੱਜੇ ਜਾਂਦੇ ਹਨ ॥੫੩੬॥"

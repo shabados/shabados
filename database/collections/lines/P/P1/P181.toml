@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਾਮਧੇਣੁ ਲੋਭਾਇ ਕੈ; ਜਮਦਗਨੈ ਦਾ ਸਿਰੁ ਵਢਵਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Seeing wish-ful-filling cow with the rishi he became greedy and killed Jamdagni."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲਲਚਾ ਕੇ ਕਾਮਧੇਨ ਗਊ (ਰਿਖੀ ਪਾਸ ਵੇਖ ਕੇ ਮੰਗੀ, ਨਾ ਮਿਲਣ ਪਰ) ਜਮਦਗਨੀ ਦਾ ਸਿਰ ਵਢਵਾ ਦਿੱਤਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੰਤ ਤੀਛਣੋ ਸਰੰ, ਸਿਲੇਣ ਉਜਲੀ ਕ੍ਰਿਤੰ ॥"
 page = 572
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sons of the demons, getting, frightened are running away and the sharp arrows are being discharged on them"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿਖੇ ਤੀਰ ਚਲ ਰਹੇ ਹਨ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਚਿੱਟੇ ਕੀਤੇ ਹੋਏ ਫਲ ਚਮਕਦੇ ਹਨ।"

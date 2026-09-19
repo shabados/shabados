@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਪਾਓ, ਨ ਦਸਤੋ, ਨ ਚਸ਼ਮੋ ਜ਼ੁਬਾ ॥"
 page = 1398
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The one who has no feet, no hands, no eyes and no tongue,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਪੈਰ, ਹੱਥ, ਅੱਖਾਂ ਅਤੇ ਜੀਭ ਨਹੀਂ ਹੈ।"

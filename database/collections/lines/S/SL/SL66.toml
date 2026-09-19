@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਗਣ ਮੂਤਣ ਛਡਣਾ; ਰੋਗੁ ਸੋਗੁ ਵਿਚਿ ਦੁਖੀਆ ਰੋਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Having no control over his excretory organs of uinating and defecation he cries of disease and suffering."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਹੱਗਣਾ, ਮੂਤਣਾਦਿ ਕ੍ਰਿਆ ਵਿਖੇ ਅਰ ਰੋਗ ਸੋਗ ਵਿਖੇ ਦੁਖੀ ਹੋ ਰੋਂਦਾ ਹੈ।"

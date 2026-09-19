@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਧੰਨੁ ਮਾਣਸ ਜਨਮੁ; ਪੁੰਨਿ ਪਾਈਆ ਰਾਮ ॥"
 page = 575
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Blessed is the human life, which is attained through virtue."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੁਬਾਰਕ ਹੈ ਮਨੁੱਖੀ ਜੀਵਨ ਜੋ ਨੇਕੀ ਦੇ ਰਾਹੀਂ ਪ੍ਰਾਪਤ ਹੁੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Blessed is human life, which is obtained by virtuous actions."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਮਾਨਸ ਜਨਮ ਕੀ ਦੇਹ ਧੰਨ ਹੈ ਔ ਪੁਨੋਂ ਸੇ ਪ੍ਰਾਪਤਿ ਹੂਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮਨੁੱਖਾ ਜਨਮ ਭਾਗਾਂ ਵਾਲਾ ਹੈ ਜੋ ਚੰਗੀ ਕਿਸਮਤ ਨਾਲ ਹੀ ਲਭਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਧੰਨੁ = ਭਾਗਾਂ ਵਾਲਾ। ਪੁੰਨਿ = ਚੰਗੀ ਕਿਸਮਤ ਨਾਲ। ਪਾਈਆ = ਪਾਈ ਹੈ, ਲੱਭੀ ਹੈ (ਇਹ ਦੇਹ)।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Bendita, bendita es la forma humana que nos permite tener la Experiencia de Dios en esta vida."

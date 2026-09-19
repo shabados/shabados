@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਧਣ ਰਾਤੀ ਆਈਆਂ ਮਰਦਾਂ ਘੋੜਿਆਂ ॥"
 page = 126
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "These devourers of meat were struck on the bodies of the warriors."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਰਦਾਂ ਅਤੇ ਘੋੜਿਆਂ ਨੂੰ ਦੁਖਦਾਇਕ ਰਾਤਾਂ ਆ ਗਈਆਂ।"

@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਸ ਕਾ ਸਾਸੁ; ਨ ਕਾਢਤ ਆਪਿ ॥"
 page = 285
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Whose breath (life) He Himself likes not to end,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਸੁਆਸ (ਜੀਵਨ) ਸੁਆਮੀ ਖੁਦ ਮੁਕਾਉਣਾ ਨਹੀਂ ਚਾਹੁੰਦਾ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Those whose breath of life He Himself does not take away"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔ ਜਿਸ ਕਾ ਸ੍ਵਾਸ ਵਹੁ ਆਪ ਨਹੀਂ ਨਿਕਾਸਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਜੀਵ ਦਾ ਸ੍ਵਾਸ ਪ੍ਰਭੂ ਆਪ ਨਹੀਂ ਕੱਢਦਾ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuando Dios no quiere que alguien muera, con Su Propia Mano lo conserva."

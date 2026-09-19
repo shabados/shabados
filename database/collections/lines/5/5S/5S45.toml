@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਨ ਕੋ ਤਬ ਪ੍ਰੇਮ ਪ੍ਰਸੀਜ ਹੀਆ ॥"
 page = 666
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਮੁਨੀ ਦਾ ਹਿਰਦਾ ਪ੍ਰੇਮ ਨਾਲ ਪਸੀਜ ਗਿਆ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਲਖਾ ਤ੍ਰਿਯ ਕਰਮ ਕਰਿ; ਕੈਸੇ ਕਰਮ ਕਮਾਇ ॥"
 page = 1285
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸ ਨੇ ਸਮਝਿਆ ਹੈ ਕਿ ਉਸ ਇਸਤਰੀ ਨੇ ਕੀ ਕਰਮ ਕੀਤਾ ਅਤੇ ਕਿਵੇਂ ਕਰਮ ਕਮਾਇਆ।"

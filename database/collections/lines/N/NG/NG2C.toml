@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਅਉਧਪੁਰੀ ਕੋ ਚਲਬੋ ਕਥਨੰ ॥"
 page = 268
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now begins the description of the entry into Ayodhya :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਅਯੁਧਿਆ ਨੂੰ ਚਲਣ ਦਾ ਕਥਨ"

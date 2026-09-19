@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਗ਼ਰ ਮਰਦ ਆਮਦ ਚੁ ਪ੍ਰਰਾ ਉਕਾਬ ॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Another intrepid person flew in like a hawk,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਇਕ ਹੋਰ ਮਰਦ (ਸੂਰਮਾ) ਉਕਾਬ ਵਾਂਗ ਆ ਪਿਆ।"

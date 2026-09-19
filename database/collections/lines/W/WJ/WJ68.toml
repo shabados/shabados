@@ -1,16 +1,16 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥"
 page = 809
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Lord is One and the Victory is of the True Guru."
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ੴ; ਸ੍ਰੀ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ, ਫਤਹ ॥"

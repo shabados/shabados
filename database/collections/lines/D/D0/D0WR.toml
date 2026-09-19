@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹ ਹੀ ਬ︀ਯਾਹ ਧਾਮ ਤ੍ਰਿਯ ਆਨੀ ॥"
 page = 984
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਹੀ ਵਿਆਹ ਕਰ ਕੇ ਇਸਤਰੀ ਨੂੰ ਘਰ ਲੈ ਆਇਆ।"

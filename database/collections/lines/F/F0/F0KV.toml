@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਕ ਬਜ੍ਰ ਬਿਛੁਓ ਬਿਸਿਖ; ਬਿਰਹ ਬਾਨ ਸਭ ਰੂਪ ॥"
 page = 718
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Baank, Bajar, Bichhuaa and the shafts of love, on whomsoever Thou didst shower Thy Grace,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਂਕ, ਬਜ੍ਰ, ਬਿਛੂਆ, ਬਿਸਿਖ, ਬਿਰਹ ਬਾਨ (ਆਦਿ) ਸਭ ਤੇਰੇ ਹੀ ਰੂਪ ਹਨ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਦਾਤੇ ਦਾਤਾਰ, ਮੰਗਿ ਮੰਗਿ ਦੇਵਹੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Millions are the generous persons who beg and bestow upon others."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ ਦਾਨ ਕਰਨ ਵਾਲੇ ਦਾਤੇ ਮੰਗਣ ਵਾਲਿਆਂ ਨੂੰ ਮੰਗੀ (ਚੀਜ਼) ਦੇਂਦੇ ਹਨ। (ਪੁਨਾ:)"

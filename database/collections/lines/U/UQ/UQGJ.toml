@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਪਤਿ, ਮਾਥ ਨ ਅਪਨੋ ਧੁਨੋ ॥"
 page = 1059
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸੰਗੀਤ ਕਲਾ ਨੇ ਕਿਹਾ) ਹੇ ਪਤੀ ਦੇਵ! ਤੁਸੀਂ ਆਪਣਾ ਮੱਥਾ ਨਾ ਧੁਨੋ"

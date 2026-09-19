@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਲੋਗਨੁ ਦੇਖਤ ਜਰੀ; ਇਕ ਪਗ ਠਾਢੀ ਸੋਇ ॥"
 page = 825
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When many people saw her immolating herself."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਲੋਕਾਂ ਨੇ ਉਸ ਨੂੰ ਇਕ ਪੈਰ ਉਤੇ ਖੜੋਤੀ ਸੜਦਿਆਂ ਵੇਖਿਆ।"

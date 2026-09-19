@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਦੋਖ ਦੂਰ ਹੋਇ ਜਾਵੈ ॥੨੪੮੦॥"
 page = 549
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who will listen to this episode slightly, all his blemishes will be removed.2480."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਦੁਖ ਦੂਰ ਹੋ ਜਾਏਗਾ ॥੨੪੮੦॥"

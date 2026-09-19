@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਰੁ ਮਾਨ ਕਰੀ ਬਹੁਤੈ ਉਪਮਾ ॥"
 page = 666
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sage, seeing his resoluteness, and accepting him as his Guru, praised him and said,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਗੁਰੂ ਮੰਨ ਕੇ ਬਹੁਤ ਸਾਰੀ ਉਪਮਾ ਕੀਤੀ।"

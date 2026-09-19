@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਇ ਸੈਯਦ ਸੋ ਕਰਿਯੋ ਯਰਾਨੋ ॥"
 page = 820
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She got involved herself with a Sayeed."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ ਇਕ) ਸੱਯਦ ਨਾਲ ਯਾਰਾਨਾ ਗੰਢ ਲਿਆ।"

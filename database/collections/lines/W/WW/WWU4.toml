@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੰਤ ਚਕ੍ਰ ਚਉਦਿਸੰ ॥੮॥੮੬॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And Thy disc moves in all the four directions.8.86."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦੋਂ ਤੁਹਾਡਾ ਹੁਕਮ ਰੂਪ) ਚੱਕਰ ਚੌਹਾਂ ਪਾਸੇ ਚਲਣ ਲਗਦਾ ਹੈ ॥੮॥੮੬॥"

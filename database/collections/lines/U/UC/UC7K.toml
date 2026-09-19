@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਨੇ ਗੁਰੂ ਨਾਨਕ ਦੇ ਚਰਨਾਂ ਵਿਚ ਸੇਵਕਾਂ ਵਾਂਗ ਸੁੱਟ ਦਿੱਤੇ ਹਨ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹੱਕ ਅਫ਼ਗੰਦਾ ਦਰ ਪਾਇ ਊ ਬੰਦਾ ਵਾਰ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Akaalprakh has directed (them all) at the feet of Guru Nanak as servitors,"

@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਦਿ ਅੰਤਿ, ਏਕੈ ਅਵਤਾਰਾ ॥"
 page = 1386
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the only one form the beginning to the end"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਆਦਿ ਤੋਂ ਅੰਤ ਤਕ ਅਵਤਰਿਤ ਹੈ (ਭਾਵ ਪ੍ਰਕਾਸ਼ਮਾਨ ਹੈ)"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਆਦਿ ਅੰਤਿ; ਏਕੈ ਅਵਤਾਰਾ ॥"

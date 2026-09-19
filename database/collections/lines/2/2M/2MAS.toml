@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ ਜਾਇ ਦੁਆਰ ਪਰ ਬੈਠੇ ॥"
 page = 671
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਦੁਆਰ ਉਤੇ ਜਾ ਬੈਠੇ"

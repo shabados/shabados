@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮਰੀ ਕ੍ਰਿਪਾ ਤੁਮ ਹੂੰ ਪ੍ਰਭ ਜਾਨੋ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Lord! Only Thou knowest Thy doings."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਤੂੰ ਹੀ ਆਪਣੀ ਕ੍ਰਿਆ (ਗਤਿਵਿਧੀ) ਨੂੰ ਜਾਣਦਾ ਹੈਂ।"

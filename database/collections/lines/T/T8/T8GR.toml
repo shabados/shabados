@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਕੇ ਠਟਕਤ ਬਾਰਿ; ਤਹਾ ਤੇ ਚਲਿ ਗਯੋ ॥"
 page = 1064
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੇ ਉਥੇ ਠਠੰਬਰ ਕੇ ਖੜੋ ਜਾਣ ਨਾਲ ਪਾਣੀ ਅਗੇ ਨੂੰ ਵਧ ਗਿਆ।"

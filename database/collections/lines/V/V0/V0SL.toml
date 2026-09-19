@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹ ਜਾਨੀਐ, ਤਹ ਦੀਜੀਐ; ਪਦ ਅਉਰ ਛੰਦ ਕਬਿਤ ਮੈ ॥੭੩੬॥"
 page = 753
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O good poets! there is no mystery in it and use this word anywhere in KABIT stanza.736."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਚਾਹੋ, ਪਦ ਜਾਂ ਕਬਿੱਤ ਜਾਂ ਛੰਦ ਵਿਚ ਜੋੜ ਦਿਓ ॥੭੩੬॥"

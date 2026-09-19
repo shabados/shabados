@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਧਰਮ ਕੇ ਕਰਮ, ਕੇ ਹਰਮ ਜਾਨੇ ॥"
 page = 27
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere Thou art considered as the abode of the acts of piety!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ (ਤੁਸੀਂ) ਧਰਮ-ਕਰਮ ਦੇ ਨਿਵਾਸ-ਸਥਾਨ ਹੋ,"

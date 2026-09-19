@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹ ਸੁਨਿ ਬੈਨ ਪ੍ਰਜਾ ਮਿਲਿ ਆਈ ॥"
 page = 864
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After beating Mughal she ran out shouting, hearing which people gathered."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ (ਉਸ ਦੀ) ਆਵਾਜ਼ ਸੁਣ ਕੇ ਲੋਕੀਂ ਇਕੱਠੇ ਹੋ ਕੇ ਆ ਗਏ।"

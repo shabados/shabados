@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਲ ਪ੍ਰਤਾਪ ਜਿਹ ਅਤਿ ਜਗ ਗੁਨਿਯਤ ॥"
 page = 1174
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਬਲ ਅਤੇ ਪ੍ਰਤਾਪ ਨੂੰ ਸਾਰਾ ਜਗਤ ਮੰਨਦਾ ਸੀ।"

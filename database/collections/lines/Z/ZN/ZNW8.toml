@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਨ ਡਾਕਿਨਿ ਡਹਕਤ ਫਿਰਤ; ਕਹਕਤ ਫਿਰਤ ਮਸਾਨ ॥"
 page = 812
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Belching witches and howling ghosts started to roam around."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ ਵਿਚ ਡਾਕਣੀਆਂ ਡਕਾਰਦੀਆਂ ਫਿਰਦੀਆਂ ਹਨ ਅਤੇ ਪ੍ਰੇਤ ('ਮਸਾਨ') ਕਿਲਕਾਰੀਆਂ ਮਾਰ ਰਹੇ ਹਨ।"

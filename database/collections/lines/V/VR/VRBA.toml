@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਰਯੋ ਬੀਰ ਮਾਨੰ ॥"
 page = 211
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ram took it in his hand, the hero (Ram) was filled with pride."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੀਰਤਾ ਵਾਲੇ ਗੌਰਵ ਨਾਲ"

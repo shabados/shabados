@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਪਾਛੇ ਜਾ ਪਦ ਦੈ ਡਾਰੋ ॥"
 page = 752
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Utter firstly the word “Prathvi” and then add the word “Jaa”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਪਿਛੋਂ 'ਜਾ' ਪਦ ਜੋੜੋ।"

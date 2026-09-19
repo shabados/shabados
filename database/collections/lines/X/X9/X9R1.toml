@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਸੁੰਦ੍ਰੀ ਚੇਰਕਾ ਚਾਰ ਕੇਸੰ ॥"
 page = 271
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The kings presented gifts from various and beautiful maidens of elegant hair."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਸੋਹਣੇ ਕੇਸਾਂ ਵਾਲੀਆਂ ਅਤਿ ਸੁੰਦਰ ਦਾਸੀਆਂ,"

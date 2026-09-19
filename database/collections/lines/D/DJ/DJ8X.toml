@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਦੀ ਯਾਦ ਇੱਕ ਬਹੁਤ ਵੱਡਾ ਧਨ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਜ਼ਿਕਰਿ ਮੌਲਾ ਦੌਲਤੇ ਬਾਸ਼ਦ ਅਜ਼ੀਮ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, he is the best means and instrument to attain the Almighty. (138)"

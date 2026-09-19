@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਹਨਾਣ ਸਾਾਰੇ ਦਿਲਾਣ ਅੰਦਰ ਕੌਣ ਵਸਦਾ ਹੈ #"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਅੰਦਰੂਨਿ ਜੁਮਲਾ ਦਿਲਹਾਇ ਜਾਇ ਕੀਸਤ ॥੭੯॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Made them refulgent on both the earth and the sky. (431)"

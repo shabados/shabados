@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਾਗੜਦੀ ਝੁਝ ਭਟ ਗਿਰੈਂ ਮਾਗੜਦੀ ਮੁਖ ਮਾਰ ਉਚਾਰੈ ॥"
 page = 241
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors even falling down began to shout “Kill, Kill” from their mouths"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮੇ ਜੂਝ ਕੇ ਡਿੱਗਦੇ ਹਨ, ਮੂੰਹੋਂ ਮਾਰੋ-ਮਾਰੋ ਬੋਲਦੇ ਹਨ।"

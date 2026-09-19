@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਪੈ ਜੋਗ ਸੰਨ︀ਯਾਸ ਬੈਰਾਗ ਕੋਈ ॥"
 page = 119
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Anyone either a Yogi or a Sanyasi or a Vairagi, whosoever reads it."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਕੋਈ ਯੋਗੀ, ਸੰਨਿਆਸੀ ਅਥਵਾ ਬੈਰਾਗੀ (ਇਸ ਨੂੰ) ਜਪੈਗਾ,"

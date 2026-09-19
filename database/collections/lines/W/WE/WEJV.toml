@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਸੇ ਰਾ ਸ਼ਨਾਸਦ ਬ ਅਕਲੇ ਬਿਹੀ ॥"
 page = 1399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(Minister:) ‘Adopt a person, who manifests wisdom,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕਿਸੇ ਨੂੰ ਤੁਸੀਂ ਚੰਗੀ ਅਕਲ ਵਾਲਾ ਸਮਝ ਲਵੋ,"

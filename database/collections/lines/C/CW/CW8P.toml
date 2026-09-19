@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਰਧ ਰਾਵ ਲਖਿ ਕਰਿ ਡਰ ਪਾਨੀ ॥"
 page = 842
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Prem Kumari was the name of that Rani."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਰਾਜੇ ਨੂੰ ਬਿਰਧ ਜਾਣ ਕੇ ਬਹੁਤ ਡਰ ਗਈ।"

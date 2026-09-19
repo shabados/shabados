@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਾਧ ਕੀ ਧੂਰਿ; ਕਰਹੁ ਇਸਨਾਨੁ ॥"
 page = 283
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Take bath in the dust of the feet of the saints."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤ ਦੇ ਚਰਨਾਂ ਦੀ ਧੂੜ ਅੰਦਰ ਮਜਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Take your cleansing bath in the dust of the feet of the Holy."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤੋਂ ਕੀ ਚਰਨ ਧੂੜੀ ਮੇਂ ਇਸਨਾਨ ਕਰੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖ ਮਨੁੱਖ ਦੇ ਪੈਰਾਂ ਦੀ ਖ਼ਾਕ ਵਿਚ ਇਸ਼ਨਾਨ ਕਰ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਧੂਰਿ = ਚਰਨ-ਧੂੜ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cúbrete con el Polvo de sus Pies"

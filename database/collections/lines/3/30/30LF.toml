@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਸਦਾ ਉਸ ਦੇ ਹਜ਼ੂਰ ਰਹਿੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹੱਕ ਹਮੇਸ਼ਾਂ ਬਾਸ਼ਦ ਊ ਰਾ ਦਰ ਹਜ਼ੂਰ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "The Akaalpurakh is always present before him,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਏਕ ਰੂਪੇ, ਨਮੋ ਏਕ ਰੂਪੇ ॥੪॥੯੪॥"
 page = 21
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to Him of One Form, Salutation to Him of One Form. 4.94."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਇਕ ਰੂਪ ਵਾਲੇ ਨੂੰ ਨਮਸਕਾਰ ਹੈ, ਇਕ ਰੂਪ ਵਾਲੇ ਨੂੰ ਨਮਸਕਾਰ ਹੈ ॥੪॥੯੪॥"

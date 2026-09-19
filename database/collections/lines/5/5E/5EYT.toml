@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਨਿ ਧਨਿ ਇਹ ਰਾਨੀ ਕੋ ਧਰਮਾ ॥"
 page = 1205
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਾਰੇ ਕਹਿਣ ਲਗੇ ਕਿ) ਰਾਜ ਕੁਮਾਰੀ ਦਾ ਧਰਮ ਧੰਨ ਧੰਨ ਹੈ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਥਮ ਹਾਥ ਨਿਜੁ ਸਿਰ ਪਰ ਧਰੋ ॥"
 page = 1013
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ ਆਪਣੇ ਸਿਰ ਉਤੇ ਹੱਥ ਰਖੋ।"

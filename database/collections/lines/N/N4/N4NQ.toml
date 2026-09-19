@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਰੇ ਬ੍ਰਿਛ ਛਾਹੀ ॥੬੪੩॥"
 page = 267
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Searching for Sita, he reached there, where she was sitting in the garden under a tree.643."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਿਛ ਦੀ ਛਾਂ ਹੇਠਾਂ ਬੈਠੀ ਸੀ ॥੬੪੩॥"

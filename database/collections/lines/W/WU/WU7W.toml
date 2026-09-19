@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਪ ਬਹੁਰਿ ਸੂਰਨ ਕੋ ਭਯੋ ॥"
 page = 986
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The Sun was set and the Moon had risen when the warriors commenced their journeys back home."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਿਆਂ ਨੂੰ ਫਿਰ ਰੋਹ ਚੜ੍ਹ ਗਿਆ।"

@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਭੱਖ ॥੧੯੧॥"
 page = 10
 line = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Uninflammable Lord ! 191"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਖਾਣ ਦੀ ਲੋੜ ਤੋਂ ਮੁਕਤ ਹੈਂ ॥੧੯੧॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਅਭੱਖ ॥੧੯੧॥"

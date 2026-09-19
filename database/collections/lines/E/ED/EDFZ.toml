@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਸੁਧ ਸੇਲ ਸਨਾਹ ॥੩੦੪॥"
 page = 581
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There are heaps of chopped limbs lying somewhere and somewhere there are lying arrows and swords, somewhere there are seen garments, somewhere lances and somewhere armours of steel.304."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਸੁੰਦਰ ਨੇਜ਼ੇ ਅਤੇ ਕਵਚ (ਟੁਟੇ ਪਏ ਹਨ) ॥੩੦੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਰਗਾ ਸਉਹੇਂ ਆਈਆਂ, ਰੋਹ ਬਢਾਇ ਕੈ ॥"
 page = 125
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which came in front of Durga, highly enraged."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਸਾਰੀਆਂ ਸੂਰਤਾਂ) ਗੁੱਸਾ ਵਧਾ ਕੇ ਦੁਰਗਾ ਦੇ ਸਾਹਮਣੇ ਆ ਰਹੀਆਂ ਸਨ।"

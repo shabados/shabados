@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਧ ਉਬਾਰਿ ਦੁਸਟ ਸਭ ਮਾਰੇ ॥੩੨੧॥"
 page = 1382
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧਾਂ ਨੂੰ ਬਚਾ ਲਿਆ ਅਤੇ ਸਾਰਿਆਂ ਦੁਸ਼ਟਾਂ ਨੂੰ ਮਾਰ ਦਿੱਤਾ ॥੩੨੧॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਹੋ ਮਹਾ ਤਪੀ ਬਲਵਾਨਾ ॥"
 page = 187
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Shiva  we have not recognized thee, you are supremely mighty and an ascetic.”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਸੀਂ ਵੱਡੇ ਤਪਸਵੀ ਤੇ ਬਲਵਾਨ ਹੋ।"

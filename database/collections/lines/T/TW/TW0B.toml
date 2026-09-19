@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤ ਏ ਕਰਤ ਬਿਚਾਰਿ; ਸੁਭਟ ਲੋਕ ਨ੍ਰਿਪ ਕਟਕ ਮੈ ॥"
 page = 473
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On this side in the army of the king, such-like thoughts are arising int eh minds of the warriors and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਧਰ ਰਾਜੇ ਦੀ ਸੈਨਾ ਵਿਚ ਸੂਰਵੀਰ ਲੋਕ ਇਹ ਵਿਚਾਰ ਕਰਦੇ ਹਨ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਤ ਬਚਨ ਦਾਨਵ ਸਭ ਹਸੇ ॥"
 page = 171
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸ਼ੁਕ੍ਰਾਚਾਰਯ ਦੀ ਗੱਲ ਸੁਣ ਕੇ) ਸਾਰੇ ਦੈਂਤ ਹਸਣ ਲਗ ਪਏ"

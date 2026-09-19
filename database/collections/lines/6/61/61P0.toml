@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਪਾਵੰਗ ਪੁਲੇ ॥"
 page = 703
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੌਣ ਦੀ ਗਤੀ ਵਾਲੇ ਘੋੜੇ ('ਪਾਵੰਗ') ਕੁਦ ਰਹੇ ਹਨ,"

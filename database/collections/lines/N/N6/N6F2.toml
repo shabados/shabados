@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਹਤ ਨਾਮਦੇਉ; ਤਾ ਚੀ ਆਣਿ ॥"
 page = 1252
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Says Namdev, seek thou that Lord's protection,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਾਮਦੇਵ ਜੀ ਆਖਦੇ ਹਨ, ਤੂੰ ਉਸ ਪ੍ਰਭੂ ਦੀ ਪਨਾਹ ਲੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Says Naam Dayv, seek God's Shelter;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਨਾਮਦੇਵ ਜੀ ਕਹਿਤੇ ਹੈਂ: (ਤਾਂ) ਤਿਸ ਪਰਮੇਸ੍ਵਰ ਕੀ (ਆਣਿ) ਸਰਣ ਹੋ ਕਰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਨਾਮਦੇਵ ਆਖਦਾ ਹੈ ਕਿ ਉਸ (ਪ੍ਰਭੂ) ਦੀ ਓਟ (ਲੈ),"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਤਾ ਚੀ = ਉਸ (ਪ੍ਰਭੂ) ਦੀ। ਆਣਿ = ਓਟ, ਆਸਰਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Dice Nam Dev, oh hermano, busca el Refugio de tu Dios"

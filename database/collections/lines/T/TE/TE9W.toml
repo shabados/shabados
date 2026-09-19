@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਵੀਰ ਝੇਲੈ ॥੨੯੪॥"
 page = 580
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Pressing one another, the warriors are looking magnificent and the great warriors are inflicting wounds on one another.294."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾਵੀਰ (ਸੱਟਾਂ ਨੂੰ) ਸਹਾਰਦੇ ਹਨ ॥੨੯੪॥"

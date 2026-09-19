@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਈਊ ਸਵਾਰੈ ਕਈਊ ਖਪਾਵੈ ॥"
 page = 1198
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਕਈਆਂ ਨੂੰ ਸੰਵਾਰਿਆ ਹੈ ਅਤੇ ਕਈਆ ਨੂੰ ਖਪਾ ਦਿੱਤਾ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਕੀ ਛਤਿਯਾ ਊਪਰ; ਅਪਨੀ ਪੀਠਿ ਧਰਿ ॥"
 page = 1131
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਦੀ ਛਾਤੀ ਉਤੇ ਆਪਣੇ ਪਿਠ ਟਿਕਾ ਕੇ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਗੇ ਅੰਗ ਜਾ ਕੇ ਰਹੇ ਨਾ ਸੰਭਾਰੰ ॥"
 page = 62
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੇ ਤੀਰ) ਜਿਸ ਦੇ ਸ਼ਰੀਰ (ਅੰਗ) ਵਿਚ ਲਗੇ, (ਉਹ ਆਪਣੇ ਆਪ ਨੂੰ) ਸੰਭਾਲ ਨਾ ਸਕਿਆ"

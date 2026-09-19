@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨ ਮਿਲ︀ਯੋ ਜਾਇ ਭੀਤਰ ਅਲੇਖ ॥"
 page = 170
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And that Imperceptible Lord-God merged again in His Own Self."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਅਲੇਖ (ਪਰਮ-ਸੱਤਾ) ਵਿਚ ਮਿਲ ਗਿਆ।"

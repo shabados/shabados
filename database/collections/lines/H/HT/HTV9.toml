@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਬਾਸੰ ਛਤਾਲੰ ॥"
 page = 603
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਯੁੱਧ-ਭੂਮੀ ('ਛਤਾਲ') ਵਿਚ ਨਿਵਾਸ ਕਰਦਾ ਹੈ।"

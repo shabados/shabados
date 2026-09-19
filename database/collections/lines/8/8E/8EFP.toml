@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੀਰਥੁ ਹਮਰਾ; ਹਰਿ ਕੋ ਨਾਮੁ ॥"
 page = 1142
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My place of pilgrimage is the Lord's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰਾ ਧਰਮ ਅਸਥਾਨ ਪ੍ਰਭੂ ਦਾ ਨਾਮ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "My sacred shrine of pilgrimage is the Name of the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਮਾਰਾ ਤੋ ਤੀਰਥ ਰੂਪ ਪਵਿਤ੍ਰ ਕਰਨੇ ਵਾਲਾ ਹਰੀ ਕਾ ਨਾਮ ਹੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਹੀ ਸਾਡਾ ਤੀਰਥ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਮਰਾ = ਸਾਡਾ। ਕੋ = ਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mi lugar de peregrinaje es el Naam, el Nombre del Señor,"

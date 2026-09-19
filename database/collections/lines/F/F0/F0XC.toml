@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਰੇਗ਼ਾ ਅਜ਼ੀਂ ਗਰ ਜੁਦਾ ਯਾਫ਼ਤਮ ॥"
 page = 1416
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Had I found her sleeping alone,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖੇਦ ਹੈ ਜੇ ਇਸ ਨੂੰ ਮੈਂ (ਰਾਣੀ ਤੋਂ) ਅਲਗ ਵੇਖ ਲੈਂਦਾ"

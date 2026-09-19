@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਬੀਰ ਬੀਰ ਹਾ ਭਲੇ ॥੧੮੭॥"
 page = 219
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They went having been completely embellished. These brave men were of very gentle demeanour.187."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੂਰਵੀਰਾਂ ਨੂੰ ਮਾਰਨ ਵਾਲੇ ਸਨ ॥੧੮੭॥"

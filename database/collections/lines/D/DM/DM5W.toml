@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਮਿਤ੍ਰ ਕਹ ਦਿਯਾ ਬਹਾਈ ॥੮॥"
 page = 854
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After washing away her friend in the stream, she swam back.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ (ਨਦੀ) ਵਿਚ ਮਿਤਰ ਨੂੰ ਰੁੜ੍ਹਾ ਦਿੱਤਾ ॥੮॥"

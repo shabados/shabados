@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜੈ ਸੁਨਤ ਇਹ ਭਾਤ ਉਚਾਰਿਓ ॥੨॥੨੫੨॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And uttered these words, while Ajai listened.2.252."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਜੈ ਸਿੰਘ ਨੂੰ ਸੁਣਾਉਂਦੇ ਹੋਇਆਂ ਇਸ ਤਰ੍ਹਾਂ ਕਿਹਾ ॥੨॥੨੫੨॥"

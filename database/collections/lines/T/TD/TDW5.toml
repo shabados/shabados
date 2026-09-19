@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਬਨਿਕ ਕੀ ਬਾਲ ਬਖਾਨਿਯ ॥"
 page = 848
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੰਤ੍ਰੀ ਨੇ ਕਿਹਾ-) ਇਕ ਬਨੀਏ ਦੀ ਇਸਤਰੀ ਦਸੀਂਦੀ ਸੀ"

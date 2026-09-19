@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਿਨੇ ਨੂਰ ॥੮੦੩॥"
 page = 284
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors of chopped limbs fell in the field, they were looking extremely magnificent.803."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਪਿੱਛੇ ਨੂੰ) ਨਹੀਂ ਵੇਖਦੇ ॥੮੦੪॥"

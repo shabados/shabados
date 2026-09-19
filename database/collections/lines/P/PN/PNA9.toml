@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਇੰਦ੍ਰ ਕੋ ਜਾਇ ਨਿਹਾਰਿਯੋ ॥"
 page = 974
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Through such a trick she averted the situation and then went round and found Indra."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਜਾ ਕੇ ਇੰਦਰ ਨੂੰ ਵੇਖ (ਅਰਥਾਤ ਲਭ) ਲਿਆ।"

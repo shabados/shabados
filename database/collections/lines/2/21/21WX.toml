@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ︀ਯਾਹਨ ਕੋ ਦੋਊ ਲਲਚਾਏ ॥੧੧॥"
 page = 972
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They approached Tilotama (the woman) and both yearned to marry her.(11)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਸ ਨਾਲ) ਵਿਆਹ ਕਰਾਉਣ ਲਈ ਦੋਵੇਂ ਲਲਚਾਏ ॥੧੧॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਉਪਾਇ ਕ︀ਯਾ ਕਰੋ ਬਿਚਾਰਿਯੋ ॥"
 page = 915
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The woman has put me in dangerous dilemma, how can I remedy this?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਮੈਂ ਕਿਹੜਾ ਉਪਾ ਵਿਚਾਰਾਂ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਣੰਗਸਚ ॥੧੧॥੫੮॥"
 page = 133
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Lord is Limbless.11.58."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੰਗ (ਦੇਹ) ਤੋਂ ਰਹਿਤ ਹੈ ॥੧੧॥੫੮॥"

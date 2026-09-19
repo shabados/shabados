@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੀਵ ਦਾਨ ਤਬ ਮੋਕਹ ਦੈ ਹੋ ॥੨੨੦੦॥"
 page = 519
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She said, “O friend! now don’t delay and cause to meet me with my beloved. O friend! if you execute this task, then consider it resuscitated that my life shall be revived.”2200.’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਤੂੰ ਮੈਨੂੰ ਜੀਵਨ ਦਾਨ ਦੇਵੇਂਗੀ ॥੨੨੦੦॥"

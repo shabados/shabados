@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਸੋ ਆਦਰੁ ਕੀਨੋ ॥"
 page = 999
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She went forward and welcomed Raja with great honours."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭਾਂਤ ਭਾਂਤ ਨਾਲ ਆਦਰ ਮਾਣ ਕੀਤਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੇਤਕ ਭੰਗ ਗਿਰਤ ਹੁਇ ਆਂਗੈ ॥੪੦੩॥"
 page = 591
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many are striking blows with their lances and the limbs of many, being chopped, are falling down.403."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈਆਂ ਦੇ ਅੰਗ ਭੰਗ ਹੋ ਕੇ ਡਿਗ ਰਹੇ ਹਨ ॥੪੦੩॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਇ ਬੰਗਾਲੀ ਸੈਨ ਬਸਤ ਤਹ ॥"
 page = 1264
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਬੰਗਾਲੀ ਸੈਨ ਦਾ ਰਾਜਾ ਰਹਿੰਦਾ ਸੀ।"

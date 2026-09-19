@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕਹ ਰੂਪ ਅਨੂਪ ਸਰੂਪਾ ॥"
 page = 159
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That One Lord hath a hath a Unique Beauty and Form"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਇਕ ਰੂਪ ਵਾਲਾ ਹੀ ਅਨੇਕ ਸਰੂਪਾਂ ਵਾਲਾ ਹੈ,"

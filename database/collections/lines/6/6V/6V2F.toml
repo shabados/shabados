@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੋਝ ਰੀਛ ਬਹੁ ਭਾਂਤਿ ਬਿਦਾਰੇ ॥"
 page = 60
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There I killed may lions, nilgais and bears."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਈ ਤਰ੍ਹਾਂ ਦੇ ਰਿਛਾਂ ਅਤੇ ਨੀਲਗਾਵਾਂ (ਰੋਝ) ਨੂੰ ਮਾਰਿਆ।"

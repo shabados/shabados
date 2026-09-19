@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਦਿ ਪੁਰਖਿ; ਜਿਸੁ ਕੀਆ ਦਾਨੁ ॥"
 page = 1182
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He, whom the Primal Lord blesses with His bounty;"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਆਦੀ ਪ੍ਰਭੂ ਆਪਣੀ ਬਖਸ਼ੀਸ਼ ਬਖਸ਼ਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "One whom the Primal Lord God blesses with His bounties,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੋ ਆਦਿ ਪੁਰਖ ਪਰਮੇਸ੍ਵਰ ਨੇ ਦਾਨੁ ਕੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਦੇ ਮੂਲ ਅਤੇ ਸਰਬ-ਵਿਆਪਕ ਪ੍ਰਭੂ ਨੇ ਜਿਸ ਮਨੁੱਖ ਨੂੰ ਦਾਤ ਬਖ਼ਸ਼ੀ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਦਿ ਪੁਰਖਿ = ਆਦਿ ਪੁਰਖ ਨੇ, ਸਭ ਦੇ ਮੂਲ ਤੇ ਸਰਬ-ਵਿਆਪਕ ਪ੍ਰਭੂ ਨੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél que ofrece su ser al Ser Primordial,"

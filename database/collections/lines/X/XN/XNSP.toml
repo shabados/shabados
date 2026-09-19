@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤਿ ਪ੍ਰਿਯ ਭਗਤ ਇਸਤ੍ਰੀ ਚਤੁਰਦਸਵਾ ਗੁਰੂ ਸਮਾਪਤੰ ॥੧੪॥"
 page = 662
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "End of the description of the adoption of the fully-devoted lady as his fourteenth Guru."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਥੇ 'ਪਤੀ ਦੀ ਭਗਤ' ਇਸਤਰੀ ਚੌਦਵੇਂ ਗੁਰੂ ਦਾ ਪ੍ਰਸੰਗ ਸਮਾਪਤ ॥੧੪॥"

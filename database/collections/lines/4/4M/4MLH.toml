@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਨੁ ਧਨੁ ਜੋਬਨੁ; ਚਲਤ ਗਇਆ ॥"
 page = 826
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Body, wealth and youth pass away."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਦੇਹ, ਦੌਲਤ ਅਤੇ ਜੁਆਨੀ ਟੁਰ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Body, wealth and youth pass away."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਨ, ਧਨ, ਜੋਬਨ ਆਦੀ ਪਦਾਰਥੋਂ ਕਾ ਜੋ ਚਲਤ (ਛਲ) ਰੂਪ ਥਾ ਵਿਅਰਥ ਹੀ ਬੀਤ ਗਿਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ! ਮਨੁੱਖ ਦਾ ਇਹ) ਸਰੀਰ, ਧਨ, ਜਵਾਨੀ (ਹਰੇਕ ਹੀ) ਸਹਜੇ ਸਹਜੇ (ਮਨੁੱਖ ਦਾ) ਸਾਥ ਛੱਡਦਾ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜੋਬਨੁ = ਜਵਾਨੀ। ਚਲਤ ਗਇਆ = ਸਹਜੇ ਸਹਜੇ ਸਾਥ ਛੱਡਦਾ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mi cuerpo, riqueza y belleza se van a desvanecer."

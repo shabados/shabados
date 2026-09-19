@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਉਬਾਲੀ ਦਰਗਾਹ, ਚੋਟਾਂ ਖਾਵਹੀ ॥੧੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And ultimately get punished at the court of the Lord."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਬੇਪਰਵਾਹ (ਵਾਹਿਗੁਰੂ ਦੀ) ਦਰਗਾਹ ਵਿਖੇ ਉਹ ਲੋਕ ਸਜ਼ਾਵਾਂ ਪਾਉਂਦੇ ਹਨ।"

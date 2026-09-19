@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਚਿਤ ਕ੍ਰਿਪਾ ਨਿਧਿ ਕੋ ਜਪਿ ਹੈਂ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And meditate on the Merciful Lord single-mindedly !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਕਾਗਰ ਮਨ ਨਾਲ ਪਰਮਾਤਮਾ ਨੂੰ ਜਪਦੇ ਹਨ,"

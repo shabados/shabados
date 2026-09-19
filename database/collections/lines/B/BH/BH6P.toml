@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰ ਕਰ ਮਾਣੰ ॥"
 page = 212
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Holding their arrows in their hand s and filled with pride,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਗੇ ਤੀਰਾਂ ਨੂੰ ਕਮਾਨਾਂ ਵਿੱਚ ਧਰ ਕੇ"

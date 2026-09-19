@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਤ ਬਾਲਕ ਭਰਤਾ ਮਰਿਯੋ; ਇਨ ਕੋ ਪ੍ਰਥਮ ਜਰਾਇ ॥"
 page = 989
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘My son and husband are dead; first I must cremate them."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੇਰਾ) ਬਾਲਕ ਪੁੱਤਰ ਅਤੇ ਪਤੀ ਮਰ ਗਏ ਹਨ। ਪਹਿਲਾਂ ਇਨ੍ਹਾਂ ਨੂੰ ਸਾੜ ਕੇ"

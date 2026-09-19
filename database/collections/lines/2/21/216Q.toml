@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਕਿ ਰਹਾ ਨਹਿ ਚੋਟ ਚਲਾਈ ॥"
 page = 852
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After some thinking Raja changed his mind and did not shoot the arrow."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ੰਕਾ ਕਾਰਨ ਬਾਣ ਨਾ ਚਲਾਇਆ।"

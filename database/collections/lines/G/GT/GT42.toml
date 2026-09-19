@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਛੂ ਅਸਤ੍ਰ ਦਾਨਵਹਿ ਚਲਾਯੋ ॥"
 page = 1377
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦ) ਦੈਂਤਾਂ ਨੇ ਬਿਛੂ ਅਸਤ੍ਰ ਨੂੰ ਚਲਾਇਆ,"

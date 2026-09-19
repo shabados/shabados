@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਧਰਤੀ ਉਤੈ ਰੁਖ; ਸਿਰ ਤਲਵਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The tree on the earth has their heads down towards the bottom."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਧਰਤੀ ਉਤੇ ਬ੍ਰਿੱਛ ਉਲਟਾ ਹੋਕੇ (ਸਿਰ ਹੇਠ ਤੇ ਪੈਰ ਉਪੱਰ ਨੂੰ ਕਰ ਕੇ ਉੱਗਦੇ ਹਨ)।"

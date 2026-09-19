@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੈ ਸ੍ਰੋਣ ਧਾਰੰ ॥"
 page = 244
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was continuous flow of blood and it also spattered"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਲਹੂ ਦੀ ਧਾਰ ਵਗਦੀ ਹੈ।"

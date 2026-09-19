@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੰਗਾ ਸਹਗਲੁ ਸੂਰਮਾ; ਹਰਵੰਸ ਤਪੇ ਟਹਲ ਧਰਮਸਾਲਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Ganga belonging to Sahagal caste is brave and Harbans, the hermit serves in the dharamsala, the inn for the pilgrims."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੰਗਾ ਸਹਗਲ ਸਿਪਾਹੀ ਅਤੇ ਹਰਵੰਸ ਤਪੇ ਨੇ ਟਹਿਲ ਧਰਮਸਾਲ ਦੀ ਕੀਤੀ।"

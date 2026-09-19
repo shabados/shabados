@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਰਕਨ ਕੋ ਮਾਰਿਓ ਸਿਰਦਾਰਾ ॥"
 page = 70
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, the great battle was fought, when the leader of the Turks (Muhammedans) was killed."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਵਿਚ ਤੁਰਕਾਂ ਦੇ ਮੁੱਖੀਆਂ ਨੂੰ ਮਾਰ ਦਿੱਤਾ ਗਿਆ।"

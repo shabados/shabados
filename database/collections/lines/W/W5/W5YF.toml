@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੰਤ ਕਾ ਨਿੰਦਕੁ; ਮਹਾ ਹਤਿਆਰਾ ॥"
 page = 280
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The slanderer of the saint is a great butcher."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧੂ ਦੀ ਨਿੰਦਾ ਕਰਨ ਵਾਲਾ ਵੱਡਾ ਕਸਾਈ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The slanderer of the Saint is a brutal butcher."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਾ ਸੰਤੋਂ ਕਾ ਨਿੰਦਕ (ਮਹਾ ਹਤਿਆਰਾ) ਅਤੀ ਪਾਪੀ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤ ਦਾ ਨਿੰਦਕ ਵੱਡਾ ਜ਼ਾਲਮ ਬਣ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਤਿਆਰਾ = ਜ਼ਾਲਮ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Es peor que un vil asesino"

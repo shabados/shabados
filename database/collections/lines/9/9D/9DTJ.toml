@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਲਸੂਨ ਕਹ ਮਾਰਿ ਕੈ ਇਹ ਦਿਸਿ ਕੀਓ ਪਿਯਾਨ ॥"
 page = 64
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I came to this side after destroying alsun on my way"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਸਤੇ ਵਿਚ ਪੈਂਦੇ ਆਲਸ਼ੂਨ (ਨਾਂ ਦੇ ਪਿੰਡ) ਨੂੰ ਜਿਤ ਕੇ (ਅਸੀਂ) ਇਸ ਪਾਸੇ ਵਲ ਚਲ ਪਏ"

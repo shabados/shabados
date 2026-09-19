@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਾਰ ਬਿਵਸਥਾ; ਤੁਝਹਿ ਪਿਆਰੈ ਦੂਧ ॥"
 page = 266
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Who he in thy childhood gave the mild to drink."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਤੇਰੀ ਬਾਲ-ਅਵਸਥਾ ਵਿੱਚ ਤੈਨੂੰ ਪੀਣ ਲਈ ਦੁੱਧ ਦਿਤਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "In your infancy, He gave you milk to drink."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਾ ਤੁਝ ਕੋ ਬਾਲਕ ਅਵਸਥਾ ਮੇਂ ਜੋ ਦੂਧ (ਪਿਆਰੈ) ਪਿਲਾਵਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਬਾਲ ਉਮਰ ਵਿਚ ਤੈਨੂੰ ਦੁੱਧ ਪਿਆਲਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਾਰ = ਬਾਲਕ। ਬਿਵਸਥਾ = ਉਮਰ, ਹਾਲਤ। ਪਿਆਰੈ = ਪਿਆਲਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y luego te nutrió con la leche materna."

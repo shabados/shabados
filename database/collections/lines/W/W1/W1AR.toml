@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਏ ਪ੍ਰਜਾ ਸਭ ਸੰਗ; ਤਹੀ ਆਵਤ ਭਈ ॥"
 page = 1137
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀ ਪ੍ਰਜਾ ਨੂੰ ਨਾਲ ਲੈ ਕੇ ਉਥੇ ਆ ਗਈ"

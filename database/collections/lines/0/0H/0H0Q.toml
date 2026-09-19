@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤਿ ਰਾਖਹਿਗੇ ॥੩੩੯॥"
 page = 585
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The gods will see and hail: they will utter “Bravo, Bravo” and will be pleased in their mind.339."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਨ ਵਿਚ (ਕਲਕੀ ਦਾ ਯਸ਼) ਰਖਣਗੇ ॥੩੩੯॥"

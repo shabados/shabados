@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਹੈਂ ਕਹਾਰ ਪਾਲਕੀ ਚਰਿ ਕੈ ॥"
 page = 977
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਉਂ ਜਿਉਂ) ਕਹਾਰ ਪਾਲਕੀ ਵਿਚੋਂ 'ਚੀਕੂੰ ਚੀਕੂੰ' ਦੀ ਆਵਾਜ਼ ਸੁਣਦੇ,"

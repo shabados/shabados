@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਤ੍ਰ ਅਨੇਕ ਚਲਾਵਤ ਘਾਵ; ਤਊ ਤਨ ਏਕ ਨ ਲਾਗਨ ਪਾਵੈ ॥"
 page = 37
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The enemy strikes many blows, but none doth inflict thy body."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੈਰੀ ਅਨੇਕ ਵਾਰ (ਹਥਿਆਰ) ਚਲਾਵੇ, (ਪਰ) ਤਾਂ ਵੀ ਉਸ ਦੇ ਸ਼ਰੀਰ ਉਤੇ ਇਕ ਨਹੀਂ ਲਗ ਸਕਦਾ।"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਸੱਤ੍ਰ ਅਨੇਕ ਚਲਾਵਤ ਘਾਵ; ਤਊ ਤਨ ਏਕ ਨ ਲਾਗਨ ਪਾਵੈ ॥"

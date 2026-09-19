@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਛਲੀ ਰਾਇ ਏਕ ਤਹ ਛਤ੍ਰੀ ॥"
 page = 1334
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਅਛਲੀ ਰਾਇ ਨਾਂ ਦਾ ਇਕ ਛਤ੍ਰੀ ਸੀ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹ ਕਛੁ ਸੁਧਿ ਮਿਰਜਾ ਕੀ ਲਈ ॥"
 page = 993
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The friends reached the place and asked the welfare of Mirza."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਿਰਜ਼ੇ ਦੀ ਕੁਝ ਖ਼ਬਰ ਲਈ।"

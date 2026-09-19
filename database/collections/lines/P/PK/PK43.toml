@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਦਨ ਕੀ ਲੈ ਬਾਸਨਾ ਭਵਰ ਬਹਿਠ︀ਯੋ ਆਇ ॥"
 page = 920
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Lured by the aroma of sandalwood, a black-bee came and sat over it."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਦਨ ਦੀ ਵਾਸਨਾ ਲੈ ਕੇ ਭੌਰਾ (ਉਥੇ) ਆ ਬੈਠਿਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਜ਼ਾ ਸੀਨਹ ਗਾਹੀਨ ਅਰਵਾ ਸ਼ੁਦਹ ॥੯੪॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And their chests were laden with blood.(94)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਨ੍ਹਾਂ ਦੀਆਂ ਛਾਤੀਆਂ ਲਾਲ ਹੋ ਗਈਆਂ (ਭਾਵ-ਲਹੂ ਲੁਹਾਨ ਹੋ ਗਏ) ॥੯੪॥"

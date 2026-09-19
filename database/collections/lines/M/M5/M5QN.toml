@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਠਾਢੀ ਹ੍ਵੈ ਜ੍ਵਾਬ ਨਿਡਰ ਹ੍ਵੈ ਮੈ ਕਰੋਂ ॥"
 page = 1123
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਡਟ ਕੇ ਅਤੇ ਨਿਰਭੈ ਹੋ ਕੇ ਜਵਾਬ ਦਿਆਂਗੀ"

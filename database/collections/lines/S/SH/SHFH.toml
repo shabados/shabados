@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੰਗੂ ਨਾਊ ਸਹਗਲਾ; ਰਾਮਾ ਧਰਮਾ ਉਦਾ ਭਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Gangu is a barber and Rama, Dharma, Uda are Sahgal brothers."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੰਗੂ ਨਾਊੂ, ਸਹਗਲ ਜਾਤ ਦਾ, ਰਾਮਾ ਧਰਮਾ ਤੇ ਊਦਾ (ਆਪੋ ਵਿੱਚ) ਭਿਰਾਉ ਸਨ।"

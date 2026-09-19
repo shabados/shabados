@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਬ੍ਰਿਜਨਾਇਕ ਕੋ ਸੁ ਕਿਰੀਟੁ; ਗਿਰਾਇ ਕੈ ਬਾਨ ਕੈ ਸੰਗਿ ਦਯੋ ਹੈ ॥"
 page = 455
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king caused the crown of Krishna fall down with his arrow"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਦੇ ਮੁਕਟ ਨੂੰ ਬਾਣ ਨਾਲ ਧਰਤੀ ਉਤੇ ਡਿਗਾ ਦਿੱਤਾ ਹੈ।"

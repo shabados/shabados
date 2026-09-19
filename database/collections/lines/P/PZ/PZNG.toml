@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਪਸਰ ਮਤੀ ਸੁਤਾ ਤਿਹ ਸੋਹੈ ॥"
 page = 1273
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਪਸਰ ਮਤੀ ਉਨ੍ਹਾਂ ਦੀ ਪੁੱਤਰੀ ਹੁੰਦੀ ਸੀ"

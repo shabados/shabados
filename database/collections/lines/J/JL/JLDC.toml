@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੇ ਭਾਜ ਜੋਧਾ ਸਭੈ ਸੀਸ ਫੂਟੇ ॥੨੯॥"
 page = 930
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਦੇ) ਸਿਰ ਪਾਟ ਗਏ ਹਨ, ਉਹ ਸਭ ਸੂਰਮੇ ਭਜ ਚਲੇ ਹਨ ॥੨੯॥"

@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹਿਸਤੁਲ ਨਿਵਾਸ ਹੈਂ ॥੧੫੫॥"
 page = 8
 line = 17
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Thou art the dweller in heaven! 155"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਬਹਿਸ਼ਤ (ਸੁਅਰਗ) ਵਿਚ ਨਿਵਾਸ ਕਰਦਾ ਹੈਂ ॥੧੫੫॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਬਹਿਸਤੁਲ ਨਿਵਾਸ ਹੈਂ ॥੧੫੫॥"

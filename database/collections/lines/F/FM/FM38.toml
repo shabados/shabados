@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫੇਰਿ ਫਿਰੇ ਪਟ ਆਯੁਧ ਲੈ; ਰਨ ਮੈ ਜਦੁਬੀਰ ਕਉ ਘੇਰਿ ਲੀਯੋ ॥"
 page = 417
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the warriors taking up their weapons fought in the battle and surrounded Krishna"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਸਤ੍ਰ ਲੈ ਕੇ ਸੂਰਮੇ ਫਿਰ ਮੁੜ ਪਏ ਅਤੇ ਰਣ ਵਿਚ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਘੇਰ ਲਿਆ।"

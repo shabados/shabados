@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਲੀ ਬਾਚ ਕਾਨ੍ਰਹ ਸੋ ॥"
 page = 491
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Balram addressed to Krishna:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਲਰਾਮ ਨੇ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਕਿਹਾ:"

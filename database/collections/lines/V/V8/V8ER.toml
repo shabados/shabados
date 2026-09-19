@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹੈ ਜੁਧਿਸਟਰ ਕੈ ਜੀਅ ਆਯੋ ॥"
 page = 546
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹੀ (ਪ੍ਰਸ਼ਨ) ਯੁਧਿਸ਼ਠਰ ਦੇ ਮਨ ਵਿਚ ਵੀ ਆਇਆ ਸੀ।"

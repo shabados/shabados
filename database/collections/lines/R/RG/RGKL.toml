@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਮੈ ਦ੍ਰਿੜੁ ਕਰਿ ਜਿਯ ਮਹਿ ਗਹਿਯੋ ॥੩੦॥"
 page = 905
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Whatever he pronounced at the time of his death, I am determined to carry on.(30)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮੈਂ ਦ੍ਰਿੜ੍ਹ ਕਰ ਕੇ ਪੱਲੇ ਬੰਨ੍ਹ ਲਏ ਹਨ ॥੩੦॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਲ ਸੈਫਨੀ ਤੁਪਕ ਭਨਿ; ਜਬਰਜੰਗ ਹਥ ਨਾਲ ॥"
 page = 746
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾਲ, ਸੈਫਨੀ, ਤੁਪਕ, ਜਬਰ ਜੰਗ, ਹਥ ਨਾਲ,"

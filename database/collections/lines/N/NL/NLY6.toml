@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਹੀ ਰਾਜਨ ਕੋ ਸਿਰ ਤਾਜਾ ॥"
 page = 882
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the country of Bang, Raja Bangeswar ruled and he was the Raja of the Rajas."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਾਰਿਆਂ ਰਾਜਿਆਂ ਦਾ ਸ਼ਿਰੋਮਣੀ ਸੀ।"

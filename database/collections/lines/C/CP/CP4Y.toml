@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਰ ਗਏ ਕਟਿ ਕੈ ਝਟ ਦੈ; ਤਬ ਬਾਲ ਕੁਪੀ ਹਥਿਆਰ ਸੰਭਾਰੇ ॥"
 page = 930
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਸੂਰਮੇ ਕਟ ਕੇ ਜਲਦੀ ਨਾਲ ਚਲੇ ਗਏ ਤਾਂ ਪਠਾਣੀ ਹਥਿਆਰ ਸੰਭਾਲ ਕੇ ਬਹੁਤ ਗੁੱਸੇ ਵਿਚ ਆ ਗਈ।"

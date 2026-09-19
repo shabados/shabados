@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤਿ ਬਿਵਾਹ ਸੰਪੂਰਨ ਹੋਤ ਭਯੋ ॥"
 page = 504
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "End of the completion of the marriage ceremonies."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਥੇ ਵਿਆਹ ਦਾ ਪ੍ਰਸੰਗ ਸਪੂਰਨ ਹੋ ਗਿਆ।"

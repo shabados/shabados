@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਦਿਸਾਰਿਨ ਸੌ ਰਹੈ; ਤਾ ਕੀ ਪ੍ਰੀਤਿ ਅਪਾਰ ॥"
 page = 1078
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਇਕ ਪਰਦੇਸਣ ਨਾਲ ਬਹੁਤ ਪ੍ਰੀਤ ਸੀ।"

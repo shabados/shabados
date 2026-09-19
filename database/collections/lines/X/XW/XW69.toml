@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭੈ ਸਸਤ੍ਰ ਬੇਤਾ, ਸੁ ਬਿਦ੍ਰਯਾਧਿਕਾਰੀ ॥੨॥"
 page = 1220
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਾਰੇ ਸ਼ਸਤ੍ਰਾਂ ਵਿਚ ਮਾਹਿਰ ਸੀ ਅਤੇ ਵਿਦਿਆ ਦਾ ਪੂਰਾ ਅਧਿਕਾਰੀ ਸੀ ॥੨॥"

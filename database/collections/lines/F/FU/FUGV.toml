@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਿਰ ਊਪਰਿ; ਠਾਢੋ ਧਰਮ ਰਾਇ ॥"
 page = 178
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Over, his head stands the Righteous Judge."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਸਿਰ ਉਤੇ ਧਰਮ ਰਾਜਾ ਖਲੋਤਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "the Righteous Judge of Dharma stands over their heads."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਿਸਾਬ ਲੇਨੇ ਕੇ ਵਾਸਤੇ ਸਿਰ ਪਰ ਧਰਮ ਰਾਇ ਖੜਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਿਰ ਉੱਤੇ ਧਰਮਰਾਜ ਖਲੋਤਾ ਹੋਇਆ ਹੈ (ਭਾਵ, ਮੌਤ ਦਾ ਸਮਾ ਨੇੜੇ ਆ ਰਿਹਾ ਹੈ, ਪਰ)"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਠਾਢੋ = ਖਲੋਤਾ ਹੋਇਆ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sobre su cabeza está la Ley del Señor"

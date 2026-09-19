@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਮੈ ਭਲੋ ਹੇਰਿ ਤਹ ਦੈਹੈ ॥੩॥"
 page = 869
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Where all the big Rajas used- to come, and, perhaps, they would come across a suitable match for her.(3)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਵਿਚੋਂ ਕੋਈ ਚੰਗਾ ਵੇਖ ਕੇ (ਗੰਗਾ ਮਈਆ) ਇਸ ਨੂੰ ਦੇ ਦੇਵੇਗੀ ॥੩॥"

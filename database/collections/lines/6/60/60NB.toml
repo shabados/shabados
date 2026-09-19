@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੋਰਿ ਗਾਠਿ ਤਾ ਕੇ ਸਿਖਨ; ਰੁਪਯਾ ਲਯੋ ਚੁਰਾਇ ॥"
 page = 863
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His disciples opened the knot (of the scarf) and stole her rupee,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਜੋਗੀ) ਦੇ ਚੇਲਿਆਂ ਨੇ ਗੰਢ ਖੋਲ੍ਹ ਕੇ ਰੁਪਇਆ ਚੁਰਾ ਲਿਆ"

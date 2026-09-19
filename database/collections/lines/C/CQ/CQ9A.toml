@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਨਾਮੁ ਕੋ ਤੱਤੁ ਨ ਲ︁ਯੋ ॥"
 page = 158
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But the person who hath not absorbed the essence of the Name in his heart,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਇਕ ਨਾਮ ਦੇ ਤੱਤ੍ਵ ਨੂੰ ਨਹੀਂ ਜਾਣਿਆ,"

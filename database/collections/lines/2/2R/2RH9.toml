@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਕਾਰ ਈਂ ਬਬੇ ਮਸਲਹਤ ਕਰਦਹਅਮ ॥੩੭॥"
 page = 1407
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I committed this act without thinking and without asking you,(37)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਇਹ ਕੰਮ ਬਿਨਾ ਸੋਚੇ ਸਮਝੇ ਕੀਤਾ ਹੈ ॥੩੭॥"

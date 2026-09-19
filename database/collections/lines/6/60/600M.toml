@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਿ ਸਪਤ ਭੂਮਿ ਵਤਾਰ ॥"
 page = 613
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਧਰਤੀ ਉਤੇ ਜਾ ਕੇ ਸੱਤ ਅਵਤਾਰ ਧਾਰਨ ਕਰ,"

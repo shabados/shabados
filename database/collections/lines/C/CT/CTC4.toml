@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੈਨ ਬਨਾਇ ਭਲੀ ਇਤ ਤੇ; ਰੁਕਮਾਦਿਕ ਆਗੇ ਤੇ ਲੈਨ ਕਉ ਧਾਯੋ ॥"
 page = 495
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And others came alongwith the army in order to welcome him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਧਰੋਂ ਰੁਕਮੀ ਆਦਿਕ ਸੈਨਾ ਨੂੰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਵਿਵਸਥਿਤ ਕਰ ਕੇ (ਸ਼ਿਸ਼ੁਪਾਲ ਨੂੰ) ਲਿਆਉਣ ਲਈ ਗਏ ਹਨ।"

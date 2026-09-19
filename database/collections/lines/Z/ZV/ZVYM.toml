@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਜੈ ਬੀਰ ਧੀਰੰ ਚਲੇ ਛਾਡਿ ਦੇਸੰ ॥"
 page = 597
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ) ਧੀਰਜ ਵਾਲੇ ਸੂਰਮੇ ਸ਼ਰਮਿੰਦੇ ਹੋ ਕੇ ਦੇਸਾਂ ਨੂੰ ਛਡ ਚਲੇ ਹਨ।"

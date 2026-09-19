@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਦਸਾਲਯ ਕੀ ਜਨੁ ਕ੍ਰਾਤਿ ਹਰੀ ॥੩੪੫॥"
 page = 663
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The banners of the army were fluttering and the studded garments were worn by all the warriors the beauty of all of them was making the beauty of all other places shyful.345."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਦੇਵਤਿਆਂ ('ਤ੍ਰਿਦਸ') ਦੇ ਘਰ (ਸਵਰਗ) ਦੀ ਕਾਂਤੀ ਹਰ ਲਈ ਹੋਵੇ ॥੩੪੫॥"

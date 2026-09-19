@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਗਨ ਰਚੇ ਦਸ ਤੀਨਿ ਸੁਧਾਰਾ ॥੭੯॥"
 page = 1363
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੇਰ੍ਹਾਂ ਆਕਾਸ਼ਾਂ ਦੀ ਰਚਨਾ ਕੀਤੀ ਹੋਵੇ ॥੭੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਦਾਨਮ ਕਿ ਈਂ ਮਰਦਿ ਰੋਬਾਹਿ ਪੇਚ ॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I do not know that your officers are deceitful,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਨਹੀਂ ਜਾਣਦਾ ਸਾਂ ਕਿ ਇਹ ਮਰਦ ਲੂੰਬੜੀ ਵਾਂਗ ਮਕਾਰ ਹਨ।"

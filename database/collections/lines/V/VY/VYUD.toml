@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਵਨ ਸੇ ਹਰਿਨਾਖਸ ਸੇ; ਹਰਿਨਾਛ ਹੂ ਸੇ ਜਗਿ ਜਾਨਿ ਨ ਪਾਏ ॥"
 page = 538
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who finished Ravana, Hirannyakashipu,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਵਣ ਵਰਗੇ, ਹਰਨਾਖਸ ਜਿਹੇ, ਹਰਨਾਛ ਵਰਗੇ ਜਗਤ ਵਿਚ ਉਸ ਨੂੰ ਸਮਝ ਨਹੀਂ ਸਕੇ ਹਨ।"

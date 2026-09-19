@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਸਦਾ ਮੁਖੜਾ ਅਜ਼ਲੀ ਨੂਰ ਨਾਲ ਰੋਸ਼ਨ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਲਕਾਇਸ਼ ਮੁਨੱਵਰ ਜ਼ਿ ਨੂਰਿ ਅਜ਼ਲ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "His face is lit with the Devine eclat,"

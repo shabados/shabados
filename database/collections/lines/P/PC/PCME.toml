@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਬਿਤ ਤੇ ਅਤਿ ਸੋਕ ਜਨਾਯੋ ॥"
 page = 548
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One Brahmin in extreme agony said at the house of Krihsna, “All my sons have been killed by Yama"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨਸਿਕ ਅਤੇ ਆਰਥਿਕ (ਦੋਹਾਂ ਤਰ੍ਹਾਂ ਦਾ) ਦੁਖ ਪ੍ਰਗਟ ਕੀਤਾ।"

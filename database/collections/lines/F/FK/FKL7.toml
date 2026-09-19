@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਿਖੀ ਬਰਾਬਰਿ ਨੈਨ ਤਵ; ਬਿਧਨਾ ਧਰੇ ਬਨਾਇ ॥"
 page = 836
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(Raja,) ‘God has created your eyes like sharp arrows,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਧਾਤਾ ਨੇ ਤੇਰੇ ਨੈਣ ਤੀਰਾਂ ਵਰਗੇ ਬਣਾਏ ਹਨ,"

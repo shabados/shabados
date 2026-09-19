@@ -1,29 +1,29 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮਸਤਸਤੁ ਦੇਵੈ ॥"
 page = 2
 line = 14
 
 [[content]]
-asset = "JSTS"
+assets = ["JSTS"]
 type = "note"
 language = "pa"
 data = "ਨਮਸਤਸਤ ਦਾ ਉਚਾਰਨ ਨਮਸਤ-ਸੱਤ ਨਹੀਂ ਕਰਨਾ। ਇਹ ਸ਼ਬਦ ਨਮਸਤ+ਅਸਤ ਦਾ ਸੰਧੀ ਵਾਚੀ ਸ਼ਬਦ ਹੈ।"
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to Thee O Divine Lord!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ (ਕਰਮ-ਫਲ) ਦੇਣ ਵਾਲੇ! ਤੈਨੂੰ ਨਮਸਕਾਰ ਹੈ;"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਨਮਸਤੱਸਤੁ, ਦੇਵੈ ॥"

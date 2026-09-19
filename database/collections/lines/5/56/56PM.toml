@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਚੀ ਬਿਕ੍ਰਾਲ ॥੧੬॥੧੭੨॥"
 page = 113
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Manifesting her frightful form, Kapali Durga was dancing.16.172."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਿਆਨਕ ਰੂਪ ਧਾਰਨ ਕਰਕੇ ਨਚ ਰਹੀ ਸੀ ॥੧੬॥੧੭੨॥"

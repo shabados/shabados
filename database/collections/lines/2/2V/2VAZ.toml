@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤ ਭਾਤ ਬਨਾਇ ਕੈ ਤਹਾ; ਅਸਟ ਸਹੰਸ੍ਰ ਪ੍ਰਨਾਰ ॥"
 page = 141
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Eight thousand drain of various types were prepared."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਹਵਨਕੁੰਡ ਨਾਲ) ਉਥੇ ਭਾਂਤ ਭਾਂਤ ਦੇ ਅੱਠ ਹਜ਼ਾਰ ਪ੍ਰਨਾਲੇ ਬਣਵਾ ਕੇ"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਬਦੈ ਵਿਚਿ ਵਖਾਣੀਐ; ਸੁਰਤੀ ਵਿਚਿ ਰਿਸੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He is described through words and He is illumined in the consciousness."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ ਸ਼ਬਦ ਵਿਚ ਉਚਾਰਿਆ ਜਾਂਦਾ ਹੈ। (ਉਹ) ਸੁਰਤ ਵਿਚੋਂ ਨਿਕਲਦਾ ਹੈ।"

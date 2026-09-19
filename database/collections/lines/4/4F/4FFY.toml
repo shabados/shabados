@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਬਹੂੰ ਨ ਛਿਨ ਚਿਤ ਤੇ ਬਿਸਰਾਵੈ ॥"
 page = 962
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When a clever one meets a smart one, one does not wish to forsake the other."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਛਿਣ ਭਰ ਲਈ ਵੀ ਮਨ ਤੋਂ ਵਿਸਾਰਦਾ ਨਹੀਂ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਪਾਰਥ ਧਨੁ ਲੈ ਫਿਰਿਓ; ਕਸਿ ਕੈ ਤੀਛਨ ਬਾਨ ॥"
 page = 459
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਅਰਜਨ ਧਨੁਸ਼ ਲੈ ਕੇ ਅਤੇ (ਉਸ ਉਤੇ) ਤਿਖਾ ਬਾਣ ਕਸ ਕੇ (ਖੜਗ ਸਿੰਘ) ਵਲ ਮੁੜਿਆ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੋਜਤ ਖੋਜਤ ਸਭੈ ਬ੍ਰਿਜ ਕੇ ਜਨ; ਕਉਤਕ ਦੇਖਿ ਲਯੋ ਇਹ ਆਗੈ ॥"
 page = 312
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਧਰੋਂ) ਬ੍ਰਜ ਦੇ ਸਾਰੇ ਲੋਕ ਲਭਦੇ ਲਭਦੇ (ਉਥੇ ਆ ਗਏ ਅਤੇ) ਅਗੇ (ਹੋ ਕੇ) ਇਹ ਵੇਖ ਲਿਆ"

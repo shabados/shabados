@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਲਿਤ ਦੁਰਦ ਮਦਿ ਚੜ︀ਯੋ ਕਢਿ ਕਰਵਾਰ ਭਯੰਕਰ ॥"
 page = 695
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With his drawn dreadful sword, he moves like and intoxicated elephant"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਦਮਾਤੇ ਹਾਥੀ ਵਾਂਗ ਮਸਤ ਹੋ ਕੇ ਚੜ੍ਹਿਆ ਹੋਇਆ ਹੈ ਅਤੇ (ਹੱਥ ਵਿਚ) ਭਿਆਨਕ ਤਲਵਾਰ ਕਢੀ ਹੋਈ ਹੈ।"

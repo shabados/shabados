@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਕਹ ਭਯੋ ਮਦ੍ਰਯ ਮਦ ਭਾਰੋ ॥"
 page = 852
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ ਸ਼ਰਾਬ ਪੀ ਕੇ ਬੇਹੋਸ਼ ਹੋ ਗਿਆ"

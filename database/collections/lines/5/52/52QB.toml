@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰੇ ਖੇਤ੍ਰ ਖਤ੍ਰਾਣ ਖਤ੍ਰੀ ਖਤ੍ਰਾਣੰ ॥"
 page = 143
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many Kshatriyas of reputation fell in the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਛਤ੍ਰੀਪਣੇ ਦੀ ਮਰਯਾਦਾ ਪਾਲਣ ਵਾਲੇ ਵੀ ਰਣ-ਭੂਮੀ ਵਿਚ ਡਿਗ ਪਏ।"

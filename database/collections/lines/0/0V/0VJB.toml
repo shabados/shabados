@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਏ ਗੀਧ ਔ ਕਾਕ ਤਾ ਕੌ ਚਬਾਈ ॥੧੫॥"
 page = 997
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Being him into pieces, the eagle would have eaten them all.(15)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਗਿਰਝਾਂ ਅਤੇ ਕਾਂ ਚਬਾ ਗਏ ਹੋਣਗੇ ॥੧੫॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿ ਕਾਜੀ ਤੈ ਨ︀ਯਾਇ ਹਮਾਰੋ ॥੧੯॥"
 page = 857
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With great distress he requested the Quazi to do the justice.(19)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਕਾਜ਼ੀ! ਤੁਸੀਂ ਸਾਡਾ ਇਨਸਾਫ਼ ਕਰੋ ॥੧੯॥"

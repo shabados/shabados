@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਵ ਪਿਤ੍ਰ ਨ ਪਾਵਕ ਮਾਨਹਿਗੇ ॥"
 page = 560
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵਤਿਆਂ, ਪਿਤਰਾਂ ਅਤੇ ਅਗਨੀ (ਦੇਵਤਾ) ਨੂੰ ਨਹੀਂ ਮੰਨਣਗੇ।"

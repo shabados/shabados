@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਹਪਵਤੀ ਜਿਹ ਨਗਰੁਜਿਯਾਰੋ ॥"
 page = 1172
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਥੇ) ਨੀਲ ਕੇਤੁ ਨਾਂ ਦਾ ਇਕ ਵੱਡਾ ਰਾਜਾ ਸੀ।"

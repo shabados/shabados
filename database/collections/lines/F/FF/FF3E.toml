@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਿ ਨਾਮ ਤਾਸ ਹੈ, ਕਵਨ ਜਾਤ ॥"
 page = 37
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What is His Name? and what is His caste?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਨਾਮ ਕੀ ਹੈ ਅਤੇ ਉਸ ਦੀ ਜਾਤਿ ਕੀ ਹੈ? (ਉਸ ਬਾਰੇ ਕੁਝ ਨਹੀਂ ਕਿਹਾ ਜਾ ਸਕਦਾ)"

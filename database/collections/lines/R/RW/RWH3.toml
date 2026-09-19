@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਰਥ ਤਾਹੀ ਚੜਿਯੋ ਰਥ ਪੈ; ਡਰਪਾਤਿ ਭਯੋ ਪ੍ਰਭ ਯੌ ਸਮਝਾਵੈ ॥"
 page = 548
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Explaining to the frightened Arjuna, Krishna said, “Do not be anxious"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਰਜਨ ਵੀ ਉਸੇ ਰਥ ਉਤੇ ਚੜ੍ਹਿਆ ਸੀ ਅਤੇ ਡਰਦਾ ਸੀ। ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੇ (ਉਸ ਨੂੰ) ਇਸ ਤਰ੍ਹਾਂ ਸਮਝਾਇਆ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਉਸੁ ਪੰਡਿਤ ਕੈ ਉਪਦੇਸਿ; ਜਗੁ ਜੀਵੈ ॥"
 page = 274
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The world lives by the instruction of that pandit."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਪੰਡਤ ਦੀ ਸਿਖ-ਮਤ ਦੁਆਰਾ ਦੁਨੀਆਂ ਜੀਉਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "By that Pandit's teachings, the world lives."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਪੰਡਤ ਕੇ ਉਪਦੇਸ਼ ਕਰ ਕੇ ਇਹ (ਜਗੁ) ਜੀਵ ਚੇਤਨ ਭਾਵ ਮੇਂ ਜੀਵਤਾ ਹੈ, ਭਾਵ ਜਨਮ ਮਰਨ ਸੇ ਰਹਿਤ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਪੰਡਿਤ ਦੇ ਉਪਦੇਸ਼ ਨਾਲ (ਸਾਰਾ) ਸੰਸਾਰ ਰੂਹਾਨੀ ਜ਼ਿੰਦਗੀ ਹਾਸਲ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਉਪਦੇਸਿ = ਉਪਦੇਸ ਨਾਲ। ਜੀਵੈ = ਜੀਊਂਦਾ ਹੈ, ਰੂਹਾਨੀ ਜ਼ਿੰਦਗੀ ਹਾਸਲ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El mundo entero podría ser sostenido por las enseñanzas de un hombre así;"

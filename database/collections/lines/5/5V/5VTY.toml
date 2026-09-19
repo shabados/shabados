@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰਿਯੋ ਝੂਮਿ ਭੂਮੰ ਗਏ ਪ੍ਰਾਣ ਛੁਟੰ ॥"
 page = 102
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who swayed, fell down of the goround and breathed his last."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਭੁਆਟਣੀ ਖਾ ਕੇ ਧਰਤੀ ਉਤੇ ਡਿਗ ਪਿਆ ਅਤੇ (ਉਸ ਦੇ) ਪ੍ਰਾਣ ਨਿਕਲ ਗਏ।"

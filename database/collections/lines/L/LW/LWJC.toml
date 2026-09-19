@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕੁ ਬਧੂ ਜੁਤ ਬ੍ਰਾਹਮਨ ਥੋ; ਤਿਹ ਯਾ ਜਗੁ ਬੀਚ ਬਡੋ ਦੁਖੁ ਪਾਯੋ ॥"
 page = 541
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was a married Brahmin, who had undergone great suffering"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਇਸਤਰੀ ਸਹਿਤ ਬ੍ਰਾਹਮਣ ਸੀ, ਉਸ ਨੇ ਇਸ ਜਗਤ ਵਿਚ ਬਹੁਤ ਦੁਖ ਪਾਇਆ ਸੀ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੋਟਿ ਵਿਕਾਰ ਹਜਾਰ ਲਖ; ਪਰਉਪਕਾਰੀ ਸਦਾ ਹਜੂਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Instead, ocean of delights, the Lord makes us forget grief and disappointment."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਹਜ਼ਾਰਾਂ, ਲੱਖਾਂ ਵਿਕਾਰਾਂ (ਨੂੰ ਕੱਟਦੇ ਹਨ, ਕਿਉਂ ਜੋ) ਪਰੋਪਕਾਰੀ ਹਨ ਅਰ ਸਦਾ (ਵਾਹਿਗੁਰੂ ਦੇ) ਹਾਜ਼ਰ ਰਹਿੰਦੇ ਹਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨ ਇਹ ਕਿਯੌ ਸਕਲ ਸੰਸਾਰੋ ॥"
 page = 1261
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਇਹ ਸਾਰਾ ਸੰਸਾਰ ਸਿਰਜਿਆ ਹੈ,"

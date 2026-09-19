@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਤੇ ਰਾਮ ਸੇ ਮੇਟਿ ਡਾਰੇ ਉਪਾਏ ॥"
 page = 41
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere He hath effaced and then created (many) like Rama!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਹੀ ਰਾਮ ਵਰਗੇ ਪੈਦਾ ਕੀਤੇ ਅਤੇ ਮਿਟਾ ਦਿੱਤੇ,"

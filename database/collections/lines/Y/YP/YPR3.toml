@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਪਲ ਸਿੰਘ ਰਾਜਾ ਬਡੋ; ਰਾਜ ਕਲਾ ਤਿਹ ਨਾਰਿ ॥"
 page = 894
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was once a great Raja and Raj Kala was his wife."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਪਲ ਸਿੰਘ ਨਾਂ ਦਾ ਇਕ ਵੱਡਾ ਰਾਜਾ ਸੀ ਅਤੇ ਰਾਜ ਕਲਾ (ਨਾਂ ਦੀ ਉਸ ਦੀ) ਇਸਤਰੀ ਸੀ।"

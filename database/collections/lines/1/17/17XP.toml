@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਲਕ ਤੇ ਅੰਗਵਾੜੀਆਂ; ਹਿਡਕੀ ਖੁਰਕਣੁ ਪਰਸ ਪਰਸੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Whence idleness, yawning, hiccough, itch, gaping, sighing, snapping and clapping?"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਆਲਸ ਤੇ ਆਕੜਾਂ ਭੰਨਣੀਆਂ, ਹਿਡਕੀ ਲੈਣੀ, ਪਰਸਪਰ (ਇਕ ਦੂਜੇ ਨੂੰ) ਖੁਰਕਣਾ।"

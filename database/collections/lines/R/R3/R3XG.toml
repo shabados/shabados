@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸ ਕਉਨ ਰਹਾ ਧਰਾ ਪਰ, ਦੇਹੁ ਤਾਹਿ ਉਚਾਰ ॥"
 page = 689
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All of them looked with bowed heads and reflected as to who was that king on the earth whose name might be mentioned"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਜਿਹਾ ਕੌਣ ਧਰਤੀ ਉਤੇ ਰਹਿ ਗਿਆ ਹੈ, ਜਿਸ ਬਾਰੇ ਉਹ ਦਸ ਦੇਣ।"

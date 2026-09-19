@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪੂਰਨ ਹੋਵੈ; ਸਗਲੀ ਆਸ ॥"
 page = 179
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "And all the desires shall be fulfilled."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀਆ ਖ਼ਾਹਿਸ਼ਾਂ ਖੂਰੀਆਂ ਹੋ ਜਾਣਗੀਆਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "and all hopes shall be fulfilled."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਾ ਸੰਪੂਰਨ ਆਸਾ ਪੂਰਨ ਹੋਵੇਗੀਆਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਸਾਰੀ ਹੀ ਆਸ ਪੂਰੀ ਹੋ ਜਾਇਗੀ (ਦੁਨੀਆ ਦੀਆਂ ਆਸਾਂ ਸਤਾਣੋਂ ਹਟ ਜਾਣਗੀਆਂ),"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਗਲੀ = ਸਾਰੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y todos sus deseos son satisfechos."

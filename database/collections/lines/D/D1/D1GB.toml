@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਭਾਤਿ ਲੈ ਕਰ ਦਾਜ ॥"
 page = 633
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king Aj wedded that damsel and taking various types of dowry and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਹੁਤ ਤਰ੍ਹਾਂ ਦਾ ਦਾਜ ਲੈ ਕੇ"

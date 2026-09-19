@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਨ. ਨ ਦੀਸੈ ਕੋਈ ॥"
 page = 886
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I see not any other."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਹੋਰ ਕੋਈ ਨਹੀਂ ਦਿਸਦਾ (ਉਸ ਤੋਂ ਸਿਵਾ)।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I do not see any other at all."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਤੇ ਬਿਨਾ ਹੋਰ ਕੋਈ ਭੀ ਨਹੀਂ ਦੇਖੀਤਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਤੇ ਭੀ) ਉਸ ਤੋਂ ਬਿਨਾ ਕੋਈ ਦੂਜਾ ਨਹੀਂ ਦਿੱਸਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਨ = {अन्य} ਦੂਜਾ ਹੋਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sí, no veo a nadie más que a Dios."

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਥਮ, ਮੋਹਿ ਤੁਮ ਤਾਹਿ ਮਿਲਾਵਹੁ ॥"
 page = 1188
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ ਤੂੰ ਮੈਨੂੰ ਉਸ (ਰਾਜ ਕੁਮਾਰੀ) ਨੂੰ ਮਿਲਾ ਦੇ।"

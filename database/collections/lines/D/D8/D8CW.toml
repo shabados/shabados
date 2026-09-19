@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦਸ ਬਿਘਿਆੜੀ; ਲਈ ਨਿਵਾਰਿ ॥"
 page = 899
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The ten she-wolves of senses, He has driven away."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇੰਦਰੀਆਂ ਦੀਆਂ ਦਸਾਂ ਹੀ ਬਘਿਆੜੀਆਂ ਨੂੰ ਉਸ ਨੇ ਦੂਰ ਕਰ ਦਿੱਤਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He has driven out the ten wolves."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਦਸ ਇੰਦ੍ਰੀਆਂ ਜੋ ਬਘਿਆੜੀ ਵਤ ਕਾਟਨੇ ਹਾਰੀਆਂ ਥੀ, ਵਹੁ ਭੀ ਨਿਵਾਰ ਲਈਆਂ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਦਸ ਇੰਦ੍ਰੀਆਂ ਦਾ ਦਬਾਉ ਭੀ ਮੇਰੇ ਉਤੋਂ ਦੂਰ ਕਰ ਦਿੱਤਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਘਿਆੜੀ = ਇੰਦ੍ਰੀਆਂ। ਨਿਵਾਰਿ ਲਈ = ਦੂਰ ਕਰ ਦਿੱਤੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "también domina a las diez lobas"

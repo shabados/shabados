@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਡਿ ਬਚਾਇਓ ਜਾਨਿ ਕੈ; ਅਉਰਨ ਮਾਰਨ ਹੇਤੁ ॥੧੦੨॥"
 page = 85
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Chandi had deliberately saved him in order to kill others.102.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਹੋਰਨਾਂ ਨੂੰ ਮਾਰਨ ਲਈ ਚੰਡੀ ਨੇ ਜਾਣ ਬੁਝ ਕੇ ਬਚਾਇਆ ॥੧੦੨॥"

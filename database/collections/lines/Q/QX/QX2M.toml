@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਤ ਕਾਲ ਇਮ ਬੀਤਯੋ; ਕਰਤ ਧਰਮੁ ਅਰੁ ਦਾਨ ॥"
 page = 195
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਰਮ ਅਤੇ ਦਾਨ ਕਰਦਿਆਂ ਬਹੁਤ ਸਾਰਾ ਸਮਾਂ ਇਸ ਤਰ੍ਹਾਂ ਬੀਤ ਗਿਆ।"

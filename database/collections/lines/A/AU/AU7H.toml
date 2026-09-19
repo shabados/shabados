@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖਿ ਤਿਹ ਕੋ ਤਬ ਬਾਨ ਚਲਾਵੈ ॥"
 page = 468
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the messengers of Yama came to take him, he even discharged his arrows towards them"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਉਨ੍ਹਾਂ ਨੂੰ ਵੇਖ ਕੇ ਬਾਣ ਚਲਾਉਂਦਾ ਹੈ।"

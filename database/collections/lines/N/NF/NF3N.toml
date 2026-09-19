@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਤੇਜਵੰਤ ਸੋਭਾ ਸੁਰੰਗ ॥"
 page = 636
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਬਹੁਤ ਤੇਜਸਵੀ ਅਤੇ ਸੁੰਦਰ ਰੰਗ ਅਤੇ ਸ਼ੋਭਾ ਵਾਲੀ ਸੀ।"

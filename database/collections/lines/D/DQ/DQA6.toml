@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬਯਕਤ ਅੰਗ ॥"
 page = 666
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੇ) ਅਪ੍ਰਤੱਖ ਸ਼ਰੀਰ ਦੀ ਚਮਕ"

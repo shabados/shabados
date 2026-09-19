@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਛੁਤਾਇ ਗਯੋ ਮਘਵਾ ਗ੍ਰਿਹ ਕੋ; ਨ ਰਹੀ ਤਿਹ ਕੀ ਪਤਿ ਏਕ ਰਤੀ ॥"
 page = 331
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Indra went back to his home repenting and he lost all his self-respect"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇੰਦਰ ਪਛਤਾਵਾ ਕਰਦਾ ਹੋਇਆ ਘਰ ਨੂੰ ਚਲਿਆ ਗਿਆ ਅਤੇ ਉਸ ਦੀ ਰਤਾ ਜਿੰਨੀ ਇਜ਼ਤ ਨਾ ਰਹੀ।"

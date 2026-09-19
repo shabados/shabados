@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਕੋਪ ਮਨ ਮਾਝ ਬਸਾਵਾ ॥"
 page = 915
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the Raja learned aboUt this secret trait, he flew into a rage. He"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਨੇ ਮਨ ਵਿਚ ਬਹੁਤ ਗੁੱਸਾ ਕੀਤਾ।"

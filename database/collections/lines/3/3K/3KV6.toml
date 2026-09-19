@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਹੀ ਦੇਸ ਨਿਕਾਰੋ ਦਯੋ ॥੯॥"
 page = 900
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rather she was plundered and banished from the country.(9)(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤਦ ਹੀ ਦੇਸ ਨਿਕਾਲਾ ਦੇ ਦਿੱਤਾ ॥੯॥"

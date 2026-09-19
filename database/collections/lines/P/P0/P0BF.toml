@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਸੰ ਸੂਰਜੰ ਆਦਿ ਲੈ ਕੈ ਉਪਿੰਦ੍ਰੰ ॥"
 page = 161
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Indra gathered together all the gods including Chandra. Surya and Upendra."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਜ, ਚੰਦ੍ਰਮਾ, ਉਪੇਂਦਰ ਆਦਿ।"

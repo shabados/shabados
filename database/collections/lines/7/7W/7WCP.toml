@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਤੇ ਅਤਿ ਪੁਸਟ ਪ੍ਰਮਾਥ ਬਲੀ ॥੩੬੧॥"
 page = 664
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing it, more powerful four vultures moved forward.361."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਉਸ ਤੋਂ ਜ਼ਿਆਦਾ ਤਕੜੀ ਅਤੇ ਬਲਵਾਨ ਸੀ ॥੩੬੧॥"

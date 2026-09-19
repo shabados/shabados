@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਲੀ ਸਖੀ ਹਮਰੀ ਮੁਖ ਭਾਖੀ ॥"
 page = 867
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੂੰਹੋਂ ਕਿਹਾ, ਹੇ ਸਖੀ! (ਤੂੰ) ਮੇਰੀ ਚੰਗੀ ਸਹੇਲੀ ਹੈਂ।"

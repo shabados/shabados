@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਤਰ ਭ੍ਰਮਤ ਨਰਕ ਮਹਿ ਰਹਿਯਹੁ ॥੮੯॥"
 page = 909
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Failing which, you will keeping on roaming around in the hell.(89)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਹੀਂ ਤਾਂ (ਤੂੰ) ਨਰਕਾਂ ਵਿਚ ਭਰਮਦਾ ਰਹੇਂਗਾ ॥੮੯॥"

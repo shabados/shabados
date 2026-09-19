@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪਪੈ. ਪਾਤਿਸਾਹੁ ਪਰਮੇਸਰੁ; ਵੇਖਣ ਕਉ ਪਰਪੰਚੁ ਕੀਆ ॥"
 page = 433
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "P:-- The Transcendent Lord our King, has made the world to behold."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪ-ਪਰਮ ਪ੍ਰਭੂ ਸਾਡੇ ਰਾਜੇ ਨੇ ਦੇਖਣ ਲਈ ਸੰਸਾਰ ਸਾਜਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Pappa: The Supreme King, the Transcendent Lord, created the world, and watches over it."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪੰਡਤ! ਪਪੇ ਅਖਰ ਨੇ ਕਹਾ ਹੈ: ਪਰਮੇਸ੍ਵਰ ਪਾਤਸ਼ਾਹ ਹੈ, ਤਿਸ ਨੇ ਇਹ ਸੰਸਾਰ ਅਪਨੇ ਦੇਖਨੇ ਕੋ ਬਨਾਇਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮੇਸਰ ਪਾਤਿਸ਼ਾਹ ਹੈ, ਉਸ ਨੇ ਆਪ ਇਹ ਸੰਸਾਰ ਰਚਿਆ ਹੈ, ਕਿ ਜੀਵ ਇਸ ਵਿਚ ਉਸ ਦਾ ਦੀਦਾਰ ਕਰਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਰਪੰਚੁ = ਸੰਸਾਰ। ਵੇਖਣ ਕਉ = ਤਾ ਕਿ ਜੀਵ ਇਸ ਪਰਪੰਚ ਵਿਚ ਪਰਮੇਸਰ ਨੂੰ ਵੇਖਣ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Pappa: Nuestro Señor Trascendente, nuestro Rey, creó este mundo para Ser Testigo de Su Creación."

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਤੁਮ ਕਹ ਅਧਿਕ ਰਿਝੈਹੌ ॥੧॥"
 page = 853
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I would narrate you a female-Chritar, which could appease you.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੁਹਾਡੇ ਮਨ ਨੂੰ ਅਧਿਕ ਪ੍ਰਸੰਨ ਕਰਦਾ ਹਾਂ ॥੧॥"

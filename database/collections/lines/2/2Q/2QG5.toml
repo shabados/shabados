@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਤ੍ਰੀ ਕੋ ਤਿਹ ਪੂਤ ਪ੍ਰਮਨਿਯਤ ॥"
 page = 1255
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਸੇ) ਛਤ੍ਰੀ ਦਾ ਪੁੱਤਰ ਦਸਿਆ ਜਾਂਦਾ ਸੀ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਹਰਿ ਅਖਰ ਦੁਇ; ਇਹ ਮਾਲਾ ॥"
 page = 388
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "These two words, God, God make my rosary."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਦੋ ਸ਼ਬਦ, ਹਰੀ ਹਰੀ ਮੇਰੀ ਜਪੁਨੀ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "These two words, Har, Har, make up my maalaa."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਰਿ ਹਰਿ ਏਹ ਦੋ ਅਖਰ ਮਾਲਾ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ! ਮੇਰੇ ਪਾਸ ਤਾਂ) 'ਹਰਿ ਹਰਿ'-ਇਹ ਦੋ ਲਫ਼ਜ਼ਾਂ ਦੀ ਮਾਲਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਖਰ ਦੁਇ = ਦੋਵੇਂ ਲਫ਼ਜ਼ (ਹਰਿ ਹਰਿ)।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mi rosario solamente tiene dos cuentas: el Único Señor,"

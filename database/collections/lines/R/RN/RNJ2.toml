@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਕਰਮ ਭਰਮ, ਨਹੀਂ ਧਰਮ ਧਿਆਨ ॥"
 page = 29
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which is action less Illusion less and without any consideration of religious disciplines !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਕੋਈ ਕਰਮ, ਭਰਮ, ਧਰਮ ਅਤੇ ਧਿਆਨ ਨਹੀਂ ਹੈ,"

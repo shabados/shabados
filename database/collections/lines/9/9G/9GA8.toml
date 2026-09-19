@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖੈ ਲਾਗ ਸਾਸਤ੍ਰੰ ਬੋਲੇ ਬਿਪ੍ਰ ਸਰਬੰ ॥"
 page = 145
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After scanning the Shastras, all the Brahmins said,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਨੇ) ਸ਼ਾਸਤ੍ਰਾਂ ਨੂੰ ਵੇਖਿਆ ਅਤੇ ਸਾਰੇ ਬ੍ਰਾਹਮਣ ਕਹਿਣ ਲਗੇ"

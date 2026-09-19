@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਵੰਤ ਦੁਸਟ ਮੰਡਲੀ ॥"
 page = 134
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The clique of tyrants is suppressed"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੇ ਸਾਹਮਣੇ) ਦੁਸ਼ਟਾਂ ਦੀ ਮੰਡਲੀ ਦਬ ਜਾਂਦੀ ਹੈ"

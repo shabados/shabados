@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਲ ਵਿਚ ਰੋਹ ਬਢਾਇ ਕੈ; ਮਾਰਿ ਮਾਰਿ ਪੁਕਾਰੇ ॥"
 page = 121
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Highly infuriated they shouted “kill, kill” in their ranks."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦਿਲ ਵਿਚ (ਅਥਵਾ ਦਲ ਵਿਚ) ਕ੍ਰੋਧ ਵਧਾ ਕੇ 'ਮਾਰੋ' 'ਮਾਰੋ' ਪੁਕਾਰਦੇ ਸਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੰਸੀਧਰ ਧਰਨਿਨਿ ਪਦ ਦਿਜੈ ॥"
 page = 763
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਬੰਸੀਧਰ ਧਰਨਿਨਿ' (ਕਿਸਨ ਦੀ ਧਾਰਨ ਕੀਤੀ ਨਦੀ ਜਮਨਾ ਵਾਲੀ ਧਰਤੀ) ਸ਼ਬਦ ਰਖੋ।"

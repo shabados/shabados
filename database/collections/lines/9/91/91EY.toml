@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਚਰ ਪਤਿ ਸਬਦਾਤਿ ਕਹਿਜੈ ॥"
 page = 759
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਅੰਤ ਉਤੇ 'ਜਾ ਚਰ ਪਤਿ' ਸ਼ਬਦ ਕਹੋ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਰਭਵੰਤ ਭਈ ਤ੍ਰਿਯੋ ਤ੍ਰਿਯ; ਛੀਰ ਕੋ ਕਰਿ ਪਾਨ ॥"
 page = 205
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਖੀਰ ਨੂੰ ਪੀਣ ਨਾਲ ਤਿੰਨੋ ਇਸਤਰੀਆਂ ਗਰਭਵਤੀ ਹੋ ਗਈਆਂ।"

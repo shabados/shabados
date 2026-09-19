@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਹਿੰਮਤ ਵਰਾ, ਰਾ ਦਰਾਰਦ ਜ਼ਿ ਪਾਇ ॥੪੫॥"
 page = 1399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘He treads upon the enemy eliminating him in the dust.(45)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹਿੰਮਤ ਵਾਲਿਆਂ ਨੂੰ ਪੈਰਾਂ ਵਿਚ ਮਧੋਲ ਦਿੰਦਾ ਹੈ ॥੪੫॥"

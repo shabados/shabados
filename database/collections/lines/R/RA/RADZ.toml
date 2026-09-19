@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਰ ਬਾਦ ਅਹੰਕਾਰ ਬਢਾਯੋ ॥"
 page = 56
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "None could realise the Supreme Lord, but instead spread strife, enmity and ego."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸਗੋਂ) ਵੈਰ, ਵਾਦ-ਵਿਵਾਦ ਅਤੇ ਹੰਕਾਰ ਵਧਾ ਲਿਆ"

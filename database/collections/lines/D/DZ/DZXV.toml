@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਛਿਅ ਦਰਸਨ ਛਿਅ ਸਾਸਤ੍ਰਾ; ਪਾਖੰਡਿ ਕਰਮ ਕਰਨਿ ਦੇਵਾਜੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "People perform hypocritical rituals pretending to follow the six philosophies of six shastras."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਕੋਈ) ਛੀ ਦਰਸ਼ਨ ਛੀ ਸ਼ਾਸਤ੍ਰਾਂ ਵਿਖੇ ਲੱਗਕੇ ਪਖੰਡ ਦੇ ਕਰਮਾਂ ਦੇ ਦਾਵੇ ਬੰਨ੍ਹਦੇ ਹਨ।"

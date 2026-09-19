@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮਸਕਾਰ ਕਰਿ ਸਪਤ; ਪ੍ਰਦਛਿਨ ਕੌ ਦਿਯੋ ॥"
 page = 1079
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੱਤ ਪ੍ਰਦੱਛਣਾ ਦੇ ਕੇ ਨਮਸਕਾਰ ਕੀਤਾ।"

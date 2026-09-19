@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤ੍ਰੁਟਾ ਅਛੁਟਾ ਅਜਟਾ ਅਭਿਦੀ ॥੭੦॥"
 page = 681
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You are the wielder of arms, beyond all splendours, with lose matted locks and indistinguishable.70."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤ੍ਰੁਟਾ, ਅਛਟਾ, ਅਜਟਾ, ਅਭਿਦੀ ॥੭੦॥"

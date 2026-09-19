@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੰਸ ਬਾਚ ਬਕੀ ਸੋ ॥"
 page = 298
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Kansa addressed to Bakasur:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੰਸ ਨੇ ਬਕ (ਦੈਂਤ) ਦੀ ਭੈਣ ਬਕੀ ਨੂੰ ਕਿਹਾ:"

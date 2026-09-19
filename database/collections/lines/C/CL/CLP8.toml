@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨ ਕਾ ਸੁਭਾਉ; ਸਭੁ ਕੋਈ ਕਰੈ ॥"
 page = 1167
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Every man acts according to his mind's disposition."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹਰ ਇਕ ਇਨਸਾਨ ਆਪਣੇ ਚਿੱਤ ਦੀ ਆਦਤ ਅਨੁਸਾਰ ਕੰਮ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Everyone acts according to the inclinations of the mind."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੈਸਾ ਮਨ ਕਾ ਸੁਭਾਉ ਹੈ ਤੈਸਾ ਤੋ ਸਭ ਕੋਈ ਕਰਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਗਤ ਵਿਚ) ਹਰੇਕ ਮਨੁੱਖ ਆਪੋ ਆਪਣੇ ਮਨ ਦਾ ਸੁਭਾਉ ਵਰਤਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਭੁ ਕੋਈ = ਹਰੇਕ ਜੀਵ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Todos siguen ciegamente los hábitos de la mente,"

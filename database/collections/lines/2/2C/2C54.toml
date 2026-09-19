@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਪੋਖਣੀ ਸੋਖਣੀ ਸਰਬ ਭਰਣੀ ॥"
 page = 118
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Preserver of all and destroyer of all"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਾਲਣ ਕਰਨ ਵਾਲੀ, ਸੁਕਾਉਣ ਵਾਲੀ ਅਤੇ ਸਭ ਨੂੰ ਭਰਨ ਵਾਲੀ ਨੂੰ ਨਮਸਕਾਰ ਹੈ;"

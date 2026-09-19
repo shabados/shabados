@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਸਭੈ ਰਚਨਾ ਜਗ ਹੂ ਕੀ ਲਿਖੀ ਕਹਿ ਲਉ ਕਬਿ ਸ︀ਯਾਮ ਸੁਨਾਏ ॥"
 page = 518
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She made all the creation of the world"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਵੀ ਸ਼ਿਆਮ ਕਿਥੋਂ ਤਕ ਸੁਣਾਏ, ਹੋਰ ਵੀ ਜਗਤ ਦੀ ਸਾਰੀ ਰਚਨਾ ਲਿਖ ਦਿੱਤੀ।"

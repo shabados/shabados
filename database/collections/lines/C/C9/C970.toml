@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਲਟਿ ਜਾਨ੍ਰਹਵੀ ਬਹੈ; ਸਤ ਹਰੀਚੰਦੇ ਹਟੈ ॥"
 page = 706
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Even if the Ganges flows contrarily and Harish Chandra may forsake the path of truth"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੰਗਾ ਉਲਟੀ ਵਗਣ ਲਗ ਪਵੇ ਅਤੇ ਹਰੀ ਚੰਦ ਦਾ ਸੱਤ ਡੋਲ ਜਾਵੇ,"

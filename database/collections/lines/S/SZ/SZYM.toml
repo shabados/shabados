@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਇਕਿ ਗਾਵਹਿ; ਇਕਿ ਭਗਤਿ ਕਰੇਹਿ ॥"
 page = 158
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Some there are who sing, and some perform service."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਗਾਉਂਦੇ ਹਨ ਤੇ ਕਈ ਟਹਿਲ ਸੇਵਾ ਕਮਾਉਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Some sing, and some perform devotional worship."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਗਾਵਤੇ ਹੈਂ ਇਕ ਬਨਾਵਟੀ ਭਗਤੀ ਕਰਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਮਨੁੱਖ ਐਸੇ ਹਨ ਜੋ (ਭਗਤੀ ਦੇ ਗੀਤ) ਗਾਂਦੇ ਹਨ ਤੇ ਰਾਸਾਂ ਪਾਂਦੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਭਗਤਿ ਕਰੇਹਿ = ਰਾਸਾਂ ਪਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Algunos hay que cantan y otros hay que bailan,"

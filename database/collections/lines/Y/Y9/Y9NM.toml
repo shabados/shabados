@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਵਿਰਲਾ ਸਿਖ, ਸੁਣੈ ਗੁਰ ਪੀਰੈ ॥੧੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Rare is the Sikh who listens to (and accepts) the teachings of the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ) ਗੁਰਾਂ ਪੀਰਾਂ ਦੀ ਸਿੱਖ੍ਯਾ ਨੂੰ (ਕੋਈ) ਵਿਰਲਾ ਹੀ ਸੁਣਦਾ ਹੈ।"

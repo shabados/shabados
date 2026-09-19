@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੁਤੰ ਸੁਰਗ ਲੇਖੀ ॥੬੫੪॥"
 page = 268
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The monkeys in great delight caused the air-vehicle to fly and they saw Avadhpuri, beautiful like heaven.654."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਸੁਅਰਗ ਵਰਗੀ ਸੁਣੀ ਜਾਂਦੀ ਹੈ ॥੬੫੪॥"

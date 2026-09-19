@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਲ ਬਕਤ੍ਰ ਹ੍ਵੈ ਬਾਕ ਉਚਰਈ ॥"
 page = 1106
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਲ ਮੁਖ ਬਣ ਕੇ ਬਾਣੀ (ਬੋਲ) ਉਚਾਰਦਾ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਹੁ ਦਿਸ ਘੋਰ ਪ੍ਰਚਰ ਭਇਓ ਪਾਪਾ ॥"
 page = 559
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਹਾਂ ਪਾਸੇ ਅਤਿ ਅਧਿਕ ਘੋਰ ਪਾਪਾਂ (ਦਾ ਪਸਾਰਾ) ਹੋ ਜਾਵੇਗਾ।"

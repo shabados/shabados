@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਗਪਤਿ ਅਸਤ੍ਰ ਤਜਾ ਤਬ ਕਾਲਾ ॥"
 page = 1377
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਕਾਲ ਨੇ ਖਗਪਤਿ (ਗਰੁੜ) ਅਸਤ੍ਰ ਛਡਿਆ,"

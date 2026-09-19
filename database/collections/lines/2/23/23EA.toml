@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਨਕ ਔ ਸਨਕੇਸ ਨੰਦਨ; ਪਾਵਹੀ ਨ ਹਸੇਬ ॥"
 page = 33
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sanak, Sanandan etc  the Sons of Brahma could not know His secret in spite of their service."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਹਮਾ ('ਸਨਕੇਸ') ਸਨਕ, ਆਦਿ ਸੇਵਾ ਕਰ ਕੇ ਜਿਸ ਦਾ ਅਨੁਮਾਨ ਨਹੀਂ ਲਗਾ ਸਕੇ।"

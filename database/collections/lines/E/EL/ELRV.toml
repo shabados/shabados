@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਾਰੀਗਰਿ ਕਾਰੀਗਰਾ; ਕਾਰਿਖਾਨੇ ਵਿਚਿ ਜਾਇ ਮਿਲੰਦੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Mechanics meet their fellow mechanics in the workshop."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਾਰੀਗਰ ਕਾਰੀਗਰਾਂ ਕਾਰਖਾਨਿਆਂ ਵਿਚ ਜਾ ਮਿਲਦੇ ਹਨ।"

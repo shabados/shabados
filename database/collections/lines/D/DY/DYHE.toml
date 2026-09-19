@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਮੁਖੜੇ ਦੀ ਇਕ ਨਜ਼ਰ ਦੋ ਜਹਾਨਾਣ ਦੀ ਬਾਦਸ਼ਲਹੀ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬਾਦਸ਼ਾਹੀ ਬਰ ਦੋ ਆਲਮ, ਯੱਕ ਨਿਗਾਹਿ ਰੂਇ ਤੂ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "would have all his suspicions and illusions completely dispelled.” (18) (5)"

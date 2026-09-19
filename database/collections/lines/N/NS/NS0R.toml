@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਬਿਨਾਂ ਮੇਰੇ ਸਿਮਰਨ ਦੇ ਕਿਸੇ ਜਾਦੂ ਵਲ ਨਹੀਂ ਜਾਂਦੇ, "
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਗ਼ੈਰ ਜ਼ਿਕਰਮ ਬ-ਜਾਦੁਏ ਨ-ਰਵੰਦ ॥"
 page = 1
 line = 39
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "They do not go for any spells except My meditation,"

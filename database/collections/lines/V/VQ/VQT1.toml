@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖ੍ਰਿੜਰਿੜ ਖਾਡੇ ॥"
 page = 593
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖੰਡੇ ਖਿੜ ਖਿੜ ਕੇ ਹਸਦੇ ਹਨ (ਲਿਸ਼ਕਾਰੇ ਮਾਰਦੇ ਹਨ)"

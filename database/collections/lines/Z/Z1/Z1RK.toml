@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਵ ਨੇਵਰ ਨਾਦ ਸੁਰੰ ਨ੍ਰਿਮਲੰ ॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Various kinds of pure tunes emanate from the anklets."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੀਆਂ) ਝਾਂਝਰਾਂ ਵਿਚ ਨਿਰਮਲ ਨਾਦ ਨਿਕਲਦਾ ਹੈ,"

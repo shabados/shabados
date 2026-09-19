@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਦੇਖ ਜੁਧ ਉਛਾਹ ॥"
 page = 702
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing Satsang (good company) and Bal (power), the enthusiasm for fighting is increased and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਵਿਚ ਯੁੱਧ ਲਈ ਉਤਸਾਹ ਵੇਖਿਆ ਜਾਂਦਾ ਹੈ।"

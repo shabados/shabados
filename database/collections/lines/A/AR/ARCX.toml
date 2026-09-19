@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਤਿਸ ਅਭਰਨ ਤ੍ਰਿਯ ਕਰੈ; ਸੋਰਹ ਸਜਤ ਸਿੰਗਾਰ ॥"
 page = 946
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She adorned thirty-two types of ornaments and embellished herself."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਇਸਤਰੀ ਨੇ ੩੨ ਪ੍ਰਕਾਰ ਦੇ ਗਹਿਣੇ ਪਾਏ ਅਤੇ ਸੋਲ੍ਹਾਂ ਤਰ੍ਹਾਂ ਦੇ ਸ਼ਿੰਗਾਰ ਕੀਤੇ।"

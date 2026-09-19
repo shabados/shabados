@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਪ੍ਰਗਟ ਸਭਾ ਕੇ ਮਾਝ; ਉਚਾਰਨ ਕੀਜੀਅਹਿ ॥੧੧੯੩॥"
 page = 796
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Vasundhreshani”, add the word “Daahni” and know all the names of Tupak in your mind.1193."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭਾ ਵਿਚ ਪ੍ਰਗਟ ਰੂਪ ਵਿਚ ਇਸ ਦਾ ਕਥਨ ਕਰੋ ॥੧੧੯੩॥"

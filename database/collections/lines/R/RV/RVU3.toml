@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਜਾਤ ਕਹਾ, ਥਿਰੁ ਹੋਹੁ ਘਰੀ; ਹਮਰੇ ਅਸਿ ਕਾਲ ਕੇ ਹਾਥ ਪਰਿਯੋ ॥੧੦੯੪॥"
 page = 407
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He challenged Krishna in the field saying “now stop for a while, where are you going? You have fallen in the hands of death.”1094."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਕ੍ਰਿਸ਼ਨ!) ਹੁਣ ਜਾਂਦਾ ਕਿਥੇ ਹੈਂ, ਘੜੀ ਕੁ ਖੜਿਆ ਰਹਿ, ਖੜਗ ਰੂਪ ਕਾਲ ਦੇ ਹੱਥ ਵਿਚ ਪੈ ਗਿਆ ਹੈਂ ॥੧੦੯੪॥"

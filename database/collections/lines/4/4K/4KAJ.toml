@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਵੰ ਕੀਟ ਬਾਣੰ ਕਮਾਣੰ ਸੰਭਾਰੰ ॥"
 page = 62
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When this lowly person saw Shah Sangram falling (while fighting bravely) he held aloft his bow and arrows."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਹਾਡੇ (ਇਸ) ਕੀਟ (ਭਾਵ ਕਵੀ ਨੇ) ਹੱਥ ਵਿਚ ਤੀਰ ਕਮਾਨ ਫੜੀ"

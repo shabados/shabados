@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੰਡਿਤਨ ਕੋ ਅਰੁ ਗਾਇਨ ਕੋ; ਬਹੁ ਦਾਨ ਦੀਓ ਸਭ ਹੀ ਗੁਨੀਆ ਹੈ ॥"
 page = 298
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She bestowed charities in abundance on the Pundits, singers and talented persons"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੰਡਿਤਾਂ ਨੂੰ, ਗਵੱਈਆਂ ਨੂੰ ਅਤੇ ਸਾਰੇ ਗੁਣਵਾਨਾਂ ਨੂੰ ਬਹੁਤ-ਬਹੁਤ ਦਾਨ ਦਿੱਤਾ ਗਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਗੁਫ਼ਤਾ ਕਿ ਖ਼ੇਜ਼ੇਦ ਯਾਰਾਨ ਪਾਕ ॥੨੬॥"
 page = 1407
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Oh! My pious friends, get here,(26)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਹਾ ਕਿ ਹੇ ਪਾਕ ਦੋਸਤੋ! ਉਠੋ ॥੨੬॥"

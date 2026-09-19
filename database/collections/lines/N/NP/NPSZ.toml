@@ -1,12 +1,12 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗਉਰਾ ਅਉ ਕਾਨਰਾ ਕਲੵਾਨਾ ॥"
 page = 1430
 line = 12
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Gauraa, Kaanaraa and Kaylaanaa;"

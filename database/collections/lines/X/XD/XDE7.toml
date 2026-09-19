@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਛਲ ਨਾਥ ਧਾਮ ਕਰਿ ਰਾਖਾ ॥੧੦॥"
 page = 1258
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਇਸ ਛਲ ਨਾਲ ਘਰ ਵਿਚ ਸੁਆਮੀ ਬਣਾ ਕੇ ਰਖ ਲਿਆ ॥੧੦॥"

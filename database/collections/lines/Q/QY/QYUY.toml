@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਜਾਨੈ ਤਿਹ ਪ੍ਰਾਨ ਉਬਾਰੈ ॥੩॥"
 page = 1231
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਿਸ ਨੂੰ ਚਾਹੁੰਦੀ, ਉਸ ਦੇ ਪ੍ਰਾਣ ਬਚਾ ਲੈਂਦੀ ॥੩॥"

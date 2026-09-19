@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਿ ਆਨਿ ਸਬੋ ਗਹੇ; ਪਗ ਦਤ ਦੇਵ ਉਦਾਰ ॥"
 page = 646
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Here and there, in all the directions, the kings, forgetting their royal responsibilities, had caught the feet of the supremely generous Dutt"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆ ਆ ਕੇ ਉਦਾਰ ਦੱਤ ਦੇ ਚਰਨਾਂ ਨੂੰ ਫੜ ਲਿਆ ਹੈ।"

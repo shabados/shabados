@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਧਨ ਹੁਤੋ ਗਾਡਿ ਸਭ ਡਾਰੋ ॥੨੨॥"
 page = 1300
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੋ ਧਨ ਸੀ, ਉਸ ਸਾਰੇ ਨੂੰ ਗਡ ਦਿੱਤਾ ॥੨੨॥"

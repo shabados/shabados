@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਠੀ ਮਾਰ ਹੀ ਮਾਰ ਕੈ ਕੈ ਪੁਕਾਰੈ ॥੧੪॥"
 page = 101
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The persistent warriors were shouting “Kill, Kill”.14."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਹਠੀ 'ਮਾਰੋ-ਮਾਰੋ' ਪੁਕਾਰਨਾ ਸ਼ੁਰੂ ਕਰ ਦਿੱਤਾ ॥੧੪॥"

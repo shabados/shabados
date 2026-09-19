@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤੁਮ ਕੋ ਭਜੈ; ਸੁ ਮੁਕਤਾ ਹੋਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And with penance and asceticism he seeks Your comfort."

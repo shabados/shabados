@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣ ਗਾਜ ਬਾਜ ਉਥਕੀਯੰ ॥੨੩॥"
 page = 197
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The daggers are glistening and glittering and the elephants and horses are jumping in the battlefield.23."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਣ-ਭੂਮੀ ਵਿੱਚ ਹਾਥੀ ਅਤੇ ਘੋੜੇ ਉਛਲਦੇ ਸਨ ॥੨੩॥"

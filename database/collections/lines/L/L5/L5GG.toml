@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨੁਕ ਦਾਸ ਮੋਲ ਕੀ ਲਈ ॥੬॥"
 page = 847
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All her mind, body and soul were subdued, and she became like an acquired slave.( 6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਮੁਲ ਲਈ ਹੋਈ ਦਾਸੀ ਹੋਵੇ ॥੬॥"

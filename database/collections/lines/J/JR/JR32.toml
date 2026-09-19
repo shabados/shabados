@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾ ਕਉ ਰਾਖੈ; ਰਾਖਣਹਾਰੁ ॥"
 page = 868
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He, whom the Protector protects,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਰੱਖਣ ਵਾਲਾ ਜਿਸ ਦੀ ਰੱਖਿਆ ਕਰਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "One who is protected by the Protector Lord"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਰਾਖਨਹਾਰ ਜਿਸ ਕੋ ਰਾਖਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਜਿਸ ਮਨੁੱਖ ਨੂੰ ਰੱਖਣ-ਜੋਗ ਪ੍ਰਭੂ (ਕਾਮਾਦਿਕ ਵਿਕਾਰਾਂ ਤੋਂ) ਬਚਾਣਾ ਚਾਹੁੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਾ ਕਉ = ਜਿਸ (ਮਨੁੱਖ) ਨੂੰ। ਰਾਖੈ = ਬਚਾਂਦਾ ਹੈ। ਰਾਖਣਹਾਰੁ = ਬਚਾਣ ਦੀ ਸਮਰਥਾ ਵਾਲਾ ਪ੍ਰਭੂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél a quien el Señor salva,"

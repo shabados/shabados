@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੈਰੀ ਪਵਣਾ, ਭਲੇ ਭਲੇਰੇ ॥੩੦॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Reaching there they touch the feet of one and all good and the better one."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਅਰ ਉਥੇ ਜਾ ਕੇ) ਭਲੇ ਤੋਂ ਭਲਿਆਂ ਨਾਲ (ਅਥਵਾ 'ਚੰਗੇ' ਮੰਦੇ ਦੀ ਬੀ) ਪੈਰੀ ਪੈਣਾ ਕਰਦੇ ਹਨ।"

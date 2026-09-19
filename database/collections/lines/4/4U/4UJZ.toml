@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਜਿਤ ਭੋਗੰ ॥੪੨੦॥"
 page = 669
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "These Yogis of firm conduct and sinless Karmas had abandoned all enjoyments.420."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੋਗਾਂ ਨੂੰ ਤਿਆਗ ਚੁਕਾ ਹੈ ॥੪੨੦॥"

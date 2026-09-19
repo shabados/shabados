@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਪਦਾਰਥ ਲਖ ਫਲ; ਲਖ ਨਿਧਾਨੁ ਅੰਦਰਿ ਫੁਰਮਾਣੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Materials, fruits and stores to be present to order are also millions in number."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲੱਖਾਂ ਪਦਾਰਥ, ਲੱਖਾਂ ਫਲ, ਲਖ ਖ਼ਜ਼ਾਨੇ ਹੁਕਮ ਵਿਚ ਹੋਣ।"

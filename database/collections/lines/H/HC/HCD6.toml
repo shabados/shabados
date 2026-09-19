@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣ ਰੰਗ ਤੁਰੰਗਨ ਐਸ ਭਯੋ ॥"
 page = 167
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ-ਭੂਮੀ ਵਿਚ ਘੋੜਿਆ ਨੇ ਅਜਿਹਾ (ਹੁਲੜ) ਮਚਾਇਆ"

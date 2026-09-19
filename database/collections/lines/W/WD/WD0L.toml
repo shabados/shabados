@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੈੜਾ ਜਾਤਿ ਚੰਡਾਲੀਆ; ਜੇਠੇ ਸੇਠੀ ਕਾਰ ਕਮਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Paira of Chandali caste and Jetha of Sethi caste and such Sikhs who do manual labour."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪੈੜਾ ਜਾਤ ਚੰਡਾਲੀ ਸੀ, ਤੇ ਜੇਠਾ ਭਗਤ ਸੇਠ ਦਾ ਕੰਮ ਕਰਦਾ ਸੀ।"

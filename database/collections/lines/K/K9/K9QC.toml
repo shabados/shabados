@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੇਰਿ ਹੇਰਿ ਬਹੁ ਲੋਗ; ਸੁ ਯਾਹਿ ਨਿਹਾਰਿਯੋ ॥"
 page = 1039
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਸਾਰੇ ਲੋਕਾਂ ਨੂੰ ਵੇਖ ਵੇਖ ਕੇ ਫਿਰ ਉਸ (ਨਲ) ਨੂੰ ਤਕਿਆ"

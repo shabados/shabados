@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਨ ਚਬਾਇ ਭਲੀ ਬਿਧਿ ਸਾਥ; ਜਰਾਇ ਜਰੈ ਹਥਿਯਾਰ ਬਨਾਏ ॥"
 page = 955
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਗੇ ਢੰਗ ਨਾਲ ਪਾਨ ਚਬਾ ਕੇ ਅਤੇ ਜੜਾਊ ਹਥਿਆਰ ਧਾਰਨ ਕੀਤੇ ਹੋਏ ਹਨ।"

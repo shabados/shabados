@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਰਨ ਕੇ ਲੋਮਾ ਭੇ ਖਰੇ ॥"
 page = 1381
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਿਆਂ ਦੇ ਰੋਮ ਖੜੇ ਹੋ ਗਏ।"

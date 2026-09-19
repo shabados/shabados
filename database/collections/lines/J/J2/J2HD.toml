@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਮ ਭੋਗ ਕਰਿ ਕਾਜਿਯਹਿ; ਦੀਨਾ ਬਹੁਰਿ ਉਠਾਇ ॥"
 page = 864
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After making love she sent away the Quazi,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਜ਼ੀ ਨਾਲ ਰਤੀ-ਕ੍ਰੀੜਾ ਕਰ ਕੇ ਫਿਰ ਉਠਾ ਦਿੱਤਾ"

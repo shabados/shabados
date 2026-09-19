@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝੁਲੈ ਮਧਿ ਅਗਨੰ ਤਉ ਧਿਆਨ ਮੁਚੰ ॥"
 page = 645
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "While seated near the fire and smoke, he had raised his hand and while meditating, burning the fires in all the four directions, he was internally scorching it"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਗਨੀ ਵਿਚ ਝੁਲਦਾ ਹੈ, ਪਰ ਤਾਂ ਵੀ ਧਿਆਨ ਛੁਟਦਾ ਨਹੀਂ।"

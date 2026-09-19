@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਿਰੀ ਸੈਣ ਸਾਜੀ ॥"
 page = 51
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There are shouts and the army hath laid the siege."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੈਨਾ ਨੂੰ ਘੇਰ ਲਿਆ ਹੈ,"

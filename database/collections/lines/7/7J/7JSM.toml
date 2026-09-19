@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੰਤ ਕਾ ਦੋਖੀ; ਸਦ ਮਿਥਿਆ ਕਹਤ ॥"
 page = 280
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The saints' calumniator ever utters falsehood."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧੂ ਦਾ ਨਿੰਦਕ ਹਮੇਸ਼ਾਂ ਝੂਠ ਬੋਲਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The slanderer of the Saint constantly lies."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਸੰਤ ਕਾ ਦੋਖੀ ਸਦਾ ਝੂਠ ਹੀ ਕਹਿਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਸਦਾ ਝੂਠ ਬੋਲਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਿਥਿਆ = ਝੂਠ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Privada de Fe, miente constantemente."

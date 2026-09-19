@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਧਾਵਨ ਦੁਰਗਾ ਸਾਮ੍ਹਣੇ, ਜਿਉ ਭੁਖਿਆਏ ਪਾਜੀ ॥"
 page = 126
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Some run in front of Durga like the hungry scoundrels"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਦੁਰਗਾ ਦੇ ਸਾਹਮਣੇ ਇਸ ਤਰ੍ਹਾਂ ਧਾ ਕੇ ਜਾਂਦੇ ਹਨ, ਜਿਵੇਂ ਭੁਖੇ ਪਾਜੀ ਹਨ।"

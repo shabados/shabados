@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਸ ਰਤਿ ਰੂਪ ਰਸਾਲ ॥"
 page = 154
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the great king Jag took birth, who was very beautiful and affectionate"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪ੍ਰੇਮ ਦੀ ਰੀਤ ਵਾਲਾ ਅਤੇ ਸੁੰਦਰ ਸਰੂਪ ਵਾਲਾ ਸੀ।"

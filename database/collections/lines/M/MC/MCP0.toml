@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਥਮ ਕੂਟਿ ਕੈ ਲੂਟ ਲੀਨੇ ਅਵਾਨੰ ॥"
 page = 66
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hussain assembled all his forces and advanced. At first he plundered the houses of the hill-people."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ ਪਹਾੜ ਦੇ (ਨਿਵਾਸੀਆਂ ਦੇ) ਘਰਾਂ ਨੂੰ ਲੁਟ ਲਿਆ।"

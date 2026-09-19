@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਦੁਸਟ ਮਾਰਿ ਕੀਨੇ ਅਭੇਖ ॥"
 page = 170
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "By killing them, all the tyrants were put to shame,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਨਰਸਿੰਘ ਨੇ) ਸਾਰਿਆਂ ਦੁਸ਼ਟਾਂ ਨੂੰ ਮਾਰ ਕੇ ਬੇਹਾਲ ਕਰ ਦਿੱਤਾ"

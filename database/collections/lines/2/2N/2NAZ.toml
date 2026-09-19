@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਵ ਰੰਕ ਜਿਹ ਇਕ ਸਰ ਜਾਨਾ ॥"
 page = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king and the baggar equal before Him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਾਜੇ ਤੇ ਭਿਖਾਰੀ ਨੂੰ ਇਕ-ਸਮਾਨ ਸਮਝਦਾ ਹੈ,"

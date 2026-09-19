@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੌ ਹੇਰਿ ਅਧਿਕ ਪਤਿ ਰੋਯੋ ॥"
 page = 947
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਸੰਨ੍ਹ) ਨੂੰ ਵੇਖ ਕੇ ਪਤੀ ਵੀ ਬਹੁਤ ਰੋਇਆ"

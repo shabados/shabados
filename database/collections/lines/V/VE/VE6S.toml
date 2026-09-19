@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਿਲਬ ਸੁਤਾ ਮਾਤਾ ਸੌ ਚਹਿਯੋ ॥"
 page = 1076
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਪੁੱਤਰੀ ਨੇ ਵੀ ਮਾਂ ਨੂੰ ਮਿਲਣਾ ਚਾਹਿਆ।"

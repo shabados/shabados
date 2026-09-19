@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹਾਗੀਰ ਨਰ ਨਾਹ ਕੀ; ਸਗਲ ਬਲੈਯਾ ਲੇਹਿ ॥੬॥"
 page = 865
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All were complimented by Jehangir.(6) ."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਹਾਂਗੀਰ ਬਾਦਸ਼ਾਹ ਤੋਂ ਕੁਰਬਾਨ ਹੋ ਰਹੀਆਂ ਸਨ ॥੬॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਮਿੱਟੀ ਦਾ ਬਣਿਆ ਸਰੀਰ ਉਸ ਦੀ ਯਾਦ ਨਾਲ ਪਵਿੱਤਰ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਈਣ ਵਜੂਦਿ ਖ਼ਾਕ ਪਾਕ ਅਜ਼ ਯਾਦਿ ਊ-ਸਤ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, Guru Gobind Singh is the mendicant and king as well. (125)"

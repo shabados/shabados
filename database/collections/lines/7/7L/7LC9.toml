@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਦੀਨ ਤੁਰਕਨ ਪਹਚਾਨਾ ॥੧੪੦॥"
 page = 624
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Bairagis considered him as Ramanand and the Muslims as Muhammad.140. (This is a period-error)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੁਸਲਮਾਨਾਂ ਨੇ ਹਜ਼ਰਤ ਮੁਹੰਮਦ ('ਮਹਾਦੀਨ') ਕਰ ਕੇ ਜਾਣਿਆ ॥੧੪੦॥"

@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਨ ਨਾਨਕੁ; ਹਰਿ ਕੈ ਅੰਕਿ ਸਮਾਵੈ ॥੪॥੧੬॥"
 page = 375
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Slave Nanak has merged into the lap of the Lord."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੋਲਾ ਨਾਨਕ ਸੁਆਮੀ ਦੀ ਗੋਦੀ ਅੰਦਰ ਲੀਨ ਹੋ ਗਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Servant Nanak has merged into the Being of the Lord. ||4||16||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਵਹੁ ਹਰਿ ਕੇ (ਅੰਕਿ) ਸਰੂਪ ਮੇਂ ਸਮਾਉਤਾ ਹੈ ਅਰਥਾਤ ਅਭੇਦ ਹੋ ਜਾਤਾ ਹੈ॥੪॥੧੬॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਦਾਸ ਨਾਨਕ (ਆਖਦਾ ਹੈ ਕਿ) ਉਹ ਸਦਾ ਪਰਮਾਤਮਾ ਦੀ ਗੋਦ ਵਿਚ ਲੀਨ ਰਹਿੰਦਾ ਹੈ ॥੪॥੧੬॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y Nanak se inmerge en el Señor. (4‑16)"

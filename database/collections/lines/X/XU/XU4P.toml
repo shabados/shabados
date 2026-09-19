@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਟਾ ਜਾਨ ਕਾਰੀ ॥੧੧॥"
 page = 101
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And marched forward like dark clouds.11."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ ਉਨ੍ਹਾਂ ਦੀ ਸੈਨਾ ਇਸ ਤਰ੍ਹਾਂ ਚੜ੍ਹੀ ਸੀ) ਮਾਨੋ ਕਾਲੀਆਂ ਘਟਾਵਾਂ ਚੜ੍ਹੀਆਂ ਹੋਣ ॥੧੧॥"

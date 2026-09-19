@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਖਾ ਦਬੀ ਅਗਿ ਜਿਉ; ਓਹੁ ਰਹੈ ਨ ਰਖੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "As the fire cannot be kept pressed under the dry grass, similarly,"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਦੱਭ ਦੇ) ਕੱਖਾਂ ਵਿਖੇ ਅੱਗ ਜਿੱਕੁਰ ਦਬਾ ਕੇ ਰਖੀਏ ਤਾਂ ਰਖੀ ਰਹਿ ਨਹੀ. ਸਕਦੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਯਾ ਕੇ ਭੀਤਰ ਭੇਦ; ਨੈਕੁ ਨਹੀ ਮਾਨੀਐ ॥੧੦੭੬॥"
 page = 786
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying the word “kunjarni”, add the word “ari” at the end and know all the names of Tupak wihtou any discrimination.1076."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਵਿਚ ਕਿਸੇ ਪ੍ਰਕਾਰ ਦਾ ਕੋਈ ਭੇਦ ਨਾ ਮੰਨੋ ॥੧੦੭੬॥"

@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰੁਕਤਿ ਪ੍ਰਭਾ ਹੈਂ ॥"
 page = 7
 line = 15
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Thy Glory is Inexpressible!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ!) ਨਾ ਵਰਣਨ ਕੀਤੇ ਜਾ ਸਕਣ ਵਾਲਾ ਤੇਰਾ ਤੇਜ ਹੈ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਨਿਰੁਕਤਿ, ਪ੍ਰਭਾ ਹੈਂ ॥"

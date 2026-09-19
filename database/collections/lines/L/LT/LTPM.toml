@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੇਤੇ ਤ੍ਰਸਤ ਭਾਜਿ ਕੈ ਗਏ ॥੪॥"
 page = 950
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Some were killed and some managed to escape.(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਈ ਡਰ ਦੇ ਮਾਰਿਆਂ ਭਜ ਗਏ ॥੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪਸ ਬੀਚ ਗਦਾ ਬਹੁ ਮਾਰੈ ॥"
 page = 540
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then again they thundered and continued the fight and began to strike their maces on each other"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਸ ਵਿਚ ਬਹੁਤ ਗਦਾ ਮਾਰਦੇ ਹਨ।"

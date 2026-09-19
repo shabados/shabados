@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਨੰਬਾਸ ਜਾਨਯੋ ਦਯੋ ਰਾਵਣਾਰੰ ॥"
 page = 275
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Finding herself in a desolate forest, Sita understood that Ram had exiled her"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਰਾਮ ਨੇ (ਮੈਨੂੰ) ਬਨਵਾਸ ਦਿੱਤਾ ਹੈ।"

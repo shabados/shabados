@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹੀਰੇ ਮਾਣਕ ਪਥਰਹੁ; ਪਥਰ ਕੋਇ ਨ ਹਾਰਿ ਪਰੋਵੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Diamonds and rubies are extracted from the stones but the latter cannot be stringed as a necklace."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਹੀਰੇ ਤੇ ਮਾਣਕ ਪੱਥਰਾਂ ਵਿਚੋਂ ਹੀ ਨਿਕਲਦੇ ਹਨ, (ਪਰੰਤੂ) ਪੱਥਰਾਂ ਦੇ (ਹੀਰਿਆਂ ਵਾਂਙੂੰ) ਕੋਈ ਹਾਰ ਪਰੋਕੇ (ਗੱਲ ਨਹੀਂ ਪਾਉਂਦਾ)।"

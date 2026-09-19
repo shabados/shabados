@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਚਰਨ ਕਮਲ ਪਾਗੇ ॥"
 page = 1185
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I am absorbed in the Lord's lotus feet."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਪ੍ਰਭੂ ਦੇ ਕੰਵਲ ਪੈਰਾਂ ਅੰਦਰ ਲੀਨ ਹੋ ਗਿਆ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Grasp hold of His Lotus Feet."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਕੇ ਚਰਨ ਕਮਲੋਂ ਮੇਂ (ਪਾਗੇ) ਖਚਤ ਹੂਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਦੇ ਸੋਹਣੇ ਚਰਨਾਂ ਨਾਲ ਚੰਬੜਿਆ ਰਹੁ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਾਗੇ = ਚੰਬੜਿਆ ਰਹੁ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "encuentra a tu Dios,"

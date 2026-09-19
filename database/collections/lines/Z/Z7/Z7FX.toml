@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਲਿਤੰ ਮੋਹੰ ॥"
 page = 669
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "These were the people who had destroyed attachment and deceit and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੋਹ ਨੂੰ ਮਲ ਸੁਟਣ ਵਾਲਾ ਹੈ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਜ ਪੁਰ ਤਿਸੀ ਜੁਲਾਈ ਆਈ ॥"
 page = 927
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਛਡ ਕੇ ਜੁਲਾਹੀ ਨਗਰ ਵਿਚ ਆ ਗਈ।"

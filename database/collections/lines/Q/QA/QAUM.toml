@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਭਜੁ ਮਨ ਮੇਰੇ; ਏਕੋ ਨਾਮ ॥"
 page = 193
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Meditate thou, O my mind, on the Name alone."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਕੇਵਲ ਨਾਮ ਦਾ ਆਰਾਧਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Meditate, O my mind, on the One Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਏਕ ਨਾਮ ਕੋ ਜਪ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਇਕ ਪਰਮਾਤਮਾ ਦਾ ਹੀ ਨਾਮ ਸਿਮਰਦਾ ਰਹੁ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨ ਮੇਰੇ = ਹੇ ਮੇਰੇ ਮਨ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Medita, oh mi mente, en el Único Nombre de Dios,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੌ ਆਨਿ ਕੈ, ਲਾਤ ਸੈਤਾਨ ਮਾਰੀ ॥"
 page = 1002
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja was nonplussed as if Satan had taken over him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਜ ਪ੍ਰਤੀਤ ਹੁੰਦਾ ਹੈ) ਮਾਨੋ ਸ਼ੈਤਾਨ ਨੇ ਆ ਕੇ ਲਤ ਮਾਰੀ ਹੋਵੇ।"

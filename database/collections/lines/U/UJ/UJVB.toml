@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਊਚ ਨੀਚ ਸਬ ਹੀ ਸੰਗਿ ਭਏ ॥"
 page = 648
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "To whichever country, the great sage Dutt went, all the elders and minors accompanied him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਥੋਂ ਦੇ ਸਾਰੇ) ਊਚ ਨੀਚ ਉਨ੍ਹਾਂ ਦੇ ਸੰਗ ਹੋ ਗਏ।"

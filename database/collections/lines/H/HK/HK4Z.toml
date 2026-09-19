@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਵਟਵਾੜੇ ਠਗਿ ਕੇਤੜੇ; ਕੇਤੜਿਆਂ ਨਿੰਦਕ ਅਵਿਚਾਰੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Many are highway robbers. Dupers, backbiters and devoid of thinking."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਹੀ ਠੱਗ ਰਾਹ ਮਾਰ, ਕਿਤਨੇ ਨਿੰਦਕ ਅਤੇ ਮੂਰਖ ਹਨ।"

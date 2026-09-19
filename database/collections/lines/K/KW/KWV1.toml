@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਦ੍ਰਭਗਾ ਅਰੁ ਗ੍ਵਾਰਿਨ ਤੇ; ਅਤਿ ਰੂਪ ਕੇ ਬੀਚ ਹੁਤੀ ਜੁ ਨਵੀਨੀ ॥"
 page = 360
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Radha looked splendid in the new posture amongst Chandarbhaga and other gopis:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਚੰਦ੍ਰਭਗਾ ਅਤੇ ਹੋਰ ਗੋਪੀਆਂ ਤੋਂ ਰੂਪ ਵਿਚ ਬਹੁਤ ਜ਼ਿਆਦਾ ਨਵੀਨ ਸੀ।"

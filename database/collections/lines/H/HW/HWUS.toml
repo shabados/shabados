@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ਼ਨਾਸਿੰਦਏ ਇਲਮਿ ਆਲਮ ਅਮੀਰ ॥੧੨॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, the Sovereign of the Universe, is the Source of all Learning.12."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਦਿਆਵਾਂ ਨੂੰ ਸਮਝਣ ਵਾਲਾ ਅਤੇ ਸੰਸਾਰ ਦਾ 'ਨਾਇਕ' ਹੈ ॥੧੨॥"

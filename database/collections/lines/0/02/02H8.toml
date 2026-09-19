@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਜਾਇ ਮਹਾ ਮੁਨਿ ਮਜਨ ਕੈ ॥"
 page = 665
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਜਾ ਕੇ ਮਹਾ ਮੁਨੀ ਨੇ ਇਸ਼ਨਾਨ ਕੀਤਾ"

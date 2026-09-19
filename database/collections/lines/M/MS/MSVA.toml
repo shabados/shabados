@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਾਨਾ ਅਨਿਕ ਭਾਤਿ ਕੇ ਲ︀ਯਾਇ ॥"
 page = 1334
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਨੇਕ ਪ੍ਰਕਾਰ ਦੇ ਖਾਣੇ ਲਿਆਉਂਦੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਕੇ ਭੋਗ ਕਰੈ ਵੈ ॥"
 page = 814
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And indulged in all sorts of lovemakings."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭਾਂਤ ਭਾਂਤ ਦੇ ਭੋਗ-ਵਿਲਾਸ ਕਰਦੀ ਸੀ।"

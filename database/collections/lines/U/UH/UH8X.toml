@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵੈ ਰਿਝਹੈ, ਲਖ ਨੈਨ ਤਿਹਾਰੇ ॥"
 page = 234
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“You go to the place of my brother who will be bewitched on seeing your beautiful eyes"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਤੇਰੇ ਨੈਣਾਂ ਨੂੰ ਵੇਖ ਕੇ ਪ੍ਰਸੰਨ ਹੋਵੇਗਾ ਵੇਖ,"

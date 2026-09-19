@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੁਕਮੀ ਭਯੋ ਗਦਾ ਗਹਿ ਠਾਢੋ ॥"
 page = 515
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੂਜੇ ਪਾਸਿਓਂ) ਰੁਕਮੀ ਵੀ ਗਦਾ ਪਕੜ ਕੇ ਖੜੋ ਗਿਆ।"

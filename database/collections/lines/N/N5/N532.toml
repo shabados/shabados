@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗਉਸ ਕੁਤਬ ਕਈ ਲੋਇ, ਦਰ ਬਖਸੰਦਗੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The gaues and qutabs (spiritualists of Islam) of many places beg for His grace at His door."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗਉਸ ਅਤੇ ਕੁਤਬ (ਆਦਿ) ਕਈ ਲੋਕ ਦਰਗਾਹ ਤੋਂ ਬਖਸ਼ਿਸ਼ ਮੰਗਦੇ ਹਨ।"

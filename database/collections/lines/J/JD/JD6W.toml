@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਹੀ ਕੇਸ ਦੂਰਿ ਜਬ ਭਏ ॥"
 page = 1228
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ (ਮੂੰਹ ਦੇ) ਸਾਰੇ ਵਾਲ ਉਤਰ ਗਏ,"

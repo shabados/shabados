@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਿਗੇ ਨੂਰੰ ॥"
 page = 255
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brave fighters fell and their faces shone"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਦੇ) ਮੁਖ (ਲਹੂ ਨਾਲ) ਭਿੱਜੇ ਹੋਏ ਹਨ।"

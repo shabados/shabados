@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰਿਧ ਬ੍ਰਿਧ ਉਡੇ ਤਹਾ; ਫਿਕਰੰਤ ਸੁਆਨ ਸ੍ਰਿੰਗਾਲ ॥"
 page = 103
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Large-sized vultures are flying there, the dogs are barking and the jackals are howling."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ (ਯੁੱਧ-ਭੂਮੀ ਵਿਚ) ਵਡੀਆਂ ਵਡੀਆਂ ਗਿਧਾਂ ਉਡ ਰਹੀਆਂ ਸਨ ਅਤੇ ਕੁੱਤੇ ਤੇ ਗਿਦੜ ਬੋਲ ('ਫਿਕਰੰਤ') ਰਹੇ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਊ ਸੂਰਤਿਵੰਤ ਰਚੀ ਬ੍ਰਹਮਾ; ਕਰ ਕੈ ਅਤਿ ਹੀ ਰੁਚਿ ਕੈ, ਨ ਕਜੈ ॥"
 page = 350
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "It seems that Brahma has created that portrait with interest"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਰਾਧਾ) ਨੂੰ ਬ੍ਰਹਮਾ ਨੇ ਰੁਚੀ ਪੂਰਵਕ ਬਹੁਤ ਸਰੂਪਵਾਨ ਰਚਿਆ ਹੈ, ਜਿਸ ਵਿਚ ਕਿਸੇ ਪ੍ਰਕਾਰ ਦਾ ਕੋਈ ਕਜ ਨਹੀਂ ਹੈ।"

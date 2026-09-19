@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰੰਥ ਬਢਨ ਤੇ ਅਤਿ ਡਰੁ ਮਾਨੀਅਤ ॥"
 page = 48
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "It is feared that the description will become voluminous."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਉਂਕਿ) ਗ੍ਰੰਥ ਦੇ ਵਧਣ ਦਾ ਬਹੁਤ ਡਰ ਲਗਦਾ ਹੈ।"

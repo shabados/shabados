@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਸਸਿਯਾ ਅਤਿ ਚਮਕਿ ਚਿਤ; ਤਾ ਕੌ ਕਿਯੋ ਉਪਾਇ ॥"
 page = 952
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sassi became furious, planned in her heart,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਸਸਿਯਾ ਨੇ ਚਿਤ ਵਿਚ ਤਿੜਕ ਕੇ ਇਸ ਦਾ ਉਪਾ ਕੀਤਾ"

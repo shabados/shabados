@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੁਕ੍ਰਿਤੰ ਭਜਿ ਹੈ ॥੫੨॥"
 page = 557
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The people will pay attention to wicked things forsaking the good ones.52."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੰਦੇ ਕੰਮਾਂ ਵਿਚ ਲਿਪਤ ਹੋਣਗੇ ॥੫੨॥"

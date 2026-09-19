@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹ ਇਕ ਪੂਤ ਸਰਾਫ ਕੋ; ਤਾ ਕੋ ਰੂਪ ਅਪਾਰ ॥"
 page = 1328
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਇਕ ਸਰਾਫ਼ ਦਾ ਪੁੱਤਰ ਸੀ ਜੋ ਬਹੁਤ ਹੀ ਸੁੰਦਰ ਸੀ।"

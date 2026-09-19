@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਹ ਕੌਤਕ ਨ੍ਰਿਪ ਸੁਤਾ ਨਿਹਾਰਿਯੋ ॥"
 page = 961
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਕੌਤਕ ਰਾਜ ਕੁਮਾਰੀ ਨੇ ਵੇਖਿਆ"

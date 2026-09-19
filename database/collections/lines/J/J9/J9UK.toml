@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਿੰਮਤ ਹੂੰ ਉਤਰਿਯੋ ਤਹਾ ਬੀਰ ਖੇਤ ਮੰਝਾਰ ॥"
 page = 69
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Himmat came in the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਹਿੰਮਤ ਨਾਂ ਦਾ ਸੂਰਮਾ ਵੀ ਰਣ-ਭੂਮੀ ਵਿਚ ਆ ਗਿਆ।"

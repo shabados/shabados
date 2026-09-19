@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਨਮੁਖ, ਬਿਰਥਾ ਜਨਮੁ ਗਵਾਏ ॥੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "They spend their life in vain."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਇਸੇ ਕਰ ਕੇ ਉੱਲੂ ਵਾਂਗੂੰ) ਮਨਮੁਖ (ਆਪਣਾ ਮਨੁੱਖਾ) ਜਨਮ ਬਿਰਥਾ ਪਿਆ ਗੁਆਉਂਦਾ ਹੈ।"

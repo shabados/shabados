@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਾਇਆ ਕਮਲੁ ਹੈ ਕੁਮਲਾਣਾ ॥"
 page = 1051
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The body lotus is withering away,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਦੇਹ ਕੰਵਲ ਮੁਰਝਾਉਂਦੀ ਜਾ ਰਹੀ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The body-lotus is withering away,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮਨਮੁਖਾਂ ਕਾ ਸੂਖਮ ਦੇਹ, ਭਾਵ ਬੁਧੀ ਰੂਪੀ ਕਵਲ ਕੁਮਲਾਇਆ ਹੀ ਰਹਿਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਮਨਮੁਖ ਦੇ) ਸਰੀਰ ਵਿਚ ਉਸ ਦਾ ਹਿਰਦਾ-ਕੌਲ ਫੁੱਲ ਕੁਮਲਾਇਆ ਰਹਿੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਾਇਆ ਕਮਲੁ = ਸਰੀਰ ਵਿਚ ਦਾ ਹਿਰਦਾ-ਕੌਲ ਫੁੱਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Loto del cuerpo se marchita de seguro"

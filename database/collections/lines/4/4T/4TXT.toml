@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਿ ਮਾਰਿ ਮਾਰਿ ਅਨੰਤ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Killing innumerable enemies,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਨੇਕਾਂ ਵੈਰੀਆਂ ਨੂੰ ਮਾਰ ਮਾਰ ਕੇ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜਾਧਿਰਾਜ ਬਡ ਲਾਗ ਚਰਨ ॥"
 page = 639
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੱਡੇ ਵੱਡੇ ਰਾਜੇ ਮਹਾਰਾਜੇ ਚਰਨੀਂ ਆ ਲਗੇ ਹਨ"

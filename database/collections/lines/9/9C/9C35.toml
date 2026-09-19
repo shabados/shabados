@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਬਾ ਯਕ ਦਿਗ਼ਰ ਹਮ ਚੁਨੀ ਗਸ਼ਤ ਮਸਤ ॥"
 page = 1427
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The love in them became so intense"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਇਕ ਦੂਜੇ ਪ੍ਰਤਿ ਪ੍ਰੇਮ ਵਿਚ ਇਤਨੇ ਮਗਨ ਹੋ ਗਏ"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਿਲਪ ਕਰੇ; ਚਾਤ੍ਰਿਕ ਕੀ ਨਿਆਈ ॥"
 page = 96
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "It bewails like the pied-cuckoo."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਪਪੀਹੇ ਦੀ ਮਾਨਿੰਦ ਵਿਰਲਾਪ ਕਰਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "It cries out like the thirsty song-bird."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਾ ਚਾਤ੍ਰਕ ਵਤ ਬ੍ਰਿਲਾਪ ਕਰਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਵੇਂ ਪਪੀਹਾ ਸ੍ਵਾਂਤੀ ਬੂੰਦ ਲਈ ਤਰਲੇ ਲੈਂਦਾ ਹੈ) ਪਪੀਹੇ ਵਾਂਗ (ਮੇਰਾ ਮਨ ਗੁਰੂ ਦੇ ਦਰਸਨ ਲਈ) ਤਰਲੇ ਲੈ ਰਿਹਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਲਪ = ਵਿਰਲਾਪ, ਤਰਲੇ। ਨਿਆਈ = ਨਿਆਈਂ, ਵਾਂਗ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "llora como el Cuclillo por una gota de  Néctar."

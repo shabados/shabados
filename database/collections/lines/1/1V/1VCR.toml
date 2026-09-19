@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਆਛੋ ਤਿਹ ਕਫਨ ਬਨੈਯੈ ॥"
 page = 856
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Now a beautiful coffin should be arranged for her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਉਸ ਲਈ ਸੋਹਣਾ ਜਿਹਾ ਕਫ਼ਨ ਬਣਾਇਆ ਜਾਏ"

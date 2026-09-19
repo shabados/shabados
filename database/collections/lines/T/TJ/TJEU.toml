@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੇਲੇ ਵਿਚਿ ਕਪੂਰੁ ਹੋਇ; ਸੀਤਲੁ ਸੁਖੁਦਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Falling on the banana leaves they transform into cooling camphor."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕੇਲੇ ਵਿਖੇ (ਪਵੇ ਤਾਂ) ਕਪੂਰ ਹੋ ਕੇ ਸੀਤਲ ਤੇ ਸੁਖਦਾਇਕ ਹੁੰਦੀ ਹੈ।"

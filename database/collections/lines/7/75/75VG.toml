@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਡਲਾ ਭਾਗੀ ਭਗਤੁ ਹੈ; ਜਾਪੂ ਨਿਵਲਾ ਗੁਰ ਸਰਣਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Dalla , Bhagi , Japu and Nivala have come to the shelter of the Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਡੱਲਾ, ਭਾਗੂ, ਜਾਪੂ ਤੇ ਨਿਵਲਾ ਗੁਰੂ ਜੀ ਦੇ ਸ਼ਰਨਾਗਤ ਭਗਤ ਹਨ।"

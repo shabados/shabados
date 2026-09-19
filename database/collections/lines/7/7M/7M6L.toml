@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਸ ਚਾਰੁ ਚਾਰੁ ਬਿਦਿਆ ਸੁਜਾਨ ॥"
 page = 616
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He donated many decorated horses to those Brahmins, who had the knowledge of eighteen sciences, who were the reciters of six Shastr ect."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਚੌਦਾਂ ਵਿਦਿਆਵਾਂ ਵਿਚ ਪ੍ਰਬੀਨ ਸਨ।"

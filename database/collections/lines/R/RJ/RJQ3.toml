@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਔਰਨ ਕੇ ਸਿਰ ਬ੍ਰਿਥਾ ਨ ਦੀਜੈ ॥"
 page = 923
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Let us finish our quarrel ourselves, why roll the heads of others. ‘For"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੋਰਨਾਂ ਦੇ ਸਿਰ ਉਤੇ ਵਿਅਰਥ ਵਿਚ ਨਾ ਮੜ੍ਹੀਏ।"

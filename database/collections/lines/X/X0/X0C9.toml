@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਪਾਸਿ ਕੇ ਹੋਤ ਹੈ; ਚੀਨਿ ਚਤੁਰ ਚਿਤਿ ਰਾਖੁ ॥੩੭੦॥"
 page = 734
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying the word “Taraag” primarily and then uttering “Ishraastra”, the wise people know the names of Paash in their mind.370."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਪਾਸ ਦਾ ਨਾਮ ਬਣ ਜਾਂਦਾ ਹੈ। ਸੂਝਵਾਨ ਇਹ ਮਨ ਵਿਚ ਧਾਰਨ ਕਰ ਲੈਣ ॥੩੭੦॥"

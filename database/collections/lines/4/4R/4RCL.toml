@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਸੰਤ ਰੁਤਿ ਆਈ ॥"
 page = 1185
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The spring season has come,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਬਹਾਰ ਦੀ ਮੌਸਮ ਆ ਗਈ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The season of spring has come;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮਨੁਖ ਜਨਮ ਰੂਪੀ ਬਸੰਤੁ ਰੁਤਿ ਆਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ, ਹੇ ਮਨ!) ਭਾਵੇਂ ਆਤਮਕ ਜੀਵਨ ਦਾ ਖਿੜਾਉ ਪ੍ਰਾਪਤ ਕਰ ਸਕਣ ਵਾਲੀ ਮਨੁੱਖਾ ਜੀਵਨ ਦੀ ਰੁੱਤ ਤੇਰੇ ਉੱਤੇ ਆਈ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਸੰਤ ਰੁਤਿ = ਖੇੜੇ ਦੀ ਰੁਤ, ਮਨੁੱਖਾ ਜਨਮ ਜਿਸ ਵਿਚ ਆਤਮਕ ਜੀਵਨ ਦਾ ਖਿੜਾਉ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sí, cuando la Primavera de Dios llega,"

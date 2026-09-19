@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਰਬ ਲਾਇਕ, ਸਰਬ ਘਾਇਕ; ਸਰਬ ਤੇ ਅਨਭੰਗ ॥"
 page = 34
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is capable to do everything, He is the Destroyer of all and cannot be vanquished by anyone."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਸਭ ਕੁਝ ਕਰਨ ਦੇ ਸਮਰਥ ਅਤੇ ਸਭ ਦਾ ਸੰਘਾਰਕ ਅਤੇ ਅਜਿਤ ਹੈ।"

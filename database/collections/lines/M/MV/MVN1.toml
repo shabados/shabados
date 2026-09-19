@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਦਸਤ ਅੰਦਰ ਆਮਦ ਮਤਾਏ ਗਿਰਾ ॥੨੩॥"
 page = 1411
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And on its fringes they found lot of precious things.(23)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਨ੍ਹਾਂ ਦੇ ਹੱਥ ਵਿਚ ਬਹੁਤ ਧਨ ਆਇਆ ॥੨੩॥"

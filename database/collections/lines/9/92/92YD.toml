@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮਰੀ ਕਰਉ ਪਿਤਾ ਜਿਉ ਪੂਜਾ ॥੩॥੨੯੩॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“And worship thee as my father.”3.293."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੁਹਾਡੀ ਪਿਤਾ ਸਮਾਨ ਪੂਜਾ ਕਰਾਂਗਾ ॥੩॥੨੯੩॥"

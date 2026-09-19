@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਤਾਬਸ਼ ਦਰਾਮਦ ਜ਼ਿਮੀਨੋ ਜ਼ਮਨ ॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The lightening captured the universe,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵੇਲੇ ਧਰਤੀ ਅਤੇ ਆਕਾਸ਼ ਚਮਕਣ ਲਗ ਗਏ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਿਰਿਨ੍ਰਯੋ ਹਿਰਿੰਨਾਛਸੰ ਦੋਇ ਬੀਰੰ ॥"
 page = 164
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hiranayaksha and Hiranayakashipu, both the demon brothers,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਿਰਨਕਸ਼ਪ ਅਤੇ ਹਰਨਾਖਸ਼ (ਨਾਂ ਦੇ) ਦੋ ਦੈਂਤ ਵੀਰ (ਹੋਏ, ਉਨ੍ਹਾਂ ਨੇ)"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੋਲਾ ਆਦਿ ਉਚਾਰਿ ਕੈ; ਦਾਤੀ ਅੰਤਿ ਉਚਾਰ ॥"
 page = 747
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਗੋਲਾ' ਸ਼ਬਦ ਪਹਿਲਾਂ ਉਚਾਰ ਕੇ ਅੰਤ ਉਤੇ 'ਦਾਤੀ' (ਦੇਣ ਵਾਲੀ) ਕਥਨ ਕਰੋ।"

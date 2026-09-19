@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਲ ਜੋਰ ਕੋਰ ਕਰੋਰ ਲੈ; ਬਡ ਘੋਰ ਤੋਰ ਸਭੈ ਚਲੇ ॥"
 page = 237
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now combining all the forces they all proceeded (with millions of fighters),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਮ ਚੰਦਰ ਨੇ) ਕਰੋੜਾਂ ਦਲ ਇਕੱਠੇ ਕਰ ਲਏ ਅਤੇ ਸਾਰੇ ਤੀਬਰ ਗਤੀ ਨਾਲ ਚਲ ਪਏ।"

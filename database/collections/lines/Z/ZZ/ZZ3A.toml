@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਨ ਲਾਲਚ ਹਮ ਚਰਿਤ ਸੁ ਧਾਰਿਯੋ ॥੬॥"
 page = 939
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then they said jovially, ‘We had devised this to pillage money out of you.(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਧਨ ਦੇ ਲਾਲਚ ਕਰ ਕੇ ਅਸੀਂ ਇਹ ਚਰਿਤ੍ਰ ਕੀਤਾ ਹੈ ॥੬॥"

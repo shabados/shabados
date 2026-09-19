@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਜਬਰ ਕੇ ਪਾਇਨ ਲਪਟਾਈ ॥"
 page = 1176
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬ੍ਰਾਹਮਣ ਦੇ ਪੈਰਾਂ ਨਾਲ ਲਿਪਟ ਗਈ"

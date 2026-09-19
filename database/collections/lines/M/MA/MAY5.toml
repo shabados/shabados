@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਰਿ ਬੀਚਾਰੁ; ਆਚਾਰੁ ਪਰਾਤਾ ॥"
 page = 415
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "By reflecting over Guru's gospel, I have come to enshrine great love for good conduct."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਾਂ ਦੀ ਸਿਖਿਆ ਨੂੰ ਸੋਚਣ ਸਮਝਣ ਦੁਆਰਾ ਮੇਰੀ ਚੰਗੇ ਚਾਲ ਚਲਨ ਨਾਲ ਪਰਮ ਪਰੀਤ ਪੈ ਗਈ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "In reflective meditation, I have come to love good conduct."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਬੀਚਾਰ ਕਰ ਕੇ ਸਾਧ ਸੰਗਤ ਕੇ ਅਚਾਰ ਮੇਂ ਪੜਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜਾ ਗੁਰੂ ਦੀ ਬਾਣੀ ਨੂੰ ਵਿਚਾਰ ਕੇ ਚੰਗਾ ਆਚਰਨ ਬਣਾਣਾ ਸਮਝ ਲੈਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰਿ = ਕਰ ਕੇ। ਆਚਾਰੁ = ਸ਼ੁਭ ਆਚਰਨ। ਪਰਾਤਾ = ਪਛਾਣਿਆ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Meditando en la Instrucción del Guru,"

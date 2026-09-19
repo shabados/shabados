@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਤੇ ਬਨ ਕੌ ਗਏ; ਬਹੁਰਿ ਪੁਰ ਮਾਝ ਨ ਆਏ ॥੮॥"
 page = 1006
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Since then I have been roaming around in: jungle but passion hasnot subsided.’(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਤੋਂ ਬਨ ਨੂੰ ਗਿਆ, ਫਿਰ ਨਗਰ ਵਿਚ ਨਹੀਂ ਵੜਿਆ ॥੮॥"

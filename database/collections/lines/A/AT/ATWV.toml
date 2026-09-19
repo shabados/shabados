@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਨੀਵਾ ਜਿਣੈ, ਉਚੇਰਾ ਹਾਰੇ ॥੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The lowly born utimately wins and the so-called high up gets defeated."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਨਿੰਮ੍ਰਤਾ ਵਾਲਾ ਜਿੱਤ ਜਾਂਦਾ ਹੈ ਤੇ ਉੱਚਾ (ਹੋਣ ਵਾਲਾ) ਹਾਰ ਜਾਂਦਾ ਹੈ।"

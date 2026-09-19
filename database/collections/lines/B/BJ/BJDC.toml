@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤਿਨ ਅਪਨਾ ਕੁਲ; ਸਭ ਨਾਸ ਕਰਾਇਓ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "By quarrelling and squabbling the Mughals decimated each others;"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਨੇ ਖਰਾਬ ਖਾਨੇ ਖਵਾਸ ॥"
 page = 627
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਕਿਤਨਿਆਂ ਦੇ ਰਣਵਾਸ ਅਤੇ ਖ਼ਾਨਦਾਨ ਨਸ਼ਟ ਕਰ ਦਿੱਤੇ"

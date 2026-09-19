@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਤਿ ਪੁਤ੍ਰ ਪੌਤ੍ਰਨ ਸੋਗ ॥੮॥"
 page = 611
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His body will not remain health and his foundness for sons and grandson will always afflict him.8."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਿੱਤ ਪੁੱਤਰ-ਪੋਤਰਿਆਂ ਦਾ ਸੋਗ ਹੁੰਦਾ ਰਹੇਗਾ ॥੮॥"

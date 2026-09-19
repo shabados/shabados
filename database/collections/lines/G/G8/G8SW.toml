@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੰਧੇ ਗੋਲ ਹਾਠੇ ਹਠੀ ਖੇਤ ਆਏ ॥"
 page = 928
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The spears in the hands, they came and rounded the enemy."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹਠੀ ਸੂਰਮੇ ਗੋਲ ਘੇਰਾ ਬੰਨ੍ਹ ਕੇ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਆ ਗਏ।"

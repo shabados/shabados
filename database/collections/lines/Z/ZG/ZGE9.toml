@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਜਿਤੌ ਦੁਖੁ ਥੋ ਤਿਹ ਕੋ; ਹਰਿ ਬਾਤਨ ਸੋ ਤਿਹ ਤਾਪ ਬੁਝਾਯੋ ॥"
 page = 489
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Lord Krishna consoled him with his words and instructing Muchukund and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਹੋਰ ਜਿਤਨੇ ਦੁਖ ਸਨ, (ਉਹ) ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੇ ਗੱਲਾਂ ਨਾਲ ਮਿਟਾ ਦਿੱਤੇ।"

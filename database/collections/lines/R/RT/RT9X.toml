@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਪੁਨਿ ਕਰਤ ਭਯੋ ਬਿਸਥਾਰਾ ॥"
 page = 159
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then He enlarged his body,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਹੌਲੀ ਹੌਲੀ (ਆਪਣਾ) ਵਿਸਤਾਰ ਕਰਦਾ ਗਿਆ,"

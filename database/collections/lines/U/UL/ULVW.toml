@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੂੜੇ ਮੂਰਖ ਕੀ; ਹਾਠੀਸਾ ॥੧॥ ਰਹਾਉ ॥"
 page = 738
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "This is but the stubbornness of the false fool. Pause."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਕੇਵਲ ਝੂਠੇ ਬੇਵਕੂਫ ਦਾ ਹਠ ਹੈ। ਠਹਿਰਾਉ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "This is how stubborn the false fool is! ||1||Pause||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਝੂਠੇ ਮੂਰਖ ਕੀਆਂ (ਠੀਸਾ) ਗਪਾਂ ਹੀ ਹੈਂ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ ਹੈ) ਝੂਠੇ ਮੂਰਖ ਮਨੁੱਖ ਦੇ ਹਠ ਦੀ ਗੱਲ ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਾਠੀਸਾ = ਹਠ ਦੀਆਂ ਗੱਲਾਂ ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "es muy ignorante en su terquedad. (1-Pausa)"

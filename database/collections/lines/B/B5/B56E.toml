@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਵ ਕੋ ਬਚਨ ਸੰਭਾਰਿ ਕੈ; ਤਹਾ ਪਹੂਚਿਯੋ ਆਇ ॥੩੯॥"
 page = 1016
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Remembering Shiva’s prophesy, they were mobilised there.(39)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵ ਦੇ ਬਚਨ ਨੂੰ ਯਾਦ ਕਰ ਕੇ ਉਥੇ ਆ ਪਹੁੰਚਿਆ ॥੩੯॥"

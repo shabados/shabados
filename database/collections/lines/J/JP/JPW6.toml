@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਮਧੁ ਕੀਟਭ ਤਨ ਧਾਰਾ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Madhu and Kaitabh came into being."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੋਂ ਮਧੁ ਅਤੇ ਕੈਟਭ ਨੇ ਸ਼ਰੀਰ ਧਾਰਨ ਕੀਤੇ।"

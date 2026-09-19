@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਾ ਕਸ ਤੁ ਗੋਈ ਕਿ ਬਰ ਮਨ ਕਬੂਲ ॥੧੩੯॥"
 page = 1406
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But what could be done then and he accepted (the marriage).(139)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਰਾਜ ਕੁਮਾਰੀ!) ਤੂੰ ਜੋ ਕਹੇਂ, ਮੈਨੂੰ ਮਨਜ਼ੂਰ ਹੈ ॥੧੩੯॥"

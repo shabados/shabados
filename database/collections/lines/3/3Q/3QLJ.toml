@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਸਤ੍ਰ ਮਿਤ੍ਰ, ਨਹਿ ਜਨਮ ਜਾਤ ॥"
 page = 29
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art that Ultimate Reality which is without enemy friend birth and caste !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ! ਤੂੰ ਉਹ ਹੈਂ) ਜਿਸ ਦਾ ਕੋਈ ਵੈਰੀ, ਮਿਤਰ, ਜਨਮ, ਜਾਤਿ ਨਹੀਂ ਹੈ,"

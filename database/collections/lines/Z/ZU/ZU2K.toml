@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮੁਲੇ ਸੂਰ ਆਰੁਹੇ ਜੰਗ ॥"
 page = 249
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣਾ ਆਪ ਸੰਭਲੇ ਹੋਏ ਸੂਰਮੇ ਯੁੱਧ ਵਿੱਚ ਰੁਝੇ ਹੋਏ ਹਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਅਨਿਕ ਤਨ ਕਿਯੇ ਬਿਲਾਸਾ ॥"
 page = 1332
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਤਾ ਪਿਤਾ ਦਾ ਡਰ ਮਨ ਵਿਚੋਂ (ਕਢ ਕੇ)"

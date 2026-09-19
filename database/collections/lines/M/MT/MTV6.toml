@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਬਿਨਸ਼ਸਤ ਬਰ ਤਖ਼ਤ ਮਾਨੋ ਮਹੀਪ ॥"
 page = 1396
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Read from the paper and narrate,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਰਾਜਾ ਮਾਨਧਾਤਾ ਤਖ਼ਤ ਉਤੇ ਬੈਠਾ,"

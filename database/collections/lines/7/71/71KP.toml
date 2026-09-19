@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮੂਹ ਸਾਰ ਜੁਝੇ ॥"
 page = 116
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The mighty enemies are busy in fighting with all their weapons."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਸ਼ਸਤ੍ਰਾਂ ਨਾਲ ਜੂਝ ਰਹੇ ਸਨ,"

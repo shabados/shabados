@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਮੋਹਾਸਤ੍ਰ ਜੁਟੇ ॥"
 page = 703
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Charitrastras (arms of conduct) were shot, the Mogastrass (the arms of attachment) collided,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੋਹ ਅਸਤ੍ਰ ਜੁਟੇ ਹੋਏ ਹਨ,"

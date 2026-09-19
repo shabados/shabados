@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਛੰਦ ਝੂਲਨਾ ਮਾਝ; ਨਿਸੰਕ ਬਖਾਨੀਐ ॥੧੨੯੭॥"
 page = 807
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firslty the words “Shachipatir ari”, add the word “Nrip” four times and then adding “ari”, know the names of Tupak and use them unhesitatingly in jhoolnaa stanza.1297."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਦਾ) ਝੂਲਨਾ ਛੰਦ ਵਿਚ ਨਿਸੰਗ ਬਖਾਨ ਕਰੋ ॥੧੨੯੭॥"

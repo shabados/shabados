@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾਪਸਤਾਈ ਕੋ ਤ︀ਯਾਗ ਤਪੀਸ੍ਵਰ ਤਾ ਤ੍ਰਿਯ ਪੈ ਚਿਤ ਕੈ ਉਰਝਾਯੋ ॥"
 page = 969
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Relinquishing all his austerities, the celibate tUrned into a householder."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਪਸਿਆ ਨੂੰ ਤਿਆਗ ਕੇ ਉਹ ਤਪਸਵੀ ਉਸ ਇਸਤਰੀ ਵਿਚ ਆਪਣੇ ਚਿਤ ਨੂੰ ਫਸਾ ਬੈਠਾ।"

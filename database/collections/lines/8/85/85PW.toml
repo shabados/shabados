@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨ ਰੇ; ਰਾਮ ਭਗਤਿ ਚਿਤੁ ਲਾਈਐ ॥"
 page = 1127
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O man, fix thou thy mind with the Lord's devotional service."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਬੰਦੇ! ਤੂੰ ਆਪਣੇ ਮਨੈ ਨੂੰ ਪ੍ਰਭੂ ਦੀ ਪ੍ਰੇਮਮਈ ਸੇਵਾ ਅੰਦਰ ਜੋੜ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O mortal, focus your consciousness on devotional worship of the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਰਾਮ ਕੀ ਭਗਤੀ ਵਿਖੈ ਚਿਤ ਕੋ ਲਾਉਣਾ ਕਰੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਪਰਮਾਤਮਾ ਦੀ ਭਗਤੀ ਵਿਚ ਜੁੜਨਾ ਚਾਹੀਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mortal, entónate con Devoción a tu Dios; como Gurmukj medita en el Nombre del Señor en tu corazón,"

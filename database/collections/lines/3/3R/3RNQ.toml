@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਿਨੁ ਗੁਰ ਸੇਵੇ; ਘਾਟੇ ਘਾਟਿ ॥੫॥"
 page = 226
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Without serving the Guru, there is total loss."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਾਂ ਦੀ ਘਾਲ ਕਮਾਉਣ ਬਾਝੋਂ ਮੁਕੰਮਲ ਘਾਟਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Without serving the Guru, everything is lost. ||5||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੈਸੇ ਹੀ ਬਿਨਾ ਗੁਰੋਂ ਕੀ ਭਗਤੀ ਕੇ ਘਾਟਾ ਹੀ ਘਾਟਾ ਰਹਤਾ ਹੈ॥੫॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤਿਵੇਂ ਗੁਰੂ ਦੀ ਸਰਨ ਪੈਣ ਤੋਂ ਬਿਨਾ (ਜੀਵਨ-ਸਫ਼ਰ ਵਿਚ ਆਤਮਕ ਰਾਸ-ਪੂੰਜੀ ਵਲੋਂ) ਘਾਟੇ ਹੀ ਘਾਟੇ ਵਿਚ ਰਹੀਦਾ ਹੈ ॥੫॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਘਾਟੇ ਘਾਟਿ = ਘਾਟੇ ਵਿਚ ਹੀ, ਘਾਟ ਵਿਚ ਹੀ, ਨੁਕਸਾਨ ਵਿਚ ਹੀ ॥੫॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "De la misma manera uno necesita al Guru, sin Él uno pierde siempre y para siempre.(5)"

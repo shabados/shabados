@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਣ ਕੀਤੇ, ਅਵਗੁਣੁ ਕਰਿ ਢੋਆ ॥੨੦॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The wicked person returns evil for good done to him."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਣ ਦਾ ਅਵਗੁਣ ਕਰ ਦਿੰਦਾ ਹੈ।"

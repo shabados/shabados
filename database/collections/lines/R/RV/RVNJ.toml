@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਨ ਹੀ ਰਿਪੁ ਮਾਰਿ ਡਰਿਯੋ ਸੁ ਤ੍ਰਿਨਾਵ੍ਰਤ; ਪੈ ਜਨਿ ਸੋ ਇਹ ਥਿਤ ਛਠੀ ॥"
 page = 331
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He also killed the enemy named Tranavrata"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਨੇ ਤ੍ਰਿਣਾਵਰਤ (ਨਾਂ ਦੇ) ਵੈਰੀ ਨੂੰ ਮਾਰ ਦਿੱਤਾ ਹੈ ਜਦੋਂ ਅਜੇ ਛਿਆਂ ਦਿਨਾਂ ਦਾ ਸੀ।"

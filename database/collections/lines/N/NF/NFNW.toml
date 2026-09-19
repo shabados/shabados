@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੇਤੇ ਸੂਰ ਚੰਦ ਕਹੁ ਮਾਨੈ ॥"
 page = 56
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨੇ ਹੀ ਚੰਦ੍ਰਮਾ ਅਤੇ ਸੂਰਜ ਨੂੰ ਮੰਨਣ ਲਗੇ।"

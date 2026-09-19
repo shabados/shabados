@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਹੀ ਰੀਤਾ, ਅਉਰ ਹੀ ਚਰਚਾ ॥"
 page = 563
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਰ (ਤਰ੍ਹਾਂ ਦੀਆਂ) ਰੀਤਾਂ ਹਨ ਅਤੇ ਹੋਰ (ਤਰ੍ਹਾਂ ਦੀ) ਹੀ ਚਰਚਾ ਹੈ।"

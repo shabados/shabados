@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਕੀਕਤ ਸ਼ਨਾਸ ਅਸਤੁ ਐਨੁਲ ਯਕੀਂ ॥੪੭॥"
 page = 1412
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Because he was the seeker of truth, and he believed in virtuosity.(47)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਚ ਨੂੰ ਪਛਾਣਨ ਵਾਲਾ ਅਤੇ ਦ੍ਰਿੜ੍ਹ ਇਰਾਦੇ ਵਾਲਾ ਸਿੱਧ ਹੋਇਆ ॥੪੭॥"

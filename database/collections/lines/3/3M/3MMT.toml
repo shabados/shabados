@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਖੰਡ ਖੰਡ ਦੁਪਲਾ ॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou destroyest in an instant seemingly imperishable warriors."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਖੰਡ (ਸਮਝੇ ਜਾਣ ਵਾਲਿਆਂ) ਨੂੰ ਦੋ ਪਲਾਂ ਵਿਚ ਹੀ ਖੰਡਿਤ ਕਰ ਦਿੰਦੀ ਹੈ,"

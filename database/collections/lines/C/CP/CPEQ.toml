@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਗੜਦੰਗ ਤੇ ਪਾਕ ਸਾਹੀਦ ਹੋਏ ॥੫੮੭॥"
 page = 261
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brave fighters dying in the battlefield became true martyrs.587."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਓਹੀ ਪਵਿੱਤਰ ਸ਼ਹੀਦ ਹੋਏ ਹਨ ॥੫੮੭॥"

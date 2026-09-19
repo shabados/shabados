@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੇ ਜੇ ਹੁਤੇ ਅਘਨ ਕੇ ਕਰਤਾ ॥"
 page = 177
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਜੋ ਵੀ ਪਾਪ ਕਰਮ ਕਰਨ ਵਾਲੇ ਸਨ,"

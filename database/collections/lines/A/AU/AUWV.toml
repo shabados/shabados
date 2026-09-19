@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਗੇ ਧੀਰ ॥੮੦੨॥"
 page = 283
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The boys fearlessly discharged arrows with which the warriors fell and very enduring ones fled away.802."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੁਖੜੇ (ਨੂਰ) ਲਹੂ ਨਾਲ ਭਿੱਜੇ ਹੋਏ ਹਨ ॥੮੦੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਦਵ ਸੈਨਾ ਤੇ ਤਬੈ; ਨਿਕਸੇ ਅਤਿ ਬਲੁ ਧਾਰਿ ॥੧੩੭੫॥"
 page = 434
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Coming out from the army of Yadavas, Saras Singh, Maha Singh, Saar Singh and Vir Singh came in their powerful form.1375."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਬਲ ਧਾਰ ਕੇ ਤਦੋਂ ਯਾਦਵ ਸੈਨਾ ਵਿਚੋਂ ਨਿਕਲੇ ॥੧੩੭੫॥"

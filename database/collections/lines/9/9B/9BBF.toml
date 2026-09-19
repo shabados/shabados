@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਣ ਜੁਟ੍ਰਯੋ ਆਣਿ ਮਕਰਾਛ ਜੁਧ ॥"
 page = 568
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਮਕਰਾਛ (ਦੈਂਤ) ਆ ਕੇ ਯੁੱਧ ਵਿਚ ਜੁਟ ਗਿਆ ਹੋਵੇ।"

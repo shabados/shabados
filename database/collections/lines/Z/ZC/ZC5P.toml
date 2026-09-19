@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੁਜਾ ਸ਼ਾਹਿ ਕੈ ਖ਼ੁਸਰਵੋ ਜ਼ਾਮ ਜ਼ਮ ॥"
 page = 1414
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Where have gone the Kings, Khusro and Jamshed?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਥੇ ਹਨ ਬਾਦਸ਼ਾਹ ਕੇ, ਖੁਸਰੋ ਅਤੇ ਜਮਸ਼ੈਦ?"

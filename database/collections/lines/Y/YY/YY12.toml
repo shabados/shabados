@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਥ ਪ੍ਰਮਾਣ ਚਪਲਾ ਸੁ ਚਾਰੁ; ਚਮਕਤ ਹੈ ਅਨਕਟ ॥"
 page = 699
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His chariot is volatile and lustrous like lightning"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ) ਰਥ ਬਿਜਲੀ ਵਾਂਗ ਸੁੰਦਰ ਚਮਕਦਾ ਹੈ (ਅਤੇ ਉਸ ਦੀ) ਚਮਕ ਕਟੇ ਨਾ ਜਾ ਸਕਣ ਵਾਲੀ ਹੈ।"

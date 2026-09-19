@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭੰ ਸਰਬ ਭਾਗੇ ॥"
 page = 7
 line = 14
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Thy Writ of Destiny is for all!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ (ਸੰਸਾਰ ਦੇ) ਸਾਰਿਆਂ ਹਿੱਸਿਆਂ ਵਿਚ ਸ਼ੋਭਾਇਮਾਨ ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਸੁਭੰ ਸਰਬ ਭਾਗੇ ॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋ ਸਕੈ ਬਰਨ, ਮਹਿਮਾ ਅਪਾਰ ॥"
 page = 641
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਅਪਾਰ ਮਹਿਮਾ ਦਾ ਕੌਣ ਵਰਣਨ ਕਰ ਸਕਦਾ ਹੈ,"

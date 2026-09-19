@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਇ ਗਾਇ ਥਕੇ ਗੰਧ੍ਰਬ; ਨਾਚ ਅਪਛਰ ਅਪਾਰ ॥"
 page = 34
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Gandharvas have got tired by singing and countless Apsaras (heavenly damsels) by dancing."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗਾ ਗਾ ਕੇ ਗੰਧਰਬ ਥਕ ਗਏ ਹਨ ਅਤੇ ਬੇਅੰਤ ਅਪੱਛਰਾਵਾਂ ਵੀ ਨਚ ਨਚ ਕੇ (ਥਕ ਗਈਆਂ ਹਨ)"

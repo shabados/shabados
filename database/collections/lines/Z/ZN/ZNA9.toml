@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਤਪ੍ਰਤਿ ਤਾਹਿ ਰਿਝਾਇਯੈ; ਦੈ ਦੈ ਅਗਨਿਤ ਬਿਤ ॥੧੨॥"
 page = 820
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Providing her myriads of victuals, just keep her satisfied.(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਹਰ ਰੋਜ਼ ਬੇਹਿਸਾਬ ਧਨ ਦੇ ਕੇ ਪ੍ਰਸੰਨ ਰਖੋ ॥੧੨॥"

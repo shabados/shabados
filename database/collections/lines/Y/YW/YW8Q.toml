@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੀ ਜੀਭ ਉੱਪਰ ਸਦਾ ਹੀ ਰੱਬ ਦੀ ਯਾਦ ਰਹਿੰਦੀ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਯਾਦਿ ਹੱਕ ਦਾਰੰਦ ਦਾਇਮ ਬਰ ਜ਼ੁਬਾਂ ॥੨੭੧॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Thousands of rivers like Jamnaa and Gangaa"

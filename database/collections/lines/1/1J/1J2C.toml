@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਵਨੀਪ ਸਰਬ ਜੋਰੇ ਅਛੇਦ ॥੪੨॥"
 page = 679
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On the strength of Saam Daam, Dand and Bhed, he brought all together and brought them his control.42."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਛੇਦੇ ਜਾ ਸਕਣ ਵਾਲੇ ਰਾਜੇ ('ਅਵਨੀਪ') ਜੋੜ ਲਏ ਸਨ ॥੪੨॥"

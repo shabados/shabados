@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗਿਆਨ ਧਿਆਨ ਸਿਮਰਣਿ ਸਦਾ; ਗੁਰਮੁਖਿ ਸਬਦਿ ਸੁਰਤਿ ਲਿਵ ਲਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And the gurmukhs there merge their consciousness in the Word through learning, meditation and, prayer."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਗਿਆਨ ਧਿਆਨ ਅਰ ਸਦਾ ਸਿਮਰਣ ਕਰ ਕੇ ਗੁਰਮੁਖਾਂ ਨੇ ਸ਼ਬਦ ਦੀ ਸੁਰਤ ਵਿਖੇ ਲਿਵ ਲਗਾਈ।"

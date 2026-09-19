@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋ ਪਿਤੁ ਅਧਿਕ ਕੋਪ ਕਰਿ ਆਯੋ ॥"
 page = 963
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Raj Kumari learnt that her father, getting angry, was coming,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਮੇਰਾ ਪਿਤਾ ਬਹੁਤ ਕ੍ਰੋਧ ਕਰ ਕੇ ਆਇਆ ਹੈ।"

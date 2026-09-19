@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਸੇ ਤੋ ਪਸੰਦ ਆਯਦਤ ਈਂ ਜ਼ਮਾ ॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(King asked), ‘If there is any one of your liking,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਕੋਈ ਵਿਅਕਤੀ ਤੈਨੂੰ ਪਸੰਦ ਆ ਜਾਏ"

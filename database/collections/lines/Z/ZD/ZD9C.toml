@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੁਖ ਸਬਦ ਕੋ ਆਦਿ ਉਚਾਰੋ ॥"
 page = 749
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਰੁਖ' (ਬ੍ਰਿਛ) ਸ਼ਬਦ ਨੂੰ ਉਚਾਰੋ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਤਿ ਮਾਨੀ ਤਿਹ ਸੰਗ; ਸੁ ਮੋਦ ਬਢਾਇ ਕੈ ॥"
 page = 1000
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She enjoyed lovemaking with him,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਨੰਦ ਵਧਾ ਕੇ ਉਸ ਨਾਲ ਰਤੀ-ਕ੍ਰੀੜਾ ਕੀਤੀ।"

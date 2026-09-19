@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾਸ ਬੇਗ ਨਾਮਾ ਜਗ ਕਹੈ ॥"
 page = 948
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Alimardan (a king) had a son whom the world knew as Taas Beg."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਲੋਕ ਤਾਸ ਬੇਗ ਕਰ ਕੇ ਜਾਣਦੇ ਸਨ।"

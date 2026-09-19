@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਤਬ ਦੇਹ ਧਰਤ ਅਵਤਾਰਾ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the Lord manifests himself in physical form"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਤਦੋਂ (ਪਰਮਾਤਮਾ) ਦੇਹ ਧਾਰਨ ਕਰ ਕੇ ਅਵਤਾਰ ਲੈਂਦਾ ਹੈ।"

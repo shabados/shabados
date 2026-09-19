@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿ ਲੇਤ ਹੇਰਤਿ ਪ੍ਰਾਨ ॥੪੬੯॥"
 page = 673
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That lady, the treasure of music, to whichever direction she viewed, she allured everyone.469."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵੇਖਣ ਨਾਲ ਹੀ ਪ੍ਰਾਣ ਹਰ ਲੈਂਦੀ ਸੀ ॥੪੬੯॥"

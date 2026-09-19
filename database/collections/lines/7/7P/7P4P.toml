@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰ ਮੂਰਤਿ ਸਿਉ; ਲਾਇ ਧਿਆਨੁ ॥"
 page = 192
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "with guru's from, fix thou thy attention."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਾਂ ਦੇ ਸਰੂਪ ਨਾਲ ਤੂੰ ਆਪਣੀ ਬ੍ਰਿਤੀ ਜੋੜ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Focus your meditation on the Guru's Sublime Form."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੋਂ ਕੀ ਮੂਰਤੀ ਕੇ ਸਾਥ ਧ੍ਯਾਨ ਲਗਾਉ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ! ਗੁਰੂ ਦਾ ਸ਼ਬਦ ਹੀ ਗੁਰੂ ਦੀ ਮੂਰਤਿ ਹੈ, ਗੁਰੂ ਦਾ ਸਰੂਪ ਹੈ) ਗੁਰੂ ਦੇ ਸ਼ਬਦ ਨਾਲ ਆਪਣੀ ਸੁਰਤ ਜੋੜ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਗੁਰ ਮੂਰਤਿ = ਗੁਰੂ ਦਾ ਰੂਪ, ਗੁਰੂ ਦਾ ਸ਼ਬਦ। ਸਿਉ = ਨਾਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Contempla la Presencia del Guru,"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਚਰਣੋਦਕੁ ਲੈ ਆਚਮਨੁ; ਹਉਮੈ ਦੁਬਿਧਾ ਰੋਗੁ ਗਵਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "After drinking the nectar of feet, their maladies of ego and duality have been cured."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਦੇ ਚਰਣਾਂਮ੍ਰਿਤ ਦਾ ਆਚਰਨ ਲੈ, (ਏਹ) ਹਉਮੈ ਅਤੇ ਦੁਬਿਧਾ ਦੇ ਰੋਗ ਗਵਾ ਦਿਉ।"

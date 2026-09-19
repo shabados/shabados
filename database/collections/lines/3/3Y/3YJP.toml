@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੁਕੇ ਦਿਸੰ ॥੪੯੮॥"
 page = 252
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The throbbing of the hearts continues, the arrows are being discharged intermittently and the directions are being hindered.498."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਨਾਲ) ਦਿਸ਼ਾਵਾਂ ਰੁਕ ਗਈਆਂ ਹਨ ॥੪੯੮॥"

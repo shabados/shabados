@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਦੇਵ ਕੰਨ︀ਯਾ ਨਚੈ ਤਾਲ ਦੈ ਕੈ ॥"
 page = 1369
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਦੇਵ-ਕੰਨਿਆਵਾਂ ਤਾਲ ਦੇ ਕੇ ਨਚ ਰਹੀਆਂ ਸਨ"

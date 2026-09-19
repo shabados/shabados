@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਚਰਿ ਖੇਲਿ ਮਨੌ ਘਰ ਆਏ ॥੧੩੩॥"
 page = 1367
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਜ ਲਗਦਾ ਸੀ) ਮਾਨੋ ਹੋਲੀ ਖੇਡ ਕੇ ਘਰ ਪਰਤੇ ਹੋਣ ॥੧੩੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਮੋ ਚਹਿਯੋ ਵਹੈ ਪਤਿ ਪਾਯੋ ॥"
 page = 1005
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She had manoeuvred with subterfuge and had achieved him, whomshe desired for’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਕਰ ਕੇ) ਮਨ ਚਾਹਿਆ ਪਤੀ ਪ੍ਰਾਪਤ ਕੀਤਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਕਜ ਕੂਪਾ ॥੨੧੬॥"
 page = 222
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Impiety-incarnate and store of vicious works.216."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨ ਕੱਜੇ ਜਾਣ ਵਾਲੇ (ਪਾਪਾਂ ਦੇ) ਖੂਹ (ਦੇ ਰੂਪ) ਵਾਲੀ! ॥੨੧੬॥"

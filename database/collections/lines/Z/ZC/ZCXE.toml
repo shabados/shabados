@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੈ ਔਖਧ ਤਬ ਹੀ ਭਜੈ; ਬਹੁਰਿ ਨ ਦਰਸ ਦਿਖਾਤ ॥੧੧॥"
 page = 818
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They run away after suggesting the treatment. ‘They are not traced afterwards.’ (11)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਦਵਾਈ ਦੇ ਕੇ ਭਜ ਜਾਂਦੇ ਹਨ; ਫਿਰ ਦਿਖਾਈ ਨਹੀਂ ਦਿੰਦੇ ॥੧੧॥"

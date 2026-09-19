@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੋ ਪਾਥਰ ਕਉ; ਕਹਤੇ ਦੇਵ ॥"
 page = 1160
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "They, who say the stone is a god;"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜੇ ਆਖਦੇ ਹਨ ਕਿ ਪੱਥਰ ਦੇਵਤਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Those who call a stone their god"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪੁਰਸ ਪਥਰ ਕੋ ਹੀ (ਦੇਵ) ਪਰਮੇਸ੍ਵਰ ਸਮਝਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮਨੁੱਖ ਪੱਥਰ (ਦੀ ਮੂਰਤੀ) ਨੂੰ ਰੱਬ ਆਖਦੇ ਹਨ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquéllos que piensan que las piedras pueden ser dioses,."

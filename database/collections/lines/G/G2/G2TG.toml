@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੋਹ ਰੱਛ ਸਰਬਦਾ ਬਿਸਾਲ ॥"
 page = 73
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "At all times, Lord, Destroyer of all, protects me. That All-Pervading Lord is my Protector like Steel."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਦਾ (ਉਸ) ਵਿਸ਼ਾਲ (ਪ੍ਰਭੂ ਦੀ) ਸ਼ਸਤ੍ਰ ਰੂਪ ਰਖਿਆ ਮਿਲ ਰਹੀ ਹੈ।"

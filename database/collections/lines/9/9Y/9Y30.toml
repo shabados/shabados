@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਚਿੰਤ ਤੇ ਨੈਕੁ ਨ ਡਰਿਯੈ ॥੧੪॥"
 page = 1034
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸ ਤਰ੍ਹਾਂ ਦੀ ਚਿੰਤਾ ਤੋਂ ਨਾ ਡਰੋ ॥੧੪॥"

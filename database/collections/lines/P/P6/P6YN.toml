@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਢਢਿ ਢੋਲਕ ਝਾਝ ਮ੍ਰਿਦੰਗ ਮੁਖੰ ॥"
 page = 601
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਢੱਡ, ਢੋਲਕ, ਝਾਂਝ, ਮ੍ਰਿਦੰਗ, ਮੁਖਰਸ,"

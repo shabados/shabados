@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਨਿਧ ਹ੍ਵੈ ਚਿਤ ਮੈ ਅਤਿ ਕ੍ਰੁਧਤ ॥"
 page = 588
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਥਿਆਰ-ਬੰਦ ਹੋ ਕੇ ਮਨ ਵਿਚ ਬਹੁਤ ਕ੍ਰੋਧਵਾਨ ਹੋਇਆ"

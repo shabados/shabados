@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਗਈ ਵਹੁ ਕੁਅਰਿ ਮੁਦਿਤ ਮਨ ॥"
 page = 1203
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਰਾਜ ਕੁਮਾਰੀ ਪ੍ਰਸੰਨ ਚਿਤ ਨਾਲ ਉਥੇ ਗਈ"

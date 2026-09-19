@@ -1,10 +1,10 @@
 [[content]]
-asset = "AKKB"
+assets = ["AKKB"]
 type = "primary"
 data = "ਜਿਹਵਾ ਏਕ ਪਾਰ ਨਹਿ ਲਹੀ ॥"
 
 [[content]]
-asset = "SOTK"
+assets = ["SOTK"]
 type = "translation"
 language = "en"
 data = "none which may reach its furthest limit. 525 "

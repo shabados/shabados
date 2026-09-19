@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਤ ਧਰਮ ਕੀ ਹਾਨਿ ॥੧੩੧॥"
 page = 564
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king and saints etc. engaged in evil acts and with sins in their hearts, they are doing disservice to dharma.131."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਧਰਮ ਦੀ ਹਾਨੀ ਕਰਦੇ ਹਨ ॥੧੩੧॥"

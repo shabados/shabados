@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਗਯੋ ਗੁਪਾਲ ॥"
 page = 66
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਗੋਪਾਲ ਚੰਦ ਚਲਾ ਗਿਆ,"

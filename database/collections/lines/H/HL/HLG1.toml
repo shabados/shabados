@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਬ੍ਰਹਮ ਸਿਛਾ ਕਹੂੰ ਬਿਸਨ ਭੇਦੰ ॥੨॥੨੭੩॥"
 page = 151
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere there was the discourse about Brahm Sutras and somewhere there was discussion about the mysteries of Vishnu.2.273."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਬ੍ਰਹਮ ਸੰਬੰਧੀ ਸਿਖਿਆ ਦਿੱਤੀ ਜਾ ਰਹੀ ਸੀ ਅਤੇ ਕਿਤੇ ਵਿਸ਼ਣੂ ਦੇ ਭੇਦ (ਦਸੇ ਜਾ ਰਹੇ ਸਨ) ॥੨॥੨੭੩॥"

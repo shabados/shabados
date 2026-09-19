@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਾਲਿ ਸੰਦੂਕਹਿ ਸਾਥ ਚਲਯੋ ॥੮॥"
 page = 1332
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਸੰਦੂਕ ਵਿਚ ਪਾ ਕੇ ਨਾਲ ਹੀ ਲੈ ਲਿਆ ॥੮॥"

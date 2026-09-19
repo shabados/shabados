@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਨੁ ਏਕ ਆਸ ਸਭ ਹੀ ਨਿਰਾਸ ॥੯੬॥"
 page = 642
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Various types of Mantras in various religions the faith of One Lord.96."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰੰਤੂ ਇਕ ਦੀ ਆਸ ਤੋਂ ਬਿਨਾ ਸਭ ਨਿਰਾਸ ਹੀ ਰਹਿੰਦੇ ਹਨ ॥੯੬॥"

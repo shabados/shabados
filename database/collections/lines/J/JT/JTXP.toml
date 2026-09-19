@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋਤ ਭਯੋ ਤਪਸੀ ਤਬ ਤੇ; ਜਬ ਤੇ ਬੁਧਿ ਲੈ ਸੁਧਿ ਕੋ ਠਹਰਾਯੋ ॥"
 page = 968
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He had become a sage as soon as he achieved the age of discernment."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਦੋਂ ਤੋਂ ਹੀ ਉਹ ਤਪਸਵੀ ਹੋ ਗਿਆ ਜਦੋਂ ਤੋਂ ਉਸ ਨੇ ਬੁੱਧੀ ਨਾਲ ਸੁਰਤਿ ਨੂੰ ਸਥਿਰ ਕੀਤਾ।"

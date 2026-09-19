@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲ ਚਾਲ ਚਿਤੁ ਸੁੰਦਰ ਸੁ ਬਾਸ ॥"
 page = 638
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The whole nether-world and sky had the feeling about his comeliness which made all the creatures full of joy"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੁੰਦਰ ਨਿਵਾਸਾਂ (ਵਿਚ ਵਸਣ ਵਾਲਿਆਂ ਦੇ) ਚਿਤ ਵਿਚ ਹਲਚਲ ਮਚ ਗਈ।"

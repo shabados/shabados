@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੁਕਰਮ ਭੇਸੰ ॥੨੨੪॥"
 page = 222
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And in this way she performed the evil act of killing her husband.224."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੈੜੇ ਕਰਮ ਦੇ ਸਰੂਪ ਵਾਲੀ ਹੈਂ ॥੨੨੪॥"

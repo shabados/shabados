@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਜ਼ਾ ਦਰਮਿਯਾ ਬੂਦ ਦੀਵਾਰ ਜ਼ੀਂ ॥"
 page = 1417
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A wall was built between the two sections,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੋਹਾਂ (ਮਦਰਸਿਆਂ) ਵਿਚ ਇਕ ਦੀਵਾਰ ਸੀ।"

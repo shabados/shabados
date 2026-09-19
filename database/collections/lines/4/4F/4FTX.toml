@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ︀ਯਾਮ ਭਨੈ ਤਿਹ ਬੀਰ ਤਬੈ ਸੁ ਗਦਾ ਕੋ ਗਦਾ ਸੰਗਿ ਘਾਇ ਬਚਾਯੋ ॥੨੧੭੫॥"
 page = 516
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And then holding his mace, in great anger he intercepted the blow of the coming mace and saved himself.2175."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਵੀ) ਸ਼ਿਆਮ ਕਹਿੰਦੇ ਹਨ, ਉਸ ਯੋਧੇ ਨੇ ਉਦੋਂ ਹੀ ਗਦਾ ਨਾਲ ਗਦਾ ਦੇ ਵਾਰ ਨੂੰ ਬਚਾ ਲਿਆ ॥੨੧੭੫॥"

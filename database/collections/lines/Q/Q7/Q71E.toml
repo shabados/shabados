@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਹਦ ਰੂਪ, ਅਨਾਹਦ ਬਾਨੀ ॥"
 page = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Limitless Entity and hath infinite celestial strain."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਸਰੂਪ ਸੀਮਾ-ਰਹਿਤ (ਅਪਰ ਅਪਾਰ) ਅਤੇ ਉਸ ਦੀ ਬਾਣੀ ਬਿਨਾ ਕਿਸੇ ਆਘਾਤ ਤੋਂ ਪੈਦਾ ਹੋਣ ਵਾਲੀ ਹੈ।"

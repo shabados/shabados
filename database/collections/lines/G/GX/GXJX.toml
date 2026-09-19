@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਹ ਆਪਨ ਆਪੁ; ਆਪਿ ਪਤੀਆਰਾ ॥"
 page = 291
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "When the Lord with Himself was self-satisfied,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿੱਥੇ ਸੁਆਮੀ ਆਪਣੇ ਆਪ ਨਾਲ ਖੁਦ ਸੰਤੁਸ਼ਟ ਸੀ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "When He Himself was satisfied with Himself,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਹ ਅਪਨੇ ਆਪ ਮੇਂ ਆਪ ਹੀ (ਪਤੀਆਰਾ) ਨਿਹਚਾ ਕਰ ਰਹਾ ਥਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਆਪਣੇ ਆਪ ਨੂੰ ਪਤਿਆਉਣ ਵਾਲਾ ਪ੍ਰਭੂ ਆਪ ਹੀ ਸੀ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਪਨ ਆਪੁ = ਆਪਣੇ ਆਪ ਨੂੰ। ਪਤੀਆਰਾ = ਪਤਿਆਉਣ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuando el estaba satisfecho consigo mismo?"

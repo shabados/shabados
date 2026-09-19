@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰਾਗੁ ਆਸਾਵਰੀ ਘਰੁ ੧੬ ਕੇ ੨ ਮਹਲਾ ੪ ਸੁਧੰਗ ॥"
 page = 369
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Asawari Measure. 4th Guru."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਆਸਾਵਰੀ ਚੌਥੀ ਪਾਤਸ਼ਾਹੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Raag Aasaavaree, 2 Of Sixteenth House, Fourth Mehl, Sudhang:"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਸੁਧੰਗ) ਹੇ (ਅੰਗ) ਪਿਆਰੇ ਸੁਧ ਕਰੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਆਸਾਵਰੀ, ਘਰ ੧੬ ਵਿੱਚ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਦੀ ਬਾਣੀ 'ਸੁਗੰਧ'।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Asa vari (de forma pura), Mejl Guru Ram Das, Cuarto Canal Divino."

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਪਿ ਮਿਲਿਆ ਜਗਜੀਵਨੁ ਦਾਤਾ ॥"
 page = 1044
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Beneficient God, the life of the world, has Himself met me, now."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਦੀ ਜਿੰਦ-ਜਾਨ, ਦਾਤਾਰ ਸੁਆਮੀ, ਖ਼ੁਦ ਹੀ ਹੁਣ ਮੈਨੂੰ ਮਿਲ ਪਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Great Giver, the Life of the world, Himself has met me."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਨੋਂ ਕੋ ਜਗ ਜੀਵਨ ਦਾਤਾ ਪਰਮੇਸੁਰ ਆਪ ਮਿਲਿਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਦਾਤਾਂ ਦੇਣ ਵਾਲਾ ਤੇ ਜਗਤ ਦਾ ਆਸਰਾ ਪ੍ਰਭੂ ਆਪ ਉਸ ਨੂੰ ਆ ਮਿਲਿਆ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਗਜੀਵਨੁ = ਜਗਤ ਦਾ ਜੀਵਨ ਪ੍ਰਭੂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sí, él encuentra al Señor Compasivo, la Vida de toda vida."

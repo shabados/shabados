@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਪਰਵਾਨਹੇ ਚੂੰ ਦਰਾਮਦ ਬਜੋਸ਼ ॥੪੭॥"
 page = 1401
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And flew like a moth approaching the naked light (to burn).(47)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਪਰਵਾਨਾ ਪੂਰੇ ਜੋਸ਼ ਨਾਲ (ਦੀਪਕ ਉਤੇ) ਆਉਂਦਾ ਹੈ ॥੪੭॥"

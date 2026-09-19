@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਿ ਧਰਿ ਮੂਰਤਿ ਫਿਰਤਿ ਅਨੇਕੈ ॥"
 page = 1364
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਨੇਕ ਰੂਪ ਧਾਰ ਕੇ ਵਿਚਰ ਰਹੇ ਹੋ।"

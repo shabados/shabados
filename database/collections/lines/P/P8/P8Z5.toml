@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਖ ਪਾਏ ਸਾਧੁਨ ਕੇ ਸੁਖੀ ॥"
 page = 1387
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is happy, when His saints are happy."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਧਾਂ ਦੇ ਸੁਖ ਪ੍ਰਾਪਤ ਕਰਨ ਤੇ ਸੁਖੀ ਹੁੰਦੇ ਹੋ।"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਸੁਖ ਪਾਏ ਸਾਧਨ ਕੇ; ਸੁਖੀ ॥"

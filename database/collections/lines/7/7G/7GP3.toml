@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਸ ਰਣ ਕੀਨਾ ॥੮੧੭॥"
 page = 285
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were not even turning around to see Ram, and being helpless they fled away to whichever side they could.817."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਵਿੱਚ ਕਟੀ ਹੋਈ ਸੈਨਾ ਬ੍ਰਿਛਾਂ ਵਰਗੀ ਹੈ"

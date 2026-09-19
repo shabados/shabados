@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਇਹਨਾਂ ਮੋਤੀਆਂ ਦੇ ਦਾਨਿਆਂ ਨੂੰ ਇਸ ਲਈ ਪਰੋਇਆ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਖ਼ਾਸਤਮ ਤਰਤੀਬਿ ਈਂ ਦੁੱਰ ਦਾਨਾ ਰਾ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "I have threaded these grains of pearls into a necklace,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਬਿੜਾਲ ਪੰਚਮ ਗੁਰੂ ਨਾਮ ॥"
 page = 649
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now begins the description of the fifth Guru Tom Cat"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਬਿੜਾਲ ਨਾਂ ਦੇ ਪੰਜਵੇਂ ਗੁਰੂ (ਦਾ ਕਥਨ)"

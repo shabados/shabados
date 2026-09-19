@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਬ ਰਾਇ ਕੋ ਬਾਨ ਪ੍ਰਹਾਰਿਯੋ ॥"
 page = 931
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then she cut off the chariots and killed the chariot-driver."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਰਬ ਦੇਸ ਦੇ ਰਾਜੇ ਨੂੰ ਬਾਣ ਮਾਰਿਆ।"

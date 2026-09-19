@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਦੀ ਪਵਿੱਤ੍ਰ ਜਨਮਦਾਤਾ ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਦੀ ਸੇਵਾ ਵਿਚ ਰਹਿੰਦੀ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਉੱਮਿ ਕੁੱਦਸ ਬਕਾਰਿ ਗੁਰ ਗੋਬਿੰਦ ਸਿੰਘ ॥"
 page = 10
 line = 140
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "The sacred creator of the world stays in the service of Guru Gobind Singh,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਰੂਪਿ ਹੇਰਿ ਉਰਝਾਯੋ ॥"
 page = 940
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A Devil came from (the country of) Lanka, who was enchanted with her beauty,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਦਾ ਰੂਪ ਵੇਖ ਕੇ ਫਸ ਗਿਆ।"

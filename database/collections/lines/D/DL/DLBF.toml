@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਭੂਤ ਅੰਗ ਉਜਲ ਸੁ ਬਾਸ ॥"
 page = 638
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੰਗਾਂ ਉਪਰ ਲਗੀ ਵਿਭੂਤੀ ਤੋਂ ਉਜਲੀ ਵਾਸਨਾ ਆਉਂਦੀ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਅਰਾਗਸ ॥੪॥੫੧॥"
 page = 132
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Lord is Affectionless.4.51."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੋਹ-ਪ੍ਰੇਮ ਤੋਂ ਬਾਹਰ ਹੈ ॥੪॥੫੧॥"

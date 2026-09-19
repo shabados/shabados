@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨਿ ਪ੍ਰਤਿ ਔਰ ਨਿਹਾਰਿ ਕੈ; ਲਰਤੁ ਸੂਰ ਸਮੁਹਾਇ ॥੨੬॥"
 page = 929
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With single stroke she annihilated many enemies."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਨੂੰ ਵੇਖ ਕੇ ਹੋਰ ਸੂਰਮੇ ਸਨਮੁਖ ਹੋ ਕੇ ਲੜਦੇ ਹਨ ॥੨੬॥"

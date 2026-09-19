@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਮੀ ਜਮਾਨ ਕੇ ਬਿਖੈ; ਸਦੀਵ ਕਰਮ ਭਰਨ ਹੈਂ ॥"
 page = 32
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Within the earth and the universe, He is always engaged in actions."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਧਰਤੀ ਅਤੇ ਆਕਾਸ਼ ਵਿਚਾਲੇ ਸਦਾ ਹੋਣ ਵਾਲੇ ਕਰਮਾਂ ਦਾ ਸੰਯੋਜਕ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਵੋਜਸਚ ॥੧੫॥੬੨॥"
 page = 133
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Lord Unconquerable.15.62."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਲ ਦੀ ਰੱਖਿਆ ਕਰਨ ਵਾਲਾ ਹੈਂ ॥੧੫॥੬੨॥"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੋਟਿ ਪੂਜਾ; ਜਾ ਕੈ ਹੈ ਧਿਆਨ ॥"
 page = 238
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Meditating on whom (Him) is equal to millions of worships."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ (ਉਸ) ਦਾ ਸਿਮਰਨ ਕ੍ਰੋੜਾਂ ਹੀ ਉਪਾਸ਼ਨਾ ਦੇ ਤੁੱਲ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Meditating on it is equal to millions of worship ceremonies."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਜਿਸ ਕੇ ਧਿਆਨ ਕਰਨੇ ਸੇ ਕ੍ਰੋੜੋਂ ਪੂਜਾ ਕਾ ਫਲ੍ਹ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪਰਮਾਤਮਾ ਦਾ ਧਿਆਨ ਧਰਨ ਵਿਚ ਕ੍ਰੋੜਾਂ ਦੇਵ-ਪੂਜਾ ਆ ਜਾਂਦੀਆਂ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਾ ਕੈ ਧਿਆਨ = ਜਿਸ ਦਾ ਧਿਆਨ ਧਰਨ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "de abluciones y toda Alabanza."

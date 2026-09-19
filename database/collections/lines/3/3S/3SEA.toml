@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਗੀ ਆਨ ਪਾਯੰ ॥"
 page = 268
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੀਤਾ (ਸ੍ਰੀ ਰਾਮ) ਦੇ ਪੈਰੀਂ ਆ ਲਗੀ।"

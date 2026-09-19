@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਟੁਟਸਤੁਆ ਅਟੇਟੰ ॥੯॥੧੧੭॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art ever indivisble.9.117"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਤੋੜਨ ਵਾਲਾ ਹੈ ਪਰ (ਆਪ) ਅਟੁੱਟ ਹੈਂ ॥੯॥੧੧੭॥"

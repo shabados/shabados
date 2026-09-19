@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਉਸ ਦੇ ਹਰ ਪੇਚ ਵਿਚ ਇਹੋ ਸੂਹ ਮਿਲੀ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਯਾਫ਼ਤਮ ਅਜ਼ ਪੇਚ ਪੇਚਿ ਊ ਸੁਰਾਗ਼ ॥੪੭॥੨॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Everything else other than His remembrance is a complete foolishness. (71)"

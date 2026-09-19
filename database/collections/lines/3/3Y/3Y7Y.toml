@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਬਿਧਿ ਗਤਿ ਕੀਨੀ ਪ੍ਰਭ ਮਾਤਾ ॥"
 page = 288
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਦਿਨ ਸੀਤਾ ਨੇ ਇਸਤਰੀਆਂ ਦੇ ਸਿਖਾਏ,"

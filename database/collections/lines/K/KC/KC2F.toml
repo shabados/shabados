@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਢਮਾ ਢਮ ਢੋਲੰ ਢਲਾ ਢੁਕ ਢਾਲੰ ॥"
 page = 116
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sounds of drums and shields resound continuously"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਢਮ-ਢਮ ਢੋਲ ਅਤੇ ਢਕ-ਢਕ ਢਾਲਾਂ (ਵਜ ਰਹੀਆਂ ਸਨ)।"

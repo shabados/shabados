@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਾਕਿ ਹਾਕਿ ਭਟ ਤਰੈ ਧਵਾਵਹਿ ॥"
 page = 1087
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮੇ ਘੋੜਿਆਂ ਨੂੰ ਹਿਕ ਹਿਕ ਕੇ ਧਾਵਾ ਕਰਦੇ ਹਨ।"

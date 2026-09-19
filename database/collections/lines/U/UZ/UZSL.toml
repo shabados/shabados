@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਚੇ ਬੀਰ ਬੈਤਾਲ ਅਧੰ ਕਮਧੰ ॥"
 page = 119
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The blind trunks and brave Batital are dancing and the fighting warriors alongwith the dancers,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੱਧੇ ਕਟੇ ਹੋਏ ਧੜ ਅਤੇ ਬੀਰ-ਬੈਤਾਲ ਨਚ ਰਹੇ ਸਨ; (ਜਿਨ੍ਹਾਂ ਨੇ ਵੈਰੀ ਨੂੰ) ਮਾਰਨ ਲਈ"

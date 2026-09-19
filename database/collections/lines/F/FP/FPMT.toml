@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਿਰਥਾ ਕਹਉ; ਕਉਨ ਸਿਉ. ਮਨ ਕੀ ॥"
 page = 411
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "To whom shall I tell the condition of man's mind?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਇਨਸਾਨ ਦੇ ਚਿੱਤ ਦੀ ਹਾਲਤ ਮੈਂ ਕਿਸ ਨੂੰ ਦੱਸਾਂ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Who should I tell the condition of the mind?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਤਿਗੁਰੋ! ਇਸ ਮਨ ਕੀ (ਬਿਰਥਾ) ਦਸ਼ਾ ਬਿਨਾਂ ਆਪ ਕੇ ਮੈਂ ਕਿਸ ਸੇ ਕਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਇਸ (ਮਨੁੱਖੀ) ਮਨ ਦੀ ਭੈੜੀ ਹਾਲਤ ਕਿਸ ਨੂੰ ਦੱਸਾਂ (ਹਰੇਕ ਮਨੁੱਖ ਦਾ ਇਹੀ ਹਾਲ ਹੈ),"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਰਥਾ = ਪੀੜਾ, ਦੁੱਖ, ਭੈੜੀ ਹਾਲਤ {व्यथा}। ਕਹਉ = ਕਹਉਂ, ਮੈਂ ਦੱਸਾਂ। ਕਉਨ ਸਿਉ = ਕਿਸ ਨੂੰ?"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "¿A quién le podría revelar el dolor de mi Alma?"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਪੁਰਾਨ ਦੇਖਨ ਦੇਹਗੇ ॥੬੨॥"
 page = 557
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "No one will accept the advice of the holy Quran and no one will be able to see the Puranas.62."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੁਰਾਨਾਂ ਨੂੰ ਵੇਖਣ ਨਹੀਂ ਦੇਣਗੇ ॥੬੨॥"

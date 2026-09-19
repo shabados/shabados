@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਕਰ ਨਾਵ ਨ ਠਾਵ ਬਖਾਨਾ ॥"
 page = 552
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਕੋਈ ਨਾਂ ਜਾਂ ਠਿਕਾਣਾ ਨਹੀਂ ਦਸਿਆ ਜਾ ਸਕਦਾ,"

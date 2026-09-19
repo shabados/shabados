@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਗ ਉਤਰਿ ਮਿਰਜਾ ਕੀ ਪਰੀ ॥੩੧॥"
 page = 995
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Some shot arrows and Mirza’s turban was toppled over.(31)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ) ਮਿਰਜ਼ੇ ਦੀ ਪਗ ਉਤਰ ਕੇ ਡਿਗ ਪਈ ॥੩੧॥"

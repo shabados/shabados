@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਨਾ ਤੇਗ਼ ਬਰ ਵੈ ਬਿਜ਼ਦ ਨਾਜ਼ਨੀਂ ॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "It was hit with such a force,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਜ਼ੀਰ ਦੀ ਲੜਕੀ ਨੇ ਉਸ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਤਲਵਾਰ ਮਾਰੀ"

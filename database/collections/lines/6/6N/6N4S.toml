@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰੇ ਗਉਰ ਗਾਜੀ ਖੁਲੇ ਹੱਥਿ ਬੱਥੰ ॥"
 page = 160
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The mighty heroes have fallen down with empty hands and seeing all this spectacle,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੱਡੇ ਸੂਰਮੇ ਖੁਲ੍ਹਿਆਂ ਹੱਥਾਂ ਨਾਲ ਡਿਗੇ ਪਏ ਸਨ।"

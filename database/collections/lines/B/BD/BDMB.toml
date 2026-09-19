@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੈ ਸਾਮ ਦਾਮ ਅਰੁ ਦੰਡ ਭੇਦ ॥"
 page = 679
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਮ, ਦਾਨ, ਦੰਡ ਅਤੇ ਭੇਦ ਕਰ ਕੇ"

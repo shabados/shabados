@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਰਨਿ. ਨ ਸਾਕਉ; ਏਕ ਟੁਲੇਰੈ ॥"
 page = 1304
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I cannot narrate even one of Thine merits."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੇਰੀ ਇਕ ਸਿਫ਼ਤ ਦਾ ਭੀ ਵਰਨਣ ਨਹੀਂ ਕਰ ਸਕਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I cannot describe even one of Your Virtues."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰਾ ਏਕ ਭੀ (ਟੁਲੇਰੈ) ਉਪਕਾਰ ਮੈਂ ਕਹਿ ਨਹੀਂ ਸਕਤਾ ਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤਾਂ ਤੇਰੇ ਇਕ ਉਪਕਾਰ ਨੂੰ ਭੀ ਬਿਆਨ ਨਹੀਂ ਕਰ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਾਕਉ = ਸਾਕਉਂ। ਬਰਨਿ ਨ ਸਾਕਉ = ਮੈਂ ਬਿਆਨ ਨਹੀਂ ਕਰ ਸਕਦਾ। ਟੁਲੇਰੈ = ਟੋਲ, (ਦਿੱਤਾ ਹੋਇਆ) ਪਦਾਰਥ, ਕੀਤਾ ਹੋਇਆ ਉਪਕਾਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh, mi Bienamado, no podría ni describir siquiera una de Tus Virtudes."

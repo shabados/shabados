@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਅਸਤ੍ਰ ਕੋ ਪਾਤਕਾ ਪੈ ਚਲੈਗੋ ॥"
 page = 151
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the targets were being shot at with arms"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ (ਕੋਈ) ਅਸਤ੍ਰ ਨੂੰ ਡਿਗਾਉਣ (ਪਾਤਕਾ) (ਦੀ ਵਾਰਤਾ) ਚਲਾ ਰਿਹਾ ਸੀ।"

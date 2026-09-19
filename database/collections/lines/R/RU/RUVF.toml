@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਰਜ ਛਪ︀ਯੋ ਚੰਦ੍ਰ ਦੁਤਿ ਭਈ ॥"
 page = 1074
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਜ ਡੁਬ ਗਿਆ ਅਤੇ ਚੰਨ ਦੀ ਚਾਨਣੀ ਹੋ ਗਈ।"

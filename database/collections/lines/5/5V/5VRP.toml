@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੋਟੇ ਹਮ ਇਹ ਬਡੀ ਬਿਚਾਰਿਓ ॥"
 page = 494
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Balram saw towards his wife and found that he himself was smaller and she was taller in size"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਮਨ ਵਿਚ) ਵਿਚਾਰਿਆ ਕਿ ਮੈਂ ਛੋਟਾ (ਮਧਰਾ) ਹਾਂ ਅਤੇ ਇਹ ਵੱਡੀ (ਲੰਮੀ) ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਕਿ ਰਹਤ ਗੰਗ ॥੩੯੦॥"
 page = 666
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing his beauty, the god of love felt shy and seeing the purity of his limabs, the Ganges was wonder-struck.390."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੰਗਾ ਵੀ ਹੈਰਾਨ ਸੀ ॥੩੯੦॥"

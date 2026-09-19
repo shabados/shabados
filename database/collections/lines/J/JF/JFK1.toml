@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਜੈ ਸਿੰਘ ਇਕ ਦਿਨ ਗਏ; ਆਖੇਟਕ ਕੇ ਕਾਜ ॥"
 page = 984
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One day Vijay Singh went out for the purpose of hunting,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਜੈ ਸਿੰਘ ਇਕ ਦਿਨ ਸ਼ਿਕਾਰ ਖੇਡਣ ਗਿਆ"

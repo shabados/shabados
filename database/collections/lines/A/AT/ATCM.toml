@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਦਿਹ ਸਾਕੀਯਾ ਜਾਮ ਸਬਜ਼ੇ ਮਰਾ ॥"
 page = 1416
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(The poet says,) ‘Oh the Saki, give me my green cup,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਾਕੀ! ਮੈਨੂੰ ਹਰੇ ਰੰਗ ਵਾਲਾ (ਸ਼ਰਾਬ ਦਾ) ਪਿਆਲਾ ਬਖ਼ਸ਼"

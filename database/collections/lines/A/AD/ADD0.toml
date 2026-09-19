@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਭਏ ਸੈਨ ਨਿਹੋਰਿਯੋ ॥"
 page = 813
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And observed the various (enemy) armies."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਈ ਢੰਗਾਂ ਨਾਲ ਸੈਨਾ ਨੂੰ ਬੇਨਤੀ ਕੀਤੀ (ਅਰਥਾਤ ਯੁੱਧ ਲਈ ਪ੍ਰੇਰਿਤ ਕੀਤਾ)।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਨਕ; ਸਹਜੇ ਨਾਮਿ ਸਮਾਇਆ ॥੪॥੭॥"
 page = 1174
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Nanak, he is easily absorbed in the Lord's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਾਨਕ ਊਹ ਸੁਖੈਨ ਹੀ ਸਾਹਿਬ ਦੇ ਨਾਮ ਅੰਦਰ ਲੀਨ ਹੋ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Nanak, he is intuitively absorbed in the Naam, the Name of the Lord. ||4||7||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਵਹੁ ਪੁਰਸੁ ਸਹਜੇ ਹੀ ਨਾਮੀ ਵਾਹਿਗੁਰੂ ਮੇਂ ਅਭੇਦ ਹੂਆ ਹੈ॥੪॥੭॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਨਕ! ਉਹ ਸਦਾ ਆਤਮਕ ਅਡੋਲਤਾ ਵਿਚ ਹਰਿ-ਨਾਮ ਵਿਚ ਲੀਨ ਰਹਿੰਦਾ ਹੈ ॥੪॥੭॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਹਜੇ = ਆਤਮਕ ਅਡੋਲਤਾ ਵਿਚ। ਨਾਮਿ = ਨਾਮ ਵਿਚ ॥੪॥੭॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "logran el Éxtasis y de forma espontánea se inmergen en el Naam, el Nombre del Señor. (4-7)"

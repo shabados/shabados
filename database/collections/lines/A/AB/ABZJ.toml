@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਦਿਵਸ ਕੇਵਲ ਗਯੋ; ਗ੍ਰਿਹ ਕੋ ਕੌਨੇ ਕਾਜ ॥"
 page = 897
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Once, Kewal came to his house for some errand,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਦਿਨ ਕੇਵਲ ਕਿਸੇ ਕੰਮ ਲਈ ਘਰ ਗਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਨਾ ਮੌਜ਼ ਖ਼ੇਜ਼ਦ ਜ਼ਿ ਦਰੀਯਾਬ ਸੰਗ ॥"
 page = 1422
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The way the waves of the river struck the stones,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਦਰਿਆ ਦੀਆਂ ਲਹਿਰਾਂ ਪੱਥਰਾਂ ਨਾਲ (ਟਕਰਾ ਕੇ) ਚਮਕਦੀਆਂ ਸਨ,"

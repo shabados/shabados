@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਸਾਜ ਸਜਤ ॥"
 page = 575
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ (ਸੂਰਮੇ) ਸਾਜ਼ਾਂ ਨਾਲ ਸਜਦੇ ਹਨ।"

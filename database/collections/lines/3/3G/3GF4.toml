@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖਿ ਕੁਅਰ ਕੋ ਚਿਤ੍ਰ; ਕੁਅਰਿ ਅਟਕਤ ਭਈ ॥"
 page = 1185
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੁੰਵਰ ਦਾ ਚਿਤਰ ਵੇਖ ਕੇ ਰਾਜ ਕੁਮਾਰੀ ਅਟਕ ਗਈ।"

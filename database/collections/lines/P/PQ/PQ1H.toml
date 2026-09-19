@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਆਨ ਆਨ ਕੇ ਪਰੇ; ਸੁ ਰੁਦ੍ਰ ਠਾਢਿਬੋ ਜਹਾ ॥"
 page = 186
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Holding their swords in their hands and galloping their horses, the mighty youthful warriors stopped there, where Rudra was standing."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਵੀਰ ਉਥੇ ਆ ਕੇ ਹਮਲਾਵਰ ਹੋਏ ਜਿਥੇ ਸ਼ਿਵ ਖੜੋਤਾ ਸੀ।"

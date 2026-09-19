@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਉ ਅਪਰਾਧੀ ਗੁਨਹਗਾਰ; ਹਉ ਬੇਮੁਖ ਮੰਦਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "I am a criminal, a sinner, evil and apostate."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਅਪਰਾਧੀ¹, ਕਸੂਰ ਕਰਣ ਵਾਲਾ², ਬੇਮੁਖ³ ਅਤੇ ਮੰਦਾ⁴ ਹਾਂ।"

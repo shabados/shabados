@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਲਿਜੁਗੁ ਪੀੜੀ ਸੋਢੀਆਂ; ਨਿਹਚਲ ਨੀਂਵ ਉਸਾਰਿ ਖਲਾਰੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The lineage of the Sodhis have been established on the sound foundation."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਜੁਲਗ ਵਿਖੇ ਸੋਢੀਆਂ ਦੀ ਪੀੜ੍ਹੀ ਦੀ ਨੀਵ ਅਟੱਲ ਉਸਾਰ ਕੇ ਖੜੀ ਕੀਤੀ ਗਈ ਹੈ।"

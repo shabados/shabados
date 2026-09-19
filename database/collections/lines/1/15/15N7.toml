@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਟੀ ਤੇਗ ਤ੍ਰਿੱਖੀ ਕਢੇ ਜਮਦੱਢੰ ॥"
 page = 60
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਲੜਦਿਆਂ ਲੜਦਿਆਂ) ਤਿਖੀ ਤਲਵਾਰ ਟੁੱਟ ਗਈ ਅਤੇ ਉਸ ਨੇ ਕਟਾਰ ਕਢ ਲਈ।"

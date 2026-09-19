@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਕੇ ਆਯੁਧੁ ਲੈ ਕੈ ॥੩੧॥"
 page = 930
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭਾਂਤ ਭਾਂਤ ਦੇ ਹਥਿਆਰ ਲੈ ਕੇ ਚੌਹਾਂ ਪਾਸਿਆਂ ਤੋਂ ਟੁਟ ਕੇ ਪੈ ਗਏ ॥੩੧॥"

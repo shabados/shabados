@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਮ ਭੋਗ ਤੋਰੇ ਸੰਗ ਕੀਨੋ ॥੧੩॥"
 page = 1059
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੇਰੇ ਨਾਲ ਕਾਮ ਭੋਗ ਕੀਤਾ ॥੧੩॥"

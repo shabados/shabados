@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਰਧਾ ਤੇ ਤਰੁਨੀ ਭਈ; ਬਰੁ ਦੀਨਾ ਤ੍ਰਿਪਰਾਰਿ ॥"
 page = 1178
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵ ਨੇ (ਵਰ) ਦਿੱਤਾ ਅਤੇ (ਉਹ) ਬੁੱਢੀ ਤੋਂ ਜਵਾਨ ਹੋ ਗਈ।"

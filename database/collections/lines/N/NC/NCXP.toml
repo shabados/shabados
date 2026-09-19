@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖ਼ੁਸ਼ਸ਼ ਸ਼ਾਹ ਸ਼ਾਹਾਨਿ ਅਉਰੰਗਜ਼ੇਬ ॥"
 page = 1393
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You are king of king, O fortunate Aurangzeb"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਔਰੰਗਜ਼ੇਬ ਬਾਦਸ਼ਾਹ! ਤੂੰ ਬਾਦਸ਼ਾਹੀ ਹਾਸਲ ਹੋਣ ਕਰ ਕੇ ਭਾਗਵਾਨ ਹੈਂ।"

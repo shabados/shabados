@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਡੋ ਜੰਗ ਜੋਧਾ ਸੁ ਕ੍ਰੁਧੀ ਬਰਾਰੰ ॥੨੦੯॥"
 page = 697
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With banner tie up, this is the warrior named Alajja (shamelessness) he is a powerful one and his anger is dreadful.209."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਬਹੁਤ ਵੱਡਾ ਰਣ-ਯੋਧਾ, ਕ੍ਰੋਧ ਕਰਨ ਵਾਲਾ ਅਤੇ ਬਲ ਵਾਲਾ ਹੈ ॥੨੦੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਇਲਮੋ ਫ਼ਜ਼ੀਲਤ ਫਰਾਮੋਸ਼ ਗਸ਼ਤ ॥"
 page = 1418
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As the intellect and the presence of mind flew away,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਇਲਮ ਦੀ ਵਡਿਆਈ ਉਹ ਭੁਲ ਗਏ,"

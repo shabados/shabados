@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਿ ਦੁਤਿ ਵਾਲੀ ॥"
 page = 656
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The beauty of that girl was unique and marvelous"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਬਹੁਤ ਅਧਿਕ ਜੋਤਿ ਵਾਲੀ ਸੀ।"

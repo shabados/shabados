@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਛਸ ਪਵਨ ਅਸਤ੍ਰ ਸੰਧਾਨਾ ॥"
 page = 1376
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੈਂਤਾਂ ਨੇ ਪਵਨ ਅਸਤ੍ਰ ਨੂੰ ਸਾਧਿਆ,"

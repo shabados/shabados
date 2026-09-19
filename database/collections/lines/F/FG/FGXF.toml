@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਉ ਤਿਸੁ ਘੋਲਿ ਘੁਮਾਇਆ; ਥੋੜਾ ਸਵੈ ਥੋੜਾ ਹੀ ਖਾਵੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "I love him deeply who sleeps little and eats little."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਉਸਥੋਂ ਵਾਰਨੇ ਜਾਂਦਾ ਹਾਂ ਜੋ ਥੋੜਾ ਸਵੇਂ ਤੇ ਥੋੜਾ ਹੀ ਖਾਵੇ (ਕਿਉਂ ਜੋ ਭਜਨ ਵਿਖੇ ਵਿਘਨ ਪੈਂਦਾ ਹੈ)।"

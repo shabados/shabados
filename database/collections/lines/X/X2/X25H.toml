@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸਹਜਿ ਸੁਭਾਇ; ਭਾਣਾ ਭਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Who loves the will of Lord and has attained equipoise by becoming Guru-oriented, gurmukh;"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਵਲ ਮੁਖ ਰਖਿਆ (ਸਨਮੁਖ ਰਿਹਾ) ਸਹਿਜ ਦਾ ਸੁਭਾਵ (ਕੀਤਾ), ਭਾਣੇ ਨੂੰ ਮਿੱਠਾ ਜਾਤਾ।"

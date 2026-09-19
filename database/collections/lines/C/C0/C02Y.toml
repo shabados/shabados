@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਸੁਭ੍ਰ ਗੀਤਾ ॥"
 page = 268
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The pure SIta was conquered like a superbly auspicious song"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮਹਾਨ ਯਸ਼ ਵਾਲੀ ਹੈ।"

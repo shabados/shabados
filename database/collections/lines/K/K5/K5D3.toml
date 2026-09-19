@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਅ ਖੋਦਨ ਤ੍ਰਿਯ ਦਯੋ ਲਗਾਈ ॥"
 page = 1020
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸਤਰੀਆਂ (ਗੋਲੀਆਂ) ਨੂੰ ਧਰਤੀ ਪੁਟਣ ਤੇ ਲਗਾ ਦਿੱਤਾ।"

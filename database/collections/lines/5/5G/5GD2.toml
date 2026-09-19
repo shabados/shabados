@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰ ਕੇ ਸੇਵਕ ਕਉ; ਦੁਖੁ. ਨ ਬਿਆਪੈ ॥"
 page = 864
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Pain befalls not the Guru's serf."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਾਂ ਦੇ ਨਫਰ ਨੂੰ ਤਕਲੀਫ ਨਹੀਂ ਵਾਪਰਦੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Pain does not afflict the Guru's servant."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੋਂ ਕੇ ਸੇਵਕ ਕੋ ਦੁਖ ਨਹੀਂ ਬਿਆਪਤਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਭੀ ਦੁੱਖ ਗੁਰੂ ਦੇ ਸੇਵਕ ਉਤੇ (ਆਪਣਾ) ਜ਼ੋਰ ਨਹੀਂ ਪਾ ਸਕਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਉ = ਨੂੰ। ਨ ਬਿਆਪੈ = ਜ਼ੋਰ ਨਹੀਂ ਪਾ ਸਕਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y nunca le aflige el dolor."

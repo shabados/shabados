@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਕੋ ਭਵਨ ਸੁਤਾ ਕੇ ਰਾਖਾ ॥"
 page = 1224
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਪੁੱਤਰੀ ਦੇ ਭਵਨ ਵਿਚ ਹੀ ਰਖਿਆ"

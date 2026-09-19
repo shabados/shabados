@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਗੜਦੰਗ ਨਾਕੀ ਤਾਗੜਦੰਗ ਤਾਲੰ ॥"
 page = 261
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਲਾਉ ਵਿੱਚ (ਇਕ) ਵਿਸ਼ਾਲ ਤੰਦੂਆ ਸੀ,"

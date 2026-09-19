@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਟਪਟ ਝੂਰੈਂ ਘਰਹਰ ਘੂਮੰ ॥੬੨੯॥"
 page = 266
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They in great sorrow cried, threw themselves down and rolled.629."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਘਬਰਾਈਆਂ ਹੋਈਆਂ ਘੁੰਮ ਰਹੀਆਂ ਸਨ ॥੬੨੯॥"

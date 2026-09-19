@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਲ ਤਿਲ ਕਰਿ ਭਟ ਜਿਤਕ ਉਡਾਏ ॥"
 page = 1362
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿਲ ਤਿਲ ਕਰ ਕੇ ਜਿਤਨੇ ਵੀ ਸੂਰਮੇ ਉਡਾਏ ਸਨ (ਭਾਵ ਮਾਰੇ ਸਨ)"

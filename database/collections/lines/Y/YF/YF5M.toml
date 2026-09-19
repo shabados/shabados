@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕਪਟ ਸਨੇਹ, ਨ ਸੇਹ ਪੁਜੰਦੇ ॥੯॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The cheating lovers never follow the straight path i.e. they do not follow the way of truth."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਝੂਠੇ ਸਨੇਹੀ (ਸੇਹ=) ਜੀਵਨ ਪਦ, (ਯਾ ਅਕਾਲ ਪੁਰਖ) ਨੂੰ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੁੰਦੇ।"

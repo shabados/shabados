@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਸਸਤ੍ਰ ਅਸਤ੍ਰ ਬਿਦਿਆ ਪ੍ਰਬੀਨ ॥"
 page = 249
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੇਘਨਾਦ) ਸਾਰਿਆਂ ਸ਼ਸਤ੍ਰਾਂ ਤੇ ਅਸਤ੍ਰਾਂ ਦੀ ਵਿਦਿਆ ਵਿੱਚ ਪ੍ਰਬੀਨ ਹੈ।"

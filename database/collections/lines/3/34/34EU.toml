@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜੰਗਲ ਅੰਦਰਿ ਸੀਂਹ ਦੁਇ; ਬਲਵੰਤਿ ਬੁਕੰਦੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "If there are two lions in a jungle they roar mightily at each other."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਦ੍ਰਿਸ਼ਟਾਂਤ) ਬਨ ਵਿਖੇ ਦੋ ਸ਼ੇਰ ਬਲ ਵਾਲੇ ਜਿੱਕੁਰ ਭਬਕਾਂ ਮਾਰਦੇ ਹਨ।"

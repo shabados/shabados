@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੁਜਾ ਭੁਜੰਗਨ ਸੀ ਮਨ ਮੋਹੈ ॥"
 page = 1367
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਾਂਹਵਾਂ ਸੱਪਾਂ ਜਿਹੀਆਂ ਮਨ ਨੂੰ ਮੋਹ ਰਹੀਆਂ ਸਨ।"

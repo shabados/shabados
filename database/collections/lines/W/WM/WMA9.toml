@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਰਾ ਕਤਰਹ ਨਆਯਦ ਅਜ਼ੋ ਏਤਬਾਰ ॥੪੯॥"
 page = 1391
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I shall not trust you any more.49."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਵੀ ਮੈਂ (ਉਸ ਉਤੇ) ਰਤਾ ਜਿੰਨਾ ਯਕੀਨ ਨਹੀਂ ਕਰ ਸਕਦਾ ॥੪੯॥"

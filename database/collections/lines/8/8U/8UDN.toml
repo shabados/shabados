@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਵਾ ਸ਼ੁਦ ਸੂਏ ਸ਼ਾਹਿ ਮਗ਼ਰਬ ਚੁ ਬਾਦ ॥"
 page = 1409
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Galloping in the winds, she approached the Raja of the West,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪੱਛਮ ਦੇ ਬਾਦਸ਼ਾਹ ਵਲ ਹਵਾ ਦੀ ਤੇਜ਼ੀ ਵਾਂਗ ਚਲ ਪਈ"

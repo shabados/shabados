@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਰ ਹਾਰੈ, ਜੀਤੈ ਅਸੁਰ; ਲੀਨੋ ਸਕਲ ਸਮਾਜ ॥"
 page = 82
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The gods were defeated and the demons were victorious who captured all the paraphernalia.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਯੁੱਧ ਵਿਚ) ਦੇਵਤੇ ਹਾਰ ਗਏ ਅਤੇ ਦੈਂਤ ਜਿਤ ਗਏ ਅਤੇ (ਉਨ੍ਹਾਂ ਨੇ ਦੇਵਤਿਆਂ ਦਾ) ਸਾਰਾ ਸਾਮਾਨ ਹਥਿਆ ਲਿਆ।"

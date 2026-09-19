@@ -1,30 +1,30 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬਿਹਾਗੜਾ ਮਹਲਾ ੪ ॥"
 page = 541
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Bihagra 4th Guru."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਬਿਹਾਗੜਾ ਚੌਥੀ ਪਾਤਸ਼ਾਹੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Bihaagraa, Fourth Mehl:"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Bijagra, Mejl Guru Ram Das, Cuarto Canal Divino."

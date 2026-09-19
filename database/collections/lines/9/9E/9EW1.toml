@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਟਕਣੁ ਘੂਰਾ ਜਾਣੀਐ; ਗੁਰਦਿਤਾ ਗੁਰਮਤਿ ਗੁਰਭਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Bhai Latakan, Ghura, Gurditta are fellow disciples of the Gurmat."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਘੂਰਾ ਲਟਕਣ ਸੰਗ੍ਯਕ ਜਾਣੀਦਾ ਸੀ, ਗੁਰਦਿੱਤਾ ਗੁਰਾਂ ਦੀ ਮਤ ਲੈਣ ਵਿਖੇ ਗੁਰਭਾਈ ਸੀ, (ਭਾਵ ਕੱਠੇ ਸਿਖ ਹੋਏ)।"

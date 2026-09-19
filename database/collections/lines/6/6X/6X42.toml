@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਵਾ ਬ੍ਰਿਧ ਬਾਲੈ ॥"
 page = 658
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਵਾਨ, ਬਿਰਧ ਅਤੇ ਬਾਲਿਕਾਵਾਂ (ਇਨ੍ਹਾਂ ਵਿਚੋਂ)"

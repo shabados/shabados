@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਢੂੰਢਤ ਫਿਰਤ ਰੈਨ ਦਿਨ ਜਾਹੀ ॥"
 page = 499
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“That he is the incarnation of Kamadeva (the god of love), whom you seek day and night"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ (ਤੂੰ) ਰਾਤ ਦਿਨ ਲਭਦੀ ਫਿਰਦੀ ਹੈਂ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਲਿ ਬਾਜਤ ਸੰਖਨ ਨਾਦ ਧੁਨੰ ॥"
 page = 663
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਸੰਖ ਅਤੇ ਰਣਸਿੰਗੇ ਦੀ ਆਵਾਜ਼ ਹੋ ਰਹੀ ਸੀ।"

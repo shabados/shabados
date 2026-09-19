@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋ ਕੌ ਦਾਸ ਤਵਨ ਕਾ ਜਾਨੋ ॥"
 page = 58
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਪਰਮੇਸ਼ਵਰ ਦਾ ਦਾਸ ਸਮਝੋ।"

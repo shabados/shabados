@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਵੱਡੇ ਤੋਂ ਵੱਡੇ ਜਾਬਰ ਨੂੰ ਵੀ ਹਰ ਮੁਕਾਬਲੇ ਵਿਚ ਹਰਾ ਦਿੱਤਾ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਨਸ਼ਾਂਦਸ਼ ਜ਼ਬਰਦਸਤ ਹਰ ਮੁਕਬਲੋ ॥੧੦੧॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, he has defeated even the greatest tyrants in every encounter. (101)"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਚਹਿਗੇ ਅਰੁ ਕੂਦਹਿਗੇ; ਗਹਿ ਕੈ ਕਰ ਮੈ ਮੁਰਲੀ ਸੁ ਬਜਾਵੈ ॥੧੬੫॥"
 page = 307
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They would swim Yamuna and go the other bank, dance and jump the3re and play their flutes.165."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਥੇ ਖੂਬ) ਨਚਾਂਗੇ, ਕੁੱਦਾਂਗੇ ਅਤੇ ਹੱਥ ਵਿਚ ਮੁਰਲੀ ਲੈ ਕੇ ਵਜਾਵਾਂਗੇ ॥੧੬੫॥"

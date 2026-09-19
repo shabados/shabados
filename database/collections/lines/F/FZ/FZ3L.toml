@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਪ ਸੈਨ ਨ੍ਰਿਪ ਕਹਿ ਪਿਤ ਦਈ ॥"
 page = 1296
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਪਿਤਾ ਨੇ ਉਹ ਭੂਪ ਸੈਨ ਰਾਜੇ ਨੂੰ ਦੇ ਦਿੱਤੀ (ਭਾਵ-ਵਿਆਹ ਦਿੱਤੀ)।"

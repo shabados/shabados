@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸੁਖ ਫਲੁ, ਪਿਰਮ ਚਖੰਦੇ ॥੩॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Thus gurmukhs gladly taste the fruit of happiness."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖ ਲੋਕ (ਇਸ ਸ਼ੁਭ ਕ੍ਰਿਯਾ ਤੋਂ) ਸੁਖ ਰੂਪੀ ਪ੍ਰੇਮ ਦਾ ਫਲ ਚੱਖਦੇ ਹਨ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮੈ ਜੇਹਾ ਨ ਹਰਾਮਖੋਰੁ; ਹੋਰੁ ਨ ਕੋਈ ਅਵਗੁਣਿਆਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "None is there subsisting on evil means and a wicked person like me."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਜਿਹਾ ਹਰਾਮਖੋਰ ਕੋਈ ਨਹੀਂ, ਨਾ ਹੋਰ ਕੋਈ (ਮੇਰੇ ਜਿਹਾ) ਆਉਗਣਵਾਰਾ ਹੈ।"

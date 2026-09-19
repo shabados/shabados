@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਛਬਿ ਕੇ ਜਸ ਉਚ ਮਹਾ; ਕਬਿ ਨੇ ਅਪਨੇ ਮਨ ਮੈ ਪਹਿਚਾਣੇ ॥"
 page = 329
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਛਬੀ ਦੇ ਮਹਾਨ ਯਸ਼ ਨੂੰ ਕਵੀ ਨੇ ਆਪਣੇ ਮਨ ਵਿਚ ਇਸ ਤਰ੍ਹਾਂ ਵਿਚਾਰਿਆ"

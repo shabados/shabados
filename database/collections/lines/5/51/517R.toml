@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਹਿ ਜੁਗਿਯਾ ਕੀ ਬੈਸ ਥੋ; ਤਾ ਕੀ ਸਕਲ ਸਰੂਪ ॥੫੯॥"
 page = 907
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In his profile he looked as if he was in the guise of Yogi.(59)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਉਮਰ ਅਤੇ ਸ਼ਕਲ ਸੂਰਤ ਉਸ ਜੋਗੀ ਵਰਗੀ ਸੀ ॥੫੯॥"

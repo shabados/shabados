@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹ ਤੇ ਪੁਰਖ ਏਕ ਤਿਹ ਕਾਢਾ ॥"
 page = 1271
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵਿਚੋਂ ਉਸ ਨੇ ਇਕ ਪੁਰਸ਼ ਨੂੰ ਕਢਿਆ"

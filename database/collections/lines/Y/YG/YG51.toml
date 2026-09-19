@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਦਾ ਸੁਹੇਲਾ; ਕਰਿ ਲੇਹਿ ਜੀਉ ॥"
 page = 281
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and thou shalt render thy soul ever comfortable."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੂੰ ਆਪਣੀ ਆਤਮਾ ਨੂੰ ਹਮੇਸ਼ਾਂ ਲਈ ਸੁਖਾਲੀ ਬਣਾ ਲਵੇਗਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Your soul shall be forever peaceful."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਜਾਪ ਕਰ ਅਪਨਾ ਜੀਵ ਸਦਾ ਸੁਖੀ ਕਰ ਲੇਹੁ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ) ਆਪਣੀ ਜਿੰਦ ਨੂੰ ਸਦਾ ਲਈ ਸੁਖੀ ਕਰ ਲੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੁਹੇਲਾ = ਸੌਖਾ, ਸੁਖੀ। ਜੀਉ = ਜਿੰਦ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y así encontrará Paz tu Alma."

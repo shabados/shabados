@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰੰ ਜੁਝੇ ॥੭੬੮॥"
 page = 280
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After getting their limbs chopped, the warriors fled away and the remaining ones fought in the war.768."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਪੁਰਸ਼ ਜੂਝ ਗਏ ਹਨ ॥੭੬੮॥"

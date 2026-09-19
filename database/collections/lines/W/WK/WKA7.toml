@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਾ ਤੇ; ਸਹਜੇ ਸਹਜਿ ਸਮਾਵਾ ॥੧॥ ਰਹਾਉ ॥"
 page = 993
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "by which I shall easily be absorbed in the Lord. Pause."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੁਆਰਾ ਮੈਂ ਸੁਖੈਨ ਹੀ ਸੁਆਮੀ ਅੰਦਰ ਲੀਨ ਹੋ ਜਾਵਾਂਗਾ। ਠਹਿਰਾਉ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "that I may intuitively merge with You. ||1||Pause||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕਰ ਸੁਭਾਵਕ ਹੀ ਹੇ (ਸਹਜਿ) ਸਾਂਤ ਰੂਪ! ਤੇਰੇ ਮੇਂ ਸਮਾਇ ਜਾਵਾਂ॥੧॥ ਰਹਾਉ"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਬਰਕਤਿ ਨਾਲ ਮੈਂ ਸਦਾ ਆਤਮਕ ਅਡੋਲਤਾ ਵਿਚ ਲੀਨ ਰਹਾਂ ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਾ ਤੇ = ਜਿਸ ਦੀ ਬਰਕਤਿ ਨਾਲ। ਸਹਜੇ = ਸਹਜਿ ਹੀ, ਆਤਮਕ ਅਡੋਲਤਾ ਵਿਚ ਹੀ। ਸਮਾਵਾ = ਸਮਾਵਾਂ, ਮੈਂ ਸਮਾਇਆ ਰਹਾਂ ॥੧॥ ਰਹਾਉ ॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y me inmerja, de forma espontánea, en el Equilibrio.(1-Pausa)"

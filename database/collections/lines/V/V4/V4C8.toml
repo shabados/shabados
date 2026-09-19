@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਇਕ ਤੇ ਕਰ ਦੁਇ ਦੁਇ ਡਾਰੇ ॥"
 page = 184
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He destroyed many kings and chopped their bodies into bits."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਇਕ ਦੇ ਦੋ ਦੋ (ਟੋਟੇ) ਕਰ ਸੁਟੇ।"

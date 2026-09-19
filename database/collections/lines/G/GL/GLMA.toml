@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਰਬ ਦਾਤਾ, ਸਰਬ ਗ︀ਯਾਤਾ; ਸਰਬ ਕੋ ਪ੍ਰਤਿਪਾਲ ॥"
 page = 34
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the Donor, Knower and Sustainer of all."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਸਭ ਦਾ ਦਾਤਾ, ਸਭ ਨੂੰ ਜਾਣਨ ਵਾਲਾ ਅਤੇ ਸਭ ਦੀ ਪਾਲਨਾ ਕਰਨ ਵਾਲਾ ਹੈ।"

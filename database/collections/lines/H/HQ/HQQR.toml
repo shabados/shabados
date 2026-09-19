@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਬਾਯਦ ਕਿ ਯਜ਼ਦਾਂ ਸ਼ਨਾਸੀ ਕੁਨੀ ॥"
 page = 1392
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You should recognize the Lord,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੈਨੂੰ ਚਾਹੀਦਾ ਹੈ ਕਿ ਪਰਮਾਤਮਾ ਨੂੰ ਪਛਾਣ"

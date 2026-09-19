@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਨਿ ਮਨਿ ਉਦਾਰ ॥੨੧੬॥"
 page = 652
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That charming sage had unique greatness, unlimited glory and generous mind.216."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੱਤ) ਮੁਨੀ ਉਦਾਰ ਮਨ ਵਾਲਾ ਹੈ ॥੨੧੬॥"

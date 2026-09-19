@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਰਿਗ ਬਾਨੰ ਤਾਨੰ ਮਦਮਤੀ ॥"
 page = 662
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਮਦ-ਮਾਤੀ ਦੀਆਂ ਅੱਖਾਂ ਤੀਰਾਂ ਵਾਂਗ ਖਿਚੀਆਂ ਹੋਈਆਂ ਹਨ।"

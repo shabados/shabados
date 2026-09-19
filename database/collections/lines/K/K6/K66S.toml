@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਤੇਜ ਕੋਊ ਹਮ ਪੈ ਆਯੋ ॥੨੨੮੧॥"
 page = 528
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On the other side, Krishna came to know that some glorious entity was coming against him.2281."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ (ਕੋਈ) ਇਕ ਤੇਜ ਮੇਰੇ ਉਤੇ (ਚੜ੍ਹ ਕੇ) ਆ ਰਿਹਾ ਹੈ ॥੨੨੮੧॥"

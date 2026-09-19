@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਤ ਕਾਲ ਸੁਖ ਪਾਇ; ਰਹਤ ਤਿਹ ਗ੍ਰਿਹ ਭਯੋ ॥"
 page = 1182
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਸਮੇਂ ਤਕ ਸੁਖ ਪੂਰਵਕ ਉਸ ਦੇ ਘਰ ਰਿਹਾ।"

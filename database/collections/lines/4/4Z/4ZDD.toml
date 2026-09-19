@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਹਿ ਬਹਿਯਾ ਸਭ ਸਦਨ ਦਿਖਾਯੋ ॥"
 page = 914
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now she sent a maid to call Raja. Leading him, she took him around the whole household (and said),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਾਂਹ ਪਕੜ ਕੇ ਸਾਰਾ ਮਹੱਲ ਵਿਖਾਇਆ।"

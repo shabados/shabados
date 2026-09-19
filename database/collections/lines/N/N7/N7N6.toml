@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਭਵਾਨੀ ਕੋ ਭਵਨ; ਜਾਹਿਰ ਸਕਲ ਜਹਾਨ ॥"
 page = 1049
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਇਕ ਸੰਸਾਰ ਪ੍ਰਸਿੱਧ ਭਵਾਨੀ ਦਾ ਮੰਦਿਰ ਸੀ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਡੰਡ ਤਿਹ ਮੂੰਡਿ ਚੁਕਾਹੀ ॥"
 page = 1197
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਉਸ ਦੇ ਸਿਰ ਉਤੇ ਬਹੁਤ ਦੰਡ ਕਢ ਦਿੰਦੇ ਹਨ"

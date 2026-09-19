@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨੁ ਮੁਹਿ ਪ੍ਰਾਨ ਆਜੁ ਇਹ ਦਏ ॥"
 page = 866
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Emperor was delighted that she had saved his life."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਇਸ ਨੇ ਅਜ ਮੈਨੂੰ ਪ੍ਰਾਣ-ਦਾਨ ਦਿੱਤਾ ਹੋਵੇ।"

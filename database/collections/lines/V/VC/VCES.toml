@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਨ੍ਰਿਪ ਕੋ ਬਰਬੇ ਕਹ ਕਹੀ ॥"
 page = 959
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who selected a girl for the Raja and she requested Raja to marry her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਵਰਨ ਲਈ ਰਾਜੇ ਨੂੰ ਕਿਹਾ।"

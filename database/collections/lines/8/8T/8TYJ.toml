@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫਹਰੰਤ ਧੁਜਾ ਜਨੁ ਬੀਰ ਕ੍ਰੁਧੰ ॥੧੩॥"
 page = 167
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The swords and arrows glistened in the war-field and the brave fighters began to flutter their flags.13."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਝੁਲਦੇ ਹੋਏ ਝੰਡੇ (ਇੰਜ ਪ੍ਰਤੀਤ ਹੋ ਰਹੇ ਸਨ) ਮਾਨੋ ਯੁੱਧ-ਵੀਰ ਕ੍ਰੋਧ (ਨਾਲ ਝੁਲ ਰਹੇ ਹੋਣ) ॥੧੩॥"

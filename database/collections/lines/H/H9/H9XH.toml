@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੋਟਿ ਬਿਸਨ. ਕੀਨੇ ਅਵਤਾਰ ॥"
 page = 1156
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He created millions of incarnations of Vishnu."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਕ੍ਰੋੜਾਂ ਦੀ ਵਿਸ਼ਨੂੰ ਦੇ ਅਉਤਾਰ ਰਚੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He created millions of incarnations of Vishnu."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜੋਂ ਹੀ ਤੈਨੇ ਬਿਸਨੁ ਅਵਤਾਰ ਕੀਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਗੋਬਿੰਦ ਐਸਾ ਹੈ ਜਿਸ ਨੇ) ਕ੍ਰੋੜਾਂ ਹੀ ਵਿਸ਼ਨੂ-ਅਵਤਾਰ ਬਣਾਏ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੋਟਿ = ਕ੍ਰੋੜ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél que creó millones de Vishnus"

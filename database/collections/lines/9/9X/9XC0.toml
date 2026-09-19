@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਬਿਸੁਨਾਥ ਪ੍ਰਭਾ; ਜਰਬੇ ਤੇ ਡਰਿ ਗਈ ॥"
 page = 1087
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਬਿਸੁਨਾਥ ਪ੍ਰਭਾ ਸੜਨ ਤੋਂ ਡਰ ਗਈ।"

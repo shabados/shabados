@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਮੋਦ ਬਾਢੇ ॥੧੦੧॥"
 page = 209
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They went an stood there, their delight extended extremely.101."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਥੇ ਹਰ ਪਾਸੇ) ਆਨੰਦ ਵਧ ਗਿਆ ॥੧੦੧॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਰੰਗ ਰੂਪਨ ਮਾਹਿ ॥"
 page = 611
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There is none else except the One Lord pervanding all the colours and forms"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਰੂਪਾਂ, ਰੰਗਾਂ ਵਿਚ (ਉਹੀ) ਹੈ।"

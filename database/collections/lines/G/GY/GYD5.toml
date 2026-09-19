@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯੌ ਚਿੰਤਾ ਚਿਤ ਬੀਚ ਕਰਿ; ਚੜਿਯੋ ਬਿਰਛ ਪਰ ਧਾਇ ॥"
 page = 830
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In amazement Mughal climbed the tree,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਮਨ ਵਿਚ ਵਿਚਾਰ ਕਰ ਕੇ (ਮੁਗ਼ਲ) ਬ੍ਰਿਛ ਉਪਰ ਜਾ ਚੜ੍ਹਿਆ।"

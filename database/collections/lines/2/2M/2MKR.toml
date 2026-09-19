@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਘਾਣੀ ਤਿਲੁ ਪੀੜਾਇ; ਤੇਲੁ ਕਢਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Sesame gets crushed in the oil press and gives oil."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਤਿਲ ਨੇ (ਕੋਲੂ ਦੀ) ਘਾਣੀ ਵਿਚ (ਆਪਣੇ ਆਪ ਨੂੰ) ਪਿੜਵਾ ਤੇਲ ਕਢਵਾਇਆ।"

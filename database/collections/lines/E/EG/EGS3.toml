@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਨੇਕ ਉਮਰ ਨੂੰ ਅਜੇਹਾ (ਭਜਨ ਬੰਦਗੀ ਦਾ) ਸਰਮਾਇਆ"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਯਾਫ਼ਤ ਈਣ ਸਰਮਾਯਾਇ ਉਮਰਿ ਨਜੀਬ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And His kindness and generosity, obtain His command. (61)"

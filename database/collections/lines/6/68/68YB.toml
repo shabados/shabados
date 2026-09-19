@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਠਿਯੋ ਸੁ ਪਾਵ ਰੋਪ ਕੈ ॥"
 page = 111
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Srriking his foot on the earth Sumbh sent Nisumbh saying"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੈਰ ਗਡਦੇ ਹੋਇਆਂ ਨਿਸੁੰਭ ਨੂੰ ਭੇਜਿਆ"

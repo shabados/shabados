@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਸੁਧਾ ਸਬਦ ਸੁ ਆਦਿ ਬਖਾਨਹੁ ॥"
 page = 752
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਬਸੁਧਾ' (ਧਰਤੀ) ਸ਼ਬਦ ਸ਼ੁਰੂ ਵਿਚ ਰਖੋ।"

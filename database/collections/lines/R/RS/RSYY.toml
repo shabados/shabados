@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਪੇ ਛਪਰ ਛਾਏ, ਬਣੀਆ ਕੇਜਮਾ ॥"
 page = 123
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "It seemed that the swords coming together were like the thatched roofs."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਦੀਆਂ ਅਣਗਿਣਤ) ਤਲਵਾਰਾਂ (ਨੂੰ ਵੇਖ ਕੇ ਇਉਂ) ਪ੍ਰਤੀਤ ਹੋਇਆ ਮਾਨੋ ਛਪਰਾਂ ਦਾ ਪਸਾਰਾ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੋਵੇ।"

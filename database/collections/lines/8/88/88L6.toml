@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਰੁਕਯੋ ਸੈਨ ਮਕਰਾਛ ਆਨ ॥"
 page = 254
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਮਕਰਾਛ ਆ ਕੇ ਸੈਨਾ ਦੇ (ਸਾਹਮਣੇ) ਖੜੋ ਗਿਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਸੋ ਸੇਵਾ ਕਰੀ ॥"
 page = 950
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was given the name of Sassi Kala, and she was amply facilitated."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭਾਂਤ ਭਾਂਤ ਨਾਲ ਉਸ ਦੀ ਸੇਵਾ ਕੀਤੀ।"

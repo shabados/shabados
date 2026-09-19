@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੂਟ ਜਟਾਨ ਉਖਾਰਸ ਤਬ ਹੀ ॥"
 page = 184
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Shiva looked into the sacrificial pit and saw he burnt body of Gauri, he began to pluck his matted hair."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਹੀ ਆਪਣੇ ਜੂੜੇ ਵਿਚੋਂ ਇਕ ਜਟਾ ਉਖਾੜ ਲਈ।"

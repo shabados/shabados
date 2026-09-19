@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਭੇ ਦੈਤ; ਰਹੇ ਝਖ ਮਾਰਿ ॥"
 page = 1154
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "All the demons kept on trying in vain."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਰਾਖਸ਼ ਬੇਫਾਇਦਾ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਰਹੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All the demons kept trying in vain."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਦੈਤ ਝਖ ਮਾਰ ਰਹੇ ਹੈਂ, ਭਾਵ ਖਪ ਚੁਕੇ ਹੈਂ ਪਰੰਤੂ ਪ੍ਰਹਿਲਾਦ ਨਹੀਂ ਮਾਨਤਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਦੈਂਤ ਆਪਣੀ ਵਾਹ ਲਾ ਥੱਕੇ (ਪਰ ਉਹਨਾਂ ਦੀ ਪੇਸ਼ ਨ ਗਈ)।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਾਰਿ = ਮਾਰ ਕੇ। ਰਹੇ ਮਾਰਿ = ਮਾਰ ਰਹੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Toda la maldad iniciada por el Rey, se fue sobre Prehlad,"

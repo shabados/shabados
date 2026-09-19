@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਕਟ ਹਰਤ ਸਾਧਵਨ ਸਦਾ ॥"
 page = 156
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou ever removest the distress of the saints"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਸਦਾ ਸਾਧਾਂ ਦੇ ਸੰਕਟ ਹਰਦਾ ਹੈ,"

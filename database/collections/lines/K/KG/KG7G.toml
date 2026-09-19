@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਤੇਗ਼ ਅਜ਼ ਮਿਯਾ ਗਸ਼ਤ ਤਰਕਸ਼ ਖਤੰਗ ॥੧੦੧॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That their scabbards became swordless and the quivers were all emptied.(101)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਭਾਵ-ਟੁਟ ਗਈਆਂ) ਅਤੇ ਭਥਿਆਂ ਵਿਚੋਂ ਤੀਰ ਮੁਕ ਗਏ ॥੧੦੧॥"

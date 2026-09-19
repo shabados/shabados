@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸੁਖ ਫਲ; ਵਡੀ ਵਡਿਆਈ ॥੧੮॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Great is the glory of the fruit of delight of the gurmukhs."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖਾਂ, ਦੇ ਸੁਖ ਫਲ (ਸ੍ਵਰੂਪਾਨੰਦ ਦੀ) ਵੱਡੀ ਵਡਿਆਈ ਹੈ।"

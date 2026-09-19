@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਦੁਧਹੁ ਦਹੀ ਵਿਲੋਇ; ਘਿਉ ਕਢਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The One Light has scattered in all the three worlds."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਿੱਕੁਰ ਦੁੱਧ ਤੋਂ ਦਹੀਂ (ਤੇ ਦਹੀਂ ਰਿੜਕ ਕੇ) ਘਿਉ ਕੱਢ ਲਿਆ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਰਧਾਪਨੋ ਅੰਤ ਗਤਿ ਆਯੋ ॥੨॥"
 page = 1101
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅੰਤ ਨੂੰ ਬੁਢਾਪਾ ਆ ਗਿਆ ॥੨॥"

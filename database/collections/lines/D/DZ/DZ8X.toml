@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਤੁਰ ਬਾਨਯੰ ਲੈ ਸੁ ਸੱਬਿਯੰ ਪ੍ਰਹਾਰੇ ॥"
 page = 64
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I then threw away the gun and took the arrows in my hand, I shot four of them."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਾਰ ਬਾਣ ਲੈ ਕੇ ਸਜੇ ਹੱਥ ਨਾਲ ਛਡੇ"

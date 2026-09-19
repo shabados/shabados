@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੀਤਿ ਬਸਾਏ ਨਿਜ ਪੁਰੀ; ਅਸੁਰ ਸਕਲ ਅਸੁਰਾਰ ॥"
 page = 182
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The demon-king, conquering all, caused them to live in his own territory."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਲੰਧਰ ਨੇ) ਸਾਰਿਆਂ ਦੇਵਤਿਆਂ ਅਤੇ ਦੈਂਤਾਂ ਨੂੰ ਜਿਤ ਕੇ ਆਪਣੀ ਪੁਰੀ ਵਿਚ ਲਿਆ ਵਸਾਇਆ।"

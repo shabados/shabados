@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਤੁਪਕ ਕੇ ਹੋਤ ਹੈ; ਚੀਨ ਲੇਹੁ ਮਤਿਵਾਨ ॥੬੦੩॥"
 page = 745
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Uttering the words “Saudiyantak-dhanani” and then saying “Ripu Ari”, the names of Tupak are formed.603."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਤੁਪਕ ਦਾ ਨਾਮ ਹੋ ਜਾਂਦਾ ਹੈ। ਮਤਿਵਾਨੋ! ਸਮਝ ਲਵੋ ॥੬੦੩॥"

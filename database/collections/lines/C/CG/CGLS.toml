@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨਿ ਮੁਖਿ ਕਬਹਿ; ਨ ਉਸਤਤਿ ਕਰੈ ॥"
 page = 893
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "with thy mind and mouth, thou utterest not ever the Lord's praise."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਚਿੱਤ ਅਤੇ ਮੂੰਹ ਨਾਲ ਤੂੰ ਕਦੇ ਭੀ ਮਾਲਕ ਦੀ ਮਹਿਮਾਂ ਉਚਾਰਨ ਨਹੀਂ ਕਰਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "and you never chant the Lord's Praises with your mouth."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨਮੁਖ! ਤੂੰ ਕਬੀ ਭੀ ਭਗਵੰਤ ਕੀ ਉਸਤਤੀ ਨਹੀਂ ਕਰਤਾ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਕਦੇ ਭੀ ਆਪਣੇ ਮਨ ਵਿਚ ਆਪਣੇ ਮੂੰਹ ਨਾਲ ਪਰਮਾਤਮਾ ਦੀ ਸਿਫ਼ਤਿ-ਸਾਲਾਹ ਨਹੀਂ ਕਰਦਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨਿ = ਮਨ ਵਿਚ। ਮੁਖਿ = ਮੂੰਹ ਨਾਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pero con tu boca nunca entonas el Nombre del Señor,"

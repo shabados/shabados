@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਠਿ ਨਿਫੂੰਸਕ ਰਹੈ; ਰੈਨਿ ਸਿਗਰੀ ਨ ਬਜਾਵੈ ॥"
 page = 835
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And remains sitting whole night like a eunuch and does not perform."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀ ਰਾਤ ਨਿਪੁੰਸਕ ਵਾਂਗ ਬੈਠ ਕੇ ਕਾਮ-ਕ੍ਰੀੜਾ ਨਾ ਕਰੇ।"

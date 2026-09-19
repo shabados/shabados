@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਟੰਤ ਅੰਗ ਭੰਗਯੰ; ਬਹੰਤ ਅਸਤ੍ਰ ਧਾਰਯੰ ॥"
 page = 231
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਨ੍ਹਾਂ ਉਤੇ) ਅਸਤ੍ਰ ਦੀ ਧਾਰ ਵਹਿ ਜਾਂਦੀ ਸੀ, (ਉਨ੍ਹਾਂ ਦੇ) ਅੰਗ-ਭੰਗ ਹੋ ਕੇ ਟੁੱਟ ਜਾਂਦੇ ਸਨ।"

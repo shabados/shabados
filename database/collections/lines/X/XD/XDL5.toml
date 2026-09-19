@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੀਨੇ ਹਜਾਰ ਛਾਵਰ ॥"
 page = 270
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਹਜ਼ਾਰਾਂ (ਸੁੱਖ) ਨਿਛਾਵਰ ਕੀਤੇ ਸਨ,"

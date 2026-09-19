@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਪਾਖਰੇ ਹੈ ਹਿਾਂਹਨਾਹੀ ॥"
 page = 875
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਈਆਂ ਨੇ (ਘੋੜਿਆਂ ਉਤੇ) ਕਾਠੀਆਂ ਪਾ ਕੇ (ਉਨ੍ਹਾਂ ਨੂੰ) ਹਿਣਕਾਇਆ।"

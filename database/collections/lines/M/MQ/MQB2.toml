@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋਡ ਰੁਮਾਲ ਹੇਤ ਤਿਨ ਪਰੀ ॥"
 page = 859
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘A row erupted on account of a handkerchief and the swindler"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੀ ਰੁਮਾਲ ਲਈ ਜ਼ਿਦ ਹੋ ਗਈ।"

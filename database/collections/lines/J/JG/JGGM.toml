@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਇ ਸਿੰਘ ਇਕ ਖੇਤ ਫਿਰਾਹੀ ॥"
 page = 626
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗਊ ਅਤੇ ਸ਼ੇਰ ਇਕ ਖੇਤ ਵਿਚ ਫਿਰਦੇ ਸਨ,"

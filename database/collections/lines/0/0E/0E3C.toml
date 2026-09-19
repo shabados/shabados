@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨ ਭੀਜੈ; ਸੁਰਤੀ ਗਿਆਨੀ ਜੋਗਿ ॥"
 page = 1237
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Through wisdom, knowledge and Yoga, He is pleased not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਿਆਣਪ, ਗਿਆਤਾ ਅਤੇ ਯੋਗ ਰਾਹੀਂ, ਉਹ ਪ੍ਰਸੰਨ ਨਹੀਂ ਹੁੰਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He is not won over by intuitive wisdom, meditation or Yoga."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਹ (ਸੁਰਤੀ) ਗਿਆਤ ਬਿਵਹਾਰੋਂ ਕੀ ਸੇ ਔਰ (ਗਿਆਨੀ) ਸਾਸਤ੍ਰ ਬੋਧ ਕਰ ਔ ਅਸਟਾਂਗ ਜੋਗ ਕਰ ਭੀ ਪ੍ਰਸੰਨ ਨਹੀਂ ਹੋਤਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਨਾਹ ਹੀ, ਸਮਾਧੀ ਲਾਇਆਂ ਗਿਆਨ-ਚਰਚਾ ਕੀਤਿਆ ਜਾਂ ਜੋਗ ਦਾ ਕੋਈ ਸਾਧਨ ਕੀਤਿਆਂ ਪਰਮਾਤਮਾ ਪ੍ਰਸੰਨ ਹੁੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੁਰਤੀ = ਸਮਾਧੀ (ਲਾਣ) ਨਾਲ। ਗਿਆਨੀ = ਗਿਆਨ ਦੀਆਂ ਗੱਲਾਂ ਕਰਨ ਨਾਲ। ਜੋਗਿ = ਜੋਗ-ਸਾਧਨ ਨਾਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "tampoco mediante la Yoga"

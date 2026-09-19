@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਉ ਥਕਿ ਜਾਹਿ, ਬੈਠ ਤਹ ਰਹੈ ॥"
 page = 540
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਥਕ ਜਾਂਦੇ (ਤਾਂ) ਉਥੇ ਬੈਠ ਜਾਂਦੇ"

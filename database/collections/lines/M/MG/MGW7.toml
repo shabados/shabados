@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਗਰ ਰਾਸਤੀ ਖ਼ੁਦ ਬਿਯਾਰੀ ਕਦਮ ॥੫੬॥"
 page = 1392
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "but if you promise to come on the right path.56."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਤੇਰੇ ਵਿਚ ਸਚਾਈ ਹੈ (ਤਾਂ ਇਥੇ) ਆਪ ਆ ਕੇ ਕਦਮ ਰਖ ॥੫੬॥"

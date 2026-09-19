@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੈ ਸੋਈ ਜੋਈ ਵਹ ਕਹੈ ॥੨॥"
 page = 924
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Shiva. Raja loved her intensively and performed his duties according to her wishes.(2)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਉਹ ਕਹਿੰਦੀ ਸੀ, ਉਹੀ (ਰਾਜਾ) ਕਰਦਾ ਸੀ ॥੨॥"

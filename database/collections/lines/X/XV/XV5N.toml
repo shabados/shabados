@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਰਿਸਟਿ ਰਾਜ ਕਾਰਜ ਪਰ ਕਰੀ ॥"
 page = 997
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing this Raja kept quiet and his attention was diverted to the governance."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਰਾਜ-ਕਾਜ ਵਲ ਧਿਆਨ ਦਿੱਤਾ।"

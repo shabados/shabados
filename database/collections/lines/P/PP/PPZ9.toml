@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਛੇਦੀ ਅਛੈ, ਆਦਿ ਅਦ੍ਵੈ ਬਿਧਾਤਾ ॥"
 page = 29
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Invincible, Unassailable, the Primal, Non-dual Providence!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਅਛੇਦ, ਅਛੈ (ਨਾਸ਼ਹੀਨ) ਮੁੱਢ ਕਦੀਮੀ, ਅਦ੍ਵੈਤ ਸਰੂਪ ਅਤੇ ਸਭ ਦੀ ਸਿਰਜਨਾ ਕਰਨ ਵਾਲਾ ਹੈਂ।"

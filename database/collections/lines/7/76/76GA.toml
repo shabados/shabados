@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਅਦਭੁਤ ਪਰਮਦਭੁਤੀ; ਪਰਮਦਭੁਤ ਭਾਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Realising his marvellous Order many uncanny arrangements feel themselves full of wonder."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਉਸਦੇ) ਪਰਮ (ਅਦਭੁਤ=) ਅਤੀ ਅਸਚਰਜ ਰੂਪ ਭਾਣੇ ਪਰ ਲੱਖਾਂ ਅਦਭੁਤ ਅਤੀ ਅਸਚਰਜ ਹੋ ਰਹੇ ਹਨ।"

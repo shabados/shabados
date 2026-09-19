@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਿਖਾ ਸੂਤ੍ਰਿ ਮਾਲਾ ਤਿਲਕ; ਪਿਤਰ ਕਰਮ ਦੇਵ ਕਰਮ ਕਮਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Hairknot, sacred thread, rosary, (sandal) mark on forehead, last rites for ancestors, rituals for gods are (also) prescribed in it."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਕਈ) ਬੋਦੀ, ਜਨੇਊੂ, ਮਾਲਾ, ਤਿਲਕ, ਪਿਮ੍ਰ ਤੇ ਵੇਦਕ ਕਰਮ ਕਮਾਉਣ ਲੱਗ ਪਏ।"

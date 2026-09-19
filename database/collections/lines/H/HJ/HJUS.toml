@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਗੋਹ ਕੌ ਲਯੋ ਮੰਗਾਈ ॥"
 page = 1012
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Rani learnt aboUt his determination, she got a rope,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਇਕ ਗੋਹ ਨੂੰ ਮੰਗਵਾ ਲਿਆ।"

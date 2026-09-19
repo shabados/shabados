@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਆਸੀਂ ਇਂਸ ਚਿੰਤਾ ਵਿਚ ਹਾਂ, ਕਿ ਰੱਬ ਕੀ ਕਰਦਾ ਹੈ#"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਮਾ ਦਰੀਣ ਫ਼ਿਕਰ ਤਾ ਖ਼ੁਦਾ ਚਿਹ ਕੁਨਦ ॥੧੩॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "In reality, a wave and the ocean are one and the same,"

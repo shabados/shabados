@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਜੁਗਯਹਿ ਕਛੁ ਭੇਦ ਨ ਪਾਯੋ ॥"
 page = 816
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Without letting him know, the Raja’s son followed the Yogi."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਜੋਗੀ ਨੂੰ ਉਸ ਦਾ ਕੁਝ ਵੀ ਪਤਾ ਨਾ ਲਗਿਆ।"

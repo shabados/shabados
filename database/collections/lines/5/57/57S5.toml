@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਤਜੁਗ ਮਾਹਿ ਭਯੋ ਜਿਹੀ ਬਿਧਿ; ਕੀਨ ਰਾਜੈ ਜੰਭ ॥੧੨੩॥"
 page = 688
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Brahmins! now perform such Bhoopmedh Yajna, which was performed by Jambhasura in Satyuga.”123."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਤਰ੍ਹਾਂ ਸੱਤ ਯੁਗ ਵਿਚ ਰਾਜੇ ਜੰਭ ਨੇ ਕੀਤਾ ਸੀ ॥੧੨੩॥"

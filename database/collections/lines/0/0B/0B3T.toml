@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹ ਕਾਨਨ ਥੋ ਤਹ ਜਾਤ ਭਏ ॥੩੭੨॥"
 page = 665
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sage came out from that side of the forest alongwith his people.372."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਪਹੁੰਚ ਗਿਆ, ਜਿਥੇ ਉਹ ਬਨ ਸੀ ॥੩੭੨॥"

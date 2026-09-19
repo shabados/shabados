@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਨਿਜ ਪ੍ਰਭ ਮੋ ਸੋ ਕਹਾ ਸੋ ਕਹਿਹੋਂ ਜਗ ਮਾਹਿ ॥"
 page = 59
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whatever my Lord said to me, I say the same in the world."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪ੍ਰਭੂ ਨੇ ਮੈਨੂੰ ਕਿਹਾ, ਉਹੀ ਮੈਂ ਜਗਤ ਵਿਚ ਕਹਿ ਰਿਹਾ ਹਾਂ।"

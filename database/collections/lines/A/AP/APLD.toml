@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੋਕਸਾਰ ਕੇ ਮਤਨ ਉਚਾਰੈ ॥"
 page = 1227
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੋਕ ਸ਼ਾਸਤ੍ਰ ਦੇ ਪਾਠ ('ਮਤਨ') ਨੂੰ ਉਚਾਰਦੇ ਸਨ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਿਨਿਕ ਬਿਖੈ ਦਲ ਸਹਿਤ ਸੰਘਾਰੇ ॥੪੨॥"
 page = 872
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਛਿਣ ਭਰ ਵਿਚ (ਉਨ੍ਹਾਂ ਨੂੰ) ਦਲ ਸਹਿਤ ਮਾਰ ਦਿੱਤਾ ॥੪੨॥"

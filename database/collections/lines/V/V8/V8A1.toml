@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਜਰਤਿ ਸੈਨ ਪਠਾਵਤ ਭਯੋ ॥"
 page = 1079
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਬਾਦਸ਼ਾਹ ਨੇ (ਉਨ੍ਹਾਂ ਪਿਛੇ) ਸੈਨਾ ਚੜ੍ਹਾ ਦਿੱਤੀ।"

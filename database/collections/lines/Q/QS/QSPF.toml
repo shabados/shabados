@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਸਿ ਦਿਨ ਉਦਾਸ ॥"
 page = 666
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He performed many practices detachedly night and day and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦਿਨ ਰਾਤ ਉਦਾਸ (ਨਿਰਲਿਪਤ) ਰਹਿੰਦਾ ਸੀ।"

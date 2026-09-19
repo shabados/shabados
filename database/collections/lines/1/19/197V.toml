@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਨਾਜ਼ਮ ਬੁ ਬਰਖ਼ਾਸਤ ਦਰਵਾਜ਼ਹ ਬਸਤ ॥੨੦॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And the organisers departed closing the doors.(20)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਬੰਧ ਕਰਨ ਵਾਲੇ ਉਠ ਗਏ ਅਤੇ ਦਰਵਾਜ਼ੇ ਬੰਦ ਹੋ ਗਏ ॥੨੦॥"

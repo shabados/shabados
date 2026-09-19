@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਮਡ ਚਲਤ ਜਿਹ ਬਿਧਿ ਕਰਿ ਗੰਗਾ ॥"
 page = 216
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They are gathering their limitless fourfold army like the gushing forth of the Ganges."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਤਰ੍ਹਾਂ ਗੰਗਾ ਉਮੜ ਕੇ ਚਲਦੀ ਹੈ।"

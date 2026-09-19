@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਯੋ ਪੁਰਖ ਏਕ ਤਬ ਬਨੋ ॥"
 page = 1233
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਉਥੇ ਇਕ ਬਨੀਆ ('ਬਨੋ') ਪੁਰਸ਼ ਆਇਆ (ਅਰਥਾਂਤਰਬਣਿਆ ਠਣਿਆ ਪੁਰਸ਼ ਆਇਆ)।"

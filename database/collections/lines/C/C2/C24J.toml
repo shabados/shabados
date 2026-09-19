@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭਹਿਨ ਕੇ ਚਿਤ ਭਰਮੁਪਜਾਯੋ ॥"
 page = 927
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She took Raja and showed him and put all the people in whim."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ ਨਾਲ) ਸਭ ਦੇ ਮਨ ਵਿਚ ਭਰਮ ਪੈਦਾ ਹੋ ਗਿਆ।"

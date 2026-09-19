@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪੂਰੇ ਪੂਰਾ ਮੰਤੁ ਹੈ; ਪੂਰਾ ਬਚਨੁ ਨ ਟਲੈ ਟਲਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The mantra of the perfect is perfect and his command cannot be avoided."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪੂਰੇ ਦਾ ਮੰਤ੍ਰ ਪੂਰਾ, ਬਚਨ ਪੂਰਾ ਹੈ, ਕਦੇ ਕਿਸੇ ਦਾ ਟਲਾਇਆ ਨਹੀਂ ਟਲਦਾ।"

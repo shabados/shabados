@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹ ਗਈ ਥੀ, ਤੈ ਹਮੈ ਬਤਾਯੋ ॥"
 page = 852
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When (later on) the Raja asked the woman, ‘Tell me where had you gone?’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਤੂੰ ਮੈਨੂੰ ਦਸ ਕਿ ਕਿਥੇ ਗਈ ਸੀ?"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਟੂ ਭਟੂ ਵੰਤਿਆ; ਫਿਰਣਾ ਸੂਦੁ ਵਡਾ ਸਤ ਭਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Bhai Jattu, Bhattu, Banta, and Phirana are Sud brothers and love each other very much."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜੱਟੂ ਭੱਟੂ ਤਤ ਵੇਤੇ ਫਿਰਣਾ ਸੂਦ ਜਾਤੀ ਸੱਚੇ ਭਾਉ ਵਾਲਾ ਹੋਇਆ।"

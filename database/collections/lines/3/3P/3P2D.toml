@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਾਨ ਔਰ ਪਾਨਿਪ ਧਨੁ ਰਾਜਾ ॥"
 page = 1365
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਾਣਾਂ ਅਤੇ ਸ਼ੋਭਾ ਰੂਪ ਧਨ ਦਾ ਸੁਆਮੀ"

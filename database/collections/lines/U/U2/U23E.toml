@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਣੰ ਬੀਰ ਜੈਸੇ ॥੧੦੮॥"
 page = 210
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They stood firmly like the warrior in the battlefield.108."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਯੁੱਧ ਵਿੱਚ ਸੂਰਮੇ (ਸਾਹਮਣੇ ਡਟਦੇ ਹਨ) ॥੧੦੮॥"

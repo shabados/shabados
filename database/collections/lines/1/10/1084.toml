@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਹਿਤਾ ਏਕ ਵਜੀਰ ਕੀ; ਰੂਪ ਸਹਰ ਕੇ ਮਾਹਿ ॥"
 page = 888
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the city of Roop, a minister had a daughter."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰੂਪ ਨਗਰ (ਸ਼ਹਿਰ) ਵਿਚ ਇਕ ਵਜ਼ੀਰ ਦੀ ਧੀ ਸੀ।"

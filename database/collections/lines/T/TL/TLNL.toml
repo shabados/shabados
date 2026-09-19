@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰੇਅੰ ਪਵਿਤ੍ਰੰ ਪੁਨੀਤੰ ਪੁਰਾਣੰ ॥"
 page = 40
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is in the Yond, Immaculate, Most Holy and Ancient"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ ਮਨ ਅਤੇ ਬਾਣੀ ਤੋਂ) ਪਰੇ ਹੈਂ; ਪਵਿਤਰ, ਪਾਵਨ ਅਤੇ ਪੁਰਾਤਨ ਹੈਂ।"

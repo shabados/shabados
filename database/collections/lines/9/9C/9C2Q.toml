@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਸ ਜਾਨ ਕਹ ਬਚਨ ਰਿਸਾਲਾ ॥"
 page = 192
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Immanent Lord, then became Merciful and addressed his servant Vishnu with sweet words,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵਿਸ਼ਣੁ ਨੂੰ (ਆਪਣਾ) ਦਾਸ ਜਾਣ ਕੇ ਮਿਠੇ ਬਚਨ ਕਹੇ,"

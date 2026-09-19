@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਉਸੁ ਪੁਰਖ ਕਾ; ਨਾਹੀ ਕਦੇ ਬਿਨਾਸ ॥"
 page = 287
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "That man never perishes,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਇਨਸਾਨ ਕਦਾਚਿੱਤ ਨਾਸ ਨਹੀਂ ਹੁੰਦਾ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "That person whose mind is illuminated"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਪੁਰਸ ਕਾ ਕਬੀ ਨਾਸ ਨਹੀਂ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਕਦੇ ਨਾਸ ਨਹੀਂ ਹੁੰਦਾ (ਭਾਵ, ਉਹ ਮੁੜ ਮੁੜ ਮੌਤ ਦਾ ਸ਼ਿਕਾਰ ਨਹੀਂ ਹੁੰਦਾ)"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "La persona que se encuentra iluminada"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਬਿਰਹਿ ਕੇ ਬਰੇ; ਜਟਨ ਕੋ ਸੀਸ ਰਖਾਯੋ ॥"
 page = 1006
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Then, in the spirit of separation, I supported the matted hair,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਬਿਰਹੋਂ ਨੂੰ ਵਰਿਆ ਤਾਂ ਸਿਰ ਉਤੇ ਜਟਾਵਾਂ ਰਖ ਲਈਆਂ।"

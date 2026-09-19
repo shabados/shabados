@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਤੁਪਕ ਕੇ ਹੋਤ ਹੈ; ਲੀਜਹੁ ਸੁਘਰ, ਸਵਾਰ ॥੬੮੪॥"
 page = 749
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O wise men! the names of Tupak are known by uttering the word “Arj-Prashthani”.684."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਤੁਪਕ ਦਾ ਨਾਮ ਹੋ ਜਾਏਗਾ। ਸੂਝਵਾਨੋ! ਸੋਚ ਲਵੋ ॥੬੮੪॥"

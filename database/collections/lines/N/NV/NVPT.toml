@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਤਾ ਦੁਰੰਤ, ਸਰਬੰ ਪ੍ਰਕਾਰ ॥੧॥੧੨੧॥"
 page = 29
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art the Infinite Donor of all kinds! 1. 121"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹਰ ਤਰ੍ਹਾਂ ਨਾਲ ਬੇਅੰਤ ਦਾਤੇ ਹੋ ॥੧॥੧੨੧॥"

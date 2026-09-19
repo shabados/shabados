@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਤ ਬਰਸਿ ਸੰਗ ਅਪਸਰਾ; ਭੂਪਤਿ ਮਾਨੇ ਭੋਗ ॥"
 page = 812
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Raja had the pleasure of making love to the Fairy for many years,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਵਰ੍ਹਿਆਂ ਤਕ ਰਾਜੇ ਨੇ ਅਪੱਛਰਾ ਨਾਲ ਭੋਗ-ਵਿਲਾਸ ਕੀਤਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਦੀ ਨਾਵ ਜੈਸੇ ॥"
 page = 658
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were running like the boat moving forward in the stream"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਨਦੀ ਵਿਚ ਬੇੜੀ ਜਾਂਦੀ ਹੈ।"

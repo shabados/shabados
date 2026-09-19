@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਹੁ ਜੋ ਜਰੀ ਰੁਦ੍ਰ ਕੀ ਦਾਰਾ ॥"
 page = 187
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਜਿਹੜੀ ਸ਼ਿਵ ਦੀ ਇਸਤਰੀ (ਹਵਨ-ਕੁੰਡ) ਵਿਚ ਸੜ ਗਈ ਸੀ,"

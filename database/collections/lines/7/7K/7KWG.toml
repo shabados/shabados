@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਮਕਰਾਛ ਜੁਧ ਕਥਨੰ ॥"
 page = 254
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now begins the description of the war with Makrachh :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਮਕਰਾਛ ਦੇ ਯੁੱਧ ਦਾ ਕਥਨ"

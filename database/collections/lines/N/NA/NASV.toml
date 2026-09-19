@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਹੂੰਅਨ ਬਿਸਰਿ ਸਕਲ ਸੁਧਿ ਗਈ ॥"
 page = 946
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Such a love affair flourished in them that they both lost their awareness."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਦੋਹਾਂ ਨੂੰ ਸਭ ਸੁੱਧ ਬੁੱਧ ਭੁਲ ਗਈ।"

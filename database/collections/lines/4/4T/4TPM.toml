@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਸੰਤ ਹਾਰ ਸੀਸਣੀ ॥"
 page = 599
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸ਼ਿਵ) ਦੇ ਸਿਰ ਦਾ ਹਾਰ (ਸੱਪ) ਹਸ ਰਿਹਾ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਯੋ ਬਾਟ ਮਦਿਯੰ ਅਮਦਿਯੰ ਭਗਵਾਨੰ ॥"
 page = 164
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਗਵਾਨ (ਮੋਹਨੀ) ਨੇ ਸ਼ਰਾਬ ਅਤੇ ਅੰਮ੍ਰਿਤ ਵੰਡ ਦਿੱਤੇ"

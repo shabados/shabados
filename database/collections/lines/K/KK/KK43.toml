@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰੰਬ੍ਰਯੂਹ ਪੁਤ੍ਰੀ, ਹੈ ਕਹਾ ॥"
 page = 1178
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸ਼ਿਵ ਨੇ) ਕਿਹਾ ਹੇ ਪੁੱਤਰੀ! (ਤੂੰ) ਵਰ ਮੰਗ ('ਬਰੰਬ੍ਯਹ')"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਿਵ ਸਕਤੀ ਵਿਚਿ, ਗਰਬੁ ਗੁਮਾਣੈ ॥੧੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Engrossed in maya they are all afflicted by ego."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵ ਸ਼ਕਤੀ (ਮਾਇਆ) ਦੇ ਵਿਚ (ਫਸੇ) ਹੰਕਾਰ ਤੇ ਗੁਮਾਨ (ਨੇ ਨਾਸ਼ ਕੀਤੇ)।"

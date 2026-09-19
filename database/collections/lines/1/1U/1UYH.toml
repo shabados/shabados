@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਤ ਬਹੇ ਤਰਬੂਜ ਕੌ; ਪਹੁਚਤ ਭਯੋ ਨ ਏਕ ॥੯॥"
 page = 901
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They all ran fast but could not catch the melon drifting across.(9)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰ) ਰੁੜ੍ਹਦੇ ਜਾਂਦੇ ਤਰਬੂਜ਼ ਤਕ ਇਕ ਵੀ ਨਾ ਪਹੁੰਚ ਸਕਿਆ ॥੯॥"

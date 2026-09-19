@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਵਿਣੁ ਸਤਿਗੁਰੁ, ਸਭਿ ਨਿਗੋਸਾਵੈ ॥੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Without the true Guru they all are without the guiding force."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਤਿਗੁਰ ਦੇ ਬਾਝ ਸਾਰੇ ਨਿਗੁਰੇ ਹੀ ਫਿਰਦੇ ਹਨ।"

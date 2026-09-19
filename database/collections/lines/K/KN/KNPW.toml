@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਵ ਤ੍ਰਿਯ ਭੇਸ ਤਹਾ ਨਰ ਧਾਰਾ ॥"
 page = 1321
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਹੀ ਇਸਤਰੀ ਨੇ ਉਸ ਆਦਮੀ ਦਾ ਭੇਸ ਧਾਰਨ ਕੀਤਾ ਹੋਇਆ ਹੈ।"

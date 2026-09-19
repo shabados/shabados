@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜਾ ਕੇ ਮੁਖ ਪੈ ਕਹਾਯੋ ॥"
 page = 981
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He trained a bard to say to Raja at his face,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਦੇ ਮੁਖ ਉਤੇ ਇਹ ਅਖਵਾਇਆ"

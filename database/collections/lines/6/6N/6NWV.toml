@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੀਤ ਬਰਨ ਕੋ ਬਾਣ; ਖੇਤਿ ਚੜਿ ਗਰਜਤ ਗਾਜੀ ॥"
 page = 694
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His arrows are also of yellow colour and he thunders in the battlefield"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੀਲੇ ਰੰਗ ਦੇ ਬਾਣ ਹਨ। (ਉਹ) ਯੋਧਾ ਰਣ-ਭੂਮੀ ਵਿਚ ਜਾ ਕੇ ਗੱਜਦਾ ਹੈ।"

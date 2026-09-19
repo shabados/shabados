@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਲ ਅਉਰ ਥਲੰ ਇਕ ਬੀਰ ਮਨੰ ॥"
 page = 167
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਲ ਅਤੇ ਥਲ ਵਿਚ ਇਕ ਮੈਂ ਹੀ ਸੂਰਵੀਰ ਹਾਂ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਘਰ ਹੀ ਵਿਚਿ ਉਦਾਸੁ; ਸਚੁ ਸੁਚੇਉ ਹੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Being indifferent to household (pleasures) they are truth-oriented."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਘਰ ਹੀ ਵਿਖੇ (ਭਾਵ ਗ੍ਰਿਹਸਥ ਵਿਖੇ) ਉਦਾਸ ਤੇ (ਮਨੋਂ ਤਨੋਂ) ਸੱਚੇ ਤੇ ਸੁੱਚੇ ਹਨ।"

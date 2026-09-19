@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਕਾਰੇ ਵਜ਼ੀਰਸ਼ ਬਰਾਹਤ ਰਸੀਦ ॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As soon this task was finished,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲੇ ਵਜ਼ੀਰ ਨੂੰ ਮਾਰ ਕੇ ਉਸ ਨੂੰ ਰਾਹਤ ਮਹਿਸੂਸ ਹੋਈ"

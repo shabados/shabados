@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾ ਮੈ ਭੇਦ ਰਤੀਕੁ ਨ ਜਾਨੋ ॥੧੧੮੨॥"
 page = 796
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying the word “Neeraalayani”, add the word “Naasik-arini” and know all the names of Tupak without any discrimination.1182."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਵਿਚ ਇਕ ਰਤੀ ਜਿੰਨਾ ਭੇਦ ਨਾ ਮੰਨੋ ॥੧੧੮੨॥"

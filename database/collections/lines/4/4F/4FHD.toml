@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਲ ਤੁਪਕ ਕੇ ਨਾਮ ਬਿਚਾਰਹੁ ॥੯੪੧॥"
 page = 773
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Ar-anujananani”, add the words “Jaachar-pati-shatu” at the end, and consider all the names of Tupak.941."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਨੂੰ) ਸਾਰੇ ਤੁਪਕ ਦਾ ਨਾਮ ਸਮਝੋ ॥੯੪੧॥"

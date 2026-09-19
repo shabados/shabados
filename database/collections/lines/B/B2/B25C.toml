@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਜਰਤਿ ਜੂ ਕੋ ਪ੍ਰਥਮ; ਖਜਾਨਾ ਸਭ ਲਯੋ ॥"
 page = 1130
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਬਾਦਸ਼ਾਹ ਦਾ ਸਾਰਾ ਖ਼ਜ਼ਾਨਾ ਲੈ ਲਿਆ।"

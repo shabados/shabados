@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੌ ਗੈਵਰ ਮਤ ਕੋ; ਕਬਹੂੰ ਤ੍ਰਾਸ ਨ ਹੋਇ ॥੮॥"
 page = 919
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘He would never be frightened ofthe elephant.’ (8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਮਸਤ ਹਾਥੀ ('ਗੈਵਰ') ਦਾ ਡਰ ਕਦੇ ਵੀ ਨਹੀਂ ਹੋਏਗਾ ॥੮॥"

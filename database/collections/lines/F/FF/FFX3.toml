@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰਿਹ ਸਰਬ ਸਾਜ ॥੧੦੪॥"
 page = 561
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sin will reign in all the houses.104."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ) ਘਰਾਂ ਵਿਚ ਸਭ ਤਰ੍ਹਾਂ ਦੀ ਸਾਜ-ਸਜਾਵਟ ਹੋਵੇਗੀ ॥੧੦੪॥"

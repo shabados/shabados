@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬ ਹੋਤ ਕਾਰਜ ਰਾਸ ॥੩੦॥"
 page = 613
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They do not fear anyone and all their tasks are fulfilled.30."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਸਾਰੇ ਕਾਰਜ ਰਾਸ ਹੋ ਜਾਂਦੇ ਹਨ ॥੩੦॥"

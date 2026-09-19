@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੋਰ ਪਿਤਾ ਐਸੋ ਹੁਤੋ; ਜਾ ਕੋ ਜਗ ਮੈ ਨਾਮ ॥"
 page = 928
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Your father was renowned all over the world,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਪਿਤਾ ਅਜਿਹੇ ਸਨ ਕਿ ਜਿੰਨਾ ਦਾ ਜਗਤ ਵਿਚ ਨਾਂ ਸੀ।"

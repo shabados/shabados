@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧੰ ਅਧਿ ਲਾਹੈ ॥੨੮੫॥"
 page = 703
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The horses in flocks are roaming hither and thither and the warriors in their anger, are segmenting them.58.285."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੁਸ਼ਮਨ ਨੂੰ) ਅਧੋ ਅਧ ਵਢ ਸੁਟਦੇ ਹਨ ॥੨੮੫॥"

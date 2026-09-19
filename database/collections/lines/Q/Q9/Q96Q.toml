@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜਿ ਝੰਪਾਨ ਤਹਾ ਕਹ ਚਲੀ ॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sitting in palanquin she started to go to that place,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ ਆਪਣੇ ਨਾਲ) ਵੀਹ ਪੰਜਾਹ ਸਹੇਲੀਆਂ ਲੈ ਕੇ"

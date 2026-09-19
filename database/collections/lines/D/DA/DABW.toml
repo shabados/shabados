@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਹ ਪੂਤ, ਕਰਿ ਭੂਤ ਸੰਘਾਰਿਯੋ ॥੧੯॥"
 page = 1161
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਸ਼ਾਹ ਦੇ ਪੁੱਤਰ ਨੂੰ ਭੂਤ ਕਹਿ ਕੇ ਮਰਵਾ ਦਿੱਤਾ ਹੈ ॥੧੯॥"

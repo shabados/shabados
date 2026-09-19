@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਦਾਨਮ ਕਸੇ ਸ਼ਾਹਿ ਹਸਤਸ਼ ਜਵਾ ॥"
 page = 1409
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I did not perceive that their King was so brave,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਇਨ੍ਹਾਂ ਦਾ ਬਾਦਸ਼ਾਹ ਇਤਨਾ ਬਹਾਦਰ ਹੈ,"

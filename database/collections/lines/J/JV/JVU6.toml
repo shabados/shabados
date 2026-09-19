@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਐਸੀ ਹੋਇ ਪਰੀ ॥"
 page = 1230
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Such has become my inmost state, now."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀ ਅੰਤ੍ਰੀਵੀ ਅਵਸਥਾ, ਹੁਣ ਐਹੋ ਜਿਹੀ ਹੋ ਗਈ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "This is my condition."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰੀਤੀ ਕੀ ਪ੍ਰਬਲਤਾ ਐਸੀ ਹੋਈ ਪਰੀ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਮੇਰੇ ਮਨ ਦੀ ਹਾਲਤ) ਇਹੋ ਜਿਹੀ ਹੋ ਗਈ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਐਸੀ = ਇਹੋ ਜਿਹੀ ਹਾਲਤ। ਹੋਇ ਪਰੀ = ਹੋ ਗਈ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ese ahora es el Estado de mi ser interior"

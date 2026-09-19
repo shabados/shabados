@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਕੋ ਰਹੈ ਲਾਜ ਤੇ ਪ︀ਯਾਰੀ ॥"
 page = 903
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Drig Daniya was his wife; she was much liked by the Raja."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਲਜੀਲੀ ਰਾਜੇ ਨੂੰ ਬਹੁਤ ਪਿਆਰੀ ਸੀ।"

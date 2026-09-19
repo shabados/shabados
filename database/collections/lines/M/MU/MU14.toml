@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਰਿ ਭਗਤਿ ਦ੍ਰਿੜਾਇ; ਨਰੂ ਸਭ ਤਾਰੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The devotees became resolute, and the divine light released all."

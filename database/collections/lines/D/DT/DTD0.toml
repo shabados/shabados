@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੋਮ ਖਰੇ ਕਰਿ ਕੈ ਅਪੁਨੇ ਪੁਨਿ; ਅਉਰ ਪ੍ਰਚੰਡ ਗਦਾ ਕਰਿ ਲੈ ਕੈ ॥"
 page = 515
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In great fury, and his hair standing, on their ends, and taking his powerful mace in his hand, Balram fell upon Rukmi"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਰੋਮ ਖੜੇ ਕਰ ਕੇ ਅਤੇ ਹੱਥ ਵਿਚ ਪ੍ਰਚੰਡ ਗਦਾ ਪਕੜ ਕੇ"

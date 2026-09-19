@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਸੇਤਤ ਕਾਲੀ ॥੨੦੦॥"
 page = 571
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The swords saturated with hot blood glistened and Shiva danced and laughed.200."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਲੀ ਹੱਸ ਰਹੀ ਹੈ ॥੨੦੦॥"

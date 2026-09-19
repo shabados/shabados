@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਪ ਤਪ ਸੰਜਮ ਸਾਧ ਕਰਿ; ਹਰਿ ਭਗਤਿ ਕਮਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The Sewak, the devoted adherent, who meditates on the Naam (of the Creator) is sanctified."

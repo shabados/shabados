@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧੰ ਉਰਧਵੀ ਆਪ ਰੂਪੀ ਰਸਾਲੰ ॥"
 page = 677
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On listening to her praises, Bhavani was pleased on him and she endowed him with unique beauty"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਹੇਠਾਂ ਉਪਰ ਆਪ ਹੀ ਰਸ ਰੂਪ ਹੋ ਰਹੀ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿਓ ਰਾਜ ਸੈਨੰ ਕਢਿਓ ਬਾਰ ਬਾਜੰ ॥"
 page = 144
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the king went to sleep. (the destiny) caused a horse to come out of water."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਲ ਪੀ ਕੇ) ਰਾਜਾ (ਉਥੇ) ਸੌਂ ਗਿਆ, (ਤਦੋਂ) ਜਲ ਵਿਚੋਂ (ਅਗੰਮੀ ਸ਼ਕਤੀ ਨੇ) ਇਕ ਘੋੜਾ ਕਢਿਆ।"

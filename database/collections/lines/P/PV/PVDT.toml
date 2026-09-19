@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਰਤਾ; ਤੂ ਮੇਰਾ ਜਜਮਾਨੁ ॥"
 page = 1329
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O Creator-Lord, Thou alone are my Alms Giver."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਿਰਜਣਹਾਰ ਸੁਆਮੀ! ਕੇਵਲ ਤੂੰ ਹੀ ਮੈਨੂੰ ਦਾਤ ਦੇਣ ਵਾਲਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Creator Lord, You alone are my Benefactor."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਰਬ ਕੇ ਕਰਤਾ ਰੂਪ ਅਕਾਲ ਪੁਰਖ! ਤੂੰ ਹੀ ਮੇਰਾ ਜਜਮਾਂਨ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਕਰਤਾਰ! ਤੂੰ ਮੇਰਾ ਦਾਤਾ ਹੈਂ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰਤਾ = ਹੇ ਕਰਤਾਰ! ਜਜਮਾਨ = ਦਾਤਾ (ਨੋਟ: ਯਜਮਾਨ = ਉਹ ਜੋ ਯੱਗ ਆਦਿਕ ਬ੍ਰਾਹਮਣ ਪਾਸੋਂ ਕਰਾ ਕੇ ਉਸ ਨੂੰ ਧਨ-ਪਦਾਰਥ ਭੇਟਾ ਕਰਦਾ ਹੈ)।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Señor Creador, sólo Tú eres mi Benefactor, sólo una Bendición Te pido,"

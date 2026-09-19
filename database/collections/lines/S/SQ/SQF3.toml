@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਧਿਰਿ ਧਿਰਿ ਮਿਲਦੇ ਮੇਹਣੇ; ਹੁਇ ਸਰਮਿੰਦੀ ਅੰਝੂ ਰੋਵੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "She weeps in contrition because she is disdaifully reproached at every door."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "('ਧਿਰ ਧਿਰ') ਥਾਉਂ ਥਾਉਂ ਤੋਂ ਮੇਹਣੇ ਮਿਲਦੇ ਹਨ ਤਦੋਂ ਸ਼ਰਮਿੰਦੀ ਹੋਕੇ ਅੱਖਾਂ ਭਰ ਭਰਕੇ ਰੋਂਦੀ ਹੈ।"

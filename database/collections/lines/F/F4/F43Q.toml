@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਲਜ ਬਾਮੰ ॥"
 page = 221
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“You are the abode of shamelessness and a woman forsaking hesitation (shyness)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰੂਪ ਨਿਰਲਜ ਇਸਤਰੀ!"

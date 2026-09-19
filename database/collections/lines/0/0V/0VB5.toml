@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਲ ਮੈ ਹਮ ਕੇਲ ਕਰੈਗੇ, ਸੁਨੋ; ਰਸ ਬਾਤ ਸਭੈ ਸੁ ਤਹਾ ਕਹਿ ਹੈ ॥"
 page = 370
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "We will perform acts of love in water and shall also talk to you there everything about love"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਲ ਵਿਚ (ਪ੍ਰੇਮ) ਰਸ ਦੀ ਖੇਡ ਕਰਾਂਗੇ ਅਤੇ ਸੁਣ, (ਪ੍ਰੇਮ) ਰਸ ਦੀਆਂ ਸਾਰੀਆਂ ਗੱਲਾਂ ਤੈਨੂੰ ਉਥੇ ਹੀ ਦਸਾਂਗਾ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰੁ ਪੂਰੇ ਵਿਣੁ, ਪਾਰ ਨ ਪਾਹੀ ॥੧੦॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Without the perfect Guru none can go across the world-ocean."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪੂਰਨ ਗੁਰੂ (ਮਲਾਹ) ਬਾਝ ਪਾਰ (ਪਾਰਲਾ ਕਿਨਾਰਾ) ਨਹੀਂ ਪਾ ਸਕਦੇ।"

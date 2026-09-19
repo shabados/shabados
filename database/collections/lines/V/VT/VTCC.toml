@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਜਿਯੋ ਚਰਨ ਪਿਤਾ ਕੇ ਜਾਈ ॥"
 page = 544
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Krishna went away happily and on reaching his home, he worshipped the feet of his father"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾ ਕੇ ਪਿਤਾ ਦੇ ਚਰਨਾਂ ਦੀ ਪੂਜਾ ਕੀਤੀ।"

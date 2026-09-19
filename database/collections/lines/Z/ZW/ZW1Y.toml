@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੌ ਆਪੁ ਲੈ ਹਾਥ ਬ੍ਰਹਮੈ ਬਨਾਈ ॥"
 page = 832
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Either she looked like Dev Jani (daughter of Shankar-Acharya) or"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਜ ਪ੍ਰਤੀਤ ਹੁੰਦਾ ਹੈ) ਮਾਨੋ ਬ੍ਰਹਮਾ ਨੇ ਆਪਣੇ ਹੱਥ ਨਾਲ ਬਣਾਈ ਹੋਵੇ।"

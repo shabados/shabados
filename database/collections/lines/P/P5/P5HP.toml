@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਬਿਨੁ ਮੋਹਿ ਅਧਿਕ ਦੁਖ ਦਯੋ ॥੧੦੬॥"
 page = 877
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I am very much irritated by the sexuality. Without you I have been tormented by it.’(106)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਇਸ ਨੇ) ਤੁਹਾਡੇ ਬਿਨਾ ਮੈਨੂੰ ਬਹੁਤ ਦੁਖ ਦਿੱਤਾ ਹੈ ॥੧੦੬॥"

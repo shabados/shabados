@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਤ੍ਰੀਯਾ ਅਟਕੀ ਤੁਮ ਪੈ ਤੁਹਿ ਲ︀ਯਾਇਬੇ ਕੇ ਹਿਤ ਹਉ ਹੂ ਪਠਾਈ ॥"
 page = 519
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“One woman is absorbed in your love and I have come to take you there for her"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਇਸਤਰੀ ਤੁਹਾਡੇ ਉਤੇ ਮੋਹਿਤ ਹੋ ਗਈ ਹੈ ਅਤੇ ਤੁਹਾਨੂੰ ਲਿਆਉਣ ਲਈ ਮੈਨੂੰ ਭੇਜਿਆ ਹੈ।"

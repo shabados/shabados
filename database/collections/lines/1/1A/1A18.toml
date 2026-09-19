@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਮੰ ਤੇਗ ਅਤੰਕੀ ॥"
 page = 160
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The whickers on the faces and terrible swords in the hands of the warriors look impressive,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ ਹੱਥਾਂ ਵਿਚ) ਭਿਆਨਕ ਚਮਕਦੀਆਂ ਤਲਵਾਰਾਂ (ਸੁਭਾਇਮਾਨ ਸਨ)।"

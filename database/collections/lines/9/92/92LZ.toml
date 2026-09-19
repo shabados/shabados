@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕ੍ਰੋਧੀ ਸਾਪ ਜੈਸੇ ॥੪੩੬॥"
 page = 594
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the king, abandoning his spirit of bravery, ran for two steps, but then he rotated like the revengful snake.436."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਕ੍ਰੋਧਿਤ ਸੱਪ ਪਿਛੇ ਨੂੰ ਪਰਤਦਾ ਹੈ ॥੪੩੬॥"

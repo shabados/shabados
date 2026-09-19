@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਲਜਤ ਭੂਪਤਿ ਭਏ, ਤਾ ਕੌ ਬਾਨ ਚਲਾਇ ॥"
 page = 1008
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The princes were feeling ashamed,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਮੱਛ ਉਤੇ ਬਾਣ ਚਲਾ ਕੇ ਬਹੁਤ ਰਾਜੇ ਲਜਿਤ ਹੋਏ।"

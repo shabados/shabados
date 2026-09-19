@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਰੀ ਨਾਗਨੀ; ਗੰਧ੍ਰਬੀ ਕੋ ਨ ਜਾਯੋ ॥੨॥"
 page = 1219
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ ਨਰੀ, ਨਾਗਨੀ ਜਾਂ ਗੰਧਰਬੀ ਨੇ (ਇਸ ਪ੍ਰਕਾਰ ਦਾ ਬੰਦਾ) ਪੈਦਾ ਨਹੀਂ ਕੀਤਾ ਹੈ ॥੨॥"

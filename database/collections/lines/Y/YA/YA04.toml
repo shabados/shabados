@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰੀਅ, ਕੌਨ ਤੂਅੰ ॥੩੭॥"
 page = 617
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the king saw her, he hesitated a little and asked her ”O” woman, who are you and who is this boy?”37."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਇਸਤਰੀ! ਤੂੰ ਕੌਣ ਹੈਂ? ॥੩੭॥"

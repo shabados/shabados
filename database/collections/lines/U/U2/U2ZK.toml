@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਰਿ ਬਰਿ ਆਠ ਟੂਕ ਹ੍ਵੈ ਗਈ ॥"
 page = 837
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Listening to all this, she flew into rage and thought,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੜ ਬਲ ਕੇ ਅੱਠ ਟੁਕੜੇ ਹੋ ਗਈ।"

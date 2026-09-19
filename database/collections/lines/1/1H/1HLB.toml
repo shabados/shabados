@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਿਨੇ ਸੁ ਜੋਗ ਤਜਿ ਰਾਜ ਆਨਿ ॥"
 page = 635
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਰਾਜ ਛਡ ਕੇ ਯੋਗ ਨੂੰ ਧਾਰਨ ਕੀਤਾ"

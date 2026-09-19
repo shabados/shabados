@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਸ ਜਾਨਿ ਮੋਰੀ ਸਦਾ; ਰਛ ਕਰੋ ਸਰਬੰਗ ॥੧੩॥"
 page = 717
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Protect me ever considering me as Thy slave.13."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੈਨੂੰ ਆਪਣਾ) ਦਾਸ ਜਾਣ ਕੇ ਸਦਾ ਸਭ ਤਰ੍ਹਾਂ ਨਾਲ ਮੇਰੀ ਰਖਿਆ ਕਰੋ ॥੧੩॥"

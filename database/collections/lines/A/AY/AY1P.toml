@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤਬ ਵੈ ਨਿਰਖੈਂ ਸੁਰਗ ਮਹਿ; ਆਨੰਦ ਸੁਹੇਲਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Sequentially, in the heaven, his spiritual evaluation is appreciated."

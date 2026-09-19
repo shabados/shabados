@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯੌ ਕਹਿ ਕੈ ਮੁਖ ਤੇ ਬਚਨ; ਜਮਧਰ ਲਈ ਉਠਾਇ ॥"
 page = 1057
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਮੁਖ ਤੋਂ ਬਚਨ ਕਹਿ ਕੇ ਕਟਾਰ ਉਠਾ ਲਈ"

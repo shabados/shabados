@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕੇ ਤੀਰ ਸਿਪਾਹੀ ਕੋਹੈ ॥"
 page = 843
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With a sword embellishing in her right hand, she would appear to be a soldier,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਸਾਹਮਣੇ ਸਿਪਾਹੀ ਕੀ ਚੀਜ਼ ਹੈ।"

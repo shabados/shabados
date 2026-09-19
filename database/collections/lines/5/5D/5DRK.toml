@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਅੰਡ ਤੇ ਬ੍ਰਹਮੰਡ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He  who hath Created the universe from the Cosmic egg,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਅੰਡੇ ਤੋਂ ਬ੍ਰਹਿਮੰਡ (ਦੀ ਰਚਨਾ ਕੀਤੀ ਹੈ)"

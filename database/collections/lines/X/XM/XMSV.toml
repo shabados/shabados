@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਗੜਦੰ ਪ੍ਰੇਮੰ ਕਾਗੜਦੰ ਕੂਪੰ ॥"
 page = 587
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰੇਮ ਦੇ ਖੂਹ ਵਿਚ (ਡੁਬ ਗਈਆਂ ਹਨ)।"

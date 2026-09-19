@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਕਰੌ, ਕੈਸੇ ਬਚੌ, ਹ੍ਰਿਦੈ ਨ ਉਪਜਤ ਸਾਤ ॥"
 page = 835
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(She, thinking,) ‘What should 1 do to save myself so that my mind is appeased?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੀ ਕਰਾਂ, ਕਿਵੇਂ ਬਚਾਂ, ਮਨ ਵਿਚ ਸ਼ਾਂਤੀ ਪੈਦਾ ਨਹੀਂ ਹੁੰਦੀ।"

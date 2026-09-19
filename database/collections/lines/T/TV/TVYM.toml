@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਿ ਏਕ ਆਸ ਅਉਦਾਸ ਚਿਤ ॥"
 page = 639
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਆਸ ਧਰ ਕੇ ਚਿਤ ਨੂੰ ਉਦਾਸ (ਨਿਰਲਿਪਤ) ਰਖਿਆ ਹੋਇਆ ਹੈ।"

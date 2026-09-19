@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਯੰ ਸੰਤ ਜੰਪੇ ॥"
 page = 112
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤ ਲੋਕ (ਦੁਰਗਾ ਦੀ) ਜੈ-ਜੈ-ਕਾਰ ਕਰ ਰਹੇ ਸਨ"

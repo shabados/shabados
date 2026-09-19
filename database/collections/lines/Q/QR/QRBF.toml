@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਲੈ ਅਪੁਨੀ ਤ੍ਰਿਯ ਕਰੀ; ਅਧਿਕ ਰੁਚਿ ਮਾਨਿ ਕੈ ॥੧੪॥"
 page = 1124
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਹੁਤ ਪ੍ਰਸੰਨਤਾ ਨਾਲ ਉਸ ਨੂੰ ਆਪਣੀ ਇਸਤਰੀ ਬਣਾ ਲਿਆ ॥੧੪॥"

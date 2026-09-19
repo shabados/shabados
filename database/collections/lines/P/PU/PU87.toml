@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦੇਵਣਹਾਰੇ ਕੈ ਹਥਿ; ਦਾਨੁ ॥"
 page = 25
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The gift is in the power of the Giver."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਦਾਤ ਤਾਂ ਦੇਣ ਵਾਲੇ ਦੇ ਵੱਸ ਵਿੱਚ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Gift is in the Hands of the Great Giver."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਯੋਂਕਿ ਦਾਨ ਤੋ ਤੁਝ ਦੇਵਨਹਾਰ ਕੇ ਹਾਥ ਮੇਂ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਦੁਨੀਆ ਦੇ ਪਦਾਰਥਾਂ ਦੀ) ਵੰਡ (ਦੀ ਤਾਕਤ) ਦਾਤਾਰ ਪ੍ਰਭੂ ਦੇ ਆਪਣੇ ਹੱਥ ਵਿਚ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੈ ਹਥਿ = ਦੇ ਹੱਥ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "si sólo el Creador es quien tiene el Poder de Dar."

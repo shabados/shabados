@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਸੁਰੇਸ ਅਨੀਕਨਿ ਤ੍ਰਯੋ ਉਮਿਡੀ ॥"
 page = 102
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The forces of the demon-king marched forward."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿਵੇਂ ਰਾਖਸ਼ਾਂ ਦੀਆਂ ਸੈਨਾਵਾਂ ('ਅਨੀਕਨਿ') ਉਮਡ ਪਈਆਂ।"

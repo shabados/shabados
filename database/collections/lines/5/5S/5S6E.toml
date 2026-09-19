@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕ੍ਰਿਸਨ ਨ ਮਾਨੀ ਬਾਤ; ਜੋ ਤਿਹ ਦੂਤ ਉਚਾਰਿਯੋ ॥"
 page = 525
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੇ ਉਹ ਗੱਲ ਨਾ ਮੰਨੀ ਜੋ ਦੂਤ ਨੇ ਕਹੀ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੁਰਬਾਣੀ ਤਿਨ੍ਹਾਂ ਗੁਰਸਿਖਾਂ; ਅੰਮ੍ਰਿਤੁ ਵੇਲੈ ਸਰਿ ਨਾਵੰਦੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "I am sacrifice unto those Gursikhs who getting up in the ambrosial hours, and bathe in the holy tank."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਗੁਰਸਿੱਖਾਂ ਦੇ ਕੁਰਬਾਨ ਹਾਂ ਜੋ ਤੜਕੇ ਸਰ ਨ੍ਹਾ ਲੈਂਦੇ ਹਨ।"

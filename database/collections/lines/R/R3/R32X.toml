@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਸਿਰਜਨਹਾਰ ਆਪ ਆਪਣੀ ਕੁਦਰਤ ਵਿਚ ਹੀ ਵਸਦਾ ਹੈ । "
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦਰਮਿਆਨਿ ਕੁਦਰਤਿ ਖ਼ੁਦ ਕਾਦਰ ਅਸਤ ॥੩੦੦॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Due to the first (diamond), this world becomes a demonstration of truth,"

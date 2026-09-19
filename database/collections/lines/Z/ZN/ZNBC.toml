@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨ ਮੋ ਕਵਲਾ ਸ੍ਰਿਜੋ ਗ︀ਯਾਨਾ ॥"
 page = 192
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਗਿਆਨਵਾਨ ਵਿਸ਼ਣੂ ਨੇ ਮਨ ਵਿਚ ਗਿਆਨ ਨੂੰ ਵਿਕਸਿਤ ਕੀਤਾ"

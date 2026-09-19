@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨੁ ਕਰਿ ਫੂਲਿ ਅਬਾਸੀ ਰਹੀ ॥੨॥"
 page = 1265
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਜ ਲਗਦੀ ਸੀ) ਮਾਨੋ ਗੁਲਬਾਸੀ ਖਿੜੀ ਹੋਵੇ ॥੨॥"

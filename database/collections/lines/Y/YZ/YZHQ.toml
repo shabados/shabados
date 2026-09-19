@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਫਲ ਮਨੋਰਥ, ਪੂਰਣ ਘਾਲਾ ॥੭॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "They succeed in their practice and objective."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਉਹਨਾਂ ਦੇ) ਮਨੋਰਥ ਸਫਲ (ਹੋ ਜਾਂਦੇ ਹਨ ਅਰ ਘਾਲ) ਕਮਾਈ ਥਾਉਂ ਪੈਂਦੀ ਹੈ।"

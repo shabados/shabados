@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਸੀ ਰਹੈ ਰਾਜਾ ਕੇ ਨਿਤਿ ਜਿਯ ॥"
 page = 1124
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਦਾ ਰਾਜੇ ਦੇ ਹਿਰਦੇ ਵਿਚ ਵਸੀ ਰਹਿੰਦੀ ਸੀ।"

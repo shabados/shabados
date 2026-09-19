@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੀਰ ਢਰੈ ਭਟਵਾਨ ਕੀ ਆਂਖਿਨ ਲੋਟਤ ਹੈ ਚਿਤ ਮੈ ਦੁਖੁ ਪਾਏ ॥"
 page = 502
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The water flowed from the eyes of the warriors and they began to roll on the earth in affliction"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਿਆਂ ਦੀਆਂ ਅੱਖਾਂ ਤੋਂ (ਹੰਝੂਆਂ ਦਾ) ਜਲ ਵਗ ਰਿਹਾ ਹੈ ਅਤੇ ਮਨ ਵਿਚ ਦੁਖੀ ਹੋ ਕੇ (ਧਰਤੀ ਉਤੇ) ਲੋਟ ਪੋਟ ਹੋ ਰਹੇ ਹਨ।"

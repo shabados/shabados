@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਹਰਿ ਨਾਮੁ; ਵਖਰੁ ਲੈ ਚਲਹੁ ॥"
 page = 1028
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Depart thou with the stock-in-trade of the Lord-God's Name,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸੁਆਮੀ ਵਾਹਿਗੁਰੂ ਦੇ ਨਾਮ ਦੀ ਸੁਦਾਗਰੀ ਦਾ ਮਾਲ ਲੈ ਕੇ ਕੂਚ ਕਰ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Depart with the merchandise of the Name of the Lord, Har, Har,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਤੇ ਹਰਿ ਹਰਿ ਨਾਮ ਸੌਦਾ ਲੈ ਕੇ ਚਲੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਦੇ ਨਾਮ ਦਾ ਸੌਦਾ (ਇਥੋਂ) ਖ਼ਰੀਦ ਕੇ ਤੁਰੋ,"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh ser humano, junta el Capital del Nombre del Señor"

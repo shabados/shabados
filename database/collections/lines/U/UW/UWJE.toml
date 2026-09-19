@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਕਹੂੰ ਸਬਦ ਬੈਤਾਲ ਸੁਨਾਵਹਿ ॥੬॥੨੫੯॥"
 page = 149
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the Baitals raised their voice.6.259."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਤੇ-ਕਿਤੇ ਬੈਤਾਲ ਵੀ ਆਵਾਜ਼ਾਂ ਸੁਣਾਉਂਦੇ ਸਨ ॥੬॥੨੫੯॥"

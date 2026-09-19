@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਾਧੂ ਸੰਗੁ; ਕਰਹੁ ਸਭੁ ਕੋਇ ॥"
 page = 196
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Let everyone mix with the society of Saints,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹਰ ਇਨਸਾਨ ਨੂੰ ਸਤਿਸੰਗਤ ਨਾਲ ਜੁੜਨਾ ਉਚਿੱਤ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Everyone who joins the Saadh Sangat, the Company of the Holy,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਸਾਧੂਓਂ ਕੀ ਸੰਗਤ ਸਭ ਕੋਈ ਕਰੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਹਰੇਕ ਪ੍ਰਾਣੀ ਗੁਰੂ ਦੀ ਸੰਗਤਿ ਕਰੋ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਾਧੂ ਸੰਗੁ = ਗੁਰੂ ਦੀ ਸੰਗਤਿ। ਸਭੁ ਕੋਇ = ਹਰੇਕ ਮਨੁੱਖ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Consérvate en la Sociedad de los Santos,"

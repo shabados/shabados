@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੀਧ ਕਾਕ ਆਮਿਖ ਭਖਿ ਗਏ ॥"
 page = 997
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘His bones must have been minced along with the fle9’h and that flesh must have been eaten by the eagles."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗਿਰਝਾਂ ਅਤੇ ਕਾਂ ਮਾਸ ਖਾ ਗਏ ਹੋਣਗੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਤਿ ਅੰਧੇਰੀ ਤੁਰੈ ਧਵਾਵੈ ॥"
 page = 1001
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(It was announced,) ‘Primarily the person should blindfold both hiseyes and then travel when it is dark at night."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹਨੇਰੀ ਰਾਤ ਵਿਚ ਘੋੜਾ ਭਜਾਏਗਾ।"

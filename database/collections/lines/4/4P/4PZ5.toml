@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਰਾਵ ਤਾ ਕੇ ਬਸਿ ਰਹੈ ॥"
 page = 890
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ ਅਧਿਕਤਰ ਉਸੇ ਦੇ ਵਸ ਵਿਚ ਰਹਿੰਦਾ ਸੀ।"

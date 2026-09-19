@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਮ ਰੀਤਿ ਸਬ ਠੌਰ ਚਲਾਈ ॥"
 page = 626
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਥਾਂ (ਉਸ ਨੇ) ਧਰਮ ਦੀ ਰੀਤ ਚਲਾਈ ਹੋਈ ਸੀ।"

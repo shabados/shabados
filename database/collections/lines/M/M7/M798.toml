@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਨਿਯਤ ਕਿਸੀ ਦੇਸ ਕੇ ਰਾਜਾ ॥"
 page = 1200
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲਗਦੇ ਤਾਂ ਕਿਸੇ ਦੇਸ਼ ਦੇ ਰਾਜੇ ਹਨ,"

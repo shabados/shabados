@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹਾ ਅਨੰਤ ਅੰਤ ਨਹੀ ਪਾ︁ਯੋ ॥"
 page = 157
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Infinite and none could know Thy limits"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਅਨੰਤ (ਹੋ ਕੇ ਵਿਚਰ) ਰਿਹਾ ਹੈਂ (ਪਰ ਕਿਸੇ ਨੇ ਤੇਰਾ) ਅੰਤ ਨਹੀਂ ਪਾਇਆ ਹੈ,"

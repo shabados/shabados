@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਇਓ ਤਉਨ ਕੀ ਜਦ ਮੈ ਜਦੁ ਰਾਜੰ ॥"
 page = 145
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In his clan, there was a king named Yadu"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਭਰਥ) ਦੀ ਕੁਲ ਵਿਚ ਯਦੂ ਰਾਜਾ ਹੋਇਆ"

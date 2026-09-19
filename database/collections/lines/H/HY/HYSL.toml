@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਾਤ ਪਾਇ ਕਰਿ ਨਾਥ ਸੰਘਾਰਾ ॥"
 page = 1350
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੌਕਾ ਤਾੜ ਕੇ ਪਤੀ ਨੂੰ ਮਾਰ ਦਿੱਤਾ"

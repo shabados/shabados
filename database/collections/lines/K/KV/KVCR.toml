@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਦਿਵਸ ਤਾ ਕੌ ਪਿਤਾ; ਗਯੋ ਸੁਤਾ ਕੇ ਗ੍ਰੇਹ ॥"
 page = 1271
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਦਿਨ ਰਾਜ ਕੁਮਾਰੀ ਦਾ ਪਿਤਾ ਪੁੱਤਰੀ ਦੇ ਘਰ ਗਿਆ।"

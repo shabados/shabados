@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਬਾਰ ਬਾਰ ਏਹੀ ਜੁਆਬ ਆਇਆ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਮਤਵਾਤਰ ਚੁਨੀਂ ਜਵਾਬ ਆਮਦ ॥੨੪॥"
 page = 1
 line = 24
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Then he got the same response again and again. (24)"

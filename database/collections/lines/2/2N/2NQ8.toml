@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਖਤ ਕੰਠਿ ਅਭੂਖਨ ਛੰਦਤ ॥੨੯੨॥"
 page = 229
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Alongwith this he destroyed the groups of enemies and instead of ornaments he wore rosaries as necklaces.292."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਪ੍ਰਾਪਤੀਆਂ ਉਸ ਦੇ ਗਲੇ ਵਿੱਚ ਗਹਿਣਿਆਂ ਵਾਂਗ ਜਾਪਦੀਆਂ ਸਨ ॥੨੯੨॥"

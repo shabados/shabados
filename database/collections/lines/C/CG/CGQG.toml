@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖੇ ਜਾਸ ਗਰਬੀਨ ਕੋ ਗਰਬ ਭਾਜੈ ॥੬੫॥"
 page = 631
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His banner is powerfully exhibiting its glory, seeing which, the pride of many egoists is shattered.65."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਵੇਖਣ ਨਾਲ ਗਰਬੀਲਿਆਂ ਦੇ ਹੰਕਾਰ ਨਸ਼ਟ ਹੋ ਜਾਂਦੇ ਹਨ ॥੬੫॥"

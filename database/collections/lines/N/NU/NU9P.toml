@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਚਿਤ ਚੁਰਾਇ ਕੈ ਲੇਵੈ ॥"
 page = 940
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She would come there for sweeping every day and comfort him."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਦਾ ਮਨ ਚੁਰਾ ਲੈਂਦੀ ਸੀ (ਅਰਥਾਤ ਪ੍ਰਸੰਨ ਕਰ ਲੈਂਦੀ ਸੀ)।"

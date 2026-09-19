@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੰਤ ਸਸਤ੍ਰ ਲੈ ਕੈ ॥੭॥੧੨੯॥"
 page = 110
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They are furiously moving, carrying countless weapons.7.129."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਨੰਤ ਸ਼ਸਤ੍ਰ ਲੈ ਕੇ (ਚਲ ਰਹੇ ਸਨ) ॥੭॥੧੨੯॥"

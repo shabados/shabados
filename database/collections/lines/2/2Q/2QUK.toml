@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਰਤੁ ਏਕ ਤਹ ਸਖੀ ਪਠਾਈ ॥੧੭॥"
 page = 994
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "soon reached the place (of Sahiban.(17)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਝਟ ਇਕ ਸਖੀ ਉਸ ਪਾਸ ਭੇਜ ਦਿੱਤੀ ॥੧੭॥"

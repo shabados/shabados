@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੈ ਬਹੁ ਸੇਵ ਸਿਵਾ ਕੀ ਕਰੀ; ਤਿਹ ਤੇ ਸਭ ਹੌ ਸੁ ਇਹੈ ਫਲੁ ਪੈ ਹਉ ॥"
 page = 496
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I have served Chandi greatly and for that service, I have got this reward"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਦੁਰਗਾ (ਦੇਵੀ) ਦੀ ਬਹੁਤ ਸੇਵਾ ਕੀਤੀ ਹੈ; ਉਸ ਤੋਂ ਮੈਂ ਇਹੀ ਸਾਰਾ ਫਲ ਪ੍ਰਾਪਤ ਕਰ ਰਹੀ ਹਾਂ।"

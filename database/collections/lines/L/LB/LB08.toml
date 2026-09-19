@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮੁਕੰਦ; ਮੁਕੰਦ; ਹਮਾਰੇ ਪ੍ਰਾਨੰ ॥"
 page = 875
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord Master is my very life."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੁਆਮੀ ਮਾਲਕ ਮੇਰੀ ਜਿੰਦ-ਜਾਨ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Lord, Mukanday, is my breath of life."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਮਾਰੇ ਪ੍ਰਾਨ ਔ ਸਰੀਰੁ ਕਾ ਰਛਕ ਮੁਕੰਦ ਹੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਦਾ ਸਿਮਰਨ ਮੇਰੀ ਜਿੰਦ (ਦਾ ਆਸਰਾ ਬਣ ਗਿਆ) ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪ੍ਰਾਨੰ = ਜਿੰਦ, ਆਸਰਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Nuestro Emancipador, nuestro Dios, es nuestra respiración vital;"

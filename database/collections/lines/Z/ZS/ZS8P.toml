@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਅਸਮਾਨ ਉਸ ਦੇ ਉਦਾਲੇ ਇਸ ਲਈ ਘੁੰਮਦਾ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਚਰਖ਼ ਮੀ ਗਰਦਦ ਬਗਿਰਦਿ ਆਂ ਕਿ ਊ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "This sky revolves around Him for the reason "

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕਨ ਸੋਖੈ ਏਕਨ ਭਰੈ ॥"
 page = 903
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If one side is shrivelled by Him,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਇਕਨਾਂ ਨੂੰ ਸੁਕਾਉਂਦਾ ਹੈ (ਅਰਥਾਤ ਨਸ਼ਟ ਕਰਦਾ ਹੈ) ਅਤੇ ਇਕਨਾਂ ਦਾ ਪੋਸ਼ਣ ਕਰਦਾ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋਤੀ ਲਾਲ ਸਾਹੁ ਕੋ ਇਕੁ ਸੁਤ ॥"
 page = 1123
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਥੇ) ਮੋਤੀ ਲਾਲ ਨਾਂ ਦਾ ਇਕ ਸ਼ਾਹ ਦਾ ਪੁੱਤਰ ਸੀ"

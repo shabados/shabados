@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਉਸਲੇਸ ਰਘੁਬੀਰ ਅਭਗਾ ॥"
 page = 286
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raghuvir Ram completed the Ashavamedha Yajna (horse-sacrifice)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਵਿਧੀ ਪੂਰਵਕ ਅਨੇਕ (ਯੱਗ) ਕੀਤਾ ਗਏ।"

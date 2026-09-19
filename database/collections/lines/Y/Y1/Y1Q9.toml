@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਦ੍ਰ ਭਵਾਨੀ ਕੇ ਭਵਨ; ਦੀਨੀ ਸਖੀ ਪਠਾਇ ॥"
 page = 1006
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She sent her maid to the dwelling place of Bhadar Bhawani,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਦ੍ਰ ਭਵਾਨੀ ਦੇ ਘਰ (ਭ੍ਰਮਰ ਮਤੀ ਨੇ) ਆਪਣੀ ਸਖੀ ਨੂੰ ਭੇਜਿਆ"

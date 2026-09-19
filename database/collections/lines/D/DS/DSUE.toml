@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਮ ਕਾਮੀ ਕ੍ਰੋਧੀ; ਅਤਿ ਕੂੜਿਆਰੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The ones sunk in lust, avarice, and falsehood."

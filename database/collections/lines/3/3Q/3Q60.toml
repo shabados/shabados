@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਖ ਆਕੁਲ ਜਾਤ ਨਹੀ ਬਰਣੀ ॥"
 page = 178
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "This earth was pressed under the lord of sufferings of the people of the world and it was impossible to describe its anguish and agony"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਲਸਰੂਪ) ਦੁਖਾਂ ਨਾਲ ਵਿਆਕੁਲ (ਹੋ ਗਈ ਜਿਸ ਦਾ) ਵਰਣਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"

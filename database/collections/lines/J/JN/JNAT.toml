@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਰੇਵਤੀ ਜਾਹਿ ਕੋ; ਮਮ ਕੰਨਿਆ ਕੋ ਨਾਮ ॥"
 page = 494
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਪ੍ਰਸੰਨ ਹੋ ਕੇ ਕਿਹਾ, ਜਿਸ ਦਾ ਨਾਂ 'ਰੇਵਤੀ' ਹੈ, ਉਹ ਮੇਰੀ ਕੰਨਿਆ ਦਾ ਨਾਮ ਹੈ।"

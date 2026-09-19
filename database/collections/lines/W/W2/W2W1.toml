@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਦੋਸਤੁ ਪੋਸਤੁ ਬੂਟੁ ਹੋਇ; ਰੰਗ ਬਿਰੰਗੀ ਫੁੱਲ ਖਿੜਾਵੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Becoming lovely poppy plant it blossoms with variegated flowers."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪਿਆਰੇ ਪੋਸਤ ਦਾ ਬੂਟਾ ਬਣਕੇ ਨਾਨਾ ਰੰਗਾਂ ਦੇ ਫਲ ਖਿੜਾਉਂਦਾ ਹੈ।"

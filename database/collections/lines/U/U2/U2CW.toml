@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਸਤ੍ਰ ਸਿਮ੍ਰਿਤ ਛੁਐ ਨ ਕੋਈ ॥੬॥"
 page = 552
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In every home, there Shastras and Smritis.6."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਾਸਤ੍ਰ ਤੇ ਸਮ੍ਰਿਤੀਆਂ ਨੂੰ ਕੋਈ ਛੋਹੇਗਾ ਵੀ ਨਹੀਂ ॥੬॥"

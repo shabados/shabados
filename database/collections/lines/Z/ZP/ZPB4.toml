@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਜ ਪਰੇ ਘਰ ਤਾਕ ਤਿਹਾਰਾ ॥੧॥੨੮੭॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Have run and hid themselves in thy home.1.287."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਜੇ ਹੋਏ ਤੁਹਾਡੇ ਘਰ ਆਏ ਹਨ ॥੧॥੨੮੭॥"

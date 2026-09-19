@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਇਕ ਕਵਾਉ ਪਸਾਉ ਕਰਿ; ਓਅੰਕਾਰ ਅਨੇਕ ਅਕਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "By one bang, the Oankar created and spread myriad of forms."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਓਅੰਕਾਰ' (ਪਰਮਾਤਮਾ) ਨੇ ਇਕ ਵਾਕ ਤੋਂ ਅਨੇਕ 'ਅਕਾਰੀ' (ਸਰੀਰ ਦਾ) ਪਸਾਰਾ ਕੀਤਾ ਹੈ।"

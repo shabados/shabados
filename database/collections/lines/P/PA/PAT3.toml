@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਾਗੂ ਵਰੁ ਨ ਸਰਾਪ; ਨ ਆਪ ਜਣਾਵਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He never makes anybody notice Him and boons and curses do not stick to Him."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਆਪ ਨੂੰ ਜਣਾਉਂਦਾ ਹੈ ਨਾ ਵਰ ਸਰਾਪ ਦਾ ਲਾਗੂ ਬਣਦਾ ਹੈ।"

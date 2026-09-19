@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਧਰਮੰ ਨ ਭਰਮੰ, ਨ ਸਰਮੰ ਨ ਸਾਕੇ ॥"
 page = 26
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without religion, without illusion, without shyness and without relations."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ! ਤੇਰਾ) ਨਾ ਧਰਮ ਹੈ, ਨਾ ਭਰਮ ਹੈ, ਨਾ ਸਾਧਨਾ ਹੈ ਅਤੇ ਨਾ ਹੀ ਸਾਕ ਸੰਬੰਧ ਹੈ।"

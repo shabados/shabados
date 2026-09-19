@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੀਅ ਕੇ ਦਾਤੇ; ਪ੍ਰੀਤਮ ਪ੍ਰਭ ਮੇਰੇ ॥"
 page = 562
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my Beloved Lord, Thou art the Giver of life unto me."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੈਡੇ ਪਿਆਰੇ ਸਾਹਿਬ! ਤੂੰ ਮੈਨੂੰ ਜਿੰਦ-ਜਾਨ ਦੇਣ ਵਾਲਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "You are the Giver of souls, O my Beloved God."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਪ੍ਰੀਤਮ! ਜੀਵੋਂ ਕੇ ਦਾਤੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਜਿੰਦ ਦੇਣ ਵਾਲੇ ਪ੍ਰਭੂ! ਹੇ ਮੇਰੇ ਪ੍ਰੀਤਮ ਪ੍ਰਭੂ!"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜੀਅ ਕੇ ਦਾਤੇ = ਹੇ ਜਿੰਦ ਦੇਣ ਵਾਲੇ! ਪ੍ਰਭ = ਹੇ ਪ੍ਰਭੂ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Dador del Alma, Señor Maravilloso, mi Amor,"

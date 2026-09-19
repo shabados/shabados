@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੂਟੈ ਕਹਾ ਨਿਗੌਡੀ ਜਾਗੀ ॥"
 page = 883
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rani was entangled in this strange affection, which could not be rid off."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਚੰਦਰੀ (ਪ੍ਰੀਤ) ਲਗੀ ਹੋਈ ਛੁਟਦੀ ਨਹੀਂ।"

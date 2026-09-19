@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਵਾ ਗੋਬਰ ਲੇਹੁ ਮਗਾਇ ॥"
 page = 1321
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਲਈ) ਹੇ ਰਾਜਨ! ਗਾਂ ਦਾ ਗੋਬਰ (ਪਾਥੀਆਂ) ਮੰਗਵਾ ਲਵੋ"

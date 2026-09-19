@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸੁਖ ਫਲ, ਨਿਹਚਉ ਨਾਰੀ ॥੧੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "She assuredly brings happiness to the virtuous."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖ (ਹੀ) ਨਿਹਚਉ ਨਾਰੀ (ਅਰਥਾਤ ਪਤਿਬ੍ਰਤਾ ਇਸਤ੍ਰ੍ਰੀ) ਹੈ, (ਓਹੀ) (ਸੁਖ ਫਲ) ਆਤਮ ਫਲ (ਦਾ ਅਨੰਦ ਅੰਤਹਕਰਣ ਦੀ ਸੇਜਾ ਪੁਰ ਮਾਣਦੀ ਹੈ)।"

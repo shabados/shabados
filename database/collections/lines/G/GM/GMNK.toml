@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਰਿ ਕਰਿ ਥਾਕੇ; ਵਡੇ ਵਡੇਰੇ ॥"
 page = 889
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "All thine forefathers got tired doing worldly tasks."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਪਿਓ ਦਾਦੇ ਸੰਸਾਰੀ ਵਿਹਾਰ ਕਾਰ ਕਰਦੇ ਹੰਭ ਗਏ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Even the greatest of the great worked and worked until they were exhausted."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਬਡਿਓਂ ਸੇ ਬਡੇ ਜੋ ਥੇ, ਸੋ ਸਭ ਉਪਾਵ ਕਰ ਕਰ ਕੇ ਥਕ ਗਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਿੱਤਰ! ਤੈਥੋਂ ਪਹਿਲਾਂ ਹੋ ਚੁਕੇ ਸਭ ਬੰਦੇ ਮਾਇਆ ਦੇ ਧੰਧੇ ਕਰ ਕਰ ਕੇ ਥੱਕਦੇ ਰਹੇ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰਿ = ਕਰ ਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Mucho más poderosos que tú,"

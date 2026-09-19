@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੀ ਨਾਸ ਬਿਵਤ ਜਿਯ ਆਨੀ ॥"
 page = 859
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Jat was rightly furious and planned to get rid of her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਦੇ ਵਿਨਾਸ਼ ਦੀ ਵਿਉਂਤ ਮਨ ਵਿਚ ਵਿਚਾਰੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੰਡ ਖੰਡ ਕਰਿ ਦਾਨਵ ਮਾਰੇ ॥"
 page = 1379
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਟੋਟੇ ਟੋਟੇ ਕਰ ਕੇ ਦੈਂਤਾਂ ਨੂੰ ਮਾਰ ਦਿੱਤਾ"

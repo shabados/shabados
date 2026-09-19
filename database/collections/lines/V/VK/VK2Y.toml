@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਪਰੇ ਦਤ ਕੇ ਚਰਨਿ ਆਨਿ ॥"
 page = 648
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ (ਉਹ) ਆ ਕੇ ਦੱਤ ਦੇ ਚਰਨੀਂ ਪੈ ਗਏ"

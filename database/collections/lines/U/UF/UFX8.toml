@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਪਾਵਤੀ ਧਾਮ ਤਿਹ ਦਾਰਾ ॥"
 page = 1203
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਘਰ ਚੰਪਾਵਤੀ ਨਾਂ ਦੀ ਇਸਤਰੀ ਸੀ।"

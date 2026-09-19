@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਪੁਸ਼ਤਸ਼ ਬਿਅਫ਼ਤਾਦ ਦੁਖ਼ਤਰ ਵਜ਼ੀਰ ॥"
 page = 1424
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Minister’s daughter pursued him,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਪਿਛੇ ਵਜ਼ੀਰ ਦੀ ਲੜਕੀ ਚਲੀ ਗਈ"

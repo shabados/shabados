@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬੈਰੀ ਸਭਿ ਹੋਵਹਿ ਮੀਤ ॥"
 page = 895
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "All thine enemies shall become thy friends,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਸਾਰੇ ਦੁਸ਼ਮਨ ਤੇਰੇ ਮਿੱਤਰ ਹੋ ਜਾਣਗੇ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All your enemies will become friends."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਾ ਬੈਰੀ ਭੀ ਸਭ ਮੀਤ ਹੋ ਜਾਵੇਂਗੇ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਨਾਮ ਜਪਿਆਂ ਤੇਰੇ) ਸਾਰੇ ਵੈਰੀ (ਤੇਰੇ) ਮਿੱਤਰ ਬਣ ਜਾਣਗੇ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਭਿ = ਸਾਰੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "tus adversarios se volverán amigos"

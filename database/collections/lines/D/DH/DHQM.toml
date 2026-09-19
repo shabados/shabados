@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਖਿ ਨੈਨ ਰੂਪਿ ਰੀਝੰਤ ਨੈਨ ॥੩੬॥"
 page = 629
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Their glory cannot be described and seeing their figures, the eyes were getting pleased.36."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੱਖਾਂ ਦੇ ਰੂਪ ਨੂੰ ਵੇਖ ਕੇ ਅੱਖਾਂ ਰੀਝ ਰਹੀਆਂ ਸਨ ॥੩੬॥"

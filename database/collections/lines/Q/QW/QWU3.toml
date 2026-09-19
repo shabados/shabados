@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਚਾਰਿ ਕੁੰਟ; ਦਹ ਦਿਸੇ ਸਮਾਹਿ ॥"
 page = 294
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He is permeating the four quarters and the ten directions."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਚਰੀ ਪਾਸੀ ਅਤੇ ਦਸੀ ਤਰਫੀ ਰਮਿਆ ਹੋਇਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He is pervading in the four corners and in the ten directions."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਰੁ ਚਾਰੋਂ ਕੁੰਟਾਂ ਤੇ ਆਦਿਕ ਦਸੋਂ ਦਿਸਾਂ ਮੇਂ ਸਮਾਇ ਰਹਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਚਹੁੰ ਕੂਟਾਂ ਵਿਚ ਦਸੀਂ ਪਾਸੀਂ (ਸਭ ਥਾਈਂ) ਸਮਾਇਆ ਹੋਇਆ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੁੰਟ = ਕੂਟ। ਦਿਸ = ਤਰਫ਼, ਪਾਸਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y también se extiende a cada región en las diez direcciones."

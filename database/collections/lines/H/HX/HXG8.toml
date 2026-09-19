@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਾਇ ਧਾਇ ਜੂਝ ਹੈਂ; ਅਰੂਝਿ ਜੂਝਿ ਜਾਇ ਹੈਂ ॥"
 page = 589
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the warriors are moving forward in anger and are embracing martyrdom in the battlefield"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਜ ਭਜ ਕੇ ਲੜਦੇ ਹਨ ਅਤੇ ਯੁੱਧ ਵਿਚ ਉਲਝ ਕੇ ਜੂਝਦੇ ਹਨ।"

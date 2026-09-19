@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋ ਕਹ ਬਿਸਰਿ ਸਕਲ ਸੁਧਿ ਗਈ ॥੬॥"
 page = 819
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And I have lost all my senses.’(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਸਾਰੀ ਸੁਧ ਬੁਧ ਭੁਲ ਗਈ ਹੈ ॥੬॥"

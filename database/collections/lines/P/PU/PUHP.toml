@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਛੁਰਾਸਰ ਹੰਤੀ ਖੰਕਾਲੀ ॥"
 page = 679
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The destroyer of Chachhasura and also the Sustainer of the earth"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਿਛੁਰ ਦੈਂਤ ਨੂੰ ਨਸ਼ਟ ਕਰਨ ਵਾਲੀ, ਭਿਆਨਕ ਰੂਪ ਵਾਲੀ,"

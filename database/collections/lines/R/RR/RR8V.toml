@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਿਥਨ ਮੋਹਰੀਆ ॥"
 page = 537
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "False is the love of,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਝੂਠੀ ਹੈ ਮਮਤਾ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "False is the love"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨ: ਜੀਵ ਝੂਠੇ ਪਦਾਰਥੋਂ ਕਾ ਮੋਹ ਕਰ ਰਹਿਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੀਵ ਨੂੰ ਝੂਠਾ ਮੋਹ ਚੰਬੜਿਆ ਹੋਇਆ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਿਥਨ ਮੋਹਰੀਆ = ਮਿਥਨ ਮੋਹ, ਝੂਠਾ ਮੋਹ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Falso es el amor"

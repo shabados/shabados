@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਚਰਿਤ੍ਰ ਅਤਿ ਤਿਨ ਕਿਯੋ; ਸੋ ਤੁਹਿ ਕਹੋ ਸੁਧਾਰਿ ॥੧॥"
 page = 817
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now, with due modification, I re-narrate the wonder she performed.(l)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਇਕ ਵੱਡਾ ਚਰਿਤ੍ਰ ਕੀਤਾ, ਉਹੀ ਮੈਂ ਸੁਧਾਰ ਕੇ ਕਹਿੰਦਾ ਹਾਂ ॥੧॥"

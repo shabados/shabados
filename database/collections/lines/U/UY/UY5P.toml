@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜੇ ਮਹਿਖੀਸੰ ਸੁਮੇਰੰ ਜੁ ਦੀਸੰ ॥"
 page = 631
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਝੋਟੇ ਉਤੇ ਚੜ੍ਹਿਆ ਹੋਇਆ ਹੈ ਅਤੇ ਸੁਮੇਰ ਪਰਬਤ ਵਾਂਗ ਦਿਸਦਾ ਹੈ।"

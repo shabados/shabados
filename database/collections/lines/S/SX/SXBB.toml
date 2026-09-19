@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਵਕ ਤੇਜ ਰੂਪ ਅਨੁਮਾਨ੍ਰਯੋ ॥"
 page = 624
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The saints thought of him as manifestation of peace and the fire thought of him as effulgence"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਗਨੀ ਨੇ ਉਸ ਨੂੰ ਤੇਜ ਵਜੋਂ ਅਨੁਮਾਨ ਕੀਤਾ।"

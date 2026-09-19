@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੰਗ ਚਲਾਲਾ ਕੋ; ਇਕ ਰਾਇ ਬਖਾਨਿਯੈ ॥"
 page = 816
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was the brave ruler of the city of Lang Chalala"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੰਗ ਚਲਾਲਾ (ਨਾਂ ਦੇ ਨਗਰ) ਦਾ"

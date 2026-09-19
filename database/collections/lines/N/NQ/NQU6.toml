@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਨ ਪੂਜਾ ਕਹੂੰ ਨ ਅਰਚਾ ॥"
 page = 563
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਵੀ ਨਾ ਪੂਜਾ ਹੁੰਦੀ ਹੈ ਅਤੇ ਨਾ ਹੀ ਅਰਚਾ ਹੁੰਦੀ ਹੈ।"

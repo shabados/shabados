@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਚਨ ਕਹਾ ਹਸਿ ਕਰਿ ਪਿਯ ਸੋ ਤਬ ॥"
 page = 1228
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਹਸ ਕੇ ਪ੍ਰੀਤਮ ਨਾਲ ਇਸ ਤਰ੍ਹਾਂ ਬੋਲ ਸਾਂਝੇ ਕੀਤੇ।"

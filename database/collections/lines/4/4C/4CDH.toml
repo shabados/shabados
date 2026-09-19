@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫ਼ਰਿਸ਼ਤਹ ਸਿਫ਼ਤ ਚੂੰ ਮਲਾਯਕ ਮਕਾਨ ॥੩੮॥"
 page = 1396
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘To whom have you denoted them?‘(38)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀਆਂ ਸਿਫ਼ਤਾਂ ਫਰਿਸ਼ਤਿਆਂ ਵਰਗੀਆਂ ਅਤੇ ਪਦਵੀ ਦੇਵਤਿਆਂ ਵਰਗੀ ਸੀ ॥੩੮॥"

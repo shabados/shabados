@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿ ਨਾਮੁ ਲੇਤ ਪ੍ਰਭਾਤ ॥੨੭੦॥"
 page = 657
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Had a fine physique, used to remember the Name of the Lord at day-dawn.270."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭਾਤ ਵੇਲੇ ਹਰਿ ਨਾਮ ਲੈਂਦਾ ਹੈ ॥੨੭੦॥"

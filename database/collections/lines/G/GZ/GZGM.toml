@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰਮੇਸ੍ਰੀ ਪਰਮਾ ਪਾਵਿਤ੍ਰੀ ॥੪੬॥"
 page = 679
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You are Sati Savitri with blood-saturated limbs and the Supremely Immaculate Parmeshwari.46."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮੇਸ਼੍ਵਰੀ, ਅਤੇ ਪਰਮ ਪਵਿਤ੍ਰ ਦੇਵੀ ਹੈਂ ॥੪੬॥"

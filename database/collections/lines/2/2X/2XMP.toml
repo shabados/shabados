@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜੰਮਣੁ ਮਰਣਹੁ ਬਾਹਰੇ; ਪਰਉਪਕਾਰੀ ਜਗ ਵਿਚਿ ਆਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Being beyond transmigration the altruists came in this world."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਨਮ ਮਰਣ ਤੋਂ ਰਹਿਤ (ਓਹ) ਪਰਉਪਕਾਰੀ ਜਗਤ ਵਿਖੇ ਆਏ।"

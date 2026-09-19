@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਵੈ ਵੈਦੁ ਸੁਵੈਦੁ ਘਰਿ; ਦਾਰੂ ਦਸੈ ਰੋਗੁ ਲਹੰਦਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "If a mature physician is found, he prescribes the right medicine, which removes the malady."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਕੋਈ ਸ਼ਿਰੋਮਣੀ ਹਕੀਮ ਘਰ ਵਿਖੇ ਆਉਂਦਾ ਹੈ ਤਾਂ ਉਸ ਦੇ ਦਾਰੂ ਦੱਸਣ ਨਾਲ ਰੋਗ ਹਟ ਜਾਂਦਾ ਹੈ।"

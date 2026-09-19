@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮੂਰਖ ਪੰਡਿਤੁ, ਸੁਰਤਿ ਵਿਸੇਖੈ ॥੧੮॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Thus because of his specific thinking even the pandit was also proved a fool."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੂਰਖ ਤੇ ਪੰਡਤ ਵਿਖੇ ਗ੍ਯਾਤ ਦੀ ਵਿਸ਼ੇਸ਼ਤਾ ਹੈ।"

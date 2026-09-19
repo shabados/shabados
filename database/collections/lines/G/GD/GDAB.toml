@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਉ ਚਹੂੰ ਓਰ ਫਿਰਿਓ ਬਸੁਧਾ; ਛਬਿ ਅੰਗਨ ਕੀਨ ਕਹੂੰ ਕੋਈ ਪਾਊ ॥"
 page = 632
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I have searched on all the earth in order to find someone so beautiful as you, but I was not successful"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਧਰਤੀ ਉਤੇ ਚੌਹਾਂ ਪਾਸੇ ਫਿਰਿਆ ਹਾਂ ਕਿ ਕਿਤੋਂ (ਰਾਜੇ ਦੇ) ਅੰਗਾਂ ਦੀ ਕੋਈ (ਉਪਮਾ) ਲਭ ਲਵਾਂ।"

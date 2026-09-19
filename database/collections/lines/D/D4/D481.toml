@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰਾਖਨਹਾਰ ਨਿਦਾਨ ॥੩॥"
 page = 895
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "shall be thy Saviour in the end."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਅੰਤ ਨੂੰ ਤੇਰਾ ਰਖਵਾਲਾ ਹੋਵੇਗਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He will be your Saving Grace in the end. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਵਹੀ ਅੰਤ ਕੋ ਰਾਖਨਹਾਰਾ ਹੈ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹੀ ਆਖ਼ਰ ਰੱਖਿਆ ਕਰਨ ਜੋਗਾ ਹੈ ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਿਦਾਨ = ਆਖ਼ਰ ਨੂੰ, ਜਦੋਂ ਹੋਰ ਸਾਰੀਆਂ ਆਸਾਂ ਮੁੱਕ ਜਾਣ ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "es Quien te protegerá al final.(3)"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਗਲ ਬਿਆਧਿ; ਮਨ ਤੇ ਖੈ ਨਸੇ ॥"
 page = 287
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "All the evils are destroyed and vanish from the mind."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀਆਂ ਬਦੀਆਂ ਤਬਾਹ ਅਤੇ ਚਿੱਤ ਤੋਂ ਅਲੋਪ ਹੋ ਜਾਂਦੀਆਂ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "All evils are dispelled from the mind."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੰਪੂਰਨ (ਬਿਆਧਿ) ਰੋਗੁ ਖੈ ਕਰਨੇ ਹਾਰੇ ਤਿਨ ਕੇ ਰਿਦੇ ਸੇ ਨਾਸ ਹੋ ਗਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਰੋਗ ਨਾਸ ਹੋ ਕੇ ਮਨੋਂ ਵਿਸਰ ਗਏ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਆਪਿ = {Skt. व्याधि} ਸਰੀਰਕ ਰੋਗ। ਖੈ = ਨਾਸ ਹੋ ਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y así él transcurre con la mente liberada de temores y aflicciones."

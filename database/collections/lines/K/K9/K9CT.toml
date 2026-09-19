@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਸਰਬ ਭੰਗੇ ॥੨੨॥"
 page = 2
 line = 16
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to Thee O All-destroying Lord! 22"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਾਰਿਆਂ ਨੂੰ ਲਯ (ਨਸ਼ਟ) ਕਰਨ ਵਾਲੇ! (ਤੈਨੂੰ) ਨਮਸਕਾਰ ਹੈ ॥੨੨॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਨਮੋ, ਸਰਬ ਭੰਗੇ ॥੨੨॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਨਮੁਖੁ ਕੂੜੁ ਕੁਰੰਗ ਹੈ; ਫੁਲ ਕੁਸੁੰਭੈ ਥਿਰ ਨ ਰਹੰਦਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The colour of mind oriented, manmukh, is like the colour of safflower which soon fades away."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮਨਮੁਖ ਝੂਠਾ ਖੋਟੇ ਰੰਗ ਵਾਲਾ ਹੈ, (ਜਿੱਕੁਰ) ਕਸੁੰਭੇ ਦੇ ਫੁੱਲ (ਦਾ ਰੰਗ) ਸਥਿਰ ਨਹੀਂ ਰਹਿੰਦਾ।"

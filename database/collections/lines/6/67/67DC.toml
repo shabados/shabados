@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਤੈ ਤਾਤ ਹਮਰੇ ਤਹਾ; ਨਾਮ ਕਰਨ ਕਰਿ ਦੇਹੁ ॥"
 page = 299
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਉਸ ਦੇ (ਘਰ) ਮੇਰਾ ਪੁੱਤਰ ਹੈ। ਉਸ ਦਾ 'ਨਾਮਕਰਣ' ਕਰ ਦੇਵੋ,"

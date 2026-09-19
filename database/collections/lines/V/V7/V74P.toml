@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਪੰ ਸੀਸ ਫੂਟੇ ॥੧੭॥"
 page = 175
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The volleys of arrows were shot and the heads of the kings were shattered. 17."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵੈਰੀਆਂ ਦੇ ਸਿਰ ਫੁਟ ਰਹੇ ਸਨ ॥੧੭॥"

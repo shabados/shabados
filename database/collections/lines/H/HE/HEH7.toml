@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਧੂ ਧੂੜਿ ਦੁਲੰਭ ਹੈ; ਸਾਧਸੰਗਤਿ ਸਤਿਗੁਰੁ ਸਰਣਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "That the dust of the feet of sadhu is rare and is obtainable only by coming under the shelter of the true Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੰਤਾਂ ਦੇ ਚਰਣਾਂ ਦੀ ਧੂੜ ਵੱਡੀ ਹੀ ਦੁਰਲੱਭ ਹੈ, (ਜੋ) ਸਤਿਗੁਰੂ ਅਤੇ ਸਾਧਸੰਗਤ (ਦੀ) ਸ਼ਰਨ ਆਉਣ (ਦਾ ਨਾਮ) ਹੈ।"

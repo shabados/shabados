@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਯਮਾਨ ਹ੍ਵੈ ਤਜਿ ਗਰਬ ॥੩੨॥"
 page = 637
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the wife of the sage in anger, getting fearful and forsaking his pride, and taking Shiva and other sages with him, Brahma fled.32."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੰਕਾਰ ਨੂੰ ਛਡ ਕੇ ਭੈਮਾਨ ਹੋ ਗਿਆ ॥੩੨॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਸੁਤ ਦੂਤਿਕ ਤਹਾ ਪਠਾਇਸਿ ॥"
 page = 1158
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਦੇ ਪੁੱਤਰਾਂ ਨੇ ਇਕ ਦੂਤੀ ਉਥੇ ਭੇਜੀ।"

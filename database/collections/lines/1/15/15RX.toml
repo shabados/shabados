@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਸ ਬਸੈ ਫਿਰਿ ਕਾਲ ਨਸੈ; ਚਿਤ ਭੀਤਰ ਸਾਚ ਇਹੈ ਠਹਿਰੈਯੈ ॥"
 page = 968
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘It is true, ifhe dwells in this country, the famine will be eradicated."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਮਨ ਵਿਚ ਸੱਚ ਜਾਣੋ ਕਿ ਜਦੋਂ ਉਹ ਦੇਸ ਵਿਚ ਆ ਕੇ ਵਸੇਗਾ ਤਾਂ ਕਾਲ ਖ਼ਤਮ ਹੋ ਜਾਏਗਾ।"

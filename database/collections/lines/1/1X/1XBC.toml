@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਾਂ ਕਸ ਕਿ ਊ ਰਾਸਤਬਾਜ਼ੀ ਕੁਨਦ ॥"
 page = 1393
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who is truthful and follows the right path,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਰ ਉਹ ਆਦਮੀ ਜੋ ਸਚਾਈ ਦੀ ਕਮਾਈ ਕਰਦਾ ਹੈ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮ੍ਰਿਗੀ ਰਾਜ ਨੈਣੀ ॥੯੬॥"
 page = 209
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her words were winsome like those of the nightingale. She had eyes like the eyes of the king of deer.96."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹਿਰਨ ਵਰਗੀਆਂ ਅੱਖਾਂ ਵਾਲੀ ਸੀ ॥੯੬॥"

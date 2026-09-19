@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਜੇ ਤੀਰੰ ॥੫੦੮॥"
 page = 253
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They are falling while discharging the arrows.508."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੀਰ ਛੱਡ ਰਹੇ ਹਨ ॥੫੦੮॥"

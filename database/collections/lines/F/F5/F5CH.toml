@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਨਿ ਸਬਦ ਕੋ ਆਦਿ ਉਚਾਰੋ ॥"
 page = 757
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਧਰਨਿ' ਸ਼ਬਦ ਦਾ ਉਚਾਰਨ ਕਰੋ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਤ੍ਰਿਯ ਰਾਜ ਮਤੀ ਤਿਹ ਨਾਮਾ ॥"
 page = 863
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਇਸਤਰੀ ਦਾ ਨਾਂ ਰਾਜ ਮਤੀ ਸੀ"

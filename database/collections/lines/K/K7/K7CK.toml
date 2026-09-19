@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਰੋ ਪੁਰਖ ਜਗਤ ਉਜਿਯਾਰਾ ॥੨॥"
 page = 1222
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਗਤ ਵਿਚ ਪੂਰਨ ਪੁਰਸ਼ ਵਜੋਂ ਉਜਾਗਰ ਸੀ ॥੨॥"

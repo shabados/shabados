@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਂਧਰ ਕੀ ਪਦਵੀ ਕਹਿ ਪਾਵੈ ॥"
 page = 60
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who exhibits heresy in closing his eyes, attains the state of blindness."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਹ ਅੰਨ੍ਹਿਆਂ ਦਾ ਪਦ ਪ੍ਰਾਪਤ ਕਰਦਾ ਹੈ।"

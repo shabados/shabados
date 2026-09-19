@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਕੋ ਸਭ ਲੋਗਨ ਮੈ ਜਸੁ ਗਾਵਤ; ਛੂਟਤ ਹੈ ਤਿਨ ਤੇ ਨ ਕਬੈ ॥"
 page = 351
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਯਸ਼ ਸਾਰਿਆਂ ਲੋਕਾਂ ਵਿਚ ਗਾਇਆ ਜਾਂਦਾ ਹੈ, (ਉਹ) ਉਨ੍ਹਾਂ (ਗੋਪੀਆਂ) ਤੋਂ ਕਦੇ ਵੀ ਛੁਟ ਨਹੀਂ ਸਕਦਾ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਬ੍ਰਿਜਨਾਥ ਦਯੋ ਤਬ ਹੀ ਬਲੁ; ਜੁਧ ਕੋ ਕ੍ਰੋਧ ਕੀ ਓਰਿ ਪਚਾਰਿਯੋ ॥"
 page = 532
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Krishna gave his own strength to him and shouted in anger"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੇ (ਉਸ ਨੂੰ ਆਪਣਾ) ਬਲ ਦੇ ਦਿੱਤਾ ਅਤੇ ਕ੍ਰੋਧ ਪੂਰਵਕ (ਉਸ ਨੂੰ) ਜੰਗ ਕਰਨ ਲਈ ਪ੍ਰੇਰਿਆ।"

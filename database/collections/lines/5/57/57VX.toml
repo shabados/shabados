@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਾਨ ਫਿਰੰਗਨਿ ਬਹੁ ਕੇ ਹਰੈ ॥੭॥"
 page = 985
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "More and more he was inflamed, more he became resolute.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਹੁਤੇ ਵਿਦੇਸੀਆਂ ('ਫਿਰੰਗਨਿ') ਦੇ ਪ੍ਰਾਣ ਹਰ ਲੈਂਦਾ ॥੭॥"

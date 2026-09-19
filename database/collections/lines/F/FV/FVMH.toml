@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਾਜਤ ਤਾ ਮਹਿ ਯੌ ਹਰਿ ਜੂ; ਜਿਉ ਬਿਰਾਜਤ ਬੀਚ ਪੰਨਾ ਨਗ ਖਾਨਨ ॥੬੩੦॥"
 page = 357
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Krishna looks elegant with them like emerald and other precious stones in the mine.630."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਉਂ (ਮੁੰਦਰੀ ਦੇ) ਨਗ ਦੇ ਖ਼ਾਨਿਆਂ ਵਿਚ ਪੰਨਾ ਫਬਦਾ ਹੈ ॥੬੩੦॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਭਈ ਸੀਤਾ, ਤੈ ਇਯਾਨੀ ॥੮੨੧॥"
 page = 285
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then there was heard this speech from heaven, “O Sita, why are you acting childlike.”821."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਾਣੀ ਮੰਗਵਾ ਕੇ"

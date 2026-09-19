@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਤਾ ਸਹਿਤ ਇਹ ਜਿਯਤ ਨਿਕਰਿਯੈ ॥੮॥"
 page = 914
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Than the means to save the son-in-law from death, and contemplated an escape for him and her daughter.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਲੜਕੀ ਸਮੇਤ ਇਹ ਜੀਉਂਦਾ ਨਿਕਲ ਜਾਏ ॥੮॥"

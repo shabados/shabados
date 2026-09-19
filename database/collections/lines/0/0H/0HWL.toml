@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੋਣ ਬਮਾ ਸਭਹੂਨ ਬਿਚਾਰਾ ॥"
 page = 1263
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਸਭ ਨੇ ਲਹੂ ਦੀ ਉਲਟੀ ਸਮਝਿਆ।"

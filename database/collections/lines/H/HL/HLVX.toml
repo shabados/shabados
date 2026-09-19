@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਠਿ ਗੋਸਟਿ ਦੋਨੋ ਕਰੀ; ਸੋ ਮੈ ਕਹਤ ਬਖਾਨਿ ॥੮੪॥"
 page = 909
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "What discourse he delivered, I (the narrator) am going to relate it now.(84)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ) ਦੋਹਾਂ ਨੇ ਬੈਠ ਕੇ (ਜੋ) ਗੋਸਟਿ ਕੀਤੀ, ਹੁਣ ਮੈਂ ਉਸ ਦਾ ਬਖਾਨ ਕਰਦਾ ਹਾਂ ॥੮੪॥"

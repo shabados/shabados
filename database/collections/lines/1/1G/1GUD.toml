@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮਰੀ ਜਾਨਿ ਜਾਨ ਤੇ ਡਰਿਯੈ ॥੩੭॥"
 page = 963
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Don’t worry about me, I am concerned with your life only.(37)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੈਂ ਤਾਂ) ਤੁਹਾਡੀ ਜਾਨ ਜਾਣ ਤੋਂ ਡਰਦੀ ਹਾਂ ॥੩੭॥"

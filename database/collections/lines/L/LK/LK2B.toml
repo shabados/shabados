@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੋਠੋਹਾਰਿ ਨਾਰਿ ਇਕ ਰਹੈ ॥"
 page = 939
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੋਠੋਹਾਰ ਵਿਚ ਇਕ ਇਸਤਰੀ ਰਹਿੰਦੀ ਸੀ।"

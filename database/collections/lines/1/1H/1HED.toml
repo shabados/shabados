@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਠਾਢੀ ਨਿਕਟ ਤਵਨ ਤ੍ਰਿਯ ਬੂਝਿਯੋ ॥"
 page = 988
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When hit, her husband died, and while standing near by she thought,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੋਲ ਖੜੋਤੀ ਉਸ ਦੀ ਇਸਤਰੀ ਨੂੰ ਪਤਾ ਲਗ ਗਿਆ।"

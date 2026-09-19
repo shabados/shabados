@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਸ੍ਰੀ ਚਕ੍ਰ ਕੇ ਨਾਮ ॥"
 page = 718
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Description of the Names of Discus"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਸ੍ਰੀ ਚਕ੍ਰ ਦੇ ਨਾਂਵਾਂ ਦਾ ਵਰਣਨ"

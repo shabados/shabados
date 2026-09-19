@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅੰਜਨ ਬਿਹੀਨ ਅਨਭੰਜ ਨਾਥ ॥"
 page = 37
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without the impact of maya and is an Infrangible!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਇਆ ਤੋਂ ਰਹਿਤ ਅਤੇ ਅਟੁੱਟ ਸੁਆਮੀ ਹੈ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਚਰਨ ਕਮਲ ਸਿਉ; ਲਾਗੋ ਪਿਆਰੁ ॥"
 page = 1339
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Embracing love for the Lord's lotus feet,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਦੇ ਕੰਵਲ ਪੈਰਾਂ ਨਾਲ ਪ੍ਰੀਤ ਲਾਉਣ ਦੁਆਰਾ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I am in love with the Lotus Feet of the Lord;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਕੇ ਚਰਨ ਕਮਲੋਂ ਸਾਥ ਹਮਾਰੇ ਮਨ ਕਾ ਪਿਆਰ ਲਾਗਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਗੁਰੂ ਦੀ ਸਰਨ ਪਿਆਂ) ਪਰਮਾਤਮਾ ਦੇ ਸੋਹਣੇ ਚਰਨਾਂ ਨਾਲ ਪਿਆਰ ਬਣ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਿਉ = ਨਾਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Vivo enamorado del Loto de los Pies del Señor y el deseo sexual,"

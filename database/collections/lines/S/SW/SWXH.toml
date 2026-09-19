@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਜ਼ਰ ਕਰਦ ਕਸ ਬਰ, ਨ ਹਰਫ਼ੇ ਹਰਾਮ ॥"
 page = 1398
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘You have not objected to the improper act of any man."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ ਦੇ ਦੁਰ-ਬਚਨਾਂ ਵਲ ਨਜ਼ਰ ਨਹੀਂ ਕਰਦਾ ਹੈ"

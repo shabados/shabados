@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇਜਵਾਨ ਦੁਤਿਵਾਨ ਅਤੁਲ ਬਲ ॥"
 page = 1253
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਤੇਜਵਾਨ, ਸੁੰਦਰ ਅਤੇ ਅਤੁਲ ਬਲ ਵਾਲਾ ਸੀ।"

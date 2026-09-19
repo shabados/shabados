@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮੁਲ ਨ ਮਿਲੈ ਅਮੋਲੁ; ਨ ਕੀਮਤਿ ਪਾਈਐ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The way of life of gurmukhs is invaluable;"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਗੁਰਮੁਖ ਪੰਥ) ਅਮਲੋਕ ਹੈ, ਮੁੱਲ ਨਹੀਂ ਮਿਲਦਾ, ਨਾ (ਇਸ ਦੀ) ਕੀਮਤ ਪੈਂਦੀ ਹੈ।"

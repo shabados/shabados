@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਭਿ ਦੂਖ ਬਿਨਾਸੇ; ਰਾਮ ਰਾਇ ॥੩॥"
 page = 1169
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Through Thee, O sovereign Lord, all his sufferings are dispelled."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਰਾਹੀਂ, ਹੇ ਪਾਤਿਸ਼ਾਹ ਪਰੇਮਸ਼ਰ! ਉਸ ਦੇ ਸਾਰੇ ਦੁਖੜੇ ਦੂਰ ਹੋ ਜਾਂਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "You dispel all his sufferings, O Sovereign Lord God. ||3||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪੁਨਹ ਹੇ ਰਾਮ ਰਾਇ! ਤਿਸ ਕੇ ਸਭ ਦੁਖ ਬਿਨਾਸ ਕਰ ਦੇਤਾ ਹੈਂ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਰਾਮਰਾਇ! ਤੇਰੀ ਮੇਹਰ ਨਾਲ ਉਸ ਦੇ ਸਾਰੇ ਦੁੱਖ ਨਾਸ ਹੋ ਜਾਂਦੇ ਹਨ ॥੩॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਭਿ = ਸਾਰੇ। ਰਾਮਰਾਇ = ਹੇ ਪ੍ਰਕਾਸ਼-ਰੂਪ ਪ੍ਰਭੂ! ॥੩॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y todas sus aflicciones son disipadas, oh mi Rey, Dios mío. (3)"

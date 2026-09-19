@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੁੰਦਨ ਪੁਰੀ ਨਗਰ ਨਿਯਰਾਯੋ ॥੧੩॥"
 page = 1268
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕੁੰਦਨ ਪੁਰੀ ਨਗਰ ਦੇ ਨੇੜੇ ਆ ਗਿਆ ॥੧੩॥"

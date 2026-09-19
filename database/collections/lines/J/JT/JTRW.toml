@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੇਘਨਾਦ ਭਨ ਜਲਦਧੁਨਿ; ਪੁਨਿ ਘਨਨਿਸਨ ਉਚਾਰਿ ॥"
 page = 726
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਘ ਨਾਦ, ਜਲਦਧੁਨਿ ਅਤੇ ਘਨਨਿਸਨ (ਬਦਲ ਵਰਗੀ ਧੁਨਿ ਵਾਲਾ) ਸ਼ਬਦ ਕਹਿ ਕੇ"

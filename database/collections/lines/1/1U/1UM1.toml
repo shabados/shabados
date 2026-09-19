@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਬ︀ਯਾਕਰਣ ਬੈਸਿਕਾਲਾਪ ਕਥੇ ॥"
 page = 151
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere other grammatical works including that of Vaisheshika were discussed"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਵਿਆਕਰਣ ਅਤੇ ਵੈਸ਼ੇਸ਼ਿਕ ('ਬੈਸਿਕਾਲਾਪ') ਦਾ ਕਥਨ (ਹੋ ਰਿਹਾ ਸੀ)।"

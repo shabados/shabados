@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਨੇ ਉਸਨੂੰ ਵੱਡੀ ਵਡਿਆਈ ਅਤੇ ਸਖਾਵਤ ਬਖਸ਼ੀ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹੱਕਸ਼ ਦਾਦ ਅਜ਼ ਗ਼ਾਇਤਿ ਮੁਕਰਮਤ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Akaalpurakh has blessed him with praises and generosity,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਗਟ ਸਭਾ ਸਬ ਸੁਨਤ ਉਚਾਰਾ ॥"
 page = 709
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thinking in this way in his mind, the king apparently addressed all,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀ ਸਭਾ ਨੂੰ ਸੁਣਾਉਣ ਲਈ ਪ੍ਰਗਟ ਤੌਰ ਤੇ (ਇਹ) ਕਥਨ ਕੀਤਾ।"

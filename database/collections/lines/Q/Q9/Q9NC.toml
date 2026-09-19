@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਾਂਜਾਰ ਗਾਡਰ ਅਰੁ ਲੂਬਰਾ ॥"
 page = 1160
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "the cats, sheep, foxes,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਬਿੱਲੀਆਂ, ਭੇਡਾਂ ਅਤੇ ਲੂੰਬੜੀਆਂ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "cats, sheep, foxes,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਮਾਂਜਾਰ) ਬਿਲੇ ਔਰ (ਗਾਡਰ) ਭੇਡ ਔਰ ਲੂਬਰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਬਿੱਲੇ, ਭੇਡਾਂ, ਲੂੰਬੜ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਾਜਾਰ = ਬਿੱਲੇ। ਗਾਡਰ = ਭੇਡਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "los zorros, los corderos y los gatos, sí los árboles"

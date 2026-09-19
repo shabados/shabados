@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਨੁ ਸੌਦਾ ਆਵਤ ਭਈ; ਤੀਰ ਪਿਯਾ ਕੇ ਨਾਰਿ ॥"
 page = 863
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Without doing shopping she came back to her husband."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਬਿਨਾ ਸੌਦਾ (ਖ਼ਰੀਦਿਆਂ) ਆਪਣੇ ਪਤੀ ਕੋਲ ਆ ਗਈ।"

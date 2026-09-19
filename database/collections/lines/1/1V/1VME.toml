@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਨੇਤ ਨਿਗਮ ਕਹੰਤ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "To Him  the Nigam (Vedas) call “Neti” (Not this),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਵੇਦ ('ਨਿਗਮ') ਨੇਤਿ ਨੇਤਿ (ਬੇਅੰਤ ਬੇਅੰਤ) ਕਹਿੰਦੇ ਹਨ,"

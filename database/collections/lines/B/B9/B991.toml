@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਰਾਨੀ ਅਤਿ ਹੀ ਹਰਖਾਈ ॥੨੮॥"
 page = 1000
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After leaving him, when her friends returned, Rani felt a sigh of relief.(28)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਰਾਣੀ ਬਹੁਤ ਹੀ ਖ਼ੁਸ਼ ਹੋਈ ॥੨੮॥"

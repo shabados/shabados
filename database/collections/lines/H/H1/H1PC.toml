@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਵੰਤ ਬੀਨ ਬੀਨਾ ਬਜੰਤ ॥"
 page = 603
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਬੀਨ ('ਬੀਨ') (ਅਪੱਛਰਾਵਾਂ) ਗੀਤ ਗਾ ਰਹੀਆਂ ਹਨ ਅਤੇ ਬੀਣਾ ਵਜਾ ਰਹੀਆਂ ਹਨ"

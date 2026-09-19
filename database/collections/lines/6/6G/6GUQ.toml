@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਰਹਾ ਕੀ ਪਾਵਕ ਮਹਿ ਬਰਿ ਹੌ ॥੭॥"
 page = 1182
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਬਸ) ਵਿਯੋਗ ਦੀ ਅੱਗ ਵਿਚ ਸੜਦੀ ਰਹਾਂ ॥੭॥"

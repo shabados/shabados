@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੌਨ ਤ੍ਰਿਯਾ ਕੋ ਬੋਲਿ ਪਠਾਵੈ ॥"
 page = 1002
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Acquiescing to this Raja would get that woman,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਉਸ ਇਸਤਰੀ ਨੂੰ ਬੁਲਾ ਲੈਂਦਾ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੀਂਗ ਬਾਸ ਤਸਕਰ ਜਹ ਪਾਵੈ ॥"
 page = 1078
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਹਿੰਗ ਦੀ ਵਾਸਨਾ ਚੋਰਾਂ ਨੂੰ ਮਿਲਦੀ,"

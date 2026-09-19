@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਗਵੇ ਬਸਤ੍ਰ ਧਾਰੇ ॥"
 page = 208
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He wore the garments of a Yogi on forsaking the beautiful royal dress,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭਗਵੇਂ ਬਸਤ੍ਰ ਪਾ ਲਏ।"

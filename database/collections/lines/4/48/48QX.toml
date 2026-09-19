@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਏਕ ਰੈਨਿ ਜਗਿ ਬਹੁਰਿ; ਸਦਨ ਉਠਿ ਆਇਹੌ ॥੬॥"
 page = 1024
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਕ ਰਾਤ ਜਗਰਾਤਾ ਕਟ ਕੇ ਫਿਰ ਘਰ ਪਰਤ ਆਵਾਂਗੀ ॥੬॥"

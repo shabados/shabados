@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਵਾ ਕਰਦ ਓ ਰਾ ਬ ਦਰੀਯਾ ਅਜ਼ੀਮ ॥"
 page = 1419
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He let loose both of them in the deep river,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਬਾਦਸ਼ਾਹ ਨੇ) ਉਨ੍ਹਾਂ ਨੂੰ ਵੱਡੇ ਦਰਿਆ ਵਿਚ ਵੱਖਰਾ ਵੱਖਰਾ ਚਲਾ ਦਿੱਤਾ।"

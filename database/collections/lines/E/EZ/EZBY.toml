@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਭਿ ਕਮਲ; ਜਾਨੇ ਬ੍ਰਹਮਾਦਿ ॥"
 page = 1194
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Brahma, who is born out of the naval lotus,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੰਵਲ ਦੀ ਧੁੰਨੀ ਤੋਂ ਪੈਦਾ ਹੋਇਆ ਹੋਇਆ ਬ੍ਰਹਮਾ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "were born out of Brahma's naval chakra."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਨਾਭ ਕਮਲ ਸੇ ਜੋ ਆਦਿ ਮੇਂ ਬ੍ਰਹਮਾ ਜੀ ਉਤਪਤਿ ਹੂਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਮਲ ਦੀ ਨਾਭੀ ਤੋਂ ਜਣੇ ਹੋਏ ਬ੍ਰਹਮਾ ਆਦਿਕ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਾਭਿ ਕਮਲ ਜਾਨੇ = ਕਮਲ ਦੀ ਨਾਭੀ ਤੋਂ ਜਣੇ ਹੋਏ। ਬ੍ਰਮਾਦਿ = ਬ੍ਰਹਮਾ ਆਦਿਕ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Brahma también, quien nació del tallo del Loto,"

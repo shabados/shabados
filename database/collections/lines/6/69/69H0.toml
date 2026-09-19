@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੋਗੀ ਜਤੀ ਪੰਡਿਤ ਬੀਚਾਰੀ ॥"
 page = 1004
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Some are Yogis, celibates, scholars and thinkers."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਯੋਗੀ, ਬ੍ਰਹਮਚਾਰੀ, ਵਿਦਵਾਨ ਅਤੇ ਵੀਚਾਰਵਾਨ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Some are Yogis, celibates, religious scholars and thinkers."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋਗੀ ਜਤੀ ਔ ਪੰਡਤ ਜੋ ਬਿਚਾਰਮਾਨ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਜੋਗੀ ਹਨ ਜਤੀ ਹਨ ਸਿਆਣੇ ਪੰਡਿਤ ਹਨ;"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬੀਚਾਰੀ = ਵਿਚਾਰਵਾਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "algunos son Yoguis, célibes, escolares religiosos o pensadores,"

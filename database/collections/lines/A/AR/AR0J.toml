@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਖ ਕਹੀ ਸੰਗ ਭ੍ਰਿਤਨ ਸੋ; ਇਕ ਖੇਲਨ ਕੋ ਰੰਗ ਭੂਮਿ ਬਨਈਯੈ ॥"
 page = 373
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Kansa told his guards to construct a stage"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜਾ ਕੰਸ ਨੇ ਆਪਣੇ) ਨੌਕਰਾਂ ਨਾਲ (ਇਹ ਗੱਲ) ਕੀਤੀ ਕਿ ਖੇਡਣ ਲਈ ਇਕ ਰੰਗ-ਭੂਮੀ ਬਣਾਓ।"

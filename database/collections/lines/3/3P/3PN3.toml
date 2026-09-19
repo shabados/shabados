@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਗੜਦੰਗ ਪ੍ਰਾਨਾਨ ਤੇ ਪ੍ਰਾਨ ਲੇਖਾ ॥੫੭੭॥"
 page = 260
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Wherever the brave fighters saw one another, they cleared the account only on sacrificing their lives.577."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਪ੍ਰਾਣਾਂ ਤੋਂ ਵੀ ਪਿਆਰਾ ਜਾਣਿਆ ਜਾਂਦਾ ਸੀ ॥੫੭੭॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਸਚੁ ਸਨਾਹੁ, ਦਾਦਿ ਇਲਾਹੀਐ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Gurmukhs have armour of truth which they have been gifted by the Lord."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖਾਂ ਨੂੰ ਸੱਚ ਦੀ ਸੰਜੋਅ ਪਰਮੇਸ਼ੁਰ ਦੀ ਦਾਤ ਮਿਲੀ ਹੈ।"

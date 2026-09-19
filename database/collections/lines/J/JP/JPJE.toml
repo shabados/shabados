@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਲਯ ਹੁਤੋ ਕੁਅਰ ਕੋ ਜਹਾ ॥"
 page = 1185
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਰਾਜ ਕੁਮਾਰ ਦਾ ਨਿਵਾਸ ਸਥਾਨ ਸੀ,"

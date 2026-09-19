@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰੁ ਨਾਨਕੁ ਤੁਠਾ; ਮਿਲਿਆ ਹਰਿ ਰਾਇ ॥"
 page = 375
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Nanak, when the Guru is mightily pleased one meets with God, the Hari King."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਾਨਕ, ਜਦ ਗੁਰੂ ਜੀ ਪਰਮ ਪਰਸੰਨ ਹੋ ਜਾਂਦੇ ਹਨ, ਇਨਸਾਨ ਵਾਹਿਗੁਰੂ ਰਾਜੇ ਨੂੰ ਮਿਲ ਪੈਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Nanak, when the Guru is totally pleased, one meets the Lord, the King."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਕਹਤੇ ਹੈਂ: ਜਬ ਗੁਰੂ (ਤੁਠਾ) ਪ੍ਰਸੰਨ ਭਇਆ ਹੈ ਤਬ ਹਰਿ ਰਾਜਾ ਮਿਲਿਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਨਕ! ਜਿਸ ਮਨੁੱਖ ਉਤੇ ਗੁਰੂ ਪ੍ਰਸੰਨ ਹੋ ਪਿਆ ਉਸ ਨੂੰ ਪ੍ਰਭੂ-ਪਾਤਿਸ਼ਾਹ ਮਿਲ ਪਿਆ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਤੁਠਾ = ਪ੍ਰਸੰਨ ਹੋਇਆ। ਹਰਿ ਰਾਇ = ਪ੍ਰਭੂ-ਪਾਤਿਸ਼ਾਹ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh, dice Nanak, cuando el Guru me muestra Su Misericordia, entonces me encuentro con mi Señor,"

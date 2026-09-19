@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੂਮ੍ਰਨੈਣ ਜਬ ਸੁਣੇ ਸੰਘਾਰੇ ॥"
 page = 105
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When it was learnt that Dhumar Nain had been killed,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸੁੰਭ ਨੇ) ਜਦੋਂ ਧੂਮ੍ਰਨੈਣ ਦੇ ਮਾਰੇ ਜਾਣ ਬਾਰੇ ਸੁਣਿਆ"

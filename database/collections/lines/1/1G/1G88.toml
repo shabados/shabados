@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਆਲ ਸਰੂਪ ਦਇਆ ਚਿਤਿ ਕੀਨਾ ॥"
 page = 625
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The saints viewed him as the personification of good conduct and absorbed his kindness in their mind"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦਇਆ ਨੇ ਦਿਆਲੂ ਵਜੋਂ ਚਿਤ ਵਿਚ ਵਿਚਾਰਿਆ।"

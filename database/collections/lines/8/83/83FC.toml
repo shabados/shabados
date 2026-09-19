@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੋਊ ਚਿਤ੍ਰ ਜੋਤੀ ਦੋਊ ਚਿਤ੍ਰ ਚਾਪੰ ॥"
 page = 147
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Both were marvelously beautiful carrying beautiful bows."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋਵੇਂ ਜੋਤਿ ਦੇ ਚਿਤਰ ਸਨ ਅਤੇ ਦੋਵੇਂ ਧਨੁਸ਼ ਦੀ ਮੂਰਤ ਸਨ।"

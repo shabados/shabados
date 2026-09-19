@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਹੀ ਮੋਹ ਸੋ ਚਉਦਹੂੰ ਲੋਕ ਛਾਇਆ ॥"
 page = 335
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the fourteen worlds are illumined by Thy Light"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ ਮੋਹ ਨਾਲ ਚੌਦਾਂ ਲੋਕਾਂ ਨੂੰ ਢਕਿਆ ਹੋਇਆ ਹੈ।"

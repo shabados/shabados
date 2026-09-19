@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੀਰਥ ਸਕਲ ਅਨ੍ਰਹਾਇ; ਮਿਲੀ ਮੁਹਿ ਆਇ ਕੈ ॥"
 page = 1115
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਸਾਰਿਆਂ ਤੀਰਥਾਂ ਦਾ ਇਸ਼ਨਾਨ ਕਰ ਕੇ ਮੈਨੂੰ ਆ ਕੇ ਮਿਲੀ ਹੈ"

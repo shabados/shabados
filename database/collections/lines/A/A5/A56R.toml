@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿ ਕਰਿ ਕੋਪ ਕਾਲ ਸ੍ਰੀ ਤਬ ਹੀ ॥"
 page = 1365
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਹੀ ਸ੍ਰੀ ਕਾਲ ਕ੍ਰੋਧ ਕਰ ਕੇ"

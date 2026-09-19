@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਈ ਭੀਰ ਗਾਢੀ, ਮਚਿਯੋ ਜੁਧ ਭਾਰੀ ॥"
 page = 1244
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਵੱਡੀ ਭੀੜ ਬਣ ਗਈ ਸੀ ਅਤੇ ਭਾਰੀ ਯੁੱਧ ਮਚਿਆ ਸੀ"

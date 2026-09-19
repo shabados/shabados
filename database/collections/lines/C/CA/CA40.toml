@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਸੁ ਦਿਨ ਰਾਖਤ ਕੰਠ ਲਗਾਈ ॥"
 page = 1327
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਾਤ ਦਿਨ ਉਸ ਨੂੰ ਗਲੇ ਨਾਲ ਲਗਾਈ ਰਖਦੀ ਸੀ।"

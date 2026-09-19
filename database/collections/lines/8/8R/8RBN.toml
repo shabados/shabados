@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘੋਰ ਭਯਾਨ ਅਯੋਧਨ ਪਾਰ︀ਯੋ ॥"
 page = 551
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He killed Bhishma, the son of Ganga and Karan, the son of Surya after fighting a dreadful war with them"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਨ੍ਹਾਂ ਨਾਲ ਭਿਆਨਕ ਯੁੱਧ ਰਚਾਇਆ।"

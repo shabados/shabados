@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਿਖਭਾਨੁ ਸੁਤਾ ਹਰਿ ਆਇਸ ਮਾਨ ਕੈ; ਖੇਲਤ ਭੀ ਅਤਿ ਹੀ ਸ੍ਰਮ ਕੈ ॥"
 page = 353
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Obeying Krishna, Radha is playing with effort single-mindedly"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਦੀ ਆਗਿਆ ਮੰਨ ਕੇ ਰਾਧਾ ਬੜੇ ਉਦਮ ਨਾਲ ਖੇਡਣ ਲਗ ਪਈ।"

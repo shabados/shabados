@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮੂਰਖ, ਸੁਰਤਿ ਨ ਜਸ ਅਪਜਸੈ ॥੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The stupid does not understand the difference between fame and infamy."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੂਰਖ ਨੂੰ ਆਪਣੇ ਜਸ ਅਪਜਸ ਦੀ ਸੁਰਤ ਨਹੀਂ ਹੈ।"

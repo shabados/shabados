@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਡੰਗਸਤੁ ॥੧੭॥੬੪॥"
 page = 133
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Lord is beyond all devices.17.64."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਡੰਗੇ ਜਾਣ ਤੋਂ ਮੁਕਤ ਹੈ ॥੧੭॥੬੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਣੈ ਦੈਤ ਛੁਦ੍ਰੰ ॥"
 page = 181
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rudra, in great fury, hath destroyed the demons,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਕਾਇਰ ਦੈਂਤਾਂ ਨੂੰ ਮਾਰ ਦਿੱਤਾ।"

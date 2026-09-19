@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤੁਮ ਸਭ ਘਟ ਭੀਤਰ; ਸਭ ਤੇ ਨ︀ਯਾਰੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And, in a unique way, You sojourn all the hearts."

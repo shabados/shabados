@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਛਲ ਸੌ ਰਾਜਾ ਛਲਾ; ਸਕਾ ਭੇਦ ਨਹਿ ਪਾਇ ॥"
 page = 1329
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਛਲ ਨਾਲ ਰਾਜਾ ਛਲਿਆ ਗਿਆ ਅਤੇ ਭੇਦ ਨੂੰ ਨਾ ਪਾ ਸਕਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇ ਕੇ ਗ੍ਰਿਹ ਸੰਪਤਿ ਘਨੀ; ਰਥ ਗਜ ਬਾਜ ਅਨੇਕ ॥੧॥"
 page = 812
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He enjoyed abundance of wealth, and possessed numerous material goods, chariots, elephants and horses.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਘਰ ਬਹੁਤ ਧਨ-ਦੌਲਤ ਅਤੇ ਅਨੇਕ ਰਥ, ਹਾਥੀ, ਘੋੜੇ ਸਨ ॥੧॥"

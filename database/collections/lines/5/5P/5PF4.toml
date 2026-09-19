@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਭ ਕੈ ਸੰਗਿ ਜੂਝ ਪੁਨਿ ਚਹਿਯੋ ॥"
 page = 481
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thinking thus, he caught hold of his bow in his hand and also thought of fighting with Krishna again"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨਾਲ ਫਿਰ ਲੜਨ ਲਈ ਚਾਹਵਾਨ ਹੋ ਗਿਆ ਹੈ।"

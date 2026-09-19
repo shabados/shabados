@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੂਹੈ ਰਾਖਹਿ; ਸਾਰਿ ਸਮਾਲਿ ॥੧॥"
 page = 200
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thou alone carefully preservest me."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੇਵਲ ਤੂੰ ਹੀ ਗਹੁ ਨਾਲ ਮੇਰੀ ਰੱਖਿਆ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "You preserve, protect and care for me. ||1||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਤੂੰ ਹੀ ਹਰ ਪਰਕਾਰ ਕੀ (ਸਾਰਿ) ਖਬਰ ਰਖਤਾ ਹੈਂ॥੧॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਹੀ (ਜੀਵਾਂ ਦੀ) ਸਾਰ ਲੈ ਕੇ ਸੰਭਾਲ ਕਰ ਕੇ ਰੱਖਿਆ ਕਰਦਾ ਹੈਂ ॥੧॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਾਰਿ = ਸਾਂਭ ਕੇ, ਸਾਰ ਲੈ ਕੇ। ਸਮਾਲਿ = ਸੰਭਾਲ ਕਰ ਕੇ ॥੧॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sólo Tú me cuidas. (1)"

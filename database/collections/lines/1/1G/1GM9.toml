@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁੰਡ ਮਨੋ ਗਜ ਰਾਜਨ ਜੈਸੀ ॥"
 page = 168
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the chopped arms of the warriors appear like the trunks of the elephants"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਗਜ-ਰਾਜ ਦੀ ਸੁੰਡ ਡਿਗੀ ਹੋਵੇ।"

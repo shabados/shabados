@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਤੈ ਜੁਝਾਰ ਸਿੰਘ ਭਯੋ ਆਡਾ ॥"
 page = 70
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਧਰ ਜੁਝਾਰ ਸਿੰਘ (ਰਣ-ਭੂਮੀ ਵਿਚ) ਇੰਜ ਡਟ ਗਿਆ"

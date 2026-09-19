@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖੇ ਹੀ ਆਭਾ ਬਨਿ ਆਵੈ ॥੯॥"
 page = 1170
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੀ ਖ਼ੂਬਸੂਰਤੀ ਵੇਖਦਿਆਂ ਹੀ ਬਣਦੀ ਸੀ ॥੯॥"

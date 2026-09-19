@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇ ਧਨਿ ਲੈ ਨਿਜਿ ਧਾਮ ਸਿਧਾਨੇ ॥੯॥"
 page = 66
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A dispute arose in giving and taking, therefore the Rajas returned to their places with the money.9."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਲਸਰੂਪ ਉਹ ਦੋਵੇਂ) ਧਨ ਲੈ ਕੇ ਆਪਣੇ ਆਪਣੇ ਘਰਾਂ ਨੂੰ ਪਰਤ ਗਏ ॥੯॥"

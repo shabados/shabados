@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਰਾਵ ਅਗਨਿਤ ਤੁਰਕ; ਕਹ ਲਗਿ ਲਰੈ ਰਸਾਇ ॥"
 page = 981
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja was all alone, but the Turks were in great number."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਾ ਇਕ ਇਕੱਲਾ ਸੀ ਅਤੇ ਤੁਰਕ ਅਣਗਿਣਤ ਸਨ, (ਉਹ) ਗੁੱਸੇ ਵਿਚ ਹੋ ਕੇ ਕਦ ਤਕ ਲੜਦਾ।"

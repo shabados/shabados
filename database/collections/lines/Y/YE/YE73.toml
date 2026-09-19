@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਰਗਾ ਦਾਨੋ ਡਹੇ ਰਣ; ਨਾਦ ਵਜਨ ਖੇਤੁ ਭੀਹਾਵਲੇ ॥"
 page = 121
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Durga and demons waged war in the battlefield where dreadful music is being played."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੁਰਗਾ ਅਤੇ ਦੈਂਤ ਯੁੱਧ ਵਿਚ ਜੁਟ ਗਏ ਸਨ ਅਤੇ ਰਣ-ਭੂਮੀ ਵਿਚ ਭਿਆਨਕ ਧੌਂਸੇ (ਨਾਦ) ਵੱਜ ਰਹੇ ਸਨ।"

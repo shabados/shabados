@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹੀ ਅਪਸਰਾ ਰੀਝਿ; ਰੂਪ ਲਖਿ ਰਾਇ ਕੋ ॥"
 page = 812
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the Raja the Fairy was captivated."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਦੇ ਰੂਪ ਨੂੰ ਵੇਖ ਕੇ ਅਪੱਛਰਾ ਮੋਹਿਤ ਹੋ ਗਈ।"

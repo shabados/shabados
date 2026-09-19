@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏ ਸਿਵ ਕੇ ਗਨ ਥਿਰੁ ਰਹੇ; ਅਤਿ ਮਨ ਕੋਪ ਬਢਾਇ ॥"
 page = 449
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Some ganas of Shiva remained stable"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵ ਦੇ ਕੇਵਲ ਇਹ ਗਣ ਕ੍ਰੋਧਵਾਨ ਹੋ ਕੇ (ਰਣ-ਭੂਮੀ ਵਿਚ) ਸਥਿਰ ਰਹੇ"

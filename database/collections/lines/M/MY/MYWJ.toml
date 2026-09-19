@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਣ︀ਯੋ ਪੇਟ ਮਧੰ ਛੁਰੀ ਜਮਦਾੜੰ ॥"
 page = 142
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Or I shall pierce my belly with the sharp dagger"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਾਂ ਮੈਂ ਆਪਣੇ) ਪੇਟ ਵਿਚ ਛੁਰੀ ਜਾਂ ਕਟਾਰ ਮਾਰ ਲਵਾਂਗਾ।"

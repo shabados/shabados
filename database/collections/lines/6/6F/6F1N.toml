@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਸਟਮ ਗੁਰੂ ਤਾਹਿ ਠਹਰਾਵਾ ॥"
 page = 651
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਅੱਠਵਾਂ ਗੁਰੂ ਮੰਨ ਲਿਆ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ︀ਯਾਇ ਨਹੀ ਹਰਿ ਕੇ ਘਰਿ ਭੀਤਰਿ ॥"
 page = 1258
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਦੇ ਘਰ ਨਿਆਂ ਨਹੀਂ ਹੈ।"

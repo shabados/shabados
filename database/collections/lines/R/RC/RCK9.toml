@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਸਾਵਨ ਮਾਸ ਕੇ ਮਧ ਬਿਖੈ; ਚਮਕੈ ਜਿਮ ਬਿਦੁਲਤਾ ਘਨ ਮੈ ॥੬੧੭॥"
 page = 356
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The poet says again that they appear like the lightnings flashing among the clouds in the month of Sawan.617."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਸਾਵਣ ਦੇ ਮਹੀਨੇ ਵਿਚ ਕਾਲੇ ਬਦਲ ਵਿਚ ਬਿਜਲੀ ਚਮਕਦੀ ਹੋਵੇ ॥੬੧੭॥"

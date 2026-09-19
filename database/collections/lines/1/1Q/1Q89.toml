@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਭ ਤੁਰਕ ਮਲੇਛ ਖਪਾਇ ਕਰਿ; ਸਚ ਬਨਤ ਬਨਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Abolishing all the Turks and barbarians, he inspired fidelity."

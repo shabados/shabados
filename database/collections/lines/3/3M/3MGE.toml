@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਸ੍ਰੀ ਪਾਸਿ ਕੇ ਨਾਮ ॥"
 page = 729
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now begins the description of the names of Shri Paash (Noose)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਸ੍ਰੀ ਪਾਸਿ ਦੇ ਨਾਂਵਾਂ ਦਾ ਕਥਨ"

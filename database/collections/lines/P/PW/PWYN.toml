@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਨ ਸੀਲ ਸਾਧੁ ਤਾ ਕੇ ਸੁਭਾਇ ॥"
 page = 640
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਸੁਭਾ ਗੁਣ, ਸੀਲ ਅਤੇ ਸਾਧੁਤਾ ਵਾਲਾ ਹੈ।"

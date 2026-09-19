@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਿਥਮ ਸਬਦ ਕੇ ਨਾਮ ਲੈ; ਪਰਧ੍ਵਨਿ ਪੁਨਿ ਪਦ ਦੇਹੁ ॥"
 page = 726
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਸਬਦ' (ਆਕਾਸ਼) ਨਾਮ ਲੈ ਕੇ ਫਿਰ 'ਪਰਧ੍ਵਨਿ' (ਬਦਲ) ਪਦ ਜੋੜ ਦਿਓ।"

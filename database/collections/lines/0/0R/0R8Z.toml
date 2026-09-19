@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਧੇ ਜੇਡ ਮੁਨਾਰੇ, ਅੰਦਰਿ ਖੇਤ ਦੈ ॥"
 page = 125
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those minarets-like demons in the battlefield"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਣ-ਖੇਤਰ ਵਿਚ ਯੋਧੇ ਮੁਨਾਰਿਆਂ ਜੇਡੇ (ਦਿਸ ਪੈਂਦੇ ਸਨ)।"

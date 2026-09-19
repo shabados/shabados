@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪ ਹਾਥ ਦੈ ਨਾਥ ਬਚਾਯੋ ॥੨੩॥"
 page = 73
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "No harm was done to them, the Lord saved them Himself.23."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਪ੍ਰਭੂ ਨੇ (ਉਨ੍ਹਾਂ ਨੂੰ) ਹੱਥ ਦੇ ਕੇ ਬਚਾਇਆ ॥੨੩॥"

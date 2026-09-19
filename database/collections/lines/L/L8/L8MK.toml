@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਤ੍ਰਿਯ ਕੋ ਹਰਿ ਲੀਜਿਯੈ; ਤਾਹਿ ਨ ਦੀਜੈ ਚਿਤ ॥"
 page = 820
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The woman’s heart may be captured but never let her steal your heart."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀ ਦੇ ਚਿਤ ਨੂੰ ਭਾਵੇਂ ਹਰ ਲਵੋ, (ਪਰ) ਉਸ ਨੂੰ (ਕਦੇ ਵੀ) ਚਿਤ ਨਾ ਦਿਓ।"

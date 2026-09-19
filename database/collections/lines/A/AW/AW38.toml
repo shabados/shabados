@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੂਸਰ ਪਾਵ ਗਗਨ ਲਉ ਹੂਆ ॥"
 page = 173
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With one step, he measured the nether-world and with the second step he measured the heavens."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੂਜਾ ਪੈਰ (ਕਦਮ) ਆਕਾਸ਼ ਤਕ ਪੂਰਾ ਹੋਇਆ।"

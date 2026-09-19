@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਿਆ ਗੁਣ ਤੇਰੇ. ਆਖਿ ਸਮਾਲੀ ॥"
 page = 132
 line = 3
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "What excellences of Thine can I relate and remember?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀਆਂ ਕਿਹੜੀਆਂ ਕਿਹੜੀਆਂ ਵਡਿਆਈਆਂ ਮੈਂ ਬਿਆਨ ਅਤੇ ਚੇਤੇ ਕਰਾਂ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "What Praises of Yours can I chant and contemplate?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਗੁਣੋਂ ਕੋ ਕਿਆ ਕਥਨ ਕਰ ਕੇ ਸਮਾਲਾਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਮੈਂ ਤੇਰੇ ਕੇਹੜੇ ਕੇਹੜੇ ਗੁਣ ਆਖ ਕੇ ਚੇਤੇ ਕਰਾਂ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਮਾਲੀ = ਸਮਾਲੀਂ, ਮੈਂ ਸੰਭਾਲਾਂ, ਮੈਂ ਚੇਤੇ ਕਰਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "¿Cuáles de Tus Virtudes podría yo amar y apreciar?"

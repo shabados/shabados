@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੇਤੜਿਆਂ ਜੁਗ ਵਰਤਿਆ; ਅਗਮ ਅਗੋਚਰੁ ਧੁੰਧੂਕਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "None knows for how many yugs, ages, there was imperceptible and impenetrable mist."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਜੁਗਾ ਵਿਖੇ, ਅਗਮ ਥੋਂ ਅਗਮ ਹਨੇਰ ਗੁਬਾਰ ਵਰਤ ਰਿਹਾ ਸੀ (ਤਦਨੰਤਰ)"

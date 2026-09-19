@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਜਗ ਮੋ ਮਤ ਐਸੁ ਪਰਾਜਾ ॥"
 page = 193
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, Arhant ruled for ten thousand years and propagated his religion throughout the world."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰੇ ਜਗਤ ਵਿਚ ਇਸ ਤਰ੍ਹਾਂ ਆਪਣਾ ਮਤ ਉਤਪੰਨ ਕਰ ਦਿੱਤਾ।"

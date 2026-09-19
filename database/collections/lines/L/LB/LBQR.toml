@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਧਸੰਗਤਿ ਭੈ ਭਾਇ; ਨਿਜ ਘਰੁ ਪਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He (the true Sikh) as the result of his love and fear of holy congregation attains his own self (atma)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧ ਸੰਗਤ ਵਿਚ ਭੈ ਤੇ ਪ੍ਰੇਮ ਰੱਖਕੇ ਆਪਣਾ ਘਰ (ਸਰੂਪ) ਲੱਭ ਲੀਤਾ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਗੜਦੀ ਕਟਕ ਕਪਿ ਭਜਯੋ ਲਾਗੜਦੀ ਲਛਮਣ ਜੁਝਯੋ ਜਬ ॥"
 page = 259
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਲੱਛਮਣ ਡਿੱਗ ਪਿਆ ਤਾਂ ਬੰਦਰਾਂ ਦੀ ਸੈਨਾ ਭੱਜ ਗਈ।"

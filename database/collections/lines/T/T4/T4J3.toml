@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਰੂ ਪੋਸਤ ਔਰ ਧਤੂਰੋ ॥"
 page = 962
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਰਾਬ, ਪੋਸਤ ਅਤੇ ਧਤੂਰਾ (ਮੰਗਵਾਇਆ)।"

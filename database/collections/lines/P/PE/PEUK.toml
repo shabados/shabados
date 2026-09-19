@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਰਾਵਲ ਧਰਮੀ ॥"
 page = 654
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He performed actions of Sannyas and adopted Rawal religion"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਯੋਗ ਧਰਮ ਧਾਰਨ ਕਰਨ ਵਾਲਾ,"

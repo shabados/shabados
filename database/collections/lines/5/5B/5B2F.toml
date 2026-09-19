@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਤੀਯ ਕਾਨ ਤੇ ਮੈਲੁ ਨਿਕਾਰੀ ॥"
 page = 48
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And from the secretion of the other ear"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਦੂਜੇ ਕੰਨ ਵਿਚੋਂ ਮੈਲ ਕੱਢੀ,"

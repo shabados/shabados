@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਹੈਰਤ ਹਮੀ ਰਫ਼ਤ ਆਲਮ ਪਨਾਹ ॥੩੨॥"
 page = 1426
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And he was extremely put in predicament of the action.(32)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਦਸ਼ਾਹ ਘੋੜੇ ਦੇ ਚਲੇ ਜਾਣ ਤੇ ਬਹੁਤ ਹੈਰਾਨ ਹੋ ਗਿਆ ॥੩੨॥"

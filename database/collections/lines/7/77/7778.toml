@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਦਾ ਨਿਕਟਿ ਨਿਕਟਿ ਹਰਿ ਜਾਨੁ ॥"
 page = 275
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The serf of God, who, ever deems Him to be the nearest of the near,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਵਾਹਿਗੁਰੂ ਦਾ ਉਹ ਨਫ਼ਰ, ਜੋ ਸਦੀਵ, ਉਸ ਨੂੰ ਨੇੜੇ ਨਾਲੋਂ ਪਰਮ ਨੇੜੇ ਸਮਝਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He knows the Lord to be Ever-present, close at hand."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਮਨ ਤਨ ਬਾਣੀ ਕਰ ਕੇ ਸਦਾ ਅਪਨੇ ਸਮੀਪ ਹਰੀ ਕੌ ਜਾਣਿਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੋ (ਮਨੁੱਖ) ਸਦਾ ਪ੍ਰਭੂ ਨੂੰ ਨੇੜੇ ਜਾਣਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਿਕਟਿ = ਨੇੜੇ। ਜਾਨੁ = (ਜੋ) ਜਾਣਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél que nunca pierde de vista la Presencia de Dios,"

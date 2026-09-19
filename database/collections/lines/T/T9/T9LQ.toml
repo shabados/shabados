@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਕੋਟਿ ਇੰਦ੍ਰ ਨ੍ਰਿਪਾਰ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He  who hath Created millions of king Indras,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਕਰੋੜਾਂ ਇੰਦਰ ਵਰਗੇ ਰਾਜੇ ਬਣਾਏ ਹਨ"

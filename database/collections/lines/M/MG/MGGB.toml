@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤਿ ਸ੍ਰੀ ਬਚਿਤ੍ਰ ਨਾਟਕ ਗ੍ਰੰਥੇ ਚਤੁਰ ਬਿਸਤਿ ਕਲਕੀ ਅਵਤਾਰ ਬਰਨਨੰ ਸਮਾਪਤੰ ॥"
 page = 610
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "End of the description of twenty-fourth incarnation in Bachittar natak."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਥੇ ਬਚਿਤ੍ਰ ਨਾਟਕ ਗ੍ਰੰਥ ਦੇ ਚੌਬੀਸਵੇਂ ਕਲਕੀ ਅਵਤਾਰ ਦੇ ਵਰਣਨ ਦੀ ਸਮਾਪਤੀ।"

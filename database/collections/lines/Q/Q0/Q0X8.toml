@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਯਾਦੇ ਖ਼ੁਦਾ ਕਬਿਲਹ ਕਾਬਹ ਕਰੀਮ ॥੨੭॥"
 page = 1411
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They thanked God for endowing them such a cherished gift.(27)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਨ ਵਿਚ ਪਰਮਾਤਮਾ ਅਤੇ ਮੱਕੇ ਦੇ ਕਾਬੇ ਨੂੰ ਯਾਦ ਕੀਤਾ ॥੨੭॥"

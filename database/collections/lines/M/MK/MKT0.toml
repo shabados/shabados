@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਨ ਸੁਭੇ ਅਧੇ ਅਧਾਯੰ ॥"
 page = 212
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The wounded warriors fell down and their bodies were chopped."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਤਨ ਅੱਧੋ-ਅੱਧ ਹੋਏ ਸ਼ੋਭ ਰਹੇ ਸਨ।"

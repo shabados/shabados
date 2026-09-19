@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਗਿ ਲਯੋ ਪਿਤ ਤੇ ਸੋਈ ਪਤਿ ॥"
 page = 1272
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਿਤਾ ਦੇ ਪ੍ਰਸੰਨ ਹੋਣ ਤੇ) ਪਿਤਾ ਪਾਸੋਂ ਉਹੀ ਪਤੀ ਮੰਗ ਲਿਆ,"

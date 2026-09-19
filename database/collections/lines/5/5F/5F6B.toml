@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਵਿਤ੍ਰੀ ਸੰਧਿਆ ਗਾਇਤ੍ਰੀ ॥"
 page = 679
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“You are the brown-eyed immaculate Parvati, Savitri and Gayatri"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਵਿਤ੍ਰੀ, ਸੰਧਿਆ, ਗਾਇਤ੍ਰੀ, ਭੈ ਨੂੰ ਦੂਰ ਕਰਨ ਵਾਲੀ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਵ ਸਭੈ ਬ੍ਰਹਮਾ ਪੈ ਗਏ ॥"
 page = 972
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All this caused a great commotion and all the people went to Brahma, the Creator."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰੇ ਦੇਵਤੇ ਬ੍ਰਹਮਾ ਕੋਲ ਗਏ।"

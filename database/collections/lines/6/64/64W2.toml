@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੋਤਲਾ ਤੁੰਦਲਾ ਦੰਤਲੀ ਕਾਲਿਕਾ ॥੬੯॥"
 page = 681
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You are the goddess Kalika lisping, stuttering and stammering while being intoxicated.69."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੋਤਲਾ, ਤੁੰਦਲਾ, ਦੰਤਲੀ, ਕਾਲਿਕਾ ॥੬੯॥"

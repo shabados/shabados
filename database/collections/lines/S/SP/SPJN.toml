@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਅਸਿ ਜੂ ਕੇ ਨਾਮ; ਜਾਨ ਜੀਅ ਰਾਖੀਐ ॥"
 page = 719
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then all the names of the sword are uttered"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਸਾਰੇ ਨਾਂ 'ਅਸਿ ਜੂ' (ਤਲਵਾਰ) ਦੇ ਹੋ ਜਾਣ ਕਰ ਕੇ ਹਿਰਦੇ ਵਿਚ ਰਖੋ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੰਤ ਦੰਤ ਪਤਕੰ ॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The rows of demons are moving"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੁਹਾਨੂੰ ਵੇਖ ਕੇ) ਦੈਂਤਾਂ ਦੀਆਂ ਕਤਾਰਾਂ ਚਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ"

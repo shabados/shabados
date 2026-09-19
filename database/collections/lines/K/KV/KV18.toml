@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਉ ਅਰੇ, ਬੇਦ ਪੁਰਾਨਨ ਮੈ; ਚਲਿਹੈ ਜਗ ਮੈ ਜੁਗ ਚਾਰਿ ਕਹਾਨੀ ॥੨੩੩੯॥"
 page = 534
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "This story will also continue to be told in all the four ages in Vedas and Puranas.2339."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਓਇ! ਤਦ ਹੀ ਵੇਦਾਂ ਅਤੇ ਪੁਰਾਣਾਂ ਵਿਚ ਚਾਰ ਯੁਗਾਂ ਤਕ ਜਗਤ ਵਿਚ (ਮੇਰੀ ਮੌਤ ਦੀ) ਕਹਾਣੀ ਚਲੇਗੀ ॥੨੩੩੯॥"

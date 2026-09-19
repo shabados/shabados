@@ -1,36 +1,36 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰਾਗੁ ਗੋਂਡ ਬਾਣੀ ਕਬੀਰ ਜੀਉ ਕੀ ਘਰੁ ੨ ॥"
 page = 870
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Rag Gond. Hymns of Kabir Ji."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਗੋਂਡ। ਬਾਣੀ ਕਬੀਰ ਜੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Raag Gond, The Word Of Kabeer Jee, Second House:"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਗੋਂਡ, ਘਰ ੨ ਵਿੱਚ ਭਗਤ ਕਬੀਰ ਜੀ ਦੀ ਬਾਣੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Rag Gond, palabras de Reverendo Kabir yi."

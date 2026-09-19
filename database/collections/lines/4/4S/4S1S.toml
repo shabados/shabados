@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰਿ ਮਧਿ ਸਿਖ ਕਿਨੇ ਅਨੇਕ ॥"
 page = 648
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਅਨੇਕਾਂ ਸਿੱਖ ਪਹਾੜਾਂ ਵਿਚ ਕੀਤੇ ਸਨ,"

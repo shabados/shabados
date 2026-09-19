@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਛੈ ਸਰੂਪ ਅਬ︀ਯਕਤ ਨਾਥ ॥"
 page = 38
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is Unassailable Entity and Unmanifested Lord,!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਨਸ਼ਟ ਨਾ ਹੋਣ ਵਾਲਾ ਅਵਿਅਕਤ ਨਾਥ ਹੈਂ।"

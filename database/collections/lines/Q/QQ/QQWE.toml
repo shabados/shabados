@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਜਿਯੋ ਸਰਪ ਮੇਧੰ ਪਿਤਾ ਬੈਰ ਕਾਜੰ ॥"
 page = 143
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He abandoned the serpent-sacrifice and enmity for the death of his father."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਿਤਾ ਦੇ ਵੈਰ (ਦੇ ਬਦਲੇ) ਕਰਕੇ (ਜੋ ਸਰਪ ਯੱਗ ਰਚਿਆ ਹੋਇਆ ਸੀ ਉਸ) ਸਰਪ-ਯੱਗ ਨੂੰ ਛਡ ਦਿੱਤਾ।"

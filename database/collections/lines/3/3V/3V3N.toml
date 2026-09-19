@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਪਹਿਨ ਅੰਦਰ ਆਮਦ ਗੁਲੇ ਅੰਜਮਨ ॥"
 page = 1400
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘In the courtyard, she entered the enclosure,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਿਤਾ ਦੀ ਗੱਲ ਸੁਣ ਕੇ) ਬਾਗ਼ ਦਾ ਫੁਲ (ਭਾਵ ਰਾਜ ਕੁਮਾਰੀ) ਸਭਾ ਵਿਚ ਆਇਆ"

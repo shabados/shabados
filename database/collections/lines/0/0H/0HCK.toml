@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਰਹੁ ਦਇਆ; ਤੇਰਾ ਨਾਮੁ ਵਖਾਣਾ ॥"
 page = 566
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Show mercy unto me, O Lord that I may utter Thy Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਉਤੇ ਰਹਿਮ ਕਰ, ਹੇ ਸਾਈਂ! ਤਾਂ ਜੋ ਮੈਂ ਤੇਰਾ ਨਾਮ ਉਚਾਰਨ ਕਰਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Show mercy to me, that I may chant Your Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਅਕਾਲ ਪੁਰਖ! ਤੁਮ ਦਇਆ ਕਰੋ ਮੈਂ ਤੇਰਾ ਨਾਮ ਉਚਾਰਨ ਕਰੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਮੇਹਰ ਕਰ ਕਿ ਮੈਂ ਤੇਰਾ ਨਾਮ ਸਿਮਰ ਸਕਾਂ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਵਖਾਣਾ = ਮੈਂ ਉਚਾਰਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ten Compasión de mí, oh Señor, para que recite Tu Nombre."

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਜੈ ਜੀਤ ਬਾਜਾ ॥੪੬੦॥"
 page = 597
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The glory of their armies is indescribable, all of them marched after bedcking themselves and the instruments of victory were played.460."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਿਤ ਦੇ ਵਾਜੇ ਵਜ ਰਹੇ ਹਨ ॥੪੬੦॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭੰਤ ਦੰਤ ਪਦੁਕੰ ॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The row of thy teeth looks graceful"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੇ) ਦੰਦਾਂ ਦੀ ਪੰਕਤੀ ਸ਼ੋਭਦੀ ਹੈ,"

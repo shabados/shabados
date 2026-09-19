@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਘ ਧੂਪ ਰਾਜਾ ਕਹ ਦੀਨਾ ॥੭॥"
 page = 1354
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਧੂਪ ਅਤੇ ਅਰਗ ਚੜ੍ਹਾ ਕੇ ਸੁਆਗਤ ਕੀਤਾ ॥੭॥"

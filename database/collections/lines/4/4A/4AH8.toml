@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖਤ ਜਾਹਿ ਦਿਨੇਸ ਡਰਿਓ; ਮਘਵਾ ਜਿਹ ਪੇਖਤ ਹੀ ਡਰ ਪਾਯੋ ॥"
 page = 373
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing him the sun and Indra were filled with fear"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਵੇਖ ਕੇ ਸੂਰਜ ਡਰ ਗਿਆ ਅਤੇ ਜਿਸ ਨੂੰ ਤਕ ਕੇ ਇੰਦਰ ਵੀ ਭੈ ਭੀਤ ਹੋ ਗਿਆ।"

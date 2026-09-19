@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਰਾਨ ਔ ਕੁਰਾਨ; ਨੇਤਿ ਨੇਤਿ ਕੈ ਬਤਾਵਈ ॥"
 page = 32
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Puranas and the Quran speak of Him as ‘Neti, Neti’ (infinite)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਪੁਰਾਣ ਅਤੇ ਕੁਰਾਨ ਬੇਅੰਤ ਬੇਅੰਤ ਕਹਿੰਦੇ ਹਨ।"

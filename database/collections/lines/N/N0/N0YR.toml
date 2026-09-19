@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਕਾਲੰ ਪ੍ਰਣਾਸੀ, ਦਿਆਲੰ ਸਰੂਪੇ ॥"
 page = 10
 line = 18
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to Thee O Destroyer of hard times and Embodiment of Mercy Lord!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੁਰੇ ਸਮੇਂ ਨੂੰ ਨਸ਼ਟ ਕਰਨ ਵਾਲਾ ਅਤੇ ਦਿਆਲੂ ਸਰੂਪ ਵਾਲਾ ਹੈਂ;"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਦੁਕਾਲੰ ਪ੍ਰਣਾਸੀ; ਦਇਆਲੰ ਸਰੂਪੇ ॥"

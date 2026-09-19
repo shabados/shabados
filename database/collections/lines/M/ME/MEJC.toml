@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਾ ਪੁਰਖ ਕੋ ਭੇਸ ਬਨਾਇ ॥"
 page = 1283
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਪੁਰਸ਼ ਦੇ ਬਸਤ੍ਰ ਪਾ ਲਏ"

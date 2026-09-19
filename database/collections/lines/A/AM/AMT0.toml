@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਜ ਬੋਲਿ ਲੇਹੁ ਉਤਾਲ ॥੫॥੩੨੪॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“And call the Brahmins quickly.”5.324."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬ੍ਰਾਹਮਣਾਂ ਨੂੰ ਜਲਦੀ ('ਉਤਾਲ') ਬੁਲਾ ਲਵੋ ॥੫॥੩੨੪॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮਹ ਸ਼ੇਰ ਮਰਦਾ ਵ ਜ਼ੋਰਾਵਰਾ ॥"
 page = 1421
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the fighters were very brave,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਫ਼ੌਜ ਦੇ ਸਿਪਾਹੀ ਬਹੁਤ ਸ਼ੇਰ-ਮਰਦ ਅਤੇ ਸ਼ਕਤੀਸ਼ਾਲੀ ਸਨ"

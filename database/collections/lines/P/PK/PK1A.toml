@@ -1,10 +1,10 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਜ਼ਿੰਦਗੀ ਨਾਮਾ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Gave this lowly fistful of dust the brightness and shine of the sun. (352)"

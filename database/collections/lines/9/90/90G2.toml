@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਥ ਤੁਪਕ ਕੇ ਨਾਮ ॥"
 page = 738
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Now Begins the description of the names of the Tupak"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਤੁਪਕ (ਛੋਟੀ ਤੋਪ ਜਾਂ ਬੰਦੂਕ) ਦੇ ਨਾਂਵਾਂ (ਦਾ ਵਰਣਨ)"

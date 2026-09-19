@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗੜਦੰਗ ਆਕਾਸ ਤੇ ਜਾਨ ਓਰੇ ॥੫੭੫॥"
 page = 260
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And he discharged the arrows touching the sky.575."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਆਕਾਸ਼ ਤੋਂ ਗੜ੍ਹੇ ਪੈ ਰਹੇ ਹੋਣ ॥੫੭੫॥"

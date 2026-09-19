@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੋਇ ਰੋਇ ਦ੍ਰਿਗ ਨੈਨਨ; ਰੁਹਰ ਬਹਾਵਈ ॥"
 page = 1185
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਰੋ ਰੋ ਕੇ ਅੱਖਾਂ ਵਿਚ ਲਹੂ ('ਰੁਹਰ') ਵਹਾਉਂਦਾ ਰਹਿੰਦਾ।"

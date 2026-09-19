@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਲੌ ਚਕ੍ਰਵਾਕ ਦੋ ਆਏ ॥"
 page = 964
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਤਕ ਦੋ ਚਕਵੇ (ਚਕਵਿਆਂ ਦੀ ਜੋੜੀ) ਆਏ।"

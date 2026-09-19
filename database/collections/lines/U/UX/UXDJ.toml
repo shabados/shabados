@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ︀ਯਾਗ ਕਹਿਯੋ ਅਬ ਮਾਨ ਸਖੀ ਹਮ ਹੂੰ ਤੁਮ ਹੂੰ ਬਨ ਬੀਚ ਪਧਾਰੈ ॥"
 page = 368
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O dear! forsake your pride and come, let both of us go to the forest"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਕਿਹਾ, ਹੇ ਸਖੀ! ਹੁਣ ਰੋਸਾ ਛਡ ਦੇ ਅਤੇ ਮੈਂ ਤੇ ਤੂੰ ਬਨ ਵਿਚ ਚਲੀਏ।"

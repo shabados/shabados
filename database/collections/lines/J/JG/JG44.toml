@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਹ੍ਵੈ ਦਾਸੀ ਤਵ ਰਹੋਂ ਨ ਮੁਹਿ ਤਰਸਾਇਯੈ ॥੨੫॥"
 page = 827
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Please don’t torment me.(25)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੁਹਾਡੀ ਦਾਸੀ ਹੋ ਕੇ ਰਹਾਂਗੀ, ਮੈਨੂੰ (ਹੋਰ) ਨਾ ਤਰਸਾਓ ॥੨੫॥"

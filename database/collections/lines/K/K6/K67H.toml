@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਕਰਤ ਹੋਮ, ਅਰ ਜਗ ਦਾਨ ॥"
 page = 30
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Though they perform havens hold Yagyas (sacrifices) and offer charities!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਾਵੇਂ ਬਹੁਤ ਹੋਮ, ਯੱਗ ਅਤੇ ਦਾਨ (ਕਿਉਂ ਨ) ਕੀਤੇ ਜਾਣ,"

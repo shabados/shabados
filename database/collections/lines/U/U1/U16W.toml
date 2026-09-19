@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਲਖ ਚਉਰਾਸੀਹ ਜੋਨਿ; ਨ ਭਵੇ ॥"
 page = 1340
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He wanders not in eighty four lakhs of existences then."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਉਹ ਚੁਰਾਸੀ ਲੱਖ ਜੂਨੀਆਂ ਅੰਦਰ ਨਹੀਂ ਭਟਕਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "They do not wander in the 8.4 million incarnations."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਚੌਰਾਸੀ ਲਖ ਜੋਨੋਂ ਮੇਂ ਨਹੀਂ ਭਰਮਤਾ ਹੈ, ਭਾਵ ਇਹ ਜਨਮ ਮਰਨ ਸੇ ਰਹਿਤ ਹੋ ਜਾਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮਨੁੱਖ ਚੌਰਾਸੀ ਲੱਖ ਜੂਨਾਂ ਦੇ ਗੇੜ ਵਿਚ ਨਹੀਂ ਭਟਕਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pues ya no vagan más por las ocho millones cuatrocientas mil encarnaciones."

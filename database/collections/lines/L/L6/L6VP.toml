@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਨੇ ਉਸਨੂੰ ਹਰ ਮੁਸ਼ਕਲ ਦੀ ਕੁੰਜੀ ਬਖਸ਼ੀ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹੱਕਸ਼ ਦਾਦ ਮਿਫ਼ਤਾਹਿ ਹਰ ਮੁਸ਼ਕਲੋ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "God has blessed him with a solution to every problem,"

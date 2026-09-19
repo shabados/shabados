@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਟਰਿ ਆਗੇ ਤਿਹ ਲਿਯੋ; ਬਚਨ ਯੌ ਭਾਖਿਯੋ ॥"
 page = 817
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She came forward and said that she had called in a vaid,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਅਗੇ ਵੱਧ ਕੇ ਉਸ ਨੂੰ ਮਿਲੀ ਅਤੇ ਇਸ ਤਰ੍ਹਾਂ ਬਚਨ ਕੀਤਾ"

@@ -1,36 +1,36 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰਾਗੁ ਗਉੜੀ ਪੂਰਬੀ₁ ਕਬੀਰ ਜੀ ॥"
 page = 334
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Measure Gauri Purbi Kabir Ji."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਗਉੜੀ ਪੂਰਬੀ ਕਬੀਰ ਜੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Raag Gauree Poorbee, Kabeer Jee:"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਗਉੜੀ-ਪੂਰਬੀ ਵਿੱਚ ਭਗਤ ਕਬੀਰ ਜੀ ਦੀ ਬਾਣੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Rag Gauri Purbi, Kabir yi."

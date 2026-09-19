@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਨ ਡੋਲਤ ਆਸ ਉਦਾਸ ਸੁਖੰ ॥੩੫੯॥"
 page = 664
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was singing the praises of the Lord with his mouth and was moving unattached with all kind of desires.359."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਨ ਵਿਚ ਸੁਖ ਦੀ ਆਸ ਤੋਂ ਵਿਰਕਤ ਡੋਲ ਰਹੇ ਹਨ ॥੩੫੯॥"

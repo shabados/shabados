@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਮ ਦੀਨ ਤਾ ਕਹੁ ਤੈਸ ॥੩੭॥"
 page = 613
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He has also asked for a boon from me, which I have bestowed on him.37."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੈਂ ਉਸ ਨੂੰ ਉਸੇ ਤਰ੍ਹਾਂ ਦਾ (ਵਰ) ਦੇ ਦਿੱਤਾ ਸੀ ॥੩੭॥"

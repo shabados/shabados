@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਕਤਨ ਹੀਰਨ ਕੇ ਬਹੁਤ; ਇਨ ਪਰ ਕੀਏ ਸਿੰਗਾਰ ॥"
 page = 1107
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਦੇ) ਇਨ੍ਹਾਂ ਉਤੇ ਹੀਰਿਆਂ ਅਤੇ ਮੋਤੀਆਂ ਦੇ ਸ਼ਿੰਗਾਰ ਕੀਤੇ ਹੁੰਦੇ ਸਨ,"

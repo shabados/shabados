@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਥਮ ਸਮਯਣੀ ਸਬਦ ਉਚਾਰੋ ॥"
 page = 782
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਸਮਯਣੀ' (ਆਫਰ ਕੇ ਕੰਢੇ ਢਾਉਣ ਵਾਲੀ ਨਦੀ) ਸ਼ਬਦ ਉਚਾਰਨ ਕਰੋ।"

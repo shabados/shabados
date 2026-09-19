@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਟੁੰਡੇ ਬਾਂਡੇ ਕੇਤੜੇ; ਗੰਜੇ ਲੁੰਜੇ ਕੋੜ੍ਹੀ ਜਾਣੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Many are maimed ones, bald, without hands and stricken with leprosy."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਿਨੇ ਟੁੰਡੇ, ਬਾਂਡੇ, ਗੰਜੇ, ਕੋੜ੍ਹੀ ਜਾਣੀ ਦੇ ਹਨ।"

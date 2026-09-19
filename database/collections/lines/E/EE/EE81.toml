@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਹ ਦੂਰੋਂ ਰੱਜ ਕੇ ਦੇਖਦਾ ਹੈ, "
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਚੂੰ ਮ-ਬੀਨਦ ਜ਼ਿ ਦੂਰ ਸੇਰਾਨੀ ॥੮॥"
 page = 1
 line = 8
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "When he looks at them to his heart's content, (8)"

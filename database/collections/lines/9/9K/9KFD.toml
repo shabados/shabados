@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਸਿਧਿ ਮੋਨੀ ਮਨਿ ਲਾਧੀ ॥"
 page = 652
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That great adept and the silence-observing purusha practiced all the skill of Yoga"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ) ਸ਼ਿਰੋਮਣੀ ਮੋਨੀ (ਦੱਤ) ਨੇ ਮਨ ਵਿਚੋਂ ਹੀ ਸਿੱਧੀ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰ ਲਿਆ ਹੈ।"

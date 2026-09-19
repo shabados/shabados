@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੁਸਤਮ ਕਲਾ ਤਰੁਨਿ ਕੋ; ਨਾਮੁ ਬਖਾਨਿਯੈ ॥"
 page = 861
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His wife’s name was Rustam Kala and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਇਸਤਰੀ ਦਾ ਨਾਂ ਰੁਸਤਮ ਕਲਾ ਸੀ"

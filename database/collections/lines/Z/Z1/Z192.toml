@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਹਜ਼ਾਰਾਂ ਦੇਵੀ ਦੇਵਤਿਆਂ ਅਤੇ ਹਜ਼ਾਰਾਂ ਗੋਰਖਾਂ ਵਰਗੇ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹਜ਼ਾਰਾਂ ਚੂੰ ਦੇਵੀ ਚੂੰ ਗੋਰਖ ਹਜ਼ਾਰ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Thousands of gods and goddeses and thousands like Gorakh Naathh"

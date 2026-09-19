@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗੇ ਪਿਖਿਯੋ ਗਜ ਮਤ ਮਹਾ; ਕਹਿਯੋ ਦੂਰ ਕਰੋ, ਗਜਵਾਨ ਰਿਸਾਯੋ ॥"
 page = 380
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They saw before them an intoxicated elephant and the mahout is asking all of them to get away"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਗੇ ਜਾ ਕੇ ਬਹੁਤ ਵੱਡਾ ਮਸਤ ਹਾਥੀ ਵੇਖਿਆ ਅਤੇ (ਗਵਾਲਿਆਂ ਨੇ ਉਸ ਨੂੰ) ਪਰੇ ਕਰਨ ਲਈ ਕਿਹਾ, (ਪਰ) ਮਹਾਵਤ ਨੇ (ਹਾਥੀ ਨੂੰ) ਕ੍ਰੋਧਿਤ ਕਰ ਦਿੱਤਾ।"

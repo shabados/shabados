@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਹਨਿ ਅਵੱਟਣੁ, ਪਰਉਪਕਾਰੀ ॥੨॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Only Gurmukhs suffer while doing good to others."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਆਪ ਉੱਪਰ ਦੁਖ ਝੱਲ ਲੈਂਦੇ ਹਨ ਪਰੋਪਕਾਰੀ ਹੋਕੇ।"

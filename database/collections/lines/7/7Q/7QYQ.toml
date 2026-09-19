@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਲ ਪਲ ਬਲਿ ਬਲਿ ਜਾਉ ਤਿਹਾਰੇ ॥੧੨॥"
 page = 1181
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਜੋ ਮੈਂ) ਪਲ ਪਲ ਤੁਹਾਡੇ ਤੋਂ ਕੁਰਬਾਨ ਜਾਵਾਂ ॥੧੨॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੇਕ ਕ੍ਰਿਤ ਸੁ ਬ੍ਰਿਤੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They are also observing many good actions."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕ ਸ਼ੁਭ ਕਰਮਾਂ ਵਿਚ ਬਿਰਤੀ ਲਗਾਂਦਾ ਰਹੇ"

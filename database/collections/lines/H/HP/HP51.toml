@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸ ਜਾਨੀਅਤ ਮਹਾ ਉਦਾਸਾ ॥੪੪੩॥"
 page = 671
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With closed eyes he was immersed in the expectation of money like a detached hermit.443."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਲਗਦਾ ਸੀ ਜਿਵੇਂ ਮਹਾਨ ਉਦਾਸ (ਵਿਰਕਤ) ਸੀ ॥੪੪੩॥"

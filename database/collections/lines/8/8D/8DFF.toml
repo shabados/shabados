@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿੜਾਲਾਛ ਮਾਰੇ ਸੁ ਪਿੰਗਾਛ ਧਾਏ ॥"
 page = 102
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Biralachh was killed, Pinagachh ran forward"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿੜਾਲਾਛ ਦੇ ਮਾਰੇ ਜਾਣ ਤੇ ਪਿੰਗਾਛ (ਨਾਂ ਦਾ ਦੈਂਤ) ਭਜ ਕੇ ਆਇਆ।"

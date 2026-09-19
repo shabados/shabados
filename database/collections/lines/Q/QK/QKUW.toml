@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਖੀ ਗੂੜ ਨ ਭਾਖਤ ਭਈ ॥"
 page = 1289
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਗੁਪਤ ਹੀ ਰਖੀ (ਅਤੇ ਕਿਸੇ ਨੂੰ) ਨਾ ਦਸੀ।"

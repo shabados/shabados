@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬੈ ਸਾਧ ਹਰਖੇ ॥੬॥"
 page = 101
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And all the saints (hods) were pleased.6."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਸਾਧੂ ਲੋਕ ਪ੍ਰਸੰਨ ਹੋਏ ॥੬॥"

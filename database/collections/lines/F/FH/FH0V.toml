@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬੈ ਕ੍ਰੀਚਕਹਿ ਦ੍ਰੁਪਦਜਾ; ਦੇਖੀ ਨੈਨ ਪਸਾਰਿ ॥"
 page = 1070
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਕ੍ਰੀਚਕ ਨੇ ਦ੍ਰੋਪਤੀ ਨੂੰ ਅੱਖਾਂ ਖੋਲ੍ਹ ਕੇ ਵੇਖਿਆ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬੈ ਚਮਰੁ ਤੂ ਵਹਿ ਮੁਖ ਕਹੈ ॥"
 page = 892
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਸ (ਸ਼ਿਵ) ਨੇ ਮੁਖ ਤੋਂ 'ਤੂੰ ਚਿਮਟ ਜਾ' ਕਿਹਾ"

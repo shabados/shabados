@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਤਰ ਜਿਯਤ ਨ ਬਾਚ੍ਰਯੋ ਕੋਊ ॥੩੩॥"
 page = 944
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Only those were spared who ate grass (accepted defeat) otherwise none other was let go.(33)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਹੀਂ ਤਾਂ ਕੋਈ ਵੀ ਜੀਉਂਦਾ ਬਚ ਨਾ ਸਕਿਆ ॥੩੩॥"

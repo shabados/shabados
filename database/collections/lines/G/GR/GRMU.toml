@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਗ ਅਹੀਰ ਅਹੀਰਨੀ; ਬੋਲਤ ਕੋਪ ਬਢਾਇ ॥੮॥"
 page = 845
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The milkman would rebuke her in anger.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਗੁਜਰ ਗੁਜਰੀ ਨੂੰ ਗੁੱਸੇ ਨਾਲ ਬੋਲਦਾ ਸੀ ॥੮॥"

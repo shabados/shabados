@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਹਾ ਸਿਧ ਪਾਲੈ, ਘਨੇ ਸਤ੍ਰ ਕੂਟੇ ॥"
 page = 1244
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਸਿਧ ਪਾਲ ਨੇ ਬਹੁਤ ਸਾਰੇ ਵੈਰੀ ਵੱਢੇ ਸਨ,"

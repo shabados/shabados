@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਰਾਮ ਬਿਸਾਰਿ; ਬਹੁਰਿ ਪਛੁਤਾਨਾ ॥"
 page = 1172
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Forgetting the Lord it ultimately regrets."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਨੂੰ ਭੁਲਾ ਕੇ ਇਹ ਅਖੀਰ ਨੂੰ ਪਛਤਾਉਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Forgetting the Lord, it regrets and repents in the end."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮ ਕੋ ਬਿਸਾਰ ਕਰ ਕੇ (ਬਹੁਰਿ) ਅੰਤ ਕੋ ਪਸਚਾਤਾਪ ਕਰਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮਨੁੱਖ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਭੁਲਾ ਕੇ ਫਿਰ ਹੱਥ ਮਲਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਸਾਰਿ = ਵਿਸਾਰ ਕੇ। ਬਹੁਰਿ = ਫਿਰ, ਮੁੜ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Tú, oh Señor, unes a Ti a quienes se encuentran lejos, muy lejos de Ti."

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਵਤ ਸਿੰਘ ਬਿਲੌਕਤ ਭਈ ॥"
 page = 1056
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਕ ਦਿਨ ਰਾਣੀ ਨੇ) ਰਾਵਤ ਸਿੰਘ ਨੂੰ ਵੇਖਿਆ,"

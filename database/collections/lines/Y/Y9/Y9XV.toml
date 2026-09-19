@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਗਲ ਪਠਾਨ ਤੁਰਕ ਘਰ ਮਾਹੀ ॥"
 page = 1239
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਉਂਕਿ) ਮੁਗ਼ਲ, ਪਠਾਣ ਜਾਂ ਤੁਰਕ ਦੇ ਘਰ"

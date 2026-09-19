@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਾਚੋਲ ਕ੍ਰਿਪਾਨ ਕੇ; ਲੀਜਹੁ ਨਾਮ ਸੁਧਾਰ ॥੪੧॥"
 page = 719
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "the names of Kripan can be spoken.41."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ 'ਕਰਾਚੋਲ' ਆਦਿ ਨੂੰ ਕ੍ਰਿਪਾਨ ਦੇ ਨਾਮ ਵਿਚਾਰ ਲਿਆ ਜਾਵੇ ॥੪੧॥"

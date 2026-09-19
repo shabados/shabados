@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘੁਰੈ ਦੁੰਦਭੀ ਸੰਖ ਭੇਰੀ ਅਪਾਰੰ ॥"
 page = 630
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਪਾਰ ਭੇਰੀਆਂ, ਸੰਖ ਅਤੇ ਨਗਾਰੇ ਗੂੰਜਦੇ ਹਨ।"

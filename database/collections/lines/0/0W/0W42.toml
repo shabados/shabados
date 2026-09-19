@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਠਾਕੁਰ; ਐਸੋ ਨਾਮੁ ਤੁਮੑਾਰੋ ॥"
 page = 498
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O Lord, such is the glory of Thy Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਐਹੋ ਜਿਹੇ ਹੈ ਪ੍ਰਤਾਪ ਤੇਰੇ ਨਾਮ ਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Lord Master, such is Your Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਠਾਕੁਰ! ਤੁਮਾਰਾ ਨਾਮ ਐਸਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਾਲਕ-ਪ੍ਰਭੂ! ਤੇਰਾ ਨਾਮ ਅਸਚਰਜ ਸ਼ਕਤੀ ਵਾਲਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਠਾਕੁਰ = ਹੇ ਠਾਕੁਰ! ਐਸੋ = ਅਜੇਹੀ ਸਮਰਥਾ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Maestro, tal es Tu Nombre Grandioso;"

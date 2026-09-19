@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਭਲਾ ਬੁਰਾ ਦੁਇ ਚਲੇ ਰਾਹਿ; ਉਸ ਥੈ ਤੋਸਾ ਉਸ ਥੈ ਪਾਣੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "A bad and a noble man went on a journey. The noble one had bread and the evil had water with him."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਭਲਾ ਅਤੇ ਬੁਰਾ ਦੋਵੇਂ ਮਿਲਕੇ ਰਸਤੇ ਪੁਰ ਚਲੇ ਜਾਂਦੇ ਸਨ, ਭਲੇ ਪਾਸ ਰੋਟੀ ਸੀ ਅਰ ਬੁਰੇ ਪਾਸ ਪਾਣੀ।"

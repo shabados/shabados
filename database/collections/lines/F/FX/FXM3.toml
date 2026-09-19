@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੋਖੂ ਟੋਡਾ ਮਹਤਿਆ; ਤੋਤਾ ਮਦੂ ਸਬਦ ਵੀਚਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "TodaTota and Maddu from Mehta family of Gokha city are contemplator of the Word of Guru."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੋਖੂ, ਟੋਡਾ, ਮਹਿਤੇ, ਤੋਤਾ ਮੱਦੂ ਸ਼ਬਦ ਦੇ ਵੀਚਾਰ ਵਾਲੇ ਹਨ।"

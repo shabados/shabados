@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾ ਓਹੁ ਨਿਰਧਨੁ; ਨਾ ਹਮ ਭੂਖੇ ॥"
 page = 391
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He is not poor, nor am I hungry."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਗਰੀਬ ਨਹੀਂ, ਨਾਂ ਹੀ ਮੈਂ ਭੁੱਖਾ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He is not poor, so I do not hunger."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਵਹੁ ਨਿਰਧਨ ਹੈ ਨਾ ਹਮ ਹੀ ਭੂਖੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪ੍ਰਭੂ ਕੰਗਾਲ ਨਹੀਂ ਹੈ, ਅਸੀਂ ਭੀ ਆਪਣੇ ਆਪ ਨੂੰ ਭੁੱਖੇ-ਗਰੀਬ ਨਾਹ ਸਮਝੀਏ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਿਰਧਨੁ = ਕੰਗਾਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ni Él es pobre ni yo tengo hambre,"

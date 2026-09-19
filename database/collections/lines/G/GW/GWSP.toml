@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੇਊ ਆਨਿ ਲਰੇ ਬਿਨੁ ਪ੍ਰਾਨ ਕਰੇ; ਰੁਪਿ ਠਾਢੇ ਲਰੇ ਕੋਊ ਸ੍ਰਉਨ ਸਨੇ ॥"
 page = 428
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whosoever come forward to fight, became lifeless and many were seen standing and saturated with blood"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਵੀ ਆ ਕੇ ਲੜੇ ਸਨ, ਪ੍ਰਾਣਾਂ ਤੋਂ ਬਿਨਾ ਕਰ ਦਿੱਤੇ ਹਨ, ਕਈ ਡਟ ਕੇ ਲੜੇ ਹਨ ਅਤੇ ਲਹੂ ਲੁਹਾਨ ਹੋ ਗਏ ਹਨ।"

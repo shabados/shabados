@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਰਿ ਮਨ ਮੇਰੇ; ਸਤਿ ਬਿਉਹਾਰ ॥"
 page = 281
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "My soul, practise thou the works of righteousness."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀ ਜਿੰਦੜੀਏ! ਤੂੰ ਸੱਚਾਈ ਦਾ ਕਾਰ ਵਿਹਾਰ ਅਖਤਿਆਰ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O my mind, make this your true occupation."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪਨਾ ਹੇ ਮੇਰੇ (ਮਨ) ਪਿਆਰੇ! ਸੰਤ ਕਾ ਹੀ ਵਾ (ਸਤਿ) ਸ੍ਰੇਸਟ ਬਿਵਹਾਰ ਕਰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਇਹ ਸੱਚਾ ਵਿਹਾਰ ਕਰ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਤਿ = ਸੱਚਾ। ਬਿਉਹਾਰ = ਵਿਹਾਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "reconoce que esta Práctica te beneficiará por siempre."

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਚਤ ਭੂਤ ਪਿਸਾਚ; ਨਿਸਾਚਰ ਰਾਜ ਤਹਾ ॥"
 page = 591
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many warriors abandoning their shame, and leaving behind everything, are running away, and the ghosts, fiends and imps dancing in the battlefield, are ruling over it"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਭੂਤਾਂ, ਪਿਸਾਚਾਂ, ਦੈਂਤਾਂ ਦਾ ਰਾਜਾ ਨਚ ਰਿਹਾ ਹੈ।"

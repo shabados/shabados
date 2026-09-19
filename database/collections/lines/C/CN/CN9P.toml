@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਪੰਚਮ ਦਰਾਮਦ ਚੁ ਦੇਵੇ ਅਜ਼ੀਮ ॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the fifth devil came,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੰਜਵਾਂ ਸੂਰਮਾ ਵੱਡੇ ਦੇਓ ਵਾਂਗ ਆ ਕੇ ਪਿਆ।"

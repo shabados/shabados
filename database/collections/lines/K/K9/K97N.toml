@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨੁ ਰਾਨੀ, ਤੈ ਮੰਤ੍ਰ ਹਮਾਰੇ ॥"
 page = 904
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the minister suggested like this, ‘Rani, listen to your minister,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਰਾਣੀ! ਤੁਸੀਂ ਮੇਰੀ ਸਲਾਹ ਸੁਣੋ।"

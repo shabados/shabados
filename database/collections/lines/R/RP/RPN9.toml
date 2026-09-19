@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਏਕੋ ਬ੍ਰਹਮੁ ਵਖਾਣੀਐ; ਮੋਹ ਮਾਇਆ ਤੇ ਬੇਮੁਹਤਾਜੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Getting indifferent to maya, people would praise one Lord."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਲੋਕ) ਇਕੋ (ਬ੍ਰਹਮ ਹੀ) ਬ੍ਰਹਮ ਆਖਦੇ ਸਨ, ਮੋਹ ਤੇ ਮਾਯਾ ਥੋਂ ਬੇਖਾਹਸ਼ (ਰਹਿੰਦੇ) ਸਨ।"

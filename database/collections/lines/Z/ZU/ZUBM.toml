@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਰਤੁ ਤਵਨ ਕੋ ਕੀਜਿਯੈ; ਕਿਹ ਬਿਧਿ ਮਿਲਨ ਉਪਾਇ ॥"
 page = 826
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I must contrive quickly,’ thinking thus she indulged in the magical"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਤੁਰਤ ਮਿਲਣ ਦਾ ਕੋਈ ਉਪਾ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।"

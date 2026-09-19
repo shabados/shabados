@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਸੁ ਭੇਟਤ ਮਿਟੈ ਅਭਿਮਾਨੁ ॥"
 page = 897
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Meeting with whom, man's self-conceit is stilled,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਨਾਲ ਮਿਲਣ ਦੁਆਰਾ ਇਨਸਾਨ ਦੀ ਸਵੈ-ਹੰਗਤਾ ਨਵਿਰਤ ਹੋ ਜਾਂਦੀ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Meeting Him, egotistical pride is eradicated,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੇ ਮਿਲਨੇ ਸੇ ਅਭਿਮਾਨ ਮਿਟ ਜਾਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਗੁਰੂ ਨੂੰ ਮਿਲਿਆਂ (ਮਨ ਵਿਚੋਂ) ਅਹੰਕਾਰ ਦੂਰ ਹੋ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਿਸੁ ਭੇਟਤੁ = ਜਿਸ (ਗੁਰੂ) ਨੂੰ ਮਿਲਿਆਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Encontrando al Señor, tu ego es suprimido y ves a tu Dios por todas partes"

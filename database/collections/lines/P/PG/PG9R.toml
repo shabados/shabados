@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੰਨ︀ਯ ਧੰਨ︀ਯ ਨਿਜੁ ਤ੍ਰਿਯ ਕਹ ਕੀਨੋ ॥"
 page = 866
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਆਪਣੀ ਇਸਤਰੀ ਨੂੰ ਧੰਨ ਧੰਨ ਕਹਿ ਕੇ ਆਖਿਆ"

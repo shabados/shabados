@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਕਰਤ ਜਲ ਮਹਿ ਜਾਪ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the meditation is performed in water,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਪਾਣੀ ਵਿਚ (ਖੜੇ ਹੋ ਕੇ) ਜਾਪ ਕਰਦੇ ਹਨ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਖਿ ਭੇਟਤ ਤਉਨ ਤਰਾਕ ਤਰੈ ॥"
 page = 666
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those men and women, who had been cast in hell, they were redeemed on seeing these sages"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਿਸ਼ੀ ਨੂੰ ਮਿਲਦਿਆਂ ਹੀ ਉਹ ਝਟਪਟ (ਦੁਖ ਦੇ ਸਾਗਰ ਨੂੰ) ਤਰ ਗਏ ਹਨ।"

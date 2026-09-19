@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਸੁ ਸਮ ਦੁਤਿਯ ਨ ਕਹੂੰ ਹਮਾਰੀ ॥"
 page = 1320
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਵਰਗੀ ਸਾਡੇ ਕੋਈ ਹੋਰ ਇਸਤਰੀ ਨਹੀਂ ਸੀ।"

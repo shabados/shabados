@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਚੇ ਰੈਣ ਦਿਵਸੰ ਥਪੇ ਸੂਰ ਚੰਦੰ ॥"
 page = 41
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou hast created night and day and established the sun and moon. !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਦਿਨ ਰਾਤ ਦੀ ਰਚਨਾ ਕੀਤੀ ਅਤੇ ਸੂਰਜ ਤੇ ਚੰਦ੍ਰਮਾ ਨੂੰ ਸਥਾਪਿਤ ਕੀਤਾ ਹੈ।"

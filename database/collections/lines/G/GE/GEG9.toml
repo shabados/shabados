@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੋ ਹਰਿ; ਕੀਤਾ ਆਪਣਾ ॥"
 page = 132
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Whom God has made His Own,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਵਾਹਿਗੁਰੂ ਨੇ ਆਪਣਾ ਨਿੱਜ ਦਾ ਬਣਾ ਲਿਆ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He alone meditates on the Lord of the World,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪੁਰਸ਼ ਹਰੀ ਨੇ ਅਪਨਾ ਕੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਮਨੁੱਖ ਨੂੰ ਪਰਮਾਤਮਾ ਨੇ ਆਪਣਾ (ਸੇਵਕ) ਬਣਾ ਲਿਆ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜੋ = ਜਿਸ ਨੂੰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél a quien el Señor hace Suyo,"

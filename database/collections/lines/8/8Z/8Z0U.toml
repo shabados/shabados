@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਫਟਕ ਕੋ ਕੋਟ ਬਨਾਯੋ ॥"
 page = 1092
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਉਸ ਨੇ ਸਫਟਿਕ ਦਾ ਕਿਲ੍ਹਾ ਬਣਵਾਇਆ ਹੋਇਆ ਸੀ"

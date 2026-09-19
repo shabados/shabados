@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਘੁਟ ਤੁਟ ਆਸਨੰ ॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thy seat is eternal"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰਾ) ਆਸਣ ਨਾ ਘਟਣ ਵਾਲਾ ਅਤੇ ਨਾ ਟੁੱਟਣ ਵਾਲਾ ਹੈ,"

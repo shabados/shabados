@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੋ ਹਰਿ ਮੇਰਾ. ਅੰਤਰਜਾਮੀ ॥"
 page = 740
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He, my Lord, is the searcher of hearts."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮੇਰਾ ਸੁਆਮੀ ਦਿਲ ਦੀਆਂ ਜਾਨਣਹਾਰ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He is my Lord, the Inner-knower, the Searcher of hearts."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਹਰੀ! ਸੋ ਤੂੰ ਅੰਤਰਯਾਮੀ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਮਾਲਕ-ਪ੍ਰਭੂ ਆਪਣੇ ਭਗਤ ਜਨਾਂ ਦੇ ਨਾਲ ਵੱਸਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅੰਤਰਜਾਮੀ = ਹਰੇਕ ਦੇ ਦਿਲ ਦੀ ਜਾਣਨ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él, mi Señor, es el Conocedor Íntimo de mi corazón."

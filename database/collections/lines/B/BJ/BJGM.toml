@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਸਾਖ ਤਾਸ ਕੀ ਸਦਾ; ਤਿਹੂੰਨ ਲੋਕ ਮਾਨੀਐ ॥੨੫੩॥"
 page = 701
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O king! the warriors named Prem (love) is a significant fighter, whose greatness is known in all the there worlds.26.253."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਸਾਖ ਸਦਾ ਤਿੰਨਾਂ ਲੋਕਾਂ ਵਿਚ ਮੰਨੀ ਜਾਂਦੀ ਹੈ ॥੨੫੩॥"

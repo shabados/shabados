@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫਿਰੈਂ ਬਾਜ ਛੂਟੈ ॥"
 page = 208
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many charioteers were killed and the horses began to roam in the battlefield unclaimed."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘੋੜੇ ਛੁੱਟੇ ਫਿਰਦੇ ਸਨ।"

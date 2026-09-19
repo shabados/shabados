@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਬਾ ਬਰਕ ਅਬਰਸ ਬਹਾਰਾ ਕੁਨਦ ॥੧੯॥"
 page = 1425
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But they were getting engulfed with the drowsiness.(19)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਬਿਜਲੀ ਦੇ ਚਮਕਣ ਦੇ ਨਾਲ ਬਰਖਾ ਹੁੰਦੀ ਹੈ ॥੧੯॥"

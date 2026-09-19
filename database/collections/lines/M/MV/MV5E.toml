@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਭਾਤਿ ਸਿਛ︀ਯਾ ਦਈ ਤਾਹਿ ਸਿਖ︀ਯ ਠਹਰਾਇ ॥੫੦॥"
 page = 1106
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਤਰ੍ਹਾਂ ਦੀ ਸਿਖਿਆ ਦੇ ਕੇ ਉਸ ਨੂੰ ਆਪਣਾ ਚੇਲਾ ਬਣਾ ਲਿਆ ॥੫੦॥"

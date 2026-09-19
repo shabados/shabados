@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਖੰਡ ਅਮੰਡ ਪ੍ਰਚੰਡ ਨਰੰ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is non-divisible non-stable and Mighty Purusha !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਅਖੰਡ, ਸਥਾਪਨਾ-ਰਹਿਤ, ਪ੍ਰਚੰਡ ਤੇਜ ਵਾਲਾ ਪੁਰਸ਼ ਹੈ,"

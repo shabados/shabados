@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਉ ਰੇ ਗੁਮਾਨ ਕਰੈ ਘਨ ਸ︀ਯਾਮ ਅਬੈ ਰਨ ਤੇ ਪੁਨਿ ਤੋਹਿ ਭਜੈਹੋ ॥"
 page = 464
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Krishna! why are you egoistic? I shall cause you to run away from the battlefield just jow"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਘਨ ਸ਼ਿਆਮ! (ਤੂੰ) ਕਿਉਂ ਗੁਮਾਨ ਕਰਦਾ ਹੈਂ। ਹੁਣੇ ਹੀ (ਮੈਂ) ਤੈਨੂੰ ਰਣ-ਭੂਮੀ ਤੋਂ ਫਿਰ ਭਜਾਉਂਦਾ ਹਾਂ।"

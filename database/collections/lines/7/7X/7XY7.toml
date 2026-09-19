@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਮੰਕੇ ਤੀਰ ਤਾਜਾ ਦੇ ॥੫੨੭॥"
 page = 604
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "his musical instruments create loud sounds and his arrows raise anger and ire.527."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਤੀਰਅੰਦਾਜ਼ਾਂ ਦੇ ਤੀਰ ਵਜ ਰਹੇ ਹਨ ॥੫੨੭॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਰਿਯਾ ਖੇਲ ਮਹਮੰਦਿ ਲੇਜਾਕ ਮਾਰੇ ॥"
 page = 930
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਿਯਾ ਖੇਲ (ਗੁਰੇਖੇਲ) ਮਹਮੰਦਿ, ਲੇਜਾਕ,"

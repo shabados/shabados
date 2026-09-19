@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੁਟਤ ਛੁਟਾਏ ਨਾਹਿ; ਨਿਗੋਡੇ ਜਹ ਲਗੇ ॥"
 page = 1187
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੈੜੇ ਅਜਿਹੇ ਲਗੇ ਹਨ ਕਿ ਹਟਾਇਆ ਹਟਦੇ ਨਹੀਂ ਹਨ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਨ ਸਿੰਘ ਤਿਹ ਕਹਿਯੋ; ਕਛੂ ਮੁਸਕਾਇ ਕੈ ॥"
 page = 1026
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਸ਼ਨ ਸਿੰਘ ਨੇ ਕੁਝ ਹਸ ਕੇ ਉਸ ਨੂੰ ਕਿਹਾ"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੇਸਨ ਤੇ ਗਹਿ ਕਿਤਨ ਪਛਾਰਾ ॥"
 page = 1383
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨਿਆਂ ਨੂੰ ਕੇਸਾਂ ਤੋਂ ਪਕੜ ਕੇ ਪਛਾੜ ਸੁਟਿਆ"

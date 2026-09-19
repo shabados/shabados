@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਟ ਚੜ੍ਹੈ ਦਲ ਦੋਊ ਜੁਝਾਰਾ ॥"
 page = 70
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮਿਆਂ ਦੇ ਦੋਵੇਂ ਦਲ ਵੰਡ ਕੇ (ਇਕ ਦੂਜੇ ਉਤੇ) ਚੜ੍ਹ ਆਏ।"

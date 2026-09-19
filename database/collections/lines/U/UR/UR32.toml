@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਲਹ ਨਮਿਤ ਵੈ ਉਤਹਿ ਸਿਧਾਏ ॥"
 page = 64
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then I took leave and came home, they went there to settle the terms of peace."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਧਰ ਉਹ (ਭੀਮ ਚੰਦ ਆਦਿ) ਸੰਧੀ ਕਰਨ ਲਈ ਗਏ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਿਜੈ ਨ ਨੈਕ ਸਤ ਸਸਤ੍ਰ ਪਾਤ ॥"
 page = 139
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "It cannot be assailed by the blow of weapon"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੈਂਕੜੇ ਸ਼ਸਤ੍ਰਾਂ ਦੇ ਪ੍ਰਹਾਰ ਨਾਲ ਛਿਝਦਾ ਨਹੀਂ,"

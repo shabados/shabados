@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮੇਰੇ ਰਾਮ ਕੋ ਭੰਡਾਰੁ ॥"
 page = 893
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Such is the treasure of my Lord,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਐਹੋ ਜਿਹਾ ਹੈ ਖਜਾਨਾਂ ਮੇਰੇ ਪ੍ਰਭੂ ਦਾ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "This is the treasure of my Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਰਾਮ ਕਾ ਐਸਾ ਭੰਡਾਰਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਪਿਆਰੇ ਪ੍ਰਭੂ ਦਾ ਖ਼ਜ਼ਾਨਾ (ਐਸਾ ਹੈ ਕਿ ਉਸ ਨੂੰ)"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕੋ = ਦਾ। ਭੰਡਾਰੁ = ਖ਼ਜ਼ਾਨਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Tesoro de Dios es Interminable,"

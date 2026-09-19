@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਦਾ ਸਰਬਦਾ ਸਿਵ ਰਤ ਸੋਹੈ ॥"
 page = 1311
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਸਦਾ ਕੇਵਲ ਸ਼ਿਵ (ਦੀ ਉਪਾਸਨਾ) ਵਿਚ ਮਗਨ ਰਹਿੰਦਾ ਸੀ।"

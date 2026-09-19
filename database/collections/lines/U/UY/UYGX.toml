@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫਿਰੰਤ ਹੂਰ ਪੂਰਯੰ ਬਰੰਤ ਦੁਧਰੰ ਨਰੰ ॥"
 page = 232
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sixty-four Yoginis, shouting loudly, are filling their pots with colour and the heavenly damsels are moving on the earth in order to wed the great horses"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਕਾਸ਼ ਵਿਚ ਹੂਰਾਂ ਫਿਰਦੀਆਂ ਸਨ, ਜੋ ਸੂਰਵੀਰ ਪੁਰਸ਼ਾਂ ਨੂੰ ਵਰਦੀਆਂ ਸਨ।"

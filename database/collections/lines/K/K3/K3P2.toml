@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਗਟ ਚੰਦ੍ਰ ਸੀ ਪ੍ਰਭਾ ਲਗਤ ਜਿਹ ॥੧॥"
 page = 1163
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਚੰਦ੍ਰਮਾ ਦੀ ਪ੍ਰਭਾ ਵਰਗੀ ਲਗਦੀ ਸੀ ॥੧॥"

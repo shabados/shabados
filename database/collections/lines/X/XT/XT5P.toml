@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਧੌ ਗੰਧ੍ਰਬੀ ਦੈਤ ਜਾ ਦੇਵਤਾ ਸੀ ॥"
 page = 211
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਗੰਧਰਥ ਪੁੱਤਰੀ, ਦੈਂਤ ਪੁੱਤਰੀ ਅਥਵਾ ਦੇਵ ਪੁੱਤਰੀ ਹੈ,"

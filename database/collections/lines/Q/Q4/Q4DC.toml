@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤੰ ਚੋਰ ਮਾਨੇ ॥"
 page = 266
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The most beautiful Ram recognized their feelings"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਚਿੱਤ (ਚੁਰਾਉਣ ਵਾਲਾ) ਚੋਰ ਮੰਨਿਆ।"

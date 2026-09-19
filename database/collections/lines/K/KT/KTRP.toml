@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਡਾਕ ਡਉਰੂ ਕਹੂੰ ਕੰਬਿਤਾਲੰ ॥"
 page = 50
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the god Shiva is stringing the skulls in his rosary of skulls, somewhere the vampires and ghosts are shrieking joyfully."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਡਾਕਣੀਆਂ (ਊਲ ਜਲੂਲ) ਬੋਲਦੀਆਂ ਹਨ ਅਤੇ ਕਿਤੇ ਬੈਤਾਲ ਕੂਕਦੇ ਹਨ।"

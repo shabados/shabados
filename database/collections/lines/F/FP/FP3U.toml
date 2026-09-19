@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਬ ਅੰਤਰਿ ਪ੍ਰੀਤਿ; ਹਰਿ ਸਿਉ ਬਨਿ ਆਈ ॥"
 page = 494
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "When hearty love is established with God,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਵਾਹਿਗੁਰੂ ਨਾਲ ਦਿਲੀ ਪ੍ਰੇਮ ਪੈ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "When inner love is established with the Lord,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਬ ਅੰਤਸਕਰਣ ਸੇ ਹਰਿ ਸੇ ਪ੍ਰੀਤ ਬਨ ਆਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਮਨੁੱਖ ਦੇ ਹਿਰਦੇ ਵਿਚ ਪਰਮਾਤਮਾ ਨਾਲ ਪਿਆਰ ਬਣ ਜਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਿਉ = ਨਾਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Cuando el ser interior se entona en el Señor,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰਿੜਰਿੜ ਗਾਜੀ ॥੪੧੭॥"
 page = 593
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The horses and horse-riders are lying unconscious in the battlefield.417."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੂਰਮੇ ਡਿਗੇ ਪਏ ਹਲ ॥੪੧੭॥"

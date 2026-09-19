@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਬਹੂੰ ਨ ਭਾਜਿ ਚਲੰਤ ॥"
 page = 611
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who remember His Name, never run away"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਕਦੇ (ਬਨਾਂ ਵਿਚ) ਭਜ ਕੇ ਨਹੀਂ ਜਾਂਦੇ।"

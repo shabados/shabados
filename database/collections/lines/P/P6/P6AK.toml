@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੋਰਿ ਸੰਦੂਕ ਹਮੈ ਗਹਿ ਲੈਹੈ ॥"
 page = 862
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the Raja heard, he was very much scared and thought, ‘This woman would get me killed today."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੰਦੂਕ ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਇਹ ਮੈਨੂੰ ਫੜ ਲਏਗਾ"

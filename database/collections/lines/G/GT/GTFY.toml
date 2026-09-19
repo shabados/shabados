@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰੋ ਖਾਟ ਉਠਾਇ ਕੈ ਦੀਜਹੁ ਹ︀ਯਾਂ ਪਹੁਚਾਇ ॥੧੪॥"
 page = 1005
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘And after that pick up her bed and bring her back here.’(14)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਮੰਜੀ ਨੂੰ ਚੁਕ ਕੇ ਇਥੇ ਪਹੁੰਚਾ ਦਿਓ ॥੧੪॥"

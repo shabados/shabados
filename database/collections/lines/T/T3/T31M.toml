@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਬਿਨੁ ਅਧਿਕ ਕਸਟ ਹਮ ਪਾਯੋ ॥੭॥"
 page = 913
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The lover had expressed that, without her he was in great distress.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਤੇਰੇ ਬਿਨਾ ਮੈਂ ਬਹੁਤ ਦੁਖ ਪਾਇਆ ਹੈ ॥੭॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੇਈ ਤਪਤ ਆਗਿ ਪਰ ਜਾਰ ਪੀਠ ॥"
 page = 647
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There are many who do not see below and many warm themselves by burning fire on their back"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਅੱਗ ਬਾਲ ਕੇ ਪਿੱਠ ਨੂੰ ਸੇਕਦੇ ਹਨ।"

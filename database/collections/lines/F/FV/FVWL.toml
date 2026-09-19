@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਾਲ੍ਰਹਨ ਤੇ ਜੋ ਰਸ ਚੁਇ ਪਰਾ ॥"
 page = 1265
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀਆਂ) ਗਲ੍ਹਾਂ ਤੋਂ ਜੋ ਰਸ ਚੋਇਆ ਹੋਇਆ ਸੀ,"

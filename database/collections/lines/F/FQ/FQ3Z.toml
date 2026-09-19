@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜ੍ਵਾਲਾ ਸਮਾਨ ॥੯੭॥"
 page = 621
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When he drew his sword, he was like KAL (death) for his enemies, and his magnificence was like the fires of the sun.97."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਥਵਾ ਅਗਨੀ ਦੇ ਸਮਾਨ ਸੀ ॥੯੭॥"

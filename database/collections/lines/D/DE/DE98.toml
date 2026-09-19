@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਤਿਸੀ ਕਟਾਰੀ ਸਾਥ; ਉਦਰ ਤਿਹ ਫਾਰਿ ਕੈ ॥੧੦॥"
 page = 1168
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸੇ ਕਟਾਰ ਨਾਲ ਵੇਸਵਾ ਦਾ ਢਿਡ ਪਾੜ ਕੇ ॥੧੦॥"

@@ -1,22 +1,22 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੇਤੜਿਆਂ ਤਹਵੀਲਦਾਰ; ਮੁਸਰਫਦਾਰ ਦਰੋਗੇ ਓਲੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Many are revenue officers, superintending officers, policemen and estimators."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਿੰਨੇ ਹੀ ਰੋਕੜੀਏ, ਨਿਗਰਾਨੀ ਰੱਖਣ ਵਾਲੇ ਦਰੋਗੇ ਤੇ ਰਸਦ ਦੇਣ ਵਾਲੇ ਹਨ।"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "note"
 language = "pa"
 data = "ਤਹਵੀਲਦਾਰ=ਰੋਕੜ ਰੱਖਣ ਵਾਲਾ। ਮੁਸਰਫ ਦਾਰ=ਇਨਸਪੈਕਟਰ, ਕਿਸੇ ਕੰਮ ਦੀ ਨਿਗਰਾਨੀ।"

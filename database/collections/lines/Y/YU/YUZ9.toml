@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੌਹੂੰ ਬ︀ਯਾਹ ਅਵਰ ਨਹਿ ਕਰਿਹੌ ॥"
 page = 856
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I will never get married again,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਵੀ ਹੁਣ ਹੋਰ ਵਿਆਹ ਨਹੀਂ ਕਰਾਂਗਾ;"

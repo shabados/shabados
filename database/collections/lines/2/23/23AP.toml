@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਠੇ ਜਹਾ ਮੀਤ ਸੁਖਦਾਈ ॥"
 page = 1300
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਸੁਖਦਾਇਕ ਮਿਤਰ ਬੈਠਾ ਸੀ।"

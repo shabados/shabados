@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਗ ਲਏ ਨਊਆ ਸੁਤ ਭਲੋ ॥"
 page = 891
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Shah’s son took barber’s son with him to his in-laws."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਆਪਣੇ) ਨਾਲ ਨਾਈ ਦੇ ਪੁੱਤਰ ਨੂੰ ਲੈ ਲਿਆ।"

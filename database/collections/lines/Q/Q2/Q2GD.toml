@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੁਰ ਸਿਖੀ ਬਾਰੀਕ ਹੈ; ਸਿਲ ਚਟਣੁ ਫਿਕੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "To be disciple of the Guru is very subtle activity and it is like licking of the tasteless stone."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰ ਸਿੱਖੀ (ਬਹੁਤ) ਬ੍ਰੀਕ ਹੈ, (ਤੇ) ਅਲੂਣੀ ਸਿਲਾ ਦੇ ਚੱਟਣ ਵਾਂਗ (ਪਹਿਲੇ) ਫਿੱਕੀ।"

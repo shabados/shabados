@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੂਰਖ ਨਾਰਿ ਬਾਤ ਨਹਿ ਜਾਨੀ ॥"
 page = 852
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That foolish had not discerned the secret, as she saw the Raja still in deep sleep."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਉਸ ਮੂਰਖ ਔਰਤ ਨੇ ਗੱਲ ਨਾ ਸਮਝੀ।"

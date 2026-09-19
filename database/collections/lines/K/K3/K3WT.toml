@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਹਤ ਅਨੂਪਾਛ ॥"
 page = 608
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਗੇ ਅਨੂਪਮ (ਢੰਗ ਨਾਲ) ਸ਼ੋਭਾਇਮਾਨ ਹਨ।"

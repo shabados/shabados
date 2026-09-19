@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੀਨੇ ਜਤਨ ਦੂਰਿ ਨਹਿ ਭਯੋ ॥"
 page = 902
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With sex-play she became pregnant and, in spite of hard efforts she could not abort."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕ ਯਤਨ ਕਰਨ ਤੇ ਵੀ ਉਹ ਡਿਗ ਨਾ ਸਕਿਆ।"

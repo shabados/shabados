@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਰ ਮੈ ਰਿਖਿ ਆਇ ਸੁਨੇ ਜਬ ਹੀ ॥"
 page = 970
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਗਰ ਵਿਚ ਜਦ ਲੋਕਾਂ ਨੇ ਰਿਸ਼ੀ ਦਾ ਆਣਾ ਸੁਣਿਆ"

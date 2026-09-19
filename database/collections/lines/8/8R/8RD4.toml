@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਛਰਾਜ, ਰਾਵਨ ਮਾਰਿ ਕੈ; ਰਘੁਰਾਜ ਸੀਤਹਿ ਲੈ ਗਯੋ ॥"
 page = 236
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ravana took away Sita after killing Jatayu,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਟਾਯੂ ਨੇ (ਸ੍ਰੀ ਰਾਮ ਨੂੰ ਕਿਹਾ-) ਹੇ ਰਘੂਰਾਜ! ਰਾਵਣ ਮੈਨੂੰ ਮਾਰ ਕੇ ਸੀਤਾ ਨੂੰ ਲੈ ਗਿਆ ਹੈ।"

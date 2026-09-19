@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਜਤ ਭਯੋ ਬਿਸਰਿ ਬਲੁ ਗਯੋ ॥"
 page = 450
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Krishna was set free, by loosening the grasp of his hair, he forgot his power and felt ashamed"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ ਕ੍ਰਿਸ਼ਨ ਨੂੰ) ਲਜਿਤ ਹੋਣ ਕਾਰਨ (ਆਪਣਾ) ਸਾਰਾ ਬਲ ਭੁਲ ਗਿਆ।"

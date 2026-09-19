@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਤੇ ਭਏ ਪਠਾਨ ਧਨੁਖ ਧਰ ॥"
 page = 1372
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੋਂ ਧਨੁਸ਼ਧਾਰੀ ਪਠਾਨ ਪੈਦਾ ਹੋ ਗਏ।"

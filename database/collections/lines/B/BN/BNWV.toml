@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਰਿ ਕੈ ਹੋਇ ਚੁਰੈਲ; ਲਲਾ ਕੋ ਲਾਗਿਹੋ ॥"
 page = 1123
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਰਨ ਤੇ ਵੀ ਚੁੜੇਲ ਬਣ ਕੇ ਪ੍ਰੀਤਮ ਨੂੰ ਚੰਬੜ ਜਾਵਾਂ।"

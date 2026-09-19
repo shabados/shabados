@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਹਿਰਦੈ ਵੁਠਾ; ਆਪਿ ਆਏ ॥"
 page = 125
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Within the heart of the Guruward the Lord Himself comes to abide."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰੂ ਸਮਰਪਣ ਦੇ ਦਿਲ ਵਿੱਚ ਸਾਹਿਬ ਖੁਦ ਆ ਕੇ ਨਿਵਾਸ ਕਰ ਲੈਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "In the hearts of the Gurmukhs, the Lord Himself comes to dwell."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਗੁਰਮੁਖੋਂ ਕੇ ਰਿਦੇ ਮੇਂ ਵਾਹਿਗੁਰੂ ਆਪ ਆਇ ਵਸਿਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਹਿਰਦੇ ਵਿਚ ਪਰਮਾਤਮਾ ਆਪ ਆ ਵਸਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਵੁਠਾ = ਵੁੱਠਾ, ਆ ਵੱਸਿਆ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sobre sus corazones, como rocío, llega la Compasión del Señor."

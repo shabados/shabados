@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕੈ ਚਰਨ ਆਖਿ ਏਕੈ ਜਿਨਿ ॥"
 page = 1366
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਦੀ ਇਕ ਅੱਖ ਅਤੇ ਇਕ ਹੀ ਚਰਨ ਸੀ"

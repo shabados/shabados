@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਤ ਪੂਤ ਪਿਤ ਹਨੇ ਨਿਹਾਰੇ ॥"
 page = 1049
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਪਿਤਾ ਨੇ ਸੱਤ ਪੁੱਤਰਾਂ ਨੂੰ ਮਰਿਆ ਹੋਇਆ ਵੇਖਿਆ"

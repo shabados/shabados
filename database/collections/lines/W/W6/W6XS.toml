@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਗ ਰੁਦ੍ਰ ਕੈ ਰੁਦ੍ਰ; ਚਲੇ ਭਟ ਉਠਿ ਤਬੈ ॥"
 page = 447
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rudra and his other warriors started moving alongwith him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਸ਼ਿਵ ਦੇ ਨਾਲ ਸ਼ੂਰਵੀਰ ਸ਼ਿਵ-ਗਣ ਉਠ ਕੇ ਤੁਰ ਪਏ।"

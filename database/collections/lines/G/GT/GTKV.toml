@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਕ ਕਾਟ ਰਾਨੀ ਕੋ ਲਯੋ ॥੮॥"
 page = 894
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The thief’s mouth shut (with force) and the Rani’s nose was cut.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਾਣੀ ਦਾ ਨਕ ਕਟ ਲਿਆ ॥੮॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਦੌਲਤ ਪ੍ਰਸਤਸਤੁ ਈਮਾਂ ਫ਼ਿਗਨ ॥੪੫॥"
 page = 1391
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "were deceitful and flowers of mammon.45."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੌਲਤ ਦਾ ਪੁਜਾਰੀ ਅਤੇ ਈਮਾਨ ਨੂੰ ਪਰੇ ਸੁਟਣ ਵਾਲਾ ਹੈ ॥੪੫॥"

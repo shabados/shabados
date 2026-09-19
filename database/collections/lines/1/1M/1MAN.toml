@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਰਿ ਨਿੰਦ ਉਸਤਤਿ ਤੂਲਿ ॥"
 page = 613
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਲਈ ਨਿੰਦਿਆ ਅਤੇ ਉਸਤਤ ਇਕ-ਸਮਾਨ ਹਨ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਤਿਗੁਰ ਰਤਨ ਪਦਾਰਥ ਬੋਰੀ ॥੪॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The true Guru, in fact, is a bag full of jewels."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸਤਿਗੁਰੂ ਰਤਨ ਪਦਾਰਥ (ਵੈਰਾਗ ਪਦਾਰਥ) ਦੀ ਬੋਰੀ (ਭਰੇ ਹੋਏ) ਹਨ।"

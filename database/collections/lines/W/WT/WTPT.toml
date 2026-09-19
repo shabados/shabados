@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਰਾਗ ਨ ਰੇਖ ਨ ਰੋਗ ਭਣੰ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is said to be without affection without lineage and ailment!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੂੰ ਪ੍ਰੇਮ ਤੋਂ ਰਹਿਤ, ਰੂਪ-ਰੇਖਾ ਤੋਂ ਬਿਨਾ ਅਤੇ ਰੋਗ-ਰਹਿਤ ਕਿਹਾ ਜਾਂਦਾ ਹੈ,"

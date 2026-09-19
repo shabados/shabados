@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਬਾਢਿਓ ਅਤਿ ਗਰਬ ॥"
 page = 610
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When he conquered the whole world, his pride was extremely increased"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ (ਉਸ ਦਾ) ਹੰਕਾਰ ਬਹੁਤ ਵਧ ਗਿਆ।"

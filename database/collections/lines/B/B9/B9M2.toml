@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਾਨਨ ਲਗਤ ਤਵਨ ਕੌ ਬਰਿ ਹੌ ॥"
 page = 1110
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੈਂ ਤਾਂ) ਪ੍ਰਾਣਾਂ ਦੇ ਅੰਤ ਹੋਣ ਤਕ ਉਸੇ ਨੂੰ ਵਰਾਂਗੀ।"

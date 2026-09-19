@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਿਹੋ ਸੁ ਪ੍ਰਭੁ ਪਰਾਕ੍ਰਮ ਤੇਰੇ ॥੪॥"
 page = 73
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the past lives that have peeped into, I shall speak about them with Thy Power.4."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਨੂੰ, ਹੇ ਪ੍ਰਭੂ! ਤੇਰੇ ਬਲ ਨਾਲ ਕਹਿੰਦਾ ਹਾਂ ॥੪॥"

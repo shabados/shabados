@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ੍ਰਮਤੀ ਤਬ ਭਈ ਖਿਸਾਨੀ ॥"
 page = 814
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Prince consented not, and she was ashamed of her act."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਚਿਤ੍ਰਮਤੀ (ਰਾਣੀ) ਖਿਝ ਗਈ।"

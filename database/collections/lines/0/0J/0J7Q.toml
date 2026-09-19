@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਬਖ਼ਸ਼ੀਦ ਓ ਰਾ ਮਹੀ ਤਖ਼ਤ ਤਾਜ ॥"
 page = 1399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Endow him the throne and power to rule,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਧਰਤੀ ਦਾ ਤਾਜ ਅਤੇ ਤਖ਼ਤ ਦੇ ਦੇਣਾ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਖਨੀ ਕਾਢਿ ਧਾਮ ਤੇ ਦੀਜਹੁ ॥"
 page = 855
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Please lady do me an errand and get me milk-butter from home.’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਘਰੋਂ ਮੱਖਣ ਕਢ ਕੇ ਲਿਆ ਦਿਓ।"

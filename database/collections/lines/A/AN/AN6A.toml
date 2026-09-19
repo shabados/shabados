@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਗਨੇਸੁਰੀ ਸਹਚਰੀ; ਸੋ ਤਿਨ ਲਈ ਬੁਲਾਇ ॥"
 page = 971
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She called her friend Jognesary,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇਗਨੇਸੁਰੀ ਨਾਂ ਦੀ ਸਹੇਲੀ ਨੂੰ ਉਸ ਨੇ ਬੁਲਾਇਆ।"

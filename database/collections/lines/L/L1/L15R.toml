@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਤੁਮਰੋ ਰੂਪ ਲਖਿ; ਪੁਲਿਕਿ ਪਸੀਜ੍ਰਯੋ ਅੰਗ ॥"
 page = 911
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘After having your vision, her body is drenched in sweat,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰਾ ਰੂਪ ਵੇਖ ਕੇ ਉਸ ਦੇ ਅੰਗ ਅੰਗ ਪੁਲਕਿਤ ਹੋ ਕੇ ਪਸੀਜ ਗਏ ਹਨ।"

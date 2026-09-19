@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪਹਿ ਦੈ ਤਰਬੂਜ ਤਰਾਯੋ ॥"
 page = 901
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She, herself, had floated the melon, herself, infuriated Raja,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਆਪ ਹੀ ਤਰਬੂਜ਼ ਤਰਵਾਇਆ"

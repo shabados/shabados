@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਨਹੂੰ ਹਨੇ ਬੇਗਮਨ ਬਾਨਾ ॥"
 page = 865
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤਨਿਆਂ ਨੂੰ ਬੇਗਮਾਂ ਨੇ ਤੀਰਾਂ ਨਾਲ ਮਾਰ ਦਿੱਤਾ"

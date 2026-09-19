@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਣੁ ਮੇਘ ਝੂਮ ॥੧੦॥"
 page = 63
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They fell. Like thundering clouds on the earth.10."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਬਦਲ ਝੂਮ ਕੇ ਆ ਗਏ ਹੋਣ ॥੧੦॥"

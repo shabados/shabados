@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਲੇ ਸੂਰ ਗਾਜੇ ॥੧੨॥"
 page = 64
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The trumpets sounded and the warriors thundered.12."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤਕੜੇ ਸੂਰਮੇ ਗਜ ਰਹੇ ਸਨ ॥੧੨॥"

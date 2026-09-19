@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਜ ਗਜਤ ਬਜਤ ਦੀਹ ਦਲੀ ॥"
 page = 601
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਾਥੀ ਚਿੰਘਾੜਦੇ ਹਨ ਅਤੇ ਵੱਡੇ ਆਕਾਰ ਵਾਲਾ ਨਗਾਰਾ ਵਜਦਾ ਹੈ।"

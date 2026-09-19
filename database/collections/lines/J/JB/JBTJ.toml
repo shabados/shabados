@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਕੇ ਸੰਗਿ ਜੋ ਮਿਲਿ ਜਾਤੁ ਭਏ ॥"
 page = 154
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those Brahmins who ate together with the king."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ (ਬ੍ਰਾਹਮਣ) ਰਾਜੇ ਦੇ ਨਾਲ ਮਿਲ ਗਏ,"

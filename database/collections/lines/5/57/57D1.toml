@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਪਿ ਮਨ; ਗੋਬਿਦ ਮਾਧੋ ॥"
 page = 1297
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my soul, meditate thou the Master of the world and the Lord of wealth."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੀ ਜਿੰਦੜੀਏ! ਤੂੰ ਜਗਤ ਦੇ ਮਾਲਕ ਅਤੇ ਧਨ-ਦੌਲਤ ਦੇ ਸੁਆਮੀ ਦਾ ਸਿਮਰਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O mind, chant and meditate on the Lord, the Lord of the Universe."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਗੋਬਿੰਦ ਮਾਧੋ ਕੋ ਜਪੁ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਮਾਇਆ ਦੇ ਪਤੀ ਗੋਬਿੰਦ ਦਾ ਨਾਮ ਜਪਿਆ ਕਰੋ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਪਿ = ਜਪਿਆ ਕਰ। ਮਨ = ਹੇ ਮਨ! ਮਾਧੋ = ਮਾਧਵ, ਮਾਇਆ ਦਾ ਪਤੀ (ਮਾ-ਧਵ, ਧਵ = ਪਤੀ। ਮਾ = ਮਾਇਆ)।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mente, canta y medita en el Señor del Universo."

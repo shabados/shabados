@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠਿ ਜਾਤਿ ਭਏ ਬਨ ਮਧਿ ਮੁਨੰ ॥"
 page = 665
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After taking bath and singing the praises of the Lord, the sage went into the forest,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੁਨੀ ਉਠ ਕੇ ਬਨ ਵਿਚ ਚਲਾ ਗਿਆ।"

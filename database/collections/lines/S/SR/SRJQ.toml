@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਸੰਨ︀ਯਾਸ ਰਾਠੰ ॥"
 page = 656
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Recitation of all the Shrutis was performed for that Sannyas at the suitable place"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸੰਨਿਆਸ ਦਾ ਰਾਠ ਹੈ,"

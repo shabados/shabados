@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਹਰੀਫ ਕਹਾਵਤ ਹੁਤੋ ॥"
 page = 1167
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਆਪਣੇ ਆਪ ਨੂੰ ਬਹੁਤ ਕਪਟੀ ('ਹਰੀਫ') ਅਖਵਾਉਂਦਾ ਸੀ,"

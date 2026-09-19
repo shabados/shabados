@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਯਾ ਚਰਿਤ੍ਰ ਨ ਜਾਤ ਬਿਚਰਿਯੋ ॥੨੦॥"
 page = 1249
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤ੍ਰੀਆ ਚਰਿਤ੍ਰ ਨੂੰ ਵਿਚਾਰਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ॥੨੦॥"

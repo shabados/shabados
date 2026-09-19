@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਉ ਰਿਸਿ ਡੰਡ ਲੀਏ ਜਮੁ ਆਵੈ ॥"
 page = 515
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਾਂ ਫਿਰ) ਜਿਵੇਂ ਯਮਰਾਜ ਡੰਡਾ ਲੈ ਕੇ ਆਉਂਦਾ ਹੈ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਹੁ ਹਮੈ ਤੁਮ ਕਹਾ ਲਜਾਏ ॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Give them back to us  Why art thou hesitating?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਨੂੰ ਦੇ ਦੇਣ ਵਿਚ ਤੁਹਾਨੂੰ ਕੀ ਸੰਕੋਚ ਹੈ।"

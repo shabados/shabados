@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਚੀਰਊ ਚਿਤਾਰੈ ॥੨੯੦॥"
 page = 658
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were not anxious about garments and ornaments.290."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਾ ਬਸਤ੍ਰਾਂ ਦੀ ਸੋਚ ਕਰਦੀਆਂ ਹਨ ॥੨੯੦॥"

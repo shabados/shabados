@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਗੀ ਜੰਗਮ ਜਾਤ ਨ ਗਨੇ ॥੧੧॥"
 page = 1325
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੰਨਿਆਸੀਆਂ ਨੂੰ ਪਕੜਵਾ ਕੇ ਬੁਲਵਾ ਲਿਆ ਜਿਨ੍ਹਾਂ ਦੀ ਗਿਣਤੀ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ ॥੧੧॥"

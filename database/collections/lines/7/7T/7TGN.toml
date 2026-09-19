@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਪ੍ਰਸਾਦ ਹੂ ਕਿਯ; ਬਹੁ ਪੁਰਖ ਬੁਲਾਇ ਕੈ ॥"
 page = 825
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She conducted a sacrificial feast and called numerous people."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਬਹੁਤ ਪੁਰਸ਼ਾਂ ਨੂੰ ਭੋਜਨ ਕਰਨ ਲਈ ਬੁਲਾਇਆ।"

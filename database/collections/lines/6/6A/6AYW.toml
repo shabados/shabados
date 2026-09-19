@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿੰਘ ਗਰੂਰ ਨ੍ਰਿਪਤਿ ਕੇ; ਚਿਤ ਕੀ ਮੋਹਨੀ ॥"
 page = 1011
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was the favourite of Raja Garoor Singh."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਗਰੂਰ ਸਿੰਘ ਰਾਜੇ ਦੇ ਮਨ ਨੂੰ ਮੋਹਿਤ ਕਰਨ ਵਾਲੀ ਸੀ।"

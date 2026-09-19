@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਤਿ ਦੇਖਤ ਮੁਹਿ ਸਾਥ ਬਿਹਾਰੋ ॥"
 page = 1011
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I will believe you love me only if you make love with me while your husband is watching.’"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਪਤੀ ਦੇ ਦੇਖਦਿਆਂ ਹੀ ਮੇਰੇ ਨਾਲ ਰਮਣ ਕਰ।"

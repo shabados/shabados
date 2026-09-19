@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਤੁਮ ਕਹ ਅਧਿਕ ਰਿਝਾਊ ॥"
 page = 848
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Listen, my Raja, I relate to you one tale, which will provide tremendous relief"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨਾਲ ਤੁਹਾਡਾ ਮਨ ਬਹੁਤ ਪ੍ਰਸੰਨ ਕਰਦਾ ਹਾਂ।"

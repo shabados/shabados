@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਾਹਿ ਮ੍ਰਿਤੁ ਕੇ ਧਾਮ ਪਠਾਯੋ ॥੭॥"
 page = 927
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He made her to take poison and dispatched her to the domain of death.(7)(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਮੌਤ ਦੇ ਘਰ ਪਹੁੰਚਾ ਦਿੱਤਾ ॥੭॥"

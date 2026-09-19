@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਨ ਕੇ ਨਾਮ ਹੇਤ ਰਿਖਿ ਭਯੋ ॥"
 page = 470
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“The Yadava clan has still not been destroyed and for their destruction, a sage has been born,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਲਈ) ਇਨ੍ਹਾਂ ਦੇ ਵਿਨਾਸ਼ ਲਈ ਇਕ ਰਿਸ਼ੀ ਪ੍ਰਗਟ ਹੋਇਆ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਜਸਤੁਆ ਅਭੇਸੰ ॥੧੬॥੧੨੪॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Guiseless Lord! All adore Thee.16.124."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭਜਣ ਯੋਗ (ਕੇਵਲ) ਤੂੰ ਅਭੇਸ ਹੀ ਹੈਂ ॥੧੬॥੧੨੪॥"

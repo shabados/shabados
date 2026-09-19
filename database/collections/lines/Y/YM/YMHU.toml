@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਬਸੌ ਜਾਇ ਬਨਿ ਤਿਆਗਿ ਦੇਸ ॥"
 page = 202
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He thought in his mind that he may wear the garb of Yogi and abide in the forest forsaking his royal duties."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੇਸ਼ ਨੂੰ ਤਿਆਗ ਕੇ ਕਿਤੇ ਜੰਗਲਾਂ ਵਿੱਚ ਜਾ ਵਸਾਂ।"

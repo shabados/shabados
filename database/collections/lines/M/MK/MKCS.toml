@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਦੌਲਤ ਹਰ ਕਿਸੇ ਨੂੰ ਨਸੀਬ ਨਹੀਣ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹਰ ਕਸੇ ਰਾ ਨੀਸਤ ਈਣ ਦੌਲਤ ਨਸੀਬ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "So that, I can spend my days and nights remembering You,"

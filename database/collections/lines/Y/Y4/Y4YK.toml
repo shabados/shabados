@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਕਰ ਕਰ ਸੋਂ ਗਈ ਛੁਆਈ ॥"
 page = 987
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Dancing and dancing fast, she came near him and put a chain around his arms,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਸ ਦੇ) ਹੱਥ ਨਾਲ ਸੰਗਲ ਛੁਹਾ ਦਿੱਤਾ (ਭਾਵ ਬੰਨ੍ਹ ਲਿਆ)।"

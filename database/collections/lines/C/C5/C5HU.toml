@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਿਮਰਉ ਅਪੁਨਾ ਸਾਂਈ ॥"
 page = 630
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I meditate on my Lord,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਆਪਣੇ ਸੁਆਮੀ ਦਾ ਭਜਨ ਕਰਦਾ ਹਾਂ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I meditate in remembrance on my Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਮੈਂ ਅਪਨੇ ਸੁਆਮੀ ਕੋ ਸਿਮਰਤਾ ਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਮੈਂ (ਉਸ) ਖਸਮ-ਪ੍ਰਭੂ (ਦਾ ਨਾਮ) ਸਿਮਰਦਾ ਹਾਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਿਮਰਉ = ਸਿਮਰਉਂ, ਮੈਂ ਸਿਮਰਦਾ ਹਾਂ। ਸਾਂਈ = ਖਸਮ-ਪ੍ਰਭੂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Medita en tu Señor; Contémplalo día y noche,"

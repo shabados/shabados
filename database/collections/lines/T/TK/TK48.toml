@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਾਵਤ ਭਯੋ ਰੁਕਮੀ ਪੈ ਹਲੀ ਕਬਿ ਸ︀ਯਾਮ ਕਹੈ ਚਿਤਿ ਰੋਸ ਬਢੈ ਕੈ ॥"
 page = 515
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਵੀ ਸ਼ਿਆਮ ਕਹਿੰਦੇ ਹਨ, ਬਲਰਾਮ ਮਨ ਵਿਚ ਗੁੱਸੇ ਨੂੰ ਵਧਾ ਕੇ ਰੁਕਮੀ ਉਤੇ ਟੁਟ ਕੇ ਪੈ ਗਿਆ।"

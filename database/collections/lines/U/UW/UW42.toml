@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਿੰਗ ਦੇਤ ਤਿਹ ਭਗ ਮੋ ਭਏ ॥੨੪॥"
 page = 1355
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨਾਲ ਮਰਦਾਵਾਂ ਕਰਮ ਕੀਤਾ ॥੨੪॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਰੀ ਨਗਰ ਭੀਤਰ ਜਬ ਆਈ ॥"
 page = 1296
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ (ਰਾਜ ਕੁਮਾਰੀ) ਸਿਰੀ ਨਗਰ ਵਿਚ ਆਈ,"

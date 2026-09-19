@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਜੇ ਸੰਧੂਰੰ ਨਗਾਰੇ ॥"
 page = 212
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਾਥੀਆਂ ਉੱਤੇ ਲਦੇ ਨਗਾਰੇ ਵੱਜ ਰਹੇ ਸਨ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮ ਪੂਛਹਿਗੇ ਯਾਹਿ; ਨ ਤੁਮ ਕਛੁ ਭਾਖਿਯੋ ॥"
 page = 838
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(Raja) ‘I am asking you, and you are keeping quiet."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਸੀਂ ਇਸ ਨੂੰ ਪੁਛਾਂਗੇ, ਤੁਸੀਂ ਕੁਝ ਨਹੀਂ ਕਹਿਣਾ।"

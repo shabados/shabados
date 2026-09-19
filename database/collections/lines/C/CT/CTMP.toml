@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੈ ਕਬਹੂ ਨਹੀ ਜਾਉ ਤਹਾ; ਤੁਹ ਸੀ ਕਹਿ ਕੋਟਿਕ ਬਾਤ ਬਨਾਵੈ ॥"
 page = 366
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“I shall not go there, undoubtedly one may say millions of things"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਉਥੇ ਕਦੇ ਵੀ ਨਹੀਂ ਜਾਵਾਂਗੀ, ਤੇਰੇ ਵਰਗੀਆਂ (ਭਾਵੇਂ) ਕਰੋੜਾਂ ਗੱਲਾਂ ਬਣਾਉਣ।"

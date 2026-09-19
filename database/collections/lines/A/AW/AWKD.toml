@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਸੁ ਸਰਬ ਸਿੰਧ ਲੇਖਕ ਬਨੇਸਿ ॥"
 page = 641
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਸਮੁੰਦਰ ਸਿਆਹੀ ਅਤੇ ਸਾਰੇ ਬਨ ਕਲਮਾਂ ਬਣ ਜਾਣ,"

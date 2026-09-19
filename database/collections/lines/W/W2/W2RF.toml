@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਬ੍ਰਹਮ ਪਾਤਕੀ ਜਾਨੈ ॥੯੪॥"
 page = 1199
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਪਰਮਾਤਮਾ ਪਾਪੀ ਸਮਝਦਾ ਹੈ ॥੯੪॥"

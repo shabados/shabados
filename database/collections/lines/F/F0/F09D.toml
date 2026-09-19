@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਲ ਮਦਨ ਕੋ ਤਾਪ ਨਿਵਾਰਹਿ ॥੭॥"
 page = 1330
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਾਮ ਦਾ ਸਾਰਾ ਤਾਪ ਦੂਰ ਕਰ ਰਹੇ ਸਨ ॥੭॥"

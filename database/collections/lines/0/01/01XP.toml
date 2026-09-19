@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾ ਉਸੁ ਭੂਖ; ਨ ਹਮ ਕਉ ਤ੍ਰਿਸਨਾ ॥"
 page = 391
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He feels no hunger, nor do I have any thirst."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਕੋਈ ਭੁੱਖ ਨਹੀਂ, ਨਾਂ ਹੀ ਮੈਨੂੰ ਕੋਈ ਤ੍ਰੇਹ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He has no hunger, so I have no thirst."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਨ ਉਸ ਕੋ (ਭੂਖ) ਇਛ੍ਯਾ ਹੈ ਨਾ ਹਮ ਕੋ ਕਿਸੀ ਬਿਖ੍ਯ ਕੀ ਤ੍ਰਿਸਨਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਪਰਮਾਤਮਾ ਨੂੰ ਮਾਇਆ ਦਾ ਮਾਲਕ ਨਹੀਂ ਦਬਾ ਸਕਦਾ, ਸਾਨੂੰ ਭੀ ਮਾਇਆ ਦੀ ਤ੍ਰਿਸ਼ਨਾ ਨਹੀਂ ਵਿਆਪਣੀ ਚਾਹੀਦੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Tampoco Él está hambriento, y yo tampoco lo estoy."

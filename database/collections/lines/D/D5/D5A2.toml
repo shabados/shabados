@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਗੀ ਜੋਗੁ ਜਟਨ ਮੋ ਨਾਹੀ ॥"
 page = 684
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Yogis! the Yoga does not consist in the matted locks"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਜੋਗੀ! ਜੋਗ ਜਟਾਂ ਵਿਚ ਨਹੀਂ ਹੈ।"

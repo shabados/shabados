@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇ ਤੇ ਭਨੇ ਸੁ ਸਾਰਦਾ ਤੇਵ ॥"
 page = 615
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whatever sports Krishna performed, he described them with the halp of Saraswati the godess of learning"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਉਹ ਸਾਰਦਾ ਦੇਵੀ ਨੇ ਕਹਿ ਸੁਣਾਏ।"

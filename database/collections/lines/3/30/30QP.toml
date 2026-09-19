@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਚਰਮ ਛੇਦੇ ॥"
 page = 108
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the armour is penetrated and the inflicted skein is being seen."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਢਾਲਾਂ ਟੁੱਟੀਆਂ ਪਈਆਂ ਹਨ,"

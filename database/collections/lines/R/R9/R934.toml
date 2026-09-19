@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੀਰ ਦਤ ਚੰਡਾਲਿਕ ਰਹੈ ॥"
 page = 989
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੀਰ ਦੱਤ ਨਾਂ ਦਾ ਇਕ ਚੰਡਾਲ ਰਹਿੰਦਾ ਸੀ।"

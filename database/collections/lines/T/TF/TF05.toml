@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰਾ ਸਿਰ ਤੇ ਮੱਥਾ ਸਿਦਕ ਸਫ਼ਾਈ ਨਾਲ"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਸਰੋ ਫ਼ਰਕਮ ਜ਼ਿ ਰੂਇ ਸਿਦਕੋ ਸਫ਼ਾ ॥੧॥"
 page = 1
 line = 1
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "My head and forehead with faith and clarity (1) "

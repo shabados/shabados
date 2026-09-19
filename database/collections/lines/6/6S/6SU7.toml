@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਲ ਫਾਸ ਤੇ, ਤਾਹਿ ਉਬਾਰਾ ॥"
 page = 1388
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who remembered Thee even once, Thou didst protect him from the noose of death"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ (ਤੁਸੀਂ) ਕਾਲ ਦੀ ਫਾਹੀ ਤੋਂ ਬਚਾ ਲਿਆ।"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਕਾਲ ਫਾਸ ਤੇ; ਤਾਹਿ ਉਬਾਰਾ ॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਫਾਧਿ ਫਾਧੈ, ਮ੍ਰਿਗੀ ਰਾਟ ਜੈਸੇ ॥"
 page = 1154
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਕਾਲਾ ਹਿਰਨ ਫੰਧੇ ਵਿਚ ਫਸ ਗਿਆ ਹੋਵੇ।"

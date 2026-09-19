@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਪੁ ਗਵਾਇ, ਅਮੋਲ ਮਣਿਕਾ ॥੨੦॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Only by erasing its ego it becomes an invaluable jewel."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਾ ਗਵਾਉਣ ਕਰ ਕੇ ਹੀ ਅਮੋਲਕ ਮਾਣਕ ਹੁੰਦਾ ਹੈ।"

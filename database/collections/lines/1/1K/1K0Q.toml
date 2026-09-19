@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਭੂਮਿ ਧਾਰਸ ਪਾਵ ॥"
 page = 658
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਭੂਮੀ ਉਤੇ (ਉਸ ਨੇ) ਪੈਰ ਧਰਿਆ ਹੋਇਆ ਹੈ,"

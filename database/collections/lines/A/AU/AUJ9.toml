@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਦਰਬੁ ਜਿਹ ਧਾਮ ਪ੍ਰਮਾਨਿਯ ॥"
 page = 848
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Once a Shah, who had lot of wealth, had a wife."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਘਰ ਬਹੁਤ ਧਨ ਮੰਨਿਆ ਜਾਂਦਾ ਸੀ।"

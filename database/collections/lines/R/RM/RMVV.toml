@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਾਇਆ ਹਰਿ ਮੰਦਰੁ; ਹਰਿ ਆਪਿ ਸਵਾਰੇ ॥"
 page = 1059
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The body is the Lord's mansion. God Himself embellished it."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਦੇਹ ਪ੍ਰਭੂ ਦਾ ਮਹਿਲ ਹੈ। ਵਾਹਿਗੁਰੂ ਆਪੇ ਇਸ ਨੂੰ ਸ਼ਸੋਭਤ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The body is the temple of the Lord; the Lord Himself embellishes it."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਰੀਰ ਹਰੀ ਕਾ ਮੰਦਰ ਹਰੀ ਨੇ ਆਪ ਰਚਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਮਨੁੱਖਾ ਸਰੀਰ ਪਰਮਾਤਮਾ ਦਾ (ਪਵਿੱਤਰ) ਘਰ ਹੈ, ਪਰਮਾਤਮਾ ਇਸ ਨੂੰ ਆਪ ਹੀ ਸੋਹਣਾ ਬਣਾਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਰਿ ਮੰਦਰੁ = ਹਰੀ ਦਾ ਮੰਦਰ, ਹਰੀ ਦਾ ਘਰ। ਸਵਾਰੇ = ਸੋਹਣਾ ਬਣਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Dios Mismo embellece el templo del cuerpo y en él habita el Señor,"

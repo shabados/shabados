@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਚੇ ਪਖਰੀਏ ਜੁਝਾਰੰ ॥"
 page = 212
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brave fighters thundered and the warriors wearing steel armours, being intoxicated, began to dance."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੜਾਕੂ ਸੂਰਮਿਆਂ ਦੇ ਘੋੜੇ ਨੱਚਦੇ ਸਨ,"

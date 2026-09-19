@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਾਤ ਪੀਤ ਬੈਠਤ ਉਠਤ; ਸੋਵਤ ਜਾਗਤ ਨਿਤਿ ॥"
 page = 938
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Eating, drinking, sitting, standing, sleeping and awake,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਨਿੱਤ ਖਾਂਦਿਆਂ ਪੀਂਦਿਆਂ, ਬੈਠਦਿਆਂ ਉਠਦਿਆਂ, ਸੌਂਦਿਆਂ ਜਾਗਦਿਆਂ"

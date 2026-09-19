@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਰਾਸੰਧਹ ਮਾਰ ਕੈ ਪੁਨਿ; ਕੈਰਵਾ ਹਥਿ ਪਾਇ ॥"
 page = 140
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After slaying Jarasandh and then conquering the Kauravas,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਰਾਸਿੰਧ ਨੂੰ ਮਾਰ ਕੇ, ਫਿਰ ਕੌਰਵਾਂ ਨੂੰ ਆਪਣੇ ਅਧੀਨ ਕੀਤਾ"

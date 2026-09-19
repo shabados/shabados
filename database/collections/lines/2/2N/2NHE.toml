@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਖੇਦ ਨਾਦ ਦੁਧਰੰ ॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Beyond the tunes of worldly joys."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੁਸੀਂ) ਆਨੰਦ ('ਅਖੇਦ') ਨਾਦ ਵਜੋਂ ਦੋਹਾਂ ਪਾਸੇ (ਪੂਰਨ) ਹੋ,"

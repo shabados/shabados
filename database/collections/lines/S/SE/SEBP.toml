@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਿਲਿ ਕਰਿ ਸਭੁ ਬਾਸਵ ਪੈ ਗਏ ॥"
 page = 173
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Realising this all the gods were worried and went to Indra and said:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਮਿਲ ਕੇ ਇੰਦਰ ਕੋਲ ਗਏ (ਅਤੇ ਕਹਿਣ ਲਗੇ ਕਿ)"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਸੁਭਟ ਕੋ ਸਿਰ ਮਉਰ ॥"
 page = 701
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The chief of all the warriors is Anuraktita"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਾਰਿਆਂ ਸੂਰਮਿਆਂ ਦਾ ਸ਼ਿਰੋਮਣੀ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰ ਹਰ ਸਦਾ ਬਕਤ੍ਰ ਤੇ ਕਹੈ ॥੧॥"
 page = 995
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She worshipped god Shiva and all the time meditated on his name.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੂੰਹੋਂ ਸਦਾ 'ਹਰ-ਹਰ' ਕਹਿੰਦੀ ਰਹਿੰਦੀ ਸੀ ॥੧॥"

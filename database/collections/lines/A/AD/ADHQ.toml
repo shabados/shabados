@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਈ ਕੋਟਿ; ਪੰਖੀ ਸਰਪ ਉਪਾਏ ॥"
 page = 275
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Many millions of birds and serpents have been created."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕਾਂ ਕ੍ਰੋੜ ਪੰਛੀ ਅਤੇ ਸੱਪ ਪੈਦਾ ਕੀਤੇ ਗਏ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Many millions of birds and snakes have been created."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਕ੍ਰੋੜੋਂ ਹੀ ਪੰਛੀ ਔ ਸਰਪ ਆਦਿ ਤਿਸ ਵਾਹਿਗੁਰੂ ਨੇ ਉਪਾਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਰੋੜਾਂ ਪੰਛੀ ਤੇ ਸੱਪ (ਪ੍ਰਭੂ ਨੇ) ਪੈਦਾ ਕੀਤੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਉਪਾਏ = ਪੈਦਾ ਕੀਤੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Millones los pájaros y reptiles creados."

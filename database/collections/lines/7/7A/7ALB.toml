@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਕ ਧਰਕ ਛਤਿਯਾ ਕਰੈ ਬਚਨ ਨ ਭਾਖ︀ਯੋ ਜਾਇ ॥੮॥"
 page = 838
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With extreme heart-palpitation, she was dumbfounded.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਛਾਤੀ ਧੜਕਣ ਲਗੀ ਅਤੇ (ਮੂੰਹ ਵਿਚੋਂ) ਗੱਲ ਨਹੀਂ ਸੀ ਕੀਤੀ ਜਾ ਰਹੀ ॥੮॥"

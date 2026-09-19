@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਯੋ ਮਾਥੁਰੇਸੰ ਤਿਸੇ ਰਾਵਣਾਰੰ ॥"
 page = 274
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One day Ram sent for the son of Sumitra and said to him :"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਮਥੁਰਾ ਦਾ ਰਾਜਾ ਬਣਾ ਦਿੱਤਾ।"

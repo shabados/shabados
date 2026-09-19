@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਅਪਣੀ ਨਜ਼ਰ ਨਾਲ ਦੋਜ਼ਖ ਦੇ ਸ਼ੈਤਾਨ ਤੋਣ ਬਚਾਈ ਰੱਖੇ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹੱਕ ਨਿਗਾਹ ਦਾਰਦ ਜ਼ਿ ਸ਼ੈਤਾਨਿ ਰਜ਼ੀਮ ॥੧੧੯॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "You should utter only His approbations and nothing else. This is life. (471)"

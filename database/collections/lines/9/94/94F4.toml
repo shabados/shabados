@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਿ ਦੁਹੂੰਅਨ ਕੋ ਖਾਟ ਤਰ; ਘਰੀ ਏਕ ਦੋ ਟਾਰਿ ॥"
 page = 882
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Keeping them under the bed for some time,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੋਹਾਂ ਨੂੰ ਮੰਜੇ ਹੇਠਾਂ ਥੋੜਾ ਚਿਰ ਰਖ ਕੇ"

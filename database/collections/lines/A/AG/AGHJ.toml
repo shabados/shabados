@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਨ ਦੇਖੀਯਤ ਤਾਜੀਅਨ ਚਢੇ ॥੨੩॥"
 page = 184
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They collided with one another, being filled with great anger, and they were never seen again, riding on their horses.23."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਪਿਛੋਂ ਘੋੜੇ ਉਤੇ ਚੜ੍ਹਿਆ ਹੋਇਆ ਕੋਈ ਵੀ ਨਹੀਂ ਸੀ ਦਿਸ ਰਿਹਾ ॥੨੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕੈ ਬ੍ਰਿਣ ਲਾਗਤ ਹੀ ਮਰਿਯੋ ॥"
 page = 936
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The arrow hit him (the Raja inside the mat) and with one shot alone he was thrown on the ground."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕੋ ਘਾਉ ਦੇ ਲਗਣ ਨਾਲ ਹੀ ਮਰ ਗਿਆ।"

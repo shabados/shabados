@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਿਰਿ ਗਿਰਿ ਮਨੋ ਮੁਨਾਰਾ ਗਏ ॥੧੨॥"
 page = 1064
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਜ ਲਗਦਾ ਸੀ) ਮਾਨੋ ਮੁਨਾਰੇ ਡਿਗ ਪਏ ਹੋਣ ॥੧੨॥"

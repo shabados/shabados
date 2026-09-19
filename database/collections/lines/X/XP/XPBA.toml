@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਨ ਗਨ ਉਦਾਰ ॥੯੧॥"
 page = 6
 line = 1
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thy Virtues like Generosity are countless.91"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਉਦਾਰਤਾ ਆਦਿ ਗੁਣਾਂ ਦਾ ਸਮੂਹ ਹੈਂ ॥੯੧॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਗੁਨ ਗਨ, ਉਦਾਰ ॥੯੧॥"

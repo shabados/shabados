@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਰਾ ਖ਼ੁਫ਼ਤਹ ਹਸਤੀ ਤੁ ਦਰ ਖ਼ੂਨ ਗਰਦ ॥੧੨੮॥"
 page = 1405
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Why are you lumbering in the blood ridden dust?(128)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਲਹੂ ਅਤੇ ਘਟੇ ਵਿਚ ਕਿਉਂ ਸੁਤਾ ਪਿਆ ਹੈਂ ॥੧੨੮॥"

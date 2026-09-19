@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਸੈ ਬਿਓਮ ਚਾਰੰ ॥"
 page = 579
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਕਾਸ਼ ਵਿਚ ਫਿਰਨ ਵਾਲੇ (ਭੂਤਪ੍ਰੇਤ ਜਾਂ ਇਲਾਂ-ਗਿਰਝਾਂ) ਪ੍ਰਸੰਨ ਹੋ ਰਹੇ ਹਨ।"

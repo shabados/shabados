@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋਰੇ ਕਰ ਕੇ ਤਾਲਿ ਦਿਵੈਯੈ ॥੧੭॥"
 page = 816
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Who will play love-tunes with his both the eyes shut and resonantly clapping his hands.’(17)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੇਰੇ ਹੱਥੋਂ ਤਾਲ ਦਿਵਾਵੇਂਗੀ ॥੧੭॥"

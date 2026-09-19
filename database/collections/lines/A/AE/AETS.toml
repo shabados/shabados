@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਗਮਗਾਤ ਬਿਧ ਤੀਰਿ ਸਿਧਾਨੀ ॥੧॥"
 page = 290
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The earth, with unsteady gait, reached near the Lord.1."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਡਗਮਗਾਉਂਦੀ ਹੋਈ ਬ੍ਰਹਮਾ ਕੋਲ ਗਈ ॥੧॥"

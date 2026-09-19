@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਤੁਫੰਗ ਚੀਨ ਚਿਤਿ ਲਿਜੈ ॥੭੯੫॥"
 page = 759
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Utter firstly the word “Ambujanani”, then add “Jaa-char-nayak-shatru” and in this way comprehend the names of Tupak.795."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਨੂੰ) ਤੁਫੰਗ ਦੇ ਨਾਮ ਵਜੋਂ ਮਨ ਵਿਚ ਸਮਝ ਲਵੋ ॥੭੯੫॥"

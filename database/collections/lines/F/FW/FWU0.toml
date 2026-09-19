@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਤ ਸਬਦ ਤਾਕੀ ਤਰੁਨਿ; ਛੋਰਤ ਕਰਨ ਕਿਵਾਰ ॥੭॥"
 page = 816
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing the sound, opened the door with her own hands.(7)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਆਵਾਜ਼ ਸੁਣ ਕੇ ਇਸਤਰੀ ਹੱਥ ਨਾਲ ਕਿਵਾੜ ਖੋਲ੍ਹ ਦਿੰਦੀ ਸੀ ॥੭॥"

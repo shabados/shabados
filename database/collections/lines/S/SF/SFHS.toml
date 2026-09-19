@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿ ਬਾਕ ਕੇ ਹੋਵਤ ਪੈ ਤਿਨ ਹੂੰ; ਅਮਰਾ ਪੁਰ ਕੇ ਫਲ ਹੈ, ਸੁ ਲਹੇ ॥"
 page = 378
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With the words of the Lord, the fruit of all the three worlds are obtained,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਦਾ ਬਚਨ ਹੁੰਦਿਆਂ ਹੀ ਉਸ ਨੇ ਅਮਰਾਪੁਰ ਦੇ ਜੋ ਫਲ ਹਨ, ਉਹ ਪ੍ਰਾਪਤ ਕਰ ਲਏ।"

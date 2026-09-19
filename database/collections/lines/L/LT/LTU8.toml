@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣਾ ਦਿਲ ਦਿਲਦਾਰ ਨੂੰ ਦੇ ਦੇ, ਤਾਣ ਜੋ ਤੂੰ ਆਪ ਦਿਲਦਾਰ ਹੋ ਜਾਵੇੰ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦਿਲ ਬ-ਦਿਲਦਾਰ ਬਿਦਿਹ ਜ਼ਾਕਿ ਤੂ ਦਿਲਦਾਰ ਸ਼ਵੀ ॥੬੧॥੨॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "That life is worth living that is spent in remembering Akaalpurakh,"

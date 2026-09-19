@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਵ ਸੁ ਸੇਰ ਸਿੰਘ ਤਹ ਭਯੋ ॥"
 page = 843
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After some times the Raja breathed his last."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਥੇ ਸ਼ੇਰ ਸਿੰਘ ਰਾਜਾ ਬਣ ਗਿਆ।"

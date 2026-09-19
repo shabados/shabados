@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਤੁ ਹੋਇ ਅੰਤਿ ਉਧਾਰੁ ॥੧੪॥"
 page = 612
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Only one Lord should be worshipped, so that we may be redeemed at the end.14."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕਰ ਕੇ ਅੰਤ ਵਿਚ ਉੱਧਾਰ ਹੋਏਗਾ ॥੧੪॥"

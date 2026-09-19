@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਏਤੇ ਜੀਅ; ਜਾਂ ਚੈ ਵਰਤਣੀ ॥"
 page = 1292
 line = 11
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "So many creatures are whose vessels."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਐਨੇ ਜੀਵ-ਜੰਤੂ ਜਿਸ ਦੇ ਹਨ ਬਰਤਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The creatures of the world are His household utensils."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਵਾਹਿਗੁਰੂ ਕੇ (ਏਤੇ) ਇਤਨੇ ਜੀਵ ਮੈਨੇ ਕਹੇ ਹੈਂ (ਵਰਤਣੀ) ਬਰਤਣ ਹੈਂ, ਭਾਵ ਜਿਸ ਕੀ ਇਤਨੀ ਬਿਭੂਤੀ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਦੇ ਇਹ ਸਾਰੇ ਜੀਆ-ਜੰਤ ਉਸ ਦੇ ਭਾਂਡੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਵਰਤਣੀ = ਬਰਤਨ, ਭਾਂਡੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Las Criaturas del mundo son los utensilios del Hogar."

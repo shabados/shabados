@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਵਾਰ ਦ੍ਵਾਰ ਡੋਲਤ ਇਹ ਪ︀ਯਾਸਾ ॥੪੧॥"
 page = 1194
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਸੇ ਪਿਆਸ (ਨੂੰ ਤ੍ਰਿਪਤਾਉਣ ਲਈ) ਘਰ ਘਰ ਡੋਲਦੇ ਫਿਰਦੇ ਹੋ ॥੪੧॥"

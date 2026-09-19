@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਮਤਕਾਰ ਇਕ ਤੌਹਿ ਦਿਖੈਹੌ ॥"
 page = 827
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A miracle and, thereafter,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੈਨੂੰ ਇਕ ਚਮਤਕਾਰ ਵਿਖਾਉਂਦਾ ਹਾਂ।"

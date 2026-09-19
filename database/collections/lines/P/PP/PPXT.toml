@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਥੁਰੀ ਲੁਥ ਜੁਥ ਅਨੇਕ ॥"
 page = 258
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੋਥਾਂ ਦੇ ਅਨੇਕ ਝੁੰਡ ਖਿੱਲਰੇ ਪਏ ਹਨ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਕੇ ਹਮਲਹ ਚੂੰ ਸ਼ੇਰ ਨਰ ਸਾਖ਼ਤਮ ॥੩੨॥"
 page = 1416
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I would have pounced upon her like a lion.’(32)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਮੈਂ ਇਸ ਉਤੇ ਸ਼ੇਰ ਵਾਂਗ ਇਕੋ ਵਾਰ ਹਮਲਾ ਕਰ ਦਿੰਦਾ ॥੩੨॥"

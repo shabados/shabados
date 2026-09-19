@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿਯੋਂ ਇਮ ਰੀਤ ਚਲਾਵਤ ਹੋ ਦਿਨ ਦ੍ਵੈਕ ਚਲੈ ਸ੍ਰਬਦਾ ਨ ਚਲੈਗੀ ॥"
 page = 675
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Why do you introduce such-like rites, which will not continue for ever?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਨਵੀਂ ਰੀਤ ਕਿਉਂ ਚਲਾ ਰਹੇ ਹੋ, ਦੋ ਕੁ ਦਿਨ ਚਲੇਗੀ, ਸਦਾ ਲਈ ਨਹੀਂ ਚਲੇਗੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਗਿਨ ਹੋਇ ਜਪੋ ਹਰਿ ਕੋ; ਮੁਖ ਮਾਗਹੁਗੀ ਤੁਮ ਸੋ ਬਰੁ ਦੈ ਹੈ ॥੯੫੫॥"
 page = 392
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He will grant you whatever boon you will ask him.955."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋਗਣਾਂ ਹੋ ਕੇ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਜਪੋ (ਫਿਰ) ਮੂੰਹੋਂ ਜੋ ਮੰਗੋਗੀਆਂ, ਓਹੀ ਵਰ (ਤੁਹਾਨੂੰ) ਦੇਵੇਗਾ ॥੯੫੫॥"

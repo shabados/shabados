@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਧ ਕੀਏ ਬਿਨੁ ਫੇਰ ਫਿਰੈ ਨਹਿ; ਭੂਮਿ ਸਭੈ ਅਪਨੀ ਅਵਧਾਰੀ ॥"
 page = 83
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That the demons are considering the earth as their own, it is futile to get it back without the war.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਯੁੱਧ ਕੀਤੇ ਬਿਨਾ ਫਿਰ (ਉਹ) ਸਾਰੀ ਭੂਮੀ ਨਹੀਂ ਪਰਤਦੀ (ਜਿਸ ਉਤੇ) ਆਪਣਾ ਅਧਿਕਾਰ ਸੀ।"

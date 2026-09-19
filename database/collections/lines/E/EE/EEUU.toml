@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਗਣੀ ਭੋਗਣੀ ਰੋਗ ਹਰੀ ਕਾਲਿਕਾ ॥"
 page = 681
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "You are also Yogni, Enjoyer and Kalika, the destroyer of ailments"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋਗਣੀ, ਭੋਗਣੀ, ਰੋਗ-ਹਰੀ, ਕਾਲਿਕਾ,"

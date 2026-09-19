@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅਖੀ ਅੰਦਰਿ ਦੇਖਦਾ; ਸਭ ਚੋਜ ਵਿਡਾਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Through the eyes (of the world) He beholds all the wondrous feats."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਅਖਾਂ ਦੇ ਅੰਦਰ ਸਾਰੇ ਅਚਰਜ ਕੌਤਕ ਦੇਖਦਾ ਹੈ।"

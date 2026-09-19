@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਗਤ ਹੀ ਕਵਿ ਸ︀ਯਾਮ ਕਹੈ ਤਨ ਸ੍ਰੀ ਜਦੁਬੀਰ ਕੋ ਚੀਰ ਪਧਾਰੇ ॥"
 page = 444
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Showered his arrows on Krishna, which pierced his body and came out from the other side,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਬਾਣ) ਲਗਦਿਆਂ ਹੀ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਦੇ ਸ਼ਰੀਰ ਨੂੰ ਚੀਰ ਕੇ ਨਿਕਲਦੇ ਜਾ ਰਹੇ ਹਨ।"

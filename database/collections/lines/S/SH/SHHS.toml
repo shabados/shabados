@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮ ਸੀਹ ਨਾਮਾ ਜਗ ਕਹਈ ॥੧॥"
 page = 918
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Day in and day out, he kept himself busy in his farm; he was known in the world by the name of Ram Singh.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ) ਨਾਮ ਰਾਮ ਸਿੰਘ ਪ੍ਰਚਲਿਤ ਸੀ ॥੧॥"

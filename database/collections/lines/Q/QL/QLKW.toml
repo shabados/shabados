@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਰਾਹਿ ਸੈਤਾਨੀ, ਦੁਨੀਆ ਗੋਈ ॥੩੩॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The whole of the world is following the ways of Satan."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ੈਤਾਨੀ ਰਾਹ (=ਬਦੀ ਦੇ ਰਸਤਿਆਂ) ਵਿਖੇ ਦੁਨੀਆਂ ਭੁੱਲੀ ਪਈ ਫਿਰਦੀ ਹੈ। “"

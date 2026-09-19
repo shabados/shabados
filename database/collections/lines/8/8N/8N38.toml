@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਬੀਰ ਬੈਤਲਾ ਬਾਕੇ ਬਿਹਾਰੈ ॥"
 page = 944
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਬਾਂਕੇ ਬੀਰ ਬੈਤਾਲ ਵਿਚਰ ਰਹੇ ਹਨ"

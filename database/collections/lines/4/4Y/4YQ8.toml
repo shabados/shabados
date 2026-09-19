@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇੰਦ੍ਰ ਸਬਦ ਤਾ ਪਾਛੇ ਦੀਜੈ ॥"
 page = 751
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਤੋਂ ਬਾਦ 'ਇੰਦ੍ਰ' (ਬ੍ਰਿਛ) ਸ਼ਬਦ ਜੋੜੋ।"

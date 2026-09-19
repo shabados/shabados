@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਪਜ ਬਯਾਹ ਜਬੈ ਗ੍ਰਹ ਆਏ ॥"
 page = 218
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜ-ਕੁਮਾਰ ਵਿਆਹ ਕੇ ਜਦੋਂ ਘਰ ਆਏ"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਿਲਬਿਖ ਦੂਖ ਨਿਵਾਰਣਹਾਰਾ ॥"
 page = 1049
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord is Destroyer of sin and pain."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਪਾਪ ਅਤੇ ਪੀੜ ਨੂੰ ਨਾਸ ਕਰਨ ਵਾਲਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "God is the Destroyer of sin and pain."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪਾਪੋਂ ਔ ਦੁਖਾਂ ਕੇ ਨਵਿਰਤ ਕਰਣੇਹਾਰਾ ਸੋ ਗੁਰੂ ਹੀ ਮੁਖ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜਿਹੜਾ ਪਰਮਾਤਮਾ (ਸਾਰੇ) ਪਾਪ ਅਤੇ ਦੁੱਖ ਦੂਰ ਕਰਨ ਦੇ ਸਮਰੱਥ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਿਲਬਿਖ = (ਸਾਰੇ) ਪਾਪ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Señor nos libera de nuestro dolor y de los efectos de nuestros errores,"

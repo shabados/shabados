@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਧਵਤ ਹੋਮ ਦਾਨ ਮਖਸਾਰਾ ॥"
 page = 623
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He performed various types of Yajnas and executed hom and bestowed charities according to Vedic injunctions"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਯੱਗ-ਸ਼ਾਲਾ ਵਿਚ ਮਰਯਾਦਾ ਪੂਰਵਕ ਹੋਮ ਅਤੇ ਦਾਨ ਹੋਣ ਲਗੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਆਮਦ ਦਰੀਂ ਜਾ ਵਜ਼ਾ ਕਾਹ ਨੇਸਤ ॥"
 page = 1410
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘You have come here where there is no grass to cut."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਸੀਂ ਇਥੇ ਘਾਹ ਲੈਣ ਆਏ ਸੀ, ਕੀ ਉਥੇ ਘਾਹ ਨਹੀਂ ਸੀ।"

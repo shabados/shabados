@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਭਗਤਿ ਵਛਲੁ ਹੋਇ ਭੇਟਿਆ; ਮਾਣੁ ਨਿਮਾਣੇ ਆਪਿ ਦਿਵਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "God, affectionate to the devotees, also embraced him and egoless Dhruv attained the highest glory."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਵਾਹਿਗੁਰੂ) ਭਗਤ ਵਛਲ ਨੇ ਨਿਮਾਣੇ ਨੂੰ ਆਪ ਮਾਣ ਦਿੱਤਾ ਤੇ ਉਸ ਨੂੰ ਮੇਲ ਲਿਆ।"

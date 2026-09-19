@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਿਸਹਿ ਧਿਆਇ; ਸਦਾ ਮਨ ਅੰਦਰਿ ॥"
 page = 269
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "ever meditate on Him within thy mind."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਚਿੱਤ ਅੰਦਰ ਹਮੇਸ਼ਾਂ ਉਸ ਦਾ ਆਰਾਧਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "meditate forever on Him within your mind."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸੀ ਕੋ ਅਪਨੇ ਮਨ ਮੇਂ ਸਦੀਵ ਧਿਆਓ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਸਦਾ ਮਨ ਵਿਚ ਸਿਮਰ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਤਿਸਹਿ = ਉਸ ਨੂੰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Permanece inmerso en Él,"

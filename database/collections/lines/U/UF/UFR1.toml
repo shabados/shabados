@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਥੁਰਾ ਪੁਰ ਕੀ ਪ੍ਰਭਾ ਕਬਿ; ਮਨ ਮੈ ਕਹੀ ਬਿਚਾਰਿ ॥"
 page = 377
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The poet after reflection has described the beauty of the city of Mathura"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਥੁਰਾ ਨਗਰ ਦੀ ਸੁੰਦਰਤਾ ਕਵੀ ਨੇ ਮਨ ਵਿਚ ਵਿਚਾਰ ਕੇ ਕਹਿ ਦਿੱਤੀ ਹੈ।"

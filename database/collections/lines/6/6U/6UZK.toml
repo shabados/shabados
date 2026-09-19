@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪਿਤਾ; ਪਾਰਬ੍ਰਹਮ ਪ੍ਰਭ ਧਨੀ ॥"
 page = 1186
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Supreme God, the Lord Master, is my Father."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੁਆਮੀ ਮਾਲਕ ਸ਼ਰੋਮਣੀ ਵਾਹਿਗੁਰੂਮ ਮੇਰਾ ਬਾਬਲ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "My Father is the Supreme Lord God, my Master."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਪਿਤਾ ਪਾਰਬ੍ਰਹਮ! ਹੇ ਧਨੀ ਪ੍ਰਭੂ!"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਪਿਤਾ ਪਾਰਬ੍ਰਹਮ! ਹੇ ਮੇਰੇ ਮਾਲਕ ਪ੍ਰਭੂ!"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪ੍ਰਭ = ਹੇ ਪ੍ਰਭੂ! ਧਨੀ = ਮਾਲਕ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh Dios, Padre Nuestro, Señor Trascendente, Maestro, l"

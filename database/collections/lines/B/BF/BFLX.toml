@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਜ ਬਾਜ ਸਾਜ ਦੀਨਾਨ ਦੀਨ ॥"
 page = 627
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king Raghu ruled in this way and gave in charity the elephants and horses to the poor"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਘੋੜੇ ਤੇ ਹਾਥੀ ਸਜਾ ਕੇ ਦੀਨਾਂ ਅਨਾਥਾਂ ਨੂੰ ਦਾਨ ਦਿੱਤੇ ਸਨ।"

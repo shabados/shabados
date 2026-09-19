@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁੰਬਨ ਕਰਤ ਨਖਨ ਕੇ ਘਾਤਾ ॥"
 page = 1322
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੁੰਬਨ ਲੈਂਦੇ ਅਤੇ ਨਹੁੰਆਂ ਦੇ ਨਿਸ਼ਾਣ ਲਗਾਉਂਦੇ।"

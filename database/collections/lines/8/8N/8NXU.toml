@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਗ ਸਪਤਈ ਤਾਹਿ ਡਰਾਯੋ ॥"
 page = 999
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੱਤਵੀਂ ਦੇਗ ਵਿਚ ਉਸ ਨੂੰ ਪਾਇਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਧੜੀ ਛੰਦ ॥ ਤ੍ਵਪ੍ਰਸਾਦਿ ॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "PAADHRAI STANZA BY THY GRACE"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਾਧੜੀ ਛੰਦ: ਤੇਰੀ ਕ੍ਰਿਪਾ ਨਾਲ:"

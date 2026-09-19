@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਲੀ ਚਾਮਰੇਵੰ ॥"
 page = 101
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One was Chamar, the second was Chichhur,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿੰਨ੍ਹਾਂ ਵਿਚੋਂ ਇਕ) ਬਲੀ ਚਾਮਰ ਸੀ,"

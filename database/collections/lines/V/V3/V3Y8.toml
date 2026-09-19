@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਵਿਤ੍ਰ ਪਰਮ ਨਿਰਮਲੰ ॥੫੨॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which is highly holy and pure.52."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਪਰਮ ਪਵਿਤਰ ਅਤੇ ਨਿਰਮਲ ਹੈ ॥੫੨॥"

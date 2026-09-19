@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬੈ ਭੀਮਚੰਦੰ ਕੀਯੋ ਕੋਪ ਆਪੰ ॥"
 page = 63
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਭੀਮ ਚੰਦ ਨੇ ਆਪ ਕ੍ਰੋਧ ਕੀਤਾ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਧਰੇ ਤੇ ਸਸਤ੍ਰ ਹਮਾਰੇ ॥੨੭॥"
 page = 994
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The riders have come nearer, where have you put my weapons?(27)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਮੇਰੇ ਹਥਿਆਰ ਕਿਥੇ ਧਰ ਦਿੱਤੇ ਹਨ ॥੨੭॥"

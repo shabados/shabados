@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਗਲੀ ਰੂਤੀ; ਹਰਿਆ ਹੋਇ ॥"
 page = 1180
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and flourish they in all the seasons."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਹ ਸਾਰਿਆਂ ਮੌਸਮਾਂ ਅੰਦਰ ਸਰਸਬਜ ਰਹਿੰਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "they flourish in all seasons."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਰੁਤੋਂ ਮੇਂ ਮਨੁ (ਹਰਿਆ) ਅਨੰਦੁ ਹੋ ਰਹਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੁਣ ਮੇਰਾ ਮਨ) ਸਾਰੇ ਸਮਿਆਂ ਵਿਚ ਹੀ ਆਤਮਕ ਜੀਵਨ ਨਾਲ ਭਰਪੂਰ ਰਹਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਗਲੀ ਰੂਤੀ = ਸਾਰੀਆਂ ਰੁੱਤਾਂ ਵਿਚ, ਹਰ ਸਮੇ। ਹਰਿਆ = ਆਤਮਕ ਜੀਵਨ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ahora cada segundo es Primavera para mí,"

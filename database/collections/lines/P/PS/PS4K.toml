@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਟਪਟ ਡਾਰੈਂ ਅਟਪਟ ਕੇਸੰ ॥"
 page = 266
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਖਿਲਰੇ ਹੋਏ ਕੇਸ਼ਾਂ ਨੂੰ ਪੁੱਟ-ਪੁੱਟ ਕੇ ਸੁੱਟਦੀਆਂ ਸਨ,"

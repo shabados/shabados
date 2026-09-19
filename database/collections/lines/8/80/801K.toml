@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਪਾਸਿ ਕੇ ਹੋਤ ਹੈ; ਲੀਜਹੁ ਸਮਝ ਸੁਜਾਨ ॥੪੪੮॥"
 page = 738
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying the word “Durdani” primarily and then adding “Murdani” at the end, the names of Paash are formed.448."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਪਾਸ ਦਾ ਨਾਮ ਬਣਦਾ ਹੈ। ਸਮਝਦਾਰੋ! ਵਿਚਾਰ ਕਰ ਲਵੋ ॥੪੪੮॥"

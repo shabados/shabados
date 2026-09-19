@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਰਠਿ ਸਾਰੰਗ ਬੈਰਾਰੀ ਛੈ ॥"
 page = 662
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੋਰਠ ਜਾਂ ਸਾਰੰਗ (ਰਾਗਨੀ) ਜਾਂ ਬੈਰਾੜੀ ਹੈ।"

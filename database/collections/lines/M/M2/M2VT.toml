@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅਕਥ ਕਥਾ, ਅਬਿਗਤਿ ਨਿਰਧਾਰਾ ॥੫॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "His ineffable story, beyond all bases is always unmanifest."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਕਥਾ ਅਕਥ ਹੈ ਅਬਿਗਤ ਤੇ ਨਿਰਾਧਾਰ ਹੈ।"

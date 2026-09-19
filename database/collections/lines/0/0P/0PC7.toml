@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਚ︀ਯੋ ਜਗ ਰਾਜਾ ਚਲੇ ਸਰਬ ਜੋਗੀ ॥"
 page = 678
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਯੱਗ ਰਚਿਆ ਸੀ, ਸਾਰੇ ਯੋਗੀ ਚਲੇ ਆ ਰਹੇ ਸਨ"

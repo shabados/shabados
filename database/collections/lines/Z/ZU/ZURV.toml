@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਦਲ ਕੁਅਰਿ ਨਾਮ ਤ੍ਰਿਯ ਤਿਹ ਕੌ ॥"
 page = 864
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "This is a story, which we heard with our own ears. In Haryabad a woman used to live."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਦਲ ਕੁਅਰਿ ਦੇ ਨਾਂ ਨਾਲ ਉਸ ਇਸਤਰੀ ਨੂੰ"

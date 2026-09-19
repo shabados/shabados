@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਥਿਰੰ ਆਸਣੇਕੰ ਮਹਾ ਊਰਧਰੇਤਾ ॥"
 page = 645
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was a great self-knowing, essence-knowing, stable Yogi performing austerities in upside down posture"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਇਕੋ ਆਸਨ ਉਤੇ ਸਥਿਰ ਰਹਿੰਦਾ ਹੈ ਅਤੇ ਮਹਾਨ ਬ੍ਰਹਮਚਾਰੀ ਹੈ।"

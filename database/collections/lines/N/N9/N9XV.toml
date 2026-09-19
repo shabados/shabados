@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੰਤ੍ਰ ਮੰਤ੍ਰ ਤੰਤ੍ਰੋ ਅਤਿ ਕਰੇ ॥"
 page = 828
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Blandishments, and executed several magical charms,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਤਰ੍ਹਾਂ ਦੇ ਜੰਤ੍ਰ ਮੰਤ੍ਰ ਤੰਤ੍ਰ ਕੀਤੇ।"

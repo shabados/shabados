@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੂੰਡ ਜੰਘ ਬਾਹਨ ਬਿਨੁ ਕੀਨੇ ॥"
 page = 929
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She would cut their faces, arms and legs,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਉਨ੍ਹਾਂ ਨੂੰ ਟੰਗਾਂ, ਬਾਂਹਵਾਂ ਅਤੇ ਸਿਰ ਤੋਂ ਬਿਨਾ ਕਰ ਕੇ"

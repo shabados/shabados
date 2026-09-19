@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਪਵਨ ਉਠੈ ਘਟਾ ਘੋਰ ਜੈਸੇ ॥੧੦॥"
 page = 942
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They besieged Indra like the wind envelopes the dust storm.(10)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਾਨੋ ਪਵਨ ਦੇ ਵਗਣ ਨਾਲ ਕਾਲੀਆਂ ਘਟਾਵਾਂ ਘਿਰ ਆਈਆਂ ਹੋਣ ॥੧੦॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨਿ ਜਾਨਿ ਸੁ ਧਰਮ ਕੋ ਘਰ; ਮਾਨਿ ਕੈ ਗੁਰਦੇਵ ॥"
 page = 646
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Considering him as the treasure of dharma and the great Guru,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੱਤ ਨੂੰ) ਧਰਮ ਦਾ ਘਰ ਜਾਣ ਕੇ, ਅਤੇ ਗੁਰੂਦੇਵ ਮੰਨ ਕੇ,"

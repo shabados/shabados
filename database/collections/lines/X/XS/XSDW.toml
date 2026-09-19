@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਜੁ ਪਤਿ ਕੌ ਲੈ ਚਰਿਤਿ ਦਿਖਾਇਯੋ ॥"
 page = 1027
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਣੀ ਨੇ) ਆਪਣੇ ਪਤੀ ਨੂੰ ਉਸ ਦਾ ਚਰਿਤ੍ਰ ਵਿਖਾ ਦਿੱਤਾ"

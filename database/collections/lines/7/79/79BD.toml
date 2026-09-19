@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੱਤ੍ਰ ਚੱਕ੍ਰ ਵਰਤੀ, ਚੱਤ੍ਰ ਚੱਕ੍ਰ ਭੁਗਤੇ ॥"
 page = 10
 line = 17
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to Thee O Pervader and Enjoyer in all the four directions Lord!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੌਹਾਂ ਚੱਕਾਂ ਵਿਚ ਵਿਚਰਨ ਵਾਲਾ, ਚੌਹਾਂ ਚੱਕਾਂ ਨੂੰ ਭੋਗਣ ਵਾਲਾ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਚੱਤ੍ਰ ਚੱਕ੍ਰ ਵਰਤੀ; ਚੱਤ੍ਰ ਚੱਕ੍ਰ ਭੁਗਤੇ ॥"

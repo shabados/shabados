@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹੀਮੇ ਬਰੋ ਰਹਿਮਸਾਜ਼ੀ ਕੁਨਦ ॥੧੦੧॥"
 page = 1393
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "the Merciful Lord is Graceful towards him.101."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਉਸ ਨਾਲ ਕ੍ਰਿਪਾ ਦਾ ਵਰਤਾਓ ਕਰਦਾ ਹੈ ॥੧੦੧॥"

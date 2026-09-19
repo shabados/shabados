@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ਼ਨਾਸੀ ਤੁ ਤਹਕੀਕ, ਓ ਕੋਰ ਹਸਤ ॥੨੯॥"
 page = 1398
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘(He) is keeping his vision restrained from other’s vices.(29)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਨਿਸਚੇ ਹੀ ਉਸ ਵਿਅਕਤੀ ਨੂੰ ਅੰਨ੍ਹਾ ਸਮਝੋ ॥੨੯॥"

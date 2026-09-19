@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਭਗਤੁ ਕਬੀਰੁ ਵਖਾਣੀਐ; ਜਨ ਰਵਿਦਾਸੁ ਬਿਦਰ ਗੁਰੁ ਭਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Vidur et al. have also been loved by the Lord. Whether born in high or the low caste,"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕਬੀਰ ਭਗਤ ਕਹੀਦਾ ਹੈ, ਜਨ ਰਵਿਦਾਸ, ਬਿਰਦ ਗੁਰੂ ਨੂੰ ਭਾਏ,"

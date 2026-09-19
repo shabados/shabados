@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਭੂਤ ਅੰਗ ਜਹ ਤਹ ਬਿਰਾਜ ॥੬੫॥"
 page = 640
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The supreme Yogi and with unique limbs pervades everywhere.65"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਤੱਤ੍ਵਰਹਿਤ ਸ਼ਰੀਰ ਜਿਥੇ ਕਿਥੇ ਬਿਰਾਜ ਰਿਹਾ ਹੈ ॥੬੫॥"

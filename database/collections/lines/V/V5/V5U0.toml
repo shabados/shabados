@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤਬ ਸਤਿਗੁਰੁ ਕੀਨੀ; ਮਿਹਰ ਅਪਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The True Guru, thus revealed his kind indulgence."

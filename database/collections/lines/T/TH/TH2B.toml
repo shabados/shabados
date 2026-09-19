@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੰਸ ਜੋਨਿ ਦੀਨੀ ਅਬਿਨਾਸੀ ॥"
 page = 1038
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਨੂੰ ਪਰਮਾਤਮਾ ਨੇ ਹੰਸ ਦੀ ਜੂਨ ਦਿੱਤੀ ਹੈ।"

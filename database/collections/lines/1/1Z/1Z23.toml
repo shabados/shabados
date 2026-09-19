@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਰੁਮਜ ਬਾਸਨੀ ਪੁਨਿ ਪਦ ਦੀਜੈ ॥"
 page = 748
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ 'ਦ੍ਰੁਮਜ ਬਾਸਨੀ' (ਬ੍ਰਿਛ ਦੇ ਪੁੱਤਰ ਲਕੜ ਨਾਲ ਵਸਣ ਵਾਲੀ) ਸ਼ਬਦ ਕਹੋ।"

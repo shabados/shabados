@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤੰਤ੍ਰ ਮੰਤ੍ਰ ਪਾਖੰਡ ਕਰਿ; ਕਲਹਿ ਕ੍ਰੋਧ ਬਹੁ ਵਾਦਿ ਵਧਾਵੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Due to the tantra mantra and such hyprocricies, the tensions anger and quarrels have been increased."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਕਈ) ਮੰਤ੍ਰ ਤਵੀਤ ਤੇ ਪਖੰਡ ਕਰਨ ਲੱਗੇ; ਝਗੜਾ, ਗੁੱਸਾ, ਤੇ ਵਿਤੰਡਾਵਾਦ ਵਧ ਗਿਆ (ਬੋਧੀ ਲੋਗ ਐਸੇ ਵਹਿਮਾਂ ਵਿਚ ਹੁਣ ਵੀ ਪ੍ਰਵਿਰਤ ਹਨ)।"

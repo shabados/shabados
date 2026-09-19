@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਗ ਰੰਗਿ ਜਿਹ ਰੇਖ ਨ ਰੂਪੰ ॥"
 page = 130
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art without affection, colour, mark and form."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਕੋਈ ਰਾਗ ਰੰਗ ਰੂਪ ਅਤੇ ਰੇਖਾ ਨਹੀਂ ਹੈ।"

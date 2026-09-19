@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖੰਤ ਸਿਧ ਚਾਰਣ ਅਨੰਤ ॥"
 page = 593
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਸੂਰਮਿਆਂ ਦੀ ਲੜਾਈ ਨੂੰ) ਸਿੱਧ ਲੋਕ ਵੇਖਦੇ ਹਨ"

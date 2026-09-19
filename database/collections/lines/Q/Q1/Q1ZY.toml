@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਾਲਾਂ ਅਤੇ ਮਹੀਨਿਆਂ ਦੇ ਕਫ਼ਾਂ ਦੀ ਕੋਰ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਤਰਾਜ਼ਿ ਆਸਤੀਨੋ ਮਾਹੋ ਸਾਲ ਰਾ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "He is the trimming of the cuffs of months and years,"

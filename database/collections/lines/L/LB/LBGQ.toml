@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਕਿਸ਼ਤੀ ਬਰ ਆਮਦ ਜ਼ਿ ਦਰੀਯਾ ਕਿਨਾਰ ॥੬੯॥"
 page = 1419
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The boat reached the safety of the bank.(69)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਕਿਸ਼ਤੀ ਦਰਿਆ ਤੋਂ ਬਾਹਰ ਕੰਢੇ ਉਤੇ ਆ ਪਹੁੰਚੀ ॥੬੯॥"

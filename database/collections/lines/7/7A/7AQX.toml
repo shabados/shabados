@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਹਮਾ ਬਿਸਨ, ਅੰਤੁ ਨਹੀ ਪਾਇਓ ॥"
 page = 11
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Brahma and Vishnu Could not know His end."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਹਮਾ ਅਤੇ ਵਿਸ਼ਣੂ ਨੇ ਉਸ ਦਾ ਅੰਤ ਨਹੀਂ ਪਾਇਆ"

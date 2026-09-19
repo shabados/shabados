@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਮਾ ਪਿਉ ਭੈਣਾ ਭਾਇਰਾ, ਪਰਵਾਰੁ ਦੁਰਾਲਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Third, father-in-law, mother-in-law, brother-in-law, and sister-in-law."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮਾਂ, ਪਿਉ, ਭੈਣਾਂ, ਭਿਰਾਉ (ਆਦਿ) ਬਾਹਲਾ ਪਰਵਾਰ। (ਨਾਨਕੇ ਘਰ ਦੇ ਸਾਕ ਦੱਸਦੇ ਹਨ।)"

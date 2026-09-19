@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਹਿ ਸਿਖਾਵਨ ਕਾਜ ਗਡੀਹਰਿ; ਗੋਪ ਮਨੋ ਮਿਲ ਕੈ ਸੁ ਬਨਾਯੋ ॥"
 page = 302
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In order to give training in walking to Krishna,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਹ (ਉਤੇ ਤੁਰਨ ਦਾ ਢੰਗ) ਸਿਖਾਉਣ ਲਈ ਗਵਾਲਿਆਂ ਨੇ ਮਿਲ ਕੇ ਇਕ ਸੁੰਦਰ 'ਗਡੀਅਰਾ' ਬਣਵਾਇਆ।"

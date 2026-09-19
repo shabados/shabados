@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਜਗਤ ਭਗਤ ਮਹੰਤ ॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the Supreme Lord of the saints of all the world."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਜਗਤ ਦੇ ਭਗਤਾਂ ਦਾ ਸ਼ਿਰੋਮਣੀ ਹੈ,"

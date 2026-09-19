@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੁਟੇ ਆਪ ਮੈ ਬੀਰ ਬੀਰੰ ਜੁਝਾਰੇ ॥"
 page = 67
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਤੇ) ਆਪਸ ਵਿਚ ਸੂਰਮੇ ਗੁੱਥਮ ਗੁੱਥਾ ਹਨ,"

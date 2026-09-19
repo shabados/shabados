@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਬ ਇਸ ਕਉ; ਸੁਖੁ ਨਾਹੀ ਕੋਇ ॥"
 page = 278
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "till then he has absolutely no peace."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਦੋਂ ਤਾਂਈ ਉਸ ਨੂੰ ਕੋਈ ਆਰਾਮ ਨਹੀਂ ਹੁੰਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "he shall have no peace."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਬ ਲਗ ਇਸ ਕੌ ਕੋਈ ਸੁਖ ਨਹੀਂ ਹੋਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਤਾਈਂ ਇਸ ਨੂੰ ਕੋਈ ਸੁਖ ਨਹੀਂ ਹੁੰਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "no encontrará la Paz."

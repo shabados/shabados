@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਵੈ ਤੇ ਹੋਤ ਛਿਨਿਕ ਮੋ ਚਾਰਾ ॥੧੧੧॥"
 page = 1365
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਛਿਣ ਭਰ ਵਿਚ ਦੋ ਤੋਂ ਚਾਰ ਹੋ ਜਾਂਦੇ ॥੧੧੧॥"

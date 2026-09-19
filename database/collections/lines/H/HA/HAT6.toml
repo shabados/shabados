@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਅਲਕੇਸ ਮਤੀ; ਤਿਹ ਸੁਤਾ ਬਖਾਨਿਯੈ ॥"
 page = 1345
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਲਕੇਸ ਮਤੀ ਉਸ ਦੀ ਪੁੱਤਰੀ ਦਸੀ ਜਾਂਦੀ ਸੀ।"

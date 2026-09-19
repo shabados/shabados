@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਲਾਨ ਬਾਲ ॥"
 page = 5
 line = 19
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Smallest of the Small."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਲਾਂ ਦਾ ਬਾਲ (ਸਰਲ ਸੁਭਾ ਵਾਲਾ) ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਬਾਲਾਨ ਬਾਲ ॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਤੇਰਾ ਮਨੋਰਥ ਅਵੱਸ਼ ਸਮਪੂਰਨ ਹੋ ਜਾਵੇਗਾ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਗੌਹਰਿ ਮਕਸੂਦ ਤੂ ਹਾਸਿਲ ਸ਼ਵਦ ॥੩੬੪॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Every such person who with a chaste mind and firm faith"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਚਉਪ ਸਿਉ ਜਗ ਮਾਇ ॥"
 page = 155
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With her heart’s desire, she (the mother of the world),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚਿੱਤ ਨੂੰ ਖੁਸ਼ੀ ਨਾਲ ਭਰ ਕੇ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਮਾਖ਼ਰ ਬਸੇ ਜ਼ਖ਼ਮਿ ਤੀਰੋ ਤੁਫ਼ੰਗ ॥"
 page = 1391
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many warriors wounded with arrows and bullets"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੰਤ ਵਿਚ ਤੀਰਾਂ ਅਤੇ ਬੰਦੂਕਾਂ ਦੇ ਬਹੁਤ ਸਾਰੇ ਜ਼ਖ਼ਮ ਖਾ ਕੇ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੀਜ ਰਹਿਯੋ ਨਹਿ ਏਕ ਤਹਾ; ਸਭ ਲੋਕ ਕਨੇਕਨ ਕੌ ਤਰਸਾਯੋ ॥"
 page = 968
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Nothing to eat was left and the people started to crave even for a single kernel."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਇਕ ਬੀਜ ਵੀ ਨਾ ਰਿਹਾ ਅਤੇ ਸਾਰੇ ਲੋਕ ਦਾਣੇ ਦਾਣੇ ਨੂੰ ਤਰਸਣ ਲਗੇ।"

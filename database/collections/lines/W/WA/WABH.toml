@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਈਤ ਊਤ; ਜਨ ਸਦਾ ਸੁਹੇਲੇ ॥"
 page = 792
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Here and there the Lord's slaves are ever happy."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਏਥੇ ਅਤੇ ਉਥੋ ਸਾਈਂ ਦੇ ਗੋਲੇ ਹਮੇਸ਼ਾਂ ਹੀ ਖੁਸ਼ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Here and there, the humble servants of the Lord are always happy."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਈਤ ਊਤ) ਲੋਕ ਪ੍ਰਲੋਕ ਮੇਂ ਵਹੁ ਜਨ ਸਦਾ ਹੀ ਸੁਖੀ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਦੇ ਸੇਵਕ ਲੋਕ ਪਰਲੋਕ ਵਿਚ ਸੌਖੇ ਰਹਿੰਦੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਈਤ ਊਤ = ਲੋਕ-ਪਰਲੋਕ ਵਿਚ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "él es propiedad del Señor. Aquí y allá está feliz y bendecido."

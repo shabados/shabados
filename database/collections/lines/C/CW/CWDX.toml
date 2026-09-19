@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਮੁੰਡਿਯਾ ਕ੍ਰੁਧਿਤ ਭਏ; ਭਾਜਤ ਭਯੋ ਨ ਏਕ ॥"
 page = 1040
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਬੈਰਾਗੀ ਗੁੱਸੇ ਵਿਚ ਆ ਗਏ ਅਤੇ ਇਕ ਵੀ ਨਾ ਭਜਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰੀ ਪਦਮਿਨੀ ਪਾਰਬਤੀ ਪਰਮ ਰੂਪਾ ॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art most beautiful like and apsara (heavenly damsel), Padmini and the goddess Parbati."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਪੱਛਰਾ, ਪਦਮਨੀ ਅਤੇ ਪਾਰਬਤੀ ਵਰਗੇ ਪਰਮ ਰੂਪਾਂ ਵਾਲੀ (ਨੂੰ ਨਮਸਕਾਰ ਹੈ);"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੁਮ ਤੇ ਭਿੰਨ; ਨਹੀ ਕਿਛੁ ਹੋਇ ॥"
 page = 292
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "without Thee nothing can be done."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਬਿਨਾ ਕੁਝ ਭੀ ਕੀਤਾ ਨਹੀਂ ਜਾ ਸਕਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Without You, nothing can be done."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੁਮ ਸੇ ਭਿੰਨ ਨਾ ਕੁਛ ਭਯਾ ਹੈ ਔ ਨਾ ਹੋਗਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ!) ਤੈਥੋਂ ਵੱਖਰਾ ਕੁਝ ਨਹੀਂ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਭਿੰਨ = ਵੱਖਰਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Nada existe ajeno a Ti, Señor;"

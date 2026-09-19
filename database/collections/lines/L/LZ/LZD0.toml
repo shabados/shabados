@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਧੀ ਸੈਨ ਰਾਜਾ ਇਕ ਸੂਰੋ ॥"
 page = 1253
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਧੀ ਸੈਨ ਨਾਂ ਦਾ ਇਕ ਸੂਰਮਾ ਰਾਜਾ ਸੀ"

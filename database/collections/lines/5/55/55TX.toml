@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਪੇ ਖਾਇ ਸਲਾਹਿ ਕੈ; ਹੋਇ ਤ੍ਰਿਪਤਿ ਸਮੋਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He Himself is the delight as well as the delighted."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਫੇਰ) ਆਪ ਹੀ ਖਾ ਕੇ ਸਲਾਹੁੰਦਾ ਹੈ ਰੱਜ ਕੇ ਅਨੰਦਤਿ ਹੁੰਦਾ ਹੈ।"

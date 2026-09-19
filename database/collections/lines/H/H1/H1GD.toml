@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਤ ਪੂਤ ਹਨਿ ਪਤਹਿ ਸੰਘਾਰਿਯੋ ॥"
 page = 1050
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੱਤ ਪੁੱਤਰਾਂ ਨੂੰ ਮਾਰ ਕੇ ਫਿਰ ਪਤੀ ਨੂੰ ਸੰਘਾਰਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਗਨ ਲਖ︀ਯੋ ਜੋਗੀਸਰ ਭਾਰੀ ॥੧੪੨॥"
 page = 624
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The kings considered him as the Sovereign and the Yogis thought of him s the Supreme Yogi.142."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜੋਗੀਆਂ ਨੇ ਵੱਡਾ ਜੋਗੀਸ਼੍ਵਰ ਮੰਨਿਆ ॥੧੪੨॥"

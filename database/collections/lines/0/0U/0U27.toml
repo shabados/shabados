@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰੋ ਤਾਜ਼ਹ ਸ਼ੁਦ ਸ਼ੀਰ ਪਿਸਤਾ ਅਜ਼ੋ ॥"
 page = 1411
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘On seeing him, I felt the milk dripping out of my breasts,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੇ ਥਣਾਂ ਵਿਚੋਂ ਦੁੱਧ ਵਗਣ ਲਗ ਗਿਆ।"

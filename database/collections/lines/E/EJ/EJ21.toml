@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਉਰਤ ਬੀਚ ਕਬੰਧ ਫਿਰੈ; ਜਿਹ ਦੇਖਤ, ਕਾਇਰ ਹੈ ਡਰ ਪਾਤੇ ॥"
 page = 76
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The trunks are also twirling there, seeing which the cowards are frightened."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਣ-ਭੂਮੀ) ਵਿਚ ਧੜ ('ਕਬੰਧ') ਦੌੜਦੇ ਫਿਰਦੇ ਹਨ ਜਿਨ੍ਹਾਂ ਨੂੰ ਵੇਖਕੇ ਡਰਪੋਕ ਡਰ ਰਹੇ ਹਨ।"

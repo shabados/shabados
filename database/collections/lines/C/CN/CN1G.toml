@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਿਯਤ ਬਸਤ ਸਮੁਦ ਕੇ ਪਾਰਾ ॥"
 page = 1248
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁਣਿਆ ਹੈ, ਸਮੁੰਦਰ ਦੇ ਪਾਰ ਰਹਿੰਦਾ ਹੈ।"

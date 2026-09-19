@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਖ ਬਾਏ ਸਭ ਕੋ ਰਹਿਯੋ; ਲਹਿਯੋ ਨ ਭੇਦ ਬਨਾਇ ॥੨੩॥"
 page = 1111
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਮੂੰਹ ਅੱਡੀ ਰਹਿ ਗਏ, ਕੋਈ ਵੀ ਭੇਦ ਨੂੰ ਨਾ ਪਾ ਸਕਿਆ ॥੨੩॥"

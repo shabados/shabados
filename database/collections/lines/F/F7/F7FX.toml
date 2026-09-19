@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੇਈ ਭਗਤ; ਜਿ ਸਾਚੇ ਭਾਣੇ ॥"
 page = 677
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "They alone are the saints, who are pleasing to the True Lord."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੇਵਲ ਓਹੀ ਭਗਤ ਹਨ ਜੋ ਸੱਚੇ ਸੁਆਮੀ ਨੂੰ ਚੰਗੇ ਲੱਗਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "They alone are devotees, who are pleasing to the True Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋਈ ਭਗਤ ਹੈਂ, ਜੋ ਸਚੇ ਕੋ ਭਾਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਉਹੀ ਮਨੁੱਖ ਪਰਮਾਤਮਾ ਦੇ ਭਗਤ ਅਖਵਾ ਸਕਦੇ ਹਨ, ਜੇਹੜੇ ਉਹ ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲੇ ਪਰਮਾਤਮਾ ਨੂੰ ਪਿਆਰੇ ਲੱਗਦੇ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਾਚੇ = ਸਦਾ-ਥਿਰ ਪ੍ਰਭੂ ਨੂੰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sólo son los Devotos de Dios, a quéllos a quienes"

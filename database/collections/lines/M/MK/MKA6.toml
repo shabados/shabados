@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨੇਤ੍ਰ ਪ੍ਰਗਾਸੁ ਕੀਆ; ਗੁਰਦੇਵ ॥"
 page = 200
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Divine Guru has opened the eyes."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਰੂਪ ਗੁਰਾਂ ਨੇ ਅੱਖੀਆਂ ਖੋਲ੍ਹ ਦਿੱਤੀਆਂ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Divine Guru has opened his eyes."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਗੁਰਦੇਵ) ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਨੇ ਨੇਤ੍ਰੋਂ ਮੇਂ ਪ੍ਰਕਾਸ਼ ਕੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਗੁਰਦੇਵ! ਜਿਸ ਮਨੁੱਖ ਦੀਆਂ (ਆਤਮਕ) ਅੱਖਾਂ ਨੂੰ ਤੂੰ (ਗਿਆਨ ਦਾ) ਚਾਨਣ ਬਖ਼ਸ਼ਿਆ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪ੍ਰਗਾਸੁ = ਚਾਨਣ। ਗੁਰਦੇਵ = ਹੇ ਗੁਰਦੇਵ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Por la Gracia de Dios la luz ha vuelto a los ojos de mi hijo Jar Gobind;"

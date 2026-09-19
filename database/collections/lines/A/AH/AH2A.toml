@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਪਨੇ ਸੇਵਕ ਕਉ; ਆਪਿ ਸਹਾਈ ॥"
 page = 202
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Of His slave, the Lord Himself is the Succour"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੇ ਗੋਲੇ ਦਾ ਪ੍ਰਭੂ ਆਪੇ ਹੀ ਸਹਾਇਕ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Lord Himself is the Help and Support of His servants."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਪਨੇ ਸੇਵਕ ਕੋ ਆਪ ਸਹਾਇਤਾ ਕਰਨੇ ਵਾਲਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਪਰਮਾਤਮਾ ਆਪਣੇ ਸੇਵਕ ਦੇ ਵਾਸਤੇ (ਸਦਾ) ਮਦਦਗਾਰ ਬਣਿਆ ਰਹਿੰਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਉ = ਵਾਸਤੇ। ਸਹਾਈ = ਮਦਦਗਾਰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Él, el Señor, es lo principal para Su Sirviente"

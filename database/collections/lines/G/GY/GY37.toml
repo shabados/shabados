@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨੋ ਨਾਥ, ਤੁਮ ਬਚਨ ਹਮਾਰੌ ॥"
 page = 877
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then she said, ‘Listen my Master, listen to my affliction,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਥ! ਤੁਸੀਂ ਮੇਰੀ ਗੱਲ ਸੁਣੋ।"

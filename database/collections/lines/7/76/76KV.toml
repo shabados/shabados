@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅੰਗਦ ਕਉ ਪ੍ਰਭੁ; ਅਲਖ ਲਖਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And invoked sacred writ on (Guru) Angad."

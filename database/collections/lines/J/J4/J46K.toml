@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਹਰੰਤ ਹਯੰ ਗਰਜੰਤ ਗਜੰ ॥"
 page = 188
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਘੋੜੇ ਹਿਣਕਦੇ ਸਨ, ਹਾਥੀ ਚਿੰਘਾੜਦੇ ਸਨ,"

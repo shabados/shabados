@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਦੂਜਾ ਭਾਉ, ਮੰਦੀ ਹੂੰ ਮੰਦਾ ॥੭॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The results of duality are the most bad of the worst."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਤਿਵੇਂ ਓਹ ਕਪਟ ਸਨੇਹੀ) ਦੂਜੇ ਭਾਵ (ਕਰਕੇ) ਮੰਦਿਆਂ ਤੋਂ ਮੰਦਾ ਹੈ।"

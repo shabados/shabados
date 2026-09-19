@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤਬ ਸਹਿਜੇ ਰਚਿਓ ਖਾਲਸਾ; ਸਾਬਤ ਮਰਦਾਨਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And then, steadfastly, created Khalsa, the righteous ones, with the undefiled human form."

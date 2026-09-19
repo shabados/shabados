@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਲ ਪੁਰਖ ਕੌ ਭੇਸ; ਤਬ ਆਪੁ ਬਨਾਇਯੋ ॥"
 page = 993
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She put on the clothes of a man,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਆਪਣਾ ਸਾਰਾ ਭੇਸ ਪੁਰਸ਼ ਦਾ ਬਣਾਇਆ।"

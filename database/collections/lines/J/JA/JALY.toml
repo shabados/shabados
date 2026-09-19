@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੰਤ ਤੀਛਣੋ ਸਰੰ ਝਲੰਤ ਝਾਲ ਖੜਿਗਿਣੰ ॥"
 page = 672
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sharp arrows were being seen"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿਖੇ ਤੀਰ ਵਰ੍ਹਾਉਂਦੇ ਸਨ ਅਤੇ ਤਲਵਾਰਾਂ ਦੀਆਂ ਤਿਖੀਆਂ ਧਾਰਾਂ (ਆਪਣੇ ਉਤੇ) ਝਲਦੇ ਸਨ।"

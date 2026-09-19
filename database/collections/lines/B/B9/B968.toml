@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿ ਕੋ ਪਿਖਿ ਕੈ ਨਿਹੁਰਾਇ ਗਈ; ਉਪਮਾ ਤਿਹ ਕੀ ਕਬਿ ਭਾਖ ਦਈ ॥"
 page = 348
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing Krishna, they all bowed down"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਵੇਖ ਕੇ (ਰਾਧਾ) ਝੁਕ ਗਈ, ਉਸ ਦ੍ਰਿਸ਼ ਦੀ ਉਪਮਾ ਕਵੀ ਨੇ ਇਸ ਤਰ੍ਹਾਂ ਕਹਿ ਕੇ ਸੁਣਾਈ,"

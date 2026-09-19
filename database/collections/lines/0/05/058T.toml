@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨਤ ਬਚਨ ਏ ਚੰਡਿਕਾ; ਮਨ ਮੈ ਉਠੀ ਰਿਸਾਇ ॥"
 page = 77
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Hearing These words, Chandika was filled with great rage in her mind."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਬਚਨ ਸੁਣ ਕੇ ਚੰਡੀ ਮਨ ਵਿਚ ਕ੍ਰੋਧਿਤ ਹੋ ਉਠੀ (ਅਤੇ ਕਹਿਣ ਲਗੀ)"

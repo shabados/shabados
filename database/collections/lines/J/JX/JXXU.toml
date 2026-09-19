@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਜਾਈ ਧਨੁ ਤੁਰਾ ਚੁਰਾਯੋ ॥"
 page = 899
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Mughal was distressed and disclosed that the debtor had taken away all his wealth."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਕਰਜ਼ਾਈ ਨੇ ਧਨ ਅਤੇ ਘੋੜਾ ਚੁਰਾ ਲਿਆ ਹੈ।"

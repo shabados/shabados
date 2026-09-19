@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰੋ ਨਾਸ ਆਪਨੋ ਕਿਯੋ ॥੮॥"
 page = 862
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And killed the woman, and ruined himself too.(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਆਪਣਾ ਨਾਸ਼ ਵੀ ਕਰ ਲਿਆ ॥੮॥"

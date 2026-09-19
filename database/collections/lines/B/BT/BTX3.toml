@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਾ ਪਾਪ ਭਾਜੈ ॥"
 page = 655
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The horns were sounded in the sky and the sins of the earth ran away"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਰਤੀ ਦੇ ਪਾਪ ਭਜ ਰਹੇ ਹਨ।"

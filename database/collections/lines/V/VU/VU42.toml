@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨ ਲੇਹੁ ਰੁਦ੍ਰ ਬਿਚਾਰ ॥੩॥"
 page = 635
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Rudra! Listen to me attentively that my name is also the destroyer of ego.3."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਰੁਦ੍ਰ! ਵਿਚਾਰ ਪੂਰਵਕ ਸੁਣ ਲਵੋ ॥੩॥"

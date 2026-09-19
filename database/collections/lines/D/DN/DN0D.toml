@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧ੍ਰਿਸਟ ਦੋਨੁ ਮਾਰਿਓ ਅਤਿਰਥੀ ॥"
 page = 146
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਮਹਾ ਬਲੀ (ਅਤਿ ਰਥੀ) ਧ੍ਰਿਸ਼ਟਦ੍ਯੁਮਨ ਨੂੰ ਮਾਰ ਦਿੱਤਾ"

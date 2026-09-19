@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਗਤ੍ਰ ਮਾਤਿ ਧਿਆਇਯੰ ॥"
 page = 100
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They mediated on the mother of the universe"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਗਤ ਮਾਤਾ (ਦੇਵੀ) ਦਾ ਧਿਆਨ ਧਰਦੇ ਰਹੇ,"

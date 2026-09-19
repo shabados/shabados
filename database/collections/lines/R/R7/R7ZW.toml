@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਉ ਹਮ ਸਿਖ ਨ ਹੋਇ ਹੈ ਤੋਹੂ ॥੩॥੨੮੯॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Then we shall not be thy disciples.”3.289."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਅਸੀਂ ਤੁਹਾਡੇ ਸਿੱਖ (ਸੇਵਕ) ਨਹੀਂ ਹੋਵਾਂਗੇ ॥੩॥੨੮੯॥"

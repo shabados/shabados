@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਵਨ ਅਵਗ੍ਰਯਾ ਮੋਰਿ; ਨ ਤੁਮ ਕਹ ਪਾਇਯੈ ॥"
 page = 827
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘You cannot narrate any as (I have done nothing wrong)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਤੋਂ ਕੀ ਗੁਸਤਾਖ਼ੀ ਹੋਈ ਹੈ (ਕਿ ਮੈਂ) ਤੁਹਾਨੂੰ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਸਕਦੀ।"

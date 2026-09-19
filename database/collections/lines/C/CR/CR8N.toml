@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲੇ ਕਾਰਣ ਇਹ ਜਹਾਨ ਸੱਚ ਦਾ ਪਰਦਰਸ਼ਕ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬ-ਅੱਵਲ ਜਹਾਂ ਰਾ ਸ਼ੁਦਾ ਹੱਕ ਨੁਮਾ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Due to the first (diamond), this world becomes a demonstration of truth,"

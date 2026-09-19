@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਜੋ ਇਸ ਦੀ ਇਹ ਉਮਰ ਯਾਦ ਵਿਚ ਭਲੀ ਗੁਜ਼ਰੇ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਤਾ ਬ-ਯਾਦਤ ਬਿਗੁਜ਼ਰਦ ਈਂ ਉਮਰ ਬਿਹ ॥੨੫੫॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Guru Gobind Singh and Guru Nanak are one and the same,"

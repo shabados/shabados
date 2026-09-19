@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜ਼ਿ ਬਕਤਰ ਜ਼ਿ ਜ਼ਿਰਹਾ ਬਰਾਰਦ ਸ਼ਰਾਰ ॥੯੮॥"
 page = 1404
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That fire started to emanate from the shields.(98)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਕਵਚਾਂ ਵਿਚੋਂ ਅੱਗ ਦੀਆਂ ਚਿੰਗਾਰੀਆਂ ਨਿਕਲਣ ਲਗ ਗਈਆਂ ॥੯੮॥"

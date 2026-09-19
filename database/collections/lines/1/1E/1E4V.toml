@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਮੇਖ ਭੇ ਬਾਧ੍ਰਯੋ; ਨ੍ਰਿਪਹਿ ਬਨਾਇ ਕਰਿ ॥"
 page = 1132
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਰਾਜੇ ਨੂੰ (ਉਸ ਨੇ) ਕਿਲੀ ਨਾਲ ਬੰਨ੍ਹ ਦਿੱਤਾ।"

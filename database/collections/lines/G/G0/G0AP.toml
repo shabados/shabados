@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਧਨ ਕਹਾ ਸੁੰਦ੍ਰ ਤਿਹ ਦੀਨਾ ॥"
 page = 1327
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਦਰੀ ਨੇ ਜੋ ਧਨ ਕਿਹਾ ਸੀ, ਦਾਸੀ ਨੂੰ ਦੇ ਦਿੱਤਾ"

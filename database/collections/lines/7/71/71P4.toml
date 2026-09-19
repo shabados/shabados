@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇ ਮੋਕਹ ਪ੍ਰਾਨਨ ਤੇ ਪ︀ਯਾਰੇ ॥੩੬॥"
 page = 852
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘In the dream God gave me a son, who was more precious than my own life.’(36)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮੈਨੂੰ ਪ੍ਰਾਣਾਂ ਤੋਂ ਪਿਆਰਾ ਸੀ ॥੩੬॥"

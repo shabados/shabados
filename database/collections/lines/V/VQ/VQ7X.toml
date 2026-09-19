@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖਨ ਇੰਦ੍ਰ ਦੇਵ ਰਨ ਆਯੋ ॥੬॥"
 page = 990
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And came forward himself. And to watch him even god Indra descended.(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਖ਼ੁਦ) ਇੰਦਰ ਦੇਵ ਯੁੱਧ-ਭੂਮੀ ਵਿਚ ਆਇਆ ॥੬॥"

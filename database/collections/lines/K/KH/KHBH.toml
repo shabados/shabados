@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਡੋ ਮੂੜ ਜੋ ਤਾਹਿ ਪ੍ਰਹਰੈ ॥੩੬॥"
 page = 828
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After coming across a pretty woman like you, one abandons her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ) ਜੋ ਛਡ ਦੇਵੇ, ਉਹ ਵੱਡਾ ਮੂਰਖ ਹੈ ॥੩੬॥"

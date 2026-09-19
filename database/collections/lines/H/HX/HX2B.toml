@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਖੰਡ ਰਾਜ ਪ੍ਰਚੰਡ ॥੮॥੩੧੯॥"
 page = 154
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Broke the unbreakable king, whose rule was entirely glorious.8.319."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਰਾਜ ਪ੍ਰਚੰਡ ਅਤੇ ਅਖੰਡ ਸੀ ॥੮॥੩੧੯॥"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਇੱਕ ਮੁਹੱਬਤ ਭਰੀ ਨਿਗਾਹ ਦਿਲ ਲੈ ਉਡਦੀ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਯੱਕ ਨਿਗਾਹਿ ਲੁਤਫ਼ਿ ਤੂ ਦਿਲ ਮੀ-ਬੁਰਦ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Whenever and wherever I look, nothing penetrates into my eyes,"

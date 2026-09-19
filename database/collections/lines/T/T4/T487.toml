@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰੀ ਸਸਤ੍ਰ ਧਾਰੰ ਉਠੀ ਝਾਲ ਅੱਗੰ ॥"
 page = 61
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the hands of blood-thirsty Khans, there were the Khorasan swords, whose sharp edges flashed like fire."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਸਤ੍ਰਾਂ ਦੇ (ਇਕ ਦੂਜੇ ਉਤੇ) ਵਜਣ ਨਾਲ ਅੱਗ ਦੀਆਂ ਚਿੰਗਾਰੀਆਂ ਨਿਕਲਦੀਆਂ ਸਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਯੋ ਘੋਰ ਜੁਧੰ ॥੪੩੫॥"
 page = 594
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Shiva also fought, while dancing, and in this way, for ten days, this ire-full war was fought.435."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਿਆਨਕ ਯੁੱਧ ਹੋ ਰਿਹਾ ਹੈ ॥੪੩੫॥"

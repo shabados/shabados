@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪ੍ਰਿਥਮ ਮਹਲ; ਜਪਿਓ ਕਰਤਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In the first instance, the Master resolved to ruminate over the Creator,"

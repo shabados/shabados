@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕਹ ਦਰਬੁ ਨ ਦੇਖਨ ਦੇਹੀ ॥"
 page = 850
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The dread of the co-wife always haunted her, and she always craved to annihilate her,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਧਨ ਦੇਖਣ ਨਹੀਂ ਸੀ ਦਿੰਦੀ,"

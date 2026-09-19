@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੁਧਿ ਖਾਨੰ ਮਾਨੰ ਸੰਛੇਪੰ ॥੩੩੫॥"
 page = 662
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was capable of alluring the demons, but she was the mine of learning and honour and lived unattached.335."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੁੱਧੀ ਦੀ ਖਾਣ ਅਤੇ ਮਾਣ ਨੂੰ ਸਮੇਟਣ ਵਾਲੀ ਹੈ ॥੩੩੫॥"

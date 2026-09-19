@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਿਖੀ ਚਾਰਿ ਨਿਤਿ ਗ੍ਰਿਹ ਆਵੈ ॥"
 page = 937
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮੱਝਾਂ ਚਰਾ ਕੇ ਰੋਜ਼ ਘਰ ਆਉਂਦਾ ਸੀ"

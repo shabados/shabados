@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਲਿਮਰਦਾ ਕੌ ਸੁਤ ਇਕ ਰਹੈ ॥"
 page = 948
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਲਿਮਰਦਾ ਦਾ ਇਕ ਪੁੱਤਰ ਸੀ"

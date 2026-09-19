@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਉਣ ਪਾਣੀ ਬੈਸੰਤਰੋ; ਚਉਥੀ ਧਰਤੀ ਸੰਗਿ ਮਿਲਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Air, water, fire and earth was put together."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਵਾਯੂ, ਪਾਣੀ, ਅੱਗ ਤੇ ਚੌਥੀ ਧਰਤੀ ਨਾਲ ਮੇਲ ਦਿੱਤੀ ਤੇ"

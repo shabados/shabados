@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉ ਹਮਰੀ ਰਸ ਖੇਲਨ ਕੀ; ਇਹ ਠਉਰ ਬਿਖੈ ਕੀ ਨਹੀ ਸੁਧਿ ਲੋਕੋ ॥"
 page = 360
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Do the people not know that this is our own arena of amorous play"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਰ ਸਾਡੇ ਖੇਡਣ ਦੀ ਜੋ ਇਹ ਥਾਂ ਹੈ, ਇਸ ਦੀ ਲੋਕਾਂ ਨੂੰ ਕੁਝ ਵੀ ਖ਼ਬਰ ਨਹੀਂ ਹੈ।"

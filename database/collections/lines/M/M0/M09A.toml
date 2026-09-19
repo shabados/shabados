@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਮਛ ਕਛ ਚਕਿ ਰਹੇ; ਅਨਿਕ ਦੁਖ ਪਾਇ ਕੈ ॥੬॥"
 page = 1064
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੱਛ ਕੱਛ ਹੈਰਾਨ ਹੋ ਕੇ ਅਨੇਕ ਤਰ੍ਹਾਂ ਦੇ ਦੁਖ ਪਾਣ ਲਗੇ ॥੬॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਜੇ ਸੁਬੀਰ ਤਜਿ ਜੁਧ ਤ੍ਰਾਸਿ ॥"
 page = 596
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਡਰ ਦੇ ਮਾਰੇ ਯੁੱਧ ਛਡ ਕੇ ਸੂਰਮੇ ਭਜੇ ਜਾ ਰਹੇ ਹਨ।"

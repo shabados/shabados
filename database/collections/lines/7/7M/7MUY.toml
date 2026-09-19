@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਣੇ ਰਾਮ ਭ੍ਰਾਤੰ ਵਹੈ ਬਾਣ ਲੈ ਕੈ ॥"
 page = 274
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That demon in great rage revolved and showered a volley of arrows on the brother of Ram"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਤਰੂਘਨ ਨੇ ਓਹੀ ਬਾਣ ਲੈ ਕੇ ਮਾਰਿਆ,"

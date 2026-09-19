@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੂਸ ਕਾਜ ਜਸ ਲਾਵਤ ਧਿਆਨੂ ॥"
 page = 650
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੂਹੇ ਨੂੰ ਪਕੜਨ ਲਈ (ਜੋ ਇਹ) ਧਿਆਨ ਲਗਾਉਂਦਾ ਹੈ,"

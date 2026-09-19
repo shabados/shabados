@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਠਟਸ ਤੁਅੰ ॥੧੫॥੬੫॥"
 page = 13
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(Lord,) I intuitively remember you! 15. 65."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੈਨੂੰ ਹੀ ਸੁਰਤਿ ਵਿਚ ਟਿਕਾਉਂਦਾ ਹਾਂ ॥੧੫॥੬੫॥"

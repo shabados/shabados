@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਤੇ ਅਜੀਤ ਮੁੰਡੇ ਅਮੁੰਡ ॥"
 page = 627
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨ ਜਿਤੇ ਜਾ ਸਕਣ ਵਾਲਿਆਂ ਨੂੰ ਜਿਤ ਲਿਆ"

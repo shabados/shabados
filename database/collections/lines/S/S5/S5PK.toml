@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਾਤ ਮੁਸਟ ਬਾਜਨ ਲਗੀ ਸਿਖ︀ਯ ਪਹੁੰਚੇ ਆਇ ॥"
 page = 837
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were throwing punches and kicks when the Sikhs arrived, too."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੱਤਾ ਅਤੇ ਮੁੱਕੇ ਵਜਣ ਲਗੇ ਅਤੇ (ਇੰਨੇ ਤਕ ਹੋਰ) ਸੇਵਕ ਵੀ ਪਹੁੰਚ ਗਏ।"

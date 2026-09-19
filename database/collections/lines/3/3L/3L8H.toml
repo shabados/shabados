@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਅਯੋਧਨ ਕਉ ਹਮਰੋ ਕਬਿ ਸ︀ਯਾਮ ਕਹੈ ਮਨੂਆ ਲਲਚਾਵੈ ॥"
 page = 517
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਵੀ ਸ਼ਿਆਮ ਕਹਿੰਦੇ ਹਨ, ਇਸ ਲਈ ਯੁੱਧ ਕਰਨ ਲਈ ਮੇਰਾ ਮਨ ਬਹੁਤ ਲਲਚਾ ਰਿਹਾ ਹੈ।"

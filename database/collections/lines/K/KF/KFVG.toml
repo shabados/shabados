@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹੀ ਰੈਨਿ ਜਬ ਘਰੀ ਪਛਾਨੈ ॥"
 page = 878
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They would get up from the sleep and make love. When one-watch was left.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਰਾਤ ਇਕ ਘੜੀ ਰਹਿ ਗਈ ਸਮਝੀ,"

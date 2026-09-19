@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੂਰ ਆਤਜਮਾ ਆਦਿ ਕਹਿ; ਅੰਤਿ ਸਸਤ੍ਰ ਪਦ ਦੀਨ ॥"
 page = 729
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਸੂਰ ਆਤਮਜਾ' ਕਹਿ ਕੇ ਅੰਤ 'ਸਸਤ੍ਰ' ਪਦ ਕਥਨ ਕਰੋ।"

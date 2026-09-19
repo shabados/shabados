@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਤ ਭਵਾਨ ਭਵਿਖ︀ਯ ਮਝਾਰੀ ॥"
 page = 1250
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵਰਗੀ (ਸੁੰਦਰ) ਕੁਮਾਰੀ ਭੂਤ, ਭਵਿਖ ਅਤੇ ਵਰਤਮਾਨ ਵਿਚ ਨਾ ਸੀ,"

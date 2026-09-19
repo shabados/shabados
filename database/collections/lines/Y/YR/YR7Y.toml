@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦਸਮੀ; ਨਾਮੁ ਦਾਨੁ ਇਸਨਾਨੁ ॥"
 page = 840
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The tenth (lunar day): contemplate thou the Name, share with others and be pure."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਦੱਸਵੀਂ (ਤਿੱਥ): ਤੂੰ ਨਾਮ ਦਾ ਜਾਪ ਕਰ, ਵੰਡ ਕੇ ਛਕ, ਅਤੇ ਪਾਕ-ਪਵਿੱਤਰ ਰਹੁ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Tenth Day: Meditate on the Naam, give to charity, and purify yourself."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਦਸਮੀ ਦ੍ਵਾਰੇ ਕਹਤੇ ਹੈਂ: ਹੇ ਭਾਈ! ਨਾਮ ਜਪੋ ਦਾਨ ਔ ਇਸਨਾਨ ਕਰੋ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਜਪਣਾ ਹੀ ਦਸਵੀਂ ਥਿਤ ਤੇ ਦਾਨ ਕਰਨਾ ਤੇ ਇਸ਼ਨਾਨ ਕਰਨਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Dasmi, Décimo día: medita en el Naam, da caridad y purga tu ser de toda maldad;"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਰ ਪਹਰਿ ਨਿਸਿ ਨਾਰਿ ਬਜਾਈ ॥੯॥"
 page = 1303
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਚਾਰ ਪਹਿਰ ਰਾਤ ਇਸਤਰੀ ਨਾਲ ਸੰਯੋਗ ਕੀਤਾ ॥੯॥"

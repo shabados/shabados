@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੋਗ ਕਰੈ ਬੈਰਨਿ ਕਹ ਘਾਵੈ ॥੧੦੦॥"
 page = 1199
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵੈਰੀਆਂ ਨੂੰ ਮਾਰਦਾ ਹੋਇਆ ਸੰਸਾਰਿਕਤਾ ਨੂੰ ਮਾਣਦਾ ਹੈ ॥੧੦੦॥"

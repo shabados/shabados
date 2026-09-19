@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਧਾਇਆ ਰਣੰ ਬਿਜੁਲੀ ਕੀ ਛਟਾ ਜਿਯੋ ॥"
 page = 623
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thundering like the clouds Mandhata fell upon (the demon) in the battlefield like lightning"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਲਾਲ ਹੋ ਕੇ ਬਿਜਲੀ ਦੀ ਲਿਸ਼ਕ ਵਾਂਗ ਹਲਾ ਕਰ ਕੇ ਪਿਆ।"

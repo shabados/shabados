@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੰਪਾਇ ਖਗ ਪਾਣ ਮੋ; ਤ੍ਰਪਾਇ ਤਾਜੀਯਨ ਤਹਾ ॥"
 page = 185
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੱਥ ਵਿਚ ਖੜਗ ਨੂੰ ਘੁਮਾ ਕੇ ਅਤੇ ਘੋੜਿਆਂ ਨੂੰ ਕੁਦਾ ਕੇ"

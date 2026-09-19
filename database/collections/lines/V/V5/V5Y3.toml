@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਥੋਰੀ ਕਥਾ ਉਚਾਰੀ ॥"
 page = 1267
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਲਈ ਥੋੜੀ ਗੱਲ (ਅਰਥਾਂਤਰ- ਸੰਖਿਪਤ ਗੱਲ) ਹੀ ਕੀਤੀ ਹੈ।"

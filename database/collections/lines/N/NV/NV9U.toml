@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਜਦੁਬੀਰ ਅਜੁਧਿਆ ਆਯੋ ॥"
 page = 508
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਅਯੋਧਿਆ ਆਏ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੌਨ ਸੁਨਾਰੋ ਘਾਤ ਲਗਾਵੈ ॥"
 page = 895
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਵੀ ਸੁਨਿਆਰਾ (ਚੋਰੀ ਕਰਨ ਲਈ) ਦਾਓ ਲਗਾਂਦਾ,"

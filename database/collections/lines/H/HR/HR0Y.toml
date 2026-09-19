@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਨ੍ਰਹ ਕੋ ਪੇਖਿ ਕਲਾਨਿਧਿ ਸੌ ਮੁਖ; ਰੀਝ ਰਹੀ ਸਭ ਹੀ ਬ੍ਰਿਜ ਬਾਰਾ ॥"
 page = 322
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the face of Krishna like the moon, all the girls of Braja are getting pleased"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਨ੍ਹ ਦੇ ਚੰਦ੍ਰਮਾ ਵਰਗੇ ਮੁਖ ਨੂੰ ਵੇਖ ਕੇ ਬ੍ਰਜ ਦੀਆਂ ਸਾਰੀਆਂ ਇਸਤਰੀਆਂ ਰੀਝ ਰਹੀਆਂ ਹਨ।"

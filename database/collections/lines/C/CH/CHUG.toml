@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਮੁਰ ਨਾਮ ਮਹਾ ਰਿਪੁ ਪੈ; ਕੁਪ ਕੈ ਅਤਿ ਹੀ ਡਰਈਯਾ ਫੁਨਿ ਭੀਰਨਿ ॥"
 page = 355
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who had frightened the great demon and enemy named Mur"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਮੁਰ (ਦੈਂਤ) ਨਾਂ ਦੇ ਮਹਾਨ ਵੈਰੀ ਨੂੰ ਕ੍ਰੋਧਿਤ ਹੋ ਕੇ ਭੈ ਭੀਤ ਕਰਨ ਵਾਲਾ ਹੈ।"

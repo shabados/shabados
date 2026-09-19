@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪ ਕੀ ਪ੍ਰਭਾ ਹੇਰਿ ਛਕਿ ਰਹੀ ॥"
 page = 1032
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਰਾਜੇ ਦੀ ਸੁੰਦਰਤਾ ਨੂੰ ਵੇਖ ਕੇ ਮੋਹਿਤ ਹੋ ਗਈ।"

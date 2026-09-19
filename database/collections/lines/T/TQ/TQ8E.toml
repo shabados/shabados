@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਰਿਗੰ ਬਾਚੈ ਮਹਾ ਅਰਥ ਬੇਦੰ ॥"
 page = 151
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the Rig Veda was being read and somewhere the Atharva Veda"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਰਿਗ ਵੇਦ ਅਤੇ ਕਿਤੇ ਮਹਾਨ ਅਥਰਬਨ ਵੇਦ ਨੂੰ ਵਾਚਿਆ ਜਾ ਰਿਹਾ ਸੀ।"

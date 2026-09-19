@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਵੈ ਕਰ ਜੋਰਿ ਬੇਨਤੀ ਕੀਨੀ ॥"
 page = 862
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She gave the key to the Banyia and, with folded hands, requested,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੋਵੇਂ ਹੱਥ ਜੋੜ ਕੇ ਬੇਨਤੀ ਕੀਤੀ।"

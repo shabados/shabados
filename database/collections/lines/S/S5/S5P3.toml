@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਸੁੰਦਰਿ, ਸਭ ਸੋਕ ਨਿਵਾਰਹੁ ॥"
 page = 1051
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਦ ਰਾਜੇ ਨੇ ਕਿਹਾ) ਹੇ ਸੁੰਦਰੀ! ਤੂੰ ਸਾਰੇ ਦੁਖ ਨੂੰ ਦੂਰ ਕਰ"

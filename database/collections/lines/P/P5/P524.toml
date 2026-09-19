@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਹੈ ਨ ਐਹੈ ਨਾਥ ਬਿਚਾਰੋ ॥੧੦॥"
 page = 895
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘By drawing lines in the soil, I was guessing, when would my consort come.’(10)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵਿਚਾਰਦੀ ਹਾਂ ਕਿ ਮੇਰੇ ਪਤੀ ਆਉਣਗੇ ਕਿ ਨਹੀਂ ਆਉਣਗੇ ॥੧੦॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਗ ਖੰਡ ਬਿਹੰਡੰ ਖਲ ਦਲ ਖੰਡੰ ਅਤਿ ਰਣ ਮੰਡੰ ਬਰ ਬੰਡੰ ॥"
 page = 39
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sword chops well, chops the forces of fools and this mighty one bedecks and glorifies the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਲਵਾਰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਟੁਕੜੇ ਟੁਕੜੇ ਕਰਦੀ ਹੈ, ਦੁਸ਼ਟਾਂ ਦੇ ਦਲਾਂ ਨੂੰ ਨਸ਼ਟ ਕਰਦੀ ਹੈ, ਯੁੱਧ ਨੂੰ ਸੁਸਜਤਿ ਕਰਦੀ ਹੈ, (ਅਜਿਹੀ) ਬਲਵਾਨ ਹੈ।"

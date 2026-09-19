@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਟੋਡੀ ਪ੍ਰਭਾ ਹੈ ॥੩੦੧॥"
 page = 659
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was like the beloved queen of Ram and glorious like Gauri-Parvati.301."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਟੋਡੀ (ਰਾਗਨੀ) ਦੀ ਪ੍ਰਭਾ ਹੈ ॥੩੦੧॥"

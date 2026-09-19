@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੈਲ ਛਬੀਲੋ ਕੁਅਰ ਅਪਾਰਾ ॥"
 page = 1286
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਅਪਾਰ ਸੁੰਦਰ ਅਤੇ ਜਵਾਨ ਕੁਮਾਰ ਨੂੰ"

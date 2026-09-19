@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੀ ਸੇਜ ਸੁਹਾਵਤ ਭਯੋ ॥੫॥"
 page = 1056
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦਾਸੀ ਦੀ ਸੇਜ ਨੂੰ ਸੁਹਾਵਣਾ ਬਣਾਉਣ ਲਗਾ ॥੫॥"

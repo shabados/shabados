@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਾਕਣੀ ਡਿੰਕਰੰ ॥੪੨੨॥"
 page = 244
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And the Bhairvas began to shout  the vultures shrieked and the vampires belched.422."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਡਾਕਣੀ ਡਕਾਰ ਮਾਰਦੀ ਹੈ ॥੪੨੨॥"

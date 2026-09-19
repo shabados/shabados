@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੋਗ ਲਹੈ ਤਪਸਾ ਕਰੈ; ਸਦਨ ਨ ਬਦਨ ਦਿਖਾਇ ॥੧੮॥"
 page = 1147
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੋਕੀਂ ਸਮਝਣ ਲਗੇ ਕਿ ਘਰ ਦੇ ਅੰਦਰ ਤਪਸਿਆ ਕਰ ਰਹੀ ਹੈ ਅਤੇ (ਬਾਹਿਰ ਨਿਕਲ ਕੇ) ਮੂੰਹ ਨਹੀਂ ਦਿਖਾ ਰਹੀ ॥੧੮॥"

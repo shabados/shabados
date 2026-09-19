@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਰਿ ਨ੍ਰਿਪਤਿ ਕੋ ਬਾਤ ਸੁਨਾਈ ॥"
 page = 894
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With the nose cut, the woman came home."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਗੱਲ ਬਣਾ ਕੇ ਰਾਜੇ ਨੂੰ ਦਸੀ"

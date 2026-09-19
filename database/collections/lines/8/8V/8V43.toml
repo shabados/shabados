@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਵਿਸਮਾਦੈ ਵਿਸਮਾਦੁ ਹੈ; ਵਿਸਮਾਦੁ ਰਹੰਦਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Before love, awe also feels itself full of awe."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸਮਾਦ ਤੋਂ ਜਿਹੜਾ ਭਾਰੀ ਵਿਸਮਾਦ ਹੈ, ਉਹ ਬੀ ਵਿਸਮਾਦ ਰਹਿੰਦਾ ਹੈ।"

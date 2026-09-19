@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਹੇ ਨਾਮ ਗਜ ਸਿੰਘ ਦਰਾਮਦ ਬਜੰਗ ॥"
 page = 1401
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A Raja called Gaj Singh came into the battlefield,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਯੁੱਧ ਵਿਚ ਗਜ ਸਿੰਘ ਨਾਂ ਦਾ ਰਾਜਾ ਇਸ ਤਰ੍ਹਾਂ ਆਇਆ"

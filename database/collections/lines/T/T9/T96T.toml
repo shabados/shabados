@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੀ ਸੁ ਸਸਤ੍ਰ ਅਸਤ੍ਰ ਲੈ ॥"
 page = 104
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the goddess was filled with great rage and marched towards the battlefield with her weapons and arms."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਸਤ੍ਰ-ਸ਼ਸਤ੍ਰ ਲੈ ਕੇ (ਯੁੱਧ ਲਈ) ਚਲ ਪਈ।"

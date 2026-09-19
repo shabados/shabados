@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹ ਕੌਸਲ ਰਾਜ ਨ੍ਰਿਪੇਸ ਬਰੰ ॥੧੦॥"
 page = 200
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was a brave king in the city of Kuhram, which was known as the kingdom of Kaushal.10."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਕੌਸ਼ਲ ਰਾਜ ਦਾ ਮਹਾਨ ਰਾਜਾ ਸੀ ॥੧੦॥"

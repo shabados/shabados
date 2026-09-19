@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਾਇਆ ਬਿਗੂਤੀ; ਬਹੁ ਬਿਧਿ ਭਾਤੀ ॥"
 page = 329
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The body is destroyed in various ways and manners."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅੰਤ ਨੂੰ ਸਰੀਰ ਅਨੇਕਾਂ ਢੰਗ ਅਤੇ ਤਰੀਕਿਆਂ ਨਾਲ ਖਤਮ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The body is destroyed by so many ways and means."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "(ਕਾਇਆ) ਦੇਹਾਂ ਬਹੁਤੀ ਪ੍ਰਕਾਰੋਂ ਕੀਆਂ ਹੈ ਔਰ ਬਹੁਤ ਹੀ ਪ੍ਰਕਾਰੋਂ ਸੇ (ਬਿਗੂਤੀ) ਖਰਾਬੁ ਹੋਤੀਆਂ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਮਰਨ ਪਿਛੋਂ) ਇਹ ਸਰੀਰ ਕਈ ਤਰ੍ਹਾਂ ਖ਼ਰਾਬ ਹੁੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਗੂਤੀ = ਖ਼ਰਾਬ ਹੁੰਦੀ ਹੈ। ਬਹੁ ਬਿਧਿ ਭਾਤੀ = ਬਹੁ ਬਿਧਿ ਭਾਤੀ, ਕਈ ਤਰ੍ਹਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El cuerpo después de la muerte es desechado de muchas formas,"

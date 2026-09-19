@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਿਲੀ ਜਾਇ ਤਾ ਕੌ ਫਿਰੀ ਫੇਰਿ ਬਾਲਾ ॥"
 page = 941
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਉਸ ਨੂੰ ਮਿਲ ਕੇ ਇਸਤਰੀ ਵਾਪਸ ਪਰਤੀ,"

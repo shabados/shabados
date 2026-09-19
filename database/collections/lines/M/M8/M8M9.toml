@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹਿਸਤੁਆ ਅਨੋਖੰ ॥੧੧॥੧੧੯॥"
 page = 138
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There is none other so extraordinary as Thou.11.119."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਵਰਗਾ ਕੋਈ ਅਨੋਖਾ ਨਹੀਂ ਹੈ ॥੧੧॥੧੧੯॥"

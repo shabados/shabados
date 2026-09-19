@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਮੁਛਿਤ ਹ੍ਵੈ ਫਿਰ ਜੁਧ ਮਚਾਯੋ ॥"
 page = 516
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਸ਼ ਵਿਚ ਆ ਕੇ ਫਿਰ ਯੁੱਧ ਮਚਾ ਦਿੱਤਾ।"

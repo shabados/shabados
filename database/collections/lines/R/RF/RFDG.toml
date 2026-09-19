@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਤੁਪਕ ਕੇ ਸਕਲ ਸਵਾਰੋ ॥੭੭੮॥"
 page = 757
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Dvipani”, then utter the words “Char” and “Shatru”, and comprehend all the names of Tupak.778."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ (ਇਸ ਨੂੰ) ਤੁਪਕ ਦਾ ਨਾਮ ਸਮਝੋ ॥੭੭੮॥"

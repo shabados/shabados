@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਸਮੇਧ ਅਰੁ ਅਸੁਮੇਦ ਹਾਰਾ ॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(These messengers saidJ “Asumedh and Asumedhan,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਪਿਛੋਂ ਉਨ੍ਹਾਂ ਦੂਤਾਂ ਨੇ ਬੇਨਤੀ ਕੀਤੀ ਕਿ) ਅਸੁਮੇਧ ਅਤੇ ਅਸੁਮੇਦ ਹਾਰ ਖਾ ਕੇ"

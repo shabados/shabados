@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਰਦ ਆਦਿਕ ਬੇਦ ਬਿਆਸਕ; ਮੁਨਿ ਮਹਾਨ ਅਨੰਤ ॥"
 page = 34
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sage Narada and other, Ved Vyas and other and innumerable great sages"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾਰਦ, ਵੇਦ-ਵਿਆਸ ਆਦਿ ਬੇਅੰਤ ਮਹਾਨ ਮੁਨੀ"

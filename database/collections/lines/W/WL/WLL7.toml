@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਚਿਕ ਬੀਤੀ ਘਰੀ; ਬਹੁਰਿ ਜਾਗ੍ਰਤ ਭਈ ॥"
 page = 1144
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੰਜ ਕੁ ਘੜੀਆਂ ਬੀਤਣ ਉਪਰੰਤ (ਉਹ) ਹੋਸ਼ ਵਿਚ ਆਈ"

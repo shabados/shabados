@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਸੋ ਨ ਆਨ ਪ੍ਰਧਾਨ ॥੨੬੩॥"
 page = 702
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the same way, there is none like Virakt (unattached).36.263."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਵਰਗਾ ਹੋਰ (ਕੋਈ) ਪ੍ਰਧਾਨ (ਯੋਧਾ) ਨਹੀਂ ਹੈ ॥੨੬੩॥"

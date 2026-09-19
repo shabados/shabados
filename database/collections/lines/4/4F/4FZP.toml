@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹਥੀ ਕਾਰ ਕਮਾਵਣੀ; ਪੈਰੀ ਚਲਿ, ਸਤਿਸੰਗਿ ਮਿਲੇਹੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Hands earn livelihood and feet take towards the holy congregation."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਹੱਥਾਂ ਨਾਲ ਕਾਰ ਕਰੋ, ਪੈਰਾਂ ਨਾਲ ਤੁਰਕੇ ਸਤਿਸੰਗ ਵਿਚ ਮਿਲੇ।"

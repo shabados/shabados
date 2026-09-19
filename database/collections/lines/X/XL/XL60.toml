@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੂਰਿ ਕਰਾ ਜਿਯ ਕਾ ਸਭ ਸੋਗਾ ॥੪॥"
 page = 1342
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਨ ਦਾ ਸਾਰਾ ਗ਼ਮ ਦੂਰ ਕਰ ਦਿੱਤਾ ॥੪॥"

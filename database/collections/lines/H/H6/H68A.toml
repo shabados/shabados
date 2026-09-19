@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਚਾ ਸੁ ਬੇਦ ਕੀ ਪੜੈਂ ॥੧੯੦॥"
 page = 219
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Giving the blessing of various kinds and singing the Vedic mantras.190."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵੇਦ ਦੀਆਂ ਰਿਚਾਵਾਂ ਨੂੰ ਪੜ੍ਹਦੇ ਸਨ ॥੧੯੦॥"

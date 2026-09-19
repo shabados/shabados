@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪ੍ਰਭ ਕਰਣ ਕਾਰਣ ਸਮਰਥਾ ਰਾਮ ॥"
 page = 578
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The All-powerful Lord is the creator and the cause."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਰਬ-ਸ਼ਕਤੀਵਾਨ ਵਾਹਿਗੁਰੂ ਆਪ ਹੀ ਕਰਤਾ ਅਤੇ ਆਪ ਹੀ ਕਾਰਜ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "God is the all-powerful Creator, the Cause of causes."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭ ਕਾਰਣ ਕਰਣ ਸਮਰਥਾ (ਰਾਮ) ਬ੍ਯਾਪਕ! ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਜਗਤ ਦੇ ਮੂਲ ਪ੍ਰਭੂ! ਹੇ ਸਭ ਤਾਕਤਾਂ ਦੇ ਮਾਲਕ!"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਰਣ = ਸ੍ਰਿਸ਼ਟੀ। ਕਾਰਣ = ਮੂਲ। ਸਮਰਥਾ = ਸਭ ਤਾਕਤਾਂ ਵਾਲਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Nuestro Señor Todopoderoso es el Creador y la Causa;"

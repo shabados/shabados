@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕ੍ਰੋਧਿਤ ਹੁਇ ਸੁ ਯਾ ਬਿਧਿ ਅਰੈ ॥"
 page = 516
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋਧਵਾਨ ਹੋ ਕੇ ਉਹ ਇਸ ਤਰ੍ਹਾਂ ਲੜਦੇ ਸਨ,"

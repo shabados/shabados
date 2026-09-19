@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਸੰ ਭਰੇ ॥੪੯੧॥"
 page = 251
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors felt weakness and then regained strength and in rage caught hold of their swords.491."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕ੍ਰੋਧ ਨਾਲ ਭਰੇ ਹੋਏ ਸਨ ॥੪੯੧॥"

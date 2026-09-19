@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡੋਲਤ ਮਹਿਖੀ ਨ ਰਹੈ ਬੋਲ︀ਯੋ ਬਚਨ ਅਹੀਰ ॥"
 page = 845
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the buffalo jerked excessively, the milkman again asserted,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਮਝ ਹਿਲਣੋ ਨਾ ਰੁਕੀ ਤਾਂ ਅਹੀਰ ਨੇ ਕਿਹਾ,"

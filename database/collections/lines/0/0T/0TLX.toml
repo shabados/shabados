@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਜਹ ਜਹ ਚਹੀਐ ਸਬਦ; ਤਹੀ ਤੇ ਦੀਜੀਐ ॥੧੨੪੨॥"
 page = 801
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying the words “Taruver Prabhu Prabhuni”, add the word “arini” at the end and know all the names of Tupak.1242."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਲੋੜ ਹੋਵੇ, ਇਸ ਦੀ ਵਰਤੋਂ ਕਰ ਲਵੋ ॥੧੨੪੨॥"

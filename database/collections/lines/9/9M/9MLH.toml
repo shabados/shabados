@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਵੀ ਭਾਵਨੀ ਭਈਰਵੀ ਭੀਮ ਰੂਪਾ ॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art Bhavani and manifestation of Bhairavi and Bhima,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਵਾਨੀ, ਸ਼ਰਧਾ, ਭੈਰਵੀ ਅਤੇ ਭੀਮਾ (ਨੂੰ ਨਮਸਕਾਰ ਹੈ);"

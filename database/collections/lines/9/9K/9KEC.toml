@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਿ ਸਿੰਧੁ ਕੇ ਭੀਤਰ ਡਰਿਯੋ ॥੨੦੨੦॥"
 page = 499
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The demon Shambar had stolen you and thrown you into the sea.2020."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਲਿਆ ਕੇ ਸਮੁੰਦਰ ਵਿਚ ਸੁਟ ਦਿੱਤਾ ਸੀ ॥੨੦੨੦॥"

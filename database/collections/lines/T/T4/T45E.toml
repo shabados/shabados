@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਬੇਰੂੰ ਨਿਆਮਦ ਕਸੇ ਜ਼ਾ ਦੀਵਾਰ ॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "None dared to come there near the wall"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਆਦਮੀ ਦੀਵਾਰ ਦੀ ਓਟ ਤੋਂ ਬਾਹਰ ਨਾ ਆਇਆ,"

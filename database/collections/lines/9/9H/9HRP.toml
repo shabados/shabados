@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਸ਼ੋਰਸ਼ ਦਰਾਮਦ ਸਰਾਫ਼ੀਲ ਸੂਰ ॥"
 page = 1424
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The way a Sraphil Angel appears and it becomes boisterous all over,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਦੋਂ ਇਸਰਾਫ਼ੀਲ (ਫਰਿਸ਼ਤੇ) ਨੇ ਕਿਆਮਤ ਵਾਲੇ ਦਿਨ ਦੀ ਤੁਰੀ ਵਜਾਈ"

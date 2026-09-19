@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹਾਰੇ ਜਵਾਨੀ ਬ ਨਉਬਤ ਰਸੀਦ ॥"
 page = 1410
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She reached the same stage,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਸ ਦੀ ਜਵਾਨੀ ਬਹਾਰ ਰੁਤ ਵਿਚ ਪਹੁੰਚੀ (ਅਰਥਾਤ-ਭਰ ਜਵਾਨ ਹੋ ਗਈ)"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਹਰੰਤ ਦੇਬਿ ਅਭੰਗਣੀ ॥"
 page = 111
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The immortal Durga, the dyer with blood, is moving, pleased with her task."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਸ਼ਟ ਨਾ ਹੋ ਸਕਣ ਵਾਲੀ ਦੇਵੀ ਪ੍ਰਸੰਨ ਹੋ ਕੇ ਫਿਰ ਰਹੀ ਸੀ।"

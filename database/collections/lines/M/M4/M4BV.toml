@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੇਈ ਭਗਤਿ ਭਾਵ ਭਗਵਤ ਭਜੰਤ ॥"
 page = 647
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਭਗਤੀ ਭਾਵ ਵਾਲੇ ਭਗਵਾਨ ਦਾ ਭਜਨ ਕਰਦੇ ਹਨ।"

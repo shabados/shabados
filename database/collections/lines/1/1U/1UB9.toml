@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿ ਸੋ ਫੇਰਿ ਨ ਭਿਛਕ ਐ ਹੈ ॥੧੩॥"
 page = 172
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Because I shall not be able to get such a God-like beggar again.”13."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਉਂਕਿ) ਹਰਿ ਵਰਗਾ ਕੋਈ ਮੰਗਤਾ ਮੁੜ ਕੇ ਨਹੀਂ ਆ ਸਕੇਗਾ\" ॥੧੩॥"

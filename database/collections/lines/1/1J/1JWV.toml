@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਬਿਥਾਰ ਕਹਾ ਲਗੈ ਬਖਾਨੀਅਤ ॥"
 page = 48
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If everything is described in detail"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸਤਾਰ ਬਹੁਤ ਹੈ, ਕਿਥੋਂ ਤਕ ਬਖਾਨ ਕਰਾਂ"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਗੋਲਾ ਮੁਲ ਖਰੀਦੁ; ਕਾਰੇ ਜੋਵਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The true disciple is a boughten slave who is ever busy in the service of the Master."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਮੁੱਲ ਖਰੀਦੀ ਗੁਲਾਮ ਹੋਵੇ (ਹਰ ਵੇਲੇ) ਟਹਿਲ ਵਿਖੇ ਜੁੜਿਆ ਰਹੇ।"

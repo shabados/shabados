@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਐਸੀ ਜਾਨਿ ਪਾਈ ॥"
 page = 1005
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thus have I understood,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਐਸ ਤਰ੍ਹਾਂ ਸਮਝਿਆ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "This is what I have come to know."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਮਨੇ ਤੌ ਐਸੀ ਬਾਤ ਜਾਨ ਪਾਈ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤਾਂ ਇਉਂ ਸਮਝ ਲਿਆ ਹੈ"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਐਸੀ = ਇਉਂ। ਜਾਨਿ ਪਾਈ = ਅਸਾਂ ਸਮਝੀ ਹੈ, ਮੈਂ ਸਮਝੀ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Ahora conozco la Verdad,"

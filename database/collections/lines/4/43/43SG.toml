@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕੋਟਿ ਜੀਅ; ਜਾ ਕੀ ਸਿਹਜਾਇ ॥"
 page = 1156
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "and myriads of beings are whose couches."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕ੍ਰੋੜਾਂ ਹੀ ਜੀਵ ਹਨ ਜਿਸ ਦੀਆਂ ਸੇਜਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Millions of souls are His beds."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਤੇਰੀ ਕ੍ਰੋੜੋਂ ਹੀ ਜੀਵੋਂ ਕੇ ਅੰਤਹਕਰਨ ਰੂਪੀ ਸਿਹਜਾ ਹੈ ਜਿਸ ਪਰ ਤੂੰ ਬਿਰਾਜਮਾਨ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜਾਂ ਹੀ ਜੀਵ ਉਸ ਦੀ ਸੇਜ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜੀਅ = ਜੀਵ {ਬਹੁ-ਵਚਨ}। ਸਿਹਜਾਇ = ਸੇਜ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "en Cuyo Aposento se apoyan millones de criaturas,"

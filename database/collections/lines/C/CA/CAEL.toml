@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਸਹਚਰਿ ਤਾ ਕੌ; ਭਰਿ ਨੈਨ ਨਿਹਾਰਹੀ ॥"
 page = 1331
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਖੀ ਵੀ ਉਸ ਨੂੰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਅੱਖਾਂ ਨਾਲ ਵੇਖਦੀ ਸੀ,"

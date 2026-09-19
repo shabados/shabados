@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਕਹਤ ਏਕ ਹਰਿ ਕੋ ਕਥਾਨ ॥"
 page = 647
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ (ਕੇਵਲ) ਇਕ ਹਰਿ ਦੀ ਕਥਾ ਨੂੰ ਕਹਿੰਦੇ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਕਾਰਿ ਧਰਮ ਦੇਸ ਦੀ ॥੪੯॥"
 page = 556
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There will be the reign of adharma and dharma will be exiled.49."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਰਮ ਨੂੰ ਦੇਸੋਂ ਕਢ ਦਿੱਤਾ ਜਾਵੇਗਾ ॥੪੯॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਜ ਕੋ ਰੂਪ ਅਧਿਕ ਤਬ ਸੋਹੈ ॥"
 page = 844
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਉਸ ਬ੍ਰਾਹਮਣ ਦਾ ਰੂਪ ਬਹੁਤ ਸ਼ੋਭਦਾ ਸੀ।"

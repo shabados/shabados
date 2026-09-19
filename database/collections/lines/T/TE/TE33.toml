@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੀਨੋ ਸੰਘਾਰ ਸਬ ਇਮ ਅੰਧੇਰ ॥"
 page = 170
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The canopy was swung over the head of Prahlad and he was made a king, and in this way, the demons, who were darkness-incarnate, were destroyed."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ (ਪਾਪਾਂ ਦਾ) ਸਾਰਾ ਅੰਧਕਾਰ ਖ਼ਤਮ ਕਰ ਦਿੱਤਾ।"

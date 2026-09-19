@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖੇਲਤ ਹੈ ਰਜਨੀ ਸਿਤ ਮੈ; ਜਹ ਰਾਜਤ ਥੋ ਜਮੁਨਾ ਜੁਤ ਕਾਨਨ ॥"
 page = 357
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He looks splendid in the moonlit night on the bank of Yamuna within the forest"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਜਮਨਾ ਦੇ ਕੰਢੇ ਉਤੇ ਬਨ ਸ਼ੋਭਾ ਪਾ ਰਿਹਾ ਹੈ, ਉਥੇ ਚਾਂਦਨੀ ਰਾਤ ਵਿਚ ਖੇਡਦਾ ਹੈ।"

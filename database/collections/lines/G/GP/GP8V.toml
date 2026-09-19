@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੂਜੇ ਮਨੁਖਨ ਪਾਸ; ਨ ਭੇਦ ਮੁਖ ਤੈ ਕਹਿਯੋ ॥"
 page = 1154
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਹੋਰਾਂ ਬੰਦਿਆਂ ਕੋਲ ਭੇਦ ਦੀ ਗੱਲ ਨਾ ਕੀਤੀ।"

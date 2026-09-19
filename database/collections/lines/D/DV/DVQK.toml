@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਜ਼ਾ ਸ਼ਾਹਿ ਮਾਰਾ ਸ਼ਵਦ ਈਂ ਦਿਯਾਰ ॥੩੭॥"
 page = 1401
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Will take me and become the ruler of her kingdom.‘(37)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹੀ ਮੇਰਾ ਪਤੀ ਅਤੇ ਮੁਲਕ ਦਾ ਰਾਜਾ ਹੋਵੇਗਾ ॥੩੭॥"

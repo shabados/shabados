@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਹ ਬਿਧਿ ਮਚਾ ਪ੍ਰਚੰਡ ਰਣ; ਅਰਧ ਮਹੂਰਤ ਉਦੰਡ ॥"
 page = 579
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ ਉੱਚੇ ਦਰਜੇ ਦਾ ਯੁੱਧ ਅੱਧੇ ਮਹੂਰਤ ਦੇ ਸਮੇਂ ਜਿੰਨਾ ਮਚਿਆ"

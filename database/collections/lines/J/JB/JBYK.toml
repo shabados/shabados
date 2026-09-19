@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕ੍ਰਿਪਾਲ ਲਾਲ ਅਕਾਲ ਅਪਾਲ; ਦਇਆਲ ਕੋ ਉਚਾਰੀਐ ॥"
 page = 137
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Name of that Lord be uttered who is Merciful, Beloved, deathless, Patronless and Compassionate."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਕਿਪਾਲੂ, ਪਿਆਰਾ, ਅਕਾਲ, ਅਪਾਲ (ਪਾਲੇ ਜਾਣ ਤੋਂ ਪਰੇ) ਦਿਆਲ ਦਾ ਸਦਾ ਸਿਮਰਨ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ;"

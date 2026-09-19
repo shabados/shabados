@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਤੇ ਪੁੱਤ੍ਰ ਪੌਤ੍ਰ ਜੇ ਵਏ ॥"
 page = 49
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੇ ਜੋ ਪੁੱਤਰ ਪੋਤਰੇ ਹੋਏ,"

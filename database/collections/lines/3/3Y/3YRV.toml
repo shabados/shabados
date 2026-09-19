@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਟੁਟ ਆਸੂ ਆਰਣ ਨੈਨ ਝਰੀ ॥"
 page = 236
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਮ ਦੀਆਂ) ਲਾਲ ਅੱਖਾਂ ਵਿਚੋਂ ਹੰਝੂ ਟੁੱਟ ਕੇ ਝੜ ਰਹੇ ਹਨ"

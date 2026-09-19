@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੂਤ ਆਪਨ ਹਮ ਓਰ ਪਠਾਏ ॥"
 page = 65
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Dilwar Khan (Governor of Lahore) sent his son aginst me."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ ਸਾਰਾ ਬ੍ਰਿੱਤਾਂਤ ਸੁਣ ਕੇ) ਆਪਣੇ ਪੁੱਤਰ ਨੂੰ ਸਾਡੇ ਕੋਲ ਭੇਜਿਆ।"

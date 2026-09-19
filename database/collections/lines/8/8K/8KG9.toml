@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਇ ਮਾਸ ਰਾਜੁ ਕਮਾਨ ॥੭॥੩੧੮॥"
 page = 154
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "For eighty-eight years and two months, the monarch ruled the kingdom.7.318."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੋ ਮਹੀਨੇ ਤਕ ਰਾਜ ਕੀਤਾ ॥੭॥੩੧੮॥"

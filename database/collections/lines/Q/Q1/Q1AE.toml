@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਚਲਿ ਬਾਤ ਰੁਦ੍ਰ ਪਰ ਗਈ ॥"
 page = 188
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In this way, the story heath taken a new turn and now it hath halted on Rudra."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਗੱਲ ਰੁਦਰ ਵਲ ਨੂੰ ਚਲੀ।"

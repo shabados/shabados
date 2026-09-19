@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਫ਼ਜ਼ਾਲੋ ਕਰਾਮਸ਼ ਫ਼ਜ਼ੂੰ ਅਜ਼ ਹਿਸਾ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਫ਼ਜ਼ਾਲੋ ਕਰਾਮਸ਼ ਫਜ਼ੂੰ ਅਜ ਹਿਸਾ ॥"
 page = 6
 line = 82
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Fazaalo Kraamash Fazoon' Az Hisaa"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਵਾਰਿਨ ਰੂਪ ਨਿਹਾਰ ਕੈ; ਇਉ ਉਪਜਯੋ ਜੀਯ ਭਾਵ ॥"
 page = 353
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੋਪੀਆਂ ਦੇ ਰੂਪ ਨੂੰ ਵੇਖ ਕੇ, ਇਸ ਤਰ੍ਹਾਂ ਮਨ ਵਿਚ ਭਾਵ ਪੈਦਾ ਹੋਇਆ ਹੈ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਕਲ ਸੈਨ ਚਤੁਰੰਗਨੀ; ਅਮਿਤ ਚੜਤ ਤਿਹ ਸਾਥ ॥੧॥"
 page = 916
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He possessed an army, which was adept in all the four traits.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨਾਲ ਸਾਰੀ ਅਮਿਤ ਚਤੁਰੰਗਨੀ ਸੈਨਾ ਚੜ੍ਹਦੀ ਸੀ ॥੧॥"

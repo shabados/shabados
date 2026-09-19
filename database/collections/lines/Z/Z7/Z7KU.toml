@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹੇ ਰੀਝ ਐਸੇ ਸਬੈ ਦੇਵ ਦਾਨੰ ॥"
 page = 164
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੇ ਦੇਵਤੇ ਅਤੇ ਦੈਂਤ (ਇਸ ਵੰਡ ਤੋਂ) ਇਸ ਤਰ੍ਹਾਂ ਪ੍ਰਸੰਨ ਸਨ"

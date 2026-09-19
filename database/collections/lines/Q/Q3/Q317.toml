@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭਨੀ ਦਸਤ ਉਭਾਰੇ, ਤੇਗਾਂ ਧੂਹਿ ਕੈ ॥"
 page = 124
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All of them pulling their swords, raised their hands."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਲਵਾਰਾਂ ਖਿਚ ਕੇ ਹੱਥਾਂ (ਬਾਂਹਵਾਂ) ਨੂੰ ਉਲਾਰ ਲਿਆ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਰਿਹ ਕੇ ਸਬ ਦੁਖ ਭੂਲੇ ॥੪੮੩॥"
 page = 674
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They forgot their domestic worries and moved here and there happily.483."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਘਰ ਦੇ ਸਾਰੇ ਦੁਖ ਭੁਲ ਗਏ ਹਨ ॥੪੮੩॥"

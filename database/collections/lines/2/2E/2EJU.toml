@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਵਨ ਕਾਲ, ਸਭ ਜਗਤ ਬਨਾਯੋ ॥"
 page = 1386
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Temporal Lord, who created the whole world"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕਾਲ ਨੇ ਸਾਰਾ ਜਗਤ ਬਣਾਇਆ"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਜਵਨ ਕਾਲ; ਸਭ ਜਗਤ ਬਨਾਯੋ ॥"

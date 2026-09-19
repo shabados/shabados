@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੈ ਖੋਪਰ ਤਿਨ ਸਿਰ ਪੈ ਧਰਿਯੋ ॥"
 page = 900
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ (ਤਰਬੂਜ਼ ਦਾ) ਖੋਪਰ ਲੈ ਕੇ ਸਿਰ ਉਤੇ ਧਰ ਲਿਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਾਰਿ ਦੂਸਰੇ ਸੰਗ ਯੋ; ਕਹਿਯੋ ਸੁਧਾਰਿ ਕੈ ॥"
 page = 831
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She had, politely, told her other (boy) friend that she would come to"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਦੂਜੇ ਮਿਤਰ ਨੂੰ ਵੀ ਕਹਿ ਦਿੱਤਾ"

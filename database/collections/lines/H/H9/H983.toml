@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕਨ ਧਰਮ ਕੋ ਰੂਪ ਸੁਧਾਰਿਯੋ ॥੨੪॥"
 page = 1171
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਕ ਨੇ ਧਰਮ ਰਾਜ ਦਾ ਰੂਪ ਸੰਵਾਰਿਆ ॥੨੪॥"

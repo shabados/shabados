@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਥ, ਭਲੀ ਬਿਧਿ ਰਹੌ; ਸਦਾ ਸੁਖ ਮੰਗਹੀ ॥"
 page = 1006
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(Rani:)‘Oh, my master, you remain here as I seek your welfare."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸਤਰੀ ਨੇ ਕਿਹਾ) ਹੇ ਨਾਥ! (ਮੈਂ) ਸਦਾ ਤੇਰਾ ਸੁਖ ਮੰਗਦੀ ਹਾਂ ਕਿ ਤੁਸੀਂ ਚੰਗੀ ਤਰ੍ਹਾਂ ਰਹੋ।"

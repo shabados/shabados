@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਐਸੇ ਬਨਿਓ ਹੈ ॥੫੫੬॥"
 page = 607
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, the fascinator of the mind of the sages, looks splendid like a flower and who else had been created equivalent in beauty like him?556."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਇਸ ਤਰ੍ਹਾਂ ਦਾ ਬਣਿਆ ਹੋਇਆ ਹੈ ॥੫੫੬॥"

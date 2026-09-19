@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭੰਤ ਰਾਜ ਸੁ ਪ੍ਰਭਾ ॥"
 page = 134
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thy royal Glory looks splendid."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜਸੀ ਸ਼ੋਭਾ (ਪ੍ਰਭਾ) ਬਹੁਤ ਸ਼ੋਭਦੀ ਹੈ।"

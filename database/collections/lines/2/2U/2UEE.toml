@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜ਼ਿ ਤੋ ਦੋਸਤੀ ਮਨ ਬ ਬਾਜ਼ ਆਮਦਮ ॥"
 page = 1407
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘I am better off without your friendship, I renounce your fraternity."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਤੇਰੀ ਦੋਸਤੀ ਤੋਂ ਬਾਜ਼ ਆਇਆ।"

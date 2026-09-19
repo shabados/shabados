@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮੇਰੇ ਮਨ; ਤੂ ਹਰਿ ਹਰਿ ਨਾਮੁ ਧਿਆਇ ॥"
 page = 559
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my mind, meditate, thou on the Lord God's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨੂਏ! ਤੂੰ ਵਾਹਿਗੁਰੂ ਸੁਆਮੀ ਦੇ ਨਾਮ ਦਾ ਸਿਮਰਨ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O my mind, meditate on the Name of the Lord, Har, Har."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਤੂੰ ਹਰਿ ਹਰਿ ਨਾਮੁ ਕਾ ਧਿਆਉਨਾ ਕਰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਤੂੰ ਸਦਾ ਹਰਿ-ਨਾਮ ਸਿਮਰਦਾ ਰਹੁ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh mi mente, contempla siempre al Señor,"

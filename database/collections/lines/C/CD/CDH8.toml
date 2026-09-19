@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਭਉ ਪ੍ਰਕਾਸ ਅਰੁ ਬਿਮਲ ਮਤ ॥੧੭੦॥"
 page = 648
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Wherever the sage Dutt went, there also the effulgence glistened and the pure intellect extended.170."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਥੇ ਉਥੇ) ਅਨਭਉ ਪ੍ਰਕਾਸ਼ ਅਤੇ ਨਿਰਮਲ ਬੁੱਧੀ ਹੁੰਦੀ ਜਾਂਦੀ ਸੀ ॥੧੭੦॥"

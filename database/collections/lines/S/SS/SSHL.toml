@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੂਖ ਸਹਜ ਆਨੰਦ ਭਵਨ ॥"
 page = 888
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The congregation of saints is the seat of peace, poise and pleasure."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਾਧ ਸੰਗਤ ਆਰਾਮ, ਅਡੋਲਤਾ ਅਤੇ ਪ੍ਰਸੰਨਤਾ ਦਾ ਅਸਥਾਨ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "It is the realm of celestial peace and bliss."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੂਖ ਸਹਜ ਆਤਮ ਅਨੰਦ ਅਰ ਬਿਵਹਾਰਕ ਸੁਖ ਕਾ ਸਤ ਸੰਗਤਿ ਘਰੁ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਉਹ ਮਨੁੱਖ ਆਤਮਕ ਅਡੋਲਤਾ, ਆਤਮਕ ਸੁਖ-ਆਨੰਦ ਦੀ ਅਵਸਥਾ ਹਾਸਲ ਕਰ ਲੈਂਦੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਹਜ = ਆਤਮਕ ਅਡੋਲਤਾ। ਭਵਨ = ਅਸਥਾਨ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Tienen Paz en su mente y viven en Éxtasis."

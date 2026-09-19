@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਰੁਜ ਸਬਦ ਕੋ ਆਦਿ ਬਖਾਨੋ ॥"
 page = 751
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਤਰੁਜ' (ਬ੍ਰਿਛ ਤੋਂ ਪੈਦਾ ਹੋਇਆ ਕਾਠ) ਸ਼ਬਦ ਨੂੰ ਪਹਿਲਾਂ ਕਹੋ।"

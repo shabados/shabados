@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਸਨਪਦ ॥ ਦੇਵਗੰਧਾਰੀ ॥"
 page = 685
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "VISHNUPADA DEVGANDHARI"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਸਨਪਦ: ਦੇਵਗੰਧਾਰੀ:"

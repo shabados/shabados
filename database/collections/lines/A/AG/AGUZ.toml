@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਪਾਤ ਅੰਗਦ ਕੇਸਰੀ; ਹਨੂ ਵ ਸੁਗ੍ਰਿਵੰ ਬਲੰ ॥੭੯੦॥"
 page = 282
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sharp sword of white edges were struck in the battlefield, the strength of Angad, Hanuman, Sugriva etc. began to wean away.790."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੰਗਦ, ਕੇਸਰੀ, ਹਨੂਮਾਨ, ਸੁਗ੍ਰੀਵ ਆਦਿ ਬਹਾਦਰ ਡਿੱਗ ਪਏ ਹਨ ॥੭੯੦॥"

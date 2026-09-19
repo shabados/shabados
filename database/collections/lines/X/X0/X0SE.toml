@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਲਾਟੂ ਮਾਧਾਣੀਆ; ਅਨਗਾਹ ॥"
 page = 465
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "tops, the churning -staves, thrashers,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਲਾਟੂ, ਮਧਾਣੀਆਂ, ਫਲ੍ਹੇ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "the spinning tops, the churning sticks, the threshers,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਲਾਟੂ ਮਧਾਣੀ ਦਹੀਂ ਮਥਨੇ ਹਾਰੀ (ਅਨਗਾਹ) ਫਲ੍ਹੇ ਵਾ ਬੈਲ ਅੰਨ ਕੋ ਗਾਹਨ ਕਰਤੇ ਹੂਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਲਾਟੂ, ਮਧਾਣੀਆਂ, ਫਲ੍ਹੇ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਨਗਾਹ = ਅੰਨ ਗਾਹੁਣ ਵਾਲੇ ਫਲ੍ਹੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El trompo para jugar, la mantequera, las trilladoras,"

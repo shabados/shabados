@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਲੋਕਿ ਦੇਵਤਾ ਡਰੇ ॥੨੦॥੧੪੨॥"
 page = 111
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He called and gathered so many brave fighters, seeing whom the gods were frightened.20.142."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿੰਨ੍ਹਾਂ ਨੂੰ) ਵੇਖ ਕੇ ਦੇਵਤੇ ਡਰ ਗਏ ॥੨੦॥੧੪੨॥"

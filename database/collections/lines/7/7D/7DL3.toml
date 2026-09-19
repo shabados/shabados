@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜੋ ਉਪਜੈ; ਸੋ ਆਵੈ ਜਾਇ ॥"
 page = 352
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He, who is born, continues coming and going."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਜੰਮਿਆ ਹੈ, ਉਹ ਆਉਂਦਾ ਤੇ ਜਾਂਦਾ ਰਹਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Whoever is born, continues to come and go."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਉਪਜੈ ਹੈਂ, ਸੋ ਜਨਮਤੇ ਮਰਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਯਕੀਨ ਰਹਿੰਦਾ ਹੈ ਕਿ ਜਗਤ ਤਾਂ ਪੈਦਾ ਹੁੰਦਾ ਤੇ ਨਾਸ ਹੋ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਉਪਜੈ = ਜੰਮਦਾ ਹੈ। ਜਾਇ = ਚਲਾ ਜਾਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Aquél que nace en el mundo de las formas sólo va y viene."

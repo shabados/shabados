@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਆਦਿ ਪੁਰਖ ਅਪਰੰਪਰ ਦੇਵ ॥"
 page = 1181
 line = 17
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my Limitless, Primal Lord!"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਹੱਦ ਬੰਨਾ ਰਹਿਤ ਪਰਾਪੂਰਬਲੇ ਪ੍ਰਭੂ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Primal Infinite Divine Being."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਆਦਿ ਪੁਰਖ! ਹੇ ਅਪਰੰਪਰ ਦੇਵ! ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸਭ ਦੇ ਮੁੰਢ ਪ੍ਰਭੂ! ਹੇ ਸਰਬ-ਵਿਆਪਕ ਪ੍ਰਭੂ! ਹੇ ਪਰੇ ਤੋਂ ਪਰੇ ਪ੍ਰਭੂ! ਹੇ ਪ੍ਰਕਾਸ਼-ਰੂਪ ਪ੍ਰਭੂ!"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਦਿ = ਹੇ ਸਾਰੇ ਜਗਤ ਦੇ ਮੂਲ! ਪੁਰਖ = ਹੇ ਸਰਬ-ਵਿਆਪਕ! ਅਪਰੰਪਰ = ਹੇ ਪਰੇ ਤੋਂ ਪਰੇ!"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sí, del Señor Primordial, el Dios de dioses."

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਤੇ ਕਰਤ ਜਗਤ ਮੈ ਰਾਰਾ ॥੩੩੬॥"
 page = 707
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Since that time, they are opposing each other in the world.109.336."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਤੋਂ (ਇਹ) ਜਗਤ ਵਿਚ ਲੜਾਈ ਕਰਦੇ ਆ ਰਹੇ ਹਨ ॥੩੩੬॥"

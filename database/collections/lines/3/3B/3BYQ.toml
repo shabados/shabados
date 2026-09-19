@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪਾਰਬ੍ਰਹਮ ਕੀ, ਸਰਣੀ ਪਾਹਿ ॥"
 page = 184
 line = 13
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Seek thou the sanctuary of the Lofty Lord, O man."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਉੱਚੇ ਸੁਆਮੀ ਦੀ ਸ਼ਰਣਾਗਤਿ ਸੰਭਾਲ, ਹੇ ਬੰਦੇ!"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Seek the Sanctuary of the Supreme Lord God."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪਾਰਬ੍ਰਹਮ ਕੀ ਸਰਣ ਮੇਂ ਪੜੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਤੂੰ ਪਰਮਾਤਮਾ ਦੀ ਸ਼ਰਨ ਪੈ ਜਾਏਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪਾਹਿ = ਜੇ ਤੂੰ ਪੈ ਜਾਏਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Busca el santuario del Dio Supremo Todopoderoso."

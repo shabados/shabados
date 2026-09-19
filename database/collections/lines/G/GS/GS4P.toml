@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਨ੍ਰਹ ਸੋ ਪ੍ਰੀਤਿ ਬਢੀ ਤਿਹ ਕੀ; ਮਨ ਮੈ ਅਤਿ ਹੀ, ਨਹਿ ਨੈਕੁ ਘਟੀ ਹੈ ॥"
 page = 347
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her love for Krishna increased and she did not retrace her step slightly"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਰਾਧਾ) ਦੇ ਮਨ ਵਿਚ ਕਾਨ੍ਹ ਨਾਲ ਪ੍ਰੀਤ ਬਹੁਤ ਵਧ ਗਈ ਹੈ, ਜ਼ਰਾ ਜਿੰਨੀ ਵੀ ਘਟੀ ਨਹੀਂ ਹੈ।"

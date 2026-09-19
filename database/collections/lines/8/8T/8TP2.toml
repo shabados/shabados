@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਤਸਕਰ ਤਬ ਹੀ ਉਡ ਗਏ ॥"
 page = 1073
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਬਾਰੂਦ ਦੇ ਫਟਣ ਨਾਲ) ਤਦ ਹੀ ਸਾਰੇ ਚੋਰ ਉਡ ਗਏ।"

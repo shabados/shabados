@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਖਾਟ ਕੇ ਤਰੇ ਦਬੈ ਹੈ ॥"
 page = 1011
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Firstly he will throw you down from the bed and then push you underneath it."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਤੁਹਾਨੂੰ ਮੰਜੀ ਹੇਠਾਂ ਦਬ ਦੇਵੇਗਾ।"

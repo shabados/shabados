@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਗੀ ਦੇਹ, ਕਿ ਜੋਗੀ ਹਿਯਰੋ ॥"
 page = 903
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Is Yoga hypocrisy or is it a life force?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੇਹ ਹੈ ਕਿ ਹਿਰਦਾ ਹੈ।"

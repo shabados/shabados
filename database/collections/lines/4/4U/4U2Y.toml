@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਨਿ ਊਪਰ ਵਾਰਿ ਕੈ ਡਾਰਿ ਦੀਏ ॥"
 page = 970
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They all welcomed the sage with the flowers, and sprinkled saffron."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ ਉਨ੍ਹਾਂ ਨੇ) ਮੁਨੀ ਉਤੇ ਵਾਰ ਸੁਟੇ ਹਨ।"

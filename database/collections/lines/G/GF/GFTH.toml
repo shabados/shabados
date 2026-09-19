@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਚੰਡ ਸਰਬ ਸ੍ਰੂਪ ਹੈ ॥"
 page = 128
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His Powerful Entity manifests all."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਤੇਜ ਵਾਲਾ ਅਤੇ ਸਰਬ ਸਰੂਪਾਂ ਵਾਲਾ ਹੈਂ;"

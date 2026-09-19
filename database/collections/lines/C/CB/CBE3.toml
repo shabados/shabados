@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਜਿਤੇ ਤਹ ਠਾਢੇ ਹੁਤੇ; ਅਸਿ ਲੈ ਬਰਛੈ ਪਰਸੇ ਗਹਿ ਆਏ ॥"
 page = 420
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They started moving with their axes and lances"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੋਰ ਵੀ ਜਿਤਨੇ ਉਸ ਸਥਾਨ ਉਤੇ ਸਨ, (ਉਹ) ਤਲਵਾਰਾਂ, ਬਰਛੇ ਅਤੇ ਕੁਹਾੜੇ ਪਕੜ ਕੇ ਆ ਗਏ।"

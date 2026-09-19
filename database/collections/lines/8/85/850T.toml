@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮਸਦੀਨ ਲਛਿਮਨ ਜਹ ਘਾਯੋ ॥"
 page = 1242
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਮਸਦੀਨ ਨੂੰ ਜਿਥੇ ਲੱਛਮਣ ਨੇ ਮਾਰਿਆ ਸੀ,"

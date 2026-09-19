@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਨਿ ਤ੍ਰਿਯ ਤਾ ਸੌ ਕੇਲ ਕਮਾਯੋ ॥੨੧॥"
 page = 1007
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She saved him ihrough a cauldron and then gratified by makinglove.(21)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਇਸਤਰੀ ਨੇ ਉਸ ਨਾਲ ਪ੍ਰੇਮ-ਕ੍ਰੀੜਾ ਕੀਤੀ ॥੨੧॥"

@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸੇ ਪਰਉਪਕਾਰੀ ਜਗ ਮੋ; ਗੁਰੁ ਮੰਤ੍ਰ ਜਪਾਏ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And these generous ones are causing the world meditate upon the Guru's incantation,"

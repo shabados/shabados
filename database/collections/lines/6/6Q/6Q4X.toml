@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸੁਖਿ ਸਾਂਦਿ ਫਿਰਿ ਆਏ ॥"
 page = 630
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Safe and sound, I have returned home, again."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜ਼ੀ ਬਾਜ਼ੀ, ਮੈਂ ਮੁੜ ਕੇ ਘਰ ਆ ਗਿਆ ਹਾਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I have returned again safe and sound."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੁਖ ਅਰ ਸਾਂਤੀ ਸਹਿਤ ਘਰ ਮੇਂ ਆਇ ਗਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮਨੁੱਖ (ਕਾਮਾਦਿਕ ਵਲੋਂ) ਪਰਤ ਕੇ ਆਤਮਕ ਆਨੰਦ ਵਿਚ ਆ ਟਿਕੇ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੁਖਿ ਸਾਂਦਿ = ਆਤਮਕ ਆਨੰਦ ਵਿਚ, ਸ਼ਾਂਤ ਅਵਸਥਾ ਵਿਚ। ਆਏ = ਆ ਟਿਕੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y he regresado a salvo a mi Hogar."

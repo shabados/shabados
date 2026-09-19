@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਾਮ ਆਪਨਾਗਮ ਤ੍ਰਿਯ ਆਈ ॥੬॥"
 page = 1320
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਧਰ) ਇਸਤਰੀ ਵੀ ਆਪਣੇ ਘਰ ਪਹਿਲਾਂ ਹੀ ਪਹੁੰਚ ਗਈ ॥੬॥"

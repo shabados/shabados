@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਜਿਣਿ ਹਾਰੈ, ਹਾਰੈ ਜਿਣੈ; ਏਹੁ ਗੁਰਮੁਖਿ ਚਾਲਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "This is the way of the gurmukhs that they lose while winning and losing everything they win one and all."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ ਹਉਮੈ ਆਸਰੇ ਸਭ ਨੂੰ) ਜਿੱਤਦਾ ਹੈ (ਏਥੇ ਆਕੇ ਹਉਮੈ ਦੀ ਤਿਆਗ ਰੂਪ) ਹਾਰ ਖਾਂਦਾ ਹੈ; (ਸੋ ਮਾਇਆ ਸਮੁੱਚੀ ਨੂੰ) ਜਿੱਤ ਜਾਂਦਾ ਹੈ; ਇਹ ਗੁਰਮੁਖਾਂ ਦਾ ਚਾਲਾ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਿਪਤ ਮਲੈ ਘਨਸਾਰ ਸੁਰੰਗੰ ॥"
 page = 262
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He has plastered his body with sandalwood"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੇ) ਚੰਦਨ, ਕਪੂਰ ਅਤੇ ਕੇਸਰ ਮਲਿਆ ਹੋਇਆ ਹੈ।"

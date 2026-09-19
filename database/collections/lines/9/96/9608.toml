@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੁਪਾਲੀ ਸਾਰੰਗ ਗਉਰੀ ਛੈ ॥੩੩੮॥"
 page = 662
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was beautiful like Vasanti, Todi, Gauri, Bhupali, Sarang etc.338."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੂਪਾਲੀ, ਸਾਰੰਗੀ, ਗੌਰੀ (ਆਦਿ) ਹੈ ॥੩੩੮॥"

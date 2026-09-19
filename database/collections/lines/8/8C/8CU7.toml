@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤਨੇ ਮਹਿ ਬਿਦੁਰ ਆਇ ਗਯੋ; ਸੋਊ ਪਾਰਥ ਮਾਇ ਕੈ ਪਾਇਨ ਲਾਗਿਯੋ ॥"
 page = 398
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the meantime Vidura had come"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਤਨੇ ਵਿਚ ਬਿਦਰ ਆ ਗਿਆ ਅਤੇ ਅਰਜਨ ਦੀ ਮਾਂ (ਕੁੰਤੀ) ਦੇ ਪੈਰੀਂ ਪਿਆ"

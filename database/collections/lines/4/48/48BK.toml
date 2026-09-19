@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਠੀ ਜੀਤਮੱਲੰ ਸੁ ਗਾਜੀ ਗੁਲਾਬੰ ॥"
 page = 60
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੀਤ ਮਲ ਹਠੀ ਯੋਧਾ ਸੀ ਅਤੇ ਗੁਲਾਬ (ਰਾਇ) ਪਰਮ ਸੂਰਮਾ ਸੀ।"

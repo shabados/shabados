@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਯੋ ਤਾਹਿ ਅਪੰ ਸਿਵੰ ਸੂਲ ਭੇਜੰ ॥੭੦੮॥"
 page = 274
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In a distant land there lives a huge demon named Lavan, who has got the trident of Shiva,708."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਸ਼ਿਵ ਨੇ ਆਪਣਾ ਤ੍ਰਿਸ਼ੂਲ ਦੇ ਕੇ ਭੇਜਿਆ ਸੀ ॥੭੦੮॥"

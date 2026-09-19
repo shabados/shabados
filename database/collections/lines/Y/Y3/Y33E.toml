@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੈਨ ਕੀ ਕਾਲ ਕੋ ਬੀਚਲ ਦੇਖਿ; ਸੁ ਸੁੰਦਰਿ ਘਾਤ ਚਿਤੈਬੇ ਕੋ ਕੀਨੋ ॥"
 page = 927
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With askance looks she pointed her beautiful (friends) at him,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਸਖੀਆਂ ਨੂੰ ਅੱਖਾਂ ਦੀ ਕਾਲਿਮਾ ਨੂੰ ਵੇਖਣ ਲਈ ਕਿਹਾ ਅਤੇ ਉਧਰ ਸੁੰਦਰ ਮਿੱਤਰ ਦਾ ਧਿਆਨ ਕੀਤਾ।"

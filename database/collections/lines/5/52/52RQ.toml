@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਤਿਫ਼ਲਾ ਬੁਖ਼ਾਦੰਦ ਮੁਲਾ ਖ਼ੁਸ਼ਸ਼ ॥"
 page = 1417
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The boys were taught by a Maulana, (A male Islamic scholar),"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੁੰਡਿਆਂ ਨੂੰ ਇਕ ਚੰਗਾ ਸਿਆਣਾ ਮੌਲਵੀ ਪੜ੍ਹਾਉਂਦਾ ਸੀ"

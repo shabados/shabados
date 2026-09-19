@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੈ ਹਨਤ ਤੋਹਿ, ਕੈ ਜਪ ਨ ਮਾਇ ॥੧੭੧॥"
 page = 567
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She showed the worshipping Brahmin to the king and the Shudra king getting infuriated, arrested him and giving him the hard punishment, the king said, “I shall kill you, or you abandon the worship of the goddess.”171."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਂ ਤਾਂ ਤੈਨੂੰ ਮਾਰ ਦਿਆਂਗਾ ਜਾਂ ਦੇਵੀ ਦੀ ਪੂਜਾ ਨਾ ਕਰ ॥੧੭੧॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਅਨੇਕ ਨਿਹੋਰੌ ਕੀਨੋ ॥"
 page = 867
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rani rewarded them sufficiently and they praised her in various ways,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਹੁਤ ਤਰ੍ਹਾਂ ਨਾਲ ਅਹਿਸਾਨ ਮੰਨਿਆ"

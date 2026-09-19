@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਫਕੀਰ ਉਸ ਨੂੰ ਗਲੀ ਗਲੀ ਲੱਭਦੇ ਫਿਰਦੇ ਹਨ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਚੂੰ ਗਦਾ ਜੋਇਦ ਊ ਰਾ ਕੂ ਬ-ਕੂ ॥੪੦੯॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Just like the beggars are looking for Him from street to street. (409)"

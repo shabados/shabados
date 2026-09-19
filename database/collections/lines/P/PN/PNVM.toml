@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਜੰਤ ਆਸੁਰੀ ਸੁਤੰ ॥"
 page = 259
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਖਸ਼ਣੀਆਂ ਦੇ ਪੁੱਤਰ ਭੱਜੇ ਫਿਰਦੇ ਹਨ,"

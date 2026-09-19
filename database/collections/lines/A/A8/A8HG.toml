@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹਿ ਲੈ ਹੈ ਹਰਿ ਨਾਮੁ; ਦਾਨ ਕਾਹੂੰ ਨਹੀ ਦੈ ਹੈ ॥"
 page = 558
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਰਿ ਨਾਮ ਨਹੀਂ ਲੈਣਗੇ ਅਤੇ ਕਿਸੇ ਨੂੰ ਦਾਨ ਨਹੀਂ ਦੇਣਗੇ।"

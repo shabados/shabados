@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੈ ਸਬਦ ਸਰਬ ਪੁਕਾਰਹੀ ॥੬੧॥੨੧੭॥"
 page = 117
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The gods began to view repeatedly and raise shouts of victory.61.217."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੈ ਦਾ ਘੋਸ਼ ਕਰਨ ਲਗ ਗਏ ਸਨ ॥੬੧॥੨੧੭॥"

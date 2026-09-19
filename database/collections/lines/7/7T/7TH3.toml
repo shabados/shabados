@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਹੀ ਚੋਰਿ ਚੋਰਿ ਕਹਿ ਉਠਿਹੌ ॥"
 page = 837
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਕਹਿਣ ਲਗੀ, ਮੈਂ) ਹੁਣੇ ਚੋਰ ਚੋਰ ਕਹਿ ਕੇ ਰੌਲਾ ਪਾਂਦੀ ਹਾਂ"

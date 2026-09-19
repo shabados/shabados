@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਜਤ ਨਾਹਿ ਹਠੀ ਰਨ ਤੇ; ਅਣਗੇਸ ਬਲੀ ਅਤਿ ਕੋਪ ਭਰਿਯੋ ਹੈ ॥"
 page = 413
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was a warrior named Ajaib Khan in the army of Krishna, he came and confronted the king Anag Singh, he did not retrace his steps from the battlefield, and greatly infuriated,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਹਠੀ ਯੋਧਾ ਰਣ ਤੋਂ ਭਜਿਆ ਨਹੀਂ ਹੈ ਅਤੇ ਅਣਗ ਸਿੰਘ ਸੂਰਮਾ ਕ੍ਰੋਧ ਨਾਲ ਭਰ ਗਿਆ ਹੈ।"

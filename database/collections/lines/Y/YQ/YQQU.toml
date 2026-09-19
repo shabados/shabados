@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਲਗੇ ਬਰਨਨ ਕਰੋਂ ਮਚਿਯੋ ਜੁਧੁ ਅਪਾਰ ॥"
 page = 61
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "How far should I describe the great battle?"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਥੋਂ ਤਕ ਵਰਣਨ ਕਰਾਂ, ਭਿਆਨਕ ਯੁੱਧ ਹੋਇਆ ਸੀ।"

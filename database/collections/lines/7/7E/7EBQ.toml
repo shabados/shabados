@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀਆਂ ਦੋਵੇਂ ਅੱਖਾਂ, ਗੋਯਾ, ਇੱਕ ਵੱਡੀ ਨਦੀ ਹਨ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦੋ ਚਸ਼ਮਿ ਮਨ ਕਿ ਦਰਯਾਇ ਅਜ਼ੀਮੁੱਸ਼ਾਣ ਬਵਦ ਗੋਯਾ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "With one pointer with his eyebrows, he simply (metaphorically) murdered (martyred) us,"

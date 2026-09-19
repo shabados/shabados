@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤਿਹੁ ਗੁਣ ਮਹਿ; ਕੀਨੋ ਬਿਸਥਾਰੁ ॥"
 page = 291
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "He made the world in (subject to) three dispositions."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਜਹਾਨ ਨੂੰ ਤਿੰਨਾਂ ਸੁਭਾਵਾਂ ਵਿੱਚ (ਅਧੀਨ) ਕਰ ਦਿੱਤਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "he made the world subject to the three dispositions."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤਿਸ ਕਾਲ ਮੇਂ ਤੀਨੋਂ ਗੁਣੋਂ ਮੇਂ ਬਿਸਥਾਰ ਕੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇ ਮਾਇਆ ਦੇ ਤਿੰਨ ਗੁਣਾਂ ਦਾ ਖਿਲਾਰਾ ਖਲੇਰ ਦਿੱਤਾ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਸਥਾਰੁ = ਪਸਾਰਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "aparecieron los conceptos de virtud y vicio."

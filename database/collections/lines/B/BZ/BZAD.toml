@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਿਯੋ ਥੰਭ ਊਪਰ ਤਿਸੈ; ਇਕ ਕਰ ਛਾਤ ਉਠਾਇ ॥"
 page = 940
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He pushed the ceiling up and put him on top of one pillar,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਇਕ ਹੱਥ ਨਾਲ ਛਤ ਨੂੰ ਉਠਾ ਕੇ ਥੰਮ ਉਪਰ ਧਰ ਦਿੱਤਾ"

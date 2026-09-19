@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਤਾਤ ਜਹਾ ॥੩੬॥"
 page = 617
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the child grew a bit older, she (the mother) took him there where his father was.36."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਉਸ ਦਾ ਪਿਤਾ ਸੀ ॥੩੬॥"

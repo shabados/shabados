@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਮ ਕਰਾ ਤਾ ਕੇ ਤਨ ਭਈ ॥੬੯॥"
 page = 1188
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਸ਼ਾਹ ਪਰੀ ਦੇ ਤਨ ਵਿਚ ਕਾਮ-ਕਲਾ ਜਾਗ ਪਈ ॥੬੯॥"

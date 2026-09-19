@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਤੇਰਾ ਰੂਪੁ. ਨ ਜਾਈ ਲਖਿਆ; ਕਿਉ ਤੁਝਹਿ ਧਿਆਵਹੀ ॥"
 page = 1095
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Thine form can by knows not. How can one meditate on Thee?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੈਡਾਂ ਸਰੂਪ ਜਾਣਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਇਨਸਾਨ ਕਿਸ ਤਰ੍ਹਾਂ ਤੇਰਾ ਆਰਾਧਨ ਕਰ ਸਕਦਾ ਹੈ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Your Form cannot be known; how can one meditate on You?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰਾ ਰੂਪ ਨਹੀਂ ਲਖਿਆ ਜਾਤਾ, ਕਿਸ ਤਰਾਂ ਤੇਰਾ ਧਿਆਨ ਕਰੀਏ? ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰਾ ਰੂਪ ਬਿਆਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ, ਫਿਰ ਜੀਵ ਤੇਰਾ ਧਿਆਨ ਕਿਸ ਤਰੀਕੇ ਨਾਲ ਧਰਨ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਿਉ = ਕਿਸ ਤਰੀਕੇ ਨਾਲ?"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Nadie sabe cómo Eres, ¿cómo entonces puede uno habitar en Ti?"

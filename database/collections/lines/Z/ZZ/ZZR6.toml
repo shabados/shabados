@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੋਸਤ ਪਿਯਤ ਕਬਹੂੰ ਨ ਅਘਾਵੈ ॥"
 page = 1027
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪੋਸਤ ਪੀਂਦਿਆਂ ਕਦੇ ਤ੍ਰਿਪਤ ਨਹੀਂ ਹੁੰਦਾ ਸੀ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਨਕ; ਕਿਰਤੁ. ਨ ਜਾਇ ਮਿਟਾਇਓ ॥੨॥"
 page = 1005
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Nanak, the writ of past deeds can be effaced not."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨਾਨਕ, ਪੂਰਬਲੇ ਕਰਮਾਂ ਦੀ ਲਿਖਤਕਾਰ ਮੇਟੀ ਨਹੀਂ ਜਾ ਸਕਦੀ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O Nanak, the the karma of past actions cannot be erased. ||2||"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਜੋ ਜੀਵ ਕਾ ਕਰਤਤੁ ਹੈ, ਸੋ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾਤਾ ਹੈ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਨਕ! (ਜਨਮਾਂ ਜਨਮਾਂਤਰਾਂ ਦੇ) ਕੀਤੇ ਕਰਮਾਂ ਦੇ ਸੰਸਕਾਰਾਂ ਦਾ ਇਕੱਠ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ॥੨॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਾਨਕ = ਹੇ ਨਾਨਕ! ਕਿਰਤੁ = ਕੀਤਾ -ਕਮਾਇਆ ਹੋਇਆ, ਕੀਤੇ ਕਰਮਾਂ ਦੇ ਸੰਸਕਾਰਾਂ ਦਾ ਇਕੱਠ ॥੨॥"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "oh dice Nanak, el Karma de las acciones pasadas no se puede borrar.(2)"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਚੇ ਛਤ੍ਰਧਾਰੀ ॥੧੬॥੯੩॥"
 page = 107
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Filled with great fury, the wielders of canopies are much excited.16.93."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਵੱਡੇ) ਛਤ੍ਰਧਾਰੀ (ਯੁੱਧ-ਕਾਰਜ ਵਿਚ) ਮਗਨ ਹਨ ॥੧੬॥੯੩॥"

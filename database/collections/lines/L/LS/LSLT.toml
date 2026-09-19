@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਾਹਨ ਕਹੁ ਧਨਾਸ ਸਿਰ ਨ︀ਯਾਵੈ ॥"
 page = 1196
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਨ ਦੀ ਆਸਾ ਵਿਚ ਹੀ ਪੱਥਰ ਨੂੰ ਸਿਰ ਨਿਵਾਉਂਦੇ ਹਨ"

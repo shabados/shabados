@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੀ ਛਤ੍ਰਹੀਣ ਛਿਤੰ ਕੀਸ ਬਾਰੰ ॥"
 page = 177
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਰਸ਼ੁਰਾਮ ਨੇ) ਇੱਕੀ ਵਾਰ ਧਰਤੀ ਨੂੰ ਛਤਰੀਆਂ ਤੋਂ ਹੀਨ ਕਰ ਦਿੱਤਾ।"

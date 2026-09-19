@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਚਿਯੋ ਸਰਪ ਮੇਧੰ ਬਡੋ ਜਗ ਰਾਜੰ ॥"
 page = 142
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Sovereign (Jammeja) is performing the serpent-sacrifice."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ) ਰਾਜੇ ਨੇ ਮਹਾਨ ਸਰਪ-ਮੇਧ-ਯੱਗ ਰਚਿਆ।"

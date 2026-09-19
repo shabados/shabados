@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਉਰ ਸੁਨਿਯੋ ਜਿਹ ਏਕ ਹੀ ਚੋਟ ਸੋ; ਕੋਟਨ ਕੋਪ ਚਟਾਕ ਗਿਰਾਯੋ ॥"
 page = 510
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In that citadel surrounded by water,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਹੋਰ ਵੀ ਸੁਣ ਲਿਆ ਕਿ ਜਿਸ ਨੇ ਇਕ ਹੀ ਸਟ ਨਾਲ ਕ੍ਰੋਧਵਾਨ ਹੋ ਕੇ ਕਿਲ੍ਹਿਆਂ ਨੂੰ ਡਿਗਾ ਦਿੱਤਾ ਹੈ।"

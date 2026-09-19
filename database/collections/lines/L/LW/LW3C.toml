@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਓੜਕੁ ਲਖ ਕਰੋੜਿ, ਭਰਮਿ ਭੁਲਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "To know Him, myriads of people have remained wandering in illusions."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਤੇ ਹੋਰ) ਲੱਖਾਂ ਕ੍ਰੋੜਾਂ ਨੂੰ ਓੜਕ (ਦੀ ਭਾਲ) ਨੇ ਭਰਮ ਵਿਚ ਭੁਲਾ ਦਿਤਾ।"

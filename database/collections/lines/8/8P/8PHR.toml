@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਜਿ ਚਾਲ ਕਲੇਵਰ ਭੂਮਿ ਤਲੰ ॥"
 page = 674
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Controlling the wind with the strength of Yoga, relinquishing his body left the earth"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਧਰਤੀ ਤਲ ਉਤੇ (ਆਪਣਾ) ਸ਼ਰੀਰ ਤਿਆਗ ਕੇ ਚਲਦੇ ਬਣੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਧਾਰ ਦੇਵ ਲੋਕਿਯੰ ॥੧੭॥"
 page = 50
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They fight, forgetting all sorrows and several of them move towards heaven.17."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਵੀਰ-ਗਤੀ ਪਾ ਕੇ) ਸੁਅਰਗ ਲੋਕ ਨੂੰ ਜਾਂਦੇ ਹਨ ॥੧੭॥"

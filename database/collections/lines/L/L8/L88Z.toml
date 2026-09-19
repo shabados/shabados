@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਚਿਯੋ ਜੁਧ ਗਾੜੋ ਮੰਡੌ ਬੀਰ ਭਾਰੇ ॥"
 page = 944
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Shyam knows, how many were annihilated."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾਨ ਯੋਧਿਆਂ ਨੇ ਬੜਾ ਤਕੜਾ ਯੁੱਧ ਮਚਿਆ ਹੋਇਆ ਹੈ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕੰ ਏਕ ਕੁਠੈਂ ॥੪੩੩॥"
 page = 245
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The warriors are knocking their blows in fury over one another and are chopping (the limbs).433."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਇਕ-ਇਕ ਨੂੰ ਕੋਹ ਰਿਹਾ ਹੈ ॥੪੩੩॥"

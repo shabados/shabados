@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਈ ਕਲਪਨ ਲੌ ਤਪ ਤਾਪ ਕਰੈ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He performs austerities for many kalpas (ages) !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ (ਸਾਧਕ) ਕਲਪਾਂ ਜਿੰਨੇ ਲੰਬੇ ਸਮੇਂ ਤੋਂ ਤਪਸਿਆ ਵਿਚ ਮਗਨ ਹਨ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬੀਅਤ ਬਹਾਲਸਤ ਹੁਸਨਲ ਜਮਾਲ ॥"
 page = 1410
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His will prevails, and his blessedness is splendid,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਸੁਭਾ ਖੇੜੇ ਭਰਿਆ ਹੈ, ਉਹ ਸੁੰਦਰ ਸਰੂਪ ਵਾਲਾ ਹੈ।"

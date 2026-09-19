@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਜਾਤਿ ਨ ਪਾਤਿ ਨ ਮਾਤ ਪਿਤੰ ॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is without caste without caste without lineage without mother and father!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਨਾ ਜਾਤਿ ਹੈ, ਨਾ ਬਰਾਦਰੀ ਅਤੇ ਨਾ ਹੀ ਮਾਤਾ ਅਤੇ ਪਿਤਾ ਹੈ,"

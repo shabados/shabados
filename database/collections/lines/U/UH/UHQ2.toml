@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਉੜੀ ੧"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਸਾਧ=ਸਿੱਧੀ। ਸਧਾਇ=ਸਾਧਕੇ। ਸਾਧੁ=ਸ੍ਰੇਸ਼ਟ ਵਾ ਪਰੋਪਕਾਰੀ। ਓਰੈ=ਉਰੈ, ਆਸਰੇ ਵਿਚ, ਅੰਦਰ।)"

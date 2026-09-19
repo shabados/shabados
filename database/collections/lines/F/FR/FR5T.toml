@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਪਾਰਥ ਆਇ ਕੈ ਸੀਸ ਨਿਵਾਇ ਸੁ ਸ︀ਯਾਮ ਜੂ ਸਿਉ ਇਹ ਬੈਨ ਉਚਾਰੇ ॥"
 page = 507
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਅਰਜਨ ਨੇ ਆ ਕੇ ਅਤੇ ਸਿਰ ਨਿਵਾ ਕੇ ਕ੍ਰਿਸ਼ਨ ਜੀ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਬਚਨ ਕਹੇ,"

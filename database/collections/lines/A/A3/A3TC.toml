@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਬੇ ਦਸਤ ਉਭਾਰੀ, ਗਦਾ ਫਿਰਾਇ ਕੈ ॥"
 page = 124
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She twirled her mace, raising it with her left hand."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਗਦਾਂ ਨੂੰ ਘੁੰਮਾ ਕੇ ਖਬੇ ਹੱਥ ਵਿਚ ਉਲਾਰਿਆ"

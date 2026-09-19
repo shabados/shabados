@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਪਨ ਟਰਿ ਮਾਤਾ ਪਹਿ ਆਈ ॥"
 page = 976
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After dressing him as a woman, she went to her mother."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਆਪਣੀ ਮਾਂ ਕੋਲ (ਲੈ ਕੇ) ਆਈ।"

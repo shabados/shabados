@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੰਠਹਿ ਕਪੋਤਿ ਲਖਿ ਕੋਪ ਕੀਨ ॥"
 page = 636
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਗਰਦਨ ਨੂੰ ਵੇਖ ਕੇ ਕਬੂਤਰ ਨੇ ਰੋਸ ਕੀਤਾ।"

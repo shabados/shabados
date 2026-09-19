@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਠਿ ਝਰੋਖੇ ਮੁਜਰਾ ਲੀਯੋ ॥"
 page = 956
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One day as she was watching the dance, she invited all the heroes."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਝਰੋਖੇ ਵਿਚ ਬੈਠ ਕੇ ਸਲਾਮੀ ਲਈ।"

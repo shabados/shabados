@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਪ੍ਰਭ ਜਗਤਿ ਕਹਾ ਸੋ ਕਹਿਹੋਂ ॥"
 page = 58
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਭੂ ਨੇ ਜੋ ਕਿਹਾ ਹੈ, ਉਹੀ ਜਗਤ ਵਿਚ ਕਹਾਂਗਾ"

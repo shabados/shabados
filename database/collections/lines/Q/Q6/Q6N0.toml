@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੋਣਤ ਭਰੀ ਜਟਾ ਅਤਿ ਸੋਭਤ ਛਬਹਿ ਨ ਜਾਤ ਕਹ︀ਯੋ ॥"
 page = 687
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The glory of the matted locks saturated with blood is indescribable"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲਹੂ ਨਾਲ ਲਿਬੜੀਆਂ ਜਟਾਵਾਂ ਬਹੁਤ ਸ਼ੋਭਾਇਮਾਨ ਹਨ, ਜਿਨ੍ਹਾਂ ਦੀ ਛਬੀ ਦਾ ਵਰਣਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"

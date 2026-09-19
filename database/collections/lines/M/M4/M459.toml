@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਦਾਰੇ ਪਰੇ ਬੀਰ ਬ੍ਰਿੰਦੰ ਬਿਚੇਤੰ ॥"
 page = 1369
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੂਰਮਿਆਂ ਦੇ ਜੁਟ ਮਾਰੇ ਹੋਏ ਅਚੇਤ ਪਏ ਸਨ।"

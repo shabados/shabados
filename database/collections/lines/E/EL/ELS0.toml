@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਰਾ ਏਅਤਬਾਰੇ ਬਰੀਂ ਕਸਮ ਨੇਸਤ ॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I have faith in your oaths"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਔਰੰਗਜ਼ੇਬ!) ਮੈਨੂੰ (ਤੇਰੀ) ਇਸ ਕਸਮ ਉਤੇ ਯਕੀਨ ਨਹੀਂ ਹੈ।"

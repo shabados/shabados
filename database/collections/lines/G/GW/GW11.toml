@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਜੁਗਤਿ ਸੁਧਾ ਹੈਂ ॥੧੨੫॥"
 page = 7
 line = 10
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Thou art ever united with all! 125"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਅੰਮ੍ਰਿਤ ('ਸੁਧਾ') ਨਾਲ ਸੰਯੁਕਤ ਹੈਂ ॥੧੨੫॥"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਸੁ ਜੁਗਤਿ ਸੁਧਾ ਹੈਂ ॥੧੨੫॥"

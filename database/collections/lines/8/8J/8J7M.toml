@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕ੍ਰਿਸਨ ਬਿਸਨ ਅਵਤਾਰ; ਕਰੀ ਸੋਲਹ ਸੈ ਨਾਰੀ ॥"
 page = 1006
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Krishna, the epitome of Vishnu, had sixteen hundred women."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਸ਼ਣੂ ਦੇ ਅਵਤਾਰ ਕ੍ਰਿਸ਼ਨ ਨੇ ੧੬ ਸੌ ਨਾਰੀਆਂ ਨਾਲ ਵਿਆਹ ਕੀਤਾ।"

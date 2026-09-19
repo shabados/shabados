@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੈਲ ਪੂਛਿ ਗਹਿ ਕੈ ਜਬੈ; ਗਈ ਨਦੀ ਕੇ ਧਾਰ ॥"
 page = 860
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Holding the tail of a bull, when she jumped into the water,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਬਲਦ ਦੀ ਪੂਛਲ ਪਕੜ ਕੇ ਨਦੀ ਦੀ ਧਾਰਾ ਵਿਚ ਜਾ ਪਹੁੰਚੀ,"

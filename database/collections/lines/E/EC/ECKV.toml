@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਠੈ ਧਾਮ ਜਮ ਕੇ ਸੋ ਦੀਨੇ ॥੨੦॥"
 page = 929
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And send them straight to the domain of death.(20)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਮਲੋਕ ਭੇਜ ਦਿੰਦੀ ॥੨੦॥"

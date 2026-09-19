@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਤ ਭਜੇ ਦਈਤ ਦਲਪਤਿ ਜੁਝਾਇ ॥੪੮੨॥"
 page = 250
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Lakshman returned with his forces, playing on the drum and on the other side the demons ran away on seeing their general dead.482."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਧਰ ਆਪਣੇ ਸੈਨਾਪਤੀ (ਮੇਘਨਾਦ ਨੂੰ) ਮਰਵਾ ਕੇ ਦੈਂਤ ਦਲ (ਲੰਕਾ ਵਲ) ਭੱਜ ਗਿਆ ॥੪੮੨॥"

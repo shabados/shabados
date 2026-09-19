@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੋਨ ਭਭਾਕੈ ਤਸਕਰ ਕੀਨੋ ॥"
 page = 894
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Rani kissed him, a stream of blood gushed out of the nose."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤਾਂ) ਚੋਰ ਨੇ ਲਹੂ ਦਾ ਭਭਾਕਾ ਕੀਤਾ।"

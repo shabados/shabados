@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਪਨੈ ਰੰਗਿ ਕਰਤਾ ਕੇਲ ॥"
 page = 894
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "His plays, the Lord plays according to His pleasure,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੀਆਂ ਖੇਡਾਂ, ਸਾਈਂ ਆਪਣੀ ਮੌਜ ਅਨੁਸਾਰ ਖੇਡਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Creator Lord plays His own plays."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਵਹੁ ਪ੍ਰਮਾਤਮਾ ਅਪਨੇ (ਰੰਗਿ) ਅਨੰਦ ਮੇਂ ਹੀ ਸਭ ਲੀਲਾ ਕਰਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਪਰਮਾਤਮਾ ਆਪਣੀ ਮੌਜ ਵਿਚ (ਜਗਤ ਦੇ ਸਾਰੇ) ਕੌਤਕ ਕਰ ਰਿਹਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਅਪਨੈ ਰੰਗਿ = ਆਪਣੀ ਮੌਜ ਵਿਚ। ਕਰਤਾ = ਕਰਦਾ ਰਹਿੰਦਾ ਹੈ। ਕੇਲ = ਖੇਲ, ਕੌਤਕ, ਤਮਾਸ਼ੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Tú revisas Tu Obra como es Tu Voluntad,"

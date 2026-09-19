@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ੍ਰਿਪਹੂੰ ਕੋ ਅਤਿ ਚਾਹਤ ਪ︀ਯਾਰੀ ॥"
 page = 967
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She loved Raja too, which enhanced Raja’s love for her."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਵੀ ਰਾਜੇ ਨੂੰ ਬਹੁਤ ਪਿਆਰ ਕਰਦੀ ਸੀ।"

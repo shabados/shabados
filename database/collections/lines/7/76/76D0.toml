@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭਾ ਬਿਖੈ ਭਾਖਤ ਭਯੋ ਦਸਮੀ ਕਥਾ ਸੁਨਾਇ ॥੧॥"
 page = 821
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then the Minister inculcated and narrated this tenth Chritar.(1)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ) ਸਭਾ ਵਿਚ ਦਸਵੀਂ ਕਥਾ ਬਣਾ ਕੇ ਸੁਣਾਈ ॥੧॥"

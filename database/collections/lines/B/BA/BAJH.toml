@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਤਵ ਦਾਸ ਉਚਾਰਤ ਜੈਹੈ ॥੩॥"
 page = 73
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If Thou castest Thy Merciful glance at me, then Thy Servant shall utter all.3."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਤੁਹਾਡਾ ਦਾਸ ਉਚਾਰਦਾ ਜਾਵੇਗਾ ॥੩॥"

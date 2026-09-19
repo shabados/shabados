@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਿਛਕਿ ਹੋਇ ਮਾਗਿ ਸੋ ਲੀਜੈ ॥"
 page = 452
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Therefore now becoming a beggar, beg this from him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਭਿਖਾਰੀ ਬਣ ਕੇ (ਉਸ ਕੋਲੋਂ) ਇਹ (ਤਾਵੀਜ਼) ਮੰਗ ਲਵੋ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਕੀ ਤ੍ਰਿਯਾ ਉਪਾਸਿਕ ਜਾਨੀ ॥"
 page = 984
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਇਸਤਰੀ (ਭਾਵ ਸੌਂਕਣ) ਨੂੰ ਜਿਸ ਦਾ ਉਪਾਸਕ ਜਾਣਿਆ,"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਪ ਸਰਬ ਤਪੀਸਨ ਕੇ ਸਬ ਹੀ ॥"
 page = 665
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰਿਆਂ ਤਪਸਵੀਆਂ ਨੇ (ਦੱਤ ਸਮੇਤ) ਖੂਬ ਤਪ ਕੀਤਾ।"

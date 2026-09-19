@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਪਜਿਯੋ ਬਾਲਕ ਬੀਰ; ਨਾਮ ਧਰਿਯੋ ਤਿਹ ਪਰਦੁਮਨ ॥"
 page = 499
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਲਸਰੂਪ) ਸੂਰਮਾ ਪੁੱਤਰ ਪੈਦਾ ਹੋਇਆ ਅਤੇ ਉਸ ਦਾ ਨਾਂ ਪ੍ਰਦੁਮਨ ਰਖਿਆ ਗਿਆ"

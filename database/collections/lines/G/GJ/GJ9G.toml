@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਰੇਗ਼ਾ, ਅਗਰ ਰੂਇ ਓ ਦੀਦਮੇ ॥"
 page = 1391
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If I had seen his face once,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖੇਦ ਹੈ, ਜੇ ਮੈਂ ਉਸ ਕਾਇਰ ਦਾ ਮੂੰਹ ਵੇਖ ਲੈਂਦਾ,"

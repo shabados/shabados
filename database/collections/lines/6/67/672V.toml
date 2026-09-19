@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਨ ਭਗਤਿ ਸਕਤਿ, ਨਹੀ ਪਰਤ ਪਾਨ ॥"
 page = 30
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Without the power of devotion they cannot realise the Lord!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਿਨਾ ਭਗਤੀ ਦੀ ਸ਼ਕਤੀ ਦੇ (ਪਰਮਾਤਮਾ) ਹੱਥ ਨਹੀਂ ਆਉਂਦਾ,"

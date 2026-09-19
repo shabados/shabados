@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੰਤ ਸਰਬ ਆਸ ਹੈ ॥"
 page = 128
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is boundless and fulfiller of the hopes of all"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੰਤ ਅਤੇ ਸਭ ਦੀਆਂ ਆਸ਼ਾਵਾਂ (ਪੂਰੀਆਂ ਕਰਨ ਵਾਲਾ) ਹੈਂ;"

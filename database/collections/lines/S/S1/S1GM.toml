@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਬਾਰ ਮਾਰਿ ਮਾਰ︀ਯੋ ਨ ਸਤ੍ਰੁ ॥"
 page = 642
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਵੈਰੀ ਨੂੰ ਇਕ ਵਾਰ ਮਾਰ ਕੇ ਫਿਰ ਨਹੀਂ ਮਾਰਿਆ।"

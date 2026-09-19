@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਹੁ ਤ੍ਰਿਯਾ ਤਾ ਕੋ ਸੁਨਿ ਪਾਯੋ ॥"
 page = 895
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the Shah’s wife heard about him,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ (ਗੱਲ) ਸ਼ਾਹ ਦੀ ਵਹੁਟੀ ਨੇ ਸੁਣ ਲਈ।"

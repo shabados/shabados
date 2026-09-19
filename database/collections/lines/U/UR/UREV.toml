@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਤ ਭਾਖਿ ਇਹ ਗਾਡਿਯਹੁ; ਚੌਕ ਚਾਦਨੀ ਜਾਇ ॥੨੭॥"
 page = 912
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Take it to Chandni Chowk and declare, ‘A ghost is in there.’(27)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਇਸ ਨੂੰ ਭੂਤ ਕਹਿ ਕੇ ਚਾਂਦਨੀ ਚੌਕ ਵਿਚ ਗਡ ਦਿਓ ॥੨੭॥"

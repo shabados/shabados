@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਿੰਨਿ ਨਾਮ ਤਿਨ ਕੋ ਰਖਾਇ ॥੧੬੯॥"
 page = 648
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That fearless Purusha Dutt made several disciples in the Aranyaks (forets), they were named `Aranayaks`.169."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦਾ ਨਾਂ 'ਆਰਿੰਨਿ' ਰਖ ਦਿੱਤਾ ॥੧੬੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਗਿਆ ਦੀਨੀ ਸੈਨ ਕੋ; ਘੇਰੋ ਦੇਵੀ ਜਾਇ ॥੩੯॥"
 page = 78
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He ordered that the goddess be besiged.39."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਸੈਨਾ ਨੂੰ ਹੁਕਮ ਦਿੱਤਾ ਕਿ ਜਾ ਕੇ ਦੇਵੀ ਨੂੰ ਘੇਰ ਲਵੋ ॥੩੯॥"

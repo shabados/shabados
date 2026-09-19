@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਹ ਪ੍ਰਸਾਦਿ; ਤੇਰੇ ਸਗਲ ਛਿਦ੍ਰ ਢਾਕੇ ॥"
 page = 270
 line = 4
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "By whose grace all thy sins are screened,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਰਹਿਮਤ ਸਦਕਾ ਤੇਰੇ ਸਾਰੇ ਪਾਪ ਕੱਜੇ ਹੋਏ ਹਨ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "By His Grace, all your deficits are covered;"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੀ ਕ੍ਰਿਪਾ ਸੇ ਤੇਰੇ ਸੰਪੂਰਨ ਦੋਸ ਢਕੇ ਹੂਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਜਿਸ ਦੀ ਦਇਆ ਨਾਲ ਤੇਰੇ ਸਾਰੇ ਐਬ ਢੱਕੇ ਰਹਿੰਦੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਛਿਦ੍ਰ = ਨੁਕਸ, ਐਬ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Por Su Gracia, todas tu debilidades son cubiertas;"

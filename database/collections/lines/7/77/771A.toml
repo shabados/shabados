@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਹਨ ਤੈਸਿਯੈ ਅੰਤਰ ਦਈ ॥"
 page = 947
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "After displaying the place, she got the wall repaired spuriously."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਅੰਦਰੋਂ ਉਸੇ ਤਰ੍ਹਾਂ ਰਹਿਣ ਦਿੱਤੀ।"

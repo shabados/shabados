@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਮੂਰਤ ਸਦਾ ਉਸਦੇ ਦਿਲ ਅੰਦਰ ਵੱਸਦੀ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਨਕਸ਼ਿ ਊ ਦਾਇਮ ਦਰੂਨਿ ਦਿਲ ਬਵਦ ॥੪੯੫॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, the image of Akaalpurakh always abides in his heart. (495)"

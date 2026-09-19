@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਨੰ ਬਾਣ ਤਾਣੰ ॥੩੧॥"
 page = 62
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I took the bow in my hand and aimed and shot the arrow.31."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਖਿਚ ਕੇ ਤੀਰ ਮਾਰਿਆ ॥੩੧॥"

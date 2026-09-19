@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾਪੁਰਖ ਕਾਹੂ ਨ ਪਛਾਨਾ ॥"
 page = 58
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ ਨੇ ਵੀ ਮਹਾਪੁਰਖ (ਪ੍ਰਭੂ) ਨੂੰ ਨਹੀਂ ਪਛਾਣਿਆ"

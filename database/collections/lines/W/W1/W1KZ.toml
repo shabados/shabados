@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੋਗ ਲਖੈ ਗ੍ਰਿਹ ਮਾਝ; ਤਰੁਨਿ ਇਸਥਿਤ ਭਈ ॥"
 page = 1147
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਲੋਕੀਂ ਸਮਝਦੇ ਕਿ ਇਸਤਰੀ ਘਰ ਵਿਚ ਬੈਠੀ ਹੋਈ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੈ ਤਵਨੈ ਚੇਰੀ ਕੌ ਦਈ ॥"
 page = 887
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Raja brought a ring and gave it to that maid."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਲੈ ਕੇ ਉਸ ਦਾਸੀ ਨੂੰ ਦੇ ਦਿੱਤੀ।"

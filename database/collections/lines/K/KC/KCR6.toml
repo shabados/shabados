@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਮਝਤ ਬਾਤ ਉਰਝ ਮਤਿ ਰਹੈ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One gets puzzled while understanding it."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੀ) ਗੱਲ ਸਮਝਣ ਨਾਲ ਹੀ ਬੁੱਧੀ ਚਕਰਾ ਜਾਂਦੀ ਹੈ।"

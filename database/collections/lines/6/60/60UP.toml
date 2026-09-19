@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਦਾ ਅਭੇਖ ਅਭੇਖੀ ਰਹਈ ॥"
 page = 157
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art ever guiseless, and shall be guiseless"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਸਦਾ ਭੇਖ ਰਹਿਤ ਹੈਂ ਅਤੇ ਅਭੇਖੀ ਹੀ ਰਹੇਂਗਾ।"

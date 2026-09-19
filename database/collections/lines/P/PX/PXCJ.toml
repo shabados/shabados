@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰੇਜ਼ੀ ਦਹੇ ਬੀਸਤ ਬਾਰਸ਼ ਅਜ਼ੋ ॥"
 page = 1395
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Three thousand camels, which he had acquired,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਉਨ੍ਹਾਂ (ਦਾਣਿਆਂ) ਨੂੰ ਦਸ ਵੀਹ ਵਾਰ ਬੀਜਿਆ,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨੰਦ ਮਤੀ ਤਾ ਕੋ ਜਗ ਕਹਈ ॥"
 page = 866
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A female barber lived in Anandpur, she was known in the world as Nand Mati."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਨੰਦ ਮਤੀ (ਨਾਂ ਨਾਲ) ਸਾਰੇ ਯਾਦ ਕਰਦੇ ਸਨ।"

@@ -1,22 +1,22 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੇਦ ਪੁਰਾਨ ਕਤੇਬ ਕੁਰਾਨ; ਅਭੇਦ ਨ੍ਰਿਪਾਨ ਸਭੈ ਪਚ ਹਾਰੇ ॥"
 page = 37
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Vedas, Puranas, Katebs and the Quran and kings…all are tired and greatly afflicted by not knowing the Lord’s mystery."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੇਦ, ਪੁਰਾਣ, ਕਤੇਬ, ਕੁਰਾਨ ਅਤੇ ਰਾਜੇ ਨਾ ਭੇਦੇ ਜਾ ਸਕਣ ਵਾਲੇ ਪਰਮਾਤਮਾ (ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਦਾ ਯਤਨ ਕਰਦੇ ਰਹੇ ਪਰ) ਥਕ ਗਏ।"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਬੇਦ ਪੁਰਾਨ ਕਤੇਬ ਕੁਰਾਨ; ਅਭੇਦ ਨ੍ਰਿਪਾਨ ਸਭੈ ਪਚ ਹਾਰੇ ॥"

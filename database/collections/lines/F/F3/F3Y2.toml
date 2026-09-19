@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਬਿਮਾਤ੍ਰਾ ਭਾਨ ਕੀ; ਰਾਮਦਾਸ ਪੁਰ ਬੀਚ ॥"
 page = 825
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "A widow used to live in the city of Ramdaspur."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭਾਨ ਨਾਂ ਦੇ ਵਿਅਕਤੀ ਦੀ ਮਤਰੇਈ ਮਾਂ ਰਾਮਦਾਸ ਪੁਰ ਵਿਚ ਰਹਿੰਦੀ ਸੀ।"

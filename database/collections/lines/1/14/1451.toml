@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜਪੁਰੀ ਨਗਰੀ ਹੈ ਜਹਾ ॥"
 page = 1231
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਰਾਜਪੁਰੀ ਨਾਂ ਦੀ ਨਗਰੀ ਸੀ,"

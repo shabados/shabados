@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਧ ਕਰਮ ਜੇ ਪੁਰਖ ਕਮਾਵੈ ॥"
 page = 48
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Because of virtuous actions"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਪੁਰਸ਼ ਭਲੇ ('ਸਾਧ') ਕਰਮ ਕਰਦਾ ਹੈ,"

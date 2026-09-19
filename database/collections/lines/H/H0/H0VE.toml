@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫੂਲ ਫਲਨ ਲੈ ਤੁਮ ਤੁਰਤੁ; ਆਗੇ ਧਰੋ ਬਨਾਇ ॥੪॥"
 page = 824
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Immediately put flowers and fruits in front of us.’(4)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਤੁਸੀਂ ਤੁਰਤ ਫਲ ਫੁਲ ਅਗੇ ਆ ਰਖਣਾ ॥੪॥"

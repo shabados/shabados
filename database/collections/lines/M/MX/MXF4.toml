@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਮਿਤਕਾਦਿ ਭਗਤੰ ॥"
 page = 137
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Lord! The types of Thy devotion are unlimited,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਆਦਿ ਤੋਂ ਅਮਿਤ (ਅਸੀਮ) (ਉਸ ਦੀ) ਭਗਤੀ ਹੈ,"

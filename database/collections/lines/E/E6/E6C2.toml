@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਲਿੰਪਾਤਿ ਅਰਧੀ ਮਹਾ ਰੂਪ ਰਾਜੈ ॥"
 page = 677
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੌਰਿਆਂ ਦੀ ਲੜੀ ਵਾਂਗ (ਦੇਵੀ ਦੇ) ਭਰਵਟੇ ('ਅਰਧੀ') ਬਹੁਤ ਅਧਿਕ ਸ਼ੋਭਦੇ ਹਨ।"

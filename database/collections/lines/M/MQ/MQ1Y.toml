@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਸੀਤ ਮਾਨਤ ਘਾਮ ॥"
 page = 657
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਠੰਡ ਅਤੇ ਧੁਪ ਨੂੰ ਨਹੀਂ ਮੰਨਦਾ ਹੈ"

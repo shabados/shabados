@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਧੇ ਬਾਚ ਕਾਨ੍ਰਹ ਸੋ ॥"
 page = 369
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Radha address to Krishna:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਧਾ ਨੇ ਕ੍ਰਿਸ਼ਨ ਨੂੰ ਕਿਹਾ:"

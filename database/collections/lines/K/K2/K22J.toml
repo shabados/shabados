@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਨ ਨਾਨਕ; ਹਰਿ ਕੀ ਸਰਨਾਇ ॥"
 page = 1186
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Servant Nanak has sought the Lord's refuge."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਨੌਕਰ ਨਾਨਕ ਨੇ ਪ੍ਰਭੂ ਦੀ ਪਨਾਹ ਲਈ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Servant Nanak seeks the Sanctuary of the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਦਾਸਾ ਭਾਵ ਕਰ ਕਹਤੇ ਹੈਂ: ਮੈਂ ਹਰੀ ਕੀ ਸਰਣ ਹੂੰ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਨਾਨਕ! ਪਰਮਾਤਮਾ ਦਾ ਦਾਸ ਪਰਮਾਤਮਾ ਦੀ ਸਰਨ ਪਿਆ ਰਹਿੰਦਾ ਹੈ (ਪਰਮਾਤਮਾ ਦੇ ਦਰ ਤੇ ਉਹ ਅਰਜ਼ੋਈ ਕਰਦਾ ਰਹਿੰਦਾ ਹੈ-"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Nanak busca sólo el Santuario del Señor, el Dios. Oh Dios,"

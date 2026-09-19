@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲਗੈ ਬਾਨ ਤਾ ਕੌ ਨ, ਰਾਜਾ ਲਜਾਵੈ ॥"
 page = 1008
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰ ਬਾਣ ਨਾ ਲਗਣ ਕਾਰਨ ਰਾਜੇ ਸ਼ਰਮਾਉਂਦੇ ਸਨ।"

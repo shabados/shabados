@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹੋਵੈ ਸਰਵਣ, ਵਿਰਲਾ ਕੋਈ ॥੧੧॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Rare is any obdient son like Sravan of mythology who was most obedient to his blind parents."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਵਿਰਲਾ ਪੁੱਤ੍ਰ ਸਰਵਣ ਹੁੰਦਾ ਹੈ।"

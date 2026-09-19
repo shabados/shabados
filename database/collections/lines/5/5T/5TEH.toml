@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਵਤ ਭਯੋ ਧਾਮ ਤ੍ਰਿਯ ਜਹਾ ॥"
 page = 1250
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਉਥੇ ਆਇਆ ਜਿਥੇ ਇਸਤਰੀ (ਰਾਣੀ) ਦਾ ਘਰ ਸੀ।"

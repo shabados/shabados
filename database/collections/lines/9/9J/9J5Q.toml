@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਚਕ ਥੇ ਤਿਹ ਠਉਰ ਜਿਤੇ; ਧਨ ਦੀਨ ਘਨੋ ਤਿਨ ਕਉ ਸੁ ਅਘਾਏ ॥"
 page = 535
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The beggars who were there, they were all satisfied by giving alms"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਜਿਤਨੇ ਯਾਚਕ ਸਨ, ਉਨ੍ਹਾਂ ਨੂੰ ਬਹੁਤ ਅਧਿਕ ਧਨ ਦੇ ਕੇ ਰਜਾ ਦਿੱਤਾ ਹੈ।"

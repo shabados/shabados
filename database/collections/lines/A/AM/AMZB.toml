@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਭਵ ਪ੍ਰਕਾਸ ਸੋਭਾ ਸੁਰੰਗ ॥੮੩॥"
 page = 642
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His seat is permanent and He is praiseworthy, Lustrous and Glorrious.83."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਅਨੁਭਵ ਦੁਆਰਾ ਪ੍ਰਕਾਸ਼ਿਤ ਹੁੰਦਾ ਹੈ ਅਤੇ ਉਸ ਦੀ ਬਹੁਤ ਸੁੰਦਰ ਸ਼ੋਭਾ ਹੈ ॥੮੩॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ ਦੇ ਸੁਨੋ ਮੁਨਿ ਰਾਇ ॥"
 page = 635
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O the king of sages! listen to what I say and in the same way, you may go and take birth on the earth"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸੇ ਤਰ੍ਹਾਂ ਤੁਸੀਂ ਵੀ ਜਨਮ ਧਾਰਨ ਕਰੋ।"

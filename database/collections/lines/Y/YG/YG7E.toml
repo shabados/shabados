@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੰਕਾ ਦਈ ਟੰਕ ਜਨੁ ਦੀਨੋ ॥"
 page = 288
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਫਿਰ) ਬ੍ਰਹਮਰੰਧ੍ਰ ਨੂੰ ਫੋੜ ਕੇ ਕੁਸ਼ਲਿਆ ਦਾ ਕਾਲ ਹੋ ਗਿਆ ॥੮੪੧॥"

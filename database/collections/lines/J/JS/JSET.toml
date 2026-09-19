@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿ ਦੁਸ਼ਮਨ ਕੁਨਦ ਮਿਹਰਬਾਂ ਅਸਤ ਦੋਸਤ ॥"
 page = 1393
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "If God is friendly, no enemy can do anything"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੁਸ਼ਮਨ ਕੀ ਕਰ ਸਕਦਾ ਹੈ ਜੇ ਪਰਮਾਤਮਾ ਰੂਪੀ ਦੋਸਤ ਮਿਹਰਬਾਨ ਹੋਵੇ।"

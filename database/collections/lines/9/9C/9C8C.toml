@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੁਨ ਗਨ ਉਦਾਰ ॥੨੧੮॥"
 page = 653
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His temperament was auspicious, the impact marvelous and the greatness unlimited.218."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਦਾਰ ਗੁਣਾਂ ਦਾ ਸਮੁੱਚ ਹੈ ॥੨੧੮॥"

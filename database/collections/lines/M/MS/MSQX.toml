@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਲ ਖੰਡਨ ਹੈਂ ॥"
 page = 9
 line = 12
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Lord! Thou art the killer of evil persons!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਦੁਸ਼ਟਾਂ ਨੂੰ ਮਾਰਨ ਵਾਲਾ ਹੈਂ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਖਲ ਖੰਡਨ, ਹੈਂ ॥"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਲਦੇਵ ਅਨੁਜਨੀ ਆਦਿ ਉਚਾਰੋ ॥"
 page = 766
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਬਲਦੇਵ ਅਨੁਜਨੀ' (ਸ਼ਬਦ) ਕਹੋ।"

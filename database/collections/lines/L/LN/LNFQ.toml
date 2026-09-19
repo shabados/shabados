@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਕੰਨੀ ਸੁਣਦਾ ਸੁਰਤਿ ਕਰਿ; ਆਖਾਣਿ ਵਖਾਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "With full consciousness He listens to the stories narrated."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਸੁਰਤ (ਧ੍ਯਾਨ) ਕਰ ਕੇ ਕੰਨਾਂ ਨਾਲ ਕਹੇ ਹੋਏ ਬਚਨ ਸੁਣਦਾ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਟੇ ਤ੍ਰਣ ਫੁਟੇ ਅੰਗ ॥"
 page = 258
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਵਚ ਟੁੱਟ ਰਹੇ ਹਨ ਅਤੇ (ਸੂਰਮਿਆਂ ਦੇ ਅੰਗ) ਫੁੱਟ ਰਹੇ ਹਨ,"

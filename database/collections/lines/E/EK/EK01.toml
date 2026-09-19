@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਲਿ ਕਜਲ ਸੋਹਤ ਚਾਰੁ ਚਖੰ ॥"
 page = 663
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were wiping the essences of rose and otto from their faces and there was comely antimony in their eyes"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੁੰਦਰ ਅੱਖਾਂ ਵਿਚ ਵਧੀਆ ਸੁਰਮਾ ਸ਼ੋਭ ਰਿਹਾ ਸੀ।"

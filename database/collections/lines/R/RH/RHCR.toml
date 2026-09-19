@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹਾਰਸ਼ ਦਰ ਆਮਦ ਗੁਲੇ ਦੋਸਤਾ ॥"
 page = 1417
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As the spring season approached,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਗ਼ ਦੇ ਉਹ ਦੋਵੇਂ ਫੁਲ ਬਹਾਰ ਵਿਚ ਆ ਗਏ (ਭਾਵ-ਭਰ ਜਵਾਨ ਹੋ ਗਏ)"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਕ ਖੰਡ ਅਖੰਡ ਦੁਖੰਡ ਕੀਏ ॥"
 page = 102
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And chopped into halves some of them."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਾ ਖੰਡੇ ਜਾ ਸਕਣ ਵਾਲਿਆਂ ਨੂੰ ਦੋ-ਖੰਡ ਕਰ ਦਿੱਤਾ।"

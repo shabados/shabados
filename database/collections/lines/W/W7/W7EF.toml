@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਡਿੰਭ ਕਰੇ ਬਿਨੁ ਪਈਯਤ ਨਾਹੀਂ ॥"
 page = 158
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Because without heresy, they do not gain money"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਉਂਕਿ ਪਾਖੰਡ ਕੀਤੇ ਬਿਨਾ (ਧਨ) ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੁੰਦਾ।"

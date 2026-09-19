@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਜਿਯ ਸੋਕ ਤਵਨ ਕੌ ਭਾਰੋ ॥੨॥"
 page = 849
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her husband had departed for a foreign land which gave her a big shock.(2)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਉਸ ਦੇ ਮਨ ਵਿਚ ਬਹੁਤ ਦੁਖ ਸੀ ॥੨॥"

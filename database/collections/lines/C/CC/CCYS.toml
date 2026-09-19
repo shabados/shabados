@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਸੁਤ ਭੂਖੋ ਹੋਇ ਪੁਕਾਰੈ ॥"
 page = 821
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਪੁੱਤਰ ਭੁਖਾ ਹੋ ਕੇ (ਮਾਤਾ ਨੂੰ) ਪੁਕਾਰਦਾ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰੀਯੰ ਦੇਵ ਤੁਲੰ ਨਰੰ ਨਾਰ ਨਾਹੰ ॥"
 page = 272
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was like god for women and like a sovereign for men"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀਆਂ ਨੇ ਦੇਵਤਾ ਸਮਾਨ ਅਤੇ ਮਰਦਾਂ ਨੇ ਰਾਜਾ ਰੂਪ ਕਰਕੇ ਜਾਣਿਆ ਹੈ।"

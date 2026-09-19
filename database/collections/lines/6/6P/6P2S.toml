@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਿੰਦੂ ਕੈ ਘਰਿ. ਹਿੰਦੂ ਆਵੈ ॥"
 page = 951
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Hindu comes to the house of the Hindu."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹਿੰਦੂ ਦੇ ਗ੍ਰਹਿ ਵਿੱਚ ਹਿੰਦੂ ਆਉਂਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The Hindu comes to the house of a Hindu."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਖਤ੍ਰੀ ਹਿੰਦੂ ਕੇ ਘਰ ਬ੍ਰਾਹਮਣ ਹਿੰਦੂ ਆਵਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਸੇ ਖਤ੍ਰੀ ਆਦਿਕ) ਹਿੰਦੂ ਦੇ ਘਰ ਵਿਚ ਬ੍ਰਾਹਮਣ ਆਉਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਹਿੰਦੂ = (ਭਾਵ) ਬ੍ਰਾਹਮਣ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El hindú entra sólo en la casa del hindú"

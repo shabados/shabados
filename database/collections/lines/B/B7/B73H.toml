@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨ ਕਾ ਮੂਆ ਕਰਤ ਜਗ ਘੇਰਾ ॥"
 page = 49
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The world hath perished after quarrel on wealth and property from very olden times."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਦਾ ਘੇਰਿਆ ਹੋਇਆ ਸਾਰਾ ਜਗਤ ਮਰ ਰਿਹਾ ਹੈ।"

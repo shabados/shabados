@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪਾਪ ਕਮਾਵਦਿਆ; ਤੇਰਾ. ਕੋਇ ਨ ਬੇਲੀ, ਰਾਮ ॥"
 page = 546
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O sinner, none is a friend of thine."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਾਪ ਕਮਾਉਣ ਵਾਲਿਆ, ਕੋਈ ਭੀ ਤੇਰਾ ਯਾਰ ਨਹੀਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O sinner, no one is your friend."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪਾਪੋਂ ਕਾ ਕਮਾਵਣਾ ਕਰਦਿਆਂ ਹੇ ਭਾਈ! ਤੇਰਾ ਅੰਤ ਕੋ ਕੋਈ ਬੇਲੀ ਨਹੀਂ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪਾਪ ਕਮਾਣ ਵਾਲੇ ਕੋਈ ਭੀ ਤੇਰਾ (ਸਦਾ ਦਾ) ਸਾਥੀ ਨਹੀਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਮਾਵਦਿਆ = ਹੇ ਕਮਾਣ ਵਾਲੇ! ਬੇਲੀ = ਸਾਥੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh ser confundido, no hay nadie que te apoye así,"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਰਜ਼ਮ ਅੰਦਰਾ ਹਮ ਚੁ ਅਜ਼ ਸ਼ੇਰ ਮਸਤ ॥"
 page = 1394
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He spoke thus, ‘you are, yourself righteous and wise,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਯੁੱਧ ਵਿਚ ਮਸਤ ਸ਼ੇਰ ਵਾਂਗ ਪੈਂਦੇ ਸਨ।"

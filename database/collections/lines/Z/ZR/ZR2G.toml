@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਨਿਕ ਬਨਾ; ਅਨਿਕ ਫਲ ਮੂਲ ॥"
 page = 1236
 line = 7
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Millions are gardens and millions of fruits and roots."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕ੍ਰੋੜਾਂ ਹੀ ਹਨ ਬਾਗ ਤੇ ਕ੍ਰੋੜਾਂ ਹੀ ਮੇਵੇ ਅਤੇ ਜੜ੍ਹਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Many gardens, many fruits and roots."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕ ਹੀ ਬਾਗ ਔਰ ਅਨੇਕ ਫਲ ਮੂਲ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਉਸਦੇ ਪੈਦਾ ਕੀਤੇ ਹੋਏ ਅਨੇਕਾਂ ਜੰਗਲ ਤੇ ਉਹਨਾਂ ਵਿਚ ਉੱਗਣ ਵਾਲੇ ਅਨੇਕਾਂ ਕਿਸਮਾਂ ਦੇ ਫਲ ਅਤੇ ਕੰਦ ਮੂਲ ਹਨ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਨਾ = ਜੰਗਲ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "millones los bosques, las frutas y las raíces."

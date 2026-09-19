@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਉਣੁ ਪਾਣੀ ਬੈਸੰਤਰੁ, ਮੇਲਿ ਮਿਲਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In this way, air, water and fire were integrated under the order of that primaeval Lord"
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਏਹ ਸਭ ਕੁਝ) ਪੌਣ ਪਾਣੀ ਤੇ ਬੈਸੰਤਰ ਦਾ ਮੇਲ ਮਿਲਾਯਾ ਹੈ (ਇਹ ਜੋ ਤ੍ਰਿਭਵਣ ਨਜ਼ਰ ਪੈਂਦਾ ਹੈ)।"

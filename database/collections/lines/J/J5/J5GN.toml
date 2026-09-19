@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਲਪ ਸਿੰਘ ਅਰੁ ਗਜਾ ਸਿੰਘ; ਅਤਿ ਕੋਪ ਬਢਾਏ ॥"
 page = 433
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Karam Singh, Jai Singh, Jalap Singh, Gaja Singh etc., came into the battlefield in increased anger"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਾਲਪ ਸਿੰਘ ਅਤੇ ਗਜਾ ਸਿੰਘ ਨੇ ਬਹੁਤ ਕ੍ਰੋਧ ਵਧਾਇਆ ਹੋਇਆ ਹੈ।"

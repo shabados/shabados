@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਪ੍ਰਭ, ਤੋ ਕਹਿ ਕਹਤ ਸੁਨਾਈ ॥"
 page = 451
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“I relate to you the remedy for killing him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਪ੍ਰਭੂ! ਉਹ (ਮੈਂ) ਤੁਹਾਨੂੰ ਕਹਿ ਕੇ ਸੁਣਾਉਂਦਾ ਹਾਂ।"

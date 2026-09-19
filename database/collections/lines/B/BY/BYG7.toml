@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬ੍ਰਹਮ ਗਿਆਨੀ; ਸੁਫਲ ਫਲਾ ॥"
 page = 273
 line = 5
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord realiser fruitions well."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੁਆਮੀ ਨੂੰ ਅਨੁਭਵ ਕਰਨ ਵਾਲਾ ਚੰਗੀ ਤਰ੍ਹਾਂ ਫਲਦਾ ਫੁਲਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The God-conscious being blossoms in fruitfulness."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਹਮ ਗਿਆਨੀ ਸ੍ਰੇਸ਼ਟ ਗੁਣੋਂ ਰੂਪੀ ਫਲੋਂ ਕਰ ਕੇ ਫਲਯਾ ਹੂਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਤਰ੍ਹਾਂ) ਉਸ ਦਾ ਮਨੁੱਖਾ ਜਨਮ ਚੰਗੀ ਤਰ੍ਹਾਂ ਕਾਮਯਾਬ ਹੁੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸੁਫਲ = ਚੰਗੇ ਫਲ ਵਾਲਾ ਹੋ ਕੇ, ਚੰਗੀ ਮੁਰਾਦ ਨਾਲ। ਫਲਾ = ਫਲਦਾ ਹੈ, ਕਾਮਯਾਬ ਹੁੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El ser conciente de Dios destella en flor."

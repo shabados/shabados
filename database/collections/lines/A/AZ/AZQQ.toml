@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਜਪਿ ਪੜੀਐ; ਹਉਮੈ ਮਾਰਿ ॥"
 page = 424
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "By meditating on God and reading of Him man's self-conceit is stilled."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਵਾਹਿਗੁਰੂ ਦਾ ਸਿਮਰਨ ਕਰਨ ਅਤੇ ਉਸ ਮੁਤੱਲਕ ਪੜ੍ਹਨ ਦੁਆਰਾ ਇਨਸਾਨ ਦੀ ਸ਼ਵੈ-ਹੰਗਤਾ ਨਵਿਰਤ ਹੋ ਜਾਂਦੀ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Subdue your ego and meditate on the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਔਰ ਹੰਤਾ ਮਮਤਾ ਕੋ ਮਾਰ ਕਰ ਕੇ ਹਰਿ ਹੀ ਜਪੀਐ ਹਰਿ ਹੀ ਪੜੀਐ ਅਰਥਾਤ ਜਿਸ ਸ਼ਾਸਤ੍ਰ ਮੇਂ ਹਰਿ ਗੁਨ ਨ ਹੋਂ ਸੋ ਤਿਆਗੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹਉਮੈ ਦੂਰ ਕਰ ਕੇ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਹੀ ਪੜ੍ਹਨਾ ਚਾਹੀਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "pues de esta forma el ego es taimado."

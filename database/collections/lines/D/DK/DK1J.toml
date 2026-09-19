@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨੀ ਨ ਜਾਇ ਜਿਹ ਰੂਪ ਰੇਖ ॥"
 page = 37
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His form and mark cannot be known!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੀ ਰੂਪ-ਰੇਖਾ ਜਾਣੀ ਨਹੀਂ ਜਾਂਦੀ।"

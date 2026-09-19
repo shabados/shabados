@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਤਯੋ ਨਿਜੇਸੰ ॥"
 page = 222
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਸੁਆਮੀ ('ਨਿਜੇਸ') ਨੂੰ ਮਾਰਿਆ ਹੈ,"

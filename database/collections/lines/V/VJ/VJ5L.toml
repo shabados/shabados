@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਮ ਬਹਿਨ ਅਪਨੀ ਠਹਰਾਈ ॥"
 page = 868
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She created friendship with Shah’s wife and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਸ ਨੂੰ) ਆਪਣੀ ਧਰਮ ਭੈਣ ਬਣਾ ਲਿਆ।"

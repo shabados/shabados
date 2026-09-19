@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਮ ਕੇ ਅਨਕਰਮ ਜੇਤਕ; ਕੀਨ ਤਉਨ ਪਸਾਰ ॥"
 page = 34
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He hath spread all the other religious practices."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਧਰਮ ਅਤੇ ਧਰਮ ਨਾਲ ਸੰਬੰਧਿਤ ਹੋਰ ਜਿਤਨੇ ਕਰਮ ਹਨ, ਉਨ੍ਹਾਂ ਦਾ ਪਸਾਰਾ (ਉਸੇ ਨੇ) ਕੀਤਾ ਹੈ;"

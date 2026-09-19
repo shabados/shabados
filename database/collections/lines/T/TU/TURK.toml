@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਥੋ ਧੁਨ੍ਰਯੋ ਨ੍ਰਿਪਤਿ ਸੌ ਕਹਿਯੋ ॥"
 page = 1228
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਮੱਥੇ (ਸਿਰ) ਨੂੰ ਹਿਲਾਇਆ ਅਤੇ ਇਸ ਤਰ੍ਹਾਂ (ਮਨ ਵਿਚ) ਕਿਹਾ"

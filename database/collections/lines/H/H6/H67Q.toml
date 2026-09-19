@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖਿਆ ਥਿਤਿ ਨ ਵਾਰੁ, ਨ ਮਾਹੁ ਜਣਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "None has ever disclosed the date, the day and month (of creation)."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਰਚਨਾਂ ਦੇ ਰਚਨ ਦਾ) ਥਿੱਤ ਵਾਰ ਨਹੀਂ ਲਿਖਿਆ, ਨਾ ਮਹੀਨਾ ਹੀ ਜਣਾਇਆ ਹੈ।"

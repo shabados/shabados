@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਸਾਧਸੰਗਤਿ ਵਿਣੁ, ਭਰਮਿ ਭੁਲਾਇਆ ॥੧੬॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Without holy congregation all remained duped by delusions."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "(੯) ਸਾਧ ਸੰਗਤ ਬਾਝ ਭਰਮ ਵਿਖੇ ਹੀ (ਉਕਤ ਸਿਵ, ਜਤੀ, ਸਤੀ, ਸੰਨਿਆਸੀ, ਸਿੱਧ, ਨਾਥ) ਭੁੱਲੇ ਰਹੇ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅੰਗ ਕਟੇ ਤਰਫੈ ਕਹੂੰ ਅੰਗਰੀ ॥"
 page = 873
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਕਟੇ ਹੋਏ ਅੰਗ ਅਤੇ ਕਿਤੇ ਉਂਗਲੀਆਂ ਤੜਪ ਰਹੀਆਂ ਹਨ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਜਿਹ ਰਾਜ ਬਿਰਾਜਾ ॥੧੨੧॥"
 page = 623
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He had various types of royal luxuries.121."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਭਾਂਤ ਭਾਂਤ ਦੇ ਰਾਜਾਂ ਉਤੇ ਬਰਾਜਮਾਨ ਸੀ ॥੧੨੧॥"

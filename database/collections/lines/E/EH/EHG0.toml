@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਉਸ ਮਹਾਨ ਨੂਰ ਦੀ ਇੱਕ ਕਿਰਨ ਹੈਣ, ਸਿਰ ਤੋਣ ਪੈਰਾਣ ਤਕ ਨੂਰ ਹੋ ਜਾ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਕਤਰਾਇ ਨੂਰੀ ਸਰਾਪਾ ਨੂਰ ਬਾਸ਼ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "No one else can fulfill his heart's desire,"

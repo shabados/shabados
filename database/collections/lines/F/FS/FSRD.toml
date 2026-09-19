@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਝਿਮਝਿਮ ਮਹਾ ਮੇਘ ਪਰਲੈ ਜ︀ਯੋਂ ਬ੍ਰਿੰਦ ਬਿਸਿਖ ਬਰਸਾਏ ॥"
 page = 685
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The arrows were being showered like the rain-drops from the clouds on the doomsday"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰਲੋ ਸਮੇਂ ਦੇ ਭਿਆਨਕ ਬਦਲਾਂ ਵਾਂਗ ਬਹੁਤ ਬਾਣਾਂ ਦੀ ਝੜੀ ਲਗਾਈ ਹੋਈ ਹੈ।"

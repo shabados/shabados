@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਰਦ ਬਿਆਸ ਪਰਾਸਰ ਧ੍ਰੂਅ ਸੇ ਧਿਆਵਤ ਧਿਆਨ ਲਗਾਏ ॥"
 page = 711
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Narad, Vyas, Prashar, Dhru, all meditated on Him,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾਰਦ, ਬਿਆਸ, ਪਰਾਸ਼ਰ ਅਤੇ ਧਰੂ ਵਰਗੇ (ਜਿਸਦਾ) ਧਿਆਨ ਲਗਾ ਕੇ ਧਿਆਉਂਦੇ ਰਹੇ ਹਨ।"

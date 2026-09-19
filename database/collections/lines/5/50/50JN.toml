@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਵਹੈ ਮਿਰਗ ਕਰ ਪਰਿਯੋ ਹਮਾਰੇ ॥"
 page = 936
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Rasaloo told her, ‘This is the same deer, with whom you made"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਮੇਰੇ ਹੱਥ ਉਹੀ ਹਿਰਨ ਲਗਾ ਹੈ"

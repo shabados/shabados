@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਰਖਿ ਨਾਰਿ ਹ੍ਵੈ ਰਹਤ ਥਕਿਤ ਮਗ ॥੨॥"
 page = 1148
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀਆਂ ਉਸ ਨੂੰ ਵੇਖ ਵੇਖ ਕੇ ਰਸਤੇ (ਵਿਚ ਖੜੋਤੀਆਂ) ਥਕ ਜਾਂਦੀਆਂ ਸਨ ॥੨॥"

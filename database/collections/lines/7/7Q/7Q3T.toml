@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨਖੰਡ ਤੇਜ ਪ੍ਰਚੰਡ ॥੩॥੩੧੪॥"
 page = 154
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who was highly lustrous than the sun, His great effulgence was indestructible.3.314."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ (ਉਹ) ਪ੍ਰਚੰਡ ਤੇਜ ਨਾਸ਼ ਤੋਂ ਰਹਿਤ ਸੀ ॥੩॥੩੧੪॥"

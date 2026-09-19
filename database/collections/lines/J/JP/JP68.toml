@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਰਾਗ ਰੰਗ ਨਹੀ ਰੂਪ ਰੇਖ ॥"
 page = 642
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਕੋਈ ਰਾਗ, ਰੰਗ, ਰੂਪ ਅਤੇ ਰੇਖਾ ਨਹੀਂ ਹੈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੱਜੇ ਨਿਹੰਗ ॥"
 page = 66
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The fearless warriors blow their horns and shout loudly."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਹਾਨ ਯੋਧੇ (ਨਿਹੰਗ) ਗਜਦੇ ਹਨ।"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਬੇਦ ਪੜਹਿ; ਹਰਿ ਨਾਮੁ. ਨ ਬੂਝਹਿ ॥"
 page = 1050
 line = 1
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "One reads the Vedas, but realises not God's Name,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਬੰਦਾ ਵੇਦਾਂ ਨੂੰ ਵਾਚਦਾ ਹੈ, ਪ੍ਰੰਭੂ ਸਾਈਂ ਦੇ ਨਾਮ ਨੂੰ ਅਨੁਭਵ ਨਹੀਂ ਕਰਦਾ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He may read the Vedas, but he does not realize the Lord's Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਬੇਦ ਪੜਤਾ ਹੈ ਹਰੀ ਨਾਮ ਕੋ ਨਹੀਂ ਸਮਝਤਾ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਪੰਡਿਤ ਲੋਕ) ਵੇਦ (ਆਦਿਕ ਧਰਮ-ਪੁਸਤਕ) ਪੜ੍ਹਦੇ ਹਨ, (ਪਰ ਜੇ ਉਹ) ਪਰਮਾਤਮਾ ਦੇ ਨਾਮ ਨੂੰ (ਜੀਵਨ-ਮਨੋਰਥ) ਨਹੀਂ ਸਮਝਦੇ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਪੜਹਿ = ਪੜ੍ਹਦੇ ਹਨ {ਬਹੁ-ਵਚਨ}।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Podrá leer lo Vedas, pero no toma Conciencia del Nombre del Señor"

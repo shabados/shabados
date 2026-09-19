@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੇ ਸੁ ਚੀਨ ਮਾਚੀਨ ਦੇਸਿ ॥"
 page = 604
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੀਨ ਅਤੇ ਮਚੀਨ ਦੇਸਾਂ ਵਲ ਚੜ੍ਹਾਈ ਕਰ ਦਿੱਤੀ ਹੈ"

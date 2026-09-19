@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਖਿਯਨ ਕੌ ਤਾ ਕੇ ਤਰ ਦੀਜੈ ॥"
 page = 974
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘You, yourself, ascend in a palanquin, and ask the sages to act as bearers and pick it up."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਰਿਸ਼ੀਆਂ ਤੋਂ ਚੁਕਵਾਓ।"

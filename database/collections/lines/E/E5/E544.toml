@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਤਾਜ ਧਾਰੀ, ਪਰੇ ਬਰਮ ਛੂਟੇ ॥"
 page = 1244
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਤਾਜਧਾਰੀਆਂ ਦੇ ਕਵਚ ਖੁਲ੍ਹੇ ਪਏ ਸਨ।"

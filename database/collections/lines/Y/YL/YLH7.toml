@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਛਸਤੁਵਾ ਪ੍ਰਜਾਪੰ ॥"
 page = 137
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou becomest apparent to the seeker"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਗਿਆਸਾ (ਪ੍ਰਛ) ਤੋਂ ਤੂੰ ਪ੍ਰਾਪਤ (ਪ੍ਰਜਾਪੰ) ਹੁੰਦਾ ਹੈਂ,"

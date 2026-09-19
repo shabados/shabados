@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੀਰ ਏਕ ਮੁਲਤਾਨ ਮੈ; ਸਰਫ ਦੀਨ ਤਿਹ ਨਾਉ ॥"
 page = 1122
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੁਲਤਾਨ ਵਿਚ ਇਕ ਪੀਰ ਸੀ ਜਿਸ ਦਾ ਨਾਂ ਸ਼ਰਫ ਦੀਨ ਸੀ।"

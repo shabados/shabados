@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਾਡਿ ਛਾਡਿ ਚਲੇ ਤਹਾ; ਨ੍ਰਿਪ ਸਾਜ ਬਾਜ ਅਨੰਤ ॥"
 page = 180
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੰਤ ਸੁਸਜਿਤ ਘੋੜੇ ਛਡ ਛਡ ਕੇ ਰਾਜੇ ਉਥੋਂ ਖਿਸਕ ਰਹੇ ਸਨ।"

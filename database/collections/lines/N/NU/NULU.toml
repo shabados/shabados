@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਮੋ ਉਗ੍ਰ ਦਾੜੰ ॥"
 page = 46
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Salutation to Him, who hath sharp grinder teeth,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ) ਵੱਡੀਆਂ ਦਾੜ੍ਹਾਂ ਵਾਲੇ! (ਤੈਨੂੰ) ਨਮਸਕਾਰ ਹੈ"

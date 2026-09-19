@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਂ ਕਾਰ ਅਜ਼ ਹਮਾ ਹੀਲਤੇ ਦਰ ਗੁਜ਼ਸ਼ਤ ॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When all other methods fail,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਕਿਸੇ ਕੰਮ ਲਈ ਸਾਰੇ ਉਪਾ ਖ਼ਤਮ ਹੋ ਜਾਣ,"

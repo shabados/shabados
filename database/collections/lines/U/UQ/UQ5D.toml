@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਸਚਿਮ ਦਿਸਾ ਹੁਤੀ ਇਕ ਨਗਰੀ ॥"
 page = 1284
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੱਛਮ ਵਾਲੇ ਪਾਸੇ ਇਕ ਨਗਰੀ ਸੀ।"

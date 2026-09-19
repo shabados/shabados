@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਫਿਰ ਐਸਾ ਹੁਕਮ ਅਕਾਲ ਕਾ; ਜਗ ਮੈ ਪ੍ਰਗਟਾਨਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "And this way they revealed the command of the Timeless in the world."

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਗੋਯਾ # ਜੇਕਰ ਤੂੰ ਉਸਦੇ ਜਲਵੇ ਨੂੰ ਵੇਖਣਾ ਚਾਹੁੰਦਾ ਹੈਣ #"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਗੋਯਾ ਅਗਰ ਆਣ ਜਮਾਲ ਦੀਦਨ ਦਾਰੀ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Without meditation, this life of ours is only mortification and humiliation. (304)"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਤਿ ਭਾਤਿ ਉਰ ਸੌ ਲਪਟਾਵੈ ॥"
 page = 1352
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਅਨੇਕ ਢੰਗਾਂ ਨਾਲ ਜਫ਼ੀਆਂ ਪਾਉਂਦੀ ਸੀ"

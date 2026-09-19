@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਉ ਤਿਉ ਪ੍ਰਭ ਹਮ ਕੋ ਸਮਝਾਯੋ ॥"
 page = 55
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਕਿਵੇਂ ਪ੍ਰਭੂ ਨੇ ਸਾਨੂੰ ਸਮਝਾਇਆ"

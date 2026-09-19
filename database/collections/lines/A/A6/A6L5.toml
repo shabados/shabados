@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਲਸ਼ਕਰ ਤਮਾਮੀ ਦਰਾਮਦ ਬ ਕਾਮ ॥"
 page = 1403
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Most of the armies were annihilated."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਸਾਰੀ ਸੈਨਾ ਮਾਰੀ ਗਈ,"

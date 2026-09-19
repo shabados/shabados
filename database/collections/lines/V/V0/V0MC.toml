@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਜਿਹ ਦੇਸ ਆਪੁ ਪਗੁ ਧਾਰੈ ॥"
 page = 1313
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਜਿਥੇ (ਉਹ) ਵਿਅਕਤੀ ਆਪ ਪੈਰ ਧਰਦਾ ਸੀ,"

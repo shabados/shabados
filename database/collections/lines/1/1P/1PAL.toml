@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਜੋਗੰ ਅਭੰਗੰ ॥"
 page = 655
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was absorbed in yoga, having indescribable form"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਾ ਭੰਗ ਹੋਣ ਵਾਲੇ ਯੋਗ ਵਾਲਾ,"

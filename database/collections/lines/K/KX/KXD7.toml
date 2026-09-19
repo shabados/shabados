@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਪੇ ਤੇਜ ਤਾਤੇ ॥੧੯॥੯੬॥"
 page = 107
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many are intoxicated with wine and in great fury, they appear highly inflamed.19.96."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਆਪਣੇ ਤੇਜ ਨਾਲ ਬਹੁਤ ਤਪੇ ਹੋਏ ਹਨ ॥੧੯॥੯੬॥"

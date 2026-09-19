@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਮਾਰ ਹੀ ਮਾਰਿ ਐਸੇ ਪੁਕਾਰੇ ॥"
 page = 929
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "'ਮਾਰੋ-ਮਾਰੋ' ਇਸ ਤਰ੍ਹਾਂ (ਕਹਿ ਕੇ ਬਹੁਤ) ਰੌਲਾ ਪਾ ਰਹੇ ਹਨ।"

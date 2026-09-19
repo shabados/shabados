@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਇਹਨਾਣ ਪੰਜਾਣ ਇੰਦਰੀਆਣ ਦੇ ਭੋਗ ਸੁਆਦ ਨੂੰ ਛਡ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਬਿਗੁਜ਼ਰ ਅਜ਼ ਲੱਜ਼ਤਿ ਈਣ ਖ਼ਮਸਾ ਹਵਾਸ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Praises of their glory are on the tongues of everyone. (181)"

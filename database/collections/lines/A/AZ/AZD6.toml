@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਦ੍ਰਪੁਰੀ ਭੀਤਰ ਹੁਤੋ; ਚੰਦ੍ਰ ਸੈਨ ਇਕ ਰਾਵ ॥"
 page = 900
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In Chandra Puri there lived a Raja, called Chandra Sen."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਦ੍ਰਪੁਰੀ ਵਿਚ ਚੰਦ੍ਰ ਸੈਨ ਨਾਂ ਦਾ ਇਕ ਰਾਜਾ ਹੁੰਦਾ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਜ ਪਾਟ ਤਜ ਭਏ ਉਦਾਸਾ ॥"
 page = 648
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Wherever the impact of his Yoga and Sannyas reached, the people left all their paraphernalia and became unattached"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ) ਰਾਜਸੀ ਠਾਠ ਬਾਠ ਨੂੰ ਛਡ ਕੇ ਵਿਰਕਤ ਹੋ ਗਏ।"

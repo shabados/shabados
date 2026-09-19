@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕ੍ਰੂਰ ਬਰਸ ਤੀਸਰ ਜਗ ਠਯੋ ॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And Kurabaras, the third."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਗਤ ਵਿਚ ਤੀਜਾ (ਰਾਜਾ) ਕ੍ਰੂਰ-ਬਰਸ ਪੈਦਾ ਹੋਇਆ।"

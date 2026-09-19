@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁੰਦਭਿ ਭੇਰ ਬਜਾਇ ਰਿਸਾਇ; ਚੜਿਯੋ ਦਲ ਜੋਰਿ ਤੁਰੰਗ ਨਚਾਯੋ ॥"
 page = 959
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Beating the drums he commenced his assault and, after assigning his army, he danced his horse."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਗਾਰੇ ਤੇ ਧੌਂਸੇ ਵਜਾ ਕੇ ਅਤੇ ਕ੍ਰੋਧ ਵਿਚ ਭਰ ਕੇ ਘੋੜੇ ਨਚਾਉਂਦੇ ਹੋਇਆਂ ਦਲ ਜੋੜ ਕੇ (ਇਉਂ) ਚੜ੍ਹ ਆਇਆ"

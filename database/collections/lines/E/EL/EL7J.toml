@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁ ਬਿਧਿ ਸੀਅਹਿ ਸਮੋਧ ਕਰਿ; ਚਲੇ ਅਜੁਧਿਆ ਦੇਸ ॥"
 page = 286
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸੀਤਾ ਸਹਿਤ ਸ੍ਰੀ ਰਾਮ ਅਯੁੱਧਿਆ ਨੂੰ ਚੱਲੇ।"

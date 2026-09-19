@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜੁਟ ਛੁਟ ਸੁਛਕੰ ॥"
 page = 135
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Immaculate Lord! Thou art not united with anyone."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਨਾ ਜੁੜਨ ਵਾਲਾ ('ਅਜੁਟ') ਸੁਤੰਤਰ ਅਤੇ ਨਿਰਲਿਪਤ ਹੈਂ,"

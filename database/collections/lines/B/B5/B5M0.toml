@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਖਨ ਚੰਡ ਪ੍ਰਚੰਡ ਨੂੰ; ਰਣ ਘੁਰੇ ਨਗਾਰੇ ॥"
 page = 121
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the intense glory of Chandi, the trumpets souded in the battlefield."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਚੰਡ ਚੰਡੀ ਨੂੰ ਵੇਖਦਿਆਂ ਹੀ ਰਣ-ਭੂਮੀ ਵਿਚ (ਦੈਂਤਾਂ ਦੇ) ਨਗਾਰੇ ਗੂੰਜਣ ਲਗੇ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਖ਼ਾਵਤ ਦੇ ਬਿਰਛ ਦਾ ਨਵਾਂ ਫਲ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦ੍ਰਖ਼ਤਿ ਕਰਨ ਰਾ ਨੌ ਆਈਨਿ ਸਮਰ ॥੧੧੦॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, he is the new sprouting fruit for the tree of generosity. (110) "

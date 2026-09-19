@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੇ ਪਾਪ ਸਕਲ ਸਿਵ ਹਰਿ ਹੈ ॥੧੦੬॥"
 page = 1200
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਦੇ ਸਾਰੇ ਪਾਪ ਸ਼ਿਵ ਖ਼ੁਦ ਦੂਰ ਕਰ ਦਿੰਦਾ ਹੈ ॥੧੦੬॥"

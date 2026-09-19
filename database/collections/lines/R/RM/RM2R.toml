@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਮੋ ਨ ਹਮ ਸੋ ਆਜੁ; ਐਸ ਘਟਿ ਭਾਗ ਹਮਾਰੇ ॥"
 page = 835
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(She said,) ‘What are you talking about the birth? They are your concoction.."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੇ ਤੁਸੀਂ) ਅਜ ਮੇਰੇ ਨਾਲ ਰਮਣ ਨਹੀਂ ਕਰੋਗੇ (ਤਾਂ ਮੈਂ) ਇਸ ਨੂੰ ਆਪਣੀ ਬਦਕਿਸਮਤੀ ਸਮਝਾਂਗੀ।"

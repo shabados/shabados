@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਖਾਨਨ ਮਹਿ ਭੀ ਹੋਤ ਹੈ; ਕੋਈ ਕਹੂੰ ਕਮਾਇ ॥੧੧॥"
 page = 163
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He, who desires to have them, can get them.11."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਖਾਣਾਂ ਵਿਚ ਹੀ ਹੁੰਦੀਆਂ ਹਨ, ਭਾਵੇਂ ਕੋਈ ਕਿਤੋਂ ਹੀ ਪ੍ਰਾਪਤ ਕਰ ਲਵੇ ॥੧੧॥"

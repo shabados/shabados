@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਜਹਾ ਹੁਤੋ ਤਿਹ ਨਾਥ; ਤਹੀ ਕੋ ਮਗੁ ਲਿਯੋ ॥੪॥"
 page = 1169
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਉਸ ਦਾ ਪਤੀ ਹੁੰਦਾ ਸੀ, ਉਥੋਂ ਦਾ ਰਾਹ ਪਕੜਿਆ ॥੪॥"

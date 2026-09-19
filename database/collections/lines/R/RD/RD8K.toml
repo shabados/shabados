@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਾਚਲ ਸਿੰਘ ਝਮਾਝੰਮ ਅਤ੍ਰੰ ॥"
 page = 677
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅਸਤ੍ਰ ਝੰਮਝੰਮਾ ਰਹੇ ਹਨ, ਦਾ ਜਾਪ ਕਰਦਾ ਹੈ।"

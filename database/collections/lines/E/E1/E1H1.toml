@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੇਕ ਦੇਸ ਭਰਮਣੰ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One may wander in many countries"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਭਾਵੇਂ ਕੋਈ) ਅਨੇਕ ਦੇਸ਼ਾਂ ਵਿਚ ਘੁੰਮਦਾ ਫਿਰੇ,"

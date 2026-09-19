@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਫਿਰ ਸੁਨ ਕਰਿ ਐਸੀ ਧਮਕ ਕਉ; ਕਾਂਪੈ ਗਿਰਿ ਭਾਰਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "With high pitched drum-beats (of victory), even the mountains shuddered."

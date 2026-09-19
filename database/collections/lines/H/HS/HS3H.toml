@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਜੇਯੰ ਅਭੇਯੰ ਨਿਰੰਕਾਰ ਨਿਤ੍ਰਯੰ ॥"
 page = 119
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art unconquerable, indistinguishable, formless, eternal"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਜਿਤ, ਅਭੇਦ, ਨਿਰਾਕਾਰ, ਸਦੀਵੀ ਹੈ;"

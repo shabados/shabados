@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਰੁ ਪਰਾ ਸਭ ਹੀ ਨਰ ਜਾਗੇ ॥"
 page = 65
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ੋਰ ਪੈਣ ਤੇ ਸਭ ਸੈਨਿਕ ਜਾਗ ਗਏ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗੰਧ੍ਰਬ ਜਛ ਭੁਜੰਗ ਸੁਹਾਏ ॥੨੦॥"
 page = 1015
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She sketched the devils, the gods and Gandharabh Jachh.(20)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਗੰਧਰਬ, ਯਕਸ਼ ਅਤੇ ਨਾਗ ਬਣਾ ਕੇ ਸੁਸ਼ੋਭਿਤ ਕੀਤੇ ॥੨੦॥"

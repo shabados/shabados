@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਊਪਰਿ ਕੰਚਨ ਕੀ ਸਬ ਆਕ੍ਰਿਤ; ਹੈ ਸਬ ਹੀ ਸੋਊ ਲੋਹ ਮਈ ॥"
 page = 428
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The body on which there were golden figures,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਉਪਰ ਸੋਨੇ ਦੀ ਸਾਰੀ ਸਜਾਵਟ ਹੈ ਅਤੇ ਸਾਰੀ ਲੋਹਮਈ ਹੈ।"

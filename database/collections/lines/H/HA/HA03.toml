@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਰਾਜ ਜੋਗ ਘਰ ਬੈਠ; ਦੋਊ ਅਪਨੇ ਕਿਯੋ ॥੭੭॥"
 page = 1107
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਘਰ ਵਿਚ ਬੈਠ ਕੇ ਰਾਜ ਅਤੇ ਯੋਗ ਦੋਵੇਂ ਕੀਤੇ ॥੭੭॥"

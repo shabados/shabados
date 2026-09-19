@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਧ ਰਾਤ੍ਰਿ ਤਿਹ ਤੀਰ ਮਿਲਨ ਕੇ ਹਿਤ ਗਈ ॥"
 page = 1134
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਅੱਧੀ ਰਾਤ ਨੂੰ ਉਸ ਕੋਲ ਮਿਲਣ ਲਈ ਗਈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਗੇ ਬ︀ਯੋਤ ਭਾਰੇ ਸਮੈ ਸੀਤ ਜੈਸੇ ॥੬੨॥"
 page = 1243
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਸਰਦੀ ਦੇ ਮੌਸਮ ਵਿਚ (ਦਰਜ਼ੀ ਨੇ) ਬਹੁਤ ਸਾਰੇ ਕਪੜੇ ਵਿਉਂਤ ਕੇ ਸੁਟੇ ਹਨ ॥੬੨॥"

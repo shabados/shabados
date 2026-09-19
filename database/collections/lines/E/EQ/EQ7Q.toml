@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਨਕਰ ਤਾਹਿ ਦਿਵਸ ਅਨੁਮਾਨਾ ॥"
 page = 624
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The nigh considered him as moon and the day as sun"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦਿਨ ਨੇ ਉਸ ਨੂੰ ਸੂਰਜ ਦੇ ਰੂਪ ਵਿਚ ਅਨੁਮਾਨ ਕੀਤਾ।"

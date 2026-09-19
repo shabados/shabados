@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋਵੰਤ ਹੋਮ ਬੇਦਨ ਬਿਧਾਨ ॥੪੫੩॥"
 page = 596
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The beggars received charity and everywhere the poems were composed, the Yajnas, burning of incense, lighting of lamps, the charities etc. were all done according to vedic rites.453."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵੇਦ ਰੀਤੀ ਅਨੁਸਾਰ ਹੋਮ ਹੋਣ ਲਗ ਗਏ ਹਨ ॥੪੫੩॥"

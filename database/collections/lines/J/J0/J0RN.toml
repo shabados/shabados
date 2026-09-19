@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨ ਜੀਤੇ ਛਤ੍ਰੀ ਗਨ ਦਲਮਲ ॥"
 page = 152
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Who hath conquered and mashed the Kshatriya forces."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਛਤਰੀਆਂ ਦੇ ਸਮੂਹਾਂ ਨੂੰ ਜਿਤ ਕੇ ਮਸਲ ਦਿੱਤਾ ਹੈ।"

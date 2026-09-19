@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਤਹ ਦੇਵ ਅੰਸ ਕੋ; ਬਹੁ ਚਮਕਾਇਓ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The potent and courageous (Guru) Harkrishan became the eighth Master,"

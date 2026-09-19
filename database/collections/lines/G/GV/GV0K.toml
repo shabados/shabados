@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਿਸਿ ਦਿਨ ਉਦਾਸ ॥੨੨੧॥"
 page = 653
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He served the goddess Bhavani night and day and remained unattached with only one desire in his mind.221."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਰਾਤ ਦਿਨ ਉਦਾਸ ਰਹਿੰਦਾ ਸੀ ॥੨੨੧॥"

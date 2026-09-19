@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭ ਠੌਰ ਨਿਰੰਤਰ ਨਿੱਤ ਨਯੰ ॥"
 page = 43
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Thou art ever new continuously at all places."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਸਭ ਥਾਂਵਾਂ ਵਿਚ ਨਿਰੰਤਰ, ਨਿੱਤ ਨਵੇਂ ਰੂਪ ਵਿਚ ਹੈਂ,"

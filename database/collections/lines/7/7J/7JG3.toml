@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧੂਹਿ ਕ੍ਰਿਪਾਣਾ ਤਿਖੀਆਂ ਬਢ ਲਾਹਨਿ ਅੰਗਾਂ ॥"
 page = 126
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Pulling their sharp swords, they chop the limbs."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿਖੀਆਂ ਤਲਵਾਰਾਂ ਨੂੰ ਖਿਚ ਕੇ ਅੰਗਾਂ ਨੂੰ ਲਗਾਉਂਦੇ ਸਨ ਅਤੇ ਵਢ ਦਿੰਦੇ ਸਨ।"

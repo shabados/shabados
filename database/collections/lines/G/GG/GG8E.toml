@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੀਪਿ ਸਮਸ ਤਾ ਕੀ ਸੋ ਲਾਯੋ ॥"
 page = 976
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She immediately sent for the hair-removing powder and spread it on his moustache."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਦਾ ਲੇਪ (ਉਸ ਵਿਅਕਤੀ ਦੀ) ਦਾੜੀ ਮੁੱਛਾਂ ਤੇ ਲਗਾ ਦਿੱਤਾ।"

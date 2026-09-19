@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਨ ਮਤ ਬੇਦ ਕਤੇਬਨ ਤਿਆਗੀ ॥"
 page = 56
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਨੇ ਵੇਦਾਂ ਅਤੇ ਕਤੇਬਾਂ ਦੀ ਵਿਚਾਰਧਾਰਾ (ਮਤ) ਨੂੰ ਤਿਆਗ ਦਿੱਤਾ,"

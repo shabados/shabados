@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੋਹੂ ਕੋ ਭਰਤਾ ਲੈ ਕਰੋ ॥੨੭॥"
 page = 966
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And said, ‘Oh, my woman, you don’t burn yourself, I will wed you.’ ( 27)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੈਨੂੰ ਹੀ (ਆਪਣਾ) ਪਤੀ ਬਣਾ ਲੈ ॥੨੭॥"

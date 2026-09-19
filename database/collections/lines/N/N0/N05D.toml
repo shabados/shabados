@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮ ਹਾਥਨ ਸੋ ਖੋਜਿ ਕਰਿ; ਯਾ ਤੇ ਲੇਹੁ ਨਿਕਾਰਿ ॥੮॥"
 page = 863
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Out of this now you can search and take out the rupee.’(8)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੁਸੀਂ ਹੱਥ ਨਾਲ ਖੋਜ ਕੇ ਇਸ ਵਿਚੋਂ ਰੁਪਇਆ ਕਢ ਲਵੋ ॥੮॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੇਸ ਪੇਸ ਸੋ ਜੂਟ ਉਪਾਰਿਯੋ ॥"
 page = 878
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rani, in desperation, hit her hands and pulled her hair."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੱਥੇ ਦੇ ਵਾਲਾਂ ਦਾ ਜੂੜਾ ਪੁਟ ਸੁਟਿਆ।"

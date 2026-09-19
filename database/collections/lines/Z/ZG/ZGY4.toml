@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਾਚੀ ਦਿਸਿ ਤੇ ਸਸਿ ਪ੍ਰਗਟਯੋ ॥"
 page = 1158
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪੂਰਬ ਦਿਸ਼ਾ ਵਲੋਂ ਚੰਦ੍ਰਮਾ ਚੜ੍ਹ ਆਇਆ।"

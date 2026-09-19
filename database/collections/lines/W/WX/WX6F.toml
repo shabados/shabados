@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਣ ਗੰਧ੍ਰਬ ਦੇਵ ਅਦੇਵ ਸਚੇ ॥੧੩॥੧੫੩॥"
 page = 31
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And hath also Created Ganas Gandharvas gods and demons! 13. 153"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਗਣ, ਗੰਧਰਬ, ਦੇਵਤੇ, ਦੈਂਤ ਸਿਰਜੇ ॥੧੩॥੧੫੩॥"

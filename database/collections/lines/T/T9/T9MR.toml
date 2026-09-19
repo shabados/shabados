@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਾਹੁ ਤ੍ਰਿਯਾ ਕੋ ਦਰਬੁ ਲੁਟਾਵੈ ॥੨॥"
 page = 820
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Started to plunder the wealth of the trader’ wife.(2)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਾਹ ਦੀ ਇਸਤਰੀ ਦਾ ਧੰਨ ਲੁਟਾ ਦਿੰਦੀ ॥੨॥"

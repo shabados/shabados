@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪੁਤ੍ਰੰ ਭ੍ਰਾਤੰ ॥੪੩੩॥"
 page = 670
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His wisdom seized by the attachment of mother, wife, sons and brothers.433."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੁੱਤਰ ਅਤੇ ਭਰਾ ਦੇ ਮੋਹ ਕਰ ਕੇ ॥੪੩੩॥"

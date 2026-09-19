@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਨਨ ਮੈ ਮਸੁ ਭੀਜਤ ਹੈ ਬਰ; ਬਾਰਿਜ ਸੇ ਜੁਗ ਲੋਚਨ ਤੇਰੇ ॥"
 page = 459
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“The hair grown on you upper lip seems saturated, because of your youth and your eyes are lotus"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੇਰੇ) ਮੁਖ ਉਤੇ ਮਸ ਫੁਟਦੀ ਹੈ ਅਤੇ ਸੁੰਦਰ ਕਮਲ ਵਰਗੇ ਤੇਰੇ ਦੋਵੇਂ ਨੈਣ ਹਨ।"

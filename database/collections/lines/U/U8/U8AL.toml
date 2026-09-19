@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਾਨਵ ਅਮਿਤ ਕੋਪ ਕਰਿ ਢੂਕੇ ॥"
 page = 1379
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੇਸ਼ੁਮਾਰ ਦੈਂਤ ਕ੍ਰੋਧ ਕਰ ਕੇ ਆ ਢੁਕੇ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ︀ਯੋਂ ਪ੍ਰੀਤਮ ਚਟਕੇ ਚਟਕਾਵੈ ॥"
 page = 977
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "As the palanquin was moving, the lover was enjoying the swings."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਿਵੇਂ ਪ੍ਰੀਤਮ ਚਟਕਾਰੇ ਮਾਰ ਰਿਹਾ ਸੀ।"

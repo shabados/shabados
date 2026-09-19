@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੂਤ ਪਿਸਾਚ ਡਾਕਣੀ ਜੋਗਣ; ਕਾਕਣ ਰੁਹਰ ਪਿਵਾਊ ॥"
 page = 685
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "I shall cause the ghosts, fiends, Dakinis, Yoginis and Kakinis to drink blood to their fill"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੂਤਾਂ, ਪਿਸਾਚਾਂ, ਡਾਕਣੀਆਂ, ਜੋਗਣਾਂ, ਕਾਂਵਾਂ ਨੂੰ ਵੀ ਲਹੂ ਪਿਲਾਵਾਂਗਾ।"

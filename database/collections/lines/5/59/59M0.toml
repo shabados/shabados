@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਦੂਖ ਭੂਖ ਪਿਆਸ ॥"
 page = 611
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਦੁਖ, ਭੁਖ ਅਤੇ ਪਿਆਸ (ਸਦਾ ਘੇਰੀ ਰਖਦੀ ਹੈ)।"

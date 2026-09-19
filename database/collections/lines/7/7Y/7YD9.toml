@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਬੈ ਸਿਧ ਹਰਤਾ ॥੩੪੭॥"
 page = 709
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ever remembering the Lord and destroyers of others uptil ocean 120.347."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰੀਆਂ ਸਿੱਧੀਆਂ ਨੂੰ ਹਰਨ ਵਾਲੇ ਹਨ ॥੩੪੭॥"

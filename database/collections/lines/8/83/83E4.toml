@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਮ ਅਰਥ ਹੀਣ ਸਬਿਦਿ ॥੧੦੬॥"
 page = 634
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Brahmins without learning or the men without wealth.106."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਵੇਂ ਅਰਥ (ਗਿਆਨ) ਤੋਂ ਬਿਨਾ ਵਿਦਵਾਨ ਹੈ ॥੧੦੬॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਬਾਗੜਦੀ ਵੀਰ ਬਿਕ੍ਰਾਰ; ਸਾਗੜਦੀ ਸ੍ਰੋਣਤ ਤਨ ਭਿਗਹੀ ॥੫੬੧॥"
 page = 258
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The brave fighters are falling with chopped limbs in the battlefield and their dreadful bodies are saturated with blood.561."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰਚੰਡ ਸੂਰਮਿਆਂ ਦੇ ਤਨ ਲਹੂ ਨਾਲ ਭਿੱਜੇ ਪਏ ਹਨ ॥੫੬੧॥"

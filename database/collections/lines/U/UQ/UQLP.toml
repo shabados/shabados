@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਹਜ਼ਾਰਾਂ ਮਹੇਸ਼ ਅਤੇ ਹਜ਼ਾਰਾਂ ਗਨੇਸ਼"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਹਜ਼ਾਰਾਂ ਮਹੇਸ਼ੋ ਹਜ਼ਾਰਾਂ ਗਨੇਸ਼ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Thousands of Mahayshs and Thousands of Ganayshs"

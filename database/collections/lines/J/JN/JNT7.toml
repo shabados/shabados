@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਠਿ ਤਜਿ ਬਿਅੰਤਿ ਕਿਨੋ ਬਖਾਨ ॥੧੦੫॥"
 page = 643
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Brahma also accepted defet, while singing His Praises and forsaking his persistence by describing Him only as infinite.105."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਠ ਨੂੰ ਛਡ ਕੇ ਬੇਅੰਤ ਬੇਅੰਤ ਕਹਿਣ ਲਗ ਗਿਆ ਹੈ ॥੧੦੫॥"

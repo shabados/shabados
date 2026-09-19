@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਭ︁ਯੋ ਤੇਜ ਬਿਖ︁ਯਾਤਾ ॥"
 page = 158
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And from him emanated the Powerful Lustre"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸੇ ਤੋਂ ਤੇਜ ਦਾ ਪ੍ਰਗਟਾਵਾ ਹੋਇਆ।"

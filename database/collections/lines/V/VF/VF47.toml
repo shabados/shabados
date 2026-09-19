@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੇਵ ਲੋਕ ਭੀਤਰ ਲੈ ਗਈ ॥"
 page = 953
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "For sake of her consort, she abandoned her body and the gods took her to the heaven."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਨੂੰ ਦੇਵ-ਲੋਕ ਵਿਚ ਲੈ ਗਈ।"

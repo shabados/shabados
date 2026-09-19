@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਿਵ ਕੋ ਸਤ ਬਚਨ ਅਨੁਮਾਨਾ ॥"
 page = 1276
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸ਼ਿਵ ਦੇ ਬਚਨ ਨੂੰ ਵੀ ਸਚ ਸਮਝ ਲਿਆ।"

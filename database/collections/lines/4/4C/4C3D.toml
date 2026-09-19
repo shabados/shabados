@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ਼ੁਕਰ ਕਰਦ ਯਜ਼ਦਾਨ ਆਜ਼ਮ ਅਮੀਕ ॥੨੬॥"
 page = 1411
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They thought, ‘God has endowed us with a son.’(26)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਬੇਅੰਤ ਅਤੇ ਅਥਾਹ ਪਰਮਾਤਮਾ ਦਾ ਸ਼ੁਕਰ ਕੀਤਾ ॥੨੬॥"

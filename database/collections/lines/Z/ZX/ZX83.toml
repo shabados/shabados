@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਗੁਰਮੁਖਿ ਵਿਰਲਾ; ਚੀਨੑੈ ਕੋਈ ॥"
 page = 1344
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Some rare one realises the Lord, through the Guru's grace."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਟਾਵਾਂ ਟੱਲਾ ਹੀ ਗੁਰਾਂ ਦੀ ਦਇਆ ਦੁਆਰਾ, ਆਪਣੇ ਪ੍ਰਭੂ ਨੂੰ ਅਨੁਭਵ ਕਰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Only a few, as Gurmukh, understand this."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਪਰੰਤੂ ਇਸ ਬਾਤ ਕੋ ਕੋਈ ਵਿਰਲਾ ਗੁਰਮੁਖ ਹੀ (ਚੀਨੈ) ਜਾਨਤਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕੋਈ ਵਿਰਲਾ ਬੰਦਾ ਗੁਰੂ ਦੀ ਸਰਨ ਪੈ ਕੇ ਸਮਝਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਚੀਨ੍ਹ੍ਹੈ = ਪਛਾਣਦਾ ਹੈ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Sólo unos pocos Gurmukjs conocen esto,"

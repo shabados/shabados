@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨਤ ਹੈ ਧ੍ਰਿਤਰਾਸਟਰ, ਤੈ ਸਭ; ਆਪਨ ਰਾਜ ਕੋ ਪੈਡ ਬਿਗਾਰਿਯੋ ॥੧੦੧੯॥"
 page = 399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "O Dhritrashtra! do you not know that you are spoiling the practice of your kingdom?”1019."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇੰਜ ਪਤਾ ਲਗਦਾ ਹੈ, ਹੇ ਧ੍ਰਿਤਰਾਸ਼ਟਰ! ਤੂੰ ਆਪਣੇ ਰਾਜ ਦੀ ਮਰਯਾਦਾ ਵਿਗਾੜ ਲਈ ਹੈ ॥੧੦੧੯॥"

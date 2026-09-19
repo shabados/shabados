@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦ੍ਰਿੜ ਕੈ ਬਲਿ ਕੋਪਿ ਹਲਾਯੁਧ ਲੈ ਅਰਿ ਕੇ ਦਲ ਭੀਤਰ ਧਾਇ ਗਯੋ ॥"
 page = 403
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Highly infuriated, Balram fell upon the army of the enemy"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਲ ਅਤੇ ਕ੍ਰੋਧ ਨੂੰ ਦ੍ਰਿੜ੍ਹ ਕਰ ਕੇ ਅਤੇ 'ਹਲ' ਨੂੰ ਲੈ ਕੇ (ਬਲਰਾਮ) ਵੈਰੀ ਦੇ ਦਲ ਵਿਚ ਧਸ ਗਿਆ ਹੈ।"

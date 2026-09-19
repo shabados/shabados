@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਹੋਮ ਜਗ ਨਈਵੇਦ ਕਰਿ; ਸਭ ਕਾਰਜ ਸਰਣਾ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Then that ghee is used as burnt offering and him yajn(rituals) and other oblation are performed."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਹੋਮ, ਯੱਗ, ਪੂਜਾ ਭੇਟ (ਦੇ ਕੰਮ ਆਦਿ) ਕਰ ਕੇ ਸਾਰੇ ਕਾਰਜ ਉਸਥੋਂ ਸਾਰਦੇ ਹਨ।"

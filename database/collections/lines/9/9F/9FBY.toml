@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅੰਤ ਜਾਇ ਗਿਰੇ ਰਸਾਤਲ; ਪੰਡ ਪੁਤ੍ਰ ਮਹੀਪ ॥"
 page = 141
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "These sons of king Pandu ultimately fell in the himalayas (neither-world)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੰਤ ਨੂੰ ਹਿਮਾਲਾ ਪਰਬਤ ਵਿਚ ਜਾ ਡਿਗੇ।"

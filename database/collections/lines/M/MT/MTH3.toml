@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਭਟ ਸਿੰਘ ਕਹ ਪੁਨਿ ਸਰ ਮਾਰਿਯੋ ॥"
 page = 876
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਫਿਰ ਸੁਭਟ ਸਿੰਘ ਨੂੰ ਤੀਰ ਮਾਰਿਆ"

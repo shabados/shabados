@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਕੋ ਧਾਮ ਦਰਬੁ ਸੋ ਭਰਿਯੋ ॥੬॥"
 page = 883
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She left him at the house of a lady-friend and gave her lot of wealth.(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਦਾ ਘਰ ਧਨ ਨਾਲ ਭਰ ਦਿੱਤਾ ॥੬॥"

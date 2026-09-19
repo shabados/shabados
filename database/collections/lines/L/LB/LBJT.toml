@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਰੱਬ ਦਾ ਪ੍ਰੇਮ ਅਤੇ ਚਾਓ ਆਤਮਾ ਦਾ ਜੀਵਨ ਹੈ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਸ਼ੌਕਿ ਮੌਲਾ ਜ਼ਿੰਦਗੀਏ ਜਾਂ ਬਵਦ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "And, he is the sun of the skies of miracles and generosity. (95)"

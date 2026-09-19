@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕੰ ਥਪਿਤ੍ਵੰ ॥੪੨੫॥"
 page = 669
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They were firmly establishing the Lord in their mind.425."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮਨ) ਸਥਿਰ ਕਰ ਚੁਕੇ ਹਨ ॥੪੨੫॥"

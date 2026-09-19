@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੈ ਨ ਦਤ ਛਨਾਇ ਆਜ; ਨ੍ਰਿਪਤ ਮੋਰ ਮਹਾਨ ॥"
 page = 646
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Were thinking that the great Dutt may not seize their kingdom"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇੰਦਰ ਇਸ ਲਈ ਪਰੇਸ਼ਾਨ ਹੈ ਕਿ) ਅਜ ਕਿਤੇ ਦੱਤ ਮੇਰੇ ਮਹਾਨ ਰਾਜ ਨੂੰ ਖੋਹ ਨਾ ਲਏ।"

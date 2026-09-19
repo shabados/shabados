@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਸਵੰਤ ਹਾਠ ਹਮੀਰ ॥"
 page = 610
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Mehdi Mir was created, who was very angry and persistent one"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਬਹੁਤ ਕ੍ਰੋਧਵਾਨ, ਹਠੀ ਅਤੇ ਜ਼ਬਰਦਸਤ ਸੀ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰੋ ਨਾਰਿ, ਇਕਿ ਕਾਜ ਹਮਾਰੋ ॥੧੦॥"
 page = 855
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Dogar requested the woman to do him a favour,(10)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਇਸਤਰੀ! ਮੇਰਾ ਇਕ ਕੰਮ ਕਰੋ ॥੧੦॥"

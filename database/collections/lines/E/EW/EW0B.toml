@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇੰਦ੍ਰ ਕੇਤੁ ਉਪਇੰਦ੍ਰ ਧੁਜ; ਦੋਨੋ ਹਨੇ ਰਿਸਾਇ ॥"
 page = 873
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇੰਦ੍ਰ ਕੇਤੁ ਅਤੇ ਉਪਇੰਦ੍ਰ ਧੁਜ ਦੋਹਾਂ ਨੂੰ ਕ੍ਰੋਧਿਤ ਹੋ ਕੇ ਮਾਰ ਦਿੱਤਾ"

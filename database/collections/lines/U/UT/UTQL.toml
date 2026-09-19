@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਰਿ ਜੀਤਿ ਜੀਤਿ ਦਿਨੋ ਨਿਸਾਨ ॥"
 page = 615
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was ocean of eighteen sciences and he got his trumpets sounded after conquering his enemies"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਵੈਰੀਆਂ ਨੂੰ ਜਿਤ ਜਿਤ ਕੇ ਧੌਂਸਾ ਵਜਾਇਆ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਤਿਹ ਮਨੋਰਥ ਹੁਤੋ; ਵਹੇ ਤਾ ਕੋ ਦਯੋ ॥"
 page = 1090
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦਾ ਜੋ ਮਨੋਰਥ ਸੀ, ਉਹ ਉਸ ਨੂੰ ਦੇ ਦਿੱਤਾ।"

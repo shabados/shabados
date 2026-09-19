@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਛੂ ਨ ਲਾਜ ਰਹਤ ਤਨ ਵਾ ਕੇ ॥"
 page = 918
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In his household, he had a woman called Radha; she lacked chastity in her manners."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਕੋਈ ਵੀ ਸ਼ਰਮ ਹੱਯਾ ਨਹੀਂ ਸੀ।"

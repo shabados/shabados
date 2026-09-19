@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਧੁ ਕੀਟਭ ਕੇ ਬਧ ਨਮਿਤ; ਜਾ ਦਿਨ ਜਗਤ ਮੁਰਾਰਿ ॥"
 page = 191
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The day on which Vishnu manifested himself for the killing of Madhu and Kaitabh,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਧੁ ਅਤੇ ਕੈਟਭ ਦੈਂਤਾਂ ਦੇ ਮਾਰਨ ਲਈ ਜਿਸ ਦਿਨ ਮੁਰਾਰੀ (ਸਚੇਤ ਹੁੰਦਾ ਹੈ)"

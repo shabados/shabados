@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਊਪਰ ਜਲ ਤਾ ਕੇ ਤਰ ਭੂਖਨ ॥"
 page = 1280
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਪਰ ਜਲ ਸੀ ਅਤੇ ਉਸ ਦੇ ਹੇਠਾਂ ਗਹਿਣੇ ਸਨ।"

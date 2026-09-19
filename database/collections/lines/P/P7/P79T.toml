@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਾਜਨ ਕੀ ਸਬ ਹੂੰ ਬਿਧ ਕੀ ਕਿਨਹੂੰ ਨਹੀ ਕੋਪਿ ਸਰਾਸਨੁ ਸਾਜਿਯੋ ॥"
 page = 401
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "None could hold his bow and arrows in anger and thus dropped the idea of fighting, all of them planned to run away"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਭ ਨੇ ਭਜਣ ਦੀ ਵਿਉਂਤ ਬਣਾ ਲਈ, (ਪਰ) ਕਿਸੇ ਨੇ ਵੀ ਕ੍ਰੋਧ ਕਰ ਕੇ ਧਨੁਸ਼ ਬਾਣ ਨਾ ਸਜਾਇਆ।"

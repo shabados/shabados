@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਮਾਯਲ ਬਸੇ ਗਸ਼ਤ ਓ ਤਾਬ ਸਰ ॥੪੦॥"
 page = 1416
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Neither, in excitement, he cared to learn the truth.(40)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਿਰ ਤੋਂ ਪੈਰਾਂ ਤਕ ਮੋਹਿਤ ਹੋ ਚੁਕਿਆ ਸੀ ॥੪੦॥"

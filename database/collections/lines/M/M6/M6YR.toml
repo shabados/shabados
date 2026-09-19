@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਹਰਿ ਕੇ ਚਰਨ ਕਮਲ; ਆਧਾਰ ॥"
 page = 618
 line = 16
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I have the support of the God's lotus feet."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਵਾਹਿਗੁਰੂ ਦੇ ਕੰਵਲ ਚਰਣਾਂ ਦਾ ਆਸਰਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I have the support of the Lotus Feet of the Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹਰੀ ਕੇ ਚਰਨ ਕਮਲੋਂ ਕਾ ਮੈਂ ਆਸਰਾ ਅੰਗੀਕਾਰ ਕੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਹੇ ਭਾਈ!) ਪਰਮਾਤਮਾ ਦੇ ਕੋਮਲ ਚਰਨਾਂ ਨੂੰ (ਮੈਂ ਆਪਣੀ ਜ਼ਿੰਦਗੀ ਦਾ) ਆਸਰਾ (ਬਣਾ ਲਿਆ ਹੈ)।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਧਾਰ = ਆਸਰਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Apóyense en los Pies de Loto del Señor y por la Gracia de los Santos"

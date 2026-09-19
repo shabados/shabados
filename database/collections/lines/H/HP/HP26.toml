@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਮਤਿ ਗੈਵਰ ਗਰਜਾਹੀ ॥"
 page = 875
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈਆਂ (ਸੂਰਮਿਆਂ ਨੇ) ਮਸਤ ਹਾਥੀਆਂ ਨੂੰ ਗਰਜਾਇਆ"

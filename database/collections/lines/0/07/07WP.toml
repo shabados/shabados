@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਟਾ ਜੁਟੀ ਜੁਆਣਯੰ ॥"
 page = 113
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Alongwith the clattering of swords, the daggers are striking fastly."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੁਆਨ (ਇਕ-ਦੂਜੇ ਨਾਲ) ਗੁਥਮ ਗੁਥਾ ਹੋ ਰਹੇ ਸਨ।"

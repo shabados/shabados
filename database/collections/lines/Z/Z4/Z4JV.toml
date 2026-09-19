@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਿਖਭਾਸੁਰ ਕੇ ਬ੍ਰਿਖਨ ਉਪਾਰਿਯੋ ॥੩॥"
 page = 1267
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬ੍ਰਿਖਭਾਸੁਰ ਦੇ ਸਿੰਗਾਂ ('ਬ੍ਰਿਖਨ') ਨੂੰ ਉਖਾੜਿਆ ॥੩॥"

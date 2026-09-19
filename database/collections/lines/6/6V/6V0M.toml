@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਿਜਰਿ ਰਵਨਿਨਿ ਆਦਿ ਬਖਾਨੋ ॥"
 page = 775
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਹਿਲਾਂ 'ਹਰਿਜਰਿ' (ਦਿਨ ਦੀ ਵੈਰਣ ਰਾਤ) ਰਵਨਿਨਿ' ਕਥਨ ਕਰੋ।"

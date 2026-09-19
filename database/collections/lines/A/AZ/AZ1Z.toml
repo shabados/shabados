@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤ੍ਰੰਗਸਚ ॥੧੪॥੬੧॥"
 page = 133
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Lord is unaffected by the waves.14.61."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅੰਤਹਕਰਨ ਵਿਚ ਵਸਿਆ ਹੋਇਆ ਹੈ (ਜਾਂ ਤਰੰਗਾਂ ਤੋਂ ਰਹਿਤ ਭਾਵ ਸ਼ਾਂਤ ਰੂਪ ਵਾਲਾ) ॥੧੪॥੬੧॥"

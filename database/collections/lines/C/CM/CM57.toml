@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਜਿ ਹਰਿ ਧਰਮੰ, ਗਹਤ ਕੁਕਰਮੰ; ਬਿਨ ਪ੍ਰਭ ਕਰਮੰ ਸਬ ਭਰਮੰ ॥"
 page = 562
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Leaving the religion of the Lord, all will adopt evil ways, but without the actions related to the Lord everything will be useless"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਰਿ ਦੇ ਧਰਮ ਨੂੰ ਛਡ ਕੇ ਕੁਕਰਮ ਗ੍ਰਹਿਣ ਕਰਨਗੇ, (ਪਰ) ਪ੍ਰਭੂ (ਦੇ ਨਾਮ ਜੱਪਣ ਤੋਂ) ਬਿਨਾ ਹੋਰ ਸਾਰੇ ਕਰਮ ਭਰਮ ਹਨ।"

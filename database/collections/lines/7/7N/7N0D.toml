@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਗੀ ਦੇਤ ਨ ਮ੍ਰਿਤੁ ਬਿਧਾਤਾ ॥"
 page = 1314
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵਿਧਾਤਾ ਮੰਗਣ ਤੇ ਮੌਤ ਵੀ ਨਹੀਂ ਦਿੰਦਾ।"

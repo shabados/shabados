@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਾਸ ਮਰਤ ਫਿਰਿ ਬਹੁਰਿ ਨ ਆਏ; ਹੋਤ ਭਏ ਬਨਬਾਸੀ ॥"
 page = 687
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those Sannysis who survived, they did not return because of fear and went to the forest"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਡਰ ਦੇ ਮਾਰੇ ਫਿਰ ਨਹੀਂ ਆਏ ਅਤੇ ਬਨਬਾਸੀ ਹੋ ਗਏ।"

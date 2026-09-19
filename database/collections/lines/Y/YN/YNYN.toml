@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜ਼ਿ ਸਿੰਧੀ ਵ ਅਰਬੀ ਵ ਐਰਾਕ ਰਾਇ ॥"
 page = 1405
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All the horses, the ones from Sindh, Arabia and Iraq,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਿੰਧ, ਅਰਬ ਅਤੇ ਇਰਾਕ ਦੇਸ਼ਾਂ ਦੇ"

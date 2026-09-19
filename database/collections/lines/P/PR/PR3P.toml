@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਰਾਜੇ ਐਸੇ ਕਹਾ; ਯਾ ਤ੍ਰਿਯ ਕਛੂ ਨ ਦੇਉਾਂ ॥"
 page = 879
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Then Raja ordered not to give anything to the woman,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਰਾਜੇ ਨੇ ਇਸ ਤਰ੍ਹਾਂ ਸੋਚਿਆ ਕਿ ਇਸ ਨੂੰ ਕੁਝ ਨਹੀਂ ਦਿਆਂਗਾ"

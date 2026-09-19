@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਘਾਉ ਕੈ ਦੈਤ ਚਲਿਓ ਜਬ ਹੀ; ਤਬ ਦੇਵੀ ਨਿਖੰਗ ਤੇ ਬਾਨ ਸੁ ਕਾਢੇ ॥"
 page = 86
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the demon returned after wounding the goddess, she took out a shaft from her quiver.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ ਦੈਂਤ (ਦੇਵੀ ਨੂੰ) ਜ਼ਖ਼ਮੀ ਕਰਕੇ (ਵਾਪਸ) ਚਲਿਆ ਤਦੋਂ ਦੇਵੀ ਨੇ ਭੱਥੇ ਵਿਚੋਂ ਤੀਰ ਕੱਢ ਲਿਆ।"

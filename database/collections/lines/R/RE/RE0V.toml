@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁ ਖ਼ੁਸ਼ ਗਸ਼ਤ ਸ਼ੌਹਰ ਨ ਦੀਦਸ਼ ਚੁ ਨਰ ॥"
 page = 1428
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Her husband was satisfied that there was no other person there"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦੋਂ (ਉਥੇ) ਕੋਈ ਹੋਰ ਮਰਦ ਨਾ ਦਿਸਿਆ, ਤਾਂ ਪਤੀ ਖ਼ੁਸ਼ ਹੋ ਕੇ ਪਰਤ ਗਿਆ"

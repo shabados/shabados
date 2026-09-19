@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਹ੍ਵੈ ਕੈ ਮ੍ਰਿਤਕ ਸਮਾਨ; ਜਾਇ ਔਧੇ ਮੁਖ ਪਰਿ ਹੈਂ ॥੮੧॥"
 page = 1198
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮ੍ਰਿਤਕ ਵਾਂਗ ਹੋ ਕੇ ਮੂਧੇ ਮੂੰਹ ਡਿਗੇਂਗਾ ॥੮੧॥"

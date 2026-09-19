@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿ ਹੁਸਨੁਲ ਜਮਾਲਸਤ ਰੳਸਸ਼ਨ ਜ਼ਮੀਰ ॥"
 page = 1393
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "With the help of your intelligence and the sword,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਸੁੰਦਰ ਰੂਪ ਵਾਲਾ, ਜਲਾਲ ਵਾਲਾ ਅਤੇ ਚੰਗੀ ਜ਼ਮੀਰ ਵਾਲਾ,"

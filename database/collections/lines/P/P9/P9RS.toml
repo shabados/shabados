@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੰਤ ਸੁਰਸੁਤੀ ਸਤੀ ॥"
 page = 136
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Innumerable Sarswatis goddess and Satis (Parvati-goddess)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੰਤ ਸਰਸਵਤੀ, ਸਤੀ ਅਤੇ ਲਕਸ਼ਮੀ ਆਦਿ ਦੇਵੀਆਂ"

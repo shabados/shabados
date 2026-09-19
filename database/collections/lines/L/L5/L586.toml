@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੇ ਨੇਤ੍ਰਾਂ ਨੂੰ ਆਪਣੇ ਦਰਸ਼ਨ ਦਾ ਸੁਆਦ ਬਖਸ਼,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਦੀਦਾ-ਅਮ ਰਾ ਲੱਜ਼ਤਿ ਦੀਦਾਰ ਬਖ਼ਸ਼ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Bless my eyes with the sweet taste of Your glimpse,"

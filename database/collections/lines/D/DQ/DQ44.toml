@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੇਜ ਪ੍ਰਭਾਵ ਨਿਰਖਿ ਤਬ ਰਾਜਾ ॥"
 page = 676
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ (ਉਸ ਦੇ) ਤੇਜ ਦੇ ਪ੍ਰਭਾਵ ਨੂੰ ਵੇਖ ਕੇ ਰਾਜਾ"

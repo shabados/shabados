@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਗਲ ਗਾਵ ਕੋ ਦਰਸ ਦਿਖਾਯੋ ॥"
 page = 893
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He (Shah’s son) brought them to display in the village (where all people were already stuck)."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰੇ ਪਿੰਡ ਨੂੰ ਨਜ਼ਾਰਾ ਵਿਖਾਇਆ।"

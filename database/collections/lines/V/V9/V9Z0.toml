@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੀਯ ਮੋ ਇਹ ਭਾਤਿ ਬਿਚਾਰ ਕਰੰ ॥੧੮॥"
 page = 189
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The unapproachable and unique Shiva thought over in this way in his mind.18."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਵ ਨੇ ਦਿਲ ਵਿਚ ਇਸ ਤਰ੍ਹਾਂ ਵਿਚਾਰ ਕੀਤਾ ॥੧੮॥"

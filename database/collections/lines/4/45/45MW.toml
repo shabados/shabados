@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਹ ਦਿਸ ਮਾਰੂ ਬਾਜਨ ਲਾਗੇ ॥"
 page = 463
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the morning, all the warriors awoke and the battle-drums were played from both the sides"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਦੋਹਾਂ ਪਾਸਿਆਂ ਤੋਂ ਜੰਗੀ ਨਗਾਰੇ ਵਜਣ ਲਗੇ ਹਨ।"

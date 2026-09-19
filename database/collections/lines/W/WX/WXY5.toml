@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ︀ਯਾਮ ਗਯੋ ਤਜਿ ਕੈ ਬ੍ਰਿਜ ਕੋ ਤਿਹ ਤੇ ਅਤਿ ਬ︀ਯਾਕੁਲ ਚਿਤ ਭਈ ਹੈ ॥"
 page = 391
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“That Krishna relinquished Braja and went away"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਬ੍ਰਜ ਨੂੰ ਛਡ ਕੇ ਚਲੇ ਗਏ ਹਨ, ਉਸੇ ਕਰ ਕੇ (ਉਹ) ਚਿੱਤ ਵਿਚ ਬਹੁਤ ਵਿਆਕੁਲ ਹੈ।"

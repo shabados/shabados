@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੀਜੀਏ ਬਰ ਭੂਪ, ਮੋ ਕਉ; ਜੋ ਕਹੇ ਦੁਇ ਦੈਨ ॥੨੦੦॥"
 page = 220
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O king! You had promised to grant me two boons, grant them to me just now.200."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਵਰ ਦਿਓ (ਜੋ ਤੁਸੀਂ ਮੈਨੂੰ) ਦੇਣ ਲਈ ਦੋ ਵਰ ਕਹੇ ਹੋਏ ਹਨ ॥੨੦੦॥"

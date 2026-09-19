@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਰੂਆ ਮਰਿ ਭਰੂਅਨਿ ਜੁਤ ਰਹੇ ॥"
 page = 1055
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੜੂਏ ਆਪਣੀਆਂ ਇਸਤਰੀਆਂ ਸਹਿਤ ਉਥੇ ਹੀ ਰਹੇ (ਭਾਵ ਡੁਬ ਗਏ)।"

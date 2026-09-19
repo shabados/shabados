@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪ੍ਰਭਾ ਬਿਲੋਕਿ ਨਗਰ ਕੀ ਬਿਗਸਾ ॥੪॥"
 page = 1299
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਨਗਰ ਦੀ ਸੁੰਦਰਤਾ ਵੇਖ ਕੇ ਪ੍ਰਸੰਨ ਹੋਇਆ ॥੪॥"

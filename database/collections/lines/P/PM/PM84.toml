@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਡਗਿੰਦ੍ਰ ਪ੍ਰਭਾ ਇਕ ਤਾ ਕੀ ਤ੍ਰਿਯਾ ॥"
 page = 1085
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਉਡਗਿੰਦ੍ਰ ਪ੍ਰਭਾ ਨਾਂ ਦੀ ਇਕ ਇਸਤਰੀ ਸੀ"

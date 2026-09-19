@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਦੇਵੀਆ. ਨਹੀ ਜਾਨੈ ਮਰਮ ॥"
 page = 894
 line = 6
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The goddesses know not His mystery."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵੀਆਂ ਉਸ ਦੇ ਰਾਜ ਨੂੰ ਨਹੀਂ ਸਮਝਦੀਆਂ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "The goddesses do not know His mystery."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵੀਆਂ ਜੋ ਸਰਬ ਸਕਤੀਆਂ ਹੈਂ ਵਹੁ ਭੀ ਭੇਦ ਕੋ ਨਹੀਂ ਜਾਨਤੀਆਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵੀਆਂ ਵਿਚੋਂ ਭੀ ਕੋਈ ਉਸ ਪ੍ਰਭੂ ਦਾ ਭੇਦ ਨਹੀਂ ਜਾਣਦੀ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਾਨੈ = ਜਾਣਦੀ। ਮਰਮ = ਭੇਦ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "A las diosas tampoco se les reveló todo Tu Misterio."

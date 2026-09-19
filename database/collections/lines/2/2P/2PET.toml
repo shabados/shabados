@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਲਲਾ; ਲਾਵਉ ਅਉਖਧ ਜਾਹੂ ॥"
 page = 259
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "L: He to whom thou appliest the medicine of Thy Name,"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਲ-ਜਿਸ ਨੂੰ ਸੁਆਮੀ ਆਪਣੇ ਨਾਮ ਦੀ ਦਵਾਈ ਲਾਉਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "LALLA: One who takes the medicine of the Naam, the Name of the Lord,"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਲੱਲੇ ਦ੍ਵਾਰੇ ਕਹਤੇ ਹੈਂ: ਗੁਰੂ ਵੈਦ ਜਿਸ ਕੋ ਨਾਮ ਰੂਪ (ਅਉਖਧ) ਲਗਾਵਤੇ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਮੈਨੂੰ ਯਕੀਨ ਹੈ ਕਿ ਜਿਸ ਕਿਸੇ ਨੂੰ (ਪ੍ਰਭੂ ਦੇ ਨਾਮ ਦੀ) ਦਵਾਈ ਦਿੱਤੀ ਜਾਏ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਲਾਵਉ = ਮੈਂ ਲਾਂਦਾ ਹਾਂ, ਮੈਨੂੰ ਯਕੀਨ ਹੈ ਕਿ ਜੇ ਕੋਈ ਵਰਤੇ। ਜਾਹੂ = ਜਿਸ ਨੂੰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "LALA: Donde sea que aplicamos el bálsamo del Naam, el Nombre del Señor,"

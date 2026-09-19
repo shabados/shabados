@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਾਹੇ; ਨ ਬਾਲਮੀਕਹਿ ਦੇਖ ॥"
 page = 1124
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Why look thou not at Balmik?"
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਬਾਲਮੀਕ ਨੂੰ ਕਿਉਂ ਨਹੀਂ ਵੇਖਦਾ?"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Why do you not look at Baalmeek?"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਬਾਲਮੀਕ ਜੀ ਕੋ ਕਿਸ ਵਾਸਤੇ ਨਹੀਂ ਦੇਖ ਲੇਤਾ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮਨ! ਤੂੰ ਬਾਲਮੀਕ ਵਲ ਕਿਉਂ ਨਹੀਂ ਵੇਖਦਾ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਕਾਹੇ ਨ = ਕਿਉਂ ਨਹੀਂ?"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "quien aunque de baja casta, se volvió Eterno?"

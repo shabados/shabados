@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਨੋ ਮੈਨ ਦੇਖਾ ॥"
 page = 658
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whosoever saw him, saw the god of love in him"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਮਾਨੋ ਕਾਮਦੇਵ ਨੂੰ ਹੀ ਵੇਖਿਆ ਹੋਵੇ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਰਾ ਕਸ ਕਿ ਰਾ ਅਕਲ ਯਾਰੀ ਦਿਹਦ ॥"
 page = 1399
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One, whose intelligence supports him,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਆਦਮੀ ਦੀ ਅਕਲ ਸਹਾਇਤਾ ਕਰਦੀ ਹੈ,"

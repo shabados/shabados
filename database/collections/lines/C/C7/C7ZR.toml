@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰੇਵ ਪਰਮ ਪ੍ਰਧਾਨ ਹੈ ॥"
 page = 129
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is far beyond, superb and supreme."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪਰੇ ਤੋਂ ਪਰੇ ਅਤੇ ਪਰਮ-ਪ੍ਰਧਾਨ ਹੈਂ;"

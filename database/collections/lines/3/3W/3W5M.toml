@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਨ ਰਾਨੀ ਸ੍ਰਵਨਨ ਸੁਨਿ ਪਾਈ ॥"
 page = 841
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And the Rani heard it thoughtfully."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਰਾਣੀ ਨੇ ਕੰਨਾਂ ਨਾਲ ਸੁਣ ਲਿਆ।"

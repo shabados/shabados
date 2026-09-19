@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੰਕੜੇ ਸੂਰ ਭੰਭਰੇ ਭੀਰ ॥"
 page = 604
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸੂਰਮੇ ਸਹਿਮ ('ਸੰਕੜੇ') ਗਏ ਹਨ, ਕਾਇਰ ਡਰ ਨਾਲ ਭਰ ਗਏ ਹਨ।"

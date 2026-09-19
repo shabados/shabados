@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਕ︀ਯੋ ਨ ਰੋਵਤ ਬਾਲ ਤਿਹਾਰੋ ॥"
 page = 821
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Noticing the baby’s sudden stoppage of weeping, the man asked,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਤੇਰਾ ਬਾਲਕ ਕਿਉਂ ਨਹੀਂ ਰੋਂਦਾ।"

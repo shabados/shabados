@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਿਖਿ ਗੋਤਮ ਰਿਸਿ ਕੈ ਕਹਿਯੋ; ਕੋ ਆਯੋ ਇਹ ਧਾਮ ॥"
 page = 971
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Rishi Gautam, in fury, asked who had come to this house."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਿਸ਼ੀ ਗੋਤਮ ਨੇ ਕ੍ਰੋਧਿਤ ਹੋ ਕੇ ਕਿਹਾ ਕਿ ਇਸ ਘਰ ਵਿਚ ਕੌਣ ਆਇਆ ਹੈ।"

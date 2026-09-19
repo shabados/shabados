@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗ੍ਵਾਰਨਿ ਬ︀ਯਾਕੁਲ ਚਿਤ ਭਈ ਹਰਿ ਕੇ ਨਹੀ ਆਵਨ ਕੀ ਸੁਧਿ ਪਾਈ ॥"
 page = 392
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The gopis are greatly worried and they have no inkling of the coming of Krishna"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ ਦੇ ਆਉਣ ਦੀ ਖ਼ਬਰ ਨਾ ਮਿਲਣ ਕਰ ਕੇ ਗੋਪੀਆਂ ਚਿਤ ਵਿਚ ਵਿਆਕੁਲ ਹੋ ਗਈਆਂ।"

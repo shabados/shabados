@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਰੰ ਪੂਰਬੀ ਉਤ੍ਰ ਦੇਸੀ ਅਪਾਰੰ ॥"
 page = 678
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪੂਰਬ ਦੇਸ ਦੇ ਅਤੇ ਉੱਤਰ ਦੇਸ਼ ਦੇ ਅਪਾਰ"

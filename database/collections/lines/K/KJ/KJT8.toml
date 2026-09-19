@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਮਲ ਜੁਧ ਤਬ ਹੀ ਭਯੋ; ਲੀਜੌ ਸਮਝਿ ਸੁਜਾਨਿ ॥੧੨॥"
 page = 1014
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Then you take it that a fearful war is going to break,’(12)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਸੁਜਾਨ! ਸਮਝ ਲਵੋ ਕਿ ਉਸੇ ਦਿਨ ਘਮਸਾਨ ਯੁੱਧ ਹੋਵੇਗਾ ॥੧੨॥"

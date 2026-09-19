@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਤ ਅਧਿਕ ਘਮਸਾਨ ਇਹੈ ਘਨ ਸ︀ਯਾਮ ਹੇਤ ਕੀਯ ॥"
 page = 470
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Ghanshyam gave him the power to wage dreadful war"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਹ ਅਤਿ ਘਮਸਾਨ ਯੁੱਧ ਕਰਦਾ ਹੈ, (ਕਿਉਂਕਿ) 'ਘਨਸ਼ਿਆਮ' ਨੇ (ਉਸ ਨੂੰ) ਅਜਿਹਾ ਕੀਤਾ ਹੈ।"

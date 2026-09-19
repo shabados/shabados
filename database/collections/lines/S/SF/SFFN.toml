@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਸੁਪਤਾਰਿ ਧ੍ਵਨਨੀ ਉਚਰਿ; ਰਿਪੁ ਪਦ ਅੰਤਿ ਉਚਾਰ ॥"
 page = 744
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਪਹਿਲਾਂ) 'ਪਸੁਪਤਾਰਿ ਧ੍ਵਨਨੀ' (ਸ਼ੇਰ ਦੀ ਧੁਨੀ ਵਾਲੀ ਸੈਨਾ) ਕਹਿ ਕੇ, ਫਿਰ 'ਰਿਪੁ' ਸ਼ਬਦ ਜੋੜੋ।"

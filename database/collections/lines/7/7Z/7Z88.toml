@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਛੀ ਕੰਪਤ ਹਾਥ ਤੇ ਝਰੀ ॥"
 page = 926
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When the lion looked up at the weaver, he trembled and the sword fell from his hands."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ ਕੰਬਦੇ ਹੋਏ ਹੱਥਾਂ ਵਿਚੋਂ ਬਰਛੀ ਡਿਗ ਪਈ।"

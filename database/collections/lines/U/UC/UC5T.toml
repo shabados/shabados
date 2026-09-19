@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਦੁਨੀਆ ਵਿਚ ਹਰ ਚੀਜ਼ ਫ਼ਨਾਹ ਹੋ ਜਾਣ ਵਾਲੀ ਹੈ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਫ਼ਨਾਹ ਪਜ਼ੀਰ ਬਵਦ ਹਰ ਚਿ ਹਸਤ ਦਰ ਆਲਮ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "That is why I did not any sign of separation, except myself. (49) (2)"

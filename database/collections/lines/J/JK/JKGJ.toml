@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੀਵ ਰਾਖ ਇਨ ਸਭ ਕੋ ਲੀਜੈ ॥"
 page = 491
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“O Lord! protect us and save all these beings"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਨ੍ਹਾਂ ਸਾਰਿਆਂ ਜੀਵਾਂ ਨੂੰ ਬਚਾ ਲਵੋ।"

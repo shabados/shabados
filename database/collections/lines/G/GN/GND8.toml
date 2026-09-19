@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਲੀ ਨਾਗ ਕੀ ਤ੍ਰਿਯੋ ਬਾਚ ॥"
 page = 312
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of the wife of the serpent Kali:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਾਲੀ ਨਾਗ ਦੀਆਂ ਇਸਤਰੀਆਂ ਨੇ ਕਿਹਾ:"

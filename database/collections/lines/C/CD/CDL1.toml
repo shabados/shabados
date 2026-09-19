@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁਨ ਮੂਰਖ ਦਿਜ, ਤੈ ਨਹਿ ਜਾਨੀ ॥"
 page = 1197
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੂਰਖ ਬ੍ਰਾਹਮਣ! ਸੁਣ, ਤੂੰ ਨਹੀਂ ਜਾਣਦਾ"

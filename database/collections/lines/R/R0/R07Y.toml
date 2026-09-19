@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਰੇ ਪ੍ਰਾਤ ਮਾਸੁ ਤਿਹ ਖਾਯੋ ॥੬੮॥"
 page = 936
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Love and now you have eaten it.’(68)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮਰਨ ਉਪਰੰਤ ਉਸ ਦਾ ਮਾਸ ਖਾਇਆ ਹੈ ॥੬੮॥"

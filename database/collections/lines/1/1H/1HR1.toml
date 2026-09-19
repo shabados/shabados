@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੁ ਧੁਨਿ ਕਾਨ ਤ੍ਰਿਯਾ ਕੇ ਪਰੀ ॥"
 page = 913
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In the morning he clapped his hands, which the lady heard,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਆਵਾਜ਼ ਇਤਸਰੀ ਦੇ ਕੰਨਾਂ ਵਿਚ ਪਈ।"

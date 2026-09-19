@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਯਕੇ ਮਰਦ ਬੁਖ਼ਾਦੰਦ ਦੀਗਰ ਜ਼ਨਾ ॥੧੩॥"
 page = 1417
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One for the males; the other for the females.(13)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਵਿਚ ਲੜਕੇ ਅਤੇ ਦੂਜੇ ਵਿਚ ਲੜਕੀਆਂ ਪੜ੍ਹਦੀਆਂ ਸਨ ॥੧੩॥"

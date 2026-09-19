@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨ ਸੰਕਾ ਬਿਚਾਰੰ ॥"
 page = 71
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "From their mouths, they shout “kill, kill”, without any doubts."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਸੇ ਪ੍ਰਕਾਰ ਦਾ ਕੋਈ ਸੰਗ ਸੰਕੋਚ ਨਹੀਂ ਵਿਚਾਰਦੇ।"

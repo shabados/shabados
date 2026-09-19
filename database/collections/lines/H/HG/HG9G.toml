@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਘੀ ਅਨੇਕ ਤਾਰੀਅੰ ॥੮੧॥"
 page = 45
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And who hath caused many sinners to ferry across.81."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਨੇਕ ਪਾਪੀ ਤਾਰੇ ਹਨ ॥੮੧॥"

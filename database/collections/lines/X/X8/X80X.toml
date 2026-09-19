@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਹਸ ਸੂਰਮਾ ਜਬ ਤ੍ਰਿਯ; ਦੀਏ ਸੰਘਾਰਿ ਕੈ ॥"
 page = 1064
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਦ ਉਸ ਇਸਤਰੀ ਨੇ ਹਜ਼ਾਰ ਸੂਰਮੇ ਮਾਰ ਦਿੱਤੇ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਚਕ੍ਰ ਚਿਹਨ ਨਹੀ ਰੰਗ ਰੂਪ ॥"
 page = 37
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He hath no mark, sign, colour and form"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦਾ ਕੋਈ ਚਿੰਨ੍ਹ-ਚੱਕਰ ਅਤੇ ਰੂਪ-ਰੰਗ ਨਹੀਂ ਹੈ;"

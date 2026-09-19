@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੀਰ ਕਲਾ ਰਾਨੀ ਜਗ ਕਹਈ ॥"
 page = 1040
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਰਾਣੀ ਨੂੰ ਸਾਰੇ ਬੀਰ ਕਲਾ ਕਹਿੰਦੇ ਸਨ।"

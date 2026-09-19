@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਸ ਅਹਾਰ ਕਰਤ ਕਹੂੰ ਝਾਕਨਿ ॥"
 page = 1384
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਕਿਤੇ ਗਿਰਝਾਂ ਮਾਸ ਦਾ ਭੋਜਨ ਕਰ ਰਹੀਆਂ ਸਨ।"

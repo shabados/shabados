@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰੂਪ ਲਲਾ ਕੋ ਲਾਲਚੀ; ਲੋਚਨ ਲਾਲ ਅਮੋਲ ॥"
 page = 952
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘His countenance is enticing and his eyes are provocative."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਪ੍ਰੀਤਮ ਦਾ ਰੂਪ ਬਹੁਤ ਮਨਮੋਹਕ ਹੈ ਅਤੇ ਉਸ ਦੇ ਨੈਣ ਅਣਮੁਲੇ ਹਨ।"

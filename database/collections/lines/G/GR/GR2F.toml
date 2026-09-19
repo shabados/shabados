@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਚਾਹੋ, ਤਿਹ ਠਵਰ ਭਣੀਜੈ ॥੧੧੦੨॥"
 page = 788
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Bhoopani”, add the word “ari” at the end and know all the names of Tupak.1102."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਚਾਹੋ, ਉਥੇ ਕਥਨ ਕਰ ਲਵੋ ॥੧੧੦੨॥"

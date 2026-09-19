@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਚੇ ਕੋਪ ਕੈ ਕੈ ਹਠੀਲੇ ਰਜ੍ਰਯਾਰੇ ॥੩੨੩॥"
 page = 1382
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹਠੀਲੇ ਰਜਵਾੜੇ ਕ੍ਰੋਧਿਤ ਹੋ ਕੇ ਜੰਗ ਮਚਾ ਰਹੇ ਸਨ ॥੩੨੩॥"

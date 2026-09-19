@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਨੰਤ ਅਸਤ੍ਰ ਛੋਰੇ ਭਯੋ ਜੁਧੁ ਮਾਨੰ ॥"
 page = 176
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜਾਂਦਿਆਂ ਹੀ ਸੂਰਮਿਆਂ ਨੇ) ਅਨੰਤ ਅਸਤ੍ਰ (ਤੀਰ) ਛਡੇ ਅਤੇ ਗੌਰਵਸ਼ਾਲੀ ਯੁੱਧ ਹੋਇਆ।"

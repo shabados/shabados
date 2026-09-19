@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬੁਬੀਂ ਗਰਦਸ਼ੇ ਬੇਵਫ਼ਾਈ ਜ਼ਮਾ ॥"
 page = 1414
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "(The Poet says,) Look at the infidelity of the world,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜ਼ਮਾਨੇ ਦੀ ਬੇਵਫ਼ਾਈ ਦਾ ਚੱਕਰ ਵੇਖੋ"

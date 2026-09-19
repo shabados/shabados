@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਭੈ ਗ੍ਰਾਮ ਬਾਸੀਨ, ਕੌ ਲੈ ਦਿਖਾਯੋ ॥੩੪॥"
 page = 988
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Through her incantation she tied him up and presented to the people of the town.(34)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰੇ ਪਿੰਡ ਵਾਸੀਆਂ ਨੂੰ (ਵੇਸਵਾ ਨੇ) ਲਿਆ ਕੇ ਵਿਖਾਇਆ ॥੩੪॥"

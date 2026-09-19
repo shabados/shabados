@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਤਭੁਤ ਅਨੰਤ ਅਤਿ ਬਲ ਅਭੇਖ ॥"
 page = 642
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His colour and Line are indescribable and the power of that Guiseless Lord is endless"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਅਦਭੁਤ, ਅਨੰਤ, ਅਤਿ ਬਲਵਾਨ ਅਤੇ ਭੇਖ ਤੋਂ ਰਹਿਤ ਹੈ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਗਣ ਗਿਧ ਸੁ ਬ੍ਰਿਧ ਰੜੰਤ ਨਭੰ ॥"
 page = 600
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਹੁਤ ਸਾਰੀਆਂ ਵੱਡੀਆਂ ਗਿਰਝਾਂ ਆਕਾਸ਼ ਵਿਚ ਸ਼ੋਰ ਪਾ ਰਹੀਆਂ ਹਨ।"

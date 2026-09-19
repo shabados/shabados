@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਛਬਿ ਮਾਨ ਮਤੀ ਵਹ ਨਾਮਾ ॥"
 page = 853
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "His name was Jogi Surg Nath, and name of the woman was Chhab Maan Mati."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਇਸਤਰੀ ਦਾ) ਨਾਮ ਸ੍ਰੀ ਛਬਿ ਮਾਨ ਮਤੀ ਸੀ।"

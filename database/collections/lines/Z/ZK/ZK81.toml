@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਲਖ ਉਸਤਤਿ ਉਸਤਤਿ ਕਰੈ; ਉਸਤਤਿ ਨ ਸਿਞਾਣੈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Millions of eulogisers recite praise s but they do not understand the real praise."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਲਖਾਂ ਉਸਤਤਾਂ (ਕਰਣਹਾਰੇ ਦੇਵਤਿਆਂ ਦੀਆਂ) ਉਸਤਤੀਆਂ ਕਰਦੇ ਹਨ, (ਪਰ ਉਸ ਵਾਹਿਗੁਰੂ ਦੀ) ਉਸਤਤੀ ਨਹੀਂ ਸਿਾਣਦੇ।"

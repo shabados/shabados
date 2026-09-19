@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਵੀਹ ਇਕੀਹ ਉਲੰਘਿ ਕੈ; ਹੋਇ ਸਹਜਿ ਸਮਾਈ ॥੯॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Crossing the world with one jump he merged in the innate knowledge."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਵੀਹ ਤੇ ਇੱਕੀ ਥੋਂ ਲੰਘਕੇ ਸਹਜ ਪਦ ਵਿਖੇ ਸਮਾ ਗਏ।"

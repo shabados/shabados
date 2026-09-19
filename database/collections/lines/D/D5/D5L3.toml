@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨੈਨੀ ਪੇਖਤ; ਸਾਧ ਦਇਆਲ ॥"
 page = 298
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "with thine eyes see the kind saints."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣੀਆਂ ਅੱਖਾਂ ਨਾਲ ਕ੍ਰਿਪਾਲੂ ਸੰਤਾਂ ਨੂੰ ਦੇਖ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "with your eyes, behold the kind, Holy Saints."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਨੇਤ੍ਰੋਂ ਸੇ ਦਿਆਲ ਸੰਤੋਂ ਕਾ ਦਰਸਨ ਦੇਖੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਅੱਖਾਂ ਨਾਲ ਦਇਆ ਦੇ ਘਰ ਗੁਰੂ ਦਾ ਦਰਸਨ ਕਰੀਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨੈਨੀ = ਅੱਖਾਂ ਨਾਲ। ਸਾਧ = ਗੁਰੂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "y ve a nadie excepto al Santo Compasivo,"

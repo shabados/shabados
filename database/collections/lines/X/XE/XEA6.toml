@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ ਲਾਚਾਰਗੀ ਦਰਮਯਾਂ ਆਮਦੰਦ ॥"
 page = 1390
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "For this reason, I had to intervene"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਬੇਬਸ ਹੋ ਕੇ (ਮੈਂ ਯੁੱਧ-ਭੂਮੀ) ਵਿਚ ਆ ਗਿਆ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਦੇਵ ਦੇਵੰ ਮਹਾ ਜੋਗ ਜੋਗੰ ॥"
 page = 40
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He is the Greatest of gods and the Supreme Yogi"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਤੂੰ) ਮਹਾਦੇਵਾਂ ਦਾ ਵੀ ਦੇਵ ਅਤੇ ਯੋਗਾਂ ਦਾ ਵੀ ਯੋਗ ਹੈਂ।"

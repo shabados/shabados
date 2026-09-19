@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਉਠਿ ਨਿਰਤਤ ਭੂਤ ਪਰੇਤ ਗਣੰ ॥੫੦੧॥"
 page = 601
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The ghosts and fiends are dancing to the tune of drums, anklets, tabors, conche, fifes, kettledrums etc.501."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਭੂਤਾਂ ਪ੍ਰੇਤਾਂ ਦੇ ਗਣ ਉਠ ਉਠ ਕੇ ਨਾਚ ਕਰਦੇ ਹਨ ॥੫੦੧॥"

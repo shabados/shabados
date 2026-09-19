@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰ ਹੈ ਸੁ ਸਕਲ ਜਗ ਕੋ ਉਧਾਰ ॥"
 page = 203
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“He will be famous by the name of Ramavtar and he will redeem the whole world"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਸਾਰੇ ਜਗਤ ਦਾ ਉਧਾਰ ਕਰੇਗਾ।"

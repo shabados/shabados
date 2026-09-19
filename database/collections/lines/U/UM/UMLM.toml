@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾਨਤ ਹੋ ਅਬ ਆਵਤ ਹੈ; ਉਪਜੈ ਇਹ ਚਿੰਤ ਕਹਿਯੋ ਮਨ ਮੇਰੈ ॥"
 page = 391
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "My mind says that he will come now,”"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਮੈਂ) ਜਾਣਦਾ ਹਾਂ ਕਿ ਹੁਣ (ਉਹ) ਆਵੇਗਾ (ਤੇਰੇ ਮਨ ਵਿਚ) ਇਹ ਸੋਚ ਪੈਦਾ ਹੋ ਰਹੀ ਹੈ, ਮੇਰਾ ਮਨ ਕਹਿੰਦਾ ਹੈ।"

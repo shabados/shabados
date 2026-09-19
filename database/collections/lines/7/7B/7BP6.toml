@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭੈਰਵਾਦਿ ਛਬਿ ਲਖਨ ਸਿਧਾਰੇ ॥੧੧॥"
 page = 1086
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਭੈਰੋਂ ਆਦਿ (ਯੁੱਧ ਦੀ) ਛਬੀ ਵੇਖਣ ਲਈ ਆ ਪਹੁੰਚੇ ਹਨ ॥੧੧॥"

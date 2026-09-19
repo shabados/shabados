@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਮ ਧਮਤ ਸਾਗ ਧਮਕਯੰ ॥"
 page = 111
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The drums are resounding and the daggers are clanking."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਰਛਿਆਂ ਦੀ ਧੰਮ ਧੰਮ ਦੀ ਧਮਕ ਹੋ ਰਹੀ ਸੀ।"

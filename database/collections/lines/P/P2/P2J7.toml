@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਤਤ ਬੇਤਾ ਅਨਾਸੰ ਉਦਾਸੀ ॥"
 page = 645
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was without expectations, practiser of austerities in upside-down posture, a great knower of essence and an unattached Sannyasi"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮਹਾਨ ਤੱਤ੍ਵ ਨੂੰ ਜਾਣਨ ਵਾਲਾ, ਆਸ਼ਾ ਤੋਂ ਰਹਿਤ ਅਤੇ ਉਦਾਸੀ ਸੁਭਾ ਵਾਲਾ ਹੈ।"

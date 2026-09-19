@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਧਿਕ ਅਤੁਲ ਬਲਿ ਰੂਪ ਅਨੂਪਾ ॥੧੦॥"
 page = 47
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Who was of immeasurable strength and supreme beauty.10."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਅਧਿਕ ਬਲ ਵਾਲਾ, ਅਤੁੱਲ ਰੂਪ ਵਾਲਾ ਅਤੇ ਅਨੂਪਮ ਸੀ ॥੧੦॥"

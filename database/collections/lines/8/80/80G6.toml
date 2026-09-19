@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਕਮਲ ਨਾਲ ਕੋ ਲਖਾ ਪਾਰ ॥"
 page = 643
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਕਮਲ-ਨਾਲ ਦਾ ਦੂਜਾ ਸਿਰਾ ਪਤਾ ਨਾ ਲਗਿਆ,"

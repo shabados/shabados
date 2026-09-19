@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਯਾ ਪਤਿਬ੍ਰਤਾ ਤੇ, ਨ ਜਾਵੈ ਸੰਘਾਰੇ ॥"
 page = 979
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In spite of giving tough fight, gods lost and, but, as his wife was"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਪਤਿਬ੍ਰਤਾ ਇਸਤਰੀ (ਵਾਲਾ ਹੋਣ ਕਰ ਕੇ ਜਲੰਧਰ) ਮਾਰਿਆ ਨਹੀਂ ਜਾ ਰਿਹਾ ਹੈ।"

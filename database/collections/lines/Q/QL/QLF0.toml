@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲੇ ਭਾਜਿ ਤਾ ਕੀ, ਸੁ ਮਾਤਾਨ ਲਾਜੈ ॥੧੬॥"
 page = 983
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਜੋ) ਭਜ ਕੇ ਜਾਏਗਾ, ਉਸ ਦੀ ਮਾਤਾ ਲਜਿਤ ਹੋਏਗੀ ॥੧੬॥"

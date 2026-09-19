@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਗਰ ਸਰ ਤੁ ਖ਼ਾਹੀ ਸਰ ਤੁਮੇ ਦਿਹਮ ॥"
 page = 1407
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Even if you want my head, I can give it to you,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਤੂੰ ਚਾਹੇਂ ਤਾਂ ਮੈਂ ਆਪਣਾ ਸਿਰ ਵੀ ਕਟ ਦੇਵਾਂ"

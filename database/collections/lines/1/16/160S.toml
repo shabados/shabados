@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਸਿ ਸੋਭ ਹਰੇ ॥੩੪॥"
 page = 617
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Many days passed, when she gave birth to a child, who was wearing armour on his body and was also the abductor of moon’s beauty.34."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚੰਦ੍ਰਮਾ ਦੀ ਸ਼ੋਭਾ ਨੂੰ ਹਰਦਾ ਸੀ ॥੩੪॥"

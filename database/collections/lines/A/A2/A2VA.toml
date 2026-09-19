@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਬਕਿਯੋ ਬਲੀ ਸਿੰਘ ਜੁਧੰ ਮਝਾਰੰ ॥"
 page = 101
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The demon-king rored like a lion in the battlefield,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉੱਧਰ ਯੁੱਧ ਵਿਚ ਬਲਵਾਨ ਸ਼ੇਰ ਭਬਕਣ ਲਗਾ"

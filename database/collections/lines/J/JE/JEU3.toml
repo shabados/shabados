@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਯ ਸੌ ਬਚਨ ਗੁਲਾਮ; ਉਚਾਰੇ ਜਾਇ ਕਰਿ ॥"
 page = 861
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The slave went to the women and told"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀ ਨੂੰ ਗ਼ੁਲਾਮ ਨੇ ਜਾ ਕੇ (ਇਹ) ਬਚਨ ਕੀਤਾ"

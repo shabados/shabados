@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹਿਕ ਸੁਧਰਮੀ ਰਾਇ ਸਾਹ ਭਨਿ ॥"
 page = 1344
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਇਕ ਸੁਧਰਮੀ ਰਾਇ ਨਾਂ ਦਾ ਸ਼ਾਹ ਸੁਣੀਂਦਾ ਸੀ।"

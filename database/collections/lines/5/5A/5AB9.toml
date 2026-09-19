@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਵਿਲੋਕਿ ਪੁਤ੍ਰ ਚਕਿ ਰਹੀ ਮਾਤ ॥"
 page = 638
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing his indestructible greatness and unique body, the mother remained wonder-struck"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਜਿਹੇ) ਪੁੱਤਰ ਨੂੰ ਵੇਖ ਕੇ ਮਾਤਾ ਹੈਰਾਨ ਰਹਿ ਗਈ।"

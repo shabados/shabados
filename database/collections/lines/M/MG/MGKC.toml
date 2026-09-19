@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਬਨ ਆਇ ਦਮਾਮੋ ਦਯੋ ॥"
 page = 976
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When her childhood gave way and youth glittered,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਜਵਾਨੀ ਨੇ ਆ ਕੇ ਨਗਾਰਾ ਵਜਾਇਆ।"

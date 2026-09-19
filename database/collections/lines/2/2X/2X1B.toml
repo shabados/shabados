@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਤੁਪਕ ਕੇ ਹੋਤ ਹੈ; ਲੀਜਹੁ ਸਮਝ ਸੁਜਾਨ ॥੫੭੧॥"
 page = 743
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly “Vyaghra-Naadni” and then “Ripu Ari” , the names of Tupak are formed.571."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਤੁਪਕ ਦਾ ਨਾਮ ਬਣਦਾ ਹੈ। ਸਮਝਦਾਰੋ! ਸਮਝ ਲਵੋ ॥੫੭੧॥"

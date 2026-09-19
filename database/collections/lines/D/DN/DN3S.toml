@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਮਿਤ ਦੈਤ ਰਨ ਕਹ ਉਠਿ ਜੂਟੇ ॥੫੮॥"
 page = 1361
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬੇਹਿਸਾਬ ਦੈਂਤ ਪੈਦਾ ਹੋ ਕੇ ਰਣ ਵਿਚ ਜੁਟ ਗਏ ॥੫੮॥"

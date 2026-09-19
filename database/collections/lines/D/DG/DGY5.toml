@@ -1,10 +1,10 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਭਗਤਿ ਵਛਲ ਭੈ ਭੰਜਨੋ; ਜਪਿ ਸਦਾ ਅਰੋਗੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The Cherisher of His Devotees, destroys their afflictions, and makes them, the ones in meditation, for ever diseaseless."

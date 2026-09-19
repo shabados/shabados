@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਨਾਮ ਥਾਮ, ਨਹੀ ਬਰਗ ਬਿਆਧ ॥"
 page = 29
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which is without name place and also without species of maladies!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੋ ਨਾਂ, ਥਾਂ, ਵਰਗ ਆਦਿ ਵੰਡੀਆਂ (ਦੇ ਬਖੇੜੇ) ਤੋਂ ਪਰੇ ਹੈ,"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਮਨ ਮੇਰੇ; ਹਰਿ ਕਾ ਨਾਮੁ ਅਤਿ ਮੀਠਾ ॥"
 page = 1233
 line = 19
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "O my soul, supremely sweet is God's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੀ ਜਿੰਦੇ! ਪਰਮ ਮਿਠੜਾ ਹੇ ਵਾਹਿਗੁਰੂ ਦਾ ਨਾਮ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "O my mind, the Name of the Lord is supremely sweet."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! ਹਰੀ ਕਾ ਨਾਮ ਅਤੀ ਮੀਠਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਮੇਰੇ ਮਨ! (ਜਿਸ ਮਨੁੱਖ ਨੂੰ) ਗੁਰੂ ਦੀ ਸਰਨ ਪੈ ਕੇ ਪਰਮਾਤਮਾ ਦਾ ਨਾਮ ਬਹੁਤ ਪਿਆਰਾ ਲੱਗਣ ਲੱਗ ਪੈਂਦਾ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਮਨ = ਹੇ ਮਨ! ਅਤਿ = ਬਹੁਤ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Dulce, Dulce es el Nombre del Señor,"

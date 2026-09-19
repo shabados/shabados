@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਚਛੁ ਅਤਿ ਕੋਪ ਜਗਾਯੋ ॥੬॥"
 page = 878
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One day when he saw the lover leaving, the one-eye blind flew into a rage.(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ (ਉਸ) ਇਕ ਅੱਖ ਵਾਲੇ (ਕਾਣੇ) ਨੂੰ ਬਹੁਤ ਗੁੱਸਾ ਆਇਆ ॥੬॥"

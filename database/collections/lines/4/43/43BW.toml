@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਿੰਦਕ ਕਾ; ਝੂਠਾ ਬਿਉਹਾਰੁ ॥"
 page = 1151
 line = 18
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "False are the dealings of the calumniator."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਕੂੜਾ ਹੈ ਕਾਰ ਵਿਹਾਰ ਕਲੰਕ ਲਾਉਣ ਵਾਲੇ ਦਾ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "False are the dealings of the slanderer."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਨਿੰਦਕ ਕਾ ਸਭ ਬਿਉਹਾਰ ਝੂਠਾ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਕਿਉਂਕਿ ਜਗਤ ਜਾਣਦਾ ਹੈ ਕਿ) ਤੁਹਮਤਾਂ ਲਾਣ ਦਾ ਇਹ ਕਸਬ ਝੂਠਾ ਹੈ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਬਿਉਹਾਰ = (ਤੁਹਮਤਾਂ ਲਾਣ ਵਾਲਾ) ਕਸਬ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "sí, el calumniador vive en la falsedad."

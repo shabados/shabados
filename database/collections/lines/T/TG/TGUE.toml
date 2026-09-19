@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਬਖਸ਼ਿਸ਼ਾਂ ਦੁਆਰਾ ਉਸ (ਅਕਾਲਪੁਰਖ) ਨੂੰ ਸੰਬੋਧਨ ਕੀਤਾ ।"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਅਜ਼ ਅਨਾਯਾਤਿ ਹਜ਼ਰਤਿ ਵਹਾਬ ॥੨੨॥"
 page = 1
 line = 22
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Through his benefaction, the all-powerful Waaheguru, he said (22)"

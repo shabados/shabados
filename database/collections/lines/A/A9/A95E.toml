@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਤੈਨੂੰ ਜਿਸ ਨੂੰ ਕਿ ਰਤਾ ਵੀ ਦਿਲ ਦਾ ਟਿਕਾਉ ਪ੍ਰਾਪਤ ਨਹੀਣ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਤੁਰਾ ਕਿ ਨੀਸਤ ਬਯੱਕ ਗੂਨਾ ਖ਼ਾਤਿਰਿ ਮਜਮੂਅ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "O Goyaa! There is no other larger pleasure or sweeter,"

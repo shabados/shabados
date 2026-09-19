@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਾਢਿ ਭੋਗ ਦੀਜਹੁ ਸੁਖਦਾਈ ॥੮॥"
 page = 1309
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਾਂ (ਰਾਜ ਕੁਮਾਰੀ ਨੂੰ) ਕਢ ਕੇ ਖ਼ੂਬ ਸੰਯੋਗ ਕਰਨਾ ॥੮॥"

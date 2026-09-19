@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਨਿਧਿਆਨ ਛੂਟੰ ॥"
 page = 654
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That king wearing matted locks, had abandoned all the stores of materials"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀਆਂ ਨਿਧੀਆਂ ਨੂੰ ਛਡਣ ਵਾਲਾ,"

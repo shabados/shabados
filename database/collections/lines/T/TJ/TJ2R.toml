@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਕਹੈ ਕਬੀਰ; ਨਿਰੰਜਨ ਧਿਆਵਉ ॥"
 page = 327
 line = 9
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Contemplate thou on the Pure Lord, says Kabir."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਤੂੰ ਪਵਿਤ੍ਰ ਪ੍ਰਭੂ ਦਾ ਸਿਮਰਨ ਕਰ, ਕਬੀਰ ਜੀ ਆਖਦੇ ਹਨ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Says Kabeer, meditate on the Immaculate Lord."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਕਬੀਰ ਜੀ ਕਹਤੇ ਹੈਂ: ਤਤੋਂ ਕੀ ਰਹਤ ਸੰਜੁਗਤ ਹੂਏ ਨਿਰੰਜਨ ਕਾ ਧਿਆਨ ਕਰੋ॥☬ਪ੍ਰਸ਼ਨ: ਹਮ ਕੋ ਧਿਆਨ ਕਾ ਕਿਆ ਫਲ ਹੋਵੇਗਾ?"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਕਬੀਰ ਆਖਦਾ ਹੈ-ਮੈਂ ਮਾਇਆ ਤੋਂ ਰਹਿਤ ਪ੍ਰਭੂ ਨੂੰ ਸਿਮਰ ਰਿਹਾ ਹਾਂ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਧਿਆਵਉ = ਮੈਂ ਸਿਮਰ ਰਿਹਾ ਹਾਂ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Dice Kabir, contempla a tu Señor Inmaculado,"

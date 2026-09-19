@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਪੁਰ ਮਦ੍ਰ ਦੇਸ ਕੌ ਬਾਸੀ ॥"
 page = 1206
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਮਦ੍ਰ ਦੇਸ ਦੇ (ਕਿਸੇ) ਨਗਰ ਦਾ ਨਿਵਾਸੀ ਸੀ।"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਬ ਤੈ ਚਪਲ ਮਤੀ ਕੌ ਲ੍ਰਯੈ ਹੈਂ ॥"
 page = 1349
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਅਤੇ ਕਿਹਾ) ਜਦ ਤੂੰ ਚਪਲ ਮਤੀ ਨੂੰ ਲੈ ਕੇ ਆਵੇਂਗੀ,"

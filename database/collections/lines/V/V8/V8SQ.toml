@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਿ ਸਾਹਿਬਿ ਦਯਾਰਸਤੁ ਆਜ਼ਮ ਅਜ਼ੀਮ ॥"
 page = 1389
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Lord is Generous, the Highest of the High"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਹ) ਸਭ ਦੇਸ਼ਾਂ ਦਾ ਸੁਆਮੀ, ਵੱਡਿਆਂ ਤੋਂ ਵੀ ਵੱਡਾ,"

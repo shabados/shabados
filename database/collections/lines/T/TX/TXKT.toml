@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰਉਨ ਜਿਤੋ ਤੁਹ ਅੰਗਨ ਮੈ; ਸੁ ਸਭੈ ਸਮ ਨੀਰਹ ਕੀ ਆਵਟੈ ਹੋ ॥"
 page = 538
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Whatever blood is in you body, I shall destroy it my boiling like water"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰੇ ਅੰਗਾਂ ਵਿਚ ਜਿਤਨਾ ਵੀ ਲਹੂ ਹੈ; ਉਸ ਨੂੰ ਪਾਣੀ ਵਾਂਗ ਉਬਾਲ ਦਿਆਂਗਾ।"

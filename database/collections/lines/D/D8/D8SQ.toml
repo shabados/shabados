@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਸੇ ਦੇਵ ਗੈਣੰ ॥੭੯॥"
 page = 207
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The armies of the enemy were being destroyed, seeing which the gods smiled in heaven.79."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ ਵੇਖ ਕੇ) ਆਕਾਸ਼ ਵਿੱਚ ਦੇਵਤੇ ਹੱਸਣ ਲੱਗੇ ॥੭੯॥"

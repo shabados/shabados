@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਦ੍ਰਭਗਾ ਬਾਚ ਰਾਧੇ ਪ੍ਰਤਿ ॥"
 page = 349
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of Chandarbhaga addressed to Radha:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਦ੍ਰਭਗਾ ਨੇ ਰਾਧਾ ਨੂੰ ਕਿਹਾ:"

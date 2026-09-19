@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਲੂਟਿ ਤਰੁਨਿ ਮਨ ਲੀਨੋ; ਕਹਾ ਨਿਹਾਰਿਯੈ ॥"
 page = 1144
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਤੁਸੀਂ (ਇਕ) ਇਸਤਰੀ ਦਾ ਮਨ ਲੁਟ ਲਿਆ ਹੈ। (ਹੁਣ) ਕੀ ਵੇਖਦੇ ਹੋ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੰਡੀ ਦਇਓ ਬਿਦਾਰ; ਸ੍ਰਉਨ ਪਾਨ ਕਾਲੀ ਕਰਿਓ ॥"
 page = 93
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Chandi hath destroyed (the demons) and Kali hath drunk their blood.,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚੰਡੀ ਨੇ (ਰਕਤ-ਬੀਜ ਨੂੰ) ਪਾੜ ਦਿੱਤਾ ਹੈ ਅਤੇ ਕਾਲੀ ਨੇ ਲਹੂ ਪੀਤਾ ਹੈ।"

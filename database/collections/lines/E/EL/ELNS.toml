@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਰਛੀ ਤਬ ਭੂਪ ਚਲਾਇ ਦਈ ॥"
 page = 447
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਜੇ ਨੇ ਉਸੇ ਵੇਲੇ ਬਰਛੀ ਚਲਾ ਦਿੱਤੀ"

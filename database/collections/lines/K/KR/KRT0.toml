@@ -1,16 +1,16 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਪੂਰਬ ਤੋ ਪੱਛਮ ਤੱਕ ਦੇ ਸਾਰੇ ਸਰਦਾਰ ਅਤੇ ਬਾਦਸ਼ਾਹ"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਜ਼ਿ ਮਸ਼ਰਿਕ ਬ-ਮਗ਼ਰਿਬ ਹਮਾ ਸਰਵਰਾਂ ॥"
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "All the chiefs and the kings from the east to the west"

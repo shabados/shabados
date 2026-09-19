@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਸਬ ਬੇਦ ਪ੍ਰਚੁਰ ਜਗਿ ਕਰਾ ॥"
 page = 177
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Vishnu manifested himself as Brahma, he propagated the doctrines of the Vedas in the world."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦੋਂ ਹੀ ਸਾਰੇ ਜਗਤ ਵਿਚ ਵੇਦਾਂ ਦਾ ਪ੍ਰਚਾਰ ਕੀਤਾ।"

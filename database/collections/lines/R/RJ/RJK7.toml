@@ -1,23 +1,23 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਿਲੰਦੁਲ ਮਕਾਨੈਂ ॥"
 page = 7
 line = 7
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "That Thy Abode is the Highest!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਰਾ ਸਥਾਨ (ਮਕਾਨ) ਬਹੁਤ ਉੱਚਾ ਹੈ,"
 
 [[content]]
-asset = "DDTK"
+assets = ["DDTK"]
 type = "primary"
 data = "ਬਿਲੰਦੁਲ ਮਕਾਨੈਂ ॥"

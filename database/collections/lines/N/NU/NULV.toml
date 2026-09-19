@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਫ਼ਰੋਦ ਆਮਦਸ਼ ਅਸਪ ਕਰਦਸ ਸਲਾਮ ॥"
 page = 1426
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She dismounted, saluted the King,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬਾਹਰ ਆ ਕੇ ਉਹ ਘੋੜੇ ਤੋਂ ਉਤਰੀ ਅਤੇ ਬਾਦਸ਼ਾਹ ਨੂੰ ਸਲਾਮ ਕੀਤਾ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋ ਕੋਊ ਨਾਰਿ ਪਤਿਬ੍ਰਤਾ; ਜਾਪੁ ਜਪੈ ਹਿਤੁ ਲਾਇ ॥"
 page = 817
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘A Raja-like person was manifested"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜੇ ਕੋਈ ਪਤਿਬ੍ਰਤਾ ਇਸਤਰੀ ਹਿਤ ਨਾਲ ਜਾਪ ਕਰੇ,"

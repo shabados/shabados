@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਜੁਜਰ ਬੇਦੰ ਪੜੇ ਮਾਨ ਪਾਵੈ ॥"
 page = 150
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere the Yajur Veda was being recited and honours were received"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਤੇ ਯਜੁਰ ਵੇਦ ਦੇ ਪਾਠ ਨਾਲ ਮਾਣ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਸੀ।"

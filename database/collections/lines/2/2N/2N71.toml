@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਮ ਦਾਸ ਪੁਰ ਛਾਡਿ; ਕੀਰਤਿ ਪੁਰ ਆਇ ਕੈ ॥"
 page = 825
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Leaving Ramdaspur, she came to Keeratpur and with the beat of the"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਰਾਮ ਦਾਸ ਪੁਰ ਨੂੰ ਛਡ ਕੇ ਕੀਰਤਪੁਰ ਆ ਗਈ"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਭਿਰੇ ਛਾਡ ਸੰਕੰ ॥੨੫॥"
 page = 51
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They have slanting whiskers on their faces and fight without caring for their life. 25."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਨਿਸੰਗ ਹੋ ਕੇ ਲੜ ਰਹੇ ਹਨ ॥੨੫॥"

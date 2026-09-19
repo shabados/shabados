@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਊਚ ਨੀਚ ਕਾਤਰ ਸੁਭਟ; ਜਿਯਤ ਨ ਉਬਰਿਯੋ ਏਕ ॥੧੮॥"
 page = 973
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉੱਚੇ ਨੀਵੇਂ, ਡਰਪੋਕ ਅਤੇ ਬਹਾਦਰ ਕੋਈ ਵੀ ਜੀਵਿਤ ਨਾ ਬਚ ਸਕਿਆ ॥੧੮॥"

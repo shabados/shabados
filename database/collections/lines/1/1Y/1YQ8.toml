@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਪੇ ਆਪਿ, ਨ ਆਪੁ ਜਣਾਇਆ ॥੧੮॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "He himself is everything but never makes Himself noticed by anyone."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਆਪਣਾ ਆਪ (ਹੀ ਸਾਰੇ) ਹੋਏ, (ਫੇਰ ਆਪਣਾ) ਆਪ ਨਹੀਂ ਜਣਾਇਆ।"

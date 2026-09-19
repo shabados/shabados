@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੋਨਤ ਸੇ ਸਰ ਨੈਨ ਅਪਾਰਾ ॥"
 page = 1383
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਨ੍ਹਾਂ ਦੇ) ਲਹੂ ਰੰਗੇ ਨੈਣ ਸਰੋਵਰ ਵਰਗੇ ਵੱਡੇ ਸਨ"

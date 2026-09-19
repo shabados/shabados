@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਪਾਇਆ ਲਾਭੁ; ਸਚਾ ਧਨੁ ਲਾਹੇ ॥"
 page = 893
 line = 15
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "I have obtained the gain and profit of the True wealth of the Lord's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਸੁਆਮੀ ਦੇ ਨਾਮ ਦੀ ਸੱਚੀ ਦੌਲਤ ਦਾ ਲਾਭ ਤੇ ਨਫਾ ਪ੍ਰਾਪਤ ਕਰ ਲਿਆ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "I have obtained the profit of the true wealth."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸਚੇ ਨਾਮ ਧਨ ਕਾ ਲਾਭ ਹਮਨੇ ਪਾਇਆ ਹੈ, ਜਿਸ ਕਰ ਅਨੇਕ (ਲਾਹੇ) ਲਾਭ ਪ੍ਰਾਪਤਿ ਹੂਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਜੀਵ ਇਥੇ ਜਗਤ ਵਿਚ ਹਰਿ-ਨਾਮ-ਧਨ ਦਾ ਵਣਜ ਕਰਨ ਆਉਂਦੇ ਹਨ। ਪ੍ਰਭੂ ਦੀ ਭਗਤੀ ਕਰਨ ਵਾਲੇ ਬੰਦੇ) ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲਾ ਨਾਮ-ਧਨ-ਨਫ਼ਾ ਖੱਟ ਲੈਂਦੇ ਹਨ"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਸਚਾ = ਸਦਾ ਕਾਇਮ ਰਹਿਣ ਵਾਲਾ। ਲਾਹੇ = ਖੱਟੀ, ਨਫ਼ਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "la Riqueza Verdadera del Nombre del Señor."

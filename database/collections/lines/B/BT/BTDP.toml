@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਅੰਬਰਿ ਪਾਟੇ ਥਿਗਲੀ; ਕੂੜਿਆਰ ਕਰੰਦੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "The difficult and foolish task of sewing the torn sky like cloth could be done only by adepts in gossipping."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਅੰਬਰ ਪਾਟੇ ਹੋਏ ਨੂੰ 'ਬਿਗਲੀ' (ਟਾਕੀ) ਕੂੜੇ ਲੋਕ ਹੀ ਲਾਉਂਦੇ ਹਨ, (ਭਾਵ ਕੋਈ ਨਹੀਂ ਲਾ ਸਕਦਾ)।"

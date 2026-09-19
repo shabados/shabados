@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਹੁਰਿ ਮੁਝੈ ਮਦਨੰਕੁਸ ਦੀਜੈ ॥੮॥"
 page = 1354
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਫਿਰ ਮੈਨੂੰ ਮਦਨਾਂਕੁਸ਼ (ਪੁਰਸ਼ ਇੰਦਰੀ) ਦਿਓ ॥੮॥"

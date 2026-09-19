@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹਾ ਲੌ ਬਖਾਨੋ, ਜਿਤੇ ਭੂਪ ਆਏ ॥"
 page = 632
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿਥੋਂ ਤਕ ਵਰਣਨ ਕਰਾਂ ਜਿੰਨੇ ਕੁ ਰਾਜੇ ਆਏ ਹਨ।"

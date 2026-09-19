@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੜੇ ਤੇਜ ਮਾਣੰ ॥"
 page = 181
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Holding the Shakti (his power) in his hands the supremely glorious Shiva,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੇਜ ਅਤੇ ਗੌਰਵ ਨਾਲ (ਯੁੱਧ ਕਰਨ ਲਈ) ਚੜ੍ਹੇ ਸਨ।"

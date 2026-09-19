@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਕਾਲ ਪੁਰਖ ਬਾਚ ॥"
 page = 57
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The Word of the Non-Temporal Lord:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਕਾਲ ਪੁਰਖ ਨੇ ਕਿਹਾ:"

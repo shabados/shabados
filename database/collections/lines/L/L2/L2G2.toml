@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚੁਨਾ ਤੇਗ਼ ਬਰ ਵੈ ਜ਼ਦਾ ਖ਼ੂਬ ਰੰਗ ॥"
 page = 1423
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And hit him with such great intensity,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਸੁੰਦਰੀ ਨੇ ਅਜਿਹੀ ਤਲਵਾਰ ਮਾਰੀ"

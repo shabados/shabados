@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਠਿਯੋ ਧਰਮ ਧਾਮੰ ॥"
 page = 207
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Seeing the enemies Ram became persistent and serious,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਧਰਮ-ਧਾਮ ਸਰੂਪ (ਰਾਮ) ਡੱਟ ਗਏ।"

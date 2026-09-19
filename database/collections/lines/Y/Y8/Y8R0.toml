@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਹੀ ਕਉਨ ਸੋਗ ॥"
 page = 667
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Being absorbed in unexpressible Yoga, he was far away from all foundnesses"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਕੋਈ ਵੀ ਸੋਗ ਨਹੀਂ ਸੀ।"

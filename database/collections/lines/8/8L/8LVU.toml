@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਭਏ ਬਿਅਦਲੀ ਪਾਤਸਾਹ; ਕਲਿ ਕਾਤੀ ਉਮਰਾਇ ਕਸਾਈ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "In this cutter age the emporers are tyrants and their satraps butchers."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਪਾਤਸ਼ਾਹ ਅੰਨਯਾਈ ਹੋ ਗਏ, ਕਲਜੁਗ ਕੈਂਚੀ ਤੇ ਮੁਸਾਹਬ ਕਸਾਈ ਹੋ ਗਏ (ਭਾਵ ਪਰਜਾ ਬੱਕਰੀ ਨੂੰ ਕੋਹਣ ਲੱਗ ਪਏ)।"

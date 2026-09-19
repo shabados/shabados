@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕੂਟਿਓ ਕੋਟ ਕਟਕੁ ਇਕ ਜਾਮਾ ॥੧॥੨੧੬॥"
 page = 146
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "When Salya died, Ashvathama become the general, he beat violently millions of forces for one watch.1.216."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੇ) ਇਕ ਪਹਿਰ ਵਿਚ ਕਰੋੜਾਂ ਸੈਨਿਕਾਂ ਨੂੰ ਕੁਟ ਦਿੱਤਾ ॥੧॥੨੧੬॥"

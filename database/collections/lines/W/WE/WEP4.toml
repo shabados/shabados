@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਾਗਿ ਭਿਛਾ ਨਿਸਿ ਕੇ ਸਮੈ; ਰਹਤ ਤਿਸੀ ਦ੍ਰੁਮ ਜਾਇ ॥੬॥"
 page = 816
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "And come back to the tree in the evening.(6)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਭਿਖਿਆ ਮੰਗ ਕੇ ਰਾਤ ਵੇਲੇ ਉਸ ਬ੍ਰਿਛ ਵਿਚ ਜਾ ਰਹਿੰਦਾ ਸੀ ॥੬॥"

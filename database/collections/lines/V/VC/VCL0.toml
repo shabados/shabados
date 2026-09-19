@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਸ ਦਿਉਸ ਪਾਇ ਦਿਖੀ ਨ ਰੈਣ ॥੪੭॥"
 page = 638
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "On his manifestation, many instruments (musical) were played in the sky and for ten days, the presence o f night was not felt.47."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦਸ ਦਿਨ ਰਾਤ ਪਈ ਦਿਖੀ ਹੀ ਨਹੀਂ ॥੪੭॥"

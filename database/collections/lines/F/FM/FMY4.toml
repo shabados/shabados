@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਏਕ ਸਉ ਗਜ ਏਕ ਸਉ ਰਥਿ; ਦੁਇ ਸਹੰਸ੍ਰ ਤੁਖਾਰ ॥"
 page = 140
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "One hundred elephants, one hundred chariots and two thousand horses"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਕ ਸੌ ਹਾਥੀ, ਇਕ ਸੌ ਰਥ, ਦੋ ਹਜ਼ਾਰ ਘੋੜੇ,"

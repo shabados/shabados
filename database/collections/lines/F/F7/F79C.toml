@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਿਯਾ ਬੁਝਾਇ ਤ੍ਰਿਯ ਰੋਜ ਬੁਲਾਵੈ ॥"
 page = 1260
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੀਵਾ ਬੁਝਾ ਕੇ (ਉਹ) ਇਸਤਰੀ (ਉਸ ਨੂੰ) ਰੋਜ਼ ਬੁਲਾਉਂਦੀ"

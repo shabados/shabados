@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛਜਕਰਨਨ ਕੋ ਦੇਸ ਬਸਤ ਜਹ ॥"
 page = 1270
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਥੇ ਛਜਕਰਨਾਂ ਦਾ ਦੇਸ ਵਸਦਾ ਸੀ,"

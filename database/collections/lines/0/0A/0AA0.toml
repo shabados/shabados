@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਲਿ ਮਹੀਪ ਬਾਵਨ ਪਹਚਾਨਾ ॥"
 page = 625
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The affliction saw him as the destroyer of suffering and Bali saw him as Vaman"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਬਲੀ ਰਾਜੇ ਨੇ ਬਾਵਨ (ਅਵਤਾਰ) ਵਜੋਂ ਪਛਾਣ ਕੀਤੀ।"

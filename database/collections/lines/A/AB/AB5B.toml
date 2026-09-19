@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਪਰ ਕੋਊ ਨ ਪਰ ਸਕੇ; ਠਟਕਿ ਰਹੇ ਅਵਨੀਸ ॥੪੧॥"
 page = 1010
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "None could interfere and all the princes were shuddered with fear.(41)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ (ਅਰਜਨ) ਉਤੇ ਕੋਈ ਵੀ ਨਾ ਪੈ ਸਕਿਆ, ਸਾਰੇ ਰਾਜੇ ਠਠੰਬਰ ਕੇ ਰਹਿ ਗਏ ॥੪੧॥"

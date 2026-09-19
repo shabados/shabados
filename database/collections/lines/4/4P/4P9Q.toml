@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦਏ ਦੰਤਪੰਤੀ ਸਜੇ ਸਰਬ ਸਾਜੰ ॥"
 page = 271
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "They presented winsome horses, jewels, gems, pearls as well as elephants"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਸਾਰੇ ਸਾਜ਼ੋ-ਸਾਮਾਨ ਨਾਲ ਸਜੇ ਹੋਏ"

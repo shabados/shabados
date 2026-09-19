@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਵੇਦ ਪੁਰਾਣ ਵਖਾਣਦੇ; ਪਰਗਟੁ ਕਰਿ ਪਰਤਾਪੁ ਜਣਾਇਆ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "His magnificence has been clearly described in the Vedas and Puranas."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਵੇਦ ਪੁਰਾਣ (ਇਹ ਕਥਾ) ਕਹਿੰਦੇ ਹਨ (ਕਿ ਏਹ) ਪ੍ਰਗਟ ਕਰ ਕੇ ਪ੍ਰਤਾਪ ਦਿਖਾਇਆ ਹੈ।"

@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਆਵੈ ਜਾਇ ਭਵਾਈਐ; ਭਵਜਲੁ ਅੰਦਰਿ ਹੋਇ ਖੁਆਰੀ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Such a creature entangled in the cycle of the transmigration goes on suffering disgrace in the world-ocean."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਆਵਣ ਜਾਣ ਵਿਚ ਭਵਾਈਦਾ ਹੈ, ਸੰਸਾਰ ਸਮੁੰਦਰ ਵਿਚ ਸਦਾ ਭਸ ਖਰਾਬੀ ਰਹਿੰਦੀ ਹੈ।"

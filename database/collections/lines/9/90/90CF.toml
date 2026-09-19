@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਛੁਟੇ ਤੀਰ ਕਰਵਾਰ, ਕਾਤੀ ਕਟਾਰੀ ॥੩੦੪॥"
 page = 704
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "There was great stampede and the arms and weapons swords, shears, daggers etc. were struck.77.304."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤੀਰ ਛੁਟ ਰਹੇ ਹਨ ਅਤੇ ਤਲਵਾਰ, ਛੁਰੀਆਂ ਅਤੇ ਕਟਾਰਾਂ ਚਲ ਰਹੀਆਂ ਹਨ ॥੩੦੪॥"

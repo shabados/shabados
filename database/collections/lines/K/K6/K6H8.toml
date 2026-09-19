@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਨਾਮ ਤੁਪਕ ਕੇ ਹੋਤ ਹੈ; ਚੀਨ ਚਤੁਰ, ਚਿਤਿ ਲੇਹੁ ॥੬੬੭॥"
 page = 747
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Saying firstly the word “Jawaalaa” and then adding the word “Pragtaayani”, O wise men! the names of Tupak are formed.667."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਹ) ਨਾਮ ਤੁਪਕ ਦਾ ਹੈ। ਸੂਝਵਾਨੋ! ਵਿਚਾਰ ਕਰ ਲਵੋ ॥੬੬੭॥"

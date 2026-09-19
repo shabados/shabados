@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੀਤਿ ਸਰਬ ਪਛਿਮ ਦਿਸਾ; ਦਛਨ ਕੀਨ ਪਿਆਨ ॥"
 page = 600
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਾਰੀ ਪੱਛਮ ਦਿਸ਼ਾ ਨੂੰ ਜਿਤ ਕੇ (ਕਲਕੀ ਨੇ) ਦੱਖਣ ਦਿਸ਼ਾ ਵਲ ਚਾਲੇ ਪਾਏ ਹਨ।"

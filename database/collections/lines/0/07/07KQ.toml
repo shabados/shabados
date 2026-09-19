@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੁਨਿ ਪਤਿ ਬੈਠ ਰਹਤ ਪਛ ਭਏ ॥੪੫੩॥"
 page = 672
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The sages passed near him and the king of sages also sat there.453."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਉਸ ਦੇ ਕੁਝ ਪਿਛੇ ਮੁਨੀ ਰਾਜ ਇਕ ਥਾਂ ਬੈਠ ਗਿਆ ॥੪੫੩॥"

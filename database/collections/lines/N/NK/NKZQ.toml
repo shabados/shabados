@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਇਤਿ ਮਾਛੀ ਗੁਰੂ ਸਪਤਮੋ ਸਮਾਪਤੰ ॥੭॥"
 page = 650
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "End of the description of the adoption of Fisherman as the seventh Guru."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਥੇ ਮਾਛੀ ਸੱਤਵੇਂ ਗੁਰੂ ਦਾ ਪ੍ਰਸੰਗ ਸਮਾਪਤ ॥੭॥"

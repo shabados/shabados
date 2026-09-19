@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਨਾਮੁ ਜਪਤ ਗੋਬਿੰਦ; ਨਹ ਅਲਸਾਈਐ ॥"
 page = 456
 line = 8
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Be not lazy in repeating the World-Lord's Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸ੍ਰਿਸ਼ਟੀ ਦੇ ਸੁਆਮੀ ਦੇ ਨਾਮ ਦਾ ਉਚਾਰਨ ਕਰਨ ਵਿੱਚ ਆਲਸ ਨਾਂ ਕਰ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Chant the Naam, the Name of the Lord of the Universe; don't be lazy."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਭਾਈ! ਗੋਬਿੰਦ ਕਾ ਨਾਮੁ ਜਪਤੇ ਹੂਏ ਆਲਸ ਨਾ ਕਰੀਏ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਵਡਭਾਗੀਹੋ! ਗੋਬਿੰਦ ਦਾ ਨਾਮ ਜਪਦਿਆਂ (ਕਦੇ) ਆਲਸ ਨਹੀਂ ਕਰਨਾ ਚਾਹੀਦਾ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਨਹ ਅਲਸਾਈਐ = ਆਲਸ ਨਹੀਂ ਕਰਨਾ ਚਾਹੀਦਾ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "No seas flojo para meditar en el Señor,"

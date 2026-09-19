@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਹੀ ਗੋਲ ਬਾਧੇ, ਚਲੇ ਸਿਧ ਆਏ ॥੬੯॥"
 page = 1243
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਥੇ ਗੋਲ ਘੇਰੇ ਬਣਾ ਕੇ ਸਿਧ ਪਾਲ (ਆਪ) ਆ ਗਏ ॥੬੯॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅਬ ਮੋ ਸੌ ਐਸੇ ਕਹਤ; ਹੋਹਿ ਹਮਾਰੀ ਨਾਰਿ ॥੨੦॥"
 page = 847
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘And now he says, “You are my woman.” ‘(20)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੁਣ ਮੈਨੂੰ ਇੰਜ ਕਹਿੰਦਾ ਹੈ ਕਿ ਮੇਰੀ ਪਤਨੀ ਬਣ ਜਾ ॥੨੦॥"

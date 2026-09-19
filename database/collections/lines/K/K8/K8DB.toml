@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਬਨੀ ਤਾ ਕੀ ਬਾਤ ॥੪॥"
 page = 635
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“Brahma had also become egoistic in his mind and the evil notions arose there, but when he took birth for seven times, he was then redeemed.4."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਉਸ ਦੀ ਗੱਲ ਬਣੀ ॥੪॥"

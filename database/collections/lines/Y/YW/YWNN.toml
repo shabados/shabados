@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੜੰ ਸ੍ਰੋਣ ਚਲੇ ਮਧੰ ਮੁਲਤਾਣੰ ॥੩੧॥"
 page = 169
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The demon-king fought in great fury and there was a flood of blood in the battlefield.31."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਮੁਲਤਾਨ ਵਿਚ ਲਹੂ ਦਾ ਹੜ ਵਗਣ ਲਗ ਗਿਆ ॥੩੧॥"

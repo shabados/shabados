@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਤੇ ਦੇਵਤਾ ਆਪਿ ਕਾਟੇ ਬਚਾਏ ॥"
 page = 101
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Were intercepted by the goddess to protect herself."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਤਨੇ ਹੀ ਦੇਵੀ ਨੇ ਕਟ ਕੇ ਆਪਣੇ ਆਪ ਨੂੰ ਬਚਾ ਲਿਆ।"

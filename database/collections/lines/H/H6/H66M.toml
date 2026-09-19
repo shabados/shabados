@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਰਿ ਪੰਦ੍ਰਸਵੋ ਗੁਰੁ ਪਾਨ ਪਰੇ ॥੩੫੮॥"
 page = 664
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Removing the illusions of his body ad mind, Dutt fell down at the feet of his Fifteenth Guru in this way.358."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਨੂੰ) ਪੰਦ੍ਰਵਾਂ ਗੁਰੂ ਧਾਰਨ ਕਰ ਕੇ ਪੈਰੀਂ ਪਏ ॥੩੫੮॥"

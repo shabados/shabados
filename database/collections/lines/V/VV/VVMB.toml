@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਛਲੀ ਬੰਦਰ ਕੋ ਰਹੇ; ਦ੍ਰੁਪਦ ਦੇਵ ਬਡਭਾਗ ॥"
 page = 1007
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "At the pier of Machli Bandar, an auspicious person, Drupad Dev usedto live."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੱਛਲੀ ਬੰਦਰਗਾਹ ਵਿਚ ਦ੍ਰੁਪਦ ਦੇਵ ਨਾਂ ਦਾ ਵਡਭਾਗੀ (ਰਾਜਾ) ਰਹਿੰਦਾ ਸੀ।"

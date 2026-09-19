@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬਾਮਨ ਹੁਇ ਤੁਹਿ ਸੇ ਸੰਗ ਛਤ੍ਰੀ ਕੇ; ਚਾਹਤ ਹੈ ਕਰ ਜੁਧੁ ਮਚਾਯੋ ॥੨੩੨੦॥"
 page = 532
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "We, being Brahmins, want to fight with Kshatiya like you.2320."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਿ ਬ੍ਰਾਹਮਣ ਹੋ ਕੇ (ਅਸੀਂ) ਤੇਰੇ (ਵਰਗੇ) ਛਤ੍ਰੀ ਨਾਲ ਯੁੱਧ ਮਚਾਉਣਾ ਚਾਹੁੰਦੇ ਹਾਂ ॥੨੩੨੦॥"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਧਰਮ ਭਗਨਿ ਮੁਹਿ ਸੰਗ ਲੈ; ਰੁਦ੍ਰ ਦੇਹਰੇ ਜਾਇ ॥"
 page = 984
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘The righteous-sister has taken me to the temple,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੇਰੀ ਧਰਮ ਭੈਣ ਮੈਨੂੰ ਨਾਲ ਲੈ ਕੇ ਰੁਦ੍ਰ ਦੇ ਮੰਦਿਰ ਵਿਚ ਗਈ"

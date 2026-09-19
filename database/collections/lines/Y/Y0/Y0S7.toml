@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤੁਰਤ ਰੋਗ ਹਮਰੋ ਕਟਿਯੋ; ਸੁਨਹੁ ਬੈਦ, ਉਪਚਾਰ ॥੨੯॥"
 page = 893
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Then, listen hakim, my curse was eliminated immediately.’(29)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਵੈਦ! ਸੁਣੋ, ਇਸ ਇਲਾਜ ਨਾਲ ਮੇਰਾ ਰੋਗ ਤੁਰਤ ਕਟ ਗਿਆ ਸੀ ॥੨੯॥"

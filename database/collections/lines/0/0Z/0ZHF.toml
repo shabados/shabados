@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਅੰਜਨੀ ਗੰਜਨੀ ਸਾਕੜੀ ਸੀਤਲਾ ॥"
 page = 680
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "“You are Anjani, you are Shitala, the destroyer of all"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਹੇ ਅੰਜਨੀ, ਗੰਜਨੀ, ਸਾਕੜੀ, ਸੀਤਲਾ,"

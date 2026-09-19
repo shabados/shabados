@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋ ਸੋ ਕਰੋ ਤੁਮੈ ਅਰਦਾਸਾ ॥"
 page = 73
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "All hose spectacles which have been visualized by me, I dedicate all of them to Thee."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਸਾਰੇ (ਮੈਂ) ਤੁਹਾਡੇ ਅਗੇ ਪੇਸ਼ ਕਰਦਾ ਹਾਂ।"

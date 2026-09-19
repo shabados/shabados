@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਿਹ ਹਿਤ ਨਾਰਿ ਜਤਨ ਬਹੁ ਕੀਨੇ ॥"
 page = 879
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਜੇ ਦੇ ਪ੍ਰੇਮ ਨੂੰ ਦੋਬਾਰਾ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ) ਉਸ ਇਸਤਰੀ ਨੇ ਬਹੁਤ ਯਤਨ ਕੀਤੇ"

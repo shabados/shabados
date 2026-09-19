@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸ੍ਰੀ ਗਜਗਾਹ ਮਤੀ ਤਿਹ ਨਾਰੀ ॥"
 page = 1298
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਦੀ ਗਜਗਾਹ ਮਤੀ ਨਾਂ ਦੀ ਰਾਣੀ ਸੀ,"

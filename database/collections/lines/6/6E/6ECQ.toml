@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਜਿਸਹਿ ਪਰਾਪਤਿ; ਹਰਿ ਚਰਣ ਨਿਧਾਨ ॥"
 page = 199
 line = 2
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Who has obtained the treasure of God's feet."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਨੇ ਵਾਹਿਗੁਰੂ ਦੇ ਚਰਨਾਂ ਦਾ ਖਜਾਨਾ ਹਾਸਲ ਕੀਤਾ ਹੈ,"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Slave Nanak is a sacrifice to those"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਕੋ ਹਰੀ ਕੇ ਚਰਣ ਸਰਬ ਸੁਖੋਂ ਕਾ ਖਜਾਨਾ ਗੁਰੋਂ ਦ੍ਵਾਰਾ ਪ੍ਰਾਪਤਿ ਹੂਏ ਹੈਂ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਦੇ ਚਰਨਾਂ ਦੇ ਖ਼ਜ਼ਾਨੇ ਜਿਸ ਮਨੁੱਖ ਨੂੰ ਲੱਭ ਪੈਂਦੇ ਹਨ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਜਿਸਹਿ = ਜਿਸ ਮਨੁੱਖ ਨੂੰ। ਨਿਧਾਨ = ਖ਼ਜ਼ਾਨੇ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Oh, dice Nanak, el Esclavo del Señor,"

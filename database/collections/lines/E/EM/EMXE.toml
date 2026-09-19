@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮਹਾ ਭੇਰ ਭਾਰੀਨ ਸੌ ਨਾਦ ਬਜੈ ॥"
 page = 943
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਡਰਾਉਣੀ ਆਵਾਜ਼ ਵਿਚ ਵੱਡੀਆਂ ਭੇਰਾਂ ਵਜ ਰਹੀਆਂ ਹਨ।"

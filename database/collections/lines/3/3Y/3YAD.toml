@@ -1,18 +1,18 @@
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "translation"
 language = "pa"
 data = "ਉਨ੍ਹਾਂ ਸਭਨਾਂ ਦਾ ਮੂੰਹ ਮੇਰੇ ਧਿਆਨ ਵਲ ਭਵਾ ਦੇ,"
 
 [[content]]
-asset = "GSNL"
+assets = ["GSNL"]
 type = "primary"
 data = "ਰੂ ਨੁਮਾ ਜੁਮਲਾ ਰਾ ਸੂਇ ਫ਼ਿਕਰਮ ॥"
 page = 1
 line = 46
 
 [[content]]
-asset = "KEGP"
+assets = ["KEGP"]
 type = "translation"
 language = "en"
 data = "Divert their attention and face towards My meditation"

@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹਠੈ ਐਠਿਯਾਰੇ ਮਹਾਬੀਰ ਧਾਏ ॥"
 page = 930
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਵੱਡੇ ਹਠੀ ਅਤੇ ਹੈਂਕੜਬਾਜ਼ ਸੂਰਮੇ ਪੈ ਗਏ ਹਨ।"

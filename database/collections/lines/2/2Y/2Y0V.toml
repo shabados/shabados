@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਹੋ ਅਹੀਰ ਮੈ ਕ︀ਯਾ ਕਰੋ ਕਟਿਯਾ ਮੁਹਿ ਦੁਖ ਦੇਤ ॥"
 page = 845
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘What can I do, the calf is giving me lot of trouble."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸਤਰੀ ਨੇ ਕਿਹਾ) ਹੇ ਗੁਜਰਾ! ਮੈਂ ਕੀ ਕਰਾਂ, ਮੈਨੂੰ (ਮਝ ਦਾ) ਕਟਾ ਬਹੁਤ ਤੰਗ ਕਰ ਰਿਹਾ ਹੈ।"

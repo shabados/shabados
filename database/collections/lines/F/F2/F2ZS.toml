@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਪਹਿਲੇ ਦ︀ਯੋਸ ਸਾਥ ਚਲ ਆਵਾ ॥"
 page = 676
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The king called him in order to see him and he (Parasnath) came on the very first day with the messengers"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਹ ਪਹਿਲੇ ਦਿਨ ਹੀ (ਬੁਲਾਉਣ ਗਏ ਵਿਅਕਤੀ ਦੇ) ਨਾਲ ਚਲ ਕੇ ਆ ਗਿਆ।"

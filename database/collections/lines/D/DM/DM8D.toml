@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਾ ਸਮ ਔਰ ਨ ਜਗ ਮੈ ਬਾਮਾ ॥"
 page = 839
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "She was given the name of Sumer Kaur  there was none other like her in the world."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਵਰਗੀ ਸੰਸਾਰ ਵਿਚ ਕੋਈ ਹੋਰ ਇਸਤਰੀ ਨਹੀਂ ਸੀ।"

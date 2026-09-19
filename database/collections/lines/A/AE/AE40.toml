@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਰਿ ਸਭਾ ਸੁਭ ਬੋਲਿ ਬਡੇ ਭਟ; ਔਰ ਉਪਾਇ ਕਹੌ ਸੁ ਕਰੈ ॥"
 page = 990
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Some very brave soldiers came and called aloud,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਰਾਣੀ ਨੇ) ਵਡਿਆਂ ਸੂਰਮਿਆਂ ਦੀ ਸਭਾ ਬੁਲਾ ਲਈ ਅਤੇ ਵਿਚਾਰ ਕੀਤਾ ਕਿ ਹੁਣ ਦਸੋ, ਕੀ ਉਪਾ ਕੀਤਾ ਜਾਏ।"

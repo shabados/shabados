@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਮੈ ਜੁ ਕੁਬੋਲ ਨਾਰਿ ਕਹ ਕਹੇ ॥"
 page = 1154
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਮੈਂ ਜੋ ਕੁਬੋਲ ਇਸਤਰੀ ਨੂੰ ਕਹੇ ਸਨ,"

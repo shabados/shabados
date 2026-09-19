@@ -1,42 +1,42 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਸਿਰੀਰਾਗੁ ਮਹਲਾ ੩ ਘਰੁ ੧ ਅਸਟਪਦੀਆ ॥"
 page = 64
 line = 14
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Sri Rag, Third Guru. Eight Stanzas."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸਿਰੀ ਰਾਗ, ਤੀਜੀ ਪਾਤਸ਼ਾਹੀ। ਅਠ ਪਦੇ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Siree Raag, Third Mehl, First House, Ashtpadheeyaa:"
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਅਬ ਸਿਰੀ ਰਾਗ ਘਰੁ ੧ ਮੇਂ ਗੁਰੂ ਅਮਰ ਦਾਸ ਜੀ ਕੀਆਂ ਅਸਟਪਦੀਆਂ ਹੈਂ:"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਰਾਗ ਸਿਰੀਰਾਗੁ, ਘਰ ੧ ਵਿੱਚ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਦੀ ਅੱਠ-ਬੰਦਾਂ ਵਾਲੀ ਬਾਣੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Siri Rag, Mejl Guru Amar Das, Tercer Canal Divino. Ashtapadis"

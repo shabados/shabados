@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜੋਊ ਵਾ ਰਸ ਕੇ ਚਸਕੇ ਰਸ ਹੈਂ ॥"
 page = 32
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Those who are absorbed with the ambrosia of the Name even by Mistake !"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਨ੍ਹਾਂ ਨੂੰ ਉਸ ਰਸ ਦਾ ਚਸਕਾ ਲਗ ਗਿਆ ਹੈ,"

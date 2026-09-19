@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਾ ਤੇ ਯਾ ਕੀ ਕਬਰ ਖਨਿ; ਗਾਡਹੁ ਇਹੀ ਬਨਾਇ ॥"
 page = 953
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "‘Making hIs grave there, you bury him,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸ ਲਈ ਇਸ ਦੀ ਕਬਰ ਪੁਟ ਕੇ ਇਥੇ ਹੀ ਦਫ਼ਨਾ ਦਿਓ"

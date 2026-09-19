@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੂਤਮਤੀ ਦਾਸੀ ਹੁਤੀ; ਤਬ ਹੀ ਲਈ ਬੁਲਾਇ ॥"
 page = 1103
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਉਸ ਦੀ) ਦੂਤਮਤੀ ਨਾਂ ਦੀ ਇਕ ਦਾਸੀ ਸੀ। (ਉਸ ਨੂੰ) ਉਸੇ ਵੇਲੇ ਬੁਲਾ ਲਿਆ।"

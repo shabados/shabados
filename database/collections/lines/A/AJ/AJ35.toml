@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਲਤ ਚਲਤ ਸਰਤਾ ਤਟ ਆਯੋ ॥"
 page = 859
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "But she said that she would definitely go and would go without the rope,"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਅਤੇ ਚਲਦਾ ਚਲਦਾ ਨਦੀ ਦੇ ਕੰਢੇ ਆ ਗਿਆ।"

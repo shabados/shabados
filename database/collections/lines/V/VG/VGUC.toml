@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਦੇਵੀ ਦੇਵ ਰਿਖੀਸੁਰਾ; ਭੈਰਉ ਖੇਤ੍ਰਪਾਲ ਬਹੁ ਮੇਲੇ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "Many are the goodesses, gods, rsis, bhairavs and the protectors of the regions."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਦੇਵੀ, ਦੇਵ, ਰਿਖੀ, ਭੈਰਉਂ, ਖੇਤ੍ਰਪਾਲ ਬਹੁਤ ਤਰ੍ਹਾਂ ਦੇ ਮੇਲੇ (ਸਮੂਹ)।"

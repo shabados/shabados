@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤ੍ਰਿਯ ਕੋ ਕਛੁਕ ਬੈਨ ਨ ਕਹਿਯੋ ॥੧੧॥"
 page = 984
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He was astcnished but he did not dispute the woman.(11)"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਇਸਤਰੀ ਨੂੰ ਕੁਝ ਵੀ ਬਚਨ ਨਾ ਕਿਹਾ ॥੧੧॥"

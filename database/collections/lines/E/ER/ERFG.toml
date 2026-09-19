@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਿਤ੍ਰ ਰੇਖਾ ਸੁਣਿ ਏ ਬਚਨ; ਹਿਤੂ ਹੇਤ ਦੁਖ ਪਾਇ ॥"
 page = 1015
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Chitar Rekha, after listening, became very concerned."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਚਿਤ੍ਰਰੇਖਾ ਨੇ ਬਚਨ ਸੁਣ ਕੇ (ਆਪਣੀ) ਪਿਆਰੀ ਸਹੇਲੀ ਲਈ ਬਹੁਤ ਦੁਖ ਪਾਇਆ।"

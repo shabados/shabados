@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਬ੍ਰਹਮਾ ਬਿਸਨ ਸਭੈ ਡਰਪਾਨੇ ॥"
 page = 1363
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਬ੍ਰਹਮਾ ਅਤੇ ਵਿਸ਼ਣੂ ਆਦਿ ਸਾਰੇ ਡਰ ਗਏ"

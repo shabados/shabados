@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਤਬ ਨਾਰਦ ਚਲਿ ਗਯੋ; ਨਿਕਟਿ ਭਟ ਕ੍ਰਿਸਨ ਕੇ ॥"
 page = 373
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਤਦ ਨਾਰਦ ਸ੍ਰੀ ਕਿਸ਼ਨ ਯੋਧੇ ਕੋਲ ਚਲ ਕੇ ਗਿਆ।"

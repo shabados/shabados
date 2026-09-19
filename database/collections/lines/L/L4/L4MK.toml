@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸਖੀ ਬਾਚ ਚਿਤ੍ਰ ਰੇਖਾ ਸੋ ॥"
 page = 518
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Speech of the friend addressed to Chitrarekha:"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸਖੀ ਨੇ ਚਿਤ੍ਰਰੇਖਾ ਨੂੰ ਕਿਹਾ:"

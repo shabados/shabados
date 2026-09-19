@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਅਪੁਨਾ ਨਾਮੁ; ਆਪੇ ਦੀਆ ॥"
 page = 623
 line = 12
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "The Lord Himself blesses him with His Name."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਸੁਆਮੀ ਖੁਦ ਉਸ ਨੂੰ ਆਪਣੇ ਨਾਮ ਦੀ ਦਾਤ ਦਿੰਦਾ ਹੈ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "He Himself bestows His Name."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਪਰਮੇਸ੍ਵਰ ਨੇ ਆਪਣਾ ਨਾਮ ਦੀਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "ਪਰਮਾਤਮਾ ਨੇ ਆਪ ਹੀ (ਆਪਣੇ ਸੇਵਕ ਨੂੰ) ਆਪਣਾ ਨਾਮ ਬਖ਼ਸ਼ਿਆ ਹੈ,"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਆਪੇ = ਆਪ ਹੀ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "El Señor Mismo lo bendice con Su Nombre;"

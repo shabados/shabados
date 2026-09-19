@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਿਹ ਕਰਮ ਭਰਮ, ਨਹੀ ਜਾਤ ਪਾਤ ॥"
 page = 29
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Which is without action delusion caste and lineage!"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਜਿਸ ਵਿਚ ਕਰਮ, ਜਾਤਿ, ਬਰਾਦਰੀ ਦਾ ਕੋਈ ਭਰਮ ਭੁਲੇਖਾ ਨਹੀਂ ਹੈ,"

@@ -1,48 +1,48 @@
 [[content]]
-asset = "SSA2"
+assets = ["SSA2"]
 type = "primary"
 data = "ਧੰਨੁ ਸੁ ਵੇਲਾ; ਜਿਤੁ ਮੈ. ਸਤਿਗੁਰੁ ਮਿਲਿਆ ॥"
 page = 99
 line = 10
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "en"
 data = "Blessed is the time when I met the True Guru."
 
 [[content]]
-asset = "SBMS"
+assets = ["SBMS"]
 type = "translation"
 language = "pa"
 data = "ਮੁਬਾਰਕ ਹੈ ਉਹ ਸਮਾਂ ਜਦ ਮੈਂ ਸੱਚੇ ਗੁਰਾਂ ਨੂੰ ਭੇਟਿਆ।"
 
 [[content]]
-asset = "DSSK"
+assets = ["DSSK"]
 type = "translation"
 language = "en"
 data = "Blessed is that time when I meet the True Guru."
 
 [[content]]
-asset = "NKFT"
+assets = ["NKFT"]
 type = "translation"
 language = "pa"
 data = "ਸੋ ਵੇਲਾ ਧੰਨ ਹੈ ਜਿਸ ਵਕਤ ਮੇਰੇ ਕੋ ਸਤਿਗੁਰੁ ਮਿਲਿਆ ਹੈ॥"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "translation"
 language = "pa"
 data = "(ਮੇਰੇ ਭਾ ਦਾ) ਉਹ ਵੇਲਾ ਭਾਗਾਂ ਵਾਲਾ (ਸਾਬਤ ਹੋਇਆ) ਜਿਸ ਵੇਲੇ ਮੈਨੂੰ ਸਤਿਗੁਰੂ ਮਿਲ ਪਿਆ।"
 
 [[content]]
-asset = "PSST"
+assets = ["PSST"]
 type = "note"
 language = "pa"
 data = "ਧੰਨੁ = {घन्य} ਭਾਗਾਂ ਵਾਲਾ। ਜਿਤੁ = ਜਿਸ (ਵੇਲੇ) ਵਿਚ। ਮੈ = ਮੈਨੂੰ।"
 
 [[content]]
-asset = "SNST"
+assets = ["SNST"]
 type = "translation"
 language = "es"
 data = "Bendita es la hora en que encuentro al Verdadero Guru."

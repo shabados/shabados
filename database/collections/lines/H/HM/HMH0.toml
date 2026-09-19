@@ -1,16 +1,16 @@
 [[content]]
-asset = "VGRG"
+assets = ["VGRG"]
 type = "primary"
 data = "ਪਾਇ ਤਰਾਜੂ ਤੋਲੁ; ਨ ਅਤੁਲੁ ਤੁਲਾਈਐ ॥"
 
 [[content]]
-asset = "JVBG"
+assets = ["JVBG"]
 type = "translation"
 language = "en"
 data = "It cannot be purchased; on weighing scale it cannot be weighed."
 
 [[content]]
-asset = "VBGS"
+assets = ["VBGS"]
 type = "translation"
 language = "pa"
 data = "ਤੱਕੜੀ ਵਿਚ ਵੱਟੇ ਪਾਕੇ ਨਾ ਤੋਲੀ ਜਾਣ ਵਾਲੀ ਵਸਤੂ ਤੁਲ ਨਹੀਂ ਸਕਦੀ।"

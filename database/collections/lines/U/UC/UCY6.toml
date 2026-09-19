@@ -1,11 +1,11 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਸੋਊ ਦੈ ਕੈ ਬਿਖੁ, ਤ੍ਰਿਯ ਘਾਯੋ ॥੨॥"
 page = 1073
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੂੰ ਵੀ ਇਸਤਰੀ ਨੇ ਜ਼ਹਿਰ ਦੇ ਕੇ ਮਾਰ ਦਿੱਤਾ ॥੨॥"

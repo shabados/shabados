@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਦੁਰਗਾ ਸਭ ਬਚਾਈਆਂ, ਢਾਲ ਸੰਭਾਲ ਕੈ ॥"
 page = 125
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Durga saved herself from all, holding her shield carefully."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਦੁਰਗਾ ਨੇ ਢਾਲ ਲੈ ਕੇ ਸਭ ਤੋਂ (ਆਪਣੇ ਆਪ ਨੂੰ) ਬਚਾ ਲਿਆ।"

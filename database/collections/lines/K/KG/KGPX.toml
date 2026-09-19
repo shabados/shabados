@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਆਵਤ ਹੈ ਸਿਸਪਾਲ ਇਤੈ ਮੁਹਿ ਬ︀ਯਾਹਨ ਕਉ ਪ੍ਰਭ ਢੀਲ ਨ ਲਾਵਹੁ ॥"
 page = 495
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Shishupal is coming to maryy me, therefore you should avoid even the slightest delay"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਸ਼ਿਸ਼ੁਪਾਲ ਮੈਨੂੰ ਵਿਆਹੁਣ ਲਈ ਇਥੇ ਆ ਰਿਹਾ ਹੈ, (ਇਸ ਲਈ) ਹੇ ਸ੍ਰੀ ਕ੍ਰਿਸ਼ਨ! ਢਿਲ ਨਾ ਲਾਓ।"

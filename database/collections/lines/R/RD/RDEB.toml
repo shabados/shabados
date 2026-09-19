@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਚਾਰੇ ਜੁਗ ਕਹਾਣੀ; ਚਲਗ ਤੇਗ ਦੀ ॥"
 page = 122
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "The story of the sword will be related in all the four ages."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਦੇਵੀ ਦੀ) ਤਲਵਾਰ ਦੀ ਕਹਾਣੀ ਚੌਂਹਾਂ ਯੁਗਾਂ ਤਕ ਚਲੇਗੀ।"

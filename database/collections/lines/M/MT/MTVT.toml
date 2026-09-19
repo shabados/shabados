@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਜਛ ਭੁਜੰਗ ਅਕਾਸ ਬਨਾਯੋ ॥"
 page = 903
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "He created Jachh, Bhujang in the heaven and"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਉਸ ਨੇ ਯਕਸ਼, ਸੱਪ ਅਤੇ ਆਕਾਸ਼ ਬਣਾਏ ਹਨ"

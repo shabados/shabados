@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਰਾਤਿ ਬੀਚ ਕਰਿ ਆਠ ਸੈ; ਪਗਰੀ ਲਈ ਉਤਾਰਿ ॥"
 page = 896
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "In one night alone, eight hundred turbans were taken away."
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "(ਇਸ ਤਰ੍ਹਾਂ) ਰਾਤ ਵਿਚ ਹੀ ਅੱਠ ਸੌ ਪਗੜੀਆਂ ਉਤਾਰ ਲਈ।"

@@ -1,17 +1,17 @@
 [[content]]
-asset = "DGDG"
+assets = ["DGDG"]
 type = "primary"
 data = "ਕਹੂੰ ਅਗਨ ਹੋਤ੍ਰ, ਕਹੂੰ ਤੀਰਥ ਧਰਮ ॥੧੨॥੧੩੨॥"
 page = 30
 
 [[content]]
-asset = "DSKO"
+assets = ["DSKO"]
 type = "translation"
 language = "en"
 data = "Somewhere havens are performed and somewhere at pilgrim-stations the befitting rituals are being followed! 12. 132"
 
 [[content]]
-asset = "RSJD"
+assets = ["RSJD"]
 type = "translation"
 language = "pa"
 data = "ਕਈ ਹਵਨ ਕਰਦੇ ਹਨ ਅਤੇ ਕਈ ਤੀਰਥਾਂ ਉਤੇ ਜਾ ਕੇ ਧਰਮ ਦੇ ਕਾਰਜ ਕਰਦੇ ਹਨ ॥੧੨॥੧੩੨॥"
