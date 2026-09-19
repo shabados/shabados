@@ -58,7 +58,7 @@ export const lines = sqliteTable(
   (t) => [index('line_group_id_order_index').on(t.lineGroupId, t.lineGroupOrder)],
 )
 
-type LinePayload = DistributedOmit<Lines['content'][number], 'asset' | 'data'>
+type LinePayload = DistributedOmit<Lines['content'][number], 'assets' | 'data'>
 
 export const assetLines = sqliteTable(
   'asset_lines',

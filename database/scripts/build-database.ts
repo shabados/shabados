@@ -96,17 +96,19 @@ await importCollection<Asset, typeof schema.assets>(
 )
 
 await importCollection<Lines, typeof schema.lines>('lines', schema.lines, ({ content }, id) => {
-  for (const [index, { asset, data, ...additional }] of content.entries()) {
-    statements.push(
-      db.insert(schema.assetLines).values({
-        lineId: id,
-        assetId: asset,
-        data,
-        type: additional.type,
-        additional,
-        priority: index + 1,
-      }),
-    )
+  for (const [index, { assets, data, ...additional }] of content.entries()) {
+    for (const assetId of assets) {
+      statements.push(
+        db.insert(schema.assetLines).values({
+          lineId: id,
+          assetId,
+          data,
+          type: additional.type,
+          additional,
+          priority: index + 1,
+        }),
+      )
+    }
   }
 
   return { id }

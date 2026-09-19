@@ -4,22 +4,29 @@
   "description": "A fundamental, abstract unit of content, backed by a consistent id.",
   "required": ["content"],
   "$defs": {
+    "assets": {
+      "description": "The assets that agree on this entry, verbatim. Always a list, even for one.",
+      "type": "array",
+      "items": { "$ref": "common.json#/$defs/Identifier" },
+      "minItems": 1,
+      "uniqueItems": true
+    },
     "baseContent": {
       "type": "object",
-      "required": ["asset", "type", "data"],
+      "required": ["assets", "type", "data"],
       "properties": {
         "type": { "type": "string" },
-        "asset": { "$ref": "common.json#/$defs/Identifier" },
+        "assets": { "$ref": "#/$defs/assets" },
         "data": { "type": "string" }
       }
     },
     "primaryContent": {
       "type": "object",
-      "required": ["type", "asset", "data"],
+      "required": ["type", "assets", "data"],
       "additionalProperties": false,
       "properties": {
         "type": { "const": "primary" },
-        "asset": { "$ref": "common.json#/$defs/Identifier" },
+        "assets": { "$ref": "#/$defs/assets" },
         "data": { "type": "string" },
         "page": { "type": "integer" },
         "line": { "type": "integer" }
@@ -27,34 +34,34 @@
     },
     "translationContent": {
       "type": "object",
-      "required": ["type", "language", "asset", "data"],
+      "required": ["type", "language", "assets", "data"],
       "additionalProperties": false,
       "properties": {
         "type": { "const": "translation" },
         "language": { "$ref": "common.json#/$defs/LanguageCode" },
-        "asset": { "$ref": "common.json#/$defs/Identifier" },
+        "assets": { "$ref": "#/$defs/assets" },
         "data": { "type": "string" }
       }
     },
     "noteContent": {
       "type": "object",
-      "required": ["type", "language", "asset", "data"],
+      "required": ["type", "language", "assets", "data"],
       "additionalProperties": false,
       "properties": {
         "type": { "const": "note" },
         "language": { "$ref": "common.json#/$defs/LanguageCode" },
-        "asset": { "$ref": "common.json#/$defs/Identifier" },
+        "assets": { "$ref": "#/$defs/assets" },
         "data": { "type": "string" }
       }
     },
     "pronunciationContent": {
       "type": "object",
-      "required": ["type", "language", "asset", "data"],
+      "required": ["type", "language", "assets", "data"],
       "additionalProperties": false,
       "properties": {
         "type": { "const": "pronunciation" },
         "language": { "$ref": "common.json#/$defs/LanguageCode" },
-        "asset": { "$ref": "common.json#/$defs/Identifier" },
+        "assets": { "$ref": "#/$defs/assets" },
         "data": { "type": "string" }
       }
     }

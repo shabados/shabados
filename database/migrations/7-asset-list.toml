@@ -1,0 +1,14 @@
+description = "asset becomes assets, a list, on every content entry"
+
+why = """
+A [[content]] entry could only ever name one asset, so two assets agreeing on a
+line's text word for word had no way to say so in the data — it meant writing the
+same string twice, with nothing recording that the duplication was deliberate
+agreement rather than an accident.
+
+assets is always a list, even for a single asset, so authoring never has to
+choose between a singular and a plural shape. This is the field-shape change
+only; it moves no text, merges no entries, and rewrites no data. It is a
+prerequisite for adding the Ardaas SRMP asset without duplicating the lines it
+agrees with word for word — see database/scripts/pluralise.ts.
+"""

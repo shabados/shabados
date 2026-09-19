@@ -19,7 +19,7 @@ const BUNDLED = ['JAPJ', 'JAAP', 'TPSS', 'BNCP', 'ANND', 'RHRS', 'SHLA'] as cons
 const OUT_DIRS = ['../apps/ios/ShabadOS/Resources', '../apps/android/app/src/main/assets']
 
 type LineContent = {
-  asset: string
+  assets: string[]
   type: string
   language?: string
   data?: string
