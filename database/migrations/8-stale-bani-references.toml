@@ -1,0 +1,39 @@
+description = "Point three bani references at the lines they name"
+issue = 29
+
+# AKUS, BRMH and SKMI each list one line ID that no line carries. The same
+# report also named two in ASKV; those were pointed at their lines by
+# migration 5, so only three remain.
+#
+# Each replacement is identified the way migration 5 identified its two: by the
+# IDs on either side. A bani lists its lines in reading order, and so does a
+# line-group, so where both name the same neighbours the line between them is
+# the one the bani means.
+#
+# BUMH sits between WC5Z and TZSA. Line-group 08E reads WC5Z, BUBH, TZSA.
+# FUKH sits between 0RKD and Q3GR. Line-group CUF reads 0RKD, FUDH, Q3GR.
+# SEXD sits between FF0M and SC8Z. Line-group E2G reads FF0M, SEBD, SC8Z.
+#
+# In each case the ID being replaced is carried by no line, the one replacing it
+# is carried by a line, and that line is not already named by the bani.
+#
+# This rewrites references only. No line's text changes and no line moves
+# between groups.
+
+[[realign]]
+file = "banis/AKUS.toml"
+from = "BUMH"
+to = "BUBH"
+why = "BUBH is the line between WC5Z and TZSA, as line-group 08E holds them"
+
+[[realign]]
+file = "banis/BRMH.toml"
+from = "FUKH"
+to = "FUDH"
+why = "FUDH is the line between 0RKD and Q3GR, as line-group CUF holds them"
+
+[[realign]]
+file = "banis/SKMI.toml"
+from = "SEXD"
+to = "SEBD"
+why = "SEBD is the line between FF0M and SC8Z, as line-group E2G holds them"
