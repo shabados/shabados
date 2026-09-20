@@ -1,0 +1,29 @@
+description = "Merge primary entries that two assets read identically"
+
+why = """
+333 lines carry two primary [[content]] entries whose data is byte-identical.
+Until assets became a list there was no way to say that two assets read a line
+the same way, so agreement was written as duplication. It now has a shape, and
+these are the entries that were waiting for it.
+
+Every one of the 333 is the same case: the first entry is DGDG and carries the
+page, and sometimes the line, it appears on; the second is DDTK and carries
+assets, data and type and nothing else. So the merge keeps the first entry
+exactly as it stands and appends the second's asset to its list. Nothing is
+dropped, and no value has to be chosen between two that disagree — DDTK records
+no page to disagree with.
+
+The merged entry keeps the first entry's position, and the assets list follows
+the order the entries appear in the file. Both are read from the file rather
+than decided by the tool, so the same commit rebuilds byte-identical. Sorting
+the list alphabetically was the alternative; it would have put DDTK before the
+asset whose page the entry carries, which reads as though the page were DDTK's.
+
+The pairing is derived at run time — entries are grouped by identical data, not
+by a hardcoded pair of asset IDs. Today every group is DGDG and DDTK. The tool
+does not assume that holds.
+
+This merges entries. It moves no line, changes no line's text, and adds and
+removes no asset from the corpus: every asset named by a merged entry was
+already named by one of the entries it replaces.
+"""
