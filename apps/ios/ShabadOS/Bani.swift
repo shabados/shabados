@@ -32,6 +32,42 @@ struct Line: Decodable, Identifiable {
   /// *colour*; these ranges never change.
   let pauses: [PauseRun]
 
+  /// Three independent facts, none implying or excluding another — see
+  /// `gurmukhi::is_heading`/`is_moolmantar`/`has_ikoankar`'s own doc comments
+  /// (docs/requirements/display-controls.md#titles) for why they stay separate.
+  /// Each is a *classification only* — this app's choice to render the mool
+  /// mantar larger than a heading lives in `BaniReaderView.swift`, not here.
+  ///
+  /// - `isHeading`: names a division rather than being read as verse.
+  /// - `isMoolmantar`: is *the* Mool Mantar — a curated match on text (vishraam
+  ///   marks ignored), not "carries the ikoankar symbol." `ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥` is
+  ///   `isHeading`, not this.
+  /// - `hasIkoankar`: carries `ੴ` in any form. Rarely what a caller actually
+  ///   wants — ask `isMoolmantar` for "is this the mool mantar," or `isHeading`
+  ///   for "should this render like a heading."
+  ///
+  /// All three checked against `source`, not `gurmukhi`: the no-vishraam signal
+  /// `isHeading` needs is meaningless once markers are already stripped.
+  let isHeading: Bool
+  let isMoolmantar: Bool
+  let hasIkoankar: Bool
+
+  /// Scripture-adjacent, not scripture — a tally, scribal note, or reading
+  /// instruction (`gurmukhi::is_colophon`). Keyed by `id`, not text: the lookup is a
+  /// curated list, not a pattern. **SGGS-only today** — always `false` for the
+  /// Dasam Granth content this app bundles until that reading is done; see the
+  /// function's own doc comment in `packages/gurmukhi`.
+  let isColophon: Bool
+
+  /// Where this line's numbered (`॥੧॥`) or rahao (`॥ ਰਹਾਉ ॥`) ending sits, if it
+  /// has one — located the same way `pauses` locates vishraam markers, but **not
+  /// stripped from `gurmukhi` by default**: unlike a vishraam, a closing danda is
+  /// still real punctuation a verse line needs, so removing it needs its own
+  /// rendering treatment, not a silent default. A future view can style
+  /// `endingText` separately from the verse using these.
+  let isRahaoEnding: Bool
+  let endingText: String?
+
   private enum CodingKeys: String, CodingKey {
     case id
     case gurmukhi
@@ -43,6 +79,33 @@ struct Line: Decodable, Identifiable {
     source = try container.decode(String.self, forKey: .gurmukhi)
     gurmukhi = remove(input: source, features: vishraams())
     pauses = Self.pauseRuns(in: source)
+    // Unqualified: Gurmukhi's free functions, not the properties of the same name
+    // being assigned here — e.g. `isHeading(input:)` is a call, `isHeading` alone
+    // (as the property) is not, so Swift never confuses the two.
+    isHeading = Gurmukhi.isHeading(input: source)
+    isMoolmantar = Gurmukhi.isMoolmantar(input: source)
+    hasIkoankar = Gurmukhi.hasIkoankar(input: source)
+    isColophon = Gurmukhi.isColophon(lineId: id)
+    let ending = Self.lineEnding(in: source)
+    isRahaoEnding = ending.isRahao
+    endingText = ending.text
+  }
+
+  /// `RahaoEnding`/`NumberedEnding` are corpus-wide numbering — a pauri's own
+  /// closing count and a rahao marker share this detection, but **this does not
+  /// distinguish a pauri from any other numbered verse**; that needs the line's
+  /// *heading* to name the form (`classifyForm` in
+  /// `database/scripts/lib/gurbani.ts`, not yet ported here). This only answers
+  /// "does this line close with a marker," not "what kind of division is it in."
+  private static func lineEnding(in source: String) -> (isRahao: Bool, text: String?) {
+    let matches = detect(input: source, features: [.rahaoEnding, .numberedEnding])
+    guard let match = matches.first else { return (false, nil) }
+    let scalars = Array(source.unicodeScalars)
+    let start = Int(match.start)
+    let end = Int(match.end)
+    guard start >= 0, end <= scalars.count, start < end else { return (false, nil) }
+    let text = String(String.UnicodeScalarView(scalars[start..<end]))
+    return (match.feature == .rahaoEnding, text)
   }
 
   /// The coloured word is the run *ending* at a marker — `ਨਿਰਵੈਰੁ` in
@@ -111,11 +174,28 @@ struct PauseRun {
   let weight: Vishraam
 }
 
+/// An optional passage this bani continues into at one point — the "Keep reading"
+/// control (docs/requirements/library.md#continuation-not-configuration).
+/// Authored, not derived: `afterLine` and `lines` are located mechanically by
+/// `database/scripts/export-bundled-banis.ts` within an already-known pair
+/// (`BNCP`→`CPDT`, `RHRS`→`RHRT`); that file is where "mechanically" is defined
+/// precisely and where its limits are written down.
+struct Continuation: Decodable, Identifiable {
+  /// The id of the line this continuation's content sits right after.
+  let afterLine: String
+  let lines: [Line]
+
+  var id: String { afterLine }
+}
+
 struct Bani: Decodable, Identifiable {
   let id: String
   let name: [String: String]
   /// Sections are the bani's own grouping, not the source's structure.
   let sections: [[Line]]
+  /// Empty for most banis. Present when this bani has a shorter reading that
+  /// stops here and a longer one that keeps going — see [`Continuation`].
+  let continuations: [Continuation]
 
   var latin: String { name["Latn"] ?? id }
   var gurmukhi: String { name["Guru"] ?? "" }
@@ -129,7 +209,9 @@ struct Bani: Decodable, Identifiable {
 struct ReaderItem: Identifiable {
   enum Kind {
     case line(Line)
-    case divider
+    /// A "Keep reading" control. The view owns whether it is expanded; this only
+    /// marks *where* one sits.
+    case continuation(Continuation)
   }
 
   let id: String
@@ -137,13 +219,25 @@ struct ReaderItem: Identifiable {
 }
 
 extension Bani {
+  /// **No separator between sections.** A section boundary here is the corpus's
+  /// own grouping (docs/requirements/data-model.md's structural containers), not
+  /// a visual break a reader is meant to notice — a horizontal rule between, say,
+  /// the mangal and the heading that follows it read as an unintended gap, not a
+  /// meaningful one. Spacing alone (the outer `LazyVStack`'s own `spacing: 12`)
+  /// separates rows; nothing draws a line.
   var items: [ReaderItem] {
-    sections.enumerated().flatMap { sectionIndex, section -> [ReaderItem] in
-      let lines = section.enumerated().map { lineIndex, line in
-        ReaderItem(id: "\(sectionIndex).\(lineIndex)", kind: .line(line))
+    // Keyed by the line a continuation sits after — at most one per line in
+    // bundled content today, so last-writer-wins is not a real concern.
+    let continuationsByLine = Dictionary(uniqueKeysWithValues: continuations.map { ($0.afterLine, $0) })
+
+    return sections.enumerated().flatMap { sectionIndex, section -> [ReaderItem] in
+      section.enumerated().flatMap { lineIndex, line -> [ReaderItem] in
+        var items = [ReaderItem(id: "\(sectionIndex).\(lineIndex)", kind: .line(line))]
+        if let continuation = continuationsByLine[line.id] {
+          items.append(ReaderItem(id: "keep-reading.\(continuation.id)", kind: .continuation(continuation)))
+        }
+        return items
       }
-      let isLast = sectionIndex == sections.count - 1
-      return isLast ? lines : lines + [ReaderItem(id: "d\(sectionIndex)", kind: .divider)]
     }
   }
 }

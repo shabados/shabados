@@ -25,12 +25,20 @@ enum AppIcons {
   static let journeysActive = "point.bottomleft.forward.to.point.topright.scurvepath.fill"
 
   /// Open the Controls sidebar.
-  /// Lucide `sliders-horizontal` — an asset, not an SF Symbol.
-  static let controls = "sliders-horizontal"
+  /// Lucide `settings-2` — an asset, not an SF Symbol.
+  static let controls = "settings-2"
 
   /// Controls sidebar is open. PROPOSED, as above.
-  /// Lucide `sliders-horizontal` — an asset, not an SF Symbol.
-  static let controlsActive = "sliders-horizontal"
+  /// Lucide `settings-2` — an asset, not an SF Symbol.
+  static let controlsActive = "settings-2"
+
+  /// Enter fullscreen. PROPOSED.
+  /// SF Symbols, iOS 13.0+.
+  static let fullscreen = "arrow.up.left.and.arrow.down.right"
+
+  /// Exit fullscreen. Unlike journeysActive/controlsActive this is a distinct Lucide glyph, not the same shape filled — Lucide has no fullscreen fill variant. PROPOSED.
+  /// SF Symbols, iOS 13.0+.
+  static let fullscreenActive = "arrow.down.right.and.arrow.up.left"
 
   /// Font size of the reading area. Specified by the author.
   /// SF Symbols, iOS 13.0+.
@@ -72,6 +80,14 @@ enum AppIcons {
   /// SF Symbols, iOS 17.4+.
   static let translations = "translate"
 
+  /// Toggle a line-notes panel in Controls. PROPOSED.
+  /// SF Symbols, iOS 26.0+.
+  static let notes = "pad.header"
+
+  /// Choose a full-screen card — Blank, Waheguru, Fateh, Mul Mantar, Bole So Nihal — to display over the text. PROPOSED.
+  /// SF Symbols, iOS 13.0+.
+  static let slideshow = "tv"
+
   /// Light / dark / auto. Specified by the author.
   /// SF Symbols, iOS 14.0+.
   static let appearance = "sleep"
@@ -84,9 +100,9 @@ enum AppIcons {
   /// SF Symbols, iOS 14.0+.
   static let disclosure = "chevron.forward"
 
-  /// The Collections row, pinned below Recents. PROPOSED — destination undefined.
+  /// Open the Library — collections, bookmarks, assets and their tables of contents. Pinned below Recents in the Journeys sidebar. Specified by the author ([library.md](../../docs/requirements/library.md), [reading-shell.md](../../docs/requirements/reading-shell.md#getting-between-them)).
   /// SF Symbols, iOS 14.0+.
-  static let collections = "books.vertical"
+  static let library = "books.vertical"
 
   /// About Shabad OS — links, social, feedback. PROPOSED.
   /// SF Symbols, iOS 13.0+.
