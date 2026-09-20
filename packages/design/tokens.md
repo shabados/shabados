@@ -67,7 +67,7 @@ is what lets a pause render the same in the apps as on the web.
 
 | Token | Value |
 | --- | --- |
-| toner | `0.08` |
+| toner | `0.04` |
 
 `--toner` in `global.css`: a neutral wash for dividers and inset surfaces.
 

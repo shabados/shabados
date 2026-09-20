@@ -64,7 +64,7 @@ enum DesignTokens {
       : UIColor(red: 0.3686, green: 0.2627, blue: 0.5569, alpha: 1)
   })
 
-  static let tonerOpacity: Double = 0.08
+  static let tonerOpacity: Double = 0.04
 
   static let weightPrimary: Double = 550
   static let weightLatin: Double = 475
