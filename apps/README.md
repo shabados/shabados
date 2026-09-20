@@ -95,9 +95,33 @@ and dead-strips the rest, so the app binary will be far smaller — **measure it
 the app links, rather than adding `[profile.release]` settings blind.** There is no
 `[profile.release]` section in `Cargo.toml` today; the default is in use.
 
-**Android is not wired up yet.** It needs `cargo-ndk`, an `.so` per ABI, and JNA as a
-runtime dependency — independent problems, deliberately left until the iOS path is
-proven.
+**Android, wired and verified working 2026-09-19**: all four ABIs built and the Kotlin
+bindings landed at `uniffi.gurmukhi`, exactly where `build.gradle.kts` looks for them,
+on the first real run. One command, from a real terminal, once the NDK itself is
+installed:
+
+```
+cd packages/gurmukhi && mise run android
+```
+
+That cross-compiles the four ABIs Play requires (via `cargo-ndk`) straight into
+`apps/android/app/src/main/jniLibs/`, and generates the Kotlin bindings into
+`bindings/kotlin/lib/`. `apps/android/app/build.gradle.kts` already points its main
+source set at that `lib/` directory and carries the JNA runtime dependency the
+generated bindings call into — nothing further to wire up in Gradle. **Not run
+automatically by `apps/build.sh`** the way the Apple path is, since the one-time NDK
+install below is not something a build script can do for you.
+
+**Needs `cargo-ndk` and the NDK itself, once, before the command above works**:
+`cargo install cargo-ndk`, then install an NDK version via Android Studio's SDK
+Manager (SDK Tools → NDK) and set `ANDROID_NDK_HOME` to it (e.g.
+`$ANDROID_HOME/ndk/<version>`). Neither is installed by default the way Xcode already
+carries everything the Apple path needs — this is real one-time setup, not a rerun of
+the same command.
+
+**Same reasons as the Apple path apply**: `jniLibs/` and `bindings/kotlin/lib/` are
+build outputs, not committed, and `mise run android` cannot run under an agent sandbox
+(cargo needs a writable `~/.cargo`, Gradle a writable `~/.gradle`).
 
 ## Generators
 
