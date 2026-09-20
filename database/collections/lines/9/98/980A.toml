@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਤ੍ਰਿਬਰਗ ਹੈਂ ॥"
 page = 3
@@ -17,7 +17,3 @@ type = "translation"
 language = "pa"
 data = "ਤਿੰਨ ਵਰਗਾਂ (ਧਰਮ, ਅਰਥ ਅਤੇ ਕਾਮ ਜਾਂ ਦੇਵਤਾ, ਦੈਂਤ ਅਤੇ ਮਨੁੱਖ) ਤੋਂ ਰਹਿਤ ਹੈਂ,"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਤ੍ਰਿਬਰਗ ਹੈਂ ॥"

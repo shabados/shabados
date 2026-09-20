@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਪਾਇ ਸਕੈ ਨਹੀ, ਪਾਰ ਉਮਾਪਤਿ; ਸਿੱਧ ਸਨਾਥ ਸਨੰਤਨ ਧਿਆਇਓ ॥"
 page = 37
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "(ਉਸ ਦਾ) ਅੰਤ ਸ਼ਿਵ ਵੀ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਸਕਿਆ, ਸਿੱਧਾਂ, ਨਾਥਾਂ ਸਹਿਤ ਬ੍ਰਹਮਾ-ਪੁੱਤਰਾਂ ਨੇ ਵੀ ਸਿਮਰਨ ਕੀਤਾ ਹੈ।"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਪਾਇ ਸਕੈ ਨਹੀ, ਪਾਰ ਉਮਾਪਤਿ; ਸਿੱਧ ਸਨਾਥ ਸਨੰਤਨ ਧਿਆਇਓ ॥"

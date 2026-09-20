@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਕਾਮ ਨ ਕ੍ਰੋਧ ਨ ਲੋਭ ਨ ਮੋਹ ਨ; ਰੋਗ ਨ ਸੋਗ ਨ ਭੋਗ ਨ ਭੈ ਹੈ ॥"
 page = 37
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੂੰ) ਕਾਮ, ਕ੍ਰੋਧ, ਲੋਭ, ਮੋਹ, ਰੋਗ, ਸੋਗ, ਭੋਗ ਅਤੇ ਭੈ ਨਹੀਂ ਹੈ,"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਕਾਮ ਨ ਕ੍ਰੋਧ ਨ ਲੋਭ ਨ ਮੋਹ ਨ; ਰੋਗ ਨ ਸੋਗ ਨ ਭੋਗ ਨ ਭੈ ਹੈ ॥"

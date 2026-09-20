@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਬੀਰ ਅਪਾਰ, ਬਡੇ ਬਰਿਆਰ; ਅਬਿਚਾਰਹਿ, ਸਾਰ ਕੀ ਧਾਰ ਭਛੱਯਾ ॥"
 page = 13
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "ਅਪਾਰ ਸ਼ਕਤੀ ਵਾਲੇ ਸ਼ੂਰਵੀਰ ਅਤੇ ਬਹੁਤ ਬਲਵਾਨ ਜੋ ਬਿਨਾ ਵਿਚਾਰੇ (ਸੰਕੋਚ ਕੀਤੇ) ਸ਼ਸਤ੍ਰਾਂ ਦੀ ਧਾਰ ਨੂੰ ਸਹਾਰਦੇ ਹਨ;"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਬੀਰ ਅਪਾਰ, ਬਡੇ ਬਰਿਆਰ; ਅਬਿਚਾਰਹਿ, ਸਾਰ ਕੀ ਧਾਰ ਭਛੱਯਾ ॥"

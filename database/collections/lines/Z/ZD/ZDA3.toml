@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਕੋਊ, ਬੁਤਾਨ ਕੋ ਪੂਜਤ ਹੈ ਪਸੁ; ਕੋਊ, ਮ੍ਰਿਤਾਨ ਕੋ ਪੂਜਨ ਧਾਇਓ ॥"
 page = 13
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "ਕੋਈ ਮੂਰਖ ਬੁਤਾਂ (ਮੂਰਤੀ) ਨੂੰ ਪੂਜ ਰਿਹਾ ਹੈ ਅਤੇ ਕੋਈ ਕਬਰਾਂ ਨੂੰ ਪੂਜਦਾ ਫਿਰਦਾ ਹੈ;"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਕੋਊ, ਬੁਤਾਨ ਕੋ ਪੂਜਤ ਹੈ ਪਸੁ; ਕੋਊ, ਮ੍ਰਿਤਾਨ ਕੋ ਪੂਜਨ ਧਾਇਓ ॥"

@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਨਾਮ ਕਾਮ ਬਿਹੀਨ ਪੇਖਤ; ਧਾਮ ਹੂੰ ਨਹਿ ਜਾਹਿ ॥"
 page = 5
@@ -17,7 +17,3 @@ type = "translation"
 language = "pa"
 data = "ਜੋ ਨਾਮ, ਕਾਮਨਾ ਤੋਂ ਬਿਨਾ ਦਿਸਦਾ ਹੈ, ਜਿਸ ਦਾ ਕੋਈ ਘਰ-ਘਾਟ ਨਹੀਂ ਹੈ;"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਨਾਮ ਕਾਮ ਬਿਹੀਨ ਪੇਖਤ; ਧਾਮ ਹੂੰ ਨਹਿ ਜਾਹਿ ॥"

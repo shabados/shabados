@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਏਕ ਮੂਰਤਿ ਅਨੇਕ ਦਰਸਨ; ਕੀਨ ਰੂਪ ਅਨੇਕ ॥"
 page = 5
@@ -17,7 +17,3 @@ type = "translation"
 language = "pa"
 data = "ਉਹ ਇਕ ਰੂਪ ਵਾਲਾ, ਪਰ ਅਨੇਕ ਰੂਪਾਂ ਵਿਚ ਦਿਸਣ ਵਾਲਾ ਅਤੇ ਅਨੇਕ ਰੂਪਾਂ ਨੂੰ ਕਰਨ ਵਾਲਾ ਹੈ;"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਏਕ ਮੂਰਤਿ ਅਨੇਕ ਦਰਸਨ; ਕੀਨ ਰੂਪ ਅਨੇਕ ॥"

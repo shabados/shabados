@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਕੀਟ ਪਤੰਗ ਕੁਰੰਗ ਭੁਜੰਗਮ; ਭੂਤ ਭਵਿੱਖ ਭਵਾਨ ਬਨਾਏ ॥"
 page = 37
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "(ਜਿਸ ਨੇ) ਕੀੜੇ, ਪਤੰਗੇ, ਹਿਰਨ, ਸੱਪ, ਭੂਤਕਾਲ, ਵਰਤਮਾਨ ਕਾਲ ਅਤੇ ਭਵਿਸ਼ਤ ਕਾਲ ਬਣਾਏ ਹਨ;"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਕੀਟ ਪਤੰਗ ਕੁਰੰਗ ਭੁਜੰਗਮ; ਭੂਤ ਭਵਿੱਖ ਭਵਾਨ ਬਨਾਏ ॥"

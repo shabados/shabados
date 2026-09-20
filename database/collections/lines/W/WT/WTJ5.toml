@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਪੱਛ ਪਸੂ ਨਗ ਨਾਗ ਨਰਾਧਪ; ਸਰਬ ਸਮੈ, ਸਭ ਕੋ ਪ੍ਰਤਿਪਾਰੈ ॥"
 page = 37
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "ਪੰਛੀਆਂ, ਪਸ਼ੂਆਂ, ਪਹਾੜਾਂ, ਸੱਪਾਂ ਅਤੇ ਰਾਜਿਆਂ ਦੀ ਸਭ ਵੇਲੇ ਪ੍ਰਤਿਪਾਲਨਾ ਕਰਦਾ ਹੈ।"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਪੱਛ ਪਸੂ ਨਗ ਨਾਗ ਨਰਾਧਪ; ਸਰਬ ਸਮੈ, ਸਭ ਕੋ ਪ੍ਰਤਿਪਾਰੈ ॥"

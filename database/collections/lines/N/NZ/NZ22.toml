@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਪਾਇ ਸਕੈ ਨਹੀ ਪਾਰ ਪ੍ਰਭਾ ਹੂ ਕੋ; ਨੇਤ ਹੀ ਨੇਤਹ ਬੇਦ ਬਤਾਵੈ ॥"
 page = 37
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "ਕੋਈ ਵੀ (ਤੇਰੀ) ਪ੍ਰਭੁਤਾ ਦਾ ਪਾਰ ਨਹੀਂ ਪਾ ਸਕਦਾ ਅਤੇ ਵੇਦ ਵੀ (ਤੈਨੂੰ) ਬੇਅੰਤ ਬੇਅੰਤ ਕਹਿੰਦੇ ਹਨ।"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਪਾਇ ਸਕੈ ਨਹੀ ਪਾਰ ਪ੍ਰਭਾ ਹੂ ਕੋ; ਨੇਤ ਹੀ ਨੇਤਹ ਬੇਦ ਬਤਾਵੈ ॥"

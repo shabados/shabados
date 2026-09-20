@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਬਿਸ੍ਵੰਭਰ ਹੈਂ ॥"
 page = 10
@@ -17,7 +17,3 @@ type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ!) ਤੂੰ ਸ੍ਰਿਸ਼ਟੀ ਦਾ ਭਰਨ-ਪੋਸ਼ਣ ਕਰਨ ਵਾਲਾ ਹੈਂ,"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਬਿਸ੍ਵੰਭਰ ਹੈਂ ॥"

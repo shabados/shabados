@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਸੁਨੈ ਗੁੰਗ ਜੋ ਯਾਹਿ; ਸੁ ਰਸਨਾ ਪਾਵਈ ॥"
 page = 1388
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "ਇਸ ਗ੍ਰੰਥ ਨੂੰ ਜੇ ਗੁੰਗਾ ਸੁਣੇਗਾ, (ਤਾਂ) ਉਹ ਜੀਭ ਪ੍ਰਾਪਤ ਕਰ ਲਵੇਗਾ।"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਸੁਨੈ ਗੁੰਗ ਜੋ ਯਾਹਿ; ਸੁ ਰਸਨਾ ਪਾਵਈ ॥"

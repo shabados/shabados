@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਨ੍ਰਿਬਾਧ ਸਰੂਪ ਹੈਂ ॥"
 page = 7
@@ -17,7 +17,3 @@ type = "translation"
 language = "pa"
 data = "ਤੂੰ (ਹਰ ਪ੍ਰਕਾਰ ਦੀਆਂ) ਰੁਕਾਵਟਾਂ ਤੋਂ ਰਹਿਤ ਸਰੂਪ ਵਾਲਾ ਹੈਂ,"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਨ੍ਰਿਬਾਧ ਸਰੂਪ ਹੈਂ ॥"

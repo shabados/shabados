@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਜੀਵ ਜਿਤੇ ਜਲ ਮੈ, ਥਲ ਮੈ; ਪਲ ਹੀ ਪਲ ਮੈ, ਸਭ ਥਾਪ ਥਪੈਂਗੇ ॥"
 page = 13
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "ਜੋ ਪਲ ਹੀ ਪਲ ਵਿਚ ਜਲ-ਥਲ ਦੇ ਸਾਰੇ ਜੀਵਾਂ ਦੀ ਸਥਾਪਨਾ ਕਰ ਦਿੰਦਾ ਹੈ;"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਜੀਵ ਜਿਤੇ ਜਲ ਮੈ, ਥਲ ਮੈ; ਪਲ ਹੀ ਪਲ ਮੈ, ਸਭ ਥਾਪ ਥਪੈਂਗੇ ॥"

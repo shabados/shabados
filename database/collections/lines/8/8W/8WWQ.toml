@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਦੇਹ ਬਿਹੀਨ, ਸਨੇਹ ਸਭੋ ਤਨ; ਨੇਹ ਬਿਰਕਤ ਅਗੇਹ ਅਛੈ ਹੈ ॥"
 page = 37
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "(ਜੋ) ਦੇਹਰਹਿਤ, ਸਭ ਨਾਲ ਸਨੇਹ ਕਰਨ ਵਾਲਾ, ਮੋਹ ਤੋਂ ਵਿਰਕਤ, ਘਰ ਤੋਂ ਬਿਨਾ ਅਤੇ ਨਾਸ਼ ਤੋਂ ਰਹਿਤ ਹੈ।"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਦੇਹ ਬਿਹੀਨ, ਸਨੇਹ ਸਭੋ ਤਨ; ਨੇਹ ਬਿਰਕਤ ਅਗੇਹ ਅਛੈ ਹੈ ॥"

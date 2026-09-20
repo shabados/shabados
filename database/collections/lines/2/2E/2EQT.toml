@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਭੇਦ ਨ ਪਾਇ ਸਕਿਓ ਅਨਭੇਦ ਕੋ; ਖੇਦਤ ਹੈ, ਅਨਛੇਦ ਪੁਕਾਰੇ ॥"
 page = 37
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "ਉਸ ਅਭੇਦ ਪਰਮਾਤਮਾ ਦੇ ਭੇਦ ਨੂੰ ਪ੍ਰਾਪਤ ਨਾ ਕਰ ਸਕੇ, ਉਹ ਦੁਖੀ ਹੋ ਕੇ (ਉਸ ਪਰਮ ਸੱਤਾ ਨੂੰ) 'ਅਛੇਦ' (ਨਾਂ ਨਾਲ) ਯਾਦ ਕਰਦੇ ਹਨ।"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਭੇਦ ਨ ਪਾਇ ਸਕਿਓ ਅਨਭੇਦ ਕੋ; ਖੇਦਤ ਹੈ, ਅਨਛੇਦ ਪੁਕਾਰੇ ॥"

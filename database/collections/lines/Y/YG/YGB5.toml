@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਰੋਗਨ ਤੇ ਅਰ ਸੋਗਨ ਤੇ; ਜਲ ਜੋਗਨ ਤੇ, ਬਹੁ ਭਾਂਤਿ ਬਚਾਵੈ ॥"
 page = 37
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "(ਉਹ) ਰੋਗਾਂ ਤੋਂ, ਸੋਗਾਂ ਤੋਂ, ਜਲ ਦੇ ਜੀਵ-ਜੰਤੂਆਂ ਤੋਂ ਅਨੇਕ ਢੰਗਾਂ ਨਾਲ ਬਚਾਉਂਦਾ ਹੈ।"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਰੋਗਨ ਤੇ ਅਰ ਸੋਗਨ ਤੇ; ਜਲ ਜੋਗਨ ਤੇ, ਬਹੁ ਭਾਂਤਿ ਬਚਾਵੈ ॥"

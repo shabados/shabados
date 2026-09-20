@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਪ੍ਰਮਾਥੰ ਪ੍ਰਮਾਥੇ ॥"
 page = 8
@@ -17,7 +17,3 @@ type = "translation"
 language = "pa"
 data = "ਹੇ ਦੁਖ ਦੇਣ ਵਾਲਿਆਂ ਨੂੰ ਨਸ਼ਟ ਕਰਨ ਵਾਲੇ!"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਪ੍ਰਮਾਥੰ ਪ੍ਰਮਾਥੇ ॥"

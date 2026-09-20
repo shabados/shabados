@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਸੁਨੈ ਮੂੜ ਚਿਤ ਲਾਇ; ਚਤੁਰਤਾ ਆਵਈ ॥"
 page = 1388
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "ਜੇ ਮੂਰਖ ਚਿਤ ਲਗਾ ਕੇ ਸੁਣੇਗਾ, (ਤਾਂ ਉਸ ਦੇ ਅੰਦਰ) ਸਿਆਣਪ ਆ ਜਾਏਗੀ।"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਸੁਨੈ ਮੂੜ ਚਿਤ ਲਾਇ; ਚਤੁਰਤਾ ਆਵਈ ॥"

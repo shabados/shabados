@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਤ੍ਰਿਮੁਕਤਿ ਬਿਭੂਤ ਹੈਂ ॥"
 page = 7
@@ -17,7 +17,3 @@ type = "translation"
 language = "pa"
 data = "ਤੇਰੀ ਵਿਭੂਤੀ (ਸੰਪੱਤੀ) ਮਾਇਆ ਦੇ ਤਿੰਨਾਂ ਗੁਣਾਂ ਤੋਂ ਪਰੇ ਹੈ,"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਤ੍ਰਿਮੁਕਤਿ ਬਿਭੂਤ ਹੈਂ ॥"

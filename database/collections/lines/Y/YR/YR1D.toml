@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਜੱਛ ਭੁਜੰਗ ਸੁ ਦਾਨਵ ਦੇਵ; ਅਭੇਵ ਤੁਮੈ ਸਭ ਹੀ ਕਰ ਧਿਆਵੈ ॥"
 page = 37
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "(ਹੇ ਪ੍ਰਭੂ!) ਯਕਸ਼, ਸੱਪ, ਦੈਂਤ ਅਤੇ ਦੇਵਤੇ ਆਦਿ ਸਾਰੇ ਤੁਹਾਨੂੰ ਅਭੇਦ ਕਰ ਕੇ ਧਿਆਉਂਦੇ ਹਨ।"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਜੱਛ ਭੁਜੰਗ ਸੁ ਦਾਨਵ ਦੇਵ; ਅਭੇਵ ਤੁਮੈ ਸਭ ਹੀ ਕਰ ਧਿਆਵੈ ॥"

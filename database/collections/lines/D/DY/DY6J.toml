@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਕੂਰ ਕ੍ਰਿਆ ਉਰਝਿਓ ਸਭ ਹੀ ਜਗ; ਸ੍ਰੀ ਭਗਵਾਨ ਕੋ ਭੇਦੁ ਨ ਪਾਇਓ ॥੧੦॥੩੦॥"
 page = 13
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "ਸਾਰਾ ਸੰਸਾਰ ਕੂੜੀ ਕ੍ਰਿਆ ਵਿਚ ਉਲਝਿਆ ਹੋਇਆ ਹੈ, ਪਰ ਮਾਇਆ ਦੇ ਸੁਆਮੀ ਦਾ ਕਿਸੇ ਨੇ ਵੀ ਭੇਦ ਨਹੀਂ ਪਾਇਆ ਹੈ ॥੧੦॥੩੦॥"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਕੂਰ ਕ੍ਰਿਆ ਉਰਝਿਓ ਸਭ ਹੀ ਜਗ; ਸ੍ਰੀ ਭਗਵਾਨ ਕੋ ਭੇਦੁ ਨ ਪਾਇਓ ॥੧੦॥੩੦॥"

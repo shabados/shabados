@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਅਨਡੰਡ ਬਾਢਯ ॥੯੩॥"
 page = 6
@@ -17,7 +17,3 @@ type = "translation"
 language = "pa"
 data = "ਨਿਸ਼ਚੇ ਹੀ ਬਿਨਾ ਦੰਡ ਦੇ ਹੈਂ ॥੯੩॥"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਅਨਡੰਡ ਬਾਢਯ ॥੯੩॥"

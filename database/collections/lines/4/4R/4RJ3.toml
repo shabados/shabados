@@ -1,5 +1,5 @@
 [[content]]
-assets = ["DGDG"]
+assets = ["DGDG", "DDTK"]
 type = "primary"
 data = "ਪੁੰਨ ਪ੍ਰਤਾਪਨ ਬਾਢ ਜੈਤ ਧੁਨ; ਪਾਪਨ ਕੇ, ਬਹੁ ਪੁੰਜ ਖਪੈਂਗੇ ॥"
 page = 13
@@ -16,7 +16,3 @@ type = "translation"
 language = "pa"
 data = "ਜਿਸ ਦੇ ਸਿਮਰਨ ਨਾਲ ਪੁੰਨਾਂ ਦੀ ਪ੍ਰਚੰਡਤਾ ਵਧ ਜਾਂਦੀ ਹੈ ਅਤੇ ਜਿਸ ਦੇ ਜੈਘੋਸ਼ ਨੂੰ ਸੁਣ ਕੇ ਪਾਪਾਂ ਦੇ ਸਮੂਹ ਨਸ਼ਟ ਹੋ ਜਾਂਦੇ ਹਨ;"
 
-[[content]]
-assets = ["DDTK"]
-type = "primary"
-data = "ਪੁੰਨ ਪ੍ਰਤਾਪਨ ਬਾਢ ਜੈਤ ਧੁਨ; ਪਾਪਨ ਕੇ, ਬਹੁ ਪੁੰਜ ਖਪੈਂਗੇ ॥"
