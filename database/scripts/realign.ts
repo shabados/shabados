@@ -37,6 +37,19 @@ const blocks: Block[] = []
 const linePath = (id: string) => `./collections/lines/${id[0]}/${id.slice(0, 2)}/${id}.toml`
 const exists = async (id: string) => Bun.file(linePath(id)).exists()
 
+// A data: commit must contain corpus files and nothing else, and every entry in a
+// manifest lands together — so the tree is checked once, before anything is
+// written, rather than per entry midway through.
+if (apply) {
+  const status = (await $`git status --porcelain`.text()).trim()
+  if (status) {
+    consola.error('Working tree is not clean. Commit or stash first.')
+    process.exit(1)
+  }
+}
+
+const changed: string[] = []
+
 for (const entry of manifest.realign) {
   const file = `./collections/${entry.file}`
   const source = await readFile(file, 'utf-8')
@@ -69,22 +82,24 @@ for (const entry of manifest.realign) {
       entry.why,
     ],
   })
-  consola.success(`${entry.file}: ${entry.from} → ${entry.to}`)
-
-  if (!apply) continue
-
-  const status = (await $`git status --porcelain`.text()).trim()
-  if (status) {
-    consola.error('Working tree is not clean. Commit or stash first.')
-    process.exit(1)
+  if (apply) {
+    await writeFile(file, source.replace(`"${entry.from}"`, `"${entry.to}"`))
+    changed.push(file)
   }
 
-  await writeFile(file, source.replace(`"${entry.from}"`, `"${entry.to}"`))
+  // After the write, so a success line never describes an edit that did not land.
+  consola.success(`${entry.file}: ${entry.from} → ${entry.to}`)
+}
+
+// One manifest, one commit: the reasoning is stated once, and a run that fails
+// partway leaves nothing committed rather than half a manifest.
+if (apply) {
   const message =
-    `data: point ${entry.file} at ${entry.to}\n\n${entry.why}\n\n` +
+    `data: ${manifest.description.charAt(0).toLowerCase()}${manifest.description.slice(1)}\n\n` +
+    `${manifest.realign.map((e) => `  ${e.from} → ${e.to}: ${e.why}`).join('\n')}\n\n` +
     `Manifest: database/migrations/${basename(path)}`
-  await $`git commit --only -m ${message} -- ${file}`.quiet()
-  consola.success(`committed`)
+  await $`git commit --only -m ${message} -- ${changed}`.quiet()
+  consola.success(`applied and committed — ${changed.length} references`)
 }
 
 if (!apply) {
