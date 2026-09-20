@@ -162,14 +162,138 @@ spaces and paragraph breaks are dropped and titles lose their size and block
 treatment — the whole composition becomes one continuous run. That is the existing
 behaviour and it follows from what larivaar is; it is not an oversight.
 
+**The mool mantar's `ੴ` breaks out onto its own line, larger still** — 250% of
+body size, at a lighter weight than the title rule above (400, not the titles'
+650) so the stroke doesn't grow heavier along with the glyph. Its six word-pairs
+(ਸਤਿ ਨਾਮੁ, ਕਰਤਾ ਪੁਰਖੁ, ਨਿਰਭਉ ਨਿਰਵੈਰੁ, ਅਕਾਲ ਮੂਰਤਿ, ਅਜੂਨੀ ਸੈਭੰ, ਗੁਰ ਪ੍ਰਸਾਦਿ) follow at
+body size, each pair kept on one line but otherwise free to share a line with its
+neighbour. **All of it stays one selectable, copyable span** — tapping or copying
+any part of the mool mantar must never fragment it.
+
 #### Titles
 
-**Measured 2026-09-07 against every line-group's opening line**, which is where a
-shabad's heading sits. The web app's `isTitle` matches **6,188 of 12,730 (48%)**.
+**Three independent facts, not a ranked type.** `gurmukhi::is_heading`,
+`is_moolmantar`, and `has_ikoankar` each answer their own question; none implies
+or excludes another, and none says how large anything should render — that
+composition is the app's call, made in `apps/ios`'s case in
+[`BaniReaderView.swift`](../../apps/ios/ShabadOS/BaniReaderView.swift), not
+`packages/gurmukhi`'s.
 
-**The 6,542 it misses split cleanly by length**, once vishraam markers are stripped
-before counting words — they are notation, not punctuation, and counting them as
-sentence marks is what made an earlier pass of this analysis wrong:
+**Superseded 2026-09-17, three times over — the last one a real content error,
+not a rule refinement.**
+
+1. A single `gurmukhi::is_title` on "no vishraam and three words or fewer,"
+   measured at 88% recall / 4.9% false-fire against a hand-kept list — replaced
+   because it disagreed with `database/scripts/lib/gurbani.ts`'s
+   independently-derived, whole-SGGS-tested `isHeading` on the mangal (`ੴ`): the
+   word-count rule called it a title, `isHeading` didn't.
+2. `is_heading` folding the mangal in unconditionally as its own largest
+   `HeadingLevel` — **wrong**, and confidently so: it treated *any* line carrying
+   `ੴ` as "the mool mantar," when a short invocation like `ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥`
+   ("by the Guru's grace") is a heading that happens to carry the mangal symbol,
+   not the mool mantar itself. Caught and corrected the same day, from the
+   corpus, not a rule.
+3. **The mool mantar** — `ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ
+   ਗੁਰ ਪ੍ਰਸਾਦਿ ॥`, not any line that opens with `ੴ`. Confirmed from
+   `database/collections/lines/.../0NVY.toml` (Japji Sahib's opening line), which
+   carries its own scholarly note naming it outright: *"ਇਹ 'ਜਪੁ' ਬਾਣੀ ਦੇ ਆਦਿ ਵਿਚ,
+   ਰਵਾਇਤ ਅਨੁਸਾਰ, ਸਤਿਗੁਰਾਂ ਵਲੋਂ ਪਰਮਾਤਮਾ ਦਾ ਮੰਗਲਾਚਰਨ ਹੈ"* — "this, at Jap[u]'s
+   opening, is traditionally the Satguru's manglacharan [invocation]." Every other
+   bundled Nitnem `ੴ` occurrence (`ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥` in JAAP/TPSS/ANND/RHRS,
+   `ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥` opening BNCP) is a heading, not this.
+
+**`is_moolmantar`** is a curated lookup, the same shape as `is_colophon` — a
+known text, extended by reading a new occurrence, never by pattern-matching
+length or word count against it. It could never have been a structural rule
+anyway: the mool mantar carries its own vishraam in 1 of its 33 recorded SGGS
+occurrences, which rules that spelling out of `is_heading` on the same terms as
+any other verse line. **Confirmed 2026-09-17 to recur 33 times in the SGGS**
+(asset `SSA2`, pages 1–1410; none in any bundled Nitnem bani) — **32 of the 33
+carry no vishraam** after `ਨਿਰਵੈਰੁ`, only Japji's opening does, so the match
+strips vishraam marks before comparing rather than keeping two near-duplicate
+entries. **Deliberately excludes the shorter "chhota" forms** some raag sections
+open with (`...ਕਰਤਾ ਪੁਰਖੁ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥`, 9 occurrences; `...ਸਤਿ ਨਾਮੁ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥`, 2)
+— whether Sikh tradition treats those as the mool mantar too is left open, not
+decided by this rule.
+
+**`is_heading`** needs no mangal-specific check at all, now that the mool mantar
+has its own function — a short mangal invocation already passes on its own merits
+(ends `॥`, no vishraam, no trailing number), and the mool mantar's one
+vishraam-bearing spelling already fails on its own merits. **The other 32
+spellings pass `is_heading` too** — nothing disqualifies them, and `is_moolmantar`
+was never meant to exclude `is_heading`, only to answer a different question; a
+line being both is not a contradiction (`BaniReaderView.swift` checks
+`is_moolmantar` first regardless, so this never affects rendering).
+`database/docs/numbering.md`'s
+own exclusion of the mangal from *its* "heading" stays exactly as written — it
+answers a narrower zoning question (telling a mangal apart from the line that
+opens a *numbered division* next to it) that this rule was never trying to
+answer.
+
+**`is_heading` broke, was caught by actually reading the app, and was fixed the
+same day — twice patched, once rebuilt.** Structure alone (ends `॥`, no trailing
+number) over-fires badly: measured against every bundled Nitnem bani, false
+positives on ordinary verse ran from 1% (`JAPJ`, `ANND`) to **69% on `JAAP`**, 44%
+on `BNCP`, 21% on `RHRS`. Cause: a multi-line pauri or a Dasam Granth chhand
+numbers only its *last* line, so every interior line ends bare — the same shape
+as a real heading. **Not Dasam-Granth-specific**: two of `JAPJ`'s own four
+structure-only hits were real SGGS verse, Pauri 37's `ਅੰਤੁ ਨ ਜਾਪੈ ਪਾਰਾਵਾਰੁ ॥` and
+`ਸਚ ਖੰਡਿ ਵਸੈ ਨਿਰੰਕਾਰੁ ॥`, not headings. `database/docs/numbering.md`'s derivation
+was real, but "tested across the whole SGGS" described finding heading-and-mangal
+*pairs* for zoning, not a measured false-positive rate against blind
+line-by-line classification — assuming the latter from the former was the
+mistake, not the derivation itself.
+
+**The fix, verified 2026-09-18 against all 1935 bundled lines, zero false
+positives: require a marker word or a specific numbered shape, not structure
+alone.** Two additional conditions, either satisfies:
+
+- **[`HEADING_WORDS`](../../packages/gurmukhi/src/feature.rs)** — a curated set of
+  raag/author/form marker words (`ਛੰਦ`, `ਮਹਲਾ`, `ਮਃ`, `ਰਾਗੁ`, `ਪਾਤਿਸਾਹੀ`, `ਸਲੋਕ`,
+  `ਸਵੈਯਾ`, `ਦੋਹਰਾ`, `ਚੌਪਈ`, and others), substring-matched. **This reintroduces a
+  vocabulary** — the thing the legacy web app's list, further down this section,
+  was treated as "a Unicode list of the same shape [ADR-0005] undid" — deliberately,
+  and differently: that list was
+  the *sole* mechanism, tuned to maximise recall (it still only caught 48% of real
+  openings); this one is a *precision gate* layered on the structural rule,
+  explicitly trading recall for near-zero false positives, and every word in it
+  is checked against every bundled line before being added, not assumed safe from
+  looking like a plausible marker — `ਜਪੁ` looked safe and wasn't (real Rehras
+  verse: `ਜਪੁ ਤਪੁ ਸੰਜਮੁ ਧਰਮੁ ਨ ਕਮਾਇਆ ॥`), caught only by that check, not by
+  inspection.
+- **A short numbered marker** — 1 to 3 words then a bare one- or two-digit
+  numeral (`ਦੇਵਗੰਧਾਰੀ ੫ ॥`, `ਘਰੁ ੧ ॥`, `ਪਾਤਿਸਾਹੀ ੧੦ ॥`), distinct from a pada count
+  (`॥੧॥`, already excluded — no space, no words before the digit). Bhajneet's own
+  rule, verified before acceptance: adds zero matches beyond `HEADING_WORDS` on
+  bundled content today, kept because it will catch a raag name or author
+  attribution not yet in that list without needing the list to be exhaustive.
+
+**A word-count shortcut was proposed and rejected the same way — checked, not
+assumed.** "A bare-ending line with exactly one word is a heading" is wrong for
+this corpus: Jaap Sahib's own verse is built from single-word divine epithets,
+one per line (`ਅਜੂ ॥`, `ਅਭੈ ॥`, `ਅਲੇਖ ॥`, `ਦਿਆਲ ॥`) — 32 of those in `JAAP` alone
+would misclassify. **A false negative is the accepted failure mode, never a false
+positive** — an unlisted marker renders a real heading as plain verse, a smaller
+error than plain verse rendering as a heading.
+
+**No vishraam gate, on principle, not just in practice.** Vishraams mark where a
+reciter pauses; that is not a principled definition of what a heading is or
+isn't. Dropping it recovers the mool mantar's own vishraam-bearing spelling as
+`is_heading` too (not a contradiction with `is_moolmantar` — see above) and adds
+no false positive across bundled content.
+
+**`has_ikoankar`** — carries `ੴ` in any form. Its original justification (3 of 645
+mangal-bearing lines satisfied neither other function — `DDTK`, a vishraam glued
+to the mangal) closed for free when the vishraam gate came out; kept anyway as a
+simple, independent primitive for a caller that only needs "does this carry
+`ੴ`," not the heavier logic either other function runs.
+
+**Measured 2026-09-07 against every line-group's opening line**, which is where a
+shabad's heading sits — from before either the word-count or the vocabulary-gated
+rule existed, kept because it's exactly what informed `HEADING_WORDS`' contents
+once a vocabulary came back into the design. The legacy web app's `isTitle` list
+matched **6,188 of 12,730 (48%)** of openings. The **6,542 it missed split cleanly
+by length**, once vishraam markers are stripped before counting words:
 
 | Words | Openings | |
 | --- | --- | --- |
@@ -178,10 +302,7 @@ sentence marks is what made an earlier pass of this analysis wrong:
 | 4–5 | 448 | mixed |
 | **6+** | **2,164** | `ਕਬੀਰ. ਭਲੀ ਮਧੂਕਰੀ; ਨਾਨਾ ਬਿਧਿ ਕੋ ਨਾਜੁ ॥` — verse |
 
-**So roughly 4,000 real titles are missing, and about 2,200 unmatched openings are
-correctly unmatched.** "Unmatched" is not a defect list.
-
-**Three separable failures in the current list:**
+**Three separable failures in that list:**
 
 - **Spelling variants.** It has `ਚਉਪਈ ॥`; the corpus has **1,509** openings beginning
   `ਚੌਪਈ`. One vowel.
@@ -190,35 +311,19 @@ correctly unmatched.** "Unmatched" is not a defect list.
   `ਲਛਮਣ ਬਾਚ ॥`), numbered forms (`ਪਉੜੀ ੨੨` — the list has `ਪਉੜੀ ॥` but not with a
   numeral), and nearly every raag name — it holds `ਦੇਵਗੰਧਾਰੀ` and misses `ਗਉੜੀ`,
   `ਕਾਨ੍ਰਹ` and the rest.
-- **Length is the strongest signal the list does not use.** A short line at the start
-  of a shabad is almost always a heading; a long one almost never is.
+- **Length is a signal a list does not use, and a word-count rule uses too bluntly**
+  — see below.
 
-**Implemented as `gurmukhi::is_title`, on two structural signals and no vocabulary
-at all:**
+**Position is deliberately not a signal**, in either rule. `ਚੌਪਈ ॥` and `ਸਵੈਯਾ ॥`
+appear partway through long works as internal headings, so a rule that only looked
+at opening lines would miss them.
 
-> A line is a title if it **contains no vishraam** and is **three words or fewer**,
-> counting a bare `॥` as punctuation rather than a word.
-
-**Vishraams turned out to be the sharper of the two.** They mark where a reciter
-pauses, and a heading is not recited that way: of the 6,188 lines the old list
-recognised as titles, **ten** contain one. 63% of verse lines do.
-
-**Position is deliberately not a signal.** `ਚੌਪਈ ॥`, `ਸਵੈਯਾ ॥` and `ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥`
-all appear partway through long works as internal headings, so a rule that only
-looked at opening lines would miss them.
-
-| Word limit | Recall on known titles | Fires on non-opening lines |
-| --- | --- | --- |
-| 2 | 48% | 1.8% |
-| **3** | **88%** | **4.9%** |
-| 4 | 92% | 9.8% |
-
-**It is a heuristic and will be refined in use.** It over-fires on short verse —
-`ਧਿਆਏ ਗਾਏ ਕਰਨੈਹਾਰ ॥` is three words with no vishraam and is not a title. **A
-vocabulary was rejected rather than overlooked**: the short openings the old list
-missed lead with **307 distinct words**, so a list was never going to converge, which
-is [ADR-0005](../architecture/decisions/0005-line-type-derived-not-stored.md)'s point
-in a new script.
+**`ਧਿਆਏ ਗਾਏ ਕਰਨੈਹਾਰ ॥` — the word-count rule's known false positive, and the
+structure-only rule's too — is correctly verse under the current rule.** It ends
+with `॥` and carries no trailing number, so structure alone still can't tell it
+from a heading; it carries no `HEADING_WORDS` marker and no short numbered
+ending, so the vocabulary gate excludes it. This is that gate doing its actual
+job, not a coincidence — the whole reason it exists.
 
 **A title is a line that names or introduces rather than being read as verse** — a
 raag heading, an authorship line, a chhand name, a `ੴ`.
@@ -229,18 +334,22 @@ raag heading, an authorship line, a chhand name, a `ੴ`.
 chhand names — and an *exact* list of about thirty whole strings including `ਸਲੋਕੁ ॥`,
 `ਦੋਹਰਾ ॥`, `ਅਸਟਪਦੀ ॥`, `ਰਾਗ ਮਾਲਾ ॥`.
 
-**Treat the list as evidence of what a title is, not as the design.**
-[ADR-0005](../architecture/decisions/0005-line-type-derived-not-stored.md) removed
-v2's 39 hardcoded ASCII title patterns and moved line typing into
-`packages/gurmukhi`, generated into the corpus at build time. A Unicode list of the
-same shape is that decision undone.
+**Treat the list as evidence of which words to check, not as the design to
+copy wholesale.** [ADR-0005](../architecture/decisions/0005-line-type-derived-not-stored.md)
+removed v2's 39 hardcoded ASCII title patterns and moved line typing into
+`packages/gurmukhi`, generated into the corpus at build time — a *sole*,
+recall-tuned Unicode list of the same shape would undo that. `HEADING_WORDS`
+isn't that: it's a precision gate on top of a structural rule, every entry
+checked against bundled content rather than copied on the strength of looking
+like a real marker (see `HEADING_WORDS`' and `is_heading`'s own doc comments).
 
 **What survives the move and what does not** — measured against `collections/` on
-2026-09-04:
+2026-09-04, and now the shape of `HEADING_WORDS` itself:
 
 | Entries | Verdict |
 | --- | --- |
-| `ਮਹਲਾ ੧`–`੯`, `ਮਃ ੧`–`੯`, `ਘਰੁ ੧ ॥`–`੯ ॥`, `ਦੇਵਗੰਧਾਰੀ ੧`–`੯`, `ੴ`, chhand names | **Real titles.** A classifier must catch them from structure, not from a lookup |
+| `ਮਹਲਾ ੧`–`੯`, `ਮਃ ੧`–`੯`, `ਦੇਵਗੰਧਾਰੀ ੧`–`੯`, `ੴ`, chhand names | **Real titles, and in `HEADING_WORDS` now** — caught from a marker word, not from structure alone, and each checked against bundled content before joining |
+| `ਘਰੁ ੧ ॥`–`੯ ॥` | **Real titles, but not a `HEADING_WORDS` entry** — this shape is exactly what `ends_with_short_numbered_marker` catches without needing the word listed |
 | `ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥`, `ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ॥`, `ਪਾਤਿਸਾਹੀ ੧੦` | **Real titles** — the headers of Ardas's opening pauri, `banis/ARDS.toml` section 1, from `DGDG` |
 | `ਵਾਹਿਗੁਰੂ`, the fateh, `ਬੋਲੇ ਸੋ ਨਿਹਾਲ…` | **Not titles.** Slideshow strings, filed here because the mechanism was convenient. The *view* should mark slideshow lines as titles — they should not look smaller than headings — and the classifier should never see them |
 | `ਪਉੜੀ।`, `ਪਉੜੀ ।`, `ਪਉੜੀ॥` | **Dead.** Only `ਪਉੜੀ ॥` ever matches primary text — 551 lines, 515 in `SSA2` and 36 in `DGDG`. `ਪਉੜੀ।` occurs 493 times as **`SBMS` translation text**, an asset that is never displayed |
@@ -270,6 +379,16 @@ gurmukhi feature, corpus-authored block structure, or something else belongs wit
 
 **Title detection is the one genuinely new piece of logic Saral and Reader need**, and
 it belongs in `packages/gurmukhi` alongside the features that already exist.
+
+**This section's own name overstates what `NumberedEnding` tells you.** It fires on
+*any* numbered verse close, not specifically a pauri's — a shabad's `॥੨॥੭॥੧੨੩॥` and
+a pauri's `॥੧॥` are the same feature. Telling a pauri apart from an ordinary numbered
+shabad needs the line's *heading* to name the form (`classifyForm` in
+`database/scripts/lib/gurbani.ts`, matching `ਪਉੜੀ`/`ਪਵੜੀ`; not yet ported to
+`packages/gurmukhi`), not the ending alone. `apps/ios`'s `Line.isRahaoEnding` and
+`Line.endingText` (`BaniReaderView.swift`) expose exactly `NumberedEnding` and
+`RahaoEnding` as written here — a marker is present or it isn't, distinguished from
+the verse text it closes but not yet classified by which form it belongs to.
 
 **Naming collision.** `Mode` here means a *rendering density* and its values include
 `presenter`.
@@ -659,6 +778,57 @@ who keeps triggering it by accident.
 
 **The slider is unaffected.** Turning off the gesture must never remove the only
 other way to change size — that would turn an accessibility setting into a trap.
+
+### Tap a line
+
+**Tapping a line scrolls it to the top of the viewer and confirms which one was
+tapped**, visibly, in whatever way is native to the platform
+([ADR-0013](../architecture/decisions/0013-three-layers-of-specification.md):
+the confirmation is the requirement, the mechanism is layer 2). For someone who
+has lost their place, or is following along with a sangat reading aloud, this is
+the fastest way back in sync — faster than the scrollbar, and with no separate
+"find my place" control to build.
+
+**iOS answers this with a brief highlight**, held then faded, on the same
+[toner](../../packages/design/tokens.md) surface a card elsewhere in the reader
+uses — built because a plain SwiftUI tap gesture has no feedback of its own.
+**Android answers it with the platform's own default ripple** on the row's
+`clickable` — Compose already gives every tappable row one, so nothing further
+needed building; a second, custom highlight layered on top would be redundant
+with what the platform already does, not an improvement on it. Two different
+answers to the same requirement, not one platform behind the other.
+
+**The whole row is the target, not just its glyphs** — a short or centred line
+(a title) has empty space beside it that must tap the same as the text.
+
+**Applies to a `Keep reading` card's own revealed lines too, once opened** — once a
+continuation ([library.md](library.md#continuation-not-configuration)) is expanded,
+every line it reveals is an ordinary line for every purpose from that point on,
+tap-to-scroll included. There is no second, lesser version of this behaviour for
+text that arrived by expansion rather than being there from the start. The
+collapsed card itself is a distinct unit — tapping it (not its `Expand` control)
+scrolls the whole card the same way, confirmed the same platform-native way any
+other row is.
+
+### A system gesture never discards a reading position
+
+**Nothing incidental may silently jump the reader back to the very start of what
+they're reading.** Twenty minutes into a long paath, one stray touch scrolling
+everything back to line one is a worse failure than not offering whatever gesture
+caused it — there is no undo for a scroll that already happened, and the longer
+the reading, the more there is to lose finding the way back.
+
+**iOS's status-bar tap-to-scroll-to-top is the concrete case addressed today** — it
+applies to a scroll view automatically, with no opt-in and no confirmation, so a
+mis-tap near the top edge while reaching for something else is enough to trigger
+it. Turned off outright, not just guarded with a confirmation: [Tap a
+line](#tap-a-line) already covers "get back to the top on purpose" more precisely
+than this gesture ever did, so there is nothing it offers a reader mid-bani that
+disabling it costs them.
+
+**Not specific to this one gesture** — the requirement is the general one above;
+this is its first instance. Any other incidental, no-confirmation gesture found to
+have the same effect, on any platform, gets the same answer.
 
 ## Appearance
 
