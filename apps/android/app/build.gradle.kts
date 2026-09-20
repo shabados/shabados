@@ -81,6 +81,18 @@ android {
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
   }
+
+  // packages/gurmukhi's generated Kotlin bindings, compiled straight from where
+  // `mise run android` (in that package) writes them — never copied in, same
+  // reason DesignTokens.kt/AppIcons.kt are generated fresh rather than hand-kept
+  // in sync: a stale copy here would compile against a wrapper for a Rust API
+  // that no longer exists. jniLibs/ needs no equivalent entry — that directory
+  // name is AGP's own convention and is picked up automatically.
+  sourceSets {
+    getByName("main") {
+      kotlin.srcDirs("../../../packages/gurmukhi/bindings/kotlin/lib")
+    }
+  }
 }
 
 dependencies {
@@ -94,4 +106,12 @@ dependencies {
   // No JSON library: org.json is in the platform and the payload is a few nested
   // arrays. kotlinx-serialization would add a dependency and a Gradle plugin whose
   // version has to track Kotlin's, for about twenty lines of parsing.
+
+  // UniFFI's generated Kotlin calls into the native library through JNA, not a
+  // hand-written JNI layer. `@aar`, not the plain jar `bindings/kotlin`'s own
+  // build.gradle.kts uses for its JVM smoke test — JNA ships an Android-specific
+  // artifact that bundles its own tiny native helper per ABI; the plain jar
+  // targets desktop JVMs and does not load on-device. Version matches
+  // bindings/kotlin's, kept in step by hand since nothing generates this line.
+  implementation("net.java.dev.jna:jna:5.17.0@aar")
 }
