@@ -9,7 +9,7 @@ import { findVishraamFaults } from '../lib/gurbani'
 export const vishraams: Check = {
   name: 'vishraams',
   issue: 9,
-  expected: 4,
+  expected: 0,
   run: (corpus) => {
     const findings: Finding[] = []
 
