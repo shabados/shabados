@@ -4,7 +4,7 @@ bun = "1"
 # `targets` -- so the list has to live here too. Keep both files in step: mise for this
 # repo, rust-toolchain.toml for rustup without mise. Version is exact, not "1", because
 # CLAUDE.md forbids floating versions and "1" silently moved to 1.98.1.
-rust = { version = "1.98.1", targets = "aarch64-apple-darwin,aarch64-apple-ios,aarch64-apple-ios-sim,wasm32-unknown-unknown", components = "rustfmt,clippy" }
+rust = { version = "1.98.1", targets = "aarch64-apple-darwin,aarch64-apple-ios,aarch64-apple-ios-sim,wasm32-unknown-unknown,aarch64-linux-android,armv7-linux-androideabi,x86_64-linux-android,i686-linux-android", components = "rustfmt,clippy" }
 python = "3"
 # Pinned tag: binaryen's version_XXX scheme makes "latest" resolve to stale semver tags
 "ubi:WebAssembly/binaryen" = { version = "version_131", exe = "wasm-opt", extract_all = "true", bin_path = "bin" }
@@ -74,6 +74,10 @@ sed -i "s|ffi_lib 'gurmukhi'|ffi_lib File.join(File.dirname(__FILE__), FFI.map_l
 
 [tasks."generate:kotlin"]
 description = "Generate Kotlin bindings"
+# uniffi-bindgen reads the metadata out of the built host library, same as
+# generate:swift — see that task's own comment for why this must be an explicit
+# dependency, not assumed.
+depends = ["build"]
 env = { UNIFFI_LANG = "kotlin", UNIFFI_OUT = "bindings/kotlin/lib" }
 run = "mise run generate"
 
@@ -158,6 +162,35 @@ for target in aarch64-apple-darwin aarch64-apple-ios aarch64-apple-ios-sim; do
   cargo build --release --target "$target" --lib
 done
 """
+
+[tasks."build:android"]
+description = "Cross-compile native library for all four Android ABIs (needs cargo-ndk and an installed NDK — see the task's own error messages)"
+run = """
+#!/usr/bin/env bash
+set -euo pipefail
+command -v cargo-ndk >/dev/null || { echo "Install: cargo install cargo-ndk" >&2; exit 1; }
+# cargo-ndk needs to find the NDK itself; ANDROID_NDK_HOME is its own documented
+# variable (not ANDROID_HOME/ANDROID_SDK_ROOT, which name the SDK, not the NDK
+# inside it) -- checked explicitly so the failure names the right variable rather
+# than surfacing as a wall of linker errors.
+: "${ANDROID_NDK_HOME:?Set ANDROID_NDK_HOME, e.g. to $ANDROID_HOME/ndk/<installed version>}"
+for target in aarch64-linux-android armv7-linux-androideabi x86_64-linux-android i686-linux-android; do
+  rustup target add "$target" 2>/dev/null || true
+done
+# -o writes directly in Android's own jniLibs layout (one arm64-v8a/armeabi-v7a/
+# x86_64/x86 directory per ABI, each holding libgurmukhi.so) -- pointed straight at
+# the app module so AGP picks the libraries up with no further Gradle config, the
+# same way build:apple's xcframework lands where Xcode already looks.
+cargo ndk \
+  -t arm64-v8a -t armeabi-v7a -t x86_64 -t x86 \
+  -o ../../apps/android/app/src/main/jniLibs \
+  build --release --lib
+"""
+
+[tasks.android]
+description = "Everything an Android app needs: native libs per ABI, Kotlin bindings"
+depends = ["build:android", "generate:kotlin"]
+run = "echo 'jniLibs/ and bindings/kotlin/lib ready -- apps/android/app/build.gradle.kts already points at both'"
 
 [tasks.xcframework]
 description = "Assemble gurmukhiFFI.xcframework from the Apple static libraries"
