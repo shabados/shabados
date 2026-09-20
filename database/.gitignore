@@ -77,3 +77,4 @@ data.tmp/
 
 # Local review output
 review.html
+review*.md

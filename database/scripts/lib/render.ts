@@ -14,19 +14,24 @@ export type Block =
   | { kind: 'pair'; id: string; note: string; from: Row[] | null; to: Row[] | null }
   | { kind: 'list'; id: string; note: string; items: string[] }
   | { kind: 'text'; id: string; note: string; from: string; to: string }
+  /** A survey: findings listed as they read, with no change proposed. */
+  | { kind: 'rows'; id: string; note: string; rows: Row[] }
 
 export type Article = { title: string; subtitle?: string; blocks: Block[] }
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 
-/** Side decides the colour: a changed line is leaving on the left, arriving on the right. */
-const table = (rows: Row[] | null, side: 'from' | 'to') =>
+/**
+ * Side decides the colour: a changed line is leaving on the left, arriving on the
+ * right. A survey has neither side — `mark` highlights without implying a change.
+ */
+const table = (rows: Row[] | null, side: 'from' | 'to' | 'mark') =>
   rows === null
     ? '<p class="gone">line-group retired</p>'
     : `<table>${rows
         .map(
           (r) =>
-            `<tr class="${r.changed ? (side === 'from' ? 'out' : 'in') : ''}"><td class="i">${esc(r.id)}</td><td class="gm">${esc(r.text)}</td></tr>`,
+            `<tr class="${r.changed ? (side === 'mark' ? 'mark' : side === 'from' ? 'out' : 'in') : ''}"><td class="i">${esc(r.id)}</td><td class="gm">${esc(r.text)}</td></tr>`,
         )
         .join('')}</table>`
 
@@ -34,6 +39,9 @@ const block = (b: Block) => {
   const head = `<h3>${esc(b.id)}<span class="n">${esc(b.note)}</span></h3>`
   if (b.kind === 'pair') {
     return `<section>${head}<div class="pair"><div><h4>From</h4>${table(b.from, 'from')}</div><div><h4>To</h4>${table(b.to, 'to')}</div></div></section>`
+  }
+  if (b.kind === 'rows') {
+    return `<section>${head}${table(b.rows, 'mark')}</section>`
   }
   if (b.kind === 'list') {
     return `<section>${head}<ul>${b.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul></section>`
@@ -67,13 +75,14 @@ export const page = (title: string, lead: string, articles: Article[]) => `<!doc
  td{padding:.3rem .5rem;border-bottom:1px solid #f0ece7;vertical-align:baseline}
  tr.out td{background:#f6e4e4;font-weight:600}
  tr.in td{background:#e7f2e2;font-weight:600}
+ tr.mark td{background:#f6efdc;font-weight:600}
  .gm{font-family:"Sant Lipi",serif;font-size:1.05rem;line-height:1.9}
  .i{font-family:"IBM Plex Mono",monospace;font-size:.75rem;color:#575552;white-space:nowrap}
  .gone{font-style:italic;color:#8a472a;background:#fff;border:1px solid #d8d2cb;padding:.5rem}
  ul{margin:.2rem 0;padding-left:1.2rem}
  @media(prefers-color-scheme:dark){body{background:#000;color:#fff}article{border-color:#fff}
    table,.gone{background:#1c1c1c;border-color:#3a3a3a}td{border-color:#2a2a2a}
-   tr.out td{background:#2e1b1b}tr.in td{background:#1c2718}.i,.n,.sha,h4,.lead{color:#bebebe}}
+   tr.out td{background:#2e1b1b}tr.in td{background:#1c2718}tr.mark td{background:#2b2718}.i,.n,.sha,h4,.lead{color:#bebebe}}
 </style>
 <h1>${esc(title)}</h1><p class="lead">${esc(lead)}</p>
 ${articles
