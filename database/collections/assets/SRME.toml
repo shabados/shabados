@@ -7,10 +7,6 @@ subtitle = "English Translation"
 url = "https://old.sgpc.net/CDN/Sikh_Rehat_Maryada_English.pdf"
 accessed = "2023-11-13"
 
-[[reference.authors]]
-first = "SGPC"
-last = "Committee"
-
 [reference.publisher]
 name = "SGPC"
 
