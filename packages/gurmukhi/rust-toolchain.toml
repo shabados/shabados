@@ -19,4 +19,11 @@ targets = [
   "aarch64-apple-ios-sim",
   # The web codebase, and the JavaScript bindings.
   "wasm32-unknown-unknown",
+  # Android, all four ABIs Play requires. cargo-ndk maps each to the matching
+  # jniLibs directory name (arm64-v8a, armeabi-v7a, x86_64, x86) — see
+  # `build:android` in mise.toml.
+  "aarch64-linux-android",
+  "armv7-linux-androideabi",
+  "x86_64-linux-android",
+  "i686-linux-android",
 ]

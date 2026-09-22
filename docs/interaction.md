@@ -115,6 +115,23 @@ platforms that have haptics.
 becomes pick-up / move / drop with the select button. That is a genuinely different
 interaction for the same feature, and the reason this table has a D-pad column at all.
 
+**Confirming which line was tapped has no shared mechanism.** Tapping a line scrolls
+it to the top ([display-controls.md](requirements/display-controls.md#tap-a-line)), and
+a scroll alone does not tell you which line you hit. Compose gives every `clickable` a
+ripple, which answers it; SwiftUI's plain tap gestures give nothing, so iOS flashes the
+toner behind the line and fades it out. Neither app suppresses the other's mechanism to
+match. The requirement is that the tap is acknowledged where the finger landed, not that
+it is acknowledged the same way.
+
+**A continuation card is content, not a control, and that constrains its feedback.** The
+card offering the longer reading
+([library.md](requirements/library.md#continuation-not-configuration)) sits inline
+between lines, so on touch and pointer it takes the platform's ordinary pressed state
+and nothing more — a line-tap confirmation on it would say "this line is now the
+subject", which is the wrong claim about a card whose job is to open. Opening it inlines
+the lines in place and there is no collapse, because nothing was removed and so there is
+nothing to restore.
+
 **The fading header has no shared mechanism.** iOS 26's `scrollEdgeEffect` does it
 directly. Android's `TopAppBar` scroll behaviours change elevation and colour rather
 than masking, so the overlay is hand-built there. The requirement is that Gurmukhi

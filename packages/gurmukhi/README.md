@@ -167,6 +167,28 @@ input.slice(match.start, match.end) // "॥੧॥"
 | Vowels       | `VowelSign` `VowelCarrier`                                |
 | Modifiers    | `Nukta` `Adhak` `Nasal` `Accent` `Visarga`                |
 
+#### Line classification
+
+Independent facts about a line, each answering one question. None implies or excludes another, and none says how anything should render — the size a heading takes is the app's composition decision, not this crate's. The rules and the corpus measurements behind them are in [`docs/requirements/display-controls.md#titles`](../../docs/requirements/display-controls.md#titles).
+
+| Function | Answers | How |
+| --- | --- | --- |
+| `is_heading(line)` | Does this line name a division rather than read as verse? | Structure (closes with `॥`, no vishraam, no trailing number) **and** a curated marker word or a short-numbered-marker shape. Structure alone over-fires on interior pauri and chhand lines. |
+| `is_moolmantar(line)` | Is this the mool mantar? | Exact lookup, vishraam marks stripped before comparing. Excludes the shorter "chhota" forms. |
+| `has_ikoankar(line)` | Does this line carry `ੴ`? | Contains the character. Most lines that do are ordinary headings, not the mool mantar. |
+| `is_colophon(line_id)`, `colophon_text(line_id)` | Is this line scripture-adjacent rather than scripture? | Lookup by line id. |
+
+The first three take the line's text; the colophon pair take a line id, since a colophon is identified by which line it is, not by how it reads.
+
+```rust
+use gurmukhi::feature::{has_ikoankar, is_heading, is_moolmantar};
+
+is_heading("ਰਾਗੁ ਗੋਂਡ ਬਾਣੀ ਭਗਤਾ ਕੀ ॥ ਕਬੀਰ ਜੀ ਘਰੁ ੧ ॥".into()) // true
+is_heading("ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥".into()) // true — a heading that carries the mangal
+is_moolmantar("ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥".into()) // false — the mangal alone is not the mool mantar
+has_ikoankar("ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥".into())  // true
+```
+
 #### Grouping helpers
 
 Instead of remembering individual Feature variants, these functions return preset lists you can pass directly to `detect` or `remove`:

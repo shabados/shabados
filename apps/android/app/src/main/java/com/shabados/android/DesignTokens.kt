@@ -39,7 +39,7 @@ object DesignTokens {
   val vishraamLightLight = Color(0xFF5E438E)
   val vishraamLightDark = Color(0xFFDECBFF)
 
-  const val TONER_OPACITY = 0.08f
+  const val TONER_OPACITY = 0.04f
 
   const val WEIGHT_PRIMARY = 550f
   const val WEIGHT_LATIN = 475f

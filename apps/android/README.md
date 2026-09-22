@@ -59,10 +59,14 @@ specifics:
 
 ## Deliberately absent
 
-- **`packages/gurmukhi`**, so no transliteration. Consuming it needs NDK
-  cross-compilation for four ABIs — real FFI plumbing not done yet; see
-  [`apps/README.md#packagesgurmukhi-in-the-apps`](../README.md#packagesgurmukhi-in-the-apps)
-  for where the iOS side landed and what's left for this one.
+- **Nothing of `packages/gurmukhi` beyond what the reader needs.** `Bani.kt` calls
+  `isHeading`/`isMoolmantar`/`hasIkoankar`/`isColophon`, `vishraams`/`detect`/`remove`
+  and `transcribe` through the generated `uniffi.gurmukhi` bindings; anything else the
+  crate exposes is unused here so far. Building those bindings is a one-time local
+  setup step (`mise run android` in `packages/gurmukhi`, see
+  [`apps/README.md#packagesgurmukhi-in-the-apps`](../README.md#packagesgurmukhi-in-the-apps))
+  — `jniLibs/` and `bindings/kotlin/lib/` are build outputs and are not committed, so a
+  fresh clone must run it before Gradle will compile.
 - **A shared core** — no session/search/navigation core on any platform yet
   ([ADR-0010](../../docs/architecture/decisions/0010-shared-core-across-platforms.md)
   Needs discussion; see [`apps/README.md`](../README.md#what-is-shared-and-how)).

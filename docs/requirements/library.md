@@ -166,6 +166,21 @@ Anand. **This is evidence that a control at the point of divergence is the right
 shape** — "read to the end and stop" would not serve any of them. It is not a method
 for finding those points.
 
+**How the mobile app's first pass located them, 2026-09-17 — narrower than a diff,
+and worth being precise about the difference.** `BNCP`→`CPDT` and `RHRS`→`RHRT` were
+already this table's authored answer to *which* pairs are a continuation; nothing
+here used a diff to decide that. What `database/scripts/export-bundled-banis.ts`
+does is mechanical only within an already-named pair: `BNCP` and `RHRS` are each a
+clean **subsequence** of their longer counterpart (verified — no reordering, no
+substitution, only insertions), so walking both in order and recording every run of
+the longer one with no next match in the shorter reproduces exactly the gaps above:
+one at `BNCP`'s last line for Chaupai, two for Rehras at the same 162/272 positions
+already measured by hand. **This is a location method for a confirmed pair, not a
+method for finding new ones** — the moment a future pair is not a clean subsequence,
+the script refuses (throws) rather than guess at a shape a human hasn't read. If
+that happens, this section is the place to write down what the real point is, by
+reading, the way the rest of this table was produced.
+
 **`ANND`/`ANN6` is not this shape either.** `ANN6` holds 7 lines `ANND` does not — a
 closing salok — so it is an abridgement *plus* an addition, not a truncation.
 

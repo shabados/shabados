@@ -24,11 +24,17 @@ object AppIcons {
   /** Journeys sidebar is open; tapping returns to the viewer. Same shape, filled. */
   const val journeysActive = "ic_journeys_active"
 
-  /** Open the Controls sidebar. Lucide `sliders-horizontal`. */
+  /** Open the Controls sidebar. Lucide `settings-2`. */
   const val controls = "ic_controls"
 
-  /** Controls sidebar is open. PROPOSED, as above. Lucide `sliders-horizontal`. */
+  /** Controls sidebar is open. PROPOSED, as above. Lucide `settings-2`. */
   const val controlsActive = "ic_controls_active"
+
+  /** Enter fullscreen. PROPOSED. */
+  const val fullscreen = "ic_fullscreen"
+
+  /** Exit fullscreen. Unlike journeysActive/controlsActive this is a distinct Lucide glyph, not the same shape filled — Lucide has no fullscreen fill variant. PROPOSED. */
+  const val fullscreenActive = "ic_fullscreen_active"
 
   /** Font size of the reading area. Specified by the author. */
   const val zoom = "ic_zoom"
@@ -60,6 +66,12 @@ object AppIcons {
   /** Translation languages. Specified by the author. */
   const val translations = "ic_translations"
 
+  /** Toggle a line-notes panel in Controls. PROPOSED. */
+  const val notes = "ic_notes"
+
+  /** Choose a full-screen card — Blank, Waheguru, Fateh, Mul Mantar, Bole So Nihal — to display over the text. PROPOSED. */
+  const val slideshow = "ic_slideshow"
+
   /** Light / dark / auto. Specified by the author. */
   const val appearance = "ic_appearance"
 
@@ -69,8 +81,8 @@ object AppIcons {
   /** Trailing chevron on the All recents row. PROPOSED. */
   const val disclosure = "ic_disclosure"
 
-  /** The Collections row, pinned below Recents. PROPOSED — destination undefined. */
-  const val collections = "ic_collections"
+  /** Open the Library — collections, bookmarks, assets and their tables of contents. Pinned below Recents in the Journeys sidebar. Specified by the author ([library.md](../../docs/requirements/library.md), [reading-shell.md](../../docs/requirements/reading-shell.md#getting-between-them)). */
+  const val library = "ic_library"
 
   /** About Shabad OS — links, social, feedback. PROPOSED. */
   const val about = "ic_about"

@@ -12,3 +12,8 @@ captures/
 
 # Native build output; `build/` is already ignored at the repo root.
 .cxx/
+
+# Native libraries staged by `mise run android` in packages/gurmukhi. Build output
+# for four ABIs, rebuilt from source; same reason that package ignores its own
+# staged copies rather than committing them.
+app/src/main/jniLibs/
