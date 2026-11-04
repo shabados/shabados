@@ -62,28 +62,6 @@ final class ReadingPosition {
   var line: String?
 }
 
-/// Where the Controls sidebar's sliders and switches are, in `ReaderShell.space`, so
-/// the sidebar drag leaves a drag that starts on one to that control
-/// (reading-shell.md#the-controls-sidebar).
-///
-/// **A plain class, deliberately not observed**, like `ActivityClock`: frames are
-/// written as the panel lays out and read only when a drag starts.
-final class ControlFrames {
-  var frames: [String: CGRect] = [:]
-
-  func contains(_ point: CGPoint) -> Bool {
-    frames.values.contains { $0.contains(point) }
-  }
-}
-
-/// Whether the reader's pinch is in progress, so the sidebar drag can stand aside
-/// for it: two fingers spreading sideways would otherwise read as a drag.
-///
-/// **A plain class, deliberately not observed**, like `ActivityClock`.
-final class PinchFlag {
-  var active = false
-}
-
 /// The app: the viewer, lying over the Journeys sidebar on its left and the
 /// Controls sidebar on its right. "The viewer is the app"
 /// (docs/requirements/reading-shell.md): it is what the app opens to, and neither
@@ -115,41 +93,18 @@ struct ReaderShell: View {
   @State private var openSide: Side?
   /// The drag's horizontal travel while it is moving the viewer; nil otherwise.
   @State private var dragX: CGFloat?
-  /// What the current drag was judged to be, once it has moved far enough to tell.
-  @State private var dragAxis: DragAxis?
-  /// When a drag that moved the viewer last ended. **A button lifted with it does
-  /// nothing** (`swiping`): a `Button` fires on lifting however far the finger
-  /// travelled, so a swipe that began on a default-screen pill opened that bani as
-  /// well as the sidebar (iPhone, 2026-10-22).
-  ///
-  /// A time, not a flag cleared when the next touch begins: on a plain tap the
-  /// button's action runs before this shell's drag hears of the touch, so the first
-  /// tap after any swipe, the one that opened Journeys included, was swallowed.
-  @State private var swipeEnded: Date?
-  /// How long after a swipe ends its own lift may still reach a button. A deliberate
-  /// tap comes later than this.
-  private static let swipeSettle: TimeInterval = 0.3
   /// `@State` only to keep one instance for the view's lifetime.
   @State private var activity = ActivityClock()
   /// `@State` only to keep one instance for the view's lifetime.
-  @State private var pinch = PinchFlag()
-  /// `@State` only to keep one instance for the view's lifetime.
   @State private var position = ReadingPosition()
-  /// `@State` only to keep one instance for the view's lifetime.
-  @State private var controlFrames = ControlFrames()
   /// Settings, as a sheet over everything (reading-shell.md#settings).
   @State private var settingsShown = false
   @Environment(\.horizontalSizeClass) private var horizontalSizeClass
 
-  /// The shell's own coordinate space, the whole screen: where a drag starts and
-  /// where `ControlFrames` are measured.
-  static let space = "ReaderShell"
   /// The line a new reader opens at: where `continue reading` left off, or nil for
   /// the top.
   @State private var startLine: String?
   @Environment(\.scenePhase) private var scenePhase
-
-  private enum DragAxis { case horizontal, other }
 
   /// Which sidebar: Journeys on the left, Controls on the right.
   private enum Side { case journeys, controls }
@@ -174,9 +129,6 @@ struct ReaderShell: View {
   static func travel(width: CGFloat, height: CGFloat, edgeInset: CGFloat) -> CGFloat {
     max(0, min(width, height) - peek + edgeInset)
   }
-  /// How far a drag moves before it is judged horizontal or not. Below this a
-  /// finger has not said which way it is going.
-  private static let dragDecision: CGFloat = 12
   /// How visible the sidebar is with the viewer covering it, and how far the
   /// viewer has slid by the time it is fully visible (chosen 2026-10-16).
   private static let sidebarStartStrength: Double = 0.4
@@ -289,7 +241,7 @@ struct ReaderShell: View {
         // Beneath, on the other side: Controls, the same in mirror image.
         ZStack(alignment: .trailing) {
           Self.sidebarBackground.ignoresSafeArea()
-          ControlsPanel(frames: controlFrames, onSettings: showSettings)
+          ControlsPanel(onSettings: showSettings)
             .dynamicTypeSize(...InterfaceText.cap)
             .padding(.trailing, insets.trailing)
             .safeAreaPadding(.top, insets.top)
@@ -346,8 +298,6 @@ struct ReaderShell: View {
         // sidebar beneath does, and the edge below returns to it.
         .visualEffect { content, _ in content.offset(x: offset) }
         .allowsHitTesting(progress == 0)
-        // A horizontal drag moves the viewer; stop it scrolling meanwhile.
-        .scrollDisabled(dragX != nil)
 
         // While open, the visible edge, its header button included, is one target
         // that returns to the viewer.
@@ -361,8 +311,7 @@ struct ReaderShell: View {
             .onTapGesture { setSide(nil) }
         }
       }
-      .simultaneousGesture(sidebarDrag(journeys: travelJ, controls: travelC))
-      .coordinateSpace(name: Self.space)
+      .gesture(sidebarPan(journeys: travelJ, controls: travelC))
       // Both layers span the whole screen, so the viewer is one rigid card whose
       // corners are the display's (`cardShape`). Their contents take the insets
       // as fixed padding instead, above.
@@ -419,7 +368,6 @@ struct ReaderShell: View {
       BaniReaderView(
         bani: bani,
         activity: activity,
-        pinch: pinch,
         position: position,
         startLine: startLine,
         onJourneys: { toggle(.journeys) },
@@ -468,49 +416,24 @@ struct ReaderShell: View {
   /// inside the content: the reader has no back button, so there is no system
   /// back-swipe to collide with (docs/interaction.md).
   ///
-  /// **Only a horizontal drag counts**, judged once it has moved `dragDecision`:
-  /// anything steeper is a scroll and is left alone for its whole length. A drag
-  /// that has started is dropped if a pinch begins.
-  ///
-  /// **With Controls open, a drag that starts on a slider or switch is that
-  /// control's** (`ControlFrames`); from anywhere else it closes Controls
-  /// (reading-shell.md#the-controls-sidebar).
-  private func sidebarDrag(journeys: CGFloat, controls: CGFloat) -> some Gesture {
-    DragGesture(minimumDistance: 0, coordinateSpace: .named(Self.space))
-      .onChanged { value in
-        if pinch.active {
-          dragAxis = .other
-          if dragX != nil { withAnimation(.smooth) { dragX = nil } }
-          return
+  /// **What it wins and loses against is `SidebarPan`'s**: only a horizontal drag
+  /// counts, a swipe never also taps what it started on, a scroll and a swipe never
+  /// both move, a drag from a slider is the slider's, and a second finger abandons
+  /// it.
+  private func sidebarPan(journeys: CGFloat, controls: CGFloat) -> SidebarPan {
+    SidebarPan(
+      canMove: { dx in
+        switch openSide {
+        case .journeys: dx < 0
+        case .controls: dx > 0
+        case nil: true
         }
-        let dx = value.translation.width
-        let dy = value.translation.height
-        if dragAxis == nil {
-          guard max(abs(dx), abs(dy)) >= Self.dragDecision else { return }
-          // The direction must be one that can move the viewer from where it is.
-          if openSide == .controls && controlFrames.contains(value.startLocation) {
-            dragAxis = .other
-            return
-          }
-          let towardsChange: Bool
-          switch openSide {
-          case .journeys: towardsChange = dx < 0
-          case .controls: towardsChange = dx > 0
-          case nil: towardsChange = true
-          }
-          dragAxis = abs(dx) > abs(dy) * 1.5 && towardsChange ? .horizontal : .other
-        }
-        guard dragAxis == .horizontal else { return }
-        dragX = dx
-      }
-      .onEnded { value in
-        defer { dragAxis = nil }
-        guard dragAxis == .horizontal else { return }
-        swipeEnded = .now
+      },
+      onChanged: { dx in dragX = dx },
+      onEnded: { _, predicted in
         // Where a flick would carry it, not only where the finger lifted, so a
         // short quick drag still opens or closes.
         let base = Self.base(openSide)
-        let predicted = value.predictedEndTranslation.width
         let towardsJourneys = base > 0 || (base == 0 && predicted > 0)
         let travel = towardsJourneys ? journeys : controls
         guard travel > 0 else { withAnimation(.smooth) { dragX = nil }; return }
@@ -526,7 +449,12 @@ struct ReaderShell: View {
           }
           dragX = nil
         }
+      },
+      onCancelled: {
+        guard dragX != nil else { return }
+        withAnimation(.smooth) { dragX = nil }
       }
+    )
   }
 
   private static func bani(_ id: String?) -> Bani? {
@@ -566,17 +494,10 @@ struct ReaderShell: View {
   }
 
   /// Every path out of the sidebar closes it
-  /// (docs/requirements/reading-shell.md#getting-between-them).
-  /// Whether a touch lifting now is the end of a swipe rather than a tap: the
-  /// viewer is being dragged, or a drag that moved it has only just ended.
-  private var swiping: Bool {
-    if dragX != nil { return true }
-    guard let swipeEnded else { return false }
-    return Date.now.timeIntervalSince(swipeEnded) < Self.swipeSettle
-  }
-
+  /// (docs/requirements/reading-shell.md#getting-between-them). A swipe that started
+  /// on the row or pill calling this never reaches it: `SidebarPan` cancels the
+  /// touch.
   private func open(_ bani: Bani) {
-    guard !swiping else { return }
     activity.touch()
     baniID = bani.id
     startLine = nil
@@ -587,7 +508,7 @@ struct ReaderShell: View {
 
   /// `continue reading`: opens `previous` at the line that was at its top.
   private func resume() {
-    guard let previous, !swiping else { return }
+    guard let previous else { return }
     activity.touch()
     baniID = previous.id
     startLine = previous.line

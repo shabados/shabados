@@ -290,8 +290,6 @@ struct BaniReaderView: View {
   /// Told of every tap, scroll and pinch, for the journey's idle boundary; see
   /// `ReaderShell`.
   let activity: ActivityClock
-  /// Set for the length of a pinch, so `ReaderShell`'s sidebar drag stands aside.
-  let pinch: PinchFlag
   /// Told the line at the top as it changes (`topLine`), for `continue reading`.
   let position: ReadingPosition
   /// The line to open at, by `ReaderItem.id`: where `continue reading` left off, or
@@ -406,14 +404,14 @@ struct BaniReaderView: View {
               row(for: item, precededByTitle: Self.precedingItemIsTitle(items, before: index), proxy: proxy)
                 .id(item.id)
                 // The row's top as a scroll target of its own, which a pinch holds
-                // still (`pinchToZoom`). Zero height, so aligning it with a point
+                // still (`pinchBegan`). Zero height, so aligning it with a point
                 // on screen puts the row's top there whatever height the row has
                 // grown to; aligning the row itself would not.
                 .background(alignment: .top) {
                   Color.clear.frame(height: 0).id(Self.topMarker(item.id))
                 }
                 // Reports this row's own frame in `Self.space` — read by
-                // `pinchToZoom`'s focal-row lookup below, and, for a
+                // the pinch's focal-row lookup (`pinchAnchor`), and, for a
                 // `.continuation` row, by the tap gesture just below to tell
                 // "on the card" from "on the Expand button" apart (the
                 // button reports its own frame into this same dictionary,
@@ -439,8 +437,7 @@ struct BaniReaderView: View {
                 // full rectangular frame, glyphs or not.
                 .contentShape(Rectangle())
                 // `.simultaneousGesture`, not the `.onTapGesture` convenience
-                // modifier — same reasoning as `pinchToZoom`'s own comment
-                // below. `.onTapGesture` installs an *exclusive* gesture, and
+                // modifier. `.onTapGesture` installs an *exclusive* gesture, and
                 // `LineText`'s `.textSelection(.enabled)` gives the row its
                 // own long-press-based selection recognizer; an exclusive tap
                 // sitting alongside that has to wait for the system to
@@ -491,7 +488,7 @@ struct BaniReaderView: View {
         }
         .scrollPosition($scrollPosition)
         // Nothing scrolls during a pinch: the pinch alone decides where the text is
-        // (`pinchToZoom`).
+        // (`pinchBegan`).
         .scrollDisabled(pinchBaseline != nil)
         // The bar has no background (`ViewerBar`), so this is all that sits behind
         // its buttons: the text is covered as it passes under them rather than
@@ -523,9 +520,9 @@ struct BaniReaderView: View {
           latestScroll.sample = sample
           holdOrRestore(sample, items: Self.expanded(bani.items, expandedContinuations), proxy: proxy)
         }
-        // simultaneousGesture, not gesture: a ScrollView installs its own
-        // recognisers and an exclusive .gesture loses to them.
-        .simultaneousGesture(pinchToZoom(proxy: proxy))
+        // A UIKit recogniser, which runs alongside the scroll view's own and the
+        // shell's drag (`ReaderPinch`).
+        .gesture(ReaderPinch(space: Self.space, onBegan: pinchBegan, onChanged: pinchChanged, onEnded: pinchEnded))
       }
       .onAppear { viewportHeight = viewport.size.height }
       .onChange(of: viewport.size.height) { _, height in viewportHeight = height }
@@ -784,7 +781,7 @@ struct BaniReaderView: View {
   /// The id of `id`'s row-top marker (see `body`).
   private static func topMarker(_ id: String) -> String { "top:" + id }
 
-  /// The font size changes live, and **the row under the fingers stays where it was
+  /// A pinch (`ReaderPinch`): the font size changes live, and **the row under the fingers stays where it was
   /// on screen, on every frame**, while the text resizes and re-wraps around it
   /// (display-controls.md#zoom). Nothing is corrected when the fingers lift,
   /// because nothing has moved.
@@ -810,65 +807,61 @@ struct BaniReaderView: View {
   /// `ScrollViewProxy.scrollTo` after each step, anchored at the fingers' height
   /// rather than the row's top, jittered at large sizes (2026-10-10); correcting
   /// once on lift left the row drifting during the pinch and jumping back after it.
-  private func pinchToZoom(proxy: ScrollViewProxy) -> some Gesture {
-    MagnifyGesture()
-      .onChanged { value in
-        activity.touch()
-        pinch.active = true
-        if pinchBaseline == nil {
-          pinchBaseline = DesignTokens.clamp(fontSize)
-          // Where the fingers went down, and which row was there. Both are in the
-          // reader's coordinate space, so they are directly comparable.
-          let y = value.startLocation.y
-          focalID = Self.pinchAnchor(at: y, in: rowFrames.rows, viewportHeight: viewportHeight)
-          // Not clamped to the screen: a tall row whose top is above the bar keeps
-          // it there, and is aligned the same way.
-          focalTop = (focalID.flatMap { rowFrames.frames[$0]?.minY } ?? y) / max(viewportHeight, 1)
-          // Shows which row the pinch is anchored to, with the same wash a tap
-          // uses.
-          highlightedLineID = focalID
-        }
+  private func pinchBegan(at location: CGPoint) {
+    activity.touch()
+    pinchBaseline = DesignTokens.clamp(fontSize)
+    // Where the fingers are, and which row is there. Both are in the reader's
+    // coordinate space, so they are directly comparable.
+    let y = location.y
+    focalID = Self.pinchAnchor(at: y, in: rowFrames.rows, viewportHeight: viewportHeight)
+    // Not clamped to the screen: a tall row whose top is above the bar keeps it
+    // there, and is aligned the same way.
+    focalTop = (focalID.flatMap { rowFrames.frames[$0]?.minY } ?? y) / max(viewportHeight, 1)
+    // Shows which row the pinch is anchored to, with the same wash a tap uses.
+    highlightedLineID = focalID
+  }
 
-        // Snapped to steps of 1/6pt (chosen 2026-10-10, for smoothness). It was
-        // whole points before, because text layout rounds font size and line
-        // height to device pixels independently, so off-pixel sizes can make the
-        // two drift. If that shows as shimmer, go back to `.rounded()` on the whole
-        // size.
-        let step = 1.0 / 6
-        let raw = (pinchBaseline ?? fontSize) * pow(Double(value.magnification), Self.pinchSensitivity)
-        let next = DesignTokens.clamp((raw / step).rounded() * step)
-        guard next != livePinchSize else { return }
-        livePinchSize = next
-        if let focalID {
-          scrollPosition.scrollTo(id: Self.topMarker(focalID), anchor: UnitPoint(x: 0.5, y: focalTop))
-        }
-      }
-      .onEnded { _ in
-        pinch.active = false
-        if let final = livePinchSize { fontSize = final }
-        livePinchSize = nil
-        pinchBaseline = nil
+  private func pinchChanged(_ magnification: CGFloat) {
+    guard let pinchBaseline else { return }
+    activity.touch()
+    // Snapped to steps of 1/6pt (chosen 2026-10-10, for smoothness). It was whole
+    // points before, because text layout rounds font size and line height to
+    // device pixels independently, so off-pixel sizes can make the two drift. If
+    // that shows as shimmer, go back to `.rounded()` on the whole size.
+    let step = 1.0 / 6
+    let raw = pinchBaseline * pow(Double(magnification), Self.pinchSensitivity)
+    let next = DesignTokens.clamp((raw / step).rounded() * step)
+    guard next != (livePinchSize ?? pinchBaseline) else { return }
+    livePinchSize = next
+    if let focalID {
+      scrollPosition.scrollTo(id: Self.topMarker(focalID), anchor: UnitPoint(x: 0.5, y: focalTop))
+    }
+  }
 
-        let id = focalID
-        focalID = nil
-        guard let id else { return }
-        // **The position is handed back as an offset, where it already is.** A
-        // scroll to an id leaves the scroll view holding that id, and it snapped
-        // back to it partway into a later drag (see `tapLine`). Deferred so the
-        // offset read is the final layout's.
-        DispatchQueue.main.async {
-          let sample = latestScroll.sample
-          scrollPosition.scrollTo(y: sample.offsetY + sample.insetTop)
-        }
-        // Then fade the anchor highlight exactly as a tap's fades, unless
-        // something else (a tap) has taken the highlight over meanwhile.
-        DispatchQueue.main.asyncAfter(deadline: .now() + Self.tapHighlightHoldDuration) {
-          guard highlightedLineID == id else { return }
-          withAnimation(.easeOut(duration: Self.tapHighlightFadeOutDuration)) {
-            highlightedLineID = nil
-          }
-        }
+  private func pinchEnded() {
+    if let final = livePinchSize { fontSize = final }
+    livePinchSize = nil
+    pinchBaseline = nil
+
+    let id = focalID
+    focalID = nil
+    guard let id else { return }
+    // **The position is handed back as an offset, where it already is.** A scroll
+    // to an id leaves the scroll view holding that id, and it snapped back to it
+    // partway into a later drag (see `tapLine`). Deferred so the offset read is the
+    // final layout's.
+    DispatchQueue.main.async {
+      let sample = latestScroll.sample
+      scrollPosition.scrollTo(y: sample.offsetY + sample.insetTop)
+    }
+    // Then fade the anchor highlight exactly as a tap's fades, unless something
+    // else (a tap) has taken the highlight over meanwhile.
+    DispatchQueue.main.asyncAfter(deadline: .now() + Self.tapHighlightHoldDuration) {
+      guard highlightedLineID == id else { return }
+      withAnimation(.easeOut(duration: Self.tapHighlightFadeOutDuration)) {
+        highlightedLineID = nil
       }
+    }
   }
 }
 

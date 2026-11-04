@@ -10,8 +10,6 @@ import UIKit
 /// change there, and a pinch made while this is closed shows here when it opens.
 /// Ranges and defaults are docs/requirements/display-controls.md.
 struct ControlsPanel: View {
-  /// Where each slider is, for `ReaderShell`'s drag to leave alone.
-  let frames: ControlFrames
   /// The footer's `Settings` row; `ReaderShell` presents the sheet.
   let onSettings: () -> Void
 
@@ -24,7 +22,7 @@ struct ControlsPanel: View {
 
   var body: some View {
     ScrollView {
-      ReaderSliders(frames: frames, spacing: 24)
+      ReaderSliders(spacing: 24)
         .padding(.horizontal, Self.inset)
         .padding(.vertical, 12)
     }
@@ -111,8 +109,6 @@ enum SliderLayout: CaseIterable {
 /// (docs/requirements/display-controls.md). Continuous; stored values are kept to a
 /// few decimal places.
 struct ReaderSliders: View {
-  /// Where each slider is reported, for the sidebar drag; nil where nothing drags.
-  var frames: ControlFrames?
   var spacing: CGFloat = 24
   var layout: SliderLayout = .stacked
 
@@ -180,7 +176,6 @@ struct ReaderSliders: View {
             Slider(value: spec.value, in: spec.range)
               .tint(DesignTokens.ui)
               .accessibilityLabel(spec.title)
-              .reportingFrame(as: spec.title, into: frames)
           }
         }
       }
@@ -206,7 +201,6 @@ struct ReaderSliders: View {
       }
       Slider(value: spec.value, in: spec.range)
         .tint(DesignTokens.ui)
-        .reportingFrame(as: spec.title, into: frames)
     }
   }
 }
@@ -294,22 +288,6 @@ enum Appearance: String, CaseIterable, Identifiable {
     case .auto: .unspecified
     case .light: .light
     case .dark: .dark
-    }
-  }
-}
-
-private extension View {
-  /// Reports this view's frame in `ReaderShell.space` under `key`, and clears it when
-  /// the view goes. Nothing without `frames`.
-  @ViewBuilder
-  func reportingFrame(as key: String, into frames: ControlFrames?) -> some View {
-    if let frames {
-      onGeometryChange(for: CGRect.self) { $0.frame(in: .named(ReaderShell.space)) } action: {
-        frames.frames[key] = $0
-      }
-      .onDisappear { frames.frames[key] = nil }
-    } else {
-      self
     }
   }
 }
