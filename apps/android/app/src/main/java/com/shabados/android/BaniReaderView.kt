@@ -520,6 +520,11 @@ fun BaniReader(
   fun saveSize(value: Float) {
     controls.size = value
   }
+  /** The saved size as of the latest composition, for the pinch: its handler is
+   * started once (`pointerInput(isTablet)`), so a plain read of [savedSize] there
+   * kept the size the reader opened at, and every pinch after the first jumped back
+   * to it. */
+  val currentSavedSize by rememberUpdatedState(savedSize)
   /** The size during a pinch, saved only when the fingers lift. */
   var livePinchSize by remember { mutableStateOf<Float?>(null) }
   val readerSize = livePinchSize ?: ReaderSize.displaySize(savedSize, isTablet)
@@ -669,7 +674,7 @@ fun BaniReader(
               val event = awaitPointerEvent(PointerEventPass.Initial)
               if (baseline == null && event.changes.count { it.pressed } >= 2) {
                 // From the size on screen, within range, not the saved value.
-                baseline = ReaderSize.displaySize(savedSize, isTablet)
+                baseline = ReaderSize.displaySize(currentSavedSize, isTablet)
                 val focalY = Pinch.focus(event.changes.filter { it.pressed }.map { it.position.y })
                 anchor = Pinch.anchor(focalY, visibleRows(spacingPx), size.height.toFloat())
                 hold.row = anchor

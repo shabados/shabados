@@ -442,6 +442,18 @@ class GestureMatrixTest {
     assertEquals("after release", start, top(anchor), 2f)
   }
 
+  @Test fun `a second pinch starts from the size the first left`() {
+    launch()
+    openReader()
+    pinch(centre(someRow))
+    val first = controls.size
+    // Fingers that land and lift without spreading leave the size where it is.
+    pinch(centre(someRow), spread = 0f)
+    assertEquals(first, controls.size, 0f)
+    pinch(centre(someRow), spread = px(10f))
+    assertTrue("from $first to ${controls.size}", controls.size > first)
+  }
+
   @Test fun `a pinch spread sideways - zooms, never swipes`() {
     launch()
     openReader()
