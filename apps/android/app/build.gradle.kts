@@ -101,6 +101,19 @@ android {
 
   buildFeatures { compose = true }
 
+  testOptions {
+    // Robolectric reads the merged manifest and resources, as the app would.
+    unitTests.isIncludeAndroidResources = true
+    unitTests.all { test ->
+      test.inputs.files(robolectricSdk)
+      test.systemProperty("robolectric.offline", "true")
+      test.systemProperty("robolectric.dependency.dir", robolectricSdk.singleFile.parent)
+      // Robolectric's Android 16 sets up shared memory through a JDK-internal
+      // package, which JDK 17 and later do not open to other code by default.
+      test.jvmArgs("--add-opens=java.base/jdk.internal.access=ALL-UNNAMED")
+    }
+  }
+
   // No kotlinOptions block: AGP 9's built-in Kotlin removed it from the android
   // extension (it survives only on the Multiplatform DSL), and there is no
   // replacement there — ApplicationExtension exposes compileOptions and
@@ -123,6 +136,15 @@ android {
   }
 }
 
+/**
+ * The Android 16 framework Robolectric runs tests against, resolved by Gradle like any
+ * other pinned dependency and handed to Robolectric in offline mode. Left to itself,
+ * Robolectric downloads it at test time, outside Gradle's cache and `--offline`.
+ * Its version must be one this Robolectric release expects: when updating
+ * `robolectric`, take the SDK 36 jar named in its release notes.
+ */
+val robolectricSdk: Configuration by configurations.creating
+
 dependencies {
   implementation(platform(libs.androidx.compose.bom))
   implementation(libs.androidx.compose.ui)
@@ -133,10 +155,25 @@ dependencies {
 
   // Test-only, never shipped. JUnit 4 is what AGP's JVM unit-test task runs without
   // further setup, and it has been stable for a decade; if it were abandoned the
-  // pinned version keeps working, since it needs nothing from outside the JVM. The
-  // tests in src/test pin the reader's sizing rules (ReaderSize.kt), which hold no
-  // Android types precisely so that no device or Robolectric is needed.
+  // pinned version keeps working, since it needs nothing from outside the JVM. Most
+  // tests in src/test pin rules held in plain Kotlin (ReaderSize.kt, Shell.kt), with
+  // no Android types, so they need nothing more.
   testImplementation(libs.junit)
+
+  // The gesture matrix (GestureMatrixTest): Compose UI tests that drive real touches
+  // through the shell's own pointer handling, chosen by the author 2026-11-04 over
+  // instrumented tests so that they run on every build, on any machine, with no
+  // device. `ui-test-junit4` is Compose's test rule and `performTouchInput`;
+  // driving Compose's pointer input without it would mean rebuilding that harness.
+  // Robolectric runs it on the JVM. If Robolectric is abandoned, the tests are
+  // ordinary Compose UI tests and move to src/androidTest unchanged.
+  // `ui-test-manifest` declares the empty activity the rule hosts content in; it is
+  // debug-only, so release never carries it.
+  testImplementation(platform(libs.androidx.compose.bom))
+  testImplementation(libs.androidx.compose.ui.test.junit4)
+  testImplementation(libs.robolectric)
+  debugImplementation(libs.androidx.compose.ui.test.manifest)
+  robolectricSdk(libs.robolectric.android.all)
 
   // No JSON library: org.json is in the platform and the payload is a few nested
   // arrays. kotlinx-serialization would add a dependency and a Gradle plugin whose
