@@ -51,16 +51,35 @@ specifics:
    are unsigned.
 2. **Bump `versionCode`** on every upload. Play rejects any code it has already
    seen; the legacy app's highest was 86 (`0.2.0`), so this app starts at 87
-   (`0.3.0`). **As of 2026-10-14 nothing with 87 has been uploaded** — Play
-   Console's bundle list ends at 86, and Production still holds a draft of 73. A
-   bundle 87 built 2026-10-10 from `0f3844403c` was never uploaded and is
-   superseded: rebuild from the commit being released rather than uploading it.
+   (`0.3.0`). 87 was built from `7e36a29c96` and released to internal testing on
+   2026-11-03, then sent for Production review. The next upload must be 88 or higher.
+   Play allows one draft per track: a leftover draft (73 sat in Production) greys
+   out "Promote release" until it is discarded.
 3. **A proper adaptive-icon foreground.** The current one insets the square 1024px
    icon into the safe zone over an approximated gradient, which works but has a
    faint seam. The right fix is a transparent-background lotus exported from
-   `brand/assets/lotus.svg`. Play also wants a separate 512×512 listing icon.
+   `brand/assets/lotus.svg`.
 4. **Confirm `targetSdk 36` is still current** — Play's target-API requirement is
    the actual deprecation pressure here.
+
+## Store listing assets
+
+Play's listing needs graphics that are not in the app bundle. Both were made
+2026-11-03 from existing brand images, not drawn fresh:
+
+- **512×512 icon** — the iOS `AppIcon.appiconset/logo.png` (full-bleed, no alpha)
+  scaled down. Play rounds the corners itself, so the source must be a full square.
+- **1024×500 feature graphic** — `brand/assets/readme/screenshot-youtube-channel-art.png`
+  centre-cropped to 2.048:1 and scaled. The wordmark stays centred, so the crop
+  keeps all of it.
+
+`sips` cannot write from the agent sandbox (it uses the system temp dir); the
+resizes were done with a few lines of Java run on Android Studio's bundled JDK.
+
+**Metadata policy:** Play rejects a listing where any translation's short and full
+descriptions are identical ("text spam"). Each translation needs a full
+description that says more than the short one, or should be removed so that
+language falls back to the default listing.
 
 ## Signing
 
