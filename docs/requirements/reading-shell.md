@@ -102,7 +102,8 @@ horizontal swipe and does not gain one; the header button alone satisfies this.
 
 **One Journeys button, on the viewer** (2026-10-15). While Journeys is open the
 viewer's edge stays in view, and the button with it; tapping it, or anywhere on that
-edge, returns to the viewer. The sidebar's header carries no second toggle. **The
+edge, returns to the viewer. **A drag along the edge is not a tap** (2026-11-04),
+and does nothing. The sidebar's header carries no second toggle. **The
 icon does not change between states**, because a changed icon reads as a different
 button, and the person is trying to get back to where they were. Whether Controls
 follows: it does ([the Controls sidebar](#the-controls-sidebar), 2026-10-19).

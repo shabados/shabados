@@ -45,6 +45,8 @@ while the text resizes and re-wraps around it. Nothing scrolls during a pinch, a
 nothing is corrected when the fingers lift, because nothing has moved. The row is
 marked with the toner wash for the length of the pinch
 ([interaction.md](../interaction.md#notes-on-the-rows-that-are-not-obvious)).
+**At the top of a bani the reading stays anchored at its top** (2026-11-04): there
+is no space above the first row, so a pinch in there cannot hold a row lower down.
 
 **There are no A−/A+ buttons** (2026-10-16), on either platform: pinch and this
 slider are the only ways to change the size.

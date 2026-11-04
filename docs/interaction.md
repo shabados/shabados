@@ -129,6 +129,32 @@ frames (`apps/ios/ShabadOS/Gestures.swift`, 2026-11-04):
 - A swipe during a tapped line's scroll to the top jumps that line straight to
   the top; that is accepted.
 
+**Android: one pointer handler at the shell's root decides the swipe**
+(`sidebarDrag` in `apps/android/app/src/main/java/com/shabados/android/ReaderShell.kt`, 2026-11-04):
+
+- It reads touches before the list and the rows do, and judges a drag once, at the
+  platform's touch slop. Once it is a swipe it consumes every event, so the list does
+  not scroll and the row it started on does not count a tap.
+- **With Controls open it reads them after the panel instead**, so a slider or a
+  switch takes its own drags. It gives way only when a control has consumed the
+  drag's movement, not its press: anything tappable consumes the press, and the
+  viewer's edge and the Settings row must still start a closing swipe.
+- **The viewer's edge is a tap only if the finger stays within the touch slop.** A
+  drag along the edge does nothing.
+- A second finger ends a swipe, which settles back where it started; the two
+  fingers then pinch.
+- **The pinch holds its line** by telling the reader's list, on every size step, to
+  lay itself out from the row between the fingers at the offset it had when the
+  pinch began (`LazyListState.requestScrollToItem`). The request is made from the
+  recomposition that applies the new size, so the size and the position reach the
+  same layout pass, whatever the order of input, recomposition and layout.
+- **Gestures are tested** by `GestureMatrixTest`: real touches through these
+  handlers, one test per cell of the gesture matrix, run on the JVM under Robolectric
+  in every unit-test build, with the pinch checked frame by frame. How a flick or a
+  pinch feels, and edge Back, are checked on a device, on a release build: debug
+  builds drop frames, and a pinch there moves in visible jumps.
+- A long press on a line taps it when the finger lifts; that is accepted for now.
+
 **Opening a sidebar gives a light haptic** on platforms that have haptics, by the
 header button or a drag alike. Closing one gives none (2026-10-16).
 
