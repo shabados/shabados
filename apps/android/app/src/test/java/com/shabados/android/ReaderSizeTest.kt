@@ -126,6 +126,10 @@ class ReaderSizeTest {
     assertNull(Pinch.anchor(150f, emptyList(), viewport))
   }
 
+  @Test fun `a pinch is between its fingers, not at the first to land`() {
+    assertEquals(300f, Pinch.focus(listOf(100f, 500f)))
+  }
+
   @Test fun `a pinch holds the anchor row's top where the list placed it`() {
     // Below where the content starts: the list is asked to place it that far down.
     assertEquals(-120, Pinch.hold(Pinch.Row("b", 1, top = 126f, bottom = 220f, listOffset = 120)))

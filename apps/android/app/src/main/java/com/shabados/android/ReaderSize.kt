@@ -73,6 +73,15 @@ object Pinch {
   }
 
   /**
+   * Where a pinch is, for choosing its anchor: the midpoint of the heights of the
+   * fingers down when the second lands. **Every finger down, the one just landed
+   * included**: Compose's `calculateCentroid` leaves out a finger in the event it
+   * lands, which put the anchor under the first finger instead, a row or more from
+   * the middle of a wide pinch.
+   */
+  fun focus(fingerYs: List<Float>): Float = fingerYs.average().toFloat()
+
+  /**
    * A row's visible extent, in pixels from the top of the reader, and [listOffset],
    * where the list itself places the row's top: pixels from where its content starts,
    * below the top content padding (`LazyListItemInfo.offset`).

@@ -1,6 +1,7 @@
 package com.shabados.android
 
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.snapshotFlow
 import android.view.View
@@ -16,7 +17,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.animateScrollBy
 import androidx.compose.foundation.gestures.awaitFirstDown
-import androidx.compose.foundation.gestures.calculateCentroid
 import androidx.compose.foundation.gestures.calculateZoom
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -605,6 +605,27 @@ fun BaniReader(
   /** Holds the wash after the fingers lift, then fades it; cancelled by the next pinch. */
   var fadeJob by remember { mutableStateOf<Job?>(null) }
 
+  /**
+   * The row a pinch under way holds still, and the size it was last held at. Plain
+   * fields, not state: written by the pinch, read only below.
+   */
+  val hold = remember { object { var row: Pinch.Row? = null; var size = 0f } }
+  /**
+   * **Requested from the composition that applies the new size**, so the list lays
+   * the rows out at that size and from the anchor in one pass (Pinch.hold).
+   * Requested from the pinch's handler instead, a layout pass could run between the
+   * two, as one does in tests straight after a touch: the request was spent at the
+   * old size, and the new size then arrived without it, a frame out of place.
+   * Side effects run after composition and before the layout that uses it.
+   */
+  SideEffect {
+    val row = hold.row ?: return@SideEffect
+    if (readerSize != hold.size) {
+      hold.size = readerSize
+      listState.requestScrollToItem(row.index, Pinch.hold(row))
+    }
+  }
+
   /** Each visible row's extent, without the [RowSpacing] padding inside it, so a
    * pinch in that padding counts as between rows. Pixels from the reader's top, the
    * same space the pointer reports in. */
@@ -649,8 +670,10 @@ fun BaniReader(
               if (baseline == null && event.changes.count { it.pressed } >= 2) {
                 // From the size on screen, within range, not the saved value.
                 baseline = ReaderSize.displaySize(savedSize, isTablet)
-                val focalY = event.calculateCentroid(useCurrent = true).y
+                val focalY = Pinch.focus(event.changes.filter { it.pressed }.map { it.position.y })
                 anchor = Pinch.anchor(focalY, visibleRows(spacingPx), size.height.toFloat())
+                hold.row = anchor
+                hold.size = baseline
                 // At once too, before any size step: it stops a fling still running
                 // from a scroll, which would otherwise move the row off its offset.
                 anchor?.let { listState.requestScrollToItem(it.index, Pinch.hold(it)) }
@@ -664,17 +687,14 @@ fun BaniReader(
                 if (zoom != 1f) {
                   magnification *= zoom
                   val next = Pinch.size(baseline, magnification, isTablet)
-                  if (next != livePinchSize) {
-                    livePinchSize = next
-                    // Applied in the measure pass that lays the rows out at `next`,
-                    // so the anchor row is placed first, where it was (Pinch.hold).
-                    anchor?.let { listState.requestScrollToItem(it.index, Pinch.hold(it)) }
-                  }
+                  // The row is held by the SideEffect above, as this size is applied.
+                  if (next != livePinchSize) livePinchSize = next
                 }
               }
             } while (event.changes.any { it.pressed })
             if (baseline != null) {
               // The saved size is the live one, so nothing moves on release.
+              hold.row = null
               livePinchSize?.let(::saveSize)
               livePinchSize = null
               anchor?.let { row ->
