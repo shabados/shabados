@@ -9,13 +9,20 @@ import UIKit
 // - **A sideways drag that moves the viewer cancels every touch beneath it**
 //   (`SidebarPan`, `cancelsTouchesInView`), so a swipe that started on a pill, a
 //   row or a line never also taps it (reading-shell.md#getting-between-them).
+// - **Only a drag more sideways than up or down is a swipe** (45°). Over a scroll
+//   view its own pan already splits drags there, and limits of 30° and 10° written
+//   here changed nothing on an iPhone (2026-11-04). The check is for screens with
+//   no scroll view, like the default screen when it fits: without it a mostly
+//   vertical drag there moved the viewer sideways.
 // - **A scroll view's own pan waits for the sideways drag to fail**, so a drag is
 //   exactly one of scroll or swipe, never both.
 // - **A drag that starts on a slider or a switch never reaches the sideways drag**
 //   (reading-shell.md#the-controls-sidebar).
-// - **A second finger ends the sideways drag**, and two fingers never start one, so
-//   a pinch is never read as a drag (interaction.md). The pinch (`ReaderPinch`)
-//   then runs alongside everything; the reader stops its own scrolling for it.
+// - **Two fingers never start the sideways drag**, so a pinch is never read as a
+//   drag (interaction.md). A second finger joining a swipe is meant to end it; on an
+//   iPhone (2026-11-04) the swipe carried on and no pinch began, which is accepted.
+//   The pinch (`ReaderPinch`) runs alongside everything; the reader stops its own
+//   scrolling for it.
 
 /// The shell's sideways drag, which opens and closes the sidebars (`ReaderShell`).
 /// It reports horizontal travel only; `ReaderShell` decides what it means.
@@ -29,11 +36,6 @@ struct SidebarPan: UIGestureRecognizerRepresentable {
   let onEnded: (_ translation: CGFloat, _ predicted: CGFloat) -> Void
   /// The drag was abandoned: a second finger, or the system took the touch.
   let onCancelled: () -> Void
-
-  /// How sideways a drag must be to count: its horizontal travel more than this
-  /// times its vertical travel, judged once, when UIKit first sees it move. Anything
-  /// steeper is a scroll for its whole length (interaction.md).
-  static let horizontalRatio: CGFloat = 1.5
 
   func makeCoordinator(converter: CoordinateSpaceConverter) -> Coordinator {
     Coordinator()
@@ -88,12 +90,13 @@ struct SidebarPan: UIGestureRecognizerRepresentable {
     var canMove: (CGFloat) -> Bool = { _ in false }
 
     /// Asked once, when the finger has moved far enough for UIKit to call it a
-    /// drag. Saying no fails the drag for the rest of the touch, and the scroll
-    /// view waiting on it (below) takes over.
+    /// drag: one finger, more sideways than up or down, going a way that can move
+    /// the viewer. Saying no fails the drag for the rest of the touch, and the
+    /// scroll view waiting on it (below) takes over.
     func gestureRecognizerShouldBegin(_ recognizer: UIGestureRecognizer) -> Bool {
       guard let pan = recognizer as? UIPanGestureRecognizer, pan.numberOfTouches == 1 else { return false }
       let t = pan.translation(in: pan.view)
-      return abs(t.x) > abs(t.y) * SidebarPan.horizontalRatio && canMove(t.x)
+      return abs(t.x) > abs(t.y) && canMove(t.x)
     }
 
     /// A touch that lands on a slider or a switch is that control's

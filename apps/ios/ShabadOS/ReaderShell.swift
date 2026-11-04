@@ -416,9 +416,9 @@ struct ReaderShell: View {
   /// inside the content: the reader has no back button, so there is no system
   /// back-swipe to collide with (docs/interaction.md).
   ///
-  /// **What it wins and loses against is `SidebarPan`'s**: only a horizontal drag
-  /// counts, a swipe never also taps what it started on, a scroll and a swipe never
-  /// both move, a drag from a slider is the slider's, and a second finger abandons
+  /// **What it wins and loses against is `SidebarPan`'s**: only a drag more sideways
+  /// than up or down counts, a swipe never also taps what it started on, a scroll and a swipe never
+  /// both move, a drag from a slider is the slider's, and two fingers never start
   /// it.
   private func sidebarPan(journeys: CGFloat, controls: CGFloat) -> SidebarPan {
     SidebarPan(
