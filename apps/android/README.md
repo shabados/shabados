@@ -227,7 +227,7 @@ measures and draws.
   none, and the viewer stays square there.
 - **The drag** (`sidebarDrag`) reads the Initial pass so it sees a drag before the
   list or a row. It is judged once, at the platform touch slop: horizontal only if
-  more than 1.5× as wide as tall and towards a change. Once horizontal it consumes
+  more sideways than up or down (45°, as on iOS, 2026-11-04) and towards a change. Once horizontal it consumes
   every event, so the list does not scroll and the row does not count a tap. A drag
   that starts inside `WindowInsets.systemGestures` is left to system Back; with
   three-button navigation those insets are 0 and a drag may start anywhere. A second

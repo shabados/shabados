@@ -225,10 +225,6 @@ object Sidebar {
    * the end of the slide, though fully visible from [FULL_AT]. */
   const val START_SCALE = 0.95f
 
-  /** How much more horizontal than vertical a drag must be to move the viewer; as on
-   * iOS. Anything steeper is a scroll. */
-  const val HORIZONTAL_RATIO = 1.5f
-
   /** How far ahead of the finger a released drag is judged, in seconds of its
    * velocity, so a short quick flick still opens or closes. iOS uses
    * `predictedEndTranslation`, which Compose has no counterpart for. First pass. */
@@ -277,7 +273,8 @@ object Sidebar {
   /**
    * What a one-finger drag that has moved ([dx], [dy]) is: null until it has moved
    * [decision] pixels, then decided once for its whole length. **Horizontal only if
-   * it is mostly sideways and towards a change**: either way with both sidebars
+   * it is more sideways than up or down (45°, docs/interaction.md, decided
+   * 2026-11-04, as on iOS) and towards a change**: either way with both sidebars
    * closed (right opens Journeys, left opens Controls), and only the closing way
    * with one open. Anything else is a scroll, or a drag the other way, and is left
    * alone (docs/interaction.md, "Where the sidebar drag may start").
@@ -289,7 +286,7 @@ object Sidebar {
       Side.CONTROLS -> dx > 0
       null -> true
     }
-    return if (abs(dx) > abs(dy) * HORIZONTAL_RATIO && towardsChange) Axis.HORIZONTAL else Axis.OTHER
+    return if (abs(dx) > abs(dy) && towardsChange) Axis.HORIZONTAL else Axis.OTHER
   }
 
   /**
