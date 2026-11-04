@@ -1,6 +1,7 @@
 package com.shabados.android
 
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.snapshotFlow
 import android.view.View
@@ -16,9 +17,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.animateScrollBy
 import androidx.compose.foundation.gestures.awaitFirstDown
-import androidx.compose.foundation.gestures.calculateCentroid
 import androidx.compose.foundation.gestures.calculateZoom
-import androidx.compose.foundation.gestures.scrollBy
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -52,7 +51,6 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.listSaver
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
-import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
@@ -522,6 +520,11 @@ fun BaniReader(
   fun saveSize(value: Float) {
     controls.size = value
   }
+  /** The saved size as of the latest composition, for the pinch: its handler is
+   * started once (`pointerInput(isTablet)`), so a plain read of [savedSize] there
+   * kept the size the reader opened at, and every pinch after the first jumped back
+   * to it. */
+  val currentSavedSize by rememberUpdatedState(savedSize)
   /** The size during a pinch, saved only when the fingers lift. */
   var livePinchSize by remember { mutableStateOf<Float?>(null) }
   val readerSize = livePinchSize ?: ReaderSize.displaySize(savedSize, isTablet)
@@ -604,8 +607,29 @@ fun BaniReader(
   /** The row a pinch is anchored to, by item key, drawn with a toner wash. A pinch
    * has no ripple to show where it is anchored, so unlike a tap it gets the wash. */
   var highlightedKey by remember { mutableStateOf<Any?>(null) }
-  /** Restores the anchor and then fades it; cancelled by the next pinch. */
-  var anchorJob by remember { mutableStateOf<Job?>(null) }
+  /** Holds the wash after the fingers lift, then fades it; cancelled by the next pinch. */
+  var fadeJob by remember { mutableStateOf<Job?>(null) }
+
+  /**
+   * The row a pinch under way holds still, and the size it was last held at. Plain
+   * fields, not state: written by the pinch, read only below.
+   */
+  val hold = remember { object { var row: Pinch.Row? = null; var size = 0f } }
+  /**
+   * **Requested from the composition that applies the new size**, so the list lays
+   * the rows out at that size and from the anchor in one pass (Pinch.hold).
+   * Requested from the pinch's handler instead, a layout pass could run between the
+   * two, as one does in tests straight after a touch: the request was spent at the
+   * old size, and the new size then arrived without it, a frame out of place.
+   * Side effects run after composition and before the layout that uses it.
+   */
+  SideEffect {
+    val row = hold.row ?: return@SideEffect
+    if (readerSize != hold.size) {
+      hold.size = readerSize
+      listState.requestScrollToItem(row.index, Pinch.hold(row))
+    }
+  }
 
   /** Each visible row's extent, without the [RowSpacing] padding inside it, so a
    * pinch in that padding counts as between rows. Pixels from the reader's top, the
@@ -614,38 +638,7 @@ fun BaniReader(
     val info = listState.layoutInfo
     return info.visibleItemsInfo.map {
       val top = (it.offset - info.viewportStartOffset).toFloat()
-      Pinch.Row(it.key, it.index, top + spacingPx, top + it.size - spacingPx)
-    }
-  }
-
-  /**
-   * Once the pinch ends: the point of the anchor row that was under the fingers goes
-   * back to where the fingers went down, then the highlight fades.
-   *
-   * **Once, on release — never during the pinch.** On iOS the position was corrected
-   * on every step, and at large sizes the reader jittered badly: each step re-wrapped
-   * lines and the lazy list re-estimated rows off screen, so each correction was
-   * computed from guesses (apps/ios/README.md#state-of-play). Android corrected every
-   * step too, with the same exposure. During the pinch the list holds its top row,
-   * as it does for any size change.
-   *
-   * Exact, not within a line as on iOS: Compose reports each row's measured offset
-   * once laid out.
-   */
-  fun restoreAnchor(row: Pinch.Row, y: Float, fraction: Float, spacingPx: Float) {
-    anchorJob = scope.launch {
-      // Two frames: the saved size recomposes the rows in one and is laid out by the
-      // next, so the row is measured at its final size before it is placed.
-      withFrameNanos {}
-      withFrameNanos {}
-      listState.scrollToItem(row.index)
-      val info = listState.layoutInfo
-      info.visibleItemsInfo.firstOrNull { it.index == row.index }?.let {
-        val top = (it.offset - info.viewportStartOffset) + spacingPx
-        listState.scrollBy(Pinch.correction(top, it.size - 2 * spacingPx, fraction, y))
-      }
-      delay(HIGHLIGHT_HOLD_MS)
-      if (highlightedKey == row.key) highlightedKey = null
+      Pinch.Row(it.key, it.index, top + spacingPx, top + it.size - spacingPx, listOffset = it.offset)
     }
   }
 
@@ -668,7 +661,7 @@ fun BaniReader(
           // rows see each event first: the list can scroll with the fingers
           // mid-pinch, and lifting them counted as a tap on the row (seen on device
           // 2026-10-14) — a ripple beside the anchor's toner, and a scroll to the
-          // top competing with the anchor's restore. The first finger's down is not
+          // top competing with the pinch's hold. The first finger's down is not
           // consumed, so a one-finger scroll or tap is untouched.
           awaitEachGesture {
             awaitFirstDown(requireUnconsumed = false, pass = PointerEventPass.Initial)
@@ -677,17 +670,19 @@ fun BaniReader(
             // Cumulative since the pinch began, so the size cannot compound.
             var magnification = 1f
             var anchor: Pinch.Row? = null
-            var focalY = 0f
-            var fraction = 0f
             do {
               val event = awaitPointerEvent(PointerEventPass.Initial)
               if (baseline == null && event.changes.count { it.pressed } >= 2) {
                 // From the size on screen, within range, not the saved value.
-                baseline = ReaderSize.displaySize(savedSize, isTablet)
-                focalY = event.calculateCentroid(useCurrent = true).y
+                baseline = ReaderSize.displaySize(currentSavedSize, isTablet)
+                val focalY = Pinch.focus(event.changes.filter { it.pressed }.map { it.position.y })
                 anchor = Pinch.anchor(focalY, visibleRows(spacingPx), size.height.toFloat())
-                fraction = anchor?.let { Pinch.fraction(focalY, it) } ?: 0f
-                anchorJob?.cancel()
+                hold.row = anchor
+                hold.size = baseline
+                // At once too, before any size step: it stops a fling still running
+                // from a scroll, which would otherwise move the row off its offset.
+                anchor?.let { listState.requestScrollToItem(it.index, Pinch.hold(it)) }
+                fadeJob?.cancel()
                 highlightedKey = anchor?.key
               }
               if (baseline != null) {
@@ -697,14 +692,22 @@ fun BaniReader(
                 if (zoom != 1f) {
                   magnification *= zoom
                   val next = Pinch.size(baseline, magnification, isTablet)
+                  // The row is held by the SideEffect above, as this size is applied.
                   if (next != livePinchSize) livePinchSize = next
                 }
               }
             } while (event.changes.any { it.pressed })
             if (baseline != null) {
+              // The saved size is the live one, so nothing moves on release.
+              hold.row = null
               livePinchSize?.let(::saveSize)
               livePinchSize = null
-              anchor?.let { restoreAnchor(it, focalY, fraction, spacingPx) }
+              anchor?.let { row ->
+                fadeJob = scope.launch {
+                  delay(HIGHLIGHT_HOLD_MS)
+                  if (highlightedKey == row.key) highlightedKey = null
+                }
+              }
             }
           }
         },

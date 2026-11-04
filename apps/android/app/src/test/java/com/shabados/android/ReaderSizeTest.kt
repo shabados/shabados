@@ -126,14 +126,14 @@ class ReaderSizeTest {
     assertNull(Pinch.anchor(150f, emptyList(), viewport))
   }
 
-  @Test fun `the fraction is how far down the row the fingers were, clamped for a gap`() {
-    assertEquals(0.5f, Pinch.fraction(170f, b))
-    assertEquals(0f, Pinch.fraction(110f, b))
-    assertEquals(1f, Pinch.fraction(230f, b))
+  @Test fun `a pinch is between its fingers, not at the first to land`() {
+    assertEquals(300f, Pinch.focus(listOf(100f, 500f)))
   }
 
-  @Test fun `the release correction returns the anchored point to where the fingers went down`() {
-    // The row grew to 200px and now starts at 300; its middle must return to 150.
-    assertEquals(250f, Pinch.correction(rowTop = 300f, rowHeight = 200f, fraction = 0.5f, y = 150f))
+  @Test fun `a pinch holds the anchor row's top where the list placed it`() {
+    // Below where the content starts: the list is asked to place it that far down.
+    assertEquals(-120, Pinch.hold(Pinch.Row("b", 1, top = 126f, bottom = 220f, listOffset = 120)))
+    // Partly scrolled under the header: that far up.
+    assertEquals(30, Pinch.hold(Pinch.Row("a", 0, top = 0f, bottom = 100f, listOffset = -30)))
   }
 }

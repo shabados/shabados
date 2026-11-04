@@ -72,8 +72,21 @@ object Pinch {
     return DesignTokens.clamp(snapped, isTablet)
   }
 
-  /** A row's visible extent, in pixels from the top of the reader. */
-  data class Row(val key: Any, val index: Int, val top: Float, val bottom: Float)
+  /**
+   * Where a pinch is, for choosing its anchor: the midpoint of the heights of the
+   * fingers down when the second lands. **Every finger down, the one just landed
+   * included**: Compose's `calculateCentroid` leaves out a finger in the event it
+   * lands, which put the anchor under the first finger instead, a row or more from
+   * the middle of a wide pinch.
+   */
+  fun focus(fingerYs: List<Float>): Float = fingerYs.average().toFloat()
+
+  /**
+   * A row's visible extent, in pixels from the top of the reader, and [listOffset],
+   * where the list itself places the row's top: pixels from where its content starts,
+   * below the top content padding (`LazyListItemInfo.offset`).
+   */
+  data class Row(val key: Any, val index: Int, val top: Float, val bottom: Float, val listOffset: Int = 0)
 
   /**
    * The row a pinch starting at height [y] is anchored to: the row under the fingers
@@ -88,17 +101,23 @@ object Pinch {
     return if (y < viewportHeight / 2) below ?: above else above ?: below
   }
 
-  /** How far down [row] the fingers were, 0 to 1. A gap clamps to the nearer edge. */
-  fun fraction(y: Float, row: Row): Float {
-    val height = row.bottom - row.top
-    return if (height > 0) ((y - row.top) / height).coerceIn(0f, 1f) else 0f
-  }
-
   /**
-   * The scroll that puts the anchor back once the pinch ends: the point [fraction] of
-   * the way down a row now at [rowTop] with [rowHeight] returns to [y], where the
-   * fingers went down. Positive scrolls the content up.
+   * The scroll offset that keeps [row]'s top where it is, for
+   * `LazyListState.requestScrollToItem(row.index, hold(row))`, requested on every
+   * size step of the pinch. **The list is laid out from the anchor row**: it is placed
+   * first, at this offset, and the rows around it at their new sizes, in the same
+   * measure pass that draws the new size. So the row is never drawn out of place and
+   * nothing is corrected afterwards.
+   *
+   * **The row's top holds, not the point under the fingers.** The new size grows the
+   * row downward from a top that does not move. Holding the point under the fingers
+   * would need the row's height at the new size before it is measured; using the
+   * last frame's height draws each step once out of place, the jitter the per-step
+   * correction had (apps/ios/README.md#state-of-play). The Flutter spike held the top
+   * in the same way, and it was judged smooth on device (2026-11).
+   *
+   * The list's offset counts forward: positive takes the row's top above where the
+   * content starts, so a row whose top is below it is held with a negative offset.
    */
-  fun correction(rowTop: Float, rowHeight: Float, fraction: Float, y: Float): Float =
-    rowTop + fraction * rowHeight - y
+  fun hold(row: Row): Int = -row.listOffset
 }

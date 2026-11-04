@@ -321,9 +321,15 @@ class ShellTest {
     assertEquals(Sidebar.Axis.HORIZONTAL, Sidebar.judge(dx = 30f, dy = 10f, decision = slop, open = null))
   }
 
+  @Test fun `a drag more sideways than up or down is a swipe`() {
+    // About 40°: more sideways than up or down.
+    assertEquals(Sidebar.Axis.HORIZONTAL, Sidebar.judge(dx = 30f, dy = 25f, decision = slop, open = null))
+  }
+
   @Test fun `a steeper drag is a scroll`() {
-    // 1.5 × 20 = 30: not more horizontal than that.
-    assertEquals(Sidebar.Axis.OTHER, Sidebar.judge(dx = 30f, dy = 20f, decision = slop, open = null))
+    // 45° exactly is not more sideways than up or down.
+    assertEquals(Sidebar.Axis.OTHER, Sidebar.judge(dx = 30f, dy = 30f, decision = slop, open = null))
+    assertEquals(Sidebar.Axis.OTHER, Sidebar.judge(dx = 30f, dy = 31f, decision = slop, open = null))
     assertEquals(Sidebar.Axis.OTHER, Sidebar.judge(dx = 2f, dy = 40f, decision = slop, open = null))
   }
 

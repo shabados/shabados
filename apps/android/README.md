@@ -137,9 +137,25 @@ on the JVM. `BaniReaderView.kt` only measures and draws.
   exact scaled positions. The default, `Static`, rounds them to whole pixels, which
   makes a pinch move text in jumps however fine the step. Always on, not only during
   a pinch, because switching on release could move line breaks under the anchor.
-- **No scroll correction during the pinch; one on release.** Unlike iOS's, the
-  release is exact: the point of the row that was under the fingers returns to the
-  same height, because Compose reports each row's measured offset.
+- **The row under the fingers holds still on every frame of the pinch** (2026-11-04),
+  while the text resizes and re-wraps around it; nothing is corrected on release.
+  Each size step asks the list to lay itself out from the anchor row, at the offset
+  it had when the pinch began (`LazyListState.requestScrollToItem`, `Pinch.hold`), in
+  the same pass that measures the rows at the new size. **Its top holds**, and the
+  row grows downward from it, as in the Flutter spike that was judged smooth on
+  device: holding the point under the fingers would need the row's new height before
+  it is measured.
+- **The request is made from composition** (a `SideEffect` on the new size), not from
+  the pinch's handler. From the handler, a layout pass could run between the request
+  and the recomposition carrying the new size, as one does in tests straight after a
+  touch: the request was spent at the old size and the new one arrived a frame later
+  without it. `GestureMatrixTest` caught this, reading the row frame by frame.
+- **The anchor is between the fingers** (`Pinch.focus`), every finger down counted.
+  Compose's `calculateCentroid` leaves out a finger in the event it lands, which
+  anchored the pinch under the first finger.
+- **At the top of the bani the list stays anchored at its top** (accepted by the
+  author 2026-11-04): a pinch in there cannot hold a lower row, since the list does
+  not leave space above its first row. Mid-bani the row under the fingers holds.
 - **The pinch owns the gesture once a second finger lands.** It reads pointer
   events in the Initial pass and consumes them until every finger lifts. Otherwise
   the list scrolls under the pinch, and lifting the fingers counts as a tap on the
@@ -211,7 +227,7 @@ measures and draws.
   none, and the viewer stays square there.
 - **The drag** (`sidebarDrag`) reads the Initial pass so it sees a drag before the
   list or a row. It is judged once, at the platform touch slop: horizontal only if
-  more than 1.5× as wide as tall and towards a change. Once horizontal it consumes
+  more sideways than up or down (45°, as on iOS, 2026-11-04) and towards a change. Once horizontal it consumes
   every event, so the list does not scroll and the row does not count a tap. A drag
   that starts inside `WindowInsets.systemGestures` is left to system Back; with
   three-button navigation those insets are 0 and a drag may start anywhere. A second
@@ -304,9 +320,9 @@ measures and draws.
 - **The open bani, scroll position and expanded continuations last for recreation
   only, not launches.** A cold launch opens the default screen, and each bani opens
   with its continuations collapsed.
-- **No Compose UI test.** `StateRestorationTester` needs
-  `androidx.compose.ui:ui-test-junit4` plus instrumented or Robolectric tests, which
-  is a dependency decision that has not been made. Checked by hand instead: with the
+- **No Compose UI test of restoration yet.** `StateRestorationTester` could now run
+  beside the [gesture tests](#gesture-tests), which brought in `ui-test-junit4` and
+  Robolectric; nobody has written it. Checked by hand instead: with the
   reader scrolled partway, pauses toggled and a continuation expanded, (1) rotate
   both ways, (2) toggle dark theme, (3) change Font size, (4) with Developer options
   > "Don't keep activities" on, switch away and back, (5) `adb shell am kill
@@ -332,6 +348,41 @@ measures and draws.
   installs are opened from the icon, so users never see this.
 - **Swiping the app away in Recents ends the process**, so it opens to the default
   screen, with `continue reading` as after any process death.
+
+## Gesture tests
+
+`GestureMatrixTest` (2026-11-04) drives real touches through the shell's own pointer
+handling (`sidebarDrag`, the reader's pinch, each row's `clickable`): swipes, scrolls,
+45° drags, pinches, a second finger joining a swipe, long presses, taps straight
+after a swipe, and taps where the hidden sidebar would be. One test per cell of the
+gesture matrix, ported from the Flutter spike's `test/gesture_matrix_test.dart`.
+"Nothing else happened" is read from `ShellState`, `ReaderControls.size` and where
+rows sit on screen. The pinch tests read the anchor row on every frame.
+
+- **Robolectric, on the JVM**, in `testDebugUnitTest` with the other tests: chosen by
+  the author over instrumented tests so they run on every build with no device. If
+  Robolectric is abandoned, the file moves to `src/androidTest` unchanged.
+- **Robolectric's Android 16 jar is a pinned Gradle dependency**
+  (`robolectricAndroidAll` in `libs.versions.toml`), handed to Robolectric in offline
+  mode, so `--offline` builds keep working. When updating `robolectric`, take the SDK
+  36 jar its release names. The test JVM opens `java.base/jdk.internal.access`, which
+  Robolectric's Android 16 needs on JDK 17 and later.
+- **Native graphics** (`@GraphicsMode(NATIVE)`), so text is measured with real
+  metrics and re-wraps as on a phone. The stand-in default measures every row alike.
+- **A library built in the test**, not `banis.json`: parsing calls packages/gurmukhi
+  through JNA, whose native library is built for Android only. Pronunciations stay
+  off for the same reason.
+- **Not covered**: how a flick or a pinch feels, and edge Back. Robolectric reports no
+  `systemGestures` insets, so every drag starts "inside the content", as with
+  three-button navigation.
+- **One cell fails today and is `@Ignore`d**: a long press on a line taps it on lift.
+  Rows have no long-press action; left as built for now (2026-11-04).
+- **Two the matrix found, fixed 2026-11-04**: with Controls open, a swipe from the
+  viewer's edge or the Settings row did not close it, because `sidebarDrag` gave up
+  on a touch whose press a tappable child had consumed; it now gives up only when
+  the movement is consumed, as a slider's is. And a vertical drag along the viewer's
+  edge closed the sidebar, because `clickable` counts any press that lifts inside
+  it as a tap; the edge is now a tap only within the touch slop.
 
 ## Content
 
