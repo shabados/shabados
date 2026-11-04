@@ -314,9 +314,6 @@ class GestureMatrixTest {
     assertEquals(Side.CONTROLS, shell.openSide)
   }
 
-  /** The edge is one `clickable`, and Compose counts a press that lifts inside it as a
-   * tap however far it moved, so a vertical drag along the edge closes the sidebar. */
-  @Ignore("Finding 2026-11-04: a vertical drag on the viewer's edge counts as a tap and closes the sidebar")
   @Test fun `scroll the viewer's edge - nothing`() {
     launch()
     openSide(Side.JOURNEYS)
@@ -425,21 +422,35 @@ class GestureMatrixTest {
     assertEquals("after release", start, top(anchor), 2f)
   }
 
-  /** At the top of the bani the rows above the anchor are all there is: as they
-   * shrink and re-wrap, the list will not leave space above its first row, and the
-   * anchor rises by what they lost (298px on a first step here). */
-  @Ignore("Finding 2026-11-04: at the top of the bani a pinch in cannot hold the row; the list clamps at its start")
-  @Test fun `pinch in, near the top - the row still holds`() {
+  /** At the top of the bani the list stays anchored at its top: there is nothing
+   * above the first row to hold another row still, and the list does not leave space
+   * above it. Accepted as right by the author (2026-11-04). */
+  @Test fun `pinch in at the top of the bani - the list stays anchored at its top`() {
     launch()
     openReader()
-    val anchor = row("JAPJ", 2)
-    val start = top(anchor)
+    val first = row("JAPJ", 0)
+    val start = top(first)
     val before = controls.size
     val tops = mutableListOf<Float>()
-    pinch(centre(anchor), gap = px(160f), spread = px(-50f)) { tops += top(anchor) }
+    pinch(centre(row("JAPJ", 2)), gap = px(160f), spread = px(-50f)) { tops += top(first) }
     assertTrue("size ${controls.size} after $before", controls.size < before)
     tops.forEachIndexed { frame, y -> assertEquals("frame $frame", start, y, 2f) }
-    assertEquals("after release", start, top(anchor), 2f)
+  }
+
+  /** The Settings row at Controls' foot is tappable, like the viewer's edge. */
+  @Test fun `swipe Controls' Settings row - closes Controls, never opens Settings`() {
+    launch()
+    openSide(Side.CONTROLS)
+    drag(centre("Settings"), Offset(px(200f), 0f))
+    assertNull(shell.openSide)
+    rule.onNodeWithContentDescription("Back").assertDoesNotExist()
+  }
+
+  @Test fun `swipe the Controls viewer's edge - closes Controls`() {
+    launch()
+    openSide(Side.CONTROLS)
+    drag(edge(Side.CONTROLS), Offset(px(200f), 0f))
+    assertNull(shell.openSide)
   }
 
   @Test fun `a second pinch starts from the size the first left`() {
@@ -578,12 +589,6 @@ class GestureMatrixTest {
     assertEquals("JAAP", shell.openId)
   }
 
-  /** With Controls open the drag is read in the Main pass and gives up on a touch a
-   * child consumed, so a slider keeps its drags (`sidebarDrag`). The viewer's edge is
-   * a `clickable`, which consumes the down, so a drag from it never closes Controls
-   * (reading-shell.md: "A sideways drag from anywhere else in Controls, or from the
-   * viewer's edge, closes it"). */
-  @Ignore("Finding 2026-11-04: with Controls open, a swipe from the viewer's edge does not close it")
   @Test fun `a tap on a line right after a swipe that closed Controls`() {
     launch()
     openReader()

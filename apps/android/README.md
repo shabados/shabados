@@ -153,9 +153,9 @@ on the JVM. `BaniReaderView.kt` only measures and draws.
 - **The anchor is between the fingers** (`Pinch.focus`), every finger down counted.
   Compose's `calculateCentroid` leaves out a finger in the event it lands, which
   anchored the pinch under the first finger.
-- **At the top of the bani a pinch in does not hold the row**: the list does not leave
-  space above its first row, so the anchor rises by what the rows above it lose as
-  they shrink and re-wrap. Mid-bani it holds.
+- **At the top of the bani the list stays anchored at its top** (accepted by the
+  author 2026-11-04): a pinch in there cannot hold a lower row, since the list does
+  not leave space above its first row. Mid-bani the row under the fingers holds.
 - **The pinch owns the gesture once a second finger lands.** It reads pointer
   events in the Initial pass and consumes them until every finger lifts. Otherwise
   the list scrolls under the pinch, and lifting the fingers counts as a tap on the
@@ -375,11 +375,14 @@ rows sit on screen. The pinch tests read the anchor row on every frame.
 - **Not covered**: how a flick or a pinch feels, and edge Back. Robolectric reports no
   `systemGestures` insets, so every drag starts "inside the content", as with
   three-button navigation.
-- **Four cells fail today and are `@Ignore`d**, each naming what it found: a vertical
-  drag on the viewer's edge closes the sidebar; a long press on a line taps it on
-  lift; with Controls open, a swipe from the viewer's edge does not close it; and a
-  pinch in at the very top of a bani cannot hold the row. Each is the behaviour as
-  built, awaiting a decision, not a test to delete.
+- **One cell fails today and is `@Ignore`d**: a long press on a line taps it on lift.
+  Rows have no long-press action; left as built for now (2026-11-04).
+- **Two the matrix found, fixed 2026-11-04**: with Controls open, a swipe from the
+  viewer's edge or the Settings row did not close it, because `sidebarDrag` gave up
+  on a touch whose press a tappable child had consumed; it now gives up only when
+  the movement is consumed, as a slider's is. And a vertical drag along the viewer's
+  edge closed the sidebar, because `clickable` counts any press that lifts inside
+  it as a tap; the edge is now a tap only within the touch slop.
 
 ## Content
 

@@ -17,6 +17,7 @@ import androidx.compose.material3.minimumInteractiveComponentSize
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
+import androidx.compose.foundation.gestures.waitForUpOrCancellation
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -92,6 +93,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.onClick
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
@@ -504,6 +506,12 @@ fun ReaderShell(shell: ShellState, readerKey: Any, banis: List<Bani>, controls: 
 
     // While open, the visible edge, its header button included, is one target that
     // returns to the viewer. No ripple: the slide is the feedback.
+    //
+    // **A tap only if the finger stayed within the touch slop**, not `clickable`,
+    // which counts any press that lifts inside its bounds however far it moved: a
+    // vertical drag along this full-height strip closed the sidebar (2026-11-04).
+    // Nor does it consume the down, so a sideways drag from here is still the
+    // sidebar's (`sidebarDrag`). TalkBack keeps the click.
     val openSide = shell.openSide
     if (openSide != null && dragProgress == null) {
       val journeys = openSide == Side.JOURNEYS
@@ -513,8 +521,17 @@ fun ReaderShell(shell: ShellState, readerKey: Any, banis: List<Bani>, controls: 
           // All of the viewer still in view: the peek in portrait, more in landscape.
           .width(maxWidth - if (journeys) travelJDp else travelCDp)
           .fillMaxHeight()
-          .semantics { contentDescription = if (journeys) "Journeys" else "Controls" }
-          .clickable(interactionSource = null, indication = null) { setSide(null) },
+          .semantics {
+            contentDescription = if (journeys) "Journeys" else "Controls"
+            onClick { setSide(null); true }
+          }
+          .pointerInput(Unit) {
+            awaitEachGesture {
+              val down = awaitFirstDown(requireUnconsumed = false)
+              val up = waitForUpOrCancellation() ?: return@awaitEachGesture
+              if ((up.position - down.position).getDistance() < viewConfiguration.touchSlop) setSide(null)
+            }
+          },
       )
     }
 
@@ -573,7 +590,12 @@ private suspend fun PointerInputScope.sidebarDrag(
         return@awaitEachGesture
       }
       val change = event.changes.firstOrNull { it.id == down.id } ?: return@awaitEachGesture
-      if (axis == null && change.isConsumed) return@awaitEachGesture
+      // A control that has taken the drag consumes its movement; that is what gives
+      // way to a slider. **Not the press itself**, which is this same event's first
+      // look in the Main pass: anything tappable consumes its down, and the viewer's
+      // edge or Controls' Settings row would then never start a closing drag
+      // (reading-shell.md: "from anywhere else in Controls, or from the viewer's edge").
+      if (axis == null && change.isConsumed && change.previousPressed) return@awaitEachGesture
       val dx = change.position.x - down.position.x
       val dy = change.position.y - down.position.y
       if (axis == null) axis = Sidebar.judge(dx, dy, decision, wasOpen)
