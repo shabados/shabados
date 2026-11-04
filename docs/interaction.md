@@ -108,9 +108,26 @@ viewer drag must begin inside the content rather than at the edge.
 **Where the sidebar drag may start** (decided 2026-10-15). On iOS, anywhere: inside
 the content or at the screen edge. The viewer has no back button, so there is no
 system back-swipe for an edge drag to collide with. On Android, inside the content
-only; the edges belong to gesture navigation. Either way, only a horizontal drag
-counts: a steeper one is a scroll and is left alone, and a pinch is never read as a
-drag.
+only; the edges belong to gesture navigation. Either way, **only a drag more
+sideways than up or down counts** (45°, decided 2026-11-04), on every screen,
+including ones with nothing to scroll: a steeper one is a scroll, or nothing, and
+is left alone for its whole length. A pinch is never read as a drag.
+
+**iOS: UIKit's recognisers decide which gesture wins**, with no timers or lists of
+frames (`apps/ios/ShabadOS/Gestures.swift`, 2026-11-04):
+
+- The sidebar drag is a pan recogniser. Once it is recognised, the touches
+  beneath it are cancelled, so a swipe never also taps the pill, row or line it
+  started on.
+- Each scroll view's pan waits for the sidebar drag to fail, so a drag either
+  scrolls or swipes, never both.
+- A touch that lands on a slider or a switch never reaches the sidebar drag.
+- Two fingers never start a swipe. A second finger joining a swipe neither ends it
+  nor starts a zoom; that is accepted.
+- The pinch is a pinch recogniser that runs alongside all of these. The reader
+  stops scrolling while it runs.
+- A swipe during a tapped line's scroll to the top jumps that line straight to
+  the top; that is accepted.
 
 **Opening a sidebar gives a light haptic** on platforms that have haptics, by the
 header button or a drag alike. Closing one gives none (2026-10-16).

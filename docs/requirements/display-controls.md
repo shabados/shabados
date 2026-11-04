@@ -39,6 +39,13 @@ a pinch made while it is not visible. The slider is the fallback for someone who
 cannot make the gesture. (The byline taught the gesture until 2026-10-19; it now
 says what the slider changes, as the other two do.)
 
+**The line under the fingers holds still for the whole pinch** (2026-11-04). On
+every frame, the top of the row the pinch started on stays where it was on screen
+while the text resizes and re-wraps around it. Nothing scrolls during a pinch, and
+nothing is corrected when the fingers lift, because nothing has moved. The row is
+marked with the toner wash for the length of the pinch
+([interaction.md](../interaction.md#notes-on-the-rows-that-are-not-obvious)).
+
 **There are no A−/A+ buttons** (2026-10-16), on either platform: pinch and this
 slider are the only ways to change the size.
 
