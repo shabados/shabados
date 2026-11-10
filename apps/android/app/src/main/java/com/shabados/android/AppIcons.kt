@@ -21,10 +21,10 @@ object AppIcons {
   /** Open the Journeys sidebar, and close it from the sidebar's header. The same icon in both states, not a filled variant for open (chosen 2026-10-15). Specified by the author. */
   const val journeys = "ic_journeys"
 
-  /** Open the Controls sidebar. Lucide `settings-2`. */
+  /** Open Controls. Lucide `settings-2`. */
   const val controls = "ic_controls"
 
-  /** Controls sidebar is open. PROPOSED; under review alongside journeys, which uses one icon for both states. Lucide `settings-2`. */
+  /** Controls is open. PROPOSED; under review alongside journeys, which uses one icon for both states. Lucide `settings-2`. */
   const val controlsActive = "ic_controls_active"
 
   /** Enter fullscreen. PROPOSED. */
@@ -117,7 +117,7 @@ object AppIcons {
   /** Consecutive days with a complete Defined instance. PROPOSED. */
   const val streak = "ic_streak"
 
-  /** Open Settings, from the Controls sidebar's footer row. */
+  /** Open Settings, from Controls' footer row. */
   const val settings = "ic_settings"
 
   /** Android Settings' top left on every page: closes Settings from its first page, returns to it from the others. iOS's navigation draws its own. */

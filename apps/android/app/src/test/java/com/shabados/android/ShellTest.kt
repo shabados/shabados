@@ -222,34 +222,14 @@ class ShellTest {
     assertTrue(shell.setSide(Side.JOURNEYS))
     assertFalse("already open", shell.setSide(Side.JOURNEYS))
     assertFalse("closing", shell.setSide(null))
-    assertTrue("Controls", shell.setSide(Side.CONTROLS))
-    assertTrue("switching to Journeys opens it", shell.setSide(Side.JOURNEYS))
+    assertTrue("opening again", shell.setSide(Side.JOURNEYS))
   }
 
-  @Test fun `at most one sidebar is open`() {
-    // reading-shell.md#the-controls-sidebar: opening one sidebar closes the other.
+  @Test fun `the Journeys button opens it and closes it again`() {
     val shell = shell()
-    shell.setSide(Side.JOURNEYS)
-    shell.toggle(Side.CONTROLS)
-    assertEquals(Side.CONTROLS, shell.openSide)
-    assertFalse(shell.journeysOpen)
-  }
-
-  @Test fun `a header button opens its sidebar and closes it again`() {
-    val shell = shell()
-    shell.toggle(Side.CONTROLS)
-    assertEquals(Side.CONTROLS, shell.openSide)
-    shell.toggle(Side.CONTROLS)
-    assertNull(shell.openSide)
-  }
-
-  @Test fun `Controls open releases the screen and Back closes it`() {
-    val shell = shell()
-    shell.open("JAPJ")
-    shell.setSide(Side.CONTROLS)
-    assertFalse(shell.keepsScreenOn)
-    assertTrue(shell.handlesBack)
-    shell.back()
+    shell.toggle(Side.JOURNEYS)
+    assertEquals(Side.JOURNEYS, shell.openSide)
+    shell.toggle(Side.JOURNEYS)
     assertNull(shell.openSide)
   }
 
@@ -263,15 +243,6 @@ class ShellTest {
 
   @Test fun `Back with the sidebar closed is left to the system`() {
     assertFalse(shell().handlesBack)
-  }
-
-  @Test fun `Controls is not laid out over Journeys`() {
-    // Faded out over Journeys it still took touches: taps on Journeys' rows moved
-    // its hidden sliders (2026-10-22).
-    assertFalse(Sidebar.controlsLaidOut(0.01f))
-    assertFalse(Sidebar.controlsLaidOut(1f))
-    assertTrue(Sidebar.controlsLaidOut(0f))
-    assertTrue(Sidebar.controlsLaidOut(-1f))
   }
 
   @Test fun `the sidebar fades from 40 percent to full by half the slide`() {
@@ -333,13 +304,9 @@ class ShellTest {
     assertEquals(Sidebar.Axis.OTHER, Sidebar.judge(dx = 2f, dy = 40f, decision = slop, open = null))
   }
 
-  @Test fun `a leftward drag opens Controls`() {
-    assertEquals(Sidebar.Axis.HORIZONTAL, Sidebar.judge(dx = -30f, dy = 0f, decision = slop, open = null))
-  }
-
-  @Test fun `with Controls open a rightward drag closes and a leftward one does not`() {
-    assertEquals(Sidebar.Axis.HORIZONTAL, Sidebar.judge(dx = 30f, dy = 0f, decision = slop, open = Side.CONTROLS))
-    assertEquals(Sidebar.Axis.OTHER, Sidebar.judge(dx = -30f, dy = 0f, decision = slop, open = Side.CONTROLS))
+  @Test fun `a leftward drag from rest moves nothing`() {
+    // reading-shell.md#getting-between-them: Controls has no gesture.
+    assertEquals(Sidebar.Axis.OTHER, Sidebar.judge(dx = -30f, dy = 0f, decision = slop, open = null))
   }
 
   @Test fun `a leftward drag closes and a rightward one does not`() {
@@ -361,33 +328,22 @@ class ShellTest {
 
   @Test fun `a drag moves the viewer by its share of the travel, within the ends`() {
     val j = 800f
-    val c = 600f
-    assertEquals(0.25f, Sidebar.progress(open = null, dx = 200f, journeys = j, controls = c), 1e-6f)
-    assertEquals(0.75f, Sidebar.progress(open = Side.JOURNEYS, dx = -200f, journeys = j, controls = c), 1e-6f)
-    assertEquals(1f, Sidebar.progress(open = null, dx = 2000f, journeys = j, controls = c), 1e-6f)
-    assertEquals(0f, Sidebar.progress(open = Side.JOURNEYS, dx = -2000f, journeys = j, controls = c), 1e-6f)
-  }
-
-  @Test fun `towards Controls the viewer moves left, over Controls' own travel`() {
-    val j = 800f
-    val c = 600f
-    assertEquals(-0.5f, Sidebar.progress(open = null, dx = -300f, journeys = j, controls = c), 1e-6f)
-    assertEquals(-1f, Sidebar.progress(open = null, dx = -3000f, journeys = j, controls = c), 1e-6f)
-    assertEquals(-0.5f, Sidebar.progress(open = Side.CONTROLS, dx = 300f, journeys = j, controls = c), 1e-6f)
-    // From Controls a drag only closes: it cannot carry on into Journeys.
-    assertEquals(0f, Sidebar.progress(open = Side.CONTROLS, dx = 3000f, journeys = j, controls = c), 1e-6f)
+    assertEquals(0.25f, Sidebar.progress(open = null, dx = 200f, journeys = j), 1e-6f)
+    assertEquals(0.75f, Sidebar.progress(open = Side.JOURNEYS, dx = -200f, journeys = j), 1e-6f)
+    assertEquals(1f, Sidebar.progress(open = null, dx = 2000f, journeys = j), 1e-6f)
+    assertEquals(0f, Sidebar.progress(open = Side.JOURNEYS, dx = -2000f, journeys = j), 1e-6f)
+    // Leftward from rest: the viewer stays.
+    assertEquals(0f, Sidebar.progress(open = null, dx = -300f, journeys = j), 1e-6f)
   }
 
   @Test fun `a released drag lands past halfway, or where a flick carries it`() {
     val j = 800f
-    val c = 800f
-    assertNull(Sidebar.settle(open = null, dx = 300f, velocityX = 0f, journeys = j, controls = c))
-    assertEquals(Side.JOURNEYS, Sidebar.settle(open = null, dx = 500f, velocityX = 0f, journeys = j, controls = c))
+    assertNull(Sidebar.settle(open = null, dx = 300f, velocityX = 0f, journeys = j))
+    assertEquals(Side.JOURNEYS, Sidebar.settle(open = null, dx = 500f, velocityX = 0f, journeys = j))
     // 100px quickly: 100 + 2000 × 0.2 = 500 of 800.
-    assertEquals(Side.JOURNEYS, Sidebar.settle(open = null, dx = 100f, velocityX = 2000f, journeys = j, controls = c))
-    assertNull(Sidebar.settle(open = Side.JOURNEYS, dx = -100f, velocityX = -2000f, journeys = j, controls = c))
-    assertEquals(Side.CONTROLS, Sidebar.settle(open = null, dx = -500f, velocityX = 0f, journeys = j, controls = c))
-    assertNull(Sidebar.settle(open = Side.CONTROLS, dx = 100f, velocityX = 2000f, journeys = j, controls = c))
+    assertEquals(Side.JOURNEYS, Sidebar.settle(open = null, dx = 100f, velocityX = 2000f, journeys = j))
+    assertNull(Sidebar.settle(open = Side.JOURNEYS, dx = -100f, velocityX = -2000f, journeys = j))
+    assertNull(Sidebar.settle(open = null, dx = -500f, velocityX = 0f, journeys = j))
   }
 
   // ---------------------------------------------------------------- weight
@@ -430,9 +386,16 @@ class ShellTest {
     assertEquals(640f, TapScroll.distance(index = 5, rowTop = 640f))
   }
 
+  @Test fun `a tapped line can land higher than where the content starts`() {
+    // With the header hidden by the tap, just below the
+    // camera cutout.
+    assertEquals(640f + 150f, TapScroll.distance(index = 5, rowTop = 640f, raise = 150f))
+    assertNull(TapScroll.distance(index = 0, rowTop = 0f, raise = 150f))
+  }
+
   @Test fun `the toner wash blends in sRGB, as iOS does`() {
     // Black toward white at 0.12 is 0.12 of the way in each channel (31/255), not
-    // Oklab's 6/255, which left the dark-mode toner all but invisible.
+    // Oklab's 6/255, which left the dark-mode highlight all but invisible.
     val dark = wash(androidx.compose.ui.graphics.Color.Black, androidx.compose.ui.graphics.Color.White, 0.12f)
     assertEquals(0.12f, dark.red, 0.005f)
     assertEquals(1f, dark.alpha, 0f)
@@ -443,8 +406,8 @@ class ShellTest {
     assertNull(TapScroll.distance(index = 0, rowTop = -30f))
   }
 
-  @Test fun `the tap scroll takes half a second`() {
-    // display-controls.md#tap-a-line, on both platforms (2026-10-16).
-    assertEquals(500, TapScroll.DURATION_MS)
+  @Test fun `the tap scroll takes 0_6 seconds`() {
+    // display-controls.md#tap-a-line, on both platforms (2026-11-09; 0.5s before).
+    assertEquals(600, TapScroll.DURATION_MS)
   }
 }

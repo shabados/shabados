@@ -38,13 +38,18 @@ import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBars
+import androidx.compose.foundation.layout.statusBarsIgnoringVisibility
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.systemGestures
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconButtonColors
@@ -53,7 +58,6 @@ import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
@@ -188,16 +192,21 @@ private const val FADE_START = 0.6f
 
 /**
  * The viewer's header: the Journeys button at the left, the title in a centred pill,
- * [actions] at the right. **No background**: the text scrolls up beneath it and
- * fades ([fadingUnder]). One Journeys icon in both states
+ * [actions] at the right. **No background**: the text scrolls up beneath it.
+ * In the reader with no fade, and the header hides as the
+ * reader scrolls onward (`ReaderBars`); the Journeys sidebar's header still fades
+ * ([fadingUnder]). One Journeys icon in both states
  * (docs/requirements/reading-shell.md#getting-between-them).
  */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun ViewerHeader(title: String?, onJourneys: () -> Unit, actions: @Composable RowScope.() -> Unit = {}) {
   Box(
     modifier = Modifier
       .fillMaxWidth()
-      .padding(top = WindowInsets.statusBars.topDp())
+      // As if the status bar were showing, so it does not move when the reader
+      // hides it (`ReaderBars`).
+      .padding(top = WindowInsets.statusBarsIgnoringVisibility.topDp())
       .height(HeaderHeight)
       // Clear of a camera cutout or navigation bar at the sides in landscape, as
       // the reader's text is (`sideSafeArea`).
@@ -254,18 +263,28 @@ val sideSafeArea: WindowInsets
 internal fun WindowInsets.topDp(): Dp = with(LocalDensity.current) { getTop(this).toDp() }
 
 /** Where the viewer's content starts: below the status bar and the header. Content
- * scrolls up into this space and fades there. */
+ * scrolls up into this space and fades there. Measured as if the status bar were
+ * showing, so the reader does not move when it hides (`ReaderBars`). */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun viewerContentTop(): Dp = WindowInsets.statusBars.topDp() + HeaderHeight
+fun viewerContentTop(): Dp = WindowInsets.statusBarsIgnoringVisibility.topDp() + HeaderHeight
 
 /**
- * The app: the viewer, lying over the Journeys sidebar on its left and the Controls
- * sidebar on its right. "The viewer is the app" (docs/requirements/reading-shell.md):
- * it is what the app opens to, and neither sidebar is a destination of its own.
+ * The app: the viewer, lying over the Journeys sidebar on its left. "The viewer is
+ * the app" (docs/requirements/reading-shell.md): it is what the app opens to, and the
+ * sidebar is not a destination of its own.
  *
- * **Controls is Journeys mirrored** (reading-shell.md#the-controls-sidebar): the
- * viewer slides left instead of right, by the same rules ([Sidebar]); what follows
- * about Journeys holds for Controls on the other side. At most one is open.
+ * **Controls is a bottom sheet, not a
+ * sidebar.** Material's modal sheet ([ModalBottomSheet]), with its default dim
+ * (chosen 2026-11-09): Android's usual container for options opened from a button.
+ * A slider's change still shows on the reader behind the dim. A tap on the reader
+ * closes the sheet and goes no further, as a tap outside the iOS popover does; so
+ * do Back and a drag down. The standard sheet, tried first, left the reader live
+ * beneath it and so never closed on a tap there.
+ *
+ * **The modal sheet is a window of its own**, above this one, so Settings, drawn in
+ * this window, would open beneath it: its `Settings` row closes Controls first, then
+ * opens Settings, as on iOS. Only Journeys slides.
  *
  * **Opening Journeys slides the viewer aside** to show the sidebar beneath it,
  * leaving at least [Sidebar.PEEK_DP] of the viewer's inner edge in view, faded
@@ -277,6 +296,7 @@ fun viewerContentTop(): Dp = WindowInsets.statusBars.topDp() + HeaderHeight
  * Everything that follows the slide is read inside `graphicsLayer` and draw blocks,
  * so a frame of the slide redraws and never recomposes or re-lays out.
  */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ReaderShell(shell: ShellState, readerKey: Any, banis: List<Bani>, controls: ReaderControls) {
   val view = LocalView.current
@@ -285,19 +305,44 @@ fun ReaderShell(shell: ShellState, readerKey: Any, banis: List<Bani>, controls: 
   val gurmukhi = remember(assets) { gurmukhiFont(assets, DesignTokens.WEIGHT_PRIMARY.roundToInt()) }
   val density = LocalDensity.current
   val scope = rememberCoroutineScope()
-  /** Settled position, signed as [Sidebar.base]: 0 with the viewer over both
-   * sidebars, 1 aside for Journeys, -1 aside for Controls. */
+  /** Settled position, as [Sidebar.base]: 0 with the viewer over Journeys, 1 aside. */
   val slide = remember { Animatable(Sidebar.base(shell.openSide)) }
   /** Where a drag has moved the viewer to; null when no drag is moving it. */
   var dragProgress by remember { mutableStateOf<Float?>(null) }
   /** Settings, as a sheet over everything (reading-shell.md#settings). */
   var settingsShown by rememberSaveable { mutableStateOf(false) }
   fun progress() = dragProgress ?: slide.value
-  /** Read in composition, so derived: recomposes when the answer changes, not on
-   * every frame of a slide. */
-  val controlsLaidOut by remember { derivedStateOf { Sidebar.controlsLaidOut(progress()) } }
+  /** The reader's header and the status bar, hidden while reading onward. */
+  val bars = remember { ReaderBars(scope) }
+  StatusBarFollows(bars) { shell.openId != null && shell.openSide == null }
+
+  /** Whether Controls' sheet is in the composition: from opening until its closing
+   * animation has finished. Shown at its contents' height, never half. */
+  var controlsShown by rememberSaveable { mutableStateOf(false) }
+  val sheet = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+
+  /** Opens Controls, or closes it with the sheet's own animation, then runs
+   * [afterClose]. */
+  fun showControls(show: Boolean, afterClose: () -> Unit = {}) {
+    shell.touch()
+    if (show) {
+      controlsShown = true
+      return
+    }
+    scope.launch { sheet.hide() }.invokeOnCompletion {
+      if (!sheet.isVisible) {
+        controlsShown = false
+        afterClose()
+      }
+    }
+  }
 
   fun setSide(side: Side?) {
+    // Opening Journeys closes Controls, which would otherwise stay over the moved
+    // viewer.
+    if (side != null && controlsShown) showControls(false)
+    // Back from Journeys, whatever is opened there, the bars are showing.
+    if (side != null) bars.reset()
     // On opening only (docs/interaction.md, chosen 2026-10-16). CONTEXT_CLICK is
     // the platform's light tick.
     if (shell.setSide(side)) view.performHapticFeedback(HapticFeedbackConstants.CONTEXT_CLICK)
@@ -318,11 +363,13 @@ fun ReaderShell(shell: ShellState, readerKey: Any, banis: List<Bani>, controls: 
   }
 
   fun open(bani: Bani) {
+    bars.reset()
     shell.open(bani.id)
     scope.launch { slide.animateTo(0f, SlideSpec) }
   }
 
   fun resume() {
+    bars.reset()
     shell.resume()
     scope.launch { slide.animateTo(0f, SlideSpec) }
   }
@@ -348,194 +395,190 @@ fun ReaderShell(shell: ShellState, readerKey: Any, banis: List<Bani>, controls: 
   val gestureEdges = WindowInsets.systemGestures
   val leftEdge = gestureEdges.getLeft(density, LayoutDirection.Ltr).toFloat()
   val rightEdge = gestureEdges.getRight(density, LayoutDirection.Ltr).toFloat()
-  // Each sidebar's panel is padded clear of the inset on its outer side, so its width
-  // adds it back (`Sidebar.travel`): the left for Journeys, the right for Controls.
+  // The Journeys panel is padded clear of the inset on its outer side, the left, so
+  // its width adds it back (`Sidebar.travel`).
   val leftInset = sideSafeArea.getLeft(density, LayoutDirection.Ltr).toFloat()
-  val rightInset = sideSafeArea.getRight(density, LayoutDirection.Ltr).toFloat()
 
-  BoxWithConstraints(
-    modifier = Modifier
-      .fillMaxSize()
-      // Any touch is activity for the idle boundary. The Initial pass and nothing
-      // consumed, so it sees everything and changes nothing.
-      .pointerInput(Unit) {
-        awaitPointerEventScope {
-          while (true) {
-            awaitPointerEvent(PointerEventPass.Initial)
-            shell.touch()
-          }
-        }
-      }
-      .pointerInput(leftEdge, rightEdge, leftInset, rightInset) {
-        sidebarDrag(
-          shell = shell,
-          leftEdge = leftEdge,
-          rightEdge = rightEdge,
-          leftInset = leftInset,
-          rightInset = rightInset,
-          settingsShown = { settingsShown },
-          onMove = { dragProgress = it },
-          onSettle = ::setSide,
-        )
-      },
-  ) {
-    val travelJDp = Sidebar.travel(maxWidth.value, maxHeight.value, Sidebar.PEEK_DP, with(density) { leftInset.toDp() }.value).dp
-    val travelCDp = Sidebar.travel(maxWidth.value, maxHeight.value, Sidebar.PEEK_DP, with(density) { rightInset.toDp() }.value).dp
-    val travelJPx = with(density) { travelJDp.toPx() }
-    val travelCPx = with(density) { travelCDp.toPx() }
-
-    // Beneath: the sidebar, on `backgroundBase` across the whole screen
-    // (Material's `surfaceVariant`, Theme.kt), so it reads as a surface apart from
-    // the page-coloured viewer: packages/design/tokens.md, "Where the two
-    // backgrounds are used". The same token as on iOS (decided 2026-10-16).
-    Box(
-      Modifier
-        .fillMaxSize()
-        .background(MaterialTheme.colorScheme.surfaceVariant),
-    ) {
-      JourneysPanel(
-        banis = banis,
-        readingId = shell.openId,
-        gurmukhi = gurmukhi,
-        onOpen = ::open,
-        modifier = Modifier
-          // As wide as the viewer leaves uncovered, so nothing in it sits under
-          // the peek.
-          .width(travelJDp)
-          .fillMaxHeight()
-          // Covered by the viewer while closed, so out of reach of TalkBack too.
-          .then(if (shell.openSide == Side.JOURNEYS) Modifier else Modifier.clearAndSetSemantics {})
-          // **Laid out at full size throughout; only its drawing is scaled and
-          // faded.** Nothing inside re-lays out as the scale changes, so reaching
-          // full size is only the scale reaching 1. On iOS a re-layout here made
-          // the rows jump and an extra row appear (apps/ios/README.md). Grows
-          // outward from its right edge: up, down and to the left.
-          .graphicsLayer {
-            // Only the sidebar the viewer is moving away from shows.
-            val p = progress()
-            alpha = if (p < 0f) 0f else Sidebar.strength(p)
-            scaleX = Sidebar.scale(p.coerceAtLeast(0f))
-            scaleY = scaleX
-            transformOrigin = TransformOrigin(1f, 0.5f)
-          },
-      )
-      // The same on the other side: Controls, growing outward from its left edge.
-      // Left out while Journeys shows, which it would cover (`Sidebar.controlsLaidOut`).
-      if (controlsLaidOut) ControlsPanel(
-        controls = controls,
-        onSettings = { settingsShown = true },
-        modifier = Modifier
-          .align(Alignment.CenterEnd)
-          .width(travelCDp)
-          .fillMaxHeight()
-          .then(if (shell.openSide == Side.CONTROLS) Modifier else Modifier.clearAndSetSemantics {})
-          .graphicsLayer {
-            val p = progress()
-            alpha = if (p > 0f) 0f else Sidebar.strength(-p)
-            scaleX = Sidebar.scale((-p).coerceAtLeast(0f))
-            scaleY = scaleX
-            transformOrigin = TransformOrigin(0f, 0.5f)
-          },
-      )
-    }
-
-    val background = MaterialTheme.colorScheme.background
-    val hairline = MaterialTheme.colorScheme.onBackground
-    val corners = remember(view) { DisplayCorners(view) }
-    Box(
+  Box(Modifier.fillMaxSize()) {
+    BoxWithConstraints(
       modifier = Modifier
         .fillMaxSize()
-        .graphicsLayer {
-          val p = progress()
-          translationX = if (p >= 0f) travelJPx * p else travelCPx * p
-          // The display's own corners, so the moving viewer reads as the screen
-          // itself slid aside. At rest the display's corners already hide it.
-          shape = corners
-          clip = p != 0f
-          shadowElevation = 24.dp.toPx() * abs(p)
-        }
-        .background(background)
-        // While aside, only its edge is a target (the Box below), for TalkBack too.
-        .then(if (shell.openSide != null) Modifier.clearAndSetSemantics {} else Modifier)
-        .drawWithContent {
-          drawContent()
-          val p = abs(progress())
-          if (p > 0f) {
-            // Faded towards the background, so the edge reads as set aside.
-            drawRect(background.copy(alpha = 0.6f * p))
-            // A hairline along the edge, so it reads as a card's edge and not
-            // only a shadow's.
-            drawOutline(
-              corners.createOutline(size, layoutDirection, this),
-              hairline.copy(alpha = 0.08f * p),
-              style = Stroke(width = 0.5.dp.toPx()),
-            )
+        // Any touch is activity for the idle boundary. The Initial pass and nothing
+        // consumed, so it sees everything and changes nothing.
+        .pointerInput(Unit) {
+          awaitPointerEventScope {
+            while (true) {
+              awaitPointerEvent(PointerEventPass.Initial)
+              shell.touch()
+            }
           }
+        }
+        .pointerInput(leftEdge, rightEdge, leftInset) {
+          sidebarDrag(
+            shell = shell,
+            leftEdge = leftEdge,
+            rightEdge = rightEdge,
+            leftInset = leftInset,
+            settingsShown = { settingsShown },
+            onMove = { dragProgress = it },
+            onSettle = ::setSide,
+          )
         },
     ) {
-      val bani = banis.withId(shell.openId)
-      if (bani == null) {
-        DefaultScreen(
-          pills = DefaultScreenPills.of(banis),
-          continueWith = banis.withId(shell.previousId),
+      val travelJDp = Sidebar.travel(maxWidth.value, maxHeight.value, Sidebar.PEEK_DP, with(density) { leftInset.toDp() }.value).dp
+      val travelJPx = with(density) { travelJDp.toPx() }
+
+      // Beneath: the sidebar, on `backgroundBase` across the whole screen
+      // (Material's `surfaceVariant`, Theme.kt), so it reads as a surface apart from
+      // the page-coloured viewer: packages/design/tokens.md, "Where the two
+      // backgrounds are used". The same token as on iOS (decided 2026-10-16).
+      Box(
+        Modifier
+          .fillMaxSize()
+          .background(MaterialTheme.colorScheme.surfaceVariant),
+      ) {
+        JourneysPanel(
+          banis = banis,
+          readingId = shell.openId,
           gurmukhi = gurmukhi,
           onOpen = ::open,
-          onContinue = ::resume,
-          onJourneys = { toggle(Side.JOURNEYS) },
-          onControls = { toggle(Side.CONTROLS) },
-          onSettings = ::openSettingsFromViewer,
+          modifier = Modifier
+            // As wide as the viewer leaves uncovered, so nothing in it sits under
+            // the peek.
+            .width(travelJDp)
+            .fillMaxHeight()
+            // Covered by the viewer while closed, so out of reach of TalkBack too.
+            .then(if (shell.openSide == Side.JOURNEYS) Modifier else Modifier.clearAndSetSemantics {})
+            // **Laid out at full size throughout; only its drawing is scaled and
+            // faded.** Nothing inside re-lays out as the scale changes, so reaching
+            // full size is only the scale reaching 1. On iOS a re-layout here made
+            // the rows jump and an extra row appear (apps/ios/README.md). Grows
+            // outward from its right edge: up, down and to the left.
+            .graphicsLayer {
+              // Only the sidebar the viewer is moving away from shows.
+              val p = progress()
+              alpha = if (p < 0f) 0f else Sidebar.strength(p)
+              scaleX = Sidebar.scale(p.coerceAtLeast(0f))
+              scaleY = scaleX
+              transformOrigin = TransformOrigin(1f, 0.5f)
+            },
         )
-      } else {
-        // A different bani is a new reader, and so is the same bani in a new
-        // process: [readerKey] is new each process, so saved scroll state from
-        // before a process death is never restored into a later reader.
-        key(readerKey, bani.id) {
-          BaniReader(
-            bani,
-            controls = controls,
-            startLine = shell.startLine,
-            onTopLine = { shell.readingLine = it },
-            onJourneys = { toggle(Side.JOURNEYS) },
-            onControls = { toggle(Side.CONTROLS) },
-            onSettings = ::openSettingsFromViewer,
-          )
-        }
       }
-    }
 
-    // While open, the visible edge, its header button included, is one target that
-    // returns to the viewer. No ripple: the slide is the feedback.
-    //
-    // **A tap only if the finger stayed within the touch slop**, not `clickable`,
-    // which counts any press that lifts inside its bounds however far it moved: a
-    // vertical drag along this full-height strip closed the sidebar (2026-11-04).
-    // Nor does it consume the down, so a sideways drag from here is still the
-    // sidebar's (`sidebarDrag`). TalkBack keeps the click.
-    val openSide = shell.openSide
-    if (openSide != null && dragProgress == null) {
-      val journeys = openSide == Side.JOURNEYS
+      val background = MaterialTheme.colorScheme.background
+      val hairline = MaterialTheme.colorScheme.onBackground
+      val corners = remember(view) { DisplayCorners(view) }
       Box(
         modifier = Modifier
-          .align(if (journeys) Alignment.CenterEnd else Alignment.CenterStart)
-          // All of the viewer still in view: the peek in portrait, more in landscape.
-          .width(maxWidth - if (journeys) travelJDp else travelCDp)
-          .fillMaxHeight()
-          .semantics {
-            contentDescription = if (journeys) "Journeys" else "Controls"
-            onClick { setSide(null); true }
+          .fillMaxSize()
+          .graphicsLayer {
+            val p = progress()
+            translationX = travelJPx * p
+            // The display's own corners, so the moving viewer reads as the screen
+            // itself slid aside. At rest the display's corners already hide it.
+            shape = corners
+            clip = p != 0f
+            shadowElevation = 24.dp.toPx() * abs(p)
           }
-          .pointerInput(Unit) {
-            awaitEachGesture {
-              val down = awaitFirstDown(requireUnconsumed = false)
-              val up = waitForUpOrCancellation() ?: return@awaitEachGesture
-              if ((up.position - down.position).getDistance() < viewConfiguration.touchSlop) setSide(null)
+          .background(background)
+          // While aside, only its edge is a target (the Box below), for TalkBack too.
+          .then(if (shell.openSide != null) Modifier.clearAndSetSemantics {} else Modifier)
+          .drawWithContent {
+            drawContent()
+            val p = abs(progress())
+            if (p > 0f) {
+              // Faded towards the background, so the edge reads as set aside.
+              drawRect(background.copy(alpha = 0.6f * p))
+              // A hairline along the edge, so it reads as a card's edge and not
+              // only a shadow's.
+              drawOutline(
+                corners.createOutline(size, layoutDirection, this),
+                hairline.copy(alpha = 0.08f * p),
+                style = Stroke(width = 0.5.dp.toPx()),
+              )
             }
           },
-      )
-    }
+      ) {
+        val bani = banis.withId(shell.openId)
+        if (bani == null) {
+          DefaultScreen(
+            pills = DefaultScreenPills.of(banis),
+            continueWith = banis.withId(shell.previousId),
+            gurmukhi = gurmukhi,
+            onOpen = ::open,
+            onContinue = ::resume,
+            onJourneys = { toggle(Side.JOURNEYS) },
+            onControls = { showControls(!controlsShown) },
+            onSettings = ::openSettingsFromViewer,
+          )
+        } else {
+          // A different bani is a new reader, and so is the same bani in a new
+          // process: [readerKey] is new each process, so saved scroll state from
+          // before a process death is never restored into a later reader.
+          key(readerKey, bani.id) {
+            BaniReader(
+              bani,
+              controls = controls,
+              startLine = shell.startLine,
+              onTopLine = { shell.readingLine = it },
+              onJourneys = { toggle(Side.JOURNEYS) },
+              onControls = { showControls(!controlsShown) },
+              onSettings = ::openSettingsFromViewer,
+              bars = bars,
+            )
+          }
+        }
+      }
 
-    // Over everything, last. Closed by its ✕ or by Back, back to Controls where it
-    // was opened.
+      // While open, the visible edge, its header button included, is one target that
+      // returns to the viewer. No ripple: the slide is the feedback.
+      //
+      // **A tap only if the finger stayed within the touch slop**, not `clickable`,
+      // which counts any press that lifts inside its bounds however far it moved: a
+      // vertical drag along this full-height strip closed the sidebar (2026-11-04).
+      // Nor does it consume the down, so a sideways drag from here is still the
+      // sidebar's (`sidebarDrag`). TalkBack keeps the click.
+      val openSide = shell.openSide
+      if (openSide != null && dragProgress == null) {
+        val journeys = openSide == Side.JOURNEYS
+        Box(
+          modifier = Modifier
+            .align(if (journeys) Alignment.CenterEnd else Alignment.CenterStart)
+            // All of the viewer still in view: the peek in portrait, more in landscape.
+            .width(maxWidth - travelJDp)
+            .fillMaxHeight()
+            .semantics {
+              contentDescription = if (journeys) "Journeys" else "Controls"
+              onClick { setSide(null); true }
+            }
+            .pointerInput(Unit) {
+              awaitEachGesture {
+                val down = awaitFirstDown(requireUnconsumed = false)
+                val up = waitForUpOrCancellation() ?: return@awaitEachGesture
+                if ((up.position - down.position).getDistance() < viewConfiguration.touchSlop) setSide(null)
+              }
+            },
+        )
+      }
+
+    }
+    if (controlsShown) {
+      ModalBottomSheet(
+        onDismissRequest = { controlsShown = false },
+        sheetState = sheet,
+        // `backgroundBase`, as the Journeys sidebar (Theme.kt).
+        containerColor = MaterialTheme.colorScheme.surfaceVariant,
+        // The panel keeps clear of the navigation bar and the sides itself.
+        contentWindowInsets = { WindowInsets(0) },
+      ) {
+        ControlsPanel(
+          controls = controls,
+          onSettings = { showControls(false) { settingsShown = true } },
+          modifier = Modifier.fillMaxWidth(),
+        )
+      }
+    }
+    // Over the viewer, last. Closed by its ✕ or by Back, back to the viewer.
     SettingsScreen(shown = settingsShown, controls = controls, onDismiss = { settingsShown = false })
   }
 }
@@ -549,18 +592,12 @@ fun ReaderShell(shell: ShellState, readerKey: Any, banis: List<Bani>, controls: 
  * Read in the Initial pass so it sees the drag before the list or a row does; once
  * judged horizontal, every event is consumed, so the list does not scroll and the
  * row under the finger does not count a tap. Until then nothing is consumed.
- *
- * **With Controls open it is read in the Main pass instead**, after the panel, and
- * gives up on a drag a control has already consumed: a slider takes its own sideways
- * drags, and anywhere else in the panel still closes it
- * (docs/requirements/reading-shell.md#the-controls-sidebar).
  */
 private suspend fun PointerInputScope.sidebarDrag(
   shell: ShellState,
   leftEdge: Float,
   rightEdge: Float,
   leftInset: Float,
-  rightInset: Float,
   settingsShown: () -> Boolean,
   onMove: (progress: Float) -> Unit,
   onSettle: (open: Side?) -> Unit,
@@ -575,39 +612,31 @@ private suspend fun PointerInputScope.sidebarDrag(
     // at its new width.
     val peek = Sidebar.PEEK_DP.dp.toPx()
     val journeys = Sidebar.travel(size.width.toFloat(), size.height.toFloat(), peek, leftInset)
-    val controls = Sidebar.travel(size.width.toFloat(), size.height.toFloat(), peek, rightInset)
     val wasOpen = shell.openSide
-    // With Controls open, a slider or switch gets the drag first: read after the
-    // panel, and given up once a control has taken it (see the doc comment).
-    val pass = if (wasOpen == Side.CONTROLS) PointerEventPass.Main else PointerEventPass.Initial
     val velocity = VelocityTracker().apply { addPointerInputChange(down) }
     var axis: Sidebar.Axis? = null
     while (true) {
-      val event = awaitPointerEvent(pass)
+      val event = awaitPointerEvent(PointerEventPass.Initial)
       if (event.changes.count { it.pressed } > 1) {
         if (axis == Sidebar.Axis.HORIZONTAL) onSettle(wasOpen)
         return@awaitEachGesture
       }
       val change = event.changes.firstOrNull { it.id == down.id } ?: return@awaitEachGesture
-      // A control that has taken the drag consumes its movement; that is what gives
-      // way to a slider. **Not the press itself**, which is this same event's first
-      // look in the Main pass: anything tappable consumes its down, and the viewer's
-      // edge or Controls' Settings row would then never start a closing drag
-      // (reading-shell.md: "from anywhere else in Controls, or from the viewer's edge").
-      if (axis == null && change.isConsumed && change.previousPressed) return@awaitEachGesture
       val dx = change.position.x - down.position.x
       val dy = change.position.y - down.position.y
-      if (axis == null) axis = Sidebar.judge(dx, dy, decision, wasOpen)
+      if (axis == null) {
+        axis = Sidebar.judge(dx, dy, decision, wasOpen)
+      }
       when (axis) {
         Sidebar.Axis.OTHER -> return@awaitEachGesture
         Sidebar.Axis.HORIZONTAL -> {
           event.changes.forEach { it.consume() }
           velocity.addPointerInputChange(change)
           if (!change.pressed) {
-            onSettle(Sidebar.settle(wasOpen, dx, velocity.calculateVelocity().x, journeys, controls))
+            onSettle(Sidebar.settle(wasOpen, dx, velocity.calculateVelocity().x, journeys))
             return@awaitEachGesture
           }
-          onMove(Sidebar.progress(wasOpen, dx, journeys, controls))
+          onMove(Sidebar.progress(wasOpen, dx, journeys))
         }
         null -> {
           velocity.addPointerInputChange(change)
@@ -655,7 +684,7 @@ private class DisplayCorners(private val view: View) : Shape {
 fun chromeColor(): Color = MaterialTheme.colorScheme.surfaceVariant
 
 /** The viewer header's Controls button. One icon whether or not Controls is open
- * (docs/requirements/reading-shell.md#the-controls-sidebar). R.drawable, for the
+ * (docs/requirements/reading-shell.md#controls). R.drawable, for the
  * same reason as the Journeys button's.
  *
  * **A long press opens Settings** ([onLongClick]; reading-shell.md#settings). Drawn

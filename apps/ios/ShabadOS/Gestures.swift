@@ -17,7 +17,7 @@ import UIKit
 // - **A scroll view's own pan waits for the sideways drag to fail**, so a drag is
 //   exactly one of scroll or swipe, never both.
 // - **A drag that starts on a slider or a switch never reaches the sideways drag**
-//   (reading-shell.md#the-controls-sidebar).
+//   (reading-shell.md#controls).
 // - **Two fingers never start the sideways drag**, so a pinch is never read as a
 //   drag (interaction.md). A second finger joining a swipe is meant to end it; on an
 //   iPhone (2026-11-04) the swipe carried on and no pinch began, which is accepted.
@@ -100,7 +100,7 @@ struct SidebarPan: UIGestureRecognizerRepresentable {
     }
 
     /// A touch that lands on a slider or a switch is that control's
-    /// (reading-shell.md#the-controls-sidebar). SwiftUI's `Slider` and `Toggle`
+    /// (reading-shell.md#controls). SwiftUI's `Slider` and `Toggle`
     /// are drawn by `UISlider` and `UISwitch` on iOS, so the touch's view says so.
     func gestureRecognizer(_ recognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {
       var view = touch.view

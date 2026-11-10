@@ -155,6 +155,51 @@ The reading area is specified entirely by
 [display-controls.md](display-controls.md) — mode, alignment, sizing, which fields
 are shown.
 
+### The bars follow the scroll
+
+**EXPERIMENT (`shell-sheet`, local only, 2026-11-09).** Recorded so the version
+picked can be rebuilt on main; on main the header is at the top and always shown.
+
+- **Where the header is differs by platform** (2026-11-09):
+  - **iPhone: a bar at the foot of the viewer**, as Safari's: Journeys at the left,
+    the title in the middle, Controls at the right, within thumb's reach. Nothing
+    is drawn behind it ([interaction.md](../interaction.md#the-system-bars)).
+  - **iPad: at the top**, as iPadOS's own bars are, with the band behind it as on
+    main. Decided by width, not by device: a regular width puts it at the top, a
+    compact one (an iPad window narrowed to an iPhone's width) at the foot. Hidden,
+    it slides up; a tapped line lands below the status bar, where the bar was.
+  - **Android: at the top**, where a top app bar is the convention, and where the
+    foot may already hold three-button navigation; the two together at the foot
+    would crowd it. Hidden, it slides up past the status bar. **No fade under it**
+    (2026-11-09): the text runs under it as it is. Behind the status bar, while it
+    shows, a solid band in the viewer's background.
+- **Everything below holds on both.**
+- **Reading onward hides it, and the status bar**, as a browser hides its bars:
+  scrolling down, or tapping a line (whose scroll carries the reader down). **A
+  tapped line lands just below the camera cutout** (2026-11-09), where the hidden
+  header was, rather than below the header; its highlight's top a gutter's gap
+  (8) below the cutout, or below the screen's top where there is none, as on iOS,
+  whose safe area plays the cutout's part; under a screen reader, where
+  the header stays, below it. Scrolling
+  back up shows them; so does reaching the top, and coming back from Journeys.
+- **Any movement counts**: 1pt down hides, 1pt up shows (chosen on an iPhone;
+  24pt down and 6pt up were also tried). Only the person's own scrolling counts — a
+  drag and the fling after it — never a pinch or a rotation, which move the text
+  too.
+- **A hide or show plays to the end** (0.35s), and nothing starts until it has.
+  Instant, it flickered at some scroll speeds; animated but interruptible, a turn
+  mid-animation started another.
+- **It never touches the scroll.** The bar keeps its place and is only slid and
+  faded; removing it changed the reading area's size, which laid the text out again
+  mid-scroll and stuttered. Nor does the status bar: the reader is laid out as if it
+  were showing (on Android, `statusBarsIgnoringVisibility`), so hiding it moves
+  nothing. The fade under the header goes with it.
+- **Never while Controls is open** (its popover points at the bar), **nor under a
+  screen reader**, which reads the bar as it moves through the screen.
+- The status bar hides only over content being read: the default screen and the
+  sidebars keep it. On Android, while it is hidden a swipe down from the top shows
+  it for a moment, the system's own way back to it.
+
 ### The screen stays awake while content is read
 
 **While the viewer shows content — a bani, shabad, ang, anything being read — and
@@ -544,9 +589,11 @@ The text size alone does not say which fits:
   size 1 of 5, while Font size 1 did not at Display size 5: the sliders themselves
   grow with Display size, and the screen gets shorter.
 
-The Controls sidebar scrolls and always stacks its sliders; on Android it always
-shows the bylines. **Its `Settings` row stays in view at every text size**: the
-sliders scroll, the row does not.
+The Controls sidebar scrolls and always stacks its sliders. **EXPERIMENT
+(`shell-sheet`, 2026-11-09): Controls shows no bylines, on any platform or
+screen**; the titles say enough beside the reader they change, and Settings'
+Appearance page keeps them as above. **Its `Settings` row stays in view at every
+text size**: the sliders scroll, the row does not.
 
 **The default screen scrolls when it does not fit**, on both platforms, as at the
 largest text sizes. On iOS it had not, and being taller than the screen it made the

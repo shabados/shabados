@@ -62,14 +62,13 @@ final class ReadingPosition {
   var line: String?
 }
 
-/// The app: the viewer, lying over the Journeys sidebar on its left and the
-/// Controls sidebar on its right. "The viewer is the app"
-/// (docs/requirements/reading-shell.md): it is what the app opens to, and neither
-/// sidebar is a destination of its own.
+/// The app: the viewer, lying over the Journeys sidebar on its left. "The viewer is
+/// the app" (docs/requirements/reading-shell.md): it is what the app opens to, and
+/// the sidebar is not a destination of its own.
 ///
-/// **Controls is Journeys mirrored** (reading-shell.md#the-controls-sidebar): the
-/// viewer slides left instead of right, by the same rules. Everything below that
-/// says "Journeys" holds for Controls on the other side. At most one is open.
+/// **Controls is not a sidebar.** It is the
+/// Controls button's own presentation (`ControlsButton`): a popover on iPhone and
+/// iPad alike, with the reader live around it. Only Journeys slides.
 ///
 /// **Opening Journeys slides the viewer aside** to show the sidebar beneath it,
 /// leaving at least `peek` of the viewer's inner edge in view, faded towards the
@@ -89,8 +88,14 @@ struct ReaderShell: View {
   /// What the default screen's `continue reading` offers, while `LastRead` allows;
   /// restored from what was saved when the app starts.
   @State private var previous: LastRead? = LastRead.saved().flatMap { $0.offered(now: .now) ? $0 : nil }
-  /// The sidebar showing, if any; at most one at a time.
-  @State private var openSide: Side?
+  /// Whether the Journeys sidebar is showing.
+  @State private var journeysOpen = false
+  /// Controls, presented by its button (`ControlsButton`). Here so opening Journeys
+  /// can close it.
+  @State private var controlsShown = false
+  /// The reader's bar and the status bar are out of the
+  /// way while reading onward (`BaniReaderView.barsFollowScroll`).
+  @State private var bars = ReaderBars()
   /// The drag's horizontal travel while it is moving the viewer; nil otherwise.
   @State private var dragX: CGFloat?
   /// `@State` only to keep one instance for the view's lifetime.
@@ -99,15 +104,11 @@ struct ReaderShell: View {
   @State private var position = ReadingPosition()
   /// Settings, as a sheet over everything (reading-shell.md#settings).
   @State private var settingsShown = false
-  @Environment(\.horizontalSizeClass) private var horizontalSizeClass
 
   /// The line a new reader opens at: where `continue reading` left off, or nil for
   /// the top.
   @State private var startLine: String?
   @Environment(\.scenePhase) private var scenePhase
-
-  /// Which sidebar: Journeys on the left, Controls on the right.
-  private enum Side { case journeys, controls }
 
   /// Settled in docs/requirements/journeys.md#journeys: 15 minutes without
   /// activity ends a journey, including while the app is open.
@@ -122,8 +123,7 @@ struct ReaderShell: View {
   /// sidebar's contents are as wide in landscape as in portrait (decided
   /// 2026-10-16). In landscape the viewer then leaves more than `peek` in view.
   ///
-  /// The inset is the Dynamic Island's when it is on that side: the leading inset
-  /// for Journeys, the trailing for Controls. The panel is padded clear of it inside
+  /// The inset is the Dynamic Island's when it is on the leading side. The panel is padded clear of it inside
   /// this width, so without adding it back the panel was that much narrower in
   /// landscape (2026-10-19). In portrait it is 0.
   static func travel(width: CGFloat, height: CGFloat, edgeInset: CGFloat) -> CGFloat {
@@ -174,13 +174,11 @@ struct ReaderShell: View {
       let screenWidth = geometry.size.width + insets.leading + insets.trailing
       let screenHeight = geometry.size.height + insets.top + insets.bottom
       let travelJ = Self.travel(width: screenWidth, height: screenHeight, edgeInset: insets.leading)
-      let travelC = Self.travel(width: screenWidth, height: screenHeight, edgeInset: insets.trailing)
-      // Signed: towards 1 as the viewer moves right to show Journeys, towards -1 as
-      // it moves left to show Controls. `amount` is how far, whichever way.
-      let progress = openness(journeys: travelJ, controls: travelC)
-      let amount = abs(progress)
+      // 0 with the viewer over the sidebar, 1 with it aside.
+      let progress = openness(travel: travelJ)
+      let amount = progress
       let sidebarScale = Self.sidebarScale(amount)
-      let offset = progress >= 0 ? travelJ * progress : travelC * progress
+      let offset = travelJ * progress
 
       // Two whole screens, one over the other, each a rigid card the size of the
       // display.
@@ -233,34 +231,7 @@ struct ReaderShell: View {
             .ignoresSafeArea()
             .allowsHitTesting(false)
         }
-        // Only the sidebar the viewer is moving away from shows; at rest neither
-        // is in view, and Journeys stays beneath.
-        .opacity(progress >= 0 ? 1 : 0)
-        .allowsHitTesting(openSide == .journeys)
-
-        // Beneath, on the other side: Controls, the same in mirror image.
-        ZStack(alignment: .trailing) {
-          Self.sidebarBackground.ignoresSafeArea()
-          ControlsPanel(onSettings: showSettings)
-            .dynamicTypeSize(...InterfaceText.cap)
-            .padding(.trailing, insets.trailing)
-            .safeAreaPadding(.top, insets.top)
-            .safeAreaPadding(.bottom, insets.bottom)
-            .frame(width: travelC)
-            // Grows outward from its left edge, the side the viewer leaves from.
-            .geometryGroup()
-            .visualEffect { content, _ in
-              content.scaleEffect(sidebarScale, anchor: .leading)
-            }
-        }
-        .frame(maxWidth: .infinity, alignment: .trailing)
-        .overlay {
-          Self.sidebarBackground.opacity(1 - Self.sidebarStrength(amount))
-            .ignoresSafeArea()
-            .allowsHitTesting(false)
-        }
-        .opacity(progress < 0 ? 1 : 0)
-        .allowsHitTesting(openSide == .controls)
+        .allowsHitTesting(journeysOpen)
 
         viewer
         // The measured insets, fixed while the viewer moves (see above).
@@ -301,17 +272,17 @@ struct ReaderShell: View {
 
         // While open, the visible edge, its header button included, is one target
         // that returns to the viewer.
-        if let openSide, dragX == nil {
+        if journeysOpen, dragX == nil {
           Color.clear
             .contentShape(Rectangle())
             // All of the viewer still in view: the peek in portrait, more in landscape.
-            .frame(width: max(0, screenWidth - (openSide == .journeys ? travelJ : travelC)))
-            .frame(maxWidth: .infinity, alignment: openSide == .journeys ? .trailing : .leading)
+            .frame(width: max(0, screenWidth - travelJ))
+            .frame(maxWidth: .infinity, alignment: .trailing)
             .ignoresSafeArea()
-            .onTapGesture { setSide(nil) }
+            .onTapGesture { setJourneys(false) }
         }
       }
-      .gesture(sidebarPan(journeys: travelJ, controls: travelC))
+      .gesture(sidebarPan(travel: travelJ))
       // Both layers span the whole screen, so the viewer is one rigid card whose
       // corners are the display's (`cardShape`). Their contents take the insets
       // as fixed padding instead, above.
@@ -322,11 +293,15 @@ struct ReaderShell: View {
     .onChange(of: keepsScreenOn, initial: true) { _, on in
       UIApplication.shared.isIdleTimerDisabled = on
     }
-    // Swiped down or closed by its ✕, back to where it was opened: Controls, or
-    // the viewer after a long press on its Controls button.
+    // Swiped down or closed by its ✕, back to the viewer: opened by a long press on
+    // the Controls button, or from Controls on iPad (`ControlsButton`).
     .sheet(isPresented: $settingsShown) { SettingsView() }
+    // With the reader's bar (`ReaderBars`), and only over a reader: the sidebar and
+    // the default screen keep the status bar.
+    .modifier(ReaderBars.StatusBar(bars: bars, allowed: baniID != nil && !journeysOpen))
     // On opening only (chosen 2026-10-16).
-    .sensoryFeedback(.impact(weight: .light), trigger: openSide) { old, new in new != nil && new != old }
+    .sensoryFeedback(.impact(weight: .light), trigger: journeysOpen) { old, new in new && !old }
+    .onChange(of: controlsShown) { _, shown in if shown { activity.touch() } }
     .onReceive(idleCheck) { _ in refresh() }
     .onChange(of: scenePhase) { _, phase in
       if phase == .active { refresh() }
@@ -360,7 +335,7 @@ struct ReaderShell: View {
   /// (docs/requirements/reading-shell.md#the-screen-stays-awake-while-content-is-read).
   /// The 15-minute limit needs nothing here: going idle ends the journey, which
   /// closes the content. Android's `ShellState.keepsScreenOn` is the same rule.
-  private var keepsScreenOn: Bool { baniID != nil && openSide == nil }
+  private var keepsScreenOn: Bool { baniID != nil && !journeysOpen }
 
   @ViewBuilder
   private var viewer: some View {
@@ -370,8 +345,9 @@ struct ReaderShell: View {
         activity: activity,
         position: position,
         startLine: startLine,
-        onJourneys: { toggle(.journeys) },
-        onControls: { toggle(.controls) },
+        onJourneys: { setJourneys(!journeysOpen) },
+        controlsShown: $controlsShown,
+        bars: bars,
         onSettings: showSettingsFromViewer
       )
         // A different bani is a new reader: its row frames, held line and
@@ -382,37 +358,23 @@ struct ReaderShell: View {
         continueWith: Self.bani(previous?.id),
         open: open,
         onContinue: resume,
-        onJourneys: { toggle(.journeys) },
-        onControls: { toggle(.controls) },
+        onJourneys: { setJourneys(!journeysOpen) },
+        controlsShown: $controlsShown,
         onSettings: showSettingsFromViewer
       )
     }
   }
 
-  /// Where the viewer is: 0 covering both sidebars, 1 aside for Journeys, -1 aside
-  /// for Controls; between while dragged. A drag from rest goes whichever way the
-  /// finger does; from open it can only close.
-  private func openness(journeys: CGFloat, controls: CGFloat) -> CGFloat {
-    let base = Self.base(openSide)
-    guard let dragX else { return base }
-    let towardsJourneys = base > 0 || (base == 0 && dragX > 0)
-    let travel = towardsJourneys ? journeys : controls
-    guard travel > 0 else { return base }
-    let moved = base + dragX / travel
-    return towardsJourneys ? min(1, max(0, moved)) : min(0, max(-1, moved))
+  /// Where the viewer is: 0 covering the sidebar, 1 aside; between while dragged.
+  private func openness(travel: CGFloat) -> CGFloat {
+    let base: CGFloat = journeysOpen ? 1 : 0
+    guard let dragX, travel > 0 else { return base }
+    return min(1, max(0, base + dragX / travel))
   }
 
-  private static func base(_ side: Side?) -> CGFloat {
-    switch side {
-    case .journeys: 1
-    case .controls: -1
-    case nil: 0
-    }
-  }
-
-  /// A drag anywhere opens or closes a sidebar: rightward on the viewer opens
-  /// Journeys, leftward opens Controls, and the opposite way on an open sidebar or
-  /// the viewer's edge closes it. On iOS it may start at the screen edge as well as
+  /// A drag anywhere opens or closes Journeys: rightward on the viewer opens it, and
+  /// leftward on the open sidebar or the viewer's edge closes it. A leftward drag on
+  /// the viewer does nothing. On iOS it may start at the screen edge as well as
   /// inside the content: the reader has no back button, so there is no system
   /// back-swipe to collide with (docs/interaction.md).
   ///
@@ -420,33 +382,19 @@ struct ReaderShell: View {
   /// than up or down counts, a swipe never also taps what it started on, a scroll and a swipe never
   /// both move, a drag from a slider is the slider's, and two fingers never start
   /// it.
-  private func sidebarPan(journeys: CGFloat, controls: CGFloat) -> SidebarPan {
+  private func sidebarPan(travel: CGFloat) -> SidebarPan {
     SidebarPan(
-      canMove: { dx in
-        switch openSide {
-        case .journeys: dx < 0
-        case .controls: dx > 0
-        case nil: true
-        }
-      },
+      canMove: { dx in journeysOpen ? dx < 0 : dx > 0 },
       onChanged: { dx in dragX = dx },
       onEnded: { _, predicted in
         // Where a flick would carry it, not only where the finger lifted, so a
         // short quick drag still opens or closes.
-        let base = Self.base(openSide)
-        let towardsJourneys = base > 0 || (base == 0 && predicted > 0)
-        let travel = towardsJourneys ? journeys : controls
         guard travel > 0 else { withAnimation(.smooth) { dragX = nil }; return }
-        let landing = base + predicted / travel
+        let landing = (journeysOpen ? 1 : 0) + predicted / travel
         activity.touch()
+        if landing > 0.5 { controlsShown = false }
         withAnimation(.smooth) {
-          if landing > 0.5 && towardsJourneys {
-            openSide = .journeys
-          } else if landing < -0.5 && !towardsJourneys {
-            openSide = .controls
-          } else {
-            openSide = nil
-          }
+          journeysOpen = landing > 0.5
           dragX = nil
         }
       },
@@ -461,36 +409,24 @@ struct ReaderShell: View {
     id.flatMap { id in Corpus.banis.first { $0.id == id } }
   }
 
-  private func setSide(_ side: Side?) {
+  /// Opening Journeys closes Controls, which would otherwise stay over the moved
+  /// viewer.
+  private func setJourneys(_ open: Bool) {
     activity.touch()
-    withAnimation(.smooth) { openSide = side }
-  }
-
-  /// The Controls sidebar's `Settings` row. **On iPad, Controls closes first**, then
-  /// Settings opens as a window over the reader, not over a sidebar it would leave
-  /// half-covered (reading-shell.md#settings). On iPhone the sheet covers the
-  /// screen, and Controls stays open beneath it to come back to.
-  private func showSettings() {
-    guard horizontalSizeClass == .regular else {
-      settingsShown = true
-      return
+    if open { controlsShown = false }
+    withAnimation(.smooth) {
+      journeysOpen = open
+      // Back from Journeys, whatever is opened there, the bars are showing.
+      bars.reset()
     }
-    activity.touch()
-    withAnimation(.smooth) { openSide = nil } completion: { settingsShown = true }
   }
 
-  /// A long press on the viewer's Controls button: Settings straight from the
-  /// viewer, with no sidebar open, so closing it returns to the viewer
-  /// (reading-shell.md#settings).
+  /// A long press on the viewer's Controls button, or Controls' `Settings` row on
+  /// iPad once Controls has closed: Settings over the viewer, so closing it returns
+  /// there (reading-shell.md#settings).
   private func showSettingsFromViewer() {
     activity.touch()
     settingsShown = true
-  }
-
-  /// A header button: opens its sidebar, or closes it if open. Opening one closes
-  /// the other.
-  private func toggle(_ side: Side) {
-    setSide(openSide == side ? nil : side)
   }
 
   /// Every path out of the sidebar closes it
@@ -503,7 +439,7 @@ struct ReaderShell: View {
     startLine = nil
     position.line = nil
     LastRead(id: bani.id, at: activity.last).save()
-    withAnimation(.smooth) { openSide = nil }
+    withAnimation(.smooth) { journeysOpen = false }
   }
 
   /// `continue reading`: opens `previous` at the line that was at its top.
@@ -514,7 +450,7 @@ struct ReaderShell: View {
     startLine = previous.line
     position.line = previous.line
     LastRead(id: previous.id, at: activity.last, line: previous.line).save()
-    withAnimation(.smooth) { openSide = nil }
+    withAnimation(.smooth) { journeysOpen = false }
   }
 
   /// Withdraws `continue reading` once `LastRead` no longer allows it, so a default
@@ -539,6 +475,12 @@ struct ReaderShell: View {
 /// glass pill, `trailing` at the right (docs/requirements/reading-shell.md#the-viewer).
 /// The title is a control, but its actions do not exist yet, so it does nothing.
 ///
+/// **At the foot of the viewer on iPhone,
+/// at the top on iPad** (`VerticalEdge.viewerBar`). At the foot, within thumb's
+/// reach, its buttons sit at the bottom of its frame with `below` above them, and
+/// the home indicator's safe area beneath, so it needs no margin of its own. At the
+/// top, as before: the buttons at the top of the frame, `below` beneath them.
+///
 /// **Plain SwiftUI in a `safeAreaBar`, not a `NavigationStack` toolbar.** A
 /// navigation bar is UIKit, which works out its safe area from where it sits on
 /// screen: as the viewer slid aside, the part going past the screen's edge counted
@@ -554,6 +496,8 @@ struct ReaderShell: View {
 /// it, so the fade and the tapped line stopped short of them (2026-10-19).
 struct ViewerBar<Trailing: View>: View {
   let title: String?
+  /// Which edge of the viewer it is on (`VerticalEdge.viewerBar`).
+  let edge: VerticalEdge
   let onJourneys: () -> Void
   /// Styled by the caller with `barCircle()`, so an absent one draws nothing.
   @ViewBuilder let trailing: Trailing
@@ -589,9 +533,103 @@ struct ViewerBar<Trailing: View>: View {
       }
     }
     .padding(.horizontal, 16)
-    .frame(height: BarMetrics.height, alignment: .top)
-    .padding(.top, BarMetrics.topMargin(verticalSizeClass))
+    .frame(height: BarMetrics.height, alignment: edge == .top ? .top : .bottom)
+    .padding(.top, edge == .top ? BarMetrics.topMargin(verticalSizeClass) : 0)
     .dynamicTypeSize(BarMetrics.typeSize)
+  }
+}
+
+extension VerticalEdge {
+  /// **Where the viewer's bar sits.** At the foot in a
+  /// compact width, an iPhone's, within thumb's reach as Safari's is there; at the
+  /// top in a regular width, an iPad's (2026-11-09), as iPadOS's own bars are. An
+  /// iPad window narrowed to an iPhone's width takes the iPhone's.
+  static func viewerBar(_ horizontalSizeClass: UserInterfaceSizeClass?) -> VerticalEdge {
+    horizontalSizeClass == .regular ? .top : .bottom
+  }
+}
+
+/// **Whether the reader's bars are hidden**: the
+/// viewer's bar, the status bar, and the scroll edge effect behind the status bar
+/// (`BaniReaderView.barsFollowScroll` decides when).
+///
+/// **A hide or show plays to the end, and nothing starts until it has** (chosen
+/// 2026-11-09). Hiding them on every turn of the scroll, instantly, flickered at
+/// some speeds on an iPhone; animated, a change of direction mid-animation
+/// started another. Asked for while one plays, a change is dropped; the next
+/// scroll frame after it ends asks again.
+///
+/// **Nothing here changes layout**, so the scroll is never touched. The bar keeps
+/// its place in the `safeAreaBar` and is only slid and faded (`Follows`); taking
+/// it out changed the scroll view's inset, and animating that laid the whole
+/// reader out on every frame, which stuttered a scroll under way. `hidden` is read
+/// only by the three modifiers below, never by the reader's `body`, so a change
+/// redraws them alone. The status bar does not move the safe area on an iPhone
+/// with a Dynamic Island; on iPad it may.
+@Observable final class ReaderBars {
+  /// Whether the bars are hidden, or on their way out.
+  private(set) var hidden = false
+  /// True from a hide or show starting until it has finished. Not observed:
+  /// nothing draws from it.
+  @ObservationIgnored private var animating = false
+
+  /// Slower than the scroll it follows is fine: it is a separate motion.
+  static let animation = Animation.smooth(duration: 0.35)
+
+  /// Starts a hide or show, unless one is already playing or there is nothing to
+  /// change.
+  func set(hidden newValue: Bool) {
+    guard !animating, newValue != hidden else { return }
+    animating = true
+    withAnimation(Self.animation, completionCriteria: .removed) {
+      hidden = newValue
+    } completion: { [weak self] in
+      self?.animating = false
+    }
+  }
+
+  /// Showing, at once and whatever is playing: on the way back from Journeys,
+  /// inside Journeys' own animation.
+  func reset() {
+    hidden = false
+  }
+
+  /// The bar itself, slid down by its height and faded out; its frame stays.
+  struct Follows: ViewModifier {
+    let bars: ReaderBars
+    /// The edge the bar slides out past.
+    let edge: VerticalEdge
+
+    func body(content: Content) -> some View {
+      content
+        .offset(y: bars.hidden ? (edge == .top ? -BarMetrics.height : BarMetrics.height) : 0)
+        .opacity(bars.hidden ? 0 : 1)
+        .allowsHitTesting(!bars.hidden)
+        .accessibilityHidden(bars.hidden)
+    }
+  }
+
+  /// The band behind the status bar, and behind the bar on iPad, which goes with
+  /// them. None ever behind a bar at the foot: its glass buttons float over the
+  /// text (`BaniReaderView`'s note).
+  struct EdgeEffects: ViewModifier {
+    let bars: ReaderBars
+
+    func body(content: Content) -> some View {
+      content
+        .scrollEdgeEffectHidden(bars.hidden, for: .top)
+        .scrollEdgeEffectHidden(true, for: .bottom)
+    }
+  }
+
+  struct StatusBar: ViewModifier {
+    let bars: ReaderBars
+    /// Only over a reader, with Journeys closed.
+    let allowed: Bool
+
+    func body(content: Content) -> some View {
+      content.statusBarHidden(allowed && bars.hidden)
+    }
   }
 }
 
@@ -662,7 +700,7 @@ private struct DefaultScreen: View {
   /// `continue reading`, which returns to where the bani was left.
   let onContinue: () -> Void
   let onJourneys: () -> Void
-  let onControls: () -> Void
+  @Binding var controlsShown: Bool
   let onSettings: () -> Void
 
   /// The system's Body text size: 17pt at the default Text Size, following the
@@ -685,10 +723,12 @@ private struct DefaultScreen: View {
     Self.pills.compactMap { id in Corpus.banis.first { $0.id == id } }
   }
 
+  @Environment(\.horizontalSizeClass) private var horizontalSizeClass
+
   var body: some View {
     // Centred when it fits; **scrolls when it does not**, as at the largest Text
     // Size. Taller than the screen and not scrolling, it made the whole shell taller
-    // than the screen, and the Controls sidebar moved down by half the difference,
+    // than the screen, and what lay beside the viewer moved down by half the difference,
     // taking its `Settings` row off the bottom (iPhone, 2026-10-22).
     ViewThatFits(in: .vertical) {
       greeting
@@ -698,8 +738,10 @@ private struct DefaultScreen: View {
     .background(DesignTokens.background)
     // No title, since nothing is being read; Controls is here too, so the preview
     // and appearance are reachable before anything is open.
-    .safeAreaBar(edge: .top) {
-      ViewerBar(title: nil, onJourneys: onJourneys) { ControlsButton(action: onControls, onLongPress: onSettings) }
+    .safeAreaBar(edge: .viewerBar(horizontalSizeClass)) {
+      ViewerBar(title: nil, edge: .viewerBar(horizontalSizeClass), onJourneys: onJourneys) {
+        ControlsButton(isPresented: $controlsShown, onSettings: onSettings)
+      }
     }
   }
 

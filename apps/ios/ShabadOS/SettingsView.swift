@@ -2,7 +2,7 @@ import SwiftUI
 import UIKit
 
 /// Settings (docs/requirements/reading-shell.md#settings): a sheet over everything,
-/// opened from the Controls sidebar's `Settings` row and closed by swiping it down or
+/// opened from Controls' `Settings` row and closed by swiping it down or
 /// by the ✕ at its top right. Its items are menus in groups without labels; below the
 /// first group, the appearance picker.
 ///

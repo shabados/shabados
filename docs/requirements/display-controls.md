@@ -847,18 +847,20 @@ has lost their place, or is following along with a sangat reading aloud, this is
 the fastest way back in sync — faster than the scrollbar, and with no separate
 "find my place" control to build.
 
-**iOS answers this with a brief highlight**, held then faded, on the same
+**Both platforms answer this with the same highlight** (2026-11-09; EXPERIMENT,
+`shell-sheet`, until rebuilt on main): the
 [toner](../../packages/design/tokens.md) surface a card elsewhere in the reader
-uses — built because a plain SwiftUI tap gesture has no feedback of its own.
-**Android answers it with the platform's own default ripple** on the row's
-`clickable` — Compose already gives every tappable row one, so nothing further
-needed building; a second, custom highlight layered on top would be redundant
-with what the platform already does, not an improvement on it. Two different
-answers to the same requirement, not one platform behind the other.
+uses, behind the tapped line. **On at once, held 0.6 seconds, faded over 0.6
+seconds** (2026-11-09; 0.75 and 0.5, and before that 0.5 and 0.25, were tried), at the toner's full strength. The four values — fade-in, hold, fade-out,
+strength — are named constants on each platform (iOS `tapHighlight…`, Android
+`Highlight`), kept equal. Android's line rows have no ripple, so the two do not
+compete. Android used the platform ripple alone before; it was gone in about 0.4
+seconds, before the line had settled.
 
-**The scroll takes 0.5 seconds on both platforms** (2026-10-16), easing in and out
-with no overshoot (iOS: `.smooth(duration: 0.5)`). iOS holds its highlight for the
-same 0.5 seconds before fading it, so it starts to fade as the line settles.
+**The scroll takes 0.6 seconds on both platforms** (2026-11-09; 0.5 seconds from
+2026-10-16, then 0.75 tried), easing in and out with no overshoot (iOS: `.smooth`).
+The highlight holds for the same 0.6 seconds before fading, so it starts to fade as the line
+settles; each platform defines the hold as the scroll's duration.
 
 **The whole row is the target, not just its glyphs** — a short or centred line
 (a title) has empty space beside it that must tap the same as the text.

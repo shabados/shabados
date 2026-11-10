@@ -60,9 +60,16 @@ class MainActivity : ComponentActivity() {
       val dark = controls.appearance.dark(isSystemInDarkTheme())
       // The status and navigation bar icons follow the Appearance setting, not only
       // the system's scheme.
+      //
+      // **The navigation bar's style is `auto`, told our Appearance**, not `light`
+      // or `dark`: only `auto` leaves the window's navigation bar contrast enforced
+      // (androidx.activity 1.11.0, `EdgeToEdgeApi29`). Enforced, the system draws
+      // its own translucent scrim behind three-button navigation, and nothing
+      // behind the gesture handle (docs/interaction.md#the-system-bars).
       LaunchedEffect(dark) {
-        val style = if (dark) SystemBarStyle.dark(Color.TRANSPARENT) else SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT)
-        enableEdgeToEdge(statusBarStyle = style, navigationBarStyle = style)
+        val status = if (dark) SystemBarStyle.dark(Color.TRANSPARENT) else SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT)
+        val navigation = SystemBarStyle.auto(Color.TRANSPARENT, Color.TRANSPARENT) { dark }
+        enableEdgeToEdge(statusBarStyle = status, navigationBarStyle = navigation)
       }
       ShabadOSTheme(dark = dark) {
         val assets = LocalContext.current.assets

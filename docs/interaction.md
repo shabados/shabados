@@ -168,15 +168,15 @@ platforms that have haptics.
 becomes pick-up / move / drop with the select button. That is a genuinely different
 interaction for the same feature, and the reason this table has a D-pad column at all.
 
-**Confirming which line was tapped has no shared mechanism.** Tapping a line scrolls
-it to the top ([display-controls.md](requirements/display-controls.md#tap-a-line)), and
-a scroll alone does not tell you which line you hit. Compose gives every `clickable` a
-ripple, which answers it; SwiftUI's plain tap gestures give nothing, so iOS flashes the
-toner behind the line and fades it out. Neither app suppresses the other's mechanism to
-match. The requirement is that the tap is acknowledged where the finger landed, not that
-it is acknowledged the same way. **A pinch is different and is marked the same on
-both**: it has no ripple, so the row a pinch is anchored to gets the toner wash on
-Android too, held through the pinch and faded after release.
+**Confirming which line was tapped is the same on both** (2026-11-09; EXPERIMENT,
+`shell-sheet`). Tapping a line scrolls it to the top
+([display-controls.md](requirements/display-controls.md#tap-a-line)), and a scroll
+alone does not tell you which line you hit. Both platforms flash the toner behind the
+line, hold it through the scroll and fade it out, with the same timings; Android's
+line rows drop their ripple so the two do not compete. Compose's ripple alone answered
+it before, but was gone before the line had settled. **A pinch is marked the same
+way**: the row a pinch is anchored to gets the toner wash, held through the pinch and
+faded after release.
 
 **A continuation card is content, not a control, and that constrains its feedback.** The
 card offering the longer reading
@@ -192,6 +192,53 @@ directly. Android's `TopAppBar` scroll behaviours change elevation and colour ra
 than masking, so the overlay is hand-built there. The requirement is that Gurmukhi
 passing under the header fades rather than being cut, because a hard edge through the
 sirlekh reads as a rendering fault.
+
+### The system bars
+
+**EXPERIMENT (`shell-sheet`, local only, 2026-11-09).** Recorded here so that the
+version picked can be rebuilt on main; until then the paragraph above holds.
+
+**iOS: the viewer's bar is at the foot, with nothing behind it.** Its glass buttons
+float over the text, as Mail's toolbar buttons do; text passes under them unfaded.
+This departs from the fade above, which was written for a bar at the top. Behind the
+status bar the scroll edge effect is `.soft`, a fading blur; it hides with the bars
+([reading-shell.md](requirements/reading-shell.md#the-bars-follow-the-scroll)). The
+Journeys sidebar's header, still at the top, keeps its `.hard` band.
+
+**Android: no fade under the reader's header** (2026-11-09); the text runs under it
+as it is. **Behind the status bar, while it shows, a solid band in the viewer's
+background**, exactly the status bar's height, so text never runs through the clock
+and icons. Both hide as the reader scrolls onward, the band fading with them
+([reading-shell.md](requirements/reading-shell.md#the-bars-follow-the-scroll)). The
+Journeys sidebar's header keeps its fade.
+
+**Android: the system decides what sits behind its navigation bar**, by the
+navigation mode the person has chosen in the system's settings. There are two:
+
+- **Gesture navigation**: a thin handle at the foot of the screen; back is a swipe
+  in from either side edge, home a swipe up. The handle draws over the app with
+  nothing behind it, and needs nothing: it adapts its own colour to what is under
+  it.
+- **Three-button navigation**: back, home and recents as buttons in a bar along the
+  foot (or along a side, on a phone held sideways). Text scrolling under those
+  buttons would collide with them, so they need a background.
+
+The app asks the system for this rather than drawing it: the window keeps its
+navigation bar contrast enforced (`Window.isNavigationBarContrastEnforced`), and
+with it the system draws a translucent scrim behind three-button navigation and
+nothing behind the gesture handle. It follows the mode as the person changes it,
+and covers a tablet's taskbar too. **Only `SystemBarStyle.auto` leaves contrast
+enforced** in androidx.activity's `enableEdgeToEdge` (1.11.0); `light` and `dark`
+turn it off. The app passes `auto` its own Appearance, so the bar's icons still
+follow the Appearance setting (`MainActivity`).
+
+*Not taken:* drawing our own fade behind three-button navigation. The mode can be
+detected — `WindowInsets.tappableElement` reports an inset for the buttons, which
+can be tapped, and none for the gesture handle, which cannot — but the scrim is the
+platform's own answer and needs no code to keep correct across modes, orientations
+and the taskbar. The scrim is flat, not a gradient; if a gradient is wanted, that
+detection is how to do it. `Settings.Secure`'s `navigation_mode` is not public API
+and is not to be read.
 
 ## The web server is core, not an enhancement
 

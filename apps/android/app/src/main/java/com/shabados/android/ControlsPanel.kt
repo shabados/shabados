@@ -69,11 +69,15 @@ private const val PREVIEW_SECONDARY = "Here's an example."
 private val SettingsRowHeight = 56.dp
 
 /**
- * The Controls sidebar's contents (docs/requirements/reading-shell.md#the-controls-sidebar):
- * the Zoom, Ratio and Weight sliders, and a sticky `Settings` row at the foot. The
- * header is the title and the appearance control; **no toggle of its own**, since the
- * viewer's Controls button stays in view on the viewer's edge. Journeys' panel,
- * mirrored: padded clear of a cutout on its right, the side away from the viewer.
+ * Controls' contents (docs/requirements/reading-shell.md#controls): the
+ * Zoom, Ratio and Weight sliders, and a `Settings` row at the foot.
+ *
+ * **The content of a bottom sheet**
+ * (`ReaderShell`), not a sidebar, **with no header**, as iOS's popover has none
+ * (2026-11-09): the sheet rises from the Controls button, which names it, and
+ * Appearance stays in Settings. As tall as its contents, up to what the sheet
+ * allows, with the sliders scrolling if that is less; clear of the navigation bar
+ * beneath.
  *
  * Every value is [controls], shared with the reader and the theme, so a change here
  * is a change there, and a pinch made while this is closed shows here when it opens.
@@ -81,67 +85,40 @@ private val SettingsRowHeight = 56.dp
  */
 @Composable
 fun ControlsPanel(controls: ReaderControls, onSettings: () -> Unit, modifier: Modifier) {
-  val top = WindowInsets.statusBars.topDp()
   val bottom = with(LocalDensity.current) { WindowInsets.navigationBars.getBottom(this).toDp() }
   val colors = MaterialTheme.colorScheme
-  Box(modifier.windowInsetsPadding(sideSafeArea.only(WindowInsetsSides.Right))) {
+  Column(modifier.windowInsetsPadding(sideSafeArea)) {
     Column(
       modifier = Modifier
-        .fillMaxSize()
-        // The contents fade under the header rather than being cut, as Journeys'.
-        .fadingUnder(statusBar = top, to = top + HeaderHeight)
+        .weight(1f, fill = false)
         .verticalScroll(rememberScrollState())
-        .padding(top = top + HeaderHeight + 12.dp, bottom = bottom + SettingsRowHeight + 12.dp)
-        .padding(horizontal = SidebarInset),
+        .padding(horizontal = SidebarInset, vertical = 12.dp),
     ) {
-      ReaderSliders(controls)
+      // No bylines here (2026-11-09): the titles say enough beside the reader they
+      // change; Settings' Appearance page keeps them.
+      ReaderSliders(controls, layout = SliderLayout.NO_BYLINES)
     }
-    // The header does not scroll with the contents (reading-shell.md#header).
-    Row(
-      verticalAlignment = Alignment.CenterVertically,
-      modifier = Modifier
-        .fillMaxWidth()
-        .padding(top = top, start = SidebarInset, end = 12.dp)
-        .height(HeaderHeight),
-    ) {
-      Text(
-        text = "Controls",
-        style = MaterialTheme.typography.titleLarge,
-        // Capped as the Journeys header's is (`headerTitleSize`).
-        fontSize = headerTitleSize(),
-        fontWeight = FontWeight.SemiBold,
-        color = colors.onSurface,
-        maxLines = 1,
-        softWrap = false,
-      )
-      Spacer(Modifier.weight(1f))
-      AppearanceButton(controls)
-    }
-    // The door to Settings, at the foot whatever the scroll
-    // (reading-shell.md#the-controls-sidebar).
     Row(
       verticalAlignment = Alignment.CenterVertically,
       horizontalArrangement = Arrangement.spacedBy(12.dp),
       modifier = Modifier
-        .align(Alignment.BottomStart)
         .fillMaxWidth()
-        .background(colors.surfaceVariant)
         .clickable(onClick = onSettings)
-        .padding(bottom = bottom)
         .height(SettingsRowHeight)
         .padding(horizontal = SidebarInset),
     ) {
       Icon(painterResource(R.drawable.ic_settings), contentDescription = null)
       Text(text = "Settings", fontSize = BodySize, fontWeight = FontWeight.SemiBold, color = colors.onSurface)
     }
+    Spacer(Modifier.height(bottom))
   }
 }
 
 /**
  * How the sliders are laid out, from the most room taken to the least. Settings'
  * Appearance page takes the first that leaves its preview room
- * (docs/requirements/reading-shell.md#large-text); the Controls sidebar scrolls, so
- * it always shows [FULL].
+ * (docs/requirements/reading-shell.md#large-text). Controls always shows
+ * [NO_BYLINES] and scrolls if it must.
  */
 enum class SliderLayout {
   /** The title, its byline, then the slider, stacked. */
@@ -158,7 +135,7 @@ enum class SliderLayout {
 private val CompactTitleMax = 22.dp
 
 /**
- * The Zoom, Ratio and Weight sliders, shared by the Controls sidebar and Settings'
+ * The Zoom, Ratio and Weight sliders, shared by the Controls and Settings'
  * Appearance page so the two cannot drift (docs/requirements/display-controls.md).
  * Continuous: no steps, so whatever size a pinch lands on, the slider shows. Stored
  * values are kept to a few decimal places.
@@ -318,7 +295,7 @@ private fun ReaderSlider(
   )
 }
 
-/** A switch whose whole row is the target (reading-shell.md#the-controls-sidebar):
+/** A switch whose whole row is the target (reading-shell.md#controls):
  * one toggleable row, so a tap on the label works and TalkBack reads one switch. */
 @Composable
 fun SettingSwitch(
@@ -343,25 +320,3 @@ fun SettingSwitch(
   }
 }
 
-/** Light, Dark or System, at the right of the header (display-controls.md#appearance). */
-@Composable
-private fun AppearanceButton(controls: ReaderControls) {
-  var open by remember { mutableStateOf(false) }
-  Box {
-    IconButton(onClick = { open = true }, colors = chromeIconButtonColors()) {
-      Icon(painterResource(R.drawable.ic_appearance), contentDescription = "Appearance")
-    }
-    DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
-      Appearance.entries.forEach { choice ->
-        DropdownMenuItem(
-          text = { Text(choice.label) },
-          leadingIcon = { RadioButton(selected = controls.appearance == choice, onClick = null) },
-          onClick = {
-            controls.appearance = choice
-            open = false
-          },
-        )
-      }
-    }
-  }
-}

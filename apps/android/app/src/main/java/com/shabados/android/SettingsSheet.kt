@@ -69,7 +69,7 @@ private val GroupShape = RoundedCornerShape(16.dp)
 
 /**
  * Settings (docs/requirements/reading-shell.md#settings): **a full-screen dialog**,
- * Android's form for this, sliding up over everything from the Controls sidebar's
+ * Android's form for this, sliding up over everything from Controls'
  * `Settings` row while [shown]. **Back at the top left of every page, never a ✕**:
  * on the first page it closes Settings, on a page within it returns to the first;
  * system Back does the same, and a swipe does nothing. Its items are menus in groups

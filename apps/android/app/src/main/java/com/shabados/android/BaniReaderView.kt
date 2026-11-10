@@ -7,12 +7,14 @@ import androidx.compose.runtime.snapshotFlow
 import android.view.View
 import androidx.compose.ui.platform.LocalView
 import android.content.res.AssetManager
+import androidx.compose.animation.core.EaseIn
 import androidx.compose.animation.core.EaseOut
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.snap
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.animateScrollBy
@@ -30,7 +32,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 // function, and resolves automatically inside a Box{} content lambda.
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.statusBars
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.displayCutout
+import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
@@ -121,8 +125,8 @@ private fun tonerFaintColor(): Color =
  * iOS's `DesignTokens.wash` does: [toward] at that opacity laid over [base].
  *
  * Not Compose's `lerp`, which blends in Oklab, a perceptual space. In light mode
- * the two land close; in dark mode, from black toward white, `lerp` gives 6/255 at
- * 0.12 against iOS's 31, and the toner is all but invisible (Galaxy A16,
+ * the two land close; in dark mode, from black toward white, `lerp` gave 6/255 at
+ * 0.12 against iOS's 31, and the tap highlight was all but invisible (Galaxy A16,
  * 2026-11-09).
  */
 internal fun wash(base: Color, toward: Color, fraction: Float): Color =
@@ -133,11 +137,23 @@ internal fun wash(base: Color, toward: Color, fraction: Float): Color =
  * between rows. */
 private val RowSpacing = 6.dp
 
-/** How long a pinch's anchor highlight stays fully on after the fingers lift, then
- * how long it takes to fade. iOS's `tapHighlightHoldDuration` and
- * `tapHighlightFadeOutDuration`, so the two platforms fade alike. */
-private const val HIGHLIGHT_HOLD_MS = 500L
-private const val HIGHLIGHT_FADE_MS = 250
+/**
+ * **The toner highlight on a tapped line, and on a pinch's anchor**: on, held, then
+ * faded (docs/requirements/display-controls.md#tap-a-line). The same as iOS's
+ * `tapHighlight…` constants in BaniReaderView.swift; change both together.
+ */
+private object Highlight {
+  /** How long it takes to come on; 0 is at once, so it is fully on before the
+   * scroll starts moving. */
+  const val IN_MS = 0
+  /** How long it then stays fully on: a tap's scroll, so the fade begins as the
+   * line settles; for a pinch, from when the fingers lift. */
+  const val HOLD_MS = TapScroll.DURATION_MS.toLong()
+  /** Chosen on devices, 2026-11-09. */
+  const val FADE_MS = 600
+  /** How strong it is, as a share of the toner's own opacity: 1 is the toner. */
+  const val STRENGTH = 1f
+}
 
 /**
  * How reading text is drawn. Two things, both because the reader's size is its own:
@@ -193,6 +209,11 @@ private object ReaderCard {
   val shape = RoundedCornerShape(12.dp)
 }
 
+/** How far below the camera cutout (or the screen's top, where there is none) a
+ * tapped line's highlight lands: the space a card keeps from the screen's sides,
+ * the 16dp gutter less [ReaderCard.bleed]. iOS's `tapLandingGap`, the same 8. */
+internal val TapLandingGap = 16.dp - ReaderCard.bleed
+
 /**
  * One reader row. **Everything drawn behind or over the text — the Keep Reading
  * card's fill ([background]), the pinch anchor's toner ([highlight]), the tap
@@ -207,6 +228,9 @@ private fun ReaderRow(
   highlight: Float,
   onTap: () -> Unit,
   background: Modifier = Modifier,
+  /** A line's tap is shown by [highlight] instead, as on iOS; a Keep Reading card
+   * keeps the platform's pressed state (docs/interaction.md). */
+  ripple: Boolean = true,
   content: @Composable () -> Unit,
 ) {
   Box(
@@ -214,8 +238,12 @@ private fun ReaderRow(
       .fillMaxWidth()
       .clip(ReaderCard.shape)
       .then(background)
-      .background(tonerColor().copy(alpha = highlight))
-      .clickable(onClick = onTap)
+      .background(tonerColor().copy(alpha = highlight * Highlight.STRENGTH))
+      .clickable(
+        interactionSource = null,
+        indication = if (ripple) LocalIndication.current else null,
+        onClick = onTap,
+      )
       .padding(vertical = RowSpacing),
   ) { content() }
 }
@@ -419,7 +447,7 @@ private fun LineRow(
  * consume their own touch sequence, so a plain nested `Button` inside a
  * `clickable` card correctly gets first claim on its own area for free.
  *
- * A tap gets the platform ripple, like every line row, not a toner fill:
+ * A tap gets the platform ripple, unlike a line row, not a toner fill:
  * docs/interaction.md gives a continuation card the platform's ordinary pressed
  * state and nothing more.
  */
@@ -510,6 +538,7 @@ private val StringSetSaver = listSaver<Set<String>, String>(save = { it.toList()
  * long-pressed. It opens with [startLine] at the top (`continue reading`; null for
  * the top of the bani) and reports the line at the top as it scrolls ([onTopLine]),
  * both by `ReaderItem.id`. */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun BaniReader(
   bani: Bani,
@@ -519,13 +548,16 @@ fun BaniReader(
   onJourneys: () -> Unit,
   onControls: () -> Unit,
   onSettings: () -> Unit,
+  /** The header and the status bar, hidden while reading
+   * onward ([rememberBarsFollowScroll]); owned by the shell. */
+  bars: ReaderBars,
 ) {
   val context = LocalContext.current
   val weightAxis = controls.weight.roundToInt()
   val fonts = remember(context.assets, weightAxis) { GurmukhiFonts(context.assets, weightAxis.toFloat()) }
   val isTablet = LocalConfiguration.current.isTablet
 
-  // Saved across launches and shared with the Controls sidebar
+  // Saved across launches and shared with the Controls
   // (docs/requirements/display-controls.md#persistence). The starting size was
   // written before any UI, in MainActivity.
   val savedSize = controls.size
@@ -577,6 +609,17 @@ fun BaniReader(
   }
   val scope = rememberCoroutineScope()
   val view = LocalView.current
+  val accessibility = context.getSystemService(android.view.accessibility.AccessibilityManager::class.java)
+  val contentTopPx = with(LocalDensity.current) { viewerContentTop().toPx() }
+  val cutoutTopPx = WindowInsets.displayCutout.getTop(LocalDensity.current).toFloat()
+  val landingGapPx = with(LocalDensity.current) { TapLandingGap.toPx() }
+  val barsFollowScroll = rememberBarsFollowScroll(bars) { !listState.canScrollBackward }
+
+  /** The row drawn with the toner wash, by item key: a tapped line, or the row a
+   * pinch is anchored to ([Highlight]). */
+  var highlightedKey by remember { mutableStateOf<Any?>(null) }
+  /** Holds the wash, then fades it; cancelled by the next tap or pinch. */
+  var fadeJob by remember { mutableStateOf<Job?>(null) }
 
   /**
    * Scrolls the tapped row to the top in [TapScroll.DURATION_MS], easing in and out
@@ -591,11 +634,12 @@ fun BaniReader(
    * exact. The offset is from where the content starts, below the header's
    * padding, so the row lands just under the header.
    *
-   * **No custom highlight**: the default ripple every `clickable` gets is the
-   * confirmation, which is why neither this row's own `clickable` nor
-   * `ContinuationCard`'s suppresses it. iOS flashes the toner instead, because
-   * SwiftUI's plain tap gestures have no feedback of their own
-   * (docs/interaction.md).
+   * **The toner highlight is the confirmation, as on iOS** (2026-11-09): on at
+   * once, held through the scroll, then faded ([Highlight]). A line's row has no
+   * ripple, so the two do not compete. A Keep Reading card keeps its ripple and
+   * gets no toner (`highlight = false`): it is content, not the line being read
+   * (docs/interaction.md). The ripple alone, tried first, was gone in about 0.4s,
+   * before the line had settled.
    *
    * **At the display's high frame rate.** A finger on the screen raises a Pixel 7a
    * from 60Hz to 90Hz; this scroll runs after the finger lifts, so it ran at 60Hz
@@ -603,9 +647,25 @@ fun BaniReader(
    * `frameRateCategoryRate normal=60, high=90`). The view asks for the high
    * category for the animation's length, then hands the choice back.
    */
-  fun tapLine(index: Int) {
+  fun tapLine(index: Int, highlight: Boolean = true) {
+    // The toner on the tapped line, as on iOS (`Highlight`), even when it does not
+    // scroll; not on a Keep Reading card, which keeps its ripple.
+    if (highlight) items.getOrNull(index)?.let { item ->
+      fadeJob?.cancel()
+      highlightedKey = item.id
+      fadeJob = scope.launch {
+        delay(Highlight.IN_MS + Highlight.HOLD_MS)
+        if (highlightedKey == item.id) highlightedKey = null
+      }
+    }
     val row = listState.layoutInfo.visibleItemsInfo.firstOrNull { it.index == index } ?: return
-    val distance = TapScroll.distance(index, row.offset.toFloat()) ?: return
+    // A tap reads onward, as a scroll down does (`rememberBarsFollowScroll`), and
+    // lands the line just below the camera cutout, where the hidden header was. Not
+    // under TalkBack, where the header stays and the line lands below it.
+    val hidesBars = accessibility?.isTouchExplorationEnabled != true
+    val raise = if (hidesBars) (contentTopPx - cutoutTopPx - landingGapPx).coerceAtLeast(0f) else 0f
+    val distance = TapScroll.distance(index, row.offset.toFloat(), raise) ?: return
+    if (hidesBars) bars.set(hidden = true)
     scope.launch {
       view.requestedFrameRate = View.REQUESTED_FRAME_RATE_CATEGORY_HIGH
       try {
@@ -615,12 +675,6 @@ fun BaniReader(
       }
     }
   }
-
-  /** The row a pinch is anchored to, by item key, drawn with a toner wash. A pinch
-   * has no ripple to show where it is anchored, so unlike a tap it gets the wash. */
-  var highlightedKey by remember { mutableStateOf<Any?>(null) }
-  /** Holds the wash after the fingers lift, then fades it; cancelled by the next pinch. */
-  var fadeJob by remember { mutableStateOf<Job?>(null) }
 
   /**
    * The row a pinch under way holds still, and the size it was last held at. Plain
@@ -655,7 +709,6 @@ fun BaniReader(
   }
 
   val contentTop = viewerContentTop()
-  val statusBarTop = with(LocalDensity.current) { WindowInsets.statusBars.getTop(this).toDp() }
   val bottomInset = with(LocalDensity.current) { WindowInsets.navigationBars.getBottom(this).toDp() }
   val sides = sideSafeArea.asPaddingValues()
 
@@ -664,8 +717,9 @@ fun BaniReader(
       state = listState,
       modifier = Modifier
         .fillMaxSize()
-        // Rows fade as they pass under the status bar and the header.
-        .fadingUnder(statusBar = statusBarTop, to = contentTop)
+        // No fade under the status bar and the header
+        // (2026-11-09); the text runs under them as it is.
+        .nestedScroll(barsFollowScroll)
         .pointerInput(isTablet) {
           val spacingPx = RowSpacing.toPx()
           // **The Initial pass, and every event consumed once a second finger is
@@ -716,7 +770,7 @@ fun BaniReader(
               livePinchSize = null
               anchor?.let { row ->
                 fadeJob = scope.launch {
-                  delay(HIGHLIGHT_HOLD_MS)
+                  delay(Highlight.HOLD_MS)
                   if (highlightedKey == row.key) highlightedKey = null
                 }
               }
@@ -738,14 +792,17 @@ fun BaniReader(
         // On at once, so it shows as the pinch starts; off with a fade.
         val highlight by animateFloatAsState(
           targetValue = if (highlightedKey == item.id) 1f else 0f,
-          animationSpec = if (highlightedKey == item.id) snap() else tween(HIGHLIGHT_FADE_MS, easing = EaseOut),
+          animationSpec = when {
+            highlightedKey != item.id -> tween(Highlight.FADE_MS, easing = EaseOut)
+            Highlight.IN_MS == 0 -> snap()
+            else -> tween(Highlight.IN_MS, easing = EaseIn)
+          },
           label = "pinch anchor",
         )
         when (item) {
           is ReaderItem.LineItem ->
-            // Default ripple, same reasoning as ContinuationCard's own
-            // clickable — see tapLine's comment.
-            ReaderRow(highlight = highlight, onTap = { tapLine(index) }) {
+            // The toner, not a ripple, confirms the tap — see tapLine's comment.
+            ReaderRow(highlight = highlight, onTap = { tapLine(index) }, ripple = false) {
               Box(Modifier.padding(horizontal = ReaderCard.bleed)) {
                 LineRow(
                   line = item.line,
@@ -764,14 +821,17 @@ fun BaniReader(
               size = readerSize,
               fonts = fonts,
               highlight = highlight,
-              onTapCard = { tapLine(index) },
+              onTapCard = { tapLine(index, highlight = false) },
               onExpand = { expandedContinuations = expandedContinuations + item.continuation.id },
             )
         }
       }
     }
-    ViewerHeader(title = bani.latin, onJourneys = onJourneys) {
-      ControlsButton(onClick = onControls, onLongClick = onSettings)
+    StatusBarBand(bars)
+    HidingHeader(bars) {
+      ViewerHeader(title = bani.latin, onJourneys = onJourneys) {
+        ControlsButton(onClick = onControls, onLongClick = onSettings)
+      }
     }
   }
 }

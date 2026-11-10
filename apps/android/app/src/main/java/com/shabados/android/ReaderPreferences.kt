@@ -92,7 +92,7 @@ enum class Appearance(val key: String, val label: String) {
 /**
  * Every display control, saved across launches as on iOS
  * (docs/requirements/display-controls.md#persistence), and **observable**, so the
- * Controls sidebar, the reader and the theme all see one value: a slider moved in
+ * Controls, the reader and the theme all see one value: a slider moved in
  * the sidebar resizes the reader behind it, and a pinch in the reader moves the
  * slider. The keys are iOS's `@AppStorage` keys, so a setting has one name on both.
  *
