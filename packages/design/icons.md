@@ -144,8 +144,8 @@ and Compose's `Icon` tints regardless. Pin the commit and record each copy here.
 | Icon | |
 | --- | --- |
 | journeys | Open the Journeys sidebar, and close it from the sidebar's header. The same icon in both states, not a filled variant for open (chosen 2026-10-15). Specified by the author. |
-| controls | Open the Controls sidebar. |
-| controlsActive | Controls sidebar is open. PROPOSED; under review alongside journeys, which uses one icon for both states. |
+| controls | Open Controls. |
+| controlsActive | Controls is open. PROPOSED; under review alongside journeys, which uses one icon for both states. |
 | fullscreen | Enter fullscreen. PROPOSED. |
 | fullscreenActive | Exit fullscreen. Unlike controlsActive this is a distinct Lucide glyph, not the same shape filled — Lucide has no fullscreen fill variant. PROPOSED. |
 | zoom | Font size of the reading area. Specified by the author. |
@@ -176,7 +176,7 @@ and Compose's `Icon` tints regardless. Pin the commit and record each copy here.
 | next | Next entry in a journey. PROPOSED. |
 | previous | Previous entry in a journey. PROPOSED. |
 | streak | Consecutive days with a complete Defined instance. PROPOSED. |
-| settings | Open Settings, from the Controls sidebar's footer row. |
+| settings | Open Settings, from Controls' footer row. |
 | back | Android Settings' top left on every page: closes Settings from its first page, returns to it from the others. iOS's navigation draws its own. |
 | close | Close Settings: the ✕ at the top right of its first page, on iOS only (Android uses Back). Also proposed for closing a tab, which removes it from the journey permanently; the timeline keeps it. |
 | tracked | A tracked collection or bookmark. PROPOSED. |

@@ -173,10 +173,9 @@ Signing, custody, and versions are platform-specific: see
 
 Both apps build, install, and run. Verified working: reader, Sant Lipi rendering,
 light/dark. **Both open to the viewer, with the Journeys sidebar beneath it**
-(Android since 2026-10-16): the default screen when nothing is being read, a header
-with the Journeys button, the title in a pill and the Controls stand-in, and no
-A−/A+ (pinch is the only way to resize until the Controls sidebar exists). The
-Controls button on both is a stand-in until that sidebar replaces it.
+(Android since 2026-10-16): the default screen when nothing is being read, a bar
+with the Journeys button, the title in a pill and the Controls button, and no
+A−/A+.
 
 ### The reading shell on both platforms (2026-10-16)
 
@@ -199,12 +198,13 @@ iOS or SwiftUI problem Android does not have; **to decide** is not settled.
 | Header and sidebar list fade under their bars | [interaction.md](../docs/interaction.md#notes-on-the-rows-that-are-not-obvious) | **Done, own mechanism:** a hand-built `DstIn` mask (`fadingUnder`). |
 | Title in a centred pill, inert until its actions exist | [reading-shell.md](../docs/requirements/reading-shell.md#the-viewer) | **Done.** |
 | Header has no background; A−/A+ removed | [display-controls.md](../docs/requirements/display-controls.md#zoom) | **Done.** |
-| A tapped line scrolls to the top in 0.5s, no overshoot; the first row never scrolls | [display-controls.md](../docs/requirements/display-controls.md#tap-a-line) | **Done.** A tween by the row's measured offset; the ripple is the confirmation. |
+| A tapped line scrolls to the top in 0.6s, no overshoot, under a toner highlight held 0.6s and faded over 0.6s; the first row never scrolls | [display-controls.md](../docs/requirements/display-controls.md#tap-a-line) | **Done on both** (2026-11-09). Android: a tween by the row's measured offset. |
 | Default-screen pills: Jap Ji Sahib, Rehras Sahib, Kirtan Sohila (Ardas once bundled); greeting `greetingRatio` and pills `pillRatio` × Body | [library.md](../docs/requirements/library.md#base-collections), [tokens.md](../packages/design/tokens.md#type) | **Done.** The ratios are generated tokens on both since 2026-10-16. |
 | Interface Gurmukhi at `uiGurmukhiRatio` × Body, `weightPrimary`; Latin at Body | [tokens.md](../packages/design/tokens.md#type) | **Done.** Android's Body is `androidBodySize` sp. |
 | Bani list in Gurmukhi only | — | **Done.** |
 | Screen held awake while content is read with no sidebar open; released when the journey goes idle | [reading-shell.md](../docs/requirements/reading-shell.md#the-screen-stays-awake-while-content-is-read) | **Done on both** (2026-10-19): `keepsScreenOn` in `ShellState` and `ReaderShell`. |
-| Controls sidebar: Journeys mirrored; Zoom, Ratio and Weight sliders (continuous); Appearance in its header; a sticky Settings row. Settings: a sheet with Appearance (preview, sliders) and Display (Pauses, pronunciations) menus and a Light/Dark/System picker | [reading-shell.md](../docs/requirements/reading-shell.md#the-controls-sidebar), [#settings](../docs/requirements/reading-shell.md#settings), [display-controls.md](../docs/requirements/display-controls.md) | **Built on both** (2026-10-19). iOS: `SettingsView` in a sheet; Android: `SettingsScreen` (SettingsSheet.kt), a full-screen dialog closed by ✕ or Back. Android's settings are one observable `ReaderControls`, shared by the sidebar, reader and theme; iOS shares `@AppStorage` keys. |
+| Controls: a popover on iOS/iPadOS, a modal bottom sheet on Android; no header; Zoom, Ratio and Weight sliders (continuous, no bylines); a Settings row at the foot that closes Controls first. Settings: a sheet with Appearance (preview, sliders) and Display (Pauses, pronunciations) menus and a Light/Dark/System picker | [reading-shell.md](../docs/requirements/reading-shell.md#controls), [#settings](../docs/requirements/reading-shell.md#settings), [display-controls.md](../docs/requirements/display-controls.md), [ADR-0016](../docs/architecture/decisions/0016-controls-and-the-viewers-bar.md) | **Built on both** (2026-11-09). iOS: `ControlsButton` presents `ControlsPanel`; `SettingsView` in a sheet. Android: `ModalBottomSheet` in `ReaderShell`; `SettingsScreen` (SettingsSheet.kt), a full-screen dialog closed by ✕ or Back. Android's settings are one observable `ReaderControls`, shared by the sheet, reader and theme; iOS shares `@AppStorage` keys. |
+| The viewer's bar follows the scroll: at the foot on iPhone, at the top on iPad and Android; hidden with the status bar while reading onward | [reading-shell.md](../docs/requirements/reading-shell.md#the-bars-follow-the-scroll), [interaction.md](../docs/interaction.md#the-system-bars) | **Built on both** (2026-11-09). iOS: `ReaderBars` and `VerticalEdge.viewerBar` in ReaderShell.swift; Android: ReaderBars.kt. |
 | Rehras listed without (ਸ:) | — | **Done on both:** it comes from the bundled export. |
 | Lucide icons follow Text Size (`ScaledLucide`) | [icons.md](../packages/design/icons.md#lucide-assets) | **To decide.** Android icons are sized in dp and do not follow font scale, which is the platform norm. |
 | A tap scrolls to an offset, not a row id | — | **iOS only.** It works around SwiftUI keeping an animated scroll's target. Android scrolls by offset for a different reason: a duration. |

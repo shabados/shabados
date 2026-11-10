@@ -122,6 +122,8 @@ frames (`apps/ios/ShabadOS/Gestures.swift`, 2026-11-04):
 - Each scroll view's pan waits for the sidebar drag to fail, so a drag either
   scrolls or swipes, never both.
 - A touch that lands on a slider or a switch never reaches the sidebar drag.
+- Only a drag towards Journeys is recognised: rightward from rest, leftward with it
+  open.
 - Two fingers never start a swipe. A second finger joining a swipe neither ends it
   nor starts a zoom; that is accepted.
 - The pinch is a pinch recogniser that runs alongside all of these. The reader
@@ -135,10 +137,9 @@ frames (`apps/ios/ShabadOS/Gestures.swift`, 2026-11-04):
 - It reads touches before the list and the rows do, and judges a drag once, at the
   platform's touch slop. Once it is a swipe it consumes every event, so the list does
   not scroll and the row it started on does not count a tap.
-- **With Controls open it reads them after the panel instead**, so a slider or a
-  switch takes its own drags. It gives way only when a control has consumed the
-  drag's movement, not its press: anything tappable consumes the press, and the
-  viewer's edge and the Settings row must still start a closing swipe.
+- **Only towards Journeys**: rightward from rest, leftward with Journeys open. A
+  leftward drag from rest is not the shell's; Controls has no gesture
+  ([reading-shell.md](requirements/reading-shell.md#getting-between-them)).
 - **The viewer's edge is a tap only if the finger stays within the touch slop.** A
   drag along the edge does nothing.
 - A second finger ends a swipe, which settles back where it started; the two
@@ -168,15 +169,15 @@ platforms that have haptics.
 becomes pick-up / move / drop with the select button. That is a genuinely different
 interaction for the same feature, and the reason this table has a D-pad column at all.
 
-**Confirming which line was tapped has no shared mechanism.** Tapping a line scrolls
-it to the top ([display-controls.md](requirements/display-controls.md#tap-a-line)), and
-a scroll alone does not tell you which line you hit. Compose gives every `clickable` a
-ripple, which answers it; SwiftUI's plain tap gestures give nothing, so iOS flashes the
-toner behind the line and fades it out. Neither app suppresses the other's mechanism to
-match. The requirement is that the tap is acknowledged where the finger landed, not that
-it is acknowledged the same way. **A pinch is different and is marked the same on
-both**: it has no ripple, so the row a pinch is anchored to gets the toner wash on
-Android too, held through the pinch and faded after release.
+**Confirming which line was tapped is the same on both** (2026-11-09). Tapping a
+line scrolls it to the top
+([display-controls.md](requirements/display-controls.md#tap-a-line)), and a scroll
+alone does not tell you which line you hit. Both platforms flash the toner behind the
+line, hold it through the scroll and fade it out, with the same timings; Android's
+line rows have no ripple, so the two do not compete. Not Compose's ripple alone: it
+is gone in about 0.4 seconds, before the line has settled. **A pinch is marked the same
+way**: the row a pinch is anchored to gets the toner wash, held through the pinch and
+faded after release.
 
 **A continuation card is content, not a control, and that constrains its feedback.** The
 card offering the longer reading
@@ -187,11 +188,53 @@ subject", which is the wrong claim about a card whose job is to open. Opening it
 the lines in place and there is no collapse, because nothing was removed and so there is
 nothing to restore.
 
-**The fading header has no shared mechanism.** iOS 26's `scrollEdgeEffect` does it
-directly. Android's `TopAppBar` scroll behaviours change elevation and colour rather
-than masking, so the overlay is hand-built there. The requirement is that Gurmukhi
-passing under the header fades rather than being cut, because a hard edge through the
-sirlekh reads as a rendering fault.
+### The system bars
+
+What sits behind the viewer's bar and the system's bars (2026-11-09,
+[ADR-0016](architecture/decisions/0016-controls-and-the-viewers-bar.md)). The
+Journeys sidebar's header keeps its own: a fade on Android, iOS's `.hard` edge
+effect.
+
+**iPhone: the viewer's bar is at the foot, with nothing behind it.** Its glass
+buttons float over the text, as Mail's toolbar buttons do; text passes under them
+unfaded. Behind the status bar the scroll edge effect is `.soft`, a fading blur; it
+hides with the bars
+([reading-shell.md](requirements/reading-shell.md#the-bars-follow-the-scroll)).
+**iPad: the bar is at the top**, with the `.hard` edge effect behind it, a band that
+ends at the bar's edge so a tapped line never lands partly blurred.
+
+**Android: no fade under the reader's header**; the text runs under it as it is. **Behind the status bar, while it shows, a solid band in the viewer's
+background**, exactly the status bar's height, so text never runs through the clock
+and icons. Both hide as the reader scrolls onward, the band fading with them
+([reading-shell.md](requirements/reading-shell.md#the-bars-follow-the-scroll)).
+
+**Android: the system decides what sits behind its navigation bar**, by the
+navigation mode the person has chosen in the system's settings. There are two:
+
+- **Gesture navigation**: a thin handle at the foot of the screen; back is a swipe
+  in from either side edge, home a swipe up. The handle draws over the app with
+  nothing behind it, and needs nothing: it adapts its own colour to what is under
+  it.
+- **Three-button navigation**: back, home and recents as buttons in a bar along the
+  foot (or along a side, on a phone held sideways). Text scrolling under those
+  buttons would collide with them, so they need a background.
+
+The app asks the system for this rather than drawing it: the window keeps its
+navigation bar contrast enforced (`Window.isNavigationBarContrastEnforced`), and
+with it the system draws a translucent scrim behind three-button navigation and
+nothing behind the gesture handle. It follows the mode as the person changes it,
+and covers a tablet's taskbar too. **Only `SystemBarStyle.auto` leaves contrast
+enforced** in androidx.activity's `enableEdgeToEdge` (1.11.0); `light` and `dark`
+turn it off. The app passes `auto` its own Appearance, so the bar's icons still
+follow the Appearance setting (`MainActivity`).
+
+*Not taken:* drawing our own fade behind three-button navigation. The mode can be
+detected — `WindowInsets.tappableElement` reports an inset for the buttons, which
+can be tapped, and none for the gesture handle, which cannot — but the scrim is the
+platform's own answer and needs no code to keep correct across modes, orientations
+and the taskbar. The scrim is flat, not a gradient; if a gradient is wanted, that
+detection is how to do it. `Settings.Secure`'s `navigation_mode` is not public API
+and is not to be read.
 
 ## The web server is core, not an enhancement
 
@@ -298,7 +341,7 @@ files.** For Android, a Material Symbols name from
 `packages/design/icons.md` wants: give the semantic slot and the icon name (`route`,
 `format_size`), it goes in the file with `verified: true`, and the generator carries
 it to both platforms. Same for iOS with an SF Symbols name. Naming them per control,
-the way the Controls sidebar icons were named, is the right granularity.
+the way the Controls icons were named, is the right granularity.
 
 **iOS:** the SF Symbols app (installed here as `SF Symbols Beta.app`). The
 authoritative availability data is also readable directly:

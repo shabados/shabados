@@ -6,6 +6,13 @@ import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.test.SemanticsNodeInteraction
 import androidx.compose.ui.test.TouchInjectionScope
 import androidx.compose.ui.test.click
+import androidx.compose.ui.test.filter
+import androidx.compose.ui.test.hasAnyDescendant
+import androidx.compose.ui.test.hasContentDescription
+import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.onAllNodesWithContentDescription
+import androidx.compose.ui.test.onFirst
+import androidx.compose.ui.test.swipe
 import androidx.compose.ui.test.longClick
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
@@ -15,6 +22,7 @@ import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performTouchInput
 import androidx.compose.ui.unit.dp
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Before
@@ -136,12 +144,24 @@ class GestureMatrixTest {
     assertEquals(id, shell.openId)
   }
 
-  /** Opens a sidebar with its header button. */
+  /** Opens Journeys with its button. */
   private fun openSide(side: Side) {
-    rule.onNodeWithContentDescription(if (side == Side.JOURNEYS) "Journeys" else "Controls").performTouchInput { click() }
+    rule.onNodeWithContentDescription("Journeys").performTouchInput { click() }
     rule.waitForIdle()
     assertEquals(side, shell.openSide)
   }
+
+  /** Opens Controls' sheet with its button. The sheet is a window of its own, so
+   * its nodes are reached through the node, not [touch]'s single root. */
+  private fun openControls() {
+    rule.onNodeWithContentDescription("Controls").performTouchInput { click() }
+    rule.waitForIdle()
+    assertTrue("Controls shows", controlsShown())
+  }
+
+  private fun controlsShown() = rule.onAllNodesWithContentDescription("Zoom").fetchSemanticsNodes().isNotEmpty()
+
+  private fun zoomSlider() = rule.onNodeWithContentDescription("Zoom")
 
   private fun touch(block: TouchInjectionScope.() -> Unit) {
     rule.onRoot().performTouchInput(block)
@@ -165,7 +185,7 @@ class GestureMatrixTest {
 
   /** The middle of the viewer's edge left in view with [side] open: in portrait the
    * viewer slides by the width less the peek (`Sidebar.travel`), so the edge is the
-   * last [peek] on the right with Journeys open, the first on the left with Controls. */
+   * last [peek] on the right with Journeys open. */
   private fun edge(side: Side): Offset =
     Offset(if (side == Side.JOURNEYS) width - peek / 2 else peek / 2, height / 2)
 
@@ -194,7 +214,10 @@ class GestureMatrixTest {
     launch()
     openReader()
     tap(centre(someRow))
-    assertEquals(contentTop, top(someRow), 2f)
+    // The tap hides the header (`ReaderBars`), so the
+    // line lands just below the camera cutout, not below the header, with the
+    // gutter's gap. The test window has no cutout.
+    assertEquals(with(rule.density) { TapLandingGap.toPx() }, top(someRow), 2f)
     assertNull(shell.openSide)
   }
 
@@ -222,17 +245,21 @@ class GestureMatrixTest {
     assertNull(shell.openId)
   }
 
-  @Test fun `swipe a pill slowly leftward - opens Controls, never opens the bani`() {
+  // Controls has no gesture (reading-shell.md#getting-between-them): a leftward drag
+  // from rest moves nothing, and never also taps what it started on.
+  @Test fun `swipe a pill slowly leftward - nothing opens, never opens the bani`() {
     launch()
     drag(centre("ਜਪੁ ਜੀ ਸਾਹਿਬ"), Offset(px(-220f), 0f), steps = 60)
-    assertEquals(Side.CONTROLS, shell.openSide)
+    assertNull(shell.openSide)
+    assertFalse("Controls shows", controlsShown())
     assertNull(shell.openId)
   }
 
-  @Test fun `swipe Continue reading - opens Controls, never continues`() {
+  @Test fun `swipe Continue reading leftward - nothing opens, never continues`() {
     launch(lastRead = LastRead("JAAP", clock - 1000))
     drag(centre("Continue reading"), Offset(px(-200f), 0f))
-    assertEquals(Side.CONTROLS, shell.openSide)
+    assertNull(shell.openSide)
+    assertFalse("Controls shows", controlsShown())
     assertNull(shell.openId)
   }
 
@@ -264,18 +291,12 @@ class GestureMatrixTest {
 
   @Test fun `swipe the Zoom slider with Controls open - moves the slider, Controls stays`() {
     launch()
-    openSide(Side.CONTROLS)
+    openControls()
     val before = controls.size
-    drag(bounds(rule.onNodeWithContentDescription("Zoom")).center, Offset(px(120f), 0f))
-    assertEquals(Side.CONTROLS, shell.openSide)
+    zoomSlider().performTouchInput { swipe(center, center + Offset(px(120f), 0f), durationMillis = 200) }
+    rule.waitForIdle()
+    assertTrue("Controls shows", controlsShown())
     assertTrue("size ${controls.size} after $before", controls.size > before)
-  }
-
-  @Test fun `swipe a Controls title away from its slider - closes Controls`() {
-    launch()
-    openSide(Side.CONTROLS)
-    drag(centre("Zoom"), Offset(px(200f), 0f))
-    assertNull(shell.openSide)
   }
 
   // ----------------------------------------------------------- vertical scroll
@@ -305,13 +326,14 @@ class GestureMatrixTest {
     assertNull(shell.openId)
   }
 
-  @Test fun `scroll the Zoom slider - size unchanged, Controls stays`() {
+  /** A vertical drag is the sheet's, never the slider's. */
+  @Test fun `scroll the Zoom slider - size unchanged`() {
     launch()
-    openSide(Side.CONTROLS)
+    openControls()
     val before = controls.size
-    drag(bounds(rule.onNodeWithContentDescription("Zoom")).center, Offset(0f, px(150f)))
+    zoomSlider().performTouchInput { swipe(center, center + Offset(0f, px(150f)), durationMillis = 200) }
+    rule.waitForIdle()
     assertEquals(before, controls.size, 0f)
-    assertEquals(Side.CONTROLS, shell.openSide)
   }
 
   @Test fun `scroll the viewer's edge - nothing`() {
@@ -348,13 +370,6 @@ class GestureMatrixTest {
     launch()
     drag(centre("ਜਪੁ ਜੀ ਸਾਹਿਬ"), Offset(px(150f), px(150f)))
     assertNull(shell.openId)
-  }
-
-  @Test fun `a 45 degree drag on the Zoom slider - Controls stays`() {
-    launch()
-    openSide(Side.CONTROLS)
-    drag(bounds(rule.onNodeWithContentDescription("Zoom")).center, Offset(px(100f), px(100f)))
-    assertEquals(Side.CONTROLS, shell.openSide)
   }
 
   // --------------------------------------------------------------------- pinch
@@ -437,22 +452,6 @@ class GestureMatrixTest {
     tops.forEachIndexed { frame, y -> assertEquals("frame $frame", start, y, 2f) }
   }
 
-  /** The Settings row at Controls' foot is tappable, like the viewer's edge. */
-  @Test fun `swipe Controls' Settings row - closes Controls, never opens Settings`() {
-    launch()
-    openSide(Side.CONTROLS)
-    drag(centre("Settings"), Offset(px(200f), 0f))
-    assertNull(shell.openSide)
-    rule.onNodeWithContentDescription("Back").assertDoesNotExist()
-  }
-
-  @Test fun `swipe the Controls viewer's edge - closes Controls`() {
-    launch()
-    openSide(Side.CONTROLS)
-    drag(edge(Side.CONTROLS), Offset(px(200f), 0f))
-    assertNull(shell.openSide)
-  }
-
   @Test fun `a second pinch starts from the size the first left`() {
     launch()
     openReader()
@@ -512,8 +511,8 @@ class GestureMatrixTest {
     openReader()
     pinch(centre(someRow))
     val pinched = controls.size
-    openSide(Side.CONTROLS)
-    val range = rule.onNodeWithContentDescription("Zoom").fetchSemanticsNode()
+    openControls()
+    val range = zoomSlider().fetchSemanticsNode()
       .config[androidx.compose.ui.semantics.SemanticsProperties.ProgressBarRangeInfo]
     assertEquals(pinched, range.current, 0.01f)
   }
@@ -589,51 +588,22 @@ class GestureMatrixTest {
     assertEquals("JAAP", shell.openId)
   }
 
-  @Test fun `a tap on a line right after a swipe that closed Controls`() {
-    launch()
-    openReader()
-    openSide(Side.CONTROLS)
-    drag(edge(Side.CONTROLS), Offset(px(200f), 0f))
-    assertNull(shell.openSide)
-    tap(centre(someRow))
-    assertEquals(contentTop, top(someRow), 2f)
-  }
-
   // ------------------------------------- a tap where the hidden sidebar would be
 
-  @Test fun `Controls open, a tap on a Journeys row's place - never reaches Journeys`() {
-    launch()
-    openSide(Side.JOURNEYS)
-    val place = centre("ਜਾਪੁ ਸਾਹਿਬ")
-    tap(edge(Side.JOURNEYS))
-    openSide(Side.CONTROLS)
-    tap(place)
-    assertNull(shell.openId)
-    assertEquals(Side.CONTROLS, shell.openSide)
-  }
+  // ------------------------------------------------------------------ Controls
 
-  @Test fun `Journeys open, a tap on the slider's place - the viewer's edge, not the slider`() {
-    launch()
-    openSide(Side.CONTROLS)
-    val slider = bounds(rule.onNodeWithContentDescription("Zoom")).center
-    tap(edge(Side.CONTROLS))
-    openSide(Side.JOURNEYS)
-    val before = controls.size
-    tap(Offset(slider.x.coerceIn(width - peek + px(8f), width - px(8f)), slider.y))
-    assertEquals(before, controls.size, 0f)
-    assertNull(shell.openSide)
-  }
-
-  @Test fun `nothing open, a tap on the slider's place - the viewer only`() {
+  /** Controls is a modal sheet (reading-shell.md#controls): a tap on the reader
+   * above it lands on the sheet's own window, closes it, and goes no further. */
+  @Test fun `Controls open, a tap on the reader - closes Controls, never taps the line`() {
     launch()
     openReader()
-    openSide(Side.CONTROLS)
-    val slider = bounds(rule.onNodeWithContentDescription("Zoom")).center
-    tap(edge(Side.CONTROLS))
-    val before = controls.size
-    tap(slider)
-    assertEquals(before, controls.size, 0f)
-    assertNull(shell.openSide)
+    val before = top(someRow)
+    openControls()
+    rule.onAllNodes(isRoot()).filter(hasAnyDescendant(hasContentDescription("Zoom"))).onFirst()
+      .performTouchInput { click(Offset(centerX, px(120f))) }
+    rule.waitForIdle()
+    assertFalse("Controls shows", controlsShown())
+    assertEquals(before, top(someRow), 2f)
   }
 
   // ------------------------------------------------------------------ Settings

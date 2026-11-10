@@ -88,7 +88,19 @@ enum ReaderType {
 
 /// The viewer header's Controls button: a glass circle, as the Journeys button is
 /// (`ViewerBar`). One icon whether or not Controls is open
-/// (docs/requirements/reading-shell.md#the-controls-sidebar).
+/// (docs/requirements/reading-shell.md#controls).
+///
+/// **It presents Controls itself, as a
+/// popover pointing at this button, on every width and in both orientations**
+/// (`presentationCompactAdaptation(.popover)`): on iPhone too, where the system would
+/// otherwise make it a sheet. The reader stays live and undimmed around it, so a
+/// slider's change shows on the reader itself. A tap outside closes it. The commit
+/// before this one has the sheet on iPhone, for comparison.
+///
+/// **Its `Settings` row closes Controls, then opens Settings over the viewer.** A
+/// sheet over a popover would leave the popover half covered
+/// (reading-shell.md#settings: "On a tablet, Controls closes before Settings
+/// opens").
 ///
 /// **A long press opens Settings** (`onLongPress`; reading-shell.md#settings).
 /// VoiceOver offers it as the action `Settings`.
@@ -97,18 +109,22 @@ enum ReaderType {
 /// sizes it takes a long press too, and the two would answer the same touch. Settings
 /// is the more useful answer, and the icon is the one Controls' own header repeats.
 struct ControlsButton: View {
-  let action: () -> Void
-  let onLongPress: () -> Void
+  @Binding var isPresented: Bool
+  /// A long press, or the `Settings` row: Settings over the viewer.
+  let onSettings: () -> Void
 
   /// Set when a long press has opened Settings, so the touch that held it is not
   /// also a tap when it lifts: a `Button` fires on lifting however long it was
   /// held. Cleared as each press begins.
   @State private var longPressed = false
+  /// Settings asked for from the popover: opened once the popover has gone, since
+  /// one presentation cannot begin while another is still leaving.
+  @State private var settingsAfterClose = false
 
   var body: some View {
     Button {
       guard !longPressed else { return }
-      action()
+      isPresented.toggle()
     } label: {
       ScaledLucide(AppIcons.controls)
     }
@@ -117,13 +133,33 @@ struct ControlsButton: View {
         .onChanged { _ in longPressed = false }
         .onEnded { _ in
           longPressed = true
-          onLongPress()
+          onSettings()
         }
     )
     .sensoryFeedback(.impact(weight: .medium), trigger: longPressed) { _, pressed in pressed }
     .accessibilityLabel("Controls")
-    .accessibilityAction(named: "Settings", onLongPress)
+    .accessibilityAction(named: "Settings", onSettings)
     .barCircle(largeContentViewer: false)
+    // After `barCircle`, so the popover points at the circle.
+    .popover(isPresented: $isPresented) {
+      ControlsPanel(onSettings: settingsFromPanel)
+        .dynamicTypeSize(...InterfaceText.cap)
+        // The popover's size: wide enough for a slider's full stroke, tall enough for
+        // the three sliders. Where the screen is shorter (an
+        // iPhone on its side) the system shrinks it and the panel scrolls.
+        .frame(minWidth: 255, idealWidth: 255, idealHeight: 340)
+        .presentationCompactAdaptation(.popover)
+        .onDisappear {
+          guard settingsAfterClose else { return }
+          settingsAfterClose = false
+          onSettings()
+        }
+    }
+  }
+
+  private func settingsFromPanel() {
+    settingsAfterClose = true
+    isPresented = false
   }
 }
 
@@ -216,6 +252,17 @@ private struct ScrollSample: Equatable {
   var width: CGFloat
 }
 
+/// What `BaniReaderView.barsFollowScroll` remembers between scroll frames.
+///
+/// **A plain class, deliberately not observed**, like `LatestScroll`: it is written
+/// on every scroll, and must not re-render the reader each time.
+private final class BarsFollow {
+  /// Whether the scroll is the user's: a drag, or the fling after it.
+  var byUser = false
+  /// Where the current direction began, in points from the top.
+  var turn: CGFloat = 0
+}
+
 /// The latest `ScrollSample`, for `BaniReaderView.tapLine`.
 ///
 /// **A plain class, deliberately not observed**, like `RowFrames`: it is written
@@ -297,8 +344,14 @@ struct BaniReaderView: View {
   let startLine: String?
   /// The header's Journeys button; `ReaderShell` opens or closes the sidebar.
   let onJourneys: () -> Void
-  /// The header's Controls button; `ReaderShell` opens or closes that sidebar.
-  let onControls: () -> Void
+  /// Whether the header's Controls button is presenting Controls; `ReaderShell`
+  /// closes it when Journeys opens.
+  @Binding var controlsShown: Bool
+  /// Whether the bar and the status bar are hidden (`barsFollowScroll`). Owned by
+  /// `ReaderShell`, which hides the status bar and shows both again from Journeys.
+  /// **Never read in `body`**: only `ReaderBars`' own modifiers read `hidden`, so
+  /// a hide or show redraws them alone and never the reader.
+  let bars: ReaderBars
   /// A long press on the Controls button; `ReaderShell` opens Settings.
   let onSettings: () -> Void
 
@@ -359,6 +412,17 @@ struct BaniReaderView: View {
   /// `@State` only to keep one instance for the view's lifetime.
   @State private var latestScroll = LatestScroll()
 
+  /// `@State` only to keep one instance; see `BarsFollow`.
+  @State private var barsFollow = BarsFollow()
+
+  /// The bars never hide under VoiceOver, which reads them as it moves through the
+  /// screen.
+  @Environment(\.accessibilityVoiceOverEnabled) private var voiceOverEnabled
+
+  /// At the foot on iPhone, at the top on iPad (`VerticalEdge.viewerBar`).
+  @Environment(\.horizontalSizeClass) private var horizontalSizeClass
+  private var barEdge: VerticalEdge { .viewerBar(horizontalSizeClass) }
+
   /// Bound only so `tapLine` can scroll to an offset; see its doc comment.
   @State private var scrollPosition = ScrollPosition(idType: String.self)
 
@@ -379,11 +443,21 @@ struct BaniReaderView: View {
   /// At most one at a time; a second tap while one is still fading simply
   /// retargets it.
   @State private var highlightedLineID: String?
-  /// How long the highlight stays fully on before it starts fading: the length
-  /// of `tapLine`'s 0.5s scroll, so the fade begins as the line settles. Change
-  /// the two together.
-  private static let tapHighlightHoldDuration: Double = 0.5
-  private static let tapHighlightFadeOutDuration: Double = 0.25
+  /// **The tapped line's highlight, the same on Android** (`Highlight` in
+  /// BaniReaderView.kt; display-controls.md#tap-a-line): change both together.
+  /// How long it takes to come on; 0 is at once, so it is fully on before the
+  /// scroll starts moving.
+  private static let tapHighlightFadeInDuration: Double = 0
+  /// How long `tapLine`'s scroll takes (display-controls.md#tap-a-line; Android's
+  /// `TapScroll.DURATION_MS`). Chosen on devices, 2026-11-09.
+  private static let tapScrollDuration: Double = 0.6
+  /// How long it then stays fully on before it starts fading: the length of the
+  /// scroll, so the fade begins as the line settles.
+  private static let tapHighlightHoldDuration: Double = tapScrollDuration
+  /// Chosen on devices, 2026-11-09.
+  private static let tapHighlightFadeOutDuration: Double = 0.6
+  /// How strong it is, as a share of the toner's own opacity: 1 is the toner.
+  private static let tapHighlightStrength: Double = 1
 
   var body: some View {
     GeometryReader { viewport in
@@ -422,7 +496,9 @@ struct BaniReaderView: View {
                 // A row the lazy stack unloads stops reporting, and its last frame
                 // would otherwise stay behind to be matched by a later pinch.
                 .onDisappear { rowFrames.frames[item.id] = nil }
-                .readerCardBackground(highlightedLineID == item.id ? DesignTokens.toner : .clear)
+                .readerCardBackground(
+                  highlightedLineID == item.id ? DesignTokens.toner.opacity(Self.tapHighlightStrength) : .clear
+                )
                 // Makes the WHOLE row tappable, not just the glyphs.
                 // `LineText`'s own `.frame(maxWidth: .infinity)` stretches
                 // its *layout* box to the row's full width — on phone,
@@ -498,9 +574,24 @@ struct BaniReaderView: View {
         // sidebar's header. `.soft` is a gradient blur that runs on past the bar
         // by a fixed amount iOS does not let us set, about 24pt, so a tapped line
         // landed partly blurred. `.hard` is a band that ends at the bar's edge.
-        .scrollEdgeEffectStyle(.hard, for: .top)
+        //
+        // The bar is at the foot. At the top only the
+        // status bar is left, and `.soft` (a fading blur) is enough behind it; it
+        // goes with the bars (`ReaderBars`). At the foot there is nothing at all
+        // (chosen 2026-11-09): only the glass buttons over the text, as Mail's
+        // look, so the text passes under them unfaded. That departs from
+        // interaction.md's fade, which asks for the header.
+        // With the bar at the top (iPad) the band behind it is `.hard`, as above.
+        .scrollEdgeEffectStyle(barEdge == .top ? .hard : .soft, for: .top)
+        .modifier(ReaderBars.EdgeEffects(bars: bars))
         .onScrollPhaseChange { _, phase in
           if phase == .interacting { activity.touch() }
+          barsFollow.byUser = phase == .interacting || phase == .decelerating
+        }
+        .onScrollGeometryChange(for: CGFloat.self) {
+          $0.contentOffset.y + $0.contentInsets.top
+        } action: { _, offset in
+          barsFollowScroll(to: offset)
         }
         .coordinateSpace(name: Self.space)
         // `continue reading` opens at the line that was at the top, as a rotation
@@ -528,10 +619,13 @@ struct BaniReaderView: View {
       .onChange(of: viewport.size.height) { _, height in viewportHeight = height }
     }
     .background(DesignTokens.background)
-    // No bar background: the text scrolls up under the buttons, with nothing
+    // No bar background: the text scrolls under the buttons, with nothing
     // blurred or tinted behind them.
-    .safeAreaBar(edge: .top) {
-      ViewerBar(title: bani.latin, onJourneys: onJourneys) { ControlsButton(action: onControls, onLongPress: onSettings) }
+    .safeAreaBar(edge: barEdge) {
+      ViewerBar(title: bani.latin, edge: barEdge, onJourneys: onJourneys) {
+        ControlsButton(isPresented: $controlsShown, onSettings: onSettings)
+      }
+      .modifier(ReaderBars.Follows(bars: bars, edge: barEdge))
     }
   }
 
@@ -630,17 +724,21 @@ struct BaniReaderView: View {
   /// below the bar while `contentOffset` does not; without the inset the line
   /// landed 113pt short in portrait.
   ///
-  /// `.smooth`, a spring without bounce, at its default 0.5s (chosen on an iPhone,
-  /// 2026-10-15, over a 0.4s spring).
+  /// `.smooth`, a spring without bounce, for `tapScrollDuration`.
   /// How far below the bar a tapped line's highlight lands: the same space it
   /// keeps from the screen's sides (chosen 2026-10-19).
   static let tapLandingGap: CGFloat = ReaderCard.gutter - ReaderCard.bleed
 
   private func tapLine(_ item: ReaderItem, proxy: ScrollViewProxy, scroll: Bool = true) {
     activity.touch()
-    // Instant, not animated — the highlight should already be visibly on
-    // before the scroll below starts moving, not fading in alongside it.
-    highlightedLineID = item.id
+    // At once while `tapHighlightFadeInDuration` is 0: the highlight should
+    // already be visibly on before the scroll below starts moving, not fading in
+    // alongside it.
+    if Self.tapHighlightFadeInDuration > 0 {
+      withAnimation(.easeIn(duration: Self.tapHighlightFadeInDuration)) { highlightedLineID = item.id }
+    } else {
+      highlightedLineID = item.id
+    }
 
     // Deferred one run-loop tick, not called inline — issuing this
     // `withAnimation` in the same synchronous call as the state change above
@@ -648,6 +746,8 @@ struct BaniReaderView: View {
     // highlight never gets a frame fully on-screen before the scroll's own
     // layout-heavy work begins.
     if scroll {
+      // A tap reads onward, as a scroll down does (`barsFollowScroll`).
+      setBarsHidden(true)
       DispatchQueue.main.async {
         guard let frame = rowFrames.frames[item.id] else {
           // Not expected: the row was just tapped, so it has reported a frame.
@@ -660,19 +760,73 @@ struct BaniReaderView: View {
         // row's own top: the highlight reaches `bleed` above the row, and landed
         // the row itself under the header's buttons (2026-10-19). Less
         // `tapLandingGap` too, so it lands that far below the bar.
-        withAnimation(.smooth(duration: 0.5)) {
+        // With the bar at the top (iPad), the tap hides it, so the line lands
+        // where it was, below the status bar, not below the bar: the bar keeps its
+        // place in the layout (`ReaderBars`), so the inset still counts it.
+        let hiddenBar = barEdge == .top && !voiceOverEnabled && !controlsShown ? BarMetrics.height : 0
+        withAnimation(.smooth(duration: Self.tapScrollDuration)) {
           scrollPosition.scrollTo(
-            y: sample.offsetY + sample.insetTop + frame.minY - ReaderCard.bleed - Self.tapLandingGap
+            y: sample.offsetY + sample.insetTop + frame.minY - ReaderCard.bleed - Self.tapLandingGap + hiddenBar
           )
         }
       }
     }
 
-    DispatchQueue.main.asyncAfter(deadline: .now() + Self.tapHighlightHoldDuration) {
+    DispatchQueue.main.asyncAfter(
+      deadline: .now() + Self.tapHighlightFadeInDuration + Self.tapHighlightHoldDuration
+    ) {
+      // Unless another tap or a pinch has taken the highlight since.
+      guard highlightedLineID == item.id else { return }
       withAnimation(.easeOut(duration: Self.tapHighlightFadeOutDuration)) {
         highlightedLineID = nil
       }
     }
+  }
+
+  /// How far a scroll down must go before the bars hide, and back up before they
+  /// show: any movement past a resting finger's sub-point drift (chosen on an
+  /// iPhone, 2026-11-09). The lock in `ReaderBars` keeps it from flickering.
+  private static let barsHideDistance: CGFloat = 1
+  private static let barsShowDistance: CGFloat = 1
+
+  /// **The bars follow the scroll, as a browser's do.**
+  /// Scrolled down by a finger (a drag or its fling), past `barsHideDistance`,
+  /// the bar and the status bar hide; scrolled back up past `barsShowDistance`,
+  /// they return. At the
+  /// very top they always show. Only the user's own scrolling counts: a tap's
+  /// scroll hides them itself (`tapLine`), and a pinch or a rotation, which move
+  /// the offset too, change nothing. Not while Controls is open, whose popover
+  /// points at the bar, nor under VoiceOver.
+  private func barsFollowScroll(to offset: CGFloat) {
+    let follow = barsFollow
+    if offset <= 0 {
+      follow.turn = offset
+      setBarsHidden(false)
+      return
+    }
+    guard follow.byUser else {
+      follow.turn = offset
+      return
+    }
+    // `turn` is the furthest point reached in the current direction: the
+    // deepest point while hidden, the shallowest while showing.
+    if bars.hidden {
+      follow.turn = max(follow.turn, offset)
+      if follow.turn - offset > Self.barsShowDistance {
+        follow.turn = offset
+        setBarsHidden(false)
+      }
+    } else {
+      follow.turn = min(follow.turn, offset)
+      if offset - follow.turn > Self.barsHideDistance {
+        follow.turn = offset
+        setBarsHidden(true)
+      }
+    }
+  }
+
+  private func setBarsHidden(_ hidden: Bool) {
+    bars.set(hidden: hidden && !voiceOverEnabled && !controlsShown)
   }
 
   /// How strongly the size follows the fingers. The size changes by the pinch's

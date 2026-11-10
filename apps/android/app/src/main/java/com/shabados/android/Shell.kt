@@ -23,8 +23,9 @@ interface LastReadStore {
   fun set(value: LastRead)
 }
 
-/** Which sidebar: Journeys on the viewer's left, Controls on its right. */
-enum class Side { JOURNEYS, CONTROLS }
+/** The sidebar beneath the viewer, on its left. Journeys is the only one: Controls
+ * is a sheet over the viewer (docs/requirements/reading-shell.md#controls). */
+enum class Side { JOURNEYS }
 
 /**
  * What the viewer shows, the journey's idle boundary
@@ -57,8 +58,7 @@ class ShellState(
 
   val previousId: String? get() = previous?.id
 
-  /** The sidebar showing, if any: at most one at a time
-   * (docs/requirements/reading-shell.md#the-controls-sidebar). */
+  /** The sidebar showing, if any. */
   var openSide by mutableStateOf<Side?>(null)
     private set
 
@@ -237,8 +237,8 @@ object Sidebar {
    * In landscape the viewer then leaves more than the peek in view. Any units, as
    * long as all four agree.
    *
-   * [edgeInset] is a camera cutout or navigation bar on that side in landscape: the
-   * left for Journeys, the right for Controls. The panel is padded clear of it
+   * [edgeInset] is a camera cutout or navigation bar on the sidebar's side, the
+   * left, in landscape. The panel is padded clear of it
    * inside this width, so without adding it back the panel was that much narrower
    * in landscape (2026-10-19; iOS's `ReaderShell.travel` is the same rule). In
    * portrait it is 0.
@@ -247,18 +247,11 @@ object Sidebar {
     (minOf(width, height) - peek + edgeInset).coerceAtLeast(0f)
 
   /** Where the viewer rests with [side] open: 1 aside for Journeys (moved right),
-   * -1 aside for Controls (moved left), 0 over both. */
+   * 0 over it. */
   fun base(side: Side?): Float = when (side) {
     Side.JOURNEYS -> 1f
-    Side.CONTROLS -> -1f
     null -> 0f
   }
-
-  /** Whether Controls is laid out at [progress] (signed, as [base]): **not while the
-   * viewer is moved towards Journeys.** Controls sits above Journeys, and faded out
-   * it still took touches: taps on Journeys' rows moved its hidden sliders, changing
-   * the zoom, ratio and weight (2026-10-22). Journeys, beneath, needs no such rule. */
-  fun controlsLaidOut(progress: Float): Boolean = progress <= 0f
 
   /** How visible a sidebar is with the viewer moved [amount] of the way towards
    * showing it, whichever side; [scale] likewise. */
@@ -274,17 +267,17 @@ object Sidebar {
    * What a one-finger drag that has moved ([dx], [dy]) is: null until it has moved
    * [decision] pixels, then decided once for its whole length. **Horizontal only if
    * it is more sideways than up or down (45°, docs/interaction.md, decided
-   * 2026-11-04, as on iOS) and towards a change**: either way with both sidebars
-   * closed (right opens Journeys, left opens Controls), and only the closing way
-   * with one open. Anything else is a scroll, or a drag the other way, and is left
-   * alone (docs/interaction.md, "Where the sidebar drag may start").
+   * 2026-11-04, as on iOS) and towards a change**: rightward, opening Journeys, with
+   * it closed; leftward, closing it, with it open. **A leftward drag from rest is
+   * not a change**: Controls has no gesture (reading-shell.md#getting-between-them).
+   * Anything else is a scroll, or a drag the other way, and is left alone
+   * (docs/interaction.md, "Where the sidebar drag may start").
    */
   fun judge(dx: Float, dy: Float, decision: Float, open: Side?): Axis? {
     if (maxOf(abs(dx), abs(dy)) < decision) return null
     val towardsChange = when (open) {
       Side.JOURNEYS -> dx < 0
-      Side.CONTROLS -> dx > 0
-      null -> true
+      null -> dx > 0
     }
     return if (abs(dx) > abs(dy) && towardsChange) Axis.HORIZONTAL else Axis.OTHER
   }
@@ -300,44 +293,40 @@ object Sidebar {
 
 
   /**
-   * Where a drag of [dx] has moved the viewer to, from [open]: signed as [base],
-   * over [journeys]' travel towards Journeys and [controls]' towards Controls. A
-   * drag from rest goes whichever way it moves; from open it can only close.
+   * Where a drag of [dx] has moved the viewer to, from [open]: as [base], over
+   * [journeys]' travel, within the ends.
    */
-  fun progress(open: Side?, dx: Float, journeys: Float, controls: Float): Float {
+  fun progress(open: Side?, dx: Float, journeys: Float): Float {
     val base = base(open)
-    val towardsJourneys = base > 0f || (base == 0f && dx > 0f)
-    val travel = if (towardsJourneys) journeys else controls
-    if (travel <= 0f) return base
-    val moved = base + dx / travel
-    return if (towardsJourneys) moved.coerceIn(0f, 1f) else moved.coerceIn(-1f, 0f)
+    if (journeys <= 0f) return base
+    return (base + dx / journeys).coerceIn(0f, 1f)
   }
 
-  /** Which sidebar a drag released at [dx], moving at [velocityX] pixels a second,
-   * leaves open: where a flick would carry it, past halfway; null for neither. */
-  fun settle(open: Side?, dx: Float, velocityX: Float, journeys: Float, controls: Float): Side? {
-    val landing = progress(open, dx + velocityX * FLING_LOOKAHEAD_S, journeys, controls)
-    return when {
-      landing > 0.5f -> Side.JOURNEYS
-      landing < -0.5f -> Side.CONTROLS
-      else -> null
-    }
-  }
+  /** Whether a drag released at [dx], moving at [velocityX] pixels a second, leaves
+   * Journeys open: where a flick would carry it, past halfway. */
+  fun settle(open: Side?, dx: Float, velocityX: Float, journeys: Float): Side? =
+    if (progress(open, dx + velocityX * FLING_LOOKAHEAD_S, journeys) > 0.5f) Side.JOURNEYS else null
 }
 
 /** Tapping a line scrolls it to the top
  * (docs/requirements/display-controls.md#tap-a-line). */
 object TapScroll {
-  /** On both platforms, easing in and out with no overshoot (2026-10-16). */
-  const val DURATION_MS = 500
+  /** On both platforms, easing in and out with no overshoot (chosen on devices,
+   * 2026-11-09). iOS's `tapScrollDuration`. */
+  const val DURATION_MS = 600
 
   /**
    * How far to scroll for a tap on the row at [index], whose top is [rowTop] pixels
    * below where the list's content starts; null for no scroll. **The bani's first
    * row never scrolls**: there is nothing above it, and scrolling it would only hide
    * the space before it (iOS's `tapLine`, verified there on screen recordings).
+   *
+   * **[raise] lands it that many pixels higher** than where the content starts.
+   * A tap hides the header and the status bar
+   * (`ReaderBars`), so the line lands just below the camera cutout instead of below
+   * the header.
    */
-  fun distance(index: Int, rowTop: Float): Float? = if (index == 0) null else rowTop
+  fun distance(index: Int, rowTop: Float, raise: Float = 0f): Float? = if (index == 0) null else rowTop + raise
 }
 
 /**

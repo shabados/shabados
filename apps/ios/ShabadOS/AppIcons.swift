@@ -36,11 +36,11 @@ enum AppIcons {
   /// SF Symbols, iOS 17.0+.
   static let journeys = "point.bottomleft.forward.to.point.topright.scurvepath"
 
-  /// Open the Controls sidebar.
+  /// Open Controls.
   /// Lucide `settings-2` — an imageset in Assets.xcassets, not an SF Symbol.
   static let controls = LucideIcon(assetName: "settings-2")
 
-  /// Controls sidebar is open. PROPOSED; under review alongside journeys, which uses one icon for both states.
+  /// Controls is open. PROPOSED; under review alongside journeys, which uses one icon for both states.
   /// Lucide `settings-2` — an imageset in Assets.xcassets, not an SF Symbol.
   static let controlsActive = LucideIcon(assetName: "settings-2")
 
@@ -164,7 +164,7 @@ enum AppIcons {
   /// SF Symbols, iOS 13.0+.
   static let streak = "flame"
 
-  /// Open Settings, from the Controls sidebar's footer row.
+  /// Open Settings, from Controls' footer row.
   /// SF Symbols, iOS 14.0+.
   static let settings = "gearshape"
 

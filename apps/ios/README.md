@@ -191,8 +191,8 @@ on first launch, from the device and its Text Size setting
 and the zoom range is per device (16–88 iPhone, 16–132 iPad; both in
 `packages/design/tokens.md`). Font size persists across launches (`@AppStorage`);
 pause and pronunciation
-toggles live in a menu stand-in for the Controls sidebar
-([reading-shell.md](../../docs/requirements/reading-shell.md#the-controls-sidebar)),
+toggles live in a menu stand-in for the Controls
+([reading-shell.md](../../docs/requirements/reading-shell.md#controls)),
 which does not exist yet and should be deleted once that surface lands.
 
 **Not yet built:** tabs and journeys, the Library, bookmarks, tracking, goals, the
