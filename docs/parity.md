@@ -20,7 +20,7 @@ Legend: ✅ built · — not started · 🚧 partial (say what's missing in the 
 | [Heading / colophon / mool mantar typography](requirements/display-controls.md#titles) | ✅ | ✅ | — |
 | [Keep-reading continuation](requirements/library.md#continuation-not-configuration) | ✅ | ✅ | — |
 | [Tap a line: scroll + highlight](requirements/display-controls.md#tap-a-line) | ✅ | ✅ | — |
-| [Journeys / Controls sidebars, Library](requirements/reading-shell.md) | — | — | — |
+| [Journeys sidebar, Controls, Library](requirements/reading-shell.md) | — | — | — |
 
 **Web** means the shell [ADR-0014](architecture/decisions/0014-one-app-three-shells.md)
 describes — Windows Store, Flatpak, browser — which hasn't started

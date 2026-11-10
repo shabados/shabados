@@ -3,7 +3,7 @@
 Draft, 2026-09-02. Specified by the author; open questions at the end are blocking.
 Covers **how the text is rendered** — sizing, mode, and which fields are shown.
 The surface that presents these is
-[reading-shell.md](reading-shell.md#the-controls-sidebar).
+[reading-shell.md](reading-shell.md#controls).
 
 Applies to every platform, not only mobile. `Width` is documented here and shown
 only on wide surfaces; everything else appears everywhere.
@@ -847,18 +847,16 @@ has lost their place, or is following along with a sangat reading aloud, this is
 the fastest way back in sync — faster than the scrollbar, and with no separate
 "find my place" control to build.
 
-**Both platforms answer this with the same highlight** (2026-11-09; EXPERIMENT,
-`shell-sheet`, until rebuilt on main): the
+**Both platforms answer this with the same highlight** (2026-11-09): the
 [toner](../../packages/design/tokens.md) surface a card elsewhere in the reader
 uses, behind the tapped line. **On at once, held 0.6 seconds, faded over 0.6
-seconds** (2026-11-09; 0.75 and 0.5, and before that 0.5 and 0.25, were tried), at the toner's full strength. The four values — fade-in, hold, fade-out,
+seconds** (chosen on devices), at the toner's full strength. The four values — fade-in, hold, fade-out,
 strength — are named constants on each platform (iOS `tapHighlight…`, Android
 `Highlight`), kept equal. Android's line rows have no ripple, so the two do not
-compete. Android used the platform ripple alone before; it was gone in about 0.4
-seconds, before the line had settled.
+compete. Not the platform ripple alone, on Android: it is gone in about 0.4 seconds,
+before the line has settled.
 
-**The scroll takes 0.6 seconds on both platforms** (2026-11-09; 0.5 seconds from
-2026-10-16, then 0.75 tried), easing in and out with no overshoot (iOS: `.smooth`).
+**The scroll takes 0.6 seconds on both platforms** (2026-11-09), easing in and out with no overshoot (iOS: `.smooth`).
 The highlight holds for the same 0.6 seconds before fading, so it starts to fade as the line
 settles; each platform defines the hold as the scroll's duration.
 
@@ -900,10 +898,9 @@ have the same effect, on any platform, gets the same answer.
 `appearance`: `auto` (shown as `System`), `light` or `dark`. It applies to the whole
 app, not only the reader.
 
-Placed at the **right of the Controls sidebar header**, beside the title — an icon,
-not a row in the list, because it is the one setting people change for reasons that
-have nothing to do with what they are reading. Also in Settings, as a picker of three
-pictures ([reading-shell.md](reading-shell.md#settings)).
+**In Settings**, as a picker of three pictures
+([reading-shell.md](reading-shell.md#settings)). Controls carries no header to hold
+it (2026-11-09, [reading-shell.md](reading-shell.md#controls)).
 
 ## What a test must pin down
 

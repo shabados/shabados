@@ -22,24 +22,26 @@ and the TV builds render the same features through different input models
 ```
 ┌───────────┐      ┌───────────┐      ┌───────────┐      ┌───────────┐
 │ Journeys  │      │  Viewer   │      │ Controls  │      │ Settings  │
-│           │ ◀─── │           │ ───▶ │           │ ───▶ │           │
-│ sidebar   │      │ (always   │      │ sidebar   │ ◀─── │  (deeper) │
-│           │ ───▶ │  present) │ ◀─── │           │ back │           │
+│           │ ◀─── │           │ ───▶ │ (popover/ │ ───▶ │           │
+│ sidebar   │      │ (always   │      │  sheet)   │      │  (deeper) │
+│           │ ───▶ │  present) │ ◀─── │           │      │           │
 └───────────┘      └───────────┘      └───────────┘      └───────────┘
 ```
 
 **Settings sits one level beyond Controls**, not beside it. It is reached from
-Controls and returns to Controls, which is what keeps a rarely-visited surface
-from competing with the two that are used constantly. **One accelerator skips the
+Controls, which is what keeps a rarely-visited surface from competing with the two
+that are used constantly; Controls closes as it opens, and closing Settings returns
+to the viewer ([Settings](#settings)). **One accelerator skips the
 step** (2026-10-22): a long press on the viewer's Controls button opens Settings
 straight from the viewer, and closing it returns to the viewer
 ([Settings](#settings)).
 
 **The viewer is the app.** It shows whatever is being read — a bani, a shabad, a
-page — and it is what the app opens to. The two sidebars are transient surfaces
-over it, never destinations in their own right.
+page — and it is what the app opens to. Journeys and Controls are transient
+surfaces over it, never destinations in their own right.
 
-**On mobile the viewer slides aside to show the sidebar beneath it** (2026-10-15).
+**On mobile the viewer slides aside to show the Journeys sidebar beneath it**
+(2026-10-15).
 The viewer lies over the sidebar; opening one moves the viewer towards the far side,
 leaving its inner edge in view, faded towards the background. Tapping that edge
 returns to the viewer. **The sidebar is as wide in landscape as in portrait**
@@ -50,7 +52,11 @@ inset is added to the sidebar, not taken from it (2026-10-19). On wider surfaces
 sidebar: a toggleable panel alongside the viewer rather than over it. The same
 states and the same controls; only the presentation of "open" differs.
 
-**Exactly one sidebar is open at a time.** Opening one closes the other.
+**Controls is not a sidebar** ([ADR-0016](../architecture/decisions/0016-controls-and-the-viewers-bar.md)):
+it is the platform's own container for options opened from a button — a popover on
+iOS and iPadOS, a modal bottom sheet on Android ([Controls](#controls)).
+
+**Journeys and Controls are never open together.** Opening Journeys closes Controls.
 
 ## Input
 
@@ -89,11 +95,14 @@ to work to do it.
 
 **At least one way in, and every way in must agree with the way out.**
 
-- **The header button.** Top-left of the viewer reaches Journeys; top-right reaches
-  Controls. Present on every platform.
-- **A direct gesture from the viewer**, where the platform has one. Journeys is
-  reached by moving the viewer towards the side Journeys is on, Controls likewise —
-  so the gesture and the layout state the same thing.
+- **The bar's buttons.** Journeys at the left of the viewer's bar, Controls at the
+  right ([where the bar sits](#the-bars-follow-the-scroll)). Present on every
+  platform.
+- **A direct gesture from the viewer**, where the platform has one, for Journeys
+  only: it is reached by moving the viewer towards the side Journeys is on, so the
+  gesture and the layout state the same thing. **Controls has no gesture**: a
+  popover or a sheet is opened from its button, and a leftward drag from rest moves
+  nothing.
 
 **Which gestures exist is a platform judgement, not a requirement.** Web has no
 horizontal swipe and does not gain one; the header button alone satisfies this.
@@ -105,8 +114,8 @@ viewer's edge stays in view, and the button with it; tapping it, or anywhere on 
 edge, returns to the viewer. **A drag along the edge is not a tap** (2026-11-04),
 and does nothing. The sidebar's header carries no second toggle. **The
 icon does not change between states**, because a changed icon reads as a different
-button, and the person is trying to get back to where they were. Whether Controls
-follows: it does ([the Controls sidebar](#the-controls-sidebar), 2026-10-19).
+button, and the person is trying to get back to where they were. Controls has one
+button too, the same in both states ([Controls](#controls)).
 
 **Every path back to the viewer closes the sidebar.** Tapping a journey, tapping
 `Inactive sessions`, tapping `Library`, and tapping the viewer's edge or its
@@ -114,9 +123,9 @@ Journeys button all return to the viewer in one action. There is no state where 
 tapped something and is still looking at the sidebar wondering whether it worked.
 
 **A swipe that moves the viewer is only a swipe** (2026-10-22): it never also
-activates the pill, row or button it started on. **And only the sidebar being shown
-takes touches**: the other, hidden beneath it, is out of reach, so a tap on a
-Journeys row can never reach a Controls slider.
+activates the pill, row or button it started on. **With Controls open, the reader
+takes no touches**: a tap outside Controls closes it and goes no further, so it
+never also taps a line.
 
 **Where a gesture exists it competes with text selection and with pinch-to-zoom**
 ([display-controls.md](display-controls.md#zoom)), and the conflict must be resolved
@@ -126,7 +135,8 @@ platform-specific collisions — system back-swipe, gesture navigation — are i
 
 ## The viewer
 
-A header and a reading area.
+A bar and a reading area. The bar's place differs by platform
+([below](#the-bars-follow-the-scroll)); its order does not.
 
 | Position | Contents |
 | --- | --- |
@@ -157,47 +167,46 @@ are shown.
 
 ### The bars follow the scroll
 
-**EXPERIMENT (`shell-sheet`, local only, 2026-11-09).** Recorded so the version
-picked can be rebuilt on main; on main the header is at the top and always shown.
+Decided 2026-11-09 ([ADR-0016](../architecture/decisions/0016-controls-and-the-viewers-bar.md)).
 
-- **Where the header is differs by platform** (2026-11-09):
+- **Where the bar is differs by platform**:
   - **iPhone: a bar at the foot of the viewer**, as Safari's: Journeys at the left,
     the title in the middle, Controls at the right, within thumb's reach. Nothing
     is drawn behind it ([interaction.md](../interaction.md#the-system-bars)).
-  - **iPad: at the top**, as iPadOS's own bars are, with the band behind it as on
-    main. Decided by width, not by device: a regular width puts it at the top, a
+  - **iPad: at the top**, as iPadOS's own bars are, with the edge effect's band
+    behind it. Decided by width, not by device: a regular width puts it at the top, a
     compact one (an iPad window narrowed to an iPhone's width) at the foot. Hidden,
     it slides up; a tapped line lands below the status bar, where the bar was.
   - **Android: at the top**, where a top app bar is the convention, and where the
     foot may already hold three-button navigation; the two together at the foot
-    would crowd it. Hidden, it slides up past the status bar. **No fade under it**
-    (2026-11-09): the text runs under it as it is. Behind the status bar, while it
-    shows, a solid band in the viewer's background.
-- **Everything below holds on both.**
+    would crowd it. Hidden, it slides up past the status bar. **No fade under it**:
+    the text runs under it as it is. Behind the status bar, while it shows, a solid
+    band in the viewer's background.
+- **Everything below holds on every platform.**
 - **Reading onward hides it, and the status bar**, as a browser hides its bars:
   scrolling down, or tapping a line (whose scroll carries the reader down). **A
-  tapped line lands just below the camera cutout** (2026-11-09), where the hidden
-  header was, rather than below the header; its highlight's top a gutter's gap
+  tapped line lands just below the camera cutout**, where the hidden bar was,
+  rather than below the bar; its highlight's top a gutter's gap
   (8) below the cutout, or below the screen's top where there is none, as on iOS,
   whose safe area plays the cutout's part; under a screen reader, where
   the header stays, below it. Scrolling
   back up shows them; so does reaching the top, and coming back from Journeys.
-- **Any movement counts**: 1pt down hides, 1pt up shows (chosen on an iPhone;
-  24pt down and 6pt up were also tried). Only the person's own scrolling counts — a
+- **Any movement counts**: 1pt down hides, 1pt up shows (chosen on an iPhone).
+  Only the person's own scrolling counts — a
   drag and the fling after it — never a pinch or a rotation, which move the text
   too.
 - **A hide or show plays to the end** (0.35s), and nothing starts until it has.
-  Instant, it flickered at some scroll speeds; animated but interruptible, a turn
-  mid-animation started another.
+  Instant, it flickers at some scroll speeds; animated but interruptible, a turn
+  mid-animation starts another.
 - **It never touches the scroll.** The bar keeps its place and is only slid and
-  faded; removing it changed the reading area's size, which laid the text out again
-  mid-scroll and stuttered. Nor does the status bar: the reader is laid out as if it
+  faded; removing it would change the reading area's size, which lays the text out
+  again mid-scroll and stutters. Nor does the status bar: the reader is laid out as if it
   were showing (on Android, `statusBarsIgnoringVisibility`), so hiding it moves
-  nothing. The fade under the header goes with it.
-- **Never while Controls is open** (its popover points at the bar), **nor under a
+  nothing. Whatever is drawn behind the bars goes with them.
+- **Never while Controls is open** (the popover points at the bar), **nor under a
   screen reader**, which reads the bar as it moves through the screen.
 - The status bar hides only over content being read: the default screen and the
-  sidebars keep it. On Android, while it is hidden a swipe down from the top shows
+  Journeys sidebar keep it. On Android, while it is hidden a swipe down from the top shows
   it for a moment, the system's own way back to it.
 
 ### The screen stays awake while content is read
@@ -431,47 +440,61 @@ there is a use case for one**, which there is not yet.
 
 **The word is `Inactive`.** Not `Archived`, not two words for one concept.
 
-## The Controls sidebar
+## Controls
 
-**Journeys, mirrored** (decided 2026-10-19). The viewer slides towards the left to
-show Controls beneath it on the right, leaving its right edge in view; tapping that
-edge, or the viewer's Controls button on it, returns to the viewer. The same
-amounts as Journeys: the edge left in view, the sidebar's fade and zoom, the light
-haptic on opening. Opening one sidebar closes the other.
+**The platform's own container for options opened from a button**
+([ADR-0016](../architecture/decisions/0016-controls-and-the-viewers-bar.md)): **a
+popover on iOS and iPadOS**, pointing at the Controls button, on iPhone too and in
+either orientation; **a modal bottom sheet on Android**, with Material's default dim,
+always at its contents' full height. Either way the reader stays in view behind it,
+so a slider's change shows on the reader itself, and **a tap outside closes it and
+goes no further**; on Android so do Back and a drag down.
 
-**One difference: with Controls open, a drag that starts on a slider or a switch is
-that control's, not the sidebar's** (2026-10-19). A sideways drag from anywhere else
-in Controls, or from the viewer's edge, closes it, as in Journeys. A closing drag
-that could start anywhere took every slide; one limited to the viewer's edge left
-too little to drag from.
+**One Controls button, on the viewer's bar**, as for Journeys: the icon does not
+change when open. **A long press on it opens Settings** ([Settings](#settings)).
 
-**A setting's whole row is its target**, here and in Settings: tapping `Pauses`
-toggles it, not only tapping its switch.
+**No header** (2026-11-09): it opens from the Controls button, which names it. The
+appearance control lives in [Settings](#settings).
 
-**One Controls button, on the viewer**, as for Journeys: the icon does not change
-when open, and the sidebar's header carries no toggle of its own. The header is the
-title `Controls` at the left and the appearance control at the right
-([display-controls.md](display-controls.md#appearance)).
+**Contents** (2026-10-19): **Zoom, Ratio and Weight**, sliders, **without their
+bylines** (2026-11-09): the titles say enough beside the reader they change, and
+Settings' Appearance page keeps them. The preview and the toggles live in
+[Settings](#settings); the sliders are in both for now.
 
-**Contents** (2026-10-19): **Zoom, Ratio and Weight**, sliders, each with its
-byline (hidden at the largest text sizes: [large text](#large-text)). The preview
-and the toggles live in [Settings](#settings); the sliders are in both for now.
+**A `Settings` row sits at its foot**, in view whatever the sliders' scroll, so
+Controls ends with the door to the deeper surface, as the Journeys sidebar ends with
+`Library`.
+
+**Its size on iOS** is 255 × 340 points (2026-11-09), enough for the three sliders
+without scrolling; the system shrinks it where the screen is shorter (an iPhone on
+its side) and the sliders then scroll.
 
 Every setting's range, default and persistence is
 [display-controls.md](display-controls.md).
 
-**A sticky `Settings` row sits at its footer**, in the position the Journeys sidebar
-gives to `Library`, so both sidebars end with the door to the deeper surface on
-their side.
+**A setting's whole row is its target**, here and in Settings: tapping `Pauses`
+toggles it, not only tapping its switch.
+
+**Not taken** (2026-11-09):
+
+- **A sidebar mirroring Journeys**, as before: it hid the reader its sliders change.
+- **Android's standard (non-modal) sheet**: it left the reader live beneath it, so a
+  tap there never closed it. The modal sheet's dim is Android's usual sign of a
+  sheet opened from a button.
+- **A menu**: iOS menus cannot hold sliders.
+- **A sheet on iPhone, and a custom overlay**: the popover is the platform's own,
+  and an overlay would own its dismissal, accessibility and sizing.
 
 ## Settings
 
-**It slides up over everything, full screen**, from the Controls sidebar's `Settings`
-row (decided 2026-10-19; it had been a page one level to the right of Controls), and
-closes back to where it was opened, so it is never a place you can get stranded in.
+**It slides up over everything, full screen**, from Controls' `Settings` row
+(decided 2026-10-19). **Controls closes first, then Settings opens** (2026-11-09), on
+every platform: a popover or a modal sheet would otherwise sit beneath Settings or
+over it half-covered. Closing Settings returns to the viewer, so it is never a place
+you can get stranded in.
 
-**A long press on the viewer's Controls button opens it too** (2026-10-22), with no
-sidebar open beneath, so it closes back to the viewer. An accelerator over the
+**A long press on the viewer's Controls button opens it too** (2026-10-22), and it
+closes back to the viewer. An accelerator over the
 `Settings` row, not a replacement for it ([input](#input)): the long press is touch's,
 a held select is the remote's, and the screen reader offers it as an action named
 `Settings`. On iOS that button gives up the large content viewer the other bar
@@ -547,11 +570,6 @@ by someone who wants more than the app assumes.
 a person who never opens Settings must not encounter a feature that is inert until
 they do.
 
-**On a tablet, Controls closes before Settings opens** (iPad, 2026-10-19): Settings
-is a window over the reader there, not a full-screen sheet, and it would otherwise
-sit over a sidebar half-covered. On a phone Controls stays open beneath, to come back
-to.
-
 ## Large text
 
 The interface follows the platform's text size, **within limits that keep
@@ -589,16 +607,14 @@ The text size alone does not say which fits:
   size 1 of 5, while Font size 1 did not at Display size 5: the sliders themselves
   grow with Display size, and the screen gets shorter.
 
-The Controls sidebar scrolls and always stacks its sliders. **EXPERIMENT
-(`shell-sheet`, 2026-11-09): Controls shows no bylines, on any platform or
-screen**; the titles say enough beside the reader they change, and Settings'
-Appearance page keeps them as above. **Its `Settings` row stays in view at every
-text size**: the sliders scroll, the row does not.
+Controls always stacks its sliders, **without bylines at any size** ([Controls](#controls));
+Settings' Appearance page keeps them as above. **Its `Settings` row stays in view at
+every text size**: the sliders scroll, the row does not.
 
 **The default screen scrolls when it does not fit**, on both platforms, as at the
 largest text sizes. On iOS it had not, and being taller than the screen it made the
-shell taller too, moving the Controls sidebar, and its `Settings` row, down past the
-bottom (2026-10-22). Whatever the viewer holds, it is the size of the screen.
+shell taller too, moving what lay beside the viewer down past the bottom
+(2026-10-22). Whatever the viewer holds, it is the size of the screen.
 
 ## About, links, and feedback
 
@@ -609,19 +625,25 @@ these are things you visit once. The web app already carries the full set
 Support, Docs, Privacy, Donate, Instagram, YouTube, email, Slack, GitHub — and that
 list, not a new one, is what should be presented.
 
-**Placement within the Controls sidebar is not fixed** and is open question 5.
+**Placement within Controls is not fixed** and is open question 6.
 
 ## What a test must pin down
 
 - **Screen awake.** A bani open with no sidebar ⇒ held awake; Journeys opened ⇒
   released; the default screen ⇒ released; 15 minutes without activity ⇒ the
   journey ends and the hold is released.
-- **Mutual exclusion.** Open Journeys, then trigger Controls ⇒ Journeys is closed.
-- **Toggle symmetry.** For each sidebar: header button opens it, swipe opens it, the
-  same button closes it, and all three land in the same state.
-- **Swipe direction.** Rightward on the viewer ⇒ Journeys; leftward ⇒ Controls.
-  Asserted on both platforms, including with the device in RTL locale — see open
-  question 2.
+- **Mutual exclusion.** With Controls open, opening Journeys ⇒ Controls is closed.
+- **Toggle symmetry.** For Journeys: the bar's button opens it, a swipe opens it, the
+  same button closes it, and all three land in the same state. For Controls: its
+  button opens it and closes it.
+- **Swipe direction.** Rightward on the viewer ⇒ Journeys; leftward from rest ⇒
+  nothing. Asserted on both platforms, including with the device in RTL locale — see
+  open question 2.
+- **Controls closes on a tap outside**, and the tap does not reach the reader: no
+  line is tapped, nothing scrolls.
+- **The bars follow the scroll.** A drag onward hides them; a drag back, or reaching
+  the top, shows them; a tap on a line hides them and lands it below the cutout; a
+  pinch moves neither; under a screen reader they never hide.
 - **Everything closes the sidebar.** Journey row, tab row, `Inactive sessions`,
   `Library`, and the toggle each leave the viewer visible.
 - **Header does not scroll.** With the list scrolled to an arbitrary offset, the
@@ -634,7 +656,7 @@ list, not a new one, is what should be presented.
 - **Empty states.** No journeys at all ⇒ the default screen shows the greeting with
   no `continue reading`; `Inactive sessions` renders an empty list without crashing.
 - **Settings from the viewer.** A long press on the viewer's Controls button opens
-  Settings with no sidebar open; closing it shows the viewer, not Controls. A tap
+  Settings with Controls closed; closing it shows the viewer, not Controls. A tap
   still opens Controls, and the touch that held the long press does not also tap.
 - **Long labels.** A renamed journey with a 200-character label must not break row
   layout in either the sidebar or `Inactive sessions`.
@@ -658,7 +680,7 @@ list, not a new one, is what should be presented.
 5. **Where does `Read history` render?** It is a list of dated occurrences reached
    from the title menu, and could be a sheet, a panel, or a view in the viewer —
    which matters because it is the one surface that spans journeys.
-6. **Where does `About Shabad OS` sit** — a row in the Controls sidebar, a separate
+6. **Where does `About Shabad OS` sit** — a row in Controls, a separate
    sheet, or a section at the bottom?
 7. **Does the shell change on iPad and web beyond the sidebar presentation?** The
    `Width` control ([display-controls.md](display-controls.md#width)) exists only

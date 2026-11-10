@@ -10,7 +10,7 @@ a thing was *not* done kept next to the thing that was. Keep them that way.
 | [plan.md](plan.md) | Rewrite sequencing; what blocks what | Deciding what to work on |
 | [parity.md](parity.md) | **What's built where** — one row per feature, one column per shell | Checking whether a feature exists on this platform before building it again |
 | [requirements/](requirements/) | **Source of truth** — what the app must do | Building or specifying behaviour |
-| [requirements/journeys.md](requirements/journeys.md) · [library.md](requirements/library.md) · [reading-shell.md](requirements/reading-shell.md) · [display-controls.md](requirements/display-controls.md) | The reading app: tabs and journeys, the Library, the viewer and its two sidebars, display settings | Building any platform reading UI |
+| [requirements/journeys.md](requirements/journeys.md) · [library.md](requirements/library.md) · [reading-shell.md](requirements/reading-shell.md) · [display-controls.md](requirements/display-controls.md) | The reading app: tabs and journeys, the Library, the viewer, its Journeys sidebar and Controls, display settings | Building any platform reading UI |
 | [interaction.md](interaction.md) | **Layer 2** — how each platform delivers a requirement; icons live in `packages/design/icons.md` | Building any platform UI |
 | [architecture/decisions/](architecture/decisions/) | Why we chose an approach; what is undecided | Before making a structural choice |
 | [architecture/README.md](architecture/README.md) | Monorepo layout, dependency graph, release model | Touching build, packaging, or layout |
