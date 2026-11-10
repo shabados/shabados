@@ -58,7 +58,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.lerp
+import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalConfiguration
@@ -109,12 +109,24 @@ internal fun gurmukhiFont(assets: AssetManager, weight: Int): FontFamily =
  * without a second blend of its own. */
 @Composable
 private fun tonerColor(): Color =
-  lerp(MaterialTheme.colorScheme.background, MaterialTheme.colorScheme.onBackground, DesignTokens.TONER_OPACITY)
+  wash(MaterialTheme.colorScheme.background, MaterialTheme.colorScheme.onBackground, DesignTokens.TONER_OPACITY)
 
 /** The same wash, lighter: the top of the Keep Reading card's gradient. */
 @Composable
 private fun tonerFaintColor(): Color =
-  lerp(MaterialTheme.colorScheme.background, MaterialTheme.colorScheme.onBackground, DesignTokens.TONER_FAINT_OPACITY)
+  wash(MaterialTheme.colorScheme.background, MaterialTheme.colorScheme.onBackground, DesignTokens.TONER_FAINT_OPACITY)
+
+/**
+ * [base] blended toward [toward] by [fraction], **channel by channel in sRGB**, as
+ * iOS's `DesignTokens.wash` does: [toward] at that opacity laid over [base].
+ *
+ * Not Compose's `lerp`, which blends in Oklab, a perceptual space. In light mode
+ * the two land close; in dark mode, from black toward white, `lerp` gives 6/255 at
+ * 0.12 against iOS's 31, and the toner is all but invisible (Galaxy A16,
+ * 2026-11-09).
+ */
+internal fun wash(base: Color, toward: Color, fraction: Float): Color =
+  toward.copy(alpha = fraction).compositeOver(base)
 
 /** The vertical gap between reader rows, as padding inside each row's own bounds.
  * Named because the pinch anchor discounts it: a pinch in that padding is a pinch

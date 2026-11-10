@@ -78,7 +78,6 @@ import androidx.compose.ui.graphics.TransformOrigin
 import androidx.compose.ui.graphics.drawOutline
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.PointerInputScope
 import androidx.compose.ui.input.pointer.pointerInput
@@ -712,7 +711,7 @@ private fun JourneysPanel(
   val bottom = with(LocalDensity.current) { WindowInsets.navigationBars.getBottom(this).toDp() }
   val colors = MaterialTheme.colorScheme
   // The toner wash, blended from the sidebar's own colour rather than the page's.
-  val toner = lerp(colors.surfaceVariant, colors.onSurface, DesignTokens.TONER_OPACITY)
+  val toner = wash(colors.surfaceVariant, colors.onSurface, DesignTokens.TONER_OPACITY)
   // Clear of a camera cutout, or a navigation bar, on its left in landscape: the
   // sidebar is drawn edge to edge, so its inset alone would put the logo and rows
   // behind it (seen on a Pixel 7a, 2026-10-16). Left only: its right side lies

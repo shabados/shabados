@@ -430,6 +430,14 @@ class ShellTest {
     assertEquals(640f, TapScroll.distance(index = 5, rowTop = 640f))
   }
 
+  @Test fun `the toner wash blends in sRGB, as iOS does`() {
+    // Black toward white at 0.12 is 0.12 of the way in each channel (31/255), not
+    // Oklab's 6/255, which left the dark-mode toner all but invisible.
+    val dark = wash(androidx.compose.ui.graphics.Color.Black, androidx.compose.ui.graphics.Color.White, 0.12f)
+    assertEquals(0.12f, dark.red, 0.005f)
+    assertEquals(1f, dark.alpha, 0f)
+  }
+
   @Test fun `the first row never scrolls on tap`() {
     assertNull(TapScroll.distance(index = 0, rowTop = 0f))
     assertNull(TapScroll.distance(index = 0, rowTop = -30f))
