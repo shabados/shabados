@@ -225,8 +225,8 @@ body size, at a lighter weight than the title rule above (400, not the titles'
 650) so the stroke doesn't grow heavier along with the glyph. Its six word-pairs
 (ਸਤਿ ਨਾਮੁ, ਕਰਤਾ ਪੁਰਖੁ, ਨਿਰਭਉ ਨਿਰਵੈਰੁ, ਅਕਾਲ ਮੂਰਤਿ, ਅਜੂਨੀ ਸੈਭੰ, ਗੁਰ ਪ੍ਰਸਾਦਿ) follow at
 body size, each pair kept on one line but otherwise free to share a line with its
-neighbour. **All of it stays one selectable, copyable span** — tapping or copying
-any part of the mool mantar must never fragment it.
+neighbour. **All of it stays one line** — tapping or copying it must never
+fragment it.
 
 #### Titles
 
@@ -872,6 +872,20 @@ collapsed card itself is a distinct unit — tapping it (not its `Expand` contro
 scrolls the whole card the same way, confirmed the same platform-native way any
 other row is.
 
+### Copying
+
+**No free text selection in the reader, on any platform**
+([ADR-0017](../architecture/decisions/0017-copy-by-line-not-free-text-selection.md),
+2026-11-10). No long press that selects, no drag handles, no loupe, no select-all
+over the reader's text. On the web, reader text is `user-select: none`.
+
+**Copying is by whole lines**: a line's context menu, holding Copy, or a select mode
+in which whole lines are picked and then copied. What is copied follows the copy
+rules in [What a test must pin down](#what-a-test-must-pin-down).
+
+**Open:** neither route is built. Which comes first, how each opens (a long press,
+a right-click, a button), and what else a line's menu holds are not decided.
+
 ### A system gesture never discards a reading position
 
 **Nothing incidental may silently jump the reader back to the very start of what
@@ -960,7 +974,9 @@ it (2026-11-09, [reading-shell.md](reading-shell.md#controls)).
   pinched size is kept. The table itself is checked by the token generator, which
   fails if a row disagrees with the rule, a setting is missing, or the default row
   differs from `defaultSize`.
-- **Copyable output matches the display.** Select a pauri in Saral and copy ⇒ the
+- **No free selection.** Long-press a line and drag, and pinch with one finger held
+  still ⇒ no selection, no handles, and the clipboard is unchanged.
+- **Copyable output matches the display.** Select a pauri's lines in Saral and copy ⇒ the
   clipboard holds the same lines, with the same line breaks, and no injected
   characters. Repeat in Reader ⇒ flowed text with the paragraph break intact.
 - **Larivaar copies without spaces.** With Continuous on, copied Gurbani contains no

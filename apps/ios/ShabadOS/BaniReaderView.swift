@@ -513,15 +513,12 @@ struct BaniReaderView: View {
                 // full rectangular frame, glyphs or not.
                 .contentShape(Rectangle())
                 // `.simultaneousGesture`, not the `.onTapGesture` convenience
-                // modifier. `.onTapGesture` installs an *exclusive* gesture, and
-                // `LineText`'s `.textSelection(.enabled)` gives the row its
-                // own long-press-based selection recognizer; an exclusive tap
-                // sitting alongside that has to wait for the system to
-                // disambiguate "is this becoming a long-press" before it can
-                // fire, which reads as exactly the lag reported — the
-                // highlight *was* instant in code, the tap just hadn't fired
-                // yet. A simultaneous gesture doesn't wait for that
-                // resolution.
+                // modifier. `.onTapGesture` installs an *exclusive* gesture,
+                // which waits for any long press on the row to be ruled out
+                // before it fires; that read as lag on the highlight. A
+                // simultaneous gesture doesn't wait. (The long press then was
+                // text selection's, since removed (ADR-0017); a context menu
+                // on a line would bring one back.)
                 //
                 // `SpatialTapGesture`, not plain `TapGesture` — a
                 // `.continuation` row needs the tap's *location* to exclude
@@ -1091,9 +1088,7 @@ private struct LineText: View {
   /// or screen width); the space *within* a pair is never replaced or
   /// specially attributed, just surrounded so wrapping can't land on it.
   /// Keeping it all one `AttributedString` is also what keeps the whole mool
-  /// mantar one selectable, copyable unit: `.textSelection(.enabled)` (on
-  /// the `Text` this returns into) treats one `AttributedString` as a single
-  /// span no matter how many visual lines it wraps onto.
+  /// mantar one line's text, so copying the line never fragments it.
   ///
   /// **Word Joiner (`U+2060`), not `U+00A0` non-breaking space.** A first
   /// version used NBSP in place of the space and hit a real font bug,
@@ -1303,7 +1298,8 @@ private struct LineText: View {
     .padding(.top, isTitle && !precededByTitle ? size * Title.spaceBefore : 0)
     .padding(.bottom, isTitle ? size * Title.spaceAfter : 0)
     .opacity(line.isColophon ? Self.colophonOpacity : 1)
-    .textSelection(.enabled)
+    // No `.textSelection`: there is no free text selection (ADR-0017). Its long
+    // press started selections mid-pinch, with handles over the text.
   }
 }
 

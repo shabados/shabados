@@ -255,13 +255,22 @@ struct ReaderShell: View {
           DesignTokens.background.opacity(0.6 * amount)
             .allowsHitTesting(false)
         }
-        .mask { cardShape(moved: progress != 0) }
+        // **Masked only while moved.** At rest the display's own corners hide the
+        // viewer's, but a screenshot, a screen recording or AirPlay mirroring is
+        // square, and a mask at rest showed the white sidebar in its corners there.
+        // The mask switches on at the first point of a slide, where its shape
+        // still matches the display, so nothing on the device changes.
+        .mask {
+          if progress != 0 { cardShape() } else { Rectangle() }
+        }
         // A hairline along the viewer's edge, so it reads as a card's edge, not
         // only a shadow's.
         .overlay {
-          cardShape(moved: progress != 0)
-            .stroke(DesignTokens.foreground.opacity(0.08 * amount), lineWidth: 0.5)
-            .allowsHitTesting(false)
+          if progress != 0 {
+            cardShape()
+              .stroke(DesignTokens.foreground.opacity(0.08 * amount), lineWidth: 0.5)
+              .allowsHitTesting(false)
+          }
         }
         .shadow(color: .black.opacity(0.18 * amount), radius: 24)
         // Moved when drawn, not laid out somewhere else: see `cardShape`. Its
@@ -284,7 +293,7 @@ struct ReaderShell: View {
       }
       .gesture(sidebarPan(travel: travelJ))
       // Both layers span the whole screen, so the viewer is one rigid card whose
-      // corners are the display's (`cardShape`). Their contents take the insets
+      // corners, once moved, are the display's (`cardShape`). Their contents take the insets
       // as fixed padding instead, above.
       .ignoresSafeArea(.container)
     }
@@ -311,7 +320,8 @@ struct ReaderShell: View {
     }
   }
 
-  /// The viewer's outline: **the display's own corners, kept as it moves.**
+  /// The viewer's outline while moved: **the display's own corners, kept as it
+  /// moves.** At rest the viewer is not masked at all (`body`).
   ///
   /// `ConcentricRectangle` matches the display exactly at rest (checked against
   /// UIKit's own radius on an iPhone, 2026-10-16). Two things keep it once moved:
@@ -321,14 +331,13 @@ struct ReaderShell: View {
   ///   moves the view's frame, so the corners went square as it slid. A visual
   ///   effect moves only the drawing, so the shape is worked out where the viewer
   ///   rests.
-  /// - **While moved, the corners keep at least `movingCornerRadius`**, should the
-  ///   shape be worked out from the moved position after all. At rest there is no
-  ///   minimum, so a display with smaller corners, or none, is matched exactly.
+  /// - **The corners keep at least `movingCornerRadius`**, should the shape be
+  ///   worked out from the moved position after all.
   ///
   /// Not a radius read from the display: `GeometryProxy.concentricCornerRadii`
   /// (iOS 27) came back empty on a full-screen view, and UIKit's own value is private.
-  private func cardShape(moved: Bool) -> ConcentricRectangle {
-    ConcentricRectangle(corners: moved ? .concentric(minimum: .fixed(Self.movingCornerRadius)) : .concentric)
+  private func cardShape() -> ConcentricRectangle {
+    ConcentricRectangle(corners: .concentric(minimum: .fixed(Self.movingCornerRadius)))
   }
 
   /// Whether the screen is held awake: content open in the viewer, no sidebar

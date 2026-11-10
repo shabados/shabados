@@ -127,8 +127,10 @@ activates the pill, row or button it started on. **With Controls open, the reade
 takes no touches**: a tap outside Controls closes it and goes no further, so it
 never also taps a line.
 
-**Where a gesture exists it competes with text selection and with pinch-to-zoom**
-([display-controls.md](display-controls.md#zoom)), and the conflict must be resolved
+**Where a gesture exists it competes with pinch-to-zoom**
+([display-controls.md](display-controls.md#zoom)), and with a long press on a line
+once one opens its menu ([display-controls.md](display-controls.md#copying)). There
+is no text selection to compete with (ADR-0017). Each conflict must be resolved
 deliberately rather than by whichever recogniser happens to win. The
 platform-specific collisions — system back-swipe, gesture navigation — are in
 [interaction.md](../interaction.md#open-questions).

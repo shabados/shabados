@@ -346,6 +346,9 @@ opens and closes it; opening gives a light haptic. Findings the code relies on:
   display's corner, and `offset` moves the frame, so the corners went square.
   While moved the corners also keep a 55pt minimum. `GeometryProxy.concentricCornerRadii`
   (iOS 27) returned nothing on a full-screen view, so the radius is not read.
+- **The viewer is masked only while moved**, as on Android. Masked at rest, its
+  corners showed the white sidebar in screenshots, screen recordings and AirPlay
+  mirroring, which are square (2026-11-10).
 - **The sidebar is plain SwiftUI: no `NavigationStack`, no `List`.** It zooms from
   95% as the viewer slides, and the UIKit-backed containers answered the zoom by
   laying out again at the smaller size; at full size everything jumped and a row
@@ -398,8 +401,7 @@ opens and closes it; opening gives a light haptic. Findings the code relies on:
 
 **Verified on an iPhone (2026-10-16):** rounded corners through the whole slide,
 the sidebar's fade and zoom with no jump, opening and closing by button, edge and
-drag. **Not yet checked:** a long-press text selection dragged sideways (nothing
-guards it from opening the sidebar), iPad (the sidebar is full screen there too,
+drag. **Not yet checked:** iPad (the sidebar is full screen there too,
 where the spec has it beside the viewer), and `continue reading` after a force quit
 (added 2026-10-16). Android has the same shell since 2026-10-16
 ([android/README.md](../android/README.md#reading-shell)).
