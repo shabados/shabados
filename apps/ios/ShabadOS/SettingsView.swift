@@ -6,8 +6,7 @@ import UIKit
 /// by the ✕ at its top right. Its items are menus in groups without labels; below the
 /// first group, the appearance picker.
 ///
-/// **A `NavigationStack` here is fine**, unlike in the viewer (`ViewerBar`'s note):
-/// the sheet does not slide sideways, so UIKit's bar keeps its safe area.
+/// **A `NavigationStack` here, as in the viewer** (ADR-0018).
 struct SettingsView: View {
   @Environment(\.dismiss) private var dismiss
 

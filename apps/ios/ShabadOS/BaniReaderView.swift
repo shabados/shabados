@@ -86,8 +86,8 @@ enum ReaderType {
   }
 }
 
-/// The viewer header's Controls button: a glass circle, as the Journeys button is
-/// (`ViewerBar`). One icon whether or not Controls is open
+/// The viewer's Controls button, in the system's toolbar (`ViewerBarHost`). One
+/// icon whether or not Controls is open
 /// (docs/requirements/reading-shell.md#controls).
 ///
 /// **It presents Controls itself, as a
@@ -139,8 +139,6 @@ struct ControlsButton: View {
     .sensoryFeedback(.impact(weight: .medium), trigger: longPressed) { _, pressed in pressed }
     .accessibilityLabel("Controls")
     .accessibilityAction(named: "Settings", onSettings)
-    .viewerBarButton(largeContentViewer: false)
-    // After `viewerBarButton`, so the popover points at the circle.
     .popover(isPresented: $isPresented) {
       ControlsPanel(onSettings: settingsFromPanel)
         .dynamicTypeSize(...InterfaceText.cap)
@@ -252,17 +250,6 @@ private struct ScrollSample: Equatable {
   var width: CGFloat
 }
 
-/// What `BaniReaderView.barsFollowScroll` remembers between scroll frames.
-///
-/// **A plain class, deliberately not observed**, like `LatestScroll`: it is written
-/// on every scroll, and must not re-render the reader each time.
-private final class BarsFollow {
-  /// Whether the scroll is the user's: a drag, or the fling after it.
-  var byUser = false
-  /// Where the current direction began, in points from the top.
-  var turn: CGFloat = 0
-}
-
 /// The latest `ScrollSample`, for `BaniReaderView.tapLine`.
 ///
 /// **A plain class, deliberately not observed**, like `RowFrames`: it is written
@@ -348,11 +335,6 @@ struct BaniReaderView: View {
   /// Whether the header's Controls button is presenting Controls; `ReaderShell`
   /// closes it when Journeys opens.
   @Binding var controlsShown: Bool
-  /// Whether the bar and the status bar are hidden (`barsFollowScroll`). Owned by
-  /// `ReaderShell`, which hides the status bar and shows both again from Journeys.
-  /// **Never read in `body`**: only `ReaderBars`' own modifiers read `hidden`, so
-  /// a hide or show redraws them alone and never the reader.
-  let bars: ReaderBars
   /// A long press on the Controls button; `ReaderShell` opens Settings.
   let onSettings: () -> Void
 
@@ -412,18 +394,6 @@ struct BaniReaderView: View {
 
   /// `@State` only to keep one instance for the view's lifetime.
   @State private var latestScroll = LatestScroll()
-
-  /// `@State` only to keep one instance; see `BarsFollow`.
-  @State private var barsFollow = BarsFollow()
-
-  /// The bars never hide under VoiceOver, which reads them as it moves through the
-  /// screen.
-  @Environment(\.accessibilityVoiceOverEnabled) private var voiceOverEnabled
-
-  /// At the foot on iPhone, at the top on iPad (`VerticalEdge.viewerBar`).
-  @Environment(\.horizontalSizeClass) private var horizontalSizeClass
-  @Environment(\.nativeViewerBar) private var nativeViewerBar
-  private var barEdge: VerticalEdge { .viewerBar(horizontalSizeClass) }
 
   /// Bound only so `tapLine` can scroll to an offset; see its doc comment.
   @State private var scrollPosition = ScrollPosition(idType: String.self)
@@ -565,35 +535,18 @@ struct BaniReaderView: View {
         // Nothing scrolls during a pinch: the pinch alone decides where the text is
         // (`pinchBegan`).
         .scrollDisabled(pinchBaseline != nil)
-        // The bar has no background (`ViewerBar`), so this is all that sits behind
-        // its buttons: the text is covered as it passes under them rather than
-        // simply cut, which interaction.md requires.
-        //
-        // **`.hard`, not `.soft`** (chosen 2026-10-19), here and under the
-        // sidebar's header. `.soft` is a gradient blur that runs on past the bar
-        // by a fixed amount iOS does not let us set, about 24pt, so a tapped line
-        // landed partly blurred. `.hard` is a band that ends at the bar's edge.
-        //
-        // The bar is at the foot. At the top only the
-        // status bar is left, and `.soft` (a fading blur) is enough behind it; it
-        // goes with the bars (`ReaderBars`). At the foot there is nothing at all
-        // (chosen 2026-11-09): only the glass buttons over the text, as Mail's
-        // look, so the text passes under them unfaded. That departs from
-        // interaction.md's fade, which asks for the header.
-        // With the bar at the top (iPad) the band behind it is `.hard`, as above.
-        // With the system's toolbar, the system's own style (`ReaderBars.EdgeEffects`).
-        .scrollEdgeEffectStyle(
-          nativeViewerBar ? .automatic : (barEdge == .top ? .hard : .soft), for: .top
-        )
-        .modifier(ReaderBars.EdgeEffects(bars: bars, edge: barEdge))
+        // **The system's own edge effect at the top, in its automatic style**
+        // (ADR-0018): on iOS 27 a band behind the toolbar while it is up, and a
+        // soft blur behind the status bar alone while it is minimized. **Never a
+        // style of our own**: a set `.soft` or `.hard` covers the bar's held place
+        // even while it is minimized (2026-11-10). A blur of our own sized to the
+        // status bar (`UIVisualEffectView`, any `UIBlurEffect.Style`, masked or not)
+        // blurred nothing over the text, and a material faded by a gradient read as
+        // a fade (iPhone, 2026-11-10). None at the foot, where there is no bar.
+        .scrollEdgeEffectStyle(.automatic, for: .top)
+        .scrollEdgeEffectHidden(true, for: .bottom)
         .onScrollPhaseChange { _, phase in
           if phase == .interacting { activity.touch() }
-          barsFollow.byUser = phase == .interacting || phase == .decelerating
-        }
-        .onScrollGeometryChange(for: CGFloat.self) {
-          $0.contentOffset.y + $0.contentInsets.top
-        } action: { _, offset in
-          barsFollowScroll(to: offset)
         }
         .coordinateSpace(name: Self.space)
         // `continue reading` opens at the line that was at the top, as a rotation
@@ -621,9 +574,7 @@ struct BaniReaderView: View {
       .onChange(of: viewport.size.height) { _, height in viewportHeight = height }
     }
     .background(DesignTokens.background)
-    // No bar background: the text scrolls under the buttons, with nothing
-    // blurred or tinted behind them.
-    .modifier(ViewerBarHost(title: bani.latin, edge: barEdge, onJourneys: onJourneys, bars: bars) {
+    .modifier(ViewerBarHost(title: bani.latin, onJourneys: onJourneys) {
       ControlsButton(isPresented: $controlsShown, onSettings: onSettings)
     })
   }
@@ -745,8 +696,6 @@ struct BaniReaderView: View {
     // highlight never gets a frame fully on-screen before the scroll's own
     // layout-heavy work begins.
     if scroll {
-      // A tap reads onward, as a scroll down does (`barsFollowScroll`).
-      setBarsHidden(true)
       DispatchQueue.main.async {
         guard let frame = rowFrames.frames[item.id] else {
           // Not expected: the row was just tapped, so it has reported a frame.
@@ -758,17 +707,12 @@ struct BaniReaderView: View {
         // Less `bleed`, so the highlight's top lands below the bar, not the
         // row's own top: the highlight reaches `bleed` above the row, and landed
         // the row itself under the header's buttons (2026-10-19). Less
-        // `tapLandingGap` too, so it lands that far below the bar.
-        // With our bar at the top, the tap hides it, so the line lands where it
-        // was, below the status bar, not below the bar: the bar keeps its place
-        // in the layout (`ReaderBars`), so the inset still counts it. The
-        // system's bar holds its place, minimized or not (`ViewerBarHost`), so
-        // the line lands below that place, which the inset counts.
-        let hiddenBar = barEdge == .top && !nativeViewerBar && !voiceOverEnabled && !controlsShown
-          ? BarMetrics.height : 0
+        // `tapLandingGap` too, so it lands that far below the bar. The bar holds
+        // its place, minimized or not (`ViewerBarHost`), and the inset counts it.
+        // Its scroll drives the bar's minimization as a finger's does.
         withAnimation(.smooth(duration: Self.tapScrollDuration)) {
           scrollPosition.scrollTo(
-            y: sample.offsetY + sample.insetTop + frame.minY - ReaderCard.bleed - Self.tapLandingGap + hiddenBar
+            y: sample.offsetY + sample.insetTop + frame.minY - ReaderCard.bleed - Self.tapLandingGap
           )
         }
       }
@@ -783,52 +727,6 @@ struct BaniReaderView: View {
         highlightedLineID = nil
       }
     }
-  }
-
-  /// How far a scroll down must go before the bars hide, and back up before they
-  /// show: any movement past a resting finger's sub-point drift (chosen on an
-  /// iPhone, 2026-11-09). The lock in `ReaderBars` keeps it from flickering.
-  private static let barsHideDistance: CGFloat = 1
-  private static let barsShowDistance: CGFloat = 1
-
-  /// **The bars follow the scroll, as a browser's do.**
-  /// Scrolled down by a finger (a drag or its fling), past `barsHideDistance`,
-  /// the bar and the status bar hide; scrolled back up past `barsShowDistance`,
-  /// they return. At the
-  /// very top they always show. Only the user's own scrolling counts: a tap's
-  /// scroll hides them itself (`tapLine`), and a pinch or a rotation, which move
-  /// the offset too, change nothing. Not while Controls is open, whose popover
-  /// points at the bar, nor under VoiceOver.
-  private func barsFollowScroll(to offset: CGFloat) {
-    let follow = barsFollow
-    if offset <= 0 {
-      follow.turn = offset
-      setBarsHidden(false)
-      return
-    }
-    guard follow.byUser else {
-      follow.turn = offset
-      return
-    }
-    // `turn` is the furthest point reached in the current direction: the
-    // deepest point while hidden, the shallowest while showing.
-    if bars.hidden {
-      follow.turn = max(follow.turn, offset)
-      if follow.turn - offset > Self.barsShowDistance {
-        follow.turn = offset
-        setBarsHidden(false)
-      }
-    } else {
-      follow.turn = min(follow.turn, offset)
-      if offset - follow.turn > Self.barsHideDistance {
-        follow.turn = offset
-        setBarsHidden(true)
-      }
-    }
-  }
-
-  private func setBarsHidden(_ hidden: Bool) {
-    bars.set(hidden: hidden && !voiceOverEnabled && !controlsShown)
   }
 
   /// How strongly the size follows the fingers. The size changes by the pinch's

@@ -93,9 +93,6 @@ struct ReaderShell: View {
   /// Controls, presented by its button (`ControlsButton`). Here so opening Journeys
   /// can close it.
   @State private var controlsShown = false
-  /// The reader's bar and the status bar are out of the
-  /// way while reading onward (`BaniReaderView.barsFollowScroll`).
-  @State private var bars = ReaderBars()
   /// The drag's horizontal travel while it is moving the viewer; nil otherwise.
   @State private var dragX: CGFloat?
   /// The device has a hinge: an iPhone Duo, on either display (`HingeWatch`).
@@ -185,18 +182,9 @@ struct ReaderShell: View {
     // Swiped down or closed by its ✕, back to the viewer: opened by a long press on
     // the Controls button, or from Controls on iPad (`ControlsButton`).
     .sheet(isPresented: $settingsShown) { SettingsView() }
-    // With the reader's bar (`ReaderBars`), and only over a reader: the sidebar and
-    // the default screen keep the status bar.
-    // Never on iPad or the Duo: in Split View or a window, the app may have no
-    // status bar of its own, and hiding one it does not have flickered on every
-    // scroll (Duo simulator, 2026-11-10).
-    // Nor with the system's toolbar (`systemToolbar`), anywhere: the system
-    // minimizes its bar but not the status bar, and one hidden by our rule beside
-    // a bar hidden by the system's fell out of step (iPhone, 2026-11-10).
-    .modifier(ReaderBars.StatusBar(
-      bars: bars,
-      allowed: !Self.systemToolbar && !besideViewer && baniID != nil && !journeysOpen
-    ))
+    // The status bar is never hidden (ADR-0018): the system minimizes its toolbar
+    // but not the status bar, and one hidden by a rule of our own beside it fell out
+    // of step; in Split View on the Duo the app may have none, and hiding it flickered.
     // On opening only (chosen 2026-10-16).
     .sensoryFeedback(.impact(weight: .light), trigger: journeysOpen) { old, new in new && !old }
     .onChange(of: controlsShown) { _, shown in if shown { activity.touch() } }
@@ -360,8 +348,8 @@ struct ReaderShell: View {
   /// There is no edge to tap. Its own toggle is removed for ours, which **moves into the panel's
   /// header while it is open** (at its trailing end, as Mail's and Notes' toggles
   /// do, 2026-11-10), and is in the viewer's bar while it is closed
-  /// (`viewerJourneys`). So the reader's bars hiding as it scrolls never hide the
-  /// way to close an open panel. The binding's setter is there for whatever the
+  /// (`viewerJourneys`). So the bar minimizing as the reader scrolls never hides
+  /// the way to close an open panel. The binding's setter is there for whatever the
   /// split view closes by itself.
   ///
   /// **`.automatic` is a trial** (2026-11-10): iPadOS may put the sidebar over the
@@ -422,27 +410,15 @@ struct ReaderShell: View {
   /// closes the content. Android's `ShellState.keepsScreenOn` is the same rule.
   private var keepsScreenOn: Bool { baniID != nil && !journeysOpen }
 
-  private var viewer: some View {
-    viewerContent
-      .environment(\.nativeViewerBar, Self.systemToolbar)
-  }
-
-  /// **The system's toolbar for the viewer's bar on every device**, a trial
-  /// (2026-11-10; ADR-0016's amendment). False returns iPhone, iPad and the Duo
-  /// alike to `ViewerBar`. On iPhone the viewer is in a `NavigationStack` inside
-  /// the sliding card (`cardShell`), which is where it failed before: UIKit's bar
-  /// recomputed its safe area as the card slid aside (2026-10-16).
-  static let systemToolbar = true
-
-  /// The card's viewer, in a stack for the system's toolbar (`systemToolbar`); a
-  /// stack's empty navigation bar would otherwise take room at the top.
-  @ViewBuilder
+  /// The card's viewer, in a stack for the system's toolbar (`ViewerBarHost`). UIKit's
+  /// bar once recomputed its safe area as the card slid aside (2026-10-16); it slid
+  /// cleanly on iOS 26 and 27 (ADR-0018).
   private var cardViewer: some View {
-    if Self.systemToolbar { NavigationStack { viewer } } else { viewer }
+    NavigationStack { viewer }
   }
 
   @ViewBuilder
-  private var viewerContent: some View {
+  private var viewer: some View {
     if let bani = Self.bani(baniID) {
       BaniReaderView(
         bani: bani,
@@ -451,7 +427,6 @@ struct ReaderShell: View {
         startLine: startLine,
         onJourneys: viewerJourneys,
         controlsShown: $controlsShown,
-        bars: bars,
         onSettings: showSettingsFromViewer
       )
         // A different bani is a new reader: its row frames, held line and
@@ -518,13 +493,7 @@ struct ReaderShell: View {
   private func setJourneys(_ open: Bool) {
     activity.touch()
     if open { controlsShown = false }
-    withAnimation(.smooth) {
-      journeysOpen = open
-      // Back from Journeys on iPhone, whatever is opened there, the bars are
-      // showing: the viewer was set aside. Beside the viewer the panel only goes
-      // away, and the reader keeps its bars as they were (2026-11-10).
-      if !besideViewer { bars.reset() }
-    }
+    withAnimation(.smooth) { journeysOpen = open }
   }
 
   /// A long press on the viewer's Controls button, or Controls' `Settings` row on
@@ -668,65 +637,9 @@ private struct ViewerCard: ViewModifier, Animatable {
   }
 }
 
-/// The viewer's header: the Journeys button at the left, the title in a centred
-/// glass pill, `trailing` at the right (docs/requirements/reading-shell.md#the-viewer).
-/// The title is a control, but its actions do not exist yet, so it does nothing.
-///
-/// **At the foot of the viewer on iPhone,
-/// at the top on iPad** (`VerticalEdge.viewerBar`). At the foot, within thumb's
-/// reach, its buttons sit at the bottom of its frame with `below` above them, and
-/// the home indicator's safe area beneath, so it needs no margin of its own. At the
-/// top, as before: the buttons at the top of the frame, `below` beneath them.
-///
-/// **Plain SwiftUI in a `safeAreaBar`, not a `NavigationStack` toolbar.** A
-/// navigation bar is UIKit, which works out its safe area from where it sits on
-/// screen: as the viewer slid aside, the part going past the screen's edge counted
-/// as unsafe, so the trailing button stayed put, the text rewrapped and the
-/// contents shifted inside the card (iPhone, landscape, 2026-10-16). A
-/// `safeAreaBar` keeps the scroll edge effect beneath it, as the sidebar's header does.
-///
-/// **Laid out as a navigation bar is, so it behaves like one** (`BarMetrics`):
-/// fixed sizes that do not follow Text Size, and a frame that holds everything
-/// drawn in it. The bar's frame is what the reader measures from: the safe area
-/// beneath it, the edge effect's height, and the line a tap scrolls to the top
-/// (`BaniReaderView.tapLine`). Buttons that grew past a fixed frame drew outside
-/// it, so the fade and the tapped line stopped short of them (2026-10-19).
-struct ViewerBar<Trailing: View>: View {
-  let title: String?
-  /// Which edge of the viewer it is on (`VerticalEdge.viewerBar`).
-  let edge: VerticalEdge
-  /// Nil leaves the Journeys button out, its place empty, so the title stays
-  /// centred: beside the viewer, an open panel holds the button (`JourneysPanel`).
-  let onJourneys: (() -> Void)?
-  /// Styled by the caller with `barCircle()`, so an absent one draws nothing.
-  @ViewBuilder let trailing: Trailing
-
-  @Environment(\.verticalSizeClass) private var verticalSizeClass
-
-  var body: some View {
-    HStack {
-      if let onJourneys { JourneysButton(action: onJourneys) }
-      Spacer(minLength: 0)
-      trailing
-    }
-    .overlay {
-      if let title {
-        TitlePill(title: title)
-          // Clear of the buttons on both sides, so a long title truncates.
-          .padding(.horizontal, BarMetrics.button + 20)
-      }
-    }
-    .padding(.horizontal, 16)
-    .frame(height: BarMetrics.height, alignment: edge == .top ? .top : .bottom)
-    .padding(.top, edge == .top ? BarMetrics.topMargin(verticalSizeClass) : 0)
-    .dynamicTypeSize(BarMetrics.typeSize)
-  }
-}
-
-/// **The title: a glass pill floating on the text**, as Safari's address field is,
-/// in our bar and in the system's toolbar alike; never a header across the screen,
-/// and never on a blurred band (2026-11-10). A button so it shows the large content
-/// viewer; it does nothing else yet.
+/// **The title: a glass pill floating on the text**, as Safari's address field is;
+/// never a header across the screen (2026-11-10). A button so it shows the large
+/// content viewer; it does nothing else yet.
 struct TitlePill: View {
   let title: String
 
@@ -745,9 +658,9 @@ struct TitlePill: View {
   }
 }
 
-/// The Journeys button: in the viewer's bar (`ViewerBar`), or beside the viewer in
-/// the open panel's header (`JourneysPanel`). One button, so both look and read
-/// the same.
+/// The Journeys button: in the viewer's toolbar (`ViewerBarHost`), which draws its
+/// glass, or beside the viewer in the open panel's header (`JourneysPanel`), which
+/// gives it ours (`barCircle`). One button, so both read the same.
 struct JourneysButton: View {
   let action: () -> Void
 
@@ -757,242 +670,68 @@ struct JourneysButton: View {
         .imageScale(.large)
     }
     .accessibilityLabel("Journeys")
-    .viewerBarButton()
   }
 }
 
-extension EnvironmentValues {
-  /// The viewer's buttons and title are the system's toolbar, not `ViewerBar`
-  /// (`ViewerBarHost`): everywhere while `ReaderShell.systemToolbar` is on.
-  @Entry var nativeViewerBar = false
-}
-
-/// **The viewer's bar: the system's toolbar, or ours (`ViewerBar`)** — the system's
-/// everywhere while `ReaderShell.systemToolbar` is on (a trial, 2026-11-10), at the
-/// top (`VerticalEdge.viewerBar`).
+/// **The viewer's bar: the system's toolbar, at the top, on every device**
+/// (ADR-0018). Journeys at the left, the title in the middle, `trailing` at the right.
 ///
 /// **The title is always our pill (`TitlePill`), never the bar's own title**, with
 /// the toolbar's shared glass behind it turned off, so it is one glass pill on the
-/// text, as Safari's address field is (2026-11-10). Behind the bar and the status
-/// bar, the system's own edge effect (`ReaderBars.EdgeEffects`). **On iOS 27 the
-/// system minimizes the bar** on a scroll down, holding its place; before, it never
-/// hides. `ReaderBars`' rule hides only ours.
+/// text. **On iOS 27 the system minimizes the bar** on a scroll down and restores it
+/// on a scroll back, holding its place, so the text never moves under the scroll;
+/// a tapped line's scroll drives it as a finger's does. **Before iOS 27 it never
+/// hides.** Nothing of ours hides it, and the status bar always shows (`ReaderShell`).
 struct ViewerBarHost<Trailing: View>: ViewModifier {
   let title: String?
-  let edge: VerticalEdge
+  /// Nil leaves the Journeys button out: beside the viewer, an open panel holds it
+  /// (`JourneysPanel`).
   let onJourneys: (() -> Void)?
-  /// Nil where nothing hides the bar (the default screen).
-  let bars: ReaderBars?
   @ViewBuilder let trailing: Trailing
 
-  @Environment(\.nativeViewerBar) private var native
-
   func body(content: Content) -> some View {
-    if native, #available(iOS 27.0, *) {
-      // A trial (2026-11-10): the system minimizes its own bar on a scroll down,
-      // with the safe area held, so the text never moves under the scroll that
-      // hides it, which `.toolbar(.hidden)` does (below). Better than ours on iPad.
-      // The navigation bar alone minimizes (the bottom bar did not, iPhone), so
-      // the bar is at the top on every device (`VerticalEdge.viewerBar`).
-      // The status bar is not minimized with it, though a placement since iOS 27:
-      // passed here it stayed (iPhone, 2026-11-10); so it always shows (`ReaderShell`).
-      let bar: ToolbarPlacement = edge == .top ? .navigationBar : .bottomBar
+    if #available(iOS 27.0, *) {
+      // The navigation bar alone minimizes: the bottom bar does not (iPhone), so
+      // the bar is at the top on iPhone too. Not paused for a tapped line's scroll
+      // with `.never`: switching to `.never` shows a minimized bar, so every tap
+      // showed it and hid it again (iPhone, 2026-11-10).
       content
         .toolbar { items }
-        .toolbar(.hidden, for: edge == .top ? .bottomBar : .navigationBar)
-        // A tapped line's scroll drives it too, as a finger's does. Not paused for
-        // that scroll with `.never`: switching to `.never` shows a minimized bar,
-        // so every tap showed it and hid it again (iPhone, 2026-11-10).
-        .toolbarMinimizationBehavior(.onScrollDown, for: bar)
-        .toolbarMinimizationSafeAreaAdjustment(.disabled, for: bar)
-    } else if native {
-      // Before iOS 27, never hidden: a hidden system bar gives up its place, and
-      // the text moving under a scroll under way stuttered it (2026-11-10).
-      content
-        .toolbar { items }
-        .toolbar(edge == .bottom ? .hidden : .visible, for: .navigationBar)
-        .toolbar(edge == .top ? .hidden : .visible, for: .bottomBar)
+        .toolbarMinimizationBehavior(.onScrollDown, for: .navigationBar)
+        .toolbarMinimizationSafeAreaAdjustment(.disabled, for: .navigationBar)
     } else {
-      content.safeAreaBar(edge: edge) {
-        if let bars {
-          ViewerBar(title: title, edge: edge, onJourneys: onJourneys) { trailing }
-            .modifier(ReaderBars.Follows(bars: bars, edge: edge))
-        } else {
-          ViewerBar(title: title, edge: edge, onJourneys: onJourneys) { trailing }
-        }
-      }
+      // Never hidden: a hidden system bar gives up its place, and the text moving
+      // under a scroll under way stuttered it (2026-11-10).
+      content.toolbar { items }
     }
   }
 
   @ToolbarContentBuilder
   private var items: some ToolbarContent {
-    if edge == .top {
-      if let onJourneys {
-        ToolbarItem(placement: .topBarLeading) { JourneysButton(action: onJourneys) }
-      }
-      if let title {
-        ToolbarItem(placement: .principal) { TitlePill(title: title) }
-          .sharedBackgroundVisibility(.hidden)
-      }
-      ToolbarItem(placement: .topBarTrailing) { trailing }
-    } else {
-      if let onJourneys {
-        ToolbarItem(placement: .bottomBar) { JourneysButton(action: onJourneys) }
-      }
-      ToolbarSpacer(.flexible, placement: .bottomBar)
-      if let title {
-        ToolbarItem(placement: .bottomBar) { TitlePill(title: title) }
-          .sharedBackgroundVisibility(.hidden)
-      }
-      ToolbarSpacer(.flexible, placement: .bottomBar)
-      ToolbarItem(placement: .bottomBar) { trailing }
+    if let onJourneys {
+      ToolbarItem(placement: .topBarLeading) { JourneysButton(action: onJourneys) }
     }
+    if let title {
+      ToolbarItem(placement: .principal) { TitlePill(title: title) }
+        .sharedBackgroundVisibility(.hidden)
+    }
+    ToolbarItem(placement: .topBarTrailing) { trailing }
   }
 }
 
-extension View {
-  /// A viewer's bar button: our glass circle (`barCircle`) in `ViewerBar`, and as
-  /// it is in the system's toolbar, which draws its own glass (`ViewerBarHost`).
-  func viewerBarButton(largeContentViewer: Bool = true) -> some View {
-    modifier(ViewerBarButton(largeContentViewer: largeContentViewer))
-  }
-}
-
-private struct ViewerBarButton: ViewModifier {
-  let largeContentViewer: Bool
-  @Environment(\.nativeViewerBar) private var native
-
-  func body(content: Content) -> some View {
-    if native { content } else { content.barCircle(largeContentViewer: largeContentViewer) }
-  }
-}
-
-extension VerticalEdge {
-  /// **Where the viewer's bar sits.** With the system's toolbar
-  /// (`ReaderShell.systemToolbar`), at the top on every device (2026-11-10, a trial):
-  /// only the navigation bar minimizes on a scroll down (`ViewerBarHost`); the
-  /// bottom bar does not (iPhone, 2026-11-10). With ours, at the foot in a compact
-  /// width, an iPhone's, within thumb's reach as Safari's is there; at the top in a
-  /// regular width, an iPad's (2026-11-09), as iPadOS's own bars are. An iPad window
-  /// narrowed to an iPhone's width takes the iPhone's.
-  static func viewerBar(_ horizontalSizeClass: UserInterfaceSizeClass?) -> VerticalEdge {
-    if ReaderShell.systemToolbar { return .top }
-    return horizontalSizeClass == .regular ? .top : .bottom
-  }
-}
-
-/// **Whether the reader's bars are hidden**: the
-/// viewer's bar, the status bar, and the scroll edge effect behind the status bar
-/// (`BaniReaderView.barsFollowScroll` decides when).
-///
-/// **A hide or show plays to the end, and nothing starts until it has** (chosen
-/// 2026-11-09). Hiding them on every turn of the scroll, instantly, flickered at
-/// some speeds on an iPhone; animated, a change of direction mid-animation
-/// started another. Asked for while one plays, a change is dropped; the next
-/// scroll frame after it ends asks again.
-///
-/// **Nothing here changes layout**, so the scroll is never touched. The bar keeps
-/// its place in the `safeAreaBar` and is only slid and faded (`Follows`); taking
-/// it out changed the scroll view's inset, and animating that laid the whole
-/// reader out on every frame, which stuttered a scroll under way. `hidden` is read
-/// only by the three modifiers below, never by the reader's `body`, so a change
-/// redraws them alone. The status bar does not move the safe area on an iPhone
-/// with a Dynamic Island; on iPad it may.
-@Observable final class ReaderBars {
-  /// Whether the bars are hidden, or on their way out.
-  private(set) var hidden = false
-  /// True from a hide or show starting until it has finished. Not observed:
-  /// nothing draws from it.
-  @ObservationIgnored private var animating = false
-
-  /// Slower than the scroll it follows is fine: it is a separate motion.
-  static let animation = Animation.smooth(duration: 0.35)
-
-  /// Starts a hide or show, unless one is already playing or there is nothing to
-  /// change.
-  func set(hidden newValue: Bool) {
-    guard !animating, newValue != hidden else { return }
-    animating = true
-    withAnimation(Self.animation, completionCriteria: .removed) {
-      hidden = newValue
-    } completion: { [weak self] in
-      self?.animating = false
-    }
-  }
-
-  /// Showing, at once and whatever is playing: on the way back from Journeys,
-  /// inside Journeys' own animation.
-  func reset() {
-    hidden = false
-  }
-
-  /// The bar itself, slid down by its height and faded out; its frame stays.
-  struct Follows: ViewModifier {
-    let bars: ReaderBars
-    /// The edge the bar slides out past.
-    let edge: VerticalEdge
-
-    func body(content: Content) -> some View {
-      content
-        .offset(y: bars.hidden ? (edge == .top ? -BarMetrics.height : BarMetrics.height) : 0)
-        .opacity(bars.hidden ? 0 : 1)
-        .allowsHitTesting(!bars.hidden)
-        .accessibilityHidden(bars.hidden)
-    }
-  }
-
-  /// The band behind the status bar, which goes with the bars. With our bar
-  /// (`ViewerBar`), none ever behind it: its glass pill and buttons float on the
-  /// text (`BaniReaderView`'s note).
-  ///
-  /// **With the system's toolbar, the system's own edge effect, always, in its
-  /// automatic style** (`BaniReaderView`; chosen 2026-11-10). On iOS 27 that is a
-  /// hard band behind the bar while it is up, and while it is minimized a soft
-  /// blur behind the status bar alone, not running on past it as a `.soft` of
-  /// our choosing does; on iOS 26 it looks right too (iPhone, 2026-11-10).
-  /// **Never a style of our own here**: a set `.soft` or `.hard` covers the
-  /// bar's held place (`ViewerBarHost`) even while it is minimized, the bar's
-  /// background hidden or not. A blur of our own sized to the status bar
-  /// (`UIVisualEffectView`, any `UIBlurEffect.Style`, masked or not, inside the
-  /// viewer's card or outside it) blurred nothing over the text (iPhone,
-  /// 2026-11-10), and a material faded by a gradient read as a fade.
-  struct EdgeEffects: ViewModifier {
-    let bars: ReaderBars
-    let edge: VerticalEdge
-    @Environment(\.nativeViewerBar) private var native
-
-    func body(content: Content) -> some View {
-      content
-        .scrollEdgeEffectHidden(native ? false : bars.hidden, for: .top)
-        .scrollEdgeEffectHidden(true, for: .bottom)
-    }
-  }
-
-  struct StatusBar: ViewModifier {
-    let bars: ReaderBars
-    /// Only over a reader, with Journeys closed.
-    let allowed: Bool
-
-    func body(content: Content) -> some View {
-      content.statusBarHidden(allowed && bars.hidden)
-    }
-  }
-}
-
-/// The header's measurements, which `ViewerBar` and the sidebar's header share
-/// so the logo sits level with the Journeys button in either orientation.
+/// The sidebar's header's measurements, so the logo sits level with the Journeys
+/// button in either orientation, and the title pill's height.
 ///
 /// **The buttons sit at the top of the bar, `below` beneath them** (chosen
 /// 2026-10-19, by eye on an iPhone): flush under the status bar in portrait, `8`
 /// from the screen's edge in landscape. A first pass copied the old navigation
 /// bar's 54pt with the buttons centred, and 24pt in landscape; both sat too low.
 enum BarMetrics {
-  /// The glass circle behind each button, and the title pill's height.
+  /// The glass circle behind the header's button, and the title pill's height.
   static let button: CGFloat = 44
   /// The bar's space beneath its buttons: the same gap a tapped line's highlight
   /// keeps from the bar, and from the screen's sides (chosen 2026-10-19).
   static let below: CGFloat = BaniReaderView.tapLandingGap
-  static let height: CGFloat = button + below
   /// iPhone in landscape only (a compact height); elsewhere the status bar's
   /// safe area already sits above the bar.
   static func topMargin(_ verticalSizeClass: UserInterfaceSizeClass?) -> CGFloat {
@@ -1019,9 +758,10 @@ enum InterfaceText {
 }
 
 extension View {
-  /// A header button: a 44pt glass circle, as a navigation bar's are on iOS 26.
-  /// A long press shows the large content viewer unless `largeContentViewer` is
-  /// false, for a button whose long press does something else (`ControlsButton`).
+  /// A header button outside a toolbar (`JourneysPanel`): a 44pt glass circle, as a
+  /// navigation bar's are on iOS 26. A long press shows the large content viewer
+  /// unless `largeContentViewer` is false, for a button whose long press does
+  /// something else.
   @ViewBuilder
   func barCircle(largeContentViewer: Bool = true) -> some View {
     let circle = buttonStyle(.plain)
@@ -1070,8 +810,6 @@ private struct DefaultScreen: View {
     Self.pills.compactMap { id in Corpus.banis.first { $0.id == id } }
   }
 
-  @Environment(\.horizontalSizeClass) private var horizontalSizeClass
-
   var body: some View {
     // Centred when it fits; **scrolls when it does not**, as at the largest Text
     // Size. Taller than the screen and not scrolling, it made the whole shell taller
@@ -1085,7 +823,7 @@ private struct DefaultScreen: View {
     .background(DesignTokens.background)
     // No title, since nothing is being read; Controls is here too, so the preview
     // and appearance are reachable before anything is open.
-    .modifier(ViewerBarHost(title: nil, edge: .viewerBar(horizontalSizeClass), onJourneys: onJourneys, bars: nil) {
+    .modifier(ViewerBarHost(title: nil, onJourneys: onJourneys) {
       ControlsButton(isPresented: $controlsShown, onSettings: onSettings)
     })
   }
@@ -1220,10 +958,11 @@ private struct JourneysPanel: View {
       if let onClose {
         Spacer(minLength: 0)
         JourneysButton(action: onClose)
+          .barCircle()
       }
     }
     .padding(.leading, Self.inset)
-    // The button as far from the edge as in the viewer's bar (`ViewerBar`).
+    // The button as far from the edge as the toolbar's.
     .padding(.trailing, onClose == nil ? Self.inset : 16)
     // Centred in a button's height, then the bar's space beneath, so the logo is
     // level with the Journeys button.
