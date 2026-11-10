@@ -139,8 +139,8 @@ struct ControlsButton: View {
     .sensoryFeedback(.impact(weight: .medium), trigger: longPressed) { _, pressed in pressed }
     .accessibilityLabel("Controls")
     .accessibilityAction(named: "Settings", onSettings)
-    .barCircle(largeContentViewer: false)
-    // After `barCircle`, so the popover points at the circle.
+    .viewerBarButton(largeContentViewer: false)
+    // After `viewerBarButton`, so the popover points at the circle.
     .popover(isPresented: $isPresented) {
       ControlsPanel(onSettings: settingsFromPanel)
         .dynamicTypeSize(...InterfaceText.cap)
@@ -342,8 +342,9 @@ struct BaniReaderView: View {
   /// The line to open at, by `ReaderItem.id`: where `continue reading` left off, or
   /// nil for the top of the bani.
   let startLine: String?
-  /// The header's Journeys button; `ReaderShell` opens or closes the sidebar.
-  let onJourneys: () -> Void
+  /// The header's Journeys button; `ReaderShell` opens or closes the sidebar. Nil
+  /// while the button is in the open panel's header instead (`ReaderShell.splitShell`).
+  let onJourneys: (() -> Void)?
   /// Whether the header's Controls button is presenting Controls; `ReaderShell`
   /// closes it when Journeys opens.
   @Binding var controlsShown: Bool
@@ -421,6 +422,7 @@ struct BaniReaderView: View {
 
   /// At the foot on iPhone, at the top on iPad (`VerticalEdge.viewerBar`).
   @Environment(\.horizontalSizeClass) private var horizontalSizeClass
+  @Environment(\.nativeViewerBar) private var nativeViewerBar
   private var barEdge: VerticalEdge { .viewerBar(horizontalSizeClass) }
 
   /// Bound only so `tapLine` can scroll to an offset; see its doc comment.
@@ -579,8 +581,11 @@ struct BaniReaderView: View {
         // look, so the text passes under them unfaded. That departs from
         // interaction.md's fade, which asks for the header.
         // With the bar at the top (iPad) the band behind it is `.hard`, as above.
-        .scrollEdgeEffectStyle(barEdge == .top ? .hard : .soft, for: .top)
-        .modifier(ReaderBars.EdgeEffects(bars: bars))
+        // With the system's toolbar, the system's own style (`ReaderBars.EdgeEffects`).
+        .scrollEdgeEffectStyle(
+          nativeViewerBar ? .automatic : (barEdge == .top ? .hard : .soft), for: .top
+        )
+        .modifier(ReaderBars.EdgeEffects(bars: bars, edge: barEdge))
         .onScrollPhaseChange { _, phase in
           if phase == .interacting { activity.touch() }
           barsFollow.byUser = phase == .interacting || phase == .decelerating
@@ -618,12 +623,9 @@ struct BaniReaderView: View {
     .background(DesignTokens.background)
     // No bar background: the text scrolls under the buttons, with nothing
     // blurred or tinted behind them.
-    .safeAreaBar(edge: barEdge) {
-      ViewerBar(title: bani.latin, edge: barEdge, onJourneys: onJourneys) {
-        ControlsButton(isPresented: $controlsShown, onSettings: onSettings)
-      }
-      .modifier(ReaderBars.Follows(bars: bars, edge: barEdge))
-    }
+    .modifier(ViewerBarHost(title: bani.latin, edge: barEdge, onJourneys: onJourneys, bars: bars) {
+      ControlsButton(isPresented: $controlsShown, onSettings: onSettings)
+    })
   }
 
   @ViewBuilder
@@ -757,10 +759,13 @@ struct BaniReaderView: View {
         // row's own top: the highlight reaches `bleed` above the row, and landed
         // the row itself under the header's buttons (2026-10-19). Less
         // `tapLandingGap` too, so it lands that far below the bar.
-        // With the bar at the top (iPad), the tap hides it, so the line lands
-        // where it was, below the status bar, not below the bar: the bar keeps its
-        // place in the layout (`ReaderBars`), so the inset still counts it.
-        let hiddenBar = barEdge == .top && !voiceOverEnabled && !controlsShown ? BarMetrics.height : 0
+        // With our bar at the top, the tap hides it, so the line lands where it
+        // was, below the status bar, not below the bar: the bar keeps its place
+        // in the layout (`ReaderBars`), so the inset still counts it. The
+        // system's bar holds its place, minimized or not (`ViewerBarHost`), so
+        // the line lands below that place, which the inset counts.
+        let hiddenBar = barEdge == .top && !nativeViewerBar && !voiceOverEnabled && !controlsShown
+          ? BarMetrics.height : 0
         withAnimation(.smooth(duration: Self.tapScrollDuration)) {
           scrollPosition.scrollTo(
             y: sample.offsetY + sample.insetTop + frame.minY - ReaderCard.bleed - Self.tapLandingGap + hiddenBar

@@ -348,7 +348,19 @@ opens and closes it; opening gives a light haptic. Findings the code relies on:
   (iOS 27) returned nothing on a full-screen view, so the radius is not read.
 - **The viewer is masked only while moved**, as on Android. Masked at rest, its
   corners showed the white sidebar in screenshots, screen recordings and AirPlay
-  mirroring, which are square (2026-11-10).
+  mirroring, which are square (2026-11-10). At rest its mask is square.
+- **Everything that follows the slide reads the value being drawn, never the
+  state it is going to** (`ViewerCard`, an `Animatable` modifier). The shell's
+  `progress` comes from `journeysOpen` and `dragX`, which an animation sets to
+  their end at once, so in a close by animation (tapping the edge, or a swipe
+  the animation finishes) it is 0 from the first frame. A `progress != 0` check
+  against it squared the corners at the start of the close, and as an
+  `if`/`else` in the mask it faded between its two shapes, so the viewer turned
+  partly see-through and the sidebar's words showed through it (iPhone,
+  2026-11-10). The wash, mask, hairline and shadow are one modifier given
+  `progress` as animatable data; the mask is one shape whose corners change,
+  never a conditional view, and its change is not animated. Android reads the
+  slide's animated value inside `graphicsLayer` and draw blocks, the same rule.
 - **The sidebar is plain SwiftUI: no `NavigationStack`, no `List`.** It zooms from
   95% as the viewer slides, and the UIKit-backed containers answered the zoom by
   laying out again at the smaller size; at full size everything jumped and a row
@@ -401,10 +413,79 @@ opens and closes it; opening gives a light haptic. Findings the code relies on:
 
 **Verified on an iPhone (2026-10-16):** rounded corners through the whole slide,
 the sidebar's fade and zoom with no jump, opening and closing by button, edge and
-drag. **Not yet checked:** iPad (the sidebar is full screen there too,
-where the spec has it beside the viewer), and `continue reading` after a force quit
+drag. **Not yet checked:** `continue reading` after a force quit
 (added 2026-10-16). Android has the same shell since 2026-10-16
 ([android/README.md](../android/README.md#reading-shell)).
+
+**iPad and the iPhone Duo (either display) have the platform's own shell**
+(`ReaderShell.splitShell`, 2026-11-10;
+[reading-shell.md](../../docs/requirements/reading-shell.md#four-surfaces-one-of-them-always-visible)):
+a `NavigationSplitView` whose sidebar is `JourneysPanel`; every other iPhone has
+the card. **Every device has the system's toolbar** for the viewer's buttons and
+title (`ViewerBarHost`), a trial switched by `ReaderShell.systemToolbar`
+(2026-11-10); false returns all of them to `ViewerBar`. On iPhone the viewer is in
+a `NavigationStack` inside the sliding card, the arrangement that failed on
+2026-10-16 (`ViewerBar`'s doc comment). **To check on an iPhone:** the bar and its
+pill at the top through a Journeys slide, by drag and by button, in portrait and
+landscape (did the Controls button stick or the title rewrap?); hide on scroll; a
+tapped line's landing; the Controls popover. **On iOS 27, the system
+minimizes the bar on a scroll down** (`toolbarMinimizationBehavior(.onScrollDown)`),
+with the safe area held (`toolbarMinimizationSafeAreaAdjustment(.disabled)`), in
+place of `.toolbar(.hidden)`, which gives up the bar's place and stuttered a scroll
+under way (2026-11-10, a trial; better than ours on iPad). UIKit documents
+minimization for the navigation bar alone, and the bottom bar did not minimize
+(iPhone, 2026-11-10), so with the system's toolbar the bar is at the top on every
+device (`VerticalEdge.viewerBar`). **Before iOS 27 the system's bar never hides**; hidden, it
+gave up its place and stuttered a scroll under way (2026-11-10). **A tapped
+line's scroll drives minimization as a finger's does**, so a short one can
+leave the bar part minimized; pausing it with `.never` showed a minimized bar
+on every tap (2026-11-10). The line lands below the bar's place. **The status bar always shows with the system's
+toolbar**: passed to the same modifier (`.statusBar`, a placement since iOS 27) it
+stayed (iPhone, 2026-11-10), and hidden by our own rule beside the system's bar
+the two fell out of step, one shown while the other hid. The minimized bar's item
+is measurable (the pill's frame slides from y 59 to 5 on an iPhone), but driving
+the status bar from it was judged too complicated (2026-11-10). **To check on an iPad:** what a
+minimized bar looks like; a smooth scroll and change of direction; whether a
+tapped line's programmatic scroll minimizes it, and where the line lands. Chosen by device (`besideViewer`): the `.pad` idiom, or a
+hinge (`HingeWatch`, `onHingeChange`, iOS 27.1). The split view's own toggle is
+removed for the Journeys button (`JourneysButton`), which is in the panel's header
+while it is open and in the viewer's bar while it is closed (`viewerJourneys`), so
+hiding the viewer's bar never hides the way to close the panel; closing it leaves
+hidden bars hidden. The left-edge swipe is the split view's own. In one column
+(`oneColumn`: the Duo's outer display, a narrow iPad window) the shell is
+not the split view but a `NavigationStack` (`stackShell`), Journeys its root and
+the viewer pushed onto it at launch, as Files does; the swipe is iOS 26's back
+swipe from anywhere. The split view's own collapsed form opened on Journeys there. The sidebar is not a floating glass panel:
+on this iPadOS (iPad, 2026-11-10) Mail's and Notes' are not either.
+
+The system's toolbar is the navigation bar, at the top on every device (above);
+`ViewerBarHost` keeps a foot (bottom bar) branch for `ViewerBar`'s compact edge
+should the trial end. **The title is always `TitlePill`**, the toolbar's shared glass
+off behind it, so it is one glass pill as Safari's field is. **Behind the bar
+and the status bar is the system's own edge effect, in its automatic style**
+(`ReaderBars.EdgeEffects`, 2026-11-10). On iOS 27, automatic is a hard band
+behind the bar while it is up and a soft blur behind the status bar alone while
+it is minimized; on iOS 26 it looks right too. A style we set covers the bar's
+held place even while it is minimized, and a blur of our own sized to the
+status bar blurred nothing (`EdgeEffects`' doc comment has what was tried). **The status bar is never hidden there**
+(`ReaderBars.StatusBar`): in Split View on the Duo the app had none of its own,
+and hiding it flickered on every scroll. **A hidden system bar gives up its place**,
+where `ViewerBar` keeps it, so the text moves as it hides and shows, and a tapped
+line's landing (`tapLine`), which counts on the place being kept, is off by the
+bar's height at the top. **The Controls popover is unreliable in the system's
+toolbar** (Duo simulator, 2026-11-10): it opened on either side or not at all, and
+UIKit logged a zoom transition from a `_UIButtonBarButton` not in the window. Not
+yet tried: the `ToolbarItem`'s `matchedTransitionSource` with the popover attached
+outside the item.
+
+**To check on a device:** `.automatic` in portrait and landscape (beside the
+viewer, or over it: if over, `.balanced`); the left-edge swipe with the panel
+closed, in two columns and in one; whether the back swipe works with the
+navigation bar hidden (the bottom-bar layout hides it, and UIKit has been known
+to switch the back swipe off then); choosing a bani in one
+column; the Duo launched already unfolded and folded (whether `onHingeChange`
+reports at once; if not, the iPhone's shell shows until the hinge moves); hide on
+scroll; a tapped line's landing; the Controls popover.
 
 Reader font size, pauses, pronunciations and ratio are persisted on both
 platforms, under the same keys ([apps/README.md](../README.md#state-of-play)).

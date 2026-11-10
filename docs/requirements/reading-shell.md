@@ -48,9 +48,43 @@ returns to the viewer. **The sidebar is as wide in landscape as in portrait**
 (2026-10-16): its width comes from the screen's short side, so turning the device
 leaves more of the viewer in view rather than stretching the sidebar across it.
 The width is that of its contents, clear of a camera cutout at its edge: a cutout's
-inset is added to the sidebar, not taken from it (2026-10-19). On wider surfaces (web, iPad) it behaves like claude.ai's
-sidebar: a toggleable panel alongside the viewer rather than over it. The same
-states and the same controls; only the presentation of "open" differs.
+inset is added to the sidebar, not taken from it (2026-10-19).
+
+**On iPad and the iPhone Duo, Journeys is the platform's own sidebar beside the
+viewer** (2026-11-10), with the platform's own toolbar for the viewer's buttons and
+title: as native a setup as each allows. On iPadOS that is `NavigationSplitView`
+(`.automatic` on trial, `.balanced` if that puts it over the viewer in portrait).
+The web is to behave the same way. **Which one is decided by the device, not the
+width**: every other iPhone, in portrait and landscape, keeps the sliding viewer
+above; iPad, and the Duo on either display, have the sidebar. A window that
+shrinks to an iPhone's width does not turn into the iPhone's shell. (The viewer's
+bar is placed by width, [ADR-0016](../architecture/decisions/0016-controls-and-the-viewers-bar.md).)
+
+- **Opening it moves the viewer over and narrows it; it never covers it.** There
+  is no overlay ("unpinned") form and no edge to tap.
+- **It opens by the Journeys button or by a swipe from the screen's left edge**,
+  the split view's own, and **closes by the button**. It stays open while things
+  are tapped and read in it or in the viewer.
+- **Where the screen holds one column** (the Duo's outer display, an iPad window
+  as narrow as an iPhone), one screen shows at a time, as in Files: **the app
+  opens on the viewer** (the default screen is `New journey`), pushed onto
+  Journeys; a horizontal swipe from anywhere on it, the system's back swipe,
+  returns to Journeys; choosing something there shows the viewer again.
+- **The button goes with the panel**, as the sidebar toggle does in iPadOS's Mail
+  and Notes: while the panel is open it sits at the trailing end of the panel's
+  header, and the viewer's bar has none; while closed it is in the viewer's bar.
+  So when the viewer's bar hides as the reader scrolls, an open panel can still be
+  closed; a closed one opens again once the bar returns, or by the swipe.
+- **Opening or closing it changes the viewer's width**, and the line at the top is
+  kept as through a rotation or a resized window. That is measured below the bar's
+  place even while the bar is hidden, so with it hidden the reader can move by
+  about a line; accepted (2026-11-10).
+
+The same states as on a phone; only the presentation of "open" differs. *Open:*
+whether an open panel is still open after a relaunch; whether the screen stays
+awake while reading with the panel open
+([below](#the-screen-stays-awake-while-content-is-read) says no sidebar may be
+open); Android tablets.
 
 **Controls is not a sidebar** ([ADR-0016](../architecture/decisions/0016-controls-and-the-viewers-bar.md)):
 it is the platform's own container for options opened from a button — a popover on
@@ -172,27 +206,48 @@ are shown.
 Decided 2026-11-09 ([ADR-0016](../architecture/decisions/0016-controls-and-the-viewers-bar.md)).
 
 - **Where the bar is differs by platform**:
-  - **iPhone: a bar at the foot of the viewer**, as Safari's: Journeys at the left,
-    the title in the middle, Controls at the right, within thumb's reach. Nothing
-    is drawn behind it ([interaction.md](../interaction.md#the-system-bars)).
-  - **iPad: at the top**, as iPadOS's own bars are, with the edge effect's band
-    behind it. Decided by width, not by device: a regular width puts it at the top, a
-    compact one (an iPad window narrowed to an iPhone's width) at the foot. Hidden,
-    it slides up; a tapped line lands below the status bar, where the bar was.
+  - **iOS, every device: the system's toolbar at the top of the viewer**
+    (2026-11-10, a trial, pending review): Journeys at the left, the title in the
+    middle, Controls at the right. Behind it and the status bar, the system's
+    own scroll edge effect, so the text passing under the clock does not clash
+    with it ([interaction.md](../interaction.md#the-system-bars)): the
+    system's automatic style, a band behind the bar while it is up, and a soft
+    blur behind the status bar alone while it is minimized (iOS 27). **On iOS 27 the system
+    minimizes it on a scroll down and restores it on a scroll back**, holding its
+    place so the text never moves; only the top bar does this, the bottom bar
+    does not, so the foot's thumb reach is given up for it. It was at the foot on
+    iPhone (2026-11-09), as Safari's, within thumb's reach.
+  - **The title is always a glass pill floating on the text**, as Safari's address
+    field is: never a header across the screen, on any device or orientation
+    (2026-11-10). On iOS the system's edge effect lies under it (above), chosen
+    over a status bar with nothing behind it (2026-11-10).
   - **Android: at the top**, where a top app bar is the convention, and where the
     foot may already hold three-button navigation; the two together at the foot
     would crowd it. Hidden, it slides up past the status bar. **No fade under it**:
     the text runs under it as it is. Behind the status bar, while it shows, a solid
     band in the viewer's background.
 - **Everything below holds on every platform.**
-- **Reading onward hides it, and the status bar**, as a browser hides its bars:
+- **Reading onward hides it, and the status bar** (not on iOS, 2026-11-10, a trial
+  with the system's toolbar: the status bar always shows there, since the system
+  minimizes its bar but not the status bar, and the two hidden by different rules
+  fell out of step; nor, before that, on iPad or the iPhone Duo, since in Split
+  View or a window the app may have none of its own, and hiding it flickered), as
+  a browser hides its bars:
   scrolling down, or tapping a line (whose scroll carries the reader down). **A
   tapped line lands just below the camera cutout**, where the hidden bar was,
   rather than below the bar; its highlight's top a gutter's gap
   (8) below the cutout, or below the screen's top where there is none, as on iOS,
   whose safe area plays the cutout's part; under a screen reader, where
-  the header stays, below it. Scrolling
-  back up shows them; so does reaching the top, and coming back from Journeys.
+  the header stays, below it. **On iOS, with the system's toolbar (2026-11-10,
+  a trial), a tap's scroll moves the bar as a finger's does**, and the line
+  lands a gutter's gap below the bar's place, which the bar holds; a short
+  scroll can leave the bar part minimized. **The rules below are for the
+  app's own bar**: the system's minimizes by its own (iOS 27), and before iOS
+  27 it never hides, since a hidden system bar gives up its place and the text
+  moving under a scroll under way stuttered it. Scrolling
+  back up shows them; so does reaching the top, and coming back from Journeys
+  on a phone. Closing a panel beside the viewer only hides the panel: hidden
+  bars stay hidden (2026-11-10).
 - **Any movement counts**: 1pt down hides, 1pt up shows (chosen on an iPhone).
   Only the person's own scrolling counts — a
   drag and the fling after it — never a pinch or a rotation, which move the text
