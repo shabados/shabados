@@ -191,17 +191,17 @@ nothing to restore.
 ### The system bars
 
 What sits behind the viewer's bar and the system's bars (2026-11-09,
-[ADR-0016](architecture/decisions/0016-controls-and-the-viewers-bar.md)). The
-Journeys sidebar's header keeps its own: a fade on Android, iOS's `.hard` edge
+[ADR-0016](architecture/decisions/0016-controls-and-the-viewers-bar.md); iOS
+2026-11-10, [ADR-0018](architecture/decisions/0018-ios-the-platforms-own-shell-and-toolbar.md)).
+The Journeys sidebar's header keeps its own: a fade on Android, iOS's `.hard` edge
 effect.
 
-**iPhone: the viewer's bar is at the foot, with nothing behind it.** Its glass
-buttons float over the text, as Mail's toolbar buttons do; text passes under them
-unfaded. Behind the status bar the scroll edge effect is `.soft`, a fading blur; it
-hides with the bars
+**iOS: the system's scroll edge effect in its automatic style**, behind the
+system's toolbar at the top and the status bar, which always shows: on iOS 27 a
+band behind the bar while it is up, and a soft blur behind the status bar alone
+while the bar is minimized. Never a style of the app's choosing: a set `.soft` or
+`.hard` covers the bar's held place even while it is minimized
 ([reading-shell.md](requirements/reading-shell.md#the-bars-follow-the-scroll)).
-**iPad: the bar is at the top**, with the `.hard` edge effect behind it, a band that
-ends at the bar's edge so a tapped line never lands partly blurred.
 
 **Android: no fade under the reader's header**; the text runs under it as it is. **Behind the status bar, while it shows, a solid band in the viewer's
 background**, exactly the status bar's height, so text never runs through the clock

@@ -1,6 +1,9 @@
 # 16. Controls is the platform's own container; the viewer's bar follows the scroll
 
-2026-11-09 · **Accepted** (2026-11-09)
+2026-11-09 · **Accepted** (2026-11-09) · **Superseded on iOS in part** by
+[ADR-0018](0018-ios-the-platforms-own-shell-and-toolbar.md) (2026-11-10): the
+viewer's bar there is the system's toolbar, at the top, minimized by the system;
+Controls, and everything for Android, stand.
 
 Behaviour: [reading-shell.md](../../requirements/reading-shell.md#controls),
 [reading-shell.md](../../requirements/reading-shell.md#the-bars-follow-the-scroll),
@@ -77,9 +80,7 @@ and a Galaxy A16.
   tested on Android (`GestureMatrixTest`, `ShellTest`).
 - **Open:** the iPhone Duo. When iOS turns system bars vertical on its outer display
   the viewer's bar, being custom, stays horizontal; following
-  `EnvironmentValues.toolbarVerticalEdge` (iOS 27.1) is the likely route.
-  *Trial since 2026-11-10:* the Duo takes the system's toolbar instead (amendment
-  under Rejected). The inner
+  `EnvironmentValues.toolbarVerticalEdge` (iOS 27.1) is the likely route. The inner
   display's gutters and a fold-aware title are unspecified.
 
 ## Rejected
@@ -94,21 +95,7 @@ and a Galaxy A16.
 - **A custom overlay** — no arrow and any size, but its dismissal, accessibility,
   sizing and gesture arbitration would all be ours.
 - **The system toolbar (`NavigationStack`) for the viewer's bar** — UIKit's bar
-  recomputed its safe area as the viewer slid aside for Journeys (2026-10-16). Rejected
-  for the card shell only: **amended 2026-11-10, pending review** — iPad and the
-  iPhone Duo have the system's split view, where the viewer does not slide, and
-  take the system's toolbar ([reading-shell.md](../../requirements/reading-shell.md#four-surfaces-one-of-them-always-visible)).
-  It gives up its place when hidden, which the entry below rejects for a
-  scroll under way; on those devices that is accepted as a trial. **Since
-  2026-11-10 the trial covers the iPhone's card too**, the case this entry was
-  rejected for, to see whether iOS 26 still fails it (`ReaderShell.systemToolbar`).
-  **Hiding it gave up its place and stuttered a scroll under way, as the entry
-  below records**; on iOS 27 the system's own minimization (`toolbarMinimizationBehavior`,
-  with the safe area held) replaces that hiding and scrolls better than ours did
-  (iPad, 2026-11-10). It works for the navigation bar only, so **the iPhone's bar
-  moves to the top** for it, giving up "iPhone: at the foot" below. The system
-  does not minimize the status bar, so with its toolbar **the status bar always
-  shows**, giving up "reading onward hides … the status bar" below.
+  recomputed its safe area as the viewer slid aside for Journeys (2026-10-16).
 - **Bars that hide instantly, or after a distance, or interruptibly** — instant
   flickered at some scroll speeds; removing the bar from the layout stuttered a scroll
   under way; an interruptible animation restarted on every turn.

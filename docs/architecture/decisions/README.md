@@ -26,8 +26,9 @@ decision recommended, awaiting sign-off) · **Accepted** (build against it).
 | [0013](0013-three-layers-of-specification.md) | Three layers of specification, split by lifetime | Accepted | Requirements stay platform-neutral; icon/gesture mappings are generated data; principles stay in CLAUDE.md. |
 | [0014](0014-one-app-three-shells.md) | One app, three shells | Accepted | Swift, Kotlin, and a web codebase in OS webviews. No Electron. D-pad is the input constraint; the web server is core. |
 | [0015](0015-apps-vs-projects.md) | `apps/` holds the product's shells; `projects/` holds everything else | Accepted | `apps/library` → `projects/library`; a tool the corpus review depends on, not a shell of Shabad OS. |
-| [0016](0016-controls-and-the-viewers-bar.md) | Controls is the platform's own container; the viewer's bar follows the scroll | Accepted | Popover on iOS, modal sheet on Android, no Controls sidebar; the bar at the foot on iPhone, the top elsewhere, hidden while reading onward. |
+| [0016](0016-controls-and-the-viewers-bar.md) | Controls is the platform's own container; the viewer's bar follows the scroll | Accepted; bar superseded on iOS by 0018 | Popover on iOS, modal sheet on Android, no Controls sidebar; the bar at the foot on iPhone, the top elsewhere, hidden while reading onward. |
 | [0017](0017-copy-by-line-not-free-text-selection.md) | Copy by line; no free text selection | Accepted | No handles or long-press selection anywhere; copy whole lines from a line's menu or a select mode, neither built yet. |
+| [0018](0018-ios-the-platforms-own-shell-and-toolbar.md) | On iOS, the platform's own shell and toolbar | Accepted | Split view beside the viewer on iPad and the Duo; the system's toolbar at the top everywhere, minimized on scroll (iOS 27); the status bar always shows. |
 
 Related: [presenter-capabilities.md](../../presenter-capabilities.md) — what v2
 does today, the input these decisions were made against.

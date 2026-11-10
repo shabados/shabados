@@ -57,8 +57,8 @@ title: as native a setup as each allows. On iPadOS that is `NavigationSplitView`
 The web is to behave the same way. **Which one is decided by the device, not the
 width**: every other iPhone, in portrait and landscape, keeps the sliding viewer
 above; iPad, and the Duo on either display, have the sidebar. A window that
-shrinks to an iPhone's width does not turn into the iPhone's shell. (The viewer's
-bar is placed by width, [ADR-0016](../architecture/decisions/0016-controls-and-the-viewers-bar.md).)
+shrinks to an iPhone's width does not turn into the iPhone's shell
+([ADR-0018](../architecture/decisions/0018-ios-the-platforms-own-shell-and-toolbar.md)).
 
 - **Opening it moves the viewer over and narrows it; it never covers it.** There
   is no overlay ("unpinned") form and no edge to tap.
@@ -203,51 +203,47 @@ are shown.
 
 ### The bars follow the scroll
 
-Decided 2026-11-09 ([ADR-0016](../architecture/decisions/0016-controls-and-the-viewers-bar.md)).
+Decided 2026-11-09 ([ADR-0016](../architecture/decisions/0016-controls-and-the-viewers-bar.md));
+on iOS, 2026-11-10 ([ADR-0018](../architecture/decisions/0018-ios-the-platforms-own-shell-and-toolbar.md)).
 
-- **Where the bar is differs by platform**:
-  - **iOS, every device: the system's toolbar at the top of the viewer**
-    (2026-11-10, a trial, pending review): Journeys at the left, the title in the
-    middle, Controls at the right. Behind it and the status bar, the system's
-    own scroll edge effect, so the text passing under the clock does not clash
-    with it ([interaction.md](../interaction.md#the-system-bars)): the
-    system's automatic style, a band behind the bar while it is up, and a soft
-    blur behind the status bar alone while it is minimized (iOS 27). **On iOS 27 the system
-    minimizes it on a scroll down and restores it on a scroll back**, holding its
-    place so the text never moves; only the top bar does this, the bottom bar
-    does not, so the foot's thumb reach is given up for it. It was at the foot on
-    iPhone (2026-11-09), as Safari's, within thumb's reach.
-  - **The title is always a glass pill floating on the text**, as Safari's address
-    field is: never a header across the screen, on any device or orientation
-    (2026-11-10). On iOS the system's edge effect lies under it (above), chosen
-    over a status bar with nothing behind it (2026-11-10).
-  - **Android: at the top**, where a top app bar is the convention, and where the
-    foot may already hold three-button navigation; the two together at the foot
-    would crowd it. Hidden, it slides up past the status bar. **No fade under it**:
-    the text runs under it as it is. Behind the status bar, while it shows, a solid
-    band in the viewer's background.
-- **Everything below holds on every platform.**
-- **Reading onward hides it, and the status bar** (not on iOS, 2026-11-10, a trial
-  with the system's toolbar: the status bar always shows there, since the system
-  minimizes its bar but not the status bar, and the two hidden by different rules
-  fell out of step; nor, before that, on iPad or the iPhone Duo, since in Split
-  View or a window the app may have none of its own, and hiding it flickered), as
-  a browser hides its bars:
-  scrolling down, or tapping a line (whose scroll carries the reader down). **A
-  tapped line lands just below the camera cutout**, where the hidden bar was,
-  rather than below the bar; its highlight's top a gutter's gap
-  (8) below the cutout, or below the screen's top where there is none, as on iOS,
-  whose safe area plays the cutout's part; under a screen reader, where
-  the header stays, below it. **On iOS, with the system's toolbar (2026-11-10,
-  a trial), a tap's scroll moves the bar as a finger's does**, and the line
-  lands a gutter's gap below the bar's place, which the bar holds; a short
-  scroll can leave the bar part minimized. **The rules below are for the
-  app's own bar**: the system's minimizes by its own (iOS 27), and before iOS
-  27 it never hides, since a hidden system bar gives up its place and the text
-  moving under a scroll under way stuttered it. Scrolling
-  back up shows them; so does reaching the top, and coming back from Journeys
-  on a phone. Closing a panel beside the viewer only hides the panel: hidden
-  bars stay hidden (2026-11-10).
+- **The viewer's bar holds Journeys at the left, the title in the middle, Controls
+  at the right.** **The title is always a glass pill floating on the text**, as
+  Safari's address field is: never a header across the screen, on any device or
+  orientation (2026-11-10).
+
+**iOS: the system's toolbar, at the top, on every device.**
+
+- **On iOS 27 the system minimizes it on a scroll down and restores it on a scroll
+  back**, holding its place so the text never moves. Only the top bar minimizes,
+  so the iPhone's bar is at the top too, giving up the foot's thumb reach (it was
+  at the foot, 2026-11-09). **Before iOS 27 it never hides**: a hidden system bar
+  gives up its place, and the text moving under a scroll under way stuttered it.
+- **The status bar always shows.** The system does not minimize it with the bar,
+  and the two hidden by different rules fell out of step.
+- **Behind the bar and the status bar, the system's own scroll edge effect** in its
+  automatic style, so the text passing under the clock does not clash with it: a
+  band behind the bar while it is up, a soft blur behind the status bar alone
+  while it is minimized (iOS 27) ([interaction.md](../interaction.md#the-system-bars)).
+- **A tapped line's scroll moves the bar as a finger's does**; a short one can leave
+  it part minimized. The line lands a gutter's gap (8) below the bar's place,
+  which the bar holds, minimized or not.
+- **Closing a panel beside the viewer only hides the panel**: a minimized bar stays
+  minimized (2026-11-10).
+
+**Android: a bar of the app's own, at the top**, where a top app bar is the
+convention, and where the foot may already hold three-button navigation; the two
+together at the foot would crowd it. Hidden, it slides up past the status bar.
+**No fade under it**: the text runs under it as it is. Behind the status bar, while
+it shows, a solid band in the viewer's background.
+
+- **Reading onward hides it, and the status bar**, as a browser hides its bars:
+  scrolling down, or tapping a line (whose scroll carries the reader down).
+  Scrolling back up shows them; so does reaching the top, and coming back from
+  Journeys.
+- **A tapped line lands just below the camera cutout**, where the hidden bar was,
+  rather than below the bar; its highlight's top a gutter's gap (8) below the
+  cutout, or below the screen's top where there is none; under a screen reader,
+  where the header stays, below it.
 - **Any movement counts**: 1pt down hides, 1pt up shows (chosen on an iPhone).
   Only the person's own scrolling counts — a
   drag and the fling after it — never a pinch or a rotation, which move the text
@@ -257,14 +253,14 @@ Decided 2026-11-09 ([ADR-0016](../architecture/decisions/0016-controls-and-the-v
   mid-animation starts another.
 - **It never touches the scroll.** The bar keeps its place and is only slid and
   faded; removing it would change the reading area's size, which lays the text out
-  again mid-scroll and stutters. Nor does the status bar: the reader is laid out as if it
-  were showing (on Android, `statusBarsIgnoringVisibility`), so hiding it moves
-  nothing. Whatever is drawn behind the bars goes with them.
-- **Never while Controls is open** (the popover points at the bar), **nor under a
-  screen reader**, which reads the bar as it moves through the screen.
+  again mid-scroll and stutters. Nor does the status bar: the reader is laid out as
+  if it were showing (`statusBarsIgnoringVisibility`), so hiding it moves nothing.
+  Whatever is drawn behind the bars goes with them.
+- **Never while Controls is open** (it opens from the bar), **nor under a screen
+  reader**, which reads the bar as it moves through the screen.
 - The status bar hides only over content being read: the default screen and the
-  Journeys sidebar keep it. On Android, while it is hidden a swipe down from the top shows
-  it for a moment, the system's own way back to it.
+  Journeys sidebar keep it. While it is hidden a swipe down from the top shows it
+  for a moment, the system's own way back to it.
 
 ### The screen stays awake while content is read
 
