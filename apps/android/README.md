@@ -457,7 +457,20 @@ recommends.
 **`libs.versions.toml`'s `kotlin` must equal the Kotlin that AGP embeds**, not the
 latest release. AGP 9.2.1's POM depends on `kotlin-gradle-plugin:2.2.10`, so the
 Compose compiler plugin is pinned to 2.2.10 and the Compose BOM is from the same era
-(2025.10.01). Bumping `kotlin` past AGP's own is a compile-time failure.
+(2026.03.00, Compose 1.10.5, which Navigation 3 needs; 2025.10.01 until
+2026-11-10). Bumping `kotlin` past AGP's own is a compile-time failure.
+
+**Navigation 3 (`androidx.navigation3:navigation3-ui` 1.2.1) holds Settings' pages**
+(2026-11-10). *What it does:* a back stack that is a plain list we own, drawn by
+`NavDisplay`, with the platform's transitions between pages and predictive back
+showing the page beneath. *Why not by hand:* that was done first, and a page's
+transitions, its predictive preview with the page beneath, and saving each page's
+state all had to be rebuilt and kept up; Settings is about to grow (About, links,
+feedback). *If it is abandoned:* the pinned version keeps working, and the surface
+used is small (`NavDisplay`, `NavEntry`, a list) to hand-roll again in
+`SettingsSheet.kt`. It needs Compose 1.10 and `activity-compose` 1.12, whose activity
+owns the navigation events it reads, so both moved with it. Only Settings uses it;
+the reading shell is not a navigation stack.
 
 JSON is parsed with `org.json` from the platform rather than kotlinx-serialization,
 which would add a dependency and a second Kotlin-versioned plugin for about twenty

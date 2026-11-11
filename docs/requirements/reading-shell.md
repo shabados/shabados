@@ -572,9 +572,16 @@ Its title, `Settings`, is centred at the top. **How it closes follows the platfo
 
 - **iOS**: a sheet, closed by swiping it down or by a ✕ at the top right of its first
   page. Pages within it have the system's back at the top left and no ✕.
-- **Android**: a full-screen dialog with no gap at its corners. **Back at the top left
-  of every page, never a ✕**: on the first page it closes Settings, on a page within
-  it returns to the first. System Back does the same. A swipe does not close it.
+- **Android**: a stack of screens, as Android's own Settings is, sliding up over the
+  viewer with no gap at its corners; a page within is pushed onto it with the
+  platform's transition (2026-11-10). **Back at the top left of every page, never a
+  ✕**: on the first page it closes Settings, on a page within it returns to the one
+  before. System Back does the same. A back swipe previews it the same way on every
+  page: the page shrinks from its centre toward 70%, over the page before (fading
+  in) or, from the first page, the viewer. That is Navigation 3's own preview, kept
+  as it comes; Android's documented spec (90%, a fade-through at 35%) was weighed and
+  not taken, as nearly the same for more of our own (2026-11-10). A drag down does
+  not close it.
 
 **Its items are menus, in groups without labels.** A menu opens a page within the
 sheet, with a way back to Settings at its top left.

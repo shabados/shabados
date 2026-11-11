@@ -151,6 +151,7 @@ dependencies {
   implementation(libs.androidx.compose.ui.tooling.preview)
   implementation(libs.androidx.compose.material3)
   implementation(libs.androidx.activity.compose)
+  implementation(libs.androidx.navigation3.ui)
   debugImplementation(libs.androidx.compose.ui.tooling)
 
   // Test-only, never shipped. JUnit 4 is what AGP's JVM unit-test task runs without

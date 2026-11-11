@@ -17,8 +17,13 @@
 [versions]
 agp = "9.2.1"
 kotlin = "2.2.10"
-composeBom = "2025.10.01"
-activityCompose = "1.11.0"
+# 2026.03.00 is Compose 1.10.5 (Material 3 1.4.0, unchanged): Navigation 3 1.2.1
+# needs Compose 1.10. activity-compose 1.12 makes the activity the owner of
+# navigation events, which Navigation 3's back handling reads (2026-11-10).
+composeBom = "2026.03.00"
+activityCompose = "1.12.4"
+# Settings' pages (SettingsSheet.kt). Latest stable on 2026-11-10.
+navigation3 = "1.2.1"
 junit = "4.13.2"
 robolectric = "4.17"
 # The Android 16 framework jar Robolectric 4.17 runs against (app/build.gradle.kts).
@@ -26,6 +31,7 @@ robolectricAndroidAll = "16-robolectric-13921718-i7"
 
 [libraries]
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-navigation3-ui = { group = "androidx.navigation3", name = "navigation3-ui", version.ref = "navigation3" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
