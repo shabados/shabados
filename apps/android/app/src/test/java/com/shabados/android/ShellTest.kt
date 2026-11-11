@@ -258,6 +258,17 @@ class ShellTest {
     assertEquals(1f, Sidebar.scale(1f), 1e-6f)
   }
 
+  @Test fun `a back swipe moves the viewer back over Journeys in step with it`() {
+    assertEquals(1f, Sidebar.backProgress(Side.JOURNEYS, 0f), 1e-6f)
+    assertEquals(0.75f, Sidebar.backProgress(Side.JOURNEYS, 0.25f), 1e-6f)
+    assertEquals(0f, Sidebar.backProgress(Side.JOURNEYS, 1f), 1e-6f)
+    // Out-of-range progress never moves it past either end.
+    assertEquals(1f, Sidebar.backProgress(Side.JOURNEYS, -0.5f), 1e-6f)
+    assertEquals(0f, Sidebar.backProgress(Side.JOURNEYS, 1.5f), 1e-6f)
+    // Nothing open, nothing to move.
+    assertEquals(0f, Sidebar.backProgress(null, 0.5f), 1e-6f)
+  }
+
   @Test fun `the viewer leaves a 72dp edge`() {
     assertEquals(72f, Sidebar.PEEK_DP)
   }

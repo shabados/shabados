@@ -160,6 +160,16 @@ button too, the same in both states ([Controls](#controls)).
 Journeys button all return to the viewer in one action. There is no state where a person has
 tapped something and is still looking at the sidebar wondering whether it worked.
 
+**On Android, every back swipe follows the finger** (predictive back, 2026-11-10),
+as the platform's own surfaces do: whatever Back would close or leave previews it
+as the swipe goes, letting go completes it, and a swipe given up puts it back. Back
+by button or key acts at once. Anything new that Back closes follows the same rule;
+a Material component that does it itself (Controls' bottom sheet) is left to do so.
+With Journeys open, the viewer slides back over it as the swipe goes,
+by the system's own measure of the swipe's progress, from either edge; letting go
+completes the close, and a swipe given up returns the viewer aside. Back by button
+or key closes at once, as before.
+
 **A swipe that moves the viewer is only a swipe** (2026-10-22): it never also
 activates the pill, row or button it started on. **With Controls open, the reader
 takes no touches**: a tap outside Controls closes it and goes no further, so it

@@ -5,7 +5,7 @@ import kotlin.math.abs
 import android.view.HapticFeedbackConstants
 import android.view.RoundedCorner
 import android.view.View
-import androidx.activity.compose.BackHandler
+import androidx.activity.compose.PredictiveBackHandler
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
@@ -106,6 +106,7 @@ import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlin.math.roundToInt
@@ -372,7 +373,21 @@ fun ReaderShell(shell: ShellState, readerKey: Any, banis: List<Bani>, controls: 
     scope.launch { slide.animateTo(0f, SlideSpec) }
   }
 
-  BackHandler(enabled = shell.handlesBack) { setSide(null) }
+  // **Predictive back** (reading-shell.md, 2026-11-10): the system reports a back
+  // swipe's progress as it goes, and the viewer follows it back over Journeys, by
+  // the same `dragProgress` a drag moves it with. Released, it closes from where it
+  // is; given up, it settles back aside. Back by button or key arrives as one
+  // finished event and closes at once.
+  PredictiveBackHandler(enabled = shell.handlesBack) { swipe ->
+    val open = shell.openSide
+    try {
+      swipe.collect { event -> dragProgress = Sidebar.backProgress(open, event.progress) }
+      setSide(null)
+    } catch (e: CancellationException) {
+      setSide(open)
+      throw e
+    }
+  }
 
 
   // Held awake while content is read (`ShellState.keepsScreenOn`). The flag is the

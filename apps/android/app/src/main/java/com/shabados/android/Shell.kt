@@ -253,6 +253,12 @@ object Sidebar {
     null -> 0f
   }
 
+  /** Where a back swipe's [progress] (the system's, 0 to 1) has moved the viewer
+   * from [open]: back over the sidebar in step with the swipe, so a whole swipe
+   * reaches 0, closed (reading-shell.md, predictive back). */
+  fun backProgress(open: Side?, progress: Float): Float =
+    base(open) * (1f - progress.coerceIn(0f, 1f))
+
   /** How visible a sidebar is with the viewer moved [amount] of the way towards
    * showing it, whichever side; [scale] likewise. */
   fun strength(amount: Float): Float =
