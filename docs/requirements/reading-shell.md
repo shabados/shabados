@@ -353,7 +353,7 @@ live use. A **continuous** journey is not ended by it, only its session, so its
 
 ```
 ┌────────────────────────────────┐
-│ (lotus) Shabad OS              │  header — fixed
+│ Shabad OS                      │  header — fixed
 ├────────────────────────────────┤
 │ New journey                    │  ┐ sticky
 │ Tracker    Nitnem  ▓▓▓▓▓░░ 71% │  │
@@ -374,7 +374,8 @@ live use. A **continuous** journey is not ended by it, only its session, so its
 
 ### Header
 
-Lotus logo plus **Shabad OS** at the left. No toggle: the viewer's Journeys button,
+**Shabad OS** at the left, the name alone, in the medium weight (500): no logo
+(2026-11-10). 24pt on iOS; 24sp on Android, growing with Font size as below. No toggle: the viewer's Journeys button,
 on the viewer's edge to the right, returns to the viewer.
 
 **The header does not scroll with the list.** It floats above the scrolling content,
@@ -634,10 +635,10 @@ Appearance's preview in view** (2026-10-19). Interface text is Journeys, Control
 and Settings. **Never the reader or the preview**, which Zoom sizes, and never the
 bars, which stay at the default size on iOS ([header](#header)).
 
-**The sidebars' header titles are marks, not text** (2026-10-22): `Shabad OS` with
-its icon, and `Controls`, stay on one line at every size. On iOS they do not follow
+**The sidebars' header titles are marks, not text** (2026-10-22): `Shabad OS` and
+`Controls` stay on one line at every size. On iOS they do not follow
 Text Size, as no bar does. On Android they grow with Font size up to 28dp and stop,
-the icon keeping its proportion to the name, so the pair reads as a logo.
+as a logo would.
 
 The goal on Appearance's page: **the sliders' group starts no higher than halfway
 down the screen**, at every text size and display size, so the preview keeps the

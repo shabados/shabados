@@ -406,7 +406,7 @@ opens and closes it; opening gives a light haptic. Findings the code relies on:
 - **The sidebar's header has fixed measurements (`BarMetrics`), and its frame
   holds everything drawn in it.** A 44pt glass circle at the top of a 48pt bar (4pt
   beneath), flush under the status bar in portrait and 8pt below the screen's edge
-  in landscape (chosen 2026-10-19), so the logo is level with the Journeys button;
+  in landscape (chosen 2026-10-19), so the name is level with the Journeys button;
   the title pill is 44pt too. A first pass copied the old
   toolbar's 54pt bar with centred buttons and a 24pt landscape margin; both sat
   too low. **Bars ignore Text Size** and offer the large content viewer, as iOS's

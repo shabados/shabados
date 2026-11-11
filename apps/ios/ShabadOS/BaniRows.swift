@@ -16,10 +16,8 @@ struct BaniRows: View {
   @ScaledMetric(relativeTo: .body) private var bodySize: CGFloat = 17
 
   var body: some View {
-    ForEach(Array(Corpus.banis.enumerated()), id: \.element.id) { index, bani in
-      if index > 0 {
-        Divider().padding(.horizontal, inset)
-      }
+    // No lines between rows (2026-11-10, Android too).
+    ForEach(Corpus.banis) { bani in
       // Gurmukhi only (chosen 2026-10-16).
       Button { open(bani) } label: {
         Text(bani.gurmukhi)
@@ -31,7 +29,8 @@ struct BaniRows: View {
           .foregroundStyle(DesignTokens.foreground)
           .frame(maxWidth: .infinity, alignment: .leading)
           .padding(.horizontal, inset)
-          .padding(.vertical, 14)
+          // 12 above and below (14 until 2026-11-10, with a line between rows).
+          .padding(.vertical, 12)
           .contentShape(Rectangle())
       }
       .buttonStyle(RowStyle(selected: selectedID == bani.id, inset: inset))
@@ -53,7 +52,8 @@ private struct RowStyle: ButtonStyle {
     configuration.label
       .background(
         RoundedRectangle(cornerRadius: Self.cornerRadius)
-          .fill(selected || configuration.isPressed ? DesignTokens.toner : .clear)
+          // The sidebar's own wash, not the page's (`tonerOnBase`).
+          .fill(selected || configuration.isPressed ? DesignTokens.tonerOnBase : .clear)
           .padding(.horizontal, inset - Self.bleed)
       )
   }

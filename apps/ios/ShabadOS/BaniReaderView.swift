@@ -35,9 +35,16 @@ extension DesignTokens {
   /// The same wash, lighter: the top of the "Keep reading" card's gradient.
   static var tonerFaint: Color { wash(DesignTokens.tonerFaintOpacity) }
 
-  private static func wash(_ fraction: Double) -> Color {
+  /// The wash on `backgroundBase`, the sidebar's colour: `backgroundBase` blended
+  /// toward `.foreground` by `.tonerOpacity`. For what sits on the sidebar (the
+  /// bani being read in Journeys, `BaniRows`). Blended from the page's colour, as
+  /// `toner` is, it was darker than the sidebar itself in dark mode and barely
+  /// showed (2026-11-10). Android's sidebar wash is blended the same way.
+  static var tonerOnBase: Color { wash(DesignTokens.tonerOpacity, on: DesignTokens.backgroundBase) }
+
+  private static func wash(_ fraction: Double, on base: Color = DesignTokens.background) -> Color {
     Color(UIColor { traits in
-      UIColor(DesignTokens.background).resolvedColor(with: traits)
+      UIColor(base).resolvedColor(with: traits)
         .blended(
           with: UIColor(DesignTokens.foreground).resolvedColor(with: traits),
           fraction: fraction

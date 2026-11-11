@@ -90,6 +90,12 @@ wash, lighter. The "Keep reading" card is a gradient from `tonerFaint` at its to
 `toner` at its bottom; tapped, it fills with `toner` and fades back to the gradient,
 like a tapped line.
 
+**The wash is blended from the surface it sits on, not always the page.** On the
+Journeys sidebar (`backgroundBase`) the bani being read takes `backgroundBase`
+blended 0.12 toward the text colour (iOS `DesignTokens.tonerOnBase`, Android's
+sidebar `wash`). Blended from the page instead, it was darker than the sidebar in
+dark mode and barely showed (iOS, 2026-11-10).
+
 It started as the web's `--toner` (`global.css`, 0.08), was halved to 0.04 on
 2026-09-19 because a tapped line read as a filled band, and was raised to 0.12 on
 2026-10-10 because at 0.04 the highlight was too faint to follow, especially in

@@ -406,6 +406,10 @@ struct ReaderShell: View {
     ) {
       JourneysPanel(readingID: baniID, open: open, ownHeader: false)
         .dynamicTypeSize(...InterfaceText.cap)
+        // The sidebar's colour, `backgroundBase`, as on iPhone (`sidebarBackground`),
+        // not the column's own: the bani being read takes a wash blended from it
+        // (`tonerOnBase`), 2026-11-10.
+        .containerBackground(Self.sidebarBackground, for: .navigation)
         .toolbar(removing: .sidebarToggle)
         .toolbar {
           // Its full size whatever the bar offers: measured while the column was
@@ -809,7 +813,7 @@ struct ViewerBarHost<Trailing: View>: ViewModifier {
   }
 }
 
-/// The sidebar's header's measurements, so the logo sits level with the Journeys
+/// The sidebar's header's measurements, so the name sits level with the Journeys
 /// button in either orientation, and the title pill's height.
 ///
 /// **The buttons sit at the top of the bar, `below` beneath them** (chosen
@@ -986,7 +990,7 @@ private struct JourneysPanel: View {
   /// is the header.
   var ownHeader = true
 
-  /// The space on each side of the panel's content: one left edge for the logo,
+  /// The space on each side of the panel's content: one left edge for the name,
   /// the section label and every row's text, and the same on the right
   /// (chosen 2026-10-16).
   static let inset: CGFloat = 30
@@ -1008,8 +1012,9 @@ private struct JourneysPanel: View {
       .padding(.vertical, 12)
     }
     // The list fades under the header rather than being cut
-    // (reading-shell.md#header, interaction.md).
-    .scrollEdgeEffectStyle(.hard, for: .top)
+    // (reading-shell.md#header, interaction.md), softly as the reader's does
+    // (`.automatic`; `.hard` until 2026-11-10).
+    .scrollEdgeEffectStyle(.automatic, for: .top)
     // No scroll bar in either sidebar (2026-10-19).
     .scrollIndicators(.hidden)
     .safeAreaBar(edge: .top) { if ownHeader { header } }

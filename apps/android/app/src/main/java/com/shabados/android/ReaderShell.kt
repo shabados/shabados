@@ -9,7 +9,6 @@ import androidx.activity.compose.BackHandler
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.ui.semantics.Role
@@ -47,7 +46,6 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.material3.Icon
@@ -116,19 +114,19 @@ import kotlin.math.roundToInt
  * level with the viewer's Journeys button beside it. */
 internal val HeaderHeight = 64.dp
 
-/** A sidebar header title's size: Material's `titleLarge`, 22sp, growing with Font
+/** A sidebar header title's size: 24sp (titleLarge's 22sp until 2026-11-10), growing with Font
  * size up to [HeaderTitleMax] and no further, so a header reads as a fixed mark
  * rather than text that reflows. Uncapped, `Shabad OS` broke onto two lines at large
  * Font sizes (2026-10-22). iOS pins these titles at the default size instead
  * (`BarMetrics.typeSize`); Android lets them grow this far. */
-internal val HeaderTitleSize = 22.sp
+internal val HeaderTitleSize = 24.sp
 internal val HeaderTitleMax = 28.dp
 
 @Composable
 internal fun headerTitleSize(): TextUnit =
   with(LocalDensity.current) { minOf(HeaderTitleSize.toDp(), HeaderTitleMax).toSp() }
 
-/** The space on each side of the sidebar's content: one left edge for the logo, the
+/** The space on each side of the sidebar's content: one left edge for the name, the
  * section label and every row's text (chosen on iOS 2026-10-16). */
 internal val SidebarInset = 30.dp
 
@@ -742,7 +740,7 @@ private fun JourneysPanel(
   // The toner wash, blended from the sidebar's own colour rather than the page's.
   val toner = wash(colors.surfaceVariant, colors.onSurface, DesignTokens.TONER_OPACITY)
   // Clear of a camera cutout, or a navigation bar, on its left in landscape: the
-  // sidebar is drawn edge to edge, so its inset alone would put the logo and rows
+  // sidebar is drawn edge to edge, so its inset alone would put the name and rows
   // behind it (seen on a Pixel 7a, 2026-10-16). Left only: its right side lies
   // under the viewer's edge.
   Box(modifier.windowInsetsPadding(sideSafeArea.only(WindowInsetsSides.Left))) {
@@ -762,8 +760,8 @@ private fun JourneysPanel(
         color = colors.onSurfaceVariant,
         modifier = Modifier.padding(start = SidebarInset, end = SidebarInset, bottom = 8.dp),
       )
-      banis.forEachIndexed { index, bani ->
-        if (index > 0) HorizontalDivider(Modifier.padding(horizontal = SidebarInset), color = colors.outlineVariant)
+      // No lines between rows (2026-11-10).
+      banis.forEach { bani ->
         // Gurmukhi only (chosen 2026-10-16). No card behind a row: the bani being
         // read takes the toner wash in the reader's card shape, bled 8dp outward
         // from the text as a tapped line's is, and a press takes the ripple there.
@@ -778,35 +776,25 @@ private fun JourneysPanel(
             .clip(RoundedCornerShape(12.dp))
             .background(if (bani.id == readingId) toner else Color.Transparent)
             .clickable { onOpen(bani) }
-            .padding(horizontal = 8.dp, vertical = 14.dp),
+            // 12dp above and below (14dp until 2026-11-10, with a line between rows).
+            .padding(horizontal = 8.dp, vertical = 12.dp),
         )
       }
     }
     // The header does not scroll with the list (reading-shell.md#header).
+    // The name alone, medium (500): no logo (reading-shell.md#header, 2026-11-10).
+    // It stays on one line.
     Row(
       verticalAlignment = Alignment.CenterVertically,
-      horizontalArrangement = Arrangement.spacedBy(8.dp),
       modifier = Modifier
         .padding(top = top, start = SidebarInset, end = SidebarInset)
         .height(HeaderHeight),
     ) {
-      // The app icon, round (res/drawable-nodpi/ic_launcher_logo.png, the lotus
-      // over its gradient, from brand/assets/lotus.svg via the legacy export).
-      // A logo: the icon keeps its 32dp-to-22sp proportion to the name as the name
-      // grows, and the name stays on one line.
-      val titleSize = headerTitleSize()
-      Image(
-        painter = painterResource(R.drawable.ic_launcher_logo),
-        contentDescription = null,
-        modifier = Modifier
-          .size(with(LocalDensity.current) { titleSize.toDp() } * (32f / 22f))
-          .clip(CircleShape),
-      )
       Text(
         text = stringResource(R.string.app_name),
         style = MaterialTheme.typography.titleLarge,
-        fontSize = titleSize,
-        fontWeight = FontWeight.SemiBold,
+        fontSize = headerTitleSize(),
+        fontWeight = FontWeight.Medium,
         color = colors.onSurface,
         maxLines = 1,
         softWrap = false,
