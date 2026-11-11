@@ -97,6 +97,9 @@ struct ReaderShell: View {
   @State private var dragX: CGFloat?
   /// The device has a hinge: an iPhone Duo, on either display (`HingeWatch`).
   @State private var hasHinge = false
+  /// Whether the split view has collapsed to one column, as the split view itself
+  /// reports it (`SplitCollapseWatch`); nil until it first does.
+  @State private var splitCollapsed: Bool?
   @Environment(\.horizontalSizeClass) private var horizontalSizeClass
   /// `@State` only to keep one instance for the view's lifetime.
   @State private var activity = ActivityClock()
@@ -162,10 +165,10 @@ struct ReaderShell: View {
 
   var body: some View {
     Group {
-      if oneColumn { stackShell } else if besideViewer { splitShell } else { cardShell }
+      if besideViewer { splitShell } else { cardShell }
     }
-    // Unfolding or folding the Duo moves between the stack and the split view; the
-    // reader is made anew there, so it opens where it was.
+    // Unfolding or folding the Duo collapses or expands the split view, which may
+    // make the reader anew; if so, it opens where it was.
     .onChange(of: oneColumn) { _, _ in startLine = position.line }
     // The Duo, on either display, takes the iPad's shell (`besideViewer`).
     .modifier(HingeWatch { present in
@@ -326,17 +329,22 @@ struct ReaderShell: View {
   }
 
   /// The split view shows one column at a time: the Duo's outer display, or an iPad
-  /// window as narrow as an iPhone. Journeys is then a screen of its own, the root
+  /// window too narrow for two. Journeys is then a screen of its own, the root
   /// the viewer is pushed onto, so choosing a bani from it shows the viewer.
-  private var oneColumn: Bool { besideViewer && horizontalSizeClass == .compact }
-
-  /// The viewer, as the one screen pushed onto Journeys (`stackShell`).
-  private enum ViewerRoute: Hashable { case viewer }
+  ///
+  /// **Asked of the split view, not worked out from the size class**: an iPad window
+  /// still regular in width collapsed to one column, and the bar had both the back
+  /// button and the Journeys button (iPad, 2026-11-10). The size class stands in
+  /// only until the split view first reports.
+  private var oneColumn: Bool {
+    besideViewer && (splitCollapsed ?? (horizontalSizeClass == .compact))
+  }
 
   /// The viewer's Journeys button, or nil while an open panel beside the viewer
-  /// holds it (`splitShell`).
+  /// holds it (`splitShell`), and in one column, where the system's back button is
+  /// the way to Journeys.
   private var viewerJourneys: (() -> Void)? {
-    besideViewer && journeysOpen ? nil : { setJourneys(!journeysOpen) }
+    oneColumn || (besideViewer && journeysOpen) ? nil : { setJourneys(!journeysOpen) }
   }
 
   /// iPad, and the Duo's inner display: Journeys as the platform's own sidebar,
@@ -352,56 +360,76 @@ struct ReaderShell: View {
   /// the way to close an open panel. The binding's setter is there for whatever the
   /// split view closes by itself.
   ///
-  /// **`.automatic` is a trial** (2026-11-10): iPadOS may put the sidebar over the
-  /// viewer rather than beside it, in portrait; the requirement is beside it
-  /// always, which `.balanced` gives if `.automatic` does not.
+  /// **The style is `.automatic`** (chosen 2026-11-10): the platform's own
+  /// choice, which puts the sidebar beside the viewer on iPad and the Duo.
   ///
-  /// The panel's header is our own `safeAreaBar` (`JourneysPanel`); the viewer's
-  /// buttons and title are the system's toolbar (`ViewerBarHost`). Plain views in a column are
-  /// allowed here though not on iPhone: nothing zooms the panel.
+  /// **The panel's header is the system's toolbar here** (`JourneysBrand` and the
+  /// Journeys button), as the viewer's is (`ViewerBarHost`), so it keeps clear of
+  /// an iPad window's controls; our own header covered the name with them (iPad,
+  /// 2026-11-10). On iPhone the panel draws its own (`JourneysPanel`), since it is
+  /// zoomed there and a system bar is not.
+  ///
+  /// **In one column (`oneColumn`) the split view collapses into a stack**:
+  /// Journeys the root and the viewer pushed onto it, as a folder is in Files
+  /// (2026-11-10). It opens on the viewer (`preferredCompactColumn` is `.detail`
+  /// with Journeys closed); the system's back button and its back swipe, from
+  /// anywhere across the screen as iOS 26's is, return to Journeys; choosing in
+  /// Journeys shows the viewer again. **The viewer's bar has no Journeys button
+  /// there** (`viewerJourneys`): beside the back button it did the same thing, and
+  /// the back button can neither be hidden, which took both back swipes with it,
+  /// nor drawn with the Journeys icon, which iOS 26 ignored (Duo, 2026-11-10).
+  /// One shell for both of the Duo's displays, where a `NavigationStack` of our
+  /// own was the outer's before.
+  ///
+  /// **Each binding's setter counts only in its own width**: the column visibility
+  /// in two columns, the compact column in one. Unchecked, the outer display opened
+  /// on Journeys (Duo, 2026-11-10): the visibility's setter can read whatever value
+  /// the split view gives itself as it collapses as Journeys opening.
   private var splitShell: some View {
     NavigationSplitView(
       columnVisibility: Binding(
         get: { journeysOpen ? .all : .detailOnly },
         set: { visibility in
+          guard !oneColumn else { return }
           let open = visibility != .detailOnly
+          if open != journeysOpen { setJourneys(open) }
+        }
+      ),
+      preferredCompactColumn: Binding(
+        get: { journeysOpen ? .sidebar : .detail },
+        set: { column in
+          guard oneColumn else { return }
+          let open = column == .sidebar
           if open != journeysOpen { setJourneys(open) }
         }
       )
     ) {
-      JourneysPanel(readingID: baniID, open: open, onClose: { setJourneys(false) })
+      JourneysPanel(readingID: baniID, open: open, ownHeader: false)
         .dynamicTypeSize(...InterfaceText.cap)
         .toolbar(removing: .sidebarToggle)
-        .toolbar(.hidden, for: .navigationBar)
+        .toolbar {
+          // Its full size whatever the bar offers: measured while the column was
+          // still hidden at launch, the name was squeezed out, and came back only
+          // when folding the Duo laid the bar out again (Duo, 2026-11-10).
+          //
+          // **Where the bar puts it**, at the bar's own margin, a little left of the
+          // rows' 30pt (unlike iPhone, where the header is our own). Moved into line
+          // by measuring, it lagged a frame behind every animation; as padding, it
+          // hung the Duo's outer display, whose vertical bar re-centred it; as a
+          // header of our own beside the viewer, it looked worse (2026-11-10).
+          ToolbarItem(placement: .topBarLeading) { JourneysBrand().fixedSize() }
+            .sharedBackgroundVisibility(.hidden)
+          ToolbarItem(placement: .topBarTrailing) {
+            JourneysButton { setJourneys(false) }
+          }
+        }
+        .background { SplitCollapseWatch { splitCollapsed = $0 } }
     } detail: {
       viewer
         .background { DesignTokens.background.ignoresSafeArea() }
+        .background { SplitCollapseWatch { splitCollapsed = $0 } }
     }
     .navigationSplitViewStyle(.automatic)
-  }
-
-  /// One column (`oneColumn`): **Journeys is the root, and the viewer is pushed onto
-  /// it**, as a folder is in Files (2026-11-10). The app opens on the viewer (the
-  /// default screen is `New journey`); the system's back swipe, from anywhere
-  /// across the screen as iOS 26's is, returns to Journeys; choosing in Journeys
-  /// pushes the viewer again. A stack rather than the split view's collapsed
-  /// form, whose first screen in one column was Journeys (Duo simulator).
-  private var stackShell: some View {
-    NavigationStack(path: Binding(
-      get: { journeysOpen ? [] : [ViewerRoute.viewer] },
-      set: { path in
-        let open = path.isEmpty
-        if open != journeysOpen { setJourneys(open) }
-      }
-    )) {
-      JourneysPanel(readingID: baniID, open: open, onClose: { setJourneys(false) })
-        .dynamicTypeSize(...InterfaceText.cap)
-        .toolbar(.hidden, for: .navigationBar)
-        .navigationDestination(for: ViewerRoute.self) { _ in
-          viewer
-            .background { DesignTokens.background.ignoresSafeArea() }
-        }
-    }
   }
 
   /// Whether the screen is held awake: content open in the viewer, no sidebar
@@ -566,6 +594,68 @@ private struct HingeWatch: ViewModifier {
   }
 }
 
+/// Reports whether the split view around it has collapsed to one column
+/// (`ReaderShell.oneColumn`). **No SwiftUI API says so**, and the size class does not
+/// decide it: an iPad window still regular in width collapsed. So this reads
+/// `UISplitViewController.isCollapsed`, found through the responder chain as
+/// `ScrollsToTopDisabler` finds its scroll view.
+///
+/// **Checked on every layout of a view as big as the column it sits behind**: a
+/// collapse or an expansion changes the column's size, and so lays this out. Put
+/// behind both columns, since a collapsed split view shows only one of them.
+private struct SplitCollapseWatch: UIViewRepresentable {
+  let changed: (Bool) -> Void
+
+  func makeUIView(context: Context) -> Probe {
+    let probe = Probe()
+    probe.changed = changed
+    return probe
+  }
+
+  func updateUIView(_ probe: Probe, context: Context) {
+    probe.changed = changed
+    probe.check()
+  }
+
+  final class Probe: UIView {
+    var changed: ((Bool) -> Void)?
+    private var reported: Bool?
+
+    override init(frame: CGRect) {
+      super.init(frame: frame)
+      isUserInteractionEnabled = false
+      backgroundColor = .clear
+    }
+
+    required init?(coder: NSCoder) { fatalError("not used from a storyboard") }
+
+    override func layoutSubviews() {
+      super.layoutSubviews()
+      check()
+    }
+
+    override func didMoveToWindow() {
+      super.didMoveToWindow()
+      check()
+    }
+
+    func check() {
+      var responder: UIResponder? = self
+      while let next = responder?.next {
+        if let split = next as? UISplitViewController {
+          let collapsed = split.isCollapsed
+          guard collapsed != reported else { return }
+          reported = collapsed
+          // Not during SwiftUI's own update or a layout pass.
+          DispatchQueue.main.async { [changed] in changed?(collapsed) }
+          return
+        }
+        responder = next
+      }
+    }
+  }
+}
+
 /// The viewer as a card set aside: the wash, the mask to the display's corners,
 /// the hairline and the shadow, all from one `progress` (0 at rest, 1 aside).
 ///
@@ -658,9 +748,9 @@ struct TitlePill: View {
   }
 }
 
-/// The Journeys button: in the viewer's toolbar (`ViewerBarHost`), which draws its
-/// glass, or beside the viewer in the open panel's header (`JourneysPanel`), which
-/// gives it ours (`barCircle`). One button, so both read the same.
+/// The Journeys button: in the viewer's toolbar (`ViewerBarHost`), or beside the
+/// viewer in the open panel's toolbar (`ReaderShell.splitShell`). Both are the
+/// system's toolbar, which draws its glass, so both read the same.
 struct JourneysButton: View {
   let action: () -> Void
 
@@ -755,25 +845,6 @@ enum InterfaceText {
   /// **From this size on, the sliders' bylines are hidden**, everywhere they show:
   /// they wrapped to several lines each, and the titles say enough on their own.
   static let bylinesHiddenFrom: DynamicTypeSize = .accessibility1
-}
-
-extension View {
-  /// A header button outside a toolbar (`JourneysPanel`): a 44pt glass circle, as a
-  /// navigation bar's are on iOS 26. A long press shows the large content viewer
-  /// unless `largeContentViewer` is false, for a button whose long press does
-  /// something else.
-  @ViewBuilder
-  func barCircle(largeContentViewer: Bool = true) -> some View {
-    let circle = buttonStyle(.plain)
-      .frame(width: BarMetrics.button, height: BarMetrics.button)
-      .contentShape(.circle)
-      .glassEffect(.regular.interactive(), in: .circle)
-    if largeContentViewer {
-      circle.accessibilityShowsLargeContentViewer()
-    } else {
-      circle
-    }
-  }
 }
 
 /// What the viewer shows when there is nothing to resume: **ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ**, pills
@@ -895,8 +966,9 @@ private struct DefaultScreen: View {
 /// when they land. `New journey` is left out until that band is designed. It lies
 /// beneath the viewer; see `ReaderShell`.
 ///
-/// **No toggle of its own.** The viewer's Journeys button stays in view on the
-/// viewer's edge while this is open, and returns to the viewer.
+/// **Its own header on iPhone only** (`ownHeader`): beside the viewer, the split
+/// view's toolbar is its header (`ReaderShell.splitShell`). On iPhone it has no
+/// toggle: the viewer's edge, in view while this is open, returns to the viewer.
 ///
 /// **Plain SwiftUI views only: no `NavigationStack`, no `List`.** The panel is zoomed
 /// as the viewer slides (`ReaderShell.sidebarScale`), and UIKit-backed containers
@@ -909,10 +981,10 @@ private struct JourneysPanel: View {
   /// The bani the viewer is showing, drawn as selected.
   let readingID: String?
   let open: (Bani) -> Void
-  /// Beside the viewer only: the Journeys button, at the header's trailing end,
-  /// which closes the panel (`ReaderShell.splitShell`). Nil on iPhone, where the
-  /// viewer's edge returns to it.
-  var onClose: (() -> Void)? = nil
+  /// Whether it draws its header itself: on iPhone, where it is zoomed and a
+  /// system bar could not be (see above). False in the split view, whose toolbar
+  /// is the header.
+  var ownHeader = true
 
   /// The space on each side of the panel's content: one left edge for the logo,
   /// the section label and every row's text, and the same on the right
@@ -940,36 +1012,30 @@ private struct JourneysPanel: View {
     .scrollEdgeEffectStyle(.hard, for: .top)
     // No scroll bar in either sidebar (2026-10-19).
     .scrollIndicators(.hidden)
-    .safeAreaBar(edge: .top) { header }
+    .safeAreaBar(edge: .top) { if ownHeader { header } }
   }
 
   private var header: some View {
-    HStack(spacing: 8) {
-      // The app icon, round, without the white corners of its export
-      // (Assets.xcassets/lotus, derived from brand/assets/lotus.svg).
-      Image("lotus")
-        .resizable()
-        .scaledToFit()
-        .frame(width: 32, height: 32)
-        .accessibilityHidden(true)
-      Text("Shabad OS")
-        .font(.title2.weight(.semibold))
-        .foregroundStyle(DesignTokens.foreground)
-      if let onClose {
-        Spacer(minLength: 0)
-        JourneysButton(action: onClose)
-          .barCircle()
-      }
-    }
-    .padding(.leading, Self.inset)
-    // The button as far from the edge as the toolbar's.
-    .padding(.trailing, onClose == nil ? Self.inset : 16)
-    // Centred in a button's height, then the bar's space beneath, so the logo is
-    // level with the Journeys button.
-    .frame(maxWidth: .infinity, minHeight: BarMetrics.button, alignment: .leading)
-    .padding(.bottom, BarMetrics.below)
-    .padding(.top, BarMetrics.topMargin(verticalSizeClass))
-    // A bar, like the viewer's: it does not follow Text Size (`BarMetrics`).
-    .dynamicTypeSize(BarMetrics.typeSize)
+    JourneysBrand()
+      .padding(.horizontal, Self.inset)
+      // Centred in a button's height, then the bar's space beneath, so the name is
+      // level with the viewer's Journeys button.
+      .frame(maxWidth: .infinity, minHeight: BarMetrics.button, alignment: .leading)
+      .padding(.bottom, BarMetrics.below)
+      .padding(.top, BarMetrics.topMargin(verticalSizeClass))
+  }
+}
+
+/// The app's name, at the head of Journeys: in the panel's own header on iPhone,
+/// and as a toolbar item beside the viewer (`ReaderShell.splitShell`).
+///
+/// **The name alone, 24pt medium** (chosen by eye 2026-11-10, from 22pt semibold
+/// with the lotus logo; reading-shell.md#header). A bar's: it does not follow Text
+/// Size (`BarMetrics`).
+private struct JourneysBrand: View {
+  var body: some View {
+    Text("Shabad OS")
+      .font(.system(size: 24, weight: .medium))
+      .foregroundStyle(DesignTokens.foreground)
   }
 }

@@ -53,7 +53,7 @@ inset is added to the sidebar, not taken from it (2026-10-19).
 **On iPad and the iPhone Duo, Journeys is the platform's own sidebar beside the
 viewer** (2026-11-10), with the platform's own toolbar for the viewer's buttons and
 title: as native a setup as each allows. On iPadOS that is `NavigationSplitView`
-(`.automatic` on trial, `.balanced` if that puts it over the viewer in portrait).
+in its `.automatic` style.
 The web is to behave the same way. **Which one is decided by the device, not the
 width**: every other iPhone, in portrait and landscape, keeps the sliding viewer
 above; iPad, and the Duo on either display, have the sidebar. A window that
@@ -69,10 +69,14 @@ shrinks to an iPhone's width does not turn into the iPhone's shell
   as narrow as an iPhone), one screen shows at a time, as in Files: **the app
   opens on the viewer** (the default screen is `New journey`), pushed onto
   Journeys; a horizontal swipe from anywhere on it, the system's back swipe,
-  returns to Journeys; choosing something there shows the viewer again.
+  returns to Journeys; choosing something there shows the viewer again. **The
+  way to Journeys there is the system's back button, and the viewer's bar has no
+  Journeys button**: two side by side did the same thing. The back button is not
+  hidden for ours, since that takes the back swipe with it.
 - **The button goes with the panel**, as the sidebar toggle does in iPadOS's Mail
   and Notes: while the panel is open it sits at the trailing end of the panel's
-  header, and the viewer's bar has none; while closed it is in the viewer's bar.
+  header, and the viewer's bar has none; while closed it is in the viewer's bar,
+  except in one column (above).
   So when the viewer's bar hides as the reader scrolls, an open panel can still be
   closed; a closed one opens again once the bar returns, or by the swipe.
 - **Opening or closing it changes the viewer's width**, and the line at the top is

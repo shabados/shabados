@@ -365,6 +365,15 @@ opens and closes it; opening gives a light haptic. Findings the code relies on:
   95% as the viewer slides, and the UIKit-backed containers answered the zoom by
   laying out again at the smaller size; at full size everything jumped and a row
   appeared. Its header is a `safeAreaBar`, which keeps the scroll edge effect.
+  **A native Journeys was tried and set aside (2026-11-10)**: one `List` (sidebar
+  style, `Section`, rows as `Button`s so re-tapping the open bani still returns to
+  the viewer) with `JourneysBrand` as a toolbar item, on every device; on iPhone in
+  its own `NavigationStack`, hosted in a `UIHostingController` and zoomed by
+  `UIView.transform` (placed by `bounds`/`center`, `safeAreaRegions = []`, set in
+  `context.animate`). Run on device, both with that zoom and with none, it had
+  jank the plain panel does not, and gave iPad and the Duo nothing yet needed. The
+  plain panel and its SwiftUI zoom stay; revisit when Journeys needs list
+  behaviour (keyboard focus on iPad, swipe actions, context menus).
 - **The two layers ignore the safe area entirely; their contents take the measured
   insets as fixed amounts.** An outer `GeometryReader` respects the safe area only to
   read its insets. Inside, the sidebar and the viewer are each a card the size of the
@@ -426,10 +435,17 @@ for the Journeys button (`JourneysButton`), which is in the panel's header while
 is open and in the viewer's bar while it is closed (`viewerJourneys`), so a
 minimized bar never hides the way to close the panel. The left-edge swipe is the
 split view's own. In one column (`oneColumn`: the Duo's outer display, a narrow
-iPad window) the shell is a `NavigationStack` (`stackShell`), Journeys its root
-and the viewer pushed onto it at launch, as Files does; the swipe is iOS 26's
-back swipe from anywhere. The split view's own collapsed form opened on Journeys
-there. The sidebar is not a floating glass panel: on this iPadOS (2026-11-10)
+iPad window) the same split view collapses: Journeys its root and the viewer
+pushed onto it, as Files does, opening on the viewer (`preferredCompactColumn`).
+The system's back button is the way to Journeys there and the viewer's bar has no
+Journeys button: hidden, the back button took both back swipes with it; drawn
+with the Journeys icon (`setBackIndicatorImage`), iOS 26 ignored it. Each
+binding's setter counts only in its own width; unchecked, the outer display opened
+on Journeys. Whether it is one column is asked of the split view
+(`SplitCollapseWatch`, `UISplitViewController.isCollapsed`), not the size class: an
+iPad window still regular in width collapsed. Beside the viewer, Journeys' header is
+the split view's toolbar (`JourneysBrand`, the Journeys button), which keeps clear of
+an iPad window's controls; on iPhone the zoomed panel draws its own. The sidebar is not a floating glass panel: on this iPadOS (2026-11-10)
 Mail's and Notes' are not either.
 
 **The viewer's bar is the system's toolbar, at the top, on every device**

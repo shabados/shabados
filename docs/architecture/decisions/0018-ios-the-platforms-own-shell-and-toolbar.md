@@ -27,8 +27,9 @@ simulator, 2026-11-10.
 
 **iPad and the Duo have the platform's own shell.** A `NavigationSplitView` whose
 sidebar is Journeys, beside the viewer, moving it over and never covering it; in one
-column (the Duo's outer display, a narrowed iPad window) a `NavigationStack` opening
-on the viewer, Journeys its root. **Chosen by device** (the `.pad` idiom, or a
+column (the Duo's outer display, a narrowed iPad window) the same split view,
+collapsed, opening on the viewer with Journeys its root, and the system's back button
+the way to Journeys. **Chosen by device** (the `.pad` idiom, or a
 hinge), not width. Every other iPhone keeps the sliding viewer card.
 
 **The viewer's bar is the system's toolbar, at the top, on every iOS device.**
