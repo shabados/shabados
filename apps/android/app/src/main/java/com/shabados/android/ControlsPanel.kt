@@ -24,6 +24,7 @@ import androidx.compose.foundation.selection.toggleable
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LocalTextStyle
@@ -276,7 +277,10 @@ private fun CompactSlider(
   }
 }
 
-/** TalkBack hears the slider by its title, whichever layout shows it. */
+/** TalkBack hears the slider by its title, whichever layout shows it. Opts in
+ * because Slider's thumb/track overload is experimental in material3 1.4.0; the
+ * version is pinned, so it can only change with a BOM bump, and then fails to compile. */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun ReaderSlider(
   title: String,
@@ -285,12 +289,13 @@ private fun ReaderSlider(
   onChange: (Float) -> Unit,
   modifier: Modifier,
 ) {
-  val colors = MaterialTheme.colorScheme
+  // Material's own colours, from the theme: the inactive track is secondaryContainer,
+  // the toner wash (packages/design/tokens.md#androids-colour-roles).
   Slider(
     value = value.coerceIn(range),
     onValueChange = onChange,
     valueRange = range,
-    colors = SliderDefaults.colors(thumbColor = colors.primary, activeTrackColor = colors.primary),
+    track = { SliderDefaults.Track(sliderState = it, modifier = Modifier.height(DesignTokens.SLIDER_TRACK_HEIGHT.dp)) },
     modifier = modifier.semantics { contentDescription = title },
   )
 }

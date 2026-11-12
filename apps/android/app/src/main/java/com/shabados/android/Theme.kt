@@ -2,6 +2,7 @@ package com.shabados.android
 
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.material3.ColorScheme
+import androidx.compose.ui.graphics.Color
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
@@ -22,20 +23,29 @@ import androidx.compose.runtime.CompositionLocalProvider
  * the Journeys sidebar and the viewer's controls, and set them apart from the rest of
  * the app; both are on these tokens, as on iOS.
  */
-// secondary/tertiary and the *Container slots are set even though nothing uses them
-// yet: any slot left unset keeps Material's baseline purple, so the first component
-// that reaches for one reintroduces the tint this theme exists to remove.
+// Every role is set from our tokens (packages/design/tokens.md#androids-colour-roles):
+// any role left unset keeps Material's baseline purple, and the first component that
+// reads it shows the tint (the off switch's track did, through
+// surfaceContainerHighest). The error roles are the exception, still Material's red:
+// there is no error token yet.
+
+/** backgroundBase blended toward the text colour by the toner opacity: Journeys'
+ * active row, and iOS's `tonerOnBase` (packages/design/tokens.md#toner). */
+private val tonerOnBaseLight = wash(DesignTokens.backgroundBaseLight, DesignTokens.foregroundLight, DesignTokens.TONER_OPACITY)
+private val tonerOnBaseDark = wash(DesignTokens.backgroundBaseDark, DesignTokens.foregroundDark, DesignTokens.TONER_OPACITY)
+
 private val Light: ColorScheme = lightColorScheme(
   primary = DesignTokens.uiLight,
   onPrimary = DesignTokens.backgroundBaseLight,
-  secondary = DesignTokens.uiLight,
-  onSecondary = DesignTokens.backgroundBaseLight,
-  tertiary = DesignTokens.uiLight,
-  onTertiary = DesignTokens.backgroundBaseLight,
   primaryContainer = DesignTokens.backgroundBaseLight,
   onPrimaryContainer = DesignTokens.foregroundLight,
-  secondaryContainer = DesignTokens.backgroundBaseLight,
+  inversePrimary = DesignTokens.uiDark,
+  secondary = DesignTokens.uiLight,
+  onSecondary = DesignTokens.backgroundBaseLight,
+  secondaryContainer = tonerOnBaseLight,
   onSecondaryContainer = DesignTokens.foregroundLight,
+  tertiary = DesignTokens.uiLight,
+  onTertiary = DesignTokens.backgroundBaseLight,
   tertiaryContainer = DesignTokens.backgroundBaseLight,
   onTertiaryContainer = DesignTokens.foregroundLight,
   background = DesignTokens.backgroundLight,
@@ -44,21 +54,45 @@ private val Light: ColorScheme = lightColorScheme(
   onSurface = DesignTokens.foregroundLight,
   surfaceVariant = DesignTokens.backgroundBaseLight,
   onSurfaceVariant = DesignTokens.foregroundMutedLight,
+  surfaceTint = DesignTokens.uiLight,
+  inverseSurface = DesignTokens.foregroundLight,
+  inverseOnSurface = DesignTokens.backgroundBaseLight,
   outline = DesignTokens.foregroundMutedLight,
   outlineVariant = DesignTokens.foregroundLight.copy(alpha = DesignTokens.TONER_OPACITY),
+  scrim = Color.Black,
+  surfaceDim = DesignTokens.backgroundLight,
+  surfaceBright = DesignTokens.backgroundBaseLight,
+  surfaceContainerLowest = DesignTokens.backgroundBaseLight,
+  surfaceContainerLow = DesignTokens.backgroundBaseLight,
+  surfaceContainer = DesignTokens.backgroundBaseLight,
+  surfaceContainerHigh = DesignTokens.backgroundBaseLight,
+  surfaceContainerHighest = tonerOnBaseLight,
+  primaryFixed = DesignTokens.backgroundBaseLight,
+  primaryFixedDim = DesignTokens.backgroundBaseLight,
+  onPrimaryFixed = DesignTokens.foregroundLight,
+  onPrimaryFixedVariant = DesignTokens.foregroundMutedLight,
+  secondaryFixed = DesignTokens.backgroundBaseLight,
+  secondaryFixedDim = DesignTokens.backgroundBaseLight,
+  onSecondaryFixed = DesignTokens.foregroundLight,
+  onSecondaryFixedVariant = DesignTokens.foregroundMutedLight,
+  tertiaryFixed = DesignTokens.backgroundBaseLight,
+  tertiaryFixedDim = DesignTokens.backgroundBaseLight,
+  onTertiaryFixed = DesignTokens.foregroundLight,
+  onTertiaryFixedVariant = DesignTokens.foregroundMutedLight,
 )
 
 private val Dark: ColorScheme = darkColorScheme(
   primary = DesignTokens.uiDark,
   onPrimary = DesignTokens.backgroundDark,
-  secondary = DesignTokens.uiDark,
-  onSecondary = DesignTokens.backgroundDark,
-  tertiary = DesignTokens.uiDark,
-  onTertiary = DesignTokens.backgroundDark,
   primaryContainer = DesignTokens.backgroundBaseDark,
   onPrimaryContainer = DesignTokens.foregroundDark,
-  secondaryContainer = DesignTokens.backgroundBaseDark,
+  inversePrimary = DesignTokens.uiLight,
+  secondary = DesignTokens.uiDark,
+  onSecondary = DesignTokens.backgroundDark,
+  secondaryContainer = tonerOnBaseDark,
   onSecondaryContainer = DesignTokens.foregroundDark,
+  tertiary = DesignTokens.uiDark,
+  onTertiary = DesignTokens.backgroundDark,
   tertiaryContainer = DesignTokens.backgroundBaseDark,
   onTertiaryContainer = DesignTokens.foregroundDark,
   background = DesignTokens.backgroundDark,
@@ -67,8 +101,31 @@ private val Dark: ColorScheme = darkColorScheme(
   onSurface = DesignTokens.foregroundDark,
   surfaceVariant = DesignTokens.backgroundBaseDark,
   onSurfaceVariant = DesignTokens.foregroundMutedDark,
+  surfaceTint = DesignTokens.uiDark,
+  inverseSurface = DesignTokens.foregroundDark,
+  inverseOnSurface = DesignTokens.backgroundBaseDark,
   outline = DesignTokens.foregroundMutedDark,
   outlineVariant = DesignTokens.foregroundDark.copy(alpha = DesignTokens.TONER_OPACITY),
+  scrim = Color.Black,
+  surfaceDim = DesignTokens.backgroundDark,
+  surfaceBright = DesignTokens.backgroundBaseDark,
+  surfaceContainerLowest = DesignTokens.backgroundBaseDark,
+  surfaceContainerLow = DesignTokens.backgroundBaseDark,
+  surfaceContainer = DesignTokens.backgroundBaseDark,
+  surfaceContainerHigh = DesignTokens.backgroundBaseDark,
+  surfaceContainerHighest = tonerOnBaseDark,
+  primaryFixed = DesignTokens.backgroundBaseDark,
+  primaryFixedDim = DesignTokens.backgroundBaseDark,
+  onPrimaryFixed = DesignTokens.foregroundDark,
+  onPrimaryFixedVariant = DesignTokens.foregroundMutedDark,
+  secondaryFixed = DesignTokens.backgroundBaseDark,
+  secondaryFixedDim = DesignTokens.backgroundBaseDark,
+  onSecondaryFixed = DesignTokens.foregroundDark,
+  onSecondaryFixedVariant = DesignTokens.foregroundMutedDark,
+  tertiaryFixed = DesignTokens.backgroundBaseDark,
+  tertiaryFixedDim = DesignTokens.backgroundBaseDark,
+  onTertiaryFixed = DesignTokens.foregroundDark,
+  onTertiaryFixedVariant = DesignTokens.foregroundMutedDark,
 )
 
 /**

@@ -78,6 +78,9 @@ object DesignTokens {
   /** Android has no Body text style; this many sp stands in for it. */
   const val ANDROID_BODY_SIZE = 17f
 
+  /** dp. Every slider's track; Android only (tokens.md#controls). */
+  const val SLIDER_TRACK_HEIGHT = 24f
+
   /**
    * The reader's size on first launch
    * (docs/requirements/display-controls.md#starting-size): on a phone,
