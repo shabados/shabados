@@ -43,6 +43,7 @@ const scalars = (heading) => {
 const opacity = scalars('Opacity')
 const weight = scalars('Weight')
 const type = scalars('Type')
+const controls = scalars('Controls')
 
 for (const key of ['defaultSize', 'listSize', 'uiGurmukhiRatio', 'greetingRatio', 'lineHeightRatio', 'minSize', 'phoneMaxSize', 'padMaxSize', 'startingSizeFactor', 'padStartingSize', 'androidBodySize', 'ratioMin', 'ratioMax']) {
   if (type[key] === undefined) throw new Error(`packages/design/tokens.md: type.${key} missing`)
@@ -50,6 +51,7 @@ for (const key of ['defaultSize', 'listSize', 'uiGurmukhiRatio', 'greetingRatio'
 for (const key of ['weightMin', 'weightMax', 'weightDefault']) {
   if (weight[key] === undefined) throw new Error(`packages/design/tokens.md: weight.${key} missing`)
 }
+if (controls.sliderTrackHeight === undefined) throw new Error('packages/design/tokens.md: controls.sliderTrackHeight missing')
 for (const key of ['toner', 'tonerFaint']) {
   if (opacity[key] === undefined) throw new Error(`packages/design/tokens.md: opacity.${key} missing`)
 }
@@ -249,6 +251,9 @@ ${Object.entries(color).map(([k, v]) => kotlinColor(k, v)).join('\n\n')}
   const val PAD_STARTING_SIZE = ${type.padStartingSize}f
   /** Android has no Body text style; this many sp stands in for it. */
   const val ANDROID_BODY_SIZE = ${type.androidBodySize}f
+
+  /** dp. Every slider's track; Android only (tokens.md#controls). */
+  const val SLIDER_TRACK_HEIGHT = ${controls.sliderTrackHeight}f
 
   /**
    * The reader's size on first launch
