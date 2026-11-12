@@ -227,8 +227,11 @@ Font version, licensing, and the rest of what's bundled and why:
 list, reader, Sant Lipi rendering, light/dark, pause colouring, both pronunciation
 schemes, toolbar A−/A+ sizing.
 
-**Submitted to App Store review (2026-10-11):** 0.3.0 (72), set to release
-automatically on approval. Any further upload needs build 73.
+**On the App Store:** 0.3.0 (72), submitted 2026-10-11 and approved.
+
+**Preparing 0.4.0 (73) (2026-11-11):** a minor version, not a patch, because it adds
+features and reworks the shell (Journeys beside the viewer, the Duo split view, the
+system toolbar, copy by line, keep-awake). Any further upload needs build 74.
 
 **Verified on a real iPhone (2026-10-10):** Release configuration, version 0.3.0
 (72), signed with the team's development certificate. No problems found. This is the
