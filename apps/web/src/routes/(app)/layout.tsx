@@ -28,6 +28,7 @@ import toGurmukhiNumerals from '~/lib/toGurmukhiNumerals';
 import requestWakeLock from '~/lib/wakelock';
 import zoomValues from '~/lib/zoomValues';
 import styles from './layout.css?inline';
+import openToolbox from '~/lib/openToolbox';
 import toggleToolbox, { type ToolboxKey } from '~/lib/toggleToolbox';
 // import Inspector from '~/components/app/inspector/inspector';
 
@@ -385,6 +386,13 @@ export default component$(() => {
         autoFocus={true}
         ref={appRef}
         // style={mainStyle.value}
+        // Escape never fires keypress, so it needs keydown
+        document:onKeyDown$={(event) => {
+          if (event.key === 'Escape') {
+            const open = openToolbox(uiStore);
+            if (open) toggleToolbox(uiStore, open);
+          }
+        }}
         document:onKeyPress$={(event) => {
           if (
             event.altKey === false &&

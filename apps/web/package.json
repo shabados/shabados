@@ -18,6 +18,7 @@
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
+    "test": "bun test src",
     "serve": "qwik build && firebase emulators:start",
     "start": "vite --open --mode ssr",
     "start.external": "vite --open --mode ssr --host",
